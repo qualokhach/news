@@ -49,3 +49,8 @@ Import repository `qualokhach/news` vào Vercel, preset **Other**, build command
 ## Category thumbnails
 
 News cards use four shared Cloudinary thumbnails based on article category: world, Vietnam, sports, and technology. The thumbnail URL is set in `data/articles.json`; article body illustrations remain in `assets/generated/`.
+
+
+## Article images
+
+Article pages no longer insert category thumbnails or generated SVG artwork into the body. Each of the current 43 articles has a contextual illustrative image URL hosted by Unsplash; captions identify these as illustrative rather than direct event photographs. Category thumbnails remain reserved for listing cards and social preview metadata. The homepage no longer includes the bottom “Đọc tin, hiểu bối cảnh” panel.
