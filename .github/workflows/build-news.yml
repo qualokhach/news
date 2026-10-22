@@ -2,8 +2,8 @@ name: Collect news leads (not auto-publish)
 on:
   workflow_dispatch:
   schedule:
-    # 07:00 and 17:00 Vietnam time (UTC+7); GitHub Actions may run late.
-    - cron: "0 0,10 * * *"
+    # 06:00 and 17:00 Vietnam time (UTC+7); GitHub Actions may run late.
+    - cron: "0 23,10 * * *"
 permissions:
   contents: write
 concurrency:
