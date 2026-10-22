@@ -23,3 +23,21 @@
 
 ## Hạn chế
 Tài liệu này là hướng dẫn vận hành thận trọng, không phải ý kiến pháp lý và không bảo đảm miễn trừ mọi tranh chấp. Quyền sử dụng có thể khác theo quốc gia, loại tác phẩm, hợp đồng và thay đổi điều khoản.
+
+## Bài mẫu hiện có
+Trang chủ chứa ba bản tóm lược biên tập độc lập về thông báo của NASA và Chính phủ Việt Nam, có liên kết nguồn. Chúng không sao chép toàn văn hay hình ảnh nguồn. Trước khi vận hành thương mại, người quản trị vẫn cần mở nguồn gốc, kiểm tra dữ kiện và xem lại điều khoản/giấy phép hiện hành.
+
+
+## Ngày tháng và bài nhìn lại
+
+`published_at` là ngày công bố của sự kiện/bài nguồn được tóm lược, không phải ngày AppNho nhập nội dung. Bài cũ được đánh dấu `collection: archive` và hiển thị trong mục “Nhìn lại”; không gắn nhãn tin nóng. Khi cập nhật bài, không thay ngày sự kiện bằng ngày sửa bài.
+
+
+## Ngày tháng và bài nhìn lại
+
+`published_at` là ngày công bố của sự kiện/bài nguồn được tóm lược, không phải ngày AppNho nhập nội dung. Bài cũ được đánh dấu `collection: archive` và hiển thị trong mục “Nhìn lại”; không gắn nhãn tin nóng. Khi cập nhật bài, không thay ngày sự kiện bằng ngày sửa bài.
+
+
+## Ngày tháng và bài nhìn lại
+
+`published_at` là ngày công bố của sự kiện/bài nguồn được tóm lược, không phải ngày AppNho nhập nội dung. Bài cũ được đánh dấu `collection: archive` và hiển thị trong mục “Nhìn lại”; không gắn nhãn tin nóng. Khi cập nhật bài, không thay ngày sự kiện bằng ngày sửa bài.

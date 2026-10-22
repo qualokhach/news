@@ -1,13 +1,722 @@
 [
   {
-    "id": "welcome-appnho-news",
-    "title": "AppNho News đang được thiết lập",
-    "summary": "Hệ thống tin tức tự động đang ở giai đoạn thử nghiệm. Sau khi bật nguồn RSS phù hợp và chạy workflow, các bản tin mới sẽ xuất hiện tại đây.",
+    "id": "nasa-stephen-cash-marshall-director-2026",
+    "title": "NASA bổ nhiệm Stephen Cash làm Giám đốc Trung tâm Marshall",
+    "summary": "Stephen Cash được giao lãnh đạo Trung tâm Bay Không gian Marshall từ ngày 19/10/2026.",
     "category": "technology",
-    "source_name": "AppNho News",
-    "source_url": "https://github.com/qualokhach/news",
-    "published_at": "2026-10-22T00:00:00+00:00",
-    "fetched_at": "2026-10-22T00:00:00+00:00",
-    "content_type": "site_notice"
+    "source_name": "NASA",
+    "source_url": "https://www.nasa.gov/2026-news-releases/",
+    "published_at": "2026-10-19T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "NASA cho biết Stephen Cash được bổ nhiệm làm Giám đốc Trung tâm Bay Không gian Marshall tại Huntsville, Alabama, có hiệu lực từ ngày 19/10/2026. Ông là kỹ sư NASA và có kinh nghiệm trong lĩnh vực hàng không vũ trụ.",
+      "Trung tâm Marshall tham gia phát triển và quản lý nhiều hệ thống kỹ thuật phục vụ các chương trình không gian. Thông tin nhân sự này xuất hiện trong giai đoạn NASA tiếp tục triển khai các kế hoạch thám hiểm Mặt Trăng và không gian sâu.",
+      "Đây là bản tóm lược thông báo của NASA. Để xem thông tin đầy đủ và các cập nhật liên quan, độc giả nên mở trang thông cáo chính thức của cơ quan."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-denmark-strategic-partnership-2026",
+    "title": "Việt Nam và Đan Mạch nâng cấp quan hệ lên Đối tác Chiến lược Toàn diện",
+    "summary": "Tuyên bố chung ngày 20/10/2026 đặt khuôn khổ hợp tác rộng hơn giữa hai nước.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nam-denmark-elevate-ties-to-comprehensive-strategic-partnership-111261020231254022.htm",
+    "published_at": "2026-10-20T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Việt Nam và Đan Mạch thống nhất nâng cấp quan hệ lên Đối tác Chiến lược Toàn diện trong chuyến thăm cấp nhà nước của lãnh đạo Việt Nam tới Đan Mạch vào tháng 10/2026. Đây là bước tiếp theo sau các khuôn khổ hợp tác song phương trước đó.",
+      "Tuyên bố chung đề cập nhiều lĩnh vực, trong đó có thương mại, đầu tư, khoa học và công nghệ, chuyển đổi số, năng lượng, logistics, y tế, giáo dục và nông nghiệp. Hai bên cũng nêu định hướng tăng cường hợp tác về chuyển đổi xanh và phát triển bền vững.",
+      "Việc nâng cấp quan hệ là khuôn khổ chính trị và hợp tác; kết quả cụ thể còn phụ thuộc vào các chương trình, thỏa thuận và kế hoạch triển khai sau đó. Bài viết tóm lược thông tin công bố, không thay thế văn bản tuyên bố chung."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "nasa-casals-earth-mapping-2026",
+    "title": "NASA giới thiệu công cụ giúp lấp khoảng trống trong bản đồ 3D Trái Đất",
+    "summary": "CASALS được thiết kế để bổ sung dữ liệu địa hình và cấu trúc thảm thực vật từ phép đo laser.",
+    "category": "technology",
+    "source_name": "NASA Science",
+    "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "NASA giới thiệu CASALS, một thiết bị nghiên cứu nhằm cải thiện cách lập bản đồ ba chiều bề mặt Trái Đất. Dữ liệu đo laser có thể giúp các nhà khoa học quan sát cấu trúc rừng và địa hình ở những khu vực mà dữ liệu hiện có còn thưa hoặc chưa đầy đủ.",
+      "Bản đồ 3D có ích cho nghiên cứu hệ sinh thái, theo dõi biến đổi môi trường và hiểu rõ hơn về địa hình. Tuy nhiên, chất lượng kết quả phụ thuộc vào cách thiết bị thu thập dữ liệu, độ phủ quan sát và việc kết hợp với các nguồn đo khác.",
+      "CASALS là một hướng công nghệ nghiên cứu, không phải bản đồ hoàn chỉnh thay thế mọi hệ thống quan sát Trái Đất hiện nay. Nguồn NASA cung cấp bối cảnh kỹ thuật và mục tiêu của công cụ."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "danang-vision-2075",
+    "title": "Đà Nẵng đặt tầm nhìn trở thành đô thị có bản sắc hàng đầu châu Á vào năm 2075",
+    "summary": "Quy hoạch hướng tới phát triển đô thị sinh thái, thông minh, kết nối quốc tế và tăng vai trò logistics.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/da-nang-targets-to-join-asias-leading-cities-with-distinctive-identities-by-2075-111261022094133449.htm",
+    "published_at": "2026-10-22T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Định hướng được công bố đặt mục tiêu dài hạn cho Đà Nẵng, với tầm nhìn đến năm 2075 và các mốc phát triển trung gian. Theo nguồn chính thức, thành phố được kỳ vọng mở rộng vai trò về đổi mới sáng tạo, logistics, kinh tế biển, thương mại, tài chính, du lịch và công nghệ.",
+      "Quy hoạch cũng đề cập tăng trưởng xanh, thích ứng biến đổi khí hậu và kết nối qua cảng biển, sân bay cùng các đầu mối vận tải. Các mục tiêu này cần được cụ thể hóa bằng quy hoạch chi tiết, hạ tầng, vốn đầu tư và tiến độ triển khai.",
+      "Tầm nhìn đến năm 2075 là định hướng dài hạn, không phải kết quả đã đạt được. Độc giả nên theo dõi các quyết định quy hoạch và kế hoạch thực hiện tiếp theo."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-public-holidays-debate-2026",
+    "title": "Đề xuất bổ sung ngày nghỉ lễ đang được thảo luận tại Việt Nam",
+    "summary": "Các đại biểu thảo luận đề xuất đưa Ngày Văn hóa Việt Nam 24/11 vào danh mục nghỉ lễ hưởng nguyên lương.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nam-mull-over-additional-public-holidays-111261021162014553.htm",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Theo thông tin công bố ngày 21/10/2026, các đại biểu đã thảo luận đề xuất bổ sung ngày 24/11 – Ngày Văn hóa Việt Nam – vào Bộ luật Lao động như một ngày nghỉ lễ hưởng nguyên lương. Một số ý kiến cũng đề xuất xem xét Ngày Thương binh - Liệt sĩ.",
+      "Ở Việt Nam, danh mục ngày nghỉ lễ được quy định trong Bộ luật Lao động; lịch nghỉ cụ thể, đặc biệt với Tết và Quốc khánh, được xác định theo quy định hằng năm. Vì vậy, một đề xuất đang được thảo luận chưa đồng nghĩa với việc người lao động đã được nghỉ thêm ngày này.",
+      "Người lao động và doanh nghiệp cần căn cứ văn bản pháp luật chính thức nếu có thay đổi. Bản tin này phản ánh tình trạng thảo luận tại thời điểm nguồn được công bố."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-eu-belgium-visit-2026",
+    "title": "Chuyến thăm EU và Bỉ hướng tới mở rộng hợp tác thương mại, công nghệ",
+    "summary": "Chuyến thăm cấp cao tại Brussels được kỳ vọng tạo thêm động lực cho quan hệ với EU và Bỉ.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/to-lam-starts-official-visits-to-eu-belgium-111261021203946814.htm",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Lãnh đạo Việt Nam bắt đầu chuyến thăm chính thức Liên minh châu Âu và Bỉ tại Brussels ngày 21/10/2026. Theo thông tin từ Cổng Thông tin Chính phủ, chuyến thăm diễn ra trong bối cảnh hai bên muốn tăng cường tin cậy chính trị và mở rộng hợp tác thực chất.",
+      "Các lĩnh vực được nêu gồm thương mại, đầu tư, khoa học công nghệ, đổi mới sáng tạo, tăng trưởng xanh và phát triển bền vững. EU là một đối tác thương mại quan trọng của Việt Nam; quan hệ kinh tế song phương được xây dựng trên nhiều cơ chế hợp tác hiện có.",
+      "Chuyến thăm tạo khuôn khổ trao đổi cấp cao, nhưng các kết quả cụ thể cần được đánh giá qua thỏa thuận, chương trình hợp tác và số liệu thực hiện sau chuyến công tác."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-denmark-16-documents-2026",
+    "title": "Việt Nam và Đan Mạch trao đổi 16 văn kiện hợp tác",
+    "summary": "Các văn kiện được trao đổi trong khuôn khổ chuyến thăm cấp nhà nước tới Đan Mạch.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/top-leader-to-lam-king-frederik-x-witness-exchange-of-viet-nam-denmark-cooperation-documents-111261020205921475.htm",
+    "published_at": "2026-10-20T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Trong chuyến thăm Đan Mạch tháng 10/2026, hai bên chứng kiến việc trao đổi 16 văn kiện hợp tác. Hoạt động này diễn ra cùng việc nâng cấp quan hệ song phương, tạo thêm nền tảng cho hợp tác trong nhiều lĩnh vực.",
+      "Các thỏa thuận và văn kiện cần được đọc theo phạm vi cụ thể của từng lĩnh vực. Việc ký kết thể hiện cam kết hoặc ý định hợp tác, nhưng không tự động đồng nghĩa mọi dự án đã bắt đầu hay đã mang lại kết quả kinh tế.",
+      "Độc giả có thể mở nguồn chính thức để kiểm tra tên các văn kiện và cơ quan tham gia, thay vì chỉ dựa vào số lượng văn kiện được công bố."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-guest-workers-id-codes-2027",
+    "title": "Lao động Việt Nam đi làm việc ở nước ngoài dự kiến được quản lý bằng mã định danh",
+    "summary": "Cơ chế mã định danh được thông tin là sẽ áp dụng từ năm 2027.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/from-2027-vietnamese-guest-workers-to-be-managed-through-identification-codes-111261021095459046.htm",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Theo thông tin được công bố, từ năm 2027 lao động Việt Nam đi làm việc ở nước ngoài sẽ được quản lý thông qua mã định danh. Đây là hướng đi nhằm tăng khả năng quản lý hồ sơ và đồng bộ dữ liệu trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài.",
+      "Khi triển khai, hiệu quả thực tế sẽ phụ thuộc vào quy trình cấp mã, khả năng kết nối dữ liệu, hướng dẫn cho doanh nghiệp dịch vụ và người lao động, cũng như cơ chế bảo vệ thông tin cá nhân.",
+      "Người lao động cần theo dõi hướng dẫn chính thức từ cơ quan quản lý và không cung cấp giấy tờ hoặc thông tin nhạy cảm cho các bên không xác minh được."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "poland-pm-vietnam-visit-2026",
+    "title": "Thủ tướng Ba Lan dự kiến thăm Việt Nam",
+    "summary": "Thông báo về chuyến thăm dự kiến tạo thêm cơ hội trao đổi song phương.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/polands-prime-minister-donald-tusk-to-visit-viet-nam-this-week-111261021114346149.htm",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Cổng Thông tin Chính phủ đưa tin Thủ tướng Ba Lan Donald Tusk dự kiến thăm Việt Nam trong tuần được thông báo vào ngày 21/10/2026. Các chuyến thăm cấp cao thường là dịp rà soát quan hệ và trao đổi các lĩnh vực hợp tác cùng quan tâm.",
+      "Việt Nam và các nước châu Âu có nhiều kênh hợp tác về thương mại, đầu tư, giáo dục và giao lưu nhân dân. Tuy nhiên, nội dung cụ thể của chuyến thăm cần được xác nhận bằng chương trình chính thức và thông báo kết quả sau các cuộc gặp.",
+      "Vì đây là tin về lịch trình dự kiến, độc giả nên kiểm tra nguồn gốc để cập nhật nếu lịch có thay đổi."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-denmark-55-years-culture-2026",
+    "title": "Chương trình hòa nhạc đánh dấu 55 năm quan hệ Việt Nam – Đan Mạch",
+    "summary": "Hoạt động văn hóa diễn ra trong dịp hai nước kỷ niệm 55 năm thiết lập quan hệ ngoại giao.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/concert-celebrates-55-years-of-viet-nam-denmark-diplomatic-ties-111261021091157439.htm",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Một chương trình hòa nhạc được tổ chức nhân dịp 55 năm quan hệ ngoại giao Việt Nam – Đan Mạch. Hoạt động văn hóa nằm trong chuỗi sự kiện diễn ra cùng chuyến thăm cấp nhà nước và các cuộc trao đổi song phương trong tháng 10/2026.",
+      "Giao lưu văn hóa có vai trò bổ trợ cho quan hệ ngoại giao và kinh tế, tạo cơ hội để người dân hai nước hiểu thêm về nghệ thuật và đời sống của nhau. Những sự kiện như vậy cũng góp phần duy trì quan hệ nhân dân bên cạnh các thỏa thuận ở cấp chính phủ.",
+      "Bài viết tóm lược thông tin sự kiện. Chi tiết về nghệ sĩ, chương trình và đơn vị tổ chức được cập nhật tại nguồn chính thức."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-2027-holiday-calendar",
+    "title": "Việt Nam công bố lịch nghỉ lễ năm 2027",
+    "summary": "Người lao động nên đối chiếu lịch công bố với quy định và thông báo của cơ quan, doanh nghiệp.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+    "published_at": "2026-10-12T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Cổng Thông tin Chính phủ đăng thông tin về lịch nghỉ lễ năm 2027. Lịch nghỉ là dữ liệu thiết thực cho người lao động, doanh nghiệp, trường học và ngành dịch vụ trong việc lập kế hoạch nhân sự, đi lại và hoạt động kinh doanh.",
+      "Khi sử dụng lịch nghỉ, cần phân biệt ngày lễ theo Bộ luật Lao động với phương án hoán đổi ngày làm việc hoặc lịch nghỉ riêng của từng đơn vị. Những phương án này có thể được hướng dẫn cụ thể bằng thông báo của cơ quan có thẩm quyền.",
+      "Để tránh nhầm lẫn khi đặt vé hoặc sắp xếp công việc, người đọc nên kiểm tra văn bản gốc và thông báo mới nhất thay vì dùng lịch tổng hợp không ghi nguồn."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-public-debt-strategy-2030",
+    "title": "Chính phủ thông qua chiến lược nợ công đến năm 2030",
+    "summary": "Chiến lược tạo khuôn khổ cho quản lý vay, trả nợ và bảo đảm an toàn tài chính công.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/govt-adopts-new-public-debt-strategy-through-2030-111261016144217571.htm",
+    "published_at": "2026-10-16T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Chính phủ đã thông qua chiến lược nợ công đến năm 2030, theo thông tin trên Cổng Thông tin Chính phủ. Một chiến lược nợ công thường định hướng việc huy động vốn, quản lý nghĩa vụ trả nợ và phối hợp với mục tiêu phát triển kinh tế - xã hội.",
+      "Đánh giá chính sách cần xem xét cả quy mô nợ, chi phí vay, kỳ hạn, cơ cấu tiền tệ, khả năng trả nợ và hiệu quả sử dụng vốn. Chỉ nhìn vào một chỉ tiêu riêng lẻ sẽ không phản ánh đầy đủ mức độ an toàn tài khóa.",
+      "Bản tin này giới thiệu quyết định ở mức khái quát; các mục tiêu và chỉ tiêu cụ thể cần được đối chiếu với nội dung chiến lược chính thức."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-visitor-arrivals-2026",
+    "title": "Việt Nam đón 17,7 triệu lượt khách quốc tế trong chín tháng đầu năm",
+    "summary": "Số liệu du lịch phản ánh đà phục hồi và nhu cầu dịch vụ trong năm 2026.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nam-welcomes-177-million-international-visitors-in-first-nine-months-111261006144121153.htm",
+    "published_at": "2026-10-06T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Theo số liệu được Cổng Thông tin Chính phủ dẫn lại, Việt Nam đón 17,7 triệu lượt khách quốc tế trong chín tháng đầu năm 2026. Đây là chỉ báo quan trọng đối với hàng không, lưu trú, ăn uống, vận tải và các dịch vụ du lịch tại địa phương.",
+      "Lượt khách không đồng nghĩa với số người duy nhất, bởi thống kê du lịch thường tính lượt nhập cảnh hoặc lượt khách theo phương pháp thống kê được quy định. Doanh thu và tác động kinh tế còn phụ thuộc thời gian lưu trú, mức chi tiêu và phân bố khách giữa các điểm đến.",
+      "Để đánh giá đầy đủ, cần đọc cùng số liệu về doanh thu, công suất lưu trú, thị trường nguồn và thời gian lưu trú."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-growth-outlook-2026",
+    "title": "Các tổ chức quốc tế tiếp tục duy trì triển vọng tích cực với kinh tế Việt Nam",
+    "summary": "Đánh giá tăng trưởng cần được đọc cùng các giả định và rủi ro của từng tổ chức.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/intl-organizations-maintain-positive-outlook-for-viet-nams-2026-economic-growth-111261006095507523.htm",
+    "published_at": "2026-10-06T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Một số tổ chức quốc tế tiếp tục đưa ra đánh giá tích cực về triển vọng kinh tế Việt Nam năm 2026, theo bài tổng hợp trên Cổng Thông tin Chính phủ. Các dự báo thường dựa trên dữ liệu sản xuất, tiêu dùng, đầu tư, thương mại và tình hình kinh tế toàn cầu.",
+      "Dự báo không phải kết quả đã xảy ra. Các con số có thể thay đổi khi dữ liệu mới xuất hiện hoặc khi điều kiện bên ngoài biến động, chẳng hạn nhu cầu xuất khẩu, giá năng lượng hay chính sách thương mại.",
+      "Khi so sánh dự báo, nên kiểm tra ngày công bố, giả định nền và cách tính của từng tổ chức để tránh đặt những con số không tương đồng cạnh nhau."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-q3-gdp-2026",
+    "title": "GDP Việt Nam tăng 9,95% trong quý III/2026 theo số liệu công bố",
+    "summary": "Cơ quan thống kê cho biết tăng trưởng chín tháng đầu năm đạt 9,01%.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
+    "published_at": "2026-10-03T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Theo số liệu được Cổng Thông tin Chính phủ dẫn từ cơ quan thống kê, GDP Việt Nam tăng 9,95% trong quý III/2026 và tăng 9,01% trong chín tháng đầu năm. Nguồn cũng nêu mức tăng của các khu vực nông, lâm nghiệp và thủy sản; công nghiệp và xây dựng; dịch vụ.",
+      "Chỉ số GDP phản ánh giá trị tăng thêm của nền kinh tế, nhưng không cho biết đầy đủ tình hình của từng hộ gia đình hoặc doanh nghiệp. Muốn hiểu chất lượng tăng trưởng, cần xem thêm việc làm, năng suất, thu nhập, đầu tư và diễn biến giá cả.",
+      "Các con số trong bài được ghi theo thời điểm công bố. Khi sử dụng cho quyết định kinh doanh hoặc đầu tư, cần kiểm tra số liệu cập nhật và phương pháp thống kê chính thức."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-efta-trade-agreement",
+    "title": "Việt Nam ký hiệp định thương mại với các thành viên EFTA",
+    "summary": "Hiệp định được ký tại Hà Nội ngày 18/10/2026, mở ra khuôn khổ thương mại mới với bốn thành viên EFTA.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news",
+    "published_at": "2026-10-18T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Bộ Công Thương cho biết Việt Nam và các thành viên Hiệp hội Mậu dịch Tự do châu Âu (EFTA) đã ký Hiệp định Thương mại Tự do Việt Nam – EFTA tại Hà Nội ngày 18/10/2026. Sự kiện diễn ra với sự chứng kiến của lãnh đạo cấp cao Việt Nam.",
+      "Một hiệp định thương mại tự do có thể tạo khuôn khổ để giảm rào cản thương mại và tăng tính dự đoán cho doanh nghiệp. Tuy nhiên, lợi ích thực tế phụ thuộc vào cam kết cụ thể, lộ trình thực thi, quy tắc xuất xứ và khả năng đáp ứng tiêu chuẩn của doanh nghiệp.",
+      "Nguồn dẫn ở đây là trang tin chính thức của Bộ Công Thương; độc giả nên mở trang để tìm thông báo cụ thể về hiệp định và tình trạng thực thi."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-national-brand-2026",
+    "title": "499 sản phẩm và dịch vụ được vinh danh Thương hiệu quốc gia Việt Nam",
+    "summary": "Lễ công bố năm 2026 ghi nhận 499 sản phẩm, dịch vụ của 227 doanh nghiệp.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/latest-news",
+    "published_at": "2026-10-17T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Bộ Công Thương cho biết lễ công bố Thương hiệu quốc gia Việt Nam lần thứ 10 năm 2026 đã vinh danh 499 sản phẩm và dịch vụ thuộc 227 doanh nghiệp. Chương trình hướng đến việc ghi nhận các thương hiệu đáp ứng tiêu chí của chương trình quốc gia.",
+      "Danh hiệu có thể hỗ trợ doanh nghiệp trong hoạt động nhận diện thương hiệu và xúc tiến thương mại, nhưng không thay thế việc đánh giá chất lượng, giá cả hay mức độ phù hợp của từng sản phẩm đối với người tiêu dùng.",
+      "Người mua vẫn nên dựa vào nhu cầu, thông tin nhãn hàng, chứng nhận liên quan và trải nghiệm sử dụng khi lựa chọn sản phẩm."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-rice-export-regulations",
+    "title": "Bộ Công Thương phổ biến quy định mới về kinh doanh xuất nhập khẩu gạo",
+    "summary": "Hướng dẫn liên quan đến nghị định và thông tư ban hành trong tháng 9 và tháng 10/2026.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/latest-news",
+    "published_at": "2026-10-14T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Bộ Công Thương cho biết cơ quan chuyên môn đã tổ chức phổ biến quy định về kinh doanh xuất nhập khẩu gạo, liên quan đến Nghị định 365/2026/NĐ-CP và Thông tư 65/2026/TT-BCT. Nội dung hướng tới việc giúp cơ quan và doanh nghiệp hiểu cách thực hiện quy định mới.",
+      "Với doanh nghiệp xuất nhập khẩu, thay đổi về thủ tục có thể ảnh hưởng đến hồ sơ, quy trình khai báo và tuân thủ. Cần phân biệt ngày ban hành văn bản với ngày có hiệu lực, cũng như xem kỹ điều khoản chuyển tiếp nếu có.",
+      "Bài viết chỉ tóm lược thông tin phổ biến chính sách. Doanh nghiệp cần tra cứu văn bản pháp luật chính thức trước khi áp dụng vào hoạt động thực tế."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-malaysia-trade-2026",
+    "title": "Thương mại Việt Nam – Malaysia đạt 17,4 tỷ USD trong chín tháng",
+    "summary": "Số liệu được Bộ Công Thương công bố cho thấy kim ngạch chín tháng đã vượt tổng mức năm 2025.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/industry-and-trade",
+    "published_at": "2026-10-12T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Theo tin của Bộ Công Thương, kim ngạch thương mại Việt Nam – Malaysia đạt 17,4 tỷ USD trong chín tháng đầu năm 2026, cao hơn tổng kim ngạch của cả năm 2025. Đây là tín hiệu cho thấy trao đổi hàng hóa giữa hai nền kinh tế tiếp tục tăng.",
+      "Tổng kim ngạch gồm cả xuất khẩu và nhập khẩu, vì vậy không thể dùng riêng con số này để kết luận Việt Nam đang có thặng dư hay thâm hụt thương mại với Malaysia. Cần xem cơ cấu mặt hàng và số liệu từng chiều để hiểu rõ hơn.",
+      "Doanh nghiệp muốn khai thác thị trường cần xem thêm quy tắc xuất xứ, tiêu chuẩn nhập khẩu, logistics và mức độ cạnh tranh trong từng nhóm sản phẩm."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-samsung-domestic-suppliers",
+    "title": "Bộ Công Thương và Samsung tăng hỗ trợ nhà cung ứng trong nước",
+    "summary": "Chương trình hướng đến nâng năng lực doanh nghiệp công nghiệp hỗ trợ và kết nối chuỗi cung ứng.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/industry-and-trade",
+    "published_at": "2026-10-12T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Bộ Công Thương cho biết Cục Công nghiệp và Samsung Việt Nam tiếp tục hợp tác phát triển công nghiệp hỗ trợ, tập trung nâng năng lực cho doanh nghiệp trong nước và mở rộng cơ hội tham gia chuỗi cung ứng toàn cầu.",
+      "Để trở thành nhà cung ứng, doanh nghiệp thường cần đáp ứng yêu cầu về chất lượng ổn định, kiểm soát quy trình, thời gian giao hàng, chi phí và truy xuất nguồn gốc. Hoạt động hỗ trợ chỉ phát huy hiệu quả khi đi cùng cải tiến năng lực vận hành và nhu cầu mua hàng cụ thể.",
+      "Thông tin công bố cho thấy định hướng hợp tác, chưa đủ để kết luận bao nhiêu doanh nghiệp sẽ được ký hợp đồng. Kết quả cần được đánh giá qua các chương trình hỗ trợ và kết nối thực tế."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-halal-export-2026",
+    "title": "Việt Nam rà soát năng lực cung ứng và nhu cầu thị trường Halal",
+    "summary": "Hội nghị xúc tiến thương mại tập trung vào cơ chế phối hợp và cơ hội tiếp cận thị trường Halal.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/latest-news",
+    "published_at": "2026-09-23T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Bộ Công Thương cho biết hội nghị điều phối xúc tiến thương mại tháng 9/2026 với hệ thống thương vụ Việt Nam ở nước ngoài có nội dung về năng lực cung ứng, nhu cầu thị trường và cơ chế phối hợp nhằm thúc đẩy xuất khẩu Halal.",
+      "Thị trường Halal không chỉ gắn với chứng nhận sản phẩm mà còn có thể bao gồm yêu cầu về nguyên liệu, quy trình sản xuất, lưu trữ, vận chuyển và truy xuất. Các yêu cầu cụ thể khác nhau tùy quốc gia, tổ chức chứng nhận và nhóm hàng.",
+      "Doanh nghiệp nên xác định thị trường đích trước khi đầu tư chứng nhận, đồng thời kiểm tra yêu cầu từ cơ quan có thẩm quyền hoặc nhà nhập khẩu tại thị trường đó."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-logistics-costs-2026",
+    "title": "Việt Nam bàn giải pháp giảm chi phí logistics và thúc đẩy xuất khẩu",
+    "summary": "Hội nghị liên ngành tập trung vào chi phí vận chuyển và năng lực cạnh tranh của hàng hóa.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/latest-news",
+    "published_at": "2026-09-22T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Một hội nghị tại Hà Nội ngày 22/9/2026 thảo luận các giải pháp giảm chi phí logistics và thúc đẩy xuất khẩu, với sự tham gia của nhiều cơ quan quản lý. Logistics ảnh hưởng trực tiếp đến chi phí giao hàng, thời gian vận chuyển và khả năng cạnh tranh của doanh nghiệp.",
+      "Chi phí logistics không chỉ là cước vận tải; còn có kho bãi, thủ tục, lưu container, xử lý hàng và các khoản phát sinh trong chuỗi cung ứng. Vì vậy, cải thiện thường cần phối hợp giữa hạ tầng, quy trình, dữ liệu và kết nối giữa các phương thức vận tải.",
+      "Một hội nghị chính sách chưa thể hiện ngay mức giảm chi phí. Cần theo dõi các biện pháp được triển khai và số liệu thực tế của doanh nghiệp."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-national-digital-task-platform",
+    "title": "Bộ Công Thương chuyển quản lý nhiệm vụ khoa học – công nghệ lên nền tảng số",
+    "summary": "Hệ thống được mô tả là số hóa vòng đời nhiệm vụ trên cơ sở dữ liệu thống nhất.",
+    "category": "technology",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/latest-news",
+    "published_at": "2026-10-01T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Bộ Công Thương cho biết hoạt động quản lý nhiệm vụ khoa học và công nghệ đang được chuyển lên nền tảng số, với mục tiêu số hóa toàn bộ vòng đời nhiệm vụ trên một cơ sở dữ liệu thống nhất.",
+      "Một nền tảng thống nhất có thể giúp chuẩn hóa quy trình, theo dõi tiến độ và giảm việc nhập lại dữ liệu ở nhiều khâu. Tuy nhiên, hiệu quả phụ thuộc vào chất lượng dữ liệu, khả năng tích hợp với hệ thống khác và việc người dùng thực sự áp dụng quy trình mới.",
+      "Chuyển đổi số không chỉ là đưa biểu mẫu lên mạng; cần có quy định dữ liệu, phân quyền truy cập, bảo mật và trách nhiệm cập nhật thông tin rõ ràng."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-industry-promotion-north-2026",
+    "title": "Hội nghị khuyến công miền Bắc tập trung đổi mới hoạt động hỗ trợ công nghiệp địa phương",
+    "summary": "Hội nghị tại Hải Phòng bàn về hướng đổi mới hoạt động khuyến công năm 2026.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/latest-news",
+    "published_at": "2026-10-01T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Hội nghị khuyến công các tỉnh, thành phố phía Bắc lần thứ 20 năm 2026 được tổ chức tại Hải Phòng ngày 1/10. Nội dung tập trung vào việc đổi mới hoạt động hỗ trợ phát triển công nghiệp nông thôn.",
+      "Các chương trình khuyến công thường hỗ trợ cơ sở sản xuất thông qua đào tạo, cải tiến thiết bị, xây dựng mô hình trình diễn hoặc xúc tiến thị trường. Để tạo tác động lâu dài, hỗ trợ cần gắn với nhu cầu thực tế và khả năng duy trì sản xuất của cơ sở.",
+      "Thông tin về hội nghị cho biết trọng tâm thảo luận; kết quả cần được xem xét qua chương trình hỗ trợ và số liệu triển khai tại địa phương."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-cambodia-economic-cooperation-2026",
+    "title": "Việt Nam và Campuchia thúc đẩy hợp tác kinh tế, thương mại và năng lượng",
+    "summary": "Các cuộc trao đổi cấp cao trong tháng 10 tập trung tăng cường kết nối song phương.",
+    "category": "vietnam",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://ven.congthuong.vn/news-and-events",
+    "published_at": "2026-10-10T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Trong chuyến thăm Campuchia của đoàn cấp cao Việt Nam từ ngày 8 đến 10/10/2026, Bộ Công Thương tham gia các hoạt động thúc đẩy hợp tác công nghiệp, thương mại và năng lượng. Quan hệ kinh tế hai nước gắn với thương mại biên giới, đầu tư và kết nối khu vực.",
+      "Hợp tác song phương có thể tạo thuận lợi cho trao đổi hàng hóa và phối hợp chính sách, nhưng doanh nghiệp vẫn cần tuân thủ quy định hải quan, tiêu chuẩn sản phẩm, thuế và các yêu cầu riêng của thị trường.",
+      "Độc giả nên tham khảo thông báo chính thức về từng thỏa thuận để phân biệt cam kết hợp tác với các dự án đã được triển khai."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "vietnam-us-trade-negotiations-2026",
+    "title": "Việt Nam và Mỹ cho biết đàm phán thỏa thuận thương mại đã gần hoàn tất",
+    "summary": "Thông tin công bố đầu tháng 10 nêu tiến triển trong đàm phán về khuôn khổ thương mại song phương.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/economy.htm",
+    "published_at": "2026-10-08T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Cổng Thông tin Chính phủ đưa tin Việt Nam và Mỹ gần hoàn tất đàm phán nội dung một thỏa thuận thương mại có tên gọi về thương mại có đi có lại, công bằng và cân bằng. Thông tin được dẫn từ Bộ Công Thương.",
+      "Cụm từ “gần hoàn tất đàm phán” không có nghĩa thỏa thuận đã được ký, phê chuẩn hoặc có hiệu lực. Các bước tiếp theo thường gồm hoàn thiện văn bản, thống nhất nội dung và thực hiện thủ tục theo quy định của mỗi bên.",
+      "Doanh nghiệp xuất nhập khẩu cần theo dõi văn bản chính thức trước khi thay đổi giá, hợp đồng hay kế hoạch thị trường dựa trên kỳ vọng chính sách."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "nasa-sr1-nuclear-power-module",
+    "title": "NASA cập nhật tiến độ mô-đun năng lượng hạt nhân cho tàu vũ trụ",
+    "summary": "SR-1 Freedom hướng tới sử dụng năng lượng phân hạch cho một nhiệm vụ không gian sâu trong tương lai.",
+    "category": "technology",
+    "source_name": "NASA",
+    "source_url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+    "published_at": "2026-10-20T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "NASA cập nhật tiến độ phát triển mô-đun năng lượng hạt nhân cho tàu vũ trụ SR-1 Freedom. Ý tưởng sử dụng năng lượng phân hạch trong không gian nhằm cung cấp nguồn điện cho các nhiệm vụ mà năng lượng Mặt Trời có thể không đủ thuận lợi hoặc ổn định.",
+      "Hệ thống năng lượng hạt nhân cho tàu vũ trụ đòi hỏi yêu cầu cao về an toàn, khối lượng, độ tin cậy, quản lý nhiệt và tích hợp với các hệ thống khác. Một bản cập nhật tiến độ kỹ thuật cho thấy quá trình phát triển vẫn đang diễn ra, không đồng nghĩa phương tiện đã sẵn sàng hoạt động.",
+      "Nguồn NASA là nơi phù hợp để theo dõi các cột mốc tiếp theo và phạm vi thực tế của chương trình."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "nasa-simulated-mars-crew-year",
+    "title": "Nhóm mô phỏng phi hành gia Sao Hỏa hoàn thành một năm sống trong môi trường cô lập",
+    "summary": "Thí nghiệm nghiên cứu các thách thức về sinh hoạt, phối hợp và sức khỏe trong nhiệm vụ dài ngày.",
+    "category": "technology",
+    "source_name": "NASA",
+    "source_url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+    "published_at": "2026-10-19T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "NASA cho biết nhóm tham gia mô phỏng nhiệm vụ Sao Hỏa đã đánh dấu một năm sống trong môi trường habitat cô lập. Các chương trình mô phỏng trên Trái Đất giúp nghiên cứu những thách thức có thể xuất hiện khi phi hành đoàn phải sống và làm việc xa Trái Đất trong thời gian dài.",
+      "Những vấn đề được quan tâm gồm sức khỏe thể chất, tâm lý, lịch làm việc, giao tiếp với nhóm hỗ trợ và cách xử lý các tình huống phát sinh. Mô phỏng không tái tạo hoàn toàn điều kiện Sao Hỏa, nhưng cung cấp dữ liệu thực nghiệm hữu ích cho thiết kế nhiệm vụ.",
+      "Ý nghĩa của nghiên cứu nằm ở việc tích lũy dữ liệu và kinh nghiệm, chứ không phải chứng minh con người đã sẵn sàng cho mọi điều kiện của một chuyến đi Sao Hỏa."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "nasa-cyclone-iceland-2026",
+    "title": "Ảnh vệ tinh ghi nhận xoáy thuận ngoại nhiệt đới đi qua gần Iceland",
+    "summary": "NASA mô tả hệ thống áp thấp mạnh hình thành trên Bắc Đại Tây Dương và ảnh hưởng thời tiết khu vực.",
+    "category": "world",
+    "source_name": "NASA Science",
+    "source_url": "https://science.nasa.gov/earth/earth-observatory/extratropical-cyclone-whips-past-iceland/",
+    "published_at": "2026-10-21T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "NASA Earth Observatory giới thiệu hình ảnh và bối cảnh của một xoáy thuận ngoại nhiệt đới đi qua gần Iceland. Hệ thống áp thấp mạnh hình thành trên Bắc Đại Tây Dương, theo mô tả của NASA, từ tàn dư của một cơn bão nhiệt đới.",
+      "Xoáy thuận ngoại nhiệt đới khác với bão nhiệt đới về cơ chế hình thành và cấu trúc. Các hệ thống này có thể mang theo gió mạnh, mưa và biến đổi thời tiết khi tương tác với các khối khí ở vĩ độ trung bình.",
+      "Ảnh vệ tinh giúp quan sát cấu trúc mây và đường đi của hệ thống, nhưng để đánh giá nguy cơ tại địa phương cần kết hợp dự báo và cảnh báo từ cơ quan khí tượng có thẩm quyền."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "nasa-hubble-spiral-edge-2026",
+    "title": "Hubble quan sát thiên hà xoắn ốc từ góc nhìn nghiêng",
+    "summary": "Hình ảnh mới giúp minh họa cấu trúc bụi, sao và hình dạng của thiên hà.",
+    "category": "technology",
+    "source_name": "NASA Science",
+    "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+    "published_at": "2026-10-16T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "current",
+    "body": [
+      "Kính viễn vọng không gian Hubble ghi lại hình ảnh một thiên hà xoắn ốc nhìn gần như từ cạnh bên. Góc nhìn này giúp các nhà thiên văn quan sát đĩa thiên hà, dải bụi và sự phân bố vật chất theo chiều dày của hệ sao.",
+      "Ảnh thiên văn thường kết hợp dữ liệu qua các bộ lọc và xử lý khoa học để làm nổi bật những đặc điểm khó nhìn bằng mắt thường. Màu sắc trong ảnh công bố có thể biểu diễn các dải bước sóng chứ không nhất thiết là màu mà mắt người sẽ thấy nếu đứng gần vật thể.",
+      "Hình ảnh là công cụ trực quan hỗ trợ nghiên cứu; việc diễn giải cấu trúc và tính chất vật lý vẫn cần dữ liệu đo đạc và phân tích chuyên môn."
+    ],
+    "editorial_note": "Bài biên tập độc lập từ dữ kiện trong nguồn tham khảo; không sao chép toàn văn."
+  },
+  {
+    "id": "archive-vietnam-gdp-q3-2025",
+    "title": "Nhìn lại: GDP Việt Nam tăng 8,22% trong quý III/2025",
+    "summary": "Số liệu công bố tháng 10/2025 ghi nhận đà tăng trưởng mạnh trong quý III và chín tháng đầu năm.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerate-to-822-in-3rd-quarter-111251005102914171.htm",
+    "published_at": "2025-10-05T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Tháng 10/2025, Cổng Thông tin Chính phủ đưa tin GDP Việt Nam tăng 8,22% trong quý III và 7,84% trong chín tháng đầu năm. Báo cáo khi đó nêu tăng trưởng ở các khu vực kinh tế và bối cảnh hoạt động sản xuất chịu ảnh hưởng của các đợt bão.",
+      "Đây là số liệu tại thời điểm công bố năm 2025, không phải số liệu hiện hành của năm 2026. So sánh tăng trưởng qua các năm cần dùng cùng kỳ thống kê và chú ý các lần điều chỉnh số liệu.",
+      "Nhìn lại sự kiện giúp thấy các mục tiêu và dự báo kinh tế thay đổi theo dữ liệu mới. Bài viết không dùng số liệu năm 2025 để thay thế thống kê mới nhất."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-us-trade-framework-2025",
+    "title": "Nhìn lại: Việt Nam và Mỹ công bố khuôn khổ thỏa thuận thương mại tháng 10/2025",
+    "summary": "Tuyên bố chung đặt nền tảng đàm phán về thương mại có đi có lại, công bằng và cân bằng.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://en.baochinhphu.vn/viet-nam-us-announce-joint-statement-for-reciprocal-fair-and-balanced-trade-agreement-111251026194941083.htm",
+    "published_at": "2025-10-26T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Ngày 26/10/2025, Việt Nam và Mỹ công bố tuyên bố chung về khuôn khổ cho một thỏa thuận thương mại có đi có lại, công bằng và cân bằng. Văn bản nêu mục tiêu tăng cường quan hệ kinh tế và tạo điều kiện tiếp cận thị trường cho doanh nghiệp hai nước.",
+      "Một khuôn khổ đàm phán là bước trong tiến trình thương mại, khác với hiệp định hoàn tất và có hiệu lực. Khi nhìn lại, cần phân biệt thông báo ban đầu với các cập nhật và văn bản được công bố sau đó.",
+      "Bài viết ghi nhận sự kiện theo thời điểm năm 2025; người đọc nên theo dõi nguồn chính thức để biết trạng thái hiện tại của tiến trình thương mại."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-retail-strategy-2025",
+    "title": "Nhìn lại: Việt Nam phê duyệt chiến lược phát triển bán lẻ đến năm 2030",
+    "summary": "Chiến lược đặt thương mại điện tử và kinh tế số trong định hướng hiện đại hóa thị trường bán lẻ.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://www2.en.baochinhphu.vn/chi-dao-dieu-hanh-cua-chinh-phu-thu-tuong-chinh-phu-ngay-22-10-2025-2-102251022175347359.htm",
+    "published_at": "2025-10-22T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Tháng 10/2025, Việt Nam phê duyệt Chiến lược phát triển thị trường bán lẻ đến năm 2030, tầm nhìn 2050. Định hướng nhấn mạnh thị trường bán lẻ văn minh, hiện đại và bền vững, đồng thời thích ứng với thương mại điện tử và kinh tế số.",
+      "Với người bán hàng, các thay đổi trong bán lẻ có thể thể hiện qua sự kết hợp giữa cửa hàng vật lý, sàn thương mại điện tử, giao hàng và dữ liệu vận hành. Tuy nhiên, chiến lược quốc gia là định hướng dài hạn, không phải cam kết doanh thu cho từng doanh nghiệp.",
+      "Đây là bài nhìn lại văn bản được công bố năm 2025. Để áp dụng vào hoạt động hiện nay, doanh nghiệp cần xem thêm quy định và chương trình thực thi đang có hiệu lực."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-social-housing-2025",
+    "title": "Nhìn lại: Nghị định 261/2025 điều chỉnh điều kiện tiếp cận nhà ở xã hội",
+    "summary": "Quy định năm 2025 thay đổi một số ngưỡng thu nhập và lãi suất vay được nêu trong thông tin chính thức.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://www2.en.baochinhphu.vn/chi-dao-dieu-hanh-cua-chinh-phu-thu-tuong-chinh-phu-noi-bat-thang-10-2025-102251031191831601.htm",
+    "published_at": "2025-10-31T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Trong tháng 10/2025, Chính phủ ban hành Nghị định 261/2025/NĐ-CP sửa đổi một số nội dung liên quan chính sách nhà ở xã hội. Thông tin công bố khi đó nêu các ngưỡng thu nhập áp dụng cho một số nhóm người mua và điều chỉnh lãi suất cho vay.",
+      "Điều kiện tiếp cận nhà ở xã hội phụ thuộc văn bản đang có hiệu lực, hồ sơ chứng minh và quy định thực hiện tại thời điểm nộp. Các con số trong tin cũ cần được đối chiếu với văn bản hiện hành trước khi dùng để lập hồ sơ.",
+      "Bài nhìn lại này nhằm lưu dấu chính sách được công bố trong tháng 10/2025; không phải tư vấn pháp lý hoặc xác nhận điều kiện hiện hành của từng cá nhân."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-gold-jewelry-export-tax-2025",
+    "title": "Nhìn lại: Thuế xuất khẩu vàng trang sức được điều chỉnh về 0% từ tháng 10/2025",
+    "summary": "Nghị định 260/2025/NĐ-CP thay đổi mức thuế với một số mặt hàng vàng trang sức, kỹ nghệ.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://www2.en.baochinhphu.vn/chi-dao-dieu-hanh-cua-chinh-phu-thu-tuong-chinh-phu-noi-bat-thang-10-2025-va-chinh-sach-moi-cua-chinh-phu-co-hieu-luc-tu-thang-11-2025-102251031195029391.htm",
+    "published_at": "2025-10-31T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Thông tin chính sách tháng 10/2025 cho biết Nghị định 260/2025/NĐ-CP điều chỉnh thuế suất xuất khẩu đối với một số mặt hàng, trong đó thuế xuất khẩu vàng trang sức, kỹ nghệ được nêu là giảm từ 1% xuống 0% kể từ ngày 10/10/2025.",
+      "Thay đổi thuế có thể ảnh hưởng đến chi phí và quyết định xuất khẩu, nhưng tác động còn phụ thuộc phân loại hàng hóa, thủ tục hải quan, thị trường đích và các quy định liên quan khác.",
+      "Đây là thông tin lịch sử theo văn bản năm 2025. Doanh nghiệp cần tra cứu biểu thuế và quy định đang có hiệu lực trước khi khai báo hoặc ký hợp đồng."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-five-year-plan-2025",
+    "title": "Nhìn lại: Việt Nam đặt định hướng lập kế hoạch phát triển 2026–2030",
+    "summary": "Chỉ thị tháng 10/2025 yêu cầu xây dựng kế hoạch kinh tế - xã hội cho giai đoạn năm năm tiếp theo.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://www2.en.baochinhphu.vn/chi-thi-cua-thu-tuong-chinh-phu-ve-viec-xay-dung-ke-hoach-phat-trien-kinh-te-xa-hoi-5-nam-2026-2030-102251020001842336.htm",
+    "published_at": "2025-10-19T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Tháng 10/2025, Thủ tướng ban hành Chỉ thị 31/CT-TTg về xây dựng kế hoạch phát triển kinh tế - xã hội 5 năm 2026–2030. Chỉ thị nhấn mạnh việc đánh giá khách quan kết quả giai đoạn trước và xác định nhiệm vụ cho giai đoạn tiếp theo.",
+      "Các kế hoạch năm năm giúp liên kết mục tiêu kinh tế, nguồn lực, hạ tầng và các ưu tiên chính sách. Tuy nhiên, chỉ tiêu đặt ra trong văn bản định hướng không đồng nghĩa với kết quả đã đạt được; cần theo dõi kế hoạch chính thức và các báo cáo thực hiện.",
+      "Bài viết nhìn lại mốc hoạch định chính sách năm 2025 để giúp độc giả hiểu bối cảnh của giai đoạn 2026–2030."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-housing-market-2025",
+    "title": "Nhìn lại: Chính phủ yêu cầu tăng nguồn cung và ổn định thị trường nhà ở",
+    "summary": "Công điện tháng 10/2025 tập trung vào nguồn cung, kiểm soát đầu cơ và nhà ở phù hợp khả năng chi trả.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://www2.en.baochinhphu.vn/cong-dien-cua-thu-tuong-chinh-phu-ve-viec-quyet-liet-thuc-hien-cac-giai-phap-de-tang-nguon-cung-giam-gia-nha-o-bat-dong-san-on-dinh-thi-truong-102251007232727229.htm",
+    "published_at": "2025-10-07T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Ngày 7/10/2025, Thủ tướng ban hành công điện về các giải pháp tăng nguồn cung và ổn định thị trường nhà ở, bất động sản. Văn bản đề cập thúc đẩy dự án, phát triển nhà ở xã hội và tăng cường kiểm soát các hành vi thao túng hoặc đẩy giá.",
+      "Giá nhà chịu tác động của nguồn cung, chi phí đất và xây dựng, tín dụng, hạ tầng và nhu cầu. Chỉ đạo chính sách là một phần của phản ứng quản lý; tác động thực tế cần được đánh giá qua số lượng nhà ở hoàn thành, giá giao dịch và khả năng tiếp cận của người dân.",
+      "Bài viết là bản nhìn lại sự kiện chính sách năm 2025, không phải nhận định về diễn biến giá nhà hiện tại."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-vietnam-national-budget-2025",
+    "title": "Nhìn lại: Chỉ đạo điều hành ngân sách những tháng cuối năm 2025",
+    "summary": "Chính phủ yêu cầu tăng hiệu quả điều hành ngân sách trong giai đoạn cuối năm.",
+    "category": "vietnam",
+    "source_name": "Cổng Thông tin Chính phủ Việt Nam",
+    "source_url": "https://www2.en.baochinhphu.vn/chi-dao-dieu-hanh-cua-chinh-phu-thu-tuong-chinh-phu-noi-bat-thang-10-2025-va-chinh-sach-moi-cua-chinh-phu-co-hieu-luc-tu-thang-11-2025-102251031195029391.htm",
+    "published_at": "2025-10-31T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Trong các nội dung điều hành tháng 10/2025, Chính phủ nêu chỉ đạo nâng cao hiệu quả quản lý và điều hành ngân sách nhà nước trong những tháng cuối năm. Điều hành ngân sách liên quan đến tiến độ thu, chi, ưu tiên nguồn lực và việc bảo đảm kỷ luật tài khóa.",
+      "Đánh giá ngân sách cần xem xét cả số thu, tiến độ giải ngân, chất lượng chi tiêu và hiệu quả của các chương trình. Mức chi lớn tự nó không cho biết nguồn lực đã được sử dụng hiệu quả hay chưa.",
+      "Bài viết lưu lại thông tin điều hành theo thời điểm năm 2025. Các số liệu ngân sách và chính sách hiện hành cần được tra cứu ở báo cáo mới hơn."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-nasa-x59-first-flight-2025",
+    "title": "Nhìn lại: Máy bay nghiên cứu X-59 của NASA thực hiện chuyến bay đầu tiên",
+    "summary": "Chuyến bay ngày 28/10/2025 mở đầu giai đoạn thử nghiệm bay của máy bay nghiên cứu siêu thanh yên tĩnh.",
+    "category": "technology",
+    "source_name": "NASA",
+    "source_url": "https://www.nasa.gov/aeronautics/",
+    "published_at": "2025-10-28T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Ngày 28/10/2025, máy bay nghiên cứu X-59 của NASA thực hiện chuyến bay đầu tiên. Dự án được phát triển để nghiên cứu cách máy bay có thể bay nhanh hơn âm thanh nhưng tạo tiếng nổ âm thanh nhỏ hơn so với tiếng nổ siêu thanh truyền thống.",
+      "Chuyến bay đầu tiên là cột mốc kiểm tra khả năng vận hành cơ bản, không phải bằng chứng rằng công nghệ đã sẵn sàng cho các chuyến bay thương mại. Chương trình cần thêm các chuyến bay thử, đo đạc và phân tích dữ liệu.",
+      "NASA tiếp tục công bố các mốc thử nghiệm sau năm 2025. Vì vậy, bài viết này là hồ sơ nhìn lại thời điểm chuyến bay đầu tiên, không phải trạng thái mới nhất của dự án."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
+  },
+  {
+    "id": "archive-asean-china-acfta-2025",
+    "title": "Nhìn lại: ASEAN và Trung Quốc ký nghị định thư nâng cấp ACFTA 3.0",
+    "summary": "Văn kiện được ký tại Hội nghị Cấp cao ASEAN lần thứ 47 vào cuối tháng 10/2025.",
+    "category": "world",
+    "source_name": "Bộ Công Thương",
+    "source_url": "https://moit.gov.vn/en/news/industry-and-trade/asean-and-china-sign-protocol-upgrading-the-acfta-3.0.html",
+    "published_at": "2025-10-28T12:00:00+07:00",
+    "fetched_at": "2026-10-22T14:00:00+07:00",
+    "content_type": "original_editorial_summary",
+    "collection": "archive",
+    "body": [
+      "Ngày 28/10/2025, ASEAN và Trung Quốc ký nghị định thư nâng cấp Khu vực thương mại tự do ASEAN – Trung Quốc (ACFTA 3.0) tại Hội nghị Cấp cao ASEAN lần thứ 47 ở Kuala Lumpur. Việt Nam tham gia sự kiện thông qua đoàn cấp cao và đại diện Bộ Công Thương.",
+      "Các khuôn khổ thương mại khu vực có thể hỗ trợ mở rộng thị trường, giảm chi phí giao dịch và tăng liên kết chuỗi cung ứng. Lợi ích cụ thể tùy thuộc nội dung cam kết, lịch thực hiện và khả năng đáp ứng của doanh nghiệp.",
+      "Bài nhìn lại nhắc đến sự kiện ký kết năm 2025; để biết các điều khoản và trạng thái thực thi hiện nay, cần xem thông tin cập nhật từ ASEAN và cơ quan quản lý thương mại."
+    ],
+    "editorial_note": "Bài nhìn lại sự kiện theo thời điểm công bố năm 2025; không phải tin mới trong ngày."
   }
 ]

@@ -32,5 +32,32 @@ Import repository `qualokhach/news` vào Vercel, preset **Other**, build command
 ## 5. Lưu ý
 - Không có AI tạo bài trong bản MVP này; không gọi API AI trả phí.
 - Hình minh họa giao diện được vẽ bằng CSS, không dùng ảnh báo chí.
-- Bản tin công khai mẫu là thông báo thiết lập của chính AppNho News, không phải tin lấy từ bên thứ ba.
+- Trang chủ hiện có ba bài mẫu biên tập độc lập dựa trên thông tin được đăng trên các trang chính thức của NASA và Cổng Thông tin điện tử Chính phủ Việt Nam. Đây là nội dung cụ thể có nguồn dẫn, không phải thông báo thử nghiệm. Trước khi xuất bản thương mại, vẫn cần rà soát lại từng dữ kiện, quyền sử dụng và điều khoản nguồn.
 - Trước khi bật quảng cáo, cần rà soát chất lượng nội dung và các chính sách áp dụng.
+
+
+## Nội dung mẫu trong bản cập nhật 22/10/2026
+
+- `data/articles.json` có 40 bài biên tập: 30 bài thuộc kỳ tin từ 22/09 đến 22/10/2026 và 10 bài nhìn lại sự kiện tháng 10/2025.
+- Ngày hiển thị lấy từ `published_at`, không tự đổi sang ngày người dùng mở trang.
+- Chuyên mục **Nhìn lại** được hiển thị riêng để tránh trình bày tin năm 2025 như tin nóng hiện tại.
+- Workflow vẫn chỉ thu thập đầu mối RSS vào `data/pending.json`; không tự động xuất bản các đầu mối đó.
+- Một số nguồn chính thức chỉ cung cấp trang danh mục trong trường hợp đường dẫn bài riêng không được xác minh trong lần biên tập này. Hãy mở nguồn trước khi trích dẫn hoặc dùng lại nội dung.
+
+
+## Nội dung mẫu trong bản cập nhật 22/10/2026
+
+- `data/articles.json` có 40 bài biên tập: 30 bài thuộc kỳ tin từ 22/09 đến 22/10/2026 và 10 bài nhìn lại sự kiện tháng 10/2025.
+- Ngày hiển thị lấy từ `published_at`, không tự đổi sang ngày người dùng mở trang.
+- Chuyên mục **Nhìn lại** được hiển thị riêng để tránh trình bày tin năm 2025 như tin nóng hiện tại.
+- Workflow vẫn chỉ thu thập đầu mối RSS vào `data/pending.json`; không tự động xuất bản các đầu mối đó.
+- Một số nguồn chính thức chỉ cung cấp trang danh mục trong trường hợp đường dẫn bài riêng không được xác minh trong lần biên tập này. Hãy mở nguồn trước khi trích dẫn hoặc dùng lại nội dung.
+
+
+## Nội dung mẫu trong bản cập nhật 22/10/2026
+
+- `data/articles.json` có 40 bài biên tập: 30 bài thuộc kỳ tin từ 22/09 đến 22/10/2026 và 10 bài nhìn lại sự kiện tháng 10/2025.
+- Ngày hiển thị lấy từ `published_at`, không tự đổi sang ngày người dùng mở trang.
+- Chuyên mục **Nhìn lại** được hiển thị riêng để tránh trình bày tin năm 2025 như tin nóng hiện tại.
+- Workflow vẫn chỉ thu thập đầu mối RSS vào `data/pending.json`; không tự động xuất bản các đầu mối đó.
+- Một số nguồn chính thức chỉ cung cấp trang danh mục trong trường hợp đường dẫn bài riêng không được xác minh trong lần biên tập này. Hãy mở nguồn trước khi trích dẫn hoặc dùng lại nội dung.
