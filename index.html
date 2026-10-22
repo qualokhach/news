@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tin tức | AppNho News</title>
+  <meta name="description" content="Tin thế giới, Việt Nam, thể thao và công nghệ được tổng hợp cùng nguồn tham khảo rõ ràng.">
+  <meta name="theme-color" content="#102a43">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="alternate" type="application/rss+xml" title="AppNho News RSS" href="feed.xml">
+  <link rel="canonical" href="/">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<header class="site-header"><div class="wrap header-inner">
+  <a class="brand" href="./" aria-label="AppNho News trang chủ"><span class="brand-mark">N</span><span>AppNho <b>News</b></span></a>
+  <nav aria-label="Chuyên mục"><a href="#latest">Mới nhất</a><a href="#world">Thế giới</a><a href="#vietnam">Việt Nam</a><a href="#sports">Thể thao</a><a href="#technology">Công nghệ</a></nav>
+</div></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-copy"><span class="eyebrow">TIN TỨC TỔNG HỢP</span><h1>Nắm bắt điều đáng chú ý.</h1><p>Tin được tổng hợp từ các nguồn tham khảo công khai, có đường dẫn để bạn kiểm tra thông tin gốc.</p><div class="hero-meta"><span class="live-dot"></span> Cập nhật theo lịch tự động</div></div>
+    <div class="hero-art" aria-hidden="true"><div class="orb"></div><div class="art-card"><span>APPNHO</span><strong>NEWS</strong><small>Thông tin · Bối cảnh · Nguồn</small></div></div>
+  </section>
+  <section class="toolbar" id="latest"><div><span class="eyebrow">BẢN TIN MỚI</span><h2>Tin mới nhất</h2></div><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Tìm tin tức..." aria-label="Tìm tin tức"></label></section>
+  <div id="newsGrid" class="news-grid"><p class="loading">Đang tải bản tin…</p></div>
+  <div id="emptyState" class="empty hidden">Chưa có bài phù hợp. Hãy thử từ khóa khác.</div>
+  <section class="category-section" id="world"><div class="section-heading"><div><span class="eyebrow">GÓC NHÌN QUỐC TẾ</span><h2>Thế giới</h2></div><span class="section-count" data-count="world"></span></div><div class="category-grid" data-category="world"></div></section>
+  <section class="category-section" id="vietnam"><div class="section-heading"><div><span class="eyebrow">TIN TRONG NƯỚC</span><h2>Việt Nam</h2></div><span class="section-count" data-count="vietnam"></span></div><div class="category-grid" data-category="vietnam"></div></section>
+  <section class="category-section" id="sports"><div class="section-heading"><div><span class="eyebrow">SÂN CỎ & THỂ THAO</span><h2>Thể thao</h2></div><span class="section-count" data-count="sports"></span></div><div class="category-grid" data-category="sports"></div></section>
+  <section class="category-section" id="technology"><div class="section-heading"><div><span class="eyebrow">CÔNG NGHỆ MỚI</span><h2>Công nghệ</h2></div><span class="section-count" data-count="technology"></span></div><div class="category-grid" data-category="technology"></div></section>
+  <section class="about"><div><span class="eyebrow">MINH BẠCH NGUỒN TIN</span><h2>Đọc tin, kiểm tra nguồn.</h2></div><p>Mỗi bản tin có liên kết đến nguồn tham khảo. Nội dung tổng hợp có thể chưa phản ánh toàn bộ bài gốc; hãy mở nguồn để xem ngữ cảnh đầy đủ.</p></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand" href="./"><span class="brand-mark">N</span><span>AppNho <b>News</b></span></a><div><a href="about.html">Giới thiệu & nguyên tắc biên tập</a><a href="feed.xml">RSS</a></div><small>© <span id="year"></span> AppNho News · Dự án thử nghiệm độc lập</small></div></footer>
+</body></html>

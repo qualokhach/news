@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NASA News Releases",
+    "url": "https://www.nasa.gov/news-release/feed/",
+    "category": "world",
+    "enabled": false,
+    "status": "review_required",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "allowed_use": "Use as a discovery lead only until specific text reuse and feed terms are reviewed. Do not republish RSS descriptions or full text automatically.",
+    "note": "NASA's media guidance allows factual use of NASA materials under conditions, but third-party material and specific feed terms still need item-level checks."
+  },
+  {
+    "name": "NASA Technology",
+    "url": "https://www.nasa.gov/feed/",
+    "category": "technology",
+    "enabled": false,
+    "status": "review_required",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "allowed_use": "Use as a discovery lead only until specific text reuse and feed terms are reviewed. Do not republish RSS descriptions or full text automatically.",
+    "note": "Broad feed may contain third-party content; not approved for automatic publication."
+  }
+]
