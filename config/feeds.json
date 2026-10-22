@@ -2,21 +2,81 @@
   {
     "name": "NASA News Releases",
     "url": "https://www.nasa.gov/news-release/feed/",
-    "category": "world",
-    "enabled": false,
-    "status": "review_required",
+    "category": "technology",
+    "enabled": true,
+    "status": "discovery_only",
     "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-    "allowed_use": "Use as a discovery lead only until specific text reuse and feed terms are reviewed. Do not republish RSS descriptions or full text automatically.",
-    "note": "NASA's media guidance allows factual use of NASA materials under conditions, but third-party material and specific feed terms still need item-level checks."
+    "allowed_use": "Discovery metadata only. Verify each item and rights before writing or publishing.",
+    "note": "Do not republish RSS descriptions or full text automatically."
   },
   {
-    "name": "NASA Technology",
-    "url": "https://www.nasa.gov/feed/",
-    "category": "technology",
+    "name": "VOV World - Sport",
+    "url": "https://vovworld.vn/sport.rss",
+    "category": "sports",
+    "enabled": true,
+    "status": "discovery_only",
+    "terms_url": "https://vovworld.vn/",
+    "allowed_use": "Discovery metadata only; verify item URL, facts and reuse conditions.",
+    "note": "Feed availability may change; workflow logs failures and continues."
+  },
+  {
+    "name": "VietnamPlus - Football",
+    "url": "https://en.vietnamplus.vn/football-tag6.vnp",
+    "category": "sports",
     "enabled": false,
     "status": "review_required",
-    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-    "allowed_use": "Use as a discovery lead only until specific text reuse and feed terms are reviewed. Do not republish RSS descriptions or full text automatically.",
-    "note": "Broad feed may contain third-party content; not approved for automatic publication."
+    "terms_url": "https://en.vietnamplus.vn/",
+    "allowed_use": "Use only as a manual discovery source until an RSS endpoint and reuse terms are verified.",
+    "note": "Page URL is not a confirmed RSS feed; disabled to prevent collector errors."
+  },
+  {
+    "name": "BBC News - World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "category": "world",
+    "enabled": true,
+    "status": "discovery_only",
+    "terms_url": "https://www.bbc.co.uk/terms",
+    "allowed_use": "Discovery metadata only. BBC content is copyrighted; do not republish article text or images.",
+    "note": "Use headline/link/date only as a lead for independently written coverage."
+  },
+  {
+    "name": "BBC News - Technology",
+    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "category": "technology",
+    "enabled": true,
+    "status": "discovery_only",
+    "terms_url": "https://www.bbc.co.uk/terms",
+    "allowed_use": "Discovery metadata only. BBC content is copyrighted; do not republish article text or images.",
+    "note": "Use headline/link/date only as a lead for independently written coverage."
+  },
+  {
+    "name": "VnExpress - Thể thao",
+    "url": "https://vnexpress.net/rss/the-thao.rss",
+    "category": "sports",
+    "enabled": true,
+    "status": "discovery_only",
+    "terms_url": "https://vnexpress.net/thoa-thuan-su-dung",
+    "allowed_use": "Discovery metadata only; verify terms and facts before any publication.",
+    "note": "Do not copy RSS descriptions, article body or images."
+  },
+  {
+    "name": "VnExpress - Thế giới",
+    "url": "https://vnexpress.net/rss/the-gioi.rss",
+    "category": "world",
+    "enabled": true,
+    "status": "discovery_only",
+    "terms_url": "https://vnexpress.net/thoa-thuan-su-dung",
+    "allowed_use": "Discovery metadata only; verify terms and facts before any publication.",
+    "note": "Do not copy RSS descriptions, article body or images."
+  },
+  {
+    "name": "VnExpress - Kinh doanh",
+    "url": "https://vnexpress.net/rss/kinh-doanh.rss",
+    "category": "vietnam",
+    "enabled": true,
+    "status": "discovery_only",
+    "terms_url": "https://vnexpress.net/thoa-thuan-su-dung",
+    "allowed_use": "Discovery metadata only; verify terms and facts before any publication.",
+    "note": "Do not copy RSS descriptions, article body or images."
   }
 ]
