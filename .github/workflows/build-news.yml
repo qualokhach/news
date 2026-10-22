@@ -1,0 +1,35 @@
+name: Collect news leads (not auto-publish)
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:00 and 17:00 Vietnam time (UTC+7); GitHub Actions may run late.
+    - cron: "0 0,10 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: news-pipeline
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect permitted discovery metadata into editorial queue
+        run: python scripts/build_news.py
+      - name: Commit editorial queue only
+        run: |
+          if [[ -n "$(git status --porcelain data/pending.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/pending.json
+            git commit -m "chore: update editorial news queue"
+            git push
+          else
+            echo "No queue changes."
+          fi
