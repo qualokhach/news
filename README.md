@@ -44,3 +44,8 @@ Import repository `qualokhach/news` vào Vercel, preset **Other**, build command
 - Chuyên mục **Nhìn lại** được hiển thị riêng để tránh trình bày tin năm 2025 như tin nóng hiện tại.
 - Workflow vẫn chỉ thu thập đầu mối RSS vào `data/pending.json`; không tự động xuất bản các đầu mối đó.
 - Một số nguồn chính thức chỉ cung cấp trang danh mục trong trường hợp đường dẫn bài riêng không được xác minh trong lần biên tập này. Hãy mở nguồn trước khi trích dẫn hoặc dùng lại nội dung.
+
+
+## Category thumbnails
+
+News cards use four shared Cloudinary thumbnails based on article category: world, Vietnam, sports, and technology. The thumbnail URL is set in `data/articles.json`; article body illustrations remain in `assets/generated/`.
