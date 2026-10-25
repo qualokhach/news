@@ -51,3 +51,20 @@ body{font-size:16px;line-height:1.65;background:#f6f8fb}
 .load-more:hover{background:#eef4ff;border-color:#155eef}
 #backToHome{display:inline-block;margin-top:12px}
 @media(max-width:600px){.category-page-grid{grid-template-columns:1fr}}
+
+/* R10: category indexes retain the homepage hero and provide clear onward navigation. */
+.category-hero{margin-bottom:28px;min-height:300px!important}
+.category-hero .hero-copy{max-width:790px}
+.category-hero .hero-copy h1{color:#fff;font-size:clamp(34px,4.4vw,52px);line-height:1.08;margin:0 0 14px;text-shadow:0 2px 18px rgba(0,0,0,.28)}
+.category-hero .hero-copy p{font-size:clamp(17px,2vw,23px);line-height:1.55;max-width:680px}
+.category-hero .hero-pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.category-hero .hero-pills span{font-size:12px;font-weight:750;color:#fff;background:#ffffff20;border:1px solid #ffffff40;border-radius:999px;padding:8px 12px;backdrop-filter:blur(8px)}
+.category-more-nav{margin:34px 0 12px;padding:26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(135deg,#f8fbff,#edf4fa)}
+.category-more-heading h2{font-size:clamp(23px,3vw,30px);letter-spacing:-.035em;margin:5px 0 6px}
+.category-more-heading p{color:var(--muted);margin:0 0 18px;font-size:15px}
+.category-more-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.category-more-link{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;background:#fff;border:1px solid #dce5ec;border-radius:12px;font-weight:800;font-size:14px;transition:border-color .18s,transform .18s}
+.category-more-link:hover{border-color:#8aaee7;transform:translateY(-1px);color:var(--blue)}
+.category-more-link span{color:var(--blue);font-size:18px}
+.category-more-home{display:inline-block;margin-top:18px;color:var(--blue);font-weight:800;font-size:13px}
+@media(max-width:760px){.category-hero{min-height:260px!important;margin:12px 0 18px}.category-hero .hero-vivid .hero-copy,.category-hero .hero-copy{padding:25px}.category-hero .hero-copy h1{font-size:31px}.category-hero .hero-copy p{font-size:17px}.category-hero .hero-pills{gap:6px;margin-top:15px}.category-hero .hero-pills span{font-size:10px;padding:6px 8px}.category-more-nav{padding:18px;margin-top:24px}.category-more-links{grid-template-columns:1fr}}
