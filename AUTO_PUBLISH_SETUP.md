@@ -7,7 +7,7 @@
 5. Nếu workflow thành công, kiểm tra commit mới cập nhật `data/articles.json`, `data/pending.json`, `data/seen_items.json`; historical `data/archive_articles.json` remains unchanged, `feed.xml`, `sitemap.xml`.
 6. Kiểm tra trang chủ và mở một bài bằng URL `article.html?id=<id>`.
 
-Lịch dự kiến: 06:00 và 17:00 giờ Việt Nam. Cron dùng UTC và GitHub có thể chạy trễ. Workflow cần quyền `contents: write` để commit dữ liệu. Không cần Cloudflare Worker, R2, D1 hoặc token quản trị.
+Lịch tự động: 06:00 và 17:00 giờ Việt Nam (cron UTC: 23:00 và 10:00). GitHub có thể chạy trễ vài phút. Workflow tự kiểm tra dữ liệu, chạy kiểm thử hồi quy, xác nhận có ít nhất một khóa AI, và đánh dấu run lỗi nếu toàn bộ nguồn tin thất bại hoặc mọi lần gọi AI đều không có phản hồi hợp lệ. Workflow cần quyền `contents: write` để commit dữ liệu. Không cần Cloudflare Worker, R2, D1 hoặc token quản trị.
 
 Các model miễn phí và hạn mức API có thể thay đổi. Workflow cố gắng dùng provider tiếp theo khi có lỗi/quota, nhưng không bảo đảm đủ 8 bài/ngày.
 

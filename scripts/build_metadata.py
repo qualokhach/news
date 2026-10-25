@@ -4,13 +4,21 @@ import json, html
 from pathlib import Path
 from datetime import datetime, timezone
 ROOT=Path(__file__).resolve().parents[1]
-BASE="https://appnho.io.vn/news/"
+BASE="https://qualokhach.github.io/news/"
 active=json.loads((ROOT/"data/articles.json").read_text(encoding="utf-8"))
 archive_path=ROOT/"data/archive_articles.json"
 archive=json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else []
 catalog_path=ROOT/"data/archive_catalog.json"
 catalog=json.loads(catalog_path.read_text(encoding="utf-8")) if catalog_path.exists() else []
-articles=archive+[x for x in catalog if x.get("file")!="data/archive_articles.json"]+active
+# Prefer full article bodies over catalog metadata; deduplicate all feeds by stable ID.
+by_id={}
+for article in archive + active:
+    if article.get("id"):
+        by_id.setdefault(str(article["id"]), article)
+for entry in catalog:
+    if entry.get("id"):
+        by_id.setdefault(str(entry["id"]), entry)
+articles=list(by_id.values())
 urls=[BASE, BASE+"about.html"]
 for a in articles:
     ident=a.get("id")

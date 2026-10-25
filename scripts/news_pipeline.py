@@ -547,7 +547,7 @@ def main():
         return (source_score(best,len(g),usage_counts.get(best.get('source_name',''),0)*8), best.get('source_published_at') or '')
     groups.sort(key=group_rank,reverse=True)
     api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))
-    published=0; used_categories=set(); processed_urls=set()
+    published=0; used_categories=set(); processed_urls=set(); generation_attempts=0; ai_responses=0; generation_failures=0
     if not api_keys_present:
         print('[INFO] No AI API keys configured: discovery only; no article will be published.')
     else:
@@ -579,7 +579,9 @@ def main():
                 if mainlead['attempts']>=3: mainlead['status']='needs_manual_review'
                 continue
             try:
+                generation_attempts+=1
                 result, provider_name=generate_with_fallback(make_prompt(good,evidence))
+                ai_responses+=1
                 if not result.get('publish'):
                     for x in group: x['status']='rejected_quality'; x['editorial_reason']=clean(result.get('reason','Not enough verified evidence'))[:300]; processed_urls.add(canon(x['source_url']))
                     for x in group:
@@ -620,6 +622,7 @@ def main():
                 print(f"[PUBLISHED] {article['title']} ({article['word_count']} words, {article['category']})")
                 time.sleep(1.2)
             except Exception as e:
+                generation_failures+=1
                 mainlead['attempts']=int(mainlead.get('attempts',0))+1
                 mainlead['last_error']=str(e)[:300]
                 if mainlead['attempts']>=3: mainlead['status']='needs_manual_review'
@@ -627,7 +630,7 @@ def main():
     # Persist and cap files; never discard queued items without status.
     pending.sort(key=lambda x: x.get('discovered_at',''),reverse=True)
     pending=pending[:MAX_PENDING]
-    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))}
+    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY')),'generation_attempts':generation_attempts,'ai_responses':ai_responses,'generation_failures':generation_failures}
     seen_data['last_run_window_end']=run_started.isoformat() if successful_feeds else seen_data.get('last_run_window_end')
     # Retain recent source URLs so deduplication stays bounded without silently losing all history.
     if len(seen)>20000:
