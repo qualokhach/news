@@ -1,0 +1,580 @@
+{
+  "checked_at": "2026-10-25T13:42:31.766789+00:00",
+  "summary": {
+    "vietnam": {
+      "configured": 11,
+      "enabled": 11,
+      "ok": 4,
+      "failed": 7
+    },
+    "world": {
+      "configured": 18,
+      "enabled": 18,
+      "ok": 17,
+      "failed": 1
+    },
+    "technology": {
+      "configured": 11,
+      "enabled": 11,
+      "ok": 10,
+      "failed": 1
+    },
+    "sports": {
+      "configured": 10,
+      "enabled": 10,
+      "ok": 6,
+      "failed": 4
+    }
+  },
+  "feeds": [
+    {
+      "name": "VnExpress - Thời sự",
+      "url": "https://vnexpress.net/rss/thoi-su.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.766789+00:00",
+      "status": "http_error",
+      "http_status": 404,
+      "items": 0,
+      "detail": "HTTP 404"
+    },
+    {
+      "name": "Tuổi Trẻ - Tin mới",
+      "url": "https://tuoitre.vn/rss/tin-moi-nhat.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.767596+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 50,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Thanh Niên - Tin mới",
+      "url": "https://thanhnien.vn/rss/home.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.768136+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 60,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "VietnamPlus - Tin mới",
+      "url": "https://www.vietnamplus.vn/rss/home.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.768641+00:00",
+      "http_status": 200,
+      "status": "error",
+      "items": 0,
+      "detail": "ParseError: not well-formed (invalid token): line 1, column 0"
+    },
+    {
+      "name": "VTV - Tin tức",
+      "url": "https://vtv.vn/trang-chu.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.769543+00:00",
+      "status": "http_error",
+      "http_status": 404,
+      "items": 0,
+      "detail": "HTTP 404"
+    },
+    {
+      "name": "Dân Trí - Tin mới",
+      "url": "https://dantri.com.vn/rss/home.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.774804+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 100,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Lao Động - Tin mới",
+      "url": "https://laodong.vn/rss/home.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.777820+00:00",
+      "http_status": 200,
+      "status": "invalid_feed",
+      "items": 0,
+      "detail": "HTTP success but no RSS item/Atom entry elements"
+    },
+    {
+      "name": "Người Lao Động - Tin mới",
+      "url": "https://nld.com.vn/rss/home.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.778667+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 60,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Tiền Phong - Tin mới",
+      "url": "https://tienphong.vn/rss/home.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.781835+00:00",
+      "http_status": 200,
+      "status": "error",
+      "items": 0,
+      "detail": "ParseError: not well-formed (invalid token): line 1, column 0"
+    },
+    {
+      "name": "Việt Nam News - Latest",
+      "url": "https://vietnamnews.vn/rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:31.790837+00:00",
+      "http_status": 200,
+      "status": "error",
+      "items": 0,
+      "detail": "ParseError: not well-formed (invalid token): line 1, column 0"
+    },
+    {
+      "name": "BBC News - World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:32.878316+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 32,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "The Guardian - World",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:32.952637+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 45,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Al Jazeera - All",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:32.978659+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 25,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "NPR - News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.084001+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 10,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Deutsche Welle - All",
+      "url": "https://rss.dw.com/rdf/rss-en-all",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.153745+00:00",
+      "http_status": 200,
+      "status": "invalid_feed",
+      "items": 0,
+      "detail": "HTTP success but no RSS item/Atom entry elements"
+    },
+    {
+      "name": "France 24 - English",
+      "url": "https://www.france24.com/en/rss",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.155560+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 24,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Euronews - World",
+      "url": "https://www.euronews.com/rss?level=theme&name=news",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.156229+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 50,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "NYT - World",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.174251+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 52,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Sky News - Home",
+      "url": "https://feeds.skynews.com/feeds/rss/home.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.215563+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 7,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "BBC News - Top Stories",
+      "url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.244893+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 28,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "VnExpress - Kinh doanh",
+      "url": "https://vnexpress.net/rss/kinh-doanh.rss",
+      "category": "vietnam",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.261522+00:00",
+      "status": "http_error",
+      "http_status": 404,
+      "items": 0,
+      "detail": "HTTP 404"
+    },
+    {
+      "name": "BBC - Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.336505+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 55,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "NPR - Business",
+      "url": "https://feeds.npr.org/1006/rss.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.428625+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 10,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "The Guardian - Business",
+      "url": "https://www.theguardian.com/business/rss",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.432482+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "CNBC - Top News",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.448298+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 30,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Investing.com - News",
+      "url": "https://www.investing.com/rss/news.rss",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.463548+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 10,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "MarketWatch - Top Stories",
+      "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.489893+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 10,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Financial Times - World",
+      "url": "https://www.ft.com/world?format=rss",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.515113+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 25,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "The Economist - Latest",
+      "url": "https://www.economist.com/latest/rss.xml",
+      "category": "world",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.530985+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 300,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "BBC - Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.590477+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "The Verge - All",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.594025+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 10,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "TechCrunch - All",
+      "url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.617997+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Ars Technica - All",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.635087+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Wired - All",
+      "url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.644432+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 50,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Nature - Latest",
+      "url": "https://www.nature.com/nature.rss",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.674501+00:00",
+      "http_status": 200,
+      "status": "invalid_feed",
+      "items": 0,
+      "detail": "HTTP success but no RSS item/Atom entry elements"
+    },
+    {
+      "name": "ScienceDaily - All",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.675516+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 60,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "NASA - News Releases",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.708412+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 10,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "MIT News - Latest",
+      "url": "https://news.mit.edu/rss/feed",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.724501+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 50,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Engadget - All",
+      "url": "https://www.engadget.com/rss.xml",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.747655+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "category": "technology",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.754558+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "VnExpress - Thể thao",
+      "url": "https://vnexpress.net/rss/the-thao.rss",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.778793+00:00",
+      "status": "http_error",
+      "http_status": 404,
+      "items": 0,
+      "detail": "HTTP 404"
+    },
+    {
+      "name": "BBC Sport - Football",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.809974+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 78,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "BBC Sport - All",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.814846+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 73,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "The Guardian - Sport",
+      "url": "https://www.theguardian.com/uk/sport/rss",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.823015+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 49,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "ESPN - Top News",
+      "url": "https://www.espn.com/espn/rss/news",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.838899+00:00",
+      "http_status": 202,
+      "status": "error",
+      "items": 0,
+      "detail": "ParseError: no element found: line 1, column 0"
+    },
+    {
+      "name": "Sky Sports - Football",
+      "url": "https://www.skysports.com/rss/12040",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.839679+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "CBS Sports - Soccer",
+      "url": "https://www.cbssports.com/rss/headlines/soccer/",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.857240+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 36,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "Olympics - News",
+      "url": "https://olympics.com/en/news/rss",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.916805+00:00",
+      "status": "error",
+      "items": 0,
+      "detail": "TimeoutError: The read operation timed out"
+    },
+    {
+      "name": "Sporting News - Soccer",
+      "url": "https://www.sportingnews.com/us/rss",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.979924+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "items": 20,
+      "detail": "RSS/Atom parsed successfully"
+    },
+    {
+      "name": "VTV - Sports",
+      "url": "https://vtv.vn/rss.htm",
+      "category": "sports",
+      "enabled": true,
+      "checked_at": "2026-10-25T13:42:33.982598+00:00",
+      "http_status": 200,
+      "status": "error",
+      "items": 0,
+      "detail": "ParseError: not well-formed (invalid token): line 42, column 71"
+    }
+  ]
+}
