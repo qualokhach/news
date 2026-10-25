@@ -1,0 +1,66 @@
+name: AppNho News — publish manual article
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Tiêu đề bài viết"
+        required: true
+        type: string
+      category:
+        description: "Chuyên mục"
+        required: true
+        type: choice
+        options: [vietnam, world, sports, technology]
+      summary:
+        description: "Tóm tắt bài viết"
+        required: true
+        type: string
+      body:
+        description: "Nội dung bài (mỗi đoạn cách nhau một dòng trống; tối thiểu 600 từ, 6 đoạn)"
+        required: true
+        type: string
+      source_name:
+        description: "Tên nguồn tham khảo (nếu có)"
+        required: false
+        type: string
+      source_url:
+        description: "URL nguồn tham khảo (nếu có)"
+        required: false
+        type: string
+      keywords:
+        description: "Từ khóa, cách nhau bằng dấu phẩy"
+        required: false
+        type: string
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Validate and add article
+        env:
+          ARTICLE_TITLE: ${{ inputs.title }}
+          ARTICLE_CATEGORY: ${{ inputs.category }}
+          ARTICLE_SUMMARY: ${{ inputs.summary }}
+          ARTICLE_BODY: ${{ inputs.body }}
+          ARTICLE_SOURCE_NAME: ${{ inputs.source_name }}
+          ARTICLE_SOURCE_URL: ${{ inputs.source_url }}
+          ARTICLE_KEYWORDS: ${{ inputs.keywords }}
+        run: python scripts/manual_publish.py
+      - name: Close 30-day article batch when due
+        run: python scripts/rotate_archive.py
+      - name: Rebuild RSS and sitemap
+        run: python scripts/build_metadata.py
+      - name: Commit manual article
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches sitemap.xml feed.xml
+          git commit -m "Publish manual AppNho News article"
+          git push

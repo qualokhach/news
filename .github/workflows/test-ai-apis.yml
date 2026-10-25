@@ -1,0 +1,22 @@
+name: AppNho News — test AI API keys
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate provider keys and discover free models (no article generation)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
+          GROQ_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
+        run: python scripts/check_ai_providers.py

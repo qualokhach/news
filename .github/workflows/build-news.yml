@@ -1,35 +1,46 @@
-name: Collect news leads (not auto-publish)
+name: AppNho News — collect, write and publish
 on:
   workflow_dispatch:
   schedule:
-    # 06:00 and 17:00 Vietnam time (UTC+7); GitHub Actions may run late.
+    # 06:00 and 17:00 Vietnam time (UTC+7); GitHub may start a few minutes late.
     - cron: "0 23,10 * * *"
 permissions:
   contents: write
 concurrency:
-  group: news-pipeline
+  group: appnho-news-pipeline
   cancel-in-progress: false
 jobs:
-  collect:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+  pipeline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Collect permitted discovery metadata into editorial queue
-        run: python scripts/build_news.py
-      - name: Commit editorial queue only
+      - name: Collect, write and publish to GitHub JSON archive
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
+          GROQ_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
+          MAX_ARTICLES_PER_RUN: "4"
+        run: python scripts/news_pipeline.py
+      - name: Close 30-day article batch when due
+        run: python scripts/rotate_archive.py
+      - name: Rebuild RSS and sitemap
+        run: python scripts/build_metadata.py
+      - name: Commit updated articles and state
         run: |
-          if [[ -n "$(git status --porcelain data/pending.json)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/pending.json
-            git commit -m "chore: update editorial news queue"
-            git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches data/pending.json data/seen_items.json sitemap.xml feed.xml
+          if git diff --cached --quiet; then
+            echo "No repository data changes to commit."
           else
-            echo "No queue changes."
+            git commit -m "Update AppNho News archive [skip ci]"
+            git push
           fi
