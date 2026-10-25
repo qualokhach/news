@@ -1,6 +1,13 @@
 name: AppNho News — collect, write and publish
 on:
   workflow_dispatch:
+  # Run once when pipeline code/config changes, but not on bot data commits.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-news.yml'
+      - 'scripts/**'
+      - 'config/feeds.json'
   schedule:
     # 06:00 and 17:00 Vietnam time (UTC+7); GitHub may start a few minutes late.
     - cron: "0 23,10 * * *"
@@ -48,6 +55,32 @@ jobs:
         run: python scripts/news_pipeline.py
       - name: Verify pipeline actually reached feeds and AI configuration
         run: python scripts/check_run_health.py
+      - name: Summarize article generation result
+        if: always()
+        run: |
+          python - <<'PY2'
+          import json, os
+          from pathlib import Path
+          p=Path('data/seen_items.json')
+          state=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+          stats=state.get('last_run_stats', {}) if isinstance(state, dict) else {}
+          lines=[
+            '## AppNho News run summary',
+            f"- Enabled feeds: {stats.get('feeds_enabled', 0)}",
+            f"- Successful feeds: {stats.get('feeds_succeeded', 0)}",
+            f"- New leads in this window: {stats.get('new_leads_in_window', 0)}",
+            f"- AI keys configured (count only): {stats.get('api_keys_configured', 0)}",
+            f"- AI generation attempts: {stats.get('generation_attempts', 0)}",
+            f"- Valid AI responses: {stats.get('ai_responses', 0)}",
+            f"- Articles published this run: {stats.get('published', 0)}",
+            f"- Feed failures: {stats.get('feed_failures', 0)}",
+            f"- Generation failures: {stats.get('generation_failures', 0)}",
+          ]
+          if stats.get('published', 0) == 0:
+            lines.append('- Note: zero publication is not automatically an error; inspect lead counts, provider warnings and quality rejections in the job log.')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+            f.write('\n'.join(lines) + '\n')
+          PY2
       - name: Re-audit article data after generation
         run: python scripts/audit_site.py
       - name: Close 30-day article batch when due
