@@ -1,56 +1,53 @@
-# AppNho News — bản MVP thận trọng về bản quyền
+# AppNho News R5 — GitHub-only archive and AI auto-publishing
 
-Website tĩnh và bộ thu thập metadata RSS chạy trên GitHub Actions. Không cần máy tính cá nhân chạy nền và không gọi API AI trả phí.
+## Kiến trúc đã chốt
+- GitHub repository `qualokhach/news` giữ website, toàn bộ bài viết, hàng chờ RSS, lịch sử chống trùng và workflow.
+- Không dùng Cloudflare R2, Worker hoặc D1 cho News trong phiên bản này.
+- Website đọc bài từ `data/archive_articles.json` (43 bài lịch sử cố định) và `data/articles.json` (chỉ bài mới). Đường dẫn bài giữ dạng `article.html?id=<id>`.
+- GitHub Actions chạy tự động 2 lần/ngày theo giờ Việt Nam mục tiêu 06:00 và 17:00, tối đa 4 bài/lượt. Chất lượng và bằng chứng nguồn quan trọng hơn số lượng; không đủ bằng chứng thì không xuất bản.
+- Mỗi lần chạy tự động cập nhật JSON, RSS, sitemap rồi commit thay đổi vào repo. Lịch sử Git cũng sẽ tăng theo thời gian.
 
-## Điểm khác biệt quan trọng
-Bản này **không tự động xuất bản bài RSS ra website**. Các nguồn đều tắt mặc định. Workflow chỉ thu thập tiêu đề, URL, tên nguồn, danh mục và ngày đăng vào `data/pending.json` để người biên tập kiểm tra. Nó không lưu mô tả RSS hay toàn văn bài nguồn. `data/articles.json` là dữ liệu công khai của website và chỉ nên chứa bài do bạn tự viết/biên tập sau khi xác minh quyền, dữ kiện và nguồn.
-
-RSS không mặc nhiên cấp quyền tái xuất bản. Xem `SOURCE_AND_COPYRIGHT_POLICY.md` trước khi bật nguồn hoặc xuất bản.
-
-## 1. Đưa mã lên GitHub
+## Cập nhật repo
 1. Giải nén ZIP.
-2. Mở `https://github.com/qualokhach/news`.
-3. Chọn **Add file → Upload files**, tải toàn bộ nội dung trong thư mục `appnho-news` lên thư mục gốc repo.
-4. Commit lên nhánh `main`.
+2. Sao lưu hoặc tải ZIP repo hiện tại trước khi thay thế.
+3. Upload các file trong ZIP vào thư mục gốc `qualokhach/news`, cho phép ghi đè file trùng tên, nhưng không xóa file khác của dự án nếu chưa đối chiếu.
+4. Sau khi tải lên, chạy workflow **AppNho News — test AI API keys** trong tab Actions trước. Workflow này kiểm tra Secrets/model miễn phí mà không sinh bài.
+5. Nếu kiểm tra đạt, chạy **AppNho News — collect, write and publish** bằng Run workflow để kiểm thử sinh bài thực tế.
+6. Chỉ sau khi kiểm tra bài, URL, RSS và sitemap mới commit/gộp lên `main` hoặc để lịch chạy tự động.
 
-## 2. Chạy thử
-Vào **Actions → Build news from RSS → Run workflow**. Với cấu hình mặc định, không có nguồn nào được bật, nên workflow sẽ không thu thập nội dung. Đây là lựa chọn an toàn mặc định.
-Sau khi kiểm tra điều khoản một nguồn cụ thể, bạn có thể bật `enabled: true` trong `config/feeds.json`. Workflow khi đó chỉ thêm metadata vào hàng chờ `data/pending.json`, không xuất bản lên trang chủ.
+Không commit thẳng vào `main` trước khi các bước kiểm tra trên đạt.
+7. Vào Settings → Actions → General, kiểm tra quyền ghi nội dung repository. Workflow dùng `permissions: contents: write`; không cần Personal Access Token.
+8. Vào Settings → Secrets and variables → Actions, dùng đúng các Secret: `GEMINI_API_KEY_APPNHO_NEWS`, `GROK_API_APPNHO_NEWS`, `OPENROUTER_API_APPNHO_NEWS`. Không gửi khóa cho người khác.
 
-Lịch mặc định: 00:00 và 10:00 UTC, tương ứng 07:00 và 17:00 giờ Việt Nam. GitHub Actions có thể chạy trễ.
+## Đăng bài thủ công
+Mở [workflow đăng bài thủ công](https://github.com/qualokhach/news/actions/workflows/manual-publish.yml), chọn Run workflow và nhập các trường. Bài phải có ít nhất 600 từ và 6 đoạn. Workflow tự tạo ID duy nhất, thêm bài vào `data/articles.json` mà không sửa file lịch sử `data/archive_articles.json`, tái tạo `feed.xml` và `sitemap.xml`, rồi commit.
 
-## 3. Triển khai Vercel
-Import repository `qualokhach/news` vào Vercel, preset **Other**, build command để trống, output directory `.`.
+## Dữ liệu và URL
+- Kho bài lịch sử (đóng băng, không ghi đè): `data/archive_articles.json` (43 bài hiện có).
+- Kho bài mới: `data/articles.json` (chỉ các bài mới được đăng sau khi chuyển đổi).
+- Lợi ích: mỗi commit mới không tạo phiên bản mới của toàn bộ 43 bài lịch sử. Git vẫn lưu lịch sử các phiên bản của file bài mới và các file metadata thay đổi.
+- Hàng chờ: `data/pending.json`.
+- Chống trùng: `data/seen_items.json` (giới hạn 20.000 mục gần nhất).
+- URL chi tiết: `https://appnho.io.vn/news/article.html?id=<id>`.
+- RSS: `/news/feed.xml`.
+- Sitemap: `/news/sitemap.xml`.
 
-## 4. Quy trình biên tập
-1. Xem các mục trong `data/pending.json`, mở link nguồn gốc.
-2. Kiểm tra sự kiện, dữ kiện, ngày tháng và quyền sử dụng.
-3. Viết bản tin độc lập từ thông tin đã xác minh, không sao chép/đổi chữ bài gốc.
-4. Chỉ thêm vào `data/articles.json` sau khi có nội dung tự viết và nguồn được phép dẫn/ sử dụng. Ghi link nguồn rõ ràng.
-5. Nếu không rõ quyền dùng nội dung, chỉ dẫn link tới nguồn gốc và không tái xuất bản văn bản/ảnh của nguồn.
+## Hạn chế và bảo vệ
+- Không có kho dữ liệu ngoài GitHub; các bản cập nhật tạo lịch sử commit. Hãy theo dõi dung lượng repo và website xuất bản.
+- Không lưu API key trong file, HTML hoặc JavaScript. Chỉ đặt trong GitHub Actions Secrets.
+- Không đặt PAT/token GitHub trong website.
+- Workflow không có quyền xóa repo hoặc sửa Settings; chỉ có quyền ghi nội dung repository cần để cập nhật bài.
+- Bản này đã được kiểm thử cục bộ; chưa thể xác nhận API key thực tế, hạn mức tài khoản hay website production cho đến khi workflow kiểm thử chạy trong GitHub của bạn.
 
-## 5. Lưu ý
-- Không có AI tạo bài trong bản MVP này; không gọi API AI trả phí.
-- Bài viết có ảnh thumbnail và ảnh minh họa trong nội dung từ Unsplash CDN; ảnh chỉ mang tính minh họa, không khẳng định là ảnh trực tiếp của sự kiện. Nếu ảnh không tải được do mạng/CDN, cần thay URL bằng ảnh đã kiểm tra trước khi xuất bản.
-- Trang chủ hiện có ba bài mẫu biên tập độc lập dựa trên thông tin được đăng trên các trang chính thức của NASA và Cổng Thông tin điện tử Chính phủ Việt Nam. Đây là nội dung cụ thể có nguồn dẫn, không phải thông báo thử nghiệm. Trước khi xuất bản thương mại, vẫn cần rà soát lại từng dữ kiện, quyền sử dụng và điều khoản nguồn.
-- Trước khi bật quảng cáo, cần rà soát chất lượng nội dung và các chính sách áp dụng.
-
-
-## Nội dung mẫu trong bản cập nhật 22/10/2026
-
-- `data/articles.json` có 40 bài: 30 bài thuộc kỳ tin từ 22/09 đến 22/10/2026 và 10 bài nhìn lại sự kiện tháng 10/2025. Mỗi bài có phần nội dung khoảng 650 từ trở lên; độ dài có thể tiếp tục điều chỉnh sau khi biên tập dữ kiện.
-- Ngày hiển thị lấy từ `published_at`, không tự đổi sang ngày người dùng mở trang.
-- Trường SEO mỗi bài gồm `seo_title`, `meta_description`, `keywords`, `slug`, `image_thumbnail`, `image_alt` và `images`. Trang chi tiết tạo meta description, keywords, Open Graph, Twitter Card và JSON-LD NewsArticle từ dữ liệu bài.
-- Chuyên mục **Nhìn lại** được hiển thị riêng để tránh trình bày tin năm 2025 như tin nóng hiện tại.
-- Workflow vẫn chỉ thu thập đầu mối RSS vào `data/pending.json`; không tự động xuất bản các đầu mối đó.
-- Một số nguồn chính thức chỉ cung cấp trang danh mục trong trường hợp đường dẫn bài riêng không được xác minh trong lần biên tập này. Hãy mở nguồn trước khi trích dẫn hoặc dùng lại nội dung.
+## Quyền nguồn và chất lượng
+RSS chỉ dùng làm đầu mối. Nội dung bài phải được biên tập độc lập, kiểm chứng nguồn và không sao chép nội dung có bản quyền. Đọc `SOURCE_AND_COPYRIGHT_POLICY.md`.
 
 
-## Category thumbnails
+## Archive policy (GitHub-only)
+The initial 43 articles live in immutable `data/archive_articles.json`. New articles accumulate in `data/articles.json`; after the active batch reaches 30 days, `scripts/rotate_archive.py` closes it into a new immutable JSON file under `data/archive_batches/`. The metadata catalog and manifest update only at rotation time. See `GITHUB_ONLY_ARCHIVE_SPLIT.md`.
 
-News cards use four shared Cloudinary thumbnails based on article category: world, Vietnam, sports, and technology. The thumbnail URL is set in `data/articles.json`; article body illustrations remain in `assets/generated/`.
 
+GitHub Repository Secrets names used by this setup: `GEMINI_API_KEY_APPNHO_NEWS`, `GROK_API_APPNHO_NEWS`, and `OPENROUTER_API_APPNHO_NEWS`. The workflow maps these to runtime environment variables `GEMINI_API_KEY`, `GROQ_API_KEY`, and `OPENROUTER_API_KEY` respectively.
 
-## Article images
-
-Article pages no longer insert category thumbnails or generated SVG artwork into the body. Each of the current 43 articles has a contextual illustrative image URL hosted by Unsplash; captions identify these as illustrative rather than direct event photographs. Category thumbnails remain reserved for listing cards and social preview metadata. The homepage no longer includes the bottom “Đọc tin, hiểu bối cảnh” panel.
+## R5 AI API preflight
+Run Actions → `AppNho News — test AI API keys` → Run workflow. It checks authentication/model discovery only and does not generate an article. The automatic workflow uses only allowlisted Gemini free-tier candidates, Groq Free Plan model IDs, and OpenRouter models with `:free` and zero token pricing; if no eligible model is available it reports failure rather than selecting a paid model.

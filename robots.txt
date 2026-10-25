@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: /sitemap.xml
+Disallow: /admin.html
+# Add the deployed Worker sitemap URL after Cloudflare deployment:
+# Sitemap: https://<deployed-worker-host>/sitemap.xml
