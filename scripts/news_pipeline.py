@@ -143,7 +143,7 @@ def similarity(a,b):
     jac=len(ta&tb)/max(1,len(ta|tb))
     seq=difflib.SequenceMatcher(None,(a or '').lower(),(b or '').lower()).ratio()
     return max(jac,seq*0.72)
-def source_score(item, group_count):
+def source_score(item, group_count, usage_penalty=0):
     score=35
     dt=item.get('source_published_at')
     if dt:
@@ -157,6 +157,9 @@ def source_score(item, group_count):
     if cat in CATEGORY_LABELS: score+=10
     if len(tokens(item.get('discovery_title','')))>=5: score+=5
     if any(x in (item.get('discovery_title','').lower()) for x in ['breaking','cập nhật','kết quả','official','chính thức','ra mắt','ban hành','giành','vô địch']): score+=5
+    # A source used in recent successful publications receives a penalty,
+    # preserving freshness while encouraging editorial variety across runs.
+    score -= min(24, max(0, int(usage_penalty)))
     return min(100,score)
 def slugify(s):
     import unicodedata
@@ -482,8 +485,13 @@ def main():
     if not cursor_map:
         bootstrap=as_utc(INITIAL_WINDOW_START)
         if bootstrap is None: raise ValueError('NEWS_INITIAL_WINDOW_START must be a valid ISO-8601 timestamp')
-        cursor_map={f.get('id') or f.get('url'):bootstrap.isoformat() for f in feeds if f.get('enabled',False)}
-        print(f'[WINDOW] First-run bootstrap starts at {bootstrap.isoformat()} (inclusive lower bound; articles must be newer).')
+        cursor_map.update({f.get('id') or f.get('url'):bootstrap.isoformat() for f in feeds if f.get('enabled',False)})
+        print(f'[WINDOW] First-run bootstrap starts at {bootstrap.isoformat()} (exclusive lower bound; articles must be newer).')
+    source_usage=seen_data.setdefault('source_usage', [])
+    # Only successful publications count toward source diversity; failed runs do not.
+    recent_source_names=[x.get('source_name','') for x in source_usage[-12:] if x.get('source_name')]
+    usage_counts={}
+    for source_name in recent_source_names: usage_counts[source_name]=usage_counts.get(source_name,0)+1
     known_urls={canon(x.get('source_url','')) for x in articles if x.get('source_url')}
     known_titles=[x.get('title','') for x in articles]
     known_urls|={canon(x) for x in seen.keys()}
@@ -532,7 +540,12 @@ def main():
                 g.append(item); placed=True; break
         if not placed: groups.append([item])
     # Prioritize newer items, multi-source corroboration and category balance.
-    groups.sort(key=lambda g: (source_score(g[0],len(g)),g[0].get('source_published_at') or ''),reverse=True)
+    def group_rank(g):
+        # Prefer a fresh corroborated story, but penalize publishers used in recent
+        # successful runs so the front page does not repeatedly favor one outlet.
+        best=max(g, key=lambda x: source_score(x,len(g),usage_counts.get(x.get('source_name',''),0)*8))
+        return (source_score(best,len(g),usage_counts.get(best.get('source_name',''),0)*8), best.get('source_published_at') or '')
+    groups.sort(key=group_rank,reverse=True)
     api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))
     published=0; used_categories=set(); processed_urls=set()
     if not api_keys_present:
@@ -541,7 +554,9 @@ def main():
         for group in groups:
             if published>=MAX_NEW_PER_RUN: break
             # Prefer category diversity per run.
-            group.sort(key=lambda x: bool(x.get('source_published_at')),reverse=True)
+            # Choose the lead source by freshness plus recent source-usage balance.
+            # A recently used source can still win if its report is materially newer.
+            group.sort(key=lambda x: (source_score(x,len(group),usage_counts.get(x.get('source_name',''),0)*8), x.get('source_published_at') or ''), reverse=True)
             mainlead=group[0]
             if mainlead.get('category') in used_categories and len(used_categories)<4: continue
             # Ignore old leads in the current-news stream; historical content is handled separately.
@@ -594,6 +609,10 @@ def main():
                 articles.append(article)
                 active_articles.append(article)
                 published+=1; used_categories.add(article['category'])
+                source_usage.append({'source_name':article.get('source_name',''),'source_url':article.get('source_url',''),'category':article.get('category',''),'article_id':article.get('id'),'published_at':article.get('published_at'),'recorded_at':now_iso()})
+                source_usage=source_usage[-200:]
+                seen_data['source_usage']=source_usage
+                usage_counts[article.get('source_name','')]=usage_counts.get(article.get('source_name',''),0)+1
                 for x in group:
                     x['status']='published' if x['source_url']==article['source_url'] else 'cross_checked_same_event'
                     x['article_id']=article['id']; processed_urls.add(canon(x['source_url']))

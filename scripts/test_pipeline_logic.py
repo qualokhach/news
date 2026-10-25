@@ -15,6 +15,16 @@ class WindowBoundaryTests(unittest.TestCase):
         self.assertFalse(n.is_in_window('', start, end))
         self.assertFalse(n.is_in_window('not-a-date', start, end))
 
+class SourceDiversityTests(unittest.TestCase):
+    def test_recently_used_source_gets_lower_score(self):
+        item={'source_published_at':'2026-10-25T09:00:00+00:00','category':'world','discovery_title':'Important international development with verified details','source_name':'VOV'}
+        base=n.source_score(item, 1, 0)
+        penalized=n.source_score(item, 1, 16)
+        self.assertLess(penalized, base)
+    def test_recent_usage_penalty_is_bounded(self):
+        item={'source_published_at':'2026-10-25T09:00:00+00:00','category':'world','discovery_title':'Important international development with verified details','source_name':'VOV'}
+        self.assertEqual(n.source_score(item, 1, 100), n.source_score(item, 1, 24))
+
 class ModelAllowlistTests(unittest.TestCase):
     def test_gemini_only_current_allowlisted_free_models(self):
         os.environ['GEMINI_API_KEY']='test'

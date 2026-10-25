@@ -1,22 +1,26 @@
-# AppNho News R6 — revised audit report (before commit)
+# AppNho News R6 — corrective audit report
 
-## Changes in this revision
-- Added per-feed publication-time windows in `scripts/news_pipeline.py`.
-- Each enabled feed reads its own `feed_cursors` timestamp. Candidate publication time must satisfy `cursor < published_at <= run_started_at`.
-- Default first-run boundary for this repository: `2026-10-24T06:00:00+07:00` (Vietnam time). Set the `NEWS_INITIAL_WINDOW_START` environment variable to override it before the first run.
-- Missing/invalid source publication timestamps are skipped with an explicit log; they are not counted as fresh.
-- Successful feed fetch + XML parse advances only that feed's cursor. A failed feed retains its prior cursor, allowing catch-up on a later run.
-- Cursor state and pending leads are persisted together in `data/seen_items.json` and `data/pending.json` at the end of the pipeline. A workflow failure before the script writes state does not persist a new cursor.
-- Added boundary tests to ensure the start is exclusive and the run-time upper bound inclusive.
+## Issue observed in GitHub Actions
+Run #11 completed collection, article pipeline, archive rotation, and sitemap/RSS rebuild steps, then failed at `Commit updated articles and state` with:
+`fatal: pathspec 'data/archive_batches' did not match any files`.
 
-## Local validation
-- `python -m py_compile scripts/*.py`: PASS.
-- `python scripts/test_pipeline_logic.py`: PASS (5 tests).
-- Feed config JSON parses and configured URLs are unique: PASS.
-- Workflow wiring reviewed: feed audit, AI pipeline, archive rotation, metadata rebuild, and commit step.
+## Corrections applied
+1. Workflow commit now stages `data/`, `sitemap.xml`, and `feed.xml` recursively. The commit no longer fails just because an optional archive batch directory has no files.
+2. First-run per-feed cursor initialization now updates the persisted `feed_cursors` dictionary correctly.
+3. Publication-time window stays strict: `cursor < source_published_at <= run_started_at`. Missing/invalid publication dates are skipped with a diagnostic.
+4. Source diversity is tracked across successful publications in `data/seen_items.json` under `source_usage`, bounded to 200 recent records. Recent use lowers a source's selection score by a capped penalty; freshness and cross-source corroboration remain in scoring.
+5. Source usage history is recorded only after a validated article is appended successfully, not for failed or rejected generations.
+6. Added tests for the source diversity scoring penalty.
 
-## Limitations and deployment verification
-- This environment has no outbound internet access, so live HTTP/XML status of all configured feeds cannot be confirmed here. GitHub Actions must run `scripts/audit_feeds.py` and the report `data/feed_health.json` must be inspected.
-- Unit tests cover window boundaries but do not prove real-world RSS timestamps are accurate. Sources that omit or misstate publication timestamps will be skipped or may require source-specific parser adjustments.
-- The first-run bootstrap defaults to the user's stated example boundary (2026-10-24 06:00 Vietnam time). Confirm this is the desired initial boundary if the actual last successfully completed publication window differs.
-- The pipeline does not promise that every discovered item will be published: deduplication, evidence checks, AI quality validation, and the per-run article cap still apply.
+## Local tests
+- `python -m py_compile scripts/news_pipeline.py scripts/audit_feeds.py scripts/rotate_archive.py scripts/build_metadata.py scripts/test_pipeline_logic.py`: PASS.
+- `python scripts/test_pipeline_logic.py`: PASS, 7 tests.
+- Workflow YAML parse: PASS.
+- 50 configured feed URLs are unique and the JSON parses: PASS.
+- ZIP archive integrity: PASS.
+
+## Limitations
+This is local/static validation. Live feed health and API-based article generation cannot be claimed until the revised workflow runs in GitHub Actions with the repository's configured secrets. Feed endpoints may still fail individually; `data/feed_health.json` records these results and the pipeline should continue past individual feed failures.
+
+## Deployment note
+This package is a full repository snapshot. Preserve newer article/archive data if any data was created after the snapshot was built; do not overwrite newer production data with older JSON. GitHub Secrets are repository settings and are not included in ZIP files.
