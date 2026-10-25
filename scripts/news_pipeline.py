@@ -18,7 +18,7 @@ ARTICLES = ROOT / 'data/articles.json'
 ARCHIVE = ROOT / 'data/archive_articles.json'
 PENDING = ROOT / 'data/pending.json'
 SEEN = ROOT / 'data/seen_items.json'
-TIMEOUT = 18
+TIMEOUT = 8
 UA = 'AppNhoNewsBot/1.0 (+https://github.com/qualokhach/news)'
 MAX_NEW_PER_RUN = int(os.getenv('MAX_ARTICLES_PER_RUN', '4'))
 MAX_PENDING = 5000
@@ -37,7 +37,21 @@ CATEGORY_LABELS = {'world':'Thế giới','vietnam':'Việt Nam','sports':'Thể
 STOP = set('và là của có cho trong với một những các được từ đến khi tại về theo sau trước đang đã sẽ này đó như nhưng vì để nếu thì hoặc cũng vào hơn rất nhiều người ngày năm tháng tin bài thông tin'.split())
 
 
+# Bootstrap boundary for this repository's first windowed run. Vietnam time 2026-10-24 06:00.
+# Once feed_cursors exists, each source advances independently only after its feed parses.
+INITIAL_WINDOW_START = os.getenv('NEWS_INITIAL_WINDOW_START', '2026-10-24T06:00:00+07:00')
+
 def now_iso(): return datetime.now(timezone.utc).isoformat()
+def as_utc(value):
+    if not value: return None
+    try:
+        dt=datetime.fromisoformat(str(value).replace('Z','+00:00'))
+        if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception: return None
+def is_in_window(published_at, window_start, window_end):
+    published=as_utc(published_at); start=as_utc(window_start); end=as_utc(window_end)
+    return bool(published and start and end and start < published <= end)
 def clean(s):
     s = html.unescape(s or '')
     s = re.sub(r'<[^>]+>', ' ', s)
@@ -461,26 +475,49 @@ def main():
     original_ids={str(a.get('id')) for a in articles if a.get('id')}
     if isinstance(seen_data,list): seen_data={'items':{x.get('source_url'):x for x in seen_data if x.get('source_url')},'last_run':None}
     seen=seen_data.setdefault('items',{})
+    # Window boundaries are stored per feed. A failed feed keeps its previous cursor,
+    # allowing it to catch up next run without blocking healthy feeds.
+    run_started=datetime.now(timezone.utc)
+    cursor_map=seen_data.setdefault('feed_cursors',{})
+    if not cursor_map:
+        bootstrap=as_utc(INITIAL_WINDOW_START)
+        if bootstrap is None: raise ValueError('NEWS_INITIAL_WINDOW_START must be a valid ISO-8601 timestamp')
+        cursor_map={f.get('id') or f.get('url'):bootstrap.isoformat() for f in feeds if f.get('enabled',False)}
+        print(f'[WINDOW] First-run bootstrap starts at {bootstrap.isoformat()} (inclusive lower bound; articles must be newer).')
     known_urls={canon(x.get('source_url','')) for x in articles if x.get('source_url')}
     known_titles=[x.get('title','') for x in articles]
     known_urls|={canon(x) for x in seen.keys()}
     pending_urls={canon(x.get('source_url','')) for x in pending}
-    found=[]; failures=0
+    found=[]; failures=0; successful_feeds=0
     for feed in feeds:
         if not feed.get('enabled',False): continue
+        feed_key=feed.get('id') or feed.get('url')
+        cursor=as_utc(cursor_map.get(feed_key)) or as_utc(INITIAL_WINDOW_START)
         try:
             payload=fetch(feed['url'],accept='application/rss+xml, application/atom+xml, application/xml, text/xml,*/*;q=0.5',limit=2_000_000)
             items=parse_feed(payload,feed)
-            print(f"[OK] {feed['name']}: {len(items)} feed items")
+            successful_feeds+=1
+            print(f"[OK] {feed['name']}: {len(items)} feed items; window ({cursor.isoformat()}, {run_started.isoformat()}]")
             for item in items:
+                published_at=as_utc(item.get('source_published_at'))
+                # Do not treat undated entries as fresh. Leave them unmarked so a later
+                # valid feed entry can still be discovered; emit an explicit diagnostic.
+                if published_at is None:
+                    print(f"[SKIP] Missing/invalid publication date: {feed['name']} | {item['discovery_title'][:100]}")
+                    continue
+                if not is_in_window(item.get('source_published_at'), cursor, run_started):
+                    continue
                 u=canon(item['source_url'])
                 if u in pending_urls or u in known_urls: continue
                 # Prevent obvious title duplicates against already published stories.
                 if any(similarity(item['discovery_title'],t)>0.76 for t in known_titles):
                     seen[u]={'id':item['id'],'source_url':u,'title':item['discovery_title'],'status':'duplicate_title','seen_at':now_iso()}; continue
                 found.append(item); pending_urls.add(u)
+            # Advance only this feed after a successful HTTP fetch and XML parse. The cursor
+            # and newly queued items are persisted together at the end of this workflow step.
+            cursor_map[feed_key]=run_started.isoformat()
         except Exception as e:
-            failures+=1; print(f"[WARN] Feed failed {feed.get('name')}: {type(e).__name__}: {e}")
+            failures+=1; print(f"[WARN] Feed failed {feed.get('name')}; cursor retained at {cursor.isoformat()}: {type(e).__name__}: {e}")
     # Save discovery history before editorial processing; dedupe by canonical URL.
     for x in found:
         u=canon(x['source_url']); seen[u]={'id':x['id'],'source_url':u,'title':x['discovery_title'],'source_name':x['source_name'],'category':x['category'],'first_seen_at':now_iso(),'status':'queued'}
@@ -571,7 +608,8 @@ def main():
     # Persist and cap files; never discard queued items without status.
     pending.sort(key=lambda x: x.get('discovered_at',''),reverse=True)
     pending=pending[:MAX_PENDING]
-    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds':len([f for f in feeds if f.get('enabled')]),'new_leads':len(found),'published':published,'feed_failures':failures,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))}
+    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))}
+    seen_data['last_run_window_end']=run_started.isoformat() if successful_feeds else seen_data.get('last_run_window_end')
     # Retain recent source URLs so deduplication stays bounded without silently losing all history.
     if len(seen)>20000:
         ranked=sorted(seen.items(), key=lambda kv: kv[1].get('seen_at') or kv[1].get('first_seen_at') or '', reverse=True)

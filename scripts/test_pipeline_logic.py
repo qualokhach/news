@@ -2,6 +2,19 @@
 import os, json, unittest
 from unittest.mock import patch
 import news_pipeline as n
+class WindowBoundaryTests(unittest.TestCase):
+    def test_window_is_open_at_start_and_closed_at_run_time(self):
+        start='2026-10-24T06:00:00+07:00'
+        end='2026-10-24T17:00:00+07:00'
+        self.assertFalse(n.is_in_window('2026-10-24T06:00:00+07:00', start, end))
+        self.assertTrue(n.is_in_window('2026-10-24T06:00:01+07:00', start, end))
+        self.assertTrue(n.is_in_window('2026-10-24T17:00:00+07:00', start, end))
+        self.assertFalse(n.is_in_window('2026-10-24T17:00:01+07:00', start, end))
+    def test_missing_or_invalid_publication_date_is_not_fresh(self):
+        start='2026-10-24T06:00:00+07:00'; end='2026-10-24T17:00:00+07:00'
+        self.assertFalse(n.is_in_window('', start, end))
+        self.assertFalse(n.is_in_window('not-a-date', start, end))
+
 class ModelAllowlistTests(unittest.TestCase):
     def test_gemini_only_current_allowlisted_free_models(self):
         os.environ['GEMINI_API_KEY']='test'
