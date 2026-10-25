@@ -22,6 +22,8 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Audit feed health (continue when individual sources fail)
+        run: python scripts/audit_feeds.py
       - name: Collect, write and publish to GitHub JSON archive
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
@@ -37,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches data/pending.json data/seen_items.json sitemap.xml feed.xml
+          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches data/pending.json data/seen_items.json data/feed_health.json sitemap.xml feed.xml
           if git diff --cached --quiet; then
             echo "No repository data changes to commit."
           else
