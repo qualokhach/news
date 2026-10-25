@@ -45,3 +45,9 @@ body{font-size:16px;line-height:1.65;background:#f6f8fb}
 .article-content .article-figure img{display:block;width:100%;max-height:460px;object-fit:cover;border-radius:14px}
 .article-content .article-figure figcaption{font-size:12px;line-height:1.5;color:var(--muted);margin-top:8px}
 .article-content .article-figure figcaption a{color:inherit;text-decoration:underline}
+/* R8: dedicated category view and accessible load-more control */
+.category-page-grid{margin-top:20px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.load-more{display:block;margin:22px auto 4px;padding:12px 22px;border:1px solid #cbd8e5;border-radius:12px;background:#fff;color:#155eef;font:inherit;font-weight:800;cursor:pointer}
+.load-more:hover{background:#eef4ff;border-color:#155eef}
+#backToHome{display:inline-block;margin-top:12px}
+@media(max-width:600px){.category-page-grid{grid-template-columns:1fr}}
