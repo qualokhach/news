@@ -4,7 +4,7 @@ import json, html
 from pathlib import Path
 from datetime import datetime, timezone
 ROOT=Path(__file__).resolve().parents[1]
-BASE="https://qualokhach.github.io/news/"
+BASE="https://appnho.io.vn/news/"
 active=json.loads((ROOT/"data/articles.json").read_text(encoding="utf-8"))
 archive_path=ROOT/"data/archive_articles.json"
 archive=json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else []
