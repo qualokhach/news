@@ -539,12 +539,33 @@ def main():
             if any(similarity(item['discovery_title'],y['discovery_title'])>=0.34 for y in g):
                 g.append(item); placed=True; break
         if not placed: groups.append([item])
+    # Prioritize categories with the fewest articles published today (Vietnam time),
+    # then freshness/corroboration. This is a preference, not a reason to publish weak news.
+    from zoneinfo import ZoneInfo
+    vn_today = datetime.now(ZoneInfo('Asia/Ho_Chi_Minh')).date()
+    daily_category_counts = {category: 0 for category in CATEGORY_LABELS}
+    counted_article_ids = set()
+    for existing in articles:
+        existing_id = str(existing.get('id') or '')
+        # archive_catalog mirrors archived records; count each published article only once.
+        if existing_id and existing_id in counted_article_ids:
+            continue
+        if existing_id:
+            counted_article_ids.add(existing_id)
+        published_at = as_utc(existing.get('published_at'))
+        if published_at and published_at.astimezone(ZoneInfo('Asia/Ho_Chi_Minh')).date() == vn_today:
+            category = existing.get('category')
+            if category in daily_category_counts:
+                daily_category_counts[category] += 1
     # Prioritize newer items, multi-source corroboration and category balance.
     def group_rank(g):
         # Prefer a fresh corroborated story, but penalize publishers used in recent
         # successful runs so the front page does not repeatedly favor one outlet.
         best=max(g, key=lambda x: source_score(x,len(g),usage_counts.get(x.get('source_name',''),0)*8))
-        return (source_score(best,len(g),usage_counts.get(best.get('source_name',''),0)*8), best.get('source_published_at') or '')
+        category = best.get('category')
+        # Deficit rank gives a meaningful preference to underrepresented categories.
+        deficit = -daily_category_counts.get(category, 0)
+        return (deficit, source_score(best,len(g),usage_counts.get(best.get('source_name',''),0)*8), best.get('source_published_at') or '')
     groups.sort(key=group_rank,reverse=True)
     api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))
     published=0; used_categories=set(); processed_urls=set(); generation_attempts=0; ai_responses=0; generation_failures=0
@@ -610,7 +631,7 @@ def main():
                     continue
                 articles.append(article)
                 active_articles.append(article)
-                published+=1; used_categories.add(article['category'])
+                published+=1; used_categories.add(article['category']); daily_category_counts[article['category']] = daily_category_counts.get(article['category'], 0) + 1
                 source_usage.append({'source_name':article.get('source_name',''),'source_url':article.get('source_url',''),'category':article.get('category',''),'article_id':article.get('id'),'published_at':article.get('published_at'),'recorded_at':now_iso()})
                 source_usage=source_usage[-200:]
                 seen_data['source_usage']=source_usage
