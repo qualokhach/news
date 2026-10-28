@@ -9,8 +9,10 @@ on:
       - 'scripts/**'
       - 'config/feeds.json'
   schedule:
-    # 06:00 and 17:00 Vietnam time (UTC+7); GitHub may start a few minutes late.
-    - cron: "0 23,10 * * *"
+    # 06:00, 12:00 and 17:00 Vietnam time (UTC+7); GitHub may start a few minutes late.
+    - cron: "0 23 * * *"
+    - cron: "0 5 * * *"
+    - cron: "0 10 * * *"
 permissions:
   contents: write
 concurrency:
@@ -51,8 +53,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
           GROQ_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
-          MAX_ARTICLES_PER_RUN: "4"
+          MAX_ARTICLES_PER_RUN: ${{ github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' && '0' || '4' }}
         run: python scripts/news_pipeline.py
+      - name: Create noon digest (only at 05:00 UTC / 12:00 Vietnam time)
+        if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *'
+        run: python scripts/create_digest.py
       - name: Verify pipeline actually reached feeds and AI configuration
         run: python scripts/check_run_health.py
       - name: Summarize article generation result
