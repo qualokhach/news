@@ -40,6 +40,19 @@ def audit_internal_links():
     assert not errors, "Internal link audit failed:\n"+"\n".join(errors[:30])
     print(f"LINK AUDIT PASS: checked {sum(len(p.hrefs) for p in parsed.values())} local/external anchors across {len(parsed)} HTML pages")
 
+GA_ID="G-K9C4KKZPEE"
+def audit_shell_and_analytics():
+    """Every public page must carry the shared AppNho header/footer and the GA4 tag (G-K9C4KKZPEE).
+    Articles (including auto-published ones) are rendered by article.html?id=<id>, so covering the HTML pages covers all articles."""
+    errors=[]
+    for p in sorted(ROOT.glob("*.html")):
+        text=p.read_text(encoding="utf-8")
+        if GA_ID not in text: errors.append(f"{p.name}: missing GA4 tag {GA_ID}")
+        if "APPNHO-SHELL:HEADER:START" not in text: errors.append(f"{p.name}: missing shared AppNho header")
+        if "APPNHO-SHELL:FOOTER:START" not in text: errors.append(f"{p.name}: missing shared AppNho footer")
+    assert not errors, "Shared header/footer/analytics audit failed:\n"+"\n".join(errors)
+    print(f"SHELL+GA4 AUDIT PASS: {len(list(ROOT.glob('*.html')))} HTML pages")
+
 def main():
     required=["index.html","article.html","about.html","assets/app.js","assets/article.js","assets/style.css",".github/workflows/build-news.yml"]
     for name in required:
@@ -98,6 +111,7 @@ def main():
     assert '.category-hero' in (ROOT/"assets/style.css").read_text(encoding="utf-8"), "Category hero styling is missing"
     article_js=(ROOT/"assets/article.js").read_text(encoding="utf-8")
     assert "data/archive_manifest.json" in article_js, "Article page does not load archive manifest"
+    audit_shell_and_analytics()
     audit_internal_links()
     workflow=(ROOT/".github/workflows/build-news.yml").read_text(encoding="utf-8")
     assert "schedule:" in workflow and 'cron: "0 23,10 * * *"' in workflow, "Expected twice-daily VN schedule missing"
