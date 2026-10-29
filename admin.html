@@ -1,5 +1,22 @@
 <!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+/* AppNho News: chỉ phục vụ qua appnho.io.vn — khách vào bằng địa chỉ github.io được chuyển sang appnho.io.vn */
+(function () {
+  if (/\.github\.io$/.test(location.hostname)) {
+    location.replace('https://appnho.io.vn' + location.pathname + location.search + location.hash);
+    return;
+  }
+  try {
+    if (!document.querySelector('link[rel="canonical"]')) {
+      var c = document.createElement('link');
+      c.rel = 'canonical';
+      c.href = 'https://appnho.io.vn' + location.pathname + (/article/.test(location.pathname) ? location.search : '');
+      document.head.appendChild(c);
+    }
+  } catch (e) {}
+})();
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9C4KKZPEE"></script>
 <script>

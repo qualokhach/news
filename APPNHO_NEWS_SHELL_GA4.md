@@ -13,3 +13,9 @@
 - Bài viết (kể cả bài tự động đăng sau này) đều mở qua article.html?id=<id> nên được ghi tự động, không cần làm gì thêm.
 - assets/appnho-analytics.js: gửi page_view sau khi trang đã đặt tiêu đề (để GA4 hiện đúng tên từng bài); có đồng hồ dự phòng 6 giây.
 - scripts/audit_site.py kiểm tra mọi *.html phải có GA4 + header/footer chung; thêm trang mới mà thiếu thì audit báo lỗi.
+
+## Chỉ dùng địa chỉ appnho.io.vn/news/
+- Không thể tắt hẳn qualokhach.github.io/news/ vì appnho.io.vn đang lấy nội dung từ chính địa chỉ đó (qua vercel.json của repo appnho).
+- Thay vào đó, mỗi trang có đoạn script đầu <head>: ai vào bằng *.github.io sẽ được chuyển ngay sang https://appnho.io.vn/news/...
+  (chạy trước GA4 nên lượt vào github.io không bị tính). Trang chưa có <link rel="canonical"> sẽ được gắn canonical về appnho.io.vn.
+- Đừng đổi hoặc bỏ đoạn script này khi thêm trang HTML mới; audit_site.py sẽ báo lỗi nếu thiếu.
