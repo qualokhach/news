@@ -1,0 +1,8 @@
+/* Cầu nối giữa style.css của News và header/footer dùng chung với AppNho.
+   style.css cũ ẩn .site-header (display:none!important) nên cần ghi đè để header AppNho hiện ra. */
+body > header.site-header.appnho-site-header{display:flex!important}
+/* Tránh các luật chung của News làm lệch header/footer AppNho */
+.appnho-site-header .brand{white-space:normal}
+.appnho-footer a{overflow-wrap:normal}
+.appnho-footer h3{margin-top:5px}
+.appnho-footer p{margin-bottom:0}
