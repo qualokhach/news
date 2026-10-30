@@ -20045,7 +20045,7 @@
       "source_name": "Euronews - World",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.657796+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.euronews.com/video/2026/10/27/israel-october-7-families-remember-victims-as-voters-head-to-polls": {
       "id": "bfc43e3fa0299c471627",
@@ -20054,7 +20054,7 @@
       "source_name": "Euronews - World",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.657801+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.euronews.com/video/2026/10/27/latest-news-bulletin-october-27th-2026-morning": {
       "id": "23671179cb1b07ed56dc",
@@ -42622,7 +42622,8 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-10-30T07:34:28.706378+00:00",
-      "status": "queued"
+      "status": "published",
+      "article_id": "ca-mau-ghi-nhan-cac-ca-tu-vong-do-viem-nao-mo-cau-nganh-y-te-khan-truong-b5a5ea31"
     },
     "https://thanhnien.vn/vnvc-trien-khai-vac-xin-cum-chuyen-biet-cho-nguoi-cao-tuoi-nguoi-co-benh-nen-185261030140108043.htm": {
       "id": "4453a242b2db2f496d83",
@@ -42730,7 +42731,8 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-10-30T07:34:28.706441+00:00",
-      "status": "queued"
+      "status": "cross_checked_same_event",
+      "article_id": "ca-mau-ghi-nhan-cac-ca-tu-vong-do-viem-nao-mo-cau-nganh-y-te-khan-truong-b5a5ea31"
     },
     "https://thanhnien.vn/den-phuong-lam-thu-tuc-hanh-chinh-nguoi-dan-hue-duoc-moi-ca-phe-mien-phi-185261030104343063.htm": {
       "id": "d99520c0eba746358849",
@@ -43392,7 +43394,8 @@
       "source_name": "France 24 - English",
       "category": "world",
       "first_seen_at": "2026-10-30T07:34:28.706879+00:00",
-      "status": "queued"
+      "status": "published",
+      "article_id": "nga-tan-cong-ha-tang-nang-luong-kyiv-no-luc-nhan-ao-tai-oleshky-tiep-die-3b08ebae"
     },
     "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests": {
       "id": "86a715e4e7f5f1fde257",
@@ -44015,7 +44018,8 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-10-30T07:34:28.707253+00:00",
-      "status": "queued"
+      "status": "published",
+      "article_id": "du-oan-cac-thuong-vu-chuyen-nhuong-tiem-nang-tai-nba-rockets-va-pistons--a05696b3"
     },
     "https://www.sportingnews.com/us/nba/detroit-pistons/news/pistons-predicted-trade-ex-heat-120m-sniper-finals-experience-address-major-need/275ad13466a64a63639668a4": {
       "id": "402c0248c5c48928e1d0",
@@ -44024,7 +44028,8 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-10-30T07:34:28.707258+00:00",
-      "status": "queued"
+      "status": "cross_checked_same_event",
+      "article_id": "du-oan-cac-thuong-vu-chuyen-nhuong-tiem-nang-tai-nba-rockets-va-pistons--a05696b3"
     },
     "https://www.sportingnews.com/us/mlb/milwaukee-brewers/news/watch-brewers-parade-start-time-channels-streams-world-series/63608f803e1aaa8e1200149a": {
       "id": "0629534e341b678236d4",
@@ -44254,7 +44259,8 @@
       "source_name": "BBC - Business",
       "category": "world",
       "first_seen_at": "2026-10-30T08:09:26.738402+00:00",
-      "status": "queued"
+      "status": "published",
+      "article_id": "suc-manh-cua-hoai-niem-trong-chien-luoc-lam-lai-tro-choi-ien-tu-0d5b569e"
     },
     "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates": {
       "id": "a1175a7f31c4177d2940",
@@ -44409,16 +44415,196 @@
       "category": "sports",
       "first_seen_at": "2026-10-30T08:09:26.738510+00:00",
       "status": "queued"
+    },
+    "https://thanhnien.vn/hai-hoc-sinh-mien-nui-quang-tri-sang-tao-may-diem-danh-dien-tu-185261030102356979.htm": {
+      "id": "1c8663ee7e38ff951b35",
+      "source_url": "https://thanhnien.vn/hai-hoc-sinh-mien-nui-quang-tri-sang-tao-may-diem-danh-dien-tu-185261030102356979.htm",
+      "title": "Hai học sinh miền núi Quảng Trị sáng tạo máy điểm danh điện tử",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070055+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/vi-sao-vinh-long-vua-tiep-nhan-628-cong-chuc-phai-len-ke-hoach-giam-881-nguoi-185261030133852494.htm": {
+      "id": "9b803423f03ad9d6ebf5",
+      "source_url": "https://thanhnien.vn/vi-sao-vinh-long-vua-tiep-nhan-628-cong-chuc-phai-len-ke-hoach-giam-881-nguoi-185261030133852494.htm",
+      "title": "Vì sao Vĩnh Long vừa tiếp nhận 628 công chức, phải lên kế hoạch giảm 881 người?",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070067+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/bo-kho-vao-top-100-mon-ham-ngon-nhat-the-gioi-muon-thuong-thuc-thi-den-dau-185261030132525417.htm": {
+      "id": "863aad76c2b325e70427",
+      "source_url": "https://thanhnien.vn/bo-kho-vao-top-100-mon-ham-ngon-nhat-the-gioi-muon-thuong-thuc-thi-den-dau-185261030132525417.htm",
+      "title": "Bò kho vào top 100 món hầm ngon nhất thế giới, muốn thưởng thức thì đến đâu?",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070072+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/hiem-hoa-tai-nan-giao-thong-o-tphcm-nguy-hiem-tu-vong-xoay-quoc-lo-185261030135323422.htm": {
+      "id": "77db4132598a8a3ff342",
+      "source_url": "https://thanhnien.vn/hiem-hoa-tai-nan-giao-thong-o-tphcm-nguy-hiem-tu-vong-xoay-quoc-lo-185261030135323422.htm",
+      "title": "Hiểm họa tai nạn giao thông ở TP.HCM: Nguy hiểm từ vòng xoay, quốc lộ",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070076+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/nang-cao-chat-luong-quan-tri-dia-phuong-o-mo-hinh-chinh-quyen-dia-phuong-2-cap-185261030134635635.htm": {
+      "id": "3857d92a0deebfee5817",
+      "source_url": "https://thanhnien.vn/nang-cao-chat-luong-quan-tri-dia-phuong-o-mo-hinh-chinh-quyen-dia-phuong-2-cap-185261030134635635.htm",
+      "title": "Nâng cao chất lượng quản trị địa phương ở mô hình chính quyền địa phương 2 cấp",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070080+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/han-my-tap-tran-gioi-tuyen-lien-trieu-chua-het-cang-thang-185261030144846697.htm": {
+      "id": "ccb93a8e4f9476f9b59a",
+      "source_url": "https://thanhnien.vn/han-my-tap-tran-gioi-tuyen-lien-trieu-chua-het-cang-thang-185261030144846697.htm",
+      "title": "Hàn - Mỹ tập trận, giới tuyến liên Triều chưa hết căng thẳng",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070084+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/tai-thiet-vinh-hung-phai-giai-bai-toan-hai-hoa-loi-ich-cong-tu-dan-18526103014535577.htm": {
+      "id": "c04deedbfa06142dc4d2",
+      "source_url": "https://thanhnien.vn/tai-thiet-vinh-hung-phai-giai-bai-toan-hai-hoa-loi-ich-cong-tu-dan-18526103014535577.htm",
+      "title": "Tái thiết Vĩnh Hưng phải giải bài toán hài hòa lợi ích công - tư - dân",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:27:06.070089+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/news/2026/10/30/kenyas-2029-world-athletics-bid-a-win-for-africa-under-scrutiny?traffic_source=rss": {
+      "id": "996fdf2efea3aa8a61f9",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/kenyas-2029-world-athletics-bid-a-win-for-africa-under-scrutiny?traffic_source=rss",
+      "title": "Kenya’s 2029 World Athletics bid: A win for Africa under scrutiny",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070096+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/european-shares-dip-as-amazon-intel-stoke-ai-cashburn-fears-4985916": {
+      "id": "dbdac898b61a92266f7f",
+      "source_url": "https://www.investing.com/news/stock-market-news/european-shares-dip-as-amazon-intel-stoke-ai-cashburn-fears-4985916",
+      "title": "European shares dip as Amazon, Intel stoke AI cash-burn fears",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070101+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/spains-inflation-rate-holds-steady-at-49-in-october-93CH-4986015": {
+      "id": "c8cb795826b56a3f1800",
+      "source_url": "https://www.investing.com/news/stock-market-news/spains-inflation-rate-holds-steady-at-49-in-october-93CH-4986015",
+      "title": "Spain’s inflation rate holds steady at 4.9% in October",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070105+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/earnings/spie-organic-growth-accelerates-as-northwest-europe-delivers-surprise-rebound-4985999": {
+      "id": "70fa9c21096a25912d03",
+      "source_url": "https://www.investing.com/news/earnings/spie-organic-growth-accelerates-as-northwest-europe-delivers-surprise-rebound-4985999",
+      "title": "SPIE organic growth accelerates as North-West Europe delivers surprise rebound",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070110+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/citizens-downgrades-reddit-stock-rating-on-user-growth-concerns-93CH-4985995": {
+      "id": "60e6fd51999efd55bfd4",
+      "source_url": "https://www.investing.com/news/analyst-ratings/citizens-downgrades-reddit-stock-rating-on-user-growth-concerns-93CH-4985995",
+      "title": "Citizens downgrades Reddit stock rating on user growth concerns",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070114+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/td-cowen-downgrades-hershey-stock-rating-on-sales-outlook-concerns-93CH-4985993": {
+      "id": "eb8c5a085448de657954",
+      "source_url": "https://www.investing.com/news/analyst-ratings/td-cowen-downgrades-hershey-stock-rating-on-sales-outlook-concerns-93CH-4985993",
+      "title": "TD Cowen downgrades Hershey stock rating on sales outlook concerns",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070119+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/cantor-downgrades-instacart-stock-rating-on-doordash-acquisition-93CH-4985991": {
+      "id": "6b3f027f033b8cc58146",
+      "source_url": "https://www.investing.com/news/analyst-ratings/cantor-downgrades-instacart-stock-rating-on-doordash-acquisition-93CH-4985991",
+      "title": "Cantor downgrades Instacart stock rating on DoorDash acquisition",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070122+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/keybanc-downgrades-coursera-stock-rating-on-softer-demand-outlook-93CH-4985992": {
+      "id": "1830a02291cec81eb226",
+      "source_url": "https://www.investing.com/news/analyst-ratings/keybanc-downgrades-coursera-stock-rating-on-softer-demand-outlook-93CH-4985992",
+      "title": "KeyBanc downgrades Coursera stock rating on softer demand outlook",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070126+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/baird-downgrades-bright-horizons-stock-rating-on-childcare-woes-93CH-4985990": {
+      "id": "19e2abc1e15b5af06d08",
+      "source_url": "https://www.investing.com/news/analyst-ratings/baird-downgrades-bright-horizons-stock-rating-on-childcare-woes-93CH-4985990",
+      "title": "Baird downgrades Bright Horizons stock rating on childcare woes",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070131+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/why-is-natwest-stock-sliding-today-93CH-4985989": {
+      "id": "69b0cad7c2359375a03f",
+      "source_url": "https://www.investing.com/news/stock-market-news/why-is-natwest-stock-sliding-today-93CH-4985989",
+      "title": "Why is NatWest stock sliding today?",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:27:06.070135+00:00",
+      "status": "queued"
+    },
+    "https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft": {
+      "id": "2143767e827cd8649467",
+      "source_url": "https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft",
+      "title": "Binance hacked for an estimated $6.3 billion in record crypto theft",
+      "source_name": "Engadget - All",
+      "category": "technology",
+      "first_seen_at": "2026-10-30T08:27:06.070139+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/sport/olympics/articles/c6ewe794nd2do?at_medium=RSS&at_campaign=rss": {
+      "id": "875423bb6fae5a21f051",
+      "source_url": "https://www.bbc.co.uk/sport/olympics/articles/c6ewe794nd2do?at_medium=RSS&at_campaign=rss",
+      "title": "From lifeguard to world champion - Stewart savours title",
+      "source_name": "BBC Sport - All",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:27:06.070143+00:00",
+      "status": "queued"
+    },
+    "https://www.sportingnews.com/us/ncaa-football/news/why-college-gameday-minnesota-indiana-week-9/c6412cc3c8ab85035319a9dd": {
+      "id": "0662494725de9f08283a",
+      "source_url": "https://www.sportingnews.com/us/ncaa-football/news/why-college-gameday-minnesota-indiana-week-9/c6412cc3c8ab85035319a9dd",
+      "title": "Why is 'College GameDay' randomly at Minnesota vs. Indiana in Week 9?",
+      "source_name": "Sporting News - Soccer",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:27:06.070147+00:00",
+      "status": "queued"
     }
   },
-  "last_run": "2026-10-30T08:10:07.988354+00:00",
+  "last_run": "2026-10-30T08:27:38.780151+00:00",
   "last_run_stats": {
     "feeds_enabled": 50,
     "feeds_succeeded": 38,
-    "new_leads_in_window": 39,
+    "new_leads_in_window": 20,
     "published": 4,
     "feed_failures": 12,
-    "window_end_at": "2026-10-30T08:08:45.580685+00:00",
+    "window_end_at": "2026-10-30T08:26:24.686886+00:00",
     "bootstrap_start": "2026-10-24T06:00:00+07:00",
     "api_keys_configured": 3,
     "generation_attempts": 4,
@@ -44427,54 +44613,54 @@
   },
   "feed_cursors": {
     "https://vnexpress.net/rss/thoi-su.rss": "2026-10-23T23:00:00+00:00",
-    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-10-30T08:08:45.580685+00:00",
-    "https://thanhnien.vn/rss/home.rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-10-30T08:26:24.686886+00:00",
+    "https://thanhnien.vn/rss/home.rss": "2026-10-30T08:26:24.686886+00:00",
     "https://www.vietnamplus.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vtv.vn/trang-chu.rss": "2026-10-23T23:00:00+00:00",
-    "https://dantri.com.vn/rss/home.rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://dantri.com.vn/rss/home.rss": "2026-10-30T08:26:24.686886+00:00",
     "https://laodong.vn/rss/home.rss": "2026-10-30T04:28:39.859929+00:00",
-    "https://nld.com.vn/rss/home.rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://nld.com.vn/rss/home.rss": "2026-10-30T08:26:24.686886+00:00",
     "https://tienphong.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vietnamnews.vn/rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.theguardian.com/world/rss": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.aljazeera.com/xml/rss/all.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.npr.org/1001/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://rss.dw.com/rdf/rss-en-all": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.france24.com/en/rss": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.euronews.com/rss?level=theme&name=news": "2026-10-30T08:08:45.580685+00:00",
-    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.bbci.co.uk/news/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.theguardian.com/world/rss": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.aljazeera.com/xml/rss/all.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.npr.org/1001/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://rss.dw.com/rdf/rss-en-all": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.france24.com/en/rss": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.euronews.com/rss?level=theme&name=news": "2026-10-30T08:26:24.686886+00:00",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.bbci.co.uk/news/rss.xml": "2026-10-30T08:26:24.686886+00:00",
     "https://vnexpress.net/rss/kinh-doanh.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.npr.org/1006/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.theguardian.com/business/rss": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.investing.com/rss/news.rss": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.ft.com/world?format=rss": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.economist.com/latest/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.theverge.com/rss/index.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://techcrunch.com/feed/": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.arstechnica.com/arstechnica/index": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.wired.com/feed/rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.npr.org/1006/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.theguardian.com/business/rss": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.investing.com/rss/news.rss": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.ft.com/world?format=rss": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.economist.com/latest/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.theverge.com/rss/index.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://techcrunch.com/feed/": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.arstechnica.com/arstechnica/index": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.wired.com/feed/rss": "2026-10-30T08:26:24.686886+00:00",
     "https://www.nature.com/nature.rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.sciencedaily.com/rss/all.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.nasa.gov/news-release/feed/": "2026-10-30T08:08:45.580685+00:00",
-    "https://news.mit.edu/rss/feed": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.engadget.com/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://blog.google/technology/ai/rss/": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.sciencedaily.com/rss/all.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.nasa.gov/news-release/feed/": "2026-10-30T08:26:24.686886+00:00",
+    "https://news.mit.edu/rss/feed": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.engadget.com/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://blog.google/technology/ai/rss/": "2026-10-30T08:26:24.686886+00:00",
     "https://vnexpress.net/rss/the-thao.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.theguardian.com/uk/sport/rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.theguardian.com/uk/sport/rss": "2026-10-30T08:26:24.686886+00:00",
     "https://www.espn.com/espn/rss/news": "2026-10-23T23:00:00+00:00",
-    "https://www.skysports.com/rss/12040": "2026-10-30T08:08:45.580685+00:00",
-    "https://www.cbssports.com/rss/headlines/soccer/": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.skysports.com/rss/12040": "2026-10-30T08:26:24.686886+00:00",
+    "https://www.cbssports.com/rss/headlines/soccer/": "2026-10-30T08:26:24.686886+00:00",
     "https://olympics.com/en/news/rss": "2026-10-23T23:00:00+00:00",
-    "https://www.sportingnews.com/us/rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.sportingnews.com/us/rss": "2026-10-30T08:26:24.686886+00:00",
     "https://vtv.vn/rss.htm": "2026-10-23T23:00:00+00:00"
   },
   "source_usage": [
@@ -44925,7 +45111,39 @@
       "article_id": "ch-dan-chu-congo-trung-tam-ieu-tri-ebola-tai-ituri-xuat-vien-nhung-benh--f420d682",
       "published_at": "2026-10-30T07:53:54+00:00",
       "recorded_at": "2026-10-30T08:10:06.787522+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/hai-phu-nu-tu-vong-do-viem-nao-mo-cau-ca-mau-truy-tim-nguon-lay-185261030132458475.htm",
+      "category": "vietnam",
+      "article_id": "ca-mau-ghi-nhan-cac-ca-tu-vong-do-viem-nao-mo-cau-nganh-y-te-khan-truong-b5a5ea31",
+      "published_at": "2026-10-30T06:57:00+00:00",
+      "recorded_at": "2026-10-30T08:27:16.757527+00:00"
+    },
+    {
+      "source_name": "BBC - Business",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
+      "category": "technology",
+      "article_id": "suc-manh-cua-hoai-niem-trong-chien-luoc-lam-lai-tro-choi-ien-tu-0d5b569e",
+      "published_at": "2026-10-30T07:45:00+00:00",
+      "recorded_at": "2026-10-30T08:27:24.727942+00:00"
+    },
+    {
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
+      "category": "world",
+      "article_id": "nga-tan-cong-ha-tang-nang-luong-kyiv-no-luc-nhan-ao-tai-oleshky-tiep-die-3b08ebae",
+      "published_at": "2026-10-30T07:28:16+00:00",
+      "recorded_at": "2026-10-30T08:27:31.378267+00:00"
+    },
+    {
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nba/houston-rockets/news/rockets-predicted-trade-112m-defensive-menace-reliable-shooter-pair-kevin-durant/bb5e416246d6253db67014b5",
+      "category": "sports",
+      "article_id": "du-oan-cac-thuong-vu-chuyen-nhuong-tiem-nang-tai-nba-rockets-va-pistons--a05696b3",
+      "published_at": "2026-10-30T05:58:31+00:00",
+      "recorded_at": "2026-10-30T08:27:37.579382+00:00"
     }
   ],
-  "last_run_window_end": "2026-10-30T08:08:45.580685+00:00"
+  "last_run_window_end": "2026-10-30T08:26:24.686886+00:00"
 }
