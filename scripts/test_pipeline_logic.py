@@ -31,11 +31,16 @@ class ModelAllowlistTests(unittest.TestCase):
         payload={'models':[{'name':'models/gemini-3.1-flash-lite','supportedGenerationMethods':['generateContent']},{'name':'models/gemini-3.8-flash','supportedGenerationMethods':['generateContent']},{'name':'models/gemini-2.5-pro','supportedGenerationMethods':['generateContent']}]}
         with patch.object(n,'get_json',return_value=payload):
             self.assertEqual(n.discover_gemini_models(),['gemini-3.1-flash-lite'])
-    def test_groq_excludes_paid_or_unapproved_models(self):
-        os.environ['GROQ_API_KEY']='test'
-        payload={'data':[{'id':'openai/gpt-oss-20b'},{'id':'openai/gpt-oss-120b'},{'id':'qwen/qwen3.8-27b'},{'id':'meta-llama/llama-3.3-70b-versatile'}]}
+    def test_xai_discovers_one_fast_text_model_for_the_key(self):
+        os.environ['XAI_API_KEY']='test'
+        payload={'data':[{'id':'grok-4.1-fast-reasoning'},{'id':'grok-4.1-fast-non-reasoning'},{'id':'grok-4.7'},{'id':'grok-vision-latest'}]}
         with patch.object(n,'get_json',return_value=payload):
-            self.assertEqual(n.discover_groq_models(),['openai/gpt-oss-20b','qwen/qwen3.8-27b','openai/gpt-oss-120b'])
+            self.assertEqual(n.discover_xai_models(),['grok-4.1-fast-non-reasoning'])
+
+    def test_feed_date_reads_namespaced_dc_date(self):
+        import xml.etree.ElementTree as ET
+        node=ET.fromstring('<item xmlns:dc="http://purl.org/dc/elements/1.1/"><title>Test</title><dc:date>2026-10-30T08:00:00+07:00</dc:date></item>')
+        self.assertEqual(n.feed_publication_date(node),'2026-10-30T01:00:00+00:00')
     def test_openrouter_requires_zero_cost_free_variant(self):
         os.environ['OPENROUTER_API_KEY']='test'
         payload={'data':[{'id':'a/model:free','pricing':{'prompt':'0','completion':'0'},'context_length':32000},{'id':'b/model','pricing':{'prompt':'0','completion':'0'},'context_length':32000},{'id':'c/model:free','pricing':{'prompt':'0.1','completion':'0'},'context_length':32000}]}
