@@ -670,6 +670,22 @@ def main():
                     article['content_image_credit']=image['credit'] + ' (' + image['license'] + ')'
                     article['content_image_credit_url']=image['credit_url']
                     article['content_image_license_url']=image['license_url']
+                else:
+                    # Guaranteed editorial fallback: use AppNho's existing category artwork.
+                    # These are clearly labeled illustrations, never represented as event photos.
+                    category_art={
+                        'world':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_gioi.png',
+                        'vietnam':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_Viet_Nam.png',
+                        'sports':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_thao.png',
+                        'technology':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_Cong_Nghe.png',
+                    }
+                    article['content_image_url']=category_art.get(article.get('category',''),'')
+                    article['content_image_alt']='Ảnh minh họa chuyên mục '+CATEGORY_LABELS.get(article.get('category',''),'tin tức')
+                    article['content_image_credit']='Ảnh minh họa AppNho News'
+                    article['content_image_credit_url']=''
+                    article['content_image_is_fallback']=True
+                    if article['content_image_url']:
+                        print(f"[IMAGE] Using AppNho category illustration fallback for {article['category']}.")
                 if any(similarity(article['title'],a.get('title',''))>0.70 for a in articles):
                     for x in group: x['status']='duplicate_event'; processed_urls.add(canon(x['source_url']))
                     continue
