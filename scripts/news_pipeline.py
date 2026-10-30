@@ -25,7 +25,7 @@ MAX_PENDING = 5000
 # Optional model overrides are honored only when explicitly configured. By default, discover
 # currently available models at runtime and prefer lightweight/high-quota free candidates.
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', '').strip()
-GROQ_MODEL = os.getenv('GROQ_MODEL', '').strip()
+GROK_MODEL = os.getenv('GROK_MODEL', '').strip()
 OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', '').strip()
 THUMBS = {
     'world': 'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_gioi.png',
@@ -227,29 +227,21 @@ def discover_gemini_models():
         candidates.append((score,name))
     return [x[1] for x in sorted(candidates,reverse=True)]
 
-def discover_groq_models():
-    key=os.getenv('GROQ_API_KEY','').strip()
-    if not key: return []
-    if GROQ_MODEL: return [GROQ_MODEL]
-    data=get_json('https://api.groq.com/openai/v1/models',{'Authorization':'Bearer '+key},'Groq')
-    # Restrict to models listed in Groq's Free Plan limits. The API model listing
-    # alone does not establish free-tier eligibility; never guess a fallback model.
-    free_ids={'openai/gpt-oss-20b','openai/gpt-oss-120b','qwen/qwen3.8-27b'}
-    ids=[]
-    for m in data.get('data',[]):
-        mid=m.get('id','')
-        low=mid.lower()
-        if not mid or mid not in free_ids or any(x in low for x in ('whisper','guard','safeguard','embedding','audio','preview','compound')): continue
-        # Lower-cost/smaller models first: free-tier quota is model-specific; prefer 20B over 120B.
-        ids.append(mid)
-    def rank(mid):
-        x=mid.lower()
-        if 'gpt-oss-20b' in x: return (0,x)
-        if 'qwen' in x and any(y in x for y in ('instruct','27b','32b')): return (1,x)
-        if 'llama-3.1-8b' in x or '8b' in x: return (2,x)
-        if 'gpt-oss-120b' in x: return (3,x)
-        return (4,x)
-    return sorted(set(ids),key=rank)
+def discover_xai_models():
+    """Discover the explicitly approved Grok model(s) from the xAI API.
+
+    The GitHub secret keeps its existing name GROK_API_APPNHO_NEWS; the workflow
+    maps it to XAI_API_KEY. We never call Groq and never guess a model that the
+    xAI account did not return.
+    """
+    key = os.getenv('XAI_API_KEY', '').strip()
+    if not key:
+        return []
+    data = get_json('https://api.x.ai/v1/models', {'Authorization': 'Bearer ' + key}, 'Grok/xAI')
+    rows = data.get('data', []) if isinstance(data, dict) else []
+    available = {str(m.get('id', '')).strip() for m in rows if isinstance(m, dict)}
+    approved = [GROK_MODEL] if GROK_MODEL else ['grok-4.1-fast-non-reasoning']
+    return [model for model in approved if model and model in available]
 
 def discover_openrouter_models():
     key=os.getenv('OPENROUTER_API_KEY','').strip()
@@ -318,7 +310,7 @@ def generate_with_fallback(prompt):
     providers=[]
     for name, env, discover, call in [
         ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model: gemini(prompt,model)),
-        ('Groq','GROQ_API_KEY',discover_groq_models,lambda model: openai_compatible(prompt,'Groq','GROQ_API_KEY','https://api.groq.com/openai/v1/chat/completions',model)),
+        ('Grok','XAI_API_KEY',discover_xai_models,lambda model: openai_compatible(prompt,'Grok/xAI','XAI_API_KEY','https://api.x.ai/v1/chat/completions',model)),
         ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,lambda model: openai_compatible(prompt,'OpenRouter','OPENROUTER_API_KEY','https://openrouter.ai/api/v1/chat/completions',model,{'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False))]:
         if not os.getenv(env,'').strip():
             print(f'[SKIP] {name}: key not configured'); continue
@@ -348,7 +340,7 @@ def generate_with_fallback(prompt):
                 return result, name+':'+model
             except Exception as e:
                 message=str(e)
-                key=os.getenv({'Gemini':'GEMINI_API_KEY','Groq':'GROQ_API_KEY','OpenRouter':'OPENROUTER_API_KEY'}[name],'')
+                key=os.getenv({'Gemini':'GEMINI_API_KEY','Grok':'XAI_API_KEY','OpenRouter':'OPENROUTER_API_KEY'}[name],'')
                 if key: message=message.replace(key,'[redacted]')
                 message=message[:180]
                 errors.append(f'{name}/{model}: {message}')
@@ -568,7 +560,7 @@ def main():
         deficit = -daily_category_counts.get(category, 0)
         return (deficit, source_score(best,len(g),usage_counts.get(best.get('source_name',''),0)*8), best.get('source_published_at') or '')
     groups.sort(key=group_rank,reverse=True)
-    api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))
+    api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY'))
     published=0; used_categories=set(); processed_urls=set(); generation_attempts=0; ai_responses=0; generation_failures=0
     if not api_keys_present:
         print('[INFO] No AI API keys configured: discovery only; no article will be published.')
@@ -652,7 +644,7 @@ def main():
     # Persist and cap files; never discard queued items without status.
     pending.sort(key=lambda x: x.get('discovered_at',''),reverse=True)
     pending=pending[:MAX_PENDING]
-    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY')),'generation_attempts':generation_attempts,'ai_responses':ai_responses,'generation_failures':generation_failures}
+    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY')),'generation_attempts':generation_attempts,'ai_responses':ai_responses,'generation_failures':generation_failures}
     seen_data['last_run_window_end']=run_started.isoformat() if successful_feeds else seen_data.get('last_run_window_end')
     # Retain recent source URLs so deduplication stays bounded without silently losing all history.
     if len(seen)>20000:
