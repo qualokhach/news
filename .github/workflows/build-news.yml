@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       rebuild_digest:
-        description: "Rebuild today's digest using the corrected 24-hour selection rules"
+        description: "Rebuild today's digest using the 24-hour selection rules"
         required: false
         type: boolean
         default: false
@@ -14,6 +14,9 @@ on:
       - '.github/workflows/build-news.yml'
       - 'scripts/**'
       - 'config/feeds.json'
+      - 'api/**'
+      - 'assets/article.js'
+      - 'vercel.json'
   schedule:
     # 06:00 and 17:00 Vietnam time (UTC+7); keep the existing audit-compatible schedule.
     - cron: "0 23,10 * * *"
@@ -44,6 +47,7 @@ jobs:
       - name: Audit feed health (continue when individual sources fail)
         run: python scripts/audit_feeds.py
       - name: Verify at least one AI provider secret is configured
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.rebuild_digest) }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
           XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
@@ -55,6 +59,7 @@ jobs:
           fi
           echo "At least one AI provider secret is present. Values are not printed."
       - name: Collect, write and publish to GitHub JSON archive
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.rebuild_digest) }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
           XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
@@ -67,6 +72,7 @@ jobs:
           REBUILD_DIGEST: ${{ github.event_name == 'workflow_dispatch' && inputs.rebuild_digest && '1' || '0' }}
         run: python scripts/create_digest.py
       - name: Verify pipeline actually reached feeds and AI configuration
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.rebuild_digest) }}
         run: python scripts/check_run_health.py
       - name: Summarize article generation result
         if: always()
@@ -106,7 +112,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- data/ sitemap.xml feed.xml
+          git add -A -- data/ sitemap.xml feed.xml social_metadata.json
           if git diff --cached --quiet; then
             echo "No repository data changes to commit."
           else
