@@ -98,7 +98,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- data/ sitemap.xml feed.xml
+          git add -A -- data/ sitemap.xml feed.xml share/
           if git diff --cached --quiet; then
             echo "No repository data changes to commit."
           else
