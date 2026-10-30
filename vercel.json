@@ -1,21 +1,44 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
   "routes": [
+    {
+      "src": "^/article\\.html$",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(facebookexternalhit|Facebot|Twitterbot|Slackbot|TelegramBot|WhatsApp|LinkedInBot|Discordbot|Pinterestbot|Google-InspectionTool|Googlebot)"
+        }
+      ],
+      "dest": "/api/social-meta"
+    },
     {
       "src": "^/news/article\\.html$",
       "has": [
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(facebookexternalhit|Facebot|Twitterbot|Slackbot|TelegramBot|WhatsApp|LinkedInBot|Discordbot|Pinterestbot|Zalo|SkypeUriPreview|Google-InspectionTool|Googlebot)"
+          "value": "(?i)(facebookexternalhit|Facebot|Twitterbot|Slackbot|TelegramBot|WhatsApp|LinkedInBot|Discordbot|Pinterestbot|Google-InspectionTool|Googlebot)"
         }
       ],
       "dest": "/api/social-meta"
     },
     {
       "handle": "filesystem"
+    }
+  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/news/share/:id/index.html",
+      "destination": "/news/article.html?id=:id",
+      "permanent": true
+    },
+    {
+      "source": "/share/:id/index.html",
+      "destination": "/news/article.html?id=:id",
+      "permanent": true
     }
   ]
 }
