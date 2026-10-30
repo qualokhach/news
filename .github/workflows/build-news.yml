@@ -40,10 +40,10 @@ jobs:
       - name: Verify at least one AI provider secret is configured
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
-          GROQ_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
         run: |
-          if [ -z "$GEMINI_API_KEY$GROQ_API_KEY$OPENROUTER_API_KEY" ]; then
+          if [ -z "$GEMINI_API_KEY$XAI_API_KEY$OPENROUTER_API_KEY" ]; then
             echo "ERROR: No AI provider secret is configured; automatic article generation cannot run."
             exit 1
           fi
@@ -51,7 +51,7 @@ jobs:
       - name: Collect, write and publish to GitHub JSON archive
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
-          GROQ_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
           MAX_ARTICLES_PER_RUN: ${{ github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' && '0' || '4' }}
         run: python scripts/news_pipeline.py

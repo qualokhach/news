@@ -14,9 +14,9 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Validate provider keys and discover free models (no article generation)
+      - name: Validate provider keys and discover available models (no article generation)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
-          GROQ_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
         run: python scripts/check_ai_providers.py
