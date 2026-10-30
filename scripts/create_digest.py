@@ -1,99 +1,203 @@
 #!/usr/bin/env python3
-"""Create a compact, idempotent AppNho News noon digest from already published stories."""
-import json, re, hashlib
+"""Create the AppNho noon digest: prioritize stories published in the last 24h.
+
+If fewer than six fresh published AppNho stories are available, supplement only
+as many as needed from older already-published AppNho stories. Never use raw RSS
+leads/pending items as digest content.
+"""
+import json
+import re
+import hashlib
+import os
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / "data/articles.json"
 ARCHIVE = ROOT / "data/archive_articles.json"
 CATALOG = ROOT / "data/archive_catalog.json"
 VN = ZoneInfo("Asia/Ho_Chi_Minh")
-LABELS = {"vietnam":"Việt Nam", "world":"Thế giới", "technology":"Công nghệ", "sports":"Thể thao"}
+LABELS = {"vietnam": "Việt Nam", "world": "Thế giới", "technology": "Công nghệ", "sports": "Thể thao"}
+BASE_URL = "https://appnho.io.vn/news/article.html?id="
+MIN_ITEMS = 6
+MAX_ITEMS = 10
+FRESH_HOURS = 24
 
-def clean(s):
-    return re.sub(r"\s+", " ", str(s or "")).strip()
+
+def clean(value):
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def load_json(path):
+    if not path.exists():
+        return []
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        return value if isinstance(value, list) else []
+    except (OSError, json.JSONDecodeError):
+        print(f"[DIGEST][WARN] Could not read {path.name}; treating it as empty.")
+        return []
+
+
+def parse_datetime(value):
+    try:
+        dt = datetime.fromisoformat(str(value or "").replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except (TypeError, ValueError):
+        return None
+
+
+def story_text(article):
+    """Use the AppNho-edited summary/body, never copy raw RSS descriptions."""
+    summary = clean(article.get("summary"))
+    if summary:
+        return summary
+    body = article.get("body")
+    if isinstance(body, list):
+        return clean(" ".join(clean(x) for x in body[:2] if clean(x)))
+    return clean(body)
+
+
+def collect_published(active, archive, catalog, now):
+    # Full article records take precedence over catalog-only metadata.
+    by_id = {}
+    for article in active + archive + catalog:
+        if not isinstance(article, dict):
+            continue
+        ident = clean(article.get("id"))
+        if not ident:
+            continue
+        if ident not in by_id or (not by_id[ident].get("body") and article.get("body")):
+            by_id[ident] = article
+
+    rows = []
+    seen_titles, seen_urls = set(), set()
+    for article in by_id.values():
+        if article.get("content_type") == "news_digest" or article.get("category") not in LABELS:
+            continue
+        title = clean(article.get("title"))
+        summary = story_text(article)
+        ident = clean(article.get("id"))
+        published = parse_datetime(article.get("published_at"))
+        if not title or not summary or not ident or not published or published > now:
+            continue
+        title_key = re.sub(r"[^a-z0-9\u00c0-\u024f]+", "", title.casefold())
+        url_key = clean(article.get("source_url"))
+        if title_key and title_key in seen_titles:
+            continue
+        if url_key and url_key in seen_urls:
+            continue
+        if title_key:
+            seen_titles.add(title_key)
+        if url_key:
+            seen_urls.add(url_key)
+        rows.append({
+            "id": ident,
+            "title": title,
+            "summary": summary,
+            "category": article.get("category"),
+            "published_at": published.isoformat(),
+            "source_name": clean(article.get("source_name")) or "AppNho News",
+            "source_url": clean(article.get("source_url")),
+            "appnho_url": BASE_URL + quote(ident, safe=""),
+            "image": clean(article.get("content_image_url") or article.get("image_thumbnail")),
+        })
+    return sorted(rows, key=lambda x: x["published_at"], reverse=True)
+
+
+def choose_items(rows, now):
+    cutoff = now - timedelta(hours=FRESH_HOURS)
+    fresh = [x for x in rows if parse_datetime(x["published_at"]) >= cutoff]
+    older = [x for x in rows if parse_datetime(x["published_at"]) < cutoff]
+    chosen = fresh[:MAX_ITEMS]
+    supplement_count = 0
+    if len(chosen) < MIN_ITEMS:
+        needed = MIN_ITEMS - len(chosen)
+        additions = older[:needed]
+        chosen.extend(additions)
+        supplement_count = len(additions)
+    return chosen[:MAX_ITEMS], len(fresh), supplement_count
+
 
 def main():
     now = datetime.now(timezone.utc)
     today = now.astimezone(VN).date().isoformat()
-    active = json.loads(ARTICLES.read_text(encoding="utf-8")) if ARTICLES.exists() else []
-    archive = json.loads(ARCHIVE.read_text(encoding="utf-8")) if ARCHIVE.exists() else []
-    catalog = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() else []
-    all_articles = archive + catalog + active
+    active = load_json(ARTICLES)
+    archive = load_json(ARCHIVE)
+    catalog = load_json(CATALOG)
     digest_id = "diem-tin-" + today
-    if any(a.get("id") == digest_id for a in all_articles):
-        print(f"[DIGEST] Already exists for {today}; no duplicate created.")
+    all_records = active + archive + catalog
+    existing_today = any(isinstance(a, dict) and a.get("id") == digest_id for a in all_records)
+    rebuild = os.environ.get("REBUILD_DIGEST", "").strip().lower() in {"1", "true", "yes"}
+    if existing_today and not rebuild:
+        print(f"[DIGEST] Already exists for {today}; no duplicate created. Set REBUILD_DIGEST=1 to replace today's digest.")
         return
-    cutoff = now - timedelta(hours=36)
-    eligible = []
-    seen_titles = set()
-    seen_ids = set()
-    for a in sorted(all_articles, key=lambda x: x.get("published_at", ""), reverse=True):
-        if a.get("content_type") == "news_digest" or a.get("category") not in LABELS:
-            continue
-        article_id = str(a.get("id") or "")
-        if article_id and article_id in seen_ids:
-            continue
-        try:
-            dt = datetime.fromisoformat(str(a.get("published_at", "")).replace("Z", "+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            if dt < cutoff:
-                continue
-        except Exception:
-            continue
-        title = clean(a.get("title"))
-        summary = clean(a.get("summary"))
-        key = re.sub(r"[^a-z0-9]+", "", title.lower())
-        if not title or not summary or not key or key in seen_titles:
-            continue
-        seen_titles.add(key)
-        if article_id:
-            seen_ids.add(article_id)
-        eligible.append(a)
+    if existing_today and rebuild:
+        active = [a for a in active if not (isinstance(a, dict) and a.get("id") == digest_id)]
+        print(f"[DIGEST] Rebuilding today's digest {digest_id} from the corrected selection rules.")
 
-    if len(eligible) < 6:
-        print(f"[DIGEST] Only {len(eligible)} eligible published stories; need at least 6. Skipping digest without failing the main publication workflow.")
+    rows = collect_published(active, archive, catalog, now)
+    chosen, fresh_count, supplement_count = choose_items(rows, now)
+    print(f"[DIGEST] Fresh published stories in last {FRESH_HOURS}h: {fresh_count}")
+    print(f"[DIGEST] Older published stories used as supplement: {supplement_count}")
+    if len(chosen) < MIN_ITEMS:
+        print(f"[DIGEST] Only {len(chosen)} eligible published stories available; need at least {MIN_ITEMS}. No digest published.")
         return
 
-    # Balance categories across the full eligible pool, not just the newest ten.
-    # First select one from each available category, then fill with the newest remaining stories.
-    chosen, used = [], set()
-    for category in ("vietnam", "world", "technology", "sports"):
-        match = next((a for a in eligible if a.get("category") == category), None)
-        if match:
-            chosen.append(match)
-            used.add(str(match.get("id") or match.get("title")))
-    for a in eligible:
-        if len(chosen) >= 10:
-            break
-        key = str(a.get("id") or a.get("title"))
-        if key not in used:
-            chosen.append(a)
-            used.add(key)
-    chosen = chosen[:10]
     date_vn = now.astimezone(VN).strftime("%d/%m/%Y")
     title = f"Điểm tin AppNho trưa {date_vn}: {len(chosen)} tin đáng chú ý"
-    summary = "Tổng hợp ngắn các diễn biến đáng chú ý tại Việt Nam và thế giới, cùng tin công nghệ và thể thao. Mỗi mục tóm lược ý chính và dẫn về bài nguồn để bạn đọc thêm."
-    body = [f"Bản tin điểm tin trưa {date_vn} tổng hợp {len(chosen)} tin từ các bài đã được AppNho News xuất bản gần đây. Các tin được rút gọn để nắm nhanh diễn biến; mở liên kết nguồn để xem thông tin đầy đủ."] + body + ["Lưu ý: Đây là bản tóm tắt các bài đã xuất bản, không thay thế nội dung chi tiết hoặc cập nhật mới nhất từ nguồn tin."]
+    summary = (f"{len(chosen)} tin đáng chú ý từ các chuyên mục Việt Nam, Thế giới, Công nghệ và Thể thao. "
+               "Ưu tiên tin mới trong 24 giờ; chỉ bổ sung bài đã xuất bản trước đó khi tin mới chưa đủ sáu.")
+    digest_items = []
+    source_urls = []
+    for index, item in enumerate(chosen, 1):
+        digest_items.append({
+            "number": index,
+            "title": item["title"],
+            "category": LABELS.get(item["category"], "Tin tức"),
+            "summary": item["summary"],
+            "url": item["appnho_url"],
+            "published_at": item["published_at"],
+            "is_supplement": parse_datetime(item["published_at"]) < now - timedelta(hours=FRESH_HOURS),
+        })
+        if item["source_url"]:
+            source_urls.append(item["source_url"])
+
+    body = [
+        f"Bản tin điểm tin trưa {date_vn} gồm {len(chosen)} tin. Hệ thống ưu tiên các bài AppNho News mới xuất bản trong 24 giờ gần nhất. "
+        + (f"Do số tin mới chưa đủ sáu, đã bổ sung {supplement_count} bài AppNho News xuất bản trước đó." if supplement_count else "Tất cả mục dưới đây được chọn từ nhóm tin mới trong 24 giờ.")
+    ]
+    body.extend(f"{x['number']}. {x['title']} — {x['summary']}" for x in digest_items)
+    body.append("Mỗi mục có liên kết đến bài viết chi tiết trên AppNho News.")
     ident = digest_id
     article = {
-      "id": ident, "title": title, "summary": summary, "category": "vietnam",
-      "source_name": "AppNho News — tổng hợp", "source_url": "https://appnho.io.vn/news/",
-      "published_at": now.isoformat(), "fetched_at": now.isoformat(),
-      "content_type": "news_digest", "collection": "current", "body": body,
-      "editorial_note": "Bản tin tổng hợp tự động từ các bài AppNho News đã xuất bản; các mục có thể trùng với bài riêng.",
-      "generation_provider": "deterministic_digest", "seo_title": title[:70],
-      "meta_description": summary[:160], "keywords": ["điểm tin", "tin Việt Nam", "tin thế giới", "tin công nghệ", "tin thể thao"],
-      "slug": ident, "images": [], "content_image_url": "", "content_image_alt": "",
-      "content_image_credit": "", "content_image_credit_url": "", "word_count": len(" ".join(body).split()),
-      "display_source": True, "source_urls": list(dict.fromkeys(u for u in links if u)),
-      "source_links": list(dict.fromkeys(u for u in links if u))
+        "id": ident, "title": title, "summary": summary, "category": "vietnam",
+        "source_name": "AppNho News — tổng hợp", "source_url": "https://appnho.io.vn/news/",
+        "published_at": now.isoformat(), "fetched_at": now.isoformat(),
+        "content_type": "news_digest", "collection": "current", "body": body,
+        "digest_items": digest_items,
+        "digest_window_hours": FRESH_HOURS,
+        "digest_fresh_count": fresh_count,
+        "digest_supplement_count": supplement_count,
+        "editorial_note": "Ưu tiên tin mới trong 24 giờ từ các bài AppNho News đã biên tập và xuất bản; chỉ dùng bài xuất bản cũ để bù khi thiếu sáu tin mới.",
+        "generation_provider": "deterministic_digest", "seo_title": title[:70],
+        "meta_description": summary[:160], "keywords": ["điểm tin", "tin Việt Nam", "tin thế giới", "tin công nghệ", "tin thể thao"],
+        "slug": ident, "images": [], "content_image_url": "", "content_image_alt": "",
+        "content_image_credit": "", "content_image_credit_url": "", "word_count": len(" ".join(body).split()),
+        "display_source": False, "source_urls": list(dict.fromkeys(source_urls)),
+        "source_links": list(dict.fromkeys(source_urls)),
     }
     active.append(article)
     ARTICLES.write_text(json.dumps(active, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"[DIGEST] Created {ident} with {len(chosen)} short items across categories: " + ", ".join(sorted({a.get('category','') for a in chosen})))
+    print(f"[DIGEST] Created {ident} with {len(chosen)} items ({fresh_count} fresh, {supplement_count} older supplements).")
+    for item in digest_items:
+        marker = "[OLDER SUPPLEMENT]" if item["is_supplement"] else "[FRESH 24H]"
+        print(f"[DIGEST] {marker} {item['number']}. {item['title']}")
 
-if __name__ == "__main__": main()
+
+if __name__ == "__main__":
+    main()
