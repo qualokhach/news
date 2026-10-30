@@ -1,6 +1,12 @@
 name: AppNho News — collect, write and publish
 on:
   workflow_dispatch:
+    inputs:
+      rebuild_digest:
+        description: "Rebuild today's digest using the corrected 24-hour selection rules"
+        required: false
+        type: boolean
+        default: false
   # Run once when pipeline code/config changes, but not on bot data commits.
   push:
     branches: [main]
@@ -55,8 +61,10 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
           MAX_ARTICLES_PER_RUN: ${{ github.event_name == 'schedule' && github.event.schedule == '0 5 * * *' && '0' || '4' }}
         run: python scripts/news_pipeline.py
-      - name: Create noon digest (only at 05:00 UTC / 12:00 Vietnam time)
-        if: github.event_name == 'schedule' && github.event.schedule == '0 5 * * *'
+      - name: Create or rebuild noon digest
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 5 * * *') || (github.event_name == 'workflow_dispatch' && inputs.rebuild_digest)
+        env:
+          REBUILD_DIGEST: ${{ github.event_name == 'workflow_dispatch' && inputs.rebuild_digest && '1' || '0' }}
         run: python scripts/create_digest.py
       - name: Verify pipeline actually reached feeds and AI configuration
         run: python scripts/check_run_health.py
@@ -98,7 +106,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- data/ sitemap.xml feed.xml share/
+          git add -A -- data/ sitemap.xml feed.xml
           if git diff --cached --quiet; then
             echo "No repository data changes to commit."
           else
