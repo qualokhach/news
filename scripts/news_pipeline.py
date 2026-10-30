@@ -21,13 +21,11 @@ SEEN = ROOT / 'data/seen_items.json'
 TIMEOUT = 8
 UA = 'AppNhoNewsBot/1.0 (+https://github.com/qualokhach/news)'
 MAX_NEW_PER_RUN = int(os.getenv('MAX_ARTICLES_PER_RUN', '4'))
-MAX_QUEUE_CANDIDATES = int(os.getenv('MAX_QUEUE_CANDIDATES', '150'))
+MAX_PENDING = 5000
 # Optional model overrides are honored only when explicitly configured. By default, discover
 # currently available models at runtime and prefer lightweight/high-quota free candidates.
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', '').strip()
-XAI_MODEL = os.getenv('XAI_MODEL', '').strip()
-# Provider discovery is performed once per workflow run, not once per story.
-_PROVIDER_PLAN = None
+GROQ_MODEL = os.getenv('GROQ_MODEL', '').strip()
 OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', '').strip()
 THUMBS = {
     'world': 'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_gioi.png',
@@ -63,21 +61,6 @@ def get_text(node, names):
         n = node.find(name)
         if n is not None and n.text: return n.text.strip()
     return ''
-
-def local_name(tag):
-    return tag.rsplit('}', 1)[-1].split(':')[-1].lower()
-
-def feed_publication_date(node):
-    # RSS publishers use several namespaces/field names (including dc:date).
-    accepted = {'pubdate', 'published', 'updated', 'date', 'issued', 'created'}
-    for child in list(node):
-        if local_name(child.tag) in accepted:
-            value = ''.join(child.itertext()).strip()
-            if value:
-                parsed = parse_date(value)
-                if parsed:
-                    return parsed
-    return ''
 def parse_date(raw):
     if not raw: return ''
     try:
@@ -93,7 +76,7 @@ def parse_date(raw):
 def fetch(url, accept='text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', limit=1_500_000):
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': accept})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        if not 200 <= r.status < 300: raise RuntimeError(f'HTTP {r.status}')
+        if r.status != 200: raise RuntimeError(f'HTTP {r.status}')
         return r.read(limit)
 def canon(url):
     url = (url or '').strip()
@@ -113,13 +96,14 @@ def parse_feed(payload, feed):
         if not link:
             ln=node.find(f'{atom}link')
             if ln is not None: link=ln.attrib.get('href','')
-        date=feed_publication_date(node)
+        date=get_text(node,['pubDate','published','updated',f'{atom}published',f'{atom}updated'])
+        description=clean(get_text(node,['description','summary',f'{atom}summary','{http://purl.org/rss/1.0/modules/content/}encoded']))
         link=canon(link)
         if not title or not link.startswith(('https://','http://')): continue
         uid=hashlib.sha256(link.encode()).hexdigest()[:20]
         out.append({'id':uid,'discovery_title':title[:240],'source_url':link,'source_name':feed['name'],
-                    'category':feed['category'],'source_published_at':date,'discovered_at':now_iso(),
-                    'source_terms_url':feed.get('terms_url',''),'status':'queued','attempts':0})
+                    'category':feed['category'],'source_published_at':parse_date(date),'discovered_at':now_iso(),
+                    'source_terms_url':feed.get('terms_url',''),'discovery_summary':description[:1200],'status':'queued','attempts':0})
     return out
 
 class TextExtractor(HTMLParser):
@@ -202,7 +186,7 @@ def parse_ai_json(txt):
 def _post_json(url, payload, headers, provider):
     req=urllib.request.Request(url,data=json.dumps(payload,ensure_ascii=False).encode(),headers=headers,method='POST')
     try:
-        with urllib.request.urlopen(req,timeout=60) as r: data=json.loads(r.read().decode('utf-8'))
+        with urllib.request.urlopen(req,timeout=90) as r: data=json.loads(r.read().decode('utf-8'))
     except urllib.error.HTTPError as e:
         detail=e.read().decode('utf-8','replace')[:350]
         # Never include request URLs, because Gemini's key is carried in its query string.
@@ -226,7 +210,7 @@ def discover_gemini_models():
     # Google's live model list does not expose per-account free-tier eligibility. Keep a
     # conservative allowlist of models currently documented with free-tier pricing, then
     # intersect it with models actually returned for this key. Update this list after reviewing pricing docs.
-    free_names={'gemini-3.1-flash-lite'}
+    free_names={'gemini-3.1-flash-lite','gemini-2.5-flash-lite'}
     candidates=[]
     for m in data.get('models',[]):
         name=m.get('name','').removeprefix('models/')
@@ -243,27 +227,29 @@ def discover_gemini_models():
         candidates.append((score,name))
     return [x[1] for x in sorted(candidates,reverse=True)]
 
-def discover_xai_models():
-    """Discover models enabled for this xAI key; never send an xAI key to Groq."""
-    key=os.getenv('XAI_API_KEY','').strip()
+def discover_groq_models():
+    key=os.getenv('GROQ_API_KEY','').strip()
     if not key: return []
-    if XAI_MODEL: return [XAI_MODEL]
-    data=get_json('https://api.x.ai/v1/models',{'Authorization':'Bearer '+key},'Grok (xAI)')
-    candidates=[]
-    for model in data.get('data',[]):
-        mid=(model.get('id') or model.get('name') or '').strip()
+    if GROQ_MODEL: return [GROQ_MODEL]
+    data=get_json('https://api.groq.com/openai/v1/models',{'Authorization':'Bearer '+key},'Groq')
+    # Restrict to models listed in Groq's Free Plan limits. The API model listing
+    # alone does not establish free-tier eligibility; never guess a fallback model.
+    free_ids={'openai/gpt-oss-20b','openai/gpt-oss-120b','qwen/qwen3.8-27b'}
+    ids=[]
+    for m in data.get('data',[]):
+        mid=m.get('id','')
         low=mid.lower()
-        if not mid or any(x in low for x in ('embedding','image','video','audio','tts','transcription','moderation')):
-            continue
-        # Prefer fast text models to keep publishing latency and API cost controlled.
-        score=0
-        if 'fast' in low: score += 100
-        if 'mini' in low: score += 35
-        if 'non-reasoning' in low: score += 20
-        if 'reasoning' in low: score -= 20
-        if any(x in low for x in ('preview','experimental','deprecated')): score -= 50
-        candidates.append((score,mid))
-    return [mid for _,mid in sorted(candidates, key=lambda x:(-x[0],x[1]))[:1]]
+        if not mid or mid not in free_ids or any(x in low for x in ('whisper','guard','safeguard','embedding','audio','preview','compound')): continue
+        # Lower-cost/smaller models first: free-tier quota is model-specific; prefer 20B over 120B.
+        ids.append(mid)
+    def rank(mid):
+        x=mid.lower()
+        if 'gpt-oss-20b' in x: return (0,x)
+        if 'qwen' in x and any(y in x for y in ('instruct','27b','32b')): return (1,x)
+        if 'llama-3.1-8b' in x or '8b' in x: return (2,x)
+        if 'gpt-oss-120b' in x: return (3,x)
+        return (4,x)
+    return sorted(set(ids),key=rank)
 
 def discover_openrouter_models():
     key=os.getenv('OPENROUTER_API_KEY','').strip()
@@ -327,49 +313,34 @@ def openai_compatible(prompt, provider, key_env, endpoint, model, extra_headers=
     if not content: raise RuntimeError(f'{provider} returned empty content')
     return parse_ai_json(content)
 
-def provider_plan():
-    """Build a bounded provider/model plan once per pipeline run."""
-    global _PROVIDER_PLAN
-    if _PROVIDER_PLAN is not None:
-        return _PROVIDER_PLAN
-    plan=[]
-    providers=[
-        ('Gemini','GEMINI_API_KEY',discover_gemini_models,
-         lambda model: gemini(_CURRENT_PROMPT,model),1),
-        ('Grok (xAI)','XAI_API_KEY',discover_xai_models,
-         lambda model: openai_compatible(_CURRENT_PROMPT,'Grok (xAI)','XAI_API_KEY','https://api.x.ai/v1/chat/completions',model),1),
-        ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,
-         lambda model: openai_compatible(_CURRENT_PROMPT,'OpenRouter','OPENROUTER_API_KEY','https://openrouter.ai/api/v1/chat/completions',model,{'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False),2),
-    ]
-    for name,env,discover,call,limit in providers:
+def generate_with_fallback(prompt):
+    """Discover current models and try a bounded list per provider, using free models only."""
+    providers=[]
+    for name, env, discover, call in [
+        ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model: gemini(prompt,model)),
+        ('Groq','GROQ_API_KEY',discover_groq_models,lambda model: openai_compatible(prompt,'Groq','GROQ_API_KEY','https://api.groq.com/openai/v1/chat/completions',model)),
+        ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,lambda model: openai_compatible(prompt,'OpenRouter','OPENROUTER_API_KEY','https://openrouter.ai/api/v1/chat/completions',model,{'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False))]:
         if not os.getenv(env,'').strip():
             print(f'[SKIP] {name}: key not configured'); continue
         try:
             models=discover()
             if not models:
-                print(f'[WARN] {name}: no eligible models available for this key'); continue
-            selected=models[:limit]
-            plan.append((name,selected,call,env))
-            print(f'[MODEL] {name}: {len(models)} eligible model(s); selected {len(selected)} for this run')
+                print(f'[WARN] {name}: no currently eligible models discovered'); continue
+            # Cap model probes to keep each run bounded. Prefer first-ranked low-cost/free candidates.
+            providers.append((name,models[:5],call))
+            print(f'[MODEL] {name}: discovered {len(models)} eligible model(s); will probe up to {min(5,len(models))}')
         except Exception as e:
             print(f'[WARN] {name} model discovery failed: {str(e)[:180]}')
-    _PROVIDER_PLAN=plan
-    return _PROVIDER_PLAN
-
-_CURRENT_PROMPT = ''
-def generate_with_fallback(prompt):
-    """Try one verified model per primary provider and at most two OpenRouter models."""
-    global _CURRENT_PROMPT
-    _CURRENT_PROMPT=prompt
+            # If live discovery fails, do not guess a model unless user explicitly pinned one.
     errors=[]
-    for name,models,call,env in provider_plan():
+    for name, models, call in providers:
         for model in models:
             try:
                 result=call(model)
                 if result.get('publish'):
                     body=[clean(x) for x in result.get('body',[]) if clean(x)]
                     words=word_count(' '.join(body))
-                    if len(body)<7 or words<600:
+                    if len(body)<6 or words<600:
                         raise ValueError(f'Generated draft failed minimum content check ({words} words, {len(body)} paragraphs)')
                     if result.get('category') not in CATEGORY_LABELS:
                         raise ValueError('Generated draft has invalid category')
@@ -377,13 +348,14 @@ def generate_with_fallback(prompt):
                 return result, name+':'+model
             except Exception as e:
                 message=str(e)
-                key=os.getenv(env,'')
+                key=os.getenv({'Gemini':'GEMINI_API_KEY','Groq':'GROQ_API_KEY','OpenRouter':'OPENROUTER_API_KEY'}[name],'')
                 if key: message=message.replace(key,'[redacted]')
                 message=message[:180]
                 errors.append(f'{name}/{model}: {message}')
-                print(f'[WARN] {name} model unavailable/invalid; trying next provider ({message})')
-                # No sleep/retry storm for 403/404/429. Move immediately to the next provider.
-    raise RuntimeError('All configured AI providers failed: '+' | '.join(errors[-8:] or ['no configured provider/model']))
+                print(f'[WARN] {name} model unavailable/invalid; trying next eligible model ({message})')
+                # A long delay is not useful for quota errors; next model/provider is the fallback.
+                time.sleep(0.4)
+    raise RuntimeError('All discovered free/eligible AI models failed: '+' | '.join(errors[-12:] or ['no configured provider/model']))
 
 def make_prompt(group, evidence):
     lead=group[0]
@@ -392,7 +364,7 @@ def make_prompt(group, evidence):
 {"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","published_at":"ISO-8601 UTC","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1", "đoạn 2"],"source_index":0}
 Quy tắc:
 - Chỉ publish=true nếu dữ kiện đủ rõ, sự kiện đáng tin, không phải tin trùng và có ích. Nếu không chắc, publish=false.
-- Viết tiếng Việt tự nhiên, bài khoảng 750-950 từ (ít nhất 600 từ), 8-11 đoạn có nội dung khác nhau: sự kiện chính, dữ kiện đã xác minh, bối cảnh, tác động/ý nghĩa chỉ khi có căn cứ, điều cần theo dõi. Không lặp ý, không tự bịa bối cảnh.
+- Viết tiếng Việt tự nhiên, bài khoảng 650-900 từ (ít nhất 600 từ), 7-10 đoạn có nội dung khác nhau: sự kiện chính, dữ kiện đã xác minh, bối cảnh, tác động/ý nghĩa chỉ khi có căn cứ, điều cần theo dõi. Không lặp ý, không tự bịa bối cảnh.
 - Không chép lại câu chữ bài nguồn; diễn đạt độc lập. Không dùng mô tả RSS làm nội dung. Không tạo lời dẫn giả, số liệu giả hoặc quote giả.
 - Nếu nguồn mâu thuẫn hoặc chỉ có tiêu đề mà không có bằng chứng trong nội dung trang, publish=false.
 - SEO: tiêu đề tự nhiên, từ khóa cụ thể, mô tả không quá 160 ký tự, 5-8 keyword phù hợp. Không nhồi từ khóa.
@@ -560,28 +532,7 @@ def main():
         u=canon(x['source_url']); seen[u]={'id':x['id'],'source_url':u,'title':x['discovery_title'],'source_name':x['source_name'],'category':x['category'],'first_seen_at':now_iso(),'status':'queued'}
     pending.extend(found)
     # Group pending items by similar headlines to cross-check the same event across feeds.
-    cutoff=run_started-timedelta(hours=72)
-    queued=[]
-    for item in pending:
-        if item.get('status','queued')!='queued':
-            continue
-        if int(item.get('attempts',0))>=3:
-            item['status']='needs_manual_review'
-            continue
-        published=as_utc(item.get('source_published_at'))
-        if published and published < cutoff:
-            item['status']='stale'
-            old_url=canon(item.get('source_url',''))
-            if old_url in seen:
-                seen[old_url]['status']='stale'
-            continue
-        queued.append(item)
-    # Similarity grouping is quadratic. Process a bounded recent slice per run;
-    # all remaining queue records stay intact for later runs.
-    queued.sort(key=lambda x:(x.get('source_published_at') or '',x.get('discovered_at') or ''),reverse=True)
-    if len(queued)>MAX_QUEUE_CANDIDATES:
-        print(f'[QUEUE] {len(queued)} eligible leads; grouping newest {MAX_QUEUE_CANDIDATES} this run; remainder retained.')
-        queued=queued[:MAX_QUEUE_CANDIDATES]
+    queued=[x for x in pending if x.get('status','queued')=='queued' and int(x.get('attempts',0))<3]
     groups=[]
     for item in sorted(queued,key=lambda x: (x.get('source_published_at') or '',x.get('discovered_at') or ''),reverse=True):
         placed=False
@@ -617,7 +568,7 @@ def main():
         deficit = -daily_category_counts.get(category, 0)
         return (deficit, source_score(best,len(g),usage_counts.get(best.get('source_name',''),0)*8), best.get('source_published_at') or '')
     groups.sort(key=group_rank,reverse=True)
-    api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY'))
+    api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY'))
     published=0; used_categories=set(); processed_urls=set(); generation_attempts=0; ai_responses=0; generation_failures=0
     if not api_keys_present:
         print('[INFO] No AI API keys configured: discovery only; no article will be published.')
@@ -670,22 +621,6 @@ def main():
                     article['content_image_credit']=image['credit'] + ' (' + image['license'] + ')'
                     article['content_image_credit_url']=image['credit_url']
                     article['content_image_license_url']=image['license_url']
-                else:
-                    # Guaranteed editorial fallback: use AppNho's existing category artwork.
-                    # These are clearly labeled illustrations, never represented as event photos.
-                    category_art={
-                        'world':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_gioi.png',
-                        'vietnam':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_Viet_Nam.png',
-                        'sports':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_thao.png',
-                        'technology':'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_Cong_Nghe.png',
-                    }
-                    article['content_image_url']=category_art.get(article.get('category',''),'')
-                    article['content_image_alt']='Ảnh minh họa chuyên mục '+CATEGORY_LABELS.get(article.get('category',''),'tin tức')
-                    article['content_image_credit']='Ảnh minh họa AppNho News'
-                    article['content_image_credit_url']=''
-                    article['content_image_is_fallback']=True
-                    if article['content_image_url']:
-                        print(f"[IMAGE] Using AppNho category illustration fallback for {article['category']}.")
                 if any(similarity(article['title'],a.get('title',''))>0.70 for a in articles):
                     for x in group: x['status']='duplicate_event'; processed_urls.add(canon(x['source_url']))
                     continue
@@ -716,8 +651,8 @@ def main():
                 print(f"[WARN] Generation skipped for '{mainlead['discovery_title']}': {e}")
     # Persist and cap files; never discard queued items without status.
     pending.sort(key=lambda x: x.get('discovered_at',''),reverse=True)
-    # Do not truncate the queue: old and deferred records remain auditable and recoverable.
-    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY')),'generation_attempts':generation_attempts,'ai_responses':ai_responses,'generation_failures':generation_failures}
+    pending=pending[:MAX_PENDING]
+    seen_data['last_run']=now_iso(); seen_data['last_run_stats']={'feeds_enabled':len([f for f in feeds if f.get('enabled')]),'feeds_succeeded':successful_feeds,'new_leads_in_window':len(found),'published':published,'feed_failures':failures,'window_end_at':run_started.isoformat(),'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','GROQ_API_KEY','OPENROUTER_API_KEY')),'generation_attempts':generation_attempts,'ai_responses':ai_responses,'generation_failures':generation_failures}
     seen_data['last_run_window_end']=run_started.isoformat() if successful_feeds else seen_data.get('last_run_window_end')
     # Retain recent source URLs so deduplication stays bounded without silently losing all history.
     if len(seen)>20000:
