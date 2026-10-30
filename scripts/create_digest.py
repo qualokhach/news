@@ -20,7 +20,7 @@ ARCHIVE = ROOT / "data/archive_articles.json"
 CATALOG = ROOT / "data/archive_catalog.json"
 VN = ZoneInfo("Asia/Ho_Chi_Minh")
 LABELS = {"vietnam": "Việt Nam", "world": "Thế giới", "technology": "Công nghệ", "sports": "Thể thao"}
-BASE_URL = "https://appnho.io.vn/news/article.html?id="
+BASE_URL = "https://www.appnho.io.vn/news/article.html?id="
 MIN_ITEMS = 6
 MAX_ITEMS = 10
 FRESH_HOURS = 24
@@ -137,8 +137,11 @@ def main():
         print(f"[DIGEST] Already exists for {today}; no duplicate created. Set REBUILD_DIGEST=1 to replace today's digest.")
         return
     if existing_today and rebuild:
+        # Only replace today's digest in the active article list. Never rewrite or delete archive files.
         active = [a for a in active if not (isinstance(a, dict) and a.get("id") == digest_id)]
-        print(f"[DIGEST] Rebuilding today's digest {digest_id} from the corrected selection rules.")
+        archive = [a for a in archive if not (isinstance(a, dict) and a.get("id") == digest_id)]
+        catalog = [a for a in catalog if not (isinstance(a, dict) and a.get("id") == digest_id)]
+        print(f"[DIGEST] Rebuilding today's digest {digest_id}; source articles and archives remain unchanged.")
 
     rows = collect_published(active, archive, catalog, now)
     chosen, fresh_count, supplement_count = choose_items(rows, now)
