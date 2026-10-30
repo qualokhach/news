@@ -1,5 +1,91 @@
 [
   {
+    "id": "1e00f6f1d9ade0c59408",
+    "discovery_title": "South Africa v Australia: third men’s cricket Test, day four – live",
+    "source_url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
+    "source_name": "The Guardian - Sport",
+    "category": "sports",
+    "source_published_at": "2026-10-30T09:26:37+00:00",
+    "discovered_at": "2026-10-30T09:34:34.133866+00:00",
+    "source_terms_url": "https://www.theguardian.com/help/terms-of-service",
+    "status": "published",
+    "attempts": 0,
+    "article_id": "nam-phi-oi-au-uc-dien-bien-cang-thang-ngay-thi-au-thu-tu-tai-newlands-9ecf8b96"
+  },
+  {
+    "id": "6748d88ec52e96d0109f",
+    "discovery_title": "Premier League news, Carabao Cup and WCL reaction and more – football live",
+    "source_url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
+    "source_name": "The Guardian - Sport",
+    "category": "sports",
+    "source_published_at": "2026-10-30T09:20:04+00:00",
+    "discovered_at": "2026-10-30T09:34:34.133806+00:00",
+    "source_terms_url": "https://www.theguardian.com/help/terms-of-service",
+    "status": "queued",
+    "attempts": 0
+  },
+  {
+    "id": "8e2f3b591bc02ae65bfb",
+    "discovery_title": "‘There’s a lot of hurt between us’: My father’s caregiver is using his debit card for DoorDash orders. What can I do?",
+    "source_url": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+    "source_name": "MarketWatch - Top Stories",
+    "category": "world",
+    "source_published_at": "2026-10-30T09:15:00+00:00",
+    "discovered_at": "2026-10-30T09:34:31.574018+00:00",
+    "source_terms_url": "https://www.marketwatch.com/terms-of-use",
+    "status": "queued",
+    "attempts": 0
+  },
+  {
+    "id": "737ef61f37a8d9cbf805",
+    "discovery_title": "Russian oil refinery struck as Ukraine renews drone attacks",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss",
+    "source_name": "Al Jazeera - All",
+    "category": "world",
+    "source_published_at": "2026-10-30T09:14:16+00:00",
+    "discovered_at": "2026-10-30T09:34:29.576146+00:00",
+    "source_terms_url": "https://www.aljazeera.com/terms-and-conditions/",
+    "status": "queued",
+    "attempts": 0
+  },
+  {
+    "id": "7064f3f6fe075a7248de",
+    "discovery_title": "Burnham says he wants to offer more ‘regional empowerment’ ahead of devolution summit – UK politics live",
+    "source_url": "https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates",
+    "source_name": "The Guardian - World",
+    "category": "world",
+    "source_published_at": "2026-10-30T09:18:28+00:00",
+    "discovered_at": "2026-10-30T09:34:29.512589+00:00",
+    "source_terms_url": "https://www.theguardian.com/help/terms-of-service",
+    "status": "published",
+    "attempts": 0,
+    "article_id": "thu-tuong-anh-andy-burnham-thuc-ay-mo-hinh-trao-quyen-khu-vuc-tai-hoi-ng-667d4358"
+  },
+  {
+    "id": "6ff3544bae92136100da",
+    "discovery_title": "TP.HCM sẽ thành lập thêm 7 phường sau năm 2030",
+    "source_url": "https://thanhnien.vn/tphcm-se-thanh-lap-them-7-phuong-sau-nam-2030-185261030153225315.htm",
+    "source_name": "Thanh Niên - Tin mới",
+    "category": "vietnam",
+    "source_published_at": "2026-10-30T09:21:00+00:00",
+    "discovered_at": "2026-10-30T09:34:21.954703+00:00",
+    "source_terms_url": "https://thanhnien.vn/",
+    "status": "queued",
+    "attempts": 0
+  },
+  {
+    "id": "9292e42448311d1d7ade",
+    "discovery_title": "Từ mũ bảo hiểm đến nước sạch, hãng xe máy mở rộng hoạt động cộng đồng",
+    "source_url": "https://thanhnien.vn/tu-mu-bao-hiem-den-nuoc-sach-hang-xe-may-mo-rong-hoat-dong-cong-dong-185261030150857373.htm",
+    "source_name": "Thanh Niên - Tin mới",
+    "category": "vietnam",
+    "source_published_at": "2026-10-30T09:33:00+00:00",
+    "discovered_at": "2026-10-30T09:34:21.954656+00:00",
+    "source_terms_url": "https://thanhnien.vn/",
+    "status": "queued",
+    "attempts": 0
+  },
+  {
     "id": "69b11ca72642ae5943a1",
     "discovery_title": "Lamar Jackson vs. Josh Allen rushing stats: How Ravens, Bills QBs compare in yards, TDs and more",
     "source_url": "https://www.sportingnews.com/us/nfl/news/lamar-jackson-josh-allen-rushing-stats-bills-ravens/7a9b79f046a3d626d517b1bc",
@@ -81,8 +167,9 @@
     "source_published_at": "2026-10-30T09:01:00+00:00",
     "discovered_at": "2026-10-30T09:14:18.923976+00:00",
     "source_terms_url": "https://www.condenast.com/user-agreement/",
-    "status": "queued",
-    "attempts": 0
+    "status": "published",
+    "attempts": 0,
+    "article_id": "bien-may-thoi-la-thanh-sung-ban-giay-ve-sinh-cho-dip-halloween-df44c5a1"
   },
   {
     "id": "42ecc99a1252a3be07fe",
@@ -118,7 +205,7 @@
     "discovered_at": "2026-10-30T09:14:18.462027+00:00",
     "source_terms_url": "https://www.ft.com/tour",
     "status": "queued",
-    "attempts": 0
+    "attempts": 1
   },
   {
     "id": "2ef497f412ceb2b4c617",
@@ -178,7 +265,7 @@
     "discovered_at": "2026-10-30T09:14:17.747229+00:00",
     "source_terms_url": "https://www.investing.com/about-us/terms-and-conditions",
     "status": "queued",
-    "attempts": 1
+    "attempts": 2
   },
   {
     "id": "0fefecc08f82fd731bb5",
@@ -262,7 +349,7 @@
     "discovered_at": "2026-10-30T09:14:17.747116+00:00",
     "source_terms_url": "https://www.investing.com/about-us/terms-and-conditions",
     "status": "queued",
-    "attempts": 1
+    "attempts": 2
   },
   {
     "id": "8f528394d1f84f479697",
@@ -622,8 +709,9 @@
     "source_published_at": "2026-10-30T08:28:59+00:00",
     "discovered_at": "2026-10-30T09:14:01.247366+00:00",
     "source_terms_url": "https://dantri.com.vn/",
-    "status": "queued",
-    "attempts": 0
+    "status": "published",
+    "attempts": 0,
+    "article_id": "phu-tho-thong-qua-nghi-quyet-xay-dung-ha-tang-va-ieu-chinh-ia-gioi-hanh--58bb9c17"
   },
   {
     "id": "f6f8b2ff71742b593cd4",
@@ -1092,8 +1180,8 @@
     "source_published_at": "2026-10-30T07:48:24+00:00",
     "discovered_at": "2026-10-30T08:09:11.508122+00:00",
     "source_terms_url": "https://www.investing.com/about-us/terms-and-conditions",
-    "status": "queued",
-    "attempts": 2
+    "status": "needs_manual_review",
+    "attempts": 3
   },
   {
     "id": "6f33772515ba940093d1",
@@ -1128,8 +1216,8 @@
     "source_published_at": "2026-10-30T07:53:19+00:00",
     "discovered_at": "2026-10-30T08:09:11.508048+00:00",
     "source_terms_url": "https://www.investing.com/about-us/terms-and-conditions",
-    "status": "queued",
-    "attempts": 2
+    "status": "needs_manual_review",
+    "attempts": 3
   },
   {
     "id": "ab518cbe02a55afb3d19",
@@ -2055,7 +2143,7 @@
     "discovered_at": "2026-10-30T07:34:14.541909+00:00",
     "source_terms_url": "https://www.investing.com/about-us/terms-and-conditions",
     "status": "queued",
-    "attempts": 1
+    "attempts": 2
   },
   {
     "id": "2d75f0b5b28fed0184c2",
@@ -29991,7 +30079,7 @@
     "source_published_at": "2026-10-27T09:31:37+00:00",
     "discovered_at": "2026-10-28T02:00:42.176925+00:00",
     "source_terms_url": "https://www.bbc.co.uk/terms",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {
@@ -30003,7 +30091,7 @@
     "source_published_at": "2026-10-27T09:31:58+00:00",
     "discovered_at": "2026-10-28T02:00:42.176898+00:00",
     "source_terms_url": "https://www.bbc.co.uk/terms",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {
@@ -30582,7 +30670,7 @@
     "source_published_at": "2026-10-27T09:22:06+00:00",
     "discovered_at": "2026-10-28T02:00:40.122186+00:00",
     "source_terms_url": "https://www.sciencedaily.com/terms/",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {
@@ -30691,7 +30779,7 @@
     "source_published_at": "2026-10-27T09:30:00+00:00",
     "discovered_at": "2026-10-28T02:00:39.743068+00:00",
     "source_terms_url": "https://www.condenast.com/user-agreement/",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {
@@ -31439,7 +31527,7 @@
     "source_published_at": "2026-10-27T09:17:49+00:00",
     "discovered_at": "2026-10-28T02:00:38.059782+00:00",
     "source_terms_url": "https://www.economist.com/legal/terms-of-use",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {
@@ -34423,7 +34511,7 @@
     "source_published_at": "2026-10-27T09:21:33+00:00",
     "discovered_at": "2026-10-28T02:00:29.982993+00:00",
     "source_terms_url": "https://www.theguardian.com/help/terms-of-service",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {
@@ -34435,7 +34523,7 @@
     "source_published_at": "2026-10-27T09:30:30+00:00",
     "discovered_at": "2026-10-28T02:00:29.982972+00:00",
     "source_terms_url": "https://www.theguardian.com/help/terms-of-service",
-    "status": "queued",
+    "status": "stale",
     "attempts": 0
   },
   {

@@ -19288,7 +19288,7 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.657354+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.theguardian.com/world/2026/oct/26/marco-rubio-us-secretary-of-state-india-visit-mumbai": {
       "id": "4b43920ccda0c035b58b",
@@ -19297,7 +19297,7 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.657359+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.theguardian.com/uk-news/2026/oct/27/john-healey-budget-help-with-cost-of-living-deferring-decisions-on-tax-and-spending": {
       "id": "5b82f9e83adda133294d",
@@ -21537,7 +21537,7 @@
       "source_name": "The Economist - Latest",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.658621+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.bbc.co.uk/sounds/play/w3ct8jys?at_medium=RSS&at_campaign=rss": {
       "id": "8346efbd8e2d19c7b5e7",
@@ -22099,7 +22099,7 @@
       "source_name": "Wired - All",
       "category": "technology",
       "first_seen_at": "2026-10-28T02:00:54.658983+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.sciencedaily.com/releases/2026/10/261026225622.htm": {
       "id": "84b272cdb71f1ca334fa",
@@ -22181,7 +22181,7 @@
       "source_name": "ScienceDaily - All",
       "category": "technology",
       "first_seen_at": "2026-10-28T02:00:54.659023+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation": {
       "id": "3576ba8e09e7f10f3473",
@@ -22616,7 +22616,7 @@
       "source_name": "BBC Sport - Football",
       "category": "sports",
       "first_seen_at": "2026-10-28T02:00:54.659253+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss": {
       "id": "49a9b938fe2d630a6f31",
@@ -22625,7 +22625,7 @@
       "source_name": "BBC Sport - Football",
       "category": "sports",
       "first_seen_at": "2026-10-28T02:00:54.659258+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.bbc.co.uk/sport/football/articles/c6jrwqd7jl3yo?at_medium=RSS&at_campaign=rss": {
       "id": "1aea4acefa5bfc2974ca",
@@ -44670,7 +44670,8 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-10-30T09:14:31.435361+00:00",
-      "status": "queued"
+      "status": "published",
+      "article_id": "phu-tho-thong-qua-nghi-quyet-xay-dung-ha-tang-va-ieu-chinh-ia-gioi-hanh--58bb9c17"
     },
     "https://www.bbc.co.uk/news/articles/cxvgdzpy7241o?at_medium=RSS&at_campaign=rss": {
       "id": "3b249b3e23b9ae13d063",
@@ -45076,7 +45077,8 @@
       "source_name": "Wired - All",
       "category": "technology",
       "first_seen_at": "2026-10-30T09:14:31.435543+00:00",
-      "status": "queued"
+      "status": "published",
+      "article_id": "bien-may-thoi-la-thanh-sung-ban-giay-ve-sinh-cho-dip-halloween-df44c5a1"
     },
     "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races": {
       "id": "abecd64f1c1f477abd88",
@@ -45132,72 +45134,137 @@
       "category": "sports",
       "first_seen_at": "2026-10-30T09:14:31.435567+00:00",
       "status": "queued"
+    },
+    "https://thanhnien.vn/tu-mu-bao-hiem-den-nuoc-sach-hang-xe-may-mo-rong-hoat-dong-cong-dong-185261030150857373.htm": {
+      "id": "9292e42448311d1d7ade",
+      "source_url": "https://thanhnien.vn/tu-mu-bao-hiem-den-nuoc-sach-hang-xe-may-mo-rong-hoat-dong-cong-dong-185261030150857373.htm",
+      "title": "Từ mũ bảo hiểm đến nước sạch, hãng xe máy mở rộng hoạt động cộng đồng",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T09:34:43.655049+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/tphcm-se-thanh-lap-them-7-phuong-sau-nam-2030-185261030153225315.htm": {
+      "id": "6ff3544bae92136100da",
+      "source_url": "https://thanhnien.vn/tphcm-se-thanh-lap-them-7-phuong-sau-nam-2030-185261030153225315.htm",
+      "title": "TP.HCM sẽ thành lập thêm 7 phường sau năm 2030",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T09:34:43.655062+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates": {
+      "id": "7064f3f6fe075a7248de",
+      "source_url": "https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates",
+      "title": "Burnham says he wants to offer more ‘regional empowerment’ ahead of devolution summit – UK politics live",
+      "source_name": "The Guardian - World",
+      "category": "world",
+      "first_seen_at": "2026-10-30T09:34:43.655069+00:00",
+      "status": "published",
+      "article_id": "thu-tuong-anh-andy-burnham-thuc-ay-mo-hinh-trao-quyen-khu-vuc-tai-hoi-ng-667d4358"
+    },
+    "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss": {
+      "id": "737ef61f37a8d9cbf805",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss",
+      "title": "Russian oil refinery struck as Ukraine renews drone attacks",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-10-30T09:34:43.655077+00:00",
+      "status": "queued"
+    },
+    "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories": {
+      "id": "8e2f3b591bc02ae65bfb",
+      "source_url": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+      "title": "‘There’s a lot of hurt between us’: My father’s caregiver is using his debit card for DoorDash orders. What can I do?",
+      "source_name": "MarketWatch - Top Stories",
+      "category": "world",
+      "first_seen_at": "2026-10-30T09:34:43.655084+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live": {
+      "id": "6748d88ec52e96d0109f",
+      "source_url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
+      "title": "Premier League news, Carabao Cup and WCL reaction and more – football live",
+      "source_name": "The Guardian - Sport",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T09:34:43.655090+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates": {
+      "id": "1e00f6f1d9ade0c59408",
+      "source_url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
+      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
+      "source_name": "The Guardian - Sport",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T09:34:43.655095+00:00",
+      "status": "published",
+      "article_id": "nam-phi-oi-au-uc-dien-bien-cang-thang-ngay-thi-au-thu-tu-tai-newlands-9ecf8b96"
     }
   },
-  "last_run": "2026-10-30T09:15:15.485396+00:00",
+  "last_run": "2026-10-30T09:35:14.992503+00:00",
   "last_run_stats": {
     "feeds_enabled": 50,
-    "feeds_succeeded": 38,
-    "new_leads_in_window": 59,
+    "feeds_succeeded": 40,
+    "new_leads_in_window": 7,
     "published": 4,
-    "feed_failures": 12,
-    "window_end_at": "2026-10-30T09:13:52.739809+00:00",
+    "feed_failures": 10,
+    "window_end_at": "2026-10-30T09:34:18.551002+00:00",
     "bootstrap_start": "2026-10-24T06:00:00+07:00",
     "api_keys_configured": 3,
-    "generation_attempts": 5,
-    "ai_responses": 5,
+    "generation_attempts": 4,
+    "ai_responses": 4,
     "generation_failures": 0
   },
   "feed_cursors": {
     "https://vnexpress.net/rss/thoi-su.rss": "2026-10-23T23:00:00+00:00",
-    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://thanhnien.vn/rss/home.rss": "2026-10-30T09:13:52.739809+00:00",
+    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://thanhnien.vn/rss/home.rss": "2026-10-30T09:34:18.551002+00:00",
     "https://www.vietnamplus.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vtv.vn/trang-chu.rss": "2026-10-23T23:00:00+00:00",
-    "https://dantri.com.vn/rss/home.rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://laodong.vn/rss/home.rss": "2026-10-30T04:28:39.859929+00:00",
-    "https://nld.com.vn/rss/home.rss": "2026-10-30T09:13:52.739809+00:00",
+    "https://dantri.com.vn/rss/home.rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://laodong.vn/rss/home.rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://nld.com.vn/rss/home.rss": "2026-10-30T09:34:18.551002+00:00",
     "https://tienphong.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vietnamnews.vn/rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.theguardian.com/world/rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.aljazeera.com/xml/rss/all.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.npr.org/1001/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://rss.dw.com/rdf/rss-en-all": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.france24.com/en/rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.euronews.com/rss?level=theme&name=news": "2026-10-30T09:13:52.739809+00:00",
-    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.bbci.co.uk/news/rss.xml": "2026-10-30T09:13:52.739809+00:00",
+    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.theguardian.com/world/rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.aljazeera.com/xml/rss/all.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.npr.org/1001/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://rss.dw.com/rdf/rss-en-all": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.france24.com/en/rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.euronews.com/rss?level=theme&name=news": "2026-10-30T09:34:18.551002+00:00",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.bbci.co.uk/news/rss.xml": "2026-10-30T09:34:18.551002+00:00",
     "https://vnexpress.net/rss/kinh-doanh.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.npr.org/1006/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.theguardian.com/business/rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.investing.com/rss/news.rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.ft.com/world?format=rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.economist.com/latest/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.theverge.com/rss/index.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://techcrunch.com/feed/": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.arstechnica.com/arstechnica/index": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.wired.com/feed/rss": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.nature.com/nature.rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.sciencedaily.com/rss/all.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.nasa.gov/news-release/feed/": "2026-10-30T09:13:52.739809+00:00",
-    "https://news.mit.edu/rss/feed": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.engadget.com/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://blog.google/technology/ai/rss/": "2026-10-30T09:13:52.739809+00:00",
+    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.npr.org/1006/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.theguardian.com/business/rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.investing.com/rss/news.rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.ft.com/world?format=rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.economist.com/latest/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.theverge.com/rss/index.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://techcrunch.com/feed/": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.arstechnica.com/arstechnica/index": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.wired.com/feed/rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.nature.com/nature.rss": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.sciencedaily.com/rss/all.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.nasa.gov/news-release/feed/": "2026-10-30T09:34:18.551002+00:00",
+    "https://news.mit.edu/rss/feed": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.engadget.com/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://blog.google/technology/ai/rss/": "2026-10-30T09:34:18.551002+00:00",
     "https://vnexpress.net/rss/the-thao.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.theguardian.com/uk/sport/rss": "2026-10-30T09:13:52.739809+00:00",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.theguardian.com/uk/sport/rss": "2026-10-30T09:34:18.551002+00:00",
     "https://www.espn.com/espn/rss/news": "2026-10-23T23:00:00+00:00",
-    "https://www.skysports.com/rss/12040": "2026-10-30T09:13:52.739809+00:00",
-    "https://www.cbssports.com/rss/headlines/soccer/": "2026-10-30T09:13:52.739809+00:00",
+    "https://www.skysports.com/rss/12040": "2026-10-30T09:34:18.551002+00:00",
+    "https://www.cbssports.com/rss/headlines/soccer/": "2026-10-30T09:34:18.551002+00:00",
     "https://olympics.com/en/news/rss": "2026-10-23T23:00:00+00:00",
-    "https://www.sportingnews.com/us/rss": "2026-10-30T09:13:52.739809+00:00",
+    "https://www.sportingnews.com/us/rss": "2026-10-30T09:34:18.551002+00:00",
     "https://vtv.vn/rss.htm": "2026-10-23T23:00:00+00:00"
   },
   "source_usage": [
@@ -45712,7 +45779,39 @@
       "article_id": "gia-lai-khai-hoi-tuan-le-hoa-da-quy-chu-ang-ya-2026-cfb22122",
       "published_at": "2026-10-30T08:55:00+00:00",
       "recorded_at": "2026-10-30T09:15:14.284542+00:00"
+    },
+    {
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates",
+      "category": "world",
+      "article_id": "thu-tuong-anh-andy-burnham-thuc-ay-mo-hinh-trao-quyen-khu-vuc-tai-hoi-ng-667d4358",
+      "published_at": "2026-10-30T09:18:28+00:00",
+      "recorded_at": "2026-10-30T09:34:51.511016+00:00"
+    },
+    {
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
+      "category": "sports",
+      "article_id": "nam-phi-oi-au-uc-dien-bien-cang-thang-ngay-thi-au-thu-tu-tai-newlands-9ecf8b96",
+      "published_at": "2026-10-30T09:26:37+00:00",
+      "recorded_at": "2026-10-30T09:34:58.677869+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/thoi-su/phu-tho-dong-y-xay-2-cau-va-dieu-chinh-don-vi-hanh-chinh-voi-ha-noi-20261030151128098.htm",
+      "category": "vietnam",
+      "article_id": "phu-tho-thong-qua-nghi-quyet-xay-dung-ha-tang-va-ieu-chinh-ia-gioi-hanh--58bb9c17",
+      "published_at": "2026-10-30T08:28:59+00:00",
+      "recorded_at": "2026-10-30T09:35:06.769451+00:00"
+    },
+    {
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026",
+      "category": "technology",
+      "article_id": "bien-may-thoi-la-thanh-sung-ban-giay-ve-sinh-cho-dip-halloween-df44c5a1",
+      "published_at": "2026-10-30T09:01:00+00:00",
+      "recorded_at": "2026-10-30T09:35:13.791615+00:00"
     }
   ],
-  "last_run_window_end": "2026-10-30T09:13:52.739809+00:00"
+  "last_run_window_end": "2026-10-30T09:34:18.551002+00:00"
 }
