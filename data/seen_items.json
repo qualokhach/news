@@ -20435,7 +20435,7 @@
       "source_name": "Sky News - Home",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.658025+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://news.sky.com/story/woman-dies-after-getting-into-difficulty-in-sea-off-the-isle-of-wight-13604334": {
       "id": "f5377d5d1c7b0ebed6a8",
@@ -22662,7 +22662,7 @@
       "source_name": "BBC Sport - Football",
       "category": "sports",
       "first_seen_at": "2026-10-28T02:00:54.659277+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.bbc.co.uk/sport/formula1/articles/cw4g186011rdo?at_medium=RSS&at_campaign=rss": {
       "id": "658e1ba843181aa0c666",
@@ -22816,7 +22816,7 @@
       "source_name": "The Guardian - Sport",
       "category": "sports",
       "first_seen_at": "2026-10-28T02:00:54.659359+00:00",
-      "status": "queued"
+      "status": "stale"
     },
     "https://www.theguardian.com/sport/2026/oct/27/england-nations-championship-guy-pepper-benhard-van-rensburg-injury-rugby-union": {
       "id": "b2161300f974578c7db6",
@@ -44054,16 +44054,371 @@
       "category": "sports",
       "first_seen_at": "2026-10-30T07:34:28.707274+00:00",
       "status": "queued"
+    },
+    "https://thanhnien.vn/tphcm-phat-hanh-trai-phieu-do-thi-thong-qua-trung-tam-tai-chinh-quoc-te-185261030143438784.htm": {
+      "id": "7996eaf8287ca0dcc8e3",
+      "source_url": "https://thanhnien.vn/tphcm-phat-hanh-trai-phieu-do-thi-thong-qua-trung-tam-tai-chinh-quoc-te-185261030143438784.htm",
+      "title": "TP.HCM phát hành trái phiếu đô thị thông qua Trung tâm Tài chính quốc tế",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738255+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/thong-doc-tennessee-noi-gi-ve-ban-an-cua-tu-tu-bi-tiem-thuoc-doc-khong-chet-185261030145638354.htm": {
+      "id": "f55f21bb331f83f9ccea",
+      "source_url": "https://thanhnien.vn/thong-doc-tennessee-noi-gi-ve-ban-an-cua-tu-tu-bi-tiem-thuoc-doc-khong-chet-185261030145638354.htm",
+      "title": "Thống đốc Tennessee nói gì về bản án của tử tù bị tiêm thuốc độc không chết?",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738271+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/me-mr-pips-noi-con-trai-bi-tam-than-13-nam-bo-tim-cach-chay-giam-dinh-185261030143513686.htm": {
+      "id": "5173114c4114fe8494a3",
+      "source_url": "https://thanhnien.vn/me-mr-pips-noi-con-trai-bi-tam-than-13-nam-bo-tim-cach-chay-giam-dinh-185261030143513686.htm",
+      "title": "Mẹ Mr Pips nói con trai bị tâm thần 13 năm, bố tìm cách 'chạy' giám định",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738279+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/sau-loat-bai-cua-thanh-nien-co-so-tri-lieu-dien-truong-tam-ngung-hoat-dong-185261030140511233.htm": {
+      "id": "daa7097fca24add68463",
+      "source_url": "https://thanhnien.vn/sau-loat-bai-cua-thanh-nien-co-so-tri-lieu-dien-truong-tam-ngung-hoat-dong-185261030140511233.htm",
+      "title": "Sau loạt bài của Thanh Niên, cơ sở trị liệu điện trường tạm ngừng hoạt động",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738287+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/mot-phu-nu-trung-giai-doc-dac-khi-lan-dau-thu-choi-xo-so-truc-tuyen-185261030144810889.htm": {
+      "id": "a4af981dae95027fafcf",
+      "source_url": "https://thanhnien.vn/mot-phu-nu-trung-giai-doc-dac-khi-lan-dau-thu-choi-xo-so-truc-tuyen-185261030144810889.htm",
+      "title": "Một phụ nữ trúng giải độc đắc khi lần đầu thử chơi xổ số trực tuyến",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738292+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/tap-doan-tbs-ky-ket-hop-tac-dau-tu-vao-tinh-trung-java-indonesia-185261030142030724.htm": {
+      "id": "9ac1d8c0eeee22296df1",
+      "source_url": "https://thanhnien.vn/tap-doan-tbs-ky-ket-hop-tac-dau-tu-vao-tinh-trung-java-indonesia-185261030142030724.htm",
+      "title": "Tập đoàn TBS ký kết hợp tác đầu tư vào tỉnh Trung Java, Indonesia",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738299+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/dieu-gi-xay-ra-khi-dung-dien-thoai-android-het-han-cap-nhat-bao-mat-185261030133545573.htm": {
+      "id": "044df8da3e805b7e9d84",
+      "source_url": "https://thanhnien.vn/dieu-gi-xay-ra-khi-dung-dien-thoai-android-het-han-cap-nhat-bao-mat-185261030133545573.htm",
+      "title": "Điều gì xảy ra khi dùng điện thoại Android hết hạn cập nhật bảo mật?",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738305+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/chang-trai-kiem-gan-100-trieu-dong-thang-nho-tu-hoc-nghe-dap-phu-dieu-185261030140636862.htm": {
+      "id": "ec0558fbb92c31282d4e",
+      "source_url": "https://thanhnien.vn/chang-trai-kiem-gan-100-trieu-dong-thang-nho-tu-hoc-nghe-dap-phu-dieu-185261030140636862.htm",
+      "title": "Chàng trai kiếm gần 100 triệu đồng/tháng nhờ tự học nghề đắp phù điêu",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738312+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/iphone-duo-galaxy-s26-ultra-va-mot-dien-thoai-ky-la-duoc-vinh-danh-phat-minh-tot-nhat-nam-185261030132249474.htm": {
+      "id": "ef207382a8459fb07ff4",
+      "source_url": "https://thanhnien.vn/iphone-duo-galaxy-s26-ultra-va-mot-dien-thoai-ky-la-duoc-vinh-danh-phat-minh-tot-nhat-nam-185261030132249474.htm",
+      "title": "iPhone Duo, Galaxy S26 Ultra và một điện thoại kỳ lạ được vinh danh phát minh tốt nhất năm",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738319+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/bat-dong-san-du-lich-gia-lai-cho-phuc-hoi-bai-toan-doanh-thu-van-kho-18526103013270673.htm": {
+      "id": "098cef40b7f28b1898a5",
+      "source_url": "https://thanhnien.vn/bat-dong-san-du-lich-gia-lai-cho-phuc-hoi-bai-toan-doanh-thu-van-kho-18526103013270673.htm",
+      "title": "Bất động sản du lịch Gia Lai chờ phục hồi, bài toán doanh thu vẫn khó",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738325+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/de-xuat-phuong-an-ket-thuc-hoat-dong-nhieu-quy-tai-chinh-nha-nuoc-185261030113035447.htm": {
+      "id": "763bc2b79229100425ce",
+      "source_url": "https://thanhnien.vn/de-xuat-phuong-an-ket-thuc-hoat-dong-nhieu-quy-tai-chinh-nha-nuoc-185261030113035447.htm",
+      "title": "Đề xuất phương án kết thúc hoạt động nhiều quỹ tài chính nhà nước",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-10-30T08:09:26.738331+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/us-news/ng-interactive/2026/oct/30/ukraine-iran-trump-elections": {
+      "id": "53c8dc208e5b6a782a92",
+      "source_url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/30/ukraine-iran-trump-elections",
+      "title": "Are Trump’s global actions, from Ukraine to Iran, going to hurt him in elections?",
+      "source_name": "The Guardian - World",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738336+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/news/2026/10/30/my-life-is-buried-here-iranian-man-whose-12-family-members-were-killed?traffic_source=rss": {
+      "id": "16de868b8b2bbbf479f0",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/my-life-is-buried-here-iranian-man-whose-12-family-members-were-killed?traffic_source=rss",
+      "title": "‘My life is buried here’: Iranian man whose 12 family members were killed",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738346+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/news/2026/10/30/australian-mushroom-murderer-erin-patterson-loses-appeal-bid?traffic_source=rss": {
+      "id": "d579a904a0928d294ec4",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/australian-mushroom-murderer-erin-patterson-loses-appeal-bid?traffic_source=rss",
+      "title": "Australian court rejects ‘mushroom murderer’ Erin Patterson’s appeal",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738353+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/video/newsfeed/2026/10/30/philippines-raises-alert-as-mayon-volcano-erupts?traffic_source=rss": {
+      "id": "ad8e31534b3d514a1910",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/philippines-raises-alert-as-mayon-volcano-erupts?traffic_source=rss",
+      "title": "Philippines raises alert as Mayon Volcano erupts",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738359+00:00",
+      "status": "queued"
+    },
+    "https://www.euronews.com/video/2026/10/30/dr-congo-msf-celebrates-ebola-patient-discharges-in-ituri-province": {
+      "id": "04719181af75b1d492e9",
+      "source_url": "https://www.euronews.com/video/2026/10/30/dr-congo-msf-celebrates-ebola-patient-discharges-in-ituri-province",
+      "title": "DR Congo: MSF celebrates Ebola patient discharges in Ituri province",
+      "source_name": "Euronews - World",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738366+00:00",
+      "status": "published",
+      "article_id": "ch-dan-chu-congo-trung-tam-ieu-tri-ebola-tai-ituri-xuat-vien-nhung-benh--f420d682"
+    },
+    "https://www.nytimes.com/2026/10/30/world/asia/call-of-duty-seoul-itaweon-crowd-crush.html": {
+      "id": "c922168b2a54475fc624",
+      "source_url": "https://www.nytimes.com/2026/10/30/world/asia/call-of-duty-seoul-itaweon-crowd-crush.html",
+      "title": "New ‘Call of Duty’ Game Draws Criticism for Using Footage of Deadly Seoul Crowd Crush",
+      "source_name": "NYT - World",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738371+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss": {
+      "id": "d9af3468d44cbff08071",
+      "source_url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "title": "What we know about Binance's $6.3bn hack",
+      "source_name": "BBC News - Top Stories",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738378+00:00",
+      "status": "published",
+      "article_id": "san-giao-dich-tien-ien-tu-binance-oi-mat-voi-vu-tan-cong-mang-tri-gia-6--ce669d71"
+    },
+    "https://www.bbc.co.uk/news/articles/cm20v3029p5xo?at_medium=RSS&at_campaign=rss": {
+      "id": "fd1bc1421536f42c3fa9",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm20v3029p5xo?at_medium=RSS&at_campaign=rss",
+      "title": "Sir Ian McKellen leads tributes to 'beloved actor' Sir Patrick Stewart after his death at 86",
+      "source_name": "BBC News - Top Stories",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738384+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/sport/football/articles/cqy0r31kwne0o?at_medium=RSS&at_campaign=rss": {
+      "id": "e737b0d488ed0162762e",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cqy0r31kwne0o?at_medium=RSS&at_campaign=rss",
+      "title": "Why managers must put their own fitness first - Pulis",
+      "source_name": "BBC News - Top Stories",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738391+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/sport/rugby-union/articles/cmrry1rgzd4zo?at_medium=RSS&at_campaign=rss": {
+      "id": "c90009a4a2309b855916",
+      "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmrry1rgzd4zo?at_medium=RSS&at_campaign=rss",
+      "title": "Matchroom's Hearn expected to increase Prem influence",
+      "source_name": "BBC News - Top Stories",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738397+00:00",
+      "status": "published",
+      "article_id": "eddie-hearn-gia-tang-anh-huong-tai-giai-bong-bau-duc-premiership-be40002a"
+    },
+    "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss": {
+      "id": "809b0a58997163d11d40",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
+      "title": "How video game remakes tap the power of nostalgia",
+      "source_name": "BBC - Business",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738402+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates": {
+      "id": "a1175a7f31c4177d2940",
+      "source_url": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
+      "title": "‘Elite North Korean hackers’ blamed for $6.3bn Binance hack – business live",
+      "source_name": "The Guardian - Business",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738409+00:00",
+      "status": "published",
+      "article_id": "binance-oi-mat-vu-tan-cong-an-ninh-mang-quy-mo-6-3-ty-usd-5315e834"
+    },
+    "https://www.investing.com/news/stock-market-news/natwest-shares-fall-as-impairments-nearly-double-uk-bank-surcharge-doubles-4985944": {
+      "id": "ab518cbe02a55afb3d19",
+      "source_url": "https://www.investing.com/news/stock-market-news/natwest-shares-fall-as-impairments-nearly-double-uk-bank-surcharge-doubles-4985944",
+      "title": "NatWest shares fall as impairments nearly double, UK bank surcharge doubles",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738416+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/hungarys-economy-grew-15-in-third-quarter-preliminary-data-shows-93CH-4985943": {
+      "id": "42fa2dcbff1f07dda673",
+      "source_url": "https://www.investing.com/news/stock-market-news/hungarys-economy-grew-15-in-third-quarter-preliminary-data-shows-93CH-4985943",
+      "title": "Hungary’s economy grew 1.5% in third quarter, preliminary data shows",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738422+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/oppenheimer-downgrades-boston-scientific-stock-rating-on-growth-concerns-93CH-4985942": {
+      "id": "22fb2a5f2a7a9f37deb9",
+      "source_url": "https://www.investing.com/news/analyst-ratings/oppenheimer-downgrades-boston-scientific-stock-rating-on-growth-concerns-93CH-4985942",
+      "title": "Oppenheimer downgrades Boston Scientific stock rating on growth concerns",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738428+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/economic-indicators/french-economy-unexpectedly-contracts-as-exports-slump-in-third-quarter-4985938": {
+      "id": "6f33772515ba940093d1",
+      "source_url": "https://www.investing.com/news/economic-indicators/french-economy-unexpectedly-contracts-as-exports-slump-in-third-quarter-4985938",
+      "title": "French economy unexpectedly contracts as exports slump in third quarter",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738435+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/puma-trims-2026-operatingloss-forecast-amid-softer-consumer-demand-4985930": {
+      "id": "05a16bb41a8d8c7b5447",
+      "source_url": "https://www.investing.com/news/stock-market-news/puma-trims-2026-operatingloss-forecast-amid-softer-consumer-demand-4985930",
+      "title": "Puma narrows 2026 operating loss forecast amid softer consumer demand",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738441+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/analyst-ratings/td-cowen-cuts-boston-scientific-stock-rating-on-2027-outlook-93CH-4985936": {
+      "id": "703b3592ef3c964c9174",
+      "source_url": "https://www.investing.com/news/analyst-ratings/td-cowen-cuts-boston-scientific-stock-rating-on-2027-outlook-93CH-4985936",
+      "title": "TD Cowen cuts Boston Scientific stock rating on 2027 outlook",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738447+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/earnings/airtel-africa-h1-revenue-jumps-21-on-broad-based-growth-4985935": {
+      "id": "7d179b8ff55083cd3db8",
+      "source_url": "https://www.investing.com/news/earnings/airtel-africa-h1-revenue-jumps-21-on-broad-based-growth-4985935",
+      "title": "Airtel Africa H1 revenue jumps 21% on broad based growth",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738454+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/earnings/puma-swings-to-q3-operating-loss-as-weak-demand-weighs-narrows-2026-loss-outlook-4985933": {
+      "id": "d11358338fa89f210361",
+      "source_url": "https://www.investing.com/news/earnings/puma-swings-to-q3-operating-loss-as-weak-demand-weighs-narrows-2026-loss-outlook-4985933",
+      "title": "Puma swings to Q3 operating loss as weak demand weighs, narrows 2026 loss outlook",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738460+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/panasonics-battery-unit-posts-higher-q2-operating-profit-lifts-forecast-4985932": {
+      "id": "b1424dbf2bbea147f594",
+      "source_url": "https://www.investing.com/news/stock-market-news/panasonics-battery-unit-posts-higher-q2-operating-profit-lifts-forecast-4985932",
+      "title": "Panasonic’s battery unit posts higher Q2 operating profit, lifts forecast",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738467+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/120e7ad5-53e9-45ca-b953-6cbd264622fd?syn-25a6b1a6=1": {
+      "id": "1321a1d6f840755abb52",
+      "source_url": "https://www.ft.com/content/120e7ad5-53e9-45ca-b953-6cbd264622fd?syn-25a6b1a6=1",
+      "title": "NatWest posts weakest profit growth among big UK banks",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-10-30T08:09:26.738473+00:00",
+      "status": "queued"
+    },
+    "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit": {
+      "id": "65eeab64fed21e0b5407",
+      "source_url": "https://www.engadget.com/2301934/general-motors-220-million-settle-multi-state-data-privacy-lawsuit",
+      "title": "General Motors agrees to pay $220 million to settle multi-state data privacy lawsuit",
+      "source_name": "Engadget - All",
+      "category": "technology",
+      "first_seen_at": "2026-10-30T08:09:26.738479+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/sport/football/articles/cked3zen65d1o?at_medium=RSS&at_campaign=rss": {
+      "id": "3b21fc5add2c4a282dc1",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cked3zen65d1o?at_medium=RSS&at_campaign=rss",
+      "title": "Time to invest in Bournemouth? - FPL gameweek nine dilemmas",
+      "source_name": "BBC Sport - Football",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:09:26.738485+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/sport/tennis/articles/cwe8lpmn2ly1o?at_medium=RSS&at_campaign=rss": {
+      "id": "19d4add24479b3861bfe",
+      "source_url": "https://www.bbc.co.uk/sport/tennis/articles/cwe8lpmn2ly1o?at_medium=RSS&at_campaign=rss",
+      "title": "Shock Basel loss dents Djokovic's ATP Finals hopes",
+      "source_name": "BBC Sport - All",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:09:26.738491+00:00",
+      "status": "queued"
+    },
+    "https://www.skysports.com/football/news/12040/13605451/alexander-isak-why-keeping-sweden-striker-fit-and-firing-is-key-to-andoni-iraolas-liverpool-revival": {
+      "id": "81fa1be30a99c25e4cb5",
+      "source_url": "https://www.skysports.com/football/news/12040/13605451/alexander-isak-why-keeping-sweden-striker-fit-and-firing-is-key-to-andoni-iraolas-liverpool-revival",
+      "title": "Why keeping Isak fit and firing is key to Iraola's Liverpool revival",
+      "source_name": "Sky Sports - Football",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:09:26.738498+00:00",
+      "status": "queued"
+    },
+    "https://www.sportingnews.com/us/ncaa-football/ohio-state/news/revisiting-ohio-state-2014-national-title-cardale-jones-jt-barrett-injury/19eee4d716cb1471a7af5e09": {
+      "id": "3ca8ccf27b187eccc932",
+      "source_url": "https://www.sportingnews.com/us/ncaa-football/ohio-state/news/revisiting-ohio-state-2014-national-title-cardale-jones-jt-barrett-injury/19eee4d716cb1471a7af5e09",
+      "title": "Revisiting Ohio State's 2014 national title run with Cardale Jones after J.T. Barrett injury",
+      "source_name": "Sporting News - Soccer",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:09:26.738504+00:00",
+      "status": "queued"
+    },
+    "https://www.sportingnews.com/us/nba/news/ranking-best-worst-nba-cup-courts-2026/f75a00dd797285490c4446c7": {
+      "id": "16aab691b8af425ca1e1",
+      "source_url": "https://www.sportingnews.com/us/nba/news/ranking-best-worst-nba-cup-courts-2026/f75a00dd797285490c4446c7",
+      "title": "Ranking 5 best and worst NBA Cup courts in 2026",
+      "source_name": "Sporting News - Soccer",
+      "category": "sports",
+      "first_seen_at": "2026-10-30T08:09:26.738510+00:00",
+      "status": "queued"
     }
   },
-  "last_run": "2026-10-30T07:35:04.476284+00:00",
+  "last_run": "2026-10-30T08:10:07.988354+00:00",
   "last_run_stats": {
     "feeds_enabled": 50,
-    "feeds_succeeded": 39,
-    "new_leads_in_window": 165,
+    "feeds_succeeded": 38,
+    "new_leads_in_window": 39,
     "published": 4,
-    "feed_failures": 11,
-    "window_end_at": "2026-10-30T07:33:49.142584+00:00",
+    "feed_failures": 12,
+    "window_end_at": "2026-10-30T08:08:45.580685+00:00",
     "bootstrap_start": "2026-10-24T06:00:00+07:00",
     "api_keys_configured": 3,
     "generation_attempts": 4,
@@ -44072,54 +44427,54 @@
   },
   "feed_cursors": {
     "https://vnexpress.net/rss/thoi-su.rss": "2026-10-23T23:00:00+00:00",
-    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://thanhnien.vn/rss/home.rss": "2026-10-30T07:33:49.142584+00:00",
+    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://thanhnien.vn/rss/home.rss": "2026-10-30T08:08:45.580685+00:00",
     "https://www.vietnamplus.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vtv.vn/trang-chu.rss": "2026-10-23T23:00:00+00:00",
-    "https://dantri.com.vn/rss/home.rss": "2026-10-30T07:33:49.142584+00:00",
+    "https://dantri.com.vn/rss/home.rss": "2026-10-30T08:08:45.580685+00:00",
     "https://laodong.vn/rss/home.rss": "2026-10-30T04:28:39.859929+00:00",
-    "https://nld.com.vn/rss/home.rss": "2026-10-30T07:33:49.142584+00:00",
+    "https://nld.com.vn/rss/home.rss": "2026-10-30T08:08:45.580685+00:00",
     "https://tienphong.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vietnamnews.vn/rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.theguardian.com/world/rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.aljazeera.com/xml/rss/all.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.npr.org/1001/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://rss.dw.com/rdf/rss-en-all": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.france24.com/en/rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.euronews.com/rss?level=theme&name=news": "2026-10-30T07:33:49.142584+00:00",
-    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.bbci.co.uk/news/rss.xml": "2026-10-30T07:33:49.142584+00:00",
+    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.theguardian.com/world/rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.aljazeera.com/xml/rss/all.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.npr.org/1001/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://rss.dw.com/rdf/rss-en-all": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.france24.com/en/rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.euronews.com/rss?level=theme&name=news": "2026-10-30T08:08:45.580685+00:00",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.bbci.co.uk/news/rss.xml": "2026-10-30T08:08:45.580685+00:00",
     "https://vnexpress.net/rss/kinh-doanh.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.npr.org/1006/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.theguardian.com/business/rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.investing.com/rss/news.rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.ft.com/world?format=rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.economist.com/latest/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.theverge.com/rss/index.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://techcrunch.com/feed/": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.arstechnica.com/arstechnica/index": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.wired.com/feed/rss": "2026-10-30T07:33:49.142584+00:00",
+    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.npr.org/1006/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.theguardian.com/business/rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.investing.com/rss/news.rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.ft.com/world?format=rss": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.economist.com/latest/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.theverge.com/rss/index.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://techcrunch.com/feed/": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.arstechnica.com/arstechnica/index": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.wired.com/feed/rss": "2026-10-30T08:08:45.580685+00:00",
     "https://www.nature.com/nature.rss": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.sciencedaily.com/rss/all.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.nasa.gov/news-release/feed/": "2026-10-30T07:33:49.142584+00:00",
-    "https://news.mit.edu/rss/feed": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.engadget.com/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://blog.google/technology/ai/rss/": "2026-10-30T07:33:49.142584+00:00",
+    "https://www.sciencedaily.com/rss/all.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.nasa.gov/news-release/feed/": "2026-10-30T08:08:45.580685+00:00",
+    "https://news.mit.edu/rss/feed": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.engadget.com/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://blog.google/technology/ai/rss/": "2026-10-30T08:08:45.580685+00:00",
     "https://vnexpress.net/rss/the-thao.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.theguardian.com/uk/sport/rss": "2026-10-30T07:33:49.142584+00:00",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.theguardian.com/uk/sport/rss": "2026-10-30T08:08:45.580685+00:00",
     "https://www.espn.com/espn/rss/news": "2026-10-23T23:00:00+00:00",
-    "https://www.skysports.com/rss/12040": "2026-10-30T07:33:49.142584+00:00",
-    "https://www.cbssports.com/rss/headlines/soccer/": "2026-10-30T07:33:49.142584+00:00",
+    "https://www.skysports.com/rss/12040": "2026-10-30T08:08:45.580685+00:00",
+    "https://www.cbssports.com/rss/headlines/soccer/": "2026-10-30T08:08:45.580685+00:00",
     "https://olympics.com/en/news/rss": "2026-10-23T23:00:00+00:00",
-    "https://www.sportingnews.com/us/rss": "2026-10-30T07:33:49.142584+00:00",
+    "https://www.sportingnews.com/us/rss": "2026-10-30T08:08:45.580685+00:00",
     "https://vtv.vn/rss.htm": "2026-10-23T23:00:00+00:00"
   },
   "source_usage": [
@@ -44538,7 +44893,39 @@
       "article_id": "waymo-hop-tac-cung-toyota-phat-trien-xe-tu-lai-cho-thi-truong-quoc-te-c1761d3f",
       "published_at": "2026-10-30T07:01:00+00:00",
       "recorded_at": "2026-10-30T07:35:03.275262+00:00"
+    },
+    {
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "category": "technology",
+      "article_id": "san-giao-dich-tien-ien-tu-binance-oi-mat-voi-vu-tan-cong-mang-tri-gia-6--ce669d71",
+      "published_at": "2026-10-30T08:02:02+00:00",
+      "recorded_at": "2026-10-30T08:09:36.829943+00:00"
+    },
+    {
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmrry1rgzd4zo?at_medium=RSS&at_campaign=rss",
+      "category": "sports",
+      "article_id": "eddie-hearn-gia-tang-anh-huong-tai-giai-bong-bau-duc-premiership-be40002a",
+      "published_at": "2026-10-30T08:00:55+00:00",
+      "recorded_at": "2026-10-30T08:09:43.403634+00:00"
+    },
+    {
+      "source_name": "The Guardian - Business",
+      "source_url": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
+      "category": "technology",
+      "article_id": "binance-oi-mat-vu-tan-cong-an-ninh-mang-quy-mo-6-3-ty-usd-5315e834",
+      "published_at": "2026-10-30T07:55:19+00:00",
+      "recorded_at": "2026-10-30T08:09:50.623632+00:00"
+    },
+    {
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/video/2026/10/30/dr-congo-msf-celebrates-ebola-patient-discharges-in-ituri-province",
+      "category": "world",
+      "article_id": "ch-dan-chu-congo-trung-tam-ieu-tri-ebola-tai-ituri-xuat-vien-nhung-benh--f420d682",
+      "published_at": "2026-10-30T07:53:54+00:00",
+      "recorded_at": "2026-10-30T08:10:06.787522+00:00"
     }
   ],
-  "last_run_window_end": "2026-10-30T07:33:49.142584+00:00"
+  "last_run_window_end": "2026-10-30T08:08:45.580685+00:00"
 }
