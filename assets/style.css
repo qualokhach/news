@@ -68,3 +68,14 @@ body{font-size:16px;line-height:1.65;background:#f6f8fb}
 .category-more-link span{color:var(--blue);font-size:18px}
 .category-more-home{display:inline-block;margin-top:18px;color:var(--blue);font-weight:800;font-size:13px}
 @media(max-width:760px){.category-hero{min-height:260px!important;margin:12px 0 18px}.category-hero .hero-vivid .hero-copy,.category-hero .hero-copy{padding:25px}.category-hero .hero-copy h1{font-size:31px}.category-hero .hero-copy p{font-size:17px}.category-hero .hero-pills{gap:6px;margin-top:15px}.category-hero .hero-pills span{font-size:10px;padding:6px 8px}.category-more-nav{padding:18px;margin-top:24px}.category-more-links{grid-template-columns:1fr}}
+
+
+/* R13: clear hierarchy for each story inside the noon digest */
+.digest-list{display:grid;gap:1.25rem;margin:1.5rem 0}
+.digest-item{padding:1.1rem 1.2rem;border:1px solid #e5e7eb;border-radius:14px;background:#fff}
+.digest-item-kicker{font-size:.76rem;font-weight:800;letter-spacing:.06em;color:#64748b;margin-bottom:.45rem}
+.digest-item h2{font-size:1.2rem;line-height:1.4;margin:.2rem 0 .65rem;color:#172033}
+.digest-item p{margin:.55rem 0;line-height:1.75}
+.digest-item .digest-read-more{margin-top:.8rem;font-weight:800}
+.digest-item .digest-read-more a{color:#1769aa;text-decoration:none}
+.digest-item .digest-read-more a:hover{text-decoration:underline}
