@@ -49,6 +49,7 @@ jobs:
           fi
           echo "At least one AI provider secret is present. Values are not printed."
       - name: Collect, write and publish to GitHub JSON archive
+        id: collect_publish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
           XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
@@ -62,29 +63,38 @@ jobs:
         run: python scripts/check_run_health.py
       - name: Summarize article generation result
         if: always()
+        env:
+          PIPELINE_STEP_OUTCOME: ${{ steps.collect_publish.outcome }}
         run: |
           python - <<'PY2'
           import json, os
           from pathlib import Path
-          p=Path('data/seen_items.json')
-          state=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
-          stats=state.get('last_run_stats', {}) if isinstance(state, dict) else {}
-          lines=[
-            '## AppNho News run summary',
-            f"- Enabled feeds: {stats.get('feeds_enabled', 0)}",
-            f"- Successful feeds: {stats.get('feeds_succeeded', 0)}",
-            f"- New leads in this window: {stats.get('new_leads_in_window', 0)}",
-            f"- AI keys configured (count only): {stats.get('api_keys_configured', 0)}",
-            f"- AI generation attempts: {stats.get('generation_attempts', 0)}",
-            f"- Valid AI responses: {stats.get('ai_responses', 0)}",
-            f"- Articles published this run: {stats.get('published', 0)}",
-            f"- Feed failures: {stats.get('feed_failures', 0)}",
-            f"- Generation failures: {stats.get('generation_failures', 0)}",
-          ]
-          if stats.get('published', 0) == 0:
-            lines.append('- Note: zero publication is not automatically an error; inspect lead counts, provider warnings and quality rejections in the job log.')
+          outcome=os.environ.get('PIPELINE_STEP_OUTCOME', 'unknown')
+          lines=['## AppNho News run summary']
+          if outcome != 'success':
+            lines += [
+              f"- Collection/publishing step outcome: {outcome}",
+              "- Pipeline did not complete successfully; stored statistics were not presented because they may belong to an earlier run."
+            ]
+          else:
+            p=Path('data/seen_items.json')
+            state=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+            stats=state.get('last_run_stats', {}) if isinstance(state, dict) else {}
+            lines += [
+              f"- Enabled feeds: {stats.get('feeds_enabled', 0)}",
+              f"- Successful feeds: {stats.get('feeds_succeeded', 0)}",
+              f"- New leads in this window: {stats.get('new_leads_in_window', 0)}",
+              f"- AI keys configured (count only): {stats.get('api_keys_configured', 0)}",
+              f"- AI generation attempts: {stats.get('generation_attempts', 0)}",
+              f"- Valid AI responses: {stats.get('ai_responses', 0)}",
+              f"- Articles published this run: {stats.get('published', 0)}",
+              f"- Feed failures: {stats.get('feed_failures', 0)}",
+              f"- Generation failures: {stats.get('generation_failures', 0)}",
+            ]
+            if stats.get('published', 0) == 0:
+              lines.append('- Note: zero publication is not automatically an error; inspect lead counts, provider warnings and quality rejections in the job log.')
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
-            f.write('\n'.join(lines) + '\n')
+            f.write('\\n'.join(lines) + '\\n')
           PY2
       - name: Re-audit article data after generation
         run: python scripts/audit_site.py
