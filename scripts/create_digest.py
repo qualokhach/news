@@ -31,13 +31,9 @@ def appnho_rows(active,archive,catalog,now):
         if not pub or pub>now or not title or not summary: continue
         out.append({"title":title,"summary":summary,"category":a.get("category"),"published_at":pub.isoformat(),"source_url":a.get("source_url"),"url":BASE+quote(str(a["id"]),safe=""),"is_appnho":True,"is_supplement":True})
     return sorted(out,key=lambda x:x["published_at"],reverse=True)
-def main():
-    now=datetime.now(timezone.utc); today=now.astimezone(VN).date().isoformat(); active=load(ARTICLES); archive=load(ARCHIVE); catalog=load(CATALOG); pending=load(PENDING)
-    ident="diem-tin-"+today; rebuild=os.getenv("REBUILD_DIGEST","").lower() in ("1","true","yes")
-    exists=any(isinstance(a,dict) and a.get("id")==ident for a in active+archive+catalog)
-    if exists and not rebuild: print("[DIGEST] Today's digest exists; set REBUILD_DIGEST=1 to rebuild."); return
-    if rebuild: active=[a for a in active if not(isinstance(a,dict) and a.get("id")==ident)]
-    published_urls={clean(a.get("source_url")) for a in active+archive+catalog if isinstance(a,dict) and a.get("source_url")}
+
+def pending_rows(pending, published_urls, now):
+    """Return eligible external leads from the rolling 24-hour window."""
     cutoff=now-timedelta(hours=HOURS); fresh=[]; seen_urls=set(); seen_titles=set()
     for x in pending:
         if not isinstance(x,dict) or x.get("status") not in ("queued","pending","retry"): continue
@@ -47,16 +43,29 @@ def main():
         if url in seen_urls or (key and key in seen_titles): continue
         seen_urls.add(url); seen_titles.add(key)
         fresh.append({"title":title,"summary":summary[:420],"category":x.get("category"),"published_at":pub.isoformat(),"source_url":url,"url":"","is_appnho":False,"is_supplement":False})
-    fresh.sort(key=lambda x:x["published_at"],reverse=True)
-    chosen=fresh[:MAX]
-    supplement_count=0
-    if len(chosen)<MIN:
-        existing=appnho_rows(active,archive,catalog,now)
-        chosen_urls={x.get("source_url") for x in chosen}
-        for x in existing:
-            if len(chosen)>=MIN: break
-            if x.get("source_url") in chosen_urls: continue
-            chosen.append(x); chosen_urls.add(x.get("source_url")); supplement_count+=1
+    return sorted(fresh,key=lambda x:x["published_at"],reverse=True)
+
+def choose_items(fresh, existing, minimum=MIN, maximum=MAX):
+    """Prioritize fresh external leads, supplement from AppNho history only as needed."""
+    chosen=list(fresh[:maximum]); supplement_count=0
+    chosen_urls={x.get("source_url") for x in chosen}
+    if len(chosen)<minimum:
+        for item in existing:
+            if len(chosen)>=minimum: break
+            if item.get("source_url") in chosen_urls: continue
+            chosen.append(item); chosen_urls.add(item.get("source_url")); supplement_count+=1
+    return chosen, len(fresh), supplement_count
+
+def main():
+    now=datetime.now(timezone.utc); today=now.astimezone(VN).date().isoformat(); active=load(ARTICLES); archive=load(ARCHIVE); catalog=load(CATALOG); pending=load(PENDING)
+    ident="diem-tin-"+today; rebuild=os.getenv("REBUILD_DIGEST","").lower() in ("1","true","yes")
+    exists=any(isinstance(a,dict) and a.get("id")==ident for a in active+archive+catalog)
+    if exists and not rebuild: print("[DIGEST] Today's digest exists; set REBUILD_DIGEST=1 to rebuild."); return
+    if rebuild: active=[a for a in active if not(isinstance(a,dict) and a.get("id")==ident)]
+    published_urls={clean(a.get("source_url")) for a in active+archive+catalog if isinstance(a,dict) and a.get("source_url")}
+    fresh=pending_rows(pending,published_urls,now)
+    existing=appnho_rows(active,archive,catalog,now)
+    chosen,fresh_count,supplement_count=choose_items(fresh,existing)
     if len(chosen)<MIN:
         print(f"[DIGEST] Only {len(chosen)} eligible stories with summaries; need {MIN}. No digest published."); return
     date=now.astimezone(VN).strftime("%d/%m/%Y"); title=f"Điểm tin AppNho trưa {date}: {len(chosen)} tin đáng chú ý"
@@ -67,7 +76,7 @@ def main():
         items.append(item)
         if x.get("source_url"): source_urls.append(x["source_url"])
     body=[lead]+[f"{x['number']}. {x['title']} — {x['summary']}" for x in items]
-    article={"id":ident,"title":title,"summary":lead,"category":"vietnam","source_name":"AppNho tổng hợp","source_url":"","published_at":now.isoformat(),"fetched_at":now.isoformat(),"content_type":"news_digest","collection":"current","body":body,"digest_items":items,"digest_window_hours":HOURS,"digest_fresh_count":len(fresh),"digest_supplement_count":supplement_count,"generation_provider":"deterministic_digest","seo_title":title[:70],"meta_description":lead,"keywords":["điểm tin","tin Việt Nam","tin thế giới","tin công nghệ","tin thể thao"],"slug":ident,"images":[],"content_image_url":"","word_count":len(" ".join(body).split()),"display_source":False,"source_urls":list(dict.fromkeys(source_urls)),"source_links":list(dict.fromkeys(source_urls))}
+    article={"id":ident,"title":title,"summary":lead,"category":"vietnam","source_name":"AppNho tổng hợp","source_url":"","published_at":now.isoformat(),"fetched_at":now.isoformat(),"content_type":"news_digest","collection":"current","body":body,"digest_items":items,"digest_window_hours":HOURS,"digest_fresh_count":fresh_count,"digest_supplement_count":supplement_count,"generation_provider":"deterministic_digest","seo_title":title[:70],"meta_description":lead,"keywords":["điểm tin","tin Việt Nam","tin thế giới","tin công nghệ","tin thể thao"],"slug":ident,"images":[],"content_image_url":"","word_count":len(" ".join(body).split()),"display_source":False,"source_urls":list(dict.fromkeys(source_urls)),"source_links":list(dict.fromkeys(source_urls))}
     active.append(article); ARTICLES.write_text(json.dumps(active,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"[DIGEST] Created {ident}: {len(fresh)} new external leads, {supplement_count} AppNho back-catalog supplements.")
+    print(f"[DIGEST] Created {ident}: {fresh_count} new external leads, {supplement_count} AppNho back-catalog supplements.")
 if __name__=="__main__": main()
