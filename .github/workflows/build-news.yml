@@ -24,7 +24,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -45,6 +45,14 @@ jobs:
           EVENT_SCHEDULE: ${{ github.event.schedule }}
           DISPATCH_SLOT_KIND: ${{ inputs.slot_kind }}
         run: python scripts/resolve_publish_slot.py >> "$GITHUB_OUTPUT"
+      - name: Write staged candidates with AI providers
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
+          XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY_APPNHO_NEWS }}
+          GROK_MODEL: ${{ vars.GROK_MODEL }}
+          MAX_ARTICLES_PER_SLOT: ${{ steps.slot.outputs.max_articles }}
+        run: python scripts/write_candidates.py
       - name: Final source, freshness and quality gate; publish ready candidates
         env:
           MAX_ARTICLES_PER_SLOT: ${{ steps.slot.outputs.max_articles }}
