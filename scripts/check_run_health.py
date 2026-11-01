@@ -32,8 +32,10 @@ def evaluate(stats):
                 f'Feed coverage is degraded: {succeeded}/{eligible} eligible feeds succeeded '
                 f'({feed_ratio:.0%}); review failed publishers and feed audit report.'
             )
-    if keys<=0:
-        errors.append('No AI provider key is configured.')
+    # Research is deliberately API-free. Provider keys are required only by
+    # the later writing stage, so their absence must never fail this workflow.
+    if attempts>0 and keys<=0:
+        errors.append('AI generation was attempted without a configured provider key.')
     if attempts>0 and responses==0:
         errors.append('AI generation was attempted but no valid provider response was received.')
     if prepared==0:
@@ -55,7 +57,7 @@ def main():
     responses=int(stats.get('ai_responses',0)); failures=int(stats.get('feed_failures',0))
     gen_failures=int(stats.get('generation_failures',0))
     undated=int(stats.get('undated_items_retained',0))
-    print(f'PIPELINE HEALTH: feeds={succeeded}/{eligible} eligible ({enabled} enabled); API keys={keys}; prepared={prepared}; AI attempts={attempts}; responses={responses}; feed failures={failures}; generation failures={gen_failures}')
+    print(f'PIPELINE HEALTH: feeds={succeeded}/{eligible} eligible ({enabled} enabled); API keys (writing stage only)={keys}; prepared={prepared}; AI attempts={attempts}; responses={responses}; feed failures={failures}; generation failures={gen_failures}')
     errors,notes=evaluate(stats)
     for item in errors: print('PIPELINE HEALTH FAIL: '+item,file=sys.stderr)
     for item in notes: print('PIPELINE HEALTH NOTE: '+item)

@@ -181,9 +181,10 @@ class RunHealthTests(unittest.TestCase):
         errors,_=check_run_health.evaluate({'feeds_enabled':50,'feeds_eligible':50,'feeds_succeeded':0,'api_keys_configured':2})
         self.assertTrue(any('Every eligible' in x for x in errors))
 
-    def test_no_provider_is_not_green(self):
-        errors,_=check_run_health.evaluate({'feeds_enabled':50,'feeds_eligible':50,'feeds_succeeded':10,'api_keys_configured':0})
-        self.assertTrue(any('No AI provider' in x for x in errors))
+    def test_no_provider_key_does_not_fail_api_free_research(self):
+        errors,_=check_run_health.evaluate({'feeds_enabled':50,'feeds_eligible':50,'feeds_succeeded':36,'api_keys_configured':0,'prepared':4,'generation_attempts':0,'ai_responses':0})
+        self.assertEqual(errors,[])
+
 
 class WorkflowSafetyTests(unittest.TestCase):
     def test_build_workflow_has_expected_vietnam_publication_windows(self):
