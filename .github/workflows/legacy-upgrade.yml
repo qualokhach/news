@@ -1,0 +1,53 @@
+name: AppNho News — manually review legacy article upgrade
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Apply rewritten legacy articles (otherwise dry-run only)'
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: write
+concurrency:
+  group: appnho-news-data
+  cancel-in-progress: false
+jobs:
+  upgrade:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Validate repository before migration
+        run: python scripts/audit_site.py
+      - name: Upgrade previously published articles in a bounded batch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
+          XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY_APPNHO_NEWS }}
+          MAX_LEGACY_UPGRADES_PER_RUN: "3"
+          MAX_LEGACY_ATTEMPTS_PER_RUN: "12"
+          LEGACY_UPGRADE_APPLY: ${{ inputs.apply }}
+        run: python scripts/upgrade_legacy_articles.py
+      - name: Rebuild metadata after content changes
+        run: python scripts/build_metadata.py
+      - name: Audit migrated article and archive data
+        run: python scripts/audit_site.py
+      - name: Commit upgraded articles and migration report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches reports/legacy_upgrade_last_run.json sitemap.xml feed.xml social_metadata.json share/
+          if git diff --cached --quiet; then
+            echo "No legacy article changes to commit."
+          else
+            git commit -m "Upgrade legacy AppNho News content"
+            git push
+          fi

@@ -16,7 +16,7 @@ on:
         required: true
         type: string
       body:
-        description: "Nội dung bài (mỗi đoạn cách nhau một dòng trống; tối thiểu 600 từ, 6 đoạn)"
+        description: "Ngữ cảnh tham khảo (ít nhất 100 từ); chỉ dùng để nhận diện đề tài, không xuất bản nguyên văn"
         required: true
         type: string
       source_name:
@@ -24,17 +24,24 @@ on:
         required: false
         type: string
       source_url:
-        description: "URL nguồn tham khảo (nếu có)"
-        required: false
+        description: "HTTPS URL nguồn để hệ thống nghiên cứu/xác minh"
+        required: true
         type: string
       keywords:
-        description: "Từ khóa, cách nhau bằng dấu phẩy"
+        description: "Từ khóa gợi ý, cách nhau bằng dấu phẩy (không xuất bản trực tiếp)"
         required: false
+        type: string
+      source_published_at:
+        description: "Thời điểm công bố của nguồn, bắt buộc theo ISO-8601 để tránh gán sai ngày"
+        required: true
         type: string
 permissions:
   contents: write
+concurrency:
+  group: appnho-news-data
+  cancel-in-progress: false
 jobs:
-  publish:
+  queue_research_lead:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
@@ -43,7 +50,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Validate and add article
+      - name: Stage research lead (no direct publication)
         env:
           ARTICLE_TITLE: ${{ inputs.title }}
           ARTICLE_CATEGORY: ${{ inputs.category }}
@@ -52,15 +59,12 @@ jobs:
           ARTICLE_SOURCE_NAME: ${{ inputs.source_name }}
           ARTICLE_SOURCE_URL: ${{ inputs.source_url }}
           ARTICLE_KEYWORDS: ${{ inputs.keywords }}
+          ARTICLE_SOURCE_PUBLISHED_AT: ${{ inputs.source_published_at }}
         run: python scripts/manual_publish.py
-      - name: Close 30-day article batch when due
-        run: python scripts/rotate_archive.py
-      - name: Rebuild RSS and sitemap
-        run: python scripts/build_metadata.py
-      - name: Commit manual article
+      - name: Commit research lead only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches sitemap.xml feed.xml share/
-          git commit -m "Publish manual AppNho News article"
+          git add data/pending.json data/seen_items.json
+          git commit -m "Queue AppNho News research lead"
           git push
