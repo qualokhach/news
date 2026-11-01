@@ -158,7 +158,9 @@ def main():
     validate_workflow=(ROOT/".github/workflows/validate-news.yml").read_text(encoding="utf-8")
     assert all(f'cron: "{cron}"' in workflow for cron in ("45 22 * * *", "45 4 * * *", "45 9 * * *")), "Finalization must use three separately identifiable Vietnam publication slots."
     assert "scripts/resolve_publish_slot.py" in workflow and "steps.slot.outputs.slot_kind" in workflow, "Publication workflow must use the tested slot resolver."
-    assert 'cron: "0 2,7,14,20 * * *"' in research_workflow, "Research queue schedule missing."
+    assert all(cron in research_workflow for cron in (
+        'cron: "45 21 * * *"', 'cron: "45 3 * * *"', 'cron: "45 8 * * *"'
+    )), "Research queue schedule must precede all three Vietnam publication slots."
     assert 'NEWS_PUBLIC_FACTUAL_RESEARCH: "1"' in research_workflow, "Scheduled research must enable limited factual-reference mode."
     assert 'MAX_OPENROUTER_CALLS_PER_RUN: "8"' in research_workflow, "OpenRouter free-tier call cap missing."
     assert 'workflow_dispatch:' in legacy_workflow and 'schedule:' not in legacy_workflow, "Legacy upgrades must be manual-only to protect already-published articles."

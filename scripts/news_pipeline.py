@@ -70,22 +70,77 @@ def clean(s):
     s = re.sub(r'<[^>]+>', ' ', s)
     return re.sub(r'\s+', ' ', s).strip()
 def get_text(node, names):
-    for name in names:
-        n = node.find(name)
-        if n is not None and n.text: return n.text.strip()
+    """Read RSS/Atom fields by local XML name, including namespaced Dublin Core tags."""
+    wanted={str(name).split('}')[-1].split(':')[-1].casefold() for name in names}
+    for child in node.iter():
+        local=str(child.tag).split('}')[-1].split(':')[-1].casefold()
+        if local not in wanted:
+            continue
+        if child.text and child.text.strip():
+            return child.text.strip()
+        # Atom links store their target in href rather than text.
+        href=child.attrib.get('href') or child.attrib.get('{http://www.w3.org/1999/xlink}href')
+        if href:
+            return href.strip()
     return ''
+
 def parse_date(raw):
-    if not raw: return ''
+    """Parse RFC822, ISO-8601, common publisher date strings and Unix timestamps."""
+    if raw is None:
+        return ''
+    value=str(raw).strip()
+    if not value:
+        return ''
+    candidates=[value]
+    # RSS feeds sometimes wrap the date in a JSON-LD/HTML attribute.
+    if value.isdigit() and len(value) in (10,13):
+        try:
+            stamp=float(value) / (1000 if len(value)==13 else 1)
+            return datetime.fromtimestamp(stamp,timezone.utc).isoformat()
+        except (ValueError,OverflowError,OSError):
+            pass
     try:
-        d = parsedate_to_datetime(raw)
-        if d.tzinfo is None: d = d.replace(tzinfo=timezone.utc)
+        d=parsedate_to_datetime(value)
+        if d.tzinfo is None: d=d.replace(tzinfo=timezone.utc)
         return d.astimezone(timezone.utc).isoformat()
     except Exception:
+        pass
+    normalized=value.replace('Z','+00:00')
+    try:
+        d=datetime.fromisoformat(normalized)
+        if d.tzinfo is None: d=d.replace(tzinfo=timezone.utc)
+        return d.astimezone(timezone.utc).isoformat()
+    except Exception:
+        pass
+    for fmt in (
+        '%Y-%m-%d %H:%M:%S','%Y-%m-%d %H:%M','%Y/%m/%d %H:%M:%S',
+        '%d/%m/%Y %H:%M:%S','%d/%m/%Y %H:%M','%Y-%m-%d',
+        '%d-%m-%Y %H:%M:%S','%d-%m-%Y %H:%M'
+    ):
         try:
-            d = datetime.fromisoformat(raw.replace('Z','+00:00'))
-            if d.tzinfo is None: d = d.replace(tzinfo=timezone.utc)
-            return d.astimezone(timezone.utc).isoformat()
-        except Exception: return ''
+            d=datetime.strptime(value,fmt).replace(tzinfo=timezone.utc)
+            return d.isoformat()
+        except ValueError:
+            continue
+    return ''
+
+def publication_date_from_html(raw_html):
+    """Extract only publication timestamps from HTML metadata; never use crawl time."""
+    text=raw_html.decode('utf-8','replace') if isinstance(raw_html,bytes) else str(raw_html or '')
+    patterns=(
+        r'<meta[^>]+(?:property|name)=["\\\'](?:article:published_time|datePublished|date|pubdate|publishdate)["\\\'][^>]+content=["\\\']([^"\\\']+)',
+        r'<meta[^>]+content=["\\\']([^"\\\']+)["\\\'][^>]+(?:property|name)=["\\\'](?:article:published_time|datePublished|date|pubdate|publishdate)["\\\']',
+        r'"datePublished"\\s*:\\s*"([^"]+)"',
+        r'"dateCreated"\\s*:\\s*"([^"]+)"'
+    )
+    for pattern in patterns:
+        match=re.search(pattern,text,re.I)
+        if match:
+            parsed=parse_date(html.unescape(match.group(1)))
+            if parsed:
+                return parsed
+    return ''
+
 def fetch(url, accept='text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', limit=1_500_000):
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': accept})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
@@ -142,6 +197,9 @@ SOURCE_ROWS = load_source_directory()
 
 def source_info(url):
     domain=domain_key(url)
+    # BBC publishes through both bbc.com and bbc.co.uk; treat them as one publisher family.
+    domain_aliases={'bbc.co.uk':'bbc.com'}
+    domain=domain_aliases.get(domain,domain)
     matches=[r for r in SOURCE_ROWS if r.get('_domain') and (domain==r['_domain'] or domain.endswith('.'+r['_domain']))]
     if not matches:
         return {'name':domain or 'Nguồn công khai','source_type':'Chưa phân loại','is_primary':False,
@@ -188,7 +246,7 @@ def parse_feed(payload, feed):
         if not link:
             ln=node.find(f'{atom}link')
             if ln is not None: link=ln.attrib.get('href','')
-        date=get_text(node,['pubDate','published','updated',f'{atom}published',f'{atom}updated'])
+        date=get_text(node,['pubDate','published','updated','date','created','datePublished','dateCreated','issued'])
         # Do not retain publisher summaries/full-text excerpts: RSS is used for metadata-only discovery.
         description=''
         link=canon(link)
@@ -226,7 +284,7 @@ def research_access_mode(url, feed_domain=None):
         host=domain_key(url)
         feed_host=str(feed_domain or '').strip().casefold()
         if not feed_host or not (host==feed_host or host.endswith('.'+feed_host)):
-            raise PermissionError('Unlisted publisher domain does not match its configured RSS publisher')
+            raise PermissionError(f'Unlisted article host {host} does not match configured feed publisher {feed_host or "(missing)"}')
     if access=='RESEARCH_ALLOWED' and terms=='VERIFIED':
         mode='APPROVED_RESEARCH'
     elif os.getenv('NEWS_PUBLIC_FACTUAL_RESEARCH','').strip().lower() in {'1','true','yes'}:
@@ -613,12 +671,43 @@ Nguồn và bằng chứng đã thu thập:
     return instructions + json.dumps({'source_evidence_for_fact_check':sources,'discovery_leads_not_for_fact_claims':leads},ensure_ascii=False)
 
 
+def normalize_vietnam_category(title, summary='', body=None, category=''):
+    """Correct a model's world label only when the article has strong Vietnam-specific signals."""
+    if category != 'world':
+        return category
+    text=' '.join([str(title or ''),str(summary or ''),
+                   ' '.join(body or []) if isinstance(body,list) else str(body or '')]).casefold()
+    text=re.sub(r'[^\wÀ-ỹ]+',' ',text,flags=re.UNICODE)
+    text=re.sub(r'\s+',' ',text).strip()
+    # Explicit Vietnamese locations and state institutions are high-confidence local signals.
+    places=(
+        'cần thơ','hà nội','tp hcm','thành phố hồ chí minh','đà nẵng','hải phòng',
+        'bình dương','đồng nai','bà rịa','vũng tàu','thừa thiên huế','huế',
+        'quảng ninh','quảng nam','quảng ngãi','nghệ an','thanh hóa','thanh hoá',
+        'cà mau','kiên giang','phú quốc','đồng tháp','an giang','bắc ninh',
+        'thái nguyên','lâm đồng','gia lai','đắk lắk','đắk nông','long an',
+        'tiền giang','bến tre','trà vinh','sóc trăng','bạc liêu','tây ninh',
+        'bình phước','bình thuận','ninh thuận','khánh hòa','khánh hoà',
+        'quảng bình','quảng trị','hà tĩnh','nam định','ninh bình','hưng yên',
+        'vĩnh phúc','phú thọ','tuyên quang','lào cai','yên bái','sơn la',
+        'điện biên','lai châu','cao bằng','lạng sơn','bắc giang','hà nam'
+    )
+    institutions=(
+        'công an tp','công an tỉnh','ủy ban nhân dân','ubnd','bộ công an',
+        'bộ y tế','bộ giáo dục','chính phủ việt nam','quốc hội việt nam',
+        'ngân hàng nhà nước','việt nam đồng','đồng việt nam','người dân việt nam'
+    )
+    if any(term in text for term in places) or any(term in text for term in institutions):
+        return 'vietnam'
+    return category
+
 def make_article(obj, group, evidence_pages=None):
     if not obj.get('publish'): return None
     title=clean(obj.get('title',''))
     summary=clean(obj.get('summary',''))
     category=obj.get('category','')
     body=[clean(p) for p in obj.get('body',[]) if clean(p)]
+    category=normalize_vietnam_category(title, summary, body, category)
     if category not in CATEGORY_LABELS or not title or len(body)<4:
         raise ValueError('Article missing title/category/body structure')
     allowed_urls=[x.get('source_url') for x in group if x.get('source_url')]
@@ -873,6 +962,10 @@ def main():
     known_titles=[x.get('title','') for x in published_records+queued_records]
     pending_urls={canon(x.get('source_url','')) for x in pending}
     found=[]; undated_items=[]; failures=0; successful_feeds=0; recovered_undated=0
+    feed_domain_by_name={f.get('name'):domain_key(f.get('url','')) for f in feeds}
+    for record in pending:
+        if not record.get('source_feed_domain'):
+            record['source_feed_domain']=feed_domain_by_name.get(record.get('source_name'),'')
     pending_by_url={canon(x.get('source_url','')):x for x in pending if x.get('source_url')}
     for feed in feeds:
         if not feed.get('enabled',False): continue
@@ -890,6 +983,30 @@ def main():
             items=parse_feed(payload,feed)
             if not items:
                 raise RuntimeError('RSS/Atom response parsed but contains no usable items')
+            # Some publisher RSS entries omit dates or use non-standard fields.
+            # Recover a real publication timestamp from page metadata for a small,
+            # bounded sample; never substitute the discovery time.
+            date_recovered=0
+            for candidate in items:
+                if candidate.get('source_published_at') or date_recovered>=8:
+                    continue
+                date_recovered+=1
+                try:
+                    if not robots_allowed(candidate['source_url']):
+                        continue
+                    page_meta=fetch(candidate['source_url'],
+                                    accept='text/html,application/xhtml+xml;q=0.9,*/*;q=0.5',
+                                    limit=300_000)
+                    recovered_date=publication_date_from_html(page_meta)
+                    if recovered_date:
+                        candidate['source_published_at']=recovered_date
+                        candidate['date_source']='article_metadata'
+                except Exception:
+                    # Keep the item visible in pending with an undated status.
+                    continue
+            if date_recovered:
+                recovered_count=sum(1 for x in items if x.get('date_source')=='article_metadata')
+                print(f"[DATE] {feed['name']}: recovered {recovered_count} publication dates from article metadata (checked up to {date_recovered}).")
             successful_feeds+=1
             print(f"[OK] {feed['name']}: {len(items)} feed items; window ({cursor.isoformat()}, {run_started.isoformat()}]")
             for item in items:

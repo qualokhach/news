@@ -209,7 +209,9 @@ class WorkflowSafetyTests(unittest.TestCase):
 
     def test_research_workflow_runs_before_publication_windows(self):
         text=(ROOT/'.github/workflows/research-news.yml').read_text(encoding='utf-8')
-        self.assertIn('0 2,7,14,20 * * *',text)
+        self.assertIn('45 21 * * *',text)
+        self.assertIn('45 3 * * *',text)
+        self.assertIn('45 8 * * *',text)
         self.assertIn('NEWS_PUBLIC_FACTUAL_RESEARCH: "1"',text)
 
     def test_research_pipeline_has_one_main_entrypoint_only(self):
