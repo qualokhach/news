@@ -20594,7 +20594,7 @@
       "source_name": "BBC News - Top Stories",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.658111+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/articles/c5m2d83kmkkyo?at_medium=RSS&at_campaign=rss": {
       "id": "389c7320890d94d72a11",
@@ -20729,7 +20729,7 @@
       "source_name": "BBC - Business",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.658187+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/videos/ckq6nqqlj8nro?at_medium=RSS&at_campaign=rss": {
       "id": "7ee3af6b7be144711adf",
@@ -20828,7 +20828,7 @@
       "source_name": "CNBC - Top News",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.658238+00:00",
-      "status": "cross_checked_same_event",
+      "status": "writing_pending",
       "article_id": "chinh-quyen-my-oi-mat-voi-cac-thach-thuc-phap-ly-truoc-them-bau-cu-giua--f9f5ff0f"
     },
     "https://www.cnbc.com/2026/10/27/cassidy-hutchinson-doj-grand-jury-trump.html": {
@@ -21370,7 +21370,7 @@
       "source_name": "Financial Times - World",
       "category": "world",
       "first_seen_at": "2026-10-28T02:00:54.658532+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1": {
       "id": "0ff105bf6515d5e03055",
@@ -26651,7 +26651,7 @@
       "source_name": "BBC News - Top Stories",
       "category": "world",
       "first_seen_at": "2026-10-28T16:27:07.712283+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/videos/ck0j06zl28wzo?at_medium=RSS&at_campaign=rss": {
       "id": "739f6e82e10aa53beaff",
@@ -26849,7 +26849,7 @@
       "source_name": "BBC - Business",
       "category": "world",
       "first_seen_at": "2026-10-28T16:27:07.712372+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/videos/cqn49vy2jlx0o?at_medium=RSS&at_campaign=rss": {
       "id": "073ae2cb714dfefef66c",
@@ -28951,7 +28951,7 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-10-28T16:27:07.713294+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.sportingnews.com/us/nfl/news/chiefs-signing-kicker-justin-tucker-harrison-butker/906297a62a1bfc02dd480024": {
       "id": "7c6450c849dd15285068",
@@ -30395,7 +30395,7 @@
       "source_name": "NPR - News",
       "category": "world",
       "first_seen_at": "2026-10-29T02:56:28.342860+00:00",
-      "status": "cross_checked_same_event",
+      "status": "writing_pending",
       "article_id": "chinh-quyen-my-oi-mat-voi-cac-thach-thuc-phap-ly-truoc-them-bau-cu-giua--f9f5ff0f"
     },
     "https://www.npr.org/2026/10/28/nx-s1-6019370/jordan-neely-daniel-penny-anand-giridharadas-man-in-the-mirror": {
@@ -31055,7 +31055,7 @@
       "source_name": "BBC - Business",
       "category": "world",
       "first_seen_at": "2026-10-29T02:56:28.343266+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.theguardian.com/media/2026/oct/28/bari-weiss-cbs-news-60-minutes": {
       "id": "89ee35d7e675397fc695",
@@ -31470,7 +31470,7 @@
       "source_name": "Financial Times - World",
       "category": "world",
       "first_seen_at": "2026-10-29T02:56:28.343492+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.ft.com/content/7526e915-2590-4b42-85df-20bb89040db8?syn-25a6b1a6=1": {
       "id": "3fdd6cf6ae6d85b4cd94",
@@ -41771,7 +41771,7 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-10-30T02:21:30.345145+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.sportingnews.com/us/wnba/atlanta-dream/news/wnba-finals-game-7-prediction-why-angel-reeses-dream-will-beat-valkyries-win-their-first-title/5546dabf60dfe25a9fec2303": {
       "id": "706fe0cf2c4a06fd5e27",
@@ -49503,7 +49503,7 @@
       "source_name": "MIT News - Latest",
       "category": "technology",
       "first_seen_at": "2026-10-31T04:09:34.069098+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://news.mit.edu/2026/study-pinpoints-states-with-steepest-warming-trends-1030": {
       "id": "d1d9225d9bc11abe2578",
@@ -52718,7 +52718,7 @@
       "source_name": "Wired - All",
       "category": "technology",
       "first_seen_at": "2026-10-31T10:44:32.837033+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.wired.com/story/wayfair-promo-code": {
       "id": "46b2d1d5338167151c44",
@@ -60374,7 +60374,7 @@
       "source_name": "Sky News - Home",
       "category": "world",
       "first_seen_at": "2026-11-01T10:48:39.707521+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/articles/c62l4yz0eexpo?at_medium=RSS&at_campaign=rss": {
       "id": "61abd724cfacbd41d33e",
@@ -60392,7 +60392,7 @@
       "source_name": "BBC News - Top Stories",
       "category": "world",
       "first_seen_at": "2026-11-01T10:48:39.707532+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/articles/ck1exyj525d9o?at_medium=RSS&at_campaign=rss": {
       "id": "54778564ae55e2b5f918",
@@ -60410,7 +60410,7 @@
       "source_name": "BBC News - Top Stories",
       "category": "world",
       "first_seen_at": "2026-11-01T10:48:39.707542+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/articles/cmn06eldj9rwo?at_medium=RSS&at_campaign=rss": {
       "id": "e9735f72330c9ac7c5e6",
@@ -60464,7 +60464,7 @@
       "source_name": "BBC News - Top Stories",
       "category": "world",
       "first_seen_at": "2026-11-01T10:48:39.707571+00:00",
-      "status": "queued"
+      "status": "writing_pending"
     },
     "https://www.bbc.co.uk/news/articles/cqgkvpnj7l7yo?at_medium=RSS&at_campaign=rss": {
       "id": "f490d456fda9934ca960",
@@ -61437,78 +61437,816 @@
       "category": "sports",
       "first_seen_at": "2026-11-01T11:31:58.159186+00:00",
       "status": "queued"
+    },
+    "https://tuoitre.vn/tu-4-nguoi-su-dung-ma-tuy-o-chung-cu-the-song-cong-an-bat-23-nguoi-lien-quan-100261101173908892.htm": {
+      "id": "65c199a7a805600848db",
+      "source_url": "https://tuoitre.vn/tu-4-nguoi-su-dung-ma-tuy-o-chung-cu-the-song-cong-an-bat-23-nguoi-lien-quan-100261101173908892.htm",
+      "title": "Từ 4 người sử dụng ma túy ở chung cư The Sóng, công an bắt 23 người liên quan",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315783+00:00"
+    },
+    "https://tuoitre.vn/the-hue-creators-dua-nha-sang-tao-5-nuoc-kham-pha-di-san-hue-100261101174112181.htm": {
+      "id": "369ac0ab901be132f42d",
+      "source_url": "https://tuoitre.vn/the-hue-creators-dua-nha-sang-tao-5-nuoc-kham-pha-di-san-hue-100261101174112181.htm",
+      "title": "The Huế Creators đưa nhà sáng tạo 5 nước khám phá di sản Huế",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315807+00:00"
+    },
+    "https://tuoitre.vn/cuoc-thi-lan-toa-nang-luong-tich-cuc-2026-co-gai-xuong-thuy-tinh-buoc-qua-gioi-han-mo-loi-yeu-thuong-100261101151605336.htm": {
+      "id": "ee02bc7e5acab766cfb9",
+      "source_url": "https://tuoitre.vn/cuoc-thi-lan-toa-nang-luong-tich-cuc-2026-co-gai-xuong-thuy-tinh-buoc-qua-gioi-han-mo-loi-yeu-thuong-100261101151605336.htm",
+      "title": "Cuộc thi Lan tỏa năng lượng tích cực 2026: Cô gái xương thủy tinh bước qua giới hạn, mở lối yêu thương",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315818+00:00"
+    },
+    "https://tuoitre.vn/vat-lieu-tien-tien-graphene-duoc-san-xuat-tai-quy-nhon-gia-lai-100261101174135863.htm": {
+      "id": "8ff401665094a7437747",
+      "source_url": "https://tuoitre.vn/vat-lieu-tien-tien-graphene-duoc-san-xuat-tai-quy-nhon-gia-lai-100261101174135863.htm",
+      "title": "Vật liệu tiên tiến Graphene được sản xuất tại Quy Nhơn, Gia Lai",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315827+00:00"
+    },
+    "https://tuoitre.vn/hlv-popov-len-tieng-sau-khi-chia-tay-the-cong-viettel-100261101172940433.htm": {
+      "id": "7066836b5f0151a60b47",
+      "source_url": "https://tuoitre.vn/hlv-popov-len-tieng-sau-khi-chia-tay-the-cong-viettel-100261101172940433.htm",
+      "title": "HLV Popov lên tiếng sau khi chia tay Thể Công - Viettel",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315835+00:00"
+    },
+    "https://tuoitre.vn/thi-cong-cong-thoat-nuoc-o-da-nang-nha-dan-xuat-hien-vet-nut-lot-ca-ban-tay-100261101172003215.htm": {
+      "id": "6b48992efc872733e173",
+      "source_url": "https://tuoitre.vn/thi-cong-cong-thoat-nuoc-o-da-nang-nha-dan-xuat-hien-vet-nut-lot-ca-ban-tay-100261101172003215.htm",
+      "title": "Thi công cống thoát nước ở Đà Nẵng, nhà dân xuất hiện vết nứt lọt cả bàn tay",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315843+00:00"
+    },
+    "https://tuoitre.vn/sang-mai-quoc-hoi-thao-luan-sua-luat-hien-lay-ghep-mo-tang-100261101170827021.htm": {
+      "id": "908436c571a836c45445",
+      "source_url": "https://tuoitre.vn/sang-mai-quoc-hoi-thao-luan-sua-luat-hien-lay-ghep-mo-tang-100261101170827021.htm",
+      "title": "Sáng mai, Quốc hội thảo luận sửa Luật Hiến, lấy, ghép mô, tạng",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315853+00:00"
+    },
+    "https://tuoitre.vn/giam-gia-dien-xang-dau-tac-dong-ra-sao-den-chi-phi-tieu-dung-cua-nguoi-dan-doanh-nghiep-100261101164807321.htm": {
+      "id": "ac0fa58924417459d1b4",
+      "source_url": "https://tuoitre.vn/giam-gia-dien-xang-dau-tac-dong-ra-sao-den-chi-phi-tieu-dung-cua-nguoi-dan-doanh-nghiep-100261101164807321.htm",
+      "title": "Giảm giá điện, xăng dầu tác động ra sao đến chi phí tiêu dùng của người dân, doanh nghiệp?",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315862+00:00"
+    },
+    "https://tuoitre.vn/trung-quoc-tung-don-trung-phat-dau-tien-cho-la-liga-vi-vu-mbappe-100261101172241891.htm": {
+      "id": "510d17f83e189877aae0",
+      "source_url": "https://tuoitre.vn/trung-quoc-tung-don-trung-phat-dau-tien-cho-la-liga-vi-vu-mbappe-100261101172241891.htm",
+      "title": "Trung Quốc tung 'đòn trừng phạt' đầu tiên cho La Liga vì vụ Mbappe",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "status": "needs_publication_date",
+      "seen_at": "2026-11-01T13:22:34.315869+00:00"
+    },
+    "https://tuoitre.vn/ngoc-diem-thu-ket-thuc-bi-tham-100261101183945534.htm": {
+      "id": "d69f3aa558abb4c59bde",
+      "source_url": "https://tuoitre.vn/ngoc-diem-thu-ket-thuc-bi-tham-100261101183945534.htm",
+      "title": "'Ngọc điệm thu' kết thúc bi thảm",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790236+00:00",
+      "status": "queued"
+    },
+    "https://tuoitre.vn/cau-thu-goc-viet-vinh-du-duoc-messi-chon-vao-top-3-tiem-nang-nhat-lang-bong-da-100261101184430343.htm": {
+      "id": "611af383814071359cbd",
+      "source_url": "https://tuoitre.vn/cau-thu-goc-viet-vinh-du-duoc-messi-chon-vao-top-3-tiem-nang-nhat-lang-bong-da-100261101184430343.htm",
+      "title": "Cầu thủ gốc Việt vinh dự được Messi chọn vào top 3 'tiềm năng nhất làng bóng đá'",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790251+00:00",
+      "status": "queued"
+    },
+    "https://tuoitre.vn/phuong-an-mo-duong-can-lua-quanh-thang-canh-ngu-binh-noi-lang-mo-vay-kin-10026110118114818.htm": {
+      "id": "dc8f994635bcc823926b",
+      "source_url": "https://tuoitre.vn/phuong-an-mo-duong-can-lua-quanh-thang-canh-ngu-binh-noi-lang-mo-vay-kin-10026110118114818.htm",
+      "title": "Phương án mở đường cản lửa quanh thắng cảnh Ngự Bình, nơi lăng mộ vây kín",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790259+00:00",
+      "status": "queued"
+    },
+    "https://tuoitre.vn/chu-tich-dragon-capital-chi-ra-uu-tien-viet-nam-can-giai-quyet-de-nang-hang-theo-msci-100261101180820012.htm": {
+      "id": "6e359f775ba87268986b",
+      "source_url": "https://tuoitre.vn/chu-tich-dragon-capital-chi-ra-uu-tien-viet-nam-can-giai-quyet-de-nang-hang-theo-msci-100261101180820012.htm",
+      "title": "Chủ tịch Dragon Capital chỉ ra ưu tiên Việt Nam cần giải quyết để nâng hạng theo MSCI",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790279+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/neu-tong-thong-zelensky-goi-dien-tong-thong-putin-co-nhac-may-khong-185261101201135451.htm": {
+      "id": "d084371d3ef89d30c5ba",
+      "source_url": "https://thanhnien.vn/neu-tong-thong-zelensky-goi-dien-tong-thong-putin-co-nhac-may-khong-185261101201135451.htm",
+      "title": "Nếu Tổng thống Zelensky gọi điện, Tổng thống Putin có nhấc máy không?",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790295+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/vi-sao-cac-bao-tang-chau-au-vat-va-chong-nan-dao-chich-18526110117402768.htm": {
+      "id": "53d747a5b1d0d14dc62b",
+      "source_url": "https://thanhnien.vn/vi-sao-cac-bao-tang-chau-au-vat-va-chong-nan-dao-chich-18526110117402768.htm",
+      "title": "Vì sao các bảo tàng châu Âu vất vả chống nạn đạo chích?",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790304+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/xem-nhanh-20h-ngay-111-khep-chat-vong-vay-2-doi-tuong-tron-trai-a2-10-vu-hack-crypto-lon-nhat-the-gioi-185261101194941449.htm": {
+      "id": "d398e05f49b91075628e",
+      "source_url": "https://thanhnien.vn/xem-nhanh-20h-ngay-111-khep-chat-vong-vay-2-doi-tuong-tron-trai-a2-10-vu-hack-crypto-lon-nhat-the-gioi-185261101194941449.htm",
+      "title": "Xem nhanh 20h ngày 1.11: Khép chặt vòng vây 2 đối tượng trốn trại A2 | 10 vụ hack crypto lớn nhất thế giới",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790311+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/my-canh-bao-nga-ve-am-muu-tan-cong-khung-bo-tai-moscow-185261101174120152.htm": {
+      "id": "e8bdc36a36804d0d4d59",
+      "source_url": "https://thanhnien.vn/my-canh-bao-nga-ve-am-muu-tan-cong-khung-bo-tai-moscow-185261101174120152.htm",
+      "title": "Mỹ cảnh báo Nga về âm mưu tấn công khủng bố tại Moscow",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790317+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/mb-tien-phong-ky-so-tram-lan-ky-tay-nay-chi-1-cham-185261031143124428.htm": {
+      "id": "a049b655a356722cacb3",
+      "source_url": "https://thanhnien.vn/mb-tien-phong-ky-so-tram-lan-ky-tay-nay-chi-1-cham-185261031143124428.htm",
+      "title": "MB tiên phong ký số: Trăm lần ký tay, nay chỉ 1 chạm",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790324+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/olaha-manh-duc-bi-phong-toa-clb-cong-an-tphcm-dut-mach-thang-hoa-thua-da-nang-0-1-tren-san-nha-185261101185641635.htm": {
+      "id": "0d1e8d980020ba1d9588",
+      "source_url": "https://thanhnien.vn/olaha-manh-duc-bi-phong-toa-clb-cong-an-tphcm-dut-mach-thang-hoa-thua-da-nang-0-1-tren-san-nha-185261101185641635.htm",
+      "title": "Olaha Mạnh Đức bị 'phong tỏa', CLB Công an TP.HCM đứt mạch thăng hoa: Thua Đà Nẵng 0-1 trên sân nhà",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790331+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/30-thu-tuc-giao-duc-nguoi-dan-khong-phai-nop-lai-thong-tin-co-trong-du-lieu-185261101191130139.htm": {
+      "id": "13d1a32cefbbb4da84b1",
+      "source_url": "https://thanhnien.vn/30-thu-tuc-giao-duc-nguoi-dan-khong-phai-nop-lai-thong-tin-co-trong-du-lieu-185261101191130139.htm",
+      "title": "30 thủ tục giáo dục người dân không phải nộp lại thông tin có trong dữ liệu",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790337+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/khi-ca-si-ai-canh-tranh-voi-nhung-ngoi-sao-am-nhac-that-185261101194343593.htm": {
+      "id": "7b45974ff4dc241c4d8a",
+      "source_url": "https://thanhnien.vn/khi-ca-si-ai-canh-tranh-voi-nhung-ngoi-sao-am-nhac-that-185261101194343593.htm",
+      "title": "Khi ca sĩ AI cạnh tranh với những ngôi sao âm nhạc thật",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790344+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/175-nguoi-ngo-doc-thuc-pham-de-nghi-phat-co-so-banh-mi-gan-100-trieu-dong-185261101184931889.htm": {
+      "id": "f68f27927a965592a2c9",
+      "source_url": "https://thanhnien.vn/175-nguoi-ngo-doc-thuc-pham-de-nghi-phat-co-so-banh-mi-gan-100-trieu-dong-185261101184931889.htm",
+      "title": "175 người ngộ độc thực phẩm: Đề nghị phạt cơ sở bánh mì gần 100 triệu đồng",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790350+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/tau-tuan-duyen-my-lan-dau-cap-cang-tphcm-185261101182830259.htm": {
+      "id": "14e47bb972a6049b66ca",
+      "source_url": "https://thanhnien.vn/tau-tuan-duyen-my-lan-dau-cap-cang-tphcm-185261101182830259.htm",
+      "title": "Tàu tuần duyên Mỹ lần đầu cập cảng TP.HCM",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790356+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/thang-11-xuat-hien-sieu-trang-hai-ly-2-mua-sao-bang-cung-trut-mua-anh-sang-185261101092219347.htm": {
+      "id": "2d582b71f311dd82cce6",
+      "source_url": "https://thanhnien.vn/thang-11-xuat-hien-sieu-trang-hai-ly-2-mua-sao-bang-cung-trut-mua-anh-sang-185261101092219347.htm",
+      "title": "Tháng 11 xuất hiện siêu trăng hải ly, 2 mưa sao băng cũng trút 'mưa ánh sáng'",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790363+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/hon-40000-nguoi-dung-len-108-bao-thap-chi-trong-mot-ngay-o-bhutan-185261101192339305.htm": {
+      "id": "b1558f1c3be194a04049",
+      "source_url": "https://thanhnien.vn/hon-40000-nguoi-dung-len-108-bao-thap-chi-trong-mot-ngay-o-bhutan-185261101192339305.htm",
+      "title": "Hơn 40.000 người dựng lên 108 bảo tháp chỉ trong một ngày ở Bhutan",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790369+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/truy-bat-2-pham-nhan-tron-trai-a2-dac-diem-nhan-dang-chi-tiet-185261101185817222.htm": {
+      "id": "b3db92627f8240686b9f",
+      "source_url": "https://thanhnien.vn/truy-bat-2-pham-nhan-tron-trai-a2-dac-diem-nhan-dang-chi-tiet-185261101185817222.htm",
+      "title": "Truy bắt 2 phạm nhân trốn trại A2: Đặc điểm nhận dạng chi tiết",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790375+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/truong-dai-hoc-to-chuc-giai-bong-da-giao-huu-chao-mung-ngay-nha-giao-viet-nam-185261101170532349.htm": {
+      "id": "c531f7c9a88a1cfd42b0",
+      "source_url": "https://thanhnien.vn/truong-dai-hoc-to-chuc-giai-bong-da-giao-huu-chao-mung-ngay-nha-giao-viet-nam-185261101170532349.htm",
+      "title": "Trường đại học tổ chức Giải bóng đá giao hữu chào mừng Ngày Nhà giáo Việt Nam",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790383+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/nong-the-cong-viettel-co-tan-thuyen-truong-nguoi-brazil-thay-ong-popov-tung-lam-hlv-thu-mon-185261101162509398.htm": {
+      "id": "b4f16e00869b6eea86ee",
+      "source_url": "https://thanhnien.vn/nong-the-cong-viettel-co-tan-thuyen-truong-nguoi-brazil-thay-ong-popov-tung-lam-hlv-thu-mon-185261101162509398.htm",
+      "title": "Nóng: Thể Công Viettel có tân thuyền trưởng người Brazil thay ông Popov, từng làm HLV thủ môn",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790390+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/cong-an-tinh-khanh-hoa-khep-chat-vong-vay-nhan-dang-2-pham-nhan-tron-trai-a2-185261101173434816.htm": {
+      "id": "8560805a216f7866bb15",
+      "source_url": "https://thanhnien.vn/cong-an-tinh-khanh-hoa-khep-chat-vong-vay-nhan-dang-2-pham-nhan-tron-trai-a2-185261101173434816.htm",
+      "title": "Công an tỉnh Khánh Hòa khép chặt vòng vây, nhận dạng 2 phạm nhân trốn trại A2",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790398+00:00",
+      "status": "queued"
+    },
+    "https://thanhnien.vn/ngoai-binh-nguoi-indonesia-toa-sang-giup-clb-the-cong-tan-cang-thang-nguoc-dong-ngoan-muc-185261101182210758.htm": {
+      "id": "8ce84ad7377ea0a619ca",
+      "source_url": "https://thanhnien.vn/ngoai-binh-nguoi-indonesia-toa-sang-giup-clb-the-cong-tan-cang-thang-nguoc-dong-ngoan-muc-185261101182210758.htm",
+      "title": "Ngoại binh người Indonesia tỏa sáng giúp CLB Thể Công Tân Cảng thắng ngược dòng ngoạn mục",
+      "source_name": "Thanh Niên - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790406+00:00",
+      "status": "queued"
+    },
+    "https://dantri.com.vn/giai-tri/quoc-thien-lan-dau-bat-ngao-o-hue-gap-su-co-dang-nho-trong-chuyen-di-20261101160217354.htm": {
+      "id": "c61fc7dbf55c0d2f1497",
+      "source_url": "https://dantri.com.vn/giai-tri/quoc-thien-lan-dau-bat-ngao-o-hue-gap-su-co-dang-nho-trong-chuyen-di-20261101160217354.htm",
+      "title": "Quốc Thiên lần đầu bắt ngao ở Huế, gặp sự cố đáng nhớ trong chuyến đi",
+      "source_name": "Dân Trí - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790414+00:00",
+      "status": "queued"
+    },
+    "https://dantri.com.vn/the-thao/cuu-danh-thu-ha-lan-to-bi-messi-cuop-danh-hieu-qua-bong-vang-20261101182708194.htm": {
+      "id": "844734b0113110273355",
+      "source_url": "https://dantri.com.vn/the-thao/cuu-danh-thu-ha-lan-to-bi-messi-cuop-danh-hieu-qua-bong-vang-20261101182708194.htm",
+      "title": "Cựu danh thủ Hà Lan tố bị Messi “cướp” danh hiệu Quả bóng vàng",
+      "source_name": "Dân Trí - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790421+00:00",
+      "status": "queued"
+    },
+    "https://dantri.com.vn/the-thao/doi-tuyen-pickleball-viet-nam-dung-chan-o-tu-ket-giai-dau-tai-trung-quoc-20261101182033269.htm": {
+      "id": "b444199193b5840263c4",
+      "source_url": "https://dantri.com.vn/the-thao/doi-tuyen-pickleball-viet-nam-dung-chan-o-tu-ket-giai-dau-tai-trung-quoc-20261101182033269.htm",
+      "title": "Đội tuyển pickleball Việt Nam dừng chân ở tứ kết giải đấu tại Trung Quốc",
+      "source_name": "Dân Trí - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790430+00:00",
+      "status": "queued"
+    },
+    "https://dantri.com.vn/du-lich/tinh-tiet-moi-vu-nu-du-khach-16-tuoi-tu-vong-khi-choi-xich-du-o-trung-quoc-20261101172448405.htm": {
+      "id": "f9acf3c7dd5a50c9ea63",
+      "source_url": "https://dantri.com.vn/du-lich/tinh-tiet-moi-vu-nu-du-khach-16-tuoi-tu-vong-khi-choi-xich-du-o-trung-quoc-20261101172448405.htm",
+      "title": "Tình tiết mới vụ nữ du khách 16 tuổi tử vong khi chơi xích đu ở Trung Quốc",
+      "source_name": "Dân Trí - Tin mới",
+      "category": "vietnam",
+      "first_seen_at": "2026-11-01T13:23:11.790439+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi": {
+      "id": "f063ceae6ff751ba9d7c",
+      "source_url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+      "source_name": "The Guardian - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790446+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/society/2026/nov/01/chancellor-fails-to-guarantee-minimum-wage-pledge-younger-workers-kuenssberg": {
+      "id": "804ea1b77df46ff9dbfc",
+      "source_url": "https://www.theguardian.com/society/2026/nov/01/chancellor-fails-to-guarantee-minimum-wage-pledge-younger-workers-kuenssberg",
+      "title": "Labour’s pledge to level-up minimum wage for under-20s before next election in doubt",
+      "source_name": "The Guardian - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790453+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/us-news/2026/nov/01/king-philips-war-anniversary-native-american": {
+      "id": "4fcf130a35e58222df4a",
+      "source_url": "https://www.theguardian.com/us-news/2026/nov/01/king-philips-war-anniversary-native-american",
+      "title": "Spirit of 1676: remembering the Native American cataclysm of King Philip’s war",
+      "source_name": "The Guardian - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790459+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss": {
+      "id": "3d8c507887b76cf383a5",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss",
+      "title": "Iran and US explore diplomacy amid rising threats of war",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790468+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist?traffic_source=rss": {
+      "id": "639ab0fa3f0908934f5e",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist?traffic_source=rss",
+      "title": "Binance restarts withdrawals after $6.3bn heist",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790475+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/video/newsfeed/2026/11/1/senegal-kicks-off-the-youth-games-2026?traffic_source=rss": {
+      "id": "f4b6396dedf4c6ecfcba",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/senegal-kicks-off-the-youth-games-2026?traffic_source=rss",
+      "title": "Senegal kicks off the Youth Games 2026",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790482+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/sports/2026/11/1/yamaha-pulls-out-of-qatar-motogp-over-situation-in-the-middle-east?traffic_source=rss": {
+      "id": "9a6ef3f881e9b5fba53a",
+      "source_url": "https://www.aljazeera.com/sports/2026/11/1/yamaha-pulls-out-of-qatar-motogp-over-situation-in-the-middle-east?traffic_source=rss",
+      "title": "Yamaha pulls out of Qatar MotoGP over ‘situation in the Middle East’",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790488+00:00",
+      "status": "queued"
+    },
+    "https://www.aljazeera.com/video/newsfeed/2026/11/1/fire-engulfs-hotel-in-nepal-along-everest-base-camp-route?traffic_source=rss": {
+      "id": "e76fed262590f05009ba",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/fire-engulfs-hotel-in-nepal-along-everest-base-camp-route?traffic_source=rss",
+      "title": "Fire engulfs hotel in Nepal along Everest Base Camp route",
+      "source_name": "Al Jazeera - All",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790495+00:00",
+      "status": "queued"
+    },
+    "https://www.npr.org/2026/11/01/nx-s1-5945628/living-with-high-prices-in-virginias-1st-congressional-district": {
+      "id": "de8dea8ea7fb5f088f5f",
+      "source_url": "https://www.npr.org/2026/11/01/nx-s1-5945628/living-with-high-prices-in-virginias-1st-congressional-district",
+      "title": "Living with high prices in Virginia's 1st Congressional District",
+      "source_name": "NPR - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790501+00:00",
+      "status": "queued"
+    },
+    "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance": {
+      "id": "e42b7225893e1691d90a",
+      "source_url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance",
+      "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
+      "source_name": "NPR - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790507+00:00",
+      "status": "queued"
+    },
+    "https://www.euronews.com/video/2026/11/01/heidi-klum-turns-herself-into-a-giant-severed-hand-for-halloween": {
+      "id": "f584c870fcbb77958469",
+      "source_url": "https://www.euronews.com/video/2026/11/01/heidi-klum-turns-herself-into-a-giant-severed-hand-for-halloween",
+      "title": "Heidi Klum turns herself into a giant severed hand for Halloween",
+      "source_name": "Euronews - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790514+00:00",
+      "status": "queued"
+    },
+    "https://www.euronews.com/video/2026/11/01/flags-banners-and-chants-at-youth-protest-in-berlin": {
+      "id": "182972c0ec6cba79613f",
+      "source_url": "https://www.euronews.com/video/2026/11/01/flags-banners-and-chants-at-youth-protest-in-berlin",
+      "title": "Flags, banners and chants at youth protest in Berlin",
+      "source_name": "Euronews - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790520+00:00",
+      "status": "queued"
+    },
+    "https://www.euronews.com/2026/11/01/irans-supreme-leader-warns-of-geographically-unrestricted-response-if-us-attacks-again": {
+      "id": "472fd728f176fb4a671f",
+      "source_url": "https://www.euronews.com/2026/11/01/irans-supreme-leader-warns-of-geographically-unrestricted-response-if-us-attacks-again",
+      "title": "Iran’s supreme leader warns of 'geographically unrestricted response' if US attacks again",
+      "source_name": "Euronews - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790526+00:00",
+      "status": "queued"
+    },
+    "https://news.sky.com/story/british-university-scientist-died-in-spain-train-crash-13606613": {
+      "id": "26335a18e10a25ebac72",
+      "source_url": "https://news.sky.com/story/british-university-scientist-died-in-spain-train-crash-13606613",
+      "title": "British university scientist died in Spain train crash",
+      "source_name": "Sky News - Home",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790532+00:00",
+      "status": "writing_pending"
+    },
+    "https://news.sky.com/story/suspected-far-right-activists-from-britain-with-tear-gas-bombs-detained-in-france-say-authorities-13606604": {
+      "id": "3cfe4290f6d5608d2c41",
+      "source_url": "https://news.sky.com/story/suspected-far-right-activists-from-britain-with-tear-gas-bombs-detained-in-france-say-authorities-13606604",
+      "title": "Suspected far-right activists from Britain 'with tear gas bombs' detained in France",
+      "source_name": "Sky News - Home",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790539+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/us-news/2026/nov/01/affordability-voters-final-sprint-midterms": {
+      "id": "0db19a6c87663d9e83ce",
+      "source_url": "https://www.theguardian.com/us-news/2026/nov/01/affordability-voters-final-sprint-midterms",
+      "title": "Affordability top of mind for voters in final sprint to midterms: ‘I have to pick between medicine or groceries’",
+      "source_name": "The Guardian - Business",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790545+00:00",
+      "status": "queued"
+    },
+    "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html": {
+      "id": "4fdcbdd743c4813af3c6",
+      "source_url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+      "title": "Why AI is boosting Meta's ad business while hurting Google search",
+      "source_name": "CNBC - Top News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790551+00:00",
+      "status": "queued"
+    },
+    "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html": {
+      "id": "1b1c4bc55fe765f51d01",
+      "source_url": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
+      "title": "The midterm election could reshape the muni bond market. Here’s what investors need to know",
+      "source_name": "CNBC - Top News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790558+00:00",
+      "status": "queued"
+    },
+    "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html": {
+      "id": "712486064d13b5f25523",
+      "source_url": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html",
+      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
+      "source_name": "CNBC - Top News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790564+00:00",
+      "status": "writing_pending"
+    },
+    "https://www.investing.com/news/commodities-news/opec-set-to-keep-oil-output-targets-steady-sources-say-4989496": {
+      "id": "e863e84bbd82b0b45aa4",
+      "source_url": "https://www.investing.com/news/commodities-news/opec-set-to-keep-oil-output-targets-steady-sources-say-4989496",
+      "title": "OPEC+ keeps December oil output targets steady as Iran war continues to disrupt flows",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790570+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-084-4989744": {
+      "id": "95cebefe2c0d12f6fd5e",
+      "source_url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-084-4989744",
+      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.84%",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790576+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/commodities-news/opec-set-to-hold-december-oil-output-steady-4989332": {
+      "id": "3a2ce71073da442deb31",
+      "source_url": "https://www.investing.com/news/commodities-news/opec-set-to-hold-december-oil-output-steady-4989332",
+      "title": "OPEC+ holds December oil output target",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790583+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/commodities-news/iranian-negotiators-in-doha-to-continue-talks-to-end-the-usiran-war-official-says-4989743": {
+      "id": "a44252f0da8e83af7490",
+      "source_url": "https://www.investing.com/news/commodities-news/iranian-negotiators-in-doha-to-continue-talks-to-end-the-usiran-war-official-says-4989743",
+      "title": "Iranian negotiators in Doha to continue talks to end the US-Iran war, official says",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790590+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/company-news/unicaja-q3-2026-slides-show-8-profit-gain-95-payout-ratio-93CH-4989737": {
+      "id": "31a9752a7dd0a04a6496",
+      "source_url": "https://www.investing.com/news/company-news/unicaja-q3-2026-slides-show-8-profit-gain-95-payout-ratio-93CH-4989737",
+      "title": "Unicaja Q3 2026 slides show 8% profit gain, 95% payout ratio",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790596+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/economy-news/chinas-communist-party-tightens-oversight-of-officials-4989422": {
+      "id": "906471757b92333493a4",
+      "source_url": "https://www.investing.com/news/economy-news/chinas-communist-party-tightens-oversight-of-officials-4989422",
+      "title": "China’s Communist Party demands loyalty, vows to tighten discipline",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790602+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/company-news/xcel-energy-q3-2026-slides-70b-plan-targets-11-rate-base-growth-93CH-4989735": {
+      "id": "0fd1ef5380d2b072ed71",
+      "source_url": "https://www.investing.com/news/company-news/xcel-energy-q3-2026-slides-70b-plan-targets-11-rate-base-growth-93CH-4989735",
+      "title": "Xcel Energy Q3 2026 slides: $70B plan targets 11% rate base growth",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790609+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/company-news/natwest-q3-2026-slides-216-rote-leads-uk-banks-despite-share-drop-93CH-4989734": {
+      "id": "9bc9640db94465f007e0",
+      "source_url": "https://www.investing.com/news/company-news/natwest-q3-2026-slides-216-rote-leads-uk-banks-despite-share-drop-93CH-4989734",
+      "title": "NatWest Q3 2026 slides: 21.6% ROTE leads UK banks despite share drop",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790615+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/company-news/howmet-q3-2026-slides-record-organic-growth-drives-margin-expansion-93CH-4989733": {
+      "id": "96b0f8eb6ab35cced3cb",
+      "source_url": "https://www.investing.com/news/company-news/howmet-q3-2026-slides-record-organic-growth-drives-margin-expansion-93CH-4989733",
+      "title": "Howmet Q3 2026 slides: record organic growth drives margin expansion",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790668+00:00",
+      "status": "queued"
+    },
+    "https://www.investing.com/news/company-news/panasonic-q2-fy2027-slides-ai-demand-drives-record-profit-outlook-raised-93CH-4989732": {
+      "id": "2351d552de5b09cd1b8d",
+      "source_url": "https://www.investing.com/news/company-news/panasonic-q2-fy2027-slides-ai-demand-drives-record-profit-outlook-raised-93CH-4989732",
+      "title": "Panasonic Q2 FY2027 slides: AI demand drives record profit, outlook raised",
+      "source_name": "Investing.com - News",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790680+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/873aed2b-48e7-4928-b651-b7039a8e3dd3?syn-25a6b1a6=1": {
+      "id": "8dd248bbb39cbd725f8a",
+      "source_url": "https://www.ft.com/content/873aed2b-48e7-4928-b651-b7039a8e3dd3?syn-25a6b1a6=1",
+      "title": "Britain’s welfare ratchet",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790688+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/8332fa3f-2a4a-41ca-8836-44d41d32fe8a?syn-25a6b1a6=1": {
+      "id": "1efebb904cf6fee4cc69",
+      "source_url": "https://www.ft.com/content/8332fa3f-2a4a-41ca-8836-44d41d32fe8a?syn-25a6b1a6=1",
+      "title": "Weil Gotshal: what happens now at the troubled Wall St law firm?",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790695+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/b62877b9-4260-4b4a-9f0f-a5dee7571b7c?syn-25a6b1a6=1": {
+      "id": "79d92dc6a25f386ab0a6",
+      "source_url": "https://www.ft.com/content/b62877b9-4260-4b4a-9f0f-a5dee7571b7c?syn-25a6b1a6=1",
+      "title": "Will US jobs growth remain subdued?",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790701+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/2f1b9cd5-4b6c-4e21-9e16-dcbfe7ecbd3e?syn-25a6b1a6=1": {
+      "id": "ab0874ebf7f82c249e2e",
+      "source_url": "https://www.ft.com/content/2f1b9cd5-4b6c-4e21-9e16-dcbfe7ecbd3e?syn-25a6b1a6=1",
+      "title": "America needs a real Congress",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790708+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/e89a420d-3a93-402f-ab0d-461476cf23ce?syn-25a6b1a6=1": {
+      "id": "6ed7a314c6009e83db3e",
+      "source_url": "https://www.ft.com/content/e89a420d-3a93-402f-ab0d-461476cf23ce?syn-25a6b1a6=1",
+      "title": "US critical minerals push delivers a gold rush — for Washington lobbyists",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790714+00:00",
+      "status": "queued"
+    },
+    "https://www.ft.com/content/4ffb1a86-853b-4151-9902-2ff302e79d24?syn-25a6b1a6=1": {
+      "id": "0f619cfdfdd340cb6269",
+      "source_url": "https://www.ft.com/content/4ffb1a86-853b-4151-9902-2ff302e79d24?syn-25a6b1a6=1",
+      "title": "Gen Z protests turn violent in Germany",
+      "source_name": "Financial Times - World",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790719+00:00",
+      "status": "queued"
+    },
+    "https://www.economist.com/europe/2026/11/01/polands-fight-over-its-constitutional-court-gets-physical": {
+      "id": "45669fcfc427e0ede532",
+      "source_url": "https://www.economist.com/europe/2026/11/01/polands-fight-over-its-constitutional-court-gets-physical",
+      "title": "Poland’s fight over its constitutional court gets physical",
+      "source_name": "The Economist - Latest",
+      "category": "world",
+      "first_seen_at": "2026-11-01T13:23:11.790726+00:00",
+      "status": "queued"
+    },
+    "https://www.wired.com/gallery/best-star-wars-gifts": {
+      "id": "c0b6c94eceb5db989ca1",
+      "source_url": "https://www.wired.com/gallery/best-star-wars-gifts",
+      "title": "The 30 Best Gifts for Star Wars Fans (2026)",
+      "source_name": "Wired - All",
+      "category": "technology",
+      "first_seen_at": "2026-11-01T13:23:11.790731+00:00",
+      "status": "queued"
+    },
+    "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive": {
+      "id": "ff0962dfe1ee74d3f263",
+      "source_url": "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive",
+      "title": "There’s a Free Video Editor Inside Google Drive That Anyone Can Use",
+      "source_name": "Wired - All",
+      "category": "technology",
+      "first_seen_at": "2026-11-01T13:23:11.790737+00:00",
+      "status": "writing_pending"
+    },
+    "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app": {
+      "id": "8efb27a0b36f14fe7519",
+      "source_url": "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app",
+      "title": "The Hollywood Color Nerd Who Shot ‘Knives Out’ Explains His Viral iPhone Camera App",
+      "source_name": "Wired - All",
+      "category": "technology",
+      "first_seen_at": "2026-11-01T13:23:11.790746+00:00",
+      "status": "queued"
+    },
+    "https://www.engadget.com/2300269/how-to-clear-cache-android": {
+      "id": "fee10c81b169697a081f",
+      "source_url": "https://www.engadget.com/2300269/how-to-clear-cache-android",
+      "title": "How to clear the cache on your Android device",
+      "source_name": "Engadget - All",
+      "category": "technology",
+      "first_seen_at": "2026-11-01T13:23:11.790753+00:00",
+      "status": "queued"
+    },
+    "https://www.bbc.co.uk/sport/rugby-league/videos/crp3gx9vz510o?at_medium=RSS&at_campaign=rss": {
+      "id": "0f43f4d7801c17d7f86c",
+      "source_url": "https://www.bbc.co.uk/sport/rugby-league/videos/crp3gx9vz510o?at_medium=RSS&at_campaign=rss",
+      "title": "Wales thrashed as Australia score record 21 tries",
+      "source_name": "BBC Sport - All",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790760+00:00",
+      "status": "writing_pending"
+    },
+    "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live": {
+      "id": "a9c2e0baa0b9c51b2d5c",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
+      "title": "Arsenal v Aston Villa, London City Lionesses v Manchester City, and more: Women’s Super League – live",
+      "source_name": "The Guardian - Sport",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790767+00:00",
+      "status": "queued"
+    },
+    "https://www.theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34": {
+      "id": "6ed0d3c0f5c67e95ce8a",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34",
+      "title": "Ciara Mageean, European 1500m gold medallist with Ireland, dies aged 34",
+      "source_name": "The Guardian - Sport",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790773+00:00",
+      "status": "writing_pending"
+    },
+    "https://www.skysports.com/athletics/news/12040/13606619/ciara-mageean-irelands-european-1500-metres-gold-medallist-dies-at-the-age-of-34-after-battling-cancer": {
+      "id": "c78e6f834f5b47804292",
+      "source_url": "https://www.skysports.com/athletics/news/12040/13606619/ciara-mageean-irelands-european-1500-metres-gold-medallist-dies-at-the-age-of-34-after-battling-cancer",
+      "title": "European champion Mageean dies aged 34",
+      "source_name": "Sky Sports - Football",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790780+00:00",
+      "status": "writing_pending"
+    },
+    "https://www.skysports.com/rugby-league/news/12040/13606600/rugby-league-world-cup-englands-elimination-confirmed-after-tonga-beat-samoa-in-the-final-group-match": {
+      "id": "259159ed3fdcd12ad205",
+      "source_url": "https://www.skysports.com/rugby-league/news/12040/13606600/rugby-league-world-cup-englands-elimination-confirmed-after-tonga-beat-samoa-in-the-final-group-match",
+      "title": "England out of World Cup after Tonga edge out Samoa",
+      "source_name": "Sky Sports - Football",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790788+00:00",
+      "status": "queued"
+    },
+    "https://www.skysports.com/football/falkirk-vs-celtic/live/558400": {
+      "id": "47bf8ced3f626a208a9e",
+      "source_url": "https://www.skysports.com/football/falkirk-vs-celtic/live/558400",
+      "title": "HUGE ERROR! Falkirk take lead inside three mins vs Celtic LIVE!",
+      "source_name": "Sky Sports - Football",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790793+00:00",
+      "status": "queued"
+    },
+    "https://www.sportingnews.com/us/nfl/news/broncos-chiefs-radio-coverage-station-channels-streaming-listen-live/274bea1237e694f37e4377aa": {
+      "id": "735fc58842dcba0b3843",
+      "source_url": "https://www.sportingnews.com/us/nfl/news/broncos-chiefs-radio-coverage-station-channels-streaming-listen-live/274bea1237e694f37e4377aa",
+      "title": "Broncos vs. Chiefs radio coverage: Station, channel, streaming to listen live to NFL Week 8 game broadcast",
+      "source_name": "Sporting News - Soccer",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790800+00:00",
+      "status": "queued"
+    },
+    "https://www.sportingnews.com/us/predictions-markets/news/best-prediction-market-promo-codes-november-2026-top-offers/4bd7e980cc4b93f77b0f4f63": {
+      "id": "880b772e839c78a0336b",
+      "source_url": "https://www.sportingnews.com/us/predictions-markets/news/best-prediction-market-promo-codes-november-2026-top-offers/4bd7e980cc4b93f77b0f4f63",
+      "title": "Best prediction market promo codes for November 2026: Top offers for ProphetX, Kalshi, Polymarket, OG.com and more",
+      "source_name": "Sporting News - Soccer",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790807+00:00",
+      "status": "queued"
+    },
+    "https://www.sportingnews.com/us/nfl/news/lions-vikings-radio-coverage-station-channels-streaming-listen-live/d6e0df7135e7b8e97138dc5c": {
+      "id": "3e917d062babc1c89baa",
+      "source_url": "https://www.sportingnews.com/us/nfl/news/lions-vikings-radio-coverage-station-channels-streaming-listen-live/d6e0df7135e7b8e97138dc5c",
+      "title": "Lions vs. Vikings radio coverage: Station, channel, streaming to listen live to NFL Week 8 game broadcast",
+      "source_name": "Sporting News - Soccer",
+      "category": "sports",
+      "first_seen_at": "2026-11-01T13:23:11.790814+00:00",
+      "status": "queued"
     }
   },
-  "last_run": "2026-11-01T11:51:20.207547+00:00",
+  "last_run": "2026-11-01T13:38:29.919669+00:00",
   "last_run_stats": {
     "feeds_enabled": 50,
     "feeds_eligible": 50,
     "feeds_succeeded": 36,
-    "new_leads_in_window": 32,
-    "prepared": 0,
+    "new_leads_in_window": 74,
+    "prepared": 6,
     "published": 0,
     "feed_failures": 14,
-    "undated_items_retained": 0,
-    "undated_items_recovered": 8,
-    "window_end_at": "2026-11-01T11:30:54.140235+00:00",
+    "undated_items_retained": 9,
+    "undated_items_recovered": 0,
+    "window_end_at": "2026-11-01T13:22:13.501286+00:00",
     "bootstrap_start": "2026-10-24T06:00:00+07:00",
-    "api_keys_configured": 3,
-    "generation_attempts": 29,
-    "ai_responses": 4,
-    "generation_failures": 27,
-    "candidate_groups_attempted": 40,
+    "api_keys_configured": 0,
+    "generation_attempts": 0,
+    "ai_responses": 0,
+    "generation_failures": 0,
+    "candidate_groups_attempted": 8,
     "ready_queue": 0
   },
   "feed_cursors": {
     "https://vnexpress.net/rss/thoi-su.rss": "2026-10-23T23:00:00+00:00",
-    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-11-01T11:30:54.140235+00:00",
-    "https://thanhnien.vn/rss/home.rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://tuoitre.vn/rss/tin-moi-nhat.rss": "2026-11-01T13:22:13.501286+00:00",
+    "https://thanhnien.vn/rss/home.rss": "2026-11-01T13:22:13.501286+00:00",
     "https://www.vietnamplus.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vtv.vn/trang-chu.rss": "2026-10-23T23:00:00+00:00",
-    "https://dantri.com.vn/rss/home.rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://dantri.com.vn/rss/home.rss": "2026-11-01T13:22:13.501286+00:00",
     "https://laodong.vn/rss/home.rss": "2026-11-01T01:49:52.145120+00:00",
-    "https://nld.com.vn/rss/home.rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://nld.com.vn/rss/home.rss": "2026-11-01T13:22:13.501286+00:00",
     "https://tienphong.vn/rss/home.rss": "2026-10-23T23:00:00+00:00",
     "https://vietnamnews.vn/rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.theguardian.com/world/rss": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.aljazeera.com/xml/rss/all.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.npr.org/1001/rss.xml": "2026-11-01T11:30:54.140235+00:00",
+    "https://feeds.bbci.co.uk/news/world/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.theguardian.com/world/rss": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.aljazeera.com/xml/rss/all.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.npr.org/1001/rss.xml": "2026-11-01T13:22:13.501286+00:00",
     "https://rss.dw.com/rdf/rss-en-all": "2026-11-01T01:49:52.145120+00:00",
-    "https://www.france24.com/en/rss": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.euronews.com/rss?level=theme&name=news": "2026-11-01T11:30:54.140235+00:00",
-    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.bbci.co.uk/news/rss.xml": "2026-11-01T11:30:54.140235+00:00",
+    "https://www.france24.com/en/rss": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.euronews.com/rss?level=theme&name=news": "2026-11-01T13:22:13.501286+00:00",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.skynews.com/feeds/rss/home.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.bbci.co.uk/news/rss.xml": "2026-11-01T13:22:13.501286+00:00",
     "https://vnexpress.net/rss/kinh-doanh.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.npr.org/1006/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.theguardian.com/business/rss": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.investing.com/rss/news.rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://feeds.bbci.co.uk/news/business/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.npr.org/1006/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.theguardian.com/business/rss": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.investing.com/rss/news.rss": "2026-11-01T13:22:13.501286+00:00",
     "https://feeds.marketwatch.com/marketwatch/topstories/": "2026-11-01T01:49:52.145120+00:00",
-    "https://www.ft.com/world?format=rss": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.economist.com/latest/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.theverge.com/rss/index.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://techcrunch.com/feed/": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.arstechnica.com/arstechnica/index": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.wired.com/feed/rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://www.ft.com/world?format=rss": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.economist.com/latest/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.theverge.com/rss/index.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://techcrunch.com/feed/": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.arstechnica.com/arstechnica/index": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.wired.com/feed/rss": "2026-11-01T13:22:13.501286+00:00",
     "https://www.nature.com/nature.rss": "2026-11-01T01:49:52.145120+00:00",
-    "https://www.sciencedaily.com/rss/all.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.nasa.gov/news-release/feed/": "2026-11-01T11:30:54.140235+00:00",
-    "https://news.mit.edu/rss/feed": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.engadget.com/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://blog.google/technology/ai/rss/": "2026-11-01T11:30:54.140235+00:00",
+    "https://www.sciencedaily.com/rss/all.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.nasa.gov/news-release/feed/": "2026-11-01T13:22:13.501286+00:00",
+    "https://news.mit.edu/rss/feed": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.engadget.com/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://blog.google/technology/ai/rss/": "2026-11-01T13:22:13.501286+00:00",
     "https://vnexpress.net/rss/the-thao.rss": "2026-10-23T23:00:00+00:00",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.theguardian.com/uk/sport/rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://feeds.bbci.co.uk/sport/rss.xml": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.theguardian.com/uk/sport/rss": "2026-11-01T13:22:13.501286+00:00",
     "https://www.espn.com/espn/rss/news": "2026-10-23T23:00:00+00:00",
-    "https://www.skysports.com/rss/12040": "2026-11-01T11:30:54.140235+00:00",
-    "https://www.cbssports.com/rss/headlines/soccer/": "2026-11-01T11:30:54.140235+00:00",
+    "https://www.skysports.com/rss/12040": "2026-11-01T13:22:13.501286+00:00",
+    "https://www.cbssports.com/rss/headlines/soccer/": "2026-11-01T13:22:13.501286+00:00",
     "https://olympics.com/en/news/rss": "2026-10-23T23:00:00+00:00",
-    "https://www.sportingnews.com/us/rss": "2026-11-01T11:30:54.140235+00:00",
+    "https://www.sportingnews.com/us/rss": "2026-11-01T13:22:13.501286+00:00",
     "https://vtv.vn/rss.htm": "2026-10-23T23:00:00+00:00"
   },
   "source_usage": [
@@ -62153,5 +62891,5 @@
       "recorded_at": "2026-11-01T02:18:52.799248+00:00"
     }
   ],
-  "last_run_window_end": "2026-11-01T11:30:54.140235+00:00"
+  "last_run_window_end": "2026-11-01T13:22:13.501286+00:00"
 }
