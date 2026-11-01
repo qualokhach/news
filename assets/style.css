@@ -79,3 +79,10 @@ body{font-size:16px;line-height:1.65;background:#f6f8fb}
 .digest-item .digest-read-more{margin-top:.8rem;font-weight:800}
 .digest-item .digest-read-more a{color:#1769aa;text-decoration:none}
 .digest-item .digest-read-more a:hover{text-decoration:underline}
+
+.article-byline{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin-top:18px;padding-top:14px;color:var(--muted);font-size:13px}
+.article-byline strong{color:var(--ink);font-size:14px}
+.article-byline time,.article-byline span{display:inline-block}
+.digest-date{font-size:12px!important;color:var(--muted);margin-top:-2px!important}
+.digest-item .digest-read-link{display:inline-block;margin-top:8px;font-weight:800;color:var(--blue);text-decoration:none}
+.digest-item .digest-read-link:hover{text-decoration:underline}

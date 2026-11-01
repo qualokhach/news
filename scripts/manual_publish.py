@@ -1,39 +1,51 @@
 #!/usr/bin/env python3
-"""Validate and append a manual article from GitHub Actions workflow inputs."""
+"""Submit a manual topic/draft as a research lead; never publish directly."""
 import os, json, re, hashlib, unicodedata
 from pathlib import Path
 from datetime import datetime, timezone
+from content_quality import domain_key
 ROOT=Path(__file__).resolve().parents[1]
-path=ROOT/"data/articles.json"
-def slugify(value):
-    value=unicodedata.normalize("NFKD",value).encode("ascii","ignore").decode().lower()
-    return re.sub(r"-+","-",re.sub(r"[^a-z0-9]+","-",value)).strip("-")[:72] or "article"
-title=os.getenv("ARTICLE_TITLE","").strip()
-category=os.getenv("ARTICLE_CATEGORY","").strip()
-summary=os.getenv("ARTICLE_SUMMARY","").strip()
-raw=os.getenv("ARTICLE_BODY","").strip()
-body=[x.strip() for x in re.split(r"\n\s*\n",raw) if x.strip()]
-words=len(raw.split())
-if not title or category not in {"vietnam","world","sports","technology"} or not summary:
-    raise SystemExit("Missing title/summary or invalid category.")
-if words<600 or len(body)<6:
-    raise SystemExit(f"Article rejected: {words} words, {len(body)} paragraphs; require at least 600 words and 6 paragraphs.")
-source_url=os.getenv("ARTICLE_SOURCE_URL","").strip()
-if source_url and not source_url.startswith(("https://","http://")):
-    raise SystemExit("Source URL must begin with https:// or http://")
-articles=json.loads(path.read_text(encoding="utf-8"))
-archive_path=ROOT/"data/archive_articles.json"
-archive=json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else []
-catalog_path=ROOT/"data/archive_catalog.json"
-catalog=json.loads(catalog_path.read_text(encoding="utf-8")) if catalog_path.exists() else []
-all_articles=archive+catalog+articles
-if any(a.get("title","").strip().casefold()==title.casefold() for a in all_articles):
-    raise SystemExit("An article with this exact title already exists; refusing duplicate.")
-published=datetime.now(timezone.utc).isoformat()
-base=slugify(title)
-ident=base+"-"+hashlib.sha256((title+published).encode()).hexdigest()[:8]
-keywords=[x.strip()[:60] for x in os.getenv("ARTICLE_KEYWORDS","").split(",") if x.strip()][:8]
-article={"id":ident,"title":title,"summary":summary[:360],"category":category,"source_name":os.getenv("ARTICLE_SOURCE_NAME","").strip(),"source_url":source_url,"published_at":published,"fetched_at":published,"content_type":"manual_editorial","collection":"current","body":body,"origin":"manual","seo_title":title[:70],"meta_description":summary[:160],"keywords":keywords,"slug":ident,"images":[],"content_image_url":"","content_image_alt":"","content_image_credit":"","content_image_credit_url":"","word_count":words,"display_source":bool(source_url)}
-articles.append(article)
-path.write_text(json.dumps(articles,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-print(f"Added manual article {ident}; active file now contains {len(articles)} articles; historical archive contains {len(archive)}.")
+pending_path=ROOT/'data/pending.json'
+seen_path=ROOT/'data/seen_items.json'
+
+title=os.getenv('ARTICLE_TITLE','').strip()
+category=os.getenv('ARTICLE_CATEGORY','').strip()
+summary=os.getenv('ARTICLE_SUMMARY','').strip()
+raw=os.getenv('ARTICLE_BODY','').strip()
+source_url=os.getenv('ARTICLE_SOURCE_URL','').strip()
+source_name=os.getenv('ARTICLE_SOURCE_NAME','').strip()
+source_date=os.getenv('ARTICLE_SOURCE_PUBLISHED_AT','').strip()
+if not title or category not in {'vietnam','world','sports','technology'} or not summary:
+    raise SystemExit('Missing title/summary or invalid category.')
+if not source_url.startswith('https://'):
+    raise SystemExit('A verified HTTPS source URL is required. Manual submissions are research leads, not direct publications.')
+if len(raw.split())<100:
+    raise SystemExit('Provide at least 100 words of context. This text is context only and will not be published as-is.')
+now=datetime.now(timezone.utc).isoformat()
+if source_date:
+    try:
+        dt=datetime.fromisoformat(source_date.replace('Z','+00:00'))
+        if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+        source_date=dt.astimezone(timezone.utc).isoformat()
+    except Exception:
+        raise SystemExit('ARTICLE_SOURCE_PUBLISHED_AT must be an ISO-8601 date/time.')
+else:
+    raise SystemExit('ARTICLE_SOURCE_PUBLISHED_AT is required; do not invent a source publication date.')
+ident=hashlib.sha256((source_url+title).encode()).hexdigest()[:20]
+pending=json.loads(pending_path.read_text(encoding='utf-8')) if pending_path.exists() else []
+if any(x.get('source_url')==source_url or x.get('id')==ident for x in pending):
+    raise SystemExit('This source URL/topic is already present in the research queue.')
+pending.append({
+    'id':ident,'discovery_title':title[:240],'source_url':source_url,'source_name':source_name or 'User-submitted lead',
+    'category':category,'source_published_at':source_date,'discovered_at':now,
+    'source_terms_url':'','source_feed_domain':domain_key(source_url),
+    'discovery_summary':summary[:1200],'manual_context':raw[:8000],
+    'status':'queued','attempts':0,'origin':'manual_research_lead'
+})
+pending_path.write_text(json.dumps(pending[-5000:],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+seen=json.loads(seen_path.read_text(encoding='utf-8')) if seen_path.exists() else {'items':{}}
+if not isinstance(seen,dict): seen={'items':{}}
+seen.setdefault('items',{})[source_url]={'id':ident,'source_url':source_url,'title':title,'status':'queued','first_seen_at':now}
+seen['last_manual_lead_at']=now
+seen_path.write_text(json.dumps(seen,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(f'Staged research lead {ident}; no article was published. The normal research and QA pipeline must pass it first.')

@@ -27,7 +27,7 @@ module.exports = (req, res) => {
   const title = esc(article.title || 'AppNho News');
   const description = esc(article.description || article.title || 'Tin tức từ AppNho News');
   const image = esc(article.image || FALLBACK_IMAGE);
-  const url = esc(article.url || `https://www.appnho.io.vn/news/article.html?id=${encodeURIComponent(id)}`);
+  const url = esc(article.url || `https://appnho.io.vn/news/article.html?id=${encodeURIComponent(id)}`);
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=300, stale-while-revalidate=86400');
   res.status(200).send(`<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

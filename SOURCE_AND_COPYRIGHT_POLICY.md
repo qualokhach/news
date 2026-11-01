@@ -1,43 +1,29 @@
-# Chính sách nguồn tin và bản quyền — AppNho News MVP
+# Chính sách nguồn tin và bản quyền — AppNho News v1.5.3
 
-## Trạng thái hiện tại
-**Không có nguồn nào được phê duyệt để tự động xuất bản nội dung công khai.** Các nguồn trong `config/feeds.json` đều `enabled: false`. Workflow chỉ tạo danh sách gợi ý trong `data/pending.json`; nó không tự thêm tin vào `data/articles.json`.
+## Cấu hình nguồn hiện tại
 
-## Nguyên tắc
-1. RSS là phương tiện phát hiện nội dung, không tự động cấp quyền tái xuất bản.
-2. Không sao chép RSS description, đoạn bài, ảnh, video, infographic hoặc nội dung toàn văn lên website nếu chưa có quyền rõ ràng.
-3. Giữ URL nguồn, tên nhà xuất bản và thời gian lấy tin trong hàng chờ để biên tập viên mở nguồn gốc và tự xác minh.
-4. Dữ kiện đơn lẻ có thể không được bảo hộ giống cách diễn đạt sáng tạo, nhưng việc thu thập, sử dụng cơ sở dữ liệu, điều khoản website, quyền liên quan và luật áp dụng vẫn cần được xem xét.
-5. Chỉ bật một nguồn sau khi ghi rõ URL điều khoản, phạm vi dùng thương mại, phần nội dung được phép dùng, yêu cầu ghi công, giới hạn sửa đổi và ngày kiểm tra.
-6. Nếu không xác minh được quyền, không bật nguồn. Dẫn link đến bài gốc thay vì sao chép nội dung.
-7. Bản tin xuất bản phải được viết độc lập từ dữ kiện đã xác minh, có giá trị thông tin riêng và dẫn nguồn. Không dùng công cụ tự động để “đổi chữ” bài báo.
-8. Chỉ dùng hình tự tạo hoặc hình có giấy phép rõ ràng cho đúng mục đích. Kiểm tra từng ảnh, không suy diễn rằng mọi ảnh trong một website đều dùng được.
-9. Trước khi bật quảng cáo, cần đánh giá thêm chất lượng biên tập, quyền nội dung, chính sách quảng cáo và thông tin nhà xuất bản.
+- `config/feeds.json` giữ 50 RSS feed từ bản đang vận hành trước đây. Pipeline chỉ lấy tiêu đề, URL và ngày công bố; không lưu description hoặc toàn văn RSS.
+- `config/source_directory.csv` giữ 228 đầu mối để tìm nguồn chính thức, dữ liệu, nghiên cứu và nguồn đối chiếu. Đây là danh mục tham khảo, không phải giấy phép crawl hay tái sử dụng thương mại.
+- `access_status`, `terms_status` và `commercial_use_status` vẫn để `UNVERIFIED` cho đến khi được kiểm tra. Không tự đánh dấu nguồn đã được cấp phép.
 
-## Quy trình phê duyệt nguồn
-- Kiểm tra trang điều khoản chính thức, không chỉ blog bên thứ ba.
-- Xác định nội dung cụ thể được cấp phép: dữ kiện, tiêu đề, mô tả RSS, toàn văn, hình ảnh hay dữ liệu.
-- Xác định quyền sử dụng thương mại và quyền dịch/chỉnh sửa.
-- Lưu bằng chứng và ngày kiểm tra vào hồ sơ nguồn.
-- Mặc định `enabled: false` cho đến khi hoàn tất.
+## Chế độ nghiên cứu
 
-## Hạn chế
-Tài liệu này là hướng dẫn vận hành thận trọng, không phải ý kiến pháp lý và không bảo đảm miễn trừ mọi tranh chấp. Quyền sử dụng có thể khác theo quốc gia, loại tác phẩm, hợp đồng và thay đổi điều khoản.
+1. `APPROVED_RESEARCH`: chỉ dùng khi `access_status=RESEARCH_ALLOWED` và `terms_status=VERIFIED`.
+2. `LIMITED_FACTUAL_REFERENCE`: chế độ nghiên cứu giới hạn cho trang HTTPS công khai khi workflow bật `NEWS_PUBLIC_FACTUAL_RESEARCH=1`, robots.txt cho phép và nguồn không bị đánh dấu `BLOCKED`. Pipeline lấy một lượng văn bản giới hạn để kiểm chứng dữ kiện trong bộ nhớ, không lưu lại toàn văn hoặc đoạn trích trong repository.
+3. Bài được tạo từ chế độ giới hạn phải ghi `reuse_mode=FACTUAL_CITATION_ONLY`, tự viết độc lập và dẫn URL nguồn. Không được sao chép câu chữ, ảnh, video, infographic hoặc cấu trúc sáng tạo của publisher.
+4. Nếu biết điều khoản hoặc chính sách truy cập cấm cách sử dụng dự kiến, phải đặt `terms_status=BLOCKED` hoặc `access_status=BLOCKED`. Pipeline sẽ không truy cập nguồn đó. Không vượt paywall, CAPTCHA, đăng nhập, HTTP 401/403 hoặc giới hạn truy cập.
 
-## Bài mẫu hiện có
-Trang chủ chứa ba bản tóm lược biên tập độc lập về thông báo của NASA và Chính phủ Việt Nam, có liên kết nguồn. Chúng không sao chép toàn văn hay hình ảnh nguồn. Trước khi vận hành thương mại, người quản trị vẫn cần mở nguồn gốc, kiểm tra dữ kiện và xem lại điều khoản/giấy phép hiện hành.
+`LIMITED_FACTUAL_REFERENCE` không có nghĩa điều khoản đã được xác minh hoặc nguồn cấp giấy phép thương mại. Đây là cách dùng dữ kiện công khai để nghiên cứu và dẫn nguồn, không phải quyền tái xuất bản nội dung nguồn. Người quản lý vẫn cần cập nhật trạng thái khi hoàn tất rà soát điều khoản.
 
+## Nguyên tắc biên tập và bản quyền
 
-## Ngày tháng và bài nhìn lại
+- RSS chỉ phát hiện đề tài; headline không được xem là bằng chứng cho dữ kiện trọng yếu.
+- Mỗi bài phải có ít nhất ba claim trong fact ledger, mỗi claim gắn URL, evidence snippet và locator.
+- Các trang đăng lại cùng thông cáo hoặc cùng wire service phải gom theo `source_family`, không tính thành nguồn độc lập.
+- R1 cần hai source family độc lập hoặc một nguồn gốc phù hợp; R2 cần nguồn chính thức hoặc ba source family; R3 bắt buộc có nguồn chính thức và không chứa lời khuyên hành động cá nhân.
+- Không lưu toàn văn bài báo nguồn; không tái sử dụng ảnh publisher nếu không có license thương mại xác minh.
+- Ảnh Wikimedia chỉ được chèn khi license nằm trong whitelist thương mại; CC BY-NC, CC BY-ND-NC, CC BY-ND và giấy phép không rõ bị loại.
 
-`published_at` là ngày công bố của sự kiện/bài nguồn được tóm lược, không phải ngày AppNho nhập nội dung. Bài cũ được đánh dấu `collection: archive` và hiển thị trong mục “Nhìn lại”; không gắn nhãn tin nóng. Khi cập nhật bài, không thay ngày sự kiện bằng ngày sửa bài.
+## Xuất bản
 
-
-## Ngày tháng và bài nhìn lại
-
-`published_at` là ngày công bố của sự kiện/bài nguồn được tóm lược, không phải ngày AppNho nhập nội dung. Bài cũ được đánh dấu `collection: archive` và hiển thị trong mục “Nhìn lại”; không gắn nhãn tin nóng. Khi cập nhật bài, không thay ngày sự kiện bằng ngày sửa bài.
-
-
-## Ngày tháng và bài nhìn lại
-
-`published_at` là ngày công bố của sự kiện/bài nguồn được tóm lược, không phải ngày AppNho nhập nội dung. Bài cũ được đánh dấu `collection: archive` và hiển thị trong mục “Nhìn lại”; không gắn nhãn tin nóng. Khi cập nhật bài, không thay ngày sự kiện bằng ngày sửa bài.
+Candidate chỉ được đưa vào `research_queue.json` khi đạt QA. Finalizer kiểm tra lại freshness, robots, khả năng truy cập URL, fact ledger, source family và originality trước khi cập nhật `articles.json`. Nếu không đủ chứng cứ, bài bị HOLD hoặc bỏ qua; không hạ chuẩn để lấp lịch.

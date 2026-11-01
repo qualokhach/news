@@ -7,7 +7,7 @@ from datetime import datetime
 from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://www.appnho.io.vn/news/"
+BASE = "https://appnho.io.vn/news/"
 CATEGORY_IMAGES = {
     "world": "https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_the_gioi.png",
     "vietnam": "https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_Viet_Nam.png",
@@ -71,18 +71,44 @@ for article in articles:
         "description": description[:300],
         "url": url,
         "image": str(image or ""),
-        "published_at": str(article.get("published_at") or ""),
+        "published_at": str(article.get("appnho_published_at") or article.get("fetched_at") or article.get("published_at") or ""),
+        "event_date": str(article.get("published_at") or ""),
         "category": str(article.get("category") or "news"),
     }
 
-for article in sorted(articles, key=lambda x: x.get("published_at", ""), reverse=True)[:100]:
+    # Static share fallback keeps Open Graph previews available on static hosting
+    # and is refreshed whenever an article is upgraded or a new post is published.
+    share_dir = ROOT / "share" / ident
+    share_dir.mkdir(parents=True, exist_ok=True)
+    share_file = share_dir / "index.html"
+    share_title = html.escape(str(article.get("title") or "AppNho News"))
+    share_desc = html.escape(str(article.get("summary") or description)[:300])
+    share_image = html.escape(str(image or ""))
+    published = html.escape(str(article.get("appnho_published_at") or article.get("fetched_at") or article.get("published_at") or ""))
+    modified = html.escape(str(article.get("updated_at") or published))
+    share_html = f'''<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{share_title} | AppNho News</title><meta name="description" content="{share_desc}">
+<meta name="robots" content="noindex,follow"><link rel="canonical" href="{html.escape(url)}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="AppNho News">
+<meta property="og:title" content="{share_title}"><meta property="og:description" content="{share_desc}">
+<meta property="og:url" content="{html.escape(url)}"><meta property="og:image" content="{share_image}">
+<meta property="og:image:secure_url" content="{share_image}"><meta property="og:image:alt" content="{share_title}">
+<meta property="article:published_time" content="{published}"><meta property="article:modified_time" content="{modified}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{share_title}">
+<meta name="twitter:description" content="{share_desc}"><meta name="twitter:image" content="{share_image}">
+<meta http-equiv="refresh" content="0;url={html.escape(url)}"></head>
+<body><p><a href="{html.escape(url)}">{share_title}</a></p></body></html>'''
+    share_file.write_text(share_html, encoding="utf-8")
+
+for article in sorted(articles, key=lambda x: x.get('appnho_published_at') or x.get('fetched_at') or x.get('published_at', ''), reverse=True)[:100]:
     ident = article.get("id")
     if not ident:
         continue
     link = article_url(ident)
     title = html.escape(str(article.get("title") or ""))
     desc = html.escape(str(article.get("summary") or ""))
-    pub = str(article.get("published_at") or "")
+    pub = str(article.get('appnho_published_at') or article.get('fetched_at') or article.get('published_at') or '')
     try:
         pub = datetime.fromisoformat(pub.replace("Z", "+00:00")).strftime("%a, %d %b %Y %H:%M:%S GMT")
     except ValueError:

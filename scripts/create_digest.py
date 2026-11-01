@@ -1,82 +1,186 @@
 #!/usr/bin/env python3
-"""Build an editorially clean AppNho digest: unpublished source leads first, AppNho back-catalog only as fallback."""
-import json, re, os
+"""Create a noon digest from AppNho-published articles only.
+
+Unverified RSS leads are never used as digest items. New AppNho stories from the last 24 hours
+are prioritized; older AppNho stories may supplement the list, with their original event/source
+dates displayed so they cannot be mistaken for new events.
+"""
+import json, os, re, difflib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from urllib.parse import quote
+
 ROOT=Path(__file__).resolve().parents[1]
-ARTICLES=ROOT/"data/articles.json"; ARCHIVE=ROOT/"data/archive_articles.json"; CATALOG=ROOT/"data/archive_catalog.json"; PENDING=ROOT/"data/pending.json"
-VN=ZoneInfo("Asia/Ho_Chi_Minh"); LABELS={"vietnam":"Việt Nam","world":"Thế giới","technology":"Công nghệ","sports":"Thể thao"}
-BASE="https://www.appnho.io.vn/news/article.html?id="; MIN=6; MAX=10; HOURS=24
+ARTICLES=ROOT/'data/articles.json'
+ARCHIVE=ROOT/'data/archive_articles.json'
+CATALOG=ROOT/'data/archive_catalog.json'
+MANIFEST=ROOT/'data/archive_manifest.json'
+VN=ZoneInfo('Asia/Ho_Chi_Minh')
+LABELS={'vietnam':'Việt Nam','world':'Thế giới','technology':'Công nghệ','sports':'Thể thao'}
+BASE='https://appnho.io.vn/news/article.html?id='
+MIN=6
+MAX=10
+HOURS=24
 
-def load(path):
+def load(path, default):
     try:
-        x=json.loads(path.read_text(encoding="utf-8")); return x if isinstance(x,list) else []
-    except (OSError,json.JSONDecodeError): return []
-def clean(x): return re.sub(r"\s+"," ",str(x or "")).strip()
-def dt(x):
+        value=json.loads(path.read_text(encoding='utf-8'))
+        return value if isinstance(value,type(default)) else default
+    except (OSError,json.JSONDecodeError):
+        return default
+
+def clean(value):
+    return re.sub(r'\s+',' ',str(value or '')).strip()
+
+def dt(value):
     try:
-        d=datetime.fromisoformat(str(x or "").replace("Z","+00:00")); return d.replace(tzinfo=timezone.utc) if d.tzinfo is None else d.astimezone(timezone.utc)
-    except (ValueError,TypeError): return None
-def appnho_rows(active,archive,catalog,now):
-    by={}
-    for a in active+archive+catalog:
-        if isinstance(a,dict) and a.get("id") and a.get("content_type")!="news_digest":
-            old=by.get(str(a["id"]))
-            if old is None or (not old.get("body") and a.get("body")): by[str(a["id"])]=a
-    out=[]
-    for a in by.values():
-        pub=dt(a.get("published_at")); title=clean(a.get("title")); summary=clean(a.get("summary")) or clean(" ".join(a.get("body",[])[:2]) if isinstance(a.get("body"),list) else a.get("body"))
-        if not pub or pub>now or not title or not summary: continue
-        out.append({"title":title,"summary":summary,"category":a.get("category"),"published_at":pub.isoformat(),"source_url":a.get("source_url"),"url":BASE+quote(str(a["id"]),safe=""),"is_appnho":True,"is_supplement":True})
-    return sorted(out,key=lambda x:x["published_at"],reverse=True)
+        d=datetime.fromisoformat(str(value or '').replace('Z','+00:00'))
+        return d.replace(tzinfo=timezone.utc) if d.tzinfo is None else d.astimezone(timezone.utc)
+    except (ValueError,TypeError):
+        return None
 
-def pending_rows(pending, published_urls, now):
-    """Return eligible external leads from the rolling 24-hour window."""
-    cutoff=now-timedelta(hours=HOURS); fresh=[]; seen_urls=set(); seen_titles=set()
-    for x in pending:
-        if not isinstance(x,dict) or x.get("status") not in ("queued","pending","retry"): continue
-        pub=dt(x.get("source_published_at")); url=clean(x.get("source_url")); title=clean(x.get("discovery_title")); summary=clean(x.get("discovery_summary") or x.get("description") or x.get("summary"))
-        if not pub or pub<cutoff or pub>now or not url.startswith("http") or url in published_urls or not title or not summary: continue
-        key=re.sub(r"[^a-z0-9\u00c0-\u024f]","",title.casefold())
-        if url in seen_urls or (key and key in seen_titles): continue
-        seen_urls.add(url); seen_titles.add(key)
-        fresh.append({"title":title,"summary":summary[:420],"category":x.get("category"),"published_at":pub.isoformat(),"source_url":url,"url":"","is_appnho":False,"is_supplement":False})
-    return sorted(fresh,key=lambda x:x["published_at"],reverse=True)
+def article_url(ident):
+    return BASE+quote(str(ident),safe='')
 
-def choose_items(fresh, existing, minimum=MIN, maximum=MAX):
-    """Prioritize fresh external leads, supplement from AppNho history only as needed."""
-    chosen=list(fresh[:maximum]); supplement_count=0
-    chosen_urls={x.get("source_url") for x in chosen}
+def all_published_articles(active, archive, catalog, manifest):
+    by_id={}
+    full=active+archive
+    archive_paths={'data/archive_articles.json'}
+    for rel in manifest if isinstance(manifest,list) else []:
+        if isinstance(rel,str) and rel.startswith('data/archive') and rel.endswith('.json'):
+            archive_paths.add(rel)
+    for item in catalog:
+        rel=item.get('file') if isinstance(item,dict) else None
+        if isinstance(rel,str) and rel.startswith('data/archive') and rel.endswith('.json'):
+            archive_paths.add(rel)
+    for rel in sorted(archive_paths):
+        path=ROOT/rel
+        if path.exists():
+            batch=load(path,[])
+            if rel!='data/archive_articles.json':
+                full.extend(batch)
+    for article in full:
+        if isinstance(article,dict) and article.get('id'):
+            old=by_id.get(str(article['id']))
+            if old is None or (not old.get('body') and article.get('body')):
+                by_id[str(article['id'])]=article
+    return list(by_id.values())
+
+def appnho_rows(articles, now):
+    cutoff=now-timedelta(hours=HOURS)
+    fresh=[]; older=[]; seen_ids=set()
+    for article in articles:
+        if article.get('content_type')=='news_digest':
+            continue
+        if article.get('quality_version')!='1.5' or article.get('quality_status')!='PASS':
+            continue
+        # Legacy records must have completed the evidence-based migration before
+        # they can supplement a current digest. New v1.5 articles have no legacy flag.
+        legacy_status=str(article.get('legacy_upgrade_status') or '').upper()
+        if legacy_status and legacy_status!='PASS':
+            continue
+        ident=article.get('id')
+        if not ident or str(ident) in seen_ids:
+            continue
+        seen_ids.add(str(ident))
+        title=clean(article.get('title'))
+        body=article.get('body') or []
+        if isinstance(body,str): body=[body]
+        summary=clean(article.get('summary')) or clean(' '.join(str(x) for x in body[:2]))
+        if not ident or not title or len(summary)<35:
+            continue
+        app_pub=dt(article.get('appnho_published_at') or article.get('fetched_at') or article.get('published_at'))
+        event_date=dt(article.get('published_at'))
+        if not app_pub or app_pub>now:
+            continue
+        item={
+            'id':str(ident),'title':title,'summary':summary[:620],
+            'event_key':clean(article.get('event_id') or article.get('event_key') or ''),
+            'category':article.get('category'),'appnho_published_at':app_pub.isoformat(),
+            'event_date':event_date.isoformat() if event_date else '',
+            'url':article_url(ident),'is_supplement':app_pub<cutoff
+        }
+        (fresh if app_pub>=cutoff else older).append(item)
+    fresh.sort(key=lambda x:x['appnho_published_at'],reverse=True)
+    older.sort(key=lambda x:x['appnho_published_at'],reverse=True)
+    return fresh,older
+
+def _same_event(item, chosen):
+    key=clean(item.get('event_key')).casefold()
+    title=clean(item.get('title')).casefold()
+    for old in chosen:
+        old_key=clean(old.get('event_key')).casefold()
+        if key and old_key and key==old_key: return True
+        old_title=clean(old.get('title')).casefold()
+        if difflib.SequenceMatcher(None,title,old_title).ratio()>=0.78: return True
+    return False
+
+def choose_digest_items(fresh, older, minimum=MIN, maximum=MAX):
+    chosen=[]; used=set(); supplements=0
+    for item in fresh:
+        if len(chosen)>=maximum: break
+        if item['id'] in used or _same_event(item,chosen): continue
+        chosen.append(item); used.add(item['id'])
     if len(chosen)<minimum:
-        for item in existing:
+        for item in older:
             if len(chosen)>=minimum: break
-            if item.get("source_url") in chosen_urls: continue
-            chosen.append(item); chosen_urls.add(item.get("source_url")); supplement_count+=1
-    return chosen, len(fresh), supplement_count
+            if item['id'] in used or _same_event(item,chosen): continue
+            chosen.append(item); used.add(item['id']); supplements+=1
+    return chosen,supplements
 
 def main():
-    now=datetime.now(timezone.utc); today=now.astimezone(VN).date().isoformat(); active=load(ARTICLES); archive=load(ARCHIVE); catalog=load(CATALOG); pending=load(PENDING)
-    ident="diem-tin-"+today; rebuild=os.getenv("REBUILD_DIGEST","").lower() in ("1","true","yes")
-    exists=any(isinstance(a,dict) and a.get("id")==ident for a in active+archive+catalog)
-    if exists and not rebuild: print("[DIGEST] Today's digest exists; set REBUILD_DIGEST=1 to rebuild."); return
-    if rebuild: active=[a for a in active if not(isinstance(a,dict) and a.get("id")==ident)]
-    published_urls={clean(a.get("source_url")) for a in active+archive+catalog if isinstance(a,dict) and a.get("source_url")}
-    fresh=pending_rows(pending,published_urls,now)
-    existing=appnho_rows(active,archive,catalog,now)
-    chosen,fresh_count,supplement_count=choose_items(fresh,existing)
+    now=datetime.now(timezone.utc)
+    active=load(ARTICLES,[])
+    archive=load(ARCHIVE,[])
+    catalog=load(CATALOG,[])
+    manifest=load(MANIFEST,['data/archive_articles.json'])
+    ident='diem-tin-'+now.astimezone(VN).date().isoformat()
+    rebuild=os.getenv('REBUILD_DIGEST','').lower() in {'1','true','yes'}
+    if any(isinstance(a,dict) and a.get('id')==ident for a in active+archive) and not rebuild:
+        print("[DIGEST] Today's digest exists; set REBUILD_DIGEST=1 to rebuild.")
+        return
+    if rebuild:
+        active=[a for a in active if not(isinstance(a,dict) and a.get('id')==ident)]
+    all_articles=all_published_articles(active,archive,catalog,manifest)
+    fresh,older=appnho_rows(all_articles,now)
+    chosen,supplements=choose_digest_items(fresh,older)
     if len(chosen)<MIN:
-        print(f"[DIGEST] Only {len(chosen)} eligible stories with summaries; need {MIN}. No digest published."); return
-    date=now.astimezone(VN).strftime("%d/%m/%Y"); title=f"Điểm tin AppNho trưa {date}: {len(chosen)} tin đáng chú ý"
-    lead="Mời bạn cùng AppNho điểm lại những bản tin đáng chú ý vừa diễn ra trong nước và trên thế giới."
-    items=[]; source_urls=[]
-    for i,x in enumerate(chosen,1):
-        item={"number":i,"title":x["title"],"category":LABELS.get(x.get("category"),"Tin tức"),"summary":x["summary"],"url":x.get("url") or "","published_at":x["published_at"],"is_supplement":bool(x["is_supplement"])}
-        items.append(item)
-        if x.get("source_url"): source_urls.append(x["source_url"])
+        print(f"[DIGEST] Only {len(chosen)} AppNho articles available; need {MIN}. No digest published.")
+        return
+    date=now.astimezone(VN).strftime('%d/%m/%Y')
+    title=f"Điểm tin AppNho trưa {date}: {len(chosen)} bài đáng chú ý"
+    lead="Bản điểm tin chọn các bài AppNho News mới trong 24 giờ qua; những bài cũ hơn được ghi rõ ngày sự kiện hoặc ngày công bố để bạn phân biệt."
+    items=[]
+    for i,item in enumerate(chosen,1):
+        event=dt(item.get('event_date'))
+        app_date=dt(item.get('appnho_published_at'))
+        if event and app_date and event.date()!=app_date.date():
+            date_label='Sự kiện/nguồn: '+event.astimezone(VN).strftime('%d/%m/%Y')
+        else:
+            date_label='AppNho đăng: '+(app_date.astimezone(VN).strftime('%d/%m/%Y') if app_date else '')
+        items.append({
+            'number':i,'title':item['title'],'category':LABELS.get(item.get('category'),'Tin tức'),
+            'summary':item['summary'],'url':item['url'],'article_id':item['id'],
+            'published_at':item['appnho_published_at'],'event_date':item.get('event_date',''),
+            'date_label':date_label,'is_supplement':bool(item['is_supplement'])
+        })
     body=[lead]+[f"{x['number']}. {x['title']} — {x['summary']}" for x in items]
-    article={"id":ident,"title":title,"summary":lead,"category":"vietnam","source_name":"AppNho tổng hợp","source_url":"","published_at":now.isoformat(),"fetched_at":now.isoformat(),"content_type":"news_digest","collection":"current","body":body,"digest_items":items,"digest_window_hours":HOURS,"digest_fresh_count":fresh_count,"digest_supplement_count":supplement_count,"generation_provider":"deterministic_digest","seo_title":title[:70],"meta_description":lead,"keywords":["điểm tin","tin Việt Nam","tin thế giới","tin công nghệ","tin thể thao"],"slug":ident,"images":[],"content_image_url":"","word_count":len(" ".join(body).split()),"display_source":False,"source_urls":list(dict.fromkeys(source_urls)),"source_links":list(dict.fromkeys(source_urls))}
-    active.append(article); ARTICLES.write_text(json.dumps(active,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"[DIGEST] Created {ident}: {fresh_count} new external leads, {supplement_count} AppNho back-catalog supplements.")
-if __name__=="__main__": main()
+    digest={
+        'id':ident,'title':title,'summary':lead,'category':'vietnam','source_name':'AppNho',
+        'source_url':'','source_urls':[],'source_links':[],
+        'published_at':now.isoformat(),'fetched_at':now.isoformat(),'appnho_published_at':now.isoformat(),
+        'content_type':'news_digest','collection':'current','body':body,'digest_items':items,
+        'digest_window_hours':HOURS,'digest_fresh_count':len(fresh[:MAX]),
+        'digest_supplement_count':supplements,'generation_provider':'deterministic_digest',
+        'seo_title':title[:70],'meta_description':lead[:160],
+        'keywords':['điểm tin AppNho','tin Việt Nam','tin thế giới','tin công nghệ','tin thể thao'],
+        'slug':ident,'images':[],'content_image_url':'','word_count':len(' '.join(body).split()),
+        'display_source':False,'quality_version':'1.5','quality_status':'PASS',
+        'editorial_value':'Tuyển chọn các bài AppNho News theo thời điểm xuất bản, có phân biệt bài mới và bài nhìn lại.'
+    }
+    active.append(digest)
+    ARTICLES.write_text(json.dumps(active,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(f"[DIGEST] Created {ident}: {len(fresh[:MAX])} fresh AppNho articles, {supplements} older AppNho supplements.")
+if __name__=='__main__':
+    main()

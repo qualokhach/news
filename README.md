@@ -1,53 +1,97 @@
-# AppNho News R5 — GitHub-only archive and AI auto-publishing
+# AppNho News — v1.5.3 automated research and publication
 
-## Kiến trúc đã chốt
-- GitHub repository `qualokhach/news` giữ website, toàn bộ bài viết, hàng chờ RSS, lịch sử chống trùng và workflow.
-- Không dùng Cloudflare R2, Worker hoặc D1 cho News trong phiên bản này.
-- Website đọc bài từ `data/archive_articles.json` (43 bài lịch sử cố định) và `data/articles.json` (chỉ bài mới). Đường dẫn bài giữ dạng `article.html?id=<id>`.
-- GitHub Actions chạy tự động 2 lần/ngày theo giờ Việt Nam mục tiêu 06:00 và 17:00, tối đa 4 bài/lượt. Chất lượng và bằng chứng nguồn quan trọng hơn số lượng; không đủ bằng chứng thì không xuất bản.
-- Mỗi lần chạy tự động cập nhật JSON, RSS, sitemap rồi commit thay đổi vào repo. Lịch sử Git cũng sẽ tăng theo thời gian.
+## 1. Luồng vận hành
 
-## Cập nhật repo
-1. Giải nén ZIP.
-2. Sao lưu hoặc tải ZIP repo hiện tại trước khi thay thế.
-3. Upload các file trong ZIP vào thư mục gốc `qualokhach/news`, cho phép ghi đè file trùng tên, nhưng không xóa file khác của dự án nếu chưa đối chiếu.
-4. Sau khi tải lên, chạy workflow **AppNho News — test AI API keys** trong tab Actions trước. Workflow này kiểm tra Secrets/model miễn phí mà không sinh bài.
-5. Nếu kiểm tra đạt, chạy **AppNho News — collect, write and publish** bằng Run workflow để kiểm thử sinh bài thực tế.
-6. Chỉ sau khi kiểm tra bài, URL, RSS và sitemap mới commit/gộp lên `main` hoặc để lịch chạy tự động.
+Repository `qualokhach/news` giữ website, dữ liệu bài viết, hàng đợi nghiên cứu, lịch sử chống trùng và workflow. Dữ liệu vẫn lưu trên GitHub; không dùng Cloudflare R2, Worker hoặc D1.
 
-Không commit thẳng vào `main` trước khi các bước kiểm tra trên đạt.
-7. Vào Settings → Actions → General, kiểm tra quyền ghi nội dung repository. Workflow dùng `permissions: contents: write`; không cần Personal Access Token.
-8. Vào Settings → Secrets and variables → Actions, dùng đúng các Secret: `GEMINI_API_KEY_APPNHO_NEWS`, `GROK_API_APPNHO_NEWS`, `OPENROUTER_API_APPNHO_NEWS`. Không gửi khóa cho người khác.
+Hệ thống có ba luồng tách biệt:
 
-## Đăng bài thủ công
-Mở [workflow đăng bài thủ công](https://github.com/qualokhach/news/actions/workflows/manual-publish.yml), chọn Run workflow và nhập các trường. Bài phải có ít nhất 600 từ và 6 đoạn. Workflow tự tạo ID duy nhất, thêm bài vào `data/articles.json` mà không sửa file lịch sử `data/archive_articles.json`, tái tạo `feed.xml` và `sitemap.xml`, rồi commit.
+1. **Research:** `scripts/news_pipeline.py` đọc RSS để lấy headline, URL và ngày công bố; gom sự kiện; kiểm tra trang nguồn độc lập; lập fact ledger; tạo bài mới; chỉ đưa bài đạt QA vào `data/research_queue.json`. Research không ghi vào `data/articles.json`.
+2. **Finalize & publish:** `scripts/publish_ready.py` chạy 15 phút trước giờ xuất bản. Nó kiểm tra lại freshness, trạng thái nguồn, robots, HTTP, fact ledger, source family và chất lượng. Chỉ candidate READY còn hạn mới được đưa vào `data/articles.json`.
+3. **Legacy upgrade:** chỉ chạy thủ công, mặc định dry-run. Workflow này không có lịch và không tự sửa 120 bài hiện có.
 
-## Dữ liệu và URL
-- Kho bài lịch sử (đóng băng, không ghi đè): `data/archive_articles.json` (43 bài hiện có).
-- Kho bài mới: `data/articles.json` (chỉ các bài mới được đăng sau khi chuyển đổi).
-- Lợi ích: mỗi commit mới không tạo phiên bản mới của toàn bộ 43 bài lịch sử. Git vẫn lưu lịch sử các phiên bản của file bài mới và các file metadata thay đổi.
-- Hàng chờ: `data/pending.json`.
-- Chống trùng: `data/seen_items.json` (giới hạn 20.000 mục gần nhất).
-- URL chi tiết: `https://appnho.io.vn/news/article.html?id=<id>`.
-- RSS: `/news/feed.xml`.
-- Sitemap: `/news/sitemap.xml`.
+## 2. Lịch tự động (giờ Việt Nam, UTC+7)
 
-## Hạn chế và bảo vệ
-- Không có kho dữ liệu ngoài GitHub; các bản cập nhật tạo lịch sử commit. Hãy theo dõi dung lượng repo và website xuất bản.
-- Không lưu API key trong file, HTML hoặc JavaScript. Chỉ đặt trong GitHub Actions Secrets.
-- Không đặt PAT/token GitHub trong website.
-- Workflow không có quyền xóa repo hoặc sửa Settings; chỉ có quyền ghi nội dung repository cần để cập nhật bài.
-- Bản này đã được kiểm thử cục bộ; chưa thể xác nhận API key thực tế, hạn mức tài khoản hay website production cho đến khi workflow kiểm thử chạy trong GitHub của bạn.
+| Công việc | Giờ Việt Nam | Cron UTC |
+|---|---|---|
+| Research | 09:00, 14:00, 21:00, 03:00 | `0 2,7,14,20 * * *` |
+| Finalize/publish | 05:45, 11:45, 16:45 | `45 22,4,9 * * *` |
+| Mục tiêu hiển thị | 06:00, 12:00, 17:00 | Finalizer chạy trước 15 phút |
+| Legacy upgrade | Chỉ chạy thủ công | `workflow_dispatch` |
 
-## Quyền nguồn và chất lượng
-RSS chỉ dùng làm đầu mối. Nội dung bài phải được biên tập độc lập, kiểm chứng nguồn và không sao chép nội dung có bản quyền. Đọc `SOURCE_AND_COPYRIGHT_POLICY.md`.
+Lượt 12:00 dành cho điểm tin. Chỉ tạo digest khi có ít nhất 6 bài AppNho đạt `quality_version=1.5` và `quality_status=PASS`; không đủ thì bỏ lượt, không lấy RSS lead chưa nghiên cứu để lấp số lượng.
 
+Cron được kiểm tra theo UTC. GitHub Actions có thể trễ hoặc bỏ lịch khi hệ thống quá tải; vì vậy không thể bảo đảm một bài sẽ xuất hiện đúng từng phút. Pipeline vẫn tự chạy và chỉ xuất bản khi có candidate qua QA.
 
-## Archive policy (GitHub-only)
-The initial 43 articles live in immutable `data/archive_articles.json`. New articles accumulate in `data/articles.json`; after the active batch reaches 30 days, `scripts/rotate_archive.py` closes it into a new immutable JSON file under `data/archive_batches/`. The metadata catalog and manifest update only at rotation time. See `GITHUB_ONLY_ARCHIVE_SPLIT.md`.
+## 3. RSS, nguồn và bằng chứng
 
+- Giữ nguyên 50 URL RSS từ repository cũ đã vận hành. Feed chạy `DISCOVERY_ONLY`, chỉ lấy headline, URL và ngày công bố; không dùng RSS description làm chứng cứ.
+- `config/source_directory.csv` giữ 228 nguồn và có đủ cột `terms_status`. Trạng thái điều khoản/quyền thương mại chưa xác minh vẫn để `UNVERIFIED`, không giả định đã được cấp phép.
+- `APPROVED_RESEARCH` chỉ dùng khi `access_status=RESEARCH_ALLOWED` và `terms_status=VERIFIED`.
+- `LIMITED_FACTUAL_REFERENCE` cho phép nghiên cứu dữ kiện giới hạn trên trang HTTPS công khai khi robots.txt cho phép và nguồn không bị đánh dấu `BLOCKED`. Chỉ trích xuất văn bản giới hạn tạm thời để kiểm tra sự kiện; không lưu toàn văn, không sao chép biểu đạt, không sử dụng ảnh publisher. Đây không phải xác nhận điều khoản đã được rà soát hay giấy phép thương mại.
+- Nguồn bị đánh dấu `BLOCKED`, robots cấm hoặc HTTP 401/403 sẽ bị loại. Không vượt paywall, CAPTCHA, đăng nhập hoặc cơ chế kiểm soát truy cập.
+- Bài R1 cần ít nhất hai source family độc lập hoặc một nguồn gốc phù hợp; R2 cần nguồn chính thức hoặc ba source family; R3 bắt buộc nguồn chính thức. Claim trọng yếu phải có URL, evidence snippet và locator.
 
-GitHub Repository Secrets names used by this setup: `GEMINI_API_KEY_APPNHO_NEWS`, `GROK_API_APPNHO_NEWS`, and `OPENROUTER_API_APPNHO_NEWS`. The workflow maps these to runtime environment variables `GEMINI_API_KEY`, `GROQ_API_KEY`, and `OPENROUTER_API_KEY` respectively.
+## 4. AI providers
 
-## R5 AI API preflight
-Run Actions → `AppNho News — test AI API keys` → Run workflow. It checks authentication/model discovery only and does not generate an article. The automatic workflow uses only allowlisted Gemini free-tier candidates, Groq Free Plan model IDs, and OpenRouter models with `:free` and zero token pricing; if no eligible model is available it reports failure rather than selecting a paid model.
+Thứ tự fallback: **Gemini → Grok/xAI → OpenRouter**.
+
+- Gemini ưu tiên `gemini-3.5-flash-lite` và chỉ dùng model hiện có trong danh sách API, có `generateContent`.
+- Grok được chọn từ danh mục model xAI đang trả về, có cost ceiling. Generation gọi Responses API `/v1/responses` với `store=false`, tối đa 3 lần gọi Grok mỗi lượt research mặc định.
+- OpenRouter chỉ dùng model `:free` có giá input/output bằng 0; giới hạn 8 lần gọi mỗi lượt research để tránh vượt quota free.
+
+GitHub Secrets cần giữ đúng tên:
+
+- `GEMINI_API_KEY_APPNHO_NEWS`
+- `GROK_API_APPNHO_NEWS` (xAI, không phải Groq)
+- `OPENROUTER_API_KEY_APPNHO_NEWS`
+
+Workflow Research ánh xạ các secret sang `GEMINI_API_KEY`, `XAI_API_KEY`, `OPENROUTER_API_KEY`.
+
+`test-ai-apis.yml` là workflow chạy thủ công. Nó kiểm tra model catalog và gửi một yêu cầu sinh rất ngắn tới từng provider đã cấu hình. Lượt probe Grok có thể phát sinh một khoản phí API nhỏ. Workflow Research theo lịch chỉ kiểm tra model catalog trước khi chạy; việc sinh bài thực tế được kiểm chứng trong chính pipeline.
+
+## 5. GitHub Actions
+
+- `research-news.yml`: research, chuẩn bị candidate, không xuất bản.
+- `build-news.yml`: finalizer và xuất bản theo lịch.
+- `test-ai-apis.yml`: kiểm tra API/model và live probe khi chạy thủ công.
+- `validate-news.yml`: kiểm tra code và dữ liệu khi push/PR.
+- `manual-publish.yml`: đưa đề tài vào research queue, không xuất bản trực tiếp.
+- `legacy-upgrade.yml`: nâng cấp bài cũ khi người quản lý chủ động chạy; mặc định dry-run.
+
+Push code lên `main` không tự chạy pipeline xuất bản.
+
+## 6. Dữ liệu
+
+- `data/articles.json`: bài hiện hành.
+- `data/archive_articles.json`: kho archive.
+- `data/archive_catalog.json`, `data/archive_manifest.json`, `data/archive_batches/`: chỉ mục và các lô archive.
+- `data/pending.json`: RSS leads và trạng thái xử lý.
+- `data/research_queue.json`: bản thảo đã nghiên cứu, chờ finalizer.
+- `data/seen_items.json`: chống trùng, cursor theo feed và thống kê.
+- `data/publish_log.json`: kết quả từng khung xuất bản.
+- `config/source_directory.csv`: 228 đầu mối nguồn.
+
+`published_at` giữ ngày sự kiện/ngày nguồn. `appnho_published_at` là ngày AppNho xuất bản. Không ghi đè hai mốc này lẫn nhau.
+
+Kho hiện có 120 bài: 77 active và 43 archive. Patch v1.5.3 không thay đổi nội dung, ID, slug hoặc ngày xuất bản lịch sử của các bài này.
+
+## 7. Kiểm tra trước khi commit
+
+Chạy tại thư mục gốc repository:
+
+```bash
+python -m compileall -q scripts
+python -m unittest discover -s scripts -p 'test_*.py' -v
+python scripts/audit_site.py
+python scripts/build_metadata.py
+```
+
+Sau khi push, chạy lần lượt `Validate code and content data`, `Test AI API keys` và `Research and prepare candidates` thủ công. Khi research queue có candidate READY, chạy finalizer thủ công để kiểm tra đường xuất bản trước khi chờ cron.
+
+## 8. URL
+
+- Bài viết: `https://appnho.io.vn/news/article.html?id=<id>`
+- RSS: `/news/feed.xml`
+- Sitemap: `/news/sitemap.xml`
+- Chính sách biên tập: `/news/about.html`

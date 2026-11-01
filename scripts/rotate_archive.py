@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Close the current article batch once its oldest article has been live for 30 days.
-Closed JSON batches are immutable; only the catalog/manifest and active file change at rotation.
+"""Close the current article batch once its oldest AppNho publication is 30 days old.
+
+Ordinary rotation does not rewrite closed batches. The explicit v1.5 legacy-upgrade
+workflow may later update an archived article body while preserving its ID, slug and dates.
 """
 import json
 from pathlib import Path
@@ -18,7 +20,7 @@ def load(path, default):
     return json.loads(path.read_text(encoding='utf-8'))
 
 def parse_dt(article):
-    raw=article.get('published_at') or article.get('fetched_at') or ''
+    raw=article.get('appnho_published_at') or article.get('fetched_at') or article.get('published_at') or ''
     try:
         dt=datetime.fromisoformat(raw.replace('Z','+00:00'))
         return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
@@ -61,9 +63,9 @@ def main():
     for a in closing:
         if a.get('id') in existing:
             raise SystemExit(f'[ROTATE] Duplicate ID in archive catalog: {a.get("id")}')
-        catalog.append({k:a.get(k) for k in ['id','title','summary','category','published_at','fetched_at','keywords','slug','seo_title','meta_description']} | {'file':rel,'collection':'archive'})
+        catalog.append({k:a.get(k) for k in ['id','title','summary','category','published_at','fetched_at','appnho_published_at','updated_at','keywords','slug','seo_title','meta_description','quality_version','quality_status','legacy_upgrade_status']} | {'file':rel,'collection':'archive'})
     MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     ACTIVE.write_text(json.dumps(remaining,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'[ROTATE] Closed {len(closing)} articles to {rel}; {len(remaining)} remain active. Closed batch file will never be overwritten.')
+    print(f'[ROTATE] Closed {len(closing)} articles to {rel}; {len(remaining)} remain active. Ordinary rotation will not overwrite this batch; explicit content migration remains allowed.')
 if __name__=='__main__': main()
