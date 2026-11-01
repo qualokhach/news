@@ -25,7 +25,7 @@ SOURCE_DIRECTORY = ROOT / 'config/source_directory.csv'
 TIMEOUT = 8
 UA = 'AppNhoNewsBot/1.0 (+https://github.com/qualokhach/news)'
 MAX_NEW_PER_RUN = int(os.getenv('MAX_ARTICLES_PER_RUN', '8'))
-MAX_CANDIDATE_GROUPS_PER_RUN = int(os.getenv('MAX_CANDIDATE_GROUPS_PER_RUN', '40'))
+MAX_CANDIDATE_GROUPS_PER_RUN = max(1, int(os.getenv('MAX_CANDIDATE_GROUPS_PER_RUN', '8')))
 MAX_PENDING = 5000
 MAX_RESEARCH_QUEUE = 150
 # Optional model overrides are honored only when explicitly configured. By default, discover
@@ -436,6 +436,7 @@ def discover_xai_models():
         data=get_json('https://api.x.ai/v1/models',headers,'Grok/xAI')
         rows=data.get('data',[]) if isinstance(data,dict) else []
     candidates=[]
+    grok_rows=0; missing_price=0; over_budget=0
     max_input=float(os.getenv('XAI_MAX_INPUT_USD_PER_MILLION','5'))
     max_output=float(os.getenv('XAI_MAX_OUTPUT_USD_PER_MILLION','20'))
     override_available=any(
@@ -449,25 +450,43 @@ def discover_xai_models():
         low=mid.casefold()
         if not low.startswith('grok-') or any(x in low for x in ('imagine','image','video','audio','voice','embedding')):
             continue
+        grok_rows+=1
         if override_available and mid != GROK_MODEL:
             continue
         # xAI prices are cents per 100M tokens in the language-model catalog.
         pin=item.get('prompt_text_token_price')
         pout=item.get('completion_text_token_price')
         if pin is None or pout is None:
-            # Do not guess the units of an incomplete pricing object.
-            continue
-        try:
-            input_usd=float(pin)/10_000
-            output_usd=float(pout)/10_000
-        except (TypeError,ValueError):
-            continue
-        if input_usd < 0 or output_usd < 0 or input_usd > max_input or output_usd > max_output:
-            continue
+            # An explicitly configured model is an intentional operator choice.
+            # Permit it when the catalog omits pricing, but never guess a price.
+            if not (GROK_MODEL and mid == GROK_MODEL):
+                missing_price+=1
+                continue
+            input_usd = output_usd = None
+        else:
+            try:
+                input_usd=float(pin)/10_000
+                output_usd=float(pout)/10_000
+            except (TypeError,ValueError):
+                if not (GROK_MODEL and mid == GROK_MODEL):
+                    missing_price+=1
+                    continue
+                input_usd = output_usd = None
+            if input_usd is not None and (input_usd < 0 or output_usd < 0 or input_usd > max_input or output_usd > max_output):
+                over_budget+=1
+                continue
         # Prefer the named flagship when present, otherwise lowest total price.
-        preferred=0 if mid=='grok-4.7' else 1
-        candidates.append((preferred,input_usd+output_usd,mid))
+        preferred=0 if mid==GROK_MODEL and GROK_MODEL else (1 if mid=='grok-4.7' else 2)
+        total_price=(input_usd+output_usd) if input_usd is not None else float('inf')
+        candidates.append((preferred,total_price,mid))
     candidates.sort()
+    if not candidates:
+        if not grok_rows:
+            print('[MODEL] Grok/xAI catalog returned no text Grok models.')
+        elif missing_price and not GROK_MODEL:
+            print(f'[MODEL] Grok/xAI found {grok_rows} text model(s), but {missing_price} lacked usable pricing; set repository variable GROK_MODEL to an explicitly approved model slug.')
+        elif over_budget:
+            print(f'[MODEL] Grok/xAI found {grok_rows} text model(s), but {over_budget} exceeded configured price ceilings (${max_input}/M input, ${max_output}/M output).')
     return [x[2] for x in candidates[:3]]
 
 def discover_openrouter_models():
@@ -580,8 +599,10 @@ def generate_with_fallback(prompt):
             models=MODEL_DISCOVERY_CACHE[name]
             if not models:
                 print(f'[WARN] {name}: no currently eligible models discovered'); continue
-            # Cap model probes to keep each run bounded. Prefer first-ranked low-cost/free candidates.
-            probe_limit = 2 if name=='Gemini' else 5
+            # Use one selected model per provider for each candidate. This preserves
+            # fallback across Gemini -> Grok -> OpenRouter instead of burning the
+            # per-run budget probing several models from one provider first.
+            probe_limit = 1
             providers.append((name,models[:probe_limit],call))
             print(f'[MODEL] {name}: discovered {len(models)} eligible model(s); will probe up to {min(probe_limit,len(models))}')
         except Exception as e:
@@ -626,7 +647,15 @@ def generate_with_fallback(prompt):
                 print(f'[WARN] {name} model unavailable/invalid; trying next eligible model ({message})')
                 # A long delay is not useful for quota errors; next model/provider is the fallback.
                 time.sleep(0.4)
-    raise RuntimeError('All discovered free/eligible AI models failed: '+' | '.join(errors[-12:] or ['no configured provider/model']))
+    if not errors:
+        exhausted=[]
+        if os.getenv('GEMINI_API_KEY','').strip() and GEMINI_CALLS_THIS_RUN >= MAX_GEMINI_CALLS_PER_RUN: exhausted.append('Gemini')
+        if os.getenv('XAI_API_KEY','').strip() and GROK_CALLS_THIS_RUN >= MAX_GROK_CALLS_PER_RUN: exhausted.append('Grok/xAI')
+        if os.getenv('OPENROUTER_API_KEY','').strip() and OPENROUTER_CALLS_THIS_RUN >= MAX_OPENROUTER_CALLS_PER_RUN: exhausted.append('OpenRouter')
+        if exhausted:
+            raise RuntimeError('Per-run provider call budgets exhausted: '+', '.join(exhausted))
+        raise RuntimeError('No configured provider/model is currently eligible; check API keys and model discovery logs.')
+    raise RuntimeError('All discovered eligible AI models failed: '+' | '.join(errors[-12:]))
 
 
 def make_prompt(group, evidence, discovery_leads=None):
@@ -988,6 +1017,8 @@ def main():
             # bounded sample; never substitute the discovery time.
             date_recovered=0
             for candidate in items:
+                if not feed.get('recover_dates_from_article_metadata', False):
+                    break
                 if candidate.get('source_published_at') or date_recovered>=8:
                     continue
                 date_recovered+=1
@@ -1089,141 +1120,98 @@ def main():
                 source_score(best,len(group),usage_counts.get(best.get('source_name',''),0)*8),
                 best.get('source_published_at') or '')
     groups.sort(key=group_rank,reverse=True)
-    api_keys_present=any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY'))
     prepared=0; category_counts={}; generation_attempts=0; ai_responses=0; generation_failures=0
     candidate_groups_attempted=0
-    if not api_keys_present:
-        print('[INFO] No AI API keys configured: discovery only; no candidate will be prepared.')
-    else:
-        for group in groups:
-            if prepared>=MAX_NEW_PER_RUN or candidate_groups_attempted>=MAX_CANDIDATE_GROUPS_PER_RUN:
-                break
-            group.sort(key=lambda x:(source_score(x,len(group),usage_counts.get(x.get('source_name',''),0)*8),
-                                     x.get('source_published_at') or ''),reverse=True)
-            mainlead=group[0]
-            category=mainlead.get('category')
-            if category_counts.get(category,0)>=2:
-                continue
-            dt=as_utc(mainlead.get('source_published_at'))
-            if dt and now-dt>timedelta(hours=72):
-                for x in group:
-                    x['status']='stale'
-                continue
-            candidate_groups_attempted+=1
-            evidence={}; good=[]; domains=set(); used_families=set()
-            # RSS remains metadata-only. For factual research, retrieve bounded page
-            # evidence from distinct publisher families under robots rules. Unreviewed
-            # sources are tagged LIMITED_FACTUAL_REFERENCE and are never treated as
-            # commercially licensed content or copied into the published article.
-            for item in group[:6]:
-                domain=domain_key(item.get('source_url',''))
-                info=source_info(item.get('source_url',''))
-                family=(info.get('source_family') or domain).casefold()
-                if family and family in used_families:
-                    continue
-                try:
-                    mode=research_access_mode(item['source_url'], item.get('source_feed_domain'))
-                    page=extract_page(item['source_url'], access_mode=mode)
-                    if len(page)>500 and evidence_matches_title(item.get('discovery_title',''),page):
-                        item['research_mode']=mode
-                        evidence[item['source_url']]=page
-                        good.append(item)
-                        if family:
-                            used_families.add(family)
-                        if domain:
-                            domains.add(domain)
-                except Exception as e:
-                    print(f"[WARN] Publisher evidence unavailable: {item['source_name']} — {e}")
-            # Search for original/official material using the supplied source directory.
-            if len(domains)<2:
-                official_candidates=search_official_sources(mainlead['discovery_title'],mainlead.get('category',''),domains,limit=3)
-                for candidate in official_candidates:
-                    try:
-                        if not robots_allowed(candidate['source_url']):
-                            continue
-                        page=extract_page(candidate['source_url'], access_mode=candidate.get('research_mode'))
-                        if len(page)>500 and evidence_matches_title(candidate.get('discovery_title',''),page):
-                            evidence[candidate['source_url']]=page
-                            good.append(candidate)
-                            domains.add(domain_key(candidate['source_url']))
-                            print(f"[RESEARCH] Added primary-source evidence: {candidate['source_name']}")
-                    except Exception as e:
-                        print(f"[INFO] Primary source unavailable: {candidate['source_name']} — {e}")
-            source_refs=[]
-            for item in good:
-                info=source_info(item.get('source_url',''))
-                source_refs.append({
-                    'url':item.get('source_url',''),
-                    'source_family':info.get('source_family') or domain_key(item.get('source_url','')),
-                    'is_primary':info['is_primary'],
-                    # Preflight only: make_article still verifies a matching core-claim
-                    # excerpt before persisting is_primary_for_claim on the article.
-                    'is_primary_for_claim':info['is_primary'],
-                    'research_mode':item.get('research_mode','LIMITED_FACTUAL_REFERENCE')
-                })
-            source_count,has_primary,_=source_independence(source_refs)
-            if not good or (source_count<2 and not has_primary):
-                mark_group_retry(group,'Không đủ nguồn độc lập hoặc không truy cập được nội dung nguồn.',now)
-                print(f"[HOLD] {mainlead['discovery_title']}: insufficient independent source evidence")
+    for group in groups:
+        if prepared>=MAX_NEW_PER_RUN or candidate_groups_attempted>=MAX_CANDIDATE_GROUPS_PER_RUN:
+            break
+        group.sort(key=lambda x:(source_score(x,len(group),usage_counts.get(x.get('source_name',''),0)*8),
+                                 x.get('source_published_at') or ''),reverse=True)
+        mainlead=group[0]
+        category=mainlead.get('category')
+        if category_counts.get(category,0)>=2:
+            continue
+        dt=as_utc(mainlead.get('source_published_at'))
+        if dt and now-dt>timedelta(hours=72):
+            for x in group:
+                x['status']='stale'
+            continue
+        candidate_groups_attempted+=1
+        evidence={}; good=[]; domains=set(); used_families=set()
+        # RSS remains metadata-only. For factual research, retrieve bounded page
+        # evidence from distinct publisher families under robots rules. Unreviewed
+        # sources are tagged LIMITED_FACTUAL_REFERENCE and are never treated as
+        # commercially licensed content or copied into the published article.
+        for item in group[:6]:
+            domain=domain_key(item.get('source_url',''))
+            info=source_info(item.get('source_url',''))
+            family=(info.get('source_family') or domain).casefold()
+            if family and family in used_families:
                 continue
             try:
-                generation_attempts+=1
-                result,provider_name=generate_with_fallback(make_prompt(good,evidence,group))
-                ai_responses+=1
-                if not result.get('publish'):
-                    reason=clean(result.get('reason','Not enough verified evidence'))[:300]
-                    for item in group:
-                        item['status']='REJECT'
-                        item['editorial_reason']=reason
-                        u=canon(item.get('source_url',''))
-                        seen.setdefault(u,{})['status']='REJECT'
-                    print(f"[REJECT] {mainlead['discovery_title']}: {reason}")
-                    continue
-                result['_provider']=provider_name
-                article=make_article(result,good,evidence)
-                if not article:
-                    raise ValueError('AI output failed article validation')
-                article['origin']='auto'
-                image=find_licensed_image(article)
-                if image:
-                    article['content_image_url']=image['url']
-                    article['content_image_alt']=image['alt']
-                    article['content_image_credit']=image['credit']+' ('+image['license']+')'
-                    article['content_image_credit_url']=image['credit_url']
-                    article['content_image_license_url']=image['license_url']
-                duplicate_title=any(similarity(article['title'],a.get('title',''))>0.70 for a in articles)
-                duplicate_body=any(
-                    similarity(' '.join(article.get('body') or []), ' '.join(a.get('body') or []))>0.66
-                    for a in articles if a.get('body')
-                )
-                if duplicate_title or duplicate_body:
-                    for item in group:
-                        item['status']='duplicate_event_or_content'
-                    continue
-                if any(str(x.get('id'))==str(article.get('id')) for x in articles):
-                    for item in group: item['status']='duplicate_id'
-                    continue
-                ttl=int(article.get('freshness_ttl_hours',24))
-                research_queue.append({
-                    'queue_id':article['id'],'status':'READY','prepared_at':now_iso(),
-                    'expires_at':(now+timedelta(hours=ttl)).isoformat(),
-                    'source_urls':article.get('source_urls',[]),'article':article
-                })
-                articles.append(article)
-                prepared+=1
-                category_counts[category]=category_counts.get(category,0)+1
-                for item in group:
-                    item['status']='ready_for_publish' if item['source_url']==article['source_url'] else 'cross_checked_same_event'
-                    item['article_id']=article['id']
-                    u=canon(item.get('source_url',''))
-                    seen.setdefault(u,{})['status']=item['status']
-                    seen[u]['article_id']=article['id']
-                print(f"[READY] {article['title']} ({article['word_count']} words, {article['category']}, risk={article['risk_level']})")
-                time.sleep(0.8)
+                mode=research_access_mode(item['source_url'], item.get('source_feed_domain'))
+                page=extract_page(item['source_url'], access_mode=mode)
+                if len(page)>500 and evidence_matches_title(item.get('discovery_title',''),page):
+                    item['research_mode']=mode
+                    evidence[item['source_url']]=page
+                    good.append(item)
+                    if family:
+                        used_families.add(family)
+                    if domain:
+                        domains.add(domain)
             except Exception as e:
-                generation_failures+=1
-                mark_group_retry(group,str(e),now)
-                print(f"[WARN] Candidate skipped for '{mainlead['discovery_title']}': {e}")
+                print(f"[WARN] Publisher evidence unavailable: {item['source_name']} — {e}")
+        # Search for original/official material using the supplied source directory.
+        if len(domains)<2:
+            official_candidates=search_official_sources(mainlead['discovery_title'],mainlead.get('category',''),domains,limit=3)
+            for candidate in official_candidates:
+                try:
+                    if not robots_allowed(candidate['source_url']):
+                        continue
+                    page=extract_page(candidate['source_url'], access_mode=candidate.get('research_mode'))
+                    if len(page)>500 and evidence_matches_title(candidate.get('discovery_title',''),page):
+                        evidence[candidate['source_url']]=page
+                        good.append(candidate)
+                        domains.add(domain_key(candidate['source_url']))
+                        print(f"[RESEARCH] Added primary-source evidence: {candidate['source_name']}")
+                except Exception as e:
+                    print(f"[INFO] Primary source unavailable: {candidate['source_name']} — {e}")
+        source_refs=[]
+        for item in good:
+            info=source_info(item.get('source_url',''))
+            source_refs.append({
+                'url':item.get('source_url',''),
+                'source_family':info.get('source_family') or domain_key(item.get('source_url','')),
+                'is_primary':info['is_primary'],
+                # Preflight only: make_article still verifies a matching core-claim
+                # excerpt before persisting is_primary_for_claim on the article.
+                'is_primary_for_claim':info['is_primary'],
+                'research_mode':item.get('research_mode','LIMITED_FACTUAL_REFERENCE')
+            })
+        source_count,has_primary,_=source_independence(source_refs)
+        if not good or (source_count<2 and not has_primary):
+            mark_group_retry(group,'Không đủ nguồn độc lập hoặc không truy cập được nội dung nguồn.',now)
+            print(f"[HOLD] {mainlead['discovery_title']}: insufficient independent source evidence")
+            continue
+        # Stage evidence-backed candidate; no LLM call is made during Research.
+        queue_id=hashlib.sha256((mainlead.get('source_url','')+'|'+str(mainlead.get('discovery_title',''))).encode('utf-8')).hexdigest()[:20]
+        if any(str(x.get('queue_id'))==queue_id for x in research_queue if isinstance(x,dict)):
+            print(f"[HOLD] Already staged for writing: {mainlead.get('discovery_title','')}")
+            continue
+        research_queue.append({
+            'queue_id':queue_id,'status':'WRITING_PENDING','staged_at':now_iso(),
+            'expires_at':(now+timedelta(hours=72)).isoformat(),
+            'category_hint':category,'lead_title':mainlead.get('discovery_title',''),
+            'source_urls':[x.get('source_url','') for x in good if x.get('source_url')],
+            'evidence_pages':evidence,'group':good,'discovery_group':group
+        })
+        prepared+=1
+        category_counts[category]=category_counts.get(category,0)+1
+        for item in group:
+            item['status']='writing_pending'
+            u=canon(item.get('source_url',''))
+            seen.setdefault(u,{})['status']='writing_pending'
+        print(f"[STAGED] {mainlead.get('discovery_title','')} ({len(good)} verified source(s)); waiting for writing workflow.")
     # Keep READY items until publication/expiry; preserve the newest usable queue records.
     research_queue.sort(key=lambda x:x.get('prepared_at',''),reverse=True)
     ready=[x for x in research_queue if x.get('status')=='READY']

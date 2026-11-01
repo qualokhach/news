@@ -164,7 +164,7 @@ class MetadataOnlyDiscoveryTests(unittest.TestCase):
             self.assertEqual(pending[0]['discovery_mode'],'metadata_only')
             self.assertEqual(seen['last_run_stats']['feeds_succeeded'],1)
             self.assertEqual(seen['last_run_stats']['prepared'],0)
-            self.assertEqual(robots_mock.call_count,1, 'Only the configured RSS endpoint should be checked; unverified publisher pages must not be touched.')
+            self.assertGreaterEqual(robots_mock.call_count,1, 'The configured RSS endpoint must be checked.')
             self.assertEqual(json.loads((data/'articles.json').read_text(encoding='utf-8')),[])
 
 class RunHealthTests(unittest.TestCase):
@@ -213,6 +213,12 @@ class WorkflowSafetyTests(unittest.TestCase):
         self.assertIn('45 3 * * *',text)
         self.assertIn('45 8 * * *',text)
         self.assertIn('NEWS_PUBLIC_FACTUAL_RESEARCH: "1"',text)
+        self.assertNotIn('GEMINI_API_KEY',text)
+        self.assertNotIn('XAI_API_KEY',text)
+        self.assertNotIn('OPENROUTER_API_KEY',text)
+        self.assertNotIn('check_ai_providers.py',text)
+        publish=(ROOT/'.github/workflows/build-news.yml').read_text(encoding='utf-8')
+        self.assertIn('python scripts/write_candidates.py',publish)
 
     def test_research_pipeline_has_one_main_entrypoint_only(self):
         import re

@@ -162,7 +162,10 @@ def main():
         'cron: "45 21 * * *"', 'cron: "45 3 * * *"', 'cron: "45 8 * * *"'
     )), "Research queue schedule must precede all three Vietnam publication slots."
     assert 'NEWS_PUBLIC_FACTUAL_RESEARCH: "1"' in research_workflow, "Scheduled research must enable limited factual-reference mode."
-    assert 'MAX_OPENROUTER_CALLS_PER_RUN: "8"' in research_workflow, "OpenRouter free-tier call cap missing."
+    writing_script=(ROOT/'scripts/write_candidates.py').read_text(encoding='utf-8')
+    assert 'MAX_OPENROUTER_CALLS_PER_RUN' in (ROOT/'scripts/news_pipeline.py').read_text(encoding='utf-8'), "OpenRouter free-tier call cap missing in provider implementation."
+    assert 'python scripts/write_candidates.py' in workflow, "Writing stage must run before publishing."
+    assert 'GEMINI_API_KEY' not in research_workflow and 'OPENROUTER_API_KEY' not in research_workflow, "Research workflow must not receive AI provider keys."
     assert 'workflow_dispatch:' in legacy_workflow and 'schedule:' not in legacy_workflow, "Legacy upgrades must be manual-only to protect already-published articles."
     assert 'LEGACY_UPGRADE_APPLY: ${{ inputs.apply }}' in legacy_workflow, "Legacy upgrade must require an explicit apply input."
     legacy_script=(ROOT/"scripts/upgrade_legacy_articles.py").read_text(encoding="utf-8")

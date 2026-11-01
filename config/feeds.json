@@ -21,7 +21,8 @@
     "priority": 1,
     "discovery_access_status": "DISCOVERY_ONLY",
     "terms_status": "UNVERIFIED",
-    "commercial_use_status": "UNVERIFIED"
+    "commercial_use_status": "UNVERIFIED",
+    "recover_dates_from_article_metadata": true
   },
   {
     "name": "Thanh Niên - Tin mới",

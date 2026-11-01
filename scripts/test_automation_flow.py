@@ -9,7 +9,7 @@ import news_pipeline
 import publish_ready
 
 class AutomaticResearchPublishFlowTests(unittest.TestCase):
-    def test_candidate_can_be_researched_queued_and_published(self):
+    def test_research_stages_candidate_without_calling_ai_or_publishing(self):
         with tempfile.TemporaryDirectory() as tmp:
             base=Path(tmp)
             cfg=base/'config'; data=base/'data'
@@ -104,34 +104,19 @@ class AutomaticResearchPublishFlowTests(unittest.TestCase):
                  patch.object(news_pipeline,'research_access_mode',return_value='LIMITED_FACTUAL_REFERENCE'), \
                  patch.object(news_pipeline,'source_info',side_effect=source_info_test), \
                  patch.object(news_pipeline,'extract_page',return_value=evidence), \
-                 patch.object(news_pipeline,'generate_with_fallback',return_value=(ai_result,'Gemini:gemini-3.5-flash-lite')), \
+                 patch.object(news_pipeline,'generate_with_fallback',side_effect=AssertionError('Research must not call AI')), \
                  patch.object(news_pipeline,'find_licensed_image',return_value=None), \
                  patch.dict(os.environ,env,clear=False):
                 news_pipeline.main()
 
             queue=json.loads((data/'research_queue.json').read_text(encoding='utf-8'))
             self.assertEqual(len(queue),1)
-            self.assertEqual(queue[0]['status'],'READY')
-            article=queue[0]['article']
-            self.assertEqual(article['quality_status'],'PASS')
-            self.assertEqual(len(article['source_references']),2)
-            self.assertTrue(all(x['research_mode']=='LIMITED_FACTUAL_REFERENCE' for x in article['source_references']))
-            self.assertTrue(all(x['reuse_mode']=='FACTUAL_CITATION_ONLY' for x in article['source_references']))
-
-            with patch.object(publish_ready,'QUEUE',data/'research_queue.json'), \
-                 patch.object(publish_ready,'ARTICLES',data/'articles.json'), \
-                 patch.object(publish_ready,'PENDING',data/'pending.json'), \
-                 patch.object(publish_ready,'SEEN',data/'seen_items.json'), \
-                 patch.object(publish_ready,'LOG',data/'publish_log.json'), \
-                 patch.object(publish_ready,'check_source_access',return_value=(True,'HTTP 200')), \
-                 patch.object(publish_ready.research_pipeline,'extract_page',return_value=evidence):
-                publish_ready.main()
-
+            self.assertEqual(queue[0]['status'],'WRITING_PENDING')
+            self.assertIn('group',queue[0])
+            self.assertIn('evidence_pages',queue[0])
+            self.assertFalse(queue[0].get('article'))
             published=json.loads((data/'articles.json').read_text(encoding='utf-8'))
-            queue_after=json.loads((data/'research_queue.json').read_text(encoding='utf-8'))
-            self.assertEqual(len(published),1)
-            self.assertEqual(queue_after[0]['status'],'PUBLISHED')
-            self.assertTrue(published[0]['appnho_published_at'])
+            self.assertEqual(published,[])
 
 if __name__=='__main__':
     unittest.main(verbosity=2)
