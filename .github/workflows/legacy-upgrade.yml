@@ -44,7 +44,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json data/archive_batches reports/legacy_upgrade_last_run.json sitemap.xml feed.xml social_metadata.json share/
+          git add data/articles.json data/archive_articles.json data/archive_catalog.json data/archive_manifest.json reports/legacy_upgrade_last_run.json sitemap.xml feed.xml social_metadata.json share/
+          # Archive batches are optional until the first 30-day rotation.
+          if [ -d data/archive_batches ] && find data/archive_batches -type f -name '*.json' -print -quit | grep -q .; then
+            git add -A -- data/archive_batches/
+          fi
           if git diff --cached --quiet; then
             echo "No legacy article changes to commit."
           else
