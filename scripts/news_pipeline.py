@@ -575,9 +575,9 @@ def gemini(prompt, model):
     if not key: raise RuntimeError('Gemini key missing')
     endpoint=f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}'
     payload={'systemInstruction':{'parts':[{'text':(
-        'Bạn là biên tập viên tin tức tiếng Việt. Viết độc lập, chính xác, dễ đọc, không phóng đại. '
+        'Bạn là nhà báo/phóng viên chuyên nghiệp của một tòa soạn báo điện tử tiếng Việt. Hãy viết bài báo hoàn chỉnh theo đề tài, thể loại và độ dài được giao. Viết độc lập, chính xác, dễ đọc, không phóng đại. '
         'Chỉ dùng dữ kiện có trong bằng chứng được cung cấp. Không bịa số liệu, phát biểu, nguyên nhân, '
-        'dự báo hoặc trích dẫn. Không sao chép câu chữ nguồn. Nếu bằng chứng không đủ, trả về JSON với publish=false. '
+        'dự báo hoặc trích dẫn. Không sao chép câu chữ nguồn. Nếu bằng chứng không đủ để viết bài đạt độ dài yêu cầu mà không suy diễn, trả về JSON với publish=false. '
         'Không nhồi từ khóa, không lặp ý để kéo dài. Output chỉ JSON hợp lệ, không markdown.')}]},
         'contents':[{'role':'user','parts':[{'text':prompt}]}],
         'generationConfig':{'temperature':0.25,'responseMimeType':'application/json','maxOutputTokens':7000}}
@@ -622,7 +622,7 @@ def cloudflare_workers_ai(prompt):
         raise RuntimeError('Cloudflare Workers AI Account ID or API Token missing')
     endpoint=('https://api.cloudflare.com/client/v4/accounts/'+account_id+
               '/ai/run/'+CLOUDFLARE_MODEL)
-    system=('Bạn là biên tập viên tin tức tiếng Việt. Viết độc lập, chính xác, không phóng đại; '
+    system=('Bạn là nhà báo/phóng viên chuyên nghiệp của một tòa soạn báo điện tử tiếng Việt. Hãy viết bài báo hoàn chỉnh theo đề tài và độ dài được giao; '
             'chỉ dùng dữ kiện trong nguồn, không bịa số liệu, phát biểu hay trích dẫn; không sao chép câu chữ nguồn. '
             'Nếu bằng chứng không đủ, trả publish=false. Chỉ trả về một đối tượng JSON hợp lệ, không markdown.')
     payload={
@@ -648,7 +648,7 @@ def xai_responses(prompt, model):
     key=os.getenv('XAI_API_KEY','').strip()
     if not key:
         raise RuntimeError('Grok/xAI key missing')
-    system=('Bạn là biên tập viên tin tức tiếng Việt. Viết độc lập, chính xác, không phóng đại; '
+    system=('Bạn là nhà báo/phóng viên chuyên nghiệp của một tòa soạn báo điện tử tiếng Việt. Hãy viết bài báo hoàn chỉnh theo đề tài và độ dài được giao; '
             'chỉ dùng dữ kiện trong nguồn, không bịa số liệu, phát biểu hay trích dẫn; không sao chép câu chữ nguồn. '
             'Nếu bằng chứng không đủ, trả publish=false. Chỉ trả về một đối tượng JSON hợp lệ, không markdown.')
     payload={
@@ -682,7 +682,7 @@ def openai_compatible(prompt, provider, key_env, endpoint, model, extra_headers=
     headers={'Authorization':f'Bearer {key}','Content-Type':'application/json'}
     headers.update(extra_headers or {})
     payload={'model':model,'messages':[
-        {'role':'system','content':('Bạn là biên tập viên tin tức tiếng Việt. Viết độc lập, chính xác, không phóng đại; '
+        {'role':'system','content':('Bạn là nhà báo/phóng viên chuyên nghiệp của một tòa soạn báo điện tử tiếng Việt. Hãy viết bài báo hoàn chỉnh theo đề tài và độ dài được giao; '
          'chỉ dùng dữ kiện trong nguồn, không bịa số liệu, phát biểu hay trích dẫn; không sao chép câu chữ nguồn. '
          'Nếu bằng chứng không đủ, trả publish=false. Chỉ trả về một đối tượng JSON hợp lệ, không markdown.')},
         {'role':'user','content':prompt}], 'temperature':0.25,'max_tokens':7000}
@@ -738,6 +738,7 @@ def generate_with_fallback(prompt, validator=None):
             if used>=cap:
                 print(f'[SKIP] {name}: per-run call cap reached ({cap}); trying next provider.')
                 break
+            last_validation_error=''
             for attempt in range(2):
                 try:
                     if name=='Gemini': GEMINI_CALLS_THIS_RUN+=1
@@ -745,10 +746,15 @@ def generate_with_fallback(prompt, validator=None):
                     else: OPENROUTER_CALLS_THIS_RUN+=1
                     retry_prompt=prompt
                     if attempt:
-                        retry_prompt += ("\\n\\nYÊU CẦU SỬA BẢN THẢO VỪA TRƯỢT KIỂM ĐỊNH: "
-                            "Hãy sửa đúng lỗi được nêu và trả lại toàn bộ JSON hợp lệ. "
-                            "Ưu tiên độ chính xác, độ đầy đủ và giá trị biên tập; không thêm câu hoặc đoạn chỉ để tăng số từ. "
-                            "Nếu bằng chứng không hỗ trợ bài dài, chọn thể loại ngắn phù hợp thay vì suy diễn. ")
+                        retry_prompt += (
+                            "\\n\\nYÊU CẦU BIÊN TẬP LẠI TOÀN BỘ BẢN THẢO: "
+                            "Bạn vẫn đang đảm nhiệm vai trò nhà báo/phóng viên chuyên nghiệp. "
+                            "Bản trước chưa đạt kiểm định vì lỗi sau: " + last_validation_error[:1200] + ". "
+                            "Hãy viết lại toàn bộ bài, giữ đúng content_type đã chọn và đạt ít nhất số từ tối thiểu "
+                            "được quy định cho thể loại đó. Không được đổi sang thể loại ngắn hơn chỉ để vượt kiểm định. "
+                            "Bổ sung bối cảnh, diễn biến và phân tích cụ thể chỉ từ bằng chứng đã cung cấp; "
+                            "không lặp ý, không bịa dữ kiện. Trả lại toàn bộ JSON hợp lệ theo đúng schema."
+                        )
                     result=call(model,retry_prompt)
                     if result.get('publish'):
                         body=[clean(x) for x in result.get('body',[]) if clean(x)]
@@ -775,6 +781,7 @@ def generate_with_fallback(prompt, validator=None):
                     return result,provider_label
                 except Exception as e:
                     message=str(e)
+                    last_validation_error=message
                     secret_env={'Gemini':'GEMINI_API_KEY','Cloudflare Workers AI':'CLOUDFLARE_API_TOKEN',
                                 'OpenRouter':'OPENROUTER_API_KEY'}[name]
                     secret=os.getenv(secret_env,'')
@@ -818,32 +825,61 @@ def make_prompt(group, evidence, discovery_leads=None):
             'user_supplied_context_for_research_only':x.get('manual_context','')[:2500],
             'page_evidence':evidence.get(x['source_url'],'')[:5200]
         })
-    instructions = r'''Hãy nghiên cứu sự kiện và tạo một bài viết độc lập cho AppNho News. Chỉ sử dụng dữ kiện có căn cứ trong phần bằng chứng bên dưới. Nguồn chưa xác minh điều khoản chỉ được dùng để kiểm tra dữ kiện và dẫn nguồn; tuyệt đối không sao chép câu chữ, ảnh hoặc cấu trúc bài.
-Trả về một JSON object có đúng các trường:
-{"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1"],"source_index":0,"editorial_value":"đóng góp riêng cụ thể","risk_level":"R1|R2|R3","freshness_ttl_hours":24,"fact_ledger":[{"claim":"dữ kiện cụ thể","source_urls":["URL có trong danh sách nguồn"],"evidence_snippet":"trích đoạn ngắn chứng minh claim","evidence_locator":"đoạn/mục/bảng trên trang","evidence_by_source":[{"source_url":"URL","snippet":"trích đoạn nguyên văn từ đúng nguồn này","locator":"đoạn/mục/bảng"}],"importance":"core|supporting"}]}
-Quy tắc bắt buộc:
+    assigned_topic = (group[0].get('discovery_title') if group else '') or 'Chủ đề được thể hiện trong hồ sơ nguồn'
+    instructions = r'''VAI TRÒ NGHỀ NGHIỆP
+Bạn là nhà báo/phóng viên chuyên nghiệp (professional journalist and reporter), được giao viết bài cho một tòa soạn báo điện tử. Hãy làm việc như người trực tiếp chịu trách nhiệm về chất lượng bài báo trước khi xuất bản: đọc kỹ hồ sơ nguồn, xác định thông tin đã được xác minh, chọn góc tiếp cận phù hợp và viết thành tác phẩm báo chí hoàn chỉnh. Không viết theo kiểu chatbot trả lời câu hỏi, không viết ghi chú nghiên cứu, không viết bản tóm tắt sơ sài.
+
+ĐỀ TÀI VÀ NHIỆM VỤ
+Viết một bài báo hoàn chỉnh cho AppNho News về sự kiện/chủ đề thể hiện trong tiêu đề phát hiện và các tài liệu nguồn bên dưới. Tự xác định góc báo chí cụ thể, phù hợp với dữ kiện. Tiêu đề phát hiện chỉ là đầu mối đề tài, không mặc nhiên là sự thật đã được xác minh.
+
+CHỌN THỂ LOẠI VÀ ĐỘ DÀI
+Chọn đúng một content_type theo độ sâu thực tế của hồ sơ:
+- quick_update: bài tin cập nhật nhanh, mục tiêu 250-350 từ, tối thiểu 250 từ.
+- short_explainer: bài giải thích sự kiện, mục tiêu 500-650 từ, tối thiểu 500 từ.
+- news_analysis: bài phân tích tin tức, mục tiêu 800-1.000 từ, tối thiểu 800 từ.
+- long_analysis: bài phân tích chuyên sâu, mục tiêu 1.000-1.300 từ, tối thiểu 1.000 từ.
+
+Độ dài tính trên phần body, không tính tiêu đề, sapo, keywords, fact_ledger hoặc metadata. Trước khi trả kết quả, tự kiểm tra độ dài body. Không tự ý chọn thể loại ngắn chỉ để né yêu cầu độ dài. Chọn thể loại tương ứng với góc tiếp cận và mức độ bằng chứng; nếu hồ sơ không đủ dữ liệu để viết một bài hoàn chỉnh đạt mức tối thiểu mà không suy diễn, hãy trả publish=false và nêu rõ phần dữ liệu còn thiếu. Không được xuất bản một bản thảo ngắn hơn mức tối thiểu rồi coi đó là bài hoàn chỉnh.
+
+YÊU CẦU TÁC NGHIỆP VÀ BIÊN TẬP
+1. Đọc toàn bộ bằng chứng trang nguồn được cung cấp trước khi viết. Phân biệt dữ kiện đã xác minh, thông tin do một bên tuyên bố và phần chưa thể kiểm chứng.
+2. Xây dựng bài có tiêu đề, sapo và phần thân bài hoàn chỉnh. Body phải gồm nhiều đoạn văn có nội dung, triển khai theo trình tự hợp lý; dùng tiêu đề phụ trong body khi cần thiết.
+3. Mở bài nêu sự kiện/vấn đề chính, thông tin mới và ý nghĩa trực tiếp đối với độc giả.
+4. Phát triển bài bằng những chi tiết có thật trong hồ sơ: diễn biến, bối cảnh, mốc thời gian, số liệu, các bên liên quan, phản ứng, tác động hoặc điểm còn chưa rõ — chỉ đưa vào khi nguồn thực sự chứng minh.
+5. Bài phải có giá trị biên tập độc lập: chọn góc nhìn riêng, đặt các dữ kiện cạnh nhau để làm rõ điều mà một bản tin tóm tắt chưa giải thích; phân tích hệ quả hoặc giới hạn của thông tin khi có căn cứ. Không được bịa trải nghiệm tác nghiệp, phỏng vấn, khảo sát hay quan sát hiện trường.
+6. Không sao chép, dịch sát, viết lại từng đoạn hoặc ghép cơ học nội dung từ RSS/bài báo nguồn. Diễn đạt bằng cấu trúc và câu chữ riêng; chỉ trích dẫn nguyên văn trong fact_ledger để chứng minh dữ kiện, không đưa trích dẫn giả vào bài.
+7. Không lặp ý để tăng số từ. Mỗi đoạn phải bổ sung dữ kiện, bối cảnh hoặc phân tích cụ thể. Không dùng lời khuyên chung chung, câu kết sáo rỗng hoặc nhận định không gắn với sự kiện.
+8. Không tự tạo số liệu, ngày tháng, phát ngôn, nguyên nhân, động cơ, dự báo, tên người/tổ chức hoặc quan hệ nhân quả. Không biến suy đoán thành sự thật.
+9. Nếu nguồn có quan điểm khác nhau, trình bày đúng chủ thể và mức độ chắc chắn; không tự cân bằng giả tạo giữa nguồn có chứng cứ mạnh và yếu.
+10. Kết bài phải khép lại vấn đề bằng thông tin, hệ quả hoặc câu hỏi còn bỏ ngỏ có căn cứ; không dùng lời kêu gọi độc giả theo dõi.
+
+QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 - RSS/headline chỉ dùng để phát hiện đề tài. Không dùng mô tả RSS làm bằng chứng cho dữ kiện trọng yếu.
 - Chỉ publish=true khi có đủ căn cứ. Không tự tạo URL, số liệu, phát biểu, nguyên nhân, dự báo, nhân vật hoặc trích dẫn.
 - Ưu tiên tài liệu gốc và nguồn chính thức. Nhiều trang đăng lại cùng một thông cáo không phải nguồn độc lập.
 - Nếu chỉ có một nguồn thứ cấp, không đủ căn cứ cho bài phân tích; trả publish=false và nêu rõ lý do.
 - Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Mỗi dữ kiện phải trỏ tới URL chính xác trong danh sách nguồn. evidence_by_source phải chứa một trích đoạn nguyên văn riêng cho từng nguồn được dùng để chứng minh claim; mỗi snippet phải liên tục, chép chính xác từ page_evidence của đúng URL đó, tuyệt đối không diễn đạt lại hoặc tự tạo câu trích dẫn. evidence_snippet/evidence_locator là trích đoạn chính và vị trí tương ứng. Dữ kiện core phải có chứng cứ nguyên văn từ một nguồn chính thức phù hợp claim hoặc hai source family độc lập. Nếu không tìm được trích đoạn nguyên văn đủ chứng cứ, trả publish=false. Không thêm URL khác.
-- Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ. Không ghi câu chung chung.
-- Không kéo dài bằng nhận định phổ quát, lời khuyên sáo rỗng, câu kiểu “độc giả cần theo dõi”, hoặc đoạn không gắn với sự kiện.
-- Chọn thể loại đúng với độ sâu bằng chứng. Mục tiêu biên tập (không phải điều kiện loại bài): quick_update 250-350 từ; short_explainer 500-650 từ; news_analysis 800-1.000 từ; long_analysis 1.000-1.300 từ. Hệ thống chỉ dùng ngưỡng sàn để loại bản thảo quá sơ sài: quick_update 120 từ/2 đoạn; short_explainer 220 từ/3 đoạn; news_analysis 420 từ/4 đoạn; long_analysis 550 từ/5 đoạn. Bài vượt ngưỡng sàn vẫn phải đạt toàn bộ kiểm chứng dữ kiện, độ bao phủ fact ledger, tính độc lập nguồn, đóng góp biên tập và chất lượng. Không được tự động fail chỉ vì chưa đạt mục tiêu từ; cũng không được kéo dài bằng lặp ý, suy diễn hoặc dữ kiện ngoài nguồn. Nếu bằng chứng chỉ hỗ trợ một bản tin ngắn, chọn quick_update hoặc short_explainer thay vì gắn nhãn phân tích dài.
+- Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
 - published_at là thời điểm sự kiện/nguồn công bố, không phải thời điểm AppNho xuất bản.
 - source_index là chỉ số nguồn chính trong danh sách (0-based).
 - Chỉ dùng tiếng Việt tự nhiên, không tự nhận AppNho đã phỏng vấn/tác nghiệp/khảo sát.
 - Không chèn ghi chú nội bộ, lời kể quy trình nghiên cứu, hoặc câu “bài được AI tạo”.
-- Chỉ trả JSON hợp lệ, không markdown.
+
+ĐỊNH DẠNG ĐẦU RA
+Chỉ trả về một JSON object hợp lệ, không markdown, không lời dẫn, có đúng các trường:
+{"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","content_type":"quick_update|short_explainer|news_analysis|long_analysis","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1","đoạn 2"],"source_index":0,"editorial_value":"đóng góp riêng cụ thể","risk_level":"R1|R2|R3","freshness_ttl_hours":24,"fact_ledger":[{"claim":"dữ kiện cụ thể","source_urls":["URL có trong danh sách nguồn"],"evidence_snippet":"trích đoạn ngắn chứng minh claim","evidence_locator":"đoạn/mục/bảng trên trang","evidence_by_source":[{"source_url":"URL","snippet":"trích đoạn nguyên văn từ đúng nguồn này","locator":"đoạn/mục/bảng"}],"importance":"core|supporting"}]}
+
+Trước khi trả JSON, hãy tự rà soát: bài đã đạt mức tối thiểu của content_type chưa; từng đoạn có thông tin riêng chưa; dữ kiện có được fact_ledger chứng minh không; bài có góc biên tập riêng và không sao chép nguồn không. Nếu không đạt, sửa toàn bộ bản thảo hoặc trả publish=false. Không được bỏ qua yêu cầu độ dài.
 
 Nguồn và bằng chứng đã thu thập:
 '''
     leads=[{'headline':x.get('discovery_title',''),'publisher':x.get('source_name',''),
             'published_at':x.get('source_published_at',''),'summary_for_discovery_only':x.get('discovery_summary','')[:500]}
            for x in (discovery_leads or [])]
-    return instructions + json.dumps({'source_evidence_for_fact_check':sources,'discovery_leads_not_for_fact_claims':leads},ensure_ascii=False)
+    assignment = "ĐỀ TÀI CỤ THỂ ĐƯỢC GIAO: " + str(assigned_topic).strip() + "\\n\\n"
+    return instructions + assignment + json.dumps({'source_evidence_for_fact_check':sources,'discovery_leads_not_for_fact_claims':leads},ensure_ascii=False)
 
 
 def normalize_vietnam_category(title, summary='', body=None, category=''):

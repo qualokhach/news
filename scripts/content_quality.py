@@ -89,6 +89,8 @@ def ttl_for_data_type(data_type: str, risk_level: str = "R1") -> int:
 # The minimum is a safety floor only; evidence, factual accuracy and editorial value
 # remain the actual publication criteria.
 MINIMUM_WORDS_BY_TYPE = {
+    # Keep a safety floor below the editorial target: target length is requested
+    # explicitly in the prompt, while the floor rejects only incomplete drafts.
     "quick_update": 120,
     "short_explainer": 220,
     "news_analysis": 420,
