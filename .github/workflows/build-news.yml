@@ -49,8 +49,9 @@ jobs:
         id: writing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
-          XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY_APPNHO_NEWS }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}
           GROK_MODEL: ${{ vars.GROK_MODEL }}
           MAX_ARTICLES_PER_SLOT: ${{ steps.slot.outputs.max_articles }}
         run: python scripts/write_candidates.py
