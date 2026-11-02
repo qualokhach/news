@@ -166,6 +166,10 @@ def main():
     assert 'MAX_OPENROUTER_CALLS_PER_RUN' in (ROOT/'scripts/news_pipeline.py').read_text(encoding='utf-8'), "OpenRouter free-tier call cap missing in provider implementation."
     assert 'python scripts/write_candidates.py' in workflow, "Writing stage must run before publishing."
     assert 'GEMINI_API_KEY' not in research_workflow and 'OPENROUTER_API_KEY' not in research_workflow, "Research workflow must not receive AI provider keys."
+    assert 'git add data/archive_batches' not in workflow, "Optional archive directory must not be an unconditional Git pathspec in the publish workflow."
+    assert 'if [ -d data/archive_batches ]' in workflow and 'git add -A -- data/archive_batches/' in workflow, "Publish workflow must stage archive batches only when the directory contains JSON files."
+    assert 'git add data/archive_batches' not in legacy_workflow, "Optional archive directory must not be an unconditional Git pathspec in the legacy workflow."
+    assert 'if [ -d data/archive_batches ]' in legacy_workflow and 'git add -A -- data/archive_batches/' in legacy_workflow, "Legacy workflow must stage archive batches only when the directory contains JSON files."
     assert 'workflow_dispatch:' in legacy_workflow and 'schedule:' not in legacy_workflow, "Legacy upgrades must be manual-only to protect already-published articles."
     assert 'LEGACY_UPGRADE_APPLY: ${{ inputs.apply }}' in legacy_workflow, "Legacy upgrade must require an explicit apply input."
     legacy_script=(ROOT/"scripts/upgrade_legacy_articles.py").read_text(encoding="utf-8")
