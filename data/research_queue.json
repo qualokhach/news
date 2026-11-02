@@ -255,7 +255,7 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (279/350 words, 4 paragraphs, type=short_explainer) | Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (414/350 words, 1 paragraphs, type=short_explainer)"
+    "last_write_error": "fact_ledger[1] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn; fact_ledger[2] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn; fact_ledger[3] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá "
   },
   {
     "queue_id": "37d96856ef36b8d39002",
@@ -677,7 +677,7 @@
         "source_feed_domain": "bbci.co.uk"
       }
     ],
-    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện"
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện"
   },
   {
     "queue_id": "35ec774c28f768a5a4a8",
@@ -1358,7 +1358,7 @@
   },
   {
     "queue_id": "ca6b55e25fd3dba50a4b",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T01:20:57.583602+00:00",
     "expires_at": "2026-11-05T01:02:44.981763+00:00",
     "category_hint": "world",
@@ -1448,11 +1448,12 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ],
-    "last_write_error": "fact_ledger[1] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
+    "last_write_error": "fact_ledger[1] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
+    "editorial_reason": "Cung cấp nhiều nguồn thứ cấp và bài phân tích không đồng nhất về một sự kiện hoặc chưa có đủ tài liệu gốc chính thức cho các dữ kiện đặc thù ngoài phạm vi tối thiểu, do đó không đủ căn cứ để xuất bản bài viết theo yêu cầu."
   },
   {
     "queue_id": "8bb202e336ca6f19cb2e",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T01:21:01.335612+00:00",
     "expires_at": "2026-11-05T01:02:44.981763+00:00",
     "category_hint": "sports",
@@ -1563,11 +1564,12 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (235/350 words, 4 paragraphs, type=short_explainer)"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (235/350 words, 4 paragraphs, type=short_explainer)",
+    "editorial_reason": "Cần thêm nguồn độc lập cấp một để đối chiếu chi tiết về các biện pháp xử lý thương mại tại Trung Quốc."
   },
   {
     "queue_id": "e954ee5f1f4141c063c4",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T01:21:03.194949+00:00",
     "expires_at": "2026-11-05T01:02:44.981763+00:00",
     "category_hint": "sports",
@@ -1682,7 +1684,8 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ],
-    "last_write_error": "Per-run provider call budgets exhausted: Gemini"
+    "last_write_error": "Per-run provider call budgets exhausted: Gemini",
+    "editorial_reason": "Sự kiện Kimi Antonelli vô địch F1 và sự kiện cảnh sát giải tán biểu tình nhà ở tại Bồ Đào Nha là hai chủ đề hoàn toàn độc lập, không đủ thông tin chi tiết và chiều sâu để viết một bài phân tích dài theo đúng yêu cầu kiểm định."
   },
   {
     "queue_id": "cfa61e62be00c23e464c",
@@ -1812,11 +1815,11 @@
         "source_feed_domain": "sciencedaily.com"
       }
     ],
-    "last_write_error": "Per-run provider call budgets exhausted: Gemini"
+    "last_write_error": "fact_ledger[1] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "18c6342974353d2b9f7c",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T01:21:07.630979+00:00",
     "expires_at": "2026-11-05T01:02:44.981763+00:00",
     "category_hint": "technology",
@@ -1918,7 +1921,8 @@
         "retry_after": "2026-11-01T17:30:54.140235+00:00"
       }
     ],
-    "last_write_error": "Per-run provider call budgets exhausted: Gemini"
+    "last_write_error": "Per-run provider call budgets exhausted: Gemini",
+    "editorial_reason": "Chỉ có nguồn thứ cấp duy nhất cho mỗi chủ đề trong bằng chứng thu thập được, chưa đủ điều kiện để xuất bản bài viết theo quy định."
   },
   {
     "queue_id": "0abbc294b8abc1bfe85d",
@@ -2116,6 +2120,6 @@
         "source_feed_domain": "thanhnien.vn"
       }
     ],
-    "last_write_error": "Per-run provider call budgets exhausted: Gemini"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (306/350 words, 4 paragraphs, type=short_explainer) | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: 'dict' object has no attribute 'strip' | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:free HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"xingchen-agi/xing4.0-29b-a4b:free is temporarily "
   }
 ]
