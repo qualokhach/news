@@ -80,6 +80,15 @@ class ModelAllowlistTests(unittest.TestCase):
         self.assertEqual(mocked.call_args.args[2]['Authorization'],'Bearer token-test')
         self.assertEqual(mocked.call_args.args[1]['max_tokens'],7000)
 
+    def test_cloudflare_workers_ai_extracts_nested_dict_response(self):
+        os.environ['CLOUDFLARE_ACCOUNT_ID']='account-test'
+        os.environ['CLOUDFLARE_API_TOKEN']='token-test'
+        draft='{"publish":false,"reason":"insufficient evidence","title":"","summary":"","category":"vietnam","seo_title":"","meta_description":"","keywords":[],"body":[],"source_index":0,"fact_ledger":[],"editorial_value":"","risk_level":"R1","freshness_ttl_hours":24}'
+        payload={'success':True,'result':{'response':{'response':draft}}}
+        with patch.object(n,'_post_json',return_value=payload):
+            result=n.cloudflare_workers_ai('prompt')
+        self.assertFalse(result['publish'])
+
     def test_cloudflare_is_second_writer_fallback_after_gemini(self):
         no_publish={'publish':False,'reason':'not enough evidence'}
         with patch.dict(os.environ,{'GEMINI_API_KEY':'gemini-test',

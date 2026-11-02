@@ -570,6 +570,31 @@ def gemini(prompt, model):
 
 CLOUDFLARE_MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast'
 
+def _extract_cloudflare_text(value):
+    """Extract generated text from Workers AI response variants safely."""
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        parts=[_extract_cloudflare_text(item) for item in value]
+        return ''.join(part for part in parts if part).strip()
+    if isinstance(value, dict):
+        # Some Workers AI model responses wrap the generated text in another
+        # object; other variants return OpenAI-style content blocks.
+        for key in ('response','output_text','text','content','message'):
+            if key in value:
+                extracted=_extract_cloudflare_text(value.get(key))
+                if extracted:
+                    return extracted
+        choices=value.get('choices')
+        if isinstance(choices,list) and choices:
+            extracted=_extract_cloudflare_text(choices[0])
+            if extracted:
+                return extracted
+        # A structured JSON object may itself be the model output.
+        if {'publish','title','summary','body'}.issubset(value):
+            return json.dumps(value,ensure_ascii=False)
+    return ''
+
 def cloudflare_workers_ai(prompt):
     """Generate a structured draft with the fixed, preflight-tested Workers AI model."""
     account_id=os.getenv('CLOUDFLARE_ACCOUNT_ID','').strip()
@@ -590,11 +615,9 @@ def cloudflare_workers_ai(prompt):
                     {'Authorization':'Bearer '+token,'Content-Type':'application/json'},
                     'Cloudflare Workers AI/'+CLOUDFLARE_MODEL)
     result=data.get('result') if isinstance(data,dict) else None
-    content=result.get('response','') if isinstance(result,dict) else ''
-    if not content and isinstance(result,dict):
-        content=result.get('output_text','')
+    content=_extract_cloudflare_text(result)
     if not content:
-        raise RuntimeError('Cloudflare Workers AI returned empty content')
+        raise RuntimeError('Cloudflare Workers AI returned empty or unsupported response content')
     return parse_ai_json(content)
 
 def xai_responses(prompt, model):
