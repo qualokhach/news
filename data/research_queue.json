@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "ac9894f602af85e15078",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-01T13:38:23.174249+00:00",
     "expires_at": "2026-11-04T13:22:13.501286+00:00",
     "category_hint": "world",
@@ -90,7 +90,8 @@
         "attempts": 0,
         "source_feed_domain": "cnbc.com"
       }
-    ]
+    ],
+    "editorial_reason": "Cung cấp nhiều sự kiện độc lập không liên quan trong danh sách nguồn (thị trường chứng khoán và quy định khí thải metan), thiếu nguồn độc lập bổ sung hoặc không đủ thông tin chi tiết để viết một bài phân tích đồng nhất theo yêu cầu."
   },
   {
     "queue_id": "d87fc84f0ef48ccabad9",
@@ -253,7 +254,8 @@
         "source_feed_domain": "sportingnews.com",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (218/350 words, 4 paragraphs, type=short_explainer)"
   },
   {
     "queue_id": "37d96856ef36b8d39002",
@@ -350,7 +352,8 @@
         "attempts": 0,
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Invalid \\uXXXX escape: line 1 column 320 (char 319)"
   },
   {
     "queue_id": "642fe2f5baee4f7047f5",
@@ -445,7 +448,8 @@
         "source_feed_domain": "sportingnews.com",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (211/350 words, 4 paragraphs, type=short_explainer)"
   },
   {
     "queue_id": "606604d31b9b05fc7fe4",
@@ -538,7 +542,8 @@
         "source_feed_domain": "bbci.co.uk",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Invalid \\uXXXX escape: line 1 column 2082 (char 2081)"
   },
   {
     "queue_id": "a0cef53ea11495cfbfe8",
@@ -668,7 +673,8 @@
         "attempts": 0,
         "source_feed_domain": "bbci.co.uk"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (347/350 words, 4 paragraphs, type=short_explainer)"
   },
   {
     "queue_id": "35ec774c28f768a5a4a8",
@@ -1343,7 +1349,8 @@
         "last_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
         "retry_after": "2026-11-01T17:30:54.140235+00:00"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (236/350 words, 4 paragraphs, type=short_explainer)"
   },
   {
     "queue_id": "ca6b55e25fd3dba50a4b",
@@ -1436,7 +1443,8 @@
         "source_feed_domain": "cnbc.com",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (335/350 words, 4 paragraphs, type=short_explainer)"
   },
   {
     "queue_id": "8bb202e336ca6f19cb2e",
@@ -1550,7 +1558,8 @@
         "source_feed_domain": "aljazeera.com",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Invalid control character at: line 1 column 1216 (char 1215)"
   },
   {
     "queue_id": "e954ee5f1f4141c063c4",
@@ -1668,7 +1677,8 @@
         "attempts": 0,
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Invalid \\uXXXX escape: line 1 column 103 (char 102)"
   },
   {
     "queue_id": "cfa61e62be00c23e464c",
@@ -1797,7 +1807,8 @@
         "attempts": 0,
         "source_feed_domain": "sciencedaily.com"
       }
-    ]
+    ],
+    "last_write_error": "fact_ledger[1] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "18c6342974353d2b9f7c",
@@ -1902,7 +1913,8 @@
         "last_error": "All discovered free/eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (343/350 words, 4 paragraphs, type=short_explainer) | Gemini/gemini-3.1-flash-lite: Generated draft failed genre minimum (309/350 words, 4 paragraphs, type=short_explainer) | OpenRouter/",
         "retry_after": "2026-11-01T17:30:54.140235+00:00"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft failed genre minimum (289/350 words, 4 paragraphs, type=short_explainer)"
   },
   {
     "queue_id": "0abbc294b8abc1bfe85d",
@@ -2099,6 +2111,7 @@
         "retry_after": "2026-11-01T16:47:42.872882+00:00",
         "source_feed_domain": "thanhnien.vn"
       }
-    ]
+    ],
+    "last_write_error": "Per-run provider call budgets exhausted: Gemini"
   }
 ]
