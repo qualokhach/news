@@ -3081,7 +3081,7 @@
   },
   {
     "queue_id": "800ec64ab7ae1999d38f",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T09:19:34.513452+00:00",
     "expires_at": "2026-11-05T09:17:29.098842+00:00",
     "category_hint": "sports",
@@ -3336,7 +3336,8 @@
         "attempts": 0,
         "source_feed_domain": "engadget.com"
       }
-    ]
+    ],
+    "editorial_reason": "Hồ sơ nguồn chỉ cung cấp một tiêu đề ngắn từ Sky Sports về việc Novak vô địch Mexico Open mà không có đủ chi tiết bài viết, đồng thời nguồn còn lại nói về một chủ đề hoàn toàn khác (âm nhạc). Do đó, không có đủ bằng chứng để viết một bài báo hoàn chỉnh đạt yêu cầu."
   },
   {
     "queue_id": "bae6fa303af00671834f",
@@ -3452,7 +3453,10 @@
         "source_feed_domain": "thanhnien.vn",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[ | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: fact_ledger cần ít nhất 3 dữ kiện có thể kiểm tra | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:free HTTP 429: {\"error\":{\"message\":\"Provide",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-02T17:44:27.551365+00:00"
   },
   {
     "queue_id": "0c360479a253f97077fd",
@@ -3607,7 +3611,10 @@
         "attempts": 0,
         "source_feed_domain": "arstechnica.com"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[2] là dữ kiện cốt lõi n | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (128/220 words, 2/3 paragraphs, type=short_explainer); word targets are advisory, not pass/fail thresholds | Cloudflare Workers AI/@cf/meta/llama-",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-02T17:44:27.551365+00:00"
   },
   {
     "queue_id": "38d0b1d43dc656145eb5",
