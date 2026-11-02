@@ -3766,7 +3766,7 @@
   },
   {
     "queue_id": "c40534541a1554970b98",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T11:44:00.243898+00:00",
     "expires_at": "2026-11-05T11:41:55.682112+00:00",
     "category_hint": "world",
@@ -3910,6 +3910,8 @@
         "status": "writing_pending",
         "attempts": 0
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   }
 ]
