@@ -95,7 +95,7 @@
   },
   {
     "queue_id": "d87fc84f0ef48ccabad9",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-01T13:38:24.537171+00:00",
     "expires_at": "2026-11-04T13:22:13.501286+00:00",
     "category_hint": "sports",
@@ -239,9 +239,10 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft below safety floor (170/220 words, 3/3 paragraphs, type=short_explainer); word targets are advisory, not pass/fail thresholds | Gemini/gemini-3.5-flash-lite: Generated draft below safety floor (178/220 words, 3/3 paragraphs, type=short_explainer); word targets are advisory, not pass/fail thresholds | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (129/220 wo",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
     "write_attempts": 1,
-    "next_write_after": "2026-11-02T16:03:50.347766+00:00"
+    "next_write_after": "2026-11-02T16:03:50.347766+00:00",
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "37d96856ef36b8d39002",
@@ -1880,7 +1881,7 @@
   },
   {
     "queue_id": "0abbc294b8abc1bfe85d",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T01:21:13.757469+00:00",
     "expires_at": "2026-11-05T01:02:44.981763+00:00",
     "category_hint": "vietnam",
@@ -2074,9 +2075,10 @@
         "source_feed_domain": "thanhnien.vn"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn; fact_ledge | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (97/220 words, 1/3 paragraphs, type=short_explainer); word targets are advisory, not pass/fail thresholds | OpenRouter/xingchen-agi/xing4.0-29b-a4",
+    "last_write_error": "fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
     "write_attempts": 1,
-    "next_write_after": "2026-11-02T16:03:50.347766+00:00"
+    "next_write_after": "2026-11-02T16:03:50.347766+00:00",
+    "editorial_reason": "fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "2c4992782b401ab530f2",
@@ -2225,7 +2227,7 @@
   },
   {
     "queue_id": "d668452af140fbd1efdf",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T09:19:15.563657+00:00",
     "expires_at": "2026-11-05T09:17:29.098842+00:00",
     "category_hint": "world",
@@ -2357,7 +2359,8 @@
     ],
     "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Article missing title/category/body structure | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:free HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"xingchen-agi/xing4.0-29b-a4b:free is temporarily ",
     "write_attempts": 1,
-    "next_write_after": "2026-11-02T16:03:50.347766+00:00"
+    "next_write_after": "2026-11-02T16:03:50.347766+00:00",
+    "editorial_reason": "\\u01uắt độ dai phần body từ 500 đến 650 từ là yêu cầu bắt buộc, nhưng các nguồn cung c\\u1ea cấp chỉ có giới hạn dữ kiện về việc Ryanair xem xét đóng băng tiền lương, giảm phi hành đoàn, tăng cường dùng AI và dự báo giá vé tăng do chi phí nhiên liệu tăng cao từ xung đột Trung ĐÔNG. Viết đủ 575 từ mà "
   },
   {
     "queue_id": "c3b28b753d024b85aedd",
