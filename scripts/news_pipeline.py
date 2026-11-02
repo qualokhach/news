@@ -12,7 +12,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlencode, urlsplit
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
-from content_quality import (classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license)
+from content_quality import (classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
 
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS = ROOT / 'config/feeds.json'
@@ -328,6 +328,10 @@ def similarity(a,b):
     jac=len(ta&tb)/max(1,len(ta|tb))
     seq=difflib.SequenceMatcher(None,(a or '').lower(),(b or '').lower()).ratio()
     return max(jac,seq*0.72)
+def headlines_related(a,b,min_similarity=0.28,min_shared_tokens=2):
+    """Conservative title match for grouping publisher reports of the same event."""
+    shared=tokens(a) & tokens(b)
+    return len(shared)>=min_shared_tokens and similarity(a,b)>=min_similarity
 def source_score(item, group_count, usage_penalty=0):
     score=35
     dt=item.get('source_published_at')
@@ -389,20 +393,35 @@ def _sanitize_ai_json_text(txt):
     return ''.join(out)
 
 def parse_ai_json(txt):
-    txt=_sanitize_ai_json_text(txt)
-    try:
-        obj=json.loads(txt)
-    except json.JSONDecodeError as exc:
-        raise ValueError(f'AI returned malformed JSON ({exc.msg} at character {exc.pos})') from exc
-    if not isinstance(obj, dict): raise ValueError('AI response is not a JSON object')
+    # Workers AI can return a structured object directly instead of a JSON string.
+    # Accept that documented response shape, but validate it with the same schema.
+    if isinstance(txt, dict):
+        obj=txt
+    elif isinstance(txt, str):
+        cleaned=_sanitize_ai_json_text(txt)
+        try:
+            obj=json.loads(cleaned)
+        except json.JSONDecodeError as exc:
+            raise ValueError(f'AI returned malformed JSON ({exc.msg} at character {exc.pos})') from exc
+    else:
+        raise ValueError(f'AI response must be JSON text or object, got {type(txt).__name__}')
+    if not isinstance(obj, dict):
+        raise ValueError('AI response is not a JSON object')
     required={'publish','title','summary','category','seo_title','meta_description','keywords','body','source_index',
               'fact_ledger','editorial_value','risk_level','freshness_ttl_hours'}
     missing=required-set(obj)
-    if missing: raise ValueError('AI response missing fields: '+', '.join(sorted(missing)))
+    if missing:
+        raise ValueError('AI response missing fields: '+', '.join(sorted(missing)))
     if not isinstance(obj.get('body'), list) or not isinstance(obj.get('keywords'), list):
         raise ValueError('AI response body/keywords have wrong types')
-    if not isinstance(obj.get('fact_ledger'), list):
-        raise ValueError('AI response fact_ledger has wrong type')
+    if any(not isinstance(x,str) for x in obj['body']):
+        raise ValueError('AI response body must contain strings only')
+    if any(not isinstance(x,str) for x in obj['keywords']):
+        raise ValueError('AI response keywords must contain strings only')
+    if not isinstance(obj.get('fact_ledger'), list) or any(not isinstance(x,dict) for x in obj['fact_ledger']):
+        raise ValueError('AI response fact_ledger must contain objects only')
+    if not isinstance(obj.get('publish'), bool):
+        raise ValueError('AI response publish must be boolean')
     return obj
 
 def _post_json(url, payload, headers, provider):
@@ -578,8 +597,11 @@ def _extract_cloudflare_text(value):
         parts=[_extract_cloudflare_text(item) for item in value]
         return ''.join(part for part in parts if part).strip()
     if isinstance(value, dict):
-        # Some Workers AI model responses wrap the generated text in another
-        # object; other variants return OpenAI-style content blocks.
+        # A structured JSON object may itself be the model output. Check it
+        # before wrapper keys so fields such as "content" cannot mask it.
+        if {'publish','title','summary','body'}.issubset(value):
+            return json.dumps(value,ensure_ascii=False)
+        # Workers AI may wrap text or a structured object in nested fields.
         for key in ('response','output_text','text','content','message'):
             if key in value:
                 extracted=_extract_cloudflare_text(value.get(key))
@@ -590,9 +612,6 @@ def _extract_cloudflare_text(value):
             extracted=_extract_cloudflare_text(choices[0])
             if extracted:
                 return extracted
-        # A structured JSON object may itself be the model output.
-        if {'publish','title','summary','body'}.issubset(value):
-            return json.dumps(value,ensure_ascii=False)
     return ''
 
 def cloudflare_workers_ai(prompt):
@@ -614,6 +633,10 @@ def cloudflare_workers_ai(prompt):
     data=_post_json(endpoint,payload,
                     {'Authorization':'Bearer '+token,'Content-Type':'application/json'},
                     'Cloudflare Workers AI/'+CLOUDFLARE_MODEL)
+    if isinstance(data,dict) and data.get('success') is False:
+        errors=data.get('errors') or []
+        detail='; '.join(str(x.get('message','')) for x in errors if isinstance(x,dict))
+        raise RuntimeError('Cloudflare Workers AI API reported failure'+(': '+detail[:240] if detail else ''))
     result=data.get('result') if isinstance(data,dict) else None
     content=_extract_cloudflare_text(result)
     if not content:
@@ -671,8 +694,10 @@ def openai_compatible(prompt, provider, key_env, endpoint, model, extra_headers=
     if not content: raise RuntimeError(f'{provider} returned empty content')
     return parse_ai_json(content)
 
-def generate_with_fallback(prompt):
-    """Use Gemini first, Cloudflare Workers AI second, then explicitly free OpenRouter."""
+def generate_with_fallback(prompt, validator=None):
+    """Try providers in order; run the full local article gate before accepting a draft.
+    validator(candidate, provider_label) must raise when the draft is not publishable.
+    """
     providers=[]
     definitions=[
         ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model,p:gemini(p,model)),
@@ -721,22 +746,33 @@ def generate_with_fallback(prompt):
                     retry_prompt=prompt
                     if attempt:
                         retry_prompt += ("\\n\\nYÊU CẦU SỬA BẢN THẢO VỪA TRƯỢT KIỂM ĐỊNH: "
-                            "Lần trước JSON hoặc độ dài không đạt. Hãy tạo lại toàn bộ JSON hợp lệ. "
-                            "Với short_explainer phải có ít nhất 400 từ; news_analysis ít nhất 650 từ; "
-                            "long_analysis ít nhất 750 từ; quick_update ít nhất 200 từ. "
-                            "Body phải có ít nhất 4 đoạn có chức năng riêng. Không thêm dữ kiện ngoài bằng chứng. ")
+                            "Hãy sửa đúng lỗi được nêu và trả lại toàn bộ JSON hợp lệ. "
+                            "Ưu tiên độ chính xác, độ đầy đủ và giá trị biên tập; không thêm câu hoặc đoạn chỉ để tăng số từ. "
+                            "Nếu bằng chứng không hỗ trợ bài dài, chọn thể loại ngắn phù hợp thay vì suy diễn. ")
                     result=call(model,retry_prompt)
                     if result.get('publish'):
                         body=[clean(x) for x in result.get('body',[]) if clean(x)]
                         words=word_count(' '.join(body))
                         ctype=str(result.get('content_type') or 'short_explainer')
-                        minimum={'quick_update':180,'short_explainer':350,'news_analysis':600,'long_analysis':700}.get(ctype,350)
-                        if len(body)<4 or words<minimum:
-                            raise ValueError(f'Generated draft failed genre minimum ({words}/{minimum} words, {len(body)} paragraphs, type={ctype})')
+                        minimum=minimum_words_for_type(ctype)
+                        min_paragraphs=minimum_paragraphs_for_type(ctype)
+                        if len(body)<min_paragraphs or words<minimum:
+                            raise ValueError(
+                                f'Generated draft below safety floor ({words}/{minimum} words, '
+                                f'{len(body)}/{min_paragraphs} paragraphs, type={ctype}); '
+                                'word targets are advisory, not pass/fail thresholds'
+                            )
                         if result.get('category') not in CATEGORY_LABELS:
                             raise ValueError('Generated draft has invalid category')
+                    provider_label=name+':'+model
+                    result['_provider']=provider_label
+                    if validator and result.get('publish'):
+                        # Do not accept a draft merely because its JSON and length
+                        # look valid. Run fact-ledger, source-independence, risk,
+                        # similarity and article-quality gates before provider fallback ends.
+                        validator(result,provider_label)
                     print(f'[AI] Response received from {name} model={model}'+(' after repair retry' if attempt else ''))
-                    return result,name+':'+model
+                    return result,provider_label
                 except Exception as e:
                     message=str(e)
                     secret_env={'Gemini':'GEMINI_API_KEY','Cloudflare Workers AI':'CLOUDFLARE_API_TOKEN',
@@ -747,7 +783,7 @@ def generate_with_fallback(prompt):
                     if account: message=message.replace(account,'[account-redacted]')
                     message=message[:180]
                     errors.append(f'{name}/{model}: {message}')
-                    retryable=('malformed JSON' in message or 'Generated draft failed genre minimum' in message or
+                    retryable=('malformed JSON' in message or 'Generated draft below safety floor' in message or
                                'AI response missing fields' in message or 'AI response body/keywords' in message)
                     current={'Gemini':GEMINI_CALLS_THIS_RUN,
                              'Cloudflare Workers AI':CLOUDFLARE_CALLS_THIS_RUN,
@@ -793,7 +829,7 @@ Quy tắc bắt buộc:
 - Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Mỗi dữ kiện phải trỏ tới URL chính xác trong danh sách nguồn. evidence_by_source phải chứa một trích đoạn nguyên văn riêng cho từng nguồn được dùng để chứng minh claim; mỗi snippet phải liên tục, chép chính xác từ page_evidence của đúng URL đó, tuyệt đối không diễn đạt lại hoặc tự tạo câu trích dẫn. evidence_snippet/evidence_locator là trích đoạn chính và vị trí tương ứng. Dữ kiện core phải có chứng cứ nguyên văn từ một nguồn chính thức phù hợp claim hoặc hai source family độc lập. Nếu không tìm được trích đoạn nguyên văn đủ chứng cứ, trả publish=false. Không thêm URL khác.
 - Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ. Không ghi câu chung chung.
 - Không kéo dài bằng nhận định phổ quát, lời khuyên sáo rỗng, câu kiểu “độc giả cần theo dõi”, hoặc đoạn không gắn với sự kiện.
-- Chọn thể loại phù hợp: quick_update (>=180 từ), short_explainer (>=350), news_analysis (>=600), long_analysis (>=700). Hãy tự nhắm cao hơn ngưỡng: quick_update 220-260 từ, short_explainer 400-450 từ, news_analysis 650-750 từ, long_analysis 750-850 từ để tránh hụt khi hệ thống đếm từ. Không kéo dài bài bằng lặp ý; mỗi bài tối thiểu 4 đoạn có chức năng riêng.
+- Chọn thể loại đúng với độ sâu bằng chứng. Mục tiêu biên tập (không phải điều kiện loại bài): quick_update 250-350 từ; short_explainer 500-650 từ; news_analysis 800-1.000 từ; long_analysis 1.000-1.300 từ. Hệ thống chỉ dùng ngưỡng sàn để loại bản thảo quá sơ sài: quick_update 120 từ/2 đoạn; short_explainer 220 từ/3 đoạn; news_analysis 420 từ/4 đoạn; long_analysis 550 từ/5 đoạn. Bài vượt ngưỡng sàn vẫn phải đạt toàn bộ kiểm chứng dữ kiện, độ bao phủ fact ledger, tính độc lập nguồn, đóng góp biên tập và chất lượng. Không được tự động fail chỉ vì chưa đạt mục tiêu từ; cũng không được kéo dài bằng lặp ý, suy diễn hoặc dữ kiện ngoài nguồn. Nếu bằng chứng chỉ hỗ trợ một bản tin ngắn, chọn quick_update hoặc short_explainer thay vì gắn nhãn phân tích dài.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
 - published_at là thời điểm sự kiện/nguồn công bố, không phải thời điểm AppNho xuất bản.
@@ -1208,7 +1244,9 @@ def main():
     for item in sorted(queued,key=lambda x:(x.get('source_published_at') or '',x.get('discovered_at') or ''),reverse=True):
         placed=False
         for group in groups:
-            if any(similarity(item['discovery_title'],y['discovery_title'])>=0.34 for y in group):
+            # Compare with the group's anchor, not every member. Transitive
+            # chaining previously merged unrelated stories into one evidence set.
+            if group and headlines_related(item['discovery_title'],group[0]['discovery_title']):
                 group.append(item); placed=True; break
         if not placed: groups.append([item])
     from zoneinfo import ZoneInfo

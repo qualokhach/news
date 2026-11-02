@@ -85,9 +85,39 @@ def ttl_for_data_type(data_type: str, risk_level: str = "R1") -> int:
     return ttl
 
 
+# Generation targets are editorial aspirations, not pass/fail limits.
+# The minimum is a safety floor only; evidence, factual accuracy and editorial value
+# remain the actual publication criteria.
+MINIMUM_WORDS_BY_TYPE = {
+    "quick_update": 120,
+    "short_explainer": 220,
+    "news_analysis": 420,
+    "long_analysis": 550,
+    "ai_assisted_independent_editorial": 220,
+}
+TARGET_WORD_RANGES_BY_TYPE = {
+    "quick_update": (250, 350),
+    "short_explainer": (500, 650),
+    "news_analysis": (800, 1000),
+    "long_analysis": (1000, 1300),
+    "ai_assisted_independent_editorial": (500, 650),
+}
+MINIMUM_PARAGRAPHS_BY_TYPE = {
+    "quick_update": 2,
+    "short_explainer": 3,
+    "news_analysis": 4,
+    "long_analysis": 5,
+    "ai_assisted_independent_editorial": 3,
+}
+
 def minimum_words_for_type(content_type: str) -> int:
-    return {"quick_update":180,"short_explainer":350,"news_analysis":600,
-            "long_analysis":700,"ai_assisted_independent_editorial":350}.get(content_type or "",350)
+    return MINIMUM_WORDS_BY_TYPE.get(content_type or "", 220)
+
+def target_word_range_for_type(content_type: str) -> tuple[int, int]:
+    return TARGET_WORD_RANGES_BY_TYPE.get(content_type or "", (500, 650))
+
+def minimum_paragraphs_for_type(content_type: str) -> int:
+    return MINIMUM_PARAGRAPHS_BY_TYPE.get(content_type or "", 3)
 
 
 def is_commercial_license(license_name: str) -> bool:
@@ -423,7 +453,7 @@ def validate_body_fact_coverage(body, fact_ledger):
             )
     return errors
 
-def validate_article_quality(article: dict, min_words=None, min_paragraphs=4):
+def validate_article_quality(article: dict, min_words=None, min_paragraphs=None):
     errors = []
     title = str(article.get("title") or "").strip()
     summary = str(article.get("summary") or "").strip()
@@ -431,19 +461,23 @@ def validate_article_quality(article: dict, min_words=None, min_paragraphs=4):
     stats = body_stats(body)
     if article.get("fact_ledger"):
         errors.extend(validate_body_fact_coverage(body, article.get("fact_ledger") or []))
-    required_words = minimum_words_for_type(article.get('content_type')) if min_words is None else min_words
+    content_type = article.get('content_type') or "short_explainer"
+    required_words = minimum_words_for_type(content_type) if min_words is None else min_words
+    required_paragraphs = minimum_paragraphs_for_type(content_type) if min_paragraphs is None else min_paragraphs
     if len(title) < 12:
         errors.append("Tiêu đề quá ngắn hoặc thiếu")
     if len(summary) < 45:
         errors.append("Sapo/tóm tắt quá ngắn")
     if stats["words"] < required_words:
         errors.append(f"Nội dung chỉ có {stats['words']} từ; cần ít nhất {required_words} theo thể loại")
-    if stats["paragraphs"] < min_paragraphs:
-        errors.append(f"Nội dung chỉ có {stats['paragraphs']} đoạn; cần ít nhất {min_paragraphs}")
+    if stats["paragraphs"] < required_paragraphs:
+        errors.append(f"Nội dung chỉ có {stats['paragraphs']} đoạn; cần ít nhất {required_paragraphs}")
     if stats["unique_paragraph_ratio"] < 0.85:
         errors.append("Có đoạn lặp hoặc gần trùng")
-    if stats["body_chars"] < max(900, required_words*4):
-        errors.append("Nội dung chưa đủ thông tin so với thể loại")
+    # A small absolute floor catches empty/placeholder text without imposing
+    # another genre-based length test on top of the word and paragraph checks.
+    if stats["body_chars"] < 450:
+        errors.append("Nội dung quá ngắn để truyền tải một thông tin hoàn chỉnh")
     if stats["filler_hits"]:
         errors.append("Có câu/đoạn khuôn mẫu chung chung: " + "; ".join(stats["filler_hits"][:3]))
     editorial_value=str(article.get("editorial_value") or "").strip()

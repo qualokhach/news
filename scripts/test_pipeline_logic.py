@@ -228,4 +228,51 @@ line two","category":"world","seo_title":"x","meta_description":"x","keywords":[
         with self.assertRaises(ValueError):
             n.make_article(obj,group)
 
+
+    def test_parse_ai_json_accepts_structured_object_and_rejects_non_string_body(self):
+        obj={'publish':False,'title':'','summary':'','category':'world','seo_title':'',
+             'meta_description':'','keywords':[],'body':[],'source_index':0,
+             'fact_ledger':[],'editorial_value':'','risk_level':'R1','freshness_ttl_hours':24}
+        self.assertEqual(n.parse_ai_json(obj),obj)
+        malformed=dict(obj)
+        malformed['body']=[{'text':'paragraph'}]
+        with self.assertRaisesRegex(ValueError,'body must contain strings'):
+            n.parse_ai_json(malformed)
+
+    def test_full_article_validation_failure_uses_next_provider(self):
+        valid={'publish':True,'title':'Bản thảo có dữ kiện','summary':'Tóm tắt',
+               'category':'world','seo_title':'SEO','meta_description':'Meta',
+               'keywords':['a','b','c','d'],
+               'body':[('Đoạn văn có thông tin đã được đối chiếu và giải thích bối cảnh cụ thể. '*12) for _ in range(4)],
+               'source_index':0,'fact_ledger':[],'editorial_value':'Hai ý biên tập riêng biệt.',
+               'risk_level':'R1','freshness_ttl_hours':24,'content_type':'short_explainer'}
+        validated=[]
+        def validator(candidate,provider):
+            validated.append(provider)
+            if provider.startswith('Gemini:'):
+                raise ValueError('fact_ledger evidence does not match')
+        with patch.dict(os.environ,{'GEMINI_API_KEY':'gemini-test',
+                                    'CLOUDFLARE_ACCOUNT_ID':'account-test',
+                                    'CLOUDFLARE_API_TOKEN':'cf-test'},clear=True), \
+             patch.object(n,'MODEL_DISCOVERY_CACHE',{}), \
+             patch.object(n,'discover_gemini_models',return_value=['gemini-test']), \
+             patch.object(n,'gemini',return_value=valid), \
+             patch.object(n,'cloudflare_workers_ai',return_value=valid) as cf_call, \
+             patch.object(n,'GEMINI_CALLS_THIS_RUN',0), \
+             patch.object(n,'CLOUDFLARE_CALLS_THIS_RUN',0), \
+             patch.object(n,'MAX_GEMINI_CALLS_PER_RUN',2), \
+             patch.object(n,'MAX_CLOUDFLARE_CALLS_PER_RUN',3):
+            result,provider=n.generate_with_fallback('evidence prompt',validator=validator)
+        self.assertEqual(provider,'Cloudflare Workers AI:'+n.CLOUDFLARE_MODEL)
+        self.assertEqual(validated,['Gemini:gemini-test','Cloudflare Workers AI:'+n.CLOUDFLARE_MODEL])
+        cf_call.assert_called_once()
+
+
+    def test_headline_grouping_rejects_transitive_unrelated_events(self):
+        lead='J-PAL North America launches ARTEMIS to train early-career researchers'
+        related='J-PAL launches ARTEMIS research training program'
+        unrelated='More cats abandoned due to rising costs'
+        self.assertTrue(n.headlines_related(lead,related))
+        self.assertFalse(n.headlines_related(lead,unrelated))
+
 if __name__=='__main__': unittest.main(verbosity=2)

@@ -17,9 +17,12 @@ class WritingStageTests(unittest.TestCase):
                 'staged_at':'2026-11-01T10:00:00+00:00',
                 'expires_at':'2026-11-04T10:00:00+00:00',
                 'lead_title':'A verified test headline',
-                'group':[{'source_url':'https://source.example/story','source_name':'Example',
+                'group':[{'source_url':'https://www.bbc.co.uk/news/story-a','source_name':'BBC',
+                          'discovery_title':'A verified test headline','source_published_at':'2026-11-01T09:00:00+00:00'},
+                         {'source_url':'https://www.reuters.com/world/story-a','source_name':'Reuters',
                           'discovery_title':'A verified test headline','source_published_at':'2026-11-01T09:00:00+00:00'}],
-                'evidence_pages':{'https://source.example/story':'Evidence text sufficiently long for the mocked writing stage.'},
+                'evidence_pages':{'https://www.bbc.co.uk/news/story-a':'A verified test headline. Evidence text sufficiently long for the mocked writing stage. '*8,
+                                  'https://www.reuters.com/world/story-a':'A verified test headline. Evidence text sufficiently long for the mocked writing stage. '*8},
                 'discovery_group':[]
             }
             queue.write_text(json.dumps([staged]),encoding='utf-8')
@@ -33,10 +36,12 @@ class WritingStageTests(unittest.TestCase):
                  patch.object(write_candidates,'ARCHIVE',archive), \
                  patch.object(write_candidates,'SEEN',seen), \
                  patch.object(write_candidates.np,'make_prompt',return_value='prompt'), \
-                 patch.object(write_candidates.np,'generate_with_fallback',return_value=({'publish':True},'Gemini:test-model')), \
+                 patch.object(write_candidates.np,'generate_with_fallback',
+                              side_effect=lambda prompt,validator=None: (
+                                  (validator({'publish':True},'Gemini:test-model') if validator else None) or
+                                  ({'publish':True},'Gemini:test-model'))), \
                  patch.object(write_candidates.np,'make_article',return_value=article), \
                  patch.object(write_candidates.np,'find_licensed_image',return_value=None), \
-                 patch.object(write_candidates.np,'similarity',return_value=0), \
                  patch.dict(os.environ,{'GEMINI_API_KEY':'test-key','MAX_ARTICLES_PER_SLOT':'1'},clear=False):
                 write_candidates.main()
             result=json.loads(queue.read_text(encoding='utf-8'))

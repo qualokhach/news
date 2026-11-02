@@ -1,7 +1,7 @@
 import unittest
 from content_quality import (
     body_stats, classify_risk, validate_fact_ledger, validate_fact_ledger_proof, verify_fact_ledger_against_pages, normalize_evidence_text, validate_article_quality,
-    source_independence, domain_key, is_commercial_license, is_primary_source_type, ttl_for_data_type
+    source_independence, domain_key, is_commercial_license, is_primary_source_type, ttl_for_data_type, minimum_words_for_type, target_word_range_for_type, minimum_paragraphs_for_type
 )
 
 class ContentQualityTests(unittest.TestCase):
@@ -20,6 +20,33 @@ class ContentQualityTests(unittest.TestCase):
             "editorial_value":"Đối chiếu dữ liệu theo thời gian. Làm rõ điểm khác nhau giữa thông báo ban đầu với kết quả đã được xác nhận.",
             "risk_level":"R1"
         }
+
+
+    def test_word_targets_are_higher_than_non_mechanical_acceptance_floors(self):
+        self.assertEqual(minimum_words_for_type("short_explainer"), 220)
+        self.assertEqual(target_word_range_for_type("short_explainer"), (500, 650))
+        self.assertEqual(minimum_paragraphs_for_type("short_explainer"), 3)
+        self.assertEqual(minimum_words_for_type("news_analysis"), 420)
+        self.assertEqual(target_word_range_for_type("news_analysis"), (800, 1000))
+
+    def test_sub_target_but_substantive_short_explainer_can_pass_quality_gate(self):
+        body = [
+            " ".join(f"du_lieu_{p}_{i}" for i in range(76))
+            for p in range(4)
+        ]
+        article = {
+            "title": "Sự kiện được xác nhận qua dữ liệu và tài liệu chính thức",
+            "summary": "Bài viết phân tích các dữ kiện được công bố, bối cảnh và giới hạn của thông tin.",
+            "content_type": "short_explainer",
+            "body": body,
+            "editorial_value": "Đối chiếu dữ liệu theo thời gian. Làm rõ điểm khác nhau giữa thông báo ban đầu với kết quả đã được xác nhận.",
+            "risk_level": "R1",
+        }
+        errors, stats = validate_article_quality(article)
+        self.assertEqual(stats["words"], 304)
+        self.assertGreater(stats["words"], minimum_words_for_type("short_explainer"))
+        self.assertLess(stats["words"], target_word_range_for_type("short_explainer")[0])
+        self.assertEqual(errors, [])
 
     def test_primary_source_type_is_not_overbroad(self):
         self.assertTrue(is_primary_source_type('Cổng thông tin chính thức'))
