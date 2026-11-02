@@ -352,13 +352,48 @@ def slugify(s):
     return re.sub(r'-+','-',re.sub(r'[^a-z0-9]+','-',s)).strip('-')[:90] or hashlib.sha1(s.encode()).hexdigest()[:12]
 def word_count(text): return len(re.findall(r'\S+', text or ''))
 
-def parse_ai_json(txt):
+def _sanitize_ai_json_text(txt):
+    """Repair only JSON string-encoding defects; never invent or alter field values."""
     txt=(txt or '').strip()
     txt=re.sub(r'^```(?:json)?\s*|\s*```$', '', txt, flags=re.I)
     if not txt.startswith('{'):
         a=txt.find('{'); b=txt.rfind('}')
         if a >= 0 and b > a: txt=txt[a:b+1]
-    obj=json.loads(txt)
+    out=[]; in_string=False; escaped=False; i=0
+    valid_escapes='"\\/bfnrt'
+    while i < len(txt):
+        ch=txt[i]
+        if not in_string:
+            if ch=='"': in_string=True
+            out.append(ch); i+=1; continue
+        if escaped:
+            if ch=='u':
+                code=txt[i+1:i+5]
+                if len(code)==4 and all(c in '0123456789abcdefABCDEF' for c in code):
+                    out.append('\\u'+code); i+=5; escaped=False; continue
+                # Preserve a literal backslash-u sequence instead of treating it as JSON Unicode.
+                out.append('\\\\u'); i+=1; escaped=False; continue
+            if ch in valid_escapes:
+                out.append('\\'+ch); i+=1; escaped=False; continue
+            # Invalid escape such as \q: encode the slash as a literal character.
+            out.append('\\\\'+ch); i+=1; escaped=False; continue
+        if ch=='\\':
+            escaped=True; i+=1; continue
+        if ch=='"':
+            in_string=False; out.append(ch); i+=1; continue
+        if ord(ch)<0x20:
+            out.append('\\n' if ch in '\r\n' else ('\\t' if ch=='\t' else ' ')); i+=1; continue
+        out.append(ch); i+=1
+    if escaped:
+        out.append('\\\\')
+    return ''.join(out)
+
+def parse_ai_json(txt):
+    txt=_sanitize_ai_json_text(txt)
+    try:
+        obj=json.loads(txt)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f'AI returned malformed JSON ({exc.msg} at character {exc.pos})') from exc
     if not isinstance(obj, dict): raise ValueError('AI response is not a JSON object')
     required={'publish','title','summary','category','seo_title','meta_description','keywords','body','source_index',
               'fact_ledger','editorial_value','risk_level','freshness_ttl_hours'}
@@ -585,12 +620,12 @@ def openai_compatible(prompt, provider, key_env, endpoint, model, extra_headers=
     return parse_ai_json(content)
 
 def generate_with_fallback(prompt):
-    """Use Gemini first, a tightly capped paid Grok fallback second, then free OpenRouter models."""
+    """Use Gemini first, then Grok, then free OpenRouter; retry malformed/short drafts once."""
     providers=[]
     for name, env, discover, call in [
-        ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model: gemini(prompt,model)),
-        ('Grok','XAI_API_KEY',discover_xai_models,lambda model: xai_responses(prompt,model)),
-        ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,lambda model: openai_compatible(prompt,'OpenRouter','OPENROUTER_API_KEY','https://openrouter.ai/api/v1/chat/completions',model,{'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False))]:
+        ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model, p: gemini(p,model)),
+        ('Grok','XAI_API_KEY',discover_xai_models,lambda model, p: xai_responses(p,model)),
+        ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,lambda model, p: openai_compatible(p,'OpenRouter','OPENROUTER_API_KEY','https://openrouter.ai/api/v1/chat/completions',model,{'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False))]:
         if not os.getenv(env,'').strip():
             print(f'[SKIP] {name}: key not configured'); continue
         try:
@@ -599,61 +634,66 @@ def generate_with_fallback(prompt):
             models=MODEL_DISCOVERY_CACHE[name]
             if not models:
                 print(f'[WARN] {name}: no currently eligible models discovered'); continue
-            # Use one selected model per provider for each candidate. This preserves
-            # fallback across Gemini -> Grok -> OpenRouter instead of burning the
-            # per-run budget probing several models from one provider first.
-            probe_limit = 1
-            providers.append((name,models[:probe_limit],call))
-            print(f'[MODEL] {name}: discovered {len(models)} eligible model(s); will probe up to {min(probe_limit,len(models))}')
+            providers.append((name,models[:1],call))
+            print(f'[MODEL] {name}: discovered {len(models)} eligible model(s); will probe up to 1')
         except Exception as e:
             MODEL_DISCOVERY_CACHE[name]=[]
             print(f'[WARN] {name} model discovery failed: {str(e)[:180]}')
-            # Cache the failure for this run; retry on the next scheduled research cycle.
     errors=[]
     global GEMINI_CALLS_THIS_RUN, GROK_CALLS_THIS_RUN, OPENROUTER_CALLS_THIS_RUN
     for name, models, call in providers:
         for model in models:
-            if name=='Gemini' and GEMINI_CALLS_THIS_RUN >= MAX_GEMINI_CALLS_PER_RUN:
-                print(f'[SKIP] Gemini: per-run call cap reached ({MAX_GEMINI_CALLS_PER_RUN}); trying the next provider.')
+            cap_name={'Gemini':'GEMINI','Grok':'GROK','OpenRouter':'OPENROUTER'}[name]
+            cap={'Gemini':MAX_GEMINI_CALLS_PER_RUN,'Grok':MAX_GROK_CALLS_PER_RUN,'OpenRouter':MAX_OPENROUTER_CALLS_PER_RUN}[name]
+            used={'Gemini':GEMINI_CALLS_THIS_RUN,'Grok':GROK_CALLS_THIS_RUN,'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
+            if used >= cap:
+                print(f'[SKIP] {name}: per-run call cap reached ({cap}); trying the next provider.')
                 break
-            if name=='Grok' and GROK_CALLS_THIS_RUN >= MAX_GROK_CALLS_PER_RUN:
-                print(f'[SKIP] Grok: per-run call cap reached ({MAX_GROK_CALLS_PER_RUN}); trying the next provider.')
-                break
-            if name=='OpenRouter' and OPENROUTER_CALLS_THIS_RUN >= MAX_OPENROUTER_CALLS_PER_RUN:
-                print(f'[SKIP] OpenRouter: per-run call cap reached ({MAX_OPENROUTER_CALLS_PER_RUN}); stop before free-tier quota is exhausted.')
-                break
-            try:
-                if name=='Gemini': GEMINI_CALLS_THIS_RUN += 1
-                if name=='Grok': GROK_CALLS_THIS_RUN += 1
-                if name=='OpenRouter': OPENROUTER_CALLS_THIS_RUN += 1
-                result=call(model)
-                if result.get('publish'):
-                    body=[clean(x) for x in result.get('body',[]) if clean(x)]
-                    words=word_count(' '.join(body))
-                    ctype=str(result.get('content_type') or 'short_explainer')
-                    minimum={'quick_update':180,'short_explainer':350,'news_analysis':600,'long_analysis':700}.get(ctype,350)
-                    if len(body)<4 or words<minimum:
-                        raise ValueError(f'Generated draft failed genre minimum ({words}/{minimum} words, {len(body)} paragraphs, type={ctype})')
-                    if result.get('category') not in CATEGORY_LABELS:
-                        raise ValueError('Generated draft has invalid category')
-                print(f'[AI] Response received from {name} model={model}')
-                return result, name+':'+model
-            except Exception as e:
-                message=str(e)
-                key=os.getenv({'Gemini':'GEMINI_API_KEY','Grok':'XAI_API_KEY','OpenRouter':'OPENROUTER_API_KEY'}[name],'')
-                if key: message=message.replace(key,'[redacted]')
-                message=message[:180]
-                errors.append(f'{name}/{model}: {message}')
-                print(f'[WARN] {name} model unavailable/invalid; trying next eligible model ({message})')
-                # A long delay is not useful for quota errors; next model/provider is the fallback.
+            for attempt in range(2):
+                try:
+                    if name=='Gemini': GEMINI_CALLS_THIS_RUN += 1
+                    if name=='Grok': GROK_CALLS_THIS_RUN += 1
+                    if name=='OpenRouter': OPENROUTER_CALLS_THIS_RUN += 1
+                    retry_prompt=prompt
+                    if attempt:
+                        retry_prompt += ("\n\nYÊU CẦU SỬA BẢN THẢO VỪA TRƯỢT KIỂM ĐỊNH: "+
+                            "Lần trước JSON hoặc độ dài không đạt. Hãy tạo lại toàn bộ JSON hợp lệ. "
+                            "Với short_explainer phải có ít nhất 400 từ; news_analysis ít nhất 650 từ; "
+                            "long_analysis ít nhất 750 từ; quick_update ít nhất 200 từ. "
+                            "Body phải có ít nhất 4 đoạn có chức năng riêng. Không thêm dữ kiện ngoài bằng chứng. ")
+                    result=call(model,retry_prompt)
+                    if result.get('publish'):
+                        body=[clean(x) for x in result.get('body',[]) if clean(x)]
+                        words=word_count(' '.join(body))
+                        ctype=str(result.get('content_type') or 'short_explainer')
+                        minimum={'quick_update':180,'short_explainer':350,'news_analysis':600,'long_analysis':700}.get(ctype,350)
+                        if len(body)<4 or words<minimum:
+                            raise ValueError(f'Generated draft failed genre minimum ({words}/{minimum} words, {len(body)} paragraphs, type={ctype})')
+                        if result.get('category') not in CATEGORY_LABELS:
+                            raise ValueError('Generated draft has invalid category')
+                    print(f'[AI] Response received from {name} model={model}'+(' after repair retry' if attempt else ''))
+                    return result, name+':'+model
+                except Exception as e:
+                    message=str(e)
+                    key=os.getenv({'Gemini':'GEMINI_API_KEY','Grok':'XAI_API_KEY','OpenRouter':'OPENROUTER_API_KEY'}[name],'')
+                    if key: message=message.replace(key,'[redacted]')
+                    message=message[:180]
+                    errors.append(f'{name}/{model}: {message}')
+                    retryable=('malformed JSON' in message or 'Generated draft failed genre minimum' in message or
+                               'AI response missing fields' in message or 'AI response body/keywords' in message)
+                    if attempt==0 and retryable and ( 
+                        {'Gemini':GEMINI_CALLS_THIS_RUN,'Grok':GROK_CALLS_THIS_RUN,'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name] < cap):
+                        print(f'[RETRY] {name}/{model}: asking the same model to correct JSON/length once.')
+                        continue
+                    print(f'[WARN] {name} model unavailable/invalid; trying next eligible model ({message})')
+                    break
                 time.sleep(0.4)
     if not errors:
         exhausted=[]
         if os.getenv('GEMINI_API_KEY','').strip() and GEMINI_CALLS_THIS_RUN >= MAX_GEMINI_CALLS_PER_RUN: exhausted.append('Gemini')
         if os.getenv('XAI_API_KEY','').strip() and GROK_CALLS_THIS_RUN >= MAX_GROK_CALLS_PER_RUN: exhausted.append('Grok/xAI')
         if os.getenv('OPENROUTER_API_KEY','').strip() and OPENROUTER_CALLS_THIS_RUN >= MAX_OPENROUTER_CALLS_PER_RUN: exhausted.append('OpenRouter')
-        if exhausted:
-            raise RuntimeError('Per-run provider call budgets exhausted: '+', '.join(exhausted))
+        if exhausted: raise RuntimeError('Per-run provider call budgets exhausted: '+', '.join(exhausted))
         raise RuntimeError('No configured provider/model is currently eligible; check API keys and model discovery logs.')
     raise RuntimeError('All discovered eligible AI models failed: '+' | '.join(errors[-12:]))
 
@@ -683,7 +723,7 @@ Quy tắc bắt buộc:
 - Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Mỗi dữ kiện phải trỏ tới URL chính xác trong danh sách nguồn. evidence_by_source phải chứa một trích đoạn nguyên văn riêng cho từng nguồn được dùng để chứng minh claim; mỗi snippet phải liên tục, chép chính xác từ page_evidence của đúng URL đó, tuyệt đối không diễn đạt lại hoặc tự tạo câu trích dẫn. evidence_snippet/evidence_locator là trích đoạn chính và vị trí tương ứng. Dữ kiện core phải có chứng cứ nguyên văn từ một nguồn chính thức phù hợp claim hoặc hai source family độc lập. Nếu không tìm được trích đoạn nguyên văn đủ chứng cứ, trả publish=false. Không thêm URL khác.
 - Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ. Không ghi câu chung chung.
 - Không kéo dài bằng nhận định phổ quát, lời khuyên sáo rỗng, câu kiểu “độc giả cần theo dõi”, hoặc đoạn không gắn với sự kiện.
-- Chọn thể loại phù hợp: quick_update (>=180 từ), short_explainer (>=350), news_analysis (>=600), long_analysis (>=700). Không kéo dài bài để đủ từ; mỗi bài tối thiểu 4 đoạn có chức năng riêng.
+- Chọn thể loại phù hợp: quick_update (>=180 từ), short_explainer (>=350), news_analysis (>=600), long_analysis (>=700). Hãy tự nhắm cao hơn ngưỡng: quick_update 220-260 từ, short_explainer 400-450 từ, news_analysis 650-750 từ, long_analysis 750-850 từ để tránh hụt khi hệ thống đếm từ. Không kéo dài bài bằng lặp ý; mỗi bài tối thiểu 4 đoạn có chức năng riêng.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
 - published_at là thời điểm sự kiện/nguồn công bố, không phải thời điểm AppNho xuất bản.

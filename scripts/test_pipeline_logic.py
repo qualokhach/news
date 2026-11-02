@@ -116,6 +116,30 @@ class QualityPipelineTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             n.parse_ai_json('{"publish":true,"title":"x"}')
 
+    def test_parse_ai_json_repairs_raw_control_chars_and_invalid_backslash_escapes(self):
+        payload = r'''{"publish":false,"reason":"bad \q escape and \uXYZ1 marker","title":"x","summary":"line one
+line two","category":"world","seo_title":"x","meta_description":"x","keywords":[],"body":[],"source_index":0,"fact_ledger":[],"editorial_value":"x","risk_level":"R1","freshness_ttl_hours":24}'''
+        result=n.parse_ai_json(payload)
+        self.assertFalse(result['publish'])
+        self.assertIn(r'\q',result['reason'])
+        self.assertIn(r'\uXYZ1',result['reason'])
+        self.assertIn('line one',result['summary'])
+        self.assertIn('line two',result['summary'])
+
+    def test_generate_with_fallback_retries_short_draft_once(self):
+        body=[('Đoạn văn có thông tin kiểm chứng và bối cảnh cụ thể. '*8) for _ in range(4)]
+        valid={'publish':True,'body':body,'category':'world'}
+        with patch.dict(os.environ,{'GEMINI_API_KEY':'test-key'},clear=True), \
+             patch.object(n,'MODEL_DISCOVERY_CACHE',{}), \
+             patch.object(n,'discover_gemini_models',return_value=['gemini-test']), \
+             patch.object(n,'gemini',side_effect=[{'publish':True,'body':['ngắn']*4,'content_type':'short_explainer'},valid]) as call, \
+             patch.object(n,'GEMINI_CALLS_THIS_RUN',0), \
+             patch.object(n,'MAX_GEMINI_CALLS_PER_RUN',3):
+            result,provider=n.generate_with_fallback('prompt')
+            self.assertEqual(provider,'Gemini:gemini-test')
+            self.assertEqual(call.call_count,2)
+            self.assertEqual(result,valid)
+
     def test_make_article_requires_independent_sources_and_fact_ledger(self):
         group=[
             {'source_name':'BBC News','source_url':'https://www.bbc.co.uk/news/story-a','source_published_at':'2026-10-31T01:00:00+00:00'},

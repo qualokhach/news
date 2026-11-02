@@ -86,7 +86,16 @@ def main():
     QUEUE.write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     SEEN.write_text(json.dumps(seen_data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     ready=sum(1 for x in queue if isinstance(x,dict) and x.get('status')=='READY')
-    print(f"[WRITING] written={written} failed={failed} ready_queue={ready} staged_remaining={sum(1 for x in queue if isinstance(x,dict) and x.get('status')=='WRITING_PENDING')}")
+    remaining=sum(1 for x in queue if isinstance(x,dict) and x.get('status')=='WRITING_PENDING')
+    no_article_failure=(written==0 and failed>0)
+    print(f"[WRITING] written={written} failed={failed} ready_queue={ready} staged_remaining={remaining}")
+    # Keep the queue changes committed, then let the workflow mark the run failed
+    # if every attempted draft failed technically. Editorial HOLDs remain a valid
+    # no-publication outcome and do not trigger this flag.
+    output_path=os.getenv('GITHUB_OUTPUT','').strip()
+    if output_path:
+        with open(output_path,'a',encoding='utf-8') as handle:
+            handle.write(f"written={written}\nfailed={failed}\nno_article_failure={str(no_article_failure).lower()}\n")
 
 if __name__=='__main__':
     main()
