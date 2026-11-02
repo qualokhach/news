@@ -1,13 +1,8 @@
 name: AppNho News — write staged candidates
 
 on:
-  # Run automatically after a successful research workflow, including manual research runs.
-  workflow_run:
-    workflows:
-      - AppNho News — research and prepare candidates
-    types:
-      - completed
-  # Allows processing candidates already staged before this workflow was added.
+  # Manual recovery only. Automatic Research -> Writing is a dependent job
+  # in research-news.yml so it cannot be lost as a separate workflow_run event.
   workflow_dispatch:
 
 permissions:
@@ -19,7 +14,6 @@ concurrency:
 
 jobs:
   write:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
