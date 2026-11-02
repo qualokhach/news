@@ -138,6 +138,11 @@ def main():
             known.append(article); written+=1
             print(f"[READY] {article.get('title')} ({article.get('word_count')} words; provider={provider})")
             time.sleep(0.5)
+        except np.EditorialEvidenceGateError as exc:
+            item['status']='HOLD'
+            item['editorial_reason']=np.clean(str(exc))[:500]
+            item['last_write_error']=np.clean(str(exc))[:500]
+            print(f"[HOLD] {item.get('lead_title')}: evidence gate failed; no further provider calls: {str(exc)[:300]}")
         except Exception as exc:
             failed+=1
             item['last_write_error']=str(exc)[:500]

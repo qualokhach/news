@@ -694,6 +694,10 @@ def openai_compatible(prompt, provider, key_env, endpoint, model, extra_headers=
     if not content: raise RuntimeError(f'{provider} returned empty content')
     return parse_ai_json(content)
 
+class EditorialEvidenceGateError(RuntimeError):
+    """Deterministic evidence failure: do not spend more provider calls on the same facts."""
+
+
 def generate_with_fallback(prompt, validator=None):
     """Try providers in order; run the full local article gate before accepting a draft.
     validator(candidate, provider_label) must raise when the draft is not publishable.
@@ -747,7 +751,7 @@ def generate_with_fallback(prompt, validator=None):
                     retry_prompt=prompt
                     if attempt:
                         retry_prompt += (
-                            "\\n\\nYÊU CẦU BIÊN TẬP LẠI TOÀN BỘ BẢN THẢO: "
+                            "\n\nYÊU CẦU BIÊN TẬP LẠI TOÀN BỘ BẢN THẢO: "
                             "Bạn vẫn đang đảm nhiệm vai trò nhà báo/phóng viên chuyên nghiệp. "
                             "Bản trước chưa đạt kiểm định vì lỗi sau: " + last_validation_error[:1200] + ". "
                             "Hãy viết lại toàn bộ bài, giữ đúng content_type đã chọn và đạt ít nhất số từ tối thiểu "
@@ -781,6 +785,15 @@ def generate_with_fallback(prompt, validator=None):
                     return result,provider_label
                 except Exception as e:
                     message=str(e)
+                    # Evidence failures are properties of the collected dossier, not JSON
+                    # formatting. Trying another model cannot create missing corroboration.
+                    if any(marker in message.casefold() for marker in (
+                        'chưa được đối chiếu độc lập',
+                        'không có bằng chứng',
+                        'thiếu nguồn độc lập',
+                        'không có nguồn chính thức'
+                    )):
+                        raise EditorialEvidenceGateError(message) from e
                     last_validation_error=message
                     secret_env={'Gemini':'GEMINI_API_KEY','Cloudflare Workers AI':'CLOUDFLARE_API_TOKEN',
                                 'OpenRouter':'OPENROUTER_API_KEY'}[name]
@@ -838,6 +851,7 @@ Chọn đúng một content_type theo độ sâu thực tế của hồ sơ:
 - short_explainer: bài giải thích sự kiện, mục tiêu 500-650 từ, tối thiểu 500 từ.
 - news_analysis: bài phân tích tin tức, mục tiêu 800-1.000 từ, tối thiểu 800 từ.
 - long_analysis: bài phân tích chuyên sâu, mục tiêu 1.000-1.300 từ, tối thiểu 1.000 từ.
+Không được tự hạ mức tối thiểu của thể loại đã chọn. Mức tối thiểu trong prompt cũng chính là mức tối thiểu mà bộ kiểm định phần mềm áp dụng.
 
 Độ dài tính trên phần body, không tính tiêu đề, sapo, keywords, fact_ledger hoặc metadata. Trước khi trả kết quả, tự kiểm tra độ dài body. Không tự ý chọn thể loại ngắn chỉ để né yêu cầu độ dài. Chọn thể loại tương ứng với góc tiếp cận và mức độ bằng chứng; nếu hồ sơ không đủ dữ liệu để viết một bài hoàn chỉnh đạt mức tối thiểu mà không suy diễn, hãy trả publish=false và nêu rõ phần dữ liệu còn thiếu. Không được xuất bản một bản thảo ngắn hơn mức tối thiểu rồi coi đó là bài hoàn chỉnh.
 
@@ -878,7 +892,7 @@ Nguồn và bằng chứng đã thu thập:
     leads=[{'headline':x.get('discovery_title',''),'publisher':x.get('source_name',''),
             'published_at':x.get('source_published_at',''),'summary_for_discovery_only':x.get('discovery_summary','')[:500]}
            for x in (discovery_leads or [])]
-    assignment = "ĐỀ TÀI CỤ THỂ ĐƯỢC GIAO: " + str(assigned_topic).strip() + "\\n\\n"
+    assignment = "ĐỀ TÀI CỤ THỂ ĐƯỢC GIAO: " + str(assigned_topic).strip() + "\n\n"
     return instructions + assignment + json.dumps({'source_evidence_for_fact_check':sources,'discovery_leads_not_for_fact_claims':leads},ensure_ascii=False)
 
 
@@ -982,9 +996,9 @@ def make_article(obj, group, evidence_pages=None):
         advice=validate_r3_content(title,body)
         if advice:
             raise ValueError('R3 contains actionable personal advice: '+', '.join(advice[:4]))
-    content_type=str(obj.get('content_type') or 'short_explainer')
+    content_type=str(obj.get('content_type') or '')
     if content_type not in {'quick_update','short_explainer','news_analysis','long_analysis'}:
-        content_type='short_explainer'
+        raise ValueError('AI output missing or invalid content_type; article type must be explicit')
     data_type=str(obj.get('data_type') or 'general')
     ttl_cap=ttl_for_data_type(data_type,risk)
     try: ttl=max(1,min(ttl_cap,int(obj.get('freshness_ttl_hours',ttl_cap))))
