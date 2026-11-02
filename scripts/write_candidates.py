@@ -71,9 +71,11 @@ def main():
         return
     if not any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','CLOUDFLARE_API_TOKEN','OPENROUTER_API_KEY')):
         raise SystemExit('ERROR: Writing stage has candidates but no AI provider key is configured.')
-    written=0; failed=0
+    written=0; failed=0; attempted=0
     for item in staged:
-        if written>=MAX_WRITE: break
+        # Cap actual model-attempted candidates, not successful publications.
+        # Otherwise a run with repeated failures could consume API calls on the entire queue.
+        if attempted>=MAX_WRITE: break
         expiry=np.as_utc(item.get('expires_at'))
         if expiry and expiry<now:
             item['status']='EXPIRED'
@@ -89,6 +91,7 @@ def main():
             item['editorial_reason']='Sau khi loại nguồn thuộc sự kiện khác, còn dưới hai nguồn độc lập và không có nguồn chính thức.'
             print(f"[HOLD] {item.get('lead_title')}: insufficient independent sources after relevance filter; skipped AI calls.")
             continue
+        attempted+=1
         validated={}
         def validate_for_provider(candidate,provider_label):
             candidate['_provider']=provider_label
@@ -153,7 +156,7 @@ def main():
     ready=sum(1 for x in queue if isinstance(x,dict) and x.get('status')=='READY')
     remaining=sum(1 for x in queue if isinstance(x,dict) and x.get('status')=='WRITING_PENDING')
     no_article_failure=(written==0 and failed>0)
-    print(f"[WRITING] written={written} failed={failed} ready_queue={ready} staged_remaining={remaining}")
+    print(f"[WRITING] attempted={attempted} written={written} failed={failed} ready_queue={ready} staged_remaining={remaining}")
     # Keep the queue changes committed, then let the workflow mark the run failed
     # if every attempted draft failed technically. Editorial HOLDs remain a valid
     # no-publication outcome and do not trigger this flag.
