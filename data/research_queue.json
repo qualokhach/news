@@ -2813,7 +2813,7 @@
   },
   {
     "queue_id": "29e05ce1a4711dd83590",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T09:19:23.714401+00:00",
     "expires_at": "2026-11-05T09:17:29.098842+00:00",
     "category_hint": "vietnam",
@@ -2921,9 +2921,9 @@
         "source_feed_domain": "dantri.com.vn"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (146/220 words, 3/3 paragraphs, type=short_explainer); word targets are advisory, not pass/fail thresholds | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instru",
-    "write_attempts": 1,
-    "next_write_after": "2026-11-02T16:33:34.446824+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: AI returned malformed JSON (Expecting value at character 861) | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (342/500 words, 5/3 paragraphs, type=short_explainer",
+    "write_attempts": 2,
+    "editorial_reason": "Đã thất bại kỹ thuật hai phiên viết; cần rà soát thủ công trước khi thử lại."
   },
   {
     "queue_id": "cace011fd0aa5db4ef8a",
@@ -3344,7 +3344,7 @@
   },
   {
     "queue_id": "bae6fa303af00671834f",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T11:43:54.413291+00:00",
     "expires_at": "2026-11-05T11:41:55.682112+00:00",
     "category_hint": "vietnam",
@@ -3457,13 +3457,14 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[ | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: fact_ledger cần ít nhất 3 dữ kiện có thể kiểm tra | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:free HTTP 429: {\"error\":{\"message\":\"Provide",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[4] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
     "write_attempts": 1,
-    "next_write_after": "2026-11-02T17:44:27.551365+00:00"
+    "next_write_after": "2026-11-02T17:44:27.551365+00:00",
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[4] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "0c360479a253f97077fd",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T11:43:55.652240+00:00",
     "expires_at": "2026-11-05T11:41:55.682112+00:00",
     "category_hint": "sports",
@@ -3617,7 +3618,8 @@
     ],
     "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[2] là dữ kiện cốt lõi n | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (128/220 words, 2/3 paragraphs, type=short_explainer); word targets are advisory, not pass/fail thresholds | Cloudflare Workers AI/@cf/meta/llama-",
     "write_attempts": 1,
-    "next_write_after": "2026-11-02T17:44:27.551365+00:00"
+    "next_write_after": "2026-11-02T17:44:27.551365+00:00",
+    "editorial_reason": "Bằng chứng không đủ để hoàn thành bài báo đạt độ dài tối thiểu 575 từ trong phần body mà không suy diễn hoặc lặp ý, do phần thông tin về chủ đề chính (WSL talking points: Kang và Slegers) trong nguồn The Guardian quá ngắn gọn và thiếu các chi tiết số liệu, bối cảnh chuyên sâu."
   },
   {
     "queue_id": "38d0b1d43dc656145eb5",
@@ -5292,7 +5294,10 @@
         "retry_after": "2026-11-01T16:47:42.872882+00:00",
         "source_feed_domain": "aljazeera.com"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (421/500 words, 6/3 paragraphs, type=short_explainer); minimum editorial word count was not met | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: Op",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-03T01:49:10.598731+00:00"
   },
   {
     "queue_id": "aebe5222d5732944936f",
