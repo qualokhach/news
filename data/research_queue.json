@@ -3916,7 +3916,7 @@
   },
   {
     "queue_id": "f918a60bd67c132be218",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T14:24:57.127792+00:00",
     "expires_at": "2026-11-05T14:23:01.627855+00:00",
     "category_hint": "vietnam",
@@ -4165,11 +4165,13 @@
         "attempts": 0,
         "source_feed_domain": "thanhnien.vn"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "b725a4f726b7caaaba73",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T14:24:57.892788+00:00",
     "expires_at": "2026-11-05T14:23:01.627855+00:00",
     "category_hint": "world",
@@ -4293,11 +4295,12 @@
         "retry_after": "2026-11-01T16:47:42.872882+00:00",
         "source_feed_domain": "nytimes.com"
       }
-    ]
+    ],
+    "editorial_reason": "Chỉ có một nguồn thứ cấp độc lập liên quan trực tiếp đến tiêu đề phát hiện (France 24) với nội dung rất ngắn (chỉ vài dòng bản tin video), không đủ dữ kiện, bối cảnh và chi tiết để viết một bài báo phân tích hoặc giải thích hoàn chỉnh đạt độ dài tối thiểu mà không phải suy diễn."
   },
   {
     "queue_id": "6b236118886db22042bb",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T14:25:00.459422+00:00",
     "expires_at": "2026-11-05T14:23:01.627855+00:00",
     "category_hint": "world",
@@ -4433,7 +4436,8 @@
         "attempts": 0,
         "source_feed_domain": "theverge.com"
       }
-    ]
+    ],
+    "editorial_reason": "Không đủ nguồn và bằng chỬhứng để viết một bài báo hoàn ch\\u1ecinh đạt m\\u1ee_c chỉ tiêu dài từ 500 đến 650 từ mà không phải suy diễn hoặc lặp ý. Hồ sư ch\\u1ec̉ có một nguồn duy nhất về sự kiền thấm dò Melbourne Cup với các chi tiết giới hạn, không đủ dữ liệu chi tiết để triển khai nhiều đoạn sâu sắ"
   },
   {
     "queue_id": "981b451825f3f090b75d",
