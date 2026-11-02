@@ -4,11 +4,44 @@ import argparse, os, sys
 from urllib.parse import urlencode
 import news_pipeline as pipeline
 
+CLOUDFLARE_MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast'
+
 PROVIDERS = [
     ('Gemini', 'GEMINI_API_KEY', pipeline.discover_gemini_models),
     ('Grok/xAI', 'XAI_API_KEY', pipeline.discover_xai_models),
     ('OpenRouter', 'OPENROUTER_API_KEY', pipeline.discover_openrouter_models),
 ]
+
+def cloudflare_live_probe():
+    """Send one tiny inference request to the configured Cloudflare Workers AI model."""
+    account_id = os.getenv('CLOUDFLARE_ACCOUNT_ID', '').strip()
+    token = os.getenv('CLOUDFLARE_API_TOKEN', '').strip()
+    if not account_id or not token:
+        raise RuntimeError('CLOUDFLARE_ACCOUNT_ID or CLOUDFLARE_API_TOKEN is missing')
+    endpoint = (
+        'https://api.cloudflare.com/client/v4/accounts/'
+        + account_id + '/ai/run/' + CLOUDFLARE_MODEL
+    )
+    payload = {
+        'messages': [
+            {'role': 'system', 'content': 'Reply briefly and exactly as requested.'},
+            {'role': 'user', 'content': 'Reply with exactly: OK'}
+        ],
+        'max_tokens': 8,
+        'temperature': 0
+    }
+    data = pipeline._post_json(
+        endpoint, payload,
+        {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+        'Cloudflare Workers AI'
+    )
+    result = data.get('result') if isinstance(data, dict) else None
+    output = result.get('response', '') if isinstance(result, dict) else ''
+    if not output and isinstance(result, dict):
+        output = result.get('output_text', '')
+    if not output:
+        raise RuntimeError('model returned an empty response or an unexpected response format')
+    return str(output).strip()[:80]
 
 def live_probe(label, model):
     """One short generation request. Grok may incur a small API charge."""
@@ -77,6 +110,23 @@ def main():
                     print(f'[LIVE FAIL] {label}/{model}: {str(exc)[:220]}')
         except Exception as exc:
             print(f'[FAIL] {label}: {str(exc)[:220]}')
+    cf_account = os.getenv('CLOUDFLARE_ACCOUNT_ID', '').strip()
+    cf_token = os.getenv('CLOUDFLARE_API_TOKEN', '').strip()
+    if cf_account or cf_token:
+        configured += 1
+        if not (cf_account and cf_token):
+            print('[FAIL] Cloudflare Workers AI: both Account ID and API Token are required.')
+        elif args.live_probe:
+            try:
+                response = cloudflare_live_probe()
+                print(f'[LIVE PASS] Cloudflare Workers AI/{CLOUDFLARE_MODEL}: response received ({response!r})')
+                probe_ok += 1
+                ready += 1
+            except Exception as exc:
+                print(f'[LIVE FAIL] Cloudflare Workers AI/{CLOUDFLARE_MODEL}: {str(exc)[:220]}')
+        else:
+            print('[OK] Cloudflare Workers AI: Account ID and API Token are configured; live probe not requested.')
+            ready += 1
     if ready==0:
         print('[FATAL] No AI provider is ready. Automatic research cannot generate candidates.')
         return 1
