@@ -46,6 +46,7 @@ jobs:
           DISPATCH_SLOT_KIND: ${{ inputs.slot_kind }}
         run: python scripts/resolve_publish_slot.py >> "$GITHUB_OUTPUT"
       - name: Write staged candidates with AI providers
+        id: writing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}
           XAI_API_KEY: ${{ secrets.GROK_API_APPNHO_NEWS }}
@@ -85,3 +86,8 @@ jobs:
             git commit -m "Publish scheduled AppNho News articles"
             git push
           fi
+      - name: Mark run failed when all AI writing attempts failed
+        if: steps.writing.outputs.no_article_failure == 'true'
+        run: |
+          echo "All staged article-writing attempts failed. Queue diagnostics were committed; review the writing logs before the next publish run."
+          exit 1
