@@ -166,7 +166,7 @@ line two","category":"world","seo_title":"x","meta_description":"x","keywords":[
         self.assertIn('line two',result['summary'])
 
     def test_generate_with_fallback_retries_short_draft_once(self):
-        body=[('Đoạn văn có thông tin kiểm chứng và bối cảnh cụ thể. '*8) for _ in range(4)]
+        body=[('Đoạn văn có thông tin kiểm chứng và bối cảnh cụ thể. '*16) for _ in range(4)]
         valid={'publish':True,'body':body,'category':'world'}
         with patch.dict(os.environ,{'GEMINI_API_KEY':'test-key'},clear=True), \
              patch.object(n,'MODEL_DISCOVERY_CACHE',{}), \

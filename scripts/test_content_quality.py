@@ -22,14 +22,14 @@ class ContentQualityTests(unittest.TestCase):
         }
 
 
-    def test_word_targets_are_higher_than_non_mechanical_acceptance_floors(self):
-        self.assertEqual(minimum_words_for_type("short_explainer"), 220)
+    def test_minimum_word_floor_matches_editorial_target_lower_bound(self):
+        self.assertEqual(minimum_words_for_type("short_explainer"), 500)
         self.assertEqual(target_word_range_for_type("short_explainer"), (500, 650))
         self.assertEqual(minimum_paragraphs_for_type("short_explainer"), 3)
-        self.assertEqual(minimum_words_for_type("news_analysis"), 420)
+        self.assertEqual(minimum_words_for_type("news_analysis"), 800)
         self.assertEqual(target_word_range_for_type("news_analysis"), (800, 1000))
 
-    def test_sub_target_but_substantive_short_explainer_can_pass_quality_gate(self):
+    def test_below_editorial_floor_short_explainer_is_rejected(self):
         body = [
             " ".join(f"du_lieu_{p}_{i}" for i in range(76))
             for p in range(4)
@@ -44,9 +44,9 @@ class ContentQualityTests(unittest.TestCase):
         }
         errors, stats = validate_article_quality(article)
         self.assertEqual(stats["words"], 304)
-        self.assertGreater(stats["words"], minimum_words_for_type("short_explainer"))
+        self.assertLess(stats["words"], minimum_words_for_type("short_explainer"))
         self.assertLess(stats["words"], target_word_range_for_type("short_explainer")[0])
-        self.assertEqual(errors, [])
+        self.assertTrue(any("cần ít nhất 500" in error for error in errors))
 
     def test_primary_source_type_is_not_overbroad(self):
         self.assertTrue(is_primary_source_type('Cổng thông tin chính thức'))

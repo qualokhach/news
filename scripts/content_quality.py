@@ -85,17 +85,15 @@ def ttl_for_data_type(data_type: str, risk_level: str = "R1") -> int:
     return ttl
 
 
-# Generation targets are editorial aspirations, not pass/fail limits.
-# The minimum is a safety floor only; evidence, factual accuracy and editorial value
-# remain the actual publication criteria.
+# The lower edge of each editorial target range is also the mandatory
+# publication floor. This keeps the prompt, provider gate and final quality
+# validator consistent; longer targets remain preferred within each range.
 MINIMUM_WORDS_BY_TYPE = {
-    # Keep a safety floor below the editorial target: target length is requested
-    # explicitly in the prompt, while the floor rejects only incomplete drafts.
-    "quick_update": 120,
-    "short_explainer": 220,
-    "news_analysis": 420,
-    "long_analysis": 550,
-    "ai_assisted_independent_editorial": 220,
+    "quick_update": 250,
+    "short_explainer": 500,
+    "news_analysis": 800,
+    "long_analysis": 1000,
+    "ai_assisted_independent_editorial": 500,
 }
 TARGET_WORD_RANGES_BY_TYPE = {
     "quick_update": (250, 350),

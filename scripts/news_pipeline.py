@@ -730,6 +730,8 @@ def generate_with_fallback(prompt, validator=None):
             MODEL_DISCOVERY_CACHE[name]=[]
             print(f'[WARN] {name} model discovery failed: {str(e)[:180]}')
     errors=[]
+    assigned_match=re.search(r'Thể loại bắt buộc: (quick_update|short_explainer|news_analysis|long_analysis)',prompt)
+    assigned_type=assigned_match.group(1) if assigned_match else ''
     global GEMINI_CALLS_THIS_RUN, CLOUDFLARE_CALLS_THIS_RUN, OPENROUTER_CALLS_THIS_RUN
     for name,models,call in providers:
         for model in models:
@@ -755,7 +757,9 @@ def generate_with_fallback(prompt, validator=None):
                             "Bạn vẫn đang đảm nhiệm vai trò nhà báo/phóng viên chuyên nghiệp. "
                             "Bản trước chưa đạt kiểm định vì lỗi sau: " + last_validation_error[:1200] + ". "
                             "Hãy viết lại toàn bộ bài, giữ đúng content_type đã chọn và đạt ít nhất số từ tối thiểu "
-                            "được quy định cho thể loại đó. Không được đổi sang thể loại ngắn hơn chỉ để vượt kiểm định. "
+                            "được quy định cho thể loại đó. Thể loại được giao là " + (assigned_type or "đã xác định") + ". "
+                            "Không được đổi sang thể loại ngắn hơn chỉ để vượt kiểm định. "
+                            "Bản thảo phải đạt khoảng " + str(target_word_range_for_type(assigned_type)[0] if assigned_type else 250) + "-" + str(target_word_range_for_type(assigned_type)[1] if assigned_type else 350) + " từ trong body. "
                             "Bổ sung bối cảnh, diễn biến và phân tích cụ thể chỉ từ bằng chứng đã cung cấp; "
                             "không lặp ý, không bịa dữ kiện. Trả lại toàn bộ JSON hợp lệ theo đúng schema."
                         )
@@ -764,13 +768,15 @@ def generate_with_fallback(prompt, validator=None):
                         body=[clean(x) for x in result.get('body',[]) if clean(x)]
                         words=word_count(' '.join(body))
                         ctype=str(result.get('content_type') or 'short_explainer')
-                        minimum=minimum_words_for_type(ctype)
-                        min_paragraphs=minimum_paragraphs_for_type(ctype)
+                        if assigned_type and ctype != assigned_type:
+                            raise ValueError(f'AI changed assigned content_type ({assigned_type} -> {ctype})')
+                        minimum=minimum_words_for_type(assigned_type or ctype)
+                        min_paragraphs=minimum_paragraphs_for_type(assigned_type or ctype)
                         if len(body)<min_paragraphs or words<minimum:
                             raise ValueError(
                                 f'Generated draft below safety floor ({words}/{minimum} words, '
                                 f'{len(body)}/{min_paragraphs} paragraphs, type={ctype}); '
-                                'word targets are advisory, not pass/fail thresholds'
+                                'minimum editorial word count was not met'
                             )
                         if result.get('category') not in CATEGORY_LABELS:
                             raise ValueError('Generated draft has invalid category')
@@ -839,19 +845,30 @@ def make_prompt(group, evidence, discovery_leads=None):
             'page_evidence':evidence.get(x['source_url'],'')[:5200]
         })
     assigned_topic = (group[0].get('discovery_title') if group else '') or 'Chủ đề được thể hiện trong hồ sơ nguồn'
+    # Assign the genre before calling the model. Do not let the model choose a
+    # shorter genre after seeing the requested word count.
+    evidence_chars=sum(len(str(evidence.get(x.get('source_url',''),''))) for x in group)
+    independent_families={source_info(x.get('source_url','')).get('source_family') or domain_key(x.get('source_url','')) for x in group}
+    independent_families.discard('')
+    if len(independent_families)>=3 and evidence_chars>=24000:
+        assigned_type='news_analysis'
+    elif len(independent_families)>=2 and evidence_chars>=6500:
+        assigned_type='short_explainer'
+    else:
+        assigned_type='quick_update'
+    target_low,target_high=target_word_range_for_type(assigned_type)
+    assigned_target=(target_low+target_high)//2
     instructions = r'''VAI TRÒ NGHỀ NGHIỆP
 Bạn là nhà báo/phóng viên chuyên nghiệp (professional journalist and reporter), được giao viết bài cho một tòa soạn báo điện tử. Hãy làm việc như người trực tiếp chịu trách nhiệm về chất lượng bài báo trước khi xuất bản: đọc kỹ hồ sơ nguồn, xác định thông tin đã được xác minh, chọn góc tiếp cận phù hợp và viết thành tác phẩm báo chí hoàn chỉnh. Không viết theo kiểu chatbot trả lời câu hỏi, không viết ghi chú nghiên cứu, không viết bản tóm tắt sơ sài.
 
 ĐỀ TÀI VÀ NHIỆM VỤ
 Viết một bài báo hoàn chỉnh cho AppNho News về sự kiện/chủ đề thể hiện trong tiêu đề phát hiện và các tài liệu nguồn bên dưới. Tự xác định góc báo chí cụ thể, phù hợp với dữ kiện. Tiêu đề phát hiện chỉ là đầu mối đề tài, không mặc nhiên là sự thật đã được xác minh.
 
-CHỌN THỂ LOẠI VÀ ĐỘ DÀI
-Chọn đúng một content_type theo độ sâu thực tế của hồ sơ:
-- quick_update: bài tin cập nhật nhanh, mục tiêu 250-350 từ, tối thiểu 250 từ.
-- short_explainer: bài giải thích sự kiện, mục tiêu 500-650 từ, tối thiểu 500 từ.
-- news_analysis: bài phân tích tin tức, mục tiêu 800-1.000 từ, tối thiểu 800 từ.
-- long_analysis: bài phân tích chuyên sâu, mục tiêu 1.000-1.300 từ, tối thiểu 1.000 từ.
-Không được tự hạ mức tối thiểu của thể loại đã chọn. Mức tối thiểu trong prompt cũng chính là mức tối thiểu mà bộ kiểm định phần mềm áp dụng.
+THỂ LOẠI VÀ ĐỘ DÀI ĐÃ ĐƯỢC TÒA SOẠN GIAO
+Thể loại bắt buộc: {assigned_type}
+Độ dài mục tiêu cụ thể: {assigned_target} từ trong phần body.
+Khoảng biên tập chấp nhận: {target_low}-{target_high} từ.
+Không tự chọn thể loại khác, không tự rút ngắn bài và không trả bản tóm tắt thay cho bài báo. Đây là chỉ tiêu giao việc trực tiếp của biên tập viên. Hãy viết đủ độ dài bằng cách khai thác các dữ kiện, bối cảnh và diễn biến đã có trong hồ sơ. Nếu hồ sơ không đủ căn cứ để hoàn thành, trả publish=false và giải thích chính xác dữ liệu còn thiếu.
 
 Độ dài tính trên phần body, không tính tiêu đề, sapo, keywords, fact_ledger hoặc metadata. Trước khi trả kết quả, tự kiểm tra độ dài body. Không tự ý chọn thể loại ngắn chỉ để né yêu cầu độ dài. Chọn thể loại tương ứng với góc tiếp cận và mức độ bằng chứng; nếu hồ sơ không đủ dữ liệu để viết một bài hoàn chỉnh đạt mức tối thiểu mà không suy diễn, hãy trả publish=false và nêu rõ phần dữ liệu còn thiếu. Không được xuất bản một bản thảo ngắn hơn mức tối thiểu rồi coi đó là bài hoàn chỉnh.
 
@@ -892,7 +909,9 @@ Nguồn và bằng chứng đã thu thập:
     leads=[{'headline':x.get('discovery_title',''),'publisher':x.get('source_name',''),
             'published_at':x.get('source_published_at',''),'summary_for_discovery_only':x.get('discovery_summary','')[:500]}
            for x in (discovery_leads or [])]
-    assignment = "ĐỀ TÀI CỤ THỂ ĐƯỢC GIAO: " + str(assigned_topic).strip() + "\n\n"
+    instructions=instructions.replace('{assigned_type}',assigned_type).replace('{assigned_target}',str(assigned_target)).replace('{target_low}',str(target_low)).replace('{target_high}',str(target_high))
+    assignment = ("VAI TRÒ: Nhà báo/phóng viên chuyên nghiệp.\n"
+                  "ĐỀ TÀI CỤ THỂ ĐƯỢC GIAO: " + str(assigned_topic).strip() + "\n\n")
     return instructions + assignment + json.dumps({'source_evidence_for_fact_check':sources,'discovery_leads_not_for_fact_claims':leads},ensure_ascii=False)
 
 
@@ -1349,7 +1368,10 @@ def main():
             try:
                 mode=research_access_mode(item['source_url'], item.get('source_feed_domain'))
                 page=extract_page(item['source_url'], access_mode=mode)
-                if len(page)>500 and evidence_matches_title(item.get('discovery_title',''),page):
+                if (len(page)>500
+                        and headlines_related(mainlead.get('discovery_title',''), item.get('discovery_title',''))
+                        and evidence_matches_title(mainlead.get('discovery_title',''), page)
+                        and evidence_matches_title(item.get('discovery_title',''), page)):
                     item['research_mode']=mode
                     evidence[item['source_url']]=page
                     good.append(item)

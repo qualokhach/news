@@ -29,7 +29,12 @@ def _filter_candidate_evidence(item):
         if np.headlines_related(lead,title):
             url=source.get('source_url','')
             page=evidence.get(url,'')
-            if url and isinstance(page,str) and len(page)>500 and np.evidence_matches_title(title,page):
+            # A source must match both its own headline and the candidate's
+            # anchor topic. This blocks unrelated pages accidentally carried
+            # into a previously grouped discovery record.
+            if (url and isinstance(page,str) and len(page)>500
+                    and np.evidence_matches_title(lead,page)
+                    and np.evidence_matches_title(title,page)):
                 relevant.append(source)
                 if url not in seen_urls:
                     relevant_urls.append(url)
