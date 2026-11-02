@@ -221,6 +221,13 @@ class WorkflowSafetyTests(unittest.TestCase):
         publish=(ROOT/'.github/workflows/build-news.yml').read_text(encoding='utf-8')
         self.assertIn('python scripts/write_candidates.py',publish)
 
+    def test_publish_workflow_wires_cloudflare_and_correct_openrouter_secret(self):
+        text=(ROOT/'.github/workflows/build-news.yml').read_text(encoding='utf-8')
+        self.assertIn('CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}',text)
+        self.assertIn('CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}',text)
+        self.assertIn('OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}',text)
+        self.assertNotIn('XAI_API_KEY:',text)
+
     def test_research_pipeline_has_one_main_entrypoint_only(self):
         import re
         source=(ROOT/'scripts/news_pipeline.py').read_text(encoding='utf-8')

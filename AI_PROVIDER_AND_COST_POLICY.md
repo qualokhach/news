@@ -1,9 +1,13 @@
 # AppNho News — AI provider order and cost guardrails
 
-Provider order is Gemini → Grok/xAI → OpenRouter.
+Provider order for article drafting is Gemini → Cloudflare Workers AI → OpenRouter.
 
-- Gemini: the pipeline intersects the authenticated `models.list` response with stable, free-tier text models. Current priority is `gemini-3.5-flash-lite`, followed by the still-listed `gemini-3.1-flash-lite` and `gemini-2.5-flash-lite`. A model is used only when the API reports `generateContent`.
-- Grok: the pipeline discovers current text models from the authenticated xAI language-model catalog, with `/v1/models` as fallback. It never guesses a retired slug. It prefers `grok-4.7` if returned; otherwise it chooses the lowest-priced eligible Grok text model returned by the account. Default cost ceilings are USD 5/M input and USD 20/M output, configurable with `XAI_MAX_INPUT_USD_PER_MILLION` and `XAI_MAX_OUTPUT_USD_PER_MILLION`.
+- Gemini: the pipeline intersects the authenticated `models.list` response with the configured free-tier text-model allowlist. A model is used only when the API reports `generateContent`.
+- Cloudflare Workers AI: uses the fixed, preflight-tested model `@cf/meta/llama-3.3-70b-instruct-fp8-fast` through the account REST API. It is the second provider after Gemini. Calls are capped at 3 per publication run by default (`MAX_CLOUDFLARE_CALLS_PER_RUN`) to limit consumption of the Workers AI daily free allowance. A valid API response does not imply unlimited or permanently free usage; Cloudflare's current account quota and pricing apply.
 - OpenRouter: only models ending in `:free` with both prompt and completion prices equal to zero are eligible. An explicit `OPENROUTER_MODEL` cannot bypass this check.
 
-Grok generation uses xAI’s primary `/v1/responses` endpoint with `store=false`; the pipeline does not use the legacy Chat Completions endpoint. Grok is a paid fallback. A research run can use up to 3 Grok calls by default (`MAX_GROK_CALLS_PER_RUN`). OpenRouter free-model calls are capped at 8 per run (`MAX_OPENROUTER_CALLS_PER_RUN`) and model catalogs are cached for the duration of a run. The pipeline records provider/model selection in the run log. It does not promise zero-cost operation when Grok is reached. The API preflight validates credentials and live model availability; actual generation is tested by the research run itself.
+Grok/xAI is no longer called by the article-writing fallback. Its GitHub Secret is left untouched and may remain available for separate diagnostics until the repository is deliberately cleaned up.
+
+All providers receive the same evidence-bound editorial prompt. Provider fallback does not bypass JSON parsing, minimum article length, source verification, fact-ledger checks, duplication checks, risk rules, or the final publication gate. A model response is only a draft; it is not automatically publishable.
+
+Gemini calls are capped at 12 per run by default (`MAX_GEMINI_CALLS_PER_RUN`); Cloudflare calls at 3 (`MAX_CLOUDFLARE_CALLS_PER_RUN`); OpenRouter free-model calls at 8 (`MAX_OPENROUTER_CALLS_PER_RUN`). The pipeline records provider/model selection in the article metadata and run logs. OpenRouter is restricted to explicitly zero-priced models; Cloudflare consumption remains subject to the account's applicable daily allowance and pricing.

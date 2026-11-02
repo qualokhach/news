@@ -25,7 +25,7 @@ def main():
     if not staged:
         print('[WRITING] No WRITING_PENDING candidates; AI providers were not called.')
         return
-    if not any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY')):
+    if not any(os.getenv(k,'').strip() for k in ('GEMINI_API_KEY','CLOUDFLARE_API_TOKEN','OPENROUTER_API_KEY')):
         raise SystemExit('ERROR: Writing stage has candidates but no AI provider key is configured.')
     written=0; failed=0
     for item in staged:

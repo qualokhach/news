@@ -34,10 +34,10 @@ GEMINI_MODEL = os.getenv('GEMINI_MODEL', '').strip()
 GROK_MODEL = os.getenv('GROK_MODEL', '').strip()
 OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', '').strip()
 MAX_GEMINI_CALLS_PER_RUN = max(0, int(os.getenv('MAX_GEMINI_CALLS_PER_RUN', '12')))
-MAX_GROK_CALLS_PER_RUN = max(0, int(os.getenv('MAX_GROK_CALLS_PER_RUN', '3')))
+MAX_CLOUDFLARE_CALLS_PER_RUN = max(0, int(os.getenv('MAX_CLOUDFLARE_CALLS_PER_RUN', '3')))
 MAX_OPENROUTER_CALLS_PER_RUN = max(0, int(os.getenv('MAX_OPENROUTER_CALLS_PER_RUN', '8')))
 GEMINI_CALLS_THIS_RUN = 0
-GROK_CALLS_THIS_RUN = 0
+CLOUDFLARE_CALLS_THIS_RUN = 0
 OPENROUTER_CALLS_THIS_RUN = 0
 MODEL_DISCOVERY_CACHE = {}
 THUMBS = {
@@ -568,6 +568,35 @@ def gemini(prompt, model):
     if not txt: raise RuntimeError('Gemini returned empty content or blocked output')
     return parse_ai_json(txt)
 
+CLOUDFLARE_MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast'
+
+def cloudflare_workers_ai(prompt):
+    """Generate a structured draft with the fixed, preflight-tested Workers AI model."""
+    account_id=os.getenv('CLOUDFLARE_ACCOUNT_ID','').strip()
+    token=os.getenv('CLOUDFLARE_API_TOKEN','').strip()
+    if not account_id or not token:
+        raise RuntimeError('Cloudflare Workers AI Account ID or API Token missing')
+    endpoint=('https://api.cloudflare.com/client/v4/accounts/'+account_id+
+              '/ai/run/'+CLOUDFLARE_MODEL)
+    system=('Bạn là biên tập viên tin tức tiếng Việt. Viết độc lập, chính xác, không phóng đại; '
+            'chỉ dùng dữ kiện trong nguồn, không bịa số liệu, phát biểu hay trích dẫn; không sao chép câu chữ nguồn. '
+            'Nếu bằng chứng không đủ, trả publish=false. Chỉ trả về một đối tượng JSON hợp lệ, không markdown.')
+    payload={
+        'messages':[{'role':'system','content':system},{'role':'user','content':prompt}],
+        'temperature':0.25,
+        'max_tokens':7000
+    }
+    data=_post_json(endpoint,payload,
+                    {'Authorization':'Bearer '+token,'Content-Type':'application/json'},
+                    'Cloudflare Workers AI/'+CLOUDFLARE_MODEL)
+    result=data.get('result') if isinstance(data,dict) else None
+    content=result.get('response','') if isinstance(result,dict) else ''
+    if not content and isinstance(result,dict):
+        content=result.get('output_text','')
+    if not content:
+        raise RuntimeError('Cloudflare Workers AI returned empty content')
+    return parse_ai_json(content)
+
 def xai_responses(prompt, model):
     """Call xAI's primary Responses API; avoid the legacy Chat Completions endpoint."""
     key=os.getenv('XAI_API_KEY','').strip()
@@ -620,43 +649,55 @@ def openai_compatible(prompt, provider, key_env, endpoint, model, extra_headers=
     return parse_ai_json(content)
 
 def generate_with_fallback(prompt):
-    """Use Gemini first, then Grok, then free OpenRouter; retry malformed/short drafts once."""
+    """Use Gemini first, Cloudflare Workers AI second, then explicitly free OpenRouter."""
     providers=[]
-    for name, env, discover, call in [
-        ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model, p: gemini(p,model)),
-        ('Grok','XAI_API_KEY',discover_xai_models,lambda model, p: xai_responses(p,model)),
-        ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,lambda model, p: openai_compatible(p,'OpenRouter','OPENROUTER_API_KEY','https://openrouter.ai/api/v1/chat/completions',model,{'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False))]:
+    definitions=[
+        ('Gemini','GEMINI_API_KEY',discover_gemini_models,lambda model,p:gemini(p,model)),
+        ('Cloudflare Workers AI','CLOUDFLARE_API_TOKEN',
+         lambda: [CLOUDFLARE_MODEL],
+         lambda model,p:cloudflare_workers_ai(p)),
+        ('OpenRouter','OPENROUTER_API_KEY',discover_openrouter_models,
+         lambda model,p:openai_compatible(p,'OpenRouter','OPENROUTER_API_KEY',
+             'https://openrouter.ai/api/v1/chat/completions',model,
+             {'HTTP-Referer':'https://appnho.io.vn/','X-Title':'AppNho News'},json_mode=False))
+    ]
+    for name,env,discover,call in definitions:
         if not os.getenv(env,'').strip():
-            print(f'[SKIP] {name}: key not configured'); continue
+            print(f'[SKIP] {name}: key not configured')
+            continue
         try:
             if name not in MODEL_DISCOVERY_CACHE:
                 MODEL_DISCOVERY_CACHE[name]=discover()
             models=MODEL_DISCOVERY_CACHE[name]
             if not models:
-                print(f'[WARN] {name}: no currently eligible models discovered'); continue
+                print(f'[WARN] {name}: no currently eligible models discovered')
+                continue
             providers.append((name,models[:1],call))
-            print(f'[MODEL] {name}: discovered {len(models)} eligible model(s); will probe up to 1')
+            print(f'[MODEL] {name}: {len(models)} eligible model(s); selected {models[0]}')
         except Exception as e:
             MODEL_DISCOVERY_CACHE[name]=[]
             print(f'[WARN] {name} model discovery failed: {str(e)[:180]}')
     errors=[]
-    global GEMINI_CALLS_THIS_RUN, GROK_CALLS_THIS_RUN, OPENROUTER_CALLS_THIS_RUN
-    for name, models, call in providers:
+    global GEMINI_CALLS_THIS_RUN, CLOUDFLARE_CALLS_THIS_RUN, OPENROUTER_CALLS_THIS_RUN
+    for name,models,call in providers:
         for model in models:
-            cap_name={'Gemini':'GEMINI','Grok':'GROK','OpenRouter':'OPENROUTER'}[name]
-            cap={'Gemini':MAX_GEMINI_CALLS_PER_RUN,'Grok':MAX_GROK_CALLS_PER_RUN,'OpenRouter':MAX_OPENROUTER_CALLS_PER_RUN}[name]
-            used={'Gemini':GEMINI_CALLS_THIS_RUN,'Grok':GROK_CALLS_THIS_RUN,'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
-            if used >= cap:
-                print(f'[SKIP] {name}: per-run call cap reached ({cap}); trying the next provider.')
+            cap={'Gemini':MAX_GEMINI_CALLS_PER_RUN,
+                 'Cloudflare Workers AI':MAX_CLOUDFLARE_CALLS_PER_RUN,
+                 'OpenRouter':MAX_OPENROUTER_CALLS_PER_RUN}[name]
+            used={'Gemini':GEMINI_CALLS_THIS_RUN,
+                  'Cloudflare Workers AI':CLOUDFLARE_CALLS_THIS_RUN,
+                  'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
+            if used>=cap:
+                print(f'[SKIP] {name}: per-run call cap reached ({cap}); trying next provider.')
                 break
             for attempt in range(2):
                 try:
-                    if name=='Gemini': GEMINI_CALLS_THIS_RUN += 1
-                    if name=='Grok': GROK_CALLS_THIS_RUN += 1
-                    if name=='OpenRouter': OPENROUTER_CALLS_THIS_RUN += 1
+                    if name=='Gemini': GEMINI_CALLS_THIS_RUN+=1
+                    elif name=='Cloudflare Workers AI': CLOUDFLARE_CALLS_THIS_RUN+=1
+                    else: OPENROUTER_CALLS_THIS_RUN+=1
                     retry_prompt=prompt
                     if attempt:
-                        retry_prompt += ("\n\nYÊU CẦU SỬA BẢN THẢO VỪA TRƯỢT KIỂM ĐỊNH: "+
+                        retry_prompt += ("\\n\\nYÊU CẦU SỬA BẢN THẢO VỪA TRƯỢT KIỂM ĐỊNH: "
                             "Lần trước JSON hoặc độ dài không đạt. Hãy tạo lại toàn bộ JSON hợp lệ. "
                             "Với short_explainer phải có ít nhất 400 từ; news_analysis ít nhất 650 từ; "
                             "long_analysis ít nhất 750 từ; quick_update ít nhất 200 từ. "
@@ -672,27 +713,33 @@ def generate_with_fallback(prompt):
                         if result.get('category') not in CATEGORY_LABELS:
                             raise ValueError('Generated draft has invalid category')
                     print(f'[AI] Response received from {name} model={model}'+(' after repair retry' if attempt else ''))
-                    return result, name+':'+model
+                    return result,name+':'+model
                 except Exception as e:
                     message=str(e)
-                    key=os.getenv({'Gemini':'GEMINI_API_KEY','Grok':'XAI_API_KEY','OpenRouter':'OPENROUTER_API_KEY'}[name],'')
-                    if key: message=message.replace(key,'[redacted]')
+                    secret_env={'Gemini':'GEMINI_API_KEY','Cloudflare Workers AI':'CLOUDFLARE_API_TOKEN',
+                                'OpenRouter':'OPENROUTER_API_KEY'}[name]
+                    secret=os.getenv(secret_env,'')
+                    if secret: message=message.replace(secret,'[redacted]')
+                    account=os.getenv('CLOUDFLARE_ACCOUNT_ID','') if name=='Cloudflare Workers AI' else ''
+                    if account: message=message.replace(account,'[account-redacted]')
                     message=message[:180]
                     errors.append(f'{name}/{model}: {message}')
                     retryable=('malformed JSON' in message or 'Generated draft failed genre minimum' in message or
                                'AI response missing fields' in message or 'AI response body/keywords' in message)
-                    if attempt==0 and retryable and ( 
-                        {'Gemini':GEMINI_CALLS_THIS_RUN,'Grok':GROK_CALLS_THIS_RUN,'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name] < cap):
+                    current={'Gemini':GEMINI_CALLS_THIS_RUN,
+                             'Cloudflare Workers AI':CLOUDFLARE_CALLS_THIS_RUN,
+                             'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
+                    if attempt==0 and retryable and current<cap:
                         print(f'[RETRY] {name}/{model}: asking the same model to correct JSON/length once.')
                         continue
-                    print(f'[WARN] {name} model unavailable/invalid; trying next eligible model ({message})')
+                    print(f'[WARN] {name} model unavailable/invalid; trying next provider ({message})')
                     break
                 time.sleep(0.4)
     if not errors:
         exhausted=[]
-        if os.getenv('GEMINI_API_KEY','').strip() and GEMINI_CALLS_THIS_RUN >= MAX_GEMINI_CALLS_PER_RUN: exhausted.append('Gemini')
-        if os.getenv('XAI_API_KEY','').strip() and GROK_CALLS_THIS_RUN >= MAX_GROK_CALLS_PER_RUN: exhausted.append('Grok/xAI')
-        if os.getenv('OPENROUTER_API_KEY','').strip() and OPENROUTER_CALLS_THIS_RUN >= MAX_OPENROUTER_CALLS_PER_RUN: exhausted.append('OpenRouter')
+        if os.getenv('GEMINI_API_KEY','').strip() and GEMINI_CALLS_THIS_RUN>=MAX_GEMINI_CALLS_PER_RUN: exhausted.append('Gemini')
+        if os.getenv('CLOUDFLARE_API_TOKEN','').strip() and CLOUDFLARE_CALLS_THIS_RUN>=MAX_CLOUDFLARE_CALLS_PER_RUN: exhausted.append('Cloudflare Workers AI')
+        if os.getenv('OPENROUTER_API_KEY','').strip() and OPENROUTER_CALLS_THIS_RUN>=MAX_OPENROUTER_CALLS_PER_RUN: exhausted.append('OpenRouter')
         if exhausted: raise RuntimeError('Per-run provider call budgets exhausted: '+', '.join(exhausted))
         raise RuntimeError('No configured provider/model is currently eligible; check API keys and model discovery logs.')
     raise RuntimeError('All discovered eligible AI models failed: '+' | '.join(errors[-12:]))
@@ -1277,7 +1324,7 @@ def main():
         'undated_items_retained':len(undated_items),'undated_items_recovered':recovered_undated,
         'window_end_at':run_started.isoformat(),
         'bootstrap_start':INITIAL_WINDOW_START if not seen_data.get('last_successful_window_end') else None,
-        'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','XAI_API_KEY','OPENROUTER_API_KEY')),
+        'api_keys_configured':sum(bool(os.getenv(k,'').strip()) for k in ('GEMINI_API_KEY','CLOUDFLARE_API_TOKEN','OPENROUTER_API_KEY')),
         'generation_attempts':generation_attempts,'ai_responses':ai_responses,
         'generation_failures':generation_failures,'candidate_groups_attempted':candidate_groups_attempted,
         'ready_queue':sum(1 for x in research_queue if x.get('status')=='READY')

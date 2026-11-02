@@ -68,6 +68,36 @@ class ModelAllowlistTests(unittest.TestCase):
             self.assertEqual(mocked.call_args.args[0],'https://api.x.ai/v1/responses')
             self.assertFalse(mocked.call_args.args[1]['store'])
 
+
+    def test_cloudflare_workers_ai_uses_preflight_tested_model_and_parses_json(self):
+        os.environ['CLOUDFLARE_ACCOUNT_ID']='account-test'
+        os.environ['CLOUDFLARE_API_TOKEN']='token-test'
+        payload={'success':True,'result':{'response':'{"publish":false,"reason":"insufficient evidence","title":"","summary":"","category":"vietnam","seo_title":"","meta_description":"","keywords":[],"body":[],"source_index":0,"fact_ledger":[],"editorial_value":"","risk_level":"R1","freshness_ttl_hours":24}'}}
+        with patch.object(n,'_post_json',return_value=payload) as mocked:
+            result=n.cloudflare_workers_ai('prompt')
+        self.assertFalse(result['publish'])
+        self.assertIn('/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast',mocked.call_args.args[0])
+        self.assertEqual(mocked.call_args.args[2]['Authorization'],'Bearer token-test')
+        self.assertEqual(mocked.call_args.args[1]['max_tokens'],7000)
+
+    def test_cloudflare_is_second_writer_fallback_after_gemini(self):
+        no_publish={'publish':False,'reason':'not enough evidence'}
+        with patch.dict(os.environ,{'GEMINI_API_KEY':'gemini-test',
+                                   'CLOUDFLARE_ACCOUNT_ID':'account-test',
+                                   'CLOUDFLARE_API_TOKEN':'cf-test'},clear=True), \
+             patch.object(n,'MODEL_DISCOVERY_CACHE',{}), \
+             patch.object(n,'discover_gemini_models',return_value=['gemini-test']), \
+             patch.object(n,'gemini',side_effect=RuntimeError('Gemini unavailable')), \
+             patch.object(n,'cloudflare_workers_ai',return_value=no_publish) as cf_call, \
+             patch.object(n,'GEMINI_CALLS_THIS_RUN',0), \
+             patch.object(n,'CLOUDFLARE_CALLS_THIS_RUN',0), \
+             patch.object(n,'MAX_GEMINI_CALLS_PER_RUN',2), \
+             patch.object(n,'MAX_CLOUDFLARE_CALLS_PER_RUN',3):
+            result,provider=n.generate_with_fallback('evidence prompt')
+        self.assertEqual(provider,'Cloudflare Workers AI:'+n.CLOUDFLARE_MODEL)
+        self.assertFalse(result['publish'])
+        cf_call.assert_called_once()
+
     def test_openrouter_requires_zero_cost_free_variant(self):
         os.environ['OPENROUTER_API_KEY']='test'
         payload={'data':[{'id':'a/model:free','pricing':{'prompt':'0','completion':'0'},'context_length':32000},{'id':'b/model','pricing':{'prompt':'0','completion':'0'},'context_length':32000},{'id':'c/model:free','pricing':{'prompt':'0.1','completion':'0'},'context_length':32000}]}
