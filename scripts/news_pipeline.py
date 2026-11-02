@@ -951,9 +951,13 @@ def make_article(obj, group, evidence_pages=None):
     summary=clean(obj.get('summary',''))
     category=obj.get('category','')
     body=[clean(p) for p in obj.get('body',[]) if clean(p)]
+    content_type=str(obj.get('content_type') or '')
+    if content_type not in {'quick_update','short_explainer','news_analysis','long_analysis'}:
+        raise ValueError('AI output missing or invalid content_type; article type must be explicit')
     category=normalize_vietnam_category(title, summary, body, category)
-    if category not in CATEGORY_LABELS or not title or len(body)<4:
-        raise ValueError('Article missing title/category/body structure')
+    required_paragraphs=minimum_paragraphs_for_type(content_type)
+    if category not in CATEGORY_LABELS or not title or len(body)<required_paragraphs:
+        raise ValueError(f'Article missing title/category/body structure; {content_type} requires at least {required_paragraphs} paragraphs')
     allowed_urls=[x.get('source_url') for x in group if x.get('source_url')]
     evidence_pages=evidence_pages or {}
     body_text=' '.join(body)
@@ -1015,9 +1019,6 @@ def make_article(obj, group, evidence_pages=None):
         advice=validate_r3_content(title,body)
         if advice:
             raise ValueError('R3 contains actionable personal advice: '+', '.join(advice[:4]))
-    content_type=str(obj.get('content_type') or '')
-    if content_type not in {'quick_update','short_explainer','news_analysis','long_analysis'}:
-        raise ValueError('AI output missing or invalid content_type; article type must be explicit')
     data_type=str(obj.get('data_type') or 'general')
     ttl_cap=ttl_for_data_type(data_type,risk)
     try: ttl=max(1,min(ttl_cap,int(obj.get('freshness_ttl_hours',ttl_cap))))

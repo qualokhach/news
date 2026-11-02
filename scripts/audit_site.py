@@ -165,7 +165,10 @@ def main():
     writing_script=(ROOT/'scripts/write_candidates.py').read_text(encoding='utf-8')
     assert 'MAX_OPENROUTER_CALLS_PER_RUN' in (ROOT/'scripts/news_pipeline.py').read_text(encoding='utf-8'), "OpenRouter free-tier call cap missing in provider implementation."
     assert 'python scripts/write_candidates.py' in workflow, "Writing stage must run before publishing."
-    assert 'GEMINI_API_KEY' not in research_workflow and 'OPENROUTER_API_KEY' not in research_workflow, "Research workflow must not receive AI provider keys."
+    research_job_workflow=research_workflow.split('  write_staged:',1)[0]
+    writing_job_workflow=research_workflow.split('  write_staged:',1)[1] if '  write_staged:' in research_workflow else ''
+    assert 'GEMINI_API_KEY' not in research_job_workflow and 'OPENROUTER_API_KEY' not in research_job_workflow and 'CLOUDFLARE_API_TOKEN' not in research_job_workflow, "Research job must not receive AI provider keys."
+    assert 'python scripts/write_candidates.py' in writing_job_workflow, "Research completion must chain to the separate AI writing job."
     assert 'git add data/archive_batches' not in workflow, "Optional archive directory must not be an unconditional Git pathspec in the publish workflow."
     assert 'if [ -d data/archive_batches ]' in workflow and 'git add -A -- data/archive_batches/' in workflow, "Publish workflow must stage archive batches only when the directory contains JSON files."
     assert 'git add data/archive_batches' not in legacy_workflow, "Optional archive directory must not be an unconditional Git pathspec in the legacy workflow."

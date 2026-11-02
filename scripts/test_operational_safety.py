@@ -214,10 +214,11 @@ class WorkflowSafetyTests(unittest.TestCase):
         self.assertIn('45 3 * * *',text)
         self.assertIn('45 8 * * *',text)
         self.assertIn('NEWS_PUBLIC_FACTUAL_RESEARCH: "1"',text)
-        self.assertNotIn('GEMINI_API_KEY',text)
-        self.assertNotIn('XAI_API_KEY',text)
-        self.assertNotIn('OPENROUTER_API_KEY',text)
-        self.assertNotIn('check_ai_providers.py',text)
+        research_job=text.split('  write_staged:',1)[0]
+        self.assertNotIn('GEMINI_API_KEY',research_job)
+        self.assertNotIn('XAI_API_KEY',research_job)
+        self.assertNotIn('OPENROUTER_API_KEY',research_job)
+        self.assertNotIn('check_ai_providers.py',research_job)
         publish=(ROOT/'.github/workflows/build-news.yml').read_text(encoding='utf-8')
         self.assertIn('python scripts/write_candidates.py',publish)
 
@@ -238,6 +239,23 @@ class WorkflowSafetyTests(unittest.TestCase):
         for name in ('build-news.yml','research-news.yml'):
             text=(ROOT/'.github/workflows'/name).read_text(encoding='utf-8')
             self.assertIn("python -m unittest discover -s scripts -p 'test_*.py' -v",text)
+
+    def test_research_and_writing_are_chained_inside_one_workflow_run(self):
+        research=(ROOT/'.github/workflows/research-news.yml').read_text(encoding='utf-8')
+        self.assertIn('  write_staged:\n    needs: research',research)
+        self.assertIn('ref: ${{ github.ref_name }}',research)
+        self.assertIn('python scripts/write_candidates.py',research)
+        self.assertIn('GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_APPNHO_NEWS }}',research)
+        self.assertIn('CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}',research)
+        self.assertIn('OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_APPNHO_NEWS }}',research)
+        manual=(ROOT/'.github/workflows/write-staged.yml').read_text(encoding='utf-8')
+        self.assertIn('workflow_dispatch:',manual)
+        self.assertNotIn('workflow_run:',manual)
+
+    def test_writer_uses_the_same_paragraph_floor_as_quality_policy(self):
+        source=(ROOT/'scripts/news_pipeline.py').read_text(encoding='utf-8')
+        self.assertIn('required_paragraphs=minimum_paragraphs_for_type(content_type)',source)
+        self.assertNotIn('len(body)<4',source)
 
 if __name__=='__main__':
     unittest.main(verbosity=2)
