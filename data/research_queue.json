@@ -4441,7 +4441,7 @@
   },
   {
     "queue_id": "981b451825f3f090b75d",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T14:25:01.888498+00:00",
     "expires_at": "2026-11-05T14:23:01.627855+00:00",
     "category_hint": "sports",
@@ -4534,11 +4534,12 @@
         "source_feed_domain": "bbci.co.uk",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "editorial_reason": "Bằng chứng không đủ để viết một bài báo hoàn chỉnh đạt mức tối thiểu 575 từ trong phần body theo thể loại short_explainer mà không phải suy diễn hoặc lặp ý."
   },
   {
     "queue_id": "435dd7a7d45281c08976",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T14:25:05.811129+00:00",
     "expires_at": "2026-11-05T14:23:01.627855+00:00",
     "category_hint": "sports",
@@ -4704,11 +4705,12 @@
         "attempts": 0,
         "source_feed_domain": "bbci.co.uk"
       }
-    ]
+    ],
+    "editorial_reason": "Bằng chứng cung cấp từ nguồn Sky Sports chỉ đủ viết một bản tin ngắn về lịch thi đấu Sao Paulo GP và cách xem tại Anh, chưa đủ dữ liệu chi tiết và đa chiều để hoàn thành một bài phân tích chuyên sâu thuộc thể loại short_explainer đạt độ dài yêu cầu từ 500 đến 650 từ mà không suy diễn hoặc lặp ý."
   },
   {
     "queue_id": "df44fe5409885651c819",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-02T16:00:46.047308+00:00",
     "expires_at": "2026-11-05T15:58:38.730524+00:00",
     "category_hint": "world",
@@ -4905,7 +4907,8 @@
         "attempts": 0,
         "source_feed_domain": "bbci.co.uk"
       }
-    ]
+    ],
+    "editorial_reason": "Chỉ có một nguồn thứ cấp hợp lệ về nội dung thể thao cricket (The Guardian), nguồn thứ hai là về NFL, không đủ nguồn độc lập và dữ liệu để viết bài phân tích dài theo yêu cầu thể loại short_explainer đạt tối thiểu 500 từ body một cách an toàn và khách quan."
   },
   {
     "queue_id": "d37be3e9150e2e09f314",
