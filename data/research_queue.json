@@ -8152,7 +8152,7 @@
   },
   {
     "queue_id": "0d2d8effddc0e72377ee",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T03:07:05.945229+00:00",
     "expires_at": "2026-11-06T03:05:40.204071+00:00",
     "category_hint": "world",
@@ -8412,11 +8412,13 @@
         "attempts": 0,
         "source_feed_domain": "cnbc.com"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "3d75308c94a1b442bdc7",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T03:07:08.859033+00:00",
     "expires_at": "2026-11-06T03:05:40.204071+00:00",
     "category_hint": "world",
@@ -8507,11 +8509,13 @@
         "source_feed_domain": "arstechnica.com",
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "5990a93b3d6d146977b8",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T03:07:14.545546+00:00",
     "expires_at": "2026-11-06T03:05:40.204071+00:00",
     "category_hint": "vietnam",
@@ -8999,7 +9003,9 @@
         "attempts": 0,
         "source_feed_domain": "thanhnien.vn"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc"
   },
   {
     "queue_id": "438f9f6b218ea1b2e958",
