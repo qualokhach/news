@@ -47,7 +47,18 @@ THUMBS = {
     'technology': 'https://res.cloudinary.com/wnlmpwor/image/upload/v1792675323/tin_Cong_Nghe.png',
 }
 CATEGORY_LABELS = {'world':'Thế giới','vietnam':'Việt Nam','sports':'Thể thao','technology':'Công nghệ'}
-STOP = set('và là của có cho trong với một những các được từ đến khi tại về theo sau trước đang đã sẽ này đó như nhưng vì để nếu thì hoặc cũng vào hơn rất nhiều người ngày năm tháng tin bài thông tin'.split())
+# Bilingual stop words plus generic newsroom vocabulary. These words often
+# create accidental matches across unrelated RSS headlines ("after", "test",
+# "drop", "bid", "Olympic", etc.) and must not be treated as topic identity.
+STOP = set('''và là của có cho trong với một những các được từ đến khi tại về theo sau trước đang đã sẽ này đó như nhưng vì để nếu thì hoặc cũng vào hơn rất nhiều người ngày năm tháng tin bài thông tin
+a an the and or but if then than so as at by for from in into of on onto out over per to up via with without after before during amid around about against between beyond despite following near past since through toward under until upon versus while within
+this that these those it its they them their he she his her we our you your who what when where why how which whose whom
+new latest live update updates news report reports says said according amid after ahead back still just also one two three
+team teams player players club clubs season match matches game games games win wins won loss losses defeat defeats race racewalk sports sport
+world cup league championship championships olympic olympics bid race forced modernise modernize midterms
+ra sao nay tây bảo hiểm bảo hiểm bảo hiem kết đầu mùa năm nay
+test tests earnings revenue profit profits shares stock stocks market markets company companies business businesses
+'''.split())
 
 
 # Bootstrap boundary for this repository's first windowed run. Vietnam time 2026-10-24 06:00.
@@ -328,10 +339,15 @@ def similarity(a,b):
     jac=len(ta&tb)/max(1,len(ta|tb))
     seq=difflib.SequenceMatcher(None,(a or '').lower(),(b or '').lower()).ratio()
     return max(jac,seq*0.72)
-def headlines_related(a,b,min_similarity=0.28,min_shared_tokens=2):
-    """Conservative title match for grouping publisher reports of the same event."""
-    shared=tokens(a) & tokens(b)
-    return len(shared)>=min_shared_tokens and similarity(a,b)>=min_similarity
+def headlines_related(a,b,min_similarity=0.08,min_shared_tokens=2):
+    """Require shared topic-bearing terms; sequence similarity is unsafe for headlines."""
+    ta,tb=tokens(a),tokens(b)
+    shared=ta & tb
+    if len(shared)<min_shared_tokens:
+        return False
+    # Use token overlap only here; retain the broader similarity metric for
+    # duplicate-title detection elsewhere in the pipeline.
+    return len(shared)/max(1,len(ta|tb))>=min_similarity
 def source_score(item, group_count, usage_penalty=0):
     score=35
     dt=item.get('source_published_at')

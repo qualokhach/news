@@ -275,4 +275,29 @@ line two","category":"world","seo_title":"x","meta_description":"x","keywords":[
         self.assertTrue(n.headlines_related(lead,related))
         self.assertFalse(n.headlines_related(lead,unrelated))
 
+    def test_headline_grouping_rejects_shared_generic_news_words(self):
+        lead='Sunoco faces earnings test after profit miss, revenue drop ahead'
+        unrelated_a='Australia Test captain Pat Cummins to miss upcoming England matches'
+        unrelated_b='NFL power rankings: teams climb after big wins and drop for Week 9'
+        self.assertFalse(n.headlines_related(lead,unrelated_a))
+        self.assertFalse(n.headlines_related(lead,unrelated_b))
+
+    def test_headline_grouping_keeps_same_named_event_across_publishers(self):
+        lead='Ryanair considers pay freezes and reducing crew on flights as fuel costs soar'
+        related='Ryanair CEO warns fares could rise as fuel bill jumps'
+        self.assertTrue(n.headlines_related(lead,related))
+        ciara='Ciara Mageean, European 1500m gold medallist with Ireland, dies aged 34'
+        related_ciara='European champion Mageean dies aged 34'
+        self.assertTrue(n.headlines_related(ciara,related_ciara))
+        # Generic phrase overlap must not merge unrelated Vietnamese/political stories.
+        agri='Dự báo thiệt hại sản xuất nông nghiệp các tỉnh miền Tây mùa khô năm nay ra sao?'
+        rail='Từ thảm kịch đường sắt Tây Ban Nha: Mạng lưới 4.000km vận hành ra sao?'
+        self.assertFalse(n.headlines_related(agri,rail))
+        vp='VPBank và AIA ra mắt bảo hiểm kết hợp bảo vệ và đầu tư'
+        hospital='Bệnh viện ứng phó xuất toán bảo hiểm y tế'
+        self.assertFalse(n.headlines_related(vp,hospital))
+        trump='The Trump Administration Is Wreaking Havoc on the Electoral System Before the Midterms'
+        iran="'Give them the hammer': Trump threatens Iran ahead of midterms"
+        self.assertFalse(n.headlines_related(trump,iran))
+
 if __name__=='__main__': unittest.main(verbosity=2)

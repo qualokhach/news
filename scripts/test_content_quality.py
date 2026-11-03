@@ -291,6 +291,11 @@ class ContentQualityTests(unittest.TestCase):
         from content_quality import evidence_matches_title
         self.assertTrue(evidence_matches_title("NASA công bố sứ mệnh nghiên cứu Mặt Trăng","NASA công bố sứ mệnh nghiên cứu Mặt Trăng với lịch trình mới."))
         self.assertFalse(evidence_matches_title("NASA công bố sứ mệnh nghiên cứu Mặt Trăng","Một giải đấu bóng đá diễn ra cuối tuần này."))
+        # Two generic shared words are not enough to establish page relevance.
+        self.assertFalse(evidence_matches_title(
+            "Sunoco faces earnings test after profit miss revenue drop ahead",
+            "A report says earnings may drop after a test, but it concerns an unrelated sports team."
+        ))
 
     def test_r3_personal_advice_is_flagged(self):
         from content_quality import validate_r3_content

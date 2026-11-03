@@ -510,9 +510,12 @@ _TITLE_STOPWORDS = {
     "và","là","của","cho","khi","trong","những","các","một","về","với","từ","theo",
     "tại","sau","trước","ngày","hôm","qua","được","đã","sẽ","đang","này","đó","nào",
     "ra","vào","đến","bởi","vì","như","có","không","trên","dưới","giữa","nhiều","mới",
+    "a","an","the","and","or","but","if","then","than","as","at","by","for","from","in","into",
+    "of","on","out","over","to","up","with","after","before","during","amid","ahead","back",
+    "still","just","also","test","tests","drop","drops","rise","rises","new","latest","report",
 }
 
-def evidence_matches_title(title: str, evidence: str, minimum_overlap=0.20) -> bool:
+def evidence_matches_title(title: str, evidence: str, minimum_overlap=0.30) -> bool:
     title_tokens={x for x in re.findall(r"[a-z0-9À-ỹ]+",str(title or "").casefold()) if len(x)>2 and x not in _TITLE_STOPWORDS}
     if len(title_tokens)<2:
         return False
