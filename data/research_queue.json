@@ -7783,7 +7783,7 @@
   },
   {
     "queue_id": "fb58b78e5d71418abda8",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T02:21:04.233612+00:00",
     "expires_at": "2026-11-06T02:18:49.946568+00:00",
     "category_hint": "sports",
@@ -7878,11 +7878,12 @@
         "retry_after": "2026-11-01T16:47:42.872882+00:00",
         "source_feed_domain": "skysports.com"
       }
-    ]
+    ],
+    "editorial_reason": "Các thông tin trong nguồn chỉ là tin tổng hợp chuyển nh\\u01b°ợng (paper talk/gossip) từ các báo khác (như The Mirror), không phải nguồn chính thợng từ các câu lạc bộ liên quan. Do chỉ có các nguồn thứ cấp/tổng hợp tin mật, không đủ căn cứ và nguồn gốc chính thợng để viết một bài báo hoàn ch\\u1ec chỉ"
   },
   {
     "queue_id": "4986250496a9585711fe",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T02:21:05.469116+00:00",
     "expires_at": "2026-11-06T02:18:49.946568+00:00",
     "category_hint": "sports",
@@ -7979,11 +7980,13 @@
         "retry_after": "2026-11-01T16:47:42.872882+00:00",
         "source_feed_domain": "theguardian.com"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện",
+    "last_write_error": "fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện"
   },
   {
     "queue_id": "f916c143ed940587edbf",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T02:21:06.227912+00:00",
     "expires_at": "2026-11-06T02:18:49.946568+00:00",
     "category_hint": "technology",
@@ -8143,7 +8146,9 @@
         "attempts": 0,
         "source_feed_domain": "sportingnews.com"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện"
   },
   {
     "queue_id": "0d2d8effddc0e72377ee",
