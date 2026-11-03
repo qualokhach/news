@@ -6198,7 +6198,7 @@
     "queue_id": "668465c0623ffdc0f40c",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-02T18:53:33.542582+00:00",
-    "expires_at": "2026-11-05T18:51:16.679812+00:00",
+    "expires_at": "2026-11-06T09:50:08.107993+00:00",
     "category_hint": "vietnam",
     "lead_title": "Kết quả, bảng xếp hạng bóng chuyền nam vô địch quốc gia ngày 2-11",
     "source_urls": [
@@ -6444,9 +6444,9 @@
         "source_feed_domain": "thanhnien.vn"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] chứa URL ngoài tập nguồn đã thu thập; fact_ledger[2] chứa URL ngoài tập nguồn đã thu thập; fact_ledger[3] chứa URL ngoài tập nguồn đã thu thập | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (256/500 words, 5/3 paragraphs, type=short_explainer); minimum editorial word count was not met | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: fact_le",
-    "write_attempts": 1,
-    "next_write_after": "2026-11-03T09:07:52.020269+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Generated draft below safety floor (347/350 words, 5/3 paragraphs, type=short_explainer); minimum editorial word count was not met | Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety f",
+    "write_attempts": 2,
+    "next_write_after": "2026-11-03T17:50:08.107993+00:00"
   },
   {
     "queue_id": "286cb1fd7f5ee4528e8d",
@@ -7228,7 +7228,7 @@
     "queue_id": "17fd7e3a70dcaf29adc1",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-03T02:20:53.272468+00:00",
-    "expires_at": "2026-11-06T02:18:49.946568+00:00",
+    "expires_at": "2026-11-06T09:50:08.107993+00:00",
     "category_hint": "vietnam",
     "lead_title": "Trường ĐH Mở TP.HCM: Dấu ấn 36 năm tiên phong đào tạo từ xa",
     "source_urls": [
@@ -7578,15 +7578,15 @@
         "source_feed_domain": "thanhnien.vn"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Bản thảo có mức tương đồng quá cao với nội dung nguồn; cần viết lại theo góc biên tập riêng | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (423/500 words, 6/3 paragraphs, type=short_explainer); minimum editorial word count was not met | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Bản thảo có mức tương đồng quá cao với nội dung nguồn; cần viết lại theo ",
-    "write_attempts": 1,
-    "next_write_after": "2026-11-03T09:42:01.443779+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: R2 requires a primary source or at least three independent source domains | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: fact_ledger cần ít nhất 3 dữ kiện có thể kiểm tra | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:free HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"xingchen-agi/xing4.0-29b-a4b:free is temporarily",
+    "write_attempts": 2,
+    "next_write_after": "2026-11-03T17:50:08.107993+00:00"
   },
   {
     "queue_id": "52b85d817ac44a480ac7",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-03T02:21:02.059546+00:00",
-    "expires_at": "2026-11-06T02:18:49.946568+00:00",
+    "expires_at": "2026-11-06T09:50:08.107993+00:00",
     "category_hint": "vietnam",
     "lead_title": "Chứng khoán 3-11: VN-Index có thể lùi về 1.680 điểm, ưu tiên giữ tiền mặt?",
     "source_urls": [
@@ -7777,9 +7777,9 @@
         "source_feed_domain": "thanhnien.vn"
       }
     ],
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Bản thảo có mức tương đồng quá cao với nội dung nguồn; cần viết lại theo góc biên tập riêng | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:f",
-    "write_attempts": 1,
-    "next_write_after": "2026-11-03T09:42:01.443779+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: R3 requires a primary/official source | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: fact_ledger[5] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn",
+    "write_attempts": 2,
+    "next_write_after": "2026-11-03T17:50:08.107993+00:00"
   },
   {
     "queue_id": "fb58b78e5d71418abda8",
