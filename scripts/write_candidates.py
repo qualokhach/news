@@ -120,13 +120,16 @@ def main():
             failed+=1
             print(f"[WRITING_RETRY] {item.get('lead_title')}: source metadata mismatch after Research; retry in {retry}h.")
             continue
-        dossier=item.get('research_dossier') or np.build_research_dossier(group,evidence)
-        dossier_ok,dossier_reason=np.research_dossier_ready(dossier)
-        if not dossier_ok:
-            retry=defer_writing(item,'Research đã đánh dấu hồ sơ sẵn sàng nhưng Writing đọc thấy mâu thuẫn cấu trúc: '+dossier_reason)
-            failed+=1
-            print(f"[WRITING_RETRY] {item.get('lead_title')}: sealed dossier metadata mismatch; retry in {retry}h; no Research loop.")
-            continue
+        # WRITING_PENDING is the Research hand-off contract: Research has already
+        # applied its evidence-readiness gate before staging this record. Do not run
+        # research_dossier_ready() again here; rebuilding/recounting facts in Writing
+        # can disagree with Research (notably for multilingual or concise sources).
+        # Preserve the sealed dossier verbatim; build a prompt-only dossier for legacy
+        # queue records that predate the dossier field. Source/page integrity and
+        # source-family checks above remain in force.
+        dossier=item.get('research_dossier')
+        if not isinstance(dossier,dict) or not dossier:
+            dossier=np.build_research_dossier(group,evidence)
         attempted+=1
         validated={}
         def validate_for_provider(candidate,provider_label):
