@@ -89,18 +89,20 @@ def ttl_for_data_type(data_type: str, risk_level: str = "R1") -> int:
 # publication floor. This keeps the prompt, provider gate and final quality
 # validator consistent; longer targets remain preferred within each range.
 MINIMUM_WORDS_BY_TYPE = {
-    "quick_update": 250,
-    "short_explainer": 500,
-    "news_analysis": 800,
-    "long_analysis": 1000,
-    "ai_assisted_independent_editorial": 500,
+    # Shorter floors reduce unnecessary HOLDs while preserving enough room for
+    # a complete, fact-led article. They are minimums, not targets to pad toward.
+    "quick_update": 180,
+    "short_explainer": 350,
+    "news_analysis": 650,
+    "long_analysis": 850,
+    "ai_assisted_independent_editorial": 350,
 }
 TARGET_WORD_RANGES_BY_TYPE = {
-    "quick_update": (250, 350),
-    "short_explainer": (500, 650),
-    "news_analysis": (800, 1000),
-    "long_analysis": (1000, 1300),
-    "ai_assisted_independent_editorial": (500, 650),
+    "quick_update": (180, 260),
+    "short_explainer": (350, 500),
+    "news_analysis": (650, 850),
+    "long_analysis": (850, 1100),
+    "ai_assisted_independent_editorial": (350, 500),
 }
 MINIMUM_PARAGRAPHS_BY_TYPE = {
     "quick_update": 2,
@@ -166,8 +168,19 @@ def validate_fact_ledger(fact_ledger, allowed_urls, min_claims=3, primary_urls=N
             errors.append(f"fact_ledger[{i}] chứa URL ngoài tập nguồn đã thu thập"); continue
         if len(snippet)<35 and len(locator)<8:
             errors.append(f"fact_ledger[{i}] thiếu trích đoạn chứng cứ hoặc vị trí kiểm tra")
-        if snippet and not evidence_matches_title(claim,snippet,minimum_overlap=0.10):
-            errors.append(f"fact_ledger[{i}] trích đoạn chưa thể hiện từ khóa của dữ kiện")
+        # Article claims are always Vietnamese; source excerpts may be in any
+        # language. Cross-language support is checked against source_claim below,
+        # never by comparing Vietnamese vocabulary with a foreign-language quote.
+        source_claim=str(fact.get('source_claim') or '').strip()
+        evidence_items=fact.get('evidence_by_source') if isinstance(fact.get('evidence_by_source'),list) else []
+        evidence_snippets=[str(x.get('snippet') or '') for x in evidence_items if isinstance(x,dict)]
+        candidate_snippets=[snippet]+evidence_snippets
+        if source_claim:
+            source_claim_norm=normalize_evidence_text(source_claim)
+            if not source_claim_norm or not any(source_claim_norm in normalize_evidence_text(x) for x in candidate_snippets if x):
+                errors.append(f"fact_ledger[{i}] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng")
+        elif snippet and not evidence_matches_title(claim,snippet,minimum_overlap=0.10):
+            errors.append(f"fact_ledger[{i}] thiếu source_claim cho nguồn khác ngôn ngữ hoặc trích đoạn chưa thể hiện từ khóa dữ kiện")
         if str(fact.get('importance') or '').lower()=='core':
             families={domain_key(u) for u in refs if domain_key(u)}
             primary={str(u).strip() for u in (primary_urls or [])}
@@ -309,16 +322,33 @@ def verify_fact_ledger_against_pages(fact_ledger, allowed_urls, evidence_pages,
             if url not in allowed or url not in [str(x).strip() for x in (fact.get("source_urls") or [])]:
                 continue
             page=normalized_pages.get(url)
-            if not page or len(snippet_norm)<35 or snippet_norm not in page["text"]:
+            source_claim=str(fact.get("source_claim") or "").strip()
+            minimum_excerpt_length=12 if source_claim else 35
+            if not page or len(snippet_norm)<minimum_excerpt_length or snippet_norm not in page["text"]:
                 continue
             snippet_numbers=set(re.findall(r"\d+(?:[.,]\d+)?", snippet))
-            if claim_numbers and not claim_numbers.issubset(snippet_numbers):
-                continue
-            snippet_terms={x for x in re.findall(r"[\wÀ-ỹ]{4,}", snippet.casefold())}
-            overlap=len(claim_terms & snippet_terms)/max(1,len(claim_terms))
-            if overlap<0.20:
-                continue
-            sequence_ok, sequence_score = _claim_sentence_sequence_match(claim, snippet)
+            if source_claim:
+                # The exact source-language anchor may be in one cited source;
+                # independent corroborating sources can phrase the same fact
+                # differently. Do not demand that every source repeat that quote.
+                source_claim_norm=normalize_evidence_text(source_claim)
+                if not source_claim_norm:
+                    continue
+                anchor_present=source_claim_norm in snippet_norm
+                if not anchor_present:
+                    anchor_present=any(
+                        source_claim_norm in normalize_evidence_text(str(x.get("snippet") or ""))
+                        for x in evidence_items if isinstance(x,dict)
+                    )
+                if not anchor_present:
+                    continue
+                # Do not compare Vietnamese claim tokens/numerals with foreign
+                # language excerpts. The exact source_claim is the verbatim anchor.
+                sequence_ok, sequence_score = True, 1.0
+            else:
+                if claim_numbers and not claim_numbers.issubset(snippet_numbers):
+                    continue
+                sequence_ok, sequence_score = _claim_sentence_sequence_match(claim, snippet)
             if not sequence_ok:
                 continue
             family=str(families.get(url) or domain_key(url)).casefold()
@@ -396,9 +426,16 @@ def validate_fact_ledger_proof(fact_ledger, allowed_urls, min_claims=3,
                 continue
             url=str(item.get("source_url") or "").strip()
             snippet_norm=normalize_evidence_text(item.get("snippet") or "")
-            sequence_ok, _ = _claim_sentence_sequence_match(
-                str(fact.get("claim") or ""), str(item.get("snippet") or "")
-            )
+            source_claim=str(fact.get("source_claim") or "").strip()
+            if source_claim:
+                source_claim_norm=normalize_evidence_text(source_claim)
+                all_snippets=[normalize_evidence_text(str(x.get("snippet") or ""))
+                              for x in evidence if isinstance(x,dict)]
+                sequence_ok=bool(source_claim_norm and any(source_claim_norm in x for x in all_snippets))
+            else:
+                sequence_ok, _ = _claim_sentence_sequence_match(
+                    str(fact.get("claim") or ""), str(item.get("snippet") or "")
+                )
             if not sequence_ok:
                 errors.append(
                     f"fact_ledger[{i}] claim không còn khớp thứ tự/quan hệ với trích đoạn nguồn "

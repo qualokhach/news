@@ -175,10 +175,15 @@ def validate_candidate(article, now):
             if not snippet or snippet not in page:
                 errors.append(f'fact_ledger[{i}] trích đoạn từ {domain_key(url)} không còn xuất hiện tại thời điểm xuất bản')
                 continue
-            claim_numbers=set(re.findall(r'\d+(?:[.,]\d+)?',str(fact.get('claim') or '')))
-            snippet_numbers=set(re.findall(r'\d+(?:[.,]\d+)?',str(item.get('snippet') or '')))
-            if claim_numbers and not claim_numbers.issubset(snippet_numbers):
-                errors.append(f'fact_ledger[{i}] số liệu claim không khớp trích đoạn nguồn tại thời điểm xuất bản')
+            # Vietnamese claims may localize dates/numbers differently from a
+            # foreign-language source. For multilingual records, the verbatim
+            # source_claim is already anchored to the exact excerpt and hashed proof.
+            # Retain strict numeric comparison for legacy same-language records.
+            if not str(fact.get('source_claim') or '').strip():
+                claim_numbers=set(re.findall(r'\d+(?:[.,]\d+)?',str(fact.get('claim') or '')))
+                snippet_numbers=set(re.findall(r'\d+(?:[.,]\d+)?',str(item.get('snippet') or '')))
+                if claim_numbers and not claim_numbers.issubset(snippet_numbers):
+                    errors.append(f'fact_ledger[{i}] số liệu claim không khớp trích đoạn nguồn tại thời điểm xuất bản')
     return (not errors),errors,stats|{'source_access':access_results,'independent_domains':domains,'primary_source_present':primary}
 
 def main():

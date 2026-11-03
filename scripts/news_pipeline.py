@@ -348,6 +348,92 @@ def headlines_related(a,b,min_similarity=0.08,min_shared_tokens=2):
     # Use token overlap only here; retain the broader similarity metric for
     # duplicate-title detection elsewhere in the pipeline.
     return len(shared)/max(1,len(ta|tb))>=min_similarity
+
+def build_research_dossier(group, evidence):
+    """Build a factual inventory before AI writing; source length is not a quality proxy."""
+    pages=[]
+    fact_rows=[]
+    for source in group:
+        url=source.get('source_url','')
+        page=str(evidence.get(url,'') or '')
+        if not page.strip():
+            continue
+        info=source_info(url)
+        family=(info.get('source_family') or domain_key(url) or url).casefold()
+        pages.append({'url':url,'family':family,'is_primary':bool(info.get('is_primary')),
+                      'source_type':info.get('source_type','')})
+        # Short official notices and concise specialist reports can carry high-value facts.
+        # Count factual propositions, not characters or repeated sentence length.
+        for sentence in re.split(r'(?<=[.!?。！？])\s+|\n+',page):
+            sentence=clean(sentence)
+            if len(sentence.split()) < 5:
+                continue
+            low=sentence.casefold()
+            if any(x in low for x in ('cookie policy','subscribe to our newsletter','all rights reserved',
+                                      'đăng ký nhận tin','đọc thêm','privacy policy')):
+                continue
+            has_number=bool(re.search(r'\d',sentence))
+            has_date=bool(re.search(r'\b(?:20\d{2}|jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b',low))
+            # Page extraction is often normalized to lowercase. Retain factual sentences
+            # with quantities/dates, plus sufficiently specific propositions for later claim checks.
+            if has_number or has_date or len(sentence.split()) >= 9:
+                fact_rows.append({'url':url,'family':family,'text':sentence[:900],
+                                  'numeric':has_number,'date':has_date})
+    # Deduplicate within a publisher family, but do not require other publishers to use
+    # identical wording: paraphrased independent reporting is normal.
+    unique={}
+    for row in fact_rows:
+        key=re.sub(r'\W+',' ',row['text'].casefold()).strip()
+        if not key:
+            continue
+        bucket=unique.setdefault(key,{**row,'families':set(),'urls':set()})
+        bucket['families'].add(row['family']); bucket['urls'].add(row['url'])
+    facts=list(unique.values())
+    families={x['family'] for x in pages if x['family']}
+    primary_pages=[x for x in pages if x['is_primary']]
+    # Genre follows the number and diversity of usable factual units, not page length.
+    # Analysis is reserved for genuinely broad dossiers; otherwise use a concise report.
+    cross_family_facts=sum(1 for x in facts if len(x['families']) >= 2)
+    if len(families)>=4 and len(facts)>=12 and cross_family_facts>=2:
+        content_type='news_analysis'
+    elif len(families)>=3 and len(facts)>=7:
+        content_type='short_explainer'
+    else:
+        content_type='quick_update'
+    low,high=target_word_range_for_type(content_type)
+    return {
+        'source_count':len(pages),'independent_families':len(families),
+        'evidence_characters':sum(len(str(evidence.get(x['url'],'') or '')) for x in pages),
+        'distinct_fact_units':len(facts),'corroborated_fact_units':cross_family_facts,
+        'numeric_fact_units':sum(1 for x in facts if x['numeric']),
+        'primary_source_count':len(primary_pages),'content_type':content_type,
+        'target_words':(low+high)//2,
+        'fact_units':[{'text':x['text'],'source_families':sorted(x['families']),
+                       'source_urls':sorted(x['urls']),'numeric':x['numeric'],'date':x['date']}
+                      for x in facts[:40]],
+        'source_inventory':pages
+    }
+
+
+def research_dossier_ready(dossier):
+    """Evidence readiness gate. No minimum character/page-length threshold is used."""
+    if not dossier:
+        return False, 'Không có hồ sơ dữ liệu nghiên cứu.'
+    families=int(dossier.get('independent_families',0) or 0)
+    source_count=int(dossier.get('source_count',0) or 0)
+    inventory=dossier.get('source_inventory') or []
+    has_primary=any(isinstance(x,dict) and x.get('is_primary') for x in inventory)
+    if source_count<1 or (families<2 and not has_primary):
+        return False, 'Chưa có hai nhóm nguồn độc lập hoặc một nguồn gốc/chính thức phù hợp.'
+    if int(dossier.get('distinct_fact_units',0) or 0)<3:
+        return False, 'Hồ sơ chưa có tối thiểu ba dữ kiện cụ thể có thể khai thác.'
+    if not dossier.get('fact_units'):
+        return False, 'Không trích xuất được đơn vị dữ kiện từ nội dung nguồn.'
+    # One suitable primary source can establish facts within its authority; it does not
+    # automatically validate claims outside its remit. Claim-level proof remains mandatory.
+    return True, 'Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.'
+
+
 def source_score(item, group_count, usage_penalty=0):
     score=35
     dt=item.get('source_published_at')
@@ -846,7 +932,7 @@ def generate_with_fallback(prompt, validator=None):
     raise RuntimeError('All discovered eligible AI models failed: '+' | '.join(errors[-12:]))
 
 
-def make_prompt(group, evidence, discovery_leads=None):
+def make_prompt(group, evidence, discovery_leads=None, research_dossier=None):
     sources=[]
     for x in group:
         info=source_info(x['source_url'])
@@ -861,17 +947,9 @@ def make_prompt(group, evidence, discovery_leads=None):
             'page_evidence':evidence.get(x['source_url'],'')[:5200]
         })
     assigned_topic = (group[0].get('discovery_title') if group else '') or 'Chủ đề được thể hiện trong hồ sơ nguồn'
-    # Assign the genre before calling the model. Do not let the model choose a
-    # shorter genre after seeing the requested word count.
-    evidence_chars=sum(len(str(evidence.get(x.get('source_url',''),''))) for x in group)
-    independent_families={source_info(x.get('source_url','')).get('source_family') or domain_key(x.get('source_url','')) for x in group}
-    independent_families.discard('')
-    if len(independent_families)>=3 and evidence_chars>=24000:
-        assigned_type='news_analysis'
-    elif len(independent_families)>=2 and evidence_chars>=6500:
-        assigned_type='short_explainer'
-    else:
-        assigned_type='quick_update'
+    # Genre and word range are fixed by the API-free research dossier.
+    dossier=research_dossier or build_research_dossier(group,evidence)
+    assigned_type=dossier.get('content_type','quick_update')
     target_low,target_high=target_word_range_for_type(assigned_type)
     assigned_target=(target_low+target_high)//2
     instructions = r'''VAI TRÒ NGHỀ NGHIỆP
@@ -889,7 +967,7 @@ Không tự chọn thể loại khác, không tự rút ngắn bài và không t
 Độ dài tính trên phần body, không tính tiêu đề, sapo, keywords, fact_ledger hoặc metadata. Trước khi trả kết quả, tự kiểm tra độ dài body. Không tự ý chọn thể loại ngắn chỉ để né yêu cầu độ dài. Chọn thể loại tương ứng với góc tiếp cận và mức độ bằng chứng; nếu hồ sơ không đủ dữ liệu để viết một bài hoàn chỉnh đạt mức tối thiểu mà không suy diễn, hãy trả publish=false và nêu rõ phần dữ liệu còn thiếu. Không được xuất bản một bản thảo ngắn hơn mức tối thiểu rồi coi đó là bài hoàn chỉnh.
 
 YÊU CẦU TÁC NGHIỆP VÀ BIÊN TẬP
-1. Đọc toàn bộ bằng chứng trang nguồn được cung cấp trước khi viết. Phân biệt dữ kiện đã xác minh, thông tin do một bên tuyên bố và phần chưa thể kiểm chứng.
+1. Chỉ chuyển hóa hồ sơ nghiên cứu đã hoàn tất thành bài báo. KHÔNG thực hiện nghiên cứu mới, KHÔNG tự bổ sung dữ kiện từ kiến thức nền hoặc trí nhớ. Đọc toàn bộ bằng chứng trang nguồn được cung cấp trước khi viết. Phân biệt dữ kiện đã xác minh, thông tin do một bên tuyên bố và phần chưa thể kiểm chứng.
 2. Xây dựng bài có tiêu đề, sapo và phần thân bài hoàn chỉnh. Body phải gồm nhiều đoạn văn có nội dung, triển khai theo trình tự hợp lý; dùng tiêu đề phụ trong body khi cần thiết.
 3. Mở bài nêu sự kiện/vấn đề chính, thông tin mới và ý nghĩa trực tiếp đối với độc giả.
 4. Phát triển bài bằng những chi tiết có thật trong hồ sơ: diễn biến, bối cảnh, mốc thời gian, số liệu, các bên liên quan, phản ứng, tác động hoặc điểm còn chưa rõ — chỉ đưa vào khi nguồn thực sự chứng minh.
@@ -905,7 +983,7 @@ QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 - Chỉ publish=true khi có đủ căn cứ. Không tự tạo URL, số liệu, phát biểu, nguyên nhân, dự báo, nhân vật hoặc trích dẫn.
 - Ưu tiên tài liệu gốc và nguồn chính thức. Nhiều trang đăng lại cùng một thông cáo không phải nguồn độc lập.
 - Nếu chỉ có một nguồn thứ cấp, không đủ căn cứ cho bài phân tích; trả publish=false và nêu rõ lý do.
-- Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Mỗi dữ kiện phải trỏ tới URL chính xác trong danh sách nguồn. evidence_by_source phải chứa một trích đoạn nguyên văn riêng cho từng nguồn được dùng để chứng minh claim; mỗi snippet phải liên tục, chép chính xác từ page_evidence của đúng URL đó, tuyệt đối không diễn đạt lại hoặc tự tạo câu trích dẫn. evidence_snippet/evidence_locator là trích đoạn chính và vị trí tương ứng. Dữ kiện core phải có chứng cứ nguyên văn từ một nguồn chính thức phù hợp claim hoặc hai source family độc lập. Nếu không tìm được trích đoạn nguyên văn đủ chứng cứ, trả publish=false. Không thêm URL khác.
+- Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Bài AppNho luôn viết bằng tiếng Việt, bất kể nguồn gốc ở ngôn ngữ nào; nguồn có thể ở bất kỳ ngôn ngữ nào, không giới hạn tiếng Việt/tiếng Anh. Với từng dữ kiện, claim phải diễn đạt bằng tiếng Việt; source_claim là câu/đoạn nguyên ngữ của chính nguồn chứng minh trực tiếp claim đó (giữ nguyên ngôn ngữ nguồn), không được lấy một câu gần chủ đề nhưng không chứng minh cùng dữ kiện. source_claim phải nằm nguyên văn trong ít nhất một evidence snippet tương ứng. Không so khớp từ vựng hoặc thứ tự câu tiếng Việt với trích đoạn tiếng nước ngoài. evidence_by_source phải chứa trích đoạn nguyên văn riêng cho từng nguồn dùng để chứng minh claim; mỗi snippet phải liên tục, chép chính xác từ page_evidence của đúng URL, không diễn đạt lại hoặc tự tạo. Các nguồn độc lập có thể diễn đạt cùng dữ kiện bằng câu chữ khác nhau; không bắt buộc source_claim phải lặp lại trong mọi nguồn đối chiếu. evidence_snippet/evidence_locator là trích đoạn chính và vị trí tương ứng. Dữ kiện core phải có chứng cứ nguyên văn từ một nguồn chính thức phù hợp claim hoặc hai source family độc lập. Nếu không tìm được trích đoạn nguyên văn đủ chứng cứ, trả publish=false. Không thêm URL khác.
 - Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
@@ -916,7 +994,7 @@ QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 
 ĐỊNH DẠNG ĐẦU RA
 Chỉ trả về một JSON object hợp lệ, không markdown, không lời dẫn, có đúng các trường:
-{"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","content_type":"quick_update|short_explainer|news_analysis|long_analysis","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1","đoạn 2"],"source_index":0,"editorial_value":"đóng góp riêng cụ thể","risk_level":"R1|R2|R3","freshness_ttl_hours":24,"fact_ledger":[{"claim":"dữ kiện cụ thể","source_urls":["URL có trong danh sách nguồn"],"evidence_snippet":"trích đoạn ngắn chứng minh claim","evidence_locator":"đoạn/mục/bảng trên trang","evidence_by_source":[{"source_url":"URL","snippet":"trích đoạn nguyên văn từ đúng nguồn này","locator":"đoạn/mục/bảng"}],"importance":"core|supporting"}]}
+{"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","content_type":"quick_update|short_explainer|news_analysis|long_analysis","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1","đoạn 2"],"source_index":0,"editorial_value":"đóng góp riêng cụ thể","risk_level":"R1|R2|R3","freshness_ttl_hours":24,"fact_ledger":[{"claim":"dữ kiện diễn đạt bằng tiếng Việt","source_claim":"câu nguyên ngữ của nguồn chứng minh dữ kiện","source_urls":["URL có trong danh sách nguồn"],"evidence_snippet":"trích đoạn nguyên văn","evidence_locator":"đoạn/mục/bảng trên trang","evidence_by_source":[{"source_url":"URL","snippet":"trích đoạn nguyên văn từ đúng nguồn này","locator":"đoạn/mục/bảng"}],"importance":"core|supporting"}]}
 
 Trước khi trả JSON, hãy tự rà soát: bài đã đạt mức tối thiểu của content_type chưa; từng đoạn có thông tin riêng chưa; dữ kiện có được fact_ledger chứng minh không; bài có góc biên tập riêng và không sao chép nguồn không. Nếu không đạt, sửa toàn bộ bản thảo hoặc trả publish=false. Không được bỏ qua yêu cầu độ dài.
 
@@ -928,7 +1006,11 @@ Nguồn và bằng chứng đã thu thập:
     instructions=instructions.replace('{assigned_type}',assigned_type).replace('{assigned_target}',str(assigned_target)).replace('{target_low}',str(target_low)).replace('{target_high}',str(target_high))
     assignment = ("VAI TRÒ: Nhà báo/phóng viên chuyên nghiệp.\n"
                   "ĐỀ TÀI CỤ THỂ ĐƯỢC GIAO: " + str(assigned_topic).strip() + "\n\n")
-    return instructions + assignment + json.dumps({'source_evidence_for_fact_check':sources,'discovery_leads_not_for_fact_claims':leads},ensure_ascii=False)
+    return instructions + assignment + json.dumps({
+        'research_readiness_dossier':dossier,
+        'source_evidence_for_fact_check':sources,
+        'discovery_leads_not_for_fact_claims':leads
+    },ensure_ascii=False)
 
 
 def normalize_vietnam_category(title, summary='', body=None, category=''):
@@ -1126,7 +1208,7 @@ def metadata_only(article):
     return article
 
 
-def search_official_sources(title, category, excluded_domains=None, limit=4):
+def search_official_sources(title, category, excluded_domains=None, limit=6, research_request=''):
     """Use Google News RSS for discovery only; resolve candidate links only to primary-source domains in the source inventory."""
     approved_primary_domains={r.get('_domain') for r in SOURCE_ROWS
                               if r.get('_primary_candidate')
@@ -1137,6 +1219,8 @@ def search_official_sources(title, category, excluded_domains=None, limit=4):
         return []
     excluded_domains=set(excluded_domains or [])
     query='"'+clean(title)[:140]+'"'
+    if research_request:
+        query += ' ' + clean(research_request)[:100]
     params={'q':query,'hl':'vi','gl':'VN','ceid':'VN:vi'}
     search_url='https://news.google.com/rss/search?'+urlencode(params)
     try:
@@ -1376,7 +1460,7 @@ def main():
         # evidence from distinct publisher families under robots rules. Unreviewed
         # sources are tagged LIMITED_FACTUAL_REFERENCE and are never treated as
         # commercially licensed content or copied into the published article.
-        for item in group[:6]:
+        for item in group[:10]:
             domain=domain_key(item.get('source_url',''))
             info=source_info(item.get('source_url',''))
             family=(info.get('source_family') or domain).casefold()
@@ -1385,7 +1469,7 @@ def main():
             try:
                 mode=research_access_mode(item['source_url'], item.get('source_feed_domain'))
                 page=extract_page(item['source_url'], access_mode=mode)
-                if (len(page)>500
+                if (bool(str(page).strip())
                         and headlines_related(mainlead.get('discovery_title',''), item.get('discovery_title',''))
                         and evidence_matches_title(mainlead.get('discovery_title',''), page)
                         and evidence_matches_title(item.get('discovery_title',''), page)):
@@ -1400,13 +1484,14 @@ def main():
                 print(f"[WARN] Publisher evidence unavailable: {item['source_name']} — {e}")
         # Search for original/official material using the supplied source directory.
         if len(domains)<2:
-            official_candidates=search_official_sources(mainlead['discovery_title'],mainlead.get('category',''),domains,limit=3)
+            official_candidates=search_official_sources(mainlead['discovery_title'],mainlead.get('category',''),domains,limit=6,
+                                                       research_request=next((x.get('research_request','') for x in group if x.get('research_request')),''))
             for candidate in official_candidates:
                 try:
                     if not robots_allowed(candidate['source_url']):
                         continue
                     page=extract_page(candidate['source_url'], access_mode=candidate.get('research_mode'))
-                    if len(page)>500 and evidence_matches_title(candidate.get('discovery_title',''),page):
+                    if str(page).strip() and evidence_matches_title(candidate.get('discovery_title',''),page):
                         evidence[candidate['source_url']]=page
                         good.append(candidate)
                         domains.add(domain_key(candidate['source_url']))
@@ -1426,22 +1511,38 @@ def main():
                 'research_mode':item.get('research_mode','LIMITED_FACTUAL_REFERENCE')
             })
         source_count,has_primary,_=source_independence(source_refs)
-        if not good or (source_count<2 and not has_primary):
-            mark_group_retry(group,'Không đủ nguồn độc lập hoặc không truy cập được nội dung nguồn.',now)
-            print(f"[HOLD] {mainlead['discovery_title']}: insufficient independent source evidence")
+        dossier=build_research_dossier(good,evidence)
+        ready_to_write, dossier_reason=research_dossier_ready(dossier)
+        if not good or (source_count<2 and not has_primary) or not ready_to_write:
+            reason=('Không đủ nguồn độc lập hoặc không truy cập được nội dung nguồn.'
+                    if not good or (source_count<2 and not has_primary) else dossier_reason)
+            mark_group_retry(group,reason,now)
+            print(f"[RESEARCH_MORE] {mainlead['discovery_title']}: {reason}; retained for another research cycle.")
             continue
-        # Stage evidence-backed candidate; no LLM call is made during Research.
+        # Only dossiers that pass the API-free factual-readiness gate enter Writing.
         queue_id=hashlib.sha256((mainlead.get('source_url','')+'|'+str(mainlead.get('discovery_title',''))).encode('utf-8')).hexdigest()[:20]
-        if any(str(x.get('queue_id'))==queue_id for x in research_queue if isinstance(x,dict)):
-            print(f"[HOLD] Already staged for writing: {mainlead.get('discovery_title','')}")
-            continue
-        research_queue.append({
+        group_urls={x.get('source_url') for x in group if x.get('source_url')}
+        existing=next((x for x in research_queue if isinstance(x,dict) and
+                       (str(x.get('queue_id'))==queue_id or
+                        bool(group_urls.intersection(x.get('source_urls') or [])))),None)
+        candidate={
             'queue_id':queue_id,'status':'WRITING_PENDING','staged_at':now_iso(),
             'expires_at':(now+timedelta(hours=72)).isoformat(),
             'category_hint':category,'lead_title':mainlead.get('discovery_title',''),
             'source_urls':[x.get('source_url','') for x in good if x.get('source_url')],
-            'evidence_pages':evidence,'group':good,'discovery_group':group
-        })
+            'evidence_pages':evidence,'group':good,'discovery_group':group,
+            'research_dossier':dossier,'research_ready_at':now_iso(),
+            'research_readiness_reason':dossier_reason
+        }
+        if existing:
+            if existing.get('status') in {'WRITTEN','READY','PUBLISHED'}:
+                print(f"[SKIP] Candidate already has a completed article: {mainlead.get('discovery_title','')}")
+                continue
+            # Replace stale/held evidence with the newly collected, better dossier.
+            existing.update(candidate)
+            print(f"[RESEARCH_REFRESH] Updated dossier for {mainlead.get('discovery_title','')} ({dossier['distinct_fact_units']} fact units).")
+        else:
+            research_queue.append(candidate)
         prepared+=1
         category_counts[category]=category_counts.get(category,0)+1
         for item in group:

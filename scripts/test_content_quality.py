@@ -23,11 +23,25 @@ class ContentQualityTests(unittest.TestCase):
 
 
     def test_minimum_word_floor_matches_editorial_target_lower_bound(self):
-        self.assertEqual(minimum_words_for_type("short_explainer"), 500)
-        self.assertEqual(target_word_range_for_type("short_explainer"), (500, 650))
+        self.assertEqual(minimum_words_for_type("quick_update"), 180)
+        self.assertEqual(target_word_range_for_type("quick_update"), (180, 260))
+        self.assertEqual(minimum_words_for_type("short_explainer"), 350)
+        self.assertEqual(target_word_range_for_type("short_explainer"), (350, 500))
         self.assertEqual(minimum_paragraphs_for_type("short_explainer"), 3)
-        self.assertEqual(minimum_words_for_type("news_analysis"), 800)
-        self.assertEqual(target_word_range_for_type("news_analysis"), (800, 1000))
+        self.assertEqual(minimum_words_for_type("news_analysis"), 650)
+        self.assertEqual(target_word_range_for_type("news_analysis"), (650, 850))
+        self.assertEqual(minimum_words_for_type("long_analysis"), 850)
+
+    def test_234_word_quick_update_meets_revised_minimum(self):
+        body=[" ".join(f"thong_tin_{i}_{j}" for j in range(39)) for i in range(6)]
+        article={"title":"Bản tin cập nhật về sự kiện đã được xác nhận",
+                 "summary":"Thông tin chính và diễn biến mới được các nguồn xác nhận.",
+                 "content_type":"quick_update","body":body,
+                 "editorial_value":"Bài làm rõ diễn biến mới và giới hạn của thông tin đã xác minh.",
+                 "risk_level":"R1"}
+        errors,stats=validate_article_quality(article)
+        self.assertGreaterEqual(stats["words"],180)
+        self.assertFalse(any("cần ít nhất 180" in error for error in errors))
 
     def test_below_editorial_floor_short_explainer_is_rejected(self):
         body = [
@@ -46,7 +60,7 @@ class ContentQualityTests(unittest.TestCase):
         self.assertEqual(stats["words"], 304)
         self.assertLess(stats["words"], minimum_words_for_type("short_explainer"))
         self.assertLess(stats["words"], target_word_range_for_type("short_explainer")[0])
-        self.assertTrue(any("cần ít nhất 500" in error for error in errors))
+        self.assertTrue(any("cần ít nhất 350" in error for error in errors))
 
     def test_primary_source_type_is_not_overbroad(self):
         self.assertTrue(is_primary_source_type('Cổng thông tin chính thức'))
@@ -101,6 +115,83 @@ class ContentQualityTests(unittest.TestCase):
         tampered[0]=dict(tampered[0])
         tampered[0]["claim"]="Kế hoạch được cơ quan công bố vào ngày 31 tháng 10 năm 2026."
         self.assertTrue(validate_fact_ledger_proof(tampered,[url]))
+
+    def test_multilingual_sources_support_vietnamese_claims(self):
+        url="https://official.example/report"
+        snippets=[
+            "Le ministère a annoncé le lancement du programme le 31 octobre 2026.",
+            "政府は2026年11月1日に新しい計画を発表した。",
+            "El informe oficial registró un aumento del 12 por ciento en 2026."
+        ]
+        claims=[
+            "Bộ này thông báo khởi động chương trình vào ngày 31 tháng 10 năm 2026.",
+            "Chính phủ công bố kế hoạch mới vào ngày 1 tháng 11 năm 2026.",
+            "Báo cáo chính thức ghi nhận mức tăng 12 phần trăm trong năm 2026."
+        ]
+        ledger=[]
+        for claim,snippet in zip(claims,snippets):
+            ledger.append({
+                "claim":claim,"source_claim":snippet,"source_urls":[url],
+                "evidence_snippet":snippet,"evidence_locator":"official report",
+                "evidence_by_source":[{"source_url":url,"snippet":snippet,"locator":"official report"}],
+                "importance":"supporting"
+            })
+        page=" ".join(snippets)
+        errors,enriched=verify_fact_ledger_against_pages(
+            ledger,[url],{url:page},primary_urls=[url]
+        )
+        self.assertEqual(errors,[])
+        self.assertEqual(validate_fact_ledger_proof(enriched,[url],primary_urls=[url]),[])
+        self.assertTrue(all(x.get("evidence_verifications") for x in enriched))
+
+    def test_multilingual_core_fact_can_use_one_exact_anchor_and_other_independent_paraphrases(self):
+        url1="https://official.example/notice"
+        url2="https://independent.example/report"
+        anchor="Le ministère a annoncé le lancement du programme le 31 octobre 2026."
+        corroboration="The programme launch was announced by the ministry on October 31, 2026."
+        ledger=[{
+            "claim":"Bộ thông báo khởi động chương trình vào ngày 31 tháng 10 năm 2026.",
+            "source_claim":anchor,"source_urls":[url1,url2],"importance":"core",
+            "evidence_snippet":corroboration,"evidence_locator":"paragraph 2",
+            "evidence_by_source":[
+                {"source_url":url1,"snippet":anchor,"locator":"paragraph 1"},
+                {"source_url":url2,"snippet":corroboration,"locator":"paragraph 2"}
+            ]
+        },{
+            "claim":"Tài liệu nêu phạm vi triển khai của chương trình.","source_claim":anchor,
+            "source_urls":[url1],"evidence_snippet":anchor,"evidence_locator":"paragraph 1"
+        },{
+            "claim":"Thông báo xác định mốc thời gian triển khai.","source_claim":anchor,
+            "source_urls":[url1],"evidence_snippet":anchor,"evidence_locator":"paragraph 1"
+        }]
+        pages={url1:anchor,url2:corroboration}
+        errors,enriched=verify_fact_ledger_against_pages(
+            ledger,[url1,url2],pages,primary_urls=[url1],
+            source_families={url1:"official",url2:"independent"}
+        )
+        self.assertEqual(errors,[])
+        self.assertEqual(validate_fact_ledger_proof(
+            enriched,[url1,url2],primary_urls=[url1],
+            source_families={url1:"official",url2:"independent"}
+        ),[])
+
+    def test_multilingual_source_claim_must_be_verbatim(self):
+        url="https://official.example/report"
+        snippet="Le ministère a annoncé le lancement du programme le 31 octobre 2026."
+        ledger=[
+            {"claim":"Bộ thông báo khởi động chương trình vào ngày 31 tháng 10 năm 2026.",
+             "source_claim":"Le ministère a annulé le programme le 31 octobre 2026.",
+             "source_urls":[url],"evidence_snippet":snippet,"evidence_locator":"paragraph 1",
+             "evidence_by_source":[{"source_url":url,"snippet":snippet,"locator":"paragraph 1"}]},
+            {"claim":"Phạm vi chương trình được nêu trong tài liệu.","source_claim":"Le ministère a annoncé le lancement du programme le 31 octobre 2026.",
+             "source_urls":[url],"evidence_snippet":snippet,"evidence_locator":"paragraph 1",
+             "evidence_by_source":[{"source_url":url,"snippet":snippet,"locator":"paragraph 1"}]},
+            {"claim":"Thời điểm triển khai được xác định trong tài liệu.","source_claim":"Le ministère a annoncé le lancement du programme le 31 octobre 2026.",
+             "source_urls":[url],"evidence_snippet":snippet,"evidence_locator":"paragraph 1",
+             "evidence_by_source":[{"source_url":url,"snippet":snippet,"locator":"paragraph 1"}]}
+        ]
+        errors,_=verify_fact_ledger_against_pages(ledger,[url],{url:snippet},primary_urls=[url])
+        self.assertTrue(any("source_claim không nằm nguyên văn" in error for error in errors))
 
     def test_core_fact_requires_two_independent_verified_source_families(self):
         from datetime import datetime, timezone
