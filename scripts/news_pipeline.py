@@ -34,7 +34,7 @@ GEMINI_MODEL = os.getenv('GEMINI_MODEL', '').strip()
 GROK_MODEL = os.getenv('GROK_MODEL', '').strip()
 OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', '').strip()
 MAX_GEMINI_CALLS_PER_RUN = max(0, int(os.getenv('MAX_GEMINI_CALLS_PER_RUN', '12')))
-MAX_CLOUDFLARE_CALLS_PER_RUN = max(0, int(os.getenv('MAX_CLOUDFLARE_CALLS_PER_RUN', '3')))
+MAX_CLOUDFLARE_CALLS_PER_RUN = max(0, int(os.getenv('MAX_CLOUDFLARE_CALLS_PER_RUN', '6')))
 MAX_OPENROUTER_CALLS_PER_RUN = max(0, int(os.getenv('MAX_OPENROUTER_CALLS_PER_RUN', '8')))
 GEMINI_CALLS_THIS_RUN = 0
 CLOUDFLARE_CALLS_THIS_RUN = 0
@@ -826,7 +826,7 @@ def generate_with_fallback(prompt, validator=None):
             if not models:
                 print(f'[WARN] {name}: no currently eligible models discovered')
                 continue
-            providers.append((name,models[:1],call))
+            providers.append((name,models[:3],call))
             print(f'[MODEL] {name}: {len(models)} eligible model(s); selected {models[0]}')
         except Exception as e:
             MODEL_DISCOVERY_CACHE[name]=[]
@@ -910,7 +910,10 @@ def generate_with_fallback(prompt, validator=None):
                     message=message[:180]
                     errors.append(f'{name}/{model}: {message}')
                     retryable=('malformed JSON' in message or 'Generated draft below safety floor' in message or
-                               'AI response missing fields' in message or 'AI response body/keywords' in message or 'publish=false' in message)
+                               'AI response missing fields' in message or 'AI response body/keywords' in message or
+                               'publish=false' in message or 'fact_ledger[' in message or
+                               'Quality gate failed:' in message or 'R2 requires' in message or
+                               'R3 requires' in message or 'source_type' in message)
                     current={'Gemini':GEMINI_CALLS_THIS_RUN,
                              'Cloudflare Workers AI':CLOUDFLARE_CALLS_THIS_RUN,
                              'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
@@ -938,7 +941,7 @@ def make_prompt(group, evidence, discovery_leads=None, research_dossier=None):
             'name':x['source_name'],'url':x['source_url'],
             'published_at':x.get('source_published_at',''),
             'headline':x['discovery_title'],
-            'source_type':info['source_type'],
+            'source_type':info.get('source_type','Chưa phân loại'),
             'source_family':info.get('source_family') or domain_key(x.get('source_url','')),
             'source_role':'primary_candidate' if info['is_primary'] else 'independent_publisher_reference',
             'user_supplied_context_for_research_only':x.get('manual_context','')[:2500],
@@ -1068,7 +1071,7 @@ def make_article(obj, group, evidence_pages=None):
             'name':x.get('source_name') or info['name'],
             'url':x.get('source_url',''),
             'domain':domain_key(x.get('source_url','')),
-            'source_type':info['source_type'],
+            'source_type':info.get('source_type','Chưa phân loại'),
             'source_family':info.get('source_family') or domain_key(x.get('source_url','')),
             'source_role':'official_candidate' if info['is_primary'] else 'secondary',
             'is_primary':bool(info['is_primary']),
@@ -1103,15 +1106,13 @@ def make_article(obj, group, evidence_pages=None):
     for ref in source_refs:
         ref['is_primary_for_claim']=bool(ref.get('is_primary') and ref.get('url') in core_urls)
     source_count,has_primary,domains=source_independence(source_refs)
-    risk=obj.get('risk_level')
-    if risk not in {'R1','R2','R3'}: raise ValueError('Invalid risk level')
-    heuristic=classify_risk(title,body,category)
-    order={'R1':1,'R2':2,'R3':3}
-    risk=max([risk,heuristic],key=lambda x:order[x])
+    risk=classify_risk(title,body,category)
+    # Do not let the model inflate the risk tier with a generic label. The local
+    # classifier applies the same policy used by publication validation.
     if source_count < 2 and not has_primary:
         raise ValueError('Need at least two independent source domains or one primary source')
-    if risk=='R2' and not has_primary and source_count < 3:
-        raise ValueError('R2 requires a primary source or at least three independent source domains')
+    if risk=='R2' and not has_primary and source_count < 2:
+        raise ValueError('R2 requires a primary source or at least two independent source families')
     if risk=='R3' and not has_primary:
         raise ValueError('R3 requires a primary/official source')
     if risk=='R3':
@@ -1155,7 +1156,7 @@ def make_article(obj, group, evidence_pages=None):
         'risk_level':risk,'verification_timestamp':now_iso(),'freshness_ttl_hours':ttl,
         'quality_version':'1.5','quality_status':'PASS'
     }
-    errors,stats=validate_article_quality(article)
+    errors,stats=validate_article_quality(article, evidence_pages=evidence_pages)
     if errors: raise ValueError('Quality gate failed: '+'; '.join(errors))
     article['quality_audit']={'checked_at':now_iso(),'status':'PASS','stats':stats,'independent_domains':domains,'primary_source_present':has_primary}
     return article

@@ -1,7 +1,7 @@
 import unittest
 from content_quality import (
     body_stats, classify_risk, validate_fact_ledger, validate_fact_ledger_proof, verify_fact_ledger_against_pages, normalize_evidence_text, validate_article_quality,
-    source_independence, domain_key, is_commercial_license, is_primary_source_type, ttl_for_data_type, minimum_words_for_type, target_word_range_for_type, minimum_paragraphs_for_type, repair_fact_ledger_anchors
+    source_independence, domain_key, is_commercial_license, is_primary_source_type, ttl_for_data_type, minimum_words_for_type, target_word_range_for_type, minimum_paragraphs_for_type, repair_fact_ledger_anchors, validate_body_fact_coverage
 )
 
 class ContentQualityTests(unittest.TestCase):
@@ -25,12 +25,12 @@ class ContentQualityTests(unittest.TestCase):
     def test_minimum_word_floor_matches_editorial_target_lower_bound(self):
         self.assertEqual(minimum_words_for_type("quick_update"), 180)
         self.assertEqual(target_word_range_for_type("quick_update"), (180, 260))
-        self.assertEqual(minimum_words_for_type("short_explainer"), 350)
-        self.assertEqual(target_word_range_for_type("short_explainer"), (350, 500))
+        self.assertEqual(minimum_words_for_type("short_explainer"), 250)
+        self.assertEqual(target_word_range_for_type("short_explainer"), (250, 380))
         self.assertEqual(minimum_paragraphs_for_type("short_explainer"), 3)
-        self.assertEqual(minimum_words_for_type("news_analysis"), 650)
-        self.assertEqual(target_word_range_for_type("news_analysis"), (650, 850))
-        self.assertEqual(minimum_words_for_type("long_analysis"), 850)
+        self.assertEqual(minimum_words_for_type("news_analysis"), 450)
+        self.assertEqual(target_word_range_for_type("news_analysis"), (450, 650))
+        self.assertEqual(minimum_words_for_type("long_analysis"), 650)
 
     def test_234_word_quick_update_meets_revised_minimum(self):
         body=[" ".join(f"thong_tin_{i}_{j}" for j in range(39)) for i in range(6)]
@@ -45,7 +45,7 @@ class ContentQualityTests(unittest.TestCase):
 
     def test_below_editorial_floor_short_explainer_is_rejected(self):
         body = [
-            " ".join(f"du_lieu_{p}_{i}" for i in range(76))
+            " ".join(f"du_lieu_{p}_{i}" for i in range(50))
             for p in range(4)
         ]
         article = {
@@ -57,10 +57,10 @@ class ContentQualityTests(unittest.TestCase):
             "risk_level": "R1",
         }
         errors, stats = validate_article_quality(article)
-        self.assertEqual(stats["words"], 304)
+        self.assertEqual(stats["words"], 200)
         self.assertLess(stats["words"], minimum_words_for_type("short_explainer"))
         self.assertLess(stats["words"], target_word_range_for_type("short_explainer")[0])
-        self.assertTrue(any("cần ít nhất 350" in error for error in errors))
+        self.assertTrue(any("cần ít nhất 250" in error for error in errors))
 
     def test_primary_source_type_is_not_overbroad(self):
         self.assertTrue(is_primary_source_type('Cổng thông tin chính thức'))
@@ -364,7 +364,7 @@ class ContentQualityTests(unittest.TestCase):
         ]
         article["body"][0]="Báo cáo ghi nhận mức tăng 35 phần trăm trong quý ba."
         errors,_=validate_article_quality(article,min_words=50,min_paragraphs=6)
-        self.assertTrue(any("số liệu/ngày tháng chưa xuất hiện" in e for e in errors))
+        self.assertTrue(any("số liệu/ngày tháng không tìm thấy" in e for e in errors))
 
     def test_primary_candidate_is_recognized_for_research_preflight(self):
         count,has_primary,_=source_independence([
@@ -385,6 +385,22 @@ class ContentQualityTests(unittest.TestCase):
         article["body"][0]="Đây là điểm quan trọng khi đánh giá thông tin. "+article["body"][0]
         errors,_=validate_article_quality(article,min_words=50,min_paragraphs=6)
         self.assertTrue(any("khuôn mẫu" in x for x in errors))
+
+    def test_numeric_body_facts_are_checked_against_sealed_source_pages(self):
+        body=["Kế hoạch được công bố năm 2026, gồm 12 tuyến và 8 nhà ga."]
+        ledger=[{"claim":"Kế hoạch giao thông được công bố và triển khai theo lộ trình cụ thể.","source_urls":["https://agency.example/plan"]}]
+        pages={"https://agency.example/plan":"The plan was announced in 2026 and includes 12 routes and 8 stations."}
+        self.assertEqual(validate_body_fact_coverage(body,ledger,pages),[])
+
+    def test_numeric_body_fact_not_in_any_source_is_rejected(self):
+        body=["Kế hoạch được công bố năm 2026, gồm 99 tuyến và 8 nhà ga."]
+        ledger=[{"claim":"Kế hoạch giao thông được công bố năm 2026, gồm 8 nhà ga.","source_urls":["https://agency.example/plan"]}]
+        pages={"https://agency.example/plan":"The plan was announced in 2026 and includes 8 stations."}
+        errors=validate_body_fact_coverage(body,ledger,pages)
+        self.assertTrue(any("99" in error for error in errors))
+
+    def test_factual_reporting_on_attack_is_not_automatically_r3(self):
+        self.assertNotEqual(classify_risk("Các diễn biến sau vụ tấn công",["Hai hãng tin xác nhận diễn biến."],"world"),"R3")
 
     def test_risk_classification_escalates_financial_advice(self):
         self.assertEqual(classify_risk("Khuyến nghị đầu tư cổ phiếu",["Nên mua cổ phiếu ngay"],"world"),"R3")

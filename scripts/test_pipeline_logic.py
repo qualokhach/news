@@ -213,6 +213,38 @@ line two","category":"world","seo_title":"x","meta_description":"x","keywords":[
         self.assertEqual(article['quality_status'],'PASS')
         self.assertNotIn('editorial_note',article)
 
+    def test_r2_factual_reporting_accepts_two_independent_families_as_research_does(self):
+        group=[
+            {'source_name':'BBC News','source_url':'https://www.bbc.co.uk/news/conflict-a','source_published_at':'2026-10-31T01:00:00+00:00'},
+            {'source_name':'Reuters','source_url':'https://www.reuters.com/world/conflict-a','source_published_at':'2026-10-31T01:00:00+00:00'}
+        ]
+        body=[("Bài viết mô tả diễn biến xung đột theo các dữ kiện đã được hai nguồn độc lập ghi nhận. "
+               "Các tài liệu cho biết phạm vi sự kiện, mốc thời gian và những điểm chưa thể xác nhận. "
+               "Phần tường thuật phân biệt thông tin đã được kiểm chứng với nhận định chưa có căn cứ. ")*10 + f"Góc dữ kiện riêng của đoạn {i+1}." for i in range(4)]
+        urls=[x['source_url'] for x in group]
+        excerpts=[
+            'Hai nguồn độc lập ghi nhận diễn biến xung đột và mốc thời gian của sự kiện.',
+            'Tài liệu thứ hai xác nhận phạm vi sự kiện và các điểm chưa thể kết luận.'
+        ]
+        ledger=[{'claim':f'Dữ kiện cốt lõi số {i+1} được nguồn ghi nhận rõ ràng và có thể kiểm tra.',
+                 'source_claim':excerpts[i], 'source_urls':[urls[i]], 'evidence_snippet':excerpts[i],
+                 'evidence_by_source':[{'source_url':urls[i],'snippet':excerpts[i],'locator':'paragraph 1'}],
+                 'importance':'core'} for i in range(2)]
+        ledger.append({'claim':'Thông tin bổ sung về phạm vi sự kiện được mô tả trong tài liệu.',
+                       'source_claim':'Tài liệu thứ hai xác nhận phạm vi sự kiện và các điểm chưa thể kết luận.',
+                       'source_urls':[urls[1]],'evidence_snippet':excerpts[1],
+                       'evidence_by_source':[{'source_url':urls[1],'snippet':excerpts[1],'locator':'paragraph 1'}],
+                       'importance':'supporting'})
+        pages={urls[0]:excerpts[0],urls[1]:excerpts[1]}
+        obj={'publish':True,'title':'Diễn biến xung đột được hai nguồn độc lập xác nhận',
+             'summary':'Hai nguồn độc lập ghi nhận các mốc chính và giới hạn thông tin hiện có.',
+             'category':'world','content_type':'quick_update','body':body,
+             'editorial_value':'Bài phân biệt dữ kiện đã xác nhận với nội dung chưa thể kết luận. Bài đối chiếu thông tin từ hai nhóm nguồn độc lập.',
+             'risk_level':'R3','fact_ledger':ledger,'source_index':0}
+        article=n.make_article(obj,group,pages)
+        self.assertEqual(article['risk_level'],'R2')
+        self.assertEqual(len(article['source_references']),2)
+
     def test_make_article_rejects_fact_ledger_url_not_in_evidence(self):
         group=[{'source_name':'BBC News','source_url':'https://www.bbc.co.uk/news/story-a','source_published_at':'2026-10-31T01:00:00+00:00'},
                {'source_name':'Reuters','source_url':'https://www.reuters.com/world/story-a','source_published_at':'2026-10-31T01:00:00+00:00'}]

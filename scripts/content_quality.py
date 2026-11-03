@@ -14,12 +14,12 @@ PRIMARY_TYPE_HINTS = (
     "ngân hàng trung ương", "cơ quan quản lý nhà nước", "liên đoàn thể thao quốc tế",
 )
 HIGH_RISK_TERMS = (
-    "điều trị", "phác đồ", "liều dùng", "chẩn đoán", "tự điều trị", "thuốc",
-    "khuyến nghị đầu tư", "nên mua cổ phiếu", "nên bán cổ phiếu", "chứng khoán",
-    "lợi nhuận chắc chắn", "kết luận pháp lý", "tư vấn pháp luật", "khởi kiện",
-    "cáo buộc", "bị kết tội", "an toàn tính mạng", "sơ tán", "thiên tai",
-    "bạo lực", "xâm hại", "trẻ em", "dịch bệnh", "dịch tễ", "ngộ độc",
-    "tai nạn", "chiến sự", "tấn công", "khủng bố", "bầu cử", "tranh chấp",
+    # R3 is reserved for actionable/prescriptive high-stakes advice, not factual
+    # reporting about wars, elections, litigation, markets or public incidents.
+    "điều trị tại nhà", "phác đồ điều trị", "liều dùng khuyến nghị", "tự điều trị",
+    "khuyến nghị đầu tư", "nên mua cổ phiếu", "nên bán cổ phiếu", "hãy đầu tư",
+    "lợi nhuận chắc chắn", "kết luận pháp lý cho trường hợp", "tư vấn pháp luật cá nhân",
+    "bạn nên kiện", "hãy ngừng thuốc", "tự ý tăng liều", "tự ý giảm liều",
 )
 R3_ACTIONABLE_ADVICE = (
     "bạn nên mua", "nên mua cổ phiếu", "nên bán cổ phiếu", "hãy đầu tư",
@@ -92,17 +92,17 @@ MINIMUM_WORDS_BY_TYPE = {
     # Shorter floors reduce unnecessary HOLDs while preserving enough room for
     # a complete, fact-led article. They are minimums, not targets to pad toward.
     "quick_update": 180,
-    "short_explainer": 350,
-    "news_analysis": 650,
-    "long_analysis": 850,
-    "ai_assisted_independent_editorial": 350,
+    "short_explainer": 250,
+    "news_analysis": 450,
+    "long_analysis": 650,
+    "ai_assisted_independent_editorial": 300,
 }
 TARGET_WORD_RANGES_BY_TYPE = {
     "quick_update": (180, 260),
-    "short_explainer": (350, 500),
-    "news_analysis": (650, 850),
-    "long_analysis": (850, 1100),
-    "ai_assisted_independent_editorial": (350, 500),
+    "short_explainer": (250, 380),
+    "news_analysis": (450, 650),
+    "long_analysis": (650, 850),
+    "ai_assisted_independent_editorial": (300, 420),
 }
 MINIMUM_PARAGRAPHS_BY_TYPE = {
     "quick_update": 2,
@@ -514,13 +514,19 @@ def validate_fact_ledger_proof(fact_ledger, allowed_urls, min_claims=3,
     return errors
 
 
-def validate_body_fact_coverage(body, fact_ledger):
-    """Fail closed when body paragraphs introduce numeric facts absent from the ledger."""
+def validate_body_fact_coverage(body, fact_ledger, evidence_pages=None):
+    """Reject numeric facts absent from both the ledger and the sealed source pages."""
     paragraphs=body if isinstance(body,list) else re.split(r"\n\s*\n",str(body or ""))
     ledger_text=" ".join(
         str(item.get("claim") or "") for item in (fact_ledger or []) if isinstance(item,dict)
     )
     ledger_numbers=set(re.findall(r"\d+(?:[.,]\d+)?",ledger_text))
+    # A number can be accurately supported by a fetched source even when the AI
+    # did not repeat it in a ledger claim. Validate against the sealed source pages
+    # rather than treating the ledger as the only allowed numeric vocabulary.
+    source_text=" ".join(str(x or "") for x in (evidence_pages or {}).values())
+    source_numbers=set(re.findall(r"\d+(?:[.,]\d+)?",source_text))
+    allowed_numbers=ledger_numbers | source_numbers
     errors=[]
     for idx, paragraph in enumerate(paragraphs,1):
         text=str(paragraph or "")
@@ -528,21 +534,21 @@ def validate_body_fact_coverage(body, fact_ledger):
         # not factual quantities or dates.
         numeric_text=re.sub(r"(?i)\bđoạn\s+\d+\b"," ",text)
         numbers=set(re.findall(r"\d+(?:[.,]\d+)?",numeric_text))
-        missing=sorted(numbers-ledger_numbers)
+        missing=sorted(numbers-allowed_numbers)
         if missing:
             errors.append(
-                f"Đoạn {idx} có số liệu/ngày tháng chưa xuất hiện trong fact ledger: {', '.join(missing[:6])}"
+                f"Đoạn {idx} có số liệu/ngày tháng không tìm thấy trong fact ledger hoặc văn bản nguồn: {', '.join(missing[:6])}"
             )
     return errors
 
-def validate_article_quality(article: dict, min_words=None, min_paragraphs=None):
+def validate_article_quality(article: dict, min_words=None, min_paragraphs=None, evidence_pages=None):
     errors = []
     title = str(article.get("title") or "").strip()
     summary = str(article.get("summary") or "").strip()
     body = article.get("body") or []
     stats = body_stats(body)
     if article.get("fact_ledger"):
-        errors.extend(validate_body_fact_coverage(body, article.get("fact_ledger") or []))
+        errors.extend(validate_body_fact_coverage(body, article.get("fact_ledger") or [], evidence_pages=evidence_pages))
     content_type = article.get('content_type') or "short_explainer"
     required_words = minimum_words_for_type(content_type) if min_words is None else min_words
     required_paragraphs = minimum_paragraphs_for_type(content_type) if min_paragraphs is None else min_paragraphs
