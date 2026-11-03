@@ -90,21 +90,21 @@ class ModelAllowlistTests(unittest.TestCase):
         self.assertFalse(result['publish'])
 
     def test_cloudflare_is_second_writer_fallback_after_gemini(self):
-        no_publish={'publish':False,'reason':'not enough evidence'}
+        valid_draft={'publish':True,'reason':'','title':'Verified public programme update','summary':'The report describes a verified public programme and its implementation details.','category':'vietnam','content_type':'quick_update','seo_title':'Verified public programme update','meta_description':'Verified programme details and implementation.','keywords':['programme','public','implementation','report'],'body':['The ministry confirmed the programme and described the first stage of implementation. Local agencies will take part in the work, while the published material sets out the scope and the administrative process. The available documents provide a factual basis for explaining what has been announced and which institutions are involved. The report also identifies the next steps that have already been described in the source material.','The published information does not yet establish the final outcome or measure the programme\'s impact. Readers should distinguish the confirmed administrative arrangements from results that will only become clear after implementation. Further evaluation will depend on subsequent reports and data released by the responsible agencies. This distinction keeps the article within the evidence already available. The available record therefore supports a report about the announced arrangements, but not a conclusion that the programme has already achieved its intended results. The article can therefore describe the commitments and process now on record while leaving outcome claims for later evidence. This is the clearest distinction between an announced plan and its eventual performance. That distinction is essential when reporting early-stage public programmes.'],'source_index':0,'fact_ledger':[],'editorial_value':'The article distinguishes confirmed arrangements from future results. It explains the institutional responsibilities described in the source material.','risk_level':'R1','freshness_ttl_hours':24}
         with patch.dict(os.environ,{'GEMINI_API_KEY':'gemini-test',
                                    'CLOUDFLARE_ACCOUNT_ID':'account-test',
                                    'CLOUDFLARE_API_TOKEN':'cf-test'},clear=True), \
              patch.object(n,'MODEL_DISCOVERY_CACHE',{}), \
              patch.object(n,'discover_gemini_models',return_value=['gemini-test']), \
              patch.object(n,'gemini',side_effect=RuntimeError('Gemini unavailable')), \
-             patch.object(n,'cloudflare_workers_ai',return_value=no_publish) as cf_call, \
+             patch.object(n,'cloudflare_workers_ai',return_value=valid_draft) as cf_call, \
              patch.object(n,'GEMINI_CALLS_THIS_RUN',0), \
              patch.object(n,'CLOUDFLARE_CALLS_THIS_RUN',0), \
              patch.object(n,'MAX_GEMINI_CALLS_PER_RUN',2), \
              patch.object(n,'MAX_CLOUDFLARE_CALLS_PER_RUN',3):
             result,provider=n.generate_with_fallback('evidence prompt')
         self.assertEqual(provider,'Cloudflare Workers AI:'+n.CLOUDFLARE_MODEL)
-        self.assertFalse(result['publish'])
+        self.assertTrue(result['publish'])
         cf_call.assert_called_once()
 
     def test_openrouter_requires_zero_cost_free_variant(self):

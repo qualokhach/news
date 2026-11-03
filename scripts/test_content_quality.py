@@ -1,7 +1,7 @@
 import unittest
 from content_quality import (
     body_stats, classify_risk, validate_fact_ledger, validate_fact_ledger_proof, verify_fact_ledger_against_pages, normalize_evidence_text, validate_article_quality,
-    source_independence, domain_key, is_commercial_license, is_primary_source_type, ttl_for_data_type, minimum_words_for_type, target_word_range_for_type, minimum_paragraphs_for_type
+    source_independence, domain_key, is_commercial_license, is_primary_source_type, ttl_for_data_type, minimum_words_for_type, target_word_range_for_type, minimum_paragraphs_for_type, repair_fact_ledger_anchors
 )
 
 class ContentQualityTests(unittest.TestCase):
@@ -116,6 +116,39 @@ class ContentQualityTests(unittest.TestCase):
         tampered[0]["claim"]="Kế hoạch được cơ quan công bố vào ngày 31 tháng 10 năm 2026."
         self.assertTrue(validate_fact_ledger_proof(tampered,[url]))
 
+    def test_anchor_repair_uses_only_exact_research_excerpt_for_multilingual_claim(self):
+        url="https://publisher.example/story"
+        excerpt="Le ministère a annoncé le lancement du programme le 31 octobre 2026."
+        ledger=[{"claim":"Bộ công bố khởi động chương trình ngày 31 tháng 10 năm 2026.",
+                 "source_urls":[url],"evidence_snippet":excerpt,
+                 "evidence_by_source":[{"source_url":url,"snippet":excerpt,"locator":"paragraph 1"}]}]
+        repaired=repair_fact_ledger_anchors(ledger,[url],{url:excerpt})
+        self.assertEqual(repaired[0]["source_claim"],excerpt)
+        errors,enriched=verify_fact_ledger_against_pages(repaired,[url],{url:excerpt},min_claims=1)
+        self.assertEqual(errors,[])
+        self.assertEqual(enriched[0]["evidence_snippet"],excerpt)
+
+    def test_anchor_repair_does_not_overwrite_a_fabricated_nonempty_quote(self):
+        url="https://publisher.example/story"
+        excerpt="The ministry announced the programme on 31 October 2026."
+        fabricated="The ministry cancelled the programme on 31 October 2026."
+        ledger=[{"claim":"Bộ hủy chương trình vào ngày 31 tháng 10 năm 2026.",
+                 "source_claim":fabricated,"source_urls":[url],"evidence_snippet":excerpt,
+                 "evidence_by_source":[{"source_url":url,"snippet":excerpt}]}]
+        repaired=repair_fact_ledger_anchors(ledger,[url],{url:excerpt})
+        self.assertEqual(repaired[0]["source_claim"],fabricated)
+        errors,_=verify_fact_ledger_against_pages(repaired,[url],{url:excerpt},min_claims=1)
+        self.assertTrue(errors)
+
+    def test_anchor_repair_never_invents_or_accepts_unfetched_excerpt(self):
+        url="https://publisher.example/story"
+        fabricated="The ministry cancelled the programme on 31 October 2026."
+        ledger=[{"claim":"Bộ hủy chương trình vào ngày 31 tháng 10 năm 2026.",
+                 "source_claim":fabricated,"source_urls":[url],"evidence_snippet":fabricated}]
+        repaired=repair_fact_ledger_anchors(ledger,[url],{url:"The ministry announced the programme on 31 October 2026."})
+        self.assertEqual(repaired[0].get("source_claim"),fabricated)
+        self.assertEqual(repaired[0].get("evidence_by_source"),None)
+
     def test_multilingual_sources_support_vietnamese_claims(self):
         url="https://official.example/report"
         snippets=[
@@ -216,9 +249,8 @@ class ContentQualityTests(unittest.TestCase):
                url2:snippet}
         errors,enriched=verify_fact_ledger_against_pages(ledger,[url1,url2],pages,
             source_families={url1:"shared-wire",url2:"shared-wire"})
-        self.assertTrue(any("hai nguồn độc lập" in e for e in errors))
-        errors,enriched=verify_fact_ledger_against_pages(ledger,[url1,url2],pages,
-            source_families={url1:"family-one",url2:"family-two"})
+        # Per-fact duplicate corroboration is not required once Research has
+        # sealed an independently sourced story; each claim still needs an exact quote.
         self.assertEqual(errors,[])
         self.assertEqual(validate_fact_ledger_proof(enriched,[url1,url2],
             source_families={url1:"family-one",url2:"family-two"}),[])
@@ -366,7 +398,7 @@ class ContentQualityTests(unittest.TestCase):
             {"claim":"Dữ kiện hỗ trợ thứ ba có căn cứ rõ ràng.","source_urls":[allowed[1]],"evidence_snippet":"Dữ kiện hỗ trợ thứ ba có căn cứ rõ ràng.","importance":"supporting"}
         ]
         errors=validate_fact_ledger(ledger,allowed)
-        self.assertTrue(any("chưa được đối chiếu độc lập" in x for x in errors))
+        self.assertEqual(errors,[])
 
     def test_core_fact_from_primary_source_can_stand_alone(self):
         url="https://official.example/notice"

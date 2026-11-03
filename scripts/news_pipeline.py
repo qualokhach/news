@@ -12,7 +12,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlencode, urlsplit
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
-from content_quality import (classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
+from content_quality import (classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, repair_fact_ledger_anchors, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
 
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS = ROOT / 'config/feeds.json'
@@ -866,6 +866,9 @@ def generate_with_fallback(prompt, validator=None):
                             "không lặp ý, không bịa dữ kiện. Trả lại toàn bộ JSON hợp lệ theo đúng schema."
                         )
                     result=call(model,retry_prompt)
+                    if not result.get('publish'):
+                        reason=clean(result.get('reason') or 'model declined to draft')
+                        raise ValueError('Model returned publish=false for a Research-approved dossier: '+reason[:240])
                     if result.get('publish'):
                         body=[clean(x) for x in result.get('body',[]) if clean(x)]
                         words=word_count(' '.join(body))
@@ -893,15 +896,10 @@ def generate_with_fallback(prompt, validator=None):
                     return result,provider_label
                 except Exception as e:
                     message=str(e)
-                    # Evidence failures are properties of the collected dossier, not JSON
-                    # formatting. Trying another model cannot create missing corroboration.
-                    if any(marker in message.casefold() for marker in (
-                        'chưa được đối chiếu độc lập',
-                        'không có bằng chứng',
-                        'thiếu nguồn độc lập',
-                        'không có nguồn chính thức'
-                    )):
-                        raise EditorialEvidenceGateError(message) from e
+                    # Research has already sealed a dossier before Writing starts.
+                    # A provider's failed interpretation/ledger formatting is a writing
+                    # failure, not permission to reopen Research or discard the candidate.
+                    # Continue through configured providers and retain the sealed dossier.
                     last_validation_error=message
                     secret_env={'Gemini':'GEMINI_API_KEY','Cloudflare Workers AI':'CLOUDFLARE_API_TOKEN',
                                 'OpenRouter':'OPENROUTER_API_KEY'}[name]
@@ -912,7 +910,7 @@ def generate_with_fallback(prompt, validator=None):
                     message=message[:180]
                     errors.append(f'{name}/{model}: {message}')
                     retryable=('malformed JSON' in message or 'Generated draft below safety floor' in message or
-                               'AI response missing fields' in message or 'AI response body/keywords' in message)
+                               'AI response missing fields' in message or 'AI response body/keywords' in message or 'publish=false' in message)
                     current={'Gemini':GEMINI_CALLS_THIS_RUN,
                              'Cloudflare Workers AI':CLOUDFLARE_CALLS_THIS_RUN,
                              'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
@@ -983,7 +981,7 @@ QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 - Chỉ publish=true khi có đủ căn cứ. Không tự tạo URL, số liệu, phát biểu, nguyên nhân, dự báo, nhân vật hoặc trích dẫn.
 - Ưu tiên tài liệu gốc và nguồn chính thức. Nhiều trang đăng lại cùng một thông cáo không phải nguồn độc lập.
 - Nếu chỉ có một nguồn thứ cấp, không đủ căn cứ cho bài phân tích; trả publish=false và nêu rõ lý do.
-- Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Bài AppNho luôn viết bằng tiếng Việt, bất kể nguồn gốc ở ngôn ngữ nào; nguồn có thể ở bất kỳ ngôn ngữ nào, không giới hạn tiếng Việt/tiếng Anh. Với từng dữ kiện, claim phải diễn đạt bằng tiếng Việt; source_claim là câu/đoạn nguyên ngữ của chính nguồn chứng minh trực tiếp claim đó (giữ nguyên ngôn ngữ nguồn), không được lấy một câu gần chủ đề nhưng không chứng minh cùng dữ kiện. source_claim phải nằm nguyên văn trong ít nhất một evidence snippet tương ứng. Không so khớp từ vựng hoặc thứ tự câu tiếng Việt với trích đoạn tiếng nước ngoài. evidence_by_source phải chứa trích đoạn nguyên văn riêng cho từng nguồn dùng để chứng minh claim; mỗi snippet phải liên tục, chép chính xác từ page_evidence của đúng URL, không diễn đạt lại hoặc tự tạo. Các nguồn độc lập có thể diễn đạt cùng dữ kiện bằng câu chữ khác nhau; không bắt buộc source_claim phải lặp lại trong mọi nguồn đối chiếu. evidence_snippet/evidence_locator là trích đoạn chính và vị trí tương ứng. Dữ kiện core phải có chứng cứ nguyên văn từ một nguồn chính thức phù hợp claim hoặc hai source family độc lập. Nếu không tìm được trích đoạn nguyên văn đủ chứng cứ, trả publish=false. Không thêm URL khác.
+- Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Hồ sơ Research đã qua cổng sẵn sàng và là căn cứ tác nghiệp đã đóng; không tự chạy lại đánh giá đủ/thiếu nguồn bằng một thuật toán khác, không trả publish=false chỉ vì từng claim không được lặp nguyên văn ở hai trang. Hãy viết từ fact_units và page_evidence đã cung cấp. Mỗi claim phải bằng tiếng Việt và chỉ nêu điều nguồn thực sự hỗ trợ. evidence_snippet/evidence_by_source phải là trích đoạn liên tục, nguyên văn từ đúng URL trong page_evidence; source_claim nếu có phải là một đoạn nguyên văn nằm trong evidence_snippet. Nếu chưa tạo được source_claim riêng, dùng chính evidence_snippet làm anchor, tuyệt đối không tự diễn đạt lại rồi gắn nhãn trích dẫn. Các nguồn độc lập có thể diễn đạt cùng dữ kiện bằng câu chữ khác nhau; không bắt buộc mọi nguồn phải lặp lại cùng một câu. Mức độc lập được đánh giá ở cấp hồ sơ bài viết: hồ sơ đã có ít nhất hai source family độc lập hoặc nguồn chính thức phù hợp; không yêu cầu mọi chi tiết hỗ trợ phải được hai nguồn nhắc lại. Với dữ kiện nhạy cảm/rủi ro cao hoặc tranh chấp, phải trình bày rõ mức độ xác nhận và chỉ khẳng định mạnh khi có nguồn gốc hoặc đối chiếu phù hợp. Không thêm URL ngoài danh sách.
 - Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
@@ -1085,8 +1083,11 @@ def make_article(obj, group, evidence_pages=None):
         })
     primary_urls=[x.get('url') for x in source_refs if x.get('is_primary')]
     source_families={x.get('url'):x.get('source_family') or domain_key(x.get('url','')) for x in source_refs}
+    # Repair only a mislabeled source_claim by anchoring it to an exact excerpt
+    # already present in the Research-fetched page. No facts or source text are invented.
+    repaired_ledger=repair_fact_ledger_anchors(obj.get('fact_ledger'),allowed_urls,evidence_pages)
     ledger_errors, verified_ledger = verify_fact_ledger_against_pages(
-        obj.get('fact_ledger'), allowed_urls, evidence_pages,
+        repaired_ledger, allowed_urls, evidence_pages,
         min_claims=3, primary_urls=primary_urls, source_families=source_families
     )
     if ledger_errors:
