@@ -6967,7 +6967,7 @@
   },
   {
     "queue_id": "5e1dded9034f9aaa9395",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T02:20:33.253146+00:00",
     "expires_at": "2026-11-06T02:18:49.946568+00:00",
     "category_hint": "world",
@@ -7121,11 +7121,13 @@
         "retry_after": "2026-11-01T16:47:42.872882+00:00",
         "source_feed_domain": "wired.com"
       }
-    ]
+    ],
+    "editorial_reason": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện",
+    "last_write_error": "fact_ledger[1] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[2] trích đoạn chưa thể hiện từ khóa của dữ kiện; fact_ledger[2] là dữ kiện cốt lõi nhưng chưa được đối chiếu độc lập hoặc nguồn gốc; fact_ledger[3] trích đoạn chưa thể hiện từ khóa của dữ kiện"
   },
   {
     "queue_id": "e2a4fc67a08fe01c3c16",
-    "status": "WRITING_PENDING",
+    "status": "HOLD",
     "staged_at": "2026-11-03T02:20:34.601046+00:00",
     "expires_at": "2026-11-06T02:18:49.946568+00:00",
     "category_hint": "world",
@@ -7219,7 +7221,8 @@
         "attempts": 0,
         "source_feed_domain": "skynews.com"
       }
-    ]
+    ],
+    "editorial_reason": "Khoảng cúch số từ yêu c\\u1eàu cho phần body từ 250-350 từ không thể đạt được một cách chính xác và an toàn với chỉ hai ngủn cấp một về một sự kiựn nông hổi nhưng không đủ thông tin chi tiết để triển khai một bài phân tích hoặc cập nhật dài mà không lặp ý hoặc suy diễn ngoài nguồn."
   },
   {
     "queue_id": "17fd7e3a70dcaf29adc1",
@@ -7574,7 +7577,10 @@
         "attempts": 0,
         "source_feed_domain": "thanhnien.vn"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Bản thảo có mức tương đồng quá cao với nội dung nguồn; cần viết lại theo góc biên tập riêng | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Generated draft below safety floor (423/500 words, 6/3 paragraphs, type=short_explainer); minimum editorial word count was not met | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Bản thảo có mức tương đồng quá cao với nội dung nguồn; cần viết lại theo ",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-03T09:42:01.443779+00:00"
   },
   {
     "queue_id": "52b85d817ac44a480ac7",
@@ -7770,7 +7776,10 @@
         "attempts": 0,
         "source_feed_domain": "thanhnien.vn"
       }
-    ]
+    ],
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Cloudflare Workers AI/@cf/meta/llama-3.3-70b-instruct-fp8-fast: Bản thảo có mức tương đồng quá cao với nội dung nguồn; cần viết lại theo góc biên tập riêng | OpenRouter/xingchen-agi/xing4.0-29b-a4b:free: OpenRouter/xingchen-agi/xing4.0-29b-a4b:f",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-03T09:42:01.443779+00:00"
   },
   {
     "queue_id": "fb58b78e5d71418abda8",
