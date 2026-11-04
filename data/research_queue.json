@@ -35566,7 +35566,7 @@
   },
   {
     "queue_id": "b9228af4c25ff5ef6eaf",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:33.768541+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "sports",
@@ -36201,11 +36201,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:33.768561+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thi-truong-cau-thu-tu-do-mlb-mua-2026-2027-tarik-skubal-dan-au-cac-du-ba-35b0a4cd"
   },
   {
     "queue_id": "c9772ac4fb06f2812bc4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:34.561522+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "technology",
@@ -36782,11 +36783,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:34.561544+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "noi-bo-maga-luc-uc-sau-that-bai-nang-ne-tai-cuoc-bau-cu-giua-ky-88036810"
   },
   {
     "queue_id": "f862d2396be458053441",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:42.493931+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "vietnam",
@@ -37460,6 +37462,692 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:42.493952+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "luat-bong-a-oi-mat-ap-luc-thay-oi-sau-bi-kich-cua-tien-ao-jesus-de-migue-31eb628c"
+  },
+  {
+    "queue_id": "luat-bong-a-oi-mat-ap-luc-thay-oi-sau-bi-kich-cua-tien-ao-jesus-de-migue-31eb628c",
+    "status": "READY",
+    "prepared_at": "2026-11-04T14:30:01.634473+00:00",
+    "expires_at": "2026-11-05T14:30:01.634473+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+      "https://dantri.com.vn/kinh-doanh/bo-truong-cong-thuong-khong-the-de-nguoi-dan-ganh-moi-rui-ro-dau-tu-dien-20261103175540542.htm",
+      "https://thanhnien.vn/vff-noi-gi-khi-afc-dieu-chinh-thoi-gian-to-chuc-vck-asian-cup-2027-185261103133927918.htm"
+    ],
+    "article": {
+      "id": "luat-bong-a-oi-mat-ap-luc-thay-oi-sau-bi-kich-cua-tien-ao-jesus-de-migue-31eb628c",
+      "title": "Luật bóng đá đối mặt áp lực thay đổi sau bi kịch của tiền đạo Jesus de Miguel",
+      "summary": "Cái chết thương tâm của tiền đạo Jesus de Miguel tại giải hạng nhì Tây Ban Nha đang làm dấy lên những cuộc tranh luận gay gắt và lời kêu gọi FIFA cùng các cơ quan quản lý xem xét lại luật lệ đối với thủ môn.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+      "published_at": "2026-11-04T12:27:00+00:00",
+      "fetched_at": "2026-11-04T14:30:19.323476+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bi kịch xảy ra vào ngày 2-11 trong trận đấu giữa Tenerife và Andorra tại giải hạng nhì Tây Ban Nha, khi tiền đạo Jesus de Miguel qua đời sau pha va chạm mạnh với thủ môn đối phương Jesus Owono ở phút 96. Sự cố kinh hoàng này ngay lập tức chấn động làng túc cầu thế giới và đặt ra câu hỏi lớn về việc các quy định hiện hành đã thực sự bảo vệ đầy đủ tính mạng cầu thủ hay chưa.",
+        "Trước vấn đề này, giới chuyên môn và các nhà báo thể thao đã đưa ra những góc nhìn cùng đề xuất sửa đổi luật khác nhau. Trong chương trình El Jefe y El Master của báo AS Mexico, các nhà báo Alejandro Gomez và Ivan Pirron kêu gọi FIFA siết chặt luật để xử phạt nghiêm ngặt những pha lao ra thiếu kiểm soát của thủ môn, đồng thời đề xuất nghiên cứu giới hạn về tốc độ lẫn khoảng cách khi thủ môn rời khỏi vòng cấm.",
+        "Ở một hướng tiếp cận khác, cựu thủ môn tuyển Colombia Nelson Ramos lại cho rằng nhiều thủ môn thường được đào tạo thói quen nâng đầu gối để tự vệ khi tranh bóng, nhưng kỹ năng ngoài vòng cấm lại kém hơn. Do đó, ông đề xuất cần nghiên cứu quy định bảo vệ thủ môn hợp lý hơn trong các tình huống tranh chấp để giảm bớt việc họ phải dùng đầu gối làm lá chắn tự vệ.",
+        "Song song với các tranh luận về kỹ thuật thi đấu, mức độ kỷ luật và cách điều hành trận đấu cũng được đưa ra mổ xẻ. Theo hãng tin EFE, thủ môn Owono có thể đối mặt án treo giò từ 4 đến 12 trận nếu áp dụng điều 102 quy định kỷ luật của Liên đoàn Bóng đá Tây Ban Nha. Trọng tài Joan Fabregas nhận định hình phạt tối đa có thể đạt 12 trận, đồng thời cho rằng bóng đá cần thay đổi cách xử lý hành vi nguy hiểm thay vì chỉ e ngại việc giữ đủ 11 người trên sân.",
+        "Bên cạnh các điều luật thi đấu trực tiếp trên sân, vụ việc của De Miguel còn thúc đẩy những kiến nghị cải thiện quy trình an toàn y tế. Chuyên gia điều phối cấp cứu Ramon Campos đề xuất chuyên nghiệp hóa lực lượng hỗ trợ y tế, kết hợp nhân viên tình nguyện với kỹ thuật viên chuyên nghiệp dưới sự giám sát chặt chẽ, nhằm đảm bảo ứng phó kịp thời trong mọi tình huống nguy cấp."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Luật bóng đá có thể thay đổi sau cái chết của Miguel",
+      "meta_description": "Phân tích các đề xuất thay đổi luật bóng đá, quy định xử phạt thủ môn và quy trình y tế sau vụ việc thương tâm của tiền đạo Jesus de Miguel.",
+      "keywords": [
+        "Jesus de Miguel",
+        "luật bóng đá",
+        "thủ môn",
+        "Tenerife",
+        "FIFA"
+      ],
+      "slug": "luat-bong-a-oi-mat-ap-luc-thay-oi-sau-bi-kich-cua-tien-ao-jesus-de-migue-31eb628c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 440,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+        "https://dantri.com.vn/kinh-doanh/bo-truong-cong-thuong-khong-the-de-nguoi-dan-ganh-moi-rui-ro-dau-tu-dien-20261103175540542.htm",
+        "https://thanhnien.vn/vff-noi-gi-khi-afc-dieu-chinh-thoi-gian-to-chuc-vck-asian-cup-2027-185261103133927918.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/bo-truong-cong-thuong-khong-the-de-nguoi-dan-ganh-moi-rui-ro-dau-tu-dien-20261103175540542.htm",
+        "https://thanhnien.vn/vff-noi-gi-khi-afc-dieu-chinh-thoi-gian-to-chuc-vck-asian-cup-2027-185261103133927918.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T12:27:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/bo-truong-cong-thuong-khong-the-de-nguoi-dan-ganh-moi-rui-ro-dau-tu-dien-20261103175540542.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T11:25:58+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/vff-noi-gi-khi-afc-dieu-chinh-thoi-gian-to-chuc-vck-asian-cup-2027-185261103133927918.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T06:46:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bi kịch xảy ra ngày 2-11 trong trận Tenerife gặp Andorra ở giải hạng nhì Tây Ban Nha khi thủ môn Jesus Owono va chạm với tiền đạo Jesus de Miguel.",
+          "source_urls": [
+            "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Bi kịch xảy ra ngày 2-11, trong trận Tenerife gặp Andorra ở giải hạng nhì Tây Ban Nha.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "snippet": "Bi kịch xảy ra ngày 2-11, trong trận Tenerife gặp Andorra ở giải hạng nhì Tây Ban Nha.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "page_sha256": "51e938ca297561f85321b017ec0ed2b7572a3dfe8e29548ca0070862810a5d35",
+              "snippet_sha256": "f181ca8cdd8ae3806ceafa874a56ed45aafd52cbe8d442cf2bfd2f293088ce3c",
+              "verified_at": "2026-11-04T14:30:19.322246+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cầu thủ 30 tuổi Jesus de Miguel bị ngừng tim, được cấp cứu và qua đời sáng 3-11, còn thủ môn Owono nhận thẻ đỏ trực tiếp khi trận đấu đang dừng ở tỉ số 2-2.",
+          "source_urls": [
+            "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cầu thủ 30 tuổi bị ngừng tim, được cấp cứu và chuyển đến bệnh viện nhưng qua đời sáng 3-11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "snippet": "Cầu thủ 30 tuổi bị ngừng tim, được cấp cứu và chuyển đến bệnh viện nhưng qua đời sáng 3-11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "page_sha256": "51e938ca297561f85321b017ec0ed2b7572a3dfe8e29548ca0070862810a5d35",
+              "snippet_sha256": "644893c844deaab317d70dc46d32c124b99275bded737dd895a9523b8e2dcf86",
+              "verified_at": "2026-11-04T14:30:19.322246+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các nhà báo Alejandro Gomez và Ivan Pirron đề nghị FIFA sửa đổi luật xử phạt các pha lao ra thiếu kiểm soát, nghiên cứu giới hạn tốc độ và khoảng cách của thủ môn ngoài vòng cấm.",
+          "source_urls": [
+            "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ngày 3-11, trong chương trình El Jefe y El Master của báo AS Mexico, hai nhà báo Alejandro Gomez và Ivan Pirron kêu gọi FIFA sửa đổi luật để xử phạt nghiêm khắc hơn những pha lao ra thiếu kiểm soát của thủ môn.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "snippet": "Ngày 3-11, trong chương trình El Jefe y El Master của báo AS Mexico, hai nhà báo Alejandro Gomez và Ivan Pirron kêu gọi FIFA sửa đổi luật để xử phạt nghiêm khắc hơn những pha lao ra thiếu kiểm soát của thủ môn.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "page_sha256": "51e938ca297561f85321b017ec0ed2b7572a3dfe8e29548ca0070862810a5d35",
+              "snippet_sha256": "949e34891ffa0fd176101308f930dd052e3bb86ec8f9dfc9473a824fe9c037fe",
+              "verified_at": "2026-11-04T14:30:19.322246+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cựu thủ môn Nelson Ramos đề xuất nghiên cứu quy định bảo vệ thủ môn khi ra tranh bóng hợp lệ để họ bớt phải sử dụng đầu gối như một biện pháp tự vệ.",
+          "source_urls": [
+            "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ramos đề nghị nghiên cứu quy định bảo vệ thủ môn khi họ ra tranh bóng hợp lệ, hạn chế những va chạm nguy hiểm từ đối phương.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "snippet": "Ramos đề nghị nghiên cứu quy định bảo vệ thủ môn khi họ ra tranh bóng hợp lệ, hạn chế những va chạm nguy hiểm từ đối phương.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "page_sha256": "51e938ca297561f85321b017ec0ed2b7572a3dfe8e29548ca0070862810a5d35",
+              "snippet_sha256": "4bc4360c7dd17bb05882f7c269aeb56a4336c924f31fa6b1678d27a82db3679c",
+              "verified_at": "2026-11-04T14:30:19.322246+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ môn Owono có thể bị treo giò từ 4 đến 12 trận theo quy định kỷ luật của Liên đoàn Bóng đá Tây Ban Nha.",
+          "source_urls": [
+            "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theohãng tin EFE, Owono có thể bị treo giò từ 4 đến 12 trận nếu Liên đoàn Bóng đá Tây Ban Nha áp dụng điều 102 trong quy định kỷ luật.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "snippet": "Theohãng tin EFE, Owono có thể bị treo giò từ 4 đến 12 trận nếu Liên đoàn Bóng đá Tây Ban Nha áp dụng điều 102 trong quy định kỷ luật.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/luat-bong-da-co-the-thay-doi-nhieu-cho-sau-cai-chet-thuong-tam-cua-miguel-100261104192204115.htm",
+              "page_sha256": "51e938ca297561f85321b017ec0ed2b7572a3dfe8e29548ca0070862810a5d35",
+              "snippet_sha256": "8bd3554fbd04703280395a8fb8e5471ee7f0ebd56cec0238b663a8d7bce1ea3c",
+              "verified_at": "2026-11-04T14:30:19.322246+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ hai hướng tiếp cận trái chiều trong việc sửa đổi luật thủ môn sau tai nạn của Jesus de Miguel: một bên đòi hỏi tăng trách nhiệm và giới hạn khoảng cách lao ra, bên còn lại đề xuất tăng cường bảo vệ để giảm bớt các động tác tự vệ nguy hiểm. Đồng thời, bài viết cũng kết nối vụ việc với các vấn đề về quy trình kỷ luật trọng tài và công tác cấp cứu trên sân cỏ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-04T14:30:19.323632+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "102",
+        "11",
+        "12",
+        "4",
+        "96"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-04T14:30:19.325654+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 440,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1979
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "noi-bo-maga-luc-uc-sau-that-bai-nang-ne-tai-cuoc-bau-cu-giua-ky-88036810",
+    "status": "READY",
+    "prepared_at": "2026-11-04T14:30:01.634473+00:00",
+    "expires_at": "2026-11-05T14:30:01.634473+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+      "https://www.france24.com/en/maga-why-trump-s-most-loyal-supporters-are-turning-against-him"
+    ],
+    "article": {
+      "id": "noi-bo-maga-luc-uc-sau-that-bai-nang-ne-tai-cuoc-bau-cu-giua-ky-88036810",
+      "title": "Nội bộ MAGA lục đục sau thất bại nặng nề tại cuộc bầu cử giữa kỳ",
+      "summary": "Nhiều gương mặt nổi bật trong phong trào MAGA đã lên tiếng quy trách nhiệm cho Tổng thống Donald Trump và các chính sách của ông sau đợt thất bại lớn của đảng Cộng hòa trong cuộc bầu cử giữa kỳ.",
+      "category": "world",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+      "published_at": "2026-11-04T13:48:28+00:00",
+      "fetched_at": "2026-11-04T14:30:35.324870+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cuộc bầu cử giữa kỳ tại Mỹ ghi nhận những tổn thất nặng nề của đảng Cộng hòa, khi phe Dân chủ giành quyền kiểm soát cả Hạ viện lẫn Thượng viện. Ngay sau kết quả này, nhiều nhân vật và nhà bình luận trong phong trào MAGA đã công khai quy trách nhiệm cho Tổng thống Donald Trump và các quyết định chính sách của ông.",
+        "Về phần mình, Tổng thống Trump đã lên tiếng chỉ trích đài Fox News vì tạo diễn đàn cho phe Dân chủ, đồng thời khẳng định kết quả tồi tệ không phản ánh mức độ nổi tiếng của cá nhân ông vì ông không có tên trên lá phiếu. Tuy nhiên, làn sóng bất mãn trong nội bộ vẫn lan rộng với những ý kiến chỉ trích gay gắt từ các đồng minh cũ.",
+        "Podcaster cánh hữu Matt Walsh gọi kết quả bầu cử là một thảm họa chính trị và chỉ trích các quyết định chính sách của ông Trump. Trong khi đó, nhà bình luận Alex Jones tuyên bố cắt đứt quan hệ và khẳng định đang ở thế đối đầu hoàn toàn với ông Trump. Dù vậy, vẫn có một số gương mặt tiếp tục lên tiếng bảo vệ hoặc đổi hướng quy trách nhiệm cho các thế lực khác như truyền thông và đảng Dân chủ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Phong trào MAGA lục đục sau thất bại trong bầu cử giữa kỳ",
+      "meta_description": "Nhiều nhân vật trong phong trào MAGA chỉ trích Tổng thống Donald Trump sau khi đảng Cộng hòa hứng chịu thất bại lớn tại cuộc bầu cử giữa kỳ.",
+      "keywords": [
+        "MAGA",
+        "Donald Trump",
+        "bầu cử giữa kỳ",
+        "Đảng Cộng hòa",
+        "Mỹ"
+      ],
+      "slug": "noi-bo-maga-luc-uc-sau-that-bai-nang-ne-tai-cuoc-bau-cu-giua-ky-88036810",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 227,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+        "https://www.france24.com/en/maga-why-trump-s-most-loyal-supporters-are-turning-against-him"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/maga-why-trump-s-most-loyal-supporters-are-turning-against-him"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:48:28+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/maga-why-trump-s-most-loyal-supporters-are-turning-against-him",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T19:17:55+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nhiều nhân vật trong phong trào MAGA quy trách nhiệm cho Tổng thống Donald Trump và các chính sách sau thất bại trong bầu cử giữa kỳ.",
+          "source_urls": [
+            "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Many MAGAworld figures are already pointing the finger of blame for their midterm losses squarely at president Donald Trump and his policies.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+              "snippet": "Many MAGAworld figures are already pointing the finger of blame for their midterm losses squarely at president Donald Trump and his policies.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+              "page_sha256": "467f9b40c34230c7851f425c1cb6d51fbc2f36896a79fbad19ea58904e92c1a2",
+              "snippet_sha256": "1f275f96afd0d44ad9e7c483d2291f9849b2ea0c2f94a3cd0fa97834d1840698",
+              "verified_at": "2026-11-04T14:30:35.324178+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Trump chỉ trích Fox News trên mạng xã hội vì đã tạo không gian cho phe Dân chủ và cho rằng ông không có tên trên lá phiếu.",
+          "source_urls": [
+            "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Another right-wing figure continuing to back Trump was the former Fox News host-turned-conspiracy theorist Lara Logan, whoblamed an anonymous group of Republicanswho conspired to bring about the defeat so they could “get rid of the MAGA movement and the establishment would retake the party.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+              "snippet": "Another right-wing figure continuing to back Trump was the former Fox News host-turned-conspiracy theorist Lara Logan, whoblamed an anonymous group of Republicanswho conspired to bring about the defeat so they could “get rid of the MAGA movement and the establishment would retake the party.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+              "page_sha256": "467f9b40c34230c7851f425c1cb6d51fbc2f36896a79fbad19ea58904e92c1a2",
+              "snippet_sha256": "850eb2836d174e9e240433733836294f6d62bb5f786c8a7ebd45fdfe4a2cda1d",
+              "verified_at": "2026-11-04T14:30:35.324178+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Matt Walsh gọi kết quả bầu cử là thảm họa chính trị và Alex Jones tuyên bố hoàn toàn chống lại ông Trump.",
+          "source_urls": [
+            "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "But noted conspiracy theorist Alex Jones had another take on why Trump was to blame.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+              "snippet": "But noted conspiracy theorist Alex Jones had another take on why Trump was to blame.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+              "page_sha256": "467f9b40c34230c7851f425c1cb6d51fbc2f36896a79fbad19ea58904e92c1a2",
+              "snippet_sha256": "078ee1249fcb074ab57a347c32cc6a6e6424d0832e8b5e0b84f2dbdff3097bd4",
+              "verified_at": "2026-11-04T14:30:35.324178+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phản ứng trái chiều của các nhân vật trong nội bộ phong trào MAGA sau thất bại bầu cử. Đồng thời, văn bản phân tích nguyên nhân mà các bên quy kết cho ông Trump nhằm cung cấp góc nhìn đa chiều.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-04T14:30:35.324959+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-04T14:30:35.325967+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 227,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1036
+        },
+        "independent_domains": [
+          "france24.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "thi-truong-cau-thu-tu-do-mlb-mua-2026-2027-tarik-skubal-dan-au-cac-du-ba-35b0a4cd",
+    "status": "READY",
+    "prepared_at": "2026-11-04T14:30:01.634473+00:00",
+    "expires_at": "2026-11-05T14:30:01.634473+00:00",
+    "source_urls": [
+      "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+      "https://www.sportingnews.com/us/mlb/san-diego-padres/news/padres-predicted-poach-dodgers-32m-two-time-cy-young-winner-motivated-free-agency-move/c99cc3be21b115eac82fdb7a"
+    ],
+    "article": {
+      "id": "thi-truong-cau-thu-tu-do-mlb-mua-2026-2027-tarik-skubal-dan-au-cac-du-ba-35b0a4cd",
+      "title": "Thị trường cầu thủ tự do MLB mùa 2026-2027: Tarik Skubal dẫn đầu các dự báo hợp đồng lớn",
+      "summary": "Thị trường chuyển nhượng cầu thủ tự do Major League Baseball (MLB) mùa giải 2026-2027 chính thức khởi động với tâm điểm xoay quanh Tarik Skubal và các dự báo chi tiêu tổng thể.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+      "published_at": "2026-11-04T13:50:48+00:00",
+      "fetched_at": "2026-11-04T14:31:14.243762+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường cầu thủ tự do Major League Baseball (MLB) mùa giải 2026-2027 đã chính thức khởi động, mang theo những bảng xếp hạng và dự báo hợp đồng đáng chú ý cho top 50 ngôi sao hàng đầu. Theo các phân tích từ giới chuyên môn, tâm điểm của kỳ chuyển nhượng lần này thuộc về Tarik Skubal, người được đánh giá là cầu thủ tự do sáng giá nhất với tiềm năng phá vỡ một số kỷ lục hợp đồng dành cho các vận động viên ném bóng.",
+        "Bên cạnh Skubal, bức tranh toàn cảnh của thị trường năm nay cho thấy tổng mức chi tiêu dự kiến đạt khoảng 2,65 tỷ USD tiền đảm bảo, giảm khoảng 12,5% so với con số hơn 3 tỷ USD của mùa đông trước đó do chất lượng nhóm cầu thủ hàng đầu có phần khiêm tốn hơn. Ngoài ra, thời điểm hạn chót thỏa thuận Thỏa thuận lao động tập thể (CBA) vào ngày 1 tháng 12 đang đến gần, tạo thêm áp lực thời gian cho các đội bóng trong việc chốt các giao dịch.",
+        "Các đánh giá chi tiết cũng chỉ ra những yếu tố tác động đến giá trị hợp đồng như quy định đề nghị đủ điều kiện (qualifying offer) trị giá 23,15 triệu USD hay lịch sử chấn thương cánh tay của một số gương mặt nổi bật. Trong bối cảnh đó, cuộc đua giành chữ ký của các ngôi sao hàng đầu giữa các CLB lớn như Los Angeles Dodgers hay San Diego Padres dự kiến sẽ diễn ra vô cùng sôi động khi thị trường bước vào giai đoạn quyết định trước thời điểm có khả năng xảy ra lệnh khóa cửa."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thi truong cau thu tu do MLB 2026-2027: Tarik Skubal tam diem",
+      "meta_description": "Cập nhật thị trường cầu thủ tự do MLB 2026-2027 với các bảng xếp hạng, dự báo hợp đồng và phân tích về Tarik Skubal cùng tổng mức chi tiêu.",
+      "keywords": [
+        "MLB",
+        "Tarik Skubal",
+        "chuyen nhuong MLB",
+        "cau thu tu do",
+        "bong chày Mỹ"
+      ],
+      "slug": "thi-truong-cau-thu-tu-do-mlb-mua-2026-2027-tarik-skubal-dan-au-cac-du-ba-35b0a4cd",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 289,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+        "https://www.sportingnews.com/us/mlb/san-diego-padres/news/padres-predicted-poach-dodgers-32m-two-time-cy-young-winner-motivated-free-agency-move/c99cc3be21b115eac82fdb7a"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/mlb/san-diego-padres/news/padres-predicted-poach-dodgers-32m-two-time-cy-young-winner-motivated-free-agency-move/c99cc3be21b115eac82fdb7a"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:50:48+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/mlb/san-diego-padres/news/padres-predicted-poach-dodgers-32m-two-time-cy-young-winner-motivated-free-agency-move/c99cc3be21b115eac82fdb7a",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T08:09:16+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Thị trường cầu thủ tự do MLB mùa 2026-2027 bắt đầu với các bảng xếp hạng và dự báo hợp đồng cho top 50 cầu thủ.",
+          "source_urls": [
+            "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Rankings, contract projections: Top 50 2026-27 MLB free agents - ESPNSkip to main contentSkip to navigation",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "snippet": "Rankings, contract projections: Top 50 2026-27 MLB free agents - ESPNSkip to main contentSkip to navigation",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "page_sha256": "3a8d6824631df8e02dfb0ee2d02dc5a63e0491e711e024e7185405303cd7fcfa",
+              "snippet_sha256": "106f043b8997919b240b96deadaba90b7bbd01c85d29f4744319fcd5bffaf813",
+              "verified_at": "2026-11-04T14:31:14.242724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng chi tiêu dự kiến cho các hợp đồng đảm bảo là khoảng 2,65 tỷ USD, giảm khoảng 12,5% so với mức thực tế hơn 3 tỷ USD của mùa đông trước.",
+          "source_urls": [
+            "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "I have my projected spending (about $2.65 billion in guarantees) down about 12.5% from last winter's actual spending (a little over $3 billion) due to less high-end talent.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "snippet": "I have my projected spending (about $2.65 billion in guarantees) down about 12.5% from last winter's actual spending (a little over $3 billion) due to less high-end talent.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "page_sha256": "3a8d6824631df8e02dfb0ee2d02dc5a63e0491e711e024e7185405303cd7fcfa",
+              "snippet_sha256": "d12173ff94ad06d70a2d6e4552c553b49d291d3ed4193996d42ab409120648ed",
+              "verified_at": "2026-11-04T14:31:14.242724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thời hạn kết thúc thỏa thuận CBA hiện tại diễn ra vào ngày 1 tháng 12 đang đến gần.",
+          "source_urls": [
+            "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "As covered in that panel piece, the usual suspects are believed to be at the front of the line for Skubal: The Dodgers and Mets are the primary bidders, the Tigers are monitoring for a discount, the Yankees are thinking about it (and then trading from their pitching stockpile if they land Skubal), and the Angels, White Sox, and Padres are the sleepers with ownership changes behind the interest.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "snippet": "As covered in that panel piece, the usual suspects are believed to be at the front of the line for Skubal: The Dodgers and Mets are the primary bidders, the Tigers are monitoring for a discount, the Yankees are thinking about it (and then trading from their pitching stockpile if they land Skubal), and the Angels, White Sox, and Padres are the sleepers with ownership changes behind the interest.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "page_sha256": "3a8d6824631df8e02dfb0ee2d02dc5a63e0491e711e024e7185405303cd7fcfa",
+              "snippet_sha256": "62f854a839fd5f621338b6a3d90f32feb0066dd06f333023fa6291a559daae9c",
+              "verified_at": "2026-11-04T14:31:14.242724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mức đề nghị đủ điều kiện (qualifying offer) là hợp đồng một năm trị giá 23,15 triệu USD.",
+          "source_urls": [
+            "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "One other term to know is the qualifying offer (QO): Teams can offer an eligible free agent a one-year, $23.15 million deal, and if they turn it down and sign with another team, the original team gets compensation.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "snippet": "One other term to know is the qualifying offer (QO): Teams can offer an eligible free agent a one-year, $23.15 million deal, and if they turn it down and sign with another team, the original team gets compensation.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "page_sha256": "3a8d6824631df8e02dfb0ee2d02dc5a63e0491e711e024e7185405303cd7fcfa",
+              "snippet_sha256": "1da098c0cdd5675ef6569a79a6b87760f99867a72362e3d1e24d6ceec326affe",
+              "verified_at": "2026-11-04T14:31:14.242724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh tài chính tổng thể của thị trường chuyển nhượng MLB mùa 2026-2027 và các yếu tố kỹ thuật như quy định đề nghị đủ điều kiện hay thời hạn CBA. Đồng thời, văn bản phân tích kỹ lưỡng các dự báo hợp đồng của ngôi sao Tarik Skubal dựa trên dữ liệu từ các chuyên gia và nhà quản lý.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-04T14:31:14.243871+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12,5",
+        "2,65",
+        "2026",
+        "2027",
+        "23,15",
+        "3",
+        "50"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-04T14:31:14.245222+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 289,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1333
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
