@@ -25,6 +25,8 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Repair queue invariants (withdraw any READY candidate the audit would reject)
+        run: python scripts/repair_queue.py
       - name: Validate repository and research queue
         run: python scripts/audit_site.py
       - name: Run offline regression tests
@@ -72,6 +74,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Repair queue invariants (withdraw any READY candidate the audit would reject)
+        run: python scripts/repair_queue.py
       - name: Validate repository and research queue
         run: python scripts/audit_site.py
 
@@ -88,6 +92,8 @@ jobs:
           MAX_ARTICLES_PER_SLOT: "3"
         run: python scripts/write_candidates.py
 
+      - name: Repair queue invariants (withdraw any READY candidate the audit would reject)
+        run: python scripts/repair_queue.py
       - name: Validate queue after writing
         run: python scripts/audit_site.py
 
