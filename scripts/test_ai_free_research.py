@@ -41,6 +41,7 @@ class WritingStageTests(unittest.TestCase):
                                   (validator({'publish':True},'Gemini:test-model') if validator else None) or
                                   ({'publish':True},'Gemini:test-model'))), \
                  patch.object(write_candidates.np,'make_article',return_value=article), \
+                 patch.object(write_candidates.np,'ready_candidate_errors',return_value=[]), \
                  patch.object(write_candidates.np,'find_licensed_image',return_value=None), \
                  patch.dict(os.environ,{'GEMINI_API_KEY':'test-key','MAX_ARTICLES_PER_SLOT':'1'},clear=False):
                 write_candidates.main()

@@ -12,7 +12,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlencode, urlsplit
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
-from content_quality import (classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, repair_fact_ledger_anchors, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
+from content_quality import (compute_verified_numbers, ready_candidate_errors, classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, repair_fact_ledger_anchors, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
 
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS = ROOT / 'config/feeds.json'
@@ -33,7 +33,7 @@ MAX_RESEARCH_QUEUE = 150
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', '').strip()
 GROK_MODEL = os.getenv('GROK_MODEL', '').strip()
 OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', '').strip()
-MAX_GEMINI_CALLS_PER_RUN = max(0, int(os.getenv('MAX_GEMINI_CALLS_PER_RUN', '12')))
+MAX_GEMINI_CALLS_PER_RUN = max(0, int(os.getenv('MAX_GEMINI_CALLS_PER_RUN', '24')))
 MAX_CLOUDFLARE_CALLS_PER_RUN = max(0, int(os.getenv('MAX_CLOUDFLARE_CALLS_PER_RUN', '6')))
 MAX_OPENROUTER_CALLS_PER_RUN = max(0, int(os.getenv('MAX_OPENROUTER_CALLS_PER_RUN', '8')))
 GEMINI_CALLS_THIS_RUN = 0
@@ -552,7 +552,7 @@ def discover_gemini_models():
     # Google's live model list does not expose per-account free-tier eligibility. Keep a
     # conservative allowlist of models currently documented with free-tier pricing, then
     # intersect it with models actually returned for this key. Update this list after reviewing pricing docs.
-    free_names={'gemini-3.5-flash-lite','gemini-3.1-flash-lite','gemini-2.5-flash-lite'}
+    free_names={'gemini-3.5-flash-lite','gemini-3.1-flash-lite'}
     candidates=[]
     for m in data.get('models',[]):
         name=m.get('name','').removeprefix('models/')
@@ -645,6 +645,9 @@ def discover_xai_models():
             print(f'[MODEL] Grok/xAI found {grok_rows} text model(s), but {over_budget} exceeded configured price ceilings (${max_input}/M input, ${max_output}/M output).')
     return [x[2] for x in candidates[:3]]
 
+OPENROUTER_BLOCKED_MODEL_HINTS=('inkling','thinkingmachines','coder','code-','-code')
+OPENROUTER_PREFERRED_FAMILIES=('llama-3.3','llama-3.1','gpt-oss','gemma','qwen','mistral','deepseek')
+
 def discover_openrouter_models():
     key=os.getenv('OPENROUTER_API_KEY','').strip()
     if not key: return []
@@ -664,8 +667,11 @@ def discover_openrouter_models():
         except (TypeError,ValueError): context=0
         if context and context < 12000: continue
         low=mid.lower()
+        # Models that answer HTTP 403 for plain API calls ("only available on agentic harnesses").
+        if any(x in low for x in OPENROUTER_BLOCKED_MODEL_HINTS): continue
         # Favor general text/instruct models and moderate model sizes; avoid vision-only models.
         score=0
+        if any(x in low for x in OPENROUTER_PREFERRED_FAMILIES): score+=60
         if any(x in low for x in ('flash','mini','small','lite','8b','14b','free')): score+=20
         if any(x in low for x in ('vl','vision','audio','embedding','guard')): score-=30
         if context>=32000: score+=5
@@ -826,7 +832,7 @@ def generate_with_fallback(prompt, validator=None):
             if not models:
                 print(f'[WARN] {name}: no currently eligible models discovered')
                 continue
-            providers.append((name,models[:3],call))
+            providers.append((name,models[:(5 if name=='OpenRouter' else 3)],call))
             print(f'[MODEL] {name}: {len(models)} eligible model(s); selected {models[0]}')
         except Exception as e:
             MODEL_DISCOVERY_CACHE[name]=[]
@@ -985,7 +991,7 @@ QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 - Ưu tiên tài liệu gốc và nguồn chính thức. Nhiều trang đăng lại cùng một thông cáo không phải nguồn độc lập.
 - Nếu chỉ có một nguồn thứ cấp, không đủ căn cứ cho bài phân tích; trả publish=false và nêu rõ lý do.
 - Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Hồ sơ Research đã qua cổng sẵn sàng và là căn cứ tác nghiệp đã đóng; không tự chạy lại đánh giá đủ/thiếu nguồn bằng một thuật toán khác, không trả publish=false chỉ vì từng claim không được lặp nguyên văn ở hai trang. Hãy viết từ fact_units và page_evidence đã cung cấp. Mỗi claim phải bằng tiếng Việt và chỉ nêu điều nguồn thực sự hỗ trợ. evidence_snippet/evidence_by_source phải là trích đoạn liên tục, nguyên văn từ đúng URL trong page_evidence; source_claim nếu có phải là một đoạn nguyên văn nằm trong evidence_snippet. Nếu chưa tạo được source_claim riêng, dùng chính evidence_snippet làm anchor, tuyệt đối không tự diễn đạt lại rồi gắn nhãn trích dẫn. Các nguồn độc lập có thể diễn đạt cùng dữ kiện bằng câu chữ khác nhau; không bắt buộc mọi nguồn phải lặp lại cùng một câu. Mức độc lập được đánh giá ở cấp hồ sơ bài viết: hồ sơ đã có ít nhất hai source family độc lập hoặc nguồn chính thức phù hợp; không yêu cầu mọi chi tiết hỗ trợ phải được hai nguồn nhắc lại. Với dữ kiện nhạy cảm/rủi ro cao hoặc tranh chấp, phải trình bày rõ mức độ xác nhận và chỉ khẳng định mạnh khi có nguồn gốc hoặc đối chiếu phù hợp. Không thêm URL ngoài danh sách.
-- Nêu rõ đóng góp biên tập riêng trong editorial_value bằng ít nhất hai câu/ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ.
+- editorial_value BẮT BUỘC gồm 2-3 câu riêng biệt, mỗi câu kết thúc bằng dấu chấm và dài ít nhất 18 ký tự (không viết thành một câu duy nhất, không dùng khẩu hiệu). Nêu rõ đóng góp biên tập riêng bằng ít nhất hai ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
 - published_at là thời điểm sự kiện/nguồn công bố, không phải thời điểm AppNho xuất bản.
@@ -1158,6 +1164,9 @@ def make_article(obj, group, evidence_pages=None):
     }
     errors,stats=validate_article_quality(article, evidence_pages=evidence_pages)
     if errors: raise ValueError('Quality gate failed: '+'; '.join(errors))
+    # Later audits/publication no longer hold the source pages; record which body numbers
+    # were verified against them now so every stage applies the same numeric rule.
+    article['verified_numbers']=compute_verified_numbers(body,article['fact_ledger'],evidence_pages)
     article['quality_audit']={'checked_at':now_iso(),'status':'PASS','stats':stats,'independent_domains':domains,'primary_source_present':has_primary}
     return article
 

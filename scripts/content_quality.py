@@ -514,27 +514,61 @@ def validate_fact_ledger_proof(fact_ledger, allowed_urls, min_claims=3,
     return errors
 
 
-def validate_body_fact_coverage(body, fact_ledger, evidence_pages=None):
-    """Reject numeric facts absent from both the ledger and the sealed source pages."""
+NUMBER_RE=re.compile(r"\d+(?:[.,]\d+)?")
+
+
+def numbers_in(text):
+    return set(NUMBER_RE.findall(str(text or "")))
+
+
+def _ledger_evidence_text(fact_ledger):
+    """Claims plus the verbatim excerpts that were hash-verified against the source pages."""
+    parts=[]
+    for item in (fact_ledger or []):
+        if not isinstance(item,dict):
+            continue
+        parts.append(str(item.get("claim") or ""))
+        parts.append(str(item.get("source_claim") or ""))
+        parts.append(str(item.get("evidence_snippet") or ""))
+        for ev in item.get("evidence_by_source") or []:
+            if isinstance(ev,dict):
+                parts.append(str(ev.get("snippet") or ""))
+    return " ".join(parts)
+
+
+def compute_verified_numbers(body, fact_ledger, evidence_pages):
+    """Numbers used in the body that are supported by the ledger or the sealed source pages.
+
+    Computed at writing time (when the source pages are available) and stored on the
+    article, so later audits/publication, which no longer hold the pages, apply the same
+    rule instead of a stricter ledger-only rule that rejected correct figures such as
+    "12 tháng".
+    """
     paragraphs=body if isinstance(body,list) else re.split(r"\n\s*\n",str(body or ""))
-    ledger_text=" ".join(
-        str(item.get("claim") or "") for item in (fact_ledger or []) if isinstance(item,dict)
-    )
-    ledger_numbers=set(re.findall(r"\d+(?:[.,]\d+)?",ledger_text))
-    # A number can be accurately supported by a fetched source even when the AI
-    # did not repeat it in a ledger claim. Validate against the sealed source pages
-    # rather than treating the ledger as the only allowed numeric vocabulary.
-    source_text=" ".join(str(x or "") for x in (evidence_pages or {}).values())
-    source_numbers=set(re.findall(r"\d+(?:[.,]\d+)?",source_text))
-    allowed_numbers=ledger_numbers | source_numbers
+    allowed=numbers_in(_ledger_evidence_text(fact_ledger))
+    allowed|=numbers_in(" ".join(str(x or "") for x in (evidence_pages or {}).values()))
+    used=set()
+    for paragraph in paragraphs:
+        used|=numbers_in(re.sub(r"(?i)\bđoạn\s+\d+\b"," ",str(paragraph or "")))
+    return sorted(used & allowed)
+
+
+def validate_body_fact_coverage(body, fact_ledger, evidence_pages=None, verified_numbers=None):
+    """Reject numeric facts absent from the ledger, its verified excerpts, or the source pages."""
+    paragraphs=body if isinstance(body,list) else re.split(r"\n\s*\n",str(body or ""))
+    allowed_numbers=numbers_in(_ledger_evidence_text(fact_ledger))
+    # A number can be accurately supported by a fetched source even when the AI did not
+    # repeat it in a ledger claim, so also accept the sealed source pages when available
+    # and the numbers recorded at writing time (verified against those pages).
+    allowed_numbers|=numbers_in(" ".join(str(x or "") for x in (evidence_pages or {}).values()))
+    allowed_numbers|={str(x) for x in (verified_numbers or [])}
     errors=[]
     for idx, paragraph in enumerate(paragraphs,1):
         text=str(paragraph or "")
         # Ignore editorial paragraph labels such as "Đoạn 1"; they are structure,
         # not factual quantities or dates.
         numeric_text=re.sub(r"(?i)\bđoạn\s+\d+\b"," ",text)
-        numbers=set(re.findall(r"\d+(?:[.,]\d+)?",numeric_text))
-        missing=sorted(numbers-allowed_numbers)
+        missing=sorted(numbers_in(numeric_text)-allowed_numbers)
         if missing:
             errors.append(
                 f"Đoạn {idx} có số liệu/ngày tháng không tìm thấy trong fact ledger hoặc văn bản nguồn: {', '.join(missing[:6])}"
@@ -548,7 +582,8 @@ def validate_article_quality(article: dict, min_words=None, min_paragraphs=None,
     body = article.get("body") or []
     stats = body_stats(body)
     if article.get("fact_ledger"):
-        errors.extend(validate_body_fact_coverage(body, article.get("fact_ledger") or [], evidence_pages=evidence_pages))
+        errors.extend(validate_body_fact_coverage(body, article.get("fact_ledger") or [], evidence_pages=evidence_pages,
+                                                  verified_numbers=article.get("verified_numbers")))
     content_type = article.get('content_type') or "short_explainer"
     required_words = minimum_words_for_type(content_type) if min_words is None else min_words
     required_paragraphs = minimum_paragraphs_for_type(content_type) if min_paragraphs is None else min_paragraphs
@@ -569,7 +604,7 @@ def validate_article_quality(article: dict, min_words=None, min_paragraphs=None,
     if stats["filler_hits"]:
         errors.append("Có câu/đoạn khuôn mẫu chung chung: " + "; ".join(stats["filler_hits"][:3]))
     editorial_value=str(article.get("editorial_value") or "").strip()
-    editorial_parts=[x.strip() for x in re.split(r"[.;!?]",editorial_value) if len(x.strip())>=18]
+    editorial_parts=[x.strip() for x in re.split(r"[.;!?\n]|(?i:\bđồng thời\b|\bngoài ra\b|\bbên cạnh đó\b)",editorial_value) if x and len(x.strip())>=18]
     if len(editorial_parts)<2 or len(set(x.casefold() for x in editorial_parts))<2:
         errors.append("Đóng góp biên tập phải nêu ít nhất hai nội dung cụ thể, không chỉ là một câu khẩu hiệu")
     if article.get("risk_level") not in {"R1", "R2", "R3"}:
@@ -610,3 +645,31 @@ def evidence_matches_title(title: str, evidence: str, minimum_overlap=0.30) -> b
     evidence_tokens=set(re.findall(r"[a-z0-9À-ỹ]+",str(evidence or "")[:5000].casefold()))
     overlap=len(title_tokens & evidence_tokens)/len(title_tokens)
     return overlap>=minimum_overlap
+
+
+def ready_candidate_errors(article):
+    """The exact checks a READY candidate must pass in audit_site.py and publish_ready.py.
+
+    Writing runs this before a draft can become READY, so an article can never be queued
+    that the next audit would reject (which used to block every later workflow run).
+    """
+    errors=[]
+    if not isinstance(article,dict) or not article.get("id"):
+        return ["READY candidate has no article ID"]
+    quality,_=validate_article_quality(article)
+    errors.extend(quality)
+    refs=[x for x in (article.get("source_references") or []) if isinstance(x,dict)]
+    urls=[x.get("url") for x in refs]
+    primary_urls=[x.get("url") for x in refs if x.get("is_primary_for_claim")]
+    families={str(x.get("url") or "").strip():x.get("source_family") or domain_key(x.get("url","")) for x in refs}
+    errors.extend(validate_fact_ledger_proof(article.get("fact_ledger"),urls,min_claims=3,
+                                             primary_urls=primary_urls,source_families=families))
+    count,primary,_=source_independence(refs)
+    if count<2 and not primary:
+        errors.append("Không đủ hai miền nguồn độc lập hoặc nguồn chính thức")
+    risk=article.get("risk_level")
+    if risk=="R2" and not primary and count<3:
+        errors.append("R2 thiếu nguồn chính thức hoặc ba miền nguồn độc lập")
+    if risk=="R3" and not primary:
+        errors.append("R3 không có nguồn chính thức")
+    return errors

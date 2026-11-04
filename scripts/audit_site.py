@@ -4,7 +4,7 @@ import json, re, sys, csv
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
-from content_quality import validate_article_quality, validate_fact_ledger_proof, source_independence, domain_key
+from content_quality import validate_article_quality, validate_fact_ledger_proof, source_independence, domain_key, ready_candidate_errors
 ROOT=Path(__file__).resolve().parents[1]
 CATEGORIES={"world","vietnam","sports","technology"}
 def read_json(path, default=None):
@@ -76,16 +76,9 @@ def main():
             article=entry.get("article")
             assert isinstance(article,dict) and article.get("id"), "READY candidate has no article ID"
             assert article.get("quality_version")=="1.5" and article.get("quality_status")=="PASS", f"READY candidate not v1.5 PASS: {entry.get('queue_id')}"
-            errors,_=validate_article_quality(article)
+            # Identical to the gate publish_ready.py applies, so audit and publication cannot disagree.
+            errors=ready_candidate_errors(article)
             assert not errors, f"READY candidate failed quality gate: {entry.get('queue_id')}: {errors}"
-            refs=article.get("source_references") or []
-            urls=[x.get("url") for x in refs if isinstance(x,dict)]
-            primary_urls=[x.get("url") for x in refs if isinstance(x,dict) and x.get("is_primary")]
-            source_families={str(ref.get("url") or "").strip():ref.get("source_family") or domain_key(ref.get("url","")) for ref in refs if isinstance(ref,dict)}
-            ledger_errors=validate_fact_ledger_proof(article.get("fact_ledger"),urls,min_claims=3,primary_urls=primary_urls,source_families=source_families)
-            assert not ledger_errors, f"READY candidate has invalid fact ledger: {entry.get('queue_id')}: {ledger_errors}"
-            count,primary,_=source_independence(refs)
-            assert count>=2 or primary, f"READY candidate lacks independent sources: {entry.get('queue_id')}"
             assert entry.get("queue_id") not in ready_ids, f"Duplicate READY queue ID: {entry.get('queue_id')}"
             ready_ids.add(entry.get("queue_id"))
     assert isinstance(active,list), "data/articles.json must be a JSON array"

@@ -12,6 +12,9 @@ ARTICLES=ROOT/'data/articles.json'
 ARCHIVE=ROOT/'data/archive_articles.json'
 SEEN=ROOT/'data/seen_items.json'
 MAX_WRITE=max(1,int(os.getenv('MAX_ARTICLES_PER_SLOT') or '3'))
+# A candidate the models cannot write after this many attempts is closed, so it stops
+# consuming the per-run attempt budget and extending its own expiry forever.
+MAX_WRITE_ATTEMPTS=max(1,int(os.getenv('MAX_WRITE_ATTEMPTS') or '4'))
 
 
 def _filter_candidate_evidence(item):
@@ -78,6 +81,13 @@ def main():
     def defer_writing(record, reason):
         """Keep a Research-approved candidate in Writing; never loop it back to Research."""
         attempts=int(record.get('write_attempts') or 0)+1
+        if attempts>=MAX_WRITE_ATTEMPTS:
+            record['status']='REJECT'
+            record['editorial_reason']='Không viết được sau '+str(attempts)+' lần thử: '+np.clean(reason)[:300]
+            record['last_write_error']=np.clean(reason)[:500]
+            record['write_attempts']=attempts
+            record.pop('next_write_after',None)
+            return 0
         record['status']='WRITING_PENDING'
         record['last_write_error']=np.clean(reason)[:500]
         record['write_attempts']=attempts
@@ -94,7 +104,10 @@ def main():
         return retry_at is None or retry_at<=now
     staged=[x for x in queue if isinstance(x,dict) and x.get('status')=='WRITING_PENDING'
             and write_is_due(x)]
-    staged.sort(key=lambda x:x.get('staged_at',''))
+    # Fewest failed attempts first, then the freshest story first: hopeless old candidates
+    # must not starve new ones, and a stale story is worth less than a fresh one.
+    staged.sort(key=lambda x:x.get('staged_at',''),reverse=True)
+    staged.sort(key=lambda x:int(x.get('write_attempts') or 0))
     if not staged:
         print('[WRITING] No due WRITING_PENDING candidates; AI providers were not called.')
         return
@@ -134,7 +147,14 @@ def main():
         validated={}
         def validate_for_provider(candidate,provider_label):
             candidate['_provider']=provider_label
-            validated['article']=np.make_article(candidate,group,evidence)
+            article=np.make_article(candidate,group,evidence)
+            # Same gate as audit_site.py / publish_ready.py: a draft that would be rejected
+            # there is a failed draft here (so the next model/retry gets the error feedback)
+            # instead of a READY entry that blocks every later workflow run.
+            gate_errors=np.ready_candidate_errors(article)
+            if gate_errors:
+                raise ValueError('Quality gate failed: '+'; '.join(gate_errors)[:700])
+            validated['article']=article
         try:
             prompt=np.make_prompt(group,evidence,group,dossier)
             result,provider=np.generate_with_fallback(prompt,validator=validate_for_provider)
@@ -176,6 +196,12 @@ def main():
             print(f"[READY] {article.get('title')} ({article.get('word_count')} words; provider={provider})")
             time.sleep(0.5)
         except Exception as exc:
+            if str(exc).startswith('Per-run provider call budgets exhausted'):
+                # Our own call budget ran out; the candidate itself did not fail.
+                # Do not burn one of its write attempts - leave it for the next run.
+                attempted-=1
+                print(f"[WRITING] {exc}; leaving remaining candidates for the next run.")
+                break
             failed+=1
             retry_hours=defer_writing(item,str(exc))
             print(f"[WRITING_RETRY] {item.get('lead_title')} (writing attempt {item.get('write_attempts')}; retry in {retry_hours}h): {exc}")

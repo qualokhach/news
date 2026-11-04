@@ -9202,7 +9202,7 @@
   },
   {
     "queue_id": "b583adca5f8f5a3dd3c8",
-    "status": "WRITTEN",
+    "status": "WRITING_PENDING",
     "staged_at": "2026-11-03T03:07:36.510959+00:00",
     "expires_at": "2026-11-06T03:05:40.204071+00:00",
     "category_hint": "sports",
@@ -9324,7 +9324,8 @@
         "source_feed_domain": "cnbc.com"
       }
     ],
-    "written_article_id": "fifa-cho-phep-xem-tai-lieu-ve-ke-hoach-tu-nhan-hoa-world-cup-gay-tranh-c-4dd4e28b"
+    "last_write_error": "Bản viết trước không qua kiểm định: R2 thiếu nguồn chính thức hoặc ba miền nguồn độc lập",
+    "write_attempts": 1
   },
   {
     "queue_id": "92223af2ec72ad611f4c",
@@ -26422,7 +26423,7 @@
   },
   {
     "queue_id": "fifa-cho-phep-xem-tai-lieu-ve-ke-hoach-tu-nhan-hoa-world-cup-gay-tranh-c-4dd4e28b",
-    "status": "READY",
+    "status": "REJECT",
     "prepared_at": "2026-11-03T11:23:50.946467+00:00",
     "expires_at": "2026-11-03T23:23:50.946467+00:00",
     "source_urls": [
@@ -26610,7 +26611,13 @@
         ],
         "primary_source_present": false
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "verified_numbers": [
+        "11",
+        "12",
+        "16"
+      ]
+    },
+    "result_reason": "Withdrawn before audit: R2 thiếu nguồn chính thức hoặc ba miền nguồn độc lập"
   }
 ]
