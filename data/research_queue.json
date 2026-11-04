@@ -29827,7 +29827,7 @@
     "queue_id": "0012115859d0fc6235ed",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-04T02:16:53.361279+00:00",
-    "expires_at": "2026-11-07T02:14:08.754125+00:00",
+    "expires_at": "2026-11-07T02:17:17.588415+00:00",
     "category_hint": "sports",
     "lead_title": "Barcelona's road back to the top runs through Lamine Yamal and Raphinha, and Aston Villa got a front row seat",
     "source_urls": [
@@ -30581,13 +30581,16 @@
       ]
     },
     "research_ready_at": "2026-11-04T02:16:53.361298+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: fact_ledger[1] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng | Gemini/gemini-3.1-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ ki",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-04T06:17:17.588415+00:00"
   },
   {
     "queue_id": "de470d8a2dad9503da04",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-04T02:16:59.042671+00:00",
-    "expires_at": "2026-11-07T02:14:08.754125+00:00",
+    "expires_at": "2026-11-07T02:17:17.588415+00:00",
     "category_hint": "sports",
     "lead_title": "Papers: Man Utd keen on signing Man City defender Ait-Nouri",
     "source_urls": [
@@ -31501,13 +31504,16 @@
       ]
     },
     "research_ready_at": "2026-11-04T02:16:59.042689+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger cần ít nhất 3 dữ kiện có thể kiểm tra | Gemini/gemini-3.1-flash-lite: fact_ledger[1] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn; fact_ledge | Cloudflare Workers AI/@cf/meta/llama-3.3-7",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-04T06:17:17.588415+00:00"
   },
   {
     "queue_id": "ca48ca7074834edfd6b0",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-04T02:17:01.131440+00:00",
-    "expires_at": "2026-11-07T02:14:08.754125+00:00",
+    "expires_at": "2026-11-07T02:17:17.588415+00:00",
     "category_hint": "technology",
     "lead_title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws",
     "source_urls": [
@@ -32206,6 +32212,9 @@
       ]
     },
     "research_ready_at": "2026-11-04T02:17:01.131461+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[2] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng | Gemini/gemini-3.5-flash-lite: fact_ledger[2] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Cloudflare Wo",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-04T06:17:17.588415+00:00"
   }
 ]
