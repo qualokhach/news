@@ -43362,7 +43362,7 @@
   },
   {
     "queue_id": "aa11fb8d08077b8aa982",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T16:39:33.630589+00:00",
     "expires_at": "2026-11-07T16:37:23.753301+00:00",
     "category_hint": "technology",
@@ -43926,11 +43926,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T16:39:33.630607+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "sinh-vien-space-grant-tiep-lua-cho-chuyen-tham-quan-inspiration-tour-cua-bb38af95"
   },
   {
     "queue_id": "6c839bad03e9d3174225",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T16:39:35.361265+00:00",
     "expires_at": "2026-11-07T16:37:23.753301+00:00",
     "category_hint": "sports",
@@ -44469,11 +44470,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T16:39:35.361284+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "liverpool-thay-oi-nhan-su-truoc-tran-gap-fenerbahce-tai-champions-league-50c255cb"
   },
   {
     "queue_id": "94a2a616f307cb76dfe2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T16:39:36.429126+00:00",
     "expires_at": "2026-11-07T16:37:23.753301+00:00",
     "category_hint": "sports",
@@ -45110,6 +45112,608 @@
       ]
     },
     "research_ready_at": "2026-11-04T16:39:36.429146+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thu-mon-jesus-owono-oi-mat-ngay-thang-kho-khan-sau-su-ra-i-cua-tien-ao-j-ffc168de"
+  },
+  {
+    "queue_id": "thu-mon-jesus-owono-oi-mat-ngay-thang-kho-khan-sau-su-ra-i-cua-tien-ao-j-ffc168de",
+    "status": "READY",
+    "prepared_at": "2026-11-04T16:39:53.727499+00:00",
+    "expires_at": "2026-11-05T16:39:53.727499+00:00",
+    "source_urls": [
+      "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+      "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
+      "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "thu-mon-jesus-owono-oi-mat-ngay-thang-kho-khan-sau-su-ra-i-cua-tien-ao-j-ffc168de",
+      "title": "Thủ môn Jesus Owono đối mặt ngày tháng khó khăn sau sự ra đi của tiền đạo Jesus de Miguel",
+      "summary": "Thủ môn Jesus Owono của FC Andorra nhận được sự bảo vệ từ đồng đội sau va chạm không may khiến tiền đạo Jesus de Miguel của Tenerife qua đời.",
+      "category": "sports",
+      "source_name": "Sky Sports - Football",
+      "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+      "published_at": "2026-11-04T15:35:00+00:00",
+      "fetched_at": "2026-11-04T16:40:33.507713+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sự việc bi thảm trong trận đấu hạng hai Tây Ban Nha giữa Tenerife và FC Andorra đã để lại nỗi đau lớn cho thế giới bóng đá, khi tiền đạo Jesus de Miguel qua đời ở tuổi 30 sau một pha va chạm mạnh với thủ môn Jesus Owono vào những phút bù giờ.",
+        "Trước sức ép lớn từ dư luận và việc phải khóa tài khoản mạng xã hội do nhận nhiều chỉ trích, thủ môn Owono đã nhận được sự lên tiếng bảo vệ từ người đồng đội Lautaro Spatz. Hậu vệ này khẳng định Owono đang suy sụp nặng nề và chắc chắn không bao giờ có ý định gây tổn thương cho bất kỳ cầu thủ nào trên sân.",
+        "Bản thân thủ môn 25 tuổi cũng chia sẻ thông qua câu lạc bộ rằng đây là những ngày khó khăn nhất trong cuộc đời anh, đồng thời gửi lời chia buồn sâu sắc đến gia đình người đồng nghiệp xấu số. Phía Liên đoàn bóng đá Guinea Xích Đạo cũng lên tiếng hỗ trợ tinh thần cho Owono trong giai đoạn khủng hoảng này.",
+        "Trong khi đó, cảnh sát Tây Ban Nha đã tiến hành cuộc điều tra tiêu chuẩn đối với các vụ việc ngoài ý muốn, nhưng công tố viên trưởng tại Santa Cruz de Tenerife cho biết khả năng khởi tố vụ án hình sự là rất thấp. Trận đấu đã bị hoãn và làng bóng đá Tây Ban Nha tiếp tục tổ chức các hoạt động tưởng niệm tiền đạo De Miguel."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thủ môn Jesus Owono được đồng đội bảo vệ sau sự cố va chạm",
+      "meta_description": "Bài viết phân tích ngắn về phản ứng của đồng đội và câu lạc bộ sau sự cố va chạm trên sân cỏ Tây Ban Nha dẫn đến cái chết của tiền đạo Jesus de Miguel.",
+      "keywords": [
+        "Jesus Owono",
+        "Jesus de Miguel",
+        "FC Andorra",
+        "Tenerife",
+        "bong da Tay Ban Nha"
+      ],
+      "slug": "thu-mon-jesus-owono-oi-mat-ngay-thang-kho-khan-sau-su-ra-i-cua-tien-ao-j-ffc168de",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 261,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+        "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
+        "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
+        "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T15:35:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T12:01:33+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T11:40:57+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tiền đạo Jesus de Miguel của Tenerife qua đời ở tuổi 30 sau pha va chạm với thủ môn Jesus Owono của FC Andorra trong một trận đấu hạng hai Tây Ban Nha diễn ra vào thứ Hai.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Owono was sent off for the clash having raced from his goal and struck 30-year-old De Miguel at force, withthe Tenerife player subsequently suffering a cardiac arrest.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+              "snippet": "Owono was sent off for the clash having raced from his goal and struck 30-year-old De Miguel at force, withthe Tenerife player subsequently suffering a cardiac arrest.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+              "page_sha256": "2bef867063cd13cf97d6dec27b9b3b4d117fc9871a729d46e88814a432904478",
+              "snippet_sha256": "848af7f3000273bf0c5ef02ef14cac57ef1606c3a6d38b91c24cf21fcf0f51bc",
+              "verified_at": "2026-11-04T16:40:33.506954+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hậu vệ Lautaro Spatz của FC Andorra đăng bài bảo vệ thủ môn Jesus Owono trên mạng xã hội, khẳng định Owono không bao giờ có ý định làm tổn thương ai.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death"
+          ],
+          "importance": "core",
+          "evidence_snippet": "FC Andorra's Argentinian defender Lautaro Spatz took to Instagram to pay tribute to Tenerife forward Jesus de Miguel after he died following a collision with Jesus Owono, but also defended the goalkeeper, who has deleted his account on the social media platform",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+              "snippet": "FC Andorra's Argentinian defender Lautaro Spatz took to Instagram to pay tribute to Tenerife forward Jesus de Miguel after he died following a collision with Jesus Owono, but also defended the goalkeeper, who has deleted his account on the social media platform",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+              "page_sha256": "2bef867063cd13cf97d6dec27b9b3b4d117fc9871a729d46e88814a432904478",
+              "snippet_sha256": "b68a1738ac053c6532fa89db63f43ebce122db78fe2f5f34ffc8ab4ac9558cf9",
+              "verified_at": "2026-11-04T16:40:33.506954+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cảnh sát Tây Ban Nha mở cuộc điều tra thường lệ nhưng công tố viên trưởng tại Santa Cruz de Tenerife cho biết khả năng tiến hành tố tụng hình sự là rất thấp.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Image:Tributes were paid to Tenerife forward Jesus de Miguel outside the Heliodoro Rodriguez Lopez Stadium in Santa Cruz",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+              "snippet": "Image:Tributes were paid to Tenerife forward Jesus de Miguel outside the Heliodoro Rodriguez Lopez Stadium in Santa Cruz",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13608001/jesus-de-miguel-goalkeeper-jesus-owono-defended-by-fc-andorra-team-mate-after-tenerife-forwards-death",
+              "page_sha256": "2bef867063cd13cf97d6dec27b9b3b4d117fc9871a729d46e88814a432904478",
+              "snippet_sha256": "15fbd234d23b6917ff1f73a799ad02a43f6e9e3de52707e8f8f7803a9e28c4c0",
+              "verified_at": "2026-11-04T16:40:33.506954+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ bối cảnh pháp lý của cuộc điều tra từ cơ quan công tố Tây Ban Nha đối với thủ môn Jesus Owono. Đồng thời, tác phẩm tổng hợp các phản ứng bảo vệ từ đồng đội Lautaro Spatz và Liên đoàn bóng đá Guinea Xích Đạo để phản ánh toàn diện áp lực tâm lý mà thủ môn này đang phải chịu đựng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-04T16:40:33.507820+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "25",
+        "30"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-04T16:40:33.509272+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 261,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1174
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "liverpool-thay-oi-nhan-su-truoc-tran-gap-fenerbahce-tai-champions-league-50c255cb",
+    "status": "READY",
+    "prepared_at": "2026-11-04T16:39:53.727499+00:00",
+    "expires_at": "2026-11-05T16:39:53.727499+00:00",
+    "source_urls": [
+      "https://www.skysports.com/football/fenerbahce-vs-liverpool/live/577663",
+      "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+    ],
+    "article": {
+      "id": "liverpool-thay-oi-nhan-su-truoc-tran-gap-fenerbahce-tai-champions-league-50c255cb",
+      "title": "Liverpool thay đổi nhân sự trước trận gặp Fenerbahce tại Champions League",
+      "summary": "Liverpool thực hiện 5 sự thay đổi trong đội hình xuất phát, với Florian Wirtz và Alexander Isak ngồi dự bị trong chuyến làm khách trước Fenerbahce.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+      "published_at": "2026-11-04T16:23:00+00:00",
+      "fetched_at": "2026-11-04T16:41:07.432362+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Liverpool bước vào trận đấu tại Champions League gặp Fenerbahce với những điều chỉnh đáng chú ý trong đội hình xuất phát. HLV Andoni Iraola quyết định thực hiện năm sự thay đổi so với các trận trước, trong đó hai ngôi sao đáng chú ý là tiền đạo Alexander Isak và tiền vệ Florian Wirtz phải ngồi trên băng ghế dự bị.",
+        "Sự thay đổi này diễn ra trong bối cảnh Liverpool đặt mục tiêu duy trì thành tích toàn thắng tại đấu trường châu Âu mùa này. Đội bóng Anh đang hướng tới một kết quả thuận lợi trên sân khách tại Istanbul để tiến gần hơn đến tấm vé vào vòng knock-out của giải đấu.",
+        "Ở tuyến bên kia, Fenerbahce bước vào trận đấu với nhiều biến động trên băng ghế huấn luyện khi CLB thông báo bổ nhiệm Emre Belozoglu thay thế HLV tạm quyền Dirk Kuyt. Tuy nhiên, các báo cáo cho biết quyết định thay đổi này dự kiến sẽ có hiệu lực sau khi cuộc đối đầu với Liverpool khép lại.",
+        "Trước cuộc so tài này, đội trẻ U19 của Liverpool cũng đã giành chiến thắng 5-3 trước đối thủ đồng cấp Fenerbahce trong khuôn khổ UEFA Youth League. Trận đấu sắp tới được kỳ vọng sẽ là thử thách quan trọng để Liverpool cải thiện mặt trận tấn công sau những kết quả chưa như ý tại giải quốc nội."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Liverpool đấu Fenerbahce: Isak và Wirtz dự bị",
+      "meta_description": "Cập nhật thông tin trận đấu Fenerbahce và Liverpool tại Champions League với việc Florian Wirtz và Alexander Isak bắt đầu từ ghế dự bị.",
+      "keywords": [
+        "Liverpool",
+        "Fenerbahce",
+        "Champions League",
+        "Florian Wirtz",
+        "Alexander Isak"
+      ],
+      "slug": "liverpool-thay-oi-nhan-su-truoc-tran-gap-fenerbahce-tai-champions-league-50c255cb",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 238,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/football/fenerbahce-vs-liverpool/live/577663",
+        "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+      ],
+      "source_links": [
+        "https://www.skysports.com/football/fenerbahce-vs-liverpool/live/577663"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/fenerbahce-vs-liverpool/live/577663",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T16:15:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T16:23:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Liverpool thực hiện 5 thay đổi trong đội hình, trong đó Florian Wirtz và Alexander Isak ngồi dự bị.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The teams have been named, and here they jolly well are!Five changes forLiverpool, with Florian Wirtz and Alexander Isak among those dropping to the bench and Joe Gomez and Kostas Tsimikas among those hopping into the first XI.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+              "snippet": "The teams have been named, and here they jolly well are!Five changes forLiverpool, with Florian Wirtz and Alexander Isak among those dropping to the bench and Joe Gomez and Kostas Tsimikas among those hopping into the first XI.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+              "page_sha256": "4f0cd83a21860e59fa44c3bad2b9641b64bb1f3a7c948766aa1e931f683d5a31",
+              "snippet_sha256": "89ecc77f777eba665836549e60723d24bf876656c3997d78f52893ae50a151c1",
+              "verified_at": "2026-11-04T16:41:07.431737+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội U19 Liverpool đánh bại U19 Fenerbahce với tỷ số 5-3.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Earlier today Liverpool’s Under-19sbeat theirFenerbahcecounterparts 5-3, with Will Wright scoring a hat-trick.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+              "snippet": "Earlier today Liverpool’s Under-19sbeat theirFenerbahcecounterparts 5-3, with Will Wright scoring a hat-trick.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+              "page_sha256": "4f0cd83a21860e59fa44c3bad2b9641b64bb1f3a7c948766aa1e931f683d5a31",
+              "snippet_sha256": "381999991028a23fdf7f844be9f9870325bfc1ce0c22d7f7c047683e3098707a",
+              "verified_at": "2026-11-04T16:41:07.431737+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Fenerbahce thông báo Emre Belozoglu sẽ thay thế Dirk Kuyt làm huấn luyện viên.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Then, at 11.25pm local time last night, the Turkish side announced that former Newcastle midfielder Emre Belozoglu – veteran also of two spells at Fener as a player and one as interim manager in 2021 – was replacing Kuyt, and his special occasion was imperilled.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+              "snippet": "Then, at 11.25pm local time last night, the Turkish side announced that former Newcastle midfielder Emre Belozoglu – veteran also of two spells at Fener as a player and one as interim manager in 2021 – was replacing Kuyt, and his special occasion was imperilled.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+              "page_sha256": "4f0cd83a21860e59fa44c3bad2b9641b64bb1f3a7c948766aa1e931f683d5a31",
+              "snippet_sha256": "abe742bd4556ce279e112d473bfcec1fab3ea45eba683009967a81621d6a4715",
+              "verified_at": "2026-11-04T16:41:07.431737+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật về đội hình xuất phát của Liverpool trong trận đấu tại Champions League, đồng thời làm rõ bối cảnh thay đổi ban huấn luyện tại Fenerbahce và kết quả của đội trẻ ở giải trẻ châu Âu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-04T16:41:07.432455+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "19"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-04T16:41:07.433428+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 238,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1159
+        },
+        "independent_domains": [
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "sinh-vien-space-grant-tiep-lua-cho-chuyen-tham-quan-inspiration-tour-cua-bb38af95",
+    "status": "READY",
+    "prepared_at": "2026-11-04T16:39:53.727499+00:00",
+    "expires_at": "2026-11-05T16:39:53.727499+00:00",
+    "source_urls": [
+      "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+      "https://www.sciencedaily.com/releases/2026/11/261104012254.htm"
+    ],
+    "article": {
+      "id": "sinh-vien-space-grant-tiep-lua-cho-chuyen-tham-quan-inspiration-tour-cua-bb38af95",
+      "title": "Sinh viên Space Grant tiếp lửa cho chuyến tham quan Inspiration Tour của NASA",
+      "summary": "Chương trình Inspiration Tour của NASA đang thu hút sự tham gia của đông đảo sinh viên và các trường đại học thông qua mạng lưới Space Grant, góp phần thúc đẩy đổi mới sáng tạo và nghiên cứu hướng tới tương lai thám hiểm không gian.",
+      "category": "technology",
+      "source_name": "NASA - News Releases",
+      "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+      "published_at": "2026-11-04T16:16:41+00:00",
+      "fetched_at": "2026-11-04T16:41:25.727770+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chuyến tham quan Inspiration Tour của Cơ quan Hàng không và Vũ trụ Quốc gia Mỹ (NASA) đang diễn ra nhằm lan tỏa tinh thần khám phá không gian và đổi mới hàng không, kết nối công chúng, giới học thuật cùng cộng đồng doanh nghiệp với các công nghệ định hình vị thế dẫn đầu của Mỹ.",
+        "Tại các điểm dừng chân trên khắp cả nước, mạng lưới NASA Space Grant đã đưa sinh viên tiếp cận trực tiếp với các hoạt động nghiên cứu. Tại Đại học Iowa, Quản trị viên NASA Jared Isaacman đã trực tiếp tham quan phòng thí nghiệm chương trình Make to Innovate và gặp gỡ các nhóm sinh viên từ chương trình Mission Moon cùng các tổ chức nghiên cứu.",
+        "Trong khi đó, tại Đại học Arizona và Đại học Alaska Fairbanks, sinh viên đã giới thiệu nhiều dự án khoa học thiết thực từ công nghệ khinh khí cầu tầng cao, vệ tinh cỡ nhỏ CubeSat cho đến nghiên cứu sinh học ngủ đông. Các buổi giao lưu và hội chợ khoa học này giúp thế hệ trẻ tìm hiểu sâu hơn về chương trình Căn cứ Mặt Trăng và các định hướng tương lai của NASA."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Sinh viên NASA Space Grant tham gia Inspiration Tour",
+      "meta_description": "Chuyến tham quan Inspiration Tour của NASA kết nối công chúng, ngành công nghiệp và học viện thông qua mạng lưới Space Grant.",
+      "keywords": [
+        "NASA",
+        "Space Grant",
+        "Inspiration Tour",
+        "Artemis",
+        "nghiên cứu vũ trụ"
+      ],
+      "slug": "sinh-vien-space-grant-tiep-lua-cho-chuyen-tham-quan-inspiration-tour-cua-bb38af95",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 205,
+      "display_source": true,
+      "source_urls": [
+        "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+        "https://www.sciencedaily.com/releases/2026/11/261104012254.htm"
+      ],
+      "source_links": [
+        "https://www.sciencedaily.com/releases/2026/11/261104012254.htm"
+      ],
+      "source_references": [
+        {
+          "name": "NASA - News Releases",
+          "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+          "domain": "nasa.gov",
+          "source_type": "Cơ quan khoa học",
+          "source_family": "nasa.gov",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T16:16:41+00:00"
+        },
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T11:22:33+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia.",
+          "source_urls": [
+            "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour"
+          ],
+          "importance": "core",
+          "evidence_snippet": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+              "snippet": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+              "page_sha256": "c46bc59d7c0dae44b5b267056cf73e41ece9437a12998df825473958386e18be",
+              "snippet_sha256": "43783c2345e49a96278c7069ff1a0aa9b74efef35085ff64cfaa4dadee94936f",
+              "verified_at": "2026-11-04T16:41:25.727087+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "At Iowa State University, NASA Administrator Jared Isaacman toured the Make to Innovate program lab and met student organizations.",
+          "source_urls": [
+            "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In Iowa, NASA Administrator Jared Isaacman toured the Make to Innovate program lab at Iowa State University.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+              "snippet": "In Iowa, NASA Administrator Jared Isaacman toured the Make to Innovate program lab at Iowa State University.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+              "page_sha256": "c46bc59d7c0dae44b5b267056cf73e41ece9437a12998df825473958386e18be",
+              "snippet_sha256": "dd2979ecb62b37a32ef5edafcf72e20ede664f6196362a4109a51e8c45462847",
+              "verified_at": "2026-11-04T16:41:25.727087+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "At the University of Arizona and University of Alaska Fairbanks, Space Grant students shared research including high-altitude balloon payloads, CubeSats, and hibernation biology.",
+          "source_urls": [
+            "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "During an Alaska Space Grant science fair, students shared research in hibernation biology and showcased CubeSat technology advancements.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+              "snippet": "During an Alaska Space Grant science fair, students shared research in hibernation biology and showcased CubeSat technology advancements.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour",
+              "page_sha256": "c46bc59d7c0dae44b5b267056cf73e41ece9437a12998df825473958386e18be",
+              "snippet_sha256": "66ed6797df1377623d653389f44f26cd6a04caffc53299bd79f87254fdfc5535",
+              "verified_at": "2026-11-04T16:41:25.727087+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ vai trò kết nối giữa NASA và mạng lưới sinh viên đại học thông qua chuỗi sự kiện Inspiration Tour. Nội dung tập trung trình bày các dự án nghiên cứu thực tế của sinh viên tại nhiều cơ sở giáo dục khác nhau mà không suy diễn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-04T16:41:25.727856+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-04T16:41:25.728973+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 205,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 983
+        },
+        "independent_domains": [
+          "nasa.gov",
+          "sciencedaily.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
