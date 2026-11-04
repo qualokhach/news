@@ -20,7 +20,7 @@
 - RSS chỉ phát hiện đề tài; headline không được xem là bằng chứng cho dữ kiện trọng yếu.
 - Mỗi bài phải có ít nhất ba claim trong fact ledger, mỗi claim gắn URL, evidence snippet và locator.
 - Các trang đăng lại cùng thông cáo hoặc cùng wire service phải gom theo `source_family`, không tính thành nguồn độc lập.
-- R1 cần hai source family độc lập hoặc một nguồn gốc phù hợp; R2 cần nguồn chính thức hoặc ba source family; R3 bắt buộc có nguồn chính thức và không chứa lời khuyên hành động cá nhân.
+- R1 cần hai source family độc lập hoặc một nguồn gốc phù hợp; R2 cần nguồn chính thức hoặc hai source family độc lập (danh sách từ khóa R2 đã thu hẹp); R3 bắt buộc có nguồn chính thức và không chứa lời khuyên hành động cá nhân.
 - Không lưu toàn văn bài báo nguồn; không tái sử dụng ảnh publisher nếu không có license thương mại xác minh.
 - Ảnh Wikimedia chỉ được chèn khi license nằm trong whitelist thương mại; CC BY-NC, CC BY-ND-NC, CC BY-ND và giấy phép không rõ bị loại.
 

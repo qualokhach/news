@@ -80,7 +80,12 @@ def main():
 
     def defer_writing(record, reason):
         """Keep a Research-approved candidate in Writing; never loop it back to Research."""
-        attempts=int(record.get('write_attempts') or 0)+1
+        # Provider outages (HTTP 429/5xx, empty replies, call budgets) say nothing about the
+        # candidate, so they must not use up its write attempts and get a good story rejected.
+        quality_markers=('fact_ledger','Quality gate','safety floor','malformed JSON','source_claim',
+                         'missing fields','publish=false','R2','R3','content_type')
+        provider_only=not any(m in reason for m in quality_markers)
+        attempts=int(record.get('write_attempts') or 0)+(0 if provider_only else 1)
         if attempts>=MAX_WRITE_ATTEMPTS:
             record['status']='REJECT'
             record['editorial_reason']='Không viết được sau '+str(attempts)+' lần thử: '+np.clean(reason)[:300]
@@ -91,7 +96,7 @@ def main():
         record['status']='WRITING_PENDING'
         record['last_write_error']=np.clean(reason)[:500]
         record['write_attempts']=attempts
-        retry_hours=min(24,max(3,2**min(attempts+1,4)))
+        retry_hours=2 if provider_only else min(24,max(3,2**min(attempts+1,4)))
         record['next_write_after']=(now+timedelta(hours=retry_hours)).isoformat()
         # A transient provider/formatting failure must not expire a sealed dossier.
         expiry=np.as_utc(record.get('expires_at'))

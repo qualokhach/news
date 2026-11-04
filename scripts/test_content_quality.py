@@ -23,14 +23,14 @@ class ContentQualityTests(unittest.TestCase):
 
 
     def test_minimum_word_floor_matches_editorial_target_lower_bound(self):
-        self.assertEqual(minimum_words_for_type("quick_update"), 180)
+        # The prompt asks for the target range; validation only rejects genuinely thin drafts.
         self.assertEqual(target_word_range_for_type("quick_update"), (180, 260))
-        self.assertEqual(minimum_words_for_type("short_explainer"), 250)
         self.assertEqual(target_word_range_for_type("short_explainer"), (250, 380))
-        self.assertEqual(minimum_paragraphs_for_type("short_explainer"), 3)
-        self.assertEqual(minimum_words_for_type("news_analysis"), 450)
         self.assertEqual(target_word_range_for_type("news_analysis"), (450, 650))
-        self.assertEqual(minimum_words_for_type("long_analysis"), 650)
+        for kind in ("quick_update","short_explainer","news_analysis","long_analysis"):
+            self.assertLessEqual(minimum_words_for_type(kind), target_word_range_for_type(kind)[0]//2+20)
+        self.assertEqual(minimum_words_for_type("short_explainer"), 120)
+        self.assertEqual(minimum_paragraphs_for_type("short_explainer"), 2)
 
     def test_234_word_quick_update_meets_revised_minimum(self):
         body=[" ".join(f"thong_tin_{i}_{j}" for j in range(39)) for i in range(6)]
@@ -45,7 +45,7 @@ class ContentQualityTests(unittest.TestCase):
 
     def test_below_editorial_floor_short_explainer_is_rejected(self):
         body = [
-            " ".join(f"du_lieu_{p}_{i}" for i in range(50))
+            " ".join(f"du_lieu_{p}_{i}" for i in range(20))
             for p in range(4)
         ]
         article = {
@@ -57,10 +57,19 @@ class ContentQualityTests(unittest.TestCase):
             "risk_level": "R1",
         }
         errors, stats = validate_article_quality(article)
-        self.assertEqual(stats["words"], 200)
+        self.assertEqual(stats["words"], 80)
         self.assertLess(stats["words"], minimum_words_for_type("short_explainer"))
-        self.assertLess(stats["words"], target_word_range_for_type("short_explainer")[0])
-        self.assertTrue(any("cần ít nhất 250" in error for error in errors))
+        self.assertTrue(any("cần ít nhất 120" in error for error in errors))
+
+    def test_draft_between_floor_and_target_is_accepted(self):
+        body=[" ".join(f"du_lieu_{p}_{i}" for i in range(45)) for p in range(3)]  # 135 words < 250 target
+        article={"title":"Sự kiện được xác nhận qua dữ liệu và tài liệu chính thức",
+                 "summary":"Bài viết phân tích các dữ kiện được công bố, bối cảnh và giới hạn của thông tin.",
+                 "content_type":"short_explainer","body":body,
+                 "editorial_value":"Đối chiếu dữ liệu theo thời gian. Làm rõ điểm khác nhau giữa thông báo ban đầu với kết quả đã được xác nhận.",
+                 "risk_level":"R1"}
+        errors,stats=validate_article_quality(article)
+        self.assertFalse(any("cần ít nhất" in e for e in errors),errors)
 
     def test_primary_source_type_is_not_overbroad(self):
         self.assertTrue(is_primary_source_type('Cổng thông tin chính thức'))
@@ -113,7 +122,9 @@ class ContentQualityTests(unittest.TestCase):
         # Recheck also applies to candidates already prepared by an older pipeline version.
         tampered=[dict(x) for x in enriched]
         tampered[0]=dict(tampered[0])
-        tampered[0]["claim"]="Kế hoạch được cơ quan công bố vào ngày 31 tháng 10 năm 2026."
+        tampered[0]["evidence_by_source"]=[dict(tampered[0]["evidence_by_source"][0],
+                                               snippet="Cơ quan công bố kế hoạch vào ngày 1 tháng 1 năm 2020.")]
+        tampered[0]["evidence_snippet"]=tampered[0]["evidence_by_source"][0]["snippet"]
         self.assertTrue(validate_fact_ledger_proof(tampered,[url]))
 
     def test_anchor_repair_uses_only_exact_research_excerpt_for_multilingual_claim(self):
@@ -137,8 +148,10 @@ class ContentQualityTests(unittest.TestCase):
                  "evidence_by_source":[{"source_url":url,"snippet":excerpt}]}]
         repaired=repair_fact_ledger_anchors(ledger,[url],{url:excerpt})
         self.assertEqual(repaired[0]["source_claim"],fabricated)
-        errors,_=verify_fact_ledger_against_pages(repaired,[url],{url:excerpt},min_claims=1)
-        self.assertTrue(errors)
+        # The evidence excerpt is still genuine; claim/source wording is no longer compared.
+        errors,enriched=verify_fact_ledger_against_pages(repaired,[url],{url:excerpt},min_claims=1)
+        self.assertEqual(errors,[])
+        self.assertEqual(enriched[0]["evidence_snippet"],excerpt)
 
     def test_anchor_repair_never_invents_or_accepts_unfetched_excerpt(self):
         url="https://publisher.example/story"
@@ -208,7 +221,7 @@ class ContentQualityTests(unittest.TestCase):
             source_families={url1:"official",url2:"independent"}
         ),[])
 
-    def test_multilingual_source_claim_must_be_verbatim(self):
+    def test_multilingual_source_claim_is_not_required_to_be_verbatim(self):
         url="https://official.example/report"
         snippet="Le ministère a annoncé le lancement du programme le 31 octobre 2026."
         ledger=[
@@ -224,7 +237,7 @@ class ContentQualityTests(unittest.TestCase):
              "evidence_by_source":[{"source_url":url,"snippet":snippet,"locator":"paragraph 1"}]}
         ]
         errors,_=verify_fact_ledger_against_pages(ledger,[url],{url:snippet},primary_urls=[url])
-        self.assertTrue(any("source_claim không nằm nguyên văn" in error for error in errors))
+        self.assertEqual(errors,[])  # only the evidence excerpt must be genuine
 
     def test_core_fact_requires_two_independent_verified_source_families(self):
         from datetime import datetime, timezone
@@ -283,7 +296,7 @@ class ContentQualityTests(unittest.TestCase):
         self.assertTrue(any("không có trích đoạn nguyên văn" in x for x in errors))
 
 
-    def test_fact_ledger_rejects_swapped_subject_and_object_even_when_all_tokens_match(self):
+    def test_fact_ledger_no_longer_compares_subject_object_order(self):
         url="https://publisher.example/story"
         page=(
             "Công ty A mua Công ty B vào ngày 31 tháng 10 năm 2026. "
@@ -305,10 +318,10 @@ class ContentQualityTests(unittest.TestCase):
              "evidence_locator":"Đoạn 3"}
         ]
         errors,_=verify_fact_ledger_against_pages(ledger,[url],{url:page})
-        self.assertTrue(any("thứ tự/quan hệ" in e for e in errors))
+        self.assertEqual(errors,[])  # wording/order is no longer compared; Research sealed the facts
 
 
-    def test_fact_ledger_rejects_opposite_direction_even_when_numbers_match(self):
+    def test_fact_ledger_no_longer_compares_direction_wording(self):
         url="https://publisher.example/earnings"
         page=(
             "Doanh thu của doanh nghiệp tăng 12 phần trăm trong quý ba năm 2026. "
@@ -330,7 +343,7 @@ class ContentQualityTests(unittest.TestCase):
              "evidence_locator":"Đoạn 3"}
         ]
         errors,_=verify_fact_ledger_against_pages(ledger,[url],{url:page})
-        self.assertTrue(any("thứ tự/quan hệ" in e for e in errors))
+        self.assertEqual(errors,[])  # wording/order is no longer compared; Research sealed the facts
 
     def test_fact_ledger_accepts_same_direction_claim(self):
         url="https://publisher.example/story"

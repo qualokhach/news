@@ -7,7 +7,7 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.robotparser import RobotFileParser
-from content_quality import validate_article_quality, validate_fact_ledger_proof, normalize_evidence_text, source_independence, domain_key, validate_r3_content, ttl_for_data_type
+from content_quality import validate_article_quality, validate_fact_ledger_proof, normalize_evidence_text, source_independence, domain_key, validate_r3_content, ttl_for_data_type, R2_MIN_INDEPENDENT_SOURCES, numbers_supported
 import news_pipeline as research_pipeline
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -111,8 +111,8 @@ def validate_candidate(article, now):
     risk=article.get('risk_level')
     if count<2 and not primary:
         errors.append('Không đủ hai miền nguồn độc lập hoặc nguồn chính thức')
-    if risk=='R2' and not primary and count<3:
-        errors.append('R2 thiếu nguồn chính thức hoặc ba miền nguồn độc lập')
+    if risk=='R2' and not primary and count<R2_MIN_INDEPENDENT_SOURCES:
+        errors.append('R2 thiếu nguồn chính thức hoặc hai miền nguồn độc lập')
     if risk=='R3' and not primary:
         errors.append('R3 không có nguồn chính thức')
     if risk=='R3':
@@ -175,15 +175,10 @@ def validate_candidate(article, now):
             if not snippet or snippet not in page:
                 errors.append(f'fact_ledger[{i}] trích đoạn từ {domain_key(url)} không còn xuất hiện tại thời điểm xuất bản')
                 continue
-            # Vietnamese claims may localize dates/numbers differently from a
-            # foreign-language source. For multilingual records, the verbatim
-            # source_claim is already anchored to the exact excerpt and hashed proof.
-            # Retain strict numeric comparison for legacy same-language records.
-            if not str(fact.get('source_claim') or '').strip():
-                claim_numbers=set(re.findall(r'\d+(?:[.,]\d+)?',str(fact.get('claim') or '')))
-                snippet_numbers=set(re.findall(r'\d+(?:[.,]\d+)?',str(item.get('snippet') or '')))
-                if claim_numbers and not claim_numbers.issubset(snippet_numbers):
-                    errors.append(f'fact_ledger[{i}] số liệu claim không khớp trích đoạn nguồn tại thời điểm xuất bản')
+            # Wording is not compared (the article is a rewrite). A figure in the claim must still
+            # exist on the live page; localized dates are ignored.
+            if not numbers_supported(str(fact.get('claim') or ''),str(live_pages[url])):
+                errors.append(f'fact_ledger[{i}] số liệu trong claim không có trong nguồn tại thời điểm xuất bản')
     return (not errors),errors,stats|{'source_access':access_results,'independent_domains':domains,'primary_source_present':primary}
 
 def main():

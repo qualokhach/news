@@ -15,7 +15,7 @@ class WritingStageTests(unittest.TestCase):
             staged={
                 'queue_id':'staged-1','status':'WRITING_PENDING',
                 'staged_at':'2026-11-01T10:00:00+00:00',
-                'expires_at':'2026-11-04T10:00:00+00:00',
+                'expires_at':'2099-01-01T00:00:00+00:00',
                 'lead_title':'A verified test headline',
                 'group':[{'source_url':'https://www.bbc.co.uk/news/story-a','source_name':'BBC',
                           'discovery_title':'A verified test headline','source_published_at':'2026-11-01T09:00:00+00:00'},

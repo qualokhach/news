@@ -12,7 +12,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlencode, urlsplit
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
-from content_quality import (compute_verified_numbers, ready_candidate_errors, classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, repair_fact_ledger_anchors, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
+from content_quality import (complete_fact_ledger, compute_verified_numbers, ready_candidate_errors, classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, repair_fact_ledger_anchors, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
 
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS = ROOT / 'config/feeds.json'
@@ -34,8 +34,8 @@ GEMINI_MODEL = os.getenv('GEMINI_MODEL', '').strip()
 GROK_MODEL = os.getenv('GROK_MODEL', '').strip()
 OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', '').strip()
 MAX_GEMINI_CALLS_PER_RUN = max(0, int(os.getenv('MAX_GEMINI_CALLS_PER_RUN', '24')))
-MAX_CLOUDFLARE_CALLS_PER_RUN = max(0, int(os.getenv('MAX_CLOUDFLARE_CALLS_PER_RUN', '6')))
-MAX_OPENROUTER_CALLS_PER_RUN = max(0, int(os.getenv('MAX_OPENROUTER_CALLS_PER_RUN', '8')))
+MAX_CLOUDFLARE_CALLS_PER_RUN = max(0, int(os.getenv('MAX_CLOUDFLARE_CALLS_PER_RUN', '10')))
+MAX_OPENROUTER_CALLS_PER_RUN = max(0, int(os.getenv('MAX_OPENROUTER_CALLS_PER_RUN', '16')))
 GEMINI_CALLS_THIS_RUN = 0
 CLOUDFLARE_CALLS_THIS_RUN = 0
 OPENROUTER_CALLS_THIS_RUN = 0
@@ -494,6 +494,48 @@ def _sanitize_ai_json_text(txt):
         out.append('\\\\')
     return ''.join(out)
 
+def _recover_truncated_json(txt):
+    """Rebuild valid JSON from a reply cut off mid-way (token limit) or with a broken tail.
+
+    Walks the text, remembers every position just before a top-level-ish comma together with
+    the brackets still open there, and tries to close the document at the latest position that
+    parses. Only the incomplete tail is dropped; no value is invented.
+    """
+    txt=(txt or '').strip()
+    a=txt.find('{')
+    if a<0: return None
+    txt=txt[a:]
+    stack=[]; in_string=False; escaped=False; cuts=[]
+    for i,ch in enumerate(txt):
+        if in_string:
+            if escaped: escaped=False
+            elif ch=='\\': escaped=True
+            elif ch=='"': in_string=False
+            continue
+        if ch=='"': in_string=True
+        elif ch in '{[': stack.append('}' if ch=='{' else ']')
+        elif ch in '}]':
+            if stack: stack.pop()
+        elif ch==',':
+            cuts.append((i,''.join(reversed(stack))))
+    candidates=[]
+    # Whole text, closing a dangling string and any open brackets.
+    if not in_string:
+        # Cut cleanly after a finished value. When the reply stops inside a string, that last
+        # value is incomplete and is dropped rather than kept truncated.
+        candidates.append(txt+''.join(reversed(stack)))
+    for i,closers in reversed(cuts[-80:]):
+        candidates.append(txt[:i]+closers)
+    for cand in candidates:
+        try:
+            obj=json.loads(_sanitize_ai_json_text(cand))
+            if isinstance(obj,dict) and obj.get('body'):
+                return obj
+        except Exception:
+            continue
+    return None
+
+
 def parse_ai_json(txt):
     # Workers AI can return a structured object directly instead of a JSON string.
     # Accept that documented response shape, but validate it with the same schema.
@@ -504,13 +546,22 @@ def parse_ai_json(txt):
         try:
             obj=json.loads(cleaned)
         except json.JSONDecodeError as exc:
-            raise ValueError(f'AI returned malformed JSON ({exc.msg} at character {exc.pos})') from exc
+            obj=_recover_truncated_json(txt)
+            if obj is None:
+                raise ValueError(f'AI returned malformed JSON ({exc.msg} at character {exc.pos})') from exc
+            print('[JSON] Recovered a truncated/malformed AI reply by closing its incomplete tail.')
     else:
         raise ValueError(f'AI response must be JSON text or object, got {type(txt).__name__}')
     if not isinstance(obj, dict):
         raise ValueError('AI response is not a JSON object')
-    required={'publish','title','summary','category','seo_title','meta_description','keywords','body','source_index',
-              'fact_ledger','editorial_value','risk_level','freshness_ttl_hours'}
+    # Only the article itself is mandatory. Metadata the pipeline can derive, and the fact ledger
+    # (rebuilt from the Research dossier), get safe defaults instead of failing the draft.
+    obj.setdefault('seo_title',obj.get('title',''))
+    obj.setdefault('meta_description',obj.get('summary',''))
+    obj.setdefault('keywords',[]); obj.setdefault('source_index',0)
+    obj.setdefault('risk_level','R1'); obj.setdefault('freshness_ttl_hours',24)
+    obj.setdefault('fact_ledger',[]); obj.setdefault('editorial_value','')
+    required={'publish','title','summary','category','body'}
     missing=required-set(obj)
     if missing:
         raise ValueError('AI response missing fields: '+', '.join(sorted(missing)))
@@ -853,13 +904,14 @@ def generate_with_fallback(prompt, validator=None):
                 print(f'[SKIP] {name}: per-run call cap reached ({cap}); trying next provider.')
                 break
             last_validation_error=''
+            transient_retry=False
             for attempt in range(2):
                 try:
                     if name=='Gemini': GEMINI_CALLS_THIS_RUN+=1
                     elif name=='Cloudflare Workers AI': CLOUDFLARE_CALLS_THIS_RUN+=1
                     else: OPENROUTER_CALLS_THIS_RUN+=1
                     retry_prompt=prompt
-                    if attempt:
+                    if attempt and not transient_retry:
                         retry_prompt += (
                             "\n\nYÊU CẦU BIÊN TẬP LẠI TOÀN BỘ BẢN THẢO: "
                             "Bạn vẫn đang đảm nhiệm vai trò nhà báo/phóng viên chuyên nghiệp. "
@@ -868,6 +920,7 @@ def generate_with_fallback(prompt, validator=None):
                             "được quy định cho thể loại đó. Thể loại được giao là " + (assigned_type or "đã xác định") + ". "
                             "Không được đổi sang thể loại ngắn hơn chỉ để vượt kiểm định. "
                             "Bản thảo phải đạt khoảng " + str(target_word_range_for_type(assigned_type)[0] if assigned_type else 250) + "-" + str(target_word_range_for_type(assigned_type)[1] if assigned_type else 350) + " từ trong body. "
+                            "Hãy viết đầy đủ hơn (mục tiêu "+str(target_word_range_for_type(assigned_type)[0] if assigned_type else 250)+"+ từ). "
                             "Bổ sung bối cảnh, diễn biến và phân tích cụ thể chỉ từ bằng chứng đã cung cấp; "
                             "không lặp ý, không bịa dữ kiện. Trả lại toàn bộ JSON hợp lệ theo đúng schema."
                         )
@@ -923,6 +976,13 @@ def generate_with_fallback(prompt, validator=None):
                     current={'Gemini':GEMINI_CALLS_THIS_RUN,
                              'Cloudflare Workers AI':CLOUDFLARE_CALLS_THIS_RUN,
                              'OpenRouter':OPENROUTER_CALLS_THIS_RUN}[name]
+                    overloaded=('HTTP 503' in message or 'HTTP 500' in message or 'HTTP 502' in message or 'HTTP 504' in message
+                                or ('HTTP 429' in message and name=='Gemini'))
+                    if attempt==0 and overloaded and name!='OpenRouter' and current<cap:
+                        print(f'[RETRY] {name}/{model}: temporary overload; waiting 8s before one retry.')
+                        transient_retry=True
+                        time.sleep(8)
+                        continue
                     if attempt==0 and retryable and current<cap:
                         print(f'[RETRY] {name}/{model}: asking the same model to correct JSON/length once.')
                         continue
@@ -968,7 +1028,7 @@ Viết một bài báo hoàn chỉnh cho AppNho News về sự kiện/chủ đ�
 THỂ LOẠI VÀ ĐỘ DÀI ĐÃ ĐƯỢC TÒA SOẠN GIAO
 Thể loại bắt buộc: {assigned_type}
 Độ dài mục tiêu cụ thể: {assigned_target} từ trong phần body.
-Khoảng biên tập chấp nhận: {target_low}-{target_high} từ.
+Khoảng biên tập chấp nhận: {target_low}-{target_high} từ. Hãy nhắm tới khoảng này. Bài ngắn hơn một chút vẫn được chấp nhận nếu đủ thông tin; tuyệt đối không độn chữ hay lặp ý để đủ số từ.
 Không tự chọn thể loại khác, không tự rút ngắn bài và không trả bản tóm tắt thay cho bài báo. Đây là chỉ tiêu giao việc trực tiếp của biên tập viên. Hãy viết đủ độ dài bằng cách khai thác các dữ kiện, bối cảnh và diễn biến đã có trong hồ sơ. Nếu hồ sơ không đủ căn cứ để hoàn thành, trả publish=false và giải thích chính xác dữ liệu còn thiếu.
 
 Độ dài tính trên phần body, không tính tiêu đề, sapo, keywords, fact_ledger hoặc metadata. Trước khi trả kết quả, tự kiểm tra độ dài body. Không tự ý chọn thể loại ngắn chỉ để né yêu cầu độ dài. Chọn thể loại tương ứng với góc tiếp cận và mức độ bằng chứng; nếu hồ sơ không đủ dữ liệu để viết một bài hoàn chỉnh đạt mức tối thiểu mà không suy diễn, hãy trả publish=false và nêu rõ phần dữ liệu còn thiếu. Không được xuất bản một bản thảo ngắn hơn mức tối thiểu rồi coi đó là bài hoàn chỉnh.
@@ -990,7 +1050,7 @@ QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 - Chỉ publish=true khi có đủ căn cứ. Không tự tạo URL, số liệu, phát biểu, nguyên nhân, dự báo, nhân vật hoặc trích dẫn.
 - Ưu tiên tài liệu gốc và nguồn chính thức. Nhiều trang đăng lại cùng một thông cáo không phải nguồn độc lập.
 - Nếu chỉ có một nguồn thứ cấp, không đủ căn cứ cho bài phân tích; trả publish=false và nêu rõ lý do.
-- Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Hồ sơ Research đã qua cổng sẵn sàng và là căn cứ tác nghiệp đã đóng; không tự chạy lại đánh giá đủ/thiếu nguồn bằng một thuật toán khác, không trả publish=false chỉ vì từng claim không được lặp nguyên văn ở hai trang. Hãy viết từ fact_units và page_evidence đã cung cấp. Mỗi claim phải bằng tiếng Việt và chỉ nêu điều nguồn thực sự hỗ trợ. evidence_snippet/evidence_by_source phải là trích đoạn liên tục, nguyên văn từ đúng URL trong page_evidence; source_claim nếu có phải là một đoạn nguyên văn nằm trong evidence_snippet. Nếu chưa tạo được source_claim riêng, dùng chính evidence_snippet làm anchor, tuyệt đối không tự diễn đạt lại rồi gắn nhãn trích dẫn. Các nguồn độc lập có thể diễn đạt cùng dữ kiện bằng câu chữ khác nhau; không bắt buộc mọi nguồn phải lặp lại cùng một câu. Mức độc lập được đánh giá ở cấp hồ sơ bài viết: hồ sơ đã có ít nhất hai source family độc lập hoặc nguồn chính thức phù hợp; không yêu cầu mọi chi tiết hỗ trợ phải được hai nguồn nhắc lại. Với dữ kiện nhạy cảm/rủi ro cao hoặc tranh chấp, phải trình bày rõ mức độ xác nhận và chỉ khẳng định mạnh khi có nguồn gốc hoặc đối chiếu phù hợp. Không thêm URL ngoài danh sách.
+- Mỗi bài cần ít nhất 3 dữ kiện có thể kiểm tra trong fact_ledger. Hồ sơ Research đã qua cổng sẵn sàng và là căn cứ tác nghiệp đã đóng; không tự chạy lại đánh giá đủ/thiếu nguồn bằng một thuật toán khác, không trả publish=false chỉ vì từng claim không được lặp nguyên văn ở hai trang. Hãy viết từ fact_units và page_evidence đã cung cấp. Mỗi claim phải bằng tiếng Việt và chỉ nêu điều nguồn thực sự hỗ trợ. KHÔNG cần trích dẫn nguyên văn: hệ thống tự gắn bằng chứng từ hồ sơ Research. Mỗi mục fact_ledger chỉ cần claim (diễn đạt lại bằng tiếng Việt, bằng lời của bạn), source_urls (URL trong danh sách nguồn) và importance. Nếu hồ sơ có số liệu thì claim phải dùng đúng số liệu đó. Các nguồn độc lập có thể diễn đạt cùng dữ kiện bằng câu chữ khác nhau; không bắt buộc mọi nguồn phải lặp lại cùng một câu. Mức độc lập được đánh giá ở cấp hồ sơ bài viết: hồ sơ đã có ít nhất hai source family độc lập hoặc nguồn chính thức phù hợp; không yêu cầu mọi chi tiết hỗ trợ phải được hai nguồn nhắc lại. Với dữ kiện nhạy cảm/rủi ro cao hoặc tranh chấp, phải trình bày rõ mức độ xác nhận và chỉ khẳng định mạnh khi có nguồn gốc hoặc đối chiếu phù hợp. Không thêm URL ngoài danh sách.
 - editorial_value BẮT BUỘC gồm 2-3 câu riêng biệt, mỗi câu kết thúc bằng dấu chấm và dài ít nhất 18 ký tự (không viết thành một câu duy nhất, không dùng khẩu hiệu). Nêu rõ đóng góp biên tập riêng bằng ít nhất hai ý cụ thể: câu hỏi được giải quyết, bối cảnh/so sánh/tác động/giới hạn nào được làm rõ.
 - R2 cần kiểm tra số liệu, phương pháp, kỳ dữ liệu, bối cảnh và ít nhất một nguồn chính thức/nguồn gốc khi có thể.
 - R3 không viết lời khuyên cá nhân về sức khỏe, đầu tư, pháp luật hoặc an toàn. Nếu không thể giới hạn nội dung ở mức tường thuật/thông tin chung dựa trên nguồn chính thức, trả publish=false.
@@ -1001,7 +1061,7 @@ QUY TẮC NGUỒN VÀ KIỂM CHỨNG
 
 ĐỊNH DẠNG ĐẦU RA
 Chỉ trả về một JSON object hợp lệ, không markdown, không lời dẫn, có đúng các trường:
-{"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","content_type":"quick_update|short_explainer|news_analysis|long_analysis","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1","đoạn 2"],"source_index":0,"editorial_value":"đóng góp riêng cụ thể","risk_level":"R1|R2|R3","freshness_ttl_hours":24,"fact_ledger":[{"claim":"dữ kiện diễn đạt bằng tiếng Việt","source_claim":"câu nguyên ngữ của nguồn chứng minh dữ kiện","source_urls":["URL có trong danh sách nguồn"],"evidence_snippet":"trích đoạn nguyên văn","evidence_locator":"đoạn/mục/bảng trên trang","evidence_by_source":[{"source_url":"URL","snippet":"trích đoạn nguyên văn từ đúng nguồn này","locator":"đoạn/mục/bảng"}],"importance":"core|supporting"}]}
+{"publish":true/false,"reason":"...","title":"...","summary":"...","category":"world|vietnam|sports|technology","content_type":"quick_update|short_explainer|news_analysis|long_analysis","seo_title":"...","meta_description":"...","keywords":["..."],"body":["đoạn 1","đoạn 2"],"source_index":0,"editorial_value":"đóng góp riêng cụ thể","risk_level":"R1|R2|R3","freshness_ttl_hours":24,"fact_ledger":[{"claim":"dữ kiện diễn đạt lại bằng tiếng Việt","source_urls":["URL có trong danh sách nguồn"],"importance":"core|supporting"}]}
 
 Trước khi trả JSON, hãy tự rà soát: bài đã đạt mức tối thiểu của content_type chưa; từng đoạn có thông tin riêng chưa; dữ kiện có được fact_ledger chứng minh không; bài có góc biên tập riêng và không sao chép nguồn không. Nếu không đạt, sửa toàn bộ bản thảo hoặc trả publish=false. Không được bỏ qua yêu cầu độ dài.
 
@@ -1094,7 +1154,11 @@ def make_article(obj, group, evidence_pages=None):
     source_families={x.get('url'):x.get('source_family') or domain_key(x.get('url','')) for x in source_refs}
     # Repair only a mislabeled source_claim by anchoring it to an exact excerpt
     # already present in the Research-fetched page. No facts or source text are invented.
-    repaired_ledger=repair_fact_ledger_anchors(obj.get('fact_ledger'),allowed_urls,evidence_pages)
+    # Research already sealed the facts. The model's ledger only says which facts it used, in its
+    # own words; the evidence excerpts come from the verified Research fact units.
+    dossier=build_research_dossier(group,evidence_pages)
+    repaired_ledger=complete_fact_ledger(obj.get('fact_ledger'),dossier.get('fact_units',[]),
+                                         evidence_pages,allowed_urls,primary_urls=primary_urls,minimum=3)
     ledger_errors, verified_ledger = verify_fact_ledger_against_pages(
         repaired_ledger, allowed_urls, evidence_pages,
         min_claims=3, primary_urls=primary_urls, source_families=source_families

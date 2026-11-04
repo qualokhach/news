@@ -226,7 +226,7 @@ line two","category":"world","seo_title":"x","meta_description":"x","keywords":[
             'Hai nguồn độc lập ghi nhận diễn biến xung đột và mốc thời gian của sự kiện.',
             'Tài liệu thứ hai xác nhận phạm vi sự kiện và các điểm chưa thể kết luận.'
         ]
-        ledger=[{'claim':f'Dữ kiện cốt lõi số {i+1} được nguồn ghi nhận rõ ràng và có thể kiểm tra.',
+        ledger=[{'claim':f'Dữ kiện cốt lõi thứ {["nhất","hai"][i]} được nguồn ghi nhận rõ ràng và có thể kiểm tra.',
                  'source_claim':excerpts[i], 'source_urls':[urls[i]], 'evidence_snippet':excerpts[i],
                  'evidence_by_source':[{'source_url':urls[i],'snippet':excerpts[i],'locator':'paragraph 1'}],
                  'importance':'core'} for i in range(2)]
@@ -236,7 +236,7 @@ line two","category":"world","seo_title":"x","meta_description":"x","keywords":[
                        'evidence_by_source':[{'source_url':urls[1],'snippet':excerpts[1],'locator':'paragraph 1'}],
                        'importance':'supporting'})
         pages={urls[0]:excerpts[0],urls[1]:excerpts[1]}
-        obj={'publish':True,'title':'Diễn biến xung đột được hai nguồn độc lập xác nhận',
+        obj={'publish':True,'title':'Diễn biến lệnh trừng phạt được hai nguồn độc lập xác nhận',
              'summary':'Hai nguồn độc lập ghi nhận các mốc chính và giới hạn thông tin hiện có.',
              'category':'world','content_type':'quick_update','body':body,
              'editorial_value':'Bài phân biệt dữ kiện đã xác nhận với nội dung chưa thể kết luận. Bài đối chiếu thông tin từ hai nhóm nguồn độc lập.',

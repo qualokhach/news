@@ -30,7 +30,7 @@ Cron được kiểm tra theo UTC. GitHub Actions có thể trễ hoặc bỏ l�
 - `APPROVED_RESEARCH` chỉ dùng khi `access_status=RESEARCH_ALLOWED` và `terms_status=VERIFIED`.
 - `LIMITED_FACTUAL_REFERENCE` cho phép nghiên cứu dữ kiện giới hạn trên trang HTTPS công khai khi robots.txt cho phép và nguồn không bị đánh dấu `BLOCKED`. Chỉ trích xuất văn bản giới hạn tạm thời để kiểm tra sự kiện; không lưu toàn văn, không sao chép biểu đạt, không sử dụng ảnh publisher. Đây không phải xác nhận điều khoản đã được rà soát hay giấy phép thương mại.
 - Nguồn bị đánh dấu `BLOCKED`, robots cấm hoặc HTTP 401/403 sẽ bị loại. Không vượt paywall, CAPTCHA, đăng nhập hoặc cơ chế kiểm soát truy cập.
-- Bài R1 cần ít nhất hai source family độc lập hoặc một nguồn gốc phù hợp; R2 cần nguồn chính thức hoặc ba source family; R3 bắt buộc nguồn chính thức. Claim trọng yếu phải có URL, evidence snippet và locator.
+- Bài R1 cần ít nhất hai source family độc lập hoặc một nguồn gốc phù hợp; R2 cần nguồn chính thức hoặc hai source family độc lập (danh sách từ khóa R2 đã thu hẹp); R3 bắt buộc nguồn chính thức. Claim trọng yếu phải có URL, evidence snippet và locator.
 
 ## 4. AI providers
 

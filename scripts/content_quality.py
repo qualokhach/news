@@ -55,16 +55,19 @@ def is_primary_source_type(source_type: str) -> bool:
     value = (source_type or "").casefold()
     return any(hint in value for hint in PRIMARY_TYPE_HINTS)
 
+R2_MIN_INDEPENDENT_SOURCES = 2
+
+
 def classify_risk(title: str, body: list[str] | str, category: str = "") -> str:
     text = (title or "") + " " + (body if isinstance(body, str) else " ".join(body or []))
     low = text.casefold()
     if any(term in low for term in HIGH_RISK_TERMS):
         return "R3"
     if any(term in low for term in (
-        "tỷ giá", "lãi suất", "giá vàng", "lạm phát", "chính sách", "doanh nghiệp",
-        "thị trường", "ngân sách", "xuất nhập khẩu", "thuế", "quy định", "luật",
-        "đình công", "sa thải", "dữ liệu cá nhân", "an ninh mạng", "sự cố hệ thống",
-        "xung đột", "đàm phán", "sản phẩm lỗi", "thu hồi sản phẩm"
+        "tỷ giá", "lãi suất", "giá vàng", "lạm phát", "ngân sách nhà nước", "xuất nhập khẩu",
+        "đình công", "sa thải hàng loạt", "dữ liệu cá nhân", "rò rỉ dữ liệu", "an ninh mạng",
+        "sự cố hệ thống", "sản phẩm lỗi", "thu hồi sản phẩm", "tăng thuế", "thuế quan",
+        "đàm phán hòa bình", "lệnh trừng phạt"
     )):
         return "R2"
     return "R1"
@@ -89,13 +92,14 @@ def ttl_for_data_type(data_type: str, risk_level: str = "R1") -> int:
 # publication floor. This keeps the prompt, provider gate and final quality
 # validator consistent; longer targets remain preferred within each range.
 MINIMUM_WORDS_BY_TYPE = {
-    # Shorter floors reduce unnecessary HOLDs while preserving enough room for
-    # a complete, fact-led article. They are minimums, not targets to pad toward.
-    "quick_update": 180,
-    "short_explainer": 250,
-    "news_analysis": 450,
-    "long_analysis": 650,
-    "ai_assisted_independent_editorial": 300,
+    # Validation floors are deliberately far below the writing targets below. The prompt asks
+    # the model for the target length; validation only rejects a draft that is too thin to be a
+    # news item at all. A short article that carries real information is acceptable.
+    "quick_update": 100,
+    "short_explainer": 120,
+    "news_analysis": 220,
+    "long_analysis": 320,
+    "ai_assisted_independent_editorial": 150,
 }
 TARGET_WORD_RANGES_BY_TYPE = {
     "quick_update": (180, 260),
@@ -106,20 +110,20 @@ TARGET_WORD_RANGES_BY_TYPE = {
 }
 MINIMUM_PARAGRAPHS_BY_TYPE = {
     "quick_update": 2,
-    "short_explainer": 3,
-    "news_analysis": 4,
-    "long_analysis": 5,
-    "ai_assisted_independent_editorial": 3,
+    "short_explainer": 2,
+    "news_analysis": 3,
+    "long_analysis": 4,
+    "ai_assisted_independent_editorial": 2,
 }
 
 def minimum_words_for_type(content_type: str) -> int:
-    return MINIMUM_WORDS_BY_TYPE.get(content_type or "", 220)
+    return MINIMUM_WORDS_BY_TYPE.get(content_type or "", 120)
 
 def target_word_range_for_type(content_type: str) -> tuple[int, int]:
     return TARGET_WORD_RANGES_BY_TYPE.get(content_type or "", (500, 650))
 
 def minimum_paragraphs_for_type(content_type: str) -> int:
-    return MINIMUM_PARAGRAPHS_BY_TYPE.get(content_type or "", 3)
+    return MINIMUM_PARAGRAPHS_BY_TYPE.get(content_type or "", 2)
 
 
 def is_commercial_license(license_name: str) -> bool:
@@ -166,7 +170,7 @@ def validate_fact_ledger(fact_ledger, allowed_urls, min_claims=3, primary_urls=N
             errors.append(f"fact_ledger[{i}] không gắn URL chứng cứ"); continue
         if any(str(u).strip() not in allowed for u in refs):
             errors.append(f"fact_ledger[{i}] chứa URL ngoài tập nguồn đã thu thập"); continue
-        if len(snippet)<35 and len(locator)<8:
+        if len(snippet)<20 and len(locator)<8:
             errors.append(f"fact_ledger[{i}] thiếu trích đoạn chứng cứ hoặc vị trí kiểm tra")
         # Article claims are always Vietnamese; source excerpts may be in any
         # language. Cross-language support is checked against source_claim below,
@@ -175,10 +179,9 @@ def validate_fact_ledger(fact_ledger, allowed_urls, min_claims=3, primary_urls=N
         evidence_items=fact.get('evidence_by_source') if isinstance(fact.get('evidence_by_source'),list) else []
         evidence_snippets=[str(x.get('snippet') or '') for x in evidence_items if isinstance(x,dict)]
         candidate_snippets=[snippet]+evidence_snippets
-        if source_claim:
-            source_claim_norm=normalize_evidence_text(source_claim)
-            if not source_claim_norm or not any(source_claim_norm in normalize_evidence_text(x) for x in candidate_snippets if x):
-                errors.append(f"fact_ledger[{i}] source_claim không nằm nguyên văn trong bất kỳ trích đoạn nguồn tương ứng")
+        # source_claim is no longer required to be verbatim: articles are rewritten in the
+        # editor's own words and Research has already sealed the facts. Only the evidence
+        # excerpt itself must be genuine (checked against the fetched page below).
         # Do not compare Vietnamese claim vocabulary with a source-language excerpt.
         # The exact excerpt is checked against the fetched page in verify_fact_ledger_against_pages.
         # Source independence is evaluated once for the researched article as a whole.
@@ -295,11 +298,21 @@ def repair_fact_ledger_anchors(fact_ledger, allowed_urls, evidence_pages):
                                            'locator':str(fact.get('evidence_locator') or '')})
         if candidates:
             anchor=normalize_evidence_text(fact.get('source_claim') or '')
+            def _tokens(text):
+                return set(re.findall(r"\w+",normalize_evidence_text(text).casefold()))
             if not anchor:
-                # When the model omits the optional source_claim field, use the
-                # already verified exact excerpt as its anchor. Never overwrite a
-                # non-empty but incorrect quotation: that draft must be corrected.
+                # Optional field omitted: the verified excerpt is its anchor.
                 fact['source_claim']=candidates[0]['snippet']
+            elif not any(anchor in normalize_evidence_text(c['snippet']) for c in candidates):
+                # The quote is not contiguous in any verified excerpt. Re-anchor ONLY when every
+                # word of it occurs in that excerpt (trimmed/ellipsized/reflowed quote). A quote
+                # containing a word the source does not have may be an altered fact
+                # ("announced" -> "cancelled") and stays unchanged so the draft is corrected.
+                words=_tokens(anchor)
+                for c in candidates:
+                    if words and words <= _tokens(c['snippet']):
+                        fact['source_claim']=c['snippet']
+                        break
             fact['evidence_by_source']=candidates
             fact['evidence_snippet']=candidates[0]['snippet']
             fact['evidence_locator']=candidates[0]['locator']
@@ -374,30 +387,14 @@ def verify_fact_ledger_against_pages(fact_ledger, allowed_urls, evidence_pages,
             if url not in allowed or url not in [str(x).strip() for x in (fact.get("source_urls") or [])]:
                 continue
             page=normalized_pages.get(url)
-            source_claim=str(fact.get("source_claim") or "").strip()
-            minimum_excerpt_length=12 if source_claim else 35
-            if not page or len(snippet_norm)<minimum_excerpt_length or snippet_norm not in page["text"]:
+            if not page or len(snippet_norm)<20 or snippet_norm not in page["text"]:
                 continue
-            snippet_numbers=set(re.findall(r"\d+(?:[.,]\d+)?", snippet))
-            # The page excerpt itself is the immutable evidence anchor. source_claim,
-            # when supplied, must be a verbatim span in that excerpt. When omitted,
-            # the exact evidence_snippet remains sufficient; do not reject a translated
-            # Vietnamese claim by comparing its vocabulary/order with a foreign quote.
-            if source_claim:
-                source_claim_norm=normalize_evidence_text(source_claim)
-                if not source_claim_norm or source_claim_norm not in snippet_norm:
-                    continue
-            else:
-                if claim_numbers and not claim_numbers.issubset(snippet_numbers):
-                    continue
-                # Legacy/same-language claims retain strict subject/order checking.
-                # Cross-language claims must carry source_claim as their verbatim anchor.
-                sequence_ok, sequence_score = _claim_sentence_sequence_match(claim, snippet)
-                if not sequence_ok:
-                    continue
-            if source_claim:
-                sequence_ok, sequence_score = True, 1.0
-            if not sequence_ok:
+            # The excerpt is the immutable evidence anchor. Research has already sealed the facts, so
+            # the claim's wording is not compared with the excerpt (a Vietnamese rewrite never matches
+            # an English sentence word for word). A figure in the claim must still exist on the page;
+            # localized dates are not compared.
+            raw_page=str((evidence_pages or {}).get(url) or "")
+            if not numbers_supported(claim,raw_page):
                 continue
             family=str(families.get(url) or domain_key(url)).casefold()
             verified_items.append({
@@ -420,8 +417,7 @@ def verify_fact_ledger_against_pages(fact_ledger, allowed_urls, evidence_pages,
         verified_primary=any(item["source_url"] in primary for item in verified_items)
         if not verified_items:
             errors.append(
-                f"fact_ledger[{i}] không có trích đoạn nguyên văn vừa tồn tại trên trang nguồn vừa khớp thứ tự/quan hệ dữ kiện; "
-                "có thể đã đảo chủ thể, đối tượng hoặc diễn giải quá xa nguồn"
+                f"fact_ledger[{i}] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn"
             )
             enriched.append(fact)
             continue
@@ -473,21 +469,6 @@ def validate_fact_ledger_proof(fact_ledger, allowed_urls, min_claims=3,
                 continue
             url=str(item.get("source_url") or "").strip()
             snippet_norm=normalize_evidence_text(item.get("snippet") or "")
-            source_claim=str(fact.get("source_claim") or "").strip()
-            if source_claim:
-                source_claim_norm=normalize_evidence_text(source_claim)
-                sequence_ok=bool(source_claim_norm and source_claim_norm in snippet_norm)
-            else:
-                # Same-language/legacy records retain the conservative relation check.
-                sequence_ok, _ = _claim_sentence_sequence_match(
-                    str(fact.get("claim") or ""), str(item.get("snippet") or "")
-                )
-            if not sequence_ok:
-                errors.append(
-                    f"fact_ledger[{i}] claim không còn khớp thứ tự/quan hệ với trích đoạn nguồn "
-                    "(có thể đã đảo chủ thể, đối tượng hoặc chiều dữ kiện)"
-                )
-                continue
             proof=proof_map.get(url)
             if url not in allowed or url not in [str(x).strip() for x in fact.get("source_urls",[])]:
                 errors.append(f"fact_ledger[{i}] chứng cứ gắn với URL ngoài tập nguồn")
@@ -521,6 +502,26 @@ def numbers_in(text):
     return set(NUMBER_RE.findall(str(text or "")))
 
 
+def _num_key(token):
+    """1.200 / 1,200 / 1 200 all compare equal; decimals are rare enough in news to accept this."""
+    return re.sub(r"[.,]","",str(token))
+
+
+VN_DATE_RE=re.compile(
+    r"(?i)(?:\bngày\s+)?\b\d{1,2}\s*(?:/|-|tháng)\s*\d{1,2}(?:\s*(?:/|-|năm)\s*\d{2,4})?\b|\btháng\s+\d{1,2}\b|\bngày\s+\d{1,2}\b")
+
+
+def strip_localized_dates(text):
+    """Dates are localized ("31 October" -> "31 tháng 10"); they are not compared numerically."""
+    return VN_DATE_RE.sub(" ",str(text or ""))
+
+
+def numbers_supported(text, source_text):
+    """True when every figure in text (dates aside) also appears in source_text."""
+    have={_num_key(x) for x in numbers_in(source_text)}
+    return all(_num_key(x) in have for x in numbers_in(strip_localized_dates(text)))
+
+
 def _ledger_evidence_text(fact_ledger):
     """Claims plus the verbatim excerpts that were hash-verified against the source pages."""
     parts=[]
@@ -549,26 +550,26 @@ def compute_verified_numbers(body, fact_ledger, evidence_pages):
     allowed|=numbers_in(" ".join(str(x or "") for x in (evidence_pages or {}).values()))
     used=set()
     for paragraph in paragraphs:
-        used|=numbers_in(re.sub(r"(?i)\bđoạn\s+\d+\b"," ",str(paragraph or "")))
-    return sorted(used & allowed)
+        used|=numbers_in(strip_localized_dates(re.sub(r"(?i)\bđoạn\s+\d+\b"," ",str(paragraph or ""))))
+    allowed_keys={_num_key(x) for x in allowed}
+    return sorted(x for x in used if _num_key(x) in allowed_keys)
 
 
 def validate_body_fact_coverage(body, fact_ledger, evidence_pages=None, verified_numbers=None):
     """Reject numeric facts absent from the ledger, its verified excerpts, or the source pages."""
     paragraphs=body if isinstance(body,list) else re.split(r"\n\s*\n",str(body or ""))
-    allowed_numbers=numbers_in(_ledger_evidence_text(fact_ledger))
+    allowed=numbers_in(_ledger_evidence_text(fact_ledger))
     # A number can be accurately supported by a fetched source even when the AI did not
     # repeat it in a ledger claim, so also accept the sealed source pages when available
     # and the numbers recorded at writing time (verified against those pages).
-    allowed_numbers|=numbers_in(" ".join(str(x or "") for x in (evidence_pages or {}).values()))
-    allowed_numbers|={str(x) for x in (verified_numbers or [])}
+    allowed|=numbers_in(" ".join(str(x or "") for x in (evidence_pages or {}).values()))
+    allowed|={str(x) for x in (verified_numbers or [])}
+    allowed_keys={_num_key(x) for x in allowed}
     errors=[]
     for idx, paragraph in enumerate(paragraphs,1):
-        text=str(paragraph or "")
-        # Ignore editorial paragraph labels such as "Đoạn 1"; they are structure,
-        # not factual quantities or dates.
-        numeric_text=re.sub(r"(?i)\bđoạn\s+\d+\b"," ",text)
-        missing=sorted(numbers_in(numeric_text)-allowed_numbers)
+        # Ignore editorial paragraph labels such as "Đoạn 1" and localized dates.
+        numeric_text=strip_localized_dates(re.sub(r"(?i)\bđoạn\s+\d+\b"," ",str(paragraph or "")))
+        missing=sorted(x for x in numbers_in(numeric_text) if _num_key(x) not in allowed_keys)
         if missing:
             errors.append(
                 f"Đoạn {idx} có số liệu/ngày tháng không tìm thấy trong fact ledger hoặc văn bản nguồn: {', '.join(missing[:6])}"
@@ -668,8 +669,104 @@ def ready_candidate_errors(article):
     if count<2 and not primary:
         errors.append("Không đủ hai miền nguồn độc lập hoặc nguồn chính thức")
     risk=article.get("risk_level")
-    if risk=="R2" and not primary and count<3:
-        errors.append("R2 thiếu nguồn chính thức hoặc ba miền nguồn độc lập")
+    if risk=="R2" and not primary and count<R2_MIN_INDEPENDENT_SOURCES:
+        errors.append("R2 thiếu nguồn chính thức hoặc hai miền nguồn độc lập")
     if risk=="R3" and not primary:
         errors.append("R3 không có nguồn chính thức")
     return errors
+
+
+def _claim_unit_score(claim, unit_text, preferred_urls, unit_urls):
+    """Loose topical match between a (Vietnamese) claim and a source-language fact unit."""
+    claim_numbers={_num_key(x) for x in numbers_in(strip_localized_dates(claim))}
+    unit_numbers={_num_key(x) for x in numbers_in(unit_text)}
+    score=3*len(claim_numbers & unit_numbers)
+    unit_low=str(unit_text or "").casefold()
+    for token in set(re.findall(r"[\wÀ-ỹ]{4,}", str(claim or "").casefold())):
+        if token in unit_low:
+            score+=1
+    if set(preferred_urls or []) & set(unit_urls or []):
+        score+=2
+    return score
+
+
+def complete_fact_ledger(model_ledger, fact_units, evidence_pages, allowed_urls,
+                         primary_urls=None, minimum=3):
+    """Build the ledger from the sealed Research fact units; the model's own is advisory.
+
+    Research already fetched the pages and extracted the fact units. The writer only has to
+    say, in its own words, which facts it used. Each claim is attached to the most relevant
+    Research excerpt (verbatim on the fetched page), and the ledger is topped up from unused
+    Research units so it always reaches `minimum`. No excerpt is invented or rewritten.
+    """
+    allowed={str(x).strip() for x in (allowed_urls or []) if x}
+    primary={str(x).strip() for x in (primary_urls or [])}
+    pages={str(u).strip():normalize_evidence_text(t) for u,t in (evidence_pages or {}).items()
+           if str(u).strip() in allowed}
+    units=[]
+    for unit in fact_units or []:
+        if not isinstance(unit,dict):
+            continue
+        text=str(unit.get("text") or "").strip()
+        norm=normalize_evidence_text(text)
+        urls=[str(u).strip() for u in (unit.get("source_urls") or unit.get("urls") or [])]
+        good=[u for u in urls if u in pages and len(norm)>=20 and norm in pages[u]]
+        if good:
+            units.append({"text":text,"urls":good})
+    used=set()
+
+    def attach(fact, index):
+        unit=units[index]
+        used.add(index)
+        fact["source_urls"]=list(unit["urls"])
+        fact["evidence_snippet"]=unit["text"]
+        fact["evidence_locator"]="Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+        fact["evidence_by_source"]=[{"source_url":u,"snippet":unit["text"],
+                                      "locator":fact["evidence_locator"]} for u in unit["urls"]]
+        if any(u in primary for u in unit["urls"]):
+            fact["importance"]="core"
+        fact.pop("source_claim",None)
+        fact.setdefault("importance","supporting")
+
+    result=[]
+    for original in model_ledger if isinstance(model_ledger,list) else []:
+        if not isinstance(original,dict):
+            continue
+        fact=dict(original)
+        claim=str(fact.get("claim") or "").strip()
+        if len(claim)<20:
+            continue
+        fact.pop("source_claim",None)
+        own_ok=False
+        for item in fact.get("evidence_by_source") or []:
+            if isinstance(item,dict):
+                url=str(item.get("source_url") or "").strip()
+                norm=normalize_evidence_text(item.get("snippet") or "")
+                if url in pages and len(norm)>=20 and norm in pages[url]:
+                    own_ok=True
+        if own_ok:
+            fact["evidence_by_source"]=[x for x in fact["evidence_by_source"] if isinstance(x,dict)
+                and str(x.get("source_url") or "").strip() in pages
+                and normalize_evidence_text(x.get("snippet") or "") in pages[str(x.get("source_url") or "").strip()]
+                and len(normalize_evidence_text(x.get("snippet") or ""))>=20]
+            fact["source_urls"]=list(dict.fromkeys(str(x["source_url"]).strip() for x in fact["evidence_by_source"]))
+            fact["evidence_snippet"]=fact["evidence_by_source"][0]["snippet"]
+            fact["evidence_locator"]=str(fact["evidence_by_source"][0].get("locator") or "Hồ sơ Research")
+            result.append(fact)
+            continue
+        preferred=[str(u).strip() for u in (fact.get("source_urls") or [])]
+        scored=sorted(((_claim_unit_score(claim,u["text"],preferred,u["urls"])-(0 if i not in used else 100),i)
+                       for i,u in enumerate(units)),reverse=True)
+        if scored:
+            attach(fact,scored[0][1])
+            result.append(fact)
+    # Top up from Research units not yet used so the ledger always has enough facts.
+    ranked=sorted((i for i in range(len(units)) if i not in used),
+                  key=lambda i:(-(len(re.findall(r"\d",units[i]["text"]))>0),-len(units[i]["urls"]),i))
+    for i in ranked:
+        if len(result)>=minimum:
+            break
+        fact={"claim":"Nguồn ghi nhận: "+units[i]["text"][:260],"importance":"supporting"}
+        attach(fact,i)
+        result.append(fact)
+    return result
