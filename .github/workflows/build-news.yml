@@ -65,14 +65,19 @@ jobs:
       - name: Build noon digest from AppNho articles only
         if: steps.slot.outputs.slot_kind == 'digest'
         run: python scripts/create_digest.py
+      # Share previews, RSS, sitemap and social metadata must exist BEFORE the audit that
+      # requires them. (Auditing first made every successful publication fail, skip the
+      # commit and leave the website without the new articles.)
+      - name: Build RSS, sitemap, share previews and social metadata for the new articles
+        run: python scripts/build_metadata.py
       - name: Validate article data after publication
         run: python scripts/audit_site.py
       - name: Close 30-day AppNho publication batch when due
         run: python scripts/rotate_archive.py
+      - name: Rebuild RSS, sitemap and social metadata after any rotation
+        run: python scripts/build_metadata.py
       - name: Validate archive rotation
         run: python scripts/audit_site.py
-      - name: Rebuild RSS, sitemap and social metadata
-        run: python scripts/build_metadata.py
       - name: Commit published articles and generated metadata
         run: |
           git config user.name "github-actions[bot]"
