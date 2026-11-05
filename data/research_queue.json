@@ -49225,7 +49225,7 @@
   },
   {
     "queue_id": "97c216814547c35c4a5c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:39.431653+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "sports",
@@ -49917,11 +49917,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:39.431674+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gianluigi-donnarumma-va-ap-luc-tai-manchester-city-835fd827"
   },
   {
     "queue_id": "b98da5d37cee687a4abb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:41.956614+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "technology",
@@ -50625,11 +50626,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:41.956633+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gioi-cong-nghe-my-tim-huong-i-moi-cho-trung-tam-du-lieu-ngoai-khong-gian-3344255c"
   },
   {
     "queue_id": "9524281e17fc4d37ccb5",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:43.185839+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "technology",
@@ -51206,6 +51208,690 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:43.185858+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "amd-ghi-nhan-quy-ky-luc-nho-mang-trung-tam-du-lieu-tang-truong-manh-77c9cc11"
+  },
+  {
+    "queue_id": "amd-ghi-nhan-quy-ky-luc-nho-mang-trung-tam-du-lieu-tang-truong-manh-77c9cc11",
+    "status": "READY",
+    "prepared_at": "2026-11-05T01:53:01.913002+00:00",
+    "expires_at": "2026-11-06T01:53:01.913002+00:00",
+    "source_urls": [
+      "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+      "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+    ],
+    "article": {
+      "id": "amd-ghi-nhan-quy-ky-luc-nho-mang-trung-tam-du-lieu-tang-truong-manh-77c9cc11",
+      "title": "AMD ghi nhận quý kỷ lục nhờ mảng trung tâm dữ liệu tăng trưởng mạnh",
+      "summary": "Hãng công nghệ AMD vừa công bố doanh thu quý 3 đạt mức kỷ lục 13,4 tỷ USD, tăng 45% so với cùng kỳ năm ngoái, nhờ sự bứt phá mạnh mẽ từ mảng trung tâm dữ liệu bất chấp sự sụt giảm ở mảng trò chơi.",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+      "published_at": "2026-11-04T21:29:46+00:00",
+      "fetched_at": "2026-11-05T01:53:06.838397+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hãng bán dẫn AMD vừa báo cáo kết quả kinh doanh quý 3 với doanh thu đạt mức kỷ lục 13,4 tỷ USD, ghi nhận mức tăng trưởng 45% so với cùng kỳ năm trước. Động lực chính cho sự bứt phá này đến từ mảng trung tâm dữ liệu khi lĩnh vực này gần như tăng gấp đôi, trong khi phân khúc trò chơi lại ghi nhận sự sụt giảm mạnh.",
+        "Cụ thể, doanh thu từ mảng trung tâm dữ liệu của AMD đã tăng 97% so với cùng kỳ năm ngoái, đạt mức kỷ lục 8,5 tỷ USD. Công ty cho biết sự tăng trưởng này xuất phát từ nhu cầu cao đối với dòng CPU máy chủ doanh nghiệp EPYC và việc ra mắt dòng GPU Instinct MI450. Biên lợi nhuận hoạt động của mảng này cũng mở rộng từ 25% lên 34%.",
+        "Ngược lại, mảng kinh doanh trò chơi của hãng sụt giảm 40% xuống còn 773 triệu USD. Lãnh đạo AMD giải thích nguyên nhân là do doanh thu từ các sản phẩm đồ họa và bộ xử lý bán tùy chỉnh thấp hơn, phản ánh đúng chu kỳ của thị trường máy chơi game hiện tại.",
+        "Trong khi đó, mảng thiết bị nhúng mang về 1,1 tỷ USD, tăng 29% nhờ các thị trường hàng không vũ trụ, quốc phòng, ô tô và công nghiệp. Với kết quả khả quan này, ban lãnh đạo AMD kỳ vọng doanh thu quý 4 sẽ đạt khoảng 17 tỷ USD, tiếp tục đánh dấu bước tăng trưởng mạnh mẽ của hãng trên thị trường công nghệ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "AMD đạt doanh thu quý kỷ lục 13,4 tỷ USD nhờ trung tâm dữ liệu",
+      "meta_description": "AMD công bố doanh thu quý 3 đạt kỷ lục 13,4 tỷ USD, tăng 45% so với cùng kỳ nhờ mảng trung tâm dữ liệu tăng gần gấp đôi.",
+      "keywords": [
+        "AMD",
+        "Trung tâm dữ liệu",
+        "Doanh thu",
+        "AI",
+        "Trò chơi"
+      ],
+      "slug": "amd-ghi-nhan-quy-ky-luc-nho-mang-trung-tam-du-lieu-tang-truong-manh-77c9cc11",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 269,
+      "display_source": true,
+      "source_urls": [
+        "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+        "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+      ],
+      "source_references": [
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T21:29:46+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:03:31+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "AMD báo cáo doanh thu quý 3 đạt kỷ lục 13,4 tỷ USD, tăng 45% so với cùng kỳ năm ngoái.",
+          "source_urls": [
+            "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters"
+          ],
+          "importance": "core",
+          "evidence_snippet": "AMDreported third-quarter revenueson Tuesday with a record $13.4 billion, an increase of 45 percent year over year, as data center business nearly doubled and the company’s gaming segment cratered.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "snippet": "AMDreported third-quarter revenueson Tuesday with a record $13.4 billion, an increase of 45 percent year over year, as data center business nearly doubled and the company’s gaming segment cratered.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "page_sha256": "264f58ff1781fdccf1ec4245e0261f5732c724f4c024e3028ecda599c222bf06",
+              "snippet_sha256": "406df3bdccf15051db26f567f4cfc7759a82c78d42c7366c4e1a2f2b9443ff07",
+              "verified_at": "2026-11-05T01:53:06.837772+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mảng trung tâm dữ liệu của AMD tăng 97% lên mức kỷ lục 8,5 tỷ USD.",
+          "source_urls": [
+            "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The data center segment of AMD’s business was up 97 percent year over year, with a record $8.5 billion.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "snippet": "The data center segment of AMD’s business was up 97 percent year over year, with a record $8.5 billion.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "page_sha256": "264f58ff1781fdccf1ec4245e0261f5732c724f4c024e3028ecda599c222bf06",
+              "snippet_sha256": "dddbd52fe5f50ca13309e8a9de2d3ead21717dc274ef1e73333f0d0f804404da",
+              "verified_at": "2026-11-05T01:53:06.837772+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Doanh thu mảng trò chơi của AMD giảm 40% xuống 773 triệu USD do doanh thu bán tùy chỉnh và đồ họa thấp hơn.",
+          "source_urls": [
+            "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "According toAMD Chair and CEO Lisa Su, “In Gaming, revenue declined 40% year over year to $773 million, primarily due to lower semi-custom sales as expected at this stage of the console cycle.” The financial results do not break down the split between console chip sales and PC graphics cards.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "snippet": "According toAMD Chair and CEO Lisa Su, “In Gaming, revenue declined 40% year over year to $773 million, primarily due to lower semi-custom sales as expected at this stage of the console cycle.” The financial results do not break down the split between console chip sales and PC graphics cards.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "page_sha256": "264f58ff1781fdccf1ec4245e0261f5732c724f4c024e3028ecda599c222bf06",
+              "snippet_sha256": "dd6bf4dc07779a64a02040dd05af361cf3fd4114395084ec51f402adae936ebd",
+              "verified_at": "2026-11-05T01:53:06.837772+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "AMD kỳ vọng doanh thu quý 4 đạt khoảng 17 tỷ USD với biên độ chênh lệch 3%.",
+          "source_urls": [
+            "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "AMD CFO Jean Hu said, “We expect revenue to be approximately $17 billion, plus or minus 3%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "snippet": "AMD CFO Jean Hu said, “We expect revenue to be approximately $17 billion, plus or minus 3%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "page_sha256": "264f58ff1781fdccf1ec4245e0261f5732c724f4c024e3028ecda599c222bf06",
+              "snippet_sha256": "318c34b9ebfb3744371c2652320de658f570d281a6051c4aaf67127d959ad9ea",
+              "verified_at": "2026-11-05T01:53:06.837772+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự đối lập giữa đà tăng trưởng kỷ lục của mảng trung tâm dữ liệu và sự sụt giảm tại mảng trò chơi trong kết quả kinh doanh quý 3 của AMD. Đồng thời, bài cung cấp bức tranh chi tiết về các động lực doanh thu chính của hãng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T01:53:06.838456+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,1",
+        "13,4",
+        "17",
+        "25",
+        "29",
+        "3",
+        "34",
+        "4",
+        "40",
+        "45",
+        "450",
+        "773",
+        "8,5",
+        "97"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T01:53:06.839287+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 269,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1197
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "gioi-cong-nghe-my-tim-huong-i-moi-cho-trung-tam-du-lieu-ngoai-khong-gian-3344255c",
+    "status": "READY",
+    "prepared_at": "2026-11-05T01:53:01.913002+00:00",
+    "expires_at": "2026-11-06T01:53:01.913002+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+      "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming",
+      "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms"
+    ],
+    "article": {
+      "id": "gioi-cong-nghe-my-tim-huong-i-moi-cho-trung-tam-du-lieu-ngoai-khong-gian-3344255c",
+      "title": "Giới công nghệ Mỹ tìm hướng đi mới cho trung tâm dữ liệu ngoài không gian",
+      "summary": "Sau kết quả bầu cử giữa kỳ tại Mỹ, làn sóng phản đối trung tâm dữ liệu và các biện pháp hạn chế gia tăng đã khiến nhiều nhân vật trong ngành công nghệ hướng sự chú ý đến không gian vũ trụ.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+      "published_at": "2026-11-04T23:13:14+00:00",
+      "fetched_at": "2026-11-05T01:53:13.621137+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Kết quả cuộc bầu cử giữa kỳ tại Mỹ đã tạo ra những bước ngoặt lớn, khi làn sóng ứng viên Đảng Dân chủ giành chiến thắng tại nhiều bang và khu vực bầu cử quan trọng. Đáng chú ý, nhiều người trong số họ đã công khai bày tỏ sự phản đối đối với ngành công nghiệp trung tâm dữ liệu. Các phán quyết và biện pháp hạn chế từ cử tri địa phương tại nhiều bang như Ohio đã cho thấy sự bất mãn ngày càng lớn của cộng đồng đối với các cơ sở hạ tầng phục vụ trí tuệ nhân tạo này.",
+        "Trước áp lực chính trị và các rào cản pháp lý ngày càng tăng trên mặt đất, một số nhân vật nổi bật trong ngành công nghệ bắt đầu tính toán đến các phương án thay thế ngoài Trái Đất. Ngay sau khi kết quả bầu cử cho thấy quyền kiểm soát của phe Dân chủ tại Quốc hội, tỷ phú Elon Musk đã đăng tải trên mạng xã hội rằng các trung tâm dữ liệu trong không gian đang trở nên rất hấp dẫn. Nhiều nhà đầu tư, nhà nghiên cứu trí tuệ nhân tạo và nhân sự công nghệ khác cũng đồng loạt ủng hộ ý tưởng đưa hệ thống tính toán ra khỏi khí quyển.",
+        "Thực tế, một số tập đoàn lớn và công ty khởi nghiệp đã và đang thử nghiệm việc đưa năng lực tính toán lên quỹ đạo. Các dự án phóng vệ tinh chứa chip xử lý chuyên dụng hoặc kế hoạch xây dựng hệ thống trung tâm dữ liệu quỹ đạo đã được triển khai bởi các tên tuổi lớn như Google, SpaceX và Blue Origin. Dù vậy, giới chuyên gia đánh giá các trung tâm dữ liệu không gian vẫn phải đối mặt với nhiều thách thức kỹ thuật và tài chính khắc nghiệt, bao gồm chi phí đắt đỏ, giới hạn quy mô và phụ thuộc vào rủi ro từ các đợt phóng vệ tinh."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Giới công nghệ Mỹ tìm kiếm trung tâm dữ liệu ngoài không gian sau bầu ",
+      "meta_description": "Khám phá nguyên nhân vì sao giới công nghệ Mỹ lại hướng đến các giải pháp trung tâm dữ liệu ngoài không gian sau các phán quyết và kết quả bầu cử giữa kỳ.",
+      "keywords": [
+        "trung tâm dữ liệu",
+        "không gian",
+        "bầu cử giữa kỳ",
+        "Elon Musk",
+        "AI"
+      ],
+      "slug": "gioi-cong-nghe-my-tim-huong-i-moi-cho-trung-tam-du-lieu-ngoai-khong-gian-3344255c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 341,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+        "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming",
+        "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+        "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming",
+        "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+        "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T23:13:14+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T01:02:14+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T22:42:15+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T15:28:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Làn sóng ứng viên Đảng Dân chủ giành chiến thắng trong các cuộc đua bang và quốc hội, trong đó có nhiều người phản đối ngành công trung tâm dữ liệu.",
+          "source_urls": [
+            "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space"
+          ],
+          "importance": "core",
+          "evidence_snippet": "But Paterson notes that Texas developers have particularly strong “vested rights,” whichprotectsthe terms of their projects from the moment their permits are approved, even if construction hasn’t begun yet.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "snippet": "But Paterson notes that Texas developers have particularly strong “vested rights,” whichprotectsthe terms of their projects from the moment their permits are approved, even if construction hasn’t begun yet.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "page_sha256": "a187e3d2e362308cbd0689c2d91ac5f7505c33fc4c8643d151058b3e64f05d76",
+              "snippet_sha256": "96ecc44a1107faa5e0978768eb70b91c845933134996c322864428e222428c2f",
+              "verified_at": "2026-11-05T01:53:13.620674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Elon Musk đăng tải trên X rằng các trung tâm dữ liệu trong không gian đang trở nên rất hấp dẫn sau khi có kết quả bầu cử.",
+          "source_urls": [
+            "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Elon Musk—whosank more than $400 millionof his fortune supporting Republican candidates who all went on to lose their midterms races—has been among those leading the charge.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "snippet": "Elon Musk—whosank more than $400 millionof his fortune supporting Republican candidates who all went on to lose their midterms races—has been among those leading the charge.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "page_sha256": "a187e3d2e362308cbd0689c2d91ac5f7505c33fc4c8643d151058b3e64f05d76",
+              "snippet_sha256": "47cb96b8f53aff1efae500f20f1b59c328382d39884bb85f006fcbd98f355720",
+              "verified_at": "2026-11-05T01:53:13.620674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Google, SpaceX và Blue Origin là những cái tên đã và đang triển khai hoặc lên kế hoạch phóng các vệ tinh mang thiết bị tính toán lên quỹ đạo.",
+          "source_urls": [
+            "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Among them are Google, whichlauncheda satellite that it says contains \"data center class TPU,” and SpaceX, whichsaysit aims to deploy “thousands of AI satellites starting as soon as late 2027.” Blue Origin is also in the mix, havingfiledfor a Federal Communications Commission permit to launch 50,000 satellites that willconstitutean “orbital data center system.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "snippet": "Among them are Google, whichlauncheda satellite that it says contains \"data center class TPU,” and SpaceX, whichsaysit aims to deploy “thousands of AI satellites starting as soon as late 2027.” Blue Origin is also in the mix, havingfiledfor a Federal Communications Commission permit to launch 50,000 satellites that willconstitutean “orbital data center system.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "page_sha256": "a187e3d2e362308cbd0689c2d91ac5f7505c33fc4c8643d151058b3e64f05d76",
+              "snippet_sha256": "4d437597579385dfef941ac7b3926c60b2584bacca18821b24783fa841f5f496",
+              "verified_at": "2026-11-05T01:53:13.620674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ trực tiếp giữa kết quả bầu cử giữa kỳ tại Mỹ và phản ứng của giới công nghệ đối với các trung tâm dữ liệu trên mặt đất. Đồng thời, bài phân tích chỉ ra những giới hạn thực tế của giải pháp đưa hệ thống tính toán lên không gian.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T01:53:13.621209+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-05T01:53:13.622133+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 341,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1521
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com",
+          "theverge.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "gianluigi-donnarumma-va-ap-luc-tai-manchester-city-835fd827",
+    "status": "READY",
+    "prepared_at": "2026-11-05T01:53:01.913002+00:00",
+    "expires_at": "2026-11-06T01:53:01.913002+00:00",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+      "https://www.theguardian.com/football/2026/nov/04/rb-leipzig-manchester-city-champions-league-match-report"
+    ],
+    "article": {
+      "id": "gianluigi-donnarumma-va-ap-luc-tai-manchester-city-835fd827",
+      "title": "Gianluigi Donnarumma và áp lực tại Manchester City",
+      "summary": "Thủ thành Gianluigi Donnarumma đang đối mặt với nhiều hoài nghi về phong độ tại Manchester City sau những sai lầm gần đây ở đấu trường Champions League.",
+      "category": "sports",
+      "source_name": "CBS Sports - Soccer",
+      "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+      "published_at": "2026-11-05T00:08:15+00:00",
+      "fetched_at": "2026-11-05T01:53:20.414446+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thủ thành Gianluigi Donnarumma đang trải qua giai đoạn chịu nhiều sức ép tại Manchester City sau những màn trình diễn bị cho là chưa đạt kỳ vọng cao nhất. Được chiêu mộ với kỳ vọng trở thành một trong những thủ môn bắt bóng xuất sắc nhất thế giới để khỏa lấp những hạn chế trong khả năng kiểm soát bóng, ngôi sao người Ý lại liên tiếp vướng vào các tình huống mắc sai lầm trực tiếp dẫn đến bàn thua.",
+        "Trong chiến thắng 3-2 trước RB Leipzig tại Champions League, Donnarumma tiếp tục gây lo lắng khi để thủ lọt lưới ở góc gần sau pha dứt điểm của Ridle Baku. Trước đó, thủ môn 27 tuổi này cũng từng mắc lỗi tương tự ở các trận gặp Aston Villa hay Paris Saint-Germain. Dù HLV Enzo Maresca lên tiếng bảo vệ học trò và cho rằng đội bóng cần tập trung cho chặng đường sắp tới, áp lực đè nặng lên cựu thủ quân PSG là không nhỏ.",
+        "Xét tổng thể trong các lần ra sân tại Premier League và Champions League, Donnarumma vẫn có những khoảnh khắc cứu thua xuất thần và thông số cản phá không quá tệ. Tuy nhiên, sự kỳ vọng dành cho anh lớn hơn thế rất nhiều. Khi hàng thủ Man City dưới thời Maresca phải đối mặt với số lượng cú sút từ đối thủ nhiều hơn trước, một thủ môn đẳng cấp hàng đầu thế giới được kỳ vọng sẽ giải quyết triệt để những tình huống hiểm hóc thay vì chỉ chơi ở mức độ tròn vai."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Phong độ của Gianluigi Donnarumma tại Manchester City",
+      "meta_description": "Đánh giá màn thể hiện và những sai lầm gần đây của thủ thành Gianluigi Donnarumma trong màu áo Manchester City.",
+      "keywords": [
+        "Gianluigi Donnarumma",
+        "Manchester City",
+        "RB Leipzig",
+        "Champions League",
+        "Erling Haaland"
+      ],
+      "slug": "gianluigi-donnarumma-va-ap-luc-tai-manchester-city-835fd827",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 269,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+        "https://www.theguardian.com/football/2026/nov/04/rb-leipzig-manchester-city-champions-league-match-report"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/2026/nov/04/rb-leipzig-manchester-city-champions-league-match-report"
+      ],
+      "source_references": [
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T00:08:15+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/04/rb-leipzig-manchester-city-champions-league-match-report",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T22:04:37+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Gianluigi Donnarumma gia nhập Manchester City nhưng đang gặp phải những chỉ trích về phong độ và sai lầm.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hard as it may be to believe or justify after events in Leipzig, there was a logic toManchester Cityjettisoning their decade-long policy for goalkeeper recruitment last summer and signingGianluigi Donnarumma.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "snippet": "Hard as it may be to believe or justify after events in Leipzig, there was a logic toManchester Cityjettisoning their decade-long policy for goalkeeper recruitment last summer and signingGianluigi Donnarumma.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "page_sha256": "9af756d2cdc702649650986322e2009974b238bcedd84099907d5ddeaa96e85f",
+              "snippet_sha256": "0764a106cfdf6e5ab9ede8a735a32b739afeba2e554eb2f216820bd7fb91154d",
+              "verified_at": "2026-11-05T01:53:20.412865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong trận gặp RB Leipzig, Man City giành chiến thắng 3-2 nhờ bàn thắng của Erling Haaland.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city"
+          ],
+          "importance": "core",
+          "evidence_snippet": "In Leipzig tonight, the outfield players managed to cover for their increasingly error-prone goalkeeper,Erling Haalandscoring a 13th goal in nine meetings with the Bundesliga side and earning a 3-2 win for City.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "snippet": "In Leipzig tonight, the outfield players managed to cover for their increasingly error-prone goalkeeper,Erling Haalandscoring a 13th goal in nine meetings with the Bundesliga side and earning a 3-2 win for City.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "page_sha256": "9af756d2cdc702649650986322e2009974b238bcedd84099907d5ddeaa96e85f",
+              "snippet_sha256": "8941e84dc8c5d07f1ced1b88cbcc0929ac06d4788714f2fe143dc8b6830706a8",
+              "verified_at": "2026-11-05T01:53:20.412865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Donnarumma mắc sai lầm trong bàn thắng san bằng tỷ số của Ridle Baku bên phía RB Leipzig.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ridle Baku sneaks one in at the near post past Donnarumma 😤",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "snippet": "Ridle Baku sneaks one in at the near post past Donnarumma 😤",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "page_sha256": "9af756d2cdc702649650986322e2009974b238bcedd84099907d5ddeaa96e85f",
+              "snippet_sha256": "46af5e2ca5dc205be5214d63144239c5e47e4ad178b6b9c934963d30a774f941",
+              "verified_at": "2026-11-05T01:53:20.412865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HLV Enzo Maresca cho biết sẽ xem xét tình hình thủ môn trong đợt tập trung đội tuyển quốc gia và xác nhận Donnarumma hiểu rõ về sai lầm ở bàn thua đầu tiên.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Now that Enzo Maresca has taken the helm and concluded thatElliot Andersonis enough of a midfield, we are at 10.56 in the Premier League.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "snippet": "Now that Enzo Maresca has taken the helm and concluded thatElliot Andersonis enough of a midfield, we are at 10.56 in the Premier League.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "page_sha256": "9af756d2cdc702649650986322e2009974b238bcedd84099907d5ddeaa96e85f",
+              "snippet_sha256": "6067b613f862cb1dfbb19112d63d367d4e32e1f48c75c4ac91aaecc0b6fca6cc",
+              "verified_at": "2026-11-05T01:53:20.412865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ áp lực và sự kỳ vọng đặt lên vai Gianluigi Donnarumma tại Manchester City, đồng thời phân tích những sai lầm gần đây của thủ thành này dưới góc độ chiến thuật và thống kê từ các nguồn thể thao uy tín.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T01:53:20.414677+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "27"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T01:53:20.416061+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 269,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1276
+        },
+        "independent_domains": [
+          "cbssports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
