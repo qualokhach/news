@@ -56284,7 +56284,7 @@
   },
   {
     "queue_id": "acd5e92f78157d269d82",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T11:34:42.673964+00:00",
     "expires_at": "2026-11-08T11:32:07.591492+00:00",
     "category_hint": "world",
@@ -57017,11 +57017,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T11:34:42.673986+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "e-nhat-phu-nhan-my-melania-trump-tiep-on-quan-chuc-nga-va-ukraine-tai-nh-cf645309"
   },
   {
     "queue_id": "4e75e715eaaa79f007bf",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T11:34:43.747559+00:00",
     "expires_at": "2026-11-08T11:32:07.591492+00:00",
     "category_hint": "world",
@@ -57613,11 +57614,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T11:34:43.747579+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bob-dylan-gap-go-giao-hoang-leo-xiv-tai-vatican-84b1558d"
   },
   {
     "queue_id": "6ee231db19874e45b5c8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T11:34:44.290724+00:00",
     "expires_at": "2026-11-08T11:32:07.591492+00:00",
     "category_hint": "technology",
@@ -58181,6 +58183,626 @@
       ]
     },
     "research_ready_at": "2026-11-05T11:34:44.290743+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "amazon-thay-the-grubhub-bang-uber-eats-trong-goi-uu-ai-prime-9b51fe1d"
+  },
+  {
+    "queue_id": "amazon-thay-the-grubhub-bang-uber-eats-trong-goi-uu-ai-prime-9b51fe1d",
+    "status": "READY",
+    "prepared_at": "2026-11-05T11:35:03.068339+00:00",
+    "expires_at": "2026-11-06T11:35:03.068339+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks",
+      "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime"
+    ],
+    "article": {
+      "id": "amazon-thay-the-grubhub-bang-uber-eats-trong-goi-uu-ai-prime-9b51fe1d",
+      "title": "Amazon thay thế Grubhub bằng Uber Eats trong gói ưu đãi Prime",
+      "summary": "Amazon chính thức hợp tác với Uber Eats để cung cấp dịch vụ giao đồ ăn cho thành viên Prime tại Mỹ, chấm dứt thỏa thuận hợp tác lâu năm với Grubhub.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+      "published_at": "2026-11-05T11:00:00+00:00",
+      "fetched_at": "2026-11-05T11:35:18.787965+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Amazon vừa công bố thay đổi lớn trong hệ thống ưu đãi dành cho thành viên Prime tại Mỹ khi chính thức chọn Uber Eats làm đối tác giao đồ ăn độc quyền. Động thái này đồng nghĩa với việc thỏa thuận hợp tác giữa Amazon và Grubhub, vốn đã kéo dài từ năm 2022, chính thức chấm dứt.",
+        "Theo thông tin từ Amazon, người dùng Prime hiện có thể đặt hàng trực tiếp từ Uber Eats thông qua website Amazon.com hoặc ứng dụng Amazon Shopping mà không cần tạo tài khoản Uber riêng. Các thành viên sẽ được miễn phí giao hàng cho những đơn hàng có giá trị từ 25 USD trở lên. Ngoài ra, Amazon cũng cam kết cung cấp các ưu đãi độc quyền chỉ dành riêng cho khách hàng Prime trên nền tảng này. Dự kiến, dịch vụ mới sẽ được triển khai tại gần 10.000 thành phố và thị trấn trên khắp nước Mỹ.",
+        "Để khuyến khích người dùng chuyển đổi, Amazon và Uber tung ra chương trình ưu đãi giảm 20 USD cho đơn hàng đầu tiên từ 25 USD trở lên trong hai tuần đầu tiên. Theo ước tính từ phía Amazon, việc tích hợp này có thể giúp người dùng tiết kiệm tới 175 USD mỗi năm, tùy thuộc vào tần suất sử dụng dịch vụ giao đồ ăn của từng cá nhân.",
+        "Việc thay đổi đối tác lần này được xem là nỗ lực của Amazon nhằm tối ưu hóa trải nghiệm khách hàng. Mối quan hệ giữa Amazon và Uber trước đó đã khá sâu rộng thông qua các thỏa thuận về điện toán đám mây, xe tự lái Zoox và tích hợp dịch vụ vào trợ lý ảo Alexa."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Amazon hợp tác Uber Eats thay thế Grubhub cho thành viên Prime",
+      "meta_description": "Amazon công bố quan hệ đối tác mới với Uber Eats, mang đến ưu đãi giao đồ ăn miễn phí cho thành viên Prime tại Mỹ và kết thúc hợp tác với Grubhub.",
+      "keywords": [
+        "Amazon",
+        "Uber Eats",
+        "Grubhub",
+        "Prime",
+        "giao đồ ăn"
+      ],
+      "slug": "amazon-thay-the-grubhub-bang-uber-eats-trong-goi-uu-ai-prime-9b51fe1d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 291,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks",
+        "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2307194/amazon-teams-with-uber-eats-for-new-prime-perks",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T11:00:00+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T11:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Amazon hợp tác với Uber Eats để cung cấp dịch vụ giao đồ ăn cho thành viên Prime tại Mỹ, thay thế Grubhub.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Amazon has made Uber Eats as its official restaurant delivery partner for Prime members in the United States, effectively ending the e-commerce giant’s existing deal with Grubhub.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+              "snippet": "Amazon has made Uber Eats as its official restaurant delivery partner for Prime members in the United States, effectively ending the e-commerce giant’s existing deal with Grubhub.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+              "page_sha256": "8ef678f28b6c9a8773bd0efccf04801dd80b0e885b07522e121df0a3f4e8ccc6",
+              "snippet_sha256": "dde57d5a6180057dd87951bde8448f73bf14a264f9ae51f9c642e6e7c6ca30b5",
+              "verified_at": "2026-11-05T11:35:18.787396+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thành viên Prime được miễn phí giao hàng cho đơn từ 25 USD trở lên và không cần tạo tài khoản Uber riêng.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime"
+          ],
+          "importance": "core",
+          "evidence_snippet": "To help kickstart the initiative, Amazon and Uber are offering Prime members $20 off their first order of $25 or more during the first two weeks.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+              "snippet": "To help kickstart the initiative, Amazon and Uber are offering Prime members $20 off their first order of $25 or more during the first two weeks.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+              "page_sha256": "8ef678f28b6c9a8773bd0efccf04801dd80b0e885b07522e121df0a3f4e8ccc6",
+              "snippet_sha256": "c22ba70243cf426008b0876b0c6b7eb36fa0245c69098d5ecd662e791577686b",
+              "verified_at": "2026-11-05T11:35:18.787396+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Amazon và Uber cung cấp ưu đãi giảm 20 USD cho đơn hàng đầu tiên từ 25 USD trở lên trong hai tuần đầu.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Importantly, Prime members won’t need to create an Uber account and won’t pay a delivery fee on orders of more than $25, the companies said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+              "snippet": "Importantly, Prime members won’t need to create an Uber account and won’t pay a delivery fee on orders of more than $25, the companies said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+              "page_sha256": "8ef678f28b6c9a8773bd0efccf04801dd80b0e885b07522e121df0a3f4e8ccc6",
+              "snippet_sha256": "82dab4d2306d01c446520ba9e0619633429d4d1cd1c1b0852f3fcfb981e265d3",
+              "verified_at": "2026-11-05T11:35:18.787396+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự chuyển dịch chiến lược của Amazon từ Grubhub sang Uber Eats trong hệ sinh thái Prime. Đồng thời, bài phân tích bối cảnh mối quan hệ hợp tác sâu rộng giữa Amazon và Uber thay vì chỉ liệt kê các ưu đãi mới.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T11:35:18.788048+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10.000",
+        "175",
+        "20",
+        "2022",
+        "25"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T11:35:18.789064+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 291,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1349
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bob-dylan-gap-go-giao-hoang-leo-xiv-tai-vatican-84b1558d",
+    "status": "READY",
+    "prepared_at": "2026-11-05T11:35:03.068339+00:00",
+    "expires_at": "2026-11-06T11:35:03.068339+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+      "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan"
+    ],
+    "article": {
+      "id": "bob-dylan-gap-go-giao-hoang-leo-xiv-tai-vatican-84b1558d",
+      "title": "Bob Dylan gặp gỡ Giáo hoàng Leo XIV tại Vatican",
+      "summary": "Huyền thoại âm nhạc Bob Dylan đã có cuộc gặp gỡ ngắn với Giáo hoàng Leo XIV tại Điện Apostolic trong chuyến lưu diễn tại Ý.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T02:09:23+00:00",
+      "fetched_at": "2026-11-05T11:35:35.398397+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Huyền thoại âm nhạc người Mỹ Bob Dylan đã có cuộc gặp gỡ với Giáo hoàng Leo XIV tại Điện Apostolic, Vatican vào thứ Tư vừa qua. Sự kiện diễn ra trong khoảng thời gian nghỉ giữa các buổi biểu diễn thuộc chuyến lưu diễn 'Rough and Rowdy Ways' của nghệ sĩ 85 tuổi tại Ý. Theo thông tin từ Vatican, đây là một cuộc gặp ngắn ngủi nhưng mang tính biểu tượng giữa hai nhân vật cùng xuất thân từ vùng Trung Tây nước Mỹ.",
+        "Trong buổi tiếp kiến, Giáo hoàng Leo XIV đã trao tặng cho chủ nhân giải Nobel Văn học một chuỗi hạt mân côi, trong khi Bob Dylan gửi tặng Giáo hoàng cuốn tự truyện 'Chronicles: Volume One' của mình. Hình ảnh từ Vatican cho thấy sự tương phản rõ rệt giữa trang phục đen tối giản với chiếc áo hoodie của Dylan và sắc trắng truyền thống của Giáo hoàng. Đi cùng Dylan trong buổi gặp có linh mục Antonio Spadaro và biên tập viên Andrea Monda của tờ L'Osservatore Romano.",
+        "Mối liên kết giữa hai người không chỉ dừng lại ở cuộc gặp này. Giáo hoàng Leo XIV từng trích dẫn lời bài hát phản chiến chưa từng được thu âm 'Go Away You Bomb' của Dylan trong cuốn sách 'Disarmed and Disarming: Peace Is a Gift' xuất bản năm 2026 để cảnh báo về chạy đua vũ trang. Đây là lần thứ hai Bob Dylan gặp gỡ một vị Giáo hoàng, sau lần biểu diễn trước Giáo hoàng John Paul II vào năm 1997 tại Bologna. Sau cuộc gặp tại Vatican, Dylan tiếp tục lịch trình biểu diễn tại Rome vào thứ Năm."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Bob Dylan gặp gỡ Giáo hoàng Leo XIV tại Vatican",
+      "meta_description": "Huyền thoại âm nhạc Bob Dylan đã có cuộc gặp gỡ ngắn với Giáo hoàng Leo XIV tại Điện Apostolic trong chuyến lưu diễn tại Ý.",
+      "keywords": [
+        "Bob Dylan",
+        "Giáo hoàng Leo XIV",
+        "Vatican",
+        "âm nhạc",
+        "Ý"
+      ],
+      "slug": "bob-dylan-gap-go-giao-hoang-leo-xiv-tai-vatican-84b1558d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 281,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+        "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T02:09:23+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T07:02:12+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bob Dylan gặp Giáo hoàng Leo XIV tại Điện Apostolic vào thứ Tư trong chuyến lưu diễn tại Ý.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Pope Leo XIV hosted Bob Dylan at his official residence, the Apostolic Palace, on Wednesday during the Rome stop on the singer-songwriter's Italian tour.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Pope Leo XIV hosted Bob Dylan at his official residence, the Apostolic Palace, on Wednesday during the Rome stop on the singer-songwriter's Italian tour.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "0d40f6627308f5683ef975ccc90963c696ed7e86e00865983a44a7b1720c32bd",
+              "snippet_sha256": "da8fef665f69153e7032a7f090606a92878c47b9cec90358e3a0b78a10cf1715",
+              "verified_at": "2026-11-05T11:35:35.397962+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giáo hoàng Leo XIV tặng Dylan chuỗi hạt mân côi và Dylan tặng Giáo hoàng cuốn tự truyện Chronicles: Volume One.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Vatican said the encounter was brief, with Leo giving Dylan a rosary and Dylan presenting the pope with a copy of his autobiography, \"Chronicles: Volume One.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+              "snippet": "The Vatican said the encounter was brief, with Leo giving Dylan a rosary and Dylan presenting the pope with a copy of his autobiography, \"Chronicles: Volume One.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+              "page_sha256": "f4da617ba007b4111c3be8c1bb45b3bafd0962ab02dcb90c033beb23c6cb1b3a",
+              "snippet_sha256": "1537779cf4caa8c77548ff7872503396dcf1f8693b1908d6fac70c45eab4148d",
+              "verified_at": "2026-11-05T11:35:35.397962+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giáo hoàng Leo XIV từng trích dẫn bài hát Go Away You Bomb của Dylan trong cuốn sách Disarmed and Disarming: Peace Is a Gift.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Leo had quoted from an unpublished protest song Dylan penned in 1963, \"Go Away You Bomb,\" in his 2026 book \"Disarmed and Disarming: Peace Is a Gift.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+              "snippet": "Leo had quoted from an unpublished protest song Dylan penned in 1963, \"Go Away You Bomb,\" in his 2026 book \"Disarmed and Disarming: Peace Is a Gift.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+              "page_sha256": "f4da617ba007b4111c3be8c1bb45b3bafd0962ab02dcb90c033beb23c6cb1b3a",
+              "snippet_sha256": "e423b533be928f0019885d2fbae588f1ea1aad83fe99d31f8f91292fa69cdc7b",
+              "verified_at": "2026-11-05T11:35:35.397962+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ văn hóa và tư tưởng giữa Giáo hoàng Leo XIV và Bob Dylan thông qua việc trích dẫn các tác phẩm âm nhạc trong văn bản của Giáo hoàng. Đồng thời, bài báo đặt sự kiện này vào bối cảnh lịch sử các lần gặp gỡ giữa nghệ sĩ và các đời Giáo hoàng trước đó.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T11:35:35.398481+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1997",
+        "2026",
+        "85"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T11:35:35.399350+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 281,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1369
+        },
+        "independent_domains": [
+          "bbc.com",
+          "npr.org"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "e-nhat-phu-nhan-my-melania-trump-tiep-on-quan-chuc-nga-va-ukraine-tai-nh-cf645309",
+    "status": "READY",
+    "prepared_at": "2026-11-05T11:35:03.068339+00:00",
+    "expires_at": "2026-11-06T11:35:03.068339+00:00",
+    "source_urls": [
+      "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+      "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+      "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+    ],
+    "article": {
+      "id": "e-nhat-phu-nhan-my-melania-trump-tiep-on-quan-chuc-nga-va-ukraine-tai-nh-cf645309",
+      "title": "Đệ nhất phu nhân Mỹ Melania Trump tiếp đón quan chức Nga và Ukraine tại Nhà Trắng",
+      "summary": "Đệ nhất phu nhân Mỹ Melania Trump sẽ chủ trì cuộc gặp với các quan chức từ Nga và Ukraine tại Nhà Trắng vào thứ Năm, trong nỗ lực ngoại giao mới nhằm thúc đẩy tiến trình hòa bình trước thềm các cuộc đàm phán tại Abu Dhabi.",
+      "category": "world",
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+      "published_at": "2026-11-05T07:26:32+00:00",
+      "fetched_at": "2026-11-05T11:36:00.195911+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đệ nhất phu nhân Mỹ Melania Trump dự kiến sẽ tiếp đón các quan chức từ Moscow và Kyiv tại Nhà Trắng vào thứ Năm. Sự kiện này diễn ra trong bối cảnh các nỗ lực ngoại giao đang được đẩy mạnh trước thềm cuộc đàm phán quan trọng tại Abu Dhabi nhằm tìm kiếm giải pháp chấm dứt cuộc xung đột kéo dài sang năm thứ năm giữa Nga và Ukraine.",
+        "Theo thông tin từ phía Nga, cố vấn hợp tác kinh tế quốc tế Kirill Dmitriev và thanh tra nhân quyền Yana Lantratova dự kiến sẽ tham dự cuộc gặp nếu các công tác hậu cần được hoàn tất. Về phía Ukraine, thanh tra nhân quyền Dmytro Lubinets cũng xác nhận sẽ có mặt tại Washington để tham gia sự kiện này. Văn phòng của bà Melania Trump khẳng định đây là một sáng kiến ngoại giao chưa từng có tiền lệ của một Đệ nhất phu nhân Mỹ.",
+        "Cuộc gặp tại Nhà Trắng diễn ra ngay sau khi Tổng thống Ukraine Volodymyr Zelenskyy trao tặng bà Melania Trump huân chương cao quý 'Order of Princess Olga' hạng nhất. Sự ghi nhận này xuất phát từ vai trò trung gian của bà trong việc thiết lập lệnh ngừng bắn cục bộ tại thị trấn Oleshky vào tháng trước. Thỏa thuận này đã cho phép sơ tán dân thường khỏi khu vực bị chiếm đóng, nơi người dân đang đối mặt với tình trạng thiếu hụt thực phẩm và thuốc men trầm trọng. Đây được xem là một trong những bước tiến nhân đạo hiếm hoi trong bối cảnh xung đột vẫn diễn ra gay gắt.",
+        "Dù cuộc gặp mang lại hy vọng về hòa bình, tình hình thực địa vẫn đầy thách thức. Các cuộc tấn công bằng máy bay không người lái và tên lửa của Nga vẫn tiếp diễn, gây ra những lo ngại về sự bền vững của các nỗ lực ngoại giao. Ngoài ra, dư luận cũng đang theo dõi sát sao các động thái của chính quyền Mỹ trong bối cảnh mối quan hệ giữa Tổng thống Donald Trump và Tổng thống Vladimir Putin có những dấu hiệu thay đổi, làm dấy lên lo ngại về khả năng Washington có thể thay đổi lập trường đối với Kyiv. Các bên hiện đang chuẩn bị cho vòng đàm phán chính thức tiếp theo dự kiến diễn ra vào tuần tới tại Abu Dhabi."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Melania Trump tiếp đón quan chức Nga và Ukraine tại Nhà Trắng",
+      "meta_description": "Đệ nhất phu nhân Mỹ Melania Trump tổ chức cuộc gặp với đại diện Nga và Ukraine tại Nhà Trắng sau vai trò trung gian hòa giải thành công tại Oleshky.",
+      "keywords": [
+        "Melania Trump",
+        "Nga",
+        "Ukraine",
+        "Nhà Trắng",
+        "đàm phán hòa bình"
+      ],
+      "slug": "e-nhat-phu-nhan-my-melania-trump-tiep-on-quan-chuc-nga-va-ukraine-tai-nh-cf645309",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 409,
+      "display_source": true,
+      "source_urls": [
+        "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+        "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+        "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+        "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+      ],
+      "source_references": [
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T07:26:32+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T05:23:48+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T01:13:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đệ nhất phu nhân Mỹ Melania Trump tiếp đón quan chức Nga và Ukraine tại Nhà Trắng vào thứ Năm.",
+          "source_urls": [
+            "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house"
+          ],
+          "importance": "core",
+          "evidence_snippet": "US First LadyMelania Trumpwill host officials from Moscow and Kyiv at theWhite Houseon Thursday, ahead of talks in Abu Dhabi aimed at ending the Ukraine war.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "snippet": "US First LadyMelania Trumpwill host officials from Moscow and Kyiv at theWhite Houseon Thursday, ahead of talks in Abu Dhabi aimed at ending the Ukraine war.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "page_sha256": "fa4a1d7640c049943baf56143b2f0554e8264f63af4dce8d754f692c9ea41f92",
+              "snippet_sha256": "b2e8dae4f49afb8a09c711530a6a4015af2848fb1db62c4fefe68bd23408bc08",
+              "verified_at": "2026-11-05T11:36:00.195376+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bà Melania Trump được Tổng thống Zelenskyy trao tặng huân chương Order of Princess Olga hạng nhất vì vai trò trong lệnh ngừng bắn tại Oleshky.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+            "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"I hereby decree that the Order of Princess Olga, First Class, be awarded to Melania Trump, First Lady of the United States of America,\" a decree read on the Ukrainian presidential website.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+              "snippet": "\"I hereby decree that the Order of Princess Olga, First Class, be awarded to Melania Trump, First Lady of the United States of America,\" a decree read on the Ukrainian presidential website.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            },
+            {
+              "source_url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "snippet": "\"I hereby decree that the Order of Princess Olga, First Class, be awarded to Melania Trump, First Lady of the United States of America,\" a decree read on the Ukrainian presidential website.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+              "page_sha256": "2664ba8e8c46f2d0273cdf26a858c5226052049571dbdeb919cc839d230fc650",
+              "snippet_sha256": "7b5da96c71a7f972d6be59b1e33982ea48827b891d86f0892c3e22f5ccfa330b",
+              "verified_at": "2026-11-05T11:36:00.195376+00:00",
+              "match_method": "exact_normalized_substring"
+            },
+            {
+              "source_url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "page_sha256": "fa4a1d7640c049943baf56143b2f0554e8264f63af4dce8d754f692c9ea41f92",
+              "snippet_sha256": "7b5da96c71a7f972d6be59b1e33982ea48827b891d86f0892c3e22f5ccfa330b",
+              "verified_at": "2026-11-05T11:36:00.195376+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cuộc đàm phán tại Abu Dhabi nhằm mục đích chấm dứt cuộc chiến giữa Nga và Ukraine.",
+          "source_urls": [
+            "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The meeting comes after Ukraine's PresidentVolodymyr Zelenskysaid he had \"very detailed, hour-and-a-half-long\" conversations with US envoysSteve WitkoffandJared Kushnerahead of next week's meeting in Abu Dhabi, the first talks between all three sides since February.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "snippet": "The meeting comes after Ukraine's PresidentVolodymyr Zelenskysaid he had \"very detailed, hour-and-a-half-long\" conversations with US envoysSteve WitkoffandJared Kushnerahead of next week's meeting in Abu Dhabi, the first talks between all three sides since February.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "page_sha256": "fa4a1d7640c049943baf56143b2f0554e8264f63af4dce8d754f692c9ea41f92",
+              "snippet_sha256": "94c29e82d239e62e347c7777245b299f1c72284e2629fab1f90867768d2ad35d",
+              "verified_at": "2026-11-05T11:36:00.195376+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ vai trò ngoại giao cá nhân của Đệ nhất phu nhân Mỹ trong bối cảnh xung đột Nga-Ukraine đang diễn biến phức tạp. Đồng thời, bài báo đặt sự kiện này trong mối tương quan với các cuộc đàm phán hòa bình sắp tới tại Abu Dhabi để độc giả thấy được ý nghĩa chiến lược của cuộc gặp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T11:36:00.196010+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-05T11:36:00.197333+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 409,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1930
+        },
+        "independent_domains": [
+          "euronews.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
