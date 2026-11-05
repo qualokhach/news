@@ -204,7 +204,7 @@ class WorkflowSafetyTests(unittest.TestCase):
         self.assertIn("steps.slot.outputs.slot_kind == 'digest'",text)
         self.assertIn('python scripts/create_digest.py',text)
         self.assertEqual(resolve_slot('schedule','45 4 * * *')['slot_kind'],'digest')
-        self.assertEqual(resolve_slot('schedule','45 4 * * *')['max_articles'],'0')
+        self.assertEqual(resolve_slot('schedule','45 4 * * *')['max_articles'],'4')
         self.assertEqual(resolve_slot('schedule','45 22 * * *')['slot_kind'],'regular')
         self.assertEqual(resolve_slot('schedule','45 9 * * *')['slot_kind'],'regular')
 

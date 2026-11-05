@@ -20,7 +20,10 @@ def resolve_slot(event_name: str, event_schedule: str = "", dispatch_slot_kind: 
             raise ValueError(f"Unsupported manual slot kind: {kind!r}")
     else:
         raise ValueError(f"Unsupported event type: {event_name!r}")
-    return {"slot_kind": kind, "max_articles": "0" if kind == "digest" else "4"}
+    # The noon slot also publishes up to 4 NEW articles (researched, written and gated like every
+    # other slot); the digest is then built from the newest AppNho articles, with older ones used
+    # only when fewer than 6 recent articles exist.
+    return {"slot_kind": kind, "max_articles": "4"}
 
 def main():
     result = resolve_slot(
