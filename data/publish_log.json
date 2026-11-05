@@ -86,5 +86,25 @@
         "reason": "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-05 19:47",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-05T12:47:30.309264+00:00",
+    "prepared_candidates": 13,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "thi-truong-tai-chinh-bien-ong-sau-chien-thang-cua-ang-dan-chu-tai-my-314d15c9",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "amazon-thay-the-grubhub-bang-uber-eats-trong-goi-uu-ai-prime-9b51fe1d",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

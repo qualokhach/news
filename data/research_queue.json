@@ -37140,7 +37140,7 @@
   },
   {
     "queue_id": "f524660527ca234d8d72",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:18.256459+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "world",
@@ -38141,11 +38141,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:18.256494+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thi-truong-tai-chinh-bien-ong-sau-chien-thang-cua-ang-dan-chu-tai-my-314d15c9"
   },
   {
     "queue_id": "d687ebe64db18c876224",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:20.314540+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "world",
@@ -38839,7 +38840,8 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:20.314567+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chien-thang-lich-su-cua-ang-dan-chu-tai-texas-james-talarico-gianh-ghe-t-924ae004"
   },
   {
     "queue_id": "d95436a633808f1ed855",
@@ -54860,7 +54862,7 @@
   },
   {
     "queue_id": "9e7a6602610dc66be8bd",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T11:34:32.169046+00:00",
     "expires_at": "2026-11-08T11:32:07.591492+00:00",
     "category_hint": "vietnam",
@@ -55569,11 +55571,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T11:34:32.169069+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-e5bd058d"
   },
   {
     "queue_id": "f143144d1b93693e688a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T11:34:41.026831+00:00",
     "expires_at": "2026-11-08T11:32:07.591492+00:00",
     "category_hint": "vietnam",
@@ -56280,7 +56283,8 @@
       ]
     },
     "research_ready_at": "2026-11-05T11:34:41.026855+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tp-hcm-ra-mat-hai-cong-thong-tin-truc-tuyen-kich-cau-mua-sam-cuoi-nam-d346d2aa"
   },
   {
     "queue_id": "acd5e92f78157d269d82",
@@ -58188,7 +58192,7 @@
   },
   {
     "queue_id": "amazon-thay-the-grubhub-bang-uber-eats-trong-goi-uu-ai-prime-9b51fe1d",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-05T11:35:03.068339+00:00",
     "expires_at": "2026-11-06T11:35:03.068339+00:00",
     "source_urls": [
@@ -58382,11 +58386,40 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-05T12:47:30.309264+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-05T12:47:30.309264+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 291,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1349,
+        "source_access": [
+          {
+            "url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "bob-dylan-gap-go-giao-hoang-leo-xiv-tai-vatican-84b1558d",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-05T11:35:03.068339+00:00",
     "expires_at": "2026-11-06T11:35:03.068339+00:00",
     "source_urls": [
@@ -58402,7 +58435,7 @@
       "source_url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-05T02:09:23+00:00",
       "fetched_at": "2026-11-05T11:35:35.398397+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-05T12:47:30.309264+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -58561,23 +58594,38 @@
         "85"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-05T11:35:35.399350+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-05T12:47:30.309264+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 281,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1369
-        },
-        "independent_domains": [
-          "bbc.com",
-          "npr.org"
-        ],
-        "primary_source_present": false
+          "body_chars": 1369,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "npr.org"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-05 19:47"
+    },
+    "published_at": "2026-11-05T12:47:30.309264+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "e-nhat-phu-nhan-my-melania-trump-tiep-on-quan-chuc-nga-va-ukraine-tai-nh-cf645309",
@@ -58803,6 +58851,868 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tp-hcm-ra-mat-hai-cong-thong-tin-truc-tuyen-kich-cau-mua-sam-cuoi-nam-d346d2aa",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T12:45:40.236166+00:00",
+    "expires_at": "2026-11-06T12:45:40.236166+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+      "https://dantri.com.vn/kinh-doanh/ba-huong-dau-tu-cua-nguoi-ban-hang-thuong-mai-dien-tu-mua-mua-sam-cuoi-nam-20261105140132025.htm"
+    ],
+    "article": {
+      "id": "tp-hcm-ra-mat-hai-cong-thong-tin-truc-tuyen-kich-cau-mua-sam-cuoi-nam-d346d2aa",
+      "title": "TP.HCM ra mắt hai cổng thông tin trực tuyến kích cầu mua sắm cuối năm",
+      "summary": "Từ ngày 5/11, TP.HCM chính thức vận hành hai cổng thông tin trực tuyến nhằm kết nối người tiêu dùng với các chương trình khuyến mãi, sự kiện vui chơi giải trí trong mùa mua sắm cuối năm 2026 và Tết Nguyên đán 2027.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+      "published_at": "2026-11-05T08:01:00+00:00",
+      "fetched_at": "2026-11-05T12:46:18.438588+00:00",
+      "appnho_published_at": "2026-11-05T12:47:30.309264+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nhằm đẩy mạnh hoạt động thương mại và du lịch trong giai đoạn cao điểm cuối năm, TP.HCM đã chính thức đưa vào vận hành hai cổng thông tin trực tuyến tại địa chỉ songdong.hochiminhcity.gov.vn và hello.hochiminhcity.gov.vn từ ngày 5/11. Đây là bước triển khai cụ thể của chương trình kích cầu \"Vibrant HCMC - Sống động từng trải nghiệm\", hướng tới việc kết nối các hoạt động mua sắm, dịch vụ và văn hóa trong một kế hoạch tổng thể.",
+        "Thông qua các nền tảng này, người dân và du khách có thể dễ dàng tra cứu thông tin về các chương trình khuyến mãi, địa điểm vui chơi và các hoạt động hưởng ứng từ doanh nghiệp. Theo Sở Công thương TP.HCM, chương trình hiện ghi nhận sự đồng hành của hơn 100 thương hiệu với khoảng 97 đề xuất khuyến mãi, tổng giá trị các gói kích cầu dự kiến vượt mức 250 tỉ đồng. Mục tiêu của thành phố là thúc đẩy tổng giá trị giao dịch hàng hóa qua các nền tảng thương mại và thanh toán đạt trên 30.000 tỉ đồng.",
+        "Bên cạnh các ưu đãi trực tuyến, chuỗi sự kiện thực tế cũng sẽ được triển khai sôi động từ ngày 11/11. Điểm nhấn là lễ công bố \"Vibrant HCMC - Shopping Season\" tại công viên Lam Sơn, cùng tuần lễ nhà sáng tạo nội dung số tại phố đi bộ Nguyễn Huệ từ ngày 13 đến 15/11. Các hoạt động này không chỉ tập trung vào giảm giá mà còn mở rộng sang các nhóm trải nghiệm thanh toán số và tài chính số, tạo điều kiện thuận lợi cho người tiêu dùng trong mùa mua sắm cuối năm."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "TP.HCM mở cổng trực tuyến cập nhật ưu đãi mua sắm cuối năm",
+      "meta_description": "TP.HCM triển khai hai cổng thông tin trực tuyến songdong.hochiminhcity.gov.vn và hello.hochiminhcity.gov.vn để người dân theo dõi các ưu đãi mua sắm, vui chơi d",
+      "keywords": [
+        "TP.HCM",
+        "Vibrant HCMC",
+        "mua sắm cuối năm",
+        "kích cầu tiêu dùng",
+        "khuyến mãi"
+      ],
+      "slug": "tp-hcm-ra-mat-hai-cong-thong-tin-truc-tuyen-kich-cau-mua-sam-cuoi-nam-d346d2aa",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 287,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+        "https://dantri.com.vn/kinh-doanh/ba-huong-dau-tu-cua-nguoi-ban-hang-thuong-mai-dien-tu-mua-mua-sam-cuoi-nam-20261105140132025.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/ba-huong-dau-tu-cua-nguoi-ban-hang-thuong-mai-dien-tu-mua-mua-sam-cuoi-nam-20261105140132025.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T08:01:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/ba-huong-dau-tu-cua-nguoi-ban-hang-thuong-mai-dien-tu-mua-mua-sam-cuoi-nam-20261105140132025.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T07:17:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "TP.HCM mở 2 cổng trực tuyến songdong.hochiminhcity.gov.vn và hello.hochiminhcity.gov.vn từ ngày 5/11.",
+          "source_urls": [
+            "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ngày 5.11, chương trình tổng kích cầu cuối năm 2026 - Tết Nguyên đán 2027 mang tên Vibrant HCMC chính thức mở 2 cổng trực tuyến tại địa chỉ songdong.hochiminhcity.gov.vn và hello.hochiminhcity.gov.vn.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "snippet": "Ngày 5.11, chương trình tổng kích cầu cuối năm 2026 - Tết Nguyên đán 2027 mang tên Vibrant HCMC chính thức mở 2 cổng trực tuyến tại địa chỉ songdong.hochiminhcity.gov.vn và hello.hochiminhcity.gov.vn.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "page_sha256": "8402bcc8d81a061ca49a73307b4a2d4124de9fd07cd1c69d5b53c5490975f4e5",
+              "snippet_sha256": "d80ba8aa91f1c590bf3bbcef9a037562f46f7b9f4f7127f99f3d296d1b5b0717",
+              "verified_at": "2026-11-05T12:46:18.437825+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chương trình Vibrant HCMC có hơn 100 thương hiệu đồng hành với tổng giá trị gói kích cầu dự kiến trên 250 tỉ đồng.",
+          "source_urls": [
+            "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hơn 100 thương hiệu đồng hành, gói kích cầu dự kiến trên 250 tỉ đồng",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "snippet": "Hơn 100 thương hiệu đồng hành, gói kích cầu dự kiến trên 250 tỉ đồng",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "page_sha256": "8402bcc8d81a061ca49a73307b4a2d4124de9fd07cd1c69d5b53c5490975f4e5",
+              "snippet_sha256": "5fbff4f0406eb176d6586d8511f9160dbe44e338d5e05c88968d2ca9e0ab5c1e",
+              "verified_at": "2026-11-05T12:46:18.437825+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "TP.HCM đặt mục tiêu thúc đẩy tổng giá trị giao dịch hàng hóa qua các nền tảng thương mại và thanh toán đạt trên 30.000 tỉ đồng.",
+          "source_urls": [
+            "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo kế hoạch, Vibrant HCMC đặt mục tiêu thúc đẩy tổng giá trị giao dịch hàng hóa qua các nền tảng thương mại và thanh toán đạt trên 30.000 tỉ đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "snippet": "Theo kế hoạch, Vibrant HCMC đặt mục tiêu thúc đẩy tổng giá trị giao dịch hàng hóa qua các nền tảng thương mại và thanh toán đạt trên 30.000 tỉ đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "page_sha256": "8402bcc8d81a061ca49a73307b4a2d4124de9fd07cd1c69d5b53c5490975f4e5",
+              "snippet_sha256": "75df8aba945600f68d81c886f24cd44c9009d6988eabd7223c3b948126e3f949",
+              "verified_at": "2026-11-05T12:46:18.437825+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa các cổng thông tin trực tuyến mới và mục tiêu kích cầu kinh tế tổng thể của TP.HCM. Đồng thời, bài cung cấp bối cảnh về quy mô chương trình và các cột mốc sự kiện quan trọng giúp độc giả nắm bắt lộ trình mua sắm cuối năm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T12:46:18.438689+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "250",
+        "30.000",
+        "97"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T12:47:30.309264+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 287,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1386,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/tphcm-mo-2-cong-truc-tuyen-cap-nhat-uu-dai-mua-sam-vui-choi-dip-cuoi-nam-185261105141501747.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 19:47"
+    },
+    "published_at": "2026-11-05T12:47:30.309264+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-e5bd058d",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T12:45:40.236166+00:00",
+    "expires_at": "2026-11-06T12:45:40.236166+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+      "https://dantri.com.vn/the-gioi/hanh-trinh-15-nam-luu-giu-cay-thong-co-don-ky-dieu-o-nhat-ban-20261105155057444.htm"
+    ],
+    "article": {
+      "id": "tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-e5bd058d",
+      "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm sắp thăm chính thức Nhật Bản",
+      "summary": "Tổng Bí thư, Chủ tịch nước Tô Lâm cùng phu nhân và đoàn đại biểu cấp cao Việt Nam sẽ thực hiện chuyến thăm chính thức Nhật Bản từ ngày 8 đến 11/11 theo lời mời của nhà nước Nhật Bản.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+      "published_at": "2026-11-05T08:57:00+00:00",
+      "fetched_at": "2026-11-05T12:46:44.853431+00:00",
+      "appnho_published_at": "2026-11-05T12:47:30.309264+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày 5/11, Người phát ngôn Bộ Ngoại giao Phạm Thu Hằng xác nhận Tổng Bí thư, Chủ tịch nước Tô Lâm cùng phu nhân và đoàn đại biểu cấp cao Việt Nam sẽ thăm chính thức Nhật Bản từ ngày 8 đến 11/11. Đây là chuyến thăm Nhật Bản đầu tiên của ông Tô Lâm trên cương vị mới, khẳng định sự coi trọng của Đảng Cộng sản Việt Nam đối với quan hệ hợp tác với quốc gia này.",
+        "Trong khuôn khổ chuyến thăm, dự kiến Tổng Bí thư, Chủ tịch nước Tô Lâm sẽ có các hoạt động ngoại giao quan trọng bao gồm hội kiến với Nhà vua Nhật Bản, hội đàm với Thủ tướng Nhật Bản, hội kiến Chủ tịch Thượng viện và Chủ tịch Hạ viện. Bên cạnh đó, ông sẽ phát biểu chính sách tại Quốc hội Nhật Bản và có chuyến thăm đến tỉnh Kanagawa cùng nhiều hoạt động song phương khác.",
+        "Đại sứ Nhật Bản tại Việt Nam Naoki Ito nhấn mạnh chuyến thăm lần này có ý nghĩa quan trọng, góp phần thúc đẩy quan hệ Đối tác chiến lược toàn diện giữa hai nước lên tầm cao mới. Việc lãnh đạo cấp cao hai nước thực hiện các chuyến thăm và giao lưu trong cùng một năm, tiếp nối chuyến thăm Việt Nam của Thủ tướng Takaichi Sanae vào tháng 5 vừa qua, cho thấy sự gắn kết chặt chẽ trong quan hệ hữu nghị và hợp tác giữa Việt Nam và Nhật Bản trong giai đoạn mới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tổng Bí thư, Chủ tịch nước Tô Lâm thăm chính thức Nhật Bản",
+      "meta_description": "Tổng Bí thư, Chủ tịch nước Tô Lâm sẽ có chuyến thăm chính thức Nhật Bản từ ngày 8-11/11, đánh dấu chuyến thăm đầu tiên trên cương vị mới nhằm thúc đẩy quan hệ đ",
+      "keywords": [
+        "Tô Lâm",
+        "Nhật Bản",
+        "Việt Nam",
+        "đối tác chiến lược toàn diện",
+        "ngoại giao"
+      ],
+      "slug": "tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-e5bd058d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 258,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+        "https://dantri.com.vn/the-gioi/hanh-trinh-15-nam-luu-giu-cay-thong-co-don-ky-dieu-o-nhat-ban-20261105155057444.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-gioi/hanh-trinh-15-nam-luu-giu-cay-thong-co-don-ky-dieu-o-nhat-ban-20261105155057444.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T08:57:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/hanh-trinh-15-nam-luu-giu-cay-thong-co-don-ky-dieu-o-nhat-ban-20261105155057444.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T08:57:05+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng Bí thư, Chủ tịch nước Tô Lâm và phu nhân sẽ thăm chính thức Nhật Bản từ ngày 8 đến 11/11.",
+          "source_urls": [
+            "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ngày 5.11, thông tin tại cuộc họp báo thường kỳ, Người phát ngôn Bộ Ngoại giao Phạm Thu Hằng cho biết, nhận lời mời của nhà nước Nhật Bản,Tổng Bí thư, Chủ tịch nước Tô Lâmvà phu nhân cùng đoàn đại biểu cấp cao Việt Nam sẽ thăm chính thức Nhật Bản từ ngày 8 - 11.11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "snippet": "Ngày 5.11, thông tin tại cuộc họp báo thường kỳ, Người phát ngôn Bộ Ngoại giao Phạm Thu Hằng cho biết, nhận lời mời của nhà nước Nhật Bản,Tổng Bí thư, Chủ tịch nước Tô Lâmvà phu nhân cùng đoàn đại biểu cấp cao Việt Nam sẽ thăm chính thức Nhật Bản từ ngày 8 - 11.11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "page_sha256": "6dfa33bbcade70ad8ddb99364d0a4ca62104ca0e026aa5bfded76d1c86936b67",
+              "snippet_sha256": "52e1321762a0ed3803cb82d94d35536f8b3d2398a09d19b03096f00775bf23bc",
+              "verified_at": "2026-11-05T12:46:44.852916+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là chuyến thăm Nhật Bản đầu tiên của Tổng Bí thư, Chủ tịch nước Tô Lâm trên cương vị mới.",
+          "source_urls": [
+            "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TheoNgười phát ngôn Bộ Ngoại giao Phạm Thu Hằng, đây là chuyến thăm Nhật Bản đầu tiên của Tổng Bí thư, Chủ tịch nước Tô Lâm trên cương vị mới.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "snippet": "TheoNgười phát ngôn Bộ Ngoại giao Phạm Thu Hằng, đây là chuyến thăm Nhật Bản đầu tiên của Tổng Bí thư, Chủ tịch nước Tô Lâm trên cương vị mới.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "page_sha256": "6dfa33bbcade70ad8ddb99364d0a4ca62104ca0e026aa5bfded76d1c86936b67",
+              "snippet_sha256": "f9b48be3a15ea327b0cd648309665cc3496a3974d34123bb21230b0977415d7e",
+              "verified_at": "2026-11-05T12:46:44.852916+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Nhật Bản Takaichi Sanae đã thăm chính thức Việt Nam vào tháng 5/2026.",
+          "source_urls": [
+            "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ngày 2.5, tại Phủ Chủ tịch, Tổng Bí thư, Chủ tịch nước Tô Lâm đã tiếp Chủ tịch Đảng Dân chủ Tự do, Thủ tướng Nhật Bản Takaichi Sanae đang thăm chính thức Việt Nam.Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "snippet": "Ngày 2.5, tại Phủ Chủ tịch, Tổng Bí thư, Chủ tịch nước Tô Lâm đã tiếp Chủ tịch Đảng Dân chủ Tự do, Thủ tướng Nhật Bản Takaichi Sanae đang thăm chính thức Việt Nam.Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "page_sha256": "6dfa33bbcade70ad8ddb99364d0a4ca62104ca0e026aa5bfded76d1c86936b67",
+              "snippet_sha256": "3923efdeaac84a6b4ee0bca92073abacb52f52ed9c2d3d7f8cd209680b4d0c18",
+              "verified_at": "2026-11-05T12:46:44.852916+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ ý nghĩa chính trị của chuyến thăm trong bối cảnh quan hệ Đối tác chiến lược toàn diện giữa hai nước. Đồng thời, thông tin được đặt trong bối cảnh các hoạt động ngoại giao cấp cao diễn ra liên tục trong năm 2026 để làm nổi bật sự gắn kết song phương.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T12:46:44.853525+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T12:47:30.309264+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 258,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1186,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-sap-tham-chinh-thuc-nhat-ban-185261105153431183.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 19:47"
+    },
+    "published_at": "2026-11-05T12:47:30.309264+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "chien-thang-lich-su-cua-ang-dan-chu-tai-texas-james-talarico-gianh-ghe-t-924ae004",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T12:45:40.236166+00:00",
+    "expires_at": "2026-11-06T12:45:40.236166+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/video/20261103-could-texas-turn-blue-democrat-james-talarico-takes-on-republican-establishment"
+    ],
+    "article": {
+      "id": "chien-thang-lich-su-cua-ang-dan-chu-tai-texas-james-talarico-gianh-ghe-t-924ae004",
+      "title": "Chiến thắng lịch sử của Đảng Dân chủ tại Texas: James Talarico giành ghế Thượng viện",
+      "summary": "James Talarico đã tạo nên cú sốc chính trị lớn tại Texas khi trở thành ứng viên Dân chủ đầu tiên giành ghế Thượng viện kể từ năm 1988, đánh bại đối thủ Ken Paxton trong một cuộc đua tốn kém kỷ lục.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T14:17:58+00:00",
+      "fetched_at": "2026-11-05T12:47:01.569049+00:00",
+      "appnho_published_at": "2026-11-05T12:47:30.309264+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong một diễn biến gây chấn động chính trường Mỹ, ứng viên Đảng Dân chủ James Talarico đã chính thức giành chiến thắng trong cuộc đua vào Thượng viện tại bang Texas. Kết quả này đánh dấu lần đầu tiên một đại diện Đảng Dân chủ giành được ghế Thượng viện tại bang này kể từ năm 1988, chấm dứt hàng thập kỷ Texas được coi là thành trì vững chắc của Đảng Cộng hòa.",
+        "Cuộc đối đầu giữa Talarico, một cựu giáo viên, và đối thủ Ken Paxton đã trở thành cuộc đua Thượng viện đắt đỏ nhất trong lịch sử với tổng chi phí vận động vượt quá nửa tỷ USD. Dù đối mặt với hơn 200 triệu USD chi phí vận động từ phe đối lập, bao gồm khoản đóng góp 158 triệu USD từ tỷ phú Elon Musk cho một siêu ủy ban hành động chính trị ủng hộ ông Paxton, Talarico vẫn giành chiến thắng thuyết phục. Ông tập trung chiến dịch vào các vấn đề chi phí sinh hoạt tăng cao dưới sự lãnh đạo của Đảng Cộng hòa.",
+        "Chiến thắng của Talarico không đơn độc trong đêm bầu cử đầy biến động tại Texas. Đảng Dân chủ còn ghi nhận một cột mốc lịch sử khác khi bà Gina Hinojosa giành ghế Thống đốc, đánh bại đương kim Thống đốc Greg Abbott. Các chuyên gia chính trị nhận định đây là một 'cơn địa chấn' phản ánh mong muốn thay đổi rõ rệt từ cử tri. Với việc giành được những vị trí quan trọng này, Đảng Dân chủ đã củng cố đáng kể quyền kiểm soát tại Quốc hội Mỹ, tạo ra một làn sóng thay đổi lan rộng trên khắp cả nước."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "James Talarico giành ghế Thượng viện Texas, chấm dứt hàng thập kỷ thốn",
+      "meta_description": "James Talarico tạo nên lịch sử tại Texas khi giành chiến thắng trong cuộc đua vào Thượng viện, đánh dấu bước ngoặt quan trọng trong kỳ bầu cử giữa nhiệm kỳ.",
+      "keywords": [
+        "James Talarico",
+        "Texas",
+        "Thượng viện Mỹ",
+        "Đảng Dân chủ",
+        "bầu cử Mỹ"
+      ],
+      "slug": "chien-thang-lich-su-cua-ang-dan-chu-tai-texas-james-talarico-gianh-ghe-t-924ae004",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 291,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/video/20261103-could-texas-turn-blue-democrat-james-talarico-takes-on-republican-establishment"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/video/20261103-could-texas-turn-blue-democrat-james-talarico-takes-on-republican-establishment"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T14:17:58+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261103-could-texas-turn-blue-democrat-james-talarico-takes-on-republican-establishment",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T10:51:14+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "James Talarico là ứng viên Đảng Dân chủ đầu tiên giành ghế Thượng viện tại Texas kể từ năm 1988.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Talarico's stunning victory over Republican Ken Paxton marks the first time a Democrat has won a US Senate seat in Texas since 1988 - and helped solidify Democrats taking control of the US Congress in a wave of wins across America.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Talarico's stunning victory over Republican Ken Paxton marks the first time a Democrat has won a US Senate seat in Texas since 1988 - and helped solidify Democrats taking control of the US Congress in a wave of wins across America.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "04fdf99f057924251a500f0c2acbeb5fdfbabacbedeead001fc60919b1063b73",
+              "snippet_sha256": "81f653cb32923471d311110bd41d4fdc061ec17015352537f9297b85f763d6d0",
+              "verified_at": "2026-11-05T12:47:01.568470+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Elon Musk đã đóng góp 158 triệu USD cho một siêu ủy ban hành động chính trị ủng hộ chiến dịch của ông Paxton.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Billionaire Elon Musk poured in $158m (£117m) to a super PAC supporting Paxton's campaign - a point that Talarico used in attacks on Paxton's campaign.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Billionaire Elon Musk poured in $158m (£117m) to a super PAC supporting Paxton's campaign - a point that Talarico used in attacks on Paxton's campaign.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "04fdf99f057924251a500f0c2acbeb5fdfbabacbedeead001fc60919b1063b73",
+              "snippet_sha256": "d161aba9fb522318fceaf034038523146663cb7bc8558af67760f3fc28be518d",
+              "verified_at": "2026-11-05T12:47:01.568470+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bà Gina Hinojosa đã giành chiến thắng trong cuộc đua giành ghế Thống đốc Texas, đánh bại ông Greg Abbott.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In a further, historic victory for Democrats in the state, Gina Hinojosa will become the first Latina governor in Texas, ousting Republican incumbent Greg Abbott - one of the nation's highest profile governors and a long-standing Trump supporter.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "snippet": "In a further, historic victory for Democrats in the state, Gina Hinojosa will become the first Latina governor in Texas, ousting Republican incumbent Greg Abbott - one of the nation's highest profile governors and a long-standing Trump supporter.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "04fdf99f057924251a500f0c2acbeb5fdfbabacbedeead001fc60919b1063b73",
+              "snippet_sha256": "2f5b67c67d77aad4061464be41354bdb73bb2af63aaf33fd4f7fe2c487fd9716",
+              "verified_at": "2026-11-05T12:47:01.568470+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh lịch sử của chiến thắng này bằng cách so sánh với các mốc thời gian từ năm 1988. Đồng thời, bài phân tích tác động của nguồn lực tài chính khổng lồ từ các tỷ phú đối với kết quả bầu cử tại Texas.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T12:47:01.569152+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "158",
+        "1988",
+        "200"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T12:47:30.309264+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 291,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1358,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 19:47"
+    },
+    "published_at": "2026-11-05T12:47:30.309264+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "thi-truong-tai-chinh-bien-ong-sau-chien-thang-cua-ang-dan-chu-tai-my-314d15c9",
+    "status": "HOLD",
+    "prepared_at": "2026-11-05T12:45:40.236166+00:00",
+    "expires_at": "2026-11-06T12:45:40.236166+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+      "https://www.cnbc.com/2026/11/04/us-midterm-elections-in-pictures-democrats-republicans-trump.html",
+      "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections"
+    ],
+    "article": {
+      "id": "thi-truong-tai-chinh-bien-ong-sau-chien-thang-cua-ang-dan-chu-tai-my-314d15c9",
+      "title": "Thị trường tài chính biến động sau chiến thắng của Đảng Dân chủ tại Mỹ",
+      "summary": "Chiến thắng của Đảng Dân chủ trong cuộc bầu cử giữa kỳ tại Mỹ đã tạo ra những phản ứng trái chiều trên thị trường tài chính toàn cầu, với sự sụt giảm của đồng USD và đà tăng mạnh của vàng cùng trái phiếu chính phủ.",
+      "category": "world",
+      "source_name": "The Guardian - Business",
+      "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+      "published_at": "2026-11-04T14:19:40+00:00",
+      "fetched_at": "2026-11-05T12:47:27.977973+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Kết quả cuộc bầu cử giữa kỳ tại Mỹ với chiến thắng áp đảo của Đảng Dân chủ đã tạo ra làn sóng phản ứng mạnh mẽ trên các thị trường tài chính toàn cầu. Ngay sau khi thông tin về việc Đảng Dân chủ giành quyền kiểm soát cả hai viện của Quốc hội được công bố, đồng USD đã ghi nhận mức sụt giảm 0,5% so với rổ các đồng tiền chủ chốt. Ngược lại, vàng - vốn được coi là kênh trú ẩn an toàn - đã tăng giá 2,9%, đạt mức 4.041 USD/ounce.",
+        "Trên thị trường trái phiếu, lợi suất trái phiếu chính phủ Mỹ kỳ hạn 10 năm giảm 5,1 điểm cơ bản xuống còn 4,91%. Các nhà đầu tư kỳ vọng rằng việc Đảng Dân chủ kiểm soát Quốc hội sẽ giúp hạn chế phạm vi thực hiện các thay đổi chính sách đột ngột của Tổng thống Donald Trump, đồng thời kiểm soát tốt hơn chi tiêu và vay mượn của chính phủ. Tâm lý lạc quan này cũng lan tỏa sang thị trường chứng khoán, khi hợp đồng tương lai trên Phố Wall chuyển sang sắc xanh sau những đợt sụt giảm ban đầu.",
+        "Tuy nhiên, các chuyên gia tài chính vẫn giữ thái độ thận trọng trước những diễn biến chính trị sắp tới. Michael Heydt, chuyên gia từ Morningstar, nhận định rằng hệ quả chính của việc Đảng Dân chủ kiểm soát Quốc hội có khả năng dẫn đến tình trạng bế tắc lập pháp thay vì những thay đổi chính sách sâu rộng. Các hoạt động lập pháp quan trọng dự kiến sẽ vẫn bị hạn chế bởi các thủ tục tại Thượng viện và quyền phủ quyết của Tổng thống.",
+        "Giới phân tích cũng lưu ý rằng các lĩnh vực như công nghệ lớn, hạ tầng AI và trung tâm dữ liệu có thể đối mặt với sự giám sát chặt chẽ hơn trong thời gian tới. Dù thị trường có những phản ứng tức thời, các chuyên gia cho rằng hai năm tới nhiều khả năng sẽ được định hình bởi sự đối đầu về thể chế và các cuộc tranh luận về ngân sách, nợ công thay vì những thay đổi lớn về thuế hay chi tiêu công."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Thị trường tài chính phản ứng với kết quả bầu cử giữa kỳ Mỹ",
+      "meta_description": "Đồng USD giảm giá, vàng và trái phiếu Mỹ tăng mạnh khi Đảng Dân chủ giành quyền kiểm soát Quốc hội, làm dấy lên kỳ vọng về thay đổi chính sách.",
+      "keywords": [
+        "bầu cử giữa kỳ Mỹ",
+        "Đảng Dân chủ",
+        "thị trường tài chính",
+        "đồng USD",
+        "giá vàng"
+      ],
+      "slug": "thi-truong-tai-chinh-bien-ong-sau-chien-thang-cua-ang-dan-chu-tai-my-314d15c9",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 382,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+        "https://www.cnbc.com/2026/11/04/us-midterm-elections-in-pictures-democrats-republicans-trump.html",
+        "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/04/us-midterm-elections-in-pictures-democrats-republicans-trump.html",
+        "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T14:19:40+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/04/us-midterm-elections-in-pictures-democrats-republicans-trump.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:02:32+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T12:34:35+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đảng Dân chủ giành quyền kiểm soát cả hai viện của Quốc hội Mỹ trong cuộc bầu cử giữa kỳ năm 2026.",
+          "source_urls": [
+            "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates"
+          ],
+          "importance": "core",
+          "evidence_snippet": "LIVEUpdated8m agoJulia KolleweWed 4 Nov 2026 09.28 ESTFirst published on Wed 4 Nov 2026 02.34 ESTShareKey events",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+              "snippet": "LIVEUpdated8m agoJulia KolleweWed 4 Nov 2026 09.28 ESTFirst published on Wed 4 Nov 2026 02.34 ESTShareKey events",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+              "page_sha256": "7f6ed0f1ad90f0c82c99318ac7ee8a9ce5a4957e18a15ad96c001e16f129f636",
+              "snippet_sha256": "2b06e911e92ec111d73df1612b2b4e0269d5aaac270828857ac82399a0ec3566",
+              "verified_at": "2026-11-05T12:47:27.977268+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đồng USD giảm 0,5%, giá vàng tăng 2,9% lên 4.041 USD/ounce và lợi suất trái phiếu chính phủ Mỹ kỳ hạn 10 năm giảm 5,1 điểm cơ bản xuống 4,91%.",
+          "source_urls": [
+            "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The yield, or interest rate on the benchmark 10-year UK gilt is down 6 basis points at 5.18%, while the corresponding US Treasury yield has fallen 5.1bps to 4.91%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+              "snippet": "The yield, or interest rate on the benchmark 10-year UK gilt is down 6 basis points at 5.18%, while the corresponding US Treasury yield has fallen 5.1bps to 4.91%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+              "page_sha256": "7f6ed0f1ad90f0c82c99318ac7ee8a9ce5a4957e18a15ad96c001e16f129f636",
+              "snippet_sha256": "9e3702746d975730e0a2341ed0eb56bda274f54913614e351b31f678e64df6b8",
+              "verified_at": "2026-11-05T12:47:27.977268+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các chuyên gia cảnh báo về khả năng bế tắc lập pháp do sự đối đầu giữa Quốc hội do Đảng Dân chủ kiểm soát và Tổng thống.",
+          "source_urls": [
+            "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cryptocurrencies and some financial stocks are also likely to face a more difficult regulatory environment.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+              "snippet": "Cryptocurrencies and some financial stocks are also likely to face a more difficult regulatory environment.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+              "page_sha256": "7f6ed0f1ad90f0c82c99318ac7ee8a9ce5a4957e18a15ad96c001e16f129f636",
+              "snippet_sha256": "f31aabf71686b5675147d53293e013ef21fb978bba000822e9294bbca576cdf8",
+              "verified_at": "2026-11-05T12:47:27.977268+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ trực tiếp giữa kết quả bầu cử và phản ứng của các loại tài sản tài chính cụ thể. Đồng thời, bài phân tích giới hạn của tác động chính trị thông qua góc nhìn chuyên gia về nguy cơ bế tắc lập pháp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T12:47:27.978086+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0,5",
+        "10",
+        "2,9",
+        "4,91",
+        "4.041",
+        "5,1"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T12:47:27.979526+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 382,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1743
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-05T12:47:30.309264+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-05T12:47:30.309264+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 382,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1743,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "cnbc.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
