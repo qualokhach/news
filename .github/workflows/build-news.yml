@@ -68,6 +68,8 @@ jobs:
       # Share previews, RSS, sitemap and social metadata must exist BEFORE the audit that
       # requires them. (Auditing first made every successful publication fail, skip the
       # commit and leave the website without the new articles.)
+      - name: Route every article to the closest section (world / Việt Nam / sports / technology)
+        run: python scripts/recategorize_articles.py
       - name: Build RSS, sitemap, share previews and social metadata for the new articles
         run: python scripts/build_metadata.py
       - name: Validate article data after publication
