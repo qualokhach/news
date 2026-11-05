@@ -43,5 +43,14 @@
     "published_count": 0,
     "result": "missed_slot",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-05 09:28",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-05T02:28:58.790754+00:00",
+    "prepared_candidates": 13,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]

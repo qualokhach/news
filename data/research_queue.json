@@ -46351,7 +46351,7 @@
   },
   {
     "queue_id": "0910296dee8829a2b48f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:24.631577+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "sports",
@@ -47021,11 +47021,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:24.631599+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "psg-giu-vung-ngoi-au-champions-league-como-thang-hoa-duoi-su-dan-dat-cua-bc78ba3b"
   },
   {
     "queue_id": "a4ed8c934a1c0e49dc92",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:25.329144+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "world",
@@ -47613,11 +47614,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:25.329164+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "uy-ban-nha-trang-hoan-buoi-ieu-tran-oi-voi-thong-oc-fed-lisa-cook-020bbc1a"
   },
   {
     "queue_id": "d7d20c2accac54ee2f1f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:32.894486+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "vietnam",
@@ -48353,11 +48355,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:32.894506+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "a-nang-du-kien-at-ten-uong-nguyen-ba-thanh-5b7102f0"
   },
   {
     "queue_id": "c66ae7dc78580430c773",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T01:52:38.353124+00:00",
     "expires_at": "2026-11-08T01:50:38.452350+00:00",
     "category_hint": "vietnam",
@@ -49221,7 +49224,8 @@
       ]
     },
     "research_ready_at": "2026-11-05T01:52:38.353145+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "novak-djokovic-mat-ve-du-atp-finals-sau-cu-soc-tai-paris-masters-b2652921"
   },
   {
     "queue_id": "97c216814547c35c4a5c",
@@ -51893,5 +51897,947 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "novak-djokovic-mat-ve-du-atp-finals-sau-cu-soc-tai-paris-masters-b2652921",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T02:27:56.866928+00:00",
+    "expires_at": "2026-11-06T02:27:56.866928+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+      "https://www.bbc.co.uk/sport/tennis/articles/ckn8we5p1ydeo?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/tennis/news/12040/13607999/atp-paris-masters-novak-djokovic-eliminated-from-atp-finals-race-as-world-no-1-alexander-zverev-also-suffers-shock-exit",
+      "https://dantri.com.vn/the-thao/alcaraz-thang-tran-ra-quan-djokovic-va-zverev-som-chia-tay-paris-masters-20261105055311124.htm"
+    ],
+    "article": {
+      "id": "novak-djokovic-mat-ve-du-atp-finals-sau-cu-soc-tai-paris-masters-b2652921",
+      "title": "Novak Djokovic mất vé dự ATP Finals sau cú sốc tại Paris Masters",
+      "summary": "Thất bại ngược dòng trước tay vợt đứng thứ 83 thế giới Rinky Hijikata tại vòng 2 Paris Masters đã chính thức khép lại cơ hội giành vé tham dự giải đấu tổng kết cuối năm ATP Finals của Novak Djokovic.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+      "published_at": "2026-11-05T00:17:00+00:00",
+      "fetched_at": "2026-11-05T02:28:02.804813+00:00",
+      "appnho_published_at": "2026-11-05T02:28:58.790754+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cánh cửa đến thành phố Turin đã chính thức khép lại đối với tay vợt kỳ cựu Novak Djokovic sau khi anh để thua ngược trước đối thủ xếp hạng 83 thế giới Rinky Hijikata tại vòng 2 giải Paris Masters diễn ra vào đêm 4 tháng 11.",
+        "Trước khi bước vào trận đấu này, cơ hội giành vé dự giải đấu tổng kết cuối năm tưởng chừng như đã rộng mở với tay vợt người Serbia. Hai đối thủ cạnh tranh trực tiếp là Alex De Minaur và tài năng trẻ Rafael Jodar đều đồng loạt sẩy chân ở vòng 2, qua đó tạo ra thời cơ thuận lợi để Djokovic tự quyết định số phận nếu tiến sâu vào giải.",
+        "Mặc dù vậy, chủ nhân của 24 danh hiệu Grand Slam đã không thể tận dụng lợi thế. Trận đấu khởi đầu theo đúng kịch bản thuận lợi khi Djokovic kiểm soát hoàn toàn thế trận nhờ đẳng cấp vượt trội, qua đó giành chiến thắng áp đảo 6-2 chỉ sau hơn 30 phút thi đấu ở set đầu tiên.",
+        "Tuy nhiên, cục diện thay đổi hoàn toàn từ set thứ hai khi tay vợt 25 tuổi người Australia lột xác mạnh mẽ. Hijikata cải thiện đáng kể khả năng giao bóng, thi đấu kín kẽ và kéo đối thủ vào những loạt bóng bền tốn nhiều thể lực. Gánh nặng tuổi tác khiến Djokovic dần xuống sức, lộ rõ sự suy giảm uy lực trong các cú giao bóng và mắc nhiều lỗi tự đánh hỏng.",
+        "Tận dụng thời điểm đối thủ sa sút, tay vợt người Australia bẻ game giao bóng thành công để thắng lại 6-3 trong set 2. Đà hưng phấn tiếp tục được duy trì sang set quyết định, nơi Hijikata chơi lạnh lùng và kiên cường để kết thúc set đấu với cùng tỷ số 6-3, tạo nên một trong những bất ngờ lớn nhất tại giải đấu năm nay.",
+        "Phát biểu sau trận đấu, Djokovic thừa nhận bản thân đã giao bóng quá tệ và đối thủ đã thi đấu xuất sắc, tập trung cao độ mà không mắc nhiều sai sót. Thất bại này không chỉ dập tắt mục tiêu nâng kỷ lục vô địch ATP Finals lên con số 8, mà còn đánh dấu lần thứ hai trong vòng 20 mùa giải gần nhất anh không đủ điều kiện góp mặt trong nhóm 8 tay vợt mạnh nhất thế giới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Djokovic lỡ vé dự ATP Finals sau thất bại ở Paris Masters",
+      "meta_description": "Novak Djokovic thua Rinky Hijikata tại vòng 2 Paris Masters 2026, qua đó chính thức mất vé tham dự ATP Finals tại Turin.",
+      "keywords": [
+        "Novak Djokovic",
+        "ATP Finals",
+        "Paris Masters",
+        "Rinky Hijikata",
+        "quần vợt"
+      ],
+      "slug": "novak-djokovic-mat-ve-du-atp-finals-sau-cu-soc-tai-paris-masters-b2652921",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 411,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+        "https://www.bbc.co.uk/sport/tennis/articles/ckn8we5p1ydeo?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/tennis/news/12040/13607999/atp-paris-masters-novak-djokovic-eliminated-from-atp-finals-race-as-world-no-1-alexander-zverev-also-suffers-shock-exit",
+        "https://dantri.com.vn/the-thao/alcaraz-thang-tran-ra-quan-djokovic-va-zverev-som-chia-tay-paris-masters-20261105055311124.htm"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/tennis/articles/ckn8we5p1ydeo?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/tennis/news/12040/13607999/atp-paris-masters-novak-djokovic-eliminated-from-atp-finals-race-as-world-no-1-alexander-zverev-also-suffers-shock-exit",
+        "https://dantri.com.vn/the-thao/alcaraz-thang-tran-ra-quan-djokovic-va-zverev-som-chia-tay-paris-masters-20261105055311124.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T00:17:00+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckn8we5p1ydeo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T18:22:16+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/tennis/news/12040/13607999/atp-paris-masters-novak-djokovic-eliminated-from-atp-finals-race-as-world-no-1-alexander-zverev-also-suffers-shock-exit",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T17:43:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/alcaraz-thang-tran-ra-quan-djokovic-va-zverev-som-chia-tay-paris-masters-20261105055311124.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T22:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Novak Djokovic thua ngược Rinky Hijikata 6-2, 3-6, 3-6 tại vòng 2 Paris Masters vào đêm 4-11.",
+          "source_urls": [
+            "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cánh cửa đến Turin đã chính thức khép lại với tay vợt Novak Djokovic sau khi huyền thoại người Serbia để thua ngược 6-2, 3-6, 3-6 trước tay vợt hạng 83 thế giới - Rinky Hijikata tại vòng 2 Paris Masters vào đêm 4-11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "snippet": "Cánh cửa đến Turin đã chính thức khép lại với tay vợt Novak Djokovic sau khi huyền thoại người Serbia để thua ngược 6-2, 3-6, 3-6 trước tay vợt hạng 83 thế giới - Rinky Hijikata tại vòng 2 Paris Masters vào đêm 4-11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "page_sha256": "af7358cbbbaab18f4a6cc806852d24f29fb5c9d8730354eb8732224f728e601f",
+              "snippet_sha256": "680503acd2cc67411f9623bfdcca0de5ba43bac1034e32f6881b0dde0b446220",
+              "verified_at": "2026-11-05T02:28:02.803706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Rinky Hijikata đứng hạng 83 thế giới và 25 tuổi.",
+          "source_urls": [
+            "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Thua tay vợt hạng 83 thế giới, Djokovic mất vé dự ATP Finals - Tuổi Trẻ OnlineBỏ qua đến nội dung chính",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "snippet": "Thua tay vợt hạng 83 thế giới, Djokovic mất vé dự ATP Finals - Tuổi Trẻ OnlineBỏ qua đến nội dung chính",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "page_sha256": "af7358cbbbaab18f4a6cc806852d24f29fb5c9d8730354eb8732224f728e601f",
+              "snippet_sha256": "7a587e35bf155a33682aed170adde6168a38cc09a90c56f43d617857251b4494",
+              "verified_at": "2026-11-05T02:28:02.803706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thất bại này khiến Djokovic chính thức mất vé dự ATP Finals tại Turin.",
+          "source_urls": [
+            "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trước giờ thi đấu, cơ hội giành vé tham dựATP Finalstại Turin tưởng chừng như mở toang cho tay vợt Novak Djokovic khi hai đối thủ cạnh tranh trực tiếp là Alex De Minaur và tài năng trẻ Rafael Jodar đều đồng loạt sẩy chân ở vòng 2.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "snippet": "Trước giờ thi đấu, cơ hội giành vé tham dựATP Finalstại Turin tưởng chừng như mở toang cho tay vợt Novak Djokovic khi hai đối thủ cạnh tranh trực tiếp là Alex De Minaur và tài năng trẻ Rafael Jodar đều đồng loạt sẩy chân ở vòng 2.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "page_sha256": "af7358cbbbaab18f4a6cc806852d24f29fb5c9d8730354eb8732224f728e601f",
+              "snippet_sha256": "584404915ed1bd63e9a43fe321a5f920620f9c3c7ed005d7cfa2a16a16f6dfd1",
+              "verified_at": "2026-11-05T02:28:02.803706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây mới là lần thứ hai trong vòng 20 mùa giải gần nhất Djokovic không đủ điều kiện tham dự ATP Finals khi đủ sức khỏe thi đấu.",
+          "source_urls": [
+            "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đáng chú ý, đây mới là lần thứ hai trong vòng 20 mùa giải gần nhất Nole không đủ điều kiện tham dự ATP Finals dành cho 8 tay vợt mạnh nhất (sau lần đầu vào năm 2017).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "snippet": "Đáng chú ý, đây mới là lần thứ hai trong vòng 20 mùa giải gần nhất Nole không đủ điều kiện tham dự ATP Finals dành cho 8 tay vợt mạnh nhất (sau lần đầu vào năm 2017).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "page_sha256": "af7358cbbbaab18f4a6cc806852d24f29fb5c9d8730354eb8732224f728e601f",
+              "snippet_sha256": "d84ceda11a6bc679e60b53268712f5426743bd9be2831a782b09bec28a28cc8d",
+              "verified_at": "2026-11-05T02:28:02.803706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến bước ngoặt từ lợi thế ban đầu đến cú lội ngược dòng của Rinky Hijikata tại Paris Masters. Phân tích đồng thời tác động của kết quả này đối với chuỗi thành tích lâu năm và cơ hội tham dự ATP Finals của Novak Djokovic.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:28:02.804970+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "20",
+        "24",
+        "25",
+        "30",
+        "8",
+        "83"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T02:28:58.790754+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 411,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1865,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/thua-tay-vot-hang-83-the-gioi-djokovic-mat-ve-du-atp-finals-100261105065629791.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "dantri.com.vn",
+            "skysports.com",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:28"
+    },
+    "published_at": "2026-11-05T02:28:58.790754+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "a-nang-du-kien-at-ten-uong-nguyen-ba-thanh-5b7102f0",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T02:27:56.866928+00:00",
+    "expires_at": "2026-11-06T02:27:56.866928+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+      "https://dantri.com.vn/thoi-su/thong-nhat-phuong-an-dat-ten-duong-co-bi-thu-da-nang-nguyen-ba-thanh-20261104173513588.htm",
+      "https://thanhnien.vn/nhung-cay-cau-va-nhung-con-duong-mo-loi-tuoi-thanh-xuan-185261104192843398.htm"
+    ],
+    "article": {
+      "id": "a-nang-du-kien-at-ten-uong-nguyen-ba-thanh-5b7102f0",
+      "title": "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh",
+      "summary": "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh cho tuyến đường ĐT605, đoạn từ quốc lộ 1 đến cầu Cẩm Lý",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+      "published_at": "2026-11-05T00:23:00+00:00",
+      "fetched_at": "2026-11-05T02:28:36.974061+00:00",
+      "appnho_published_at": "2026-11-05T02:28:58.790754+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh cho tuyến đường ĐT605, đoạn từ quốc lộ 1 đến cầu Cẩm Lý. Đây là tuyến đường thuộc địa phận xã Hòa Tiến, quê hương của ông Nguyễn Bá Thanh.",
+        "Tuyến đường này có mặt cắt rộng 26m, gồm vỉa hè mỗi bên 5m, có 4 làn xe (mỗi bên 2 làn). Mặt đường đã được thảm nhựa, hai bên có cây xanh.",
+        "Khu vực trung tâm của xã Hòa Tiến (cũ) nhà cửa khang trang, vỉa hè khá đẹp, cảnh quan xanh mát. Tại đoạn nút ĐT605 với quốc lộ 1, tuyến đường cũng kết nối với khu vực dự kiến đặt tên cố Thủ tướng Phan Văn Khải.",
+        "Ông Nguyễn Bá Thanh (1953 - 2015) từng giữ chức vụ Chủ tịch UBND TP Đà Nẵng, Bí thư Thành ủy Đà Nẵng, Trưởng Ban Nội chính Trung ương. Trong suốt thời gian làm lãnh đạo thành phố Đà Nẵng, ông Thanh đã góp phần làm thay đổi diện mạo đô thị thành phố này."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh",
+      "meta_description": "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh cho tuyến đường ĐT605, đoạn từ quốc lộ 1 đến cầu Cẩm Lý",
+      "keywords": [
+        "Đà Nẵng",
+        "Nguyễn Bá Thanh",
+        "đặt tên đường",
+        "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh",
+        "Việt Nam"
+      ],
+      "slug": "a-nang-du-kien-at-ten-uong-nguyen-ba-thanh-5b7102f0",
+      "images": [],
+      "content_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Learning_about_Nguy%E1%BB%85n_Dynasty_military_in_the_1858_-_Minh_Trong_Nguyen_%28March_2016%29.pdf/page1-960px-Learning_about_Nguy%E1%BB%85n_Dynasty_military_in_the_1858_-_Minh_Trong_Nguyen_%28March_2016%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "content_image_alt": "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh",
+      "content_image_credit": "Minh Trong Nguyen . (CC BY 4.0)",
+      "content_image_credit_url": "https://commons.wikimedia.org/wiki/File:Learning_about_Nguy%E1%BB%85n_Dynasty_military_in_the_1858_-_Minh_Trong_Nguyen_(March_2016).pdf",
+      "word_count": 175,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+        "https://dantri.com.vn/thoi-su/thong-nhat-phuong-an-dat-ten-duong-co-bi-thu-da-nang-nguyen-ba-thanh-20261104173513588.htm",
+        "https://thanhnien.vn/nhung-cay-cau-va-nhung-con-duong-mo-loi-tuoi-thanh-xuan-185261104192843398.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/thong-nhat-phuong-an-dat-ten-duong-co-bi-thu-da-nang-nguyen-ba-thanh-20261104173513588.htm",
+        "https://thanhnien.vn/nhung-cay-cau-va-nhung-con-duong-mo-loi-tuoi-thanh-xuan-185261104192843398.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T00:23:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/thong-nhat-phuong-an-dat-ten-duong-co-bi-thu-da-nang-nguyen-ba-thanh-20261104173513588.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T11:15:42+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/nhung-cay-cau-va-nhung-con-duong-mo-loi-tuoi-thanh-xuan-185261104192843398.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T01:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh cho tuyến đường ĐT605, đoạn từ quốc lộ 1 đến cầu Cẩm Lý",
+          "source_urls": [
+            "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tại cuộc họp chiều 4-11,UBND TP Đà Nẵngđã \"chốt\" phương án chọn tuyến đường ĐT605, đoạn từ quốc lộ 1 đến cầu Cẩm Lý (đoạn giáp ranh giữa phường Điện Bàn Bắc và phường Điện Bàn Tây) để đề xuất đặt tên ông Nguyễn Bá Thanh.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "snippet": "Tại cuộc họp chiều 4-11,UBND TP Đà Nẵngđã \"chốt\" phương án chọn tuyến đường ĐT605, đoạn từ quốc lộ 1 đến cầu Cẩm Lý (đoạn giáp ranh giữa phường Điện Bàn Bắc và phường Điện Bàn Tây) để đề xuất đặt tên ông Nguyễn Bá Thanh.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "page_sha256": "ca449abe52ae942fd1c6609c190a7c743ae1300719e62b9c06361e58208ae519",
+              "snippet_sha256": "4f6228a4b69b4e784c0588742bd9ac6e5a76d390690046e6e4e04a07eac07b38",
+              "verified_at": "2026-11-05T02:28:36.973310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tuyến đường này có mặt cắt rộng 26m, gồm vỉa hè mỗi bên 5m, có 4 làn xe (mỗi bên 2 làn)",
+          "source_urls": [
+            "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo ghi nhận, tuyến ĐT605 có mặt cắt rộng 26m, gồm vỉa hè mỗi bên 5m, có 4 làn xe (mỗi bên 2 làn).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "snippet": "Theo ghi nhận, tuyến ĐT605 có mặt cắt rộng 26m, gồm vỉa hè mỗi bên 5m, có 4 làn xe (mỗi bên 2 làn).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "page_sha256": "ca449abe52ae942fd1c6609c190a7c743ae1300719e62b9c06361e58208ae519",
+              "snippet_sha256": "d3f8365262aca5a13a7aa31e7510e260c1fe6e7deca7bb857ef1fd20bf24a071",
+              "verified_at": "2026-11-05T02:28:36.973310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Nguyễn Bá Thanh (1953 - 2015) từng giữ chức vụ Chủ tịch UBND TP Đà Nẵng, Bí thư Thành ủy Đà Nẵng, Trưởng Ban Nội chính Trung ương",
+          "source_urls": [
+            "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ông Nguyễn Bá Thanh (1953 - 2015) từng giữ chức vụ Chủ tịch UBND TP Đà Nẵng, Bí thư Thành ủy Đà Nẵng, Trưởng Ban Nội chính Trung ương.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "snippet": "Ông Nguyễn Bá Thanh (1953 - 2015) từng giữ chức vụ Chủ tịch UBND TP Đà Nẵng, Bí thư Thành ủy Đà Nẵng, Trưởng Ban Nội chính Trung ương.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "page_sha256": "ca449abe52ae942fd1c6609c190a7c743ae1300719e62b9c06361e58208ae519",
+              "snippet_sha256": "79fd01b7a44b4d015e5bbc948e11a821ed570d19e23b51f7ccdb250314cccd05",
+              "verified_at": "2026-11-05T02:28:36.973310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về việc Đà Nẵng dự kiến đặt tên đường Nguyễn Bá Thanh. Thông tin này giúp người đọc hiểu rõ hơn về quyết định của thành phố và ý nghĩa của việc đặt tên đường này. Ngoài ra, bài viết cũng cung cấp thông tin về tuyến đường ĐT605 và khu vực xung quanh, giúp người đọc hình dung rõ hơn về vị trí và đặc điểm của đường này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:28:36.974148+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "1953",
+        "2",
+        "2015",
+        "26",
+        "4",
+        "5",
+        "605"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T02:28:58.790754+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 175,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 785,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/ngam-con-duong-du-kien-mang-ten-nguyen-ba-thanh-o-da-nang-100261104120752671.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "publication_slot": "2026-11-05 09:28"
+    },
+    "published_at": "2026-11-05T02:28:58.790754+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "uy-ban-nha-trang-hoan-buoi-ieu-tran-oi-voi-thong-oc-fed-lisa-cook-020bbc1a",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T02:27:56.866928+00:00",
+    "expires_at": "2026-11-06T02:27:56.866928+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+      "https://www.sportingnews.com/us/nba/news/knicks-players-white-house-visit-james-dolan/95b2bcde1a588a984cb5d167"
+    ],
+    "article": {
+      "id": "uy-ban-nha-trang-hoan-buoi-ieu-tran-oi-voi-thong-oc-fed-lisa-cook-020bbc1a",
+      "title": "Uỷ ban Nhà Trắng hoãn buổi điều trần đối với Thống đốc Fed Lisa Cook",
+      "summary": "Uỷ ban điều tra của Nhà Trắng đã quyết định lùi lịch buổi điều trần liên quan đến Thống đốc Cục Dự trữ Liên bang Mỹ Lisa Cook sang ngày 14/12 theo yêu cầu từ phía bà.",
+      "category": "world",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+      "published_at": "2026-11-05T01:11:26+00:00",
+      "fetched_at": "2026-11-05T02:28:44.477676+00:00",
+      "appnho_published_at": "2026-11-05T02:28:58.790754+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Một uỷ ban đặc biệt do Tổng thống Donald Trump thành lập đã chính thức lùi lịch buổi điều trần đối với Thống đốc Cục Dự trữ Liên bang Mỹ (Fed) Lisa Cook sang ngày 14/12. Theo thông tin từ một quan chức Nhà Trắng, quyết định hoãn sự kiện này được đưa ra theo đúng yêu cầu từ phía luật sư và cá nhân Thống đốc Cook.",
+        "Trước đó, uỷ ban điều tra được thành lập vào đầu tháng 10 nhằm xem xét các cáo buộc cho rằng bà Cook đã đưa ra những tuyên bố không chính xác liên quan đến một hoặc nhiều văn bản thế chấp. Phía luật sư đại diện của bà Cook từng nêu rõ buổi điều trần không thể diễn ra trước tháng 12 do bà phải thực hiện các nhiệm vụ chính thức tại các cuộc họp về chính sách tiền tệ và tài chính ở châu Âu, đồng thời yêu cầu làm rõ các vấn đề về tính công bằng của uỷ ban.",
+        "Động thái này diễn ra trong bối cảnh tranh chấp pháp lý giữa Tổng thống Trump và Thống đốc Cook vẫn chưa ngã ngũ sau quyết định hồi tháng 6 của Tòa án Tối cao. Tòa án khi đó đã tạm thời ngăn chặn việc sa thải bà Cook vì lý do thủ tục tố tụng chưa đảm bảo, trong khi vụ kiện liên quan đến quyết định cách chức vẫn đang tiếp tục được tiến hành tại tòa án."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Uỷ ban Nhà Trắng hoãn buổi điều trần của Thống đốc Fed Lisa Cook sang ",
+      "meta_description": "Buổi điều trần của uỷ ban đặc biệt do Tổng thống Donald Trump thành lập đối với Thống đốc Fed Lisa Cook đã được dời lịch sang ngày 14/12.",
+      "keywords": [
+        "Lisa Cook",
+        "Cục Dự trữ Liên bang Mỹ",
+        "Nhà Trắng",
+        "điều trần"
+      ],
+      "slug": "uy-ban-nha-trang-hoan-buoi-ieu-tran-oi-voi-thong-oc-fed-lisa-cook-020bbc1a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 252,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+        "https://www.sportingnews.com/us/nba/news/knicks-players-white-house-visit-james-dolan/95b2bcde1a588a984cb5d167"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/nba/news/knicks-players-white-house-visit-james-dolan/95b2bcde1a588a984cb5d167"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T01:11:26+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nba/news/knicks-players-white-house-visit-james-dolan/95b2bcde1a588a984cb5d167",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-28T20:49:04+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Uỷ ban đặc biệt do Tổng thống Donald Trump thành lập đã dời lịch điều trần đối với Thống đốc Fed Lisa Cook sang ngày 14/12 theo yêu cầu từ phía bà.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "14 a hearing withFederal ReserveGovernorLisa Cookfor an investigation of whether allegations of false statements in mortgage applications warrant her firing by PresidentDonald Trump, a White House official said Wednesday evening.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "snippet": "14 a hearing withFederal ReserveGovernorLisa Cookfor an investigation of whether allegations of false statements in mortgage applications warrant her firing by PresidentDonald Trump, a White House official said Wednesday evening.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "page_sha256": "92d8c4c39d47f70b81ed50e432543ae36737b843fee3129ef411fec8ba31ce12",
+              "snippet_sha256": "3eb4164f5f14bb9399c77f5cb2dc8f12814ae653b567b4bd439e93000930c4ef",
+              "verified_at": "2026-11-05T02:28:44.477141+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Trump thành lập uỷ ban điều tra vào đầu tháng 10 để xem xét các cáo buộc liên quan đến văn bản thế chấp của bà Cook.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The committee of inquiry Trump set up may be designed to show the Supreme Court that Cook has now received due process.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "snippet": "The committee of inquiry Trump set up may be designed to show the Supreme Court that Cook has now received due process.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "page_sha256": "92d8c4c39d47f70b81ed50e432543ae36737b843fee3129ef411fec8ba31ce12",
+              "snippet_sha256": "6adc0557d7fb8a50e3e20213c026f615109c2ece42956dee77bf17a208b691b0",
+              "verified_at": "2026-11-05T02:28:44.477141+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật sư của bà Cook cho biết thân chủ phải thực hiện nhiệm vụ chính thức tại các cuộc họp chính sách tài chính ở châu Âu nên không thể tham gia sớm hơn tháng 12.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The ruling kept in place a lower court's order preventing Cook from being terminated while the suit challenging her dismissal proceeds.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "snippet": "The ruling kept in place a lower court's order preventing Cook from being terminated while the suit challenging her dismissal proceeds.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "page_sha256": "92d8c4c39d47f70b81ed50e432543ae36737b843fee3129ef411fec8ba31ce12",
+              "snippet_sha256": "58d156ed5d8fb982a693c0a8eddfe82d60528b38a5e1be1c5706374601913755",
+              "verified_at": "2026-11-05T02:28:44.477141+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ thời hạn mới của buổi điều trần sau khi bị dời lịch và nguyên nhân xuất phát từ yêu cầu của phía Thống đốc Fed. Đồng thời, văn bản kết nối diễn biến này với bối cảnh tranh chấp pháp lý trước đó tại Tòa án Tối cao.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:28:44.477772+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T02:28:58.790754+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 252,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1122,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:28"
+    },
+    "published_at": "2026-11-05T02:28:58.790754+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "psg-giu-vung-ngoi-au-champions-league-como-thang-hoa-duoi-su-dan-dat-cua-bc78ba3b",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T02:27:56.866928+00:00",
+    "expires_at": "2026-11-06T02:27:56.866928+00:00",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+      "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+      "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "psg-giu-vung-ngoi-au-champions-league-como-thang-hoa-duoi-su-dan-dat-cua-bc78ba3b",
+      "title": "PSG giữ vững ngôi đầu Champions League, Como thăng hoa dưới sự dẫn dắt của Cesc Fàbregas",
+      "summary": "Cục diện Champions League sau bốn lượt trận ghi nhận Paris Saint-Germain tiếp tục dẫn đầu bảng xếp hạng sức mạnh, trong khi CLB Como gây tiếng vang lớn với chiến thắng đậm 9-1 trước Lens.",
+      "category": "sports",
+      "source_name": "CBS Sports - Soccer",
+      "source_url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+      "published_at": "2026-11-05T01:11:48+00:00",
+      "fetched_at": "2026-11-05T02:28:56.776704+00:00",
+      "appnho_published_at": "2026-11-05T02:28:58.790754+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trải qua bốn lượt trận của giai đoạn vòng bảng Champions League, Paris Saint-Germain vẫn là cái tên thống trị đỉnh bảng xếp hạng sức mạnh. Dù gặp một số tổn thất lực lượng do chấn thương của các trụ cột như Ousmane Dembele và Khvicha Kvaratskhelia, đoàn quân dưới sự dẫn dắt của HLV Luis Enrique vẫn duy trì phong độ ổn định và giành những kết quả thuyết phục trên sân khách.",
+        "Bên cạnh sức mạnh của PSG, tâm điểm của tuần đấu thuộc về màn trình diễn bùng nổ của Como. Dưới sự dẫn dắt của huấn luyện viên Cesc Fàbregas, đội bóng này đã tạo nên cột mốc lịch sử khi đè bẹp Lens với tỷ số đậm 9-1 ngay trên sân khách. Đây là lần thứ hai trong lịch sử giải đấu một đội bóng ghi được chín bàn thắng trong một trận đấu, qua đó giúp Como leo vươn lên mạnh mẽ trong nhóm các đội bóng đáng chú ý.",
+        "Cùng với PSG, Real Madrid là đại diện thứ hai duy trì được thành tích toàn thắng sau bốn trận đấu tại Champions League. Los Blancos đã trải qua một trận đấu vất vả trước AEK Athens khi phải nhờ đến bàn thắng muộn ở phút 90 của Federico Valverde để ấn định chiến thắng 3-2, qua đó tiếp tục khẳng định bản lĩnh của đội bóng giàu thành tích tại đấu trường châu Âu.",
+        "Ở chiều ngược lại, tuần đấu này cũng chứng kiến nhiều biến động tại khu vực giữa bảng xếp hạng khi các ông lớn như Liverpool, Real Betis hay Roma đồng thời sảy chân và đánh rơi điểm số quan trọng. Sự cạnh tranh khốc liệt và bất ngờ ở giai đoạn vòng bảng tiếp tục mang lại bức tranh đầy kịch tính cho mùa giải năm nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Champions League Power Rankings: PSG đứng đầu, Como bứt phá mạnh mẽ",
+      "meta_description": "Cập nhật bảng xếp hạng sức mạnh Champions League qua bốn lượt trận, PSG giữ vững ngôi đầu trong khi Como tạo dấu ấn lớn cùng HLV Cesc Fàbregas.",
+      "keywords": [
+        "Champions League",
+        "PSG",
+        "Como",
+        "Cesc Fabregas",
+        "Real Madrid"
+      ],
+      "slug": "psg-giu-vung-ngoi-au-champions-league-como-thang-hoa-duoi-su-dan-dat-cua-bc78ba3b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 309,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+        "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+        "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+        "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T01:11:48+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T23:08:05+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-29T22:40:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "PSG dẫn đầu bảng xếp hạng sức mạnh Champions League sau bốn lượt trận dù thiếu vắng Ousmane Dembele và Khvicha Kvaratskhelia do chấn thương.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united"
+          ],
+          "importance": "core",
+          "evidence_snippet": "With a four-goal lead before the 20-minute mark, it's impossible to view anyone other than PSG as the favorites to win this competition, even as Ousmane Dembele and Khvicha Kvaratskhelia miss time due to injuries.--4-02Real MadridThey can't keep getting away with this.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+              "snippet": "With a four-goal lead before the 20-minute mark, it's impossible to view anyone other than PSG as the favorites to win this competition, even as Ousmane Dembele and Khvicha Kvaratskhelia miss time due to injuries.--4-02Real MadridThey can't keep getting away with this.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+              "page_sha256": "1348e98a8d1954003e7bf778287eba1992b3ae23997a21439b5e2412318cb2d2",
+              "snippet_sha256": "8efea7eb3c971095a506435398aa8a1142fa4cb1fb1570b557e9c089ef846eac",
+              "verified_at": "2026-11-05T02:28:56.775999+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Como dưới sự dẫn dắt của Cesc Fàbregas đã giành chiến thắng 9-1 trước Lens trên sân khách tại Champions League.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Champions League: Como clobber Lens 9-1 after Real Madrid roar back to deny AEK Athens",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+              "snippet": "Champions League: Como clobber Lens 9-1 after Real Madrid roar back to deny AEK Athens",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+              "page_sha256": "88ffd7a77276137839220de9cbe6d00aabd44f0e2192c39a7feba21098d9855e",
+              "snippet_sha256": "189c01624207e225ed3fdb9b1f1aaf743544ad71e23d5c4712ff592d7d7a76e4",
+              "verified_at": "2026-11-05T02:28:56.775999+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Real Madrid đánh bại AEK Athens 3-2 nhờ bàn thắng ở phút 90 của Federico Valverde để duy trì thành tích toàn thắng sau bốn trận.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "For 90 minutes, it seemed likeAEK Athenswere going to get a point off Real Madrid, but that also wasn't able to hold up, while City also were pushed to the brink byRB Leipzig.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+              "snippet": "For 90 minutes, it seemed likeAEK Athenswere going to get a point off Real Madrid, but that also wasn't able to hold up, while City also were pushed to the brink byRB Leipzig.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+              "page_sha256": "1348e98a8d1954003e7bf778287eba1992b3ae23997a21439b5e2412318cb2d2",
+              "snippet_sha256": "d98c896e93f6993879d7098875f8497cdfb77a3f796a703d0ca25cb6c4c92492",
+              "verified_at": "2026-11-05T02:28:56.775999+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp và phân tích cục diện Champions League sau bốn lượt trận, làm rõ sự chênh lệch nhóm đầu bảng và chiến tích lịch sử của Como dưới thời Cesc Fàbregas cùng hành trình của Real Madrid. Qua đó, bài giải thích lý do PSG giữ vững ngôi đầu bất chấp khủng hoảng nhân sự.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:28:56.776809+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "90"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T02:28:58.790754+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 309,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1462,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/champions-league-power-rankings-psg-como-real-madrid-manchester-united",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cbssports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:28"
+    },
+    "published_at": "2026-11-05T02:28:58.790754+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
