@@ -172,3 +172,41 @@ class LedgerCompletionTests(unittest.TestCase):
                          [{'claim':'x','evidence_snippet':'announced on 31 October 2026'}]),[])
         self.assertEqual(cq.validate_body_fact_coverage(['Chi phí 1.200 triệu.'],
                          [{'claim':'x','evidence_snippet':'cost 1,200 million'}]),[])
+
+
+class CategoryRoutingTests(unittest.TestCase):
+    def route(self, category, title, summary='', body=(), urls=(), hint=''):
+        from category_resolver import resolve_category
+        return resolve_category(category,title,summary,list(body),urls,hint)
+
+    def test_vietnamese_local_story_filed_as_world_moves_to_vietnam(self):
+        self.assertEqual(self.route('world','Tỉnh Ninh Bình cho giữ lại ruộng dừa đến khi thu hoạch'),'vietnam')
+        self.assertEqual(self.route('world','Giá xăng điều chỉnh','',['Ngân hàng Nhà nước công bố giá tại Việt Nam']),'vietnam')
+
+    def test_vietnamese_outlet_story_without_place_names_goes_to_vietnam(self):
+        self.assertEqual(self.route('world','Công an triệt phá đường dây lô đề','Nhiều đối tượng bị bắt',[],
+                                    ['https://vnexpress.net/a'],'vietnam'),'vietnam')
+
+    def test_foreign_story_from_vietnamese_outlet_stays_world(self):
+        self.assertEqual(self.route('world','Ukraine tấn công nhà ga Dnipro','',[],['https://vnexpress.net/a'],'vietnam'),'world')
+
+    def test_pacific_and_peace_are_not_vietnamese_places(self):
+        self.assertEqual(self.route('world','Hòa bình giữa Nga và Ukraine','',['Khu vực Châu Á - Thái Bình Dương']),'world')
+
+    def test_passing_mention_in_body_does_not_move_a_world_story(self):
+        self.assertEqual(self.route('world','Tổng thống Hàn Quốc nói về CPTPP','',['Các nước gồm Việt Nam, Nhật Bản.']),'world')
+
+    def test_sports_and_technology_are_kept(self):
+        self.assertEqual(self.route('sports','Đội tuyển Việt Nam thắng ở Hà Nội'),'sports')
+        self.assertEqual(self.route('technology','Viettel ra mắt chip mới'),'technology')
+
+    def test_foreign_story_mislabelled_vietnam_returns_to_world(self):
+        self.assertEqual(self.route('vietnam','Tổng thống Mỹ ký sắc lệnh mới','',['Ông Trump nói'],['https://www.bbc.com/x'],'world'),'world')
+
+    def test_recategorize_changes_only_the_category(self):
+        import recategorize_articles as rc
+        a=[{'id':'x','title':'Tỉnh Ninh Bình thu hồi đất','summary':'','body':['a'],'category':'world','source_urls':[]}]
+        before={k:v for k,v in a[0].items() if k!='category'}
+        changes=rc.recategorize(a)
+        self.assertEqual(a[0]['category'],'vietnam'); self.assertEqual(len(changes),1)
+        self.assertEqual({k:v for k,v in a[0].items() if k!='category'},before)

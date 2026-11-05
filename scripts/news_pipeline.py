@@ -12,6 +12,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlencode, urlsplit
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
+from category_resolver import resolve_category
 from content_quality import (complete_fact_ledger, compute_verified_numbers, ready_candidate_errors, classify_risk, validate_article_quality, validate_fact_ledger, verify_fact_ledger_against_pages, repair_fact_ledger_anchors, source_independence, domain_key, is_primary_source_type, validate_r3_content, evidence_matches_title, ttl_for_data_type, is_commercial_license, minimum_words_for_type, minimum_paragraphs_for_type, target_word_range_for_type)
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -1080,35 +1081,9 @@ Nguồn và bằng chứng đã thu thập:
     },ensure_ascii=False)
 
 
-def normalize_vietnam_category(title, summary='', body=None, category=''):
-    """Correct a model's world label only when the article has strong Vietnam-specific signals."""
-    if category != 'world':
-        return category
-    text=' '.join([str(title or ''),str(summary or ''),
-                   ' '.join(body or []) if isinstance(body,list) else str(body or '')]).casefold()
-    text=re.sub(r'[^\wÀ-ỹ]+',' ',text,flags=re.UNICODE)
-    text=re.sub(r'\s+',' ',text).strip()
-    # Explicit Vietnamese locations and state institutions are high-confidence local signals.
-    places=(
-        'cần thơ','hà nội','tp hcm','thành phố hồ chí minh','đà nẵng','hải phòng',
-        'bình dương','đồng nai','bà rịa','vũng tàu','thừa thiên huế','huế',
-        'quảng ninh','quảng nam','quảng ngãi','nghệ an','thanh hóa','thanh hoá',
-        'cà mau','kiên giang','phú quốc','đồng tháp','an giang','bắc ninh',
-        'thái nguyên','lâm đồng','gia lai','đắk lắk','đắk nông','long an',
-        'tiền giang','bến tre','trà vinh','sóc trăng','bạc liêu','tây ninh',
-        'bình phước','bình thuận','ninh thuận','khánh hòa','khánh hoà',
-        'quảng bình','quảng trị','hà tĩnh','nam định','ninh bình','hưng yên',
-        'vĩnh phúc','phú thọ','tuyên quang','lào cai','yên bái','sơn la',
-        'điện biên','lai châu','cao bằng','lạng sơn','bắc giang','hà nam'
-    )
-    institutions=(
-        'công an tp','công an tỉnh','ủy ban nhân dân','ubnd','bộ công an',
-        'bộ y tế','bộ giáo dục','chính phủ việt nam','quốc hội việt nam',
-        'ngân hàng nhà nước','việt nam đồng','đồng việt nam','người dân việt nam'
-    )
-    if any(term in text for term in places) or any(term in text for term in institutions):
-        return 'vietnam'
-    return category
+def normalize_vietnam_category(title, summary='', body=None, category='', source_urls=(), hint=''):
+    """Route world/vietnam drafts to the closest section (see category_resolver.py)."""
+    return resolve_category(category,title,summary,body,source_urls=source_urls,hint=hint)
 
 def make_article(obj, group, evidence_pages=None):
     if not obj.get('publish'): return None
@@ -1119,7 +1094,10 @@ def make_article(obj, group, evidence_pages=None):
     content_type=str(obj.get('content_type') or '')
     if content_type not in {'quick_update','short_explainer','news_analysis','long_analysis'}:
         raise ValueError('AI output missing or invalid content_type; article type must be explicit')
-    category=normalize_vietnam_category(title, summary, body, category)
+    group_urls=[x.get('source_url') for x in group if x.get('source_url')]
+    hints=[x.get('category') for x in group if x.get('category')]
+    hint=max(set(hints),key=hints.count) if hints else ''
+    category=normalize_vietnam_category(title, summary, body, category, group_urls, hint)
     required_paragraphs=minimum_paragraphs_for_type(content_type)
     if category not in CATEGORY_LABELS or not title or len(body)<required_paragraphs:
         raise ValueError(f'Article missing title/category/body structure; {content_type} requires at least {required_paragraphs} paragraphs')
