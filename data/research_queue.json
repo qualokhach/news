@@ -35208,7 +35208,7 @@
   },
   {
     "queue_id": "d95436a633808f1ed855",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:31.444153+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "technology",
@@ -36203,11 +36203,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:31.444173+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "dao-dien-alex-gibney-dat-cau-hoi-ve-trach-nhiem-giai-trinh-cua-elon-musk-ab7a04ce"
   },
   {
     "queue_id": "9e4989ce2baecc59130f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T14:29:33.430376+00:00",
     "expires_at": "2026-11-07T14:27:51.637319+00:00",
     "category_hint": "sports",
@@ -36848,7 +36849,8 @@
       ]
     },
     "research_ready_at": "2026-11-04T14:29:33.430401+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bang-xep-hang-suc-manh-nba-au-mua-giai-nhung-bien-ong-va-iem-nhan-sau-ha-c9db3a82"
   },
   {
     "queue_id": "b9228af4c25ff5ef6eaf",
@@ -38753,7 +38755,7 @@
   },
   {
     "queue_id": "3eaacd373b0386c561cf",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T16:39:17.871145+00:00",
     "expires_at": "2026-11-07T16:37:23.753301+00:00",
     "category_hint": "vietnam",
@@ -40186,11 +40188,12 @@
       ]
     },
     "research_ready_at": "2026-11-04T16:39:17.871167+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "xac-inh-cac-cap-au-ban-ket-giai-bong-chuyen-nam-vo-ich-quoc-gia-2026-5f6f412e"
   },
   {
     "queue_id": "c4f65f029f06bbed3899",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-04T16:39:22.389368+00:00",
     "expires_at": "2026-11-07T16:37:23.753301+00:00",
     "category_hint": "technology",
@@ -40966,7 +40969,8 @@
       ]
     },
     "research_ready_at": "2026-11-04T16:39:22.389388+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chinh-phu-anh-thua-nhan-con-so-400-ty-bang-ve-loi-ich-cua-ai-chu-yeu-en--07b3e142"
   },
   {
     "queue_id": "919d6c0f1dc678131be7",
@@ -51221,7 +51225,7 @@
   },
   {
     "queue_id": "amd-ghi-nhan-quy-ky-luc-nho-mang-trung-tam-du-lieu-tang-truong-manh-77c9cc11",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-05T01:53:01.913002+00:00",
     "expires_at": "2026-11-06T01:53:01.913002+00:00",
     "source_urls": [
@@ -51237,7 +51241,7 @@
       "source_url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
       "published_at": "2026-11-04T21:29:46+00:00",
       "fetched_at": "2026-11-05T01:53:06.838397+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-05T02:58:58.690154+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -51433,27 +51437,37 @@
         "97"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-05T01:53:06.839287+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-05T02:58:58.690154+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 269,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1197
-        },
-        "independent_domains": [
-          "arstechnica.com",
-          "cnbc.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1197,
+          "source_access": [
+            {
+              "url": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "cnbc.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:58"
+    },
+    "published_at": "2026-11-05T02:58:58.690154+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "gioi-cong-nghe-my-tim-huong-i-moi-cho-trung-tam-du-lieu-ngoai-khong-gian-3344255c",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-05T01:53:01.913002+00:00",
     "expires_at": "2026-11-06T01:53:01.913002+00:00",
     "source_urls": [
@@ -51471,7 +51485,7 @@
       "source_url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
       "published_at": "2026-11-04T23:13:14+00:00",
       "fetched_at": "2026-11-05T01:53:13.621137+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-05T02:58:58.690154+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -51664,29 +51678,39 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-05T01:53:13.622133+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-05T02:58:58.690154+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 341,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1521
-        },
-        "independent_domains": [
-          "engadget.com",
-          "techcrunch.com",
-          "theverge.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1521,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "techcrunch.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:58"
+    },
+    "published_at": "2026-11-05T02:58:58.690154+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "gianluigi-donnarumma-va-ap-luc-tai-manchester-city-835fd827",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-05T01:53:01.913002+00:00",
     "expires_at": "2026-11-06T01:53:01.913002+00:00",
     "source_urls": [
@@ -51702,7 +51726,7 @@
       "source_url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
       "published_at": "2026-11-05T00:08:15+00:00",
       "fetched_at": "2026-11-05T01:53:20.414446+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-05T02:58:58.690154+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -51884,23 +51908,33 @@
         "27"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-05T01:53:20.416061+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-05T02:58:58.690154+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 269,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1276
-        },
-        "independent_domains": [
-          "cbssports.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1276,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/gianluigi-donnarumma-issue-manchester-city",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "cbssports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:58"
+    },
+    "published_at": "2026-11-05T02:58:58.690154+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "novak-djokovic-mat-ve-du-atp-finals-sau-cu-soc-tai-paris-masters-b2652921",
@@ -53820,5 +53854,1008 @@
     },
     "published_at": "2026-11-05T02:49:17.160822+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "chinh-phu-anh-thua-nhan-con-so-400-ty-bang-ve-loi-ich-cua-ai-chu-yeu-en--07b3e142",
+    "status": "HOLD",
+    "prepared_at": "2026-11-05T02:56:36.214322+00:00",
+    "expires_at": "2026-11-06T02:56:36.214322+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+      "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai"
+    ],
+    "article": {
+      "id": "chinh-phu-anh-thua-nhan-con-so-400-ty-bang-ve-loi-ich-cua-ai-chu-yeu-en--07b3e142",
+      "title": "Chính phủ Anh thừa nhận con số 400 tỷ bảng về lợi ích của AI chủ yếu đến từ Google",
+      "summary": "Chính phủ Anh đã sử dụng con số 400 tỷ bảng về lợi ích của AI trong hai năm, nhưng gần đây thừa nhận con số này chủ yếu đến từ một báo cáo được Google ủy thác.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+      "published_at": "2026-11-04T13:49:51+00:00",
+      "fetched_at": "2026-11-05T02:57:37.895766+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chính phủ Anh đã sử dụng con số 400 tỷ bảng về lợi ích của AI trong hai năm, nhưng gần đây thừa nhận con số này chủ yếu đến từ một báo cáo được Google ủy thác. Điều này đã gây ra tranh cãi về tính chính xác và minh bạch trong việc sử dụng số liệu thống kê.",
+        "Theo báo cáo của Wired, con số 400 tỷ bảng được sử dụng bởi các bộ phận và cơ quan chính phủ Anh trong gần hai năm, dưới hai chính phủ khác nhau. Tuy nhiên, gần đây, Bộ trưởng AI của Anh, Kanishka Narayan, đã thừa nhận rằng con số này cao hơn nhiều so với dự báo thực tế của chính phủ.",
+        "Narayan cho biết rằng việc áp dụng AI và đầu tư vào dữ liệu có thể mang lại lợi ích kinh tế cho Anh từ 55 tỷ bảng đến 140 tỷ bảng vào năm 2030, với ước tính trung tâm là 120 tỷ bảng. Tuy nhiên, ông cũng nhấn mạnh rằng ước tính này vẫn còn nhiều bất ổn.",
+        "Vụ việc này đã gây ra phản ứng từ các nhà lập pháp và chuyên gia, quienes cho rằng chính phủ Anh nên minh bạch hơn về nguồn gốc và tính chính xác của số liệu thống kê."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Chính phủ Anh và con số 400 tỷ bảng về lợi ích của AI",
+      "meta_description": "Chính phủ Anh thừa nhận con số 400 tỷ bảng về lợi ích của AI chủ yếu đến từ Google, gây ra tranh cãi về tính chính xác và minh bạch.",
+      "keywords": [
+        "Chính phủ Anh",
+        "AI",
+        "Google",
+        "lợi ích kinh tế"
+      ],
+      "slug": "chinh-phu-anh-thua-nhan-con-so-400-ty-bang-ve-loi-ich-cua-ai-chu-yeu-en--07b3e142",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 220,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+        "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:49:51+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T16:17:22+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chính phủ Anh đã sử dụng con số 400 tỷ bảng về lợi ích của AI trong hai năm.",
+          "source_urls": [
+            "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Former technology minister Peter Kyle also used the £400 billion while promoting the benefits of AI, while many parliamentarians outside of government raised questions about potential issues around the technology.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+              "snippet": "Former technology minister Peter Kyle also used the £400 billion while promoting the benefits of AI, while many parliamentarians outside of government raised questions about potential issues around the technology.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+              "page_sha256": "e465e3b855ffcb5cc66925aaae92b6022e3d98290de9cf5dea158e50d2486128",
+              "snippet_sha256": "182275d009d989a47e0cc3c07905cd837a3135a3fd529ba69807fbc243623d1e",
+              "verified_at": "2026-11-05T02:57:37.894920+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Con số 400 tỷ bảng chủ yếu đến từ một báo cáo được Google ủy thác.",
+          "source_urls": [
+            "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Government departments and agencies used Google’s £400 billion figure for almost two years, under two governments.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+              "snippet": "Government departments and agencies used Google’s £400 billion figure for almost two years, under two governments.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+              "page_sha256": "e465e3b855ffcb5cc66925aaae92b6022e3d98290de9cf5dea158e50d2486128",
+              "snippet_sha256": "584be30d28972ffbe46ce2fb656350ecee55bfd73886ca8b782530f9bc0195d2",
+              "verified_at": "2026-11-05T02:57:37.894920+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ trưởng AI của Anh, Kanishka Narayan, đã thừa nhận rằng con số 400 tỷ bảng cao hơn nhiều so với dự báo thực tế của chính phủ.",
+          "source_urls": [
+            "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Narayan said the £400b figure “was drawn from a publicly available 2023 report commissioned by Google and produced by Public First,” a British consultancy firm now referred to as PF Global.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+              "snippet": "Narayan said the £400b figure “was drawn from a publicly available 2023 report commissioned by Google and produced by Public First,” a British consultancy firm now referred to as PF Global.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+              "page_sha256": "e465e3b855ffcb5cc66925aaae92b6022e3d98290de9cf5dea158e50d2486128",
+              "snippet_sha256": "f3044b8c0939f162103280955a4ff125500eb925410191617b1b0d586ff657a6",
+              "verified_at": "2026-11-05T02:57:37.894920+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo này cung cấp thông tin mới về việc sử dụng số liệu thống kê trong chính phủ Anh, và gây ra tranh cãi về tính chính xác và minh bạch. Chúng tôi đã phân tích các nguồn tin và cung cấp một cái nhìn tổng quan về vấn đề này, giúp độc giả hiểu rõ hơn về tình hình.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:57:37.895860+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "120",
+        "140",
+        "2030",
+        "400",
+        "55"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T02:57:37.897225+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 220,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 960
+        },
+        "independent_domains": [
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-05T02:58:58.690154+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-05T02:58:58.690154+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 220,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 960,
+        "source_access": [
+          {
+            "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "xac-inh-cac-cap-au-ban-ket-giai-bong-chuyen-nam-vo-ich-quoc-gia-2026-5f6f412e",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-05T02:56:36.214322+00:00",
+    "expires_at": "2026-11-06T02:56:36.214322+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+      "https://dantri.com.vn/the-gioi/phan-ung-cua-nga-trung-quoc-ve-ket-qua-bau-cu-giua-ky-my-20261104191502964.htm"
+    ],
+    "article": {
+      "id": "xac-inh-cac-cap-au-ban-ket-giai-bong-chuyen-nam-vo-ich-quoc-gia-2026-5f6f412e",
+      "title": "Xác định các cặp đấu bán kết Giải bóng chuyền nam vô địch quốc gia 2026",
+      "summary": "Ngày thi đấu 4-11 của Giải bóng chuyền nam vô địch quốc gia 2026 đã sớm định đoạt các cặp đấu bán kết ở nhóm đua vô địch.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+      "published_at": "2026-11-04T15:04:00+00:00",
+      "fetched_at": "2026-11-05T02:57:51.479619+00:00",
+      "appnho_published_at": "2026-11-05T02:58:58.690154+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày thi đấu 4-11, Giải bóng chuyền nam vô địch quốc gia 2026 đã sớm xác định các cặp đấu bán kết sau lượt trận vòng áp chót của giai đoạn vòng bảng.",
+        "Do đã chắc chắn đứng nhất bảng, đội Biên Phòng không tung ra đội hình mạnh nhất khi gặp Thể Công mà tạo điều kiện cho các vận động viên trẻ ra sân. Tận dụng cơ hội này, Thể Công giành chiến thắng 3-1 chung cuộc, qua đó khiến Biên Phòng nhận trận thua đầu tiên kể từ đầu giải.",
+        "Ở trận đấu còn lại của nhóm đầu, Công An TP.HCM vượt qua LPBank Ninh Bình với tỉ số 3-0. Những kết quả này chính thức ấn định các cặp đấu tại bán kết. Đội đầu bảng Biên Phòng sẽ chạm trán LPBank Ninh Bình, trong khi Thể Công và Công An TP.HCM so tài ở cặp đấu còn lại sau khi chia sẻ hai vị trí thứ nhì và thứ ba.",
+        "Trong khi đó, cục diện ở nhóm đua trụ hạng vẫn cần chờ lượt trận cuối diễn ra vào ngày 5-11. Ngoại trừ Hà Nội đã chắc chắn đứng hạng 5, khoảng cách giữa các đội TP.HCM, Sanest Khánh Hòa và Đà Nẵng rất mong manh, hứa hẹn nhiều thay đổi khi giải đấu bước vào ngày thi đấu tiếp theo."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Kết quả và bảng xếp hạng bóng chuyền nam vô địch quốc gia ngày 4-11",
+      "meta_description": "Cập nhật kết quả thi đấu và cục diện bảng xếp hạng Giải bóng chuyền nam vô địch quốc gia 2026 tính đến ngày 4-11.",
+      "keywords": [
+        "bóng chuyền nam",
+        "vô địch quốc gia",
+        "kết quả",
+        "bảng xếp hạng",
+        "bán kết"
+      ],
+      "slug": "xac-inh-cac-cap-au-ban-ket-giai-bong-chuyen-nam-vo-ich-quoc-gia-2026-5f6f412e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 226,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+        "https://dantri.com.vn/the-gioi/phan-ung-cua-nga-trung-quoc-ve-ket-qua-bau-cu-giua-ky-my-20261104191502964.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-gioi/phan-ung-cua-nga-trung-quoc-ve-ket-qua-bau-cu-giua-ky-my-20261104191502964.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T15:04:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/phan-ung-cua-nga-trung-quoc-ve-ket-qua-bau-cu-giua-ky-my-20261104191502964.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T12:30:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ngày 4-11, Giải bóng chuyền nam vô địch quốc gia 2026 xác định các cặp đấu bán kết ở vòng áp chót.",
+          "source_urls": [
+            "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ngày thi đấu 4-11, Giải bóng chuyền nam vô địch quốc gia 2026 sớm xác định các cặp đấu bán kết.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "snippet": "Ngày thi đấu 4-11, Giải bóng chuyền nam vô địch quốc gia 2026 sớm xác định các cặp đấu bán kết.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "page_sha256": "adf6c745fb34683c55e2386cbd2f660d2f84c75c54f4b579f58d00cff921d350",
+              "snippet_sha256": "59b78c832c4eb470736f20c9202435329b51382b754ae45434aaa93db2be74dc",
+              "verified_at": "2026-11-05T02:57:51.478791+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thể Công thắng Biên Phòng 3-1, tạo ra trận thua đầu tiên cho Biên Phòng từ đầu giải khi đối thủ dùng đội hình trẻ.",
+          "source_urls": [
+            "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đây cũng là trận thua đầu tiên của Biên Phòng từ đầu giải.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "snippet": "Đây cũng là trận thua đầu tiên của Biên Phòng từ đầu giải.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "page_sha256": "adf6c745fb34683c55e2386cbd2f660d2f84c75c54f4b579f58d00cff921d350",
+              "snippet_sha256": "6ed12e1f9e7d7d089c10cc31429cec5c3b528ae395251fb899684872efa6a5bc",
+              "verified_at": "2026-11-05T02:57:51.478791+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Công An TP.HCM thắng LPBank Ninh Bình 3-0, qua đó xác định các cặp bán kết gồm Biên Phòng đấu LPBank Ninh Bình và Thể Công đấu Công An TP.HCM.",
+          "source_urls": [
+            "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cụ thể, đội đầu bảng Biên Phòng sẽ gặp đội hạng tư là LPBank Ninh Bình.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "snippet": "Cụ thể, đội đầu bảng Biên Phòng sẽ gặp đội hạng tư là LPBank Ninh Bình.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "page_sha256": "adf6c745fb34683c55e2386cbd2f660d2f84c75c54f4b579f58d00cff921d350",
+              "snippet_sha256": "a014133a222a0e1de9605cea521985231e4efe2c4225909a0eb1d9ad9486d165",
+              "verified_at": "2026-11-05T02:57:51.478791+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhóm đua trụ hạng chờ lượt cuối ngày 5-11 với Hà Nội chắc chắn hạng 5, trong khi TP.HCM, Sanest Khánh Hòa và Đà Nẵng còn cạnh tranh sát sao.",
+          "source_urls": [
+            "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Chỉ có Hà Nội là chắc chắn đứng hạng 5, trong khi ba đội còn lại vẫn đang cạnh tranh gay gắt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "snippet": "Chỉ có Hà Nội là chắc chắn đứng hạng 5, trong khi ba đội còn lại vẫn đang cạnh tranh gay gắt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "page_sha256": "adf6c745fb34683c55e2386cbd2f660d2f84c75c54f4b579f58d00cff921d350",
+              "snippet_sha256": "9a9f0a00d48432998b1da3ab50446fc907908491901d9b486e80f491668267e8",
+              "verified_at": "2026-11-05T02:57:51.478791+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến vòng áp chót của giải bóng chuyền nam vô địch quốc gia ngày 4-11. Thông tin tập trung vào kết quả các trận đấu và cục diện phân chia các cặp bán kết.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:57:51.479707+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "5"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-05T02:58:58.690154+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 226,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1017,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/ket-qua-bang-xep-hang-bong-chuyen-nam-vo-dich-quoc-gia-ngay-4-11-100261104214940389.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-05 09:58"
+    },
+    "published_at": "2026-11-05T02:58:58.690154+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "bang-xep-hang-suc-manh-nba-au-mua-giai-nhung-bien-ong-va-iem-nhan-sau-ha-c9db3a82",
+    "status": "HOLD",
+    "prepared_at": "2026-11-05T02:56:36.214322+00:00",
+    "expires_at": "2026-11-06T02:56:36.214322+00:00",
+    "source_urls": [
+      "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+      "https://www.cbssports.com/soccer/news/uwcl-rankings-barclona-lyonnes-arsenal",
+      "https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review"
+    ],
+    "article": {
+      "id": "bang-xep-hang-suc-manh-nba-au-mua-giai-nhung-bien-ong-va-iem-nhan-sau-ha-c9db3a82",
+      "title": "Bảng xếp hạng sức mạnh NBA đầu mùa giải: Những biến động và điểm nhấn sau hai tuần tranh tài",
+      "summary": "Chỉ sau hai tuần đầu tiên của mùa giải NBA 2026-27, cục diện các đội bóng đã ghi nhận nhiều bất ngờ từ chấn thương, sự tỏa sáng của các ngôi sao đến màn bứt phá của các tân binh.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+      "published_at": "2026-11-04T13:55:30+00:00",
+      "fetched_at": "2026-11-05T02:58:46.905208+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chỉ sau hai tuần tranh tài chính thức, mùa giải NBA 2026-27 đã chứng kiến nhiều diễn biến bất ngờ khi các chấn thương và sự trỗi dậy của các đội bóng bắt đầu định hình lại cục diện toàn giải đấu. Các chuyên gia phân tích từ ESPN vừa công bố đợt xếp hạng sức mạnh thứ hai, qua đó tổng kết khởi đầu của tất cả 30 đội bóng.",
+        "Tại miền Đông, Philadelphia 76ers tạo ấn tượng mạnh mẽ nhờ chuỗi trận thăng hoa sớm. Tyrese Maxey đang đóng vai trò chủ chốt khi dẫn đầu danh sách ghi điểm của đội bóng, đồng thời dẫn đầu toàn giải NBA về hiệu suất ghi điểm trong hiệp đấu thứ tư với trung bình 11 điểm mỗi trận. Trong khi đó, nhà đương kim vô địch New York Knicks lại phải nỗ lực tìm cách quay trở lại nhóm dẫn đầu sau khởi đầu ba trận toàn thua.",
+        "Khu vực miền Tây cũng nóng lên không kém khi nhiều đội bóng chịu ảnh hưởng bởi chấn thương của các trụ cột. Oklahoma City Thunder và Minnesota Timberwolves đều gặp khó khăn vì lực lượng sứt mẻ, tạo cơ hội cho những cái tên như Ty Jerome của Memphis Grizzlies ghi dấu ấn từ sớm. Tại Los Angeles Lakers, Luka Doncic đang thể hiện phong độ ấn tượng trong cuộc đua giành danh hiệu MVP với các màn trình diễn ghi từ 42 điểm trở lên ở các trận gần đây.",
+        "Bên cạnh đó, chiều sâu đội hình tiếp tục là yếu tố phân định sức mạnh giữa các câu lạc bộ trong bối cảnh vắng bóng các ngôi sao như Ja Morant ở Portland Trail Blazers. Đợt xếp hạng này không chỉ phản ánh kết quả trận đấu mà còn đi sâu mổ xẻ những yếu tố chuyên môn giúp các chiến thuật vận hành trơn tru hoặc gặp trục trặc qua bốn từ khóa được các chuyên gia nhìn nhận cho từng đội."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bảng xếp hạng sức mạnh NBA 2026-27: Biến động đầu mùa",
+      "meta_description": "Cập nhật bảng xếp hạng sức mạnh NBA tuần thứ hai với những diễn biến đáng chú ý từ Philadelphia 76ers, Detroit Pistons, Houston Rockets và các đội bóng khác.",
+      "keywords": [
+        "NBA Power Rankings",
+        "bóng rổ Mỹ",
+        "Philadelphia 76ers",
+        "Houston Rockets",
+        "Detroit Pistons"
+      ],
+      "slug": "bang-xep-hang-suc-manh-nba-au-mua-giai-nhung-bien-ong-va-iem-nhan-sau-ha-c9db3a82",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 335,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+        "https://www.cbssports.com/soccer/news/uwcl-rankings-barclona-lyonnes-arsenal",
+        "https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review"
+      ],
+      "source_links": [
+        "https://www.cbssports.com/soccer/news/uwcl-rankings-barclona-lyonnes-arsenal",
+        "https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:55:30+00:00"
+        },
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/uwcl-rankings-barclona-lyonnes-arsenal",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-30T13:14:07+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-28T13:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chỉ sau hai tuần đầu mùa giải NBA, các kịch bản đã thay đổi do chấn thương và sự bất ngờ từ các đội bóng.",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Of course,Victor Wembanyamais at the center of it all, and San Ant",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "snippet": "Of course,Victor Wembanyamais at the center of it all, and San Ant",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "page_sha256": "068b13fe56eaff1f2c8bb1ab2f205783b0efaf964dfb3f484c0b7fdc5eed4f0c",
+              "snippet_sha256": "afe68d7c4fc1ae79a7983b2976b55eeffcea00dce43476170fb89f23ce26cecd",
+              "verified_at": "2026-11-05T02:58:46.904157+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Philadelphia 76ers có khởi đầu áp đảo, trong khi New York Knicks khởi đầu mùa giải với ba trận toàn thua.",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season"
+          ],
+          "importance": "core",
+          "evidence_snippet": "WrightOff-court turmoil and on-court woes: How the Knicks' title defense got chaotic -- fastNew York Knicks1dVincent GoodwillNBA Contract Year All-Stars: Grizzlies' Ty Jerome and 11 others playing for a paydayHouston Rockets1dBobby MarksKarabell notebook: On Gobert and Bridges' slow starts, Zion's steals and more20hEric KarabellFantasy basketball category specialists: Risacher, Robinson among players to add2dSteve AlexanderHow injuries have shaken up the NBA title and MVP races, two weeks inSan Antonio Spurs2dZach KramInside Jaylen Brown's Boston apartment sits his favorite purchasePhiladelphia 76ers2dKris Rhim",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "snippet": "WrightOff-court turmoil and on-court woes: How the Knicks' title defense got chaotic -- fastNew York Knicks1dVincent GoodwillNBA Contract Year All-Stars: Grizzlies' Ty Jerome and 11 others playing for a paydayHouston Rockets1dBobby MarksKarabell notebook: On Gobert and Bridges' slow starts, Zion's steals and more20hEric KarabellFantasy basketball category specialists: Risacher, Robinson among players to add2dSteve AlexanderHow injuries have shaken up the NBA title and MVP races, two weeks inSan Antonio Spurs2dZach KramInside Jaylen Brown's Boston apartment sits his favorite purchasePhiladelphia 76ers2dKris Rhim",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "page_sha256": "068b13fe56eaff1f2c8bb1ab2f205783b0efaf964dfb3f484c0b7fdc5eed4f0c",
+              "snippet_sha256": "54f1794dd44f16a7bb1125775be38c3a10e57daf0f6ebee91771d0500d19ba53",
+              "verified_at": "2026-11-05T02:58:46.904157+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tyrese Maxey dẫn đầu NBA về khả năng ghi điểm trong hiệp bốn với trung bình 11 điểm mỗi trận.",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Doncic has 2nd technical of season rescinded by NBALos Angeles Lakers12hDave McMenaminDumonts now controlling owners of Mavs with nearly 70% shareDallas Mavericks18hTim MacMahonIn sign of good times, LeBron takes sip of fan's wine as 76ers roll onPhiladelphia 76ers1dKris RhimDraymond ejected after scuffle with Brooks, Suns; Curry says it 'lit a fire' in WarriorsGolden State Warriors1dAnthony SlaterNBA defends Rwanda partnership in letter to concerned senators21hMark Fainaru-WadaMissing 11 players, Pacers play just six in loss to HawksIndiana Pacers1dInjury-plagued Thunder agree to 2-year deal with veteran Terry, sources sayOklahoma City Thunder1dShams CharaniaInside Jaylen Brown's Boston apartment sits his favorite purchasePhiladelphia 76ers2dKris RhimHow Devin Vassell serves as a quiet constant on the star-studded SpursSan Antonio Spurs2hMichael C.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "snippet": "Doncic has 2nd technical of season rescinded by NBALos Angeles Lakers12hDave McMenaminDumonts now controlling owners of Mavs with nearly 70% shareDallas Mavericks18hTim MacMahonIn sign of good times, LeBron takes sip of fan's wine as 76ers roll onPhiladelphia 76ers1dKris RhimDraymond ejected after scuffle with Brooks, Suns; Curry says it 'lit a fire' in WarriorsGolden State Warriors1dAnthony SlaterNBA defends Rwanda partnership in letter to concerned senators21hMark Fainaru-WadaMissing 11 players, Pacers play just six in loss to HawksIndiana Pacers1dInjury-plagued Thunder agree to 2-year deal with veteran Terry, sources sayOklahoma City Thunder1dShams CharaniaInside Jaylen Brown's Boston apartment sits his favorite purchasePhiladelphia 76ers2dKris RhimHow Devin Vassell serves as a quiet constant on the star-studded SpursSan Antonio Spurs2hMichael C.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "page_sha256": "068b13fe56eaff1f2c8bb1ab2f205783b0efaf964dfb3f484c0b7fdc5eed4f0c",
+              "snippet_sha256": "99665361b656f45036a6c185c6fe7d0c47c4f2b103646fa3329adcd58332f127",
+              "verified_at": "2026-11-05T02:58:46.904157+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luka Doncic của Los Angeles Lakers tạo dấu ấn trong cuộc đua MVP sau khi ghi 42 và 45 điểm trong hai trận đấu gần nhất.",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TheLos Angeles Lakers'Luka Doncicis making an early MVP case and doesn't seem to be slowing down after scoring 42 and 45 points in his past two games.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "snippet": "TheLos Angeles Lakers'Luka Doncicis making an early MVP case and doesn't seem to be slowing down after scoring 42 and 45 points in his past two games.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+              "page_sha256": "068b13fe56eaff1f2c8bb1ab2f205783b0efaf964dfb3f484c0b7fdc5eed4f0c",
+              "snippet_sha256": "4c0c8fa96f3789dba08cc813f016775c16f0a86d37585eea58b19ceff70f782a",
+              "verified_at": "2026-11-05T02:58:46.904157+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những biến động chuyên môn và cục diện đầu mùa của giải bóng rổ NBA thông qua bảng xếp hạng sức mạnh mới nhất. Nội dung tập trung phân tích tác động từ chấn thương của ngôi sao, phong độ bùng nổ ở hiệp cuối của các cầu thủ trẻ và nỗ lực tái thiết lập vị thế của các đội bóng hàng đầu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:58:46.905330+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "2026",
+        "27",
+        "30",
+        "42",
+        "76"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T02:58:46.907306+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 335,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1561
+        },
+        "independent_domains": [
+          "cbssports.com",
+          "engadget.com",
+          "espn.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-05T02:58:58.690154+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-05T02:58:58.690154+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 335,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1561,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "cbssports.com",
+          "engadget.com",
+          "espn.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "dao-dien-alex-gibney-dat-cau-hoi-ve-trach-nhiem-giai-trinh-cua-elon-musk-ab7a04ce",
+    "status": "HOLD",
+    "prepared_at": "2026-11-05T02:56:36.214322+00:00",
+    "expires_at": "2026-11-06T02:56:36.214322+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+      "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs"
+    ],
+    "article": {
+      "id": "dao-dien-alex-gibney-dat-cau-hoi-ve-trach-nhiem-giai-trinh-cua-elon-musk-ab7a04ce",
+      "title": "Dao dien Alex Gibney dat cau hoi ve trach nhiem giai trinh cua Elon Musk sau bau cu",
+      "summary": "Trong bo phim tai lieu moi, dao dien Alex Gibney dat van de lieu Chinh phu My duoi thoi da so Dang Dan Chu co the tien hanh cac cuoc dieu tra nghiem ngat doi voi Elon Musk hay khong.",
+      "category": "world",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+      "published_at": "2026-11-04T14:15:21+00:00",
+      "fetched_at": "2026-11-05T02:58:56.186407+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong bo phim tai lieu mang ten 'Musk', dao dien noi tieng Alex Gibney da tap trung lam ro nhung cuoc dieu tra cua cac co quan chinh phu My lien quan den cac hoat cua ty phu Elon Musk. Tac pham nay dat ra cau hoi lieu he thong chinh tri My co du kha nang de thuc hien nhung cuoc dieu tra nghiem ngat hay khong khi Dang Dan Chu chuan bi nam giu da so tai Quoc hoi.",
+        "Cung thoi diem do, ket qua bau cu giua ky ghi nhan nhung bien dong lon khi nhieu ung cu vien Dang Dan Chu gianh chien thang quan trong. Tai bang Texas, noi duoc xem la dai 본 dia cua cac cong ty thuoc he sinh thai do Musk sang lap, ung cu vien James Talarico da gianh chien thang trong cuoc dua vao Thuong vien, danh bai ung cu vien duoc kenh hau thuan boi cac nhom chanh tri cua vi ty phu.",
+        "Truoc do, Elon Musk da chi ra so tien uoc tinh len toi hang tram trieu USD de ung ho cho cac ung cu vien Dang Cong Hoa trong chu ky bau cu nam nay thong qua cac sieu Uy ban hanh dong chinh tri (Super PAC). Tuy nhien, nhung khoan dau tu tai chinh quy mo lon nay da khong the giup cac ung cu vien cua Dang Cong Hoa gianh chien thang trong mot so cuoc dua mang tinh buoc ngoat tai Texas.",
+        "Bo phim tai lieu cua Gibney cung doi mat voi nhieu trắc tro trong qua trinh phat hanh. Phia ty phu Elon Musk tung chi trich bo phim nay la san pham tan cong va doi ngu phap ly da gui thu de doa kien phi pham truoc thoi diem cong chieu. Ngoai ra, cac nen tang nhu YouTube, TikTok hay Meta cung tung tu choi quang cao cho doan trailer cua phim truoc khi tac pham nay chinh thuc ra rap."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Alex Gibney va cau hoi ve kha nang dieu tra Elon Musk",
+      "meta_description": "Tim hieu ve bo phim tai lieu 'Musk' cua Alex Gibney va nhung thach thuc chinh tri xoay quanh ty phu Elon Musk.",
+      "keywords": [
+        "Alex Gibney",
+        "Elon Musk",
+        "Dang Dan Chu",
+        "My",
+        "phim tai lieu"
+      ],
+      "slug": "dao-dien-alex-gibney-dat-cau-hoi-ve-trach-nhiem-giai-trinh-cua-elon-musk-ab7a04ce",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 332,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+        "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+        "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+        "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T14:15:21+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:43:16+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T16:23:21+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Dao dien Alex Gibney dat cau hoi ve kha nang Dang Dan Chu tien hanh dieu tra hoat dong kinh doanh cua Elon Musk.",
+          "source_urls": [
+            "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk"
+          ],
+          "importance": "core",
+          "evidence_snippet": "As the USCongressprepares to usher in a Democratic majority,MuskdirectorAlex Gibneywants to know if there will be renewed interest in government investigations into Elon Musk’s business practices.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+              "snippet": "As the USCongressprepares to usher in a Democratic majority,MuskdirectorAlex Gibneywants to know if there will be renewed interest in government investigations into Elon Musk’s business practices.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+              "page_sha256": "702c8f1ce851666c03f9eb8bb390a289bf21ea92a4a7fb860e7725b610926138",
+              "snippet_sha256": "b8088724c4bab09f3504fbfbf055d319456a1249f008754df3b98c20729d8a62",
+              "verified_at": "2026-11-05T02:58:56.185822+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "James Talarico gianh chien thang trong cuoc dua vao Thuong vien tai Texas trong cuoc bau cu giua ky.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Democrat James Talarico's resounding victory in the Texas Senate race caused a major upset in the midterms for Republicans - and for Elon Musk.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+              "snippet": "Democrat James Talarico's resounding victory in the Texas Senate race caused a major upset in the midterms for Republicans - and for Elon Musk.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "b24ff2daa5c828b65b72185178ec04ad6b5eee88a5f6260de91ff06365bb225e",
+              "snippet_sha256": "e16b8026f01b3a872e5e7e4d1ae9c3477684e68838d705ee573fe22641f933fd",
+              "verified_at": "2026-11-05T02:58:56.185822+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Elon Musk da chi ra khoang 446 trieu USD de ung ho cac ung cu vien Dang Cong Hoa trong cuoc bau cu giua ky.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "On top of contributing to one of the most expensive Senate races ever, the SpaceX owner also became thetop individual donor in this year's midterms overall, contributing an estimated $446m in backing Republican candidates.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+              "snippet": "On top of contributing to one of the most expensive Senate races ever, the SpaceX owner also became thetop individual donor in this year's midterms overall, contributing an estimated $446m in backing Republican candidates.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "b24ff2daa5c828b65b72185178ec04ad6b5eee88a5f6260de91ff06365bb225e",
+              "snippet_sha256": "3049cf59d41a82e099732000f2a27833f43fd92a6f3ec88f56ef478ca48aaacb",
+              "verified_at": "2026-11-05T02:58:56.185822+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luat su cua Elon Musk da gui thu de doa kien phi pham truoc thoi diem bo phim tai lieu ra mat.",
+          "source_urls": [
+            "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TopicsWIRED World Fair 2026MoviesElon Muskdocumentarieselectionspolitics",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+              "snippet": "TopicsWIRED World Fair 2026MoviesElon Muskdocumentarieselectionspolitics",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+              "page_sha256": "702c8f1ce851666c03f9eb8bb390a289bf21ea92a4a7fb860e7725b610926138",
+              "snippet_sha256": "3e6938b3304459b7065a40049c4f964af412213e2b76043c874c0f87482ffd0e",
+              "verified_at": "2026-11-05T02:58:56.185822+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet phan tich bo phim tai lieu 'Musk' cua Alex Gibney dat trong boi canh ket qua bau cu giua ky tai My. Tac pham cung cap goc nhin chuyen sau ve anh huong cua tien bac trong chinh tri va phan ung cua cac ben lien quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T02:58:56.186499+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-05T02:58:56.187726+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 332,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1519
+        },
+        "independent_domains": [
+          "bbc.com",
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-05T02:58:58.690154+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-05T02:58:58.690154+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 332,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1519,
+        "source_access": [
+          {
+            "url": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      }
+    }
   }
 ]
