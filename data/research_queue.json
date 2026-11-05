@@ -59717,7 +59717,7 @@
   },
   {
     "queue_id": "049fbe9bd972e7095714",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T16:54:45.010392+00:00",
     "expires_at": "2026-11-08T16:52:41.354121+00:00",
     "category_hint": "technology",
@@ -60590,11 +60590,12 @@
       ]
     },
     "research_ready_at": "2026-11-05T16:54:45.010416+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "alexis-ohanian-thoi-ai-cua-cac-ung-dung-mang-xa-hoi-a-qua-94f87067"
   },
   {
     "queue_id": "56494ffb49c133be1823",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-05T16:54:45.620674+00:00",
     "expires_at": "2026-11-08T16:52:41.354121+00:00",
     "category_hint": "technology",
@@ -61221,13 +61222,14 @@
       ]
     },
     "research_ready_at": "2026-11-05T16:54:45.620697+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bluesky-ghi-nhan-luu-luong-truy-cap-cao-ky-luc-trong-em-bau-cu-2026-cabce70b"
   },
   {
     "queue_id": "81e3c9967c62873c24a4",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-05T16:54:46.758007+00:00",
-    "expires_at": "2026-11-08T16:52:41.354121+00:00",
+    "expires_at": "2026-11-08T16:55:05.267119+00:00",
     "category_hint": "sports",
     "lead_title": "Carmelo Anthony and La La's divorce gets major update 9 years after split",
     "source_urls": [
@@ -61804,6 +61806,490 @@
       ]
     },
     "research_ready_at": "2026-11-05T16:54:46.758029+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Quality gate failed: Đ",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-05T20:55:05.267119+00:00"
+  },
+  {
+    "queue_id": "bluesky-ghi-nhan-luu-luong-truy-cap-cao-ky-luc-trong-em-bau-cu-2026-cabce70b",
+    "status": "READY",
+    "prepared_at": "2026-11-05T16:55:05.267119+00:00",
+    "expires_at": "2026-11-06T16:55:05.267119+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+      "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch"
+    ],
+    "article": {
+      "id": "bluesky-ghi-nhan-luu-luong-truy-cap-cao-ky-luc-trong-em-bau-cu-2026-cabce70b",
+      "title": "Bluesky ghi nhận lưu lượng truy cập cao kỷ lục trong đêm bầu cử 2026",
+      "summary": "Nền tảng mạng xã hội Bluesky vừa trải qua ngày hoạt động sôi nổi nhất trong năm 2026 vào đêm bầu cử giữa nhiệm kỳ tại Mỹ, với lượng tương tác và lưu lượng dữ liệu tăng vọt.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+      "published_at": "2026-11-05T15:44:58+00:00",
+      "fetched_at": "2026-11-05T16:59:16.910148+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nền tảng tiểu blog Bluesky đã ghi nhận mức độ hoạt động cao nhất trong năm 2026 vào đêm bầu cử giữa nhiệm kỳ tại Mỹ diễn ra ngày 4/11. Theo dữ liệu từ nền tảng, sự kiện này đã tạo ra một làn sóng người dùng mới tham gia và những người dùng cũ quay trở lại, thúc đẩy các chỉ số tương tác tăng mạnh so với mức trung bình của 30 ngày trước đó.",
+        "Cụ thể, số lượng bài đăng và lượt thích trên Bluesky đã tăng lần lượt 30% và 70%. Theo dữ liệu nguồn mở, nền tảng này đã ghi nhận 44 triệu lượt thích, 4,8 triệu bài đăng và 2 triệu lượt theo dõi mới chỉ trong ngày 4/11. Con số này suýt soát kỷ lục mọi thời đại của nền tảng là 45 triệu lượt thích trong một ngày, được thiết lập vào tháng 11/2024. Lưu lượng dữ liệu mạng cũng tăng vọt 200% so với thông thường, đạt đỉnh 35,8 GB/s.",
+        "Giám đốc vận hành (COO) Rose Wang cho biết lưu lượng truy cập bắt đầu đạt đỉnh trong khoảng từ 20h đến 22h (giờ Thái Bình Dương), trùng với thời điểm kết quả bầu cử bắt đầu được cập nhật. Giới quan sát nhận định sự gia tăng này phản ánh xu hướng chính trị của cộng đồng người dùng Bluesky, vốn thường được coi là nơi tập trung của nhóm người dùng có quan điểm thiên tả. Sự kiện này tiếp nối giai đoạn tăng trưởng mạnh mẽ của nền tảng kể từ sau cuộc bầu cử tổng thống Mỹ năm 2024, khi nhiều người dùng tìm đến các không gian thảo luận trực tuyến mới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Bluesky đạt đỉnh lưu lượng truy cập trong đêm bầu cử 2026",
+      "meta_description": "Nền tảng Bluesky ghi nhận mức sử dụng cao nhất năm 2026 vào đêm bầu cử giữa nhiệm kỳ Mỹ, với hàng triệu lượt bài đăng và tương tác mới.",
+      "keywords": [
+        "Bluesky",
+        "bầu cử Mỹ",
+        "mạng xã hội",
+        "công nghệ"
+      ],
+      "slug": "bluesky-ghi-nhan-luu-luong-truy-cap-cao-ky-luc-trong-em-bau-cu-2026-cabce70b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 286,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+        "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T15:44:58+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T11:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bluesky ghi nhận mức sử dụng cao nhất năm 2026 vào ngày 4/11, với 44 triệu lượt thích, 4,8 triệu bài đăng và 2 triệu lượt theo dõi mới.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night"
+          ],
+          "importance": "core",
+          "evidence_snippet": "According to open source data, Bluesky reached 44 million likes, 4.8 million posts, and 2 million new follows on November 4.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+              "snippet": "According to open source data, Bluesky reached 44 million likes, 4.8 million posts, and 2 million new follows on November 4.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+              "page_sha256": "62f725d93dba90a0fb24bf3c23a4a5962fc3ffd7e71f3506bc55291576a7700d",
+              "snippet_sha256": "cb3bb15f95a163352d1228a11603437a3ecf389a08391285afc98a313cd3c2f4",
+              "verified_at": "2026-11-05T16:59:16.909804+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lưu lượng dữ liệu trên Bluesky tăng 200% so với bình thường, đạt đỉnh 35,8 GB/s trong đêm bầu cử.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "This jump was especially visible in Bluesky’s data traffic, which was 200% higher than usual, reaching up to 35.8 GB/s.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+              "snippet": "This jump was especially visible in Bluesky’s data traffic, which was 200% higher than usual, reaching up to 35.8 GB/s.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+              "page_sha256": "62f725d93dba90a0fb24bf3c23a4a5962fc3ffd7e71f3506bc55291576a7700d",
+              "snippet_sha256": "55c50e75b1252d7cf8e4fe7ab32ef7f6df59cdf0a879c6b910b271ae21160d43",
+              "verified_at": "2026-11-05T16:59:16.909804+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Số lượng bài đăng và lượt thích tăng lần lượt 30% và 70% so với trung bình 30 ngày trước đó.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Daily posts and likes increased 30% and 70%, respectively, compared to the previous 30-day averages; clicks on links also spiked 20%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+              "snippet": "Daily posts and likes increased 30% and 70%, respectively, compared to the previous 30-day averages; clicks on links also spiked 20%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/05/bluesky-hit-peak-usage-for-the-year-on-election-night",
+              "page_sha256": "62f725d93dba90a0fb24bf3c23a4a5962fc3ffd7e71f3506bc55291576a7700d",
+              "snippet_sha256": "48455f0b2f5b70dc4cc1ac3f7eddbb0a573e24ce78a722e28ecf908f25ceb891",
+              "verified_at": "2026-11-05T16:59:16.909804+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa sự kiện chính trị và biến động lưu lượng truy cập trên nền tảng mạng xã hội mới nổi. Đồng thời, bài viết cung cấp bối cảnh so sánh với các mốc kỷ lục trước đó để độc giả thấy rõ quy mô của đợt tăng trưởng này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T16:59:16.910213+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "20",
+        "200",
+        "2024",
+        "2026",
+        "22",
+        "30",
+        "35,8",
+        "4,8",
+        "44",
+        "45",
+        "70"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T16:59:16.910934+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 286,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1318
+        },
+        "independent_domains": [
+          "npr.org",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "alexis-ohanian-thoi-ai-cua-cac-ung-dung-mang-xa-hoi-a-qua-94f87067",
+    "status": "READY",
+    "prepared_at": "2026-11-05T16:55:05.267119+00:00",
+    "expires_at": "2026-11-06T16:55:05.267119+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+      "https://www.skysports.com/tennis/news/12040/13608359/jodie-burrage-british-tennis-player-calls-on-social-media-platforms-to-hold-people-accountable-for-sending-abusive-messages",
+      "https://www.aljazeera.com/news/2026/11/3/australias-high-court-hears-bid-to-overturn-under-16s-social-media-ban?traffic_source=rss",
+      "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+      "https://www.engadget.com/2304464/snap-settles-social-media-addiction-lawsuit-to-avoid-trial",
+      "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "alexis-ohanian-thoi-ai-cua-cac-ung-dung-mang-xa-hoi-a-qua-94f87067",
+      "title": "Alexis Ohanian: Thời đại của các ứng dụng mạng xã hội đã qua",
+      "summary": "Đồng sáng lập Reddit Alexis Ohanian cho rằng việc xây dựng các ứng dụng mạng xã hội truyền thống không còn là xu hướng hấp dẫn, khi internet ngày càng bị thao túng bởi bot và AI.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+      "published_at": "2026-11-05T16:26:57+00:00",
+      "fetched_at": "2026-11-05T16:59:37.732937+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong một chia sẻ tại sự kiện WIRED World Fair, Alexis Ohanian, đồng sáng lập Reddit, đã đưa ra nhận định gây chú ý rằng việc xây dựng các ứng dụng mạng xã hội không còn là lĩnh vực hấp dẫn như trước. Theo ông, internet hiện nay đã bị tổn hại nghiêm trọng bởi sự thao túng và sự tràn lan của các nội dung do bot tạo ra, một hiện tượng mà ông gọi là 'Dead Internet Theory'.",
+        "Ohanian cho rằng internet mà ông từng biết, vốn được thiết kế ưu tiên cho con người, đang dần biến đổi. Các giao diện và trải nghiệm người dùng đang có xu hướng bị loại bỏ để nhường chỗ cho các tác nhân AI. Ông dự báo rằng các phiên bản cải tiến của nhóm trò chuyện (group chat) sẽ thay thế vai trò của nội dung do người dùng tạo ra (UGC) trong tương lai, khi internet ngày càng được tối ưu hóa cho các tác nhân tự động thay vì con người.",
+        "Bên cạnh những lo ngại về sự thao túng, Ohanian cũng chỉ ra nghịch lý của các nền tảng mạng xã hội hiện nay. Dù các kho lưu trữ hội thoại khổng lồ của người dùng trở nên vô cùng giá trị để huấn luyện các mô hình ngôn ngữ lớn (LLM), chính sự thương mại hóa này lại khiến không gian trực tuyến trở nên đầy rẫy những thông tin thiếu tin cậy. Ông nhấn mạnh sự cần thiết của việc xác lập 'tính nhân văn có thể chứng minh được' trên internet mà không xâm phạm quyền riêng tư.",
+        "Hiện tại, Ohanian đang điều hành công ty đầu tư mạo hiểm Seven Seven Six với hơn 1,3 tỷ USD tài sản quản lý. Ông tập trung vào lĩnh vực thể thao, nơi ông tìm thấy những cộng đồng thực tế hơn trong bối cảnh internet bị thao túng bởi AI. Dù là một nhà đầu tư sớm vào Anthropic và lạc quan về các đột phá y tế từ công nghệ, Ohanian vẫn giữ thái độ tỉnh táo về những tác hại tiềm tàng mà AI có thể gây ra cho xã hội."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Alexis Ohanian: Xây dựng mạng xã hội không còn là xu hướng",
+      "meta_description": "Đồng sáng lập Reddit Alexis Ohanian chia sẻ quan điểm về tương lai của internet, sự trỗi dậy của AI và lý do ông tin rằng kỷ nguyên mạng xã hội đang dần kết thú",
+      "keywords": [
+        "Alexis Ohanian",
+        "Reddit",
+        "mạng xã hội",
+        "trí tuệ nhân tạo",
+        "internet"
+      ],
+      "slug": "alexis-ohanian-thoi-ai-cua-cac-ung-dung-mang-xa-hoi-a-qua-94f87067",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 369,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+        "https://www.skysports.com/tennis/news/12040/13608359/jodie-burrage-british-tennis-player-calls-on-social-media-platforms-to-hold-people-accountable-for-sending-abusive-messages",
+        "https://www.aljazeera.com/news/2026/11/3/australias-high-court-hears-bid-to-overturn-under-16s-social-media-ban?traffic_source=rss",
+        "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+        "https://www.engadget.com/2304464/snap-settles-social-media-addiction-lawsuit-to-avoid-trial",
+        "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.skysports.com/tennis/news/12040/13608359/jodie-burrage-british-tennis-player-calls-on-social-media-platforms-to-hold-people-accountable-for-sending-abusive-messages",
+        "https://www.aljazeera.com/news/2026/11/3/australias-high-court-hears-bid-to-overturn-under-16s-social-media-ban?traffic_source=rss",
+        "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+        "https://www.engadget.com/2304464/snap-settles-social-media-addiction-lawsuit-to-avoid-trial",
+        "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T16:26:57+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/tennis/news/12040/13608359/jodie-burrage-british-tennis-player-calls-on-social-media-platforms-to-hold-people-accountable-for-sending-abusive-messages",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T15:26:00+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/3/australias-high-court-hears-bid-to-overturn-under-16s-social-media-ban?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T06:59:20+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T06:36:58+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2304464/snap-settles-social-media-addiction-lawsuit-to-avoid-trial",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T19:09:53+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T23:37:31+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Alexis Ohanian cho rằng xây dựng ứng dụng mạng xã hội không còn là xu hướng hấp dẫn và internet đã bị thao túng.",
+          "source_urls": [
+            "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian"
+          ],
+          "importance": "core",
+          "evidence_snippet": "While Ohanian declined to say whether he agrees with the move, “there has to be provable humanity on the internet without being creepy.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+              "snippet": "While Ohanian declined to say whether he agrees with the move, “there has to be provable humanity on the internet without being creepy.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+              "page_sha256": "3af9c17600c8d2565623a4e78d4dff08318ea99d929b7852037a7029f46dddc7",
+              "snippet_sha256": "9641ea9859da1a57e9deb2f58728ab359efb9c1fa3495f38864a3530531bdc84",
+              "verified_at": "2026-11-05T16:59:37.732624+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ohanian ủng hộ 'Dead Internet Theory', quan điểm cho rằng nhiều hoạt động trực tuyến hiện nay được tạo ra bởi bot.",
+          "source_urls": [
+            "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ohanian is a proponent of the “Dead Internet Theory”—the idea that a lot of online activity and content is being generated by bots.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+              "snippet": "Ohanian is a proponent of the “Dead Internet Theory”—the idea that a lot of online activity and content is being generated by bots.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+              "page_sha256": "3af9c17600c8d2565623a4e78d4dff08318ea99d929b7852037a7029f46dddc7",
+              "snippet_sha256": "e289aecef16d3d4d470c339bf7a66b19dca41dbe72697fb465d529dc0ea5c96a",
+              "verified_at": "2026-11-05T16:59:37.732624+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Công ty đầu tư Seven Seven Six của Ohanian hiện quản lý hơn 1,3 tỷ USD tài sản.",
+          "source_urls": [
+            "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He now runs venture capital firm Seven Seven Six, which has over $1.3 billion in assets under management.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+              "snippet": "He now runs venture capital firm Seven Seven Six, which has over $1.3 billion in assets under management.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian",
+              "page_sha256": "3af9c17600c8d2565623a4e78d4dff08318ea99d929b7852037a7029f46dddc7",
+              "snippet_sha256": "1297b4a313f7924f176f2a962dcc0d68442adf0ff34e2ab47368ef8690b9de1e",
+              "verified_at": "2026-11-05T16:59:37.732624+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự chuyển dịch quan điểm của một nhân vật có tầm ảnh hưởng trong ngành công nghệ về tương lai mạng xã hội. Đồng thời, bài phân tích mối liên hệ giữa sự trỗi dậy của AI và việc suy giảm giá trị của các nền tảng kết nối truyền thống.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-05T16:59:37.733007+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,3"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-05T16:59:37.734036+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 369,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1691
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "engadget.com",
+          "skysports.com",
+          "theguardian.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
