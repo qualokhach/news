@@ -106,5 +106,14 @@
         "reason": "fact_ledger[1] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-06 00:42",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-05T17:42:35.002817+00:00",
+    "prepared_candidates": 13,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]

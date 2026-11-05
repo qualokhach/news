@@ -7878,5 +7878,864 @@
     "quality_version": "1.5",
     "quality_status": "PASS",
     "editorial_value": "Tuyển chọn các bài AppNho News theo thời điểm xuất bản, có phân biệt bài mới và bài nhìn lại."
+  },
+  {
+    "id": "dnse-tuoi-19-suc-bat-tu-van-hoa-oi-moi-acef2abb",
+    "title": "DNSE tuổi 19: Sức bật từ văn hóa đổi mới",
+    "summary": "DNSE đã khẳng định vị thế với hơn 2 triệu tài khoản chứng khoán và vị trí Top 2 thị phần môi giới phái sinh. Đằng sau những dấu mốc ấy là văn hóa không ngừng học hỏi, đổi mới và tinh thần “luôn làm tốt hơn” được vun đắp mỗi ngày.",
+    "category": "vietnam",
+    "source_name": "Tuổi Trẻ - Tin mới",
+    "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+    "published_at": "2026-11-04T00:19:00+00:00",
+    "fetched_at": "2026-11-05T17:41:58.562251+00:00",
+    "appnho_published_at": "2026-11-05T17:42:35.002817+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "DNSE đã khẳng định vị thế với hơn 2 triệu tài khoản chứng khoán và vị trí Top 2 thị phần môi giới phái sinh. Đằng sau những dấu mốc ấy là văn hóa không ngừng học hỏi, đổi mới và tinh thần “luôn làm tốt hơn” được vun đắp mỗi ngày.",
+      "Công ty đã triển khai nhiều hoạt động để bồi đắp văn hóa này, bao gồm DNSE Reflection, nơi nhân viên nhìn lại công việc hàng tuần, chia sẻ những điều đã làm tốt, những vướng mắc và bài học rút ra.",
+      "DNSE cũng đã phát triển công cụ hỗ trợ nhà đầu tư nghiên cứu và ra quyết định, như trợ lý AI Ensa, hệ thống dữ liệu Senses và khả năng kết nối các nền tảng AI qua giao thức MCP."
+    ],
+    "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "seo_title": "DNSE tuổi 19: Sức bật từ văn hóa đổi mới",
+    "meta_description": "DNSE đã khẳng định vị thế với hơn 2 triệu tài khoản chứng khoán và vị trí Top 2 thị phần môi giới phái sinh.",
+    "keywords": [
+      "DNSE",
+      "văn hóa đổi mới",
+      "chứng khoán",
+      "DNSE tuổi 19",
+      "Việt Nam"
+    ],
+    "slug": "dnse-tuoi-19-suc-bat-tu-van-hoa-oi-moi-acef2abb",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 135,
+    "display_source": true,
+    "source_urls": [
+      "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+      "https://thanhnien.vn/nhung-khong-gian-hoa-ke-chuyen-van-hoa-da-lat-truoc-mua-le-hoi-185261103215746909.htm"
+    ],
+    "source_links": [
+      "https://thanhnien.vn/nhung-khong-gian-hoa-ke-chuyen-van-hoa-da-lat-truoc-mua-le-hoi-185261103215746909.htm"
+    ],
+    "source_references": [
+      {
+        "name": "Tuổi Trẻ - Tin mới",
+        "url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+        "domain": "tuoitre.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "tuoitre.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-04T00:19:00+00:00"
+      },
+      {
+        "name": "Thanh Niên - Tin mới",
+        "url": "https://thanhnien.vn/nhung-khong-gian-hoa-ke-chuyen-van-hoa-da-lat-truoc-mua-le-hoi-185261103215746909.htm",
+        "domain": "thanhnien.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "thanhnien.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-04T02:09:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "DNSE đã khẳng định vị thế với hơn 2 triệu tài khoản chứng khoán và vị trí Top 2 thị phần môi giới phái sinh.",
+        "source_urls": [
+          "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "19 năm phát triển, DNSE khẳng định vị thế với hơn 2 triệu tài khoản chứng khoán và vị trí Top 2 thị phần môi giới phái sinh.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "snippet": "19 năm phát triển, DNSE khẳng định vị thế với hơn 2 triệu tài khoản chứng khoán và vị trí Top 2 thị phần môi giới phái sinh.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "page_sha256": "da32d5dbea0d947951002d31cc4b39f64d5230b33fa081270ff4c313365cf645",
+            "snippet_sha256": "31a2109b33a4730490b7339d6b0581475d34d2af19138d86cd34f24c2fa4e2e3",
+            "verified_at": "2026-11-05T17:41:58.561705+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "DNSE đã triển khai nhiều hoạt động để bồi đắp văn hóa đổi mới, bao gồm DNSE Reflection.",
+        "source_urls": [
+          "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "DNSE bồi đắp văn hóa \"luôn làm tốt hơn\" từ những hoạt động định kỳ như DNSE Reflection",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "snippet": "DNSE bồi đắp văn hóa \"luôn làm tốt hơn\" từ những hoạt động định kỳ như DNSE Reflection",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "page_sha256": "da32d5dbea0d947951002d31cc4b39f64d5230b33fa081270ff4c313365cf645",
+            "snippet_sha256": "905f18b86cd2e73696187aac41f451c858e954982990757cf38020234dbdc6fd",
+            "verified_at": "2026-11-05T17:41:58.561705+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "DNSE đã phát triển công cụ hỗ trợ nhà đầu tư nghiên cứu và ra quyết định, như trợ lý AI Ensa, hệ thống dữ liệu Senses và khả năng kết nối các nền tảng AI qua giao thức MCP.",
+        "source_urls": [
+          "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Cùng với việc tối ưu các thao tác, DNSE phát triển công cụ hỗ trợ nhà đầu tư nghiên cứu và ra quyết định, như trợ lý AI Ensa, hệ thống dữ liệu Senses và khả năng kết nối các nền tảng AI qua giao thức MCP.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "snippet": "Cùng với việc tối ưu các thao tác, DNSE phát triển công cụ hỗ trợ nhà đầu tư nghiên cứu và ra quyết định, như trợ lý AI Ensa, hệ thống dữ liệu Senses và khả năng kết nối các nền tảng AI qua giao thức MCP.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "page_sha256": "da32d5dbea0d947951002d31cc4b39f64d5230b33fa081270ff4c313365cf645",
+            "snippet_sha256": "3fbf747c4d76b024304bcaf842b30fb3cc3d9e13321f0a0af620e549827d4d68",
+            "verified_at": "2026-11-05T17:41:58.561705+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết này cung cấp thông tin về sự phát triển của DNSE và vai trò của văn hóa đổi mới trong sự thành công của công ty. Thông qua việc triển khai các hoạt động như DNSE Reflection, công ty đã tạo ra một môi trường làm việc tích cực và sáng tạo, giúp nhân viên phát triển và đóng góp cho sự thành công của công ty. Bài viết cũng nêu bật tầm quan trọng của công nghệ trong việc hỗ trợ nhà đầu tư và tạo ra lợi thế cạnh tranh cho DNSE.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-05T17:41:58.562305+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "2"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-05T17:42:35.002817+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 135,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 602,
+        "source_access": [
+          {
+            "url": "https://tuoitre.vn/dnse-tuoi-19-suc-bat-tu-van-hoa-doi-moi-100261104070144952.htm",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-06 00:42"
+  },
+  {
+    "id": "tp-hcm-cong-bo-lo-trinh-3-giai-oan-ua-tieng-anh-thanh-ngon-ngu-thu-hai-t-a088a0e4",
+    "title": "TP.HCM công bố lộ trình 3 giai đoạn đưa tiếng Anh thành ngôn ngữ thứ hai trong trường học",
+    "summary": "UBND TP.HCM vừa chính thức công bố kế hoạch triển khai đề án đưa tiếng Anh trở thành ngôn ngữ thứ hai trong các cơ sở giáo dục trên địa bàn thành phố thông qua lộ trình 3 giai đoạn kéo dài đến năm 2045.",
+    "category": "vietnam",
+    "source_name": "Tuổi Trẻ - Tin mới",
+    "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+    "published_at": "2026-11-04T00:27:00+00:00",
+    "fetched_at": "2026-11-05T17:42:11.044581+00:00",
+    "appnho_published_at": "2026-11-05T17:42:35.002817+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "UBND TP.HCM vừa công bố kế hoạch chi tiết thực hiện đề án đưa tiếng Anh trở thành ngôn ngữ thứ hai trong các trường học trên địa bàn. Theo đó, lộ trình triển khai được chia thành 3 giai đoạn chính, với nguyên tắc ưu tiên củng cố nền tảng tại các địa phương còn hạn chế về cơ sở vật chất và đội ngũ giáo viên, đảm bảo tính thực chất và không gây áp lực cho các cơ sở giáo dục.",
+      "Giai đoạn 1 (2026 - 2030) tập trung vào việc xây dựng nền tảng và chuẩn bị các điều kiện cần thiết. Ngay trong năm học 2026 - 2027, các đơn vị sẽ tiến hành rà soát, khảo sát 100% trình độ tiếng Anh của đội ngũ giáo viên và điều chỉnh chương trình giảng dạy theo quy định. Đến năm 2030, thành phố đặt mục tiêu có ít nhất 40% cơ sở giáo dục xây dựng được môi trường sử dụng tiếng Anh và 30% cơ sở tổ chức giảng dạy các môn học bằng tiếng Anh.",
+      "Giai đoạn 2 (2031 - 2035) là thời điểm huy động toàn bộ nguồn lực để đạt các chỉ tiêu cốt lõi. Đến năm 2035, thành phố phấn đấu 100% cán bộ quản lý và giáo viên đạt chuẩn năng lực tiếng Anh, đồng thời hoàn thiện chương trình giảng dạy bằng tiếng Anh tại tất cả các trường. Khoảng 50% cơ sở giáo dục phổ thông dự kiến sẽ thực hiện chương trình giáo dục tích hợp theo nhu cầu tự nguyện của người học.",
+      "Giai đoạn 3 (2036 - 2045) được xác định là giai đoạn nâng cao và phát triển bền vững. Trong giai đoạn này, TP.HCM sẽ duy trì năng lực đội ngũ, cập nhật phương pháp giảng dạy hiện đại và đẩy mạnh song ngữ hóa môi trường học tập. Mục tiêu cuối cùng là nâng tỉ lệ cơ sở giáo dục thực hiện chương trình tích hợp lên 60% - 70%, đưa TP.HCM trở thành trung tâm giáo dục, kinh tế và tài chính tiên tiến trong khu vực."
+    ],
+    "generation_provider": "Gemini:gemini-3.1-flash-lite",
+    "seo_title": "Lộ trình 3 giai đoạn đưa tiếng Anh thành ngôn ngữ thứ hai tại TP.HCM",
+    "meta_description": "TP.HCM triển khai đề án đưa tiếng Anh thành ngôn ngữ thứ hai trong trường học với lộ trình 3 giai đoạn từ 2026 đến 2045 nhằm nâng cao chất lượng giáo dục.",
+    "keywords": [
+      "tiếng Anh",
+      "TP.HCM",
+      "giáo dục",
+      "ngôn ngữ thứ hai",
+      "lộ trình"
+    ],
+    "slug": "tp-hcm-cong-bo-lo-trinh-3-giai-oan-ua-tieng-anh-thanh-ngon-ngu-thu-hai-t-a088a0e4",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 357,
+    "display_source": true,
+    "source_urls": [
+      "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+      "https://dantri.com.vn/thoi-su/lo-trinh-nuoc-rut-dua-san-bay-long-thanh-vao-khai-thac-cuoi-thang-12-20261101124302146.htm",
+      "https://thanhnien.vn/dieu-gi-dua-khai-hoan-imperial-tro-thanh-bieu-tuong-hang-sang-tai-thuan-an-18526110315192687.htm"
+    ],
+    "source_links": [
+      "https://dantri.com.vn/thoi-su/lo-trinh-nuoc-rut-dua-san-bay-long-thanh-vao-khai-thac-cuoi-thang-12-20261101124302146.htm",
+      "https://thanhnien.vn/dieu-gi-dua-khai-hoan-imperial-tro-thanh-bieu-tuong-hang-sang-tai-thuan-an-18526110315192687.htm"
+    ],
+    "source_references": [
+      {
+        "name": "Tuổi Trẻ - Tin mới",
+        "url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+        "domain": "tuoitre.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "tuoitre.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-04T00:27:00+00:00"
+      },
+      {
+        "name": "Dân Trí - Tin mới",
+        "url": "https://dantri.com.vn/thoi-su/lo-trinh-nuoc-rut-dua-san-bay-long-thanh-vao-khai-thac-cuoi-thang-12-20261101124302146.htm",
+        "domain": "dantri.com.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "dantri.com.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-02T03:49:29+00:00"
+      },
+      {
+        "name": "Thanh Niên - Tin mới",
+        "url": "https://thanhnien.vn/dieu-gi-dua-khai-hoan-imperial-tro-thanh-bieu-tuong-hang-sang-tai-thuan-an-18526110315192687.htm",
+        "domain": "thanhnien.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "thanhnien.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-04T01:00:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "UBND TP.HCM công bố kế hoạch đưa tiếng Anh thành ngôn ngữ thứ hai trong trường học theo 3 giai đoạn.",
+        "source_urls": [
+          "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "UBND TP.HCM vừa công bố kế hoạch thực hiện đề án đưa tiếng Anh trở thành ngôn ngữ thứ hai trong trường học theo 3 giai đoạn.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "snippet": "UBND TP.HCM vừa công bố kế hoạch thực hiện đề án đưa tiếng Anh trở thành ngôn ngữ thứ hai trong trường học theo 3 giai đoạn.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "page_sha256": "4665c9c46948e0965baa4c0571bb990a123b852b6cc695911e68cb45871d68e9",
+            "snippet_sha256": "55702718d422ca2b1f27c8659c3cd986d6edaf72362c19421d1b7b23cd59937b",
+            "verified_at": "2026-11-05T17:42:11.044017+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Giai đoạn 1 (2026-2030) tập trung xây dựng nền tảng, giai đoạn 2 (2031-2035) huy động nguồn lực và giai đoạn 3 (2036-2045) là giai đoạn nâng cao.",
+        "source_urls": [
+          "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Giai đoạn 3 (2036 - 2045)là giai đoạn nâng cao, hoàn thiện điều kiện, nguồn lực cho phát triển bền vững.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "snippet": "Giai đoạn 3 (2036 - 2045)là giai đoạn nâng cao, hoàn thiện điều kiện, nguồn lực cho phát triển bền vững.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "page_sha256": "4665c9c46948e0965baa4c0571bb990a123b852b6cc695911e68cb45871d68e9",
+            "snippet_sha256": "333d58483881db2b79ec9a5c12214e612fe59796224b203cee3387f5d72297a2",
+            "verified_at": "2026-11-05T17:42:11.044017+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Mục tiêu đến năm 2035 là 100% giáo viên đạt chuẩn năng lực tiếng Anh và 50% cơ sở giáo dục thực hiện chương trình tích hợp.",
+        "source_urls": [
+          "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Cụ thể là đến năm 2035 phấn đấu đạt các mục tiêu cốt lõi: 100% cán bộ quản lý và giáo viên đạt chuẩn năng lực tiếng Anh theo kế hoạch; 100% cơ sở hoàn thành bồi dưỡng phương pháp dạy môn bằng tiếng Anh; 100% cơ sở thiết kế hoàn chỉnh chương trình dạy học bằng tiếng Anh; 100% cơ sở hoàn thành xây dựng môi trường tiếng Anh học đường; phấn đấu khoảng 50% cơ sở giáo dục phổ thông thực hiện chương trình giáo dục tích hợp (bao gồm Chương trình tích hợp theo Đề án 5695) theo nhu cầu tự nguyện của người học.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "snippet": "Cụ thể là đến năm 2035 phấn đấu đạt các mục tiêu cốt lõi: 100% cán bộ quản lý và giáo viên đạt chuẩn năng lực tiếng Anh theo kế hoạch; 100% cơ sở hoàn thành bồi dưỡng phương pháp dạy môn bằng tiếng Anh; 100% cơ sở thiết kế hoàn chỉnh chương trình dạy học bằng tiếng Anh; 100% cơ sở hoàn thành xây dựng môi trường tiếng Anh học đường; phấn đấu khoảng 50% cơ sở giáo dục phổ thông thực hiện chương trình giáo dục tích hợp (bao gồm Chương trình tích hợp theo Đề án 5695) theo nhu cầu tự nguyện của người học.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "page_sha256": "4665c9c46948e0965baa4c0571bb990a123b852b6cc695911e68cb45871d68e9",
+            "snippet_sha256": "906c4ac36ae166664a35bfe7c21e0fac72c73281fbacd3de0e78c87253f84aea",
+            "verified_at": "2026-11-05T17:42:11.044017+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết hệ thống hóa lộ trình 3 giai đoạn của đề án, giúp độc giả nắm bắt rõ các cột mốc thời gian và mục tiêu cụ thể theo từng giai đoạn. Đồng thời, bài làm rõ nguyên tắc triển khai linh hoạt dựa trên điều kiện thực tế của từng địa phương, tránh áp lực cho cơ sở giáo dục.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-05T17:42:11.044658+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "100",
+      "2026",
+      "2027",
+      "2030",
+      "2031",
+      "2035",
+      "2036",
+      "2045",
+      "3",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-05T17:42:35.002817+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 357,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1622,
+        "source_access": [
+          {
+            "url": "https://tuoitre.vn/3-giai-doan-dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-o-tphcm-100261104065701217.htm",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-06 00:42"
+  },
+  {
+    "id": "bau-cu-giua-nhiem-ky-my-kich-ban-lan-song-xanh-co-the-gay-ap-luc-len-thi-e07b15c9",
+    "title": "Bầu cử giữa nhiệm kỳ Mỹ: Kịch bản 'làn sóng xanh' có thể gây áp lực lên thị trường chứng khoán",
+    "summary": "Phân tích tác động tiềm tàng của cuộc bầu cử giữa nhiệm kỳ tại Mỹ đối với thị trường chứng khoán nếu đảng Dân chủ giành quyền kiểm soát cả Hạ viện và Thượng viện.",
+    "category": "world",
+    "source_name": "CNBC - Top News",
+    "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+    "published_at": "2026-11-04T01:49:58+00:00",
+    "fetched_at": "2026-11-05T17:42:16.457722+00:00",
+    "appnho_published_at": "2026-11-05T17:42:35.002817+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Cuộc bầu cử giữa nhiệm kỳ tại Mỹ đang thu hút sự quan tâm lớn từ giới đầu tư trên Phố Wall khi kết quả có khả năng định hình lại cục diện chính trị tại Quốc hội. Theo các chuyên gia và nhà phân tích, thị trường tài chính hiện vẫn chưa phản ánh hoàn toàn kịch bản đảng Dân chủ giành chiến thắng áp đảo ở cả Hạ viện và Thượng viện, một diễn biến thường được gọi là 'làn sóng xanh'. Nếu kịch bản này xảy ra, giá cổ phiếu có thể chịu áp lực điều chỉnh trong ngắn hạn vào ngày giao dịch tiếp theo.",
+      "Tuy nhiên, góc nhìn từ lịch sử cho thấy xu hướng chung của thị trường trong những tháng tiếp theo sau các kỳ bầu cử giữa nhiệm kỳ thường mang tín hiệu tích cực. Dù vậy, một số chuyên gia lưu ý rằng chỉ số S&P 500 đã ghi nhận mức tăng trưởng đáng kể từ đầu năm, điều này có thể làm giảm bớt đà bứt phá thường thấy. Thêm vào đó, những biến động gần đây trong lĩnh vực trí tuệ nhân tạo cũng đang tạo thêm áp lực lên tâm lý thận trọng của giới đầu tư.",
+      "Bên cạnh yếu tố thị trường chung, một số ngành hàng cụ thể có thể đối mặt với sự thay đổi lớn về chính sách nếu đảng Dân chủ kiểm soát hoàn toàn quốc hội. Các cổ phiếu liên quan đến công nghệ, trung tâm dữ liệu hay quốc phòng có khả năng chịu thêm sức ép từ các quy định giám sát hoặc giới hạn chi tiêu mới. Trong khi đó, các chiến lược gia từ các tổ chức tài chính lớn tiếp tục theo dõi sát sao diễn biến tại các bang chiến lược để đánh giá mức độ tác động ngắn hạn đối với danh mục đầu tư."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Bầu cử giữa nhiệm kỳ Mỹ 2026 và tác động tới thị trường chứng khoán",
+    "meta_description": "Khám phá góc nhìn từ các chuyên gia và nhà phân tích về phản ứng của thị trường chứng khoán Mỹ trước kịch bản đảng Dân chủ thắng lớn trong cuộc bầu cử giữa nhiệ",
+    "keywords": [
+      "bầu cử giữa nhiệm kỳ",
+      "thị trường chứng khoán",
+      "đảng Dân chủ",
+      "S&P 500",
+      "phố Wall"
+    ],
+    "slug": "bau-cu-giua-nhiem-ky-my-kich-ban-lan-song-xanh-co-the-gay-ap-luc-len-thi-e07b15c9",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 320,
+    "display_source": true,
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+      "https://www.wired.com/story/a-right-wing-think-tank-has-a-plan-to-prevent-democrats-from-being-seated-in-congress",
+      "https://www.france24.com/en/americas/20261102-what-changes-if-democrats-win-a-majority-in-congress",
+      "https://www.npr.org/2026/10/28/g-s1-150095/democrats-prepare-election-fraud-claims",
+      "https://www.bbc.co.uk/news/articles/cvglwg033027o?at_medium=RSS&at_campaign=rss"
+    ],
+    "source_links": [
+      "https://www.wired.com/story/a-right-wing-think-tank-has-a-plan-to-prevent-democrats-from-being-seated-in-congress",
+      "https://www.france24.com/en/americas/20261102-what-changes-if-democrats-win-a-majority-in-congress",
+      "https://www.npr.org/2026/10/28/g-s1-150095/democrats-prepare-election-fraud-claims",
+      "https://www.bbc.co.uk/news/articles/cvglwg033027o?at_medium=RSS&at_campaign=rss"
+    ],
+    "source_references": [
+      {
+        "name": "CNBC - Top News",
+        "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+        "domain": "cnbc.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "cnbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-04T01:49:58+00:00"
+      },
+      {
+        "name": "Wired - All",
+        "url": "https://www.wired.com/story/a-right-wing-think-tank-has-a-plan-to-prevent-democrats-from-being-seated-in-congress",
+        "domain": "wired.com",
+        "source_type": "Tạp chí",
+        "source_family": "wired.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-02T17:29:17+00:00"
+      },
+      {
+        "name": "France 24 - English",
+        "url": "https://www.france24.com/en/americas/20261102-what-changes-if-democrats-win-a-majority-in-congress",
+        "domain": "france24.com",
+        "source_type": "Đài/báo",
+        "source_family": "france24.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-02T16:29:53+00:00"
+      },
+      {
+        "name": "NPR - News",
+        "url": "https://www.npr.org/2026/10/28/g-s1-150095/democrats-prepare-election-fraud-claims",
+        "domain": "npr.org",
+        "source_type": "Chưa phân loại",
+        "source_family": "npr.org",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-10-28T09:00:00+00:00"
+      },
+      {
+        "name": "BBC News - Top Stories",
+        "url": "https://www.bbc.co.uk/news/articles/cvglwg033027o?at_medium=RSS&at_campaign=rss",
+        "domain": "bbc.co.uk",
+        "source_type": "Báo/đài",
+        "source_family": "bbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-10-28T11:00:12+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Thị trường chứng khoán chưa phản ánh hoàn toàn kịch bản đảng Dân chủ thắng cả Hạ viện và Thượng viện.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html"
+        ],
+        "importance": "core",
+        "evidence_snippet": "\"A substantial Democratic sweep could limit real spending growth unless a broader agreement increases both defense and health-care funding,\" said Alex Sagal, global equity analyst at Wells Fargo Investment Institute.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "snippet": "\"A substantial Democratic sweep could limit real spending growth unless a broader agreement increases both defense and health-care funding,\" said Alex Sagal, global equity analyst at Wells Fargo Investment Institute.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "page_sha256": "2808865afaf99c5ddccef53132eda86cbd0f27c5d7f8e83cc14244ada5288844",
+            "snippet_sha256": "abe9e848ae10c675b2cd0800a0ae460bc2ab882613a8de429192fb49d7bb4184",
+            "verified_at": "2026-11-05T17:42:16.457296+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "JPMorgan dự báo kịch bản làn sóng xanh có thể khiến chỉ số S&P 500 giảm khoảng nửa phần trăm vào ngày thứ Tư.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "JPMorgan sees a blue wave knocking the S&P 500 by about a half percent on Wednesday.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "snippet": "JPMorgan sees a blue wave knocking the S&P 500 by about a half percent on Wednesday.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "page_sha256": "2808865afaf99c5ddccef53132eda86cbd0f27c5d7f8e83cc14244ada5288844",
+            "snippet_sha256": "6c2e6e341cd8c11e9951df50fff8b598b29583ed7c35f3e054352e559337980e",
+            "verified_at": "2026-11-05T17:42:16.457296+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Chỉ số S&P 500 ghi nhận mức tăng trưởng đáng kể trong năm 2026 trước thềm bầu cử.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "But the S&P 500 has already recorded double-digit gains so far in 2026, so some on Wall Street worry that investors are being overly complacent heading into this year's elections.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "snippet": "But the S&P 500 has already recorded double-digit gains so far in 2026, so some on Wall Street worry that investors are being overly complacent heading into this year's elections.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "page_sha256": "2808865afaf99c5ddccef53132eda86cbd0f27c5d7f8e83cc14244ada5288844",
+            "snippet_sha256": "4c153768abc983a144911a7d18d33a216aadfcbbb51ec7063e86f44c23eeafa1",
+            "verified_at": "2026-11-05T17:42:16.457296+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết giải thích rõ kịch bản thị trường tài chính phản ứng với kết quả bầu cử giữa nhiệm kỳ Mỹ. Đồng thời, bài phân tích làm rõ góc nhìn giữa các xu hướng lịch sử và áp lực ngắn hạn đối với một số nhóm ngành cụ thể.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-05T17:42:16.457793+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "500"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-05T17:42:35.002817+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 320,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1430,
+        "source_access": [
+          {
+            "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "france24.com",
+          "npr.org",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-06 00:42"
+  },
+  {
+    "id": "quan-chuc-bau-cu-my-canh-giac-truoc-nguy-co-can-thiep-tu-chinh-quyen-df05ecef",
+    "title": "Quan chức bầu cử Mỹ cảnh giác trước nguy cơ can thiệp từ chính quyền",
+    "summary": "Trong bối cảnh cuộc bầu cử giữa nhiệm kỳ đang diễn ra, các quan chức bầu cử tại Mỹ đang tăng cường cảnh giác trước những lo ngại về khả năng can thiệp từ chính quyền Tổng thống Donald Trump.",
+    "category": "world",
+    "source_name": "France 24 - English",
+    "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+    "published_at": "2026-11-03T16:41:47+00:00",
+    "fetched_at": "2026-11-05T17:42:33.421530+00:00",
+    "appnho_published_at": "2026-11-05T17:42:35.002817+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Khi cử tri Mỹ bắt đầu đi bỏ phiếu trong kỳ bầu cử giữa nhiệm kỳ, các quan chức phụ trách bầu cử tại các bang đang phải đối mặt với áp lực lớn. Họ lo ngại rằng các cơ quan liên bang dưới quyền Tổng thống Donald Trump có thể thực hiện các hành động gây gián đoạn, từ việc thách thức kiểm phiếu cho đến cản trở quá trình chứng nhận kết quả bầu cử.",
+      "Mặc dù Hiến pháp Mỹ quy định các bang có thẩm quyền chính trong việc tổ chức và quản lý bầu cử, những động thái gần đây từ Bộ Tư pháp (DOJ) đã làm dấy lên nhiều lo ngại. DOJ đã triển khai khoảng 1.000 giám sát viên bầu cử trên khắp 50 bang, một quy mô chưa từng có tiền lệ. Đồng thời, chính quyền cũng quyết định không mời các quan sát viên từ Tổ chức An ninh và Hợp tác châu Âu (OSCE), phá vỡ thông lệ kéo dài hai thập kỷ qua.",
+      "Các chuyên gia và đảng viên Dân chủ cảnh báo rằng sự hiện diện của các giám sát viên liên bang có thể gây áp lực tâm lý lên cử tri. Bên cạnh đó, các chuyên gia pháp lý cũng lưu ý rằng các luật thời Nội chiến nghiêm cấm quân đội và đặc vụ liên bang có vũ trang xuất hiện tại các điểm bỏ phiếu. Dù phía chính quyền khẳng định các giám sát viên sẽ không mang vũ khí và không can thiệp vào quá trình bỏ phiếu, nỗi lo về việc các đặc vụ liên bang có thể tìm cách thu giữ phiếu bầu hoặc hồ sơ bầu cử vẫn là một điểm nóng tiềm ẩn có thể làm gián đoạn quá trình kiểm phiếu chính thức."
+    ],
+    "generation_provider": "Gemini:gemini-3.1-flash-lite",
+    "seo_title": "Quan chức bầu cử Mỹ lo ngại can thiệp từ chính quyền trong kỳ bầu cử g",
+    "meta_description": "Các quan chức bầu cử Mỹ đang chuẩn bị đối phó với những rủi ro can thiệp từ chính quyền Tổng thống Donald Trump trong kỳ bầu cử giữa nhiệm kỳ 2026.",
+    "keywords": [
+      "bầu cử Mỹ",
+      "Donald Trump",
+      "bầu cử giữa nhiệm kỳ",
+      "can thiệp bầu cử",
+      "Bộ Tư pháp Mỹ"
+    ],
+    "slug": "quan-chuc-bau-cu-my-canh-giac-truoc-nguy-co-can-thiep-tu-chinh-quyen-df05ecef",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 304,
+    "display_source": true,
+    "source_urls": [
+      "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+      "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news"
+    ],
+    "source_links": [
+      "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news"
+    ],
+    "source_references": [
+      {
+        "name": "France 24 - English",
+        "url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+        "domain": "france24.com",
+        "source_type": "Đài/báo",
+        "source_family": "france24.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-03T16:41:47+00:00"
+      },
+      {
+        "name": "The Guardian - World",
+        "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+        "domain": "theguardian.com",
+        "source_type": "Báo",
+        "source_family": "theguardian.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-10-29T16:21:43+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Các quan chức bầu cử Mỹ lo ngại chính quyền Tổng thống Donald Trump có thể can thiệp vào kỳ bầu cử giữa nhiệm kỳ 2026.",
+        "source_urls": [
+          "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Try againCover image: US President Donald Trump, pictured making baseless claims of election fraud ahead of the 2021 US Capitol riot, has declined to rule out extraordinary measures around the 2026 midterm vote.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "snippet": "Try againCover image: US President Donald Trump, pictured making baseless claims of election fraud ahead of the 2021 US Capitol riot, has declined to rule out extraordinary measures around the 2026 midterm vote.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "page_sha256": "bc5aeacd48dcc2b63ba837bba4f885e516473f52fd828d184d6e543cc8ca5c93",
+            "snippet_sha256": "8684fc25b3a2d55aca3e24f41ac51a61e5a97b4e8b5698ae65d9e70ef388ec09",
+            "verified_at": "2026-11-05T17:42:33.421080+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Bộ Tư pháp Mỹ triển khai khoảng 1.000 giám sát viên bầu cử đến 50 bang, quy mô lớn nhất từ trước đến nay.",
+        "source_urls": [
+          "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "The Justice Department announced plans to send around 1,000 election monitors to all 50 states – its largest deployment ever.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "snippet": "The Justice Department announced plans to send around 1,000 election monitors to all 50 states – its largest deployment ever.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "page_sha256": "bc5aeacd48dcc2b63ba837bba4f885e516473f52fd828d184d6e543cc8ca5c93",
+            "snippet_sha256": "977b59a96c93149121a47f2ce84caad86836559f52b77350f38de5bc2fa0d609",
+            "verified_at": "2026-11-05T17:42:33.421080+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Chính quyền Trump không mời các quan sát viên từ OSCE tham gia giám sát bầu cử giữa nhiệm kỳ 2026.",
+        "source_urls": [
+          "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Issued on:03/11/2026 - 17:41Modified:03/11/2026 - 21:13",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "snippet": "Issued on:03/11/2026 - 17:41Modified:03/11/2026 - 21:13",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "page_sha256": "bc5aeacd48dcc2b63ba837bba4f885e516473f52fd828d184d6e543cc8ca5c93",
+            "snippet_sha256": "7038000ccb0cb8500ed5f483bd796daeb15053b69cc2e7249b164d530a2bec85",
+            "verified_at": "2026-11-05T17:42:33.421080+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ bối cảnh căng thẳng giữa chính quyền liên bang và các quan chức bầu cử bang trong kỳ bầu cử 2026. Nội dung phân tích các điểm nóng cụ thể như việc triển khai giám sát viên và các rào cản pháp lý đối với quyền hạn của tổng thống.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-05T17:42:33.421597+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "1.000",
+      "50"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-05T17:42:35.002817+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 304,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1347,
+        "source_access": [
+          {
+            "url": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-06 00:42"
   }
 ]
