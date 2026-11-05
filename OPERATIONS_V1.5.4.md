@@ -21,7 +21,7 @@ Research chỉ phát hiện, kiểm chứng và chuẩn bị candidate. Nó khô
 
 Ba cron phải được giữ riêng. `scripts/resolve_publish_slot.py` đọc event thực tế của GitHub Actions:
 - 05:45 → `regular`, tối đa 4 bài.
-- 11:45 → `digest`, không xuất bản bài thường trong slot này.
+- 11:45 → `digest`: xuất bản tối đa 4 tin mới như slot thường, sau đó tạo điểm tin ưu tiên các bài mới nhất; bài cũ chỉ bổ sung khi chưa đủ 6 bài.
 - 16:45 → `regular`, tối đa 4 bài.
 
 Không đổi thành một cron gộp vì GitHub gửi `github.event.schedule` đúng chuỗi cron đã kích hoạt.

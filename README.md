@@ -19,7 +19,7 @@ Hệ thống có ba luồng tách biệt:
 | Mục tiêu hiển thị | 06:00, 12:00, 17:00 | Finalizer chạy trước 15 phút |
 | Legacy upgrade | Chỉ chạy thủ công | `workflow_dispatch` |
 
-Lượt 12:00 dành cho điểm tin. Chỉ tạo digest khi có ít nhất 6 bài AppNho đạt `quality_version=1.5` và `quality_status=PASS`; không đủ thì bỏ lượt, không lấy RSS lead chưa nghiên cứu để lấp số lượng.
+Lượt 12:00 xuất bản tối đa 4 tin MỚI (nghiên cứu, viết và kiểm duyệt như mọi lượt) rồi tạo điểm tin từ các bài AppNho mới nhất; bài cũ chỉ bổ sung khi chưa đủ 6 bài gần đây. Chỉ tạo digest khi có ít nhất 6 bài AppNho đạt `quality_version=1.5` và `quality_status=PASS`; không đủ thì bỏ lượt, không lấy RSS lead chưa nghiên cứu để lấp số lượng.
 
 Cron được kiểm tra theo UTC. GitHub Actions có thể trễ hoặc bỏ lịch khi hệ thống quá tải; vì vậy không thể bảo đảm một bài sẽ xuất hiện đúng từng phút. Pipeline vẫn tự chạy và chỉ xuất bản khi có candidate qua QA.
 
