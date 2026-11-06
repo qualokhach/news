@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "openai-thay-oi-chinh-sach-ve-thoa-thuan-bao-mat-tai-cac-du-an-trung-tam--cd7fe289",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-06T01:51:48.547169+00:00",
     "expires_at": "2026-11-07T01:51:48.547169+00:00",
     "source_urls": [
@@ -210,11 +210,50 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-06T12:30:00.787048+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-06T12:30:00.787048+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 409,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1863,
+        "source_access": [
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "cnbc.com",
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "nhung-tay-vot-ten-tuoi-tranh-ve-vot-tai-vong-loai-grand-slam-of-darts-96300995",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-06T01:51:48.547169+00:00",
     "expires_at": "2026-11-07T01:51:48.547169+00:00",
     "source_urls": [
@@ -230,7 +269,7 @@
       "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
       "published_at": "2026-11-06T01:39:17+00:00",
       "fetched_at": "2026-11-06T01:52:19.190812+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-06T12:30:00.787048+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -390,23 +429,33 @@
         "48"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-06T01:52:19.191400+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-06T12:30:00.787048+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 246,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1141
-        },
-        "independent_domains": [
-          "sportingnews.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1141,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "sportingnews.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-06 19:30"
+    },
+    "published_at": "2026-11-06T12:30:00.787048+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "jon-rahm-e-ngo-kha-nang-tro-lai-pga-tour-sau-khi-roi-liv-golf-504b6dc2",
@@ -15877,7 +15926,7 @@
   },
   {
     "queue_id": "668465c0623ffdc0f40c",
-    "status": "WRITING_PENDING",
+    "status": "EXPIRED",
     "staged_at": "2026-11-02T18:53:33.542582+00:00",
     "expires_at": "2026-11-06T09:50:08.107993+00:00",
     "category_hint": "vietnam",
@@ -16907,7 +16956,7 @@
   },
   {
     "queue_id": "17fd7e3a70dcaf29adc1",
-    "status": "WRITING_PENDING",
+    "status": "EXPIRED",
     "staged_at": "2026-11-03T02:20:53.272468+00:00",
     "expires_at": "2026-11-06T09:50:08.107993+00:00",
     "category_hint": "vietnam",
@@ -17265,7 +17314,7 @@
   },
   {
     "queue_id": "52b85d817ac44a480ac7",
-    "status": "WRITING_PENDING",
+    "status": "EXPIRED",
     "staged_at": "2026-11-03T02:21:02.059546+00:00",
     "expires_at": "2026-11-06T09:50:08.107993+00:00",
     "category_hint": "vietnam",
@@ -18690,7 +18739,7 @@
   },
   {
     "queue_id": "438f9f6b218ea1b2e958",
-    "status": "WRITING_PENDING",
+    "status": "EXPIRED",
     "staged_at": "2026-11-03T03:07:34.427320+00:00",
     "expires_at": "2026-11-06T11:23:50.946467+00:00",
     "category_hint": "vietnam",
@@ -18883,7 +18932,7 @@
   },
   {
     "queue_id": "b583adca5f8f5a3dd3c8",
-    "status": "WRITING_PENDING",
+    "status": "EXPIRED",
     "staged_at": "2026-11-03T03:07:36.510959+00:00",
     "expires_at": "2026-11-06T03:05:40.204071+00:00",
     "category_hint": "sports",
@@ -19010,7 +19059,7 @@
   },
   {
     "queue_id": "92223af2ec72ad611f4c",
-    "status": "WRITING_PENDING",
+    "status": "EXPIRED",
     "staged_at": "2026-11-03T03:07:37.199973+00:00",
     "expires_at": "2026-11-06T11:23:50.946467+00:00",
     "category_hint": "sports",
@@ -61593,7 +61642,7 @@
   },
   {
     "queue_id": "california-oi-au-chinh-quyen-lien-bang-ve-cac-ieu-kien-tai-tro-bang-thon-6d69433d",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-06T11:34:58.194472+00:00",
     "expires_at": "2026-11-07T11:34:58.194472+00:00",
     "source_urls": [
@@ -61611,7 +61660,7 @@
       "source_url": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws",
       "published_at": "2026-11-03T22:39:37+00:00",
       "fetched_at": "2026-11-06T11:35:14.195827+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-06T12:30:00.787048+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -61809,29 +61858,39 @@
         "14"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-06T11:35:14.197482+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-06T12:30:00.787048+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 416,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1946
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "arstechnica.com",
-          "bbc.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1946,
+          "source_access": [
+            {
+              "url": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "arstechnica.com",
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-06 19:30"
+    },
+    "published_at": "2026-11-06T12:30:00.787048+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "manchester-united-can-nhac-chieu-mo-hau-ve-rayan-ait-nouri-cua-man-city-16e65d1d",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-06T11:34:58.194472+00:00",
     "expires_at": "2026-11-07T11:34:58.194472+00:00",
     "source_urls": [
@@ -61847,7 +61906,7 @@
       "source_url": "https://www.skysports.com/football/news/12040/13607697/manchester-united-keen-on-signing-manchester-city-defender-rayan-ait-nouri-who-is-open-to-crossing-divide-in-january-paper-talk",
       "published_at": "2026-11-03T23:10:00+00:00",
       "fetched_at": "2026-11-06T11:35:22.876947+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-06T12:30:00.787048+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -62003,27 +62062,42 @@
         "25"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-06T11:35:22.877656+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-06T12:30:00.787048+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 179,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 870
-        },
-        "independent_domains": [
-          "bbc.com",
-          "skysports.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 870,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.skysports.com/football/news/12040/13607697/manchester-united-keen-on-signing-manchester-city-defender-rayan-ait-nouri-who-is-open-to-crossing-divide-in-january-paper-talk",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-06 19:30"
+    },
+    "published_at": "2026-11-06T12:30:00.787048+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "barcelona-de-dang-anh-bai-aston-villa-3-0-trong-khuon-kho-champions-leag-a73624b6",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-06T11:34:58.194472+00:00",
     "expires_at": "2026-11-07T11:34:58.194472+00:00",
     "source_urls": [
@@ -62042,7 +62116,7 @@
       "source_url": "https://www.cbssports.com/soccer/news/barcelonas-champions-league-aston-villa-ucl-md-4",
       "published_at": "2026-11-03T23:28:47+00:00",
       "fetched_at": "2026-11-06T11:36:01.529634+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-06T12:30:00.787048+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -62255,25 +62329,35 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-06T11:36:01.530899+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-06T12:30:00.787048+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 200,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 956
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "cbssports.com",
-          "dantri.com.vn",
-          "sportingnews.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 956,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/barcelonas-champions-league-aston-villa-ucl-md-4",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cbssports.com",
+            "dantri.com.vn",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-06 19:30"
+    },
+    "published_at": "2026-11-06T12:30:00.787048+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

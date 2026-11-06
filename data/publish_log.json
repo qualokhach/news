@@ -124,5 +124,20 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-06 19:30",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-06T12:30:00.787048+00:00",
+    "prepared_candidates": 15,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "openai-thay-oi-chinh-sach-ve-thoa-thuan-bao-mat-tai-cac-du-an-trung-tam--cd7fe289",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
