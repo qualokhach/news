@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "jon-rahm-e-ngo-kha-nang-tro-lai-pga-tour-sau-khi-roi-liv-golf-504b6dc2",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-06T01:51:48.547169+00:00",
     "expires_at": "2026-11-07T01:51:48.547169+00:00",
     "source_urls": [
@@ -19,7 +19,7 @@
       "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
       "published_at": "2026-11-03T09:10:00+00:00",
       "fetched_at": "2026-11-06T01:52:35.823646+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-06T16:57:11.290323+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -215,29 +215,39 @@
         "2.0"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-06T01:52:35.824501+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-06T16:57:11.290323+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 392,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1788
-        },
-        "independent_domains": [
-          "bbc.com",
-          "euronews.com",
-          "skysports.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1788,
+          "source_access": [
+            {
+              "url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "euronews.com",
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-06 23:57"
+    },
+    "published_at": "2026-11-06T16:57:11.290323+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bluesky-ghi-nhan-luu-luong-truy-cap-cao-ky-luc-trong-em-bau-cu-2026-cabce70b",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-05T16:55:05.267119+00:00",
     "expires_at": "2026-11-06T16:55:05.267119+00:00",
     "source_urls": [
@@ -436,11 +446,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "alexis-ohanian-thoi-ai-cua-cac-ung-dung-mang-xa-hoi-a-qua-94f87067",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-05T16:55:05.267119+00:00",
     "expires_at": "2026-11-06T16:55:05.267119+00:00",
     "source_urls": [
@@ -714,11 +725,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "e-nhat-phu-nhan-my-melania-trump-tiep-on-quan-chuc-nga-va-ukraine-tai-nh-cf645309",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-05T11:35:03.068339+00:00",
     "expires_at": "2026-11-06T11:35:03.068339+00:00",
     "source_urls": [
@@ -940,11 +952,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "thu-mon-jesus-owono-oi-mat-ngay-thang-kho-khan-sau-su-ra-i-cua-tien-ao-j-ffc168de",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-04T16:39:53.727499+00:00",
     "expires_at": "2026-11-05T16:39:53.727499+00:00",
     "source_urls": [
@@ -1156,11 +1169,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "liverpool-thay-oi-nhan-su-truoc-tran-gap-fenerbahce-tai-champions-league-50c255cb",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-04T16:39:53.727499+00:00",
     "expires_at": "2026-11-05T16:39:53.727499+00:00",
     "source_urls": [
@@ -1350,11 +1364,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "sinh-vien-space-grant-tiep-lua-cho-chuyen-tham-quan-inspiration-tour-cua-bb38af95",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-04T16:39:53.727499+00:00",
     "expires_at": "2026-11-05T16:39:53.727499+00:00",
     "source_urls": [
@@ -1541,11 +1556,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "luat-bong-a-oi-mat-ap-luc-thay-oi-sau-bi-kich-cua-tien-ao-jesus-de-migue-31eb628c",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-04T14:30:01.634473+00:00",
     "expires_at": "2026-11-05T14:30:01.634473+00:00",
     "source_urls": [
@@ -1811,11 +1827,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "noi-bo-maga-luc-uc-sau-that-bai-nang-ne-tai-cuoc-bau-cu-giua-ky-88036810",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-04T14:30:01.634473+00:00",
     "expires_at": "2026-11-05T14:30:01.634473+00:00",
     "source_urls": [
@@ -2002,11 +2019,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "thi-truong-cau-thu-tu-do-mlb-mua-2026-2027-tarik-skubal-dan-au-cac-du-ba-35b0a4cd",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-04T14:30:01.634473+00:00",
     "expires_at": "2026-11-05T14:30:01.634473+00:00",
     "source_urls": [
@@ -2226,7 +2244,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "california-oi-au-chinh-quyen-lien-bang-ve-cac-ieu-kien-tai-tro-bang-thon-6d69433d",
