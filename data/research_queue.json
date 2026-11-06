@@ -30573,7 +30573,7 @@
   },
   {
     "queue_id": "3c247f2aabf7ae84d37d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-03T11:23:27.884771+00:00",
     "expires_at": "2026-11-06T11:21:43.929893+00:00",
     "category_hint": "technology",
@@ -31283,11 +31283,12 @@
       ]
     },
     "research_ready_at": "2026-11-03T11:23:27.884793+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "goc-nhin-cua-thi-truong-zohran-mamdani-ve-tri-tue-nhan-tao-va-trung-tam--71b04d4a"
   },
   {
     "queue_id": "84354d30d9961f41ebd0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-03T11:23:28.364139+00:00",
     "expires_at": "2026-11-06T11:21:43.929893+00:00",
     "category_hint": "sports",
@@ -31850,11 +31851,12 @@
       ]
     },
     "research_ready_at": "2026-11-03T11:23:28.364161+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tranh-cai-keo-ao-va-ap-luc-nga-vo-tai-ngoai-hang-anh-63ee97b4"
   },
   {
     "queue_id": "292ec3500bce0ca17388",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-03T11:23:29.251503+00:00",
     "expires_at": "2026-11-06T11:21:43.929893+00:00",
     "category_hint": "technology",
@@ -32486,11 +32488,12 @@
       ]
     },
     "research_ready_at": "2026-11-03T11:23:29.251526+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ai-quan-sat-swift-cua-nasa-chuan-bi-lao-xuong-trai-at-sau-22-nam-hoat-on-38d06364"
   },
   {
     "queue_id": "d8e875f5786c1d2788e3",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-03T11:23:34.902911+00:00",
     "expires_at": "2026-11-06T11:21:43.929893+00:00",
     "category_hint": "vietnam",
@@ -33793,7 +33796,8 @@
       ]
     },
     "research_ready_at": "2026-11-03T11:23:34.902941+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "quang-ninh-at-muc-tieu-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-n-a571b37c"
   },
   {
     "queue_id": "0a6dba5b4f6956ddb5f8",
@@ -65151,5 +65155,1004 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "quang-ninh-at-muc-tieu-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-n-a571b37c",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-06T02:49:57.142425+00:00",
+    "expires_at": "2026-11-07T02:49:57.142425+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+      "https://dantri.com.vn/kinh-doanh/ket-qua-kinh-doanh-moi-nhat-cua-apple-co-may-tang-truong-dang-cham-lai-20261103072739373.htm"
+    ],
+    "article": {
+      "id": "quang-ninh-at-muc-tieu-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-n-a571b37c",
+      "title": "Quảng Ninh đặt mục tiêu thanh niên làm chủ ít nhất 25% doanh nghiệp khởi nghiệp mới vào năm 2030",
+      "summary": "HĐND thành phố Quảng Ninh vừa thông qua nghị quyết về phát triển thanh niên đến năm 2030, trong đó đặt mục tiêu thanh niên làm chủ tối thiểu 25% doanh nghiệp khởi nghiệp mới.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+      "published_at": "2026-11-03T10:25:00+00:00",
+      "fetched_at": "2026-11-06T02:50:02.200108+00:00",
+      "appnho_published_at": "2026-11-06T02:50:33.185473+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nghị quyết về phát triển thanh niên thành phố đến năm 2030 vừa được HĐND thành phố Quảng Ninh khóa I thông qua, đề ra nhiều chỉ tiêu cụ thể về khởi nghiệp, việc làm và chuyển đổi số.",
+        "Cụ thể, thành phố đặt mục tiêu đến năm 2030 sẽ có ít nhất 25% doanh nghiệp khởi nghiệp mới do thanh niên làm chủ. Bên cạnh đó, ít nhất 30% ý tưởng và dự án đổi mới sáng tạo của giới trẻ được kết nối với các doanh nghiệp, quỹ đầu tư cùng các nguồn vốn hợp pháp.",
+        "Về chất lượng nguồn nhân lực, nghị quyết phấn đấu trên 70% thanh niên đạt chuẩn kỹ năng nghề quốc gia, trong khi tỷ lệ thất nghiệp và thiếu việc làm được kiềm chế xuống dưới 4%. Công tác giáo dục hướng nghiệp cũng được chú trọng với yêu cầu 100% học sinh, sinh viên được trang bị kiến thức khởi nghiệp trước khi tốt nghiệp.",
+        "Chính quyền địa phương sẽ hoàn thiện các cơ chế hỗ trợ tài chính và thị trường lao động để hiện thực hóa các mục tiêu trên. Nghị quyết này chính thức có hiệu lực từ ngày 3-11-2026, thay thế văn bản ban hành từ cuối năm 2023."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Quảng Ninh: Thanh niên làm chủ 25% doanh nghiệp khởi nghiệp mới",
+      "meta_description": "Quảng Ninh đặt mục tiêu đến năm 2030 thanh niên làm chủ ít nhất 25% doanh nghiệp khởi nghiệp mới theo nghị quyết phát triển thanh niên.",
+      "keywords": [
+        "Quảng Ninh",
+        "khởi nghiệp",
+        "thanh niên",
+        "doanh nghiệp",
+        "nghị quyết"
+      ],
+      "slug": "quang-ninh-at-muc-tieu-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-n-a571b37c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 212,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+        "https://dantri.com.vn/kinh-doanh/ket-qua-kinh-doanh-moi-nhat-cua-apple-co-may-tang-truong-dang-cham-lai-20261103072739373.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/ket-qua-kinh-doanh-moi-nhat-cua-apple-co-may-tang-truong-dang-cham-lai-20261103072739373.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T10:25:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/ket-qua-kinh-doanh-moi-nhat-cua-apple-co-may-tang-truong-dang-cham-lai-20261103072739373.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T00:36:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Quảng Ninh đặt mục tiêu đến năm 2030 có ít nhất 25% doanh nghiệp khởi nghiệp mới do thanh niên làm chủ.",
+          "source_urls": [
+            "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Quảng Ninh đặt mục tiêu đến năm 2030 có ít nhất 25% doanh nghiệp khởi nghiệp mới do thanh niên làm chủ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "snippet": "Quảng Ninh đặt mục tiêu đến năm 2030 có ít nhất 25% doanh nghiệp khởi nghiệp mới do thanh niên làm chủ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "page_sha256": "cdb228498161106776abf3d8f5fa7a0ebdbd3bd6da79cf204b6578810830262f",
+              "snippet_sha256": "e41fa56ee2eff69904ef47869cf2887fbb50481207a0543d5cb6d7887c53db16",
+              "verified_at": "2026-11-06T02:50:02.198866+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HĐND thành phố Quảng Ninh khóa I thông qua nghị quyết về phát triển thanh niên thành phố đến năm 2030.",
+          "source_urls": [
+            "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ngày 3-11, HĐND thành phốQuảng Ninhkhóa I, nhiệm kỳ 2026-2031 thông qua nghị quyết về phát triển thanh niên thành phố đến năm 2030, với nhiều chỉ tiêu cụ thể về khởi nghiệp, đào tạo nghề, việc làm, chuyển đổi số và chăm sóc sức khỏe.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "snippet": "Ngày 3-11, HĐND thành phốQuảng Ninhkhóa I, nhiệm kỳ 2026-2031 thông qua nghị quyết về phát triển thanh niên thành phố đến năm 2030, với nhiều chỉ tiêu cụ thể về khởi nghiệp, đào tạo nghề, việc làm, chuyển đổi số và chăm sóc sức khỏe.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "page_sha256": "cdb228498161106776abf3d8f5fa7a0ebdbd3bd6da79cf204b6578810830262f",
+              "snippet_sha256": "e3e679abb42b2369877e1c4a8389756b1928869711c7279810948c4c548590b1",
+              "verified_at": "2026-11-06T02:50:02.198866+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ít nhất 30% ý tưởng, dự án khởi nghiệp, đổi mới sáng tạo của thanh niên được kết nối với doanh nghiệp, nhà đầu tư, quỹ đầu tư và tiếp cận các nguồn vốn hợp pháp.",
+          "source_urls": [
+            "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đồng thời ít nhất 30% ý tưởng, dự án khởi nghiệp, đổi mới sáng tạo của thanh niên được kết nối với doanh nghiệp, nhà đầu tư, quỹ đầu tư và tiếp cận các chương trình, nguồn vốn hợp pháp.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "snippet": "Đồng thời ít nhất 30% ý tưởng, dự án khởi nghiệp, đổi mới sáng tạo của thanh niên được kết nối với doanh nghiệp, nhà đầu tư, quỹ đầu tư và tiếp cận các chương trình, nguồn vốn hợp pháp.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "page_sha256": "cdb228498161106776abf3d8f5fa7a0ebdbd3bd6da79cf204b6578810830262f",
+              "snippet_sha256": "73755ed452ea8cc380fa9b1096d5c1485cda1447f1fae1f60a07ff4cde2c0887",
+              "verified_at": "2026-11-06T02:50:02.198866+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phấn đấu trên 70% thanh niên được đào tạo nghề hoặc có kỹ năng nghề đạt chuẩn theo khung kỹ năng nghề quốc gia; tỉ lệ thất nghiệp, thiếu việc làm trong thanh niên giảm xuống dưới 4%.",
+          "source_urls": [
+            "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Để nâng cao chất lượng nguồn nhân lực trẻ, thành phố phấn đấu trên 70% thanh niên được đào tạo nghề hoặc có kỹ năng nghề đạt chuẩn theo khung kỹ năng nghề quốc gia; tỉ lệ thất nghiệp, thiếu việc làm trong thanh niên giảm xuống dưới 4%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "snippet": "Để nâng cao chất lượng nguồn nhân lực trẻ, thành phố phấn đấu trên 70% thanh niên được đào tạo nghề hoặc có kỹ năng nghề đạt chuẩn theo khung kỹ năng nghề quốc gia; tỉ lệ thất nghiệp, thiếu việc làm trong thanh niên giảm xuống dưới 4%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "page_sha256": "cdb228498161106776abf3d8f5fa7a0ebdbd3bd6da79cf204b6578810830262f",
+              "snippet_sha256": "f3ee37cdf27fd43224e9f91cc7cdd9498cde44f1b2d6dd6408bb72a85c79f5ac",
+              "verified_at": "2026-11-06T02:50:02.198866+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nghị quyết có hiệu lực từ ngày 3-11-2026, thay thế nghị quyết số 178/NQ-HĐND ngày 8-12-2023.",
+          "source_urls": [
+            "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nghị quyết có hiệu lực từ ngày 3-11-2026, thay thế nghị quyết số 178/NQ-HĐND ngày 8-12-2023 về phát triển thanh niên Quảng Ninh đến năm 2030.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "snippet": "Nghị quyết có hiệu lực từ ngày 3-11-2026, thay thế nghị quyết số 178/NQ-HĐND ngày 8-12-2023 về phát triển thanh niên Quảng Ninh đến năm 2030.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "page_sha256": "cdb228498161106776abf3d8f5fa7a0ebdbd3bd6da79cf204b6578810830262f",
+              "snippet_sha256": "280caed4156bd1cf4c12d36a3c26f3862cabd85e87d5bcfdaa3dfdcf1e047d6a",
+              "verified_at": "2026-11-06T02:50:02.198866+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cập nhật các chỉ tiêu cụ thể trong nghị quyết mới của Quảng Ninh về phát triển thanh niên. Đồng thời, văn bản làm rõ bối cảnh triển khai các chính sách hỗ trợ vốn, đào tạo nghề và định hướng việc làm đến năm 2030.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T02:50:02.200201+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "2023",
+        "2030",
+        "25",
+        "30",
+        "4",
+        "70"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-06T02:50:33.185473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 212,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 989,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/quang-ninh-muon-thanh-nien-lam-chu-it-nhat-25-doanh-nghiep-khoi-nghiep-moi-100261103171441747.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-06 09:50"
+    },
+    "published_at": "2026-11-06T02:50:33.185473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ai-quan-sat-swift-cua-nasa-chuan-bi-lao-xuong-trai-at-sau-22-nam-hoat-on-38d06364",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-06T02:49:57.142425+00:00",
+    "expires_at": "2026-11-07T02:49:57.142425+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+      "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+      "https://www.npr.org/2026/10/28/nx-s1-6019613/organ-donor-ethics-risk",
+      "https://www.sportingnews.com/us/tickets/news/noah-kahan-2027-tickets-schedule-last-bugs-tour/c1d38d4c38303ecdc3d9b995"
+    ],
+    "article": {
+      "id": "ai-quan-sat-swift-cua-nasa-chuan-bi-lao-xuong-trai-at-sau-22-nam-hoat-on-38d06364",
+      "title": "Đài quan sát Swift của NASA chuẩn bị lao xuống Trái Đất sau 22 năm hoạt động",
+      "summary": "Sau hai thập kỷ quan sát vũ trụ, kính thiên văn không gian Swift của NASA chuẩn bị quay trở lại bầu khí quyển Trái Đất vào tuần tới sau khi sứ mệnh cứu hộ bất thành.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+      "published_at": "2026-11-03T10:45:00+00:00",
+      "fetched_at": "2026-11-06T02:50:17.895480+00:00",
+      "appnho_published_at": "2026-11-06T02:50:33.185473+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau 22 năm hoạt động trên quỹ đạo và một sứ mệnh cứu hộ thất bại vào mùa hè, đài quan sát Neil Gehrels Swift của NASA đối mặt với nguy cơ lao xuống Trái Đất vào khoảng tuần tới. Con tàu vũ trụ này có kích thước tương đương một chiếc thang máy lớn, tuy nhiên các chuyên gia đánh giá rủi ro đối với công chúng ở mức tương đối thấp.",
+        "Được phóng vào ngày 20 tháng 11 năm 2004, Swift là đài quan sát không gian được trang bị ba kính thiên văn, thiết kế ban đầu để phát hiện và nghiên cứu các vụ nổ tia gamma mạnh nhất trong vũ trụ. Dù chỉ dự kiến hoạt động trong vài năm, đài quan sát đã vượt xa kỳ vọng ban đầu, giúp giới khoa học thực hiện nhiều khám phá quan trọng về sự tiến hóa vũ trụ, siêu tân tinh và các hố đen.",
+        "Tuy nhiên, hoạt động của Mặt Trời gia tăng trong năm 2024 đã làm nóng và giãn nở các lớp phía trên của bầu khí quyển Trái Đất, làm tăng sức cản đối với vệ tinh và đẩy nhanh quá trình rơi. Do không có hệ thống đẩy để hiệu chỉnh quỹ đạo, NASA từng khởi động sứ mệnh trị giá 30 triệu USD vào tháng 7 để cứu vãn, nhưng các vấn đề về hệ thống điều khiển đã khiến kế hoạch này phải hủy bỏ.",
+        "Theo ước tính của Lực lượng Không gian Hoa Kỳ, phần còn lại của Swift dự kiến sẽ rơi xuống vào khoảng thứ Sáu, ngày 6 tháng 11. Hầu hết đài quan sát sẽ phân rã khi đi qua bầu khí quyển, ngoại trừ một số bộ phận cứng như bánh đà phản ứng hoặc các phần của gương và thấu kính có thể chịu được quá trình này và kết thúc hành trình ở khu vực đại dương."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Dai quan sat Swift cua NASA chuan bi lao xuong Trai Dat",
+      "meta_description": "Tim hieu ve thong tin kinh thien van khong gian Swift cua NASA sap roi xuong Trái Đất sau khi hoat động hon 2 thập kỷ.",
+      "keywords": [
+        "NASA",
+        "Swift Observatory",
+        "vệ tinh rơi",
+        "thiên văn học"
+      ],
+      "slug": "ai-quan-sat-swift-cua-nasa-chuan-bi-lao-xuong-trai-at-sau-22-nam-hoat-on-38d06364",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 325,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+        "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+        "https://www.npr.org/2026/10/28/nx-s1-6019613/organ-donor-ethics-risk",
+        "https://www.sportingnews.com/us/tickets/news/noah-kahan-2027-tickets-schedule-last-bugs-tour/c1d38d4c38303ecdc3d9b995"
+      ],
+      "source_links": [
+        "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+        "https://www.npr.org/2026/10/28/nx-s1-6019613/organ-donor-ethics-risk",
+        "https://www.sportingnews.com/us/tickets/news/noah-kahan-2027-tickets-schedule-last-bugs-tour/c1d38d4c38303ecdc3d9b995"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T10:45:00+00:00"
+        },
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-29T12:26:25+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6019613/organ-donor-ethics-risk",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-28T09:00:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/tickets/news/noah-kahan-2027-tickets-schedule-last-bugs-tour/c1d38d4c38303ecdc3d9b995",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-29T15:35:10+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sau 22 năm hoạt động trong quỹ đạo, đài quan sát Neil Gehrels Swift có khả năng cao sẽ lao xuống Trái Đất.",
+          "source_urls": [
+            "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact"
+          ],
+          "importance": "core",
+          "evidence_snippet": "After 22 yearsin orbit and afailed rescue missionthis summer, it is highly likely that the Neil Gehrels Swift Observatory will crash into Earth sometime next week.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "snippet": "After 22 yearsin orbit and afailed rescue missionthis summer, it is highly likely that the Neil Gehrels Swift Observatory will crash into Earth sometime next week.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "page_sha256": "ce41bb090da0ce7df18410c47432e70367ae9f5c2010346769c9119a04bfcf17",
+              "snippet_sha256": "df1b833e98771c8ddde7a6ad9548aed44fe3b47732b021ceb240451701507361",
+              "verified_at": "2026-11-06T02:50:17.894576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Swift được phóng vào ngày 20 tháng 11 năm 2004 và được thiết kế để phát hiện các vụ nổ tia gamma.",
+          "source_urls": [
+            "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Swift satellite is shown in July 2004 at Kennedy Space Center in Cape Canaveral, Florida.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "snippet": "The Swift satellite is shown in July 2004 at Kennedy Space Center in Cape Canaveral, Florida.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "page_sha256": "ce41bb090da0ce7df18410c47432e70367ae9f5c2010346769c9119a04bfcf17",
+              "snippet_sha256": "36faadcfc76e29fdae1a309e510b49507faf5667b7c1dc0662e1f3a7d1915b75",
+              "verified_at": "2026-11-06T02:50:17.894576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vào tháng 7 năm 2026, NASA đã khởi động sứ mệnh trị giá 30 triệu USD để cứu Swift nhưng thất bại do vấn đề hệ thống điều khiển.",
+          "source_urls": [
+            "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In July 2026, NASA launched a special $30 million mission to rescue Swift.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "snippet": "In July 2026, NASA launched a special $30 million mission to rescue Swift.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "page_sha256": "ce41bb090da0ce7df18410c47432e70367ae9f5c2010346769c9119a04bfcf17",
+              "snippet_sha256": "61ccb03b2ba6d101e88953e8732ff553fb8da07a5c0d4bd1f9ec95623e203ce5",
+              "verified_at": "2026-11-06T02:50:17.894576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lực lượng Không gian Hoa Kỳ ước tính vệ tinh Swift có thể rơi vào khoảng thứ Sáu, ngày 6 tháng 11.",
+          "source_urls": [
+            "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact"
+          ],
+          "importance": "core",
+          "evidence_snippet": "If there is a more precise calculation, that information has not been made public, but it’s most likely that all Swift’s remaining pieces will end up in the ocean.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "snippet": "If there is a more precise calculation, that information has not been made public, but it’s most likely that all Swift’s remaining pieces will end up in the ocean.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "page_sha256": "ce41bb090da0ce7df18410c47432e70367ae9f5c2010346769c9119a04bfcf17",
+              "snippet_sha256": "bc7c44a25e4113781d48f8a124484d00d8a2750ec37aac3c9485af527a6aac2b",
+              "verified_at": "2026-11-06T02:50:17.894576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp bối cảnh khoa học và nguyên nhân kỹ thuật dẫn đến việc đài quan sát Swift rơi xuống Trái Đất. Đồng thời, tác phẩm làm rõ những nỗ lực cứu hộ bất thành của NASA và các nhận định chuyên gia về mức độ rủi ro của mảnh vỡ còn sót lại.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T02:50:17.895614+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2024",
+        "22",
+        "30"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-06T02:50:33.185473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 325,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1443,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "npr.org",
+            "sciencedaily.com",
+            "sportingnews.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-06 09:50"
+    },
+    "published_at": "2026-11-06T02:50:33.185473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tranh-cai-keo-ao-va-ap-luc-nga-vo-tai-ngoai-hang-anh-63ee97b4",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-06T02:49:57.142425+00:00",
+    "expires_at": "2026-11-07T02:49:57.142425+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/picture/2026/nov/03/david-squires-on-mikel-arteta-football-not-disneyland",
+      "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "tranh-cai-keo-ao-va-ap-luc-nga-vo-tai-ngoai-hang-anh-63ee97b4",
+      "title": "Tranh cãi kéo áo và áp lực ngã vờ tại Ngoại hạng Anh",
+      "summary": "Tình huống không thổi phạt đền trong trận Arsenal và Liverpool khơi mào cuộc tranh luận về việc cầu thủ có buộc phải ngã xuống để được trọng tài chú ý hay không.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T14:06:47+00:00",
+      "fetched_at": "2026-11-06T02:50:23.056564+00:00",
+      "appnho_published_at": "2026-11-06T02:50:33.185473+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tranh cãi về việc cầu thủ có cần ngã vờ để kiếm phạt đền lại nóng lên sau trận đấu tại Ngoại hạng Anh, khi tiền đạo Alexander Isak của Liverpool không được thổi phạt dù bị Jurrien Timber bên phía Arsenal nắm áo trong vòng cấm.",
+        "Trong tình huống diễn ra ở trận đấu tại Anfield, Isak không hề phàn nàn mà lập tức quay đi chuẩn bị cho pha phát bóng lên. HLV Andoni Iraola của Liverpool sau trận thua đã lên tiếng chỉ trích và cho rằng cầu thủ buộc phải ngã xuống nếu muốn nhận được quyết định thổi phạt từ trọng tài.",
+        "Sự việc lập tức tạo ra những ý kiến trái chiều trong giới chuyên môn về tiêu chuẩn VAR và mức độ ảnh hưởng của hành vi kéo áo. Một số ý kiến cho rằng nếu cầu thủ không tạo ra sức ép hoặc không ngã xuống, tổ VAR và trọng tài chính rất khó đưa ra can thiệp do ngưỡng kiểm tra bằng video đặt khá cao trong mùa giải này.",
+        "Theo luật bóng đá hiện hành, hành vi kéo áo chỉ bị thổi phạt khi tác động thực sự làm cản trở di chuyển của đối thủ. Tuy nhiên, việc thiếu phản ứng từ cầu thủ bị phạm lỗi tiếp tục đặt ra bài toán khó cho các trọng tài trong việc cân bằng giữa hình ảnh fair-play và quyền lợi của đội bóng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tranh cãi tình huống kéo áo và quyết định VAR tại Ngoại hạng Anh",
+      "meta_description": "Phân tích tranh cãi xoay quanh tình huống kéo áo trong vòng cấm tại Ngoại hạng Anh và những góc nhìn từ giới chuyên môn.",
+      "keywords": [
+        "Ngoại hạng Anh",
+        "VAR",
+        "Arsenal",
+        "Liverpool",
+        "bóng đá"
+      ],
+      "slug": "tranh-cai-keo-ao-va-ap-luc-nga-vo-tai-ngoai-hang-anh-63ee97b4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 243,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/picture/2026/nov/03/david-squires-on-mikel-arteta-football-not-disneyland",
+        "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/picture/2026/nov/03/david-squires-on-mikel-arteta-football-not-disneyland"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/picture/2026/nov/03/david-squires-on-mikel-arteta-football-not-disneyland",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T10:57:42+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T14:06:47+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Jurrien Timber có hành động túm áo Alexander Isak trong vòng cấm nhưng trọng tài và VAR không cho Liverpool hưởng phạt đền.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Replays showed that Jurrien Timber had a handful of Isak's shirt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Replays showed that Jurrien Timber had a handful of Isak's shirt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "f900325bd20e2e2b6f4e46bffb65379d0c32997dc7fe6a32c42ad8b474fe2c23",
+              "snippet_sha256": "1b350e9cfc7ac26fd9c1fbb6661e85e4ed4a7db035080866844f3fd5bbc72b2e",
+              "verified_at": "2026-11-06T02:50:23.055997+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HLV Andoni Iraola phát biểu sau trận thua 1-0 rằng cầu thủ phải ngã xuống thì trọng tài mới thổi phạt.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"There is a clear grab of the shirt,\"Liverpoolmanager Andoni Iraola said after the1-0 defeat by the Gunnersat Anfield on Sunday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "snippet": "\"There is a clear grab of the shirt,\"Liverpoolmanager Andoni Iraola said after the1-0 defeat by the Gunnersat Anfield on Sunday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "f900325bd20e2e2b6f4e46bffb65379d0c32997dc7fe6a32c42ad8b474fe2c23",
+              "snippet_sha256": "09356e88758da9dc5ce750568ad838e322f2fbe17113541b74d24856bb02e8ed",
+              "verified_at": "2026-11-06T02:50:23.055997+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật quy định hành vi giữ chỉ là lỗi khi tác động của cầu thủ làm cản trở sự di chuyển của đối phương.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Former Premier League assistant referee Darren Cann told BBC Sport: \"It has to be sustained holding - some will say it was sustained, some will say it wasn't.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Former Premier League assistant referee Darren Cann told BBC Sport: \"It has to be sustained holding - some will say it was sustained, some will say it wasn't.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "f900325bd20e2e2b6f4e46bffb65379d0c32997dc7fe6a32c42ad8b474fe2c23",
+              "snippet_sha256": "4444559335935425c64f48b78dbea506c736b1b1a43e8916271f5c392aa34c9c",
+              "verified_at": "2026-11-06T02:50:23.055997+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ sự khác biệt trong cách xử lý của VAR đối với các tình huống kéo áo tương tự tại Ngoại hạng Anh. Đồng thời, văn bản phân tích góc nhìn của HLV Andoni Iraola về văn hóa ngã vờ để kiếm phạt đền dựa trên dữ liệu thực tế.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T02:50:23.056658+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-06T02:50:33.185473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 243,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1115,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-06 09:50"
+    },
+    "published_at": "2026-11-06T02:50:33.185473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "goc-nhin-cua-thi-truong-zohran-mamdani-ve-tri-tue-nhan-tao-va-trung-tam--71b04d4a",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-06T02:49:57.142425+00:00",
+    "expires_at": "2026-11-07T02:49:57.142425+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+      "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+      "https://www.theguardian.com/us-news/2026/oct/29/dhs-personnel-data-leak",
+      "https://www.npr.org/2026/10/29/nx-s1-6022096/who-benefits-when-massive-ai-data-centers-come-to-town"
+    ],
+    "article": {
+      "id": "goc-nhin-cua-thi-truong-zohran-mamdani-ve-tri-tue-nhan-tao-va-trung-tam--71b04d4a",
+      "title": "Góc nhìn của Thị trưởng Zohran Mamdani về trí tuệ nhân tạo và trung tâm dữ liệu",
+      "summary": "Bài viết phác họa những quan sát và bối cảnh xung quanh Thị trưởng New York Zohran Mamdani cùng các vấn đề thời sự về trí tuệ nhân tạo và trung tâm dữ liệu dựa trên ghi nhận của Wired.",
+      "category": "world",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+      "published_at": "2026-11-03T11:00:00+00:00",
+      "fetched_at": "2026-11-06T02:50:31.258298+00:00",
+      "appnho_published_at": "2026-11-06T02:50:33.185473+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trợ lý biên tập và các cuộc phỏng vấn thực tế từ Wired ghi nhận những bước ngoặt trong sự nghiệp chính trị của Thị trưởng New York Zohran Mamdani, người đã thu hút sự chú ý lớn từ công chúng và truyền thông nhờ các chiến dịch tập trung vào tầng lớp lao động và chi phí sinh hoạt.",
+        "Trong các cuộc trao đổi với báo chí tại văn phòng chiến dịch cũng như tại Tòa thị chính New York, ông Mamdani đã chia sẻ về khoảng thời gian đảm nhận công việc điều hành thành phố, cách thức tận dụng mạng xã hội trong quản trị và những bài học rút ra từ thực tiễn chính trị.",
+        "Bên cạnh các chủ đề quản lý đô thị, bối cảnh công nghệ hiện nay đặt ra nhiều thách thức xoay quanh các trung tâm dữ liệu và sự bùng nổ của trí tuệ nhân tạo. Những vấn đề này đang định hình lại các cuộc tranh luận chính sách và thu hút sự quan tâm sâu sắc từ dư luận cũng như các nhà hoạch định chiến lược tại nhiều địa phương.",
+        "Việc cân bằng giữa lợi ích kinh tế từ các dự án công nghệ lớn và những rủi ro tiềm ẩn đối với cộng đồng địa phương vẫn là bài toán nan giải. Sự chú ý của công chúng đối với các vấn đề này phản ánh rõ nét những trăn trở của cử tri về định hướng phát triển công nghệ trong tương lai gần."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Zohran Mamdani bàn về AI và trung tâm dữ liệu",
+      "meta_description": "Khám phá góc nhìn và bối cảnh xung quanh Thị trưởng New York Zohran Mamdani liên quan đến làn sóng công nghệ và trung tâm dữ liệu.",
+      "keywords": [
+        "Zohran Mamdani",
+        "trí tuệ nhân tạo",
+        "trung tâm dữ liệu",
+        "New York",
+        "Wired"
+      ],
+      "slug": "goc-nhin-cua-thi-truong-zohran-mamdani-ve-tri-tue-nhan-tao-va-trung-tam--71b04d4a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 258,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+        "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+        "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+        "https://www.theguardian.com/us-news/2026/oct/29/dhs-personnel-data-leak",
+        "https://www.npr.org/2026/10/29/nx-s1-6022096/who-benefits-when-massive-ai-data-centers-come-to-town"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+        "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+        "https://www.theguardian.com/us-news/2026/oct/29/dhs-personnel-data-leak",
+        "https://www.npr.org/2026/10/29/nx-s1-6022096/who-benefits-when-massive-ai-data-centers-come-to-town"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T11:00:00+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-01T21:55:23+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-30T21:41:54+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/oct/29/dhs-personnel-data-leak",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-29T20:35:54+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/10/29/nx-s1-6022096/who-benefits-when-massive-ai-data-centers-come-to-town",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-29T15:41:59+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Zohran Mamdani là Thị trưởng New York, người đã thắng cử sau chiến dịch tập trung vào tầng lớp lao động.",
+          "source_urls": [
+            "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani"
+          ],
+          "importance": "core",
+          "evidence_snippet": "If you thinkyou had a wild year, just imagine how New York City mayor Zohran Mamdani must feel.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "snippet": "If you thinkyou had a wild year, just imagine how New York City mayor Zohran Mamdani must feel.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "page_sha256": "021c8ef880063001c17a73ab4bb3ce6df9a2a9cf6792d847402218497880a843",
+              "snippet_sha256": "c335129c08508758423dfe5dc8ad5c965e5d46397e74873145d52160b460bfce",
+              "verified_at": "2026-11-06T02:50:31.257541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phóng viên Wired đã có các cuộc phỏng vấn với Zohran Mamdani tại văn phòng chiến dịch và Tòa thị chính New York.",
+          "source_urls": [
+            "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers | WIREDSkip to main content",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "snippet": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers | WIREDSkip to main content",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "page_sha256": "021c8ef880063001c17a73ab4bb3ce6df9a2a9cf6792d847402218497880a843",
+              "snippet_sha256": "16d0e3c71ad7077029113953766c0edaab8defaf0f8a433785a780ace9305a27",
+              "verified_at": "2026-11-06T02:50:31.257541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mamdani trao đổi về quá trình làm việc, cách sử dụng mạng xã hội và các vấn đề thời sự trong các cuộc phỏng vấn.",
+          "source_urls": [
+            "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ZOHRAN MAMDANI:I was wondering, like, “Who’s that woman who’s not singing along?”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "snippet": "ZOHRAN MAMDANI:I was wondering, like, “Who’s that woman who’s not singing along?”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "page_sha256": "021c8ef880063001c17a73ab4bb3ce6df9a2a9cf6792d847402218497880a843",
+              "snippet_sha256": "eedac330ebd03fc27f5d1185fb203300188e57b9ac319de699c42b32d35d691d",
+              "verified_at": "2026-11-06T02:50:31.257541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ bối cảnh chính trị và góc nhìn của Thị trưởng Zohran Mamdani thông qua các tài liệu phỏng vấn đã được xác minh. Đồng thời, bài viết liên kết các dữ kiện về quản lý đô thị và xu hướng công nghệ trung tâm dữ liệu để cung cấp góc nhìn tổng quan cho độc giả.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T02:50:31.258401+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-06T02:50:33.185473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 258,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1164,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "npr.org",
+            "techcrunch.com",
+            "theguardian.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-06 09:50"
+    },
+    "published_at": "2026-11-06T02:50:33.185473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
