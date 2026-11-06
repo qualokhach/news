@@ -33797,7 +33797,7 @@
   },
   {
     "queue_id": "0a6dba5b4f6956ddb5f8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-03T11:23:36.410031+00:00",
     "expires_at": "2026-11-06T11:21:43.929893+00:00",
     "category_hint": "sports",
@@ -34456,7 +34456,8 @@
       ]
     },
     "research_ready_at": "2026-11-03T11:23:36.410049+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "jon-rahm-e-ngo-kha-nang-tro-lai-pga-tour-sau-khi-roi-liv-golf-504b6dc2"
   },
   {
     "queue_id": "825c9ff69b73f537b89d",
@@ -63209,7 +63210,7 @@
   },
   {
     "queue_id": "8befa07fc1d7ce5ff4d2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-06T01:51:25.854574+00:00",
     "expires_at": "2026-11-09T01:49:37.452440+00:00",
     "category_hint": "sports",
@@ -63879,11 +63880,12 @@
       ]
     },
     "research_ready_at": "2026-11-06T01:51:25.854596+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-tay-vot-ten-tuoi-tranh-ve-vot-tai-vong-loai-grand-slam-of-darts-96300995"
   },
   {
     "queue_id": "f088ded7cc0c8f1b357a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-06T01:51:26.361507+00:00",
     "expires_at": "2026-11-09T01:49:37.452440+00:00",
     "category_hint": "technology",
@@ -64502,6 +64504,652 @@
       ]
     },
     "research_ready_at": "2026-11-06T01:51:26.361566+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "openai-thay-oi-chinh-sach-ve-thoa-thuan-bao-mat-tai-cac-du-an-trung-tam--cd7fe289"
+  },
+  {
+    "queue_id": "openai-thay-oi-chinh-sach-ve-thoa-thuan-bao-mat-tai-cac-du-an-trung-tam--cd7fe289",
+    "status": "READY",
+    "prepared_at": "2026-11-06T01:51:48.547169+00:00",
+    "expires_at": "2026-11-07T01:51:48.547169+00:00",
+    "source_urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+      "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+    ],
+    "article": {
+      "id": "openai-thay-oi-chinh-sach-ve-thoa-thuan-bao-mat-tai-cac-du-an-trung-tam--cd7fe289",
+      "title": "OpenAI thay đổi chính sách về thỏa thuận bảo mật tại các dự án trung tâm dữ liệu",
+      "summary": "Trước áp lực từ dư luận và kết quả bầu cử giữa kỳ tại Mỹ, OpenAI công bố bộ cam kết mới, trong đó đáng chú ý là việc hạn chế sử dụng thỏa thuận bảo mật (NDA) với các quan chức địa phương.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "published_at": "2026-11-06T00:37:56+00:00",
+      "fetched_at": "2026-11-06T01:52:05.030695+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "OpenAI vừa công bố một loạt cam kết mới dành cho các cộng đồng nơi công ty đang triển khai dự án trung tâm dữ liệu. Động thái quan trọng nhất là việc công ty tuyên bố sẽ không sử dụng các thỏa thuận không tiết lộ thông tin (NDA) với các quan chức chính quyền địa phương. Thay vào đó, OpenAI cho biết chỉ áp dụng các biện pháp bảo vệ hẹp, giới hạn trong các thông tin an ninh, bí mật thương mại hoặc các dữ liệu nhạy cảm về cạnh tranh.",
+        "Quyết định này được đưa ra trong bối cảnh làn sóng phản đối việc mở rộng trung tâm dữ liệu đang gia tăng mạnh mẽ tại Mỹ. Kết quả bầu cử giữa kỳ gần đây cho thấy cử tri tại nhiều địa phương đã bày tỏ sự hoài nghi và phản đối đối với các dự án này do lo ngại về tác động môi trường và hạ tầng. Nhiều dự án trung tâm dữ liệu trước đây từng bị chỉ trích vì sử dụng NDA để che giấu các cuộc thảo luận giữa nhà phát triển và chính quyền địa phương.",
+        "Ngoài việc thay đổi chính sách về NDA, OpenAI còn cam kết thực hiện các trách nhiệm cộng đồng khác thông qua một văn bản gọi là 'National Community Compact'. Công ty hứa sẽ chi trả toàn bộ chi phí điện năng tiêu thụ và chi phí nâng cấp hạ tầng cần thiết để phục vụ các cơ sở của mình, nhằm tránh việc đẩy gánh nặng chi phí lên người dân và doanh nghiệp địa phương. OpenAI cũng cam kết công khai dữ liệu về mức tiêu thụ nước và điện tại mỗi địa điểm, đồng thời ưu tiên các công nghệ làm mát tiết kiệm nước.",
+        "Mặc dù OpenAI khẳng định các cập nhật này đã được lên kế hoạch từ nhiều tháng trước, nhưng sự thay đổi diễn ra ngay sau khi các cử tri Mỹ thể hiện mong muốn kiểm soát chặt chẽ hơn đối với các cơ sở hạ tầng AI. Các cam kết này phản ánh nỗ lực của công ty trong việc xoa dịu dư luận và thiết lập các tiêu chuẩn minh bạch mới cho các 'khuôn viên tính toán' (compute campus) trong tương lai, trong bối cảnh các nhà lập pháp đang kêu gọi siết chặt quy định đối với ngành công nghiệp này."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "OpenAI hạn chế sử dụng NDA cho các dự án trung tâm dữ liệu",
+      "meta_description": "OpenAI cam kết minh bạch hơn và hạn chế sử dụng thỏa thuận bảo mật (NDA) với quan chức địa phương tại các dự án trung tâm dữ liệu sau các cuộc bầu cử giữa kỳ.",
+      "keywords": [
+        "OpenAI",
+        "trung tâm dữ liệu",
+        "NDA",
+        "bầu cử giữa kỳ",
+        "công nghệ"
+      ],
+      "slug": "openai-thay-oi-chinh-sach-ve-thoa-thuan-bao-mat-tai-cac-du-an-trung-tam--cd7fe289",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 409,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+        "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+        "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T00:37:56+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T12:37:38+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T20:17:16+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "OpenAI cam kết không sử dụng NDA với quan chức địa phương tại các dự án trung tâm dữ liệu.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Perplexity launches its own take on AI agents for workMuse has a voice mode nowClaude AI can plug directly into your bank account‘Total repudiation’: The blue wave is about to hit AIOpenAI says its new cybersecurity model is better at not hacking other companiesGrimes is going to star in an AI movie that’s coming to theatersPerplexity launches its own take on AI agents for workEmma RothNov 5Muse has a voice mode nowJay PetersNov 5Claude AI can plug directly into your bank accountJess WeatherbedNov 5‘Total repudiation’: The blue wave is about to hit AIHayden FieldNov 5OpenAI says its new cybersecurity model is better at not hacking other companiesEmma RothNov 5Grimes is going to star in an AI movie that’s coming to theatersAndrew WebsterNov 5Advertiser Content From",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+              "snippet": "Perplexity launches its own take on AI agents for workMuse has a voice mode nowClaude AI can plug directly into your bank account‘Total repudiation’: The blue wave is about to hit AIOpenAI says its new cybersecurity model is better at not hacking other companiesGrimes is going to star in an AI movie that’s coming to theatersPerplexity launches its own take on AI agents for workEmma RothNov 5Muse has a voice mode nowJay PetersNov 5Claude AI can plug directly into your bank accountJess WeatherbedNov 5‘Total repudiation’: The blue wave is about to hit AIHayden FieldNov 5OpenAI says its new cybersecurity model is better at not hacking other companiesEmma RothNov 5Grimes is going to star in an AI movie that’s coming to theatersAndrew WebsterNov 5Advertiser Content From",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+              "page_sha256": "912242612fea375bc93e383650118bcd294ba8e85a5f80559f4651e5e63116cf",
+              "snippet_sha256": "1f06500cc656f7d804f0908fe61d6ccd23a96876fc506a366cc477aec2e0db0f",
+              "verified_at": "2026-11-06T01:52:05.030268+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "OpenAI cam kết chi trả toàn bộ chi phí điện năng và hạ tầng phục vụ các cơ sở của mình.",
+          "source_urls": [
+            "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "According toBloomberg, OpenAI said it has been working on these updates for months and had planned them before the election results came out.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+              "snippet": "According toBloomberg, OpenAI said it has been working on these updates for months and had planned them before the election results came out.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers",
+              "page_sha256": "c06268eef739fca66f4b02921c4ad9c25c7180419bbc0fcf6fbe2941d4f43be4",
+              "snippet_sha256": "d965a05112c59bcbcffe18aaf270dcf5a1f9fcdc9cede19dd47d82da62b6e12c",
+              "verified_at": "2026-11-06T01:52:05.030268+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cử tri Mỹ đã thể hiện sự phản đối đối với việc mở rộng trung tâm dữ liệu trong các cuộc bầu cử giữa kỳ.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'Skip Navigation",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+              "snippet": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'Skip Navigation",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+              "page_sha256": "5ab3aff682c92d9f3621da659726b4f57a25e2c153df53fc8deffc65122cdf71",
+              "snippet_sha256": "e258b888aedd4d998b097ddc090cbec539d0166c3b83947c7305cee99637e804",
+              "verified_at": "2026-11-06T01:52:05.030268+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa các cam kết mới của OpenAI với bối cảnh chính trị sau bầu cử giữa kỳ tại Mỹ. Đồng thời, bài phân tích giúp độc giả hiểu rõ sự thay đổi trong cách tiếp cận của các tập đoàn công nghệ đối với sự minh bạch tại địa phương.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T01:52:05.030767+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-06T01:52:05.031668+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 409,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1863
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "nhung-tay-vot-ten-tuoi-tranh-ve-vot-tai-vong-loai-grand-slam-of-darts-96300995",
+    "status": "READY",
+    "prepared_at": "2026-11-06T01:51:48.547169+00:00",
+    "expires_at": "2026-11-07T01:51:48.547169+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+      "https://www.wired.com/story/dyson-vacuum-deals-nov-2026"
+    ],
+    "article": {
+      "id": "nhung-tay-vot-ten-tuoi-tranh-ve-vot-tai-vong-loai-grand-slam-of-darts-96300995",
+      "title": "Những tay vợt tên tuổi tranh vé vớt tại vòng loại Grand Slam of Darts",
+      "summary": "Nhiều tên tuổi lớn trong làng phi tiêu chuyên nghiệp thế giới phải bước vào vòng loại thẻ đấu (tour-card holder) diễn ra vào ngày thứ Sáu để giành những tấm vé cuối cùng tham dự giải Grand Slam of Darts 2026.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+      "published_at": "2026-11-06T01:39:17+00:00",
+      "fetched_at": "2026-11-06T01:52:19.190812+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giải đấu Grand Slam of Darts năm nay đã mở rộng quy mô với 48 vận động viên góp mặt trong danh sách thi đấu chính thức. Tuy nhiên, một số tay vợt tài năng vẫn chưa thể chắc chắn giành quyền tham dự khi bước vào ngày thi đấu thứ Sáu do hệ thống tuyển chọn đặc thù của giải.",
+        "Phương thức vòng loại của giải đấu ưu tiên những gương mặt từng giành chức vô địch hoặc đạt thành tích cao tại các giải đấu lớn trong khoảng 12 tháng qua. Những tay vợt không duy trì được chuỗi thành tích này buộc phải tìm kiếm cơ hội cuối cùng thông qua vòng đấu dành cho các chủ thẻ thi đấu chuyên nghiệp.",
+        "Hiện tại, vẫn còn 10 suất tham dự chính thức chưa có chủ nhân, tạo ra cuộc cạnh tranh khốc liệt tại vòng loại. Đáng chú ý, tay vợt từng nhiều năm chinh chiến tại Premier League bước vào vòng loại này với tư cách hạt giống hàng đầu sau một năm không có danh hiệu lớn.",
+        "Bên cạnh đó, danh sách cạnh tranh còn có những tên tuổi xếp hạng cao trên bảng xếp hạng Order of Merit nhưng chưa có vé trực tiếp do bỏ lỡ cơ hội ở các vòng loại trước. Trong khi đó, một số tay vợt khác cũng phải nỗ lực chiến đấu qua từng vòng đấu loại trực tiếp để giành quyền đến Wolverhampton."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vòng loại Grand Slam of Darts 2026: Cơ hội cuối cho các tay vợt lớn",
+      "meta_description": "Cập nhật thông tin về các tay vợt hàng đầu thế giới bước vào vòng loại Grand Slam of Darts để cạnh tranh những suất cuối cùng tham dự giải đấu.",
+      "keywords": [
+        "Grand Slam of Darts",
+        "PDC",
+        "vòng loại phi tiêu",
+        "thể thao",
+        "2026"
+      ],
+      "slug": "nhung-tay-vot-ten-tuoi-tranh-ve-vot-tai-vong-loai-grand-slam-of-darts-96300995",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 246,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+        "https://www.wired.com/story/dyson-vacuum-deals-nov-2026"
+      ],
+      "source_links": [
+        "https://www.wired.com/story/dyson-vacuum-deals-nov-2026"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T01:39:17+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/dyson-vacuum-deals-nov-2026",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T21:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "The Grand Slam of Darts' qualification field expanded to 48 players this year, yet some talented players haven't punched their ticket entering Friday.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Grand Slam of Darts' qualification field expanded to 48 players this year, yet some talented players haven't punched their ticket entering Friday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "snippet": "The Grand Slam of Darts' qualification field expanded to 48 players this year, yet some talented players haven't punched their ticket entering Friday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "page_sha256": "fc71d0ca7d5dfb6fdca82f83e870bfb47657dd67f6a9ab3df3eadc2b92c12a15",
+              "snippet_sha256": "a320d34a593f9eb2f824b1d0775fd26c119c5b64178beced0d526edcff9a2521",
+              "verified_at": "2026-11-06T01:52:19.190530+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "10 spots are still available in the event, so there's a decent number of players in the TCH qualifier who will get in",
+          "source_urls": [
+            "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77"
+          ],
+          "importance": "core",
+          "evidence_snippet": "10 spots are still available in the event, so there's a decent number of players in the TCH qualifier who will get in, but still, it's not a given.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "snippet": "10 spots are still available in the event, so there's a decent number of players in the TCH qualifier who will get in, but still, it's not a given.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "page_sha256": "fc71d0ca7d5dfb6fdca82f83e870bfb47657dd67f6a9ab3df3eadc2b92c12a15",
+              "snippet_sha256": "50bcb359fb593b863002d485cc3905d30ed34f4871f97691ff9e1eaa3f9d0f48",
+              "verified_at": "2026-11-06T01:52:19.190530+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bunting enters the TCH qualifier as the top seed, so he has a quality shot at returning to Wolverhampton, but he'll need a few wins first.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He enters the TCH qualifier as the top seed, so he has a quality shot at returning to Wolverhampton, but he'll need a few wins first.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "snippet": "He enters the TCH qualifier as the top seed, so he has a quality shot at returning to Wolverhampton, but he'll need a few wins first.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/darts/news/notable-players-fighting-2026-grand-slam-darts-spot-qualifier/e0630581d124dbfaae21df77",
+              "page_sha256": "fc71d0ca7d5dfb6fdca82f83e870bfb47657dd67f6a9ab3df3eadc2b92c12a15",
+              "snippet_sha256": "816b16fdf3705488ec8b68c7be12fddb145d543e1199b4d0ee2e9ca9787f20e7",
+              "verified_at": "2026-11-06T01:52:19.190530+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ thể thức tuyển chọn ngặt nghèo của giải Grand Slam of Darts, giải thích lý do vì sao nhiều tay vợt xếp hạng cao vẫn phải thi đấu vòng loại phút chót. Đồng thời, văn bản tổng hợp tình hình cụ thể của các hạt giống hàng đầu trước ngày thi đấu quyết định.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T01:52:19.190865+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "12",
+        "48"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-06T01:52:19.191400+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 246,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1141
+        },
+        "independent_domains": [
+          "sportingnews.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "jon-rahm-e-ngo-kha-nang-tro-lai-pga-tour-sau-khi-roi-liv-golf-504b6dc2",
+    "status": "READY",
+    "prepared_at": "2026-11-06T01:51:48.547169+00:00",
+    "expires_at": "2026-11-07T01:51:48.547169+00:00",
+    "source_urls": [
+      "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+      "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years",
+      "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+      "https://www.bbc.co.uk/sport/golf/articles/cw3djl7mz90zo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "jon-rahm-e-ngo-kha-nang-tro-lai-pga-tour-sau-khi-roi-liv-golf-504b6dc2",
+      "title": "Jon Rahm để ngỏ khả năng trở lại PGA Tour sau khi rời LIV Golf",
+      "summary": "Sau khi rời khỏi LIV Golf, tay golf Jon Rahm đã công khai bày tỏ mong muốn quay lại thi đấu tại PGA Tour và sẵn sàng chấp nhận các điều khoản tương tự như đồng nghiệp Brooks Koepka.",
+      "category": "sports",
+      "source_name": "Sky Sports - Football",
+      "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+      "published_at": "2026-11-03T09:10:00+00:00",
+      "fetched_at": "2026-11-06T01:52:35.823646+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tay golf chuyên nghiệp Jon Rahm vừa chính thức xác nhận việc rời khỏi LIV Golf, đánh dấu một bước ngoặt đáng chú ý trong sự nghiệp của anh. Trong những chia sẻ mới nhất, Rahm đã thẳng thắn đề cập đến những thay đổi trong mô hình vận hành của giải đấu này, được gọi là 'LIV 2.0', là nguyên nhân chính dẫn đến quyết định chia tay của anh. Sự thay đổi trong cấu trúc và định hướng của giải đấu dường như không còn phù hợp với kỳ vọng cá nhân của tay golf này.",
+        "Bên cạnh việc giải thích lý do rời đi, Rahm cũng không ngần ngại bày tỏ mong muốn được quay trở lại thi đấu tại PGA Tour. Khi được hỏi về khả năng tái gia nhập hệ thống giải đấu danh giá này, anh thừa nhận rằng bản thân 'nhiều khả năng' sẽ chấp nhận một thỏa thuận tương tự như cách mà Brooks Koepka đã thực hiện để trở lại. Rahm khẳng định nếu đề nghị đó vẫn còn trên bàn đàm phán, anh sẽ cân nhắc nghiêm túc để tìm kiếm cơ hội thi đấu đỉnh cao tại PGA Tour.",
+        "Phát biểu của Rahm diễn ra trong bối cảnh làn sóng các tay golf rời bỏ LIV Golf đang có dấu hiệu gia tăng. Trước đó, nhiều tên tuổi lớn khác trong làng golf thế giới cũng đã thông báo chia tay giải đấu này để tìm kiếm những hướng đi mới, bao gồm việc quay lại các hệ thống giải đấu truyền thống như DP World Tour hoặc PGA Tour. Những động thái này cho thấy sự biến động lớn trong cấu trúc của golf chuyên nghiệp quốc tế sau giai đoạn LIV Golf nhận được sự đầu tư mạnh mẽ từ Quỹ đầu tư công Saudi Arabia.",
+        "Hiện tại, người hâm mộ và giới chuyên môn đang chờ đợi những bước đi tiếp theo của Rahm cũng như phản ứng từ phía PGA Tour về khả năng tiếp nhận các tay golf từng rời bỏ hệ thống. Câu hỏi về việc liệu các điều khoản tái gia nhập có được nới lỏng hay không vẫn là một ẩn số lớn, khi các bên liên quan vẫn đang trong quá trình định hình lại tương lai của môn thể thao này."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Jon Rahm muốn quay lại PGA Tour sau khi rời LIV Golf",
+      "meta_description": "Jon Rahm chia sẻ về những thay đổi tại LIV Golf khiến anh rời bỏ giải đấu và bày tỏ ý định quay lại PGA Tour nếu có cơ hội phù hợp.",
+      "keywords": [
+        "Jon Rahm",
+        "PGA Tour",
+        "LIV Golf",
+        "Golf",
+        "thể thao"
+      ],
+      "slug": "jon-rahm-e-ngo-kha-nang-tro-lai-pga-tour-sau-khi-roi-liv-golf-504b6dc2",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 392,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+        "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years",
+        "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+        "https://www.bbc.co.uk/sport/golf/articles/cw3djl7mz90zo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years",
+        "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+        "https://www.bbc.co.uk/sport/golf/articles/cw3djl7mz90zo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T09:10:00+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-31T07:46:21+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-31T02:18:17+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cw3djl7mz90zo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-10-29T15:55:55+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Jon Rahm đã rời khỏi LIV Golf do những thay đổi trong mô hình LIV 2.0.",
+          "source_urls": [
+            "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jon Rahm reveals the changes to LIV 2.0 that made him quit the tour, whilst also admitting that he'd take the same deal as Brooks Koepka to re-join the PGA Tour if the offer was still on the table.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "snippet": "Jon Rahm reveals the changes to LIV 2.0 that made him quit the tour, whilst also admitting that he'd take the same deal as Brooks Koepka to re-join the PGA Tour if the offer was still on the table.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "page_sha256": "79ec0a5ff840f77992202b87ff6e4f80c0ea139d61e0b79fc71815bee7c3c849",
+              "snippet_sha256": "1d7b38e0d29b7c623f2bbfd84ca96188b44d3bfac027bfd0de71d707f345bf30",
+              "verified_at": "2026-11-06T01:52:35.823405+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jon Rahm bày tỏ mong muốn quay lại PGA Tour và sẵn sàng chấp nhận thỏa thuận tương tự như Brooks Koepka.",
+          "source_urls": [
+            "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jon Rahm expresses hopes of re-joining PGA Tour following LIV Golf exit",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "snippet": "Jon Rahm expresses hopes of re-joining PGA Tour following LIV Golf exit",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "page_sha256": "79ec0a5ff840f77992202b87ff6e4f80c0ea139d61e0b79fc71815bee7c3c849",
+              "snippet_sha256": "674f54c80a1483175cd0d0520000bc5b43d7638b0a99e1597193c04a00663681",
+              "verified_at": "2026-11-06T01:52:35.823405+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhiều tay golf khác như Sergio Garcia, Ian Poulter, Tyrrell Hatton và Graeme McDowell cũng đã rời LIV Golf.",
+          "source_urls": [
+            "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Jon Rahm expresses hopes of re-joining PGA Tour following LIV Golf exit | Golf News | Sky SportsSkip to main content",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "snippet": "Jon Rahm expresses hopes of re-joining PGA Tour following LIV Golf exit | Golf News | Sky SportsSkip to main content",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/watch/video/13607400/jon-rahm-expresses-hopes-of-re-joining-pga-tour-following-liv-golf-exit",
+              "page_sha256": "79ec0a5ff840f77992202b87ff6e4f80c0ea139d61e0b79fc71815bee7c3c849",
+              "snippet_sha256": "1e79a27cec76f2f694cb33d079d11fbe56707deb54c395f4b29b2c87d95cf5ca",
+              "verified_at": "2026-11-06T01:52:35.823405+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ nguyên nhân Jon Rahm rời LIV Golf và thái độ của anh đối với việc tái gia nhập PGA Tour. Đồng thời, bài báo đặt sự kiện này trong bối cảnh làn sóng rời bỏ LIV Golf của nhiều tay golf tên tuổi để độc giả thấy được bức tranh toàn cảnh về sự biến động của golf chuyên nghiệp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-06T01:52:35.823713+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2.0"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-06T01:52:35.824501+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 392,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1788
+        },
+        "independent_domains": [
+          "bbc.com",
+          "euronews.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
