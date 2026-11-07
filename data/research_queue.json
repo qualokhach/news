@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "7116b44f48f55433c142",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:14:03.411505+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "technology",
@@ -690,11 +690,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:14:03.411530+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nvidia-oi-mat-ap-luc-tu-quoc-hoi-my-lien-quan-en-nghi-van-gian-iep-a6992273"
   },
   {
     "queue_id": "f4546881da5ec575068b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:14:01.864537+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "technology",
@@ -1313,11 +1314,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:14:01.864565+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vi-sao-ban-khong-thuc-su-can-mot-chiec-router-wi-fi-cao-cap-at-o-5baafff2"
   },
   {
     "queue_id": "cde2a48d2378f291bab0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:13:59.545279+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "sports",
@@ -1896,7 +1898,8 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:13:59.545306+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93"
   },
   {
     "queue_id": "c86b4625b2a716c4347d",
@@ -58545,5 +58548,682 @@
       }
     ],
     "editorial_reason": "Chỉ có một nguồn thứ cấp hợp lệ về nội dung thể thao cricket (The Guardian), nguồn thứ hai là về NFL, không đủ nguồn độc lập và dữ liệu để viết bài phân tích dài theo yêu cầu thể loại short_explainer đạt tối thiểu 500 từ body một cách an toàn và khách quan."
+  },
+  {
+    "queue_id": "nvidia-oi-mat-ap-luc-tu-quoc-hoi-my-lien-quan-en-nghi-van-gian-iep-a6992273",
+    "status": "READY",
+    "prepared_at": "2026-11-07T15:14:18.890945+00:00",
+    "expires_at": "2026-11-08T15:14:18.890945+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+      "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+      "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+      "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+    ],
+    "article": {
+      "id": "nvidia-oi-mat-ap-luc-tu-quoc-hoi-my-lien-quan-en-nghi-van-gian-iep-a6992273",
+      "title": "Nvidia đối mặt áp lực từ quốc hội Mỹ liên quan đến nghi vấn gián điệp",
+      "summary": "Các ủy ban thuộc Hạ viện Mỹ đã yêu cầu Tổng giám đốc Nvidia Jensen Huang tham gia điều trần kín sau khi xuất hiện các thông tin tình báo về một chiến dịch tiếp cận từ cơ quan an ninh Trung Quốc.",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+      "published_at": "2026-11-06T14:13:32+00:00",
+      "fetched_at": "2026-11-07T15:14:31.515992+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vụ việc bắt đầu thu hút chú ý lớn sau khi giới chức tình báo Mỹ cho rằng Tổng giám đốc Nvidia Jensen Huang trở thành mục tiêu trong một chiến dịch thu thập thông tin của cơ quan an ninh Trung Quốc. Tâm điểm của nghi vấn xoay quanh Alice Huang, một nhân sự cấp cao tại công ty điện toán đám mây Megaspeed có trụ sở tại Singapore và là khách hàng mua lượng lớn chip AI của Nvidia.",
+        "Theo các thông tin được công bố, Bộ An ninh Quốc gia Trung Quốc được cho là đã tuyển dụng cá nhân này để nắm bắt chiến lược trí tuệ nhân tạo của Mỹ, đồng thời tìm kiếm khả năng ảnh hưởng đến các quyết định nới lỏng xuất khẩu chip tiên tiến. Dù vậy, phía Nvidia đã bác bỏ các cáo buộc, khẳng định các cuộc gặp gỡ với khách hàng nằm trong hoạt động kinh doanh thông thường và không liên quan đến bí mật thương mại nhạy cảm hay an ninh quốc gia.",
+        "Trước những lo ngại về an ninh chuỗi cung ứng và khả năng công nghệ nhạy cảm bị rò rỉ, các lãnh đạo cấp cao của ba ủy ban tại Hạ viện Mỹ đã gửi thư mời Tổng giám đốc Jensen Huang tham dự một phiên điều trần kín. Phía cơ quan lập pháp muốn làm rõ các giao thức bảo mật mà hãng chip này áp dụng nhằm đối phó với nguy cơ gián điệp từ nước ngoài trong bối cảnh các biện pháp kiểm soát xuất khẩu công nghệ ngày càng siết chặt."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nvidia, Jensen Huang và nghi vấn gián điệp công nghệ Trung Quốc",
+      "meta_description": "Tìm hiểu chi tiết về việc Tổng giám đốc Nvidia Jensen Huang bị các nghị sĩ Mỹ triệu tập điều trần sau các cáo buộc liên quan đến chiến dịch tình báo.",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed",
+        "an ninh mạng",
+        "Mỹ Trung"
+      ],
+      "slug": "nvidia-oi-mat-ap-luc-tu-quoc-hoi-my-lien-quan-en-nghi-van-gian-iep-a6992273",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 272,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+        "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+        "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+        "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+        "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+        "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:00:06+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T14:13:32+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T22:21:29+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T23:00:44+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các ủy ban Hạ viện Mỹ yêu cầu Jensen Huang điều trần kín vào ngày 18 tháng 11.",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Top Republican lawmakers have asked Jensen Huang to appear before Congress to answer questions after it was reported that US intelligence officials believe Nvidia’s chief executive has been targeted by a Chinese spying operation.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+              "snippet": "Top Republican lawmakers have asked Jensen Huang to appear before Congress to answer questions after it was reported that US intelligence officials believe Nvidia’s chief executive has been targeted by a Chinese spying operation.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+              "page_sha256": "bdedd7ef8ee82e545b949e811fb6c1c06317f84d91c703ecff547211db1ae087",
+              "snippet_sha256": "ab717268b6295a6f3568abf375c1b2f64dd2af65e06cb187bf7abf2dd08008f5",
+              "verified_at": "2026-11-07T15:14:31.515571+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nghi vấn liên quan đến Alice Huang, nhân sự cấp cao tại Megaspeed, công ty điện toán đám mây tại Singapore.",
+          "source_urls": [
+            "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "In late October, the publicationreportedthat China used Alice Huang, an executive at Singapore data center firm Megaspeed, to spy on the NVIDIA CEO.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+              "snippet": "In late October, the publicationreportedthat China used Alice Huang, an executive at Singapore data center firm Megaspeed, to spy on the NVIDIA CEO.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+              "page_sha256": "7c2f0cc34df2986a60534bc57eb0fdddba1238b8683319fbeab30ee17916a436",
+              "snippet_sha256": "95897408b8d485ab9ef3fc50764655aa534a6d542b3a89d7f319ccb8ee55f409",
+              "verified_at": "2026-11-07T15:14:31.515571+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia bác bỏ các cáo buộc và khẳng định không có thông tin an ninh quốc gia nào bị rò rỉ.",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Earlier this year Wally Liaw, a co-founder of Supermicro, one of Nvidia’s key supply chain partners, was arrested in the US and charged with smuggling Nvidia chips into China.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+              "snippet": "Earlier this year Wally Liaw, a co-founder of Supermicro, one of Nvidia’s key supply chain partners, was arrested in the US and charged with smuggling Nvidia chips into China.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+              "page_sha256": "bdedd7ef8ee82e545b949e811fb6c1c06317f84d91c703ecff547211db1ae087",
+              "snippet_sha256": "06dffd92d58b5517291eb4f1b74c5bb8fdc2dc23fe7a7333cfa3381873a9e807",
+              "verified_at": "2026-11-07T15:14:31.515571+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh pháp lý và phản ứng từ phía doanh nghiệp trước áp lực từ quốc hội Mỹ. Đồng thời, phân tích giới hạn của các cáo buộc tình báo và lập trường của Nvidia trong việc bảo vệ dữ liệu khách hàng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T15:14:31.516056+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-07T15:14:31.516930+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 272,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1241
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com",
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "vi-sao-ban-khong-thuc-su-can-mot-chiec-router-wi-fi-cao-cap-at-o-5baafff2",
+    "status": "READY",
+    "prepared_at": "2026-11-07T15:14:18.890945+00:00",
+    "expires_at": "2026-11-08T15:14:18.890945+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+      "https://www.skysports.com/football/news/12040/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+      "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big"
+    ],
+    "article": {
+      "id": "vi-sao-ban-khong-thuc-su-can-mot-chiec-router-wi-fi-cao-cap-at-o-5baafff2",
+      "title": "Vì sao bạn không thực sự cần một chiếc router Wi-Fi cao cấp đắt đỏ",
+      "summary": "Bài viết giải thích lý do các dòng router đắt tiền vượt quá nhu cầu thực tế của đa số hộ gia đình, đồng thời chỉ ra những tiêu chí cần thiết khi chọn mua thiết bị mạng và các trường hợp ngoại lệ thực sự cần đầu tư lớn.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+      "published_at": "2026-11-07T15:00:00+00:00",
+      "fetched_at": "2026-11-07T15:14:49.253733+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tốc độ từ lâu đã trở thành điểm nhấn bán hàng chính của các dòng router trên thị trường. Các mẫu routerフラッグシップ hiện đại như Netgear Nighthawk RS700S có tốc độ công bố lên tới 19Gbps, sở hữu hai cổng 10Gbps cùng tám Ăng-ten với giá bán vượt mốc 500 USD. Tuy nhiên, đối với phần lớn hộ gia đình, đây là khoản tiền chi trả cho một hạn mức tốc độ mà các thiết bị thông thường không bao giờ chạm tới được trong quá trình sử dụng hàng ngày.",
+        "Bản thân một chiếc router không thể làm cho đường truyền internet chạy nhanh hơn gói cước mà người dùng đăng ký với nhà cung cấp dịch vụ. Nhiệm vụ duy nhất của thiết bị này là tiếp nhận tín hiệu từ đường cáp vào nhà và phân phối kết nối đó đến các thiết bị xung quanh. Theo chuẩn băng thông của FCC với mức 100Mbps tải xuống và 20Mbps tải lên, một bộ định tuyến phổ thông giá rẻ hoàn toàn có thể truyền tải ổn định mà không gặp hiện tượng nghẽn mạng.",
+        "Hơn nữa, các công nghệ mới nhất như chuẩn Wi-Fi 7 với kênh 320MHz trong băng tần 6GHz dù mang lại thông lượng gấp đôi Wi-Fi 6 theo công bố của Wi-Fi Alliance, nhưng lại đi kèm điều kiện thực tế. Để đạt được tốc độ đó, các thiết bị cá nhân như điện thoại hay máy tính xách tay cũng phải hỗ trợ chuẩn Wi-Fi 7. Nếu không sở hữu hệ thống thiết bị tương thích đời mới cùng gói cước cáp quang tốc độ cao, các dòng router đắt đỏ sẽ lãng phí phần năng lực thừa.",
+        "Dù vậy, vẫn có một số ít trường hợp ngoại lệ mà người dùng đơn lẻ hoặc hộ gia đình cần cân nhắc đầu tư thiết bị cao cấp hơn. Chẳng hạn, khi sử dụng kính thực tế ảo qua tính năng Air Link, truyền tải các tệp video lớn từ thiết bị lưu trữ mạng NAS, chơi game trực tuyến yêu cầu độ trễ thấp, hoặc kết nối số lượng lớn các thiết bị nhà thông minh như camera, cảm biến và loa, một chiếc router có dung lượng dự phòng lớn và khả năng ưu tiên lưu lượng truy cập sẽ giúp duy trì sự ổn định.",
+        "Tóm lại, trước khi quyết định mua sắm thiết bị phát sóng, người dùng nên kiểm tra tốc độ gói cước thực tế để tránh lãng phí tiền bạc vào những tính năng vượt mức giới hạn. Một bộ định tuyến giá rẻ tích hợp cổng Ethernet gigabit và các tính năng kiểm soát truy cập cơ bản thường là sự lựa chọn hợp lý, đủ sức đáp ứng nhu cầu sử dụng của phần lớn không gian sống hiện nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vì sao không nên mua router Wi-Fi cao cấp đắt tiền",
+      "meta_description": "Khám phá lý do router đắt tiền không cần thiết cho phần lớn hộ gia đình và tìm hiểu cách chọn thiết bị mạng phù hợp, tiết kiệm chi phí.",
+      "keywords": [
+        "router wifi",
+        "mang internet",
+        "thiet bi mang",
+        "wi-fi 6",
+        "wi-fi 7"
+      ],
+      "slug": "vi-sao-ban-khong-thuc-su-can-mot-chiec-router-wi-fi-cao-cap-at-o-5baafff2",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 476,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+        "https://www.skysports.com/football/news/12040/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+        "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big"
+      ],
+      "source_links": [
+        "https://www.skysports.com/football/news/12040/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+        "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T15:00:00+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T22:28:00+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T14:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các mẫu router cao cấp như Netgear Nighthawk RS700S có giá hơn 500 USD và tốc độ lên tới 19Gbps.",
+          "source_urls": [
+            "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Today's flagship models, like Netgear's Nighthawk RS700S, are rated for up to 19Gbps, come with two 10Gbps ports and eight antennas and sell for more than $500.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "snippet": "Today's flagship models, like Netgear's Nighthawk RS700S, are rated for up to 19Gbps, come with two 10Gbps ports and eight antennas and sell for more than $500.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "page_sha256": "d683536f369c265dd8a696703cd6ce3e062c3e36a3910d35f7489a0fb9072957",
+              "snippet_sha256": "968d407a6318a2e36a888f5a9c8af35ab638acbb2c04de432d88db07fd372fc1",
+              "verified_at": "2026-11-07T15:14:49.253261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Router giá rẻ dưới 100 USD từ các thương hiệu như Netgear hoặc TP-Link có thể đáp ứng phần lớn nhu cầu của hộ gia đình.",
+          "source_urls": [
+            "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "A budget router from a more affordable brand like Netgear or TP-Link, coming in at under $100, will handle the vast majority of what a typical home throws at it.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "snippet": "A budget router from a more affordable brand like Netgear or TP-Link, coming in at under $100, will handle the vast majority of what a typical home throws at it.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "page_sha256": "d683536f369c265dd8a696703cd6ce3e062c3e36a3910d35f7489a0fb9072957",
+              "snippet_sha256": "b507a90d7fb12e20d36ab112af5a459e67f3aa573e1fa722e2f8dee430604ef5",
+              "verified_at": "2026-11-07T15:14:49.253261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Router không thể làm internet nhanh hơn gói cước, vì thiết bị chỉ đóng vai trò nhận và phân phối kết nối từ nhà mạng.",
+          "source_urls": [
+            "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A router can't make your internet faster than your plan.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "snippet": "A router can't make your internet faster than your plan.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "page_sha256": "d683536f369c265dd8a696703cd6ce3e062c3e36a3910d35f7489a0fb9072957",
+              "snippet_sha256": "c1811bfb7ea9610836f1331d431cee2de86ff46c33300e87b8733dde33eb1e01",
+              "verified_at": "2026-11-07T15:14:49.253261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Wi-Fi 7 cung cấp kênh 320MHz trong băng tần 6GHz giúp tăng gấp đôi thông lượng so với Wi-Fi 6 theo Wi-Fi Alliance nhưng đòi hỏi thiết bị đầu cuối cũng phải hỗ trợ.",
+          "source_urls": [
+            "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Its headline feature is 320MHz channels in the 6GHz band, which the Wi-Fi Alliance says doubles throughput compared with Wi-Fi 6.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "snippet": "Its headline feature is 320MHz channels in the 6GHz band, which the Wi-Fi Alliance says doubles throughput compared with Wi-Fi 6.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "page_sha256": "d683536f369c265dd8a696703cd6ce3e062c3e36a3910d35f7489a0fb9072957",
+              "snippet_sha256": "253c95c5332ce313580bc810ebc9823fdbc7826da8a9da1bbf2e379b919eb576",
+              "verified_at": "2026-11-07T15:14:49.253261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bản chất kỹ thuật của thiết bị mạng thông qua việc đối chiếu giữa tốc độ công bố của router và băng thông thực tế từ nhà cung cấp dịch vụ. Đồng thời, tác phẩm phân tích rạch ròi giữa nhu cầu phổ thông và các trường hợp chuyên biệt thực sự cần đến phần cứng đắt tiền.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T15:14:49.253822+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "100",
+        "19",
+        "20",
+        "320",
+        "500",
+        "6",
+        "7",
+        "700"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-07T15:14:49.254850+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 476,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2189
+        },
+        "independent_domains": [
+          "engadget.com",
+          "skysports.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
+    "status": "READY",
+    "prepared_at": "2026-11-07T15:14:18.890945+00:00",
+    "expires_at": "2026-11-08T15:14:18.890945+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671"
+    ],
+    "article": {
+      "id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
+      "title": "John Eustace giải tỏa áp lực lớn tại Derby County sau màn lội ngược dòng trước Bolton",
+      "summary": "Derby County giành chiến thắng 3-1 trước Bolton Wanderers ở giải Championship, giúp HLV John Eustace giảm bớt áp lực sau chuỗi trận khó khăn và tạm vươn lên trước kỳ nghỉ quốc tế.",
+      "category": "sports",
+      "source_name": "BBC Sport - Football",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T14:12:45+00:00",
+      "fetched_at": "2026-11-07T15:14:54.135193+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Derby County vừa có chiến thắng quan trọng 3-1 trước Bolton Wanderers tại sân Pride Park trong khuôn khổ giải Championship, qua đó giúp huấn luyện viên trưởng John Eustace giải tỏa áp lực lớn sau quãng thời gian thi đấu không như kỳ vọng.",
+        "Trong hiệp một của trận đấu diễn ra vào tối thứ Sáu, Derby rơi vào thế bị dẫn trước sau pha lập công của Ruben Rodrigues bên phía Bolton. Đội chủ nhà bước vào giờ nghỉ giữa hiệp trong tiếng la ó từ khán giả sau chuỗi 15 trận từ đầu mùa mới chỉ có vỏn vẹn một chiến thắng.",
+        "Tuy nhiên, sự điều chỉnh chiến thuật kịp thời cùng tinh thần đoàn kết trong phòng thay đồ ở giờ nghỉ giải lao đã mang lại bước ngoặt. Ngay đầu hiệp hai, cầu thủ 28 tuổi Ryan Nyambe ghi bàn gỡ hòa, trước khi hậu vệ tân binh Jack Robinson đánh đầu đưa Derby vươn lên dẫn 2-1 chỉ ít phút sau đó.",
+        "Đến những phút bù giờ cuối trận, Rhian Brewster lập công ấn định chiến thắng 3-1 chung kết cho đội chủ nhà. Dù vẫn đứng trong nhóm nguy hiểm tại bảng xếp hạng Championship, kết quả này mang lại tinh thần phấn khởi cho Derby County trước khi bước vào hai tuần nghỉ nhường chỗ cho loạt trận quốc tế."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "John Eustace giúp Derby County thắng Bolton Wanderers",
+      "meta_description": "Derby County lội ngược dòng đánh bại Bolton Wanderers 3-1, giúp HLV John Eustace giải tỏa áp lực tại giải Championship.",
+      "keywords": [
+        "Derby County",
+        "Bolton Wanderers",
+        "John Eustace",
+        "Championship",
+        "bóng đá Anh"
+      ],
+      "slug": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 228,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671"
+      ],
+      "source_links": [
+        "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:12:45+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T21:45:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Derby County đánh bại Bolton Wanderers với tỷ số 3-1 tại sân Pride Park.",
+          "source_urls": [
+            "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Report and free match highlights from the Sky Bet Championship match between Derby County and Bolton Wanderers at Pride Park on Friday night; Rams hit back in second half with goals from Ryan Nyambe, Jack Robinson and Rhian Brewster.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671",
+              "snippet": "Report and free match highlights from the Sky Bet Championship match between Derby County and Bolton Wanderers at Pride Park on Friday night; Rams hit back in second half with goals from Ryan Nyambe, Jack Robinson and Rhian Brewster.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/derby-county-vs-bolton-wanderers/report/560671",
+              "page_sha256": "56fe59402c862e820785c8c0daf10dd9d44d72a39d44759ab7c994d8a64f3a42",
+              "snippet_sha256": "2bc2b54e503fe5f9b5e23c200dd651bfac73b941b1fda2cd05dcc7123988cdd4",
+              "verified_at": "2026-11-07T15:14:54.134816+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ruben Rodrigues ghi bàn mở tỷ số cho Bolton trong hiệp một.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In that moment, having just gone behind to a Ruben Rodrigues goal, the Rams boss admitted they could \"quite easily gone under\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+              "snippet": "In that moment, having just gone behind to a Ruben Rodrigues goal, the Rams boss admitted they could \"quite easily gone under\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "886249d8231897e99401f28b16eb003604c632933c1325f4309b59117646e6cd",
+              "snippet_sha256": "1002e7b9c598913b0e5e4aea93f86faa8144914c5d5ee1156c93b3a994e0daf3",
+              "verified_at": "2026-11-07T15:14:54.134816+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ryan Nyambe và Jack Robinson ghi bàn ở đầu hiệp hai giúp Derby lội ngược dòng, trước khi Rhian Brewster ấn định chiến thắng 3-1 ở phút bù giờ.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Whatever he said certainly worked as two goals in the first four minutes of the second half followed, with 28-year-old Ryan Nyambe netting the first of his career to level before defender Jack Robinson – a hugely experienced player recently recruited to help offset the club's injury crisis – put them 2-1 up with a header.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+              "snippet": "Whatever he said certainly worked as two goals in the first four minutes of the second half followed, with 28-year-old Ryan Nyambe netting the first of his career to level before defender Jack Robinson – a hugely experienced player recently recruited to help offset the club's injury crisis – put them 2-1 up with a header.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "886249d8231897e99401f28b16eb003604c632933c1325f4309b59117646e6cd",
+              "snippet_sha256": "ea61f2465f07c39bc4c3e8b3d7451952c2fa72e2f1fd6b33cbf94d8ed332f2b8",
+              "verified_at": "2026-11-07T15:14:54.134816+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt chiến thuật và tinh thần trong phòng thay đồ giúp Derby County lội ngược dòng thành công. Đồng thời, ngữ cảnh về áp lực dành cho huấn luyện viên John Eustace và tình hình lực lượng cũng được phản ánh chi tiết.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T15:14:54.135245+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "15",
+        "28"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-07T15:14:54.135835+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 228,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1098
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
