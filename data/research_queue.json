@@ -1905,7 +1905,7 @@
     "queue_id": "c86b4625b2a716c4347d",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-07T15:13:58.907368+00:00",
-    "expires_at": "2026-11-10T15:12:01.343874+00:00",
+    "expires_at": "2026-11-10T15:56:21.418732+00:00",
     "category_hint": "sports",
     "lead_title": "Okafor the difference despite Van Hecke defiance - Leeds v Spurs ratings",
     "source_urls": [
@@ -2492,11 +2492,14 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:13:58.907395+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_led",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-07T19:56:21.418732+00:00"
   },
   {
     "queue_id": "81bf97066f222eedbd05",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:13:57.959872+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "world",
@@ -3190,11 +3193,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:13:57.959896+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "verstappen-hamilton-va-leclerc-oi-mat-an-phat-xuat-phat-tai-sao-paulo-gr-e3b64fca"
   },
   {
     "queue_id": "eae50b1347f1b97d5821",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:13:56.755761+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "world",
@@ -3759,11 +3763,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:13:56.755787+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hai-nguoi-an-ong-bi-bat-sau-khi-mot-cau-be-bi-thuong-trong-vu-tan-cong-b-c33cda8c"
   },
   {
     "queue_id": "b89d3ce46d27e442c377",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:13:56.060886+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "vietnam",
@@ -4464,7 +4469,8 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:13:56.060912+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "clb-cahn-anh-bai-cong-an-tp-hcm-2-1-nho-cu-up-cua-alan-sebastiao-a10d2487"
   },
   {
     "queue_id": "8df3ae48bff45b11fe3b",
@@ -58551,7 +58557,7 @@
   },
   {
     "queue_id": "nvidia-oi-mat-ap-luc-tu-quoc-hoi-my-lien-quan-en-nghi-van-gian-iep-a6992273",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-07T15:14:18.890945+00:00",
     "expires_at": "2026-11-08T15:14:18.890945+00:00",
     "source_urls": [
@@ -58569,7 +58575,7 @@
       "source_url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
       "published_at": "2026-11-06T14:13:32+00:00",
       "fetched_at": "2026-11-07T15:14:31.515992+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-07T15:59:48.394072+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -58762,29 +58768,44 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-07T15:14:31.516930+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-07T15:59:48.394072+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 272,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1241
-        },
-        "independent_domains": [
-          "arstechnica.com",
-          "cnbc.com",
-          "engadget.com",
-          "theverge.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1241,
+          "source_access": [
+            {
+              "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "cnbc.com",
+            "engadget.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-07 22:59"
+    },
+    "published_at": "2026-11-07T15:59:48.394072+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "vi-sao-ban-khong-thuc-su-can-mot-chiec-router-wi-fi-cao-cap-at-o-5baafff2",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-07T15:14:18.890945+00:00",
     "expires_at": "2026-11-08T15:14:18.890945+00:00",
     "source_urls": [
@@ -58801,7 +58822,7 @@
       "source_url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
       "published_at": "2026-11-07T15:00:00+00:00",
       "fetched_at": "2026-11-07T15:14:49.253733+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-07T15:59:48.394072+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -59012,24 +59033,34 @@
         "700"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-07T15:14:49.254850+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-07T15:59:48.394072+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 476,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 2189
-        },
-        "independent_domains": [
-          "engadget.com",
-          "skysports.com",
-          "techcrunch.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 2189,
+          "source_access": [
+            {
+              "url": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "skysports.com",
+            "techcrunch.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-07 22:59"
+    },
+    "published_at": "2026-11-07T15:59:48.394072+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
@@ -59224,6 +59255,723 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "verstappen-hamilton-va-leclerc-oi-mat-an-phat-xuat-phat-tai-sao-paulo-gr-e3b64fca",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-07T15:56:21.418732+00:00",
+    "expires_at": "2026-11-08T15:56:21.418732+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+      "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers"
+    ],
+    "article": {
+      "id": "verstappen-hamilton-va-leclerc-oi-mat-an-phat-xuat-phat-tai-sao-paulo-gr-e3b64fca",
+      "title": "Verstappen, Hamilton và Leclerc đối mặt án phạt xuất phát tại Sao Paulo Grand Prix",
+      "summary": "Max Verstappen, Lewis Hamilton và Charles Leclerc đều phải chịu án phạt hạ bậc xuất phát tại chặng đua Sao Paulo Grand Prix do vượt quá giới hạn sử dụng các bộ phận động cơ trong mùa giải.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T15:01:59+00:00",
+      "fetched_at": "2026-11-07T15:59:09.716676+00:00",
+      "appnho_published_at": "2026-11-07T15:59:48.394072+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chặng đua Sao Paulo Grand Prix chứng kiến bất lợi lớn cho ba tay đua hàng đầu khi Max Verstappen, Lewis Hamilton và Charles Leclerc đều phải nhận các án phạt hạ bậc xuất phát trên đường đua Interlagos do thay đổi linh kiện động cơ.",
+        "Cụ thể, bộ đôi tay đua của đội Ferrari là Hamilton và Leclerc sẽ phải chịu án phạt mất 10 bậc xuất phát. Đây là lần đầu tiên cả hai vượt quá giới hạn cho phép với việc sử dụng động cơ đốt trong thứ năm trong mùa giải năm nay. Trong khi đó, tay đua Max Verstappen của đội Red Bull thậm chí phải xuất phát từ vị trí cuối cùng trên vạch xuất phát sau khi đội đua phát hiện các vấn đề kỹ thuật và quyết định lắp đặt ba linh kiện động cơ hoàn toàn mới sau buổi tập luyện ngày thứ Sáu.",
+        "Nhóm ba tay đua này cùng với George Russell của đội Mercedes là những cái tên phải chịu phạt xuất phát do dùng quá số lượng động cơ quy định, trong đó mức phạt của Russell chỉ là 5 bậc do đã vượt mốc giới hạn từ trước. Những án phạt này mang lại lợi thế đáng kể cho Mercedes trong cuộc đua giành chức vô địch đồng đội vào ngày Chủ nhật nếu họ ghi nhiều hơn đối thủ ít nhất ba điểm. Ngoài ra, Verstappen, Hamilton, Russell và Leclerc cũng đang bám đuổi sít sao trong cuộc đua á quân trên bảng xếp hạng cá nhân với khoảng cách chỉ vỏn vẹn 16 điểm khi mùa giải còn lại bốn chặng đua.",
+        "Bên cạnh các án phạt kỹ thuật, diễn biến tại chặng đua cuối tuần này tại Brazil càng trở nên khó lường khi dự báo thời tiết cho thấy có khả năng xuất hiện mưa trong ngày đua chính thức Chủ nhật. Sự kiện tại Interlagos diễn ra ngay sau khi ban tổ chức Formula 1 công bố thỏa thuận gia hạn hợp đồng đưa chặng đua này tiếp tục góp mặt trong lịch trình giải đấu kéo dài đến năm 2035."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Verstappen, Hamilton và Leclerc nhận án phạt xuất phát tại Sao Paulo G",
+      "meta_description": "Các tay đua Max Verstappen, Lewis Hamilton và Charles Leclerc sẽ bị phạt xuất phát tại Sao Paulo Grand Prix do thay đổi động cơ.",
+      "keywords": [
+        "Sao Paulo Grand Prix",
+        "Max Verstappen",
+        "Lewis Hamilton",
+        "Charles Leclerc",
+        "Formula 1"
+      ],
+      "slug": "verstappen-hamilton-va-leclerc-oi-mat-an-phat-xuat-phat-tai-sao-paulo-gr-e3b64fca",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 359,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+        "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers"
+      ],
+      "source_links": [
+        "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+        "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T15:01:59+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:34:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T17:08:05+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Lewis Hamilton và Charles Leclerc bị phạt 10 bậc xuất phát do dùng động cơ đốt trong thứ năm.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Lewis Hamilton and Ferrari team-mate Charles Leclerc will both have 10-place grid penalties in Sao Paulo on Sunday",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Lewis Hamilton and Ferrari team-mate Charles Leclerc will both have 10-place grid penalties in Sao Paulo on Sunday",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "c7f41b7df215c99e9226cea2a29091a9876c9c7d9d3c30ea9313b37409ee981c",
+              "snippet_sha256": "49322f8208392f6d74eec2ef88bcd5e052f7937d64ccf7ea7d3fcfc4103829ea",
+              "verified_at": "2026-11-07T15:59:09.716163+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Max Verstappen phải xuất phát từ cuối vạch xuất phát sau khi thay mới linh kiện động cơ tại Red Bull.",
+          "source_urls": [
+            "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid"
+          ],
+          "importance": "core",
+          "evidence_snippet": "And Verstappen will start at the back of the 22-car grid after taking three different fresh engine components on his Red Bull.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+              "snippet": "And Verstappen will start at the back of the 22-car grid after taking three different fresh engine components on his Red Bull.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+              "page_sha256": "921cd925eba0127f7ec02226f307037105029f64bbf88518e277c1962c4f50f0",
+              "snippet_sha256": "f153acc05f90281c67eb029594e56a0f810a5796e025c9794283f35787ef4469",
+              "verified_at": "2026-11-07T15:59:09.716163+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "George Russell nhận án phạt 5 bậc xuất phát do sử dụng quá số lượng động cơ.",
+          "source_urls": [
+            "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "5pm: Sao Paulo Grand Prix Qualifying build-up",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+              "snippet": "5pm: Sao Paulo Grand Prix Qualifying build-up",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+              "page_sha256": "921cd925eba0127f7ec02226f307037105029f64bbf88518e277c1962c4f50f0",
+              "snippet_sha256": "9591daba7e5d804e29e975db044e1920989ab1f47b96479c44302c643fc45936",
+              "verified_at": "2026-11-07T15:59:09.716163+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Interlagos gia hạn hợp đồng tổ chức chặng đua F1 đến năm 2035.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Meanwhile, F1 announced on Saturday that Sao Paulo's Interlagos circuit had extended its contract to host a grand prix until 2035.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Meanwhile, F1 announced on Saturday that Sao Paulo's Interlagos circuit had extended its contract to host a grand prix until 2035.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "c7f41b7df215c99e9226cea2a29091a9876c9c7d9d3c30ea9313b37409ee981c",
+              "snippet_sha256": "246db4e8277bdfdd601c97fe3b542f54a230a504ad02d6fd156dd29403bfe185",
+              "verified_at": "2026-11-07T15:59:09.716163+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích rõ nguyên nhân và mức độ án phạt hạ bậc xuất phát của từng tay đua hàng đầu tại Sao Paulo Grand Prix. Đồng thời, bài làm rõ tác động trực tiếp của các án phạt này tới cuộc đua vô địch đồng đội và cá nhân trong bối cảnh thời tiết có mưa.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T15:59:09.716756+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "16",
+        "2035",
+        "5"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-07T15:59:48.394072+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 359,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1669,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.skysports.com/f1/news/12040/13609202/sao-paulo-gp-grid-penalties-lewis-hamilton-max-verstappen-charles-leclerc-to-drop-down-interlagos-grid",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-07 22:59"
+    },
+    "published_at": "2026-11-07T15:59:48.394072+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "hai-nguoi-an-ong-bi-bat-sau-khi-mot-cau-be-bi-thuong-trong-vu-tan-cong-b-c33cda8c",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-07T15:56:21.418732+00:00",
+    "expires_at": "2026-11-08T15:56:21.418732+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cmwy99yzd0v9o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured"
+    ],
+    "article": {
+      "id": "hai-nguoi-an-ong-bi-bat-sau-khi-mot-cau-be-bi-thuong-trong-vu-tan-cong-b-c33cda8c",
+      "title": "Hai người đàn ông bị bắt sau khi một cậu bé bị thương trong vụ tấn công bằng kiếm gần trường học ở Gloucester",
+      "summary": "Một vụ tấn công bằng kiếm gần trường học ở Gloucester đã khiến một cậu bé 17 tuổi bị thương. Hai người đàn ông đã bị bắt giữ sau khi cảnh sát được gọi đến hiện trường vào sáng thứ Sáu.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmwy99yzd0v9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T15:10:54+00:00",
+      "fetched_at": "2026-11-07T15:59:41.319837+00:00",
+      "appnho_published_at": "2026-11-07T15:59:48.394072+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Một vụ tấn công bằng kiếm gần trường học ở Gloucester đã khiến một cậu bé 17 tuổi bị thương. Hai người đàn ông đã bị bắt giữ sau khi cảnh sát được gọi đến hiện trường vào sáng thứ Sáu.",
+        "Cảnh sát đã được gọi đến trường St Peter's High School ở Tuffley, Gloucester, vào lúc 08:50 GMT vào thứ Sáu sau khi có báo cáo về một vụ tấn công bằng kiếm. Một cậu bé 17 tuổi đã bị thương trong vụ tấn công và đang được điều trị tại bệnh viện.",
+        "Hai người đàn ông, một người 19 tuổi và một người 18 tuổi, đã bị bắt giữ sau khi cảnh sát tìm kiếm họ. Cả hai đều từ Gloucester và đang bị giam giữ để điều tra.",
+        "Vụ tấn công đã khiến trường St Peter's High School và trường tiểu học Willow Primary Academy gần đó phải đóng cửa trong một thời gian. Cảnh sát đã tìm kiếm khu vực và đã sử dụng máy bay không người lái và dịch vụ không khí của cảnh sát để hỗ trợ trong việc tìm kiếm các nghi phạm."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Hai người đàn ông bị bắt sau khi một cậu bé bị thương trong vụ tấn côn",
+      "meta_description": "Một vụ tấn công bằng kiếm gần trường học ở Gloucester đã khiến một cậu bé 17 tuổi bị thương. Hai người đàn ông đã bị bắt giữ sau khi cảnh sát được gọi đến hiện ",
+      "keywords": [
+        "vụ tấn công bằng kiếm",
+        "Gloucester",
+        "trường học",
+        "cậu bé bị thương"
+      ],
+      "slug": "hai-nguoi-an-ong-bi-bat-sau-khi-mot-cau-be-bi-thuong-trong-vu-tan-cong-b-c33cda8c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 191,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cmwy99yzd0v9o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy99yzd0v9o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T15:10:54+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T12:32:29+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Một vụ tấn công bằng kiếm gần trường học ở Gloucester đã khiến một cậu bé 17 tuổi bị thương.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Two teenagers have been arrested after a 17-year-old was injured in a suspected sword attack near a school in Gloucester.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "snippet": "Two teenagers have been arrested after a 17-year-old was injured in a suspected sword attack near a school in Gloucester.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "page_sha256": "823008ba6915755b848e125033f172effcbf9d12902f85a4cb0d0a6b6ec7edfe",
+              "snippet_sha256": "ff659f1c84de0ff24c69bc52e1c1559bac73857179824c58f3d4b26153f94969",
+              "verified_at": "2026-11-07T15:59:41.319552+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hai người đàn ông đã bị bắt giữ sau khi cảnh sát được gọi đến hiện trường vào sáng thứ Sáu.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“We are now keen to hear from anyone who has not already spoken to police who witnessed what happened or who has dashcam or any other footage.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "snippet": "“We are now keen to hear from anyone who has not already spoken to police who witnessed what happened or who has dashcam or any other footage.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "page_sha256": "823008ba6915755b848e125033f172effcbf9d12902f85a4cb0d0a6b6ec7edfe",
+              "snippet_sha256": "c0a22fb0b5e90d04b95f711cc98d073281135c3dbedb15c4fbc18a4d215ba68e",
+              "verified_at": "2026-11-07T15:59:41.319552+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cảnh sát đã tìm kiếm khu vực và đã sử dụng máy bay không người lái và dịch vụ không khí của cảnh sát để hỗ trợ trong việc tìm kiếm các nghi phạm.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "“Numerous inquiries have been taking place and officers from the neighbourhood team have been in the area throughout the day to reassure parents that there is not thought to be a wider threat.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "snippet": "“Numerous inquiries have been taking place and officers from the neighbourhood team have been in the area throughout the day to reassure parents that there is not thought to be a wider threat.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "page_sha256": "823008ba6915755b848e125033f172effcbf9d12902f85a4cb0d0a6b6ec7edfe",
+              "snippet_sha256": "9837f1b3f7f0badbcba69ef7efdff6223763da889ccc25b3c5a5fd13d0920bc1",
+              "verified_at": "2026-11-07T15:59:41.319552+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo này cung cấp thông tin chi tiết về vụ tấn công bằng kiếm gần trường học ở Gloucester. Chúng tôi đã tổng hợp thông tin từ các nguồn tin cậy để cung cấp một bức tranh tổng thể về vụ việc. Chúng tôi cũng đã phân tích các hệ quả của vụ tấn công và cách cảnh sát đã phản ứng với tình hình.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T15:59:41.319896+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "08",
+        "17",
+        "18",
+        "19",
+        "50"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-07T15:59:48.394072+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 191,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 867,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-07 22:59"
+    },
+    "published_at": "2026-11-07T15:59:48.394072+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "clb-cahn-anh-bai-cong-an-tp-hcm-2-1-nho-cu-up-cua-alan-sebastiao-a10d2487",
+    "status": "HOLD",
+    "prepared_at": "2026-11-07T15:56:21.418732+00:00",
+    "expires_at": "2026-11-08T15:56:21.418732+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+      "https://tuoitre.vn/clb-cong-an-ha-noi-dau-kyoto-sanga-cho-them-ky-tich-100261102211818317.htm"
+    ],
+    "article": {
+      "id": "clb-cahn-anh-bai-cong-an-tp-hcm-2-1-nho-cu-up-cua-alan-sebastiao-a10d2487",
+      "title": "CLB CAHN đánh bại Công an TP.HCM 2-1 nhờ cú đúp của Alan Sebastiao",
+      "summary": "CLB Công an Hà Nội giành chiến thắng 2-1 trước CLB Công an TP.HCM ở vòng 7 V-League nhờ cú đúp của tiền đạo Alan Sebastiao, qua đó vươn lên ngôi nhì bảng.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+      "published_at": "2026-11-07T14:16:00+00:00",
+      "fetched_at": "2026-11-07T15:59:46.668682+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận tâm điểm vòng 7 V-League diễn ra tối 7.11 chứng kiến màn so tài kịch tính giữa chủ nhà CLB Công an Hà Nội (CAHN) và CLB Công an TP.HCM. Sau những chuỗi trận chưa như ý tại đấu trường quốc nội, đương kim vô địch CAHN đặt quyết tâm cao độ để tìm lại mạch chiến thắng, trong khi đội khách dưới sự dẫn dắt của HLV Arthur Diles thể hiện lối chơi phòng ngự phản công vô cùng khó chịu.",
+        "Hiệp đấu đầu tiên diễn ra với thế trận lấn lướt thuộc về đội chủ nhà CAHN. Dù cầm bóng vượt trội và tạo ra một số cơ hội nguy hiểm, hàng công toàn sao của đội bóng thủ đô vẫn tỏ ra vô duyên trước hàng thủ kín kẽ của đội khách. Bước ngoặt chỉ đến ở hiệp đấu thứ hai khi nhịp độ trận đấu được đẩy lên cao với những tình huống đôi công sắc bén từ cả hai phía.",
+        "Phút 58, tận dụng khoảnh khắc thiếu tập trung của hàng thủ đội khách, Bryan Perea chuyền bóng dọn cỗ để Alan Sebastiao băng vào dứt điểm cận thành tung lưới thủ môn Lê Giang Patrik, mở tỷ số cho đội chủ nhà. Không buông xuôi, CLB Công an TP.HCM vùng lên mạnh mẽ và có bàn gỡ hòa ở phút 68. Từ pha kiến tạo sắc bén của Williams Minh Hoàng, Kevin Yamga bị phạm lỗi trong vòng cấm và chính Minh Hoàng đã thực hiện thành công quả phạt đền, đánh bại thủ môn Nguyễn Filip để san bằng cách biệt 1-1.",
+        "Những phút cuối trận, thế trận giằng co tiếp tục diễn ra với các cơ hội bị bỏ lỡ từ đôi bên. Đến phút 81, Stefan Mauk thoát xuống bên cánh trái rồi thực hiện đường chuyền chuẩn xác để Alan Sebastiao bật cao đánh đầu hiểm hóc, hoàn tất cú đúp đồng thời ấn định chiến thắng 2-1 đầy kịch tính cho CLB CAHN. Kết quả này giúp nhà đương kim vô địch tạm vươn lên chiếm lại ngôi nhì bảng tại V-League."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "CLB CAHN thắng Công an TP.HCM 2-1 tại vòng 7 V-League",
+      "meta_description": "Cú đúp của Alan Sebastiao giúp CLB Công an Hà Nội vượt qua CLB Công an TP.HCM với tỷ số 2-1 trong trận đấu diễn ra tối 7.11.",
+      "keywords": [
+        "CLB CAHN",
+        "Công an TP.HCM",
+        "V-League",
+        "Alan Sebastiao",
+        "Williams Minh Hoàng"
+      ],
+      "slug": "clb-cahn-anh-bai-cong-an-tp-hcm-2-1-nho-cu-up-cua-alan-sebastiao-a10d2487",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 354,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+        "https://tuoitre.vn/clb-cong-an-ha-noi-dau-kyoto-sanga-cho-them-ky-tich-100261102211818317.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/clb-cong-an-ha-noi-dau-kyoto-sanga-cho-them-ky-tich-100261102211818317.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:16:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/clb-cong-an-ha-noi-dau-kyoto-sanga-cho-them-ky-tich-100261102211818317.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-02T23:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đánh bại đội khách CLB Công an TP.HCM ở trận tâm điểm vòng 7 ngày 7.11 nhờ cú đúp của Alan Sebastiao, CLB CAHN đã trở lại ngôi nhì V-League.",
+          "source_urls": [
+            "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đánh bại đội khách CLB Công an TP.HCM ở trận tâm điểm vòng 7 (19 giờ 15 ngày 7.11) nhờ cú đúp của Alan Sebastiao, CLB CAHN đã trở lại ngôi nhì V-League.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "snippet": "Đánh bại đội khách CLB Công an TP.HCM ở trận tâm điểm vòng 7 (19 giờ 15 ngày 7.11) nhờ cú đúp của Alan Sebastiao, CLB CAHN đã trở lại ngôi nhì V-League.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "page_sha256": "791131217d1e37574930e1a05e66d4ae4873e685f05bbf05729cc8543b4ba013",
+              "snippet_sha256": "84ed74128c697615fba0931853a7f86154afc3685e2b63a1e4e7bd09f23489fd",
+              "verified_at": "2026-11-07T15:59:46.668094+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phút 58, Bryan Perea nhả bóng để Alan Sebastiao sút cận thành tung lưới thủ môn Lê Giang Patrik mở tỷ số cho CLB CAHN.",
+          "source_urls": [
+            "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phút 58, tận dụng khoảnh khắc thiếu tập trung của hàng thủ CLB Công an TP.HCM (Minh Trọng chần chừ không phá bóng), Byan Perea đã nhả bóng dọn cỗ để Alan Sebastiao ập vào sút cận thành sấm sét, đưa bóng đi tung nóc lưới thủ môn Lê Giang Patrik.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "snippet": "Phút 58, tận dụng khoảnh khắc thiếu tập trung của hàng thủ CLB Công an TP.HCM (Minh Trọng chần chừ không phá bóng), Byan Perea đã nhả bóng dọn cỗ để Alan Sebastiao ập vào sút cận thành sấm sét, đưa bóng đi tung nóc lưới thủ môn Lê Giang Patrik.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "page_sha256": "791131217d1e37574930e1a05e66d4ae4873e685f05bbf05729cc8543b4ba013",
+              "snippet_sha256": "73b7dd54be1ef175c799bd403bd05557e5a93d650b34e21c626435928c4d6684",
+              "verified_at": "2026-11-07T15:59:46.668094+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phút 68, Williams Minh Hoàng đá phạt đền thành công đánh bại thủ môn Nguyễn Filip để gỡ hòa 1-1 cho CLB Công an TP.HCM.",
+          "source_urls": [
+            "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phút 68, Williams Minh Hoàng tỏa sáng với pha tỉa bóng đẹp mắt xuống mép phải vòng cấm cho Kevin Yamga băng xuống đối mặt thủ môn Nguyễn Filip.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "snippet": "Phút 68, Williams Minh Hoàng tỏa sáng với pha tỉa bóng đẹp mắt xuống mép phải vòng cấm cho Kevin Yamga băng xuống đối mặt thủ môn Nguyễn Filip.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "page_sha256": "791131217d1e37574930e1a05e66d4ae4873e685f05bbf05729cc8543b4ba013",
+              "snippet_sha256": "7cea0be0f2d19321c9bfe53b1fedb0d576d28217014b30a88b444790304bb71d",
+              "verified_at": "2026-11-07T15:59:46.668094+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phút 81, Stefan Mauk tạt bóng để Alan bật cao đánh đầu ấn định chiến thắng 2-1 cho CLB CAHN.",
+          "source_urls": [
+            "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phút 81, Stefan Mauk thoát xuống đáy biên trái rồi tạt vào như đặt cho Alan bật cao đánh đầu ấn định chiến thắng 2-1, đưa CAHN trở lại ngôi nhì V-League.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "snippet": "Phút 81, Stefan Mauk thoát xuống đáy biên trái rồi tạt vào như đặt cho Alan bật cao đánh đầu ấn định chiến thắng 2-1, đưa CAHN trở lại ngôi nhì V-League.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+              "page_sha256": "791131217d1e37574930e1a05e66d4ae4873e685f05bbf05729cc8543b4ba013",
+              "snippet_sha256": "4f0f92682a9edc10129910055cbcce3934bc6adfd3ff527bfab73aaeaed09825",
+              "verified_at": "2026-11-07T15:59:46.668094+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến chi tiết các bàn thắng và bước ngoặt chiến thuật trong hiệp hai trận đấu giữa CLB CAHN và CLB Công an TP.HCM. Phân tích cách đội chủ nhà tận dụng thời cơ để giành chiến thắng sát nút và vươn lên top đầu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T15:59:46.668756+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "58",
+        "68",
+        "7",
+        "7.11",
+        "81"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-07T15:59:46.669640+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 354,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1624
+        },
+        "independent_domains": [
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ thanhnien.vn không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-07T15:59:48.394072+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-07T15:59:48.394072+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ thanhnien.vn không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 354,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1624,
+        "source_access": [
+          {
+            "url": "https://thanhnien.vn/clb-cong-an-tphcm-thua-dau-duong-kim-vo-dich-cahn-williams-minh-hoang-khong-ganh-noi-team-18526110720155574.htm",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
