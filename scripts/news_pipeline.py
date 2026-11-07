@@ -1327,6 +1327,52 @@ def search_official_sources(title, category, excluded_domains=None, limit=6, res
             break
     return candidates
 
+ACTIVE_QUEUE_STATUSES = ('READY','WRITING_PENDING','WRITTEN')
+HEAVY_TERMINAL_FIELDS = ('evidence_pages','discovery_group','research_dossier')
+
+
+def _queue_stamp(item):
+    return str(item.get('prepared_at') or item.get('staged_at') or item.get('checked_at') or item.get('research_ready_at') or '')
+
+
+def trim_research_queue(queue, max_size=None):
+    """Bound the research queue WITHOUT ever dropping work that is still in progress.
+
+    Candidates waiting to be written (WRITING_PENDING), written drafts (WRITTEN) and READY articles
+    are always kept first. Only finished records (published, expired, rejected, held) compete for
+    the remaining room, newest first. The old rule sorted by `prepared_at`, which freshly staged
+    candidates do not have yet, so once the queue reached its cap every new candidate was cut in the
+    same run that staged it and nothing was ever written or published.
+    """
+    max_size=max_size or MAX_RESEARCH_QUEUE
+    items=[x for x in queue if isinstance(x,dict)]
+    now=datetime.now(timezone.utc)
+
+    def is_active(item):
+        status=item.get('status')
+        if status in ('READY','WRITING_PENDING'):
+            return True
+        if status=='WRITTEN':
+            # A written staging record is only needed while its article can still be repaired or
+            # published (freshness windows are 72h); older ones are finished records.
+            stamp=as_utc(item.get('staged_at') or item.get('research_ready_at'))
+            return stamp is None or now-stamp<timedelta(days=5)
+        return False
+
+    active=[x for x in items if is_active(x)]
+    terminal=[x for x in items if not is_active(x)]
+    active.sort(key=_queue_stamp,reverse=True)
+    terminal.sort(key=_queue_stamp,reverse=True)
+    kept_active=active[:max_size]
+    kept_terminal=terminal[:max(0,max_size-len(kept_active))]
+    for item in kept_terminal:
+        # Finished records only need their outcome; the sealed pages are large and never reused.
+        if item.get('status') in {'PUBLISHED','EXPIRED','REJECT','WRITTEN'}:
+            for field in HEAVY_TERMINAL_FIELDS:
+                item.pop(field,None)
+    return kept_active+kept_terminal
+
+
 def main():
     feeds=json.loads(FEEDS.read_text(encoding='utf-8'))
     active_articles=json.loads(ARTICLES.read_text(encoding='utf-8'))
@@ -1604,11 +1650,7 @@ def main():
             seen.setdefault(u,{})['status']='writing_pending'
         print(f"[STAGED] {mainlead.get('discovery_title','')} ({len(good)} verified source(s)); waiting for writing workflow.")
     # Keep READY items until publication/expiry; preserve the newest usable queue records.
-    research_queue.sort(key=lambda x:x.get('prepared_at',''),reverse=True)
-    ready=[x for x in research_queue if x.get('status')=='READY']
-    other=[x for x in research_queue if x.get('status')!='READY']
-    kept_ready=ready[:MAX_RESEARCH_QUEUE]
-    research_queue=kept_ready+other[:max(0,MAX_RESEARCH_QUEUE-len(kept_ready))]
+    research_queue=trim_research_queue(research_queue)
     def pending_priority(item):
         status=item.get('status','queued')
         active_status=status in {'queued','retry','HOLD','ready_for_publish'}

@@ -210,3 +210,33 @@ class CategoryRoutingTests(unittest.TestCase):
         changes=rc.recategorize(a)
         self.assertEqual(a[0]['category'],'vietnam'); self.assertEqual(len(changes),1)
         self.assertEqual({k:v for k,v in a[0].items() if k!='category'},before)
+
+
+class ResearchQueueTrimTests(unittest.TestCase):
+    def test_new_candidate_survives_when_queue_is_full_of_finished_records(self):
+        import news_pipeline as np
+        queue=[{'queue_id':f'old{i}','status':'EXPIRED','staged_at':f'2026-10-{(i%28)+1:02d}T00:00:00+00:00',
+                'evidence_pages':{'u':'x'*100}} for i in range(np.MAX_RESEARCH_QUEUE)]
+        queue.append({'queue_id':'NEW','status':'WRITING_PENDING','staged_at':'2026-11-07T01:16:00+00:00'})
+        kept=np.trim_research_queue(queue)
+        self.assertLessEqual(len(kept),np.MAX_RESEARCH_QUEUE)
+        self.assertIn('NEW',[x['queue_id'] for x in kept])
+        self.assertTrue(all('evidence_pages' not in x for x in kept if x['status']=='EXPIRED'))
+
+    def test_active_work_is_kept_before_finished_records(self):
+        import news_pipeline as np
+        from datetime import datetime, timezone, timedelta
+        recent=(datetime.now(timezone.utc)-timedelta(days=1)).isoformat()
+        queue=[{'queue_id':'w','status':'WRITTEN','staged_at':recent},
+               {'queue_id':'r','status':'READY','prepared_at':'2026-11-02T00:00:00+00:00'},
+               {'queue_id':'h','status':'HOLD','staged_at':'2026-11-06T00:00:00+00:00'}]
+        kept=np.trim_research_queue(queue,max_size=2)
+        self.assertEqual({x['queue_id'] for x in kept},{'w','r'})
+
+    def test_old_written_records_stop_occupying_the_queue(self):
+        import news_pipeline as np
+        queue=[{'queue_id':f'w{i}','status':'WRITTEN','staged_at':'2026-10-01T00:00:00+00:00','evidence_pages':{'u':'x'}}
+               for i in range(np.MAX_RESEARCH_QUEUE)]
+        queue.append({'queue_id':'NEW','status':'WRITING_PENDING','staged_at':'2026-11-07T01:16:00+00:00'})
+        kept=np.trim_research_queue(queue)
+        self.assertIn('NEW',[x['queue_id'] for x in kept])
