@@ -221,5 +221,20 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-07 18:21",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-07T11:21:24.353035+00:00",
+    "prepared_candidates": 6,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "bong-a-cuoi-tuan-tam-iem-wsl-va-nhung-bien-ong-tai-premier-league-490c4564",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

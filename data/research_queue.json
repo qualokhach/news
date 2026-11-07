@@ -2578,7 +2578,7 @@
   },
   {
     "queue_id": "alcaraz-anh-bai-fritz-tai-paris-masters-ua-rafael-jodar-vao-atp-finals-337bcb74",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-07T05:28:10.194173+00:00",
     "expires_at": "2026-11-08T05:28:10.194173+00:00",
     "source_urls": [
@@ -2594,7 +2594,7 @@
       "source_url": "https://www.bbc.co.uk/sport/tennis/articles/c6e9lldl3lpjo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-06T22:35:04+00:00",
       "fetched_at": "2026-11-07T05:28:15.401629+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-07T11:21:24.353035+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -2749,27 +2749,37 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-07T05:28:15.402887+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-07T11:21:24.353035+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 282,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1329
-        },
-        "independent_domains": [
-          "bbc.com",
-          "skysports.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1329,
+          "source_access": [
+            {
+              "url": "https://www.skysports.com/tennis/news/12040/13608938/paris-masters-taylor-fritz-squanders-match-points-against-carlos-alcaraz-as-defeat-ends-hopes-of-reaching-atp-finals",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-07 18:21"
+    },
+    "published_at": "2026-11-07T11:21:24.353035+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bau-cu-giua-ky-va-ap-luc-moi-oi-voi-cac-hang-cong-nghe-lon-01b22751",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-07T05:28:10.194173+00:00",
     "expires_at": "2026-11-08T05:28:10.194173+00:00",
     "source_urls": [
@@ -2789,7 +2799,7 @@
       "source_url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
       "published_at": "2026-11-07T04:16:43+00:00",
       "fetched_at": "2026-11-07T05:28:20.854733+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-07T11:21:24.353035+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -3021,27 +3031,37 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-07T05:28:20.856603+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-07T11:21:24.353035+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 380,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1729
-        },
-        "independent_domains": [
-          "euronews.com",
-          "sportingnews.com",
-          "techcrunch.com",
-          "theguardian.com",
-          "theverge.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1729,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "euronews.com",
+            "sportingnews.com",
+            "techcrunch.com",
+            "theguardian.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-07 18:21"
+    },
+    "published_at": "2026-11-07T11:21:24.353035+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "phu-nu-u-35-giam-can-can-tranh-3-cam-bay-chuyen-hoa-pho-bien-e13411f0",
@@ -53781,7 +53801,7 @@
   },
   {
     "queue_id": "cap-nhat-cac-chuong-trinh-giam-gia-som-black-friday-2026-9e527621",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-07T10:44:14.439365+00:00",
     "expires_at": "2026-11-08T10:44:14.439365+00:00",
     "source_urls": [
@@ -53797,7 +53817,7 @@
       "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
       "published_at": "2026-11-07T10:16:00+00:00",
       "fetched_at": "2026-11-07T10:44:18.558978+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-07T11:21:24.353035+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -53951,27 +53971,37 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-07T10:44:18.560373+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-07T11:21:24.353035+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 240,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1091
-        },
-        "independent_domains": [
-          "sportingnews.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1091,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "sportingnews.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-07 18:21"
+    },
+    "published_at": "2026-11-07T11:21:24.353035+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "co-hoi-nhan-thuong-du-oan-tran-oregon-au-ohio-state-voi-ma-prophetx-0d086079",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-07T10:44:14.439365+00:00",
     "expires_at": "2026-11-08T10:44:14.439365+00:00",
     "source_urls": [
@@ -53987,7 +54017,7 @@
       "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
       "published_at": "2026-11-07T08:40:01+00:00",
       "fetched_at": "2026-11-07T10:44:24.541244+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-07T11:21:24.353035+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -54141,27 +54171,37 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-07T10:44:24.542487+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-07T11:21:24.353035+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 227,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1038
-        },
-        "independent_domains": [
-          "sportingnews.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1038,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "sportingnews.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-07 18:21"
+    },
+    "published_at": "2026-11-07T11:21:24.353035+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bong-a-cuoi-tuan-tam-iem-wsl-va-nhung-bien-ong-tai-premier-league-490c4564",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-07T10:44:14.439365+00:00",
     "expires_at": "2026-11-08T10:44:14.439365+00:00",
     "source_urls": [
@@ -54381,6 +54421,36 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-07T11:21:24.353035+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-07T11:21:24.353035+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 420,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1947,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
