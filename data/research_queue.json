@@ -2250,7 +2250,7 @@
   },
   {
     "queue_id": "ef58988a58cb890b28c6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T05:27:44.878293+00:00",
     "expires_at": "2026-11-10T05:25:42.025289+00:00",
     "category_hint": "world",
@@ -3079,11 +3079,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T05:27:44.878317+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "lan-song-bat-man-lan-rong-tai-chau-au-tu-cac-cuoc-bieu-tinh-hoc-sinh-va--95548147"
   },
   {
     "queue_id": "73df72209da9652d24ae",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T05:27:42.880274+00:00",
     "expires_at": "2026-11-10T05:25:42.025289+00:00",
     "category_hint": "world",
@@ -3662,11 +3663,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T05:27:42.880297+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vua-charles-phat-bieu-tai-hoi-nghi-khoi-thinh-vuong-chung-giua-lan-song--bc49fe7c"
   },
   {
     "queue_id": "24e4ec339c8198d7b810",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T05:27:41.818826+00:00",
     "expires_at": "2026-11-10T05:25:42.025289+00:00",
     "category_hint": "technology",
@@ -4270,11 +4272,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T05:27:41.818850+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "sequoia-capital-cham-dut-chuong-trinh-scout-dau-moc-khep-lai-mot-ky-nguy-28d0e1a3"
   },
   {
     "queue_id": "b99068074cfff30af851",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T05:27:32.428511+00:00",
     "expires_at": "2026-11-10T05:25:42.025289+00:00",
     "category_hint": "vietnam",
@@ -5138,7 +5141,8 @@
       ]
     },
     "research_ready_at": "2026-11-07T05:27:32.428537+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ai-uc-thich-inh-phuc-va-hanh-trinh-4-nam-nghien-cuu-y-ca-sa-6f8f651b"
   },
   {
     "queue_id": "9524281e17fc4d37ccb5",
@@ -51841,5 +51845,958 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "lan-song-bat-man-lan-rong-tai-chau-au-tu-cac-cuoc-bieu-tinh-hoc-sinh-va--95548147",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-07T05:29:06.133212+00:00",
+    "expires_at": "2026-11-07T17:29:06.133212+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+      "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+      "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs"
+    ],
+    "article": {
+      "id": "lan-song-bat-man-lan-rong-tai-chau-au-tu-cac-cuoc-bieu-tinh-hoc-sinh-va--95548147",
+      "title": "Làn sóng bất mãn lan rộng tại châu Âu từ các cuộc biểu tình học sinh và chi phí sinh hoạt",
+      "summary": "Phong trào biểu tình vốn bắt đầu từ các trường học tại Pháp đã nhanh chóng phát triển thành làn sóng bất mãn rộng lớn trên toàn châu Âu, gây áp lực mạnh mẽ lên các chính phủ trong bối cảnh kinh tế khó khăn.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+      "published_at": "2026-11-06T11:48:49+00:00",
+      "fetched_at": "2026-11-07T05:29:12.183491+00:00",
+      "appnho_published_at": "2026-11-07T05:29:46.072948+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Làn sóng bất mãn công khai đang lan rộng khắp châu Âu, bắt nguồn từ các cuộc tuần hành của học sinh tại Pháp nhằm phản đối điều kiện học tập suy giảm, tình trạng thiếu giáo viên và áp lực đè nặng lên hệ thống giáo dục. Sự bất mãn này nhanh chóng biến thành phong trào lớn hơn xoay quanh vấn đề chi phí sinh hoạt gia tăng, nhà ở đắt đỏ và các dịch vụ công gặp nhiều khó khăn.",
+        "Tại Pháp, năm hiệp hội công đoàn đã kêu gọi một ngày hành động toàn quốc, thu hút hàng trăm nghìn người tham gia tuần hành tại nhiều thành phố lớn như Paris, Marseille, Bordeaux và Lille để yêu cầu tăng lương cũng như cải thiện dịch vụ công. Phía bộ nội vụ và các liên đoàn lao động đã ghi nhận quy mô lực lượng tham gia ở mức cao, phản ánh sự bức xúc ngày càng lớn trong các tầng lớp người lao động, người nghỉ hưu và giới trẻ.",
+        "Bên cạnh các cuộc tuần hành ôn hòa, tình trạng xô xát, đụng độ với lực lượng cảnh sát và các vụ việc phá hoại tài sản đã xảy ra tại một số địa điểm, khiến nhà chức trách phải triển khai lực lượng lớn và đối mặt với những ý kiến soi xét về biện pháp kiểm soát. Làn sóng bất ổn này diễn ra trong bối cảnh kinh tế khu vực chịu nhiều áp lực, khi lạm phát và nợ công tại nhiều quốc gia thành viên Liên minh Châu Âu tiếp tục duy trì ở mức cao.",
+        "Trước áp lực từ các cuộc đình công gây gián đoạn nghiêm trọng trong hệ thống giáo dục, giao thông và năng lượng, chính phủ các nước đang chật vật tìm kiếm giải pháp xoa dịu dư luận. Việc Thủ tướng Pháp dự kiến tổ chức hội nghị xã hội với đại diện công đoàn và chủ doanh nghiệp cho thấy sức ép to lớn đối với các nhà lãnh đạo trong nỗ lực duy trì niềm tin của công chúng và giải quyết bài toán tài chính công."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Làn sóng biểu tình chi phí sinh hoạt lan rộng tại châu Âu",
+      "meta_description": "Khám phá nguyên nhân và diễn biến của làn sóng biểu tình của học sinh, người lao động phản đối chi phí sinh hoạt đắt đỏ tại Pháp và nhiều nước châu Âu.",
+      "keywords": [
+        "biểu tình châu Âu",
+        "chi phí sinh hoạt",
+        "đình công tại Pháp",
+        "khủng hoảng công cộng"
+      ],
+      "slug": "lan-song-bat-man-lan-rong-tai-chau-au-tu-cac-cuoc-bieu-tinh-hoc-sinh-va--95548147",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 364,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+        "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+        "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+        "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T11:48:49+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T10:26:03+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T20:11:37+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T11:55:12+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Làn sóng bất mãn tại châu Âu bắt đầu từ các cuộc biểu tình của học sinh tại Pháp về điều kiện trường học và nhanh chóng biến thành phong trào phản đối chi phí sinh hoạt.",
+          "source_urls": [
+            "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The content you requested does not exist or is not available anymore.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+              "snippet": "The content you requested does not exist or is not available anymore.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+              "page_sha256": "6ea8f445a41ca4c8d0561688fe7c0a06d76a9edc99227f1f47053cc9da07fd3d",
+              "snippet_sha256": "349bed8c936180128846a24a22f023d6cbf59364da54eb33e2cba673a0932c47",
+              "verified_at": "2026-11-07T05:29:12.182833+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Năm liên đoàn công đoàn tại Pháp đã kêu gọi ngày hành động yêu cầu tăng lương và cải thiện dịch vụ công với hàng trăm nghìn người tham gia.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The head of the CFDT complained that it was not just the minimum wage that needed to increase.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+              "snippet": "The head of the CFDT complained that it was not just the minimum wage that needed to increase.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "dad5febdd2bd1d2fff46493c6b603eb1a546b43a8b147290ded1135435a00626",
+              "snippet_sha256": "c70c1a68a7a4dbb215aa5c4f992c7ebc17a2f665317bafa6c1d157747d04b586",
+              "verified_at": "2026-11-07T05:29:12.182833+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lạm phát tại Liên minh Châu Âu và khu vực đồng euro đạt mức 3,8% vào tháng 9 trong bối cảnh áp lực kinh tế đè nặng lên các chính phủ.",
+          "source_urls": [
+            "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Meanwhile,inflationacross both theEuropean Unionand theeurozonehit 3.8 percent in September, up from 2.1 percent in 2024.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+              "snippet": "Meanwhile,inflationacross both theEuropean Unionand theeurozonehit 3.8 percent in September, up from 2.1 percent in 2024.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+              "page_sha256": "6ea8f445a41ca4c8d0561688fe7c0a06d76a9edc99227f1f47053cc9da07fd3d",
+              "snippet_sha256": "da6b5eeb75ef18880e2b255b445d2ef2b5ca7fae80b558291f732d0fd387a85d",
+              "verified_at": "2026-11-07T05:29:12.182833+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa các cuộc biểu tình ban đầu của học sinh và phong trào đình công lan rộng của người lao động. Phân tích bối cảnh áp lực kinh tế công cộng tại Pháp và châu Âu giúp độc giả hiểu rõ nguyên nhân gốc rễ của cuộc khủng hoảng.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-07T05:29:12.183612+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-07T05:29:46.072948+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 364,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1647,
+          "source_access": [
+            {
+              "url": "https://www.france24.com/en/tv-shows/talking-europe/20261106-europe-s-crisis-of-discontent-student-and-cost-of-living-protests-spread-across-eu",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "euronews.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-07 12:29"
+    },
+    "published_at": "2026-11-07T05:29:46.072948+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vua-charles-phat-bieu-tai-hoi-nghi-khoi-thinh-vuong-chung-giua-lan-song--bc49fe7c",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-07T05:29:06.133212+00:00",
+    "expires_at": "2026-11-08T05:29:06.133212+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+      "https://www.euronews.com/2026/11/03/king-charles-and-queen-camilla-caught-in-heavy-rain-during-antigua-celebrations"
+    ],
+    "article": {
+      "id": "vua-charles-phat-bieu-tai-hoi-nghi-khoi-thinh-vuong-chung-giua-lan-song--bc49fe7c",
+      "title": "Vua Charles phát biểu tại hội nghị Khối thịnh vượng chung giữa làn sóng đòi xin lỗi vì nô lệ",
+      "summary": "Phát biểu tại hội nghị ở Antigua và Barbuda, Vua Charles III bày tỏ nỗi buồn sâu sắc về lịch sử nô lệ nhưng không đưa ra lời xin lỗi chính thức hay ủng hộ bồi thường, trong bối cảnh các nhà lãnh đạo Caribbean gia tăng sức ép.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+      "published_at": "2026-11-03T22:15:19+00:00",
+      "fetched_at": "2026-11-07T05:29:29.764893+00:00",
+      "appnho_published_at": "2026-11-07T05:29:46.072948+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại lễ khai mạc hội nghị Khối thịnh vượng chung diễn ra ở Antigua và Barbuda, Vua Charles III đã có bài phát biểu đề cập đến lịch sử buôn bán nô lệ xuyên Đại Tây Dương. Nhà vua chia sẻ rằng quãng thời gian tìm hiểu về quá khứ này mang lại cho ông nỗi buồn sâu sắc và lòng trắc ẩn lớn, đồng thời khẳng định mong muốn giải quyết những bất công từ thời kỳ trước.",
+        "Tuy nhiên, nhà vua không đưa ra lời xin lỗi chính thức hay ủng hộ việc bồi thường tài chính. Thay vào đó, ông nhấn mạnh việc thúc đẩy giáo dục, việc làm, thương mại nội khối và khả năng chống chịu biến đổi khí hậu nhằm giải quyết những khó khăn hiện tại.",
+        "Sự kiện diễn ra trong bối cảnh các nhà lãnh đạo Caribbean và phong trào đòi bồi thường quốc tế liên tục đẩy mạnh yêu cầu Anh quốc phải có hành động trách nhiệm lịch sử. Chủ tịch Cộng đồng Caribbean (Caricom) nhấn mạnh rằng lời xin lỗi chỉ là bước khởi đầu và cần đi kèm với các biện pháp khắc phục toàn diện.",
+        "Về phía chính phủ Anh, Thủ tướng Anh khẳng định không ủng hộ việc bồi thường trực tiếp nhưng cho biết Anh tiếp tục hỗ trợ các quốc gia thành viên trong lĩnh vực phát triển, tài chính xanh và giải quyết vấn đề nợ công."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vua Charles phát biểu tại hội nghị Khối thịnh vượng chung về vấn đề nô",
+      "meta_description": "Vua Charles III phát biểu tại hội nghị Khối thịnh vượng chung ở Antigua khi áp lực đòi Anh xin lỗi và bồi thường lịch sử nô lệ gia tăng.",
+      "keywords": [
+        "Vua Charles",
+        "Khối thịnh vượng chung",
+        "nô lệ",
+        "bồi thường",
+        "Antigua và Barbuda"
+      ],
+      "slug": "vua-charles-phat-bieu-tai-hoi-nghi-khoi-thinh-vuong-chung-giua-lan-song--bc49fe7c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 244,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+        "https://www.euronews.com/2026/11/03/king-charles-and-queen-camilla-caught-in-heavy-rain-during-antigua-celebrations"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/03/king-charles-and-queen-camilla-caught-in-heavy-rain-during-antigua-celebrations"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T22:15:19+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/03/king-charles-and-queen-camilla-caught-in-heavy-rain-during-antigua-celebrations",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T08:26:14+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vua Charles III phát biểu tại lễ khai mạc hội nghị Khối thịnh vượng chung ở Antigua và Barbuda.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“We cannot change the actions of those who came before us,” Charles told leaders at the opening of theCommonwealth summitin Antigua and Barbuda on Tuesday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "snippet": "“We cannot change the actions of those who came before us,” Charles told leaders at the opening of theCommonwealth summitin Antigua and Barbuda on Tuesday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "page_sha256": "daf8a6653cdb67301539ff28ccbbd884442e229018eda9377f7d768169d20430",
+              "snippet_sha256": "0f19ad4fe301726f9331bf2ef4feffaf0b01d4b5073a4cbb286861dbe0f272b0",
+              "verified_at": "2026-11-07T05:29:29.764069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhà vua không đưa ra lời xin lỗi hay ủng hộ trực tiếp việc bồi thường nô lệ.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery"
+          ],
+          "importance": "core",
+          "evidence_snippet": "UK makes huge aid cuts to Commonwealth nations despite warm words at ChogmRead more",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "snippet": "UK makes huge aid cuts to Commonwealth nations despite warm words at ChogmRead more",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "page_sha256": "daf8a6653cdb67301539ff28ccbbd884442e229018eda9377f7d768169d20430",
+              "snippet_sha256": "80360f5f985ba604c8ab0bda32f473c78249927f49ecc1cda49f41afa4c99f8f",
+              "verified_at": "2026-11-07T05:29:29.764069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các nhà lãnh đạo Caribbean và Caricom gia tăng yêu cầu xin lỗi và bồi thường.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Philip J Pierre, the chair of theCaribbean Community (Caricom), described an apology as an “essential first step” but said an “apology without repair is incomplete”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "snippet": "Philip J Pierre, the chair of theCaribbean Community (Caricom), described an apology as an “essential first step” but said an “apology without repair is incomplete”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "page_sha256": "daf8a6653cdb67301539ff28ccbbd884442e229018eda9377f7d768169d20430",
+              "snippet_sha256": "2260bcc660dc2ae34f26160e7758bcacf0f4d034f14286e53b78db5b6d8ae26c",
+              "verified_at": "2026-11-07T05:29:29.764069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Anh khẳng định chính phủ không ủng hộ việc bồi thường trực tiếp nhưng vẫn hỗ trợ phát triển và tài chính xanh.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "One protester, Lenworth Johnson, said that if the king’s constitutional position prevented him from apologising, the British government should authorise him to do so.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "snippet": "One protester, Lenworth Johnson, said that if the king’s constitutional position prevented him from apologising, the British government should authorise him to do so.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "page_sha256": "daf8a6653cdb67301539ff28ccbbd884442e229018eda9377f7d768169d20430",
+              "snippet_sha256": "974a76cf1952760536831c9cef7c8fc066f1f8fe45cae116249d02f896678690",
+              "verified_at": "2026-11-07T05:29:29.764069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lập trường của Vua Charles III và chính phủ Anh tại hội nghị Khối thịnh vượng chung. Đồng thời, văn bản đối chiếu quan điểm giữa các nhà lãnh đạo Caribbean về vấn đề công lý đền bù và phản ứng của phía Anh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T05:29:29.764987+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-07T05:29:46.072948+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 244,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1138,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "euronews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-07 12:29"
+    },
+    "published_at": "2026-11-07T05:29:46.072948+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "sequoia-capital-cham-dut-chuong-trinh-scout-dau-moc-khep-lai-mot-ky-nguy-28d0e1a3",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-07T05:29:06.133212+00:00",
+    "expires_at": "2026-11-08T05:29:06.133212+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+      "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
+      "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms"
+    ],
+    "article": {
+      "id": "sequoia-capital-cham-dut-chuong-trinh-scout-dau-moc-khep-lai-mot-ky-nguy-28d0e1a3",
+      "title": "Sequoia Capital chấm dứt chương trình scout: Dấu mốc khép lại một kỷ nguyên đầu tư mạo hiểm",
+      "summary": "Quyết định chấm dứt chương trình scout kéo dài 17 năm của Sequoia Capital phản ánh sự thay đổi lớn trong chiến lược của các quỹ đầu tư mạo hiểm hàng đầu.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+      "published_at": "2026-11-07T05:01:54+00:00",
+      "fetched_at": "2026-11-07T05:29:36.704950+00:00",
+      "appnho_published_at": "2026-11-07T05:29:46.072948+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Quyết định của Sequoia Capital về việc đóng cửa văn phòng tại London và chấm dứt chương trình scout (chương trình tuyển chọn nhà đầu tư vệ tinh) đang thu hút sự chú ý lớn từ giới tài chính công nghệ. Trong một thông báo đăng tải trên nền tảng X, quỹ đầu tư mạo hiểm này đưa ra định hướng tập trung nhiều năng lượng hơn vào ít người và ít dự án hơn thay vì trải rộng nguồn lực.",
+        "Cách đây 17 năm, Sequoia là đơn vị tiên phong áp dụng mô hình scout, trong đó các nhà sáng lập và điều hành được lựa chọn sẽ thay mặt quỹ trực tiếp rót vốn vào các start-up giai đoạn đầu. Mô hình này sau đó đã được nhiều quỹ đầu tư mạo hiểm khác học hỏi và làm theo trong bối cảnh cạnh tranh gay gắt nhằm tìm kiếm nguồn giao dịch tiềm năng trên thị trường toàn cầu.",
+        "Tuy nhiên, giới quan sát nhận định mô hình này dường như đã chạm đến giới hạn trong hình thức hiện tại. Một số ý kiến từ giới đầu tư cho rằng hiệu quả của việc phân bổ vốn qua mạng lưới vệ tinh không phải lúc nào cũng mang lại kết quả như kỳ vọng, và các quỹ lớn hiện nay đã đủ tên tuổi để các nhà sáng lập tự tìm đến trực tiếp mà không cần qua trung gian.",
+        "Dù vậy, vai trò của các chương trình scout trong quá khứ là không thể phủ nhận khi từng là bước đệm quan trọng cho nhiều nhà quản lý quỹ tương lai và góp phần định hình văn hóa đầu tư mạo hiểm, đặc biệt tại thị trường châu Âu. Trong khi Sequoia khép lại chương trình của mình, một số quỹ đối thủ như Andreessen Horowitz lại chọn cách cải tổ mạng lưới scout để tinh gọn quy mô nhưng cấp ngân sách lớn hơn cho những cá nhân xuất sắc nhất."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Sequoia Capital đóng cửa chương trình scout khép lại một kỷ nguyên",
+      "meta_description": "Phân tích nguyên nhân và ý nghĩa đằng sau quyết định chấm dứt chương trình scout của quỹ đầu tư mạo hiểm Sequoia Capital.",
+      "keywords": [
+        "Sequoia Capital",
+        "Scouts program",
+        "venture capital",
+        "đầu tư mạo hiểm"
+      ],
+      "slug": "sequoia-capital-cham-dut-chuong-trinh-scout-dau-moc-khep-lai-mot-ky-nguy-28d0e1a3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 336,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+        "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
+        "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms"
+      ],
+      "source_links": [
+        "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
+        "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T05:01:54+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T22:17:59+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T18:30:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sequoia thông báo đợt cải tổ lớn bao gồm đóng cửa văn phòng London và dừng chương trình scout.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sequoia this weekannounced a broad overhaulin a memo posted to X, a move that includes closing its London office and shutting down its scout program.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "snippet": "Sequoia this weekannounced a broad overhaulin a memo posted to X, a move that includes closing its London office and shutting down its scout program.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "page_sha256": "c872fb4c210e88d9522a353ce6883226acbf0bdeacf3a2177f8afbb34873838a",
+              "snippet_sha256": "e4de7143bde51dfa42f0fe98aa39b09468eacfe3271b40e864a8c9ec9739ce4e",
+              "verified_at": "2026-11-07T05:29:36.704036+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sequoia là đơn vị tiên phong mô hình scout cách đây 17 năm, trong đó các nhà sáng lập và vận hành viết séc thay cho quỹ.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era"
+          ],
+          "importance": "core",
+          "evidence_snippet": "That’s partly because 17 years ago, Sequoiapioneeredthe scouts model, in which select founders and operators write checks on the firm’s behalf.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "snippet": "That’s partly because 17 years ago, Sequoiapioneeredthe scouts model, in which select founders and operators write checks on the firm’s behalf.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "page_sha256": "c872fb4c210e88d9522a353ce6883226acbf0bdeacf3a2177f8afbb34873838a",
+              "snippet_sha256": "19883bb0ab925c82f807d6d7e39fe333757df20ec29925480bfacb9f8b7c6396",
+              "verified_at": "2026-11-07T05:29:36.704036+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Roxanne Varza, cựu scout của Sequoia từ năm 2020 đến 2025, cho biết chương trình từng là bước đệm cho nhiều người gia nhập hoặc xây dựng quỹ đầu tư.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Varza, a former Sequoia scout from 2020 to 2025, told TechCrunch that she had no information beyond what has been shared publicly, but observed that becoming a scout had often been a stepping stone for aspiring investment managers.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "snippet": "Varza, a former Sequoia scout from 2020 to 2025, told TechCrunch that she had no information beyond what has been shared publicly, but observed that becoming a scout had often been a stepping stone for aspiring investment managers.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "page_sha256": "c872fb4c210e88d9522a353ce6883226acbf0bdeacf3a2177f8afbb34873838a",
+              "snippet_sha256": "5e38d071e17aec9970f53abefa2c235062e84a760072f50c2910770ca4e7ae89",
+              "verified_at": "2026-11-07T05:29:36.704036+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quỹ Andreessen Horowitz đã cải tổ mạng lưới scout toàn cầu để tập trung vào những người xuất sắc nhất với số lượng ít hơn nhưng nguồn lực tài chính lớn hơn.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Rival firm Andreessen Horowitz (a16z), for instance, rolled out aglobal scout networkaimed at spotting opportunities in the U.S.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "snippet": "Rival firm Andreessen Horowitz (a16z), for instance, rolled out aglobal scout networkaimed at spotting opportunities in the U.S.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "page_sha256": "c872fb4c210e88d9522a353ce6883226acbf0bdeacf3a2177f8afbb34873838a",
+              "snippet_sha256": "cd48f12eb60994ad61fb3c7f1eeba21e0ae9ba4f8388c0130dc7e2725c5c9a93",
+              "verified_at": "2026-11-07T05:29:36.704036+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh 17 năm hình thành của mô hình scout do Sequoia khởi xướng và lý do các quỹ đầu tư mạo hiểm lớn đang chuyển dịch sang chiến lược tinh gọn hơn. Phân tích này giải thích tác động của quyết định tới hệ sinh thái khởi nghiệp và các nhà quản lý quỹ thế hệ mới.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T05:29:36.705064+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "17"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-07T05:29:46.072948+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 336,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1533,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "techcrunch.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-07 12:29"
+    },
+    "published_at": "2026-11-07T05:29:46.072948+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ai-uc-thich-inh-phuc-va-hanh-trinh-4-nam-nghien-cuu-y-ca-sa-6f8f651b",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-07T05:29:06.133212+00:00",
+    "expires_at": "2026-11-08T05:29:06.133212+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+      "https://tuoitre.vn/ben-pha-dai-ngai-cai-tien-cach-ban-ve-tai-xe-ngoi-tren-xe-van-mua-duoc-10026110711264068.htm",
+      "https://dantri.com.vn/thoi-su/doi-dai-hoc-bach-khoa-ha-noi-gianh-giai-nhi-cuoc-thi-ve-luat-giao-thong-20261106190020753.htm"
+    ],
+    "article": {
+      "id": "ai-uc-thich-inh-phuc-va-hanh-trinh-4-nam-nghien-cuu-y-ca-sa-6f8f651b",
+      "title": "Đại đức Thích Định Phúc và hành trình 4 năm nghiên cứu y cà sa",
+      "summary": "Hành trình 4 năm nghiên cứu nghiêm túc về chiếc y cà sa giúp Đại đức Thích Định Phúc trở thành người đầu tiên bảo vệ thành công luận án tiến sĩ tại Học viện Phật giáo Việt Nam ở TP.HCM.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+      "published_at": "2026-11-07T05:16:00+00:00",
+      "fetched_at": "2026-11-07T05:29:43.810639+00:00",
+      "appnho_published_at": "2026-11-07T05:29:46.072948+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Từng có suy nghĩ đi tu không cần đến bằng tiến sĩ, Đại đức Thích Định Phúc đã trải qua 4 năm miệt mài nghiên cứu để trở thành người đầu tiên bảo vệ thành công luận án tiến sĩ tại Học viện Phật giáo Việt Nam tại TP.HCM. Đề tài mà sư lựa chọn gắn liền với vật dụng tưởng chừng rất quen thuộc trong đời sống tu sỉ hằng ngày: chiếc y cà sa trong Phật giáo Nam tông.",
+        "Sinh năm 1986 trong một gia đình có truyền thống Phật giáo Nam tông Kinh, sư Định Phúc xuất gia vào năm 2004 sau nhiều lần thuyết phục gia đình. Sau khoảng thời gian 7 năm học tập theo hình thức gia giáo tại Vĩnh Long và hoàn thành chương trình cử nhân, thạc sĩ tại Đại học Mahachulalongkornrajavidyalaya ở Thái Lan, sư trở về Việt Nam vào năm 2018 với dự định ban đầu chỉ tập trung tu học. Tuy nhiên, sau lời khuyên của các bậc tôn túc cùng sự kiện Học viện Phật giáo Việt Nam tại TP.HCM tuyển nghiên cứu sinh tiến sĩ Phật học khóa đầu tiên, sư đã quyết định đăng ký theo học vào năm 2019.",
+        "Quá trình thực hiện đề tài đòi hỏi sự kiên trì lớn khi sư phải cân đối giữa thời khóa tu tập nghiêm ngặt mỗi ngày và thời gian tra cứu tài liệu. Có những ngày, sư ngồi trước máy tính suốt nhiều giờ, lần giở kinh điển bằng tiếng Pāli rồi đối chiếu với các tài liệu tiếng Anh và tiếng Thái. Đứng trước những thắc mắc như vì sao y có nhiều màu sắc hay vì sao phải ghép từ nhiều mảnh vải, sư nhận định y cà sa mang ý nghĩa hoại sắc, gắn liền với sự giản dị của người xuất gia thay vì cố định một màu duy nhất. Qua việc nghiên cứu kinh điển, sư tìm thấy những mô tả màu sắc y thời Đức Phật gần với sắc mặt trời lúc bình minh hoặc màu đọt lá bồ đề."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Đại đức Thích Định Phúc nghiên cứu tiến sĩ về y cà sa",
+      "meta_description": "Tìm hiểu về cơ duyên và quá trình 4 năm nghiên cứu luận án tiến sĩ đề tài y cà sa trong Phật giáo Nam tông của Đại đức Thích Định Phúc.",
+      "keywords": [
+        "Đại đức Thích Định Phúc",
+        "y cà sa",
+        "tiến sĩ Phật học",
+        "Học viện Phật giáo Việt Nam",
+        "Phật giáo Nam tông"
+      ],
+      "slug": "ai-uc-thich-inh-phuc-va-hanh-trinh-4-nam-nghien-cuu-y-ca-sa-6f8f651b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 350,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+        "https://tuoitre.vn/ben-pha-dai-ngai-cai-tien-cach-ban-ve-tai-xe-ngoi-tren-xe-van-mua-duoc-10026110711264068.htm",
+        "https://dantri.com.vn/thoi-su/doi-dai-hoc-bach-khoa-ha-noi-gianh-giai-nhi-cuoc-thi-ve-luat-giao-thong-20261106190020753.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/ben-pha-dai-ngai-cai-tien-cach-ban-ve-tai-xe-ngoi-tren-xe-van-mua-duoc-10026110711264068.htm",
+        "https://dantri.com.vn/thoi-su/doi-dai-hoc-bach-khoa-ha-noi-gianh-giai-nhi-cuoc-thi-ve-luat-giao-thong-20261106190020753.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T05:16:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/ben-pha-dai-ngai-cai-tien-cach-ban-ve-tai-xe-ngoi-tren-xe-van-mua-duoc-10026110711264068.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T04:56:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/doi-dai-hoc-bach-khoa-ha-noi-gianh-giai-nhi-cuoc-thi-ve-luat-giao-thong-20261106190020753.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T12:13:53+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đại đức Thích Định Phúc là người đầu tiên bảo vệ thành công luận án tiến sĩ ở Học viện Phật giáo Việt Nam tại TP.HCM với đề tài nghiên cứu y cà sa.",
+          "source_urls": [
+            "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Vũ Phượng07/11/2026 12:16 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Từng nghĩ đi tu không cần bằng tiến sĩ, đại đức Thích Định Phúc dành 4 năm nghiên cứu chiếc y cà sa và là người đầu tiên bảo vệ thành công luận án tiến sĩ ở Học viện Phật giáo Việt Nam tại TP.HCM.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "snippet": "Vũ Phượng07/11/2026 12:16 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Từng nghĩ đi tu không cần bằng tiến sĩ, đại đức Thích Định Phúc dành 4 năm nghiên cứu chiếc y cà sa và là người đầu tiên bảo vệ thành công luận án tiến sĩ ở Học viện Phật giáo Việt Nam tại TP.HCM.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "page_sha256": "6a5400b7f7fd44e43db8631e8ec14b03bab1164195788b73a6a47ac8dd4adfb0",
+              "snippet_sha256": "d81327f6797fec12109e9818dcf6bfa2f256ff2086b5e8ce6409bcfc99725770",
+              "verified_at": "2026-11-07T05:29:43.809776+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sư Định Phúc sinh năm 1986, xuất gia năm 2004, từng học cử nhân và thạc sĩ tại Thái Lan trước khi học tiến sĩ tại Việt Nam từ năm 2019.",
+          "source_urls": [
+            "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Sinh năm 1986 trong gia đình có truyền thống Phật giáo Nam tông Kinh, sư Định Phúc (thế danh Nguyễn Hoàng Phúc) đã gắn bó với chùa từ nhỏ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "snippet": "Sinh năm 1986 trong gia đình có truyền thống Phật giáo Nam tông Kinh, sư Định Phúc (thế danh Nguyễn Hoàng Phúc) đã gắn bó với chùa từ nhỏ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "page_sha256": "6a5400b7f7fd44e43db8631e8ec14b03bab1164195788b73a6a47ac8dd4adfb0",
+              "snippet_sha256": "25c5526256ce5de08fa55997b096b9bfac432d558d337d5e7ac9307641f7101d",
+              "verified_at": "2026-11-07T05:29:43.809776+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đề tài nghiên cứu kéo dài 4 năm, đòi hỏi sư phải đối chiếu kinh điển tiếng Pāli cùng tài liệu tiếng Anh, tiếng Thái để tìm hiểu về màu sắc và cách may y cà sa.",
+          "source_urls": [
+            "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Có những ngày, đại đức Thích Định Phúc ngồi trước máy tính gần như suốt ngày, lần giở kinh điển tiếng Pāli, đối chiếu tài liệu tiếng Anh, tiếng Thái.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "snippet": "Có những ngày, đại đức Thích Định Phúc ngồi trước máy tính gần như suốt ngày, lần giở kinh điển tiếng Pāli, đối chiếu tài liệu tiếng Anh, tiếng Thái.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "page_sha256": "6a5400b7f7fd44e43db8631e8ec14b03bab1164195788b73a6a47ac8dd4adfb0",
+              "snippet_sha256": "00a1b28ffecacb20bff8514669c43c6fd6573543db3b0107bd6f866bdad245e5",
+              "verified_at": "2026-11-07T05:29:43.809776+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo lý giải động lực và bối cảnh học thuật đằng sau công trình nghiên cứu tiến sĩ đầu tiên về y cà sa tại Học viện Phật giáo Việt Nam tại TP.HCM. Nội dung làm rõ những trăn trở của người xuất gia trước các nghi vấn kinh điển và quy định truyền thống về trang phục tu hành.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T05:29:43.810753+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1986",
+        "2004",
+        "2018",
+        "2019",
+        "4",
+        "7"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-07T05:29:46.072948+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 350,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1593,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/dai-duc-thich-dinh-phuc-hoc-tien-si-de-hieu-chiec-y-ca-sa-minh-dang-mac-18526110706551498.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-07 12:29"
+    },
+    "published_at": "2026-11-07T05:29:46.072948+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
