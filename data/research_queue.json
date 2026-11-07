@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "8997b5306c6b5d3b0955",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T10:43:59.333793+00:00",
     "expires_at": "2026-11-10T10:42:11.195648+00:00",
     "category_hint": "technology",
@@ -1184,11 +1184,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T10:43:59.333811+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cap-nhat-cac-chuong-trinh-giam-gia-som-black-friday-2026-9e527621"
   },
   {
     "queue_id": "9435154beabc516b4eb0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T10:43:57.404049+00:00",
     "expires_at": "2026-11-10T10:42:11.195648+00:00",
     "category_hint": "sports",
@@ -1857,11 +1858,12 @@
       ]
     },
     "research_ready_at": "2026-11-07T10:43:57.404075+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "co-hoi-nhan-thuong-du-oan-tran-oregon-au-ohio-state-voi-ma-prophetx-0d086079"
   },
   {
     "queue_id": "d6df6dfeceb613f73b11",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T10:43:54.926005+00:00",
     "expires_at": "2026-11-10T10:42:11.195648+00:00",
     "category_hint": "sports",
@@ -2571,7 +2573,8 @@
       ]
     },
     "research_ready_at": "2026-11-07T10:43:54.926029+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bong-a-cuoi-tuan-tam-iem-wsl-va-nhung-bien-ong-tai-premier-league-490c4564"
   },
   {
     "queue_id": "alcaraz-anh-bai-fritz-tai-paris-masters-ua-rafael-jodar-vao-atp-finals-337bcb74",
@@ -53775,5 +53778,609 @@
       }
     ],
     "editorial_reason": "Thể loại quick_update yêu cầu độ dài phần body tối thiểu 250 từ, nhưng hồ sơ nguồn cung cấp không đủ chi tiết và dữ kiện để viết một bài hoàn chỉnh đạt mức tối thiểu mà không phải suy diễn hay lặp ý."
+  },
+  {
+    "queue_id": "cap-nhat-cac-chuong-trinh-giam-gia-som-black-friday-2026-9e527621",
+    "status": "READY",
+    "prepared_at": "2026-11-07T10:44:14.439365+00:00",
+    "expires_at": "2026-11-08T10:44:14.439365+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+      "https://www.sportingnews.com/us/tickets/news/how-much-are-tickets-lsu-vs-texas-prices-time-2026-football/a8fbb271f9229660d7dc2051"
+    ],
+    "article": {
+      "id": "cap-nhat-cac-chuong-trinh-giam-gia-som-black-friday-2026-9e527621",
+      "title": "Cập nhật các chương trình giảm giá sớm Black Friday 2026",
+      "summary": "Các chương trình giảm giá sớm cho dịp Black Friday năm 2026 đã bắt đầu xuất hiện trước tháng 11, mang lại nhiều lựa chọn thiết bị công nghệ cho người tiêu dùng.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+      "published_at": "2026-11-07T10:16:00+00:00",
+      "fetched_at": "2026-11-07T10:44:18.558978+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa mua sắm Black Friday năm nay khởi động sớm hơn khi các chương trình giảm giá đã xuất hiện trước khi tháng 11 chính thức bắt đầu. Xu hướng này khiến người tiêu dùng đối mặt với câu hỏi liệu các mức giá hiện tại đã thực sự hấp dẫn hay sẽ tiếp tục giảm sâu hơn khi sự kiện chính thức diễn ra.",
+        "Theo thông tin cập nhật, nhiều thiết bị công nghệ từ các thương hiệu lớn như Apple và Google đang nằm trong diện ưu đãi. Các dòng sản phẩm như tai nghe không dây, thiết bị theo dõi đồ vật cùng dòng điện thoại thông minh Pixel ghi nhận các mức giá thấp hơn so với giai đoạn trước. Tuy nhiên, người mua vẫn cần cân nhắc kỹ lưỡng vì một số mặt hàng có thể tiếp tục giảm giá vào sát ngày Black Friday hoặc trong dịp Cyber Monday.",
+        "Bên cạnh các thiết bị di động, thị trường phụ kiện sạc và thiết bị mạng cũng ghi nhận các chương trình giảm giá đáng chú ý. Các bộ sạc không dây đa năng tích hợp chân đế hoặc cổng kết nối được chào bán với mức giá ưu đãi tại một số nhà bán lẻ lớn. Việc theo dõi sát biến động giá cả giúp người mua lựa chọn được thời điểm phù hợp để sở hữu các sản phẩm công nghệ mong muốn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cập nhật các chương trình giảm giá sớm Black Friday 2026",
+      "meta_description": "Thông tin cập nhật về các ưu đãi giảm giá công nghệ sớm trong mùa mua sắm Black Friday 2026 từ các nguồn tổng hợp.",
+      "keywords": [
+        "Black Friday 2026",
+        "giam gia som",
+        "cong nghệ",
+        "Wired"
+      ],
+      "slug": "cap-nhat-cac-chuong-trinh-giam-gia-som-black-friday-2026-9e527621",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 240,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+        "https://www.sportingnews.com/us/tickets/news/how-much-are-tickets-lsu-vs-texas-prices-time-2026-football/a8fbb271f9229660d7dc2051"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/tickets/news/how-much-are-tickets-lsu-vs-texas-prices-time-2026-football/a8fbb271f9229660d7dc2051"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T10:16:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/tickets/news/how-much-are-tickets-lsu-vs-texas-prices-time-2026-football/a8fbb271f9229660d7dc2051",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T08:30:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các chương trình giảm giá sớm Black Friday năm 2026 đã bắt đầu xuất hiện trước khi tháng 11 bắt đầu.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-7-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The 19 Best Early Black Friday Deals 2026 | WIREDSkip to main content",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "snippet": "The 19 Best Early Black Friday Deals 2026 | WIREDSkip to main content",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "page_sha256": "b85b8cdf3b012eb9c8604880eb39ed59e89b6c0b9558a0c864c9e5e5ddb6cc68",
+              "snippet_sha256": "f65b588bd4fea00c7a39d399e2f9e87e0e2422b25a3024c0470ae6d6a3c80807",
+              "verified_at": "2026-11-07T10:44:18.558147+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bản cập nhật ngày 7 tháng 11 bổ sung các ưu đãi về điện thoại Google Pixel 11, tai nghe, tủ lạnh mini, máy sưởi và hộp cát vệ sinh tự động.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-7-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Updated November 7: We've added new deals on Google Pixel 11 phones, Google Pixel earbuds, a Rocco minifridge, a Dreo space heater, and a Petkit automatic litter box.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "snippet": "Updated November 7: We've added new deals on Google Pixel 11 phones, Google Pixel earbuds, a Rocco minifridge, a Dreo space heater, and a Petkit automatic litter box.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "page_sha256": "b85b8cdf3b012eb9c8604880eb39ed59e89b6c0b9558a0c864c9e5e5ddb6cc68",
+              "snippet_sha256": "3ed11b2f2562bbe1fd43785b9c69b9ca5640956cb6f47d956c48adc88d859890",
+              "verified_at": "2026-11-07T10:44:18.558147+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các thiết bị như Apple AirPods Max 2 và tai nghe Pixel Buds Pro nằm trong danh sách sản phẩm giảm giá.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-7-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "ThePixel Buds Pro 2are comfortable, have a long-lasting battery, and have clear sound with seamless noise cancellation.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "snippet": "ThePixel Buds Pro 2are comfortable, have a long-lasting battery, and have clear sound with seamless noise cancellation.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-7-2026",
+              "page_sha256": "b85b8cdf3b012eb9c8604880eb39ed59e89b6c0b9558a0c864c9e5e5ddb6cc68",
+              "snippet_sha256": "44759f3de88b1949f2bb3a422cb0b925d62c0df74a5a2f4ddc56e6b29d61b9fb",
+              "verified_at": "2026-11-07T10:44:18.558147+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp các thông tin giảm giá công nghệ sớm trong mùa mua sắm Black Friday 2026. Nội dung làm rõ xu hướng giảm giá diễn ra trước thời điểm sự kiện chính thức và những điểm cần lưu ý khi mua sắm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T10:44:18.559075+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-07T10:44:18.560373+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 240,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1091
+        },
+        "independent_domains": [
+          "sportingnews.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "co-hoi-nhan-thuong-du-oan-tran-oregon-au-ohio-state-voi-ma-prophetx-0d086079",
+    "status": "READY",
+    "prepared_at": "2026-11-07T10:44:14.439365+00:00",
+    "expires_at": "2026-11-08T10:44:14.439365+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+      "https://www.wired.com/story/legalzoom-promo-code"
+    ],
+    "article": {
+      "id": "co-hoi-nhan-thuong-du-oan-tran-oregon-au-ohio-state-voi-ma-prophetx-0d086079",
+      "title": "Cơ hội nhận thưởng dự đoán trận Oregon đấu Ohio State với mã ProphetX",
+      "summary": "Thông tin chi tiết về trận đấu sắp tới giữa Oregon và Ohio State cùng chương trình ưu đãi mã khuyến mãi dự đoán trên ProphetX.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+      "published_at": "2026-11-07T08:40:01+00:00",
+      "fetched_at": "2026-11-07T10:44:24.541244+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu bóng đá đại học sắp tới giữa hai đội Oregon và Ohio State đang thu hút sự chú ý lớn từ người hâm mộ khi bước vào giai đoạn quan trọng của mùa giải. Đội bóng Ohio State sẽ trở lại sân nhà Ohio Stadium với mục tiêu tìm lại chiến thắng sau thất bại trước USC. Trong khi đó, Oregon cũng đang nỗ lực duy trì phong độ sau chiến thắng ngược dòng trước Northwestern.",
+        "Bên cạnh diễn biến chuyên môn, người dùng quan tâm đến các nền tảng dự đoán thể thao có thể chú ý đến mã khuyến mãi TSN trên ProphetX. Nền tảng này cung cấp các thị trường dự đoán phong phú thay thế cho tỷ lệ cược truyền thống bằng cách hiển thị xác suất ngụ ý của sự kiện. Người tham gia có thể tìm hiểu các điều kiện nhận thưởng và quy định cụ thể của chương trình ưu đãi trực tiếp trên trang chủ.",
+        "Về mặt lực lượng, cả hai đội đều có những thay đổi đáng chú ý ở vị trí tiền vệ khi bước vào cuộc chạm trán này. Trận đấu dự kiến sẽ diễn ra với nhiều kịch bản chiến thuật hấp dẫn khi hai đối thủ tìm cách khẳng định thế trận và giành lợi thế quan trọng trong bảng xếp hạng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Oregon đấu Ohio State: Mã khuyến mãi dự đoán ProphetX và thông tin trậ",
+      "meta_description": "Cập nhật thông tin trận đấu bóng đá đại học giữa Oregon và Ohio State cùng chương trình khuyến mãi dự đoán trên nền tảng ProphetX.",
+      "keywords": [
+        "Oregon vs Ohio State",
+        "ProphetX promo code",
+        "bóng đá đại học",
+        "thể thao Mỹ"
+      ],
+      "slug": "co-hoi-nhan-thuong-du-oan-tran-oregon-au-ohio-state-voi-ma-prophetx-0d086079",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 227,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+        "https://www.wired.com/story/legalzoom-promo-code"
+      ],
+      "source_links": [
+        "https://www.wired.com/story/legalzoom-promo-code"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T08:40:01+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/legalzoom-promo-code",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T06:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ohio State trở lại sân nhà Ohio Stadium sau trận thua trước USC.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702"
+          ],
+          "importance": "core",
+          "evidence_snippet": "11 Ohio State returns to Ohio Stadium on Saturday looking to bounce back from a stunning loss at USC, and Oregon is the last team the Buckeyes want to see in a get-right spot.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "snippet": "11 Ohio State returns to Ohio Stadium on Saturday looking to bounce back from a stunning loss at USC, and Oregon is the last team the Buckeyes want to see in a get-right spot.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "page_sha256": "22c80f53b8715efce1abd516334768a1ad38ae5452b00748354d6e495a53d5c4",
+              "snippet_sha256": "f889e9ddfc11e1fcbdfee1878cc6b67ef543d32e757415fbce563065aec5a96d",
+              "verified_at": "2026-11-07T10:44:24.540525+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Oregon đã giành chiến thắng 34-26 trước Northwestern sau khi lội ngược dòng cách biệt 14 điểm.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Oregon (5-3) hasn’t lived up to its preseason expectations, but the Ducks showed some fight last week, erasing a 14-point deficit to beat Northwestern 34-26.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "snippet": "Oregon (5-3) hasn’t lived up to its preseason expectations, but the Ducks showed some fight last week, erasing a 14-point deficit to beat Northwestern 34-26.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "page_sha256": "22c80f53b8715efce1abd516334768a1ad38ae5452b00748354d6e495a53d5c4",
+              "snippet_sha256": "f0dd4353fbeded091d00aa21f9f60ff72f71cf0c794a966bc5c74bd5dcc39d42",
+              "verified_at": "2026-11-07T10:44:24.540525+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mã khuyến mãi TSN trên ProphetX liên quan đến chương trình thưởng dự đoán cho người dùng mới.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "As a reminder for those used to sports betting, ProphetX displays market percentages instead of betting odds.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "snippet": "As a reminder for those used to sports betting, ProphetX displays market percentages instead of betting odds.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/unlock-40-prediction-bonus-prophetx-promo-code-tsn-oregon-vs-ohio-state/63613436f8c903a1fc75d702",
+              "page_sha256": "22c80f53b8715efce1abd516334768a1ad38ae5452b00748354d6e495a53d5c4",
+              "snippet_sha256": "671047ba5c4b5fb969c022daf95b0427e365359c9d0a91d92d8b9b69a395e945",
+              "verified_at": "2026-11-07T10:44:24.540525+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh lực lượng của hai đội bóng đại học Oregon và Ohio State trước trận đấu. Đồng thời, thông tin về nền tảng dự đoán ProphetX được tổng hợp nhằm cung cấp góc nhìn đa chiều cho người theo dõi thể thao.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T10:44:24.541334+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-07T10:44:24.542487+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 227,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1038
+        },
+        "independent_domains": [
+          "sportingnews.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bong-a-cuoi-tuan-tam-iem-wsl-va-nhung-bien-ong-tai-premier-league-490c4564",
+    "status": "READY",
+    "prepared_at": "2026-11-07T10:44:14.439365+00:00",
+    "expires_at": "2026-11-08T10:44:14.439365+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+      "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+      "https://www.aljazeera.com/news/2026/11/5/nithya-raman-wins-la-mayoral-race-becoming-citys-first-south-asian-mayor?traffic_source=rss"
+    ],
+    "article": {
+      "id": "bong-a-cuoi-tuan-tam-iem-wsl-va-nhung-bien-ong-tai-premier-league-490c4564",
+      "title": "Bóng đá cuối tuần: Tâm điểm WSL và những biến động tại Premier League",
+      "summary": "Ngày 7/11/2026, bóng đá thế giới chứng kiến sự sôi động với các trận đấu tại giải nữ WSL, những cập nhật về lịch thi đấu Premier League và các kết quả đáng chú ý từ châu Âu.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+      "published_at": "2026-11-07T10:27:21+00:00",
+      "fetched_at": "2026-11-07T10:44:41.137804+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày 7/11/2026, người hâm mộ bóng đá thế giới hướng sự chú ý về các sân cỏ châu Âu với lịch thi đấu dày đặc. Tại giải bóng đá nữ vô địch quốc gia Anh (WSL), cuộc đua đang trở nên vô cùng kịch tính khi hai đội dẫn đầu là Chelsea và Manchester City đều có cùng 22 điểm sau 8 vòng đấu. Cả hai đội bóng này đều bước vào các trận đấu quan trọng vào khung giờ trưa, với kỳ vọng giành trọn 3 điểm để duy trì vị thế trước khi bước vào cuộc đối đầu trực tiếp đầy mong đợi vào cuối tuần tới trên sân nhà của Chelsea.",
+        "Tại giải Ngoại hạng Anh (Premier League), sự chú ý đổ dồn vào phong độ của các đội bóng lớn. Manchester City, sau khởi đầu ấn tượng với chuỗi 7 trận thắng liên tiếp, đang đối mặt với thử thách tâm lý khi để thua trong hai vòng đấu gần nhất. Thống kê từ Opta chỉ ra rằng, chỉ có Sheffield Wednesday vào mùa giải 1904-05 từng trải qua chuỗi kết quả tương tự khi thắng 7 trận đầu rồi thua 3 trận kế tiếp. Trong khi đó, Leeds United cũng đang gặp khó khăn khi chỉ giành được 5 điểm trong 13 lần chạm trán gần nhất với Tottenham Hotspur.",
+        "Bên cạnh các giải đấu tại Anh, bóng đá châu Âu cũng ghi nhận những kết quả đáng chú ý từ đêm qua. Tại Đức, Hamburg đã giành chiến thắng 3-1 trước Gladbach, qua đó vươn lên vị trí thứ 8 trên bảng xếp hạng với 12 điểm, trong khi Gladbach tiếp tục chìm sâu ở đáy bảng. Tại Ý, Venezia đã đánh bại Udinese với tỷ số 2-1 trong một trận cầu kịch tính giữa hai đội cuối bảng, nơi tất cả các bàn thắng đều được ghi chỉ trong vòng 11 phút. Trong khi đó, tại Tây Ban Nha, Sevilla và Alaves đã chia điểm trong một trận hòa không bàn thắng với thế trận khá tẻ nhạt.",
+        "Ngoài các diễn biến chuyên môn, cộng đồng bóng đá cũng đang thảo luận về những vấn đề xã hội bên lề, bao gồm sự gia tăng của hiện tượng 'schooligans' (nhóm cổ động viên trẻ tuổi có hành vi quá khích) tại các giải đấu ngoài hệ thống chuyên nghiệp, cũng như những câu chuyện bên lề về công tác quản lý và sự phát triển của các cầu thủ trẻ như Jobe Bellingham."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tin tức bóng đá ngày 7/11/2026: WSL, Premier League và kết quả châu Âu",
+      "meta_description": "Cập nhật diễn biến bóng đá ngày 7/11/2026 với tâm điểm là cuộc đua tại WSL, tình hình Premier League và các kết quả bóng đá châu Âu mới nhất.",
+      "keywords": [
+        "bóng đá",
+        "WSL",
+        "Premier League",
+        "tin tức thể thao",
+        "kết quả bóng đá"
+      ],
+      "slug": "bong-a-cuoi-tuan-tam-iem-wsl-va-nhung-bien-ong-tai-premier-league-490c4564",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 420,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+        "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/11/5/nithya-raman-wins-la-mayoral-race-becoming-citys-first-south-asian-mayor?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/11/5/nithya-raman-wins-la-mayoral-race-becoming-citys-first-south-asian-mayor?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T10:27:21+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T06:46:21+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/5/nithya-raman-wins-la-mayoral-race-becoming-citys-first-south-asian-mayor?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T23:46:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chelsea và Manchester City đang dẫn đầu WSL với cùng 22 điểm sau 8 trận.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chelsea and Manchester City each have 22 points from their eight games (seven wins and a draw) and both will be expected to rack up another win today.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+              "snippet": "Chelsea and Manchester City each have 22 points from their eight games (seven wins and a draw) and both will be expected to rack up another win today.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+              "page_sha256": "351632a1f97038fdb4a3310eda9fc53490e1769cdb45be17fa6adca873088e6c",
+              "snippet_sha256": "1bc5807a638fa49989ffafd8b43bd35fa4328def12f8941af46c6d6b821ff2f3",
+              "verified_at": "2026-11-07T10:44:41.137002+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Manchester City đã thua 2 trận liên tiếp sau khi thắng 7 trận đầu mùa tại Premier League.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Venezia 2-1 Udinese.This was a meeting of Serie A’s bottom two, and all three goals came in an 11-minute spell.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+              "snippet": "Venezia 2-1 Udinese.This was a meeting of Serie A’s bottom two, and all three goals came in an 11-minute spell.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+              "page_sha256": "351632a1f97038fdb4a3310eda9fc53490e1769cdb45be17fa6adca873088e6c",
+              "snippet_sha256": "2b12295428ff8bd4d14fe7c453f1785f92193a63c1a55d42352ce0c4503f93ef",
+              "verified_at": "2026-11-07T10:44:41.137002+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hamburg thắng Gladbach 3-1, Venezia thắng Udinese 2-1 và Sevilla hòa Alaves 0-0.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Sevilla 0-0 Alaves.A dull game with five shots on target in total, three for Sevilla and two for Alavés.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+              "snippet": "Sevilla 0-0 Alaves.A dull game with five shots on target in total, three for Sevilla and two for Alavés.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+              "page_sha256": "351632a1f97038fdb4a3310eda9fc53490e1769cdb45be17fa6adca873088e6c",
+              "snippet_sha256": "763ceb1ce8d9e0d13188562fbf122ab1b3f61675a113015e4b12a2db6866c4ae",
+              "verified_at": "2026-11-07T10:44:41.137002+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp các dữ kiện rời rạc từ bản tin trực tiếp thành một bức tranh toàn cảnh về tình hình bóng đá cuối tuần. Việc đối chiếu số liệu lịch sử của Manchester City với các kỷ lục cũ giúp độc giả có cái nhìn sâu sắc hơn về phong độ hiện tại của đội bóng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-07T10:44:41.137934+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "05",
+        "11",
+        "12",
+        "13",
+        "1904",
+        "22",
+        "3",
+        "5",
+        "7",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-07T10:44:41.139693+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 420,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1947
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
