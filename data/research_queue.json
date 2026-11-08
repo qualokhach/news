@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "db1d7bf46b916dcb0c1f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T10:48:35.527597+00:00",
     "expires_at": "2026-11-11T10:46:46.695014+00:00",
     "category_hint": "sports",
@@ -660,11 +660,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T10:48:35.527620+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ben-davison-la-ai-va-ly-do-anthony-joshua-tiep-tuc-thay-oi-huan-luyen-vi-a4360420"
   },
   {
     "queue_id": "c59b4c0630d5d478bf59",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T10:48:32.877019+00:00",
     "expires_at": "2026-11-11T10:46:46.695014+00:00",
     "category_hint": "technology",
@@ -1407,11 +1408,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T10:48:32.877043+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "mo-hinh-the-gioi-la-gi-va-tai-sao-chung-sap-tro-nen-pho-bien-5fa139ad"
   },
   {
     "queue_id": "7282f4fca46b61bd915c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T10:48:29.943059+00:00",
     "expires_at": "2026-11-11T10:46:46.695014+00:00",
     "category_hint": "world",
@@ -1975,7 +1977,8 @@
       ]
     },
     "research_ready_at": "2026-11-08T10:48:29.943081+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4"
   },
   {
     "queue_id": "82e100a40f9c51999a20",
@@ -64594,5 +64597,766 @@
         "research_mode": "LIMITED_FACTUAL_REFERENCE"
       }
     ]
+  },
+  {
+    "queue_id": "ben-davison-la-ai-va-ly-do-anthony-joshua-tiep-tuc-thay-oi-huan-luyen-vi-a4360420",
+    "status": "READY",
+    "prepared_at": "2026-11-08T10:48:49.943122+00:00",
+    "expires_at": "2026-11-09T10:48:49.943122+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+      "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
+      "https://www.skysports.com/boxing/news/12040/13607985/fury-vs-joshua-undercard-deontay-wilder-to-fight-jai-opetaia-in-heavyweight-bout-on-december-11-principality-stadium-bill"
+    ],
+    "article": {
+      "id": "ben-davison-la-ai-va-ly-do-anthony-joshua-tiep-tuc-thay-oi-huan-luyen-vi-a4360420",
+      "title": "Ben Davison là ai và lý do Anthony Joshua tiếp tục thay đổi huấn luyện viên trước thềm đại chiến",
+      "summary": "Trước thềm trận đấu được mong đợi với Tyson Fury, võ sĩ hạng nặng Anthony Joshua một lần nữa điều chỉnh đội ngũ huấn luyện và trao quyền điều phối góc đài cho Ben Davison.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+      "published_at": "2026-11-08T10:00:01+00:00",
+      "fetched_at": "2026-11-08T10:48:54.419346+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đại chiến được chờ đợi từ lâu giữa Anthony Joshua và Tyson Fury tại Cardiff đang đến gần, kéo theo sự chú ý đặc biệt đổ dồn vào quyết định thay đổi đội ngũ huấn luyện của võ sĩ người Anh. Trước thềm màn so găng quan trọng này, Joshua tiếp tục điều chỉnh ê-kíp và tín nhiệm Ben Davison để đảm nhận vị trí chỉ đạo ở góc đài trong giai đoạn thứ hai hợp tác.",
+        "Trong suốt sự nghiệp chuyên nghiệp, đặc biệt là bảy năm qua, Joshua thường xuyên thay đổi cấu trúc huấn luyện để tìm kiếm sự tối ưu. Nhà cựu vô địch hạng nặng thế giới từng làm việc với nhiều tên tuổi lớn, trong đó có Robert McCracken – người đã đồng hành cùng anh từ thời nghiệp dư và giành huy chương vàng Olympic 2012. Theo chia sẻ của Joshua, mỗi huấn luyện viên đều mang lại những giá trị độc đáo riêng và việc hợp tác với các chuyên gia là cách để anh tổng hợp kinh nghiệm bản thân.",
+        "Về phần mình, Ben Davison là gương mặt quen thuộc trong giới quyền anh đỉnh cao, từng nổi danh qua việc dẫn dắt Tyson Fury vượt qua giai đoạn khó khăn để trở lại nhóm đầu hạng nặng. Ngoài ra, chiến lược gia này còn ghi dấu ấn qua quá trình huấn luyện các tay đấm tên tuổi như Josh Taylor, Billy Joe Saunders hay Leigh Wood. Phương pháp của Davison tập trung mạnh vào việc nghiên cứu băng hình đối thủ, lên chiến lược chi tiết và lặp lại các bài tập tình huống để phản xạ trở thành bản năng.",
+        "Dù vậy, phương pháp làm việc của Davison cũng từng vấp phải những ý kiến hoài nghi từ giới mộ điệu quyền anh truyền thống, nhất là sau một số kết quả chưa như ý của các học trò gần đây. Bất chấp những tranh cãi và áp lực xung quanh, Joshua vẫn quyết định đặt niềm tin vào hệ thống của Davison với hy vọng tạo ra bước ngoặt quyết định trong sự nghiệp khi đối đầu với một đối thủ kỳ cựu như Tyson Fury."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ben Davison và sự thay đổi huấn luyện viên của Anthony Joshua",
+      "meta_description": "Tìm hiểu về huấn luyện viên Ben Davison và nguyên nhân Anthony Joshua liên tục thay đổi ê-kíp huấn luyện trước trận đấu lớn gặp Tyson Fury.",
+      "keywords": [
+        "Anthony Joshua",
+        "Ben Davison",
+        "Tyson Fury",
+        "quyền anh",
+        "huấn luyện viên"
+      ],
+      "slug": "ben-davison-la-ai-va-ly-do-anthony-joshua-tiep-tuc-thay-oi-huan-luyen-vi-a4360420",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 369,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+        "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
+        "https://www.skysports.com/boxing/news/12040/13607985/fury-vs-joshua-undercard-deontay-wilder-to-fight-jai-opetaia-in-heavyweight-bout-on-december-11-principality-stadium-bill"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
+        "https://www.skysports.com/boxing/news/12040/13607985/fury-vs-joshua-undercard-deontay-wilder-to-fight-jai-opetaia-in-heavyweight-bout-on-december-11-principality-stadium-bill"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T10:00:01+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T08:00:59+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T18:53:42+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/boxing/news/12040/13607985/fury-vs-joshua-undercard-deontay-wilder-to-fight-jai-opetaia-in-heavyweight-bout-on-december-11-principality-stadium-bill",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T15:10:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ben Davison đảm nhận vị trí chỉ đạo góc đài cho Anthony Joshua, bắt đầu nhiệm kỳ huấn luyện viên trưởng thứ hai.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Davison was the fifth of six men to have operated as Joshua's chief second across 34 professional fights.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "snippet": "Davison was the fifth of six men to have operated as Joshua's chief second across 34 professional fights.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "page_sha256": "fc70be929a62a151326ef9f9ee61a699ed4384e7c8d1c4a07a71d231e09aaddf",
+              "snippet_sha256": "45d4fffb9b4379df3aee2d84624424ca9bccb5b13a32bd999b17d1c99ad1d3ce",
+              "verified_at": "2026-11-08T10:48:54.418532+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anthony Joshua bước vào sự nghiệp chuyên nghiệp với tư cách huy chương vàng Olympic 2012 và là cựu vô địch hạng nặng thế giới hai lần thống nhất các đai.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "His role at the head of the UK's decorated amateur setup meant he guided Joshua to Olympic gold in 2012.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "snippet": "His role at the head of the UK's decorated amateur setup meant he guided Joshua to Olympic gold in 2012.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "page_sha256": "fc70be929a62a151326ef9f9ee61a699ed4384e7c8d1c4a07a71d231e09aaddf",
+              "snippet_sha256": "0382f6ffb1ed0f93fd364dd4cb95e28693417a57cd0c4dbb339e5cf95227f0ca",
+              "verified_at": "2026-11-08T10:48:54.418532+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ben Davison từng nổi tiếng với việc dẫn dắt Tyson Fury vượt qua giai đoạn trầm cảm, lạm dụng chất kích thích để trở lại đỉnh cao hạng nặng.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Davison famously oversaw Fury’s journey from drug and alcohol abuse, depression and obesity back to the heavyweight elite.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "snippet": "Davison famously oversaw Fury’s journey from drug and alcohol abuse, depression and obesity back to the heavyweight elite.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "page_sha256": "fc70be929a62a151326ef9f9ee61a699ed4384e7c8d1c4a07a71d231e09aaddf",
+              "snippet_sha256": "d89dab28ca07b3bd78ddd5e01deba7b54f389d2b233bd3d9fbc93f34f60a0fe4",
+              "verified_at": "2026-11-08T10:48:54.418532+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích rõ bối cảnh thay đổi huấn luyện viên liên tục của Anthony Joshua trong bảy năm qua. Phân tích phong cách huấn luyện dựa trên video và chiến thuật của Ben Davison cùng những ý kiến trái chiều từ giới chuyên môn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T10:48:54.419486+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2012"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-08T10:48:54.421341+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 369,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1737
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "mo-hinh-the-gioi-la-gi-va-tai-sao-chung-sap-tro-nen-pho-bien-5fa139ad",
+    "status": "READY",
+    "prepared_at": "2026-11-08T10:48:49.943122+00:00",
+    "expires_at": "2026-11-09T10:48:49.943122+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+      "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up",
+      "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html",
+      "https://www.sportingnews.com/us/tickets/news/florida-vs-duke-mens-basketball-tickets-pricing-date-2026/7e10358478384d8eaa56dbea",
+      "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
+      "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "mo-hinh-the-gioi-la-gi-va-tai-sao-chung-sap-tro-nen-pho-bien-5fa139ad",
+      "title": "Mô hình thế giới là gì và tại sao chúng sắp trở nên phổ biến?",
+      "summary": "Khám phá công nghệ mô hình thế giới đang thu hút nguồn vốn đầu tư khổng lồ từ Thung lũng Silicon, đóng vai trò là nền tảng cho robot gia đình và xe tự lái.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+      "published_at": "2026-11-08T10:00:00+00:00",
+      "fetched_at": "2026-11-08T10:49:00.838911+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trí tuệ nhân tạo đang bước vào một giai đoạn phát triển mới với sự nổi lên của các mô hình thế giới (world models). Khác với các mô hình ngôn ngữ lớn vốn chỉ xử lý văn bản và dự đoán từ tiếp theo trong câu, mô hình thế giới sử dụng đầu vào trực quan để tạo ra các môi trường kỹ thuật số có khả năng mô phỏng vật lý. Công nghệ này được kỳ vọng sẽ sớm thâm nhập sâu rộng vào đời sống hàng ngày, đặc biệt là tạo đà cho sự bùng nổ của robot gia đình và xe tự lái vào năm 2027.",
+        "Theo các chuyên gia trong ngành, nguyên lý hoạt động của mô hình thế giới dựa trên việc tiếp nhận trạng thái trực quan của thế giới dưới dạng hình ảnh để dự đoán trạng thái trực quan tiếp theo. Oliver Cameron, CEO của phòng thí nghiệm AI Odyssey, cho biết các thế hệ không gian ba chiều này đóng vai trò như những bãi tập kỹ thuật số có độ chân thực cao. Công nghệ này cho phép các nhà phát triển tạo ra các mô hình 3D từ không gian thực tế để chạy hàng triệu mô phỏng huấn luyện robot mà không cần chúng phải di chuyển trực tiếp trong không gian vật lý.",
+        "Bên cạnh robot hình người, các hãng phát triển xe tự lái cũng tận dụng mô hình thế giới để cải thiện phản ứng của phần mềm trong những tình huống khẩn cấp. Jamie Shotton, nhà khoa học trưởng tại Wayve, giải thích rằng một mô hình thế giới cần phải thấu hiểu các định luật vật lý, quan hệ nhân quả và cách các đối tượng xung quanh phản ứng lại hành động của con người. Startup này sử dụng một phần dữ liệu từ camera hành trình để tái tạo lại các đoạn đường nguy hiểm, mô phỏng những điều kiện bất lợi khó có thể thử nghiệm ngoài đời thực.",
+        "Sự quan tâm từ giới công nghệ và các nhà đầu tư đối với lĩnh vực này đang gia tăng mạnh mẽ. Nhiều tập đoàn lớn và các nhà khoa học máy tính hàng đầu đã thu hút các khoản đầu tư khổng lồ để phát triển công nghệ mô hình thế giới, phục vụ cho cả ngành công nghiệp trò chơi điện tử lẫn tự động hóa. Không chỉ tác động đến công nghệ phương tiện và robot, việc xây dựng các mô hình này còn tạo ra nhu cầu thu thập dữ liệu video thực tế từ con người, qua đó âm thầm định hình lại một phần thị trường lao động phổ thông trong bối cảnh các phòng thí nghiệm AI cần ghi lại từng chi tiết của thế giới vật lý."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mo hinh the gioi la gi? Ung dung cua world models trong AI",
+      "meta_description": "Tìm hiểu về mô hình thế giới (world models), cách công nghệ này mô phỏng vật lý và tác động đến các lĩnh vực robot, xe tự lái và thị trường lao động.",
+      "keywords": [
+        "mô hình thế giới",
+        "world models",
+        "trí tuệ nhân tạo",
+        "robot",
+        "xe tự lái"
+      ],
+      "slug": "mo-hinh-the-gioi-la-gi-va-tai-sao-chung-sap-tro-nen-pho-bien-5fa139ad",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 475,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+        "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up",
+        "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html",
+        "https://www.sportingnews.com/us/tickets/news/florida-vs-duke-mens-basketball-tickets-pricing-date-2026/7e10358478384d8eaa56dbea",
+        "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up",
+        "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html",
+        "https://www.sportingnews.com/us/tickets/news/florida-vs-duke-mens-basketball-tickets-pricing-date-2026/7e10358478384d8eaa56dbea",
+        "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T10:00:00+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T01:00:00+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T15:26:06+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/tickets/news/florida-vs-duke-mens-basketball-tickets-pricing-date-2026/7e10358478384d8eaa56dbea",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T08:00:01+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T06:34:50+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T14:05:42+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mô hình thế giới sử dụng đầu vào trực quan và có thể tạo ra các môi trường kỹ thuật số mô phỏng vật lý, khác với bản chất dựa trên văn bản của các mô hình ngôn ngữ lớn.",
+          "source_urls": [
+            "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Save Up to 39% On Select Refrigerators",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "snippet": "Save Up to 39% On Select Refrigerators",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "page_sha256": "a778f3cb6ed5beb4f95b090040c682c3024efdf69e0ce0a3f541dc76eb8297eb",
+              "snippet_sha256": "71ab5a4b763f237862b4e5d5e6f06afeb1d5963b898278838f5777744b07a718",
+              "verified_at": "2026-11-08T10:49:00.838217+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Năm 2027 có thể là một năm quan trọng đối với sự mở rộng của robot gia đình và xe tự lái nhờ sự hỗ trợ từ các tiến bộ trong mô hình thế giới.",
+          "source_urls": [
+            "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know"
+          ],
+          "importance": "core",
+          "evidence_snippet": "2027 could be a major year for the expansion of home robotics anddriverless cars, both of which are bolstered by advances in world models.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "snippet": "2027 could be a major year for the expansion of home robotics anddriverless cars, both of which are bolstered by advances in world models.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "page_sha256": "a778f3cb6ed5beb4f95b090040c682c3024efdf69e0ce0a3f541dc76eb8297eb",
+              "snippet_sha256": "8e67458e4e1aad9fc0ddfa756b813a3c35bf3bf7b3e40712f3a0e932f604a28f",
+              "verified_at": "2026-11-08T10:49:00.838217+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Wayve sử dụng dữ liệu camera hành trình để cung cấp năng lượng cho mô hình thế giới tạo sinh, nhằm tái tạo các cung đường nguy hiểm và điều kiện không an toàn.",
+          "source_urls": [
+            "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Wayve’s generative world model is powered, in part, by dashcam footage.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "snippet": "Wayve’s generative world model is powered, in part, by dashcam footage.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "page_sha256": "a778f3cb6ed5beb4f95b090040c682c3024efdf69e0ce0a3f541dc76eb8297eb",
+              "snippet_sha256": "e7390e295b35a41d77b77669504891380779e6cf2bb7656a9f2212eba0ba0d53",
+              "verified_at": "2026-11-08T10:49:00.838217+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bản chất kỹ thuật khác biệt giữa mô hình thế giới và mô hình ngôn ngữ lớn truyền thống. Đồng thời, bài phân tích tác động thực tế của công nghệ này đối với lĩnh vực robot, xe tự lái và thị trường lao động dựa trên góc nhìn từ các chuyên gia.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T10:49:00.839043+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2027",
+        "3"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-08T10:49:00.841482+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 475,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2160
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "cnbc.com",
+          "engadget.com",
+          "sportingnews.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
+    "status": "READY",
+    "prepared_at": "2026-11-08T10:48:49.943122+00:00",
+    "expires_at": "2026-11-09T10:48:49.943122+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report"
+    ],
+    "article": {
+      "id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
+      "title": "Xứ Wales thắng nhọc Nhật Bản tại Nations Championship: Còn nhiều việc phải làm",
+      "summary": "Dù giành chiến thắng 28-21 trước Nhật Bản trong khuôn khổ Nations Championship, đội tuyển bóng bầu dục Xứ Wales vẫn để lại nhiều lo lắng khi thể hiện một phong độ thiếu thuyết phục.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T10:13:56+00:00",
+      "fetched_at": "2026-11-08T10:49:07.467008+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội tuyển bóng bầu dục Xứ Wales đã có khởi đầu chiến dịch Nations Championship bằng chiến thắng 28-21 trước Nhật Bản tại Sân vận động Principality. Dù giành được kết quả có lợi cùng điểm thưởng, màn trình diễn của đội chủ nhà lại vấp phải nhiều hoài nghi từ giới chuyên môn lẫn ban huấn luyện do sự thiếu sắc bén và thế trận chật vật trước đối thủ.",
+        "Phát biểu sau trận đấu, huấn luyện viên trưởng Steve Tandy thừa nhận đội bóng chơi dưới kỳ vọng và thiếu đi sự quyết đoán cần thiết. Trong khi đó, đội trưởng Dewi Lake cũng thẳng thắn chia sẻ rằng tập thể Xứ Wales đã có những thời điểm tự làm khó mình. Điểm sáng lớn nhất trong đội hình chủ nhà là cầu thủ chạy cánh Louis Rees-Zammit, người đã tỏa sáng rực rỡ để mang về giải thưởng cầu thủ xuất sắc nhất trận sau thời gian ngắn thử sức với bóng bầu dục Mỹ.",
+        "Dù vậy, những thống kê chuyên môn cho thấy Xứ Wales gặp nhiều khó khăn khi chỉ kiểm soát 40% thời gian cầm bóng và phải thực hiện đến 227 pha cản phá so với 115 của Nhật Bản. Hàng ranh biên (line-out) của đội chủ nhà cũng gặp trục trặc nghiêm trọng với sáu lần ném hỏng, tạo điều kiện cho các cầu thủ Nhật Bản duy trì áp lực cho đến những phút cuối cùng.",
+        "Thử thách sắp tới của Xứ Wales sẽ nặng đô hơn rất nhiều khi họ chuẩn bị đón tiếp New Zealand và Australia trên sân nhà trong các tuần tiếp theo. Với những hạn chế bộc lộ trong trận gặp Nhật Bản, ban huấn luyện hiểu rõ đội bóng cần phải nhanh chóng khắc phục các điểm yếu nếu không muốn trả giá đắt trước các đối thủ hàng đầu thế giới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Xứ Wales thắng nhọc Nhật Bản ở Nations Championship nhưng đầy lo âu",
+      "meta_description": "Đội tuyển bóng bầu dục Xứ Wales thắng Nhật Bản 28-21 trong trận ra quân Nations Championship nhưng HLV Steve Tandy thừa nhận đội bóng cần cải thiện nhiều.",
+      "keywords": [
+        "Xứ Wales",
+        "Nhật Bản",
+        "Nations Championship",
+        "bóng bầu dục",
+        "Steve Tandy"
+      ],
+      "slug": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 317,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T10:13:56+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T20:52:09+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Xứ Wales đánh bại Nhật Bản với tỷ số 28-21 trong khuôn khổ Nations Championship",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nations Championship: Wales edge Japan but underwhelm - reaction",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Nations Championship: Wales edge Japan but underwhelm - reaction",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "629e3ae9c2b25158de17b8af0ae949b9e8ccb6809d6258953c7d3ddf0e4b6481",
+              "snippet_sha256": "a2139d123eb692ec74ca62d23d75186cccf8891a0ddae7d8080ebeeffbc01019",
+              "verified_at": "2026-11-08T10:49:07.465976+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Huấn luyện viên Steve Tandy và đội trưởng Dewi Lake thừa nhận màn trình diễn của đội chưa đủ sắc bén",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Head coach Steve Tandy admitted he expected better and captain Dewi Lake stated his teamhad let themselves down at timesagainst Eddie Jones’ Japan.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Head coach Steve Tandy admitted he expected better and captain Dewi Lake stated his teamhad let themselves down at timesagainst Eddie Jones’ Japan.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "629e3ae9c2b25158de17b8af0ae949b9e8ccb6809d6258953c7d3ddf0e4b6481",
+              "snippet_sha256": "3ce83f01b754f97607477958ef15df8f1194a0b0013964156dda7ad471db575e",
+              "verified_at": "2026-11-08T10:49:07.465976+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Louis Rees-Zammit tỏa sáng và giành danh hiệu cầu thủ xuất sắc nhất trận",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The shining light was wing Louis Rees-Zammit, who produced a stellar player-of-the-match display.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "The shining light was wing Louis Rees-Zammit, who produced a stellar player-of-the-match display.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "629e3ae9c2b25158de17b8af0ae949b9e8ccb6809d6258953c7d3ddf0e4b6481",
+              "snippet_sha256": "4fb7645e8c95b5e49ee6720430969a8a6eac8dad03f6d01b87a2cf25e3d5c40f",
+              "verified_at": "2026-11-08T10:49:07.465976+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xứ Wales chỉ có 40% thời gian kiểm soát bóng và lãnh thổ, thực hiện 227 pha cản phá so với 115 của Nhật Bản",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "This was emphasised in the tackle count as the hosts made 227 compared to Japan's 115, with Wales finishing with the top eight tacklers in the game.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "This was emphasised in the tackle count as the hosts made 227 compared to Japan's 115, with Wales finishing with the top eight tacklers in the game.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "629e3ae9c2b25158de17b8af0ae949b9e8ccb6809d6258953c7d3ddf0e4b6481",
+              "snippet_sha256": "e266383188484ad727110be9c43fcf9014911212bb9b39aee911b06391e503b9",
+              "verified_at": "2026-11-08T10:49:07.465976+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xứ Wales gặp vấn đề ở hàng ranh biên với sáu lần ném hỏng",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Wales coughed up possession, but the line-out failures also disrupted the home side’s attacking maul, which has become the most potent offensive threat in recent time.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Wales coughed up possession, but the line-out failures also disrupted the home side’s attacking maul, which has become the most potent offensive threat in recent time.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "629e3ae9c2b25158de17b8af0ae949b9e8ccb6809d6258953c7d3ddf0e4b6481",
+              "snippet_sha256": "f97b7ce57312f703e9f9e83888ec91b4f24a68bc89a053fd624beccb9eb22121",
+              "verified_at": "2026-11-08T10:49:07.465976+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo phân tích nguyên nhân tại sao chiến thắng của Xứ Wales trước Nhật Bản không mang lại sự an tâm, đồng thời làm rõ những thống kê về tỷ lệ kiểm soát bóng và số lần cản phá để minh chứng cho thế trận chật vật của đội chủ nhà.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T10:49:07.467115+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "115",
+        "227",
+        "40"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-08T10:49:07.468460+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 317,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1493
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
