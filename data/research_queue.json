@@ -2153,7 +2153,7 @@
   },
   {
     "queue_id": "db8c03fdadd4ed87ee57",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T15:38:27.988091+00:00",
     "expires_at": "2026-11-11T15:36:38.303366+00:00",
     "category_hint": "world",
@@ -2932,11 +2932,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T15:38:27.988112+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tuong-lai-cua-bryson-dechambeau-sau-khi-liv-golf-giai-the-va-han-chot-dp-6a95a1e5"
   },
   {
     "queue_id": "01177ced602e6cef1578",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T15:38:23.939984+00:00",
     "expires_at": "2026-11-11T15:36:38.303366+00:00",
     "category_hint": "world",
@@ -3775,7 +3776,8 @@
       ]
     },
     "research_ready_at": "2026-11-08T15:38:23.940007+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "russell-brand-oi-mat-ban-an-tu-sau-khi-bi-ket-toi-hiep-dam-va-tan-cong-t-845afad2"
   },
   {
     "queue_id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
@@ -65516,7 +65518,7 @@
   },
   {
     "queue_id": "oi-tuyen-viet-nam-hoi-quan-voi-luc-luong-moi-hlv-kim-sang-sik-truc-tiep--ae4007b3",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-08T15:38:52.071984+00:00",
     "expires_at": "2026-11-09T15:38:52.071984+00:00",
     "source_urls": [
@@ -65532,7 +65534,7 @@
       "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
       "published_at": "2026-11-08T13:40:00+00:00",
       "fetched_at": "2026-11-08T15:38:55.772478+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-08T16:23:40.293843+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -65717,27 +65719,37 @@
         "23"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-08T15:38:55.773505+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-08T16:23:40.293843+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 216,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 993
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 993,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-08 23:23"
+    },
+    "published_at": "2026-11-08T16:23:40.293843+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "thi-truong-ien-thoai-an-toan-cho-tre-em-khi-phu-huynh-tim-kiem-giai-phap-850be895",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-08T15:38:52.071984+00:00",
     "expires_at": "2026-11-09T15:38:52.071984+00:00",
     "source_urls": [
@@ -65754,7 +65766,7 @@
       "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
       "published_at": "2026-11-07T19:00:00+00:00",
       "fetched_at": "2026-11-08T15:39:05.503495+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-08T16:23:40.293843+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -65928,24 +65940,34 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-08T15:39:05.504850+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-08T16:23:40.293843+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 348,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1580
-        },
-        "independent_domains": [
-          "engadget.com",
-          "techcrunch.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1580,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "techcrunch.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-08 23:23"
+    },
+    "published_at": "2026-11-08T16:23:40.293843+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
@@ -66136,5 +66158,511 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "tuong-lai-cua-bryson-dechambeau-sau-khi-liv-golf-giai-the-va-han-chot-dp-6a95a1e5",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T16:23:27.874816+00:00",
+    "expires_at": "2026-11-09T16:23:27.874816+00:00",
+    "source_urls": [
+      "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+      "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html",
+      "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
+      "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "tuong-lai-cua-bryson-dechambeau-sau-khi-liv-golf-giai-the-va-han-chot-dp-6a95a1e5",
+      "title": "Tương lai của Bryson DeChambeau sau khi LIV Golf giải thể và hạn chót DP World Tour",
+      "summary": "Bryson DeChambeau đối mặt với hạn chót quan trọng để gia nhập DP World Tour trong bối cảnh LIV Golf chính thức tiến hành thủ tục thanh lý tài sản.",
+      "category": "sports",
+      "source_name": "Sky Sports - Football",
+      "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+      "published_at": "2026-11-06T12:30:00+00:00",
+      "fetched_at": "2026-11-08T16:23:32.214445+00:00",
+      "appnho_published_at": "2026-11-08T16:23:40.293843+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sự sụp đổ của hệ thống LIV Golf sau khi các nhà đầu tư rút lui và tiến hành thủ tục thanh lý tài sản đang đặt ra bài toán tương lai cho nhiều gôn thủ hàng đầu, đặc biệt là Bryson DeChambeau. Giải đấu đối lập này từng nhận nguồn vốn lớn từ Quỹ Đầu tư Công Saudi Arabia nhưng đã phải đối mặt với việc chấm dứt hoạt động sau khi kế hoạch tái cấu trúc mang tên LIV 2.0 sụp đổ do thiếu sự hậu thuẫn tài chính và lượng người chơi tham gia đầy đủ.",
+        "Với việc LIV Golf dừng hoạt động, tâm điểm chú ý hiện dồn về DeChambeau và thời hạn quyết định tư cách thành viên tại DP World Tour. Nhờ chức vô địch US Open năm 2024 tại Pinehurst, gôn thủ 33 tuổi này sở hữu quyền miễn thẻ thành viên kéo dài 5 năm trên hệ thống DP World Tour. Tuy nhiên, quy định của giải đấu nêu rõ các nhà vô địch major sẽ bị trừ một năm hiệu lực cho mỗi mùa giải không kích hoạt tư cách thành viên.",
+        "Do không tham gia trong các năm 2025 và 2026, suất miễn đấu của DeChambeau cho các năm 2028 và 2029 đã bị hủy bỏ. Dù vậy, anh vẫn giữ quyền lựa chọn gia nhập hệ thống này cho mùa giải 2027, với thời hạn chót thông báo ý định là ngày 15 tháng 11. Quyết định này sẽ định hình con đường tiếp theo của DeChambeau trong bối cảnh PGA Tour vẫn duy trì lệnh cấm nghiêm ngặt đối với các cựu thành viên LIV Golf."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tương lai Bryson DeChambeau và hạn chót DP World Tour sau khi LIV Golf",
+      "meta_description": "Tìm hiểu thời hạn gia nhập DP World Tour của Bryson DeChambeau và tương lai của các gôn thủ sau khi LIV Golf thông báo giải thể.",
+      "keywords": [
+        "Bryson DeChambeau",
+        "DP World Tour",
+        "LIV Golf",
+        "Golf chuyên nghiệp"
+      ],
+      "slug": "tuong-lai-cua-bryson-dechambeau-sau-khi-liv-golf-giai-the-va-han-chot-dp-6a95a1e5",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 278,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+        "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html",
+        "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
+        "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html",
+        "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
+        "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T12:30:00+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T16:31:33+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T19:24:23+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T22:33:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bryson DeChambeau có nguy cơ mất quyền gia nhập DP World Tour nếu không thông báo ý định trước hạn chót 15 tháng 11.",
+          "source_urls": [
+            "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Laura Davies discusses how giving Bryson DeChambeau a tour lifeline will be a great success for both him and the DP World Tour.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "snippet": "Laura Davies discusses how giving Bryson DeChambeau a tour lifeline will be a great success for both him and the DP World Tour.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "page_sha256": "9ab0fc2e3a32ea8b23774feeb3ca8a6be861d0d1f301aa3903695f7209e39d30",
+              "snippet_sha256": "f661b8b698c938aeb699667eaeebe546d5b566fd5635950a74d42feddb4aaf53",
+              "verified_at": "2026-11-08T16:23:32.213940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "LIV Golf xác nhận tiến hành thủ tục thanh lý tài sản và chấm dứt kế hoạch LIV 2.0 sau khi các nhà đầu tư rút lui.",
+          "source_urls": [
+            "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"Until the bitter end, he believed fully in LIV 2.0, the phoenix from the flames version of the beleaguered and controversial golf tour.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "snippet": "\"Until the bitter end, he believed fully in LIV 2.0, the phoenix from the flames version of the beleaguered and controversial golf tour.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "page_sha256": "9ab0fc2e3a32ea8b23774feeb3ca8a6be861d0d1f301aa3903695f7209e39d30",
+              "snippet_sha256": "dbe41395ed1802b91e28eaa556eb25063e5216c8723a214dffb77146fd1856a2",
+              "verified_at": "2026-11-08T16:23:32.213940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "DeChambeau giành quyền miễn đấu 5 năm tại DP World Tour nhờ chức vô địch US Open 2024 tại Pinehurst nhưng đã mất suất cho các năm 2028 và 2029 do bỏ lỡ năm 2025 và 2026.",
+          "source_urls": [
+            "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "\"In other words, having failed to take up DP World Tour membership in 2025 and 2026, DeChambeau lost his exemption for 2028 and 2029.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "snippet": "\"In other words, having failed to take up DP World Tour membership in 2025 and 2026, DeChambeau lost his exemption for 2028 and 2029.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "page_sha256": "9ab0fc2e3a32ea8b23774feeb3ca8a6be861d0d1f301aa3903695f7209e39d30",
+              "snippet_sha256": "9d9977513b08f20e0aa914f8111b71f41c7217bdec5e0e43ce9051ef53fde619",
+              "verified_at": "2026-11-08T16:23:32.213940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mốc thời gian và quy định cụ thể về quyền miễn đấu tại DP World Tour của Bryson DeChambeau. Phân tích bối cảnh pháp lý và tài chính dẫn đến việc LIV Golf giải thể để giải thích áp lực lựa chọn đối với các gôn thủ ngôi sao.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T16:23:32.214507+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2.0",
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "33",
+        "5"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T16:23:40.293843+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 278,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1261,
+          "source_access": [
+            {
+              "url": "https://www.skysports.com/golf/news/12040/13608825/liv-golf-whats-next-for-bryson-dechambeau-and-co-and-whats-next-for-the-failed-breakaway-league",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 23:23"
+    },
+    "published_at": "2026-11-08T16:23:40.293843+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "russell-brand-oi-mat-ban-an-tu-sau-khi-bi-ket-toi-hiep-dam-va-tan-cong-t-845afad2",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T16:23:27.874816+00:00",
+    "expires_at": "2026-11-09T16:23:27.874816+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+      "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+      "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+      "https://www.bbc.co.uk/news/articles/cxyvrr686lzqo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "russell-brand-oi-mat-ban-an-tu-sau-khi-bi-ket-toi-hiep-dam-va-tan-cong-t-845afad2",
+      "title": "Russell Brand đối mặt bản án tù sau khi bị kết tội hiếp dâm và tấn công tình dục",
+      "summary": "Diễn viên kiêm danh hài Russell Brand chuẩn bị nhận án phạt tù tại Anh sau khi bị tòa án London tuyên có tội trong phiên tòa kéo dài 4 tuần. Vụ việc đang tiếp tục làm dấy lên những cuộc thảo luận lớn về phong trào bảo vệ nạn nhân và các lỗ hổng pháp lý trong xét xử tội phạm tình dục.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+      "published_at": "2026-11-08T15:07:15+00:00",
+      "fetched_at": "2026-11-08T16:23:38.307507+00:00",
+      "appnho_published_at": "2026-11-08T16:23:40.293843+00:00",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Danh hài kiêm diễn viên người Anh Russell Brand đang đối mặt với một án phạt tù đáng kể sau khi một bồi thẩm đoàn tại tòa án London tuyên có tội đối với nhiều cáo buộc liên quan đến hiếp dâm và tấn công tình dục. Phiên tòa kéo dài bốn tuần đã thu hút sự chú ý lớn từ dư luận quốc tế, kết thúc bằng phán quyết khẳng định những hành vi lạm dụng quyền lực và danh tiếng để nhắm vào phụ nữ trong quá khứ của bị cáo.",
+        "Theo hồ sơ vụ án, Brand bị kết tội trên tổng số bốn tội danh, bao gồm một tội hiếp dâm một phụ nữ từng tham dự buổi biểu diễn hài kịch của anh vào năm 2009 và ba tội tấn công tình dục các nạn nhân khác trong khoảng thời gian từ năm 2004 đến 2009 tại các địa điểm như quán bar, đài phát thanh và phòng thu truyền hình. Trong suốt quá trình xét xử, bị cáo liên tục bác bỏ toàn bộ các cáo buộc và khẳng định không có hành vi quan hệ tình dục trái ý muốn.",
+        "Sau khi các bồi thẩm đoàn đưa ra phán quyết, Thẩm phán Joel Bennathan thông báo Brand ở tuổi 51 sẽ phải đối mặt với một khoảng thời gian giam giữ nghiêm khắc. Thẩm phán đã từ chối yêu cầu tại ngoại để bị cáo có thời gian ở bên gia đình trong dịp cuối tuần, khiến cựu ngôi sao giải trí phải trải qua những ngày đầu tiên trong một buồng giam tại Luân Đôn trước khi phiên tòa tuyên án chính thức diễn ra vào thứ Hai tới.",
+        "Bên cạnh các tội danh đã bị kết luận, lực lượng cảnh sát đô thị Luân Đôn cho biết họ đang tiếp tục điều tra các cáo buộc hiếp dâm bổ sung đối với Brand từ hai phụ nữ khác, đồng thời xem xét các báo cáo và thông tin tình báo về những nạn nhân tiềm năng khác. Các cơ quan chức năng và các nguồn tin cảnh sát đánh giá số lượng người có thể từng là nạn nhân của vụ việc có xu hướng gia tăng khi hồ sơ tiếp tục được mở rộng.",
+        "Phản ứng trước kết quả này, nhiều nhân vật trong ngành giải trí và các nhà hoạt động xã hội đã lên tiếng bày tỏ sự chia sẻ đối với các nạn nhân, đồng thời đặt câu hỏi về việc tại sao các hành vi của Brand lại có thể kéo dài suốt nhiều năm mà không bị can thiệp sớm. Sự việc cũng thúc đẩy giới chức Anh xem xét lại các quy định và định kiến liên quan đến các vụ án tấn công tình dục trong hệ thống tư pháp nhằm bảo vệ tốt hơn quyền lợi của người tố cáo."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Russell Brand đối mặt án tù sau phán quyết tội danh hiếp dâm",
+      "meta_description": "Danh hài Russell Brand chuẩn bị nhận phán quyết hình phạt sau khi bị tòa án London kết tội hiếp dâm và tấn công tình dục nhiều phụ nữ.",
+      "keywords": [
+        "Russell Brand",
+        "hiếp dâm",
+        "tấn công tình dục",
+        "tòa án London",
+        "pháp luật Anh"
+      ],
+      "slug": "russell-brand-oi-mat-ban-an-tu-sau-khi-bi-ket-toi-hiep-dam-va-tan-cong-t-845afad2",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 487,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+        "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+        "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+        "https://www.bbc.co.uk/news/articles/cxyvrr686lzqo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+        "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+        "https://www.bbc.co.uk/news/articles/cxyvrr686lzqo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T15:07:15+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T00:00:47+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T16:45:41+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cxyvrr686lzqo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T13:12:20+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Russell Brand bị kết tội một tội hiếp dâm và ba tội tấn công tình dục sau phiên tòa kéo dài bốn tuần tại tòa án London.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Comedian Russell Brand faces a \"significant\" prison sentence, which a London court judge is set to hand down on Monday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+              "snippet": "Comedian Russell Brand faces a \"significant\" prison sentence, which a London court judge is set to hand down on Monday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+              "page_sha256": "d46f1f583a8f85016c048c771a0eecf3a5c7942f216abad361fa4a51ac0befcc",
+              "snippet_sha256": "bbc17b0b51192dad59148bfc3551b494477f252e03915b558f45ba0d32457682",
+              "verified_at": "2026-11-08T16:23:38.307146+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thẩm phán Joel Bennathan tuyên bố bị cáo 51 tuổi này phải đối mặt với một án tù đáng kể và sẽ nhận phán quyết hình phạt vào thứ Hai.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault"
+          ],
+          "importance": "core",
+          "evidence_snippet": "After the jury handed down the verdict, Judge Joel Bennathan told Brand, 51, that he faced a \"significant custodial term.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+              "snippet": "After the jury handed down the verdict, Judge Joel Bennathan told Brand, 51, that he faced a \"significant custodial term.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+              "page_sha256": "d46f1f583a8f85016c048c771a0eecf3a5c7942f216abad361fa4a51ac0befcc",
+              "snippet_sha256": "c8d3e21efc693c5b37fe1e4f8d5b67548e4c457347334c5c92de6c70d46cbcaa",
+              "verified_at": "2026-11-08T16:23:38.307146+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cảnh sát Luân Đôn tiếp tục điều tra các cáo buộc hiếp dâm bổ sung từ hai phụ nữ khác liên quan đến Russell Brand.",
+          "source_urls": [
+            "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Police are bracing themselves for more victims of Russell Brand to come forward, with at least 10 more women suspected of having been attacked by the disgraced star.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+              "snippet": "Police are bracing themselves for more victims of Russell Brand to come forward, with at least 10 more women suspected of having been attacked by the disgraced star.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+              "page_sha256": "8da3aa183a42c95aaac9eb3d3e4d37276b84a18d27a65b6e537b7d0016b6a27d",
+              "snippet_sha256": "3e5192d1d01f66e3f8316bcba3df3ebe410da26ee87d5cede644a90e4d0eb1b7",
+              "verified_at": "2026-11-08T16:23:38.307146+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích kỹ lưỡng các khía cạnh pháp lý của vụ án Russell Brand tại tòa án Anh, đồng thời làm rõ bối cảnh điều tra mở rộng và những tác động rộng hơn đối với hệ thống tư pháp và phong trào bảo vệ nạn nhân lạm dụng tình dục.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T16:23:38.307595+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2004",
+        "2009",
+        "51"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T16:23:40.293843+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 487,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2150,
+          "source_access": [
+            {
+              "url": "https://www.npr.org/2026/11/08/nx-s1-6033957/russell-brand-learn-sentence-found-guilty-rape-sexual-assault",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "france24.com",
+            "npr.org",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 23:23"
+    },
+    "published_at": "2026-11-08T16:23:40.293843+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
