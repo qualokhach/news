@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "0d81f363af9acb132a35",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T00:57:28.920365+00:00",
     "expires_at": "2026-11-11T00:55:25.424934+00:00",
     "category_hint": "world",
@@ -735,11 +735,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T00:57:28.920390+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96"
   },
   {
     "queue_id": "a7a84704fd5d24b60e76",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T00:57:27.073095+00:00",
     "expires_at": "2026-11-11T00:55:25.424934+00:00",
     "category_hint": "sports",
@@ -1303,11 +1304,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T00:57:27.073118+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "charlie-savage-ghi-ban-vao-luoi-oi-bong-cua-cha-tai-fa-cup-5ea9b968"
   },
   {
     "queue_id": "61edbc511bb37727750e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T00:57:25.884980+00:00",
     "expires_at": "2026-11-11T00:55:25.424934+00:00",
     "category_hint": "sports",
@@ -1975,7 +1977,8 @@
       ]
     },
     "research_ready_at": "2026-11-08T00:57:25.885005+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "co-hoi-nao-cho-oregon-ducks-nuoi-mong-du-vong-play-off-bong-bau-duc-ai-h-fc2148f9"
   },
   {
     "queue_id": "10df9b51615a26c145b8",
@@ -61046,5 +61049,676 @@
       }
     ],
     "editorial_reason": "Khoảng cúch số từ yêu c\\u1eàu cho phần body từ 250-350 từ không thể đạt được một cách chính xác và an toàn với chỉ hai ngủn cấp một về một sự kiựn nông hổi nhưng không đủ thông tin chi tiết để triển khai một bài phân tích hoặc cập nhật dài mà không lặp ý hoặc suy diễn ngoài nguồn."
+  },
+  {
+    "queue_id": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96",
+    "status": "READY",
+    "prepared_at": "2026-11-08T00:57:44.989138+00:00",
+    "expires_at": "2026-11-09T00:57:44.989138+00:00",
+    "source_urls": [
+      "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+      "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+      "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "https://www.bbc.co.uk/news/articles/c39wz44411w0o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96",
+      "title": "Vụ xả súng kinh hoàng tại Kraków: Sáu người thiệt mạng và bối cảnh điều tra",
+      "summary": "Một tay súng đã nổ súng ngẫu nhiên tại quảng trường lịch sử ở Kraków, Ba Lan, khiến sáu người thiệt mạng và nhiều người bị thương. Nhà chức trách nhận định nghi phạm mang tư tưởng cực đoan và cuộc điều tra vẫn đang tiếp tục mở rộng.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "published_at": "2026-11-07T21:19:01+00:00",
+      "fetched_at": "2026-11-08T00:57:53.072890+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vào chiều thứ Bảy, một vụ xả súng nghiêm trọng đã xảy ra tại Quảng trường Chợ chính ở thành phố Kraków, Ba Lan. Theo nhà chức trách, một nghi phạm đã lái xe vào khu vực đông đúc này và nổ súng bừa bãi vào người dân cũng như các phương tiện xung quanh. Các đoạn video từ nhân chứng ghi lại cảnh người qua đường hoảng loạn tìm nơi trú ẩn khi tiếng súng vang lên và xe cứu thương nhanh chóng có mặt tại hiện trường.",
+        "Cơ quan cảnh sát xác định nghi phạm là một công dân Ba Lan 25 tuổi. Kẻ tấn công đã bị lực lượng an ninh bắn bị thương trong cuộc đấu súng gần đó và nhanh chóng được đưa đi cấp cứu tại bệnh viện. Bộ trưởng Nội vụ Ba Lan cho biết nghi phạm có xu hướng cực đoan và mang tư tưởng cực hữu, trong khi Bộ trưởng Quốc phòng gọi vụ tấn công này là một hành động khủng bố nhằm vào người dân thành phố.",
+        "Thống kê chính thức cho thấy vụ tấn công đã khiến sáu người thiệt mạng, bao gồm bốn phụ nữ và hai nam giới, trong đó có một công dân Anh. Ngoài ra, khoảng 16 người khác đã bị thương, bao gồm hai cảnh sát tham gia trấn áp trong đó có một người bị thương nặng. Các nhà chức trách cũng ghi nhận nhiều người nước ngoài khác từ Anh, Áo, Đức, Bồ Đào Nha và Nga nằm trong số những người bị thương.",
+        "Quá trình điều tra sau đó tiếp tục mở rộng khi Thủ tướng Ba Lan thông báo lực lượng chức năng phát hiện thêm ba thi thể tại nơi ở của nghi phạm, được cho là các thành viên trong gia đình. Sự việc chấn động này đã khiến chính phủ Ba Lan tuyên bố sẽ tổ chức quốc tang để tưởng niệm các nạn nhân, đồng thời các cơ quan chức năng đang tiếp tục làm rõ toàn bộ động cơ và quá trình chuẩn bị của kẻ tấn công."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vụ xả súng tại Kraków, Ba Lan: Toàn cảnh sự việc và thông tin điều tra",
+      "meta_description": "Thông tin chi tiết về vụ xả súng tại Quảng trường Chợ chính ở Kraków, Ba Lan, khiến nhiều thương vong và phản ứng từ giới chức.",
+      "keywords": [
+        "Kraków",
+        "Ba Lan",
+        "xả súng",
+        "tấn công",
+        "tin thế giới"
+      ],
+      "slug": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 354,
+      "display_source": true,
+      "source_urls": [
+        "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+        "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+        "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+        "https://www.bbc.co.uk/news/articles/c39wz44411w0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+        "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+        "https://www.bbc.co.uk/news/articles/c39wz44411w0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T22:10:08+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T18:37:36+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T21:19:01+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c39wz44411w0o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T15:00:12+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sáu người thiệt mạng và khoảng 16 người bị thương trong vụ xả súng tại Quảng trường Chợ chính Kraków.",
+          "source_urls": [
+            "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Terrified pedestrians fled through the streets of Kraków on Saturday as agunman opened fire in the historic Main Market Square,killing six people and injuring 16 others.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "snippet": "Terrified pedestrians fled through the streets of Kraków on Saturday as agunman opened fire in the historic Main Market Square,killing six people and injuring 16 others.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "page_sha256": "68f77d95ea5a346c5d358b3c19484be736e47a418b32b9d3311c35b54383cebd",
+              "snippet_sha256": "ec1c8f0e6b8e16ca939027a0b3de62f11f39b31a8fa97629aaee24b8a721d484",
+              "verified_at": "2026-11-08T00:57:53.072083+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nghi phạm là nam công dân Ba Lan 25 tuổi, bị thương và bị bắt sau cuộc đấu súng với cảnh sát.",
+          "source_urls": [
+            "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Police said the attacker, a25-year-old Polish citizen, fired indiscriminately from a car before exchanging shots with officers nearby.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "snippet": "Police said the attacker, a25-year-old Polish citizen, fired indiscriminately from a car before exchanging shots with officers nearby.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "page_sha256": "68f77d95ea5a346c5d358b3c19484be736e47a418b32b9d3311c35b54383cebd",
+              "snippet_sha256": "3ce2a290e7970203f3b0f63fa8120e550fb12ef7f56d1698093a458a2590098c",
+              "verified_at": "2026-11-08T00:57:53.072083+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ trưởng Nội vụ Ba Lan cho biết nghi phạm giữ tư tưởng cực đoan và siêu quốc gia, còn Bộ trưởng Quốc phòng gọi đây là hành động khủng bố.",
+          "source_urls": [
+            "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "EU tells TikTok to change 'harmful' For You feed over 'rabbit hole effect'",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "snippet": "EU tells TikTok to change 'harmful' For You feed over 'rabbit hole effect'",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "page_sha256": "68f77d95ea5a346c5d358b3c19484be736e47a418b32b9d3311c35b54383cebd",
+              "snippet_sha256": "c049a4122e76a2efd407acf1b4768f4e7b07b381d4c803ca6e6842ffa6ead5e8",
+              "verified_at": "2026-11-08T00:57:53.072083+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Ba Lan thông báo tìm thấy thêm ba thi thể tại nhà riêng của nghi phạm.",
+          "source_urls": [
+            "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Spain, Italy, Greece and Cyprus to benefit from EU asylum solidarity scheme in 2027",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "snippet": "Spain, Italy, Greece and Cyprus to benefit from EU asylum solidarity scheme in 2027",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow",
+              "page_sha256": "68f77d95ea5a346c5d358b3c19484be736e47a418b32b9d3311c35b54383cebd",
+              "snippet_sha256": "caefd30e5cdd2528e43737fe6c188e7ef501c3b805b14c27e3a1870edfd9c6cb",
+              "verified_at": "2026-11-08T00:57:53.072083+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp bức tranh toàn cảnh về vụ xả súng tại Kraków dựa trên các nguồn tin quốc tế chính thống. Nội dung tập trung hệ thống hóa số liệu thương vong, phản ứng từ các cơ quan chính phủ và thông tin mới nhất về cuộc điều tra.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T00:57:53.073007+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "16",
+        "25"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-08T00:57:53.074639+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 354,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1594
+        },
+        "independent_domains": [
+          "bbc.com",
+          "euronews.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "charlie-savage-ghi-ban-vao-luoi-oi-bong-cua-cha-tai-fa-cup-5ea9b968",
+    "status": "READY",
+    "prepared_at": "2026-11-08T00:57:44.989138+00:00",
+    "expires_at": "2026-11-09T00:57:44.989138+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield"
+    ],
+    "article": {
+      "id": "charlie-savage-ghi-ban-vao-luoi-oi-bong-cua-cha-tai-fa-cup-5ea9b968",
+      "title": "Charlie Savage ghi bàn vào lưới đội bóng của cha tại FA Cup",
+      "summary": "Trong khuôn khổ vòng một FA Cup, Charlie Savage đã trực tiếp ghi bàn giúp Reading giành chiến thắng đậm 5-0 trước Peterborough United, đội bóng đang được dẫn dắt bởi cha anh, ông Robbie Savage.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+      "published_at": "2026-11-07T23:11:27+00:00",
+      "fetched_at": "2026-11-08T00:58:11.276812+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vòng một FA Cup đã chứng kiến một khoảnh khắc đặc biệt khi Charlie Savage ghi bàn vào lưới Peterborough United, đội bóng hiện được dẫn dắt bởi cha anh, cựu cầu thủ Robbie Savage. Trận đấu diễn ra tại sân vận động Weston Homes, nơi Reading đã có màn trình diễn áp đảo để giành chiến thắng chung cuộc 5-0 và tiến vào vòng hai.",
+        "Reading sớm thiết lập thế trận vượt trội với các bàn thắng của Daniel Kyerewaa và Jack Marriott trong hiệp một. Ngay trước khi bước vào giờ nghỉ, Charlie Savage đã tận dụng cơ hội từ tình huống bóng bật ra để thực hiện cú sút chệch hướng, đưa bóng vào góc cao khung thành, nâng tỷ số lên 3-0 và làm sâu sắc thêm khó khăn cho đội bóng của cha mình. Trong hiệp hai, Jamie Reid ghi thêm hai bàn thắng nữa để ấn định chiến thắng đậm đà cho đội khách.",
+        "Sau trận đấu, hình ảnh Robbie Savage bắt tay con trai Charlie đã thu hút sự chú ý của người hâm mộ. Đối với Peterborough, đây là một thất bại nặng nề trong ngày thi đấu mà họ hoàn toàn bị đối thủ kiểm soát. Trong khi đó, Reading tiếp tục hành trình tại giải đấu lâu đời nhất nước Anh với sự tự tin cao độ sau màn trình diễn thuyết phục này."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Charlie Savage ghi bàn vào lưới đội bóng của cha tại FA Cup",
+      "meta_description": "Charlie Savage tỏa sáng giúp Reading đánh bại Peterborough United 5-0 tại vòng một FA Cup, trong trận đấu đối đầu với đội bóng do cha anh, Robbie Savage, quản l",
+      "keywords": [
+        "Charlie Savage",
+        "Robbie Savage",
+        "FA Cup",
+        "Reading",
+        "Peterborough United"
+      ],
+      "slug": "charlie-savage-ghi-ban-vao-luoi-oi-bong-cua-cha-tai-fa-cup-5ea9b968",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 234,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T00:13:34+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T23:11:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Charlie Savage ghi bàn cho Reading vào lưới Peterborough United tại vòng một FA Cup.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Robbie Savage's son Charlie scores for Reading against Peterborough United, the side his father manages in the first round of the FA Cup.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Robbie Savage's son Charlie scores for Reading against Peterborough United, the side his father manages in the first round of the FA Cup.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d6d8084d95bdd3180e3e26036140840fdc15ea3dc9c8a8cfd031c85e923113ff",
+              "snippet_sha256": "075c1e1c768c568b63f33daf46c128a873dc0d8eb5b801539b76dae6e81420aa",
+              "verified_at": "2026-11-08T00:58:11.276261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Reading giành chiến thắng 5-0 trước Peterborough United.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Charlie Savage scored against his father’s team asReadingeased into the second round of the FA Cup with a 5-0 rout ofPeterboroughat the Weston Homes Stadium.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+              "snippet": "Charlie Savage scored against his father’s team asReadingeased into the second round of the FA Cup with a 5-0 rout ofPeterboroughat the Weston Homes Stadium.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+              "page_sha256": "1215f92e085867f00c3484682ac4d869f10815431fd1067b479823e9edefc981",
+              "snippet_sha256": "4f53d369c64d3bee63a57a43f057f3f29d9f316e98ba3748d7870920dec4c663",
+              "verified_at": "2026-11-08T00:58:11.276261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Robbie Savage là huấn luyện viên của Peterborough United.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "This all-League One tie turned out to be one of the most one-sided of the day, with the Peterborough manager, Robbie Savage, watching on in disbelief as his side were pulled apart.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+              "snippet": "This all-League One tie turned out to be one of the most one-sided of the day, with the Peterborough manager, Robbie Savage, watching on in disbelief as his side were pulled apart.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+              "page_sha256": "1215f92e085867f00c3484682ac4d869f10815431fd1067b479823e9edefc981",
+              "snippet_sha256": "ca49545c4d07cd7dea1f997d22d139b5e7ebb98300c4a615bd5796d6bf1ccd4d",
+              "verified_at": "2026-11-08T00:58:11.276261+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh đối đầu gia đình trong một trận đấu chuyên nghiệp tại FA Cup. Đồng thời, bài cung cấp diễn biến chi tiết về tỷ số và các cầu thủ ghi bàn để độc giả nắm bắt cục diện trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T00:58:11.276906+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-08T00:58:11.277951+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 234,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1110
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "co-hoi-nao-cho-oregon-ducks-nuoi-mong-du-vong-play-off-bong-bau-duc-ai-h-fc2148f9",
+    "status": "READY",
+    "prepared_at": "2026-11-08T00:57:44.989138+00:00",
+    "expires_at": "2026-11-09T00:57:44.989138+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+      "https://www.france24.com/en/video/20261105-french-protests-it-s-only-when-public-private-sector-act-together-that-you-can-make-changes",
+      "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks"
+    ],
+    "article": {
+      "id": "co-hoi-nao-cho-oregon-ducks-nuoi-mong-du-vong-play-off-bong-bau-duc-ai-h-fc2148f9",
+      "title": "Cơ hội nào cho Oregon Ducks nuôi mộng dự vòng play-off bóng bầu dục đại học?",
+      "summary": "Sau chiến thắng quan trọng trước Ohio State, Oregon Ducks vẫn còn cơ hội mong manh để giành vé tham dự vòng play-off bóng bầu dục đại học (CFP) trong một mùa giải đầy biến động.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+      "published_at": "2026-11-08T00:29:55+00:00",
+      "fetched_at": "2026-11-08T00:58:19.731384+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa giải bóng bầu dục đại học năm 2026 chứng kiến những diễn biến bất ngờ đối với đội bóng Oregon Ducks. Dù phải trải qua ba trận thua từ đầu mùa, cùng với việc tiền vệ chính chấn thương dài hạn và sự thay đổi ở vị trí điều phối viên phòng ngự, đội bóng dưới sự dẫn dắt của huấn luyện viên Dan Lanning vẫn thắp lại hy vọng lọt vào vòng play-off nhờ chiến thắng thuyết phục 41-28 trước Ohio State.",
+        "Trong kỷ nguyên 12 đội của vòng play-off bóng bầu dục đại học, việc để thua ba trận thường được xem là bất lợi lớn đối với bất kỳ ứng viên nào. Lịch sử giải đấu ghi nhận chưa từng có đội bóng nào giành quyền vào vòng trong với ba thất bại. Do đó, việc lựa chọn suất đi tiếp theo diện vớt (at-large) tỏ ra vô cùng khó khăn đối với Oregon, khi thành tích đối đầu và danh sách các trận thắng lớn của họ còn khá khiêm tốn.",
+        "Tuy nhiên, con đường trực tiếp nhất để đội bóng giành vé tham dự vòng play-off là lọt vào trận chung kết hội nghị Big Ten, nơi nhà vô địch các giải đấu lớn sẽ nhận được suất vào thẳng. Hiện tại, Oregon đang nắm giữ thành tích 4 trận thắng và 2 trận thua tại đấu trường hội nghị. Nếu duy trì chuỗi thắng trong phần còn lại của mùa giải, họ có thể cải thiện thành tích lên 7 trận thắng và 2 trận thua.",
+        "Lịch thi đấu giai đoạn cuối của đội bóng được đánh giá là khá thuận lợi khi họ không phải đối mặt với thêm đối thủ nào đang nằm trong nhóm xếp hạng cao, trong đó cuộc đối đầu với Michigan được xem là thử thách đáng chú ý nhất. Dù vậy, để đạt mục tiêu giành vé trực tiếp, đội bóng không chỉ cần toàn thắng trong các trận đấu còn lại mà còn phải trông chờ vào kết quả bất lợi từ các đối thủ cạnh tranh trực tiếp tại bảng xếp hạng hội nghị Big Ten."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cơ hội đi tiếp của Oregon Ducks tại vòng play-off CFP",
+      "meta_description": "Phân tích hành trình và các kịch bản giúp Oregon Ducks tiếp tục nuôi hy vọng góp mặt tại vòng play-off bóng bầu dục đại học sau khởi đầu mùa giải nhiều thử thác",
+      "keywords": [
+        "Oregon Ducks",
+        "College Football Playoff",
+        "Big Ten",
+        "bóng bầu dục đại học"
+      ],
+      "slug": "co-hoi-nao-cho-oregon-ducks-nuoi-mong-du-vong-play-off-bong-bau-duc-ai-h-fc2148f9",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 362,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+        "https://www.france24.com/en/video/20261105-french-protests-it-s-only-when-public-private-sector-act-together-that-you-can-make-changes",
+        "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/video/20261105-french-protests-it-s-only-when-public-private-sector-act-together-that-you-can-make-changes",
+        "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T00:29:55+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261105-french-protests-it-s-only-when-public-private-sector-act-together-that-you-can-make-changes",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T20:39:49+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T11:00:51+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Oregon Ducks giành chiến thắng 41-28 trước Ohio State trong một trận đấu có ý nghĩa quan trọng.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The good news for Oregon isn't just that it has a favorable remaining schedule — the Ducks' wins over Ohio State and USC could come in handy for tiebreaker purposes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+              "snippet": "The good news for Oregon isn't just that it has a favorable remaining schedule — the Ducks' wins over Ohio State and USC could come in handy for tiebreaker purposes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+              "page_sha256": "690070a053c1986f73ecf3129c8c81c253f6e4fe9a0d5fe182eeabb53d948358",
+              "snippet_sha256": "02722e8ca5aaeb43eb4140d56aaae99b31b81a613f8be212bd647b1719b13436",
+              "verified_at": "2026-11-08T00:58:19.730682+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong kỷ nguyên 12 đội của CFP, chưa từng có đội bóng nào nhận ba trận thua mà lọt được vào vòng bảng tranh chức vô địch.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de"
+          ],
+          "importance": "core",
+          "evidence_snippet": "In the 12-team era of the CFP, a third loss has mostly been viewed as a death sentence for playoff contenders.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+              "snippet": "In the 12-team era of the CFP, a third loss has mostly been viewed as a death sentence for playoff contenders.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+              "page_sha256": "690070a053c1986f73ecf3129c8c81c253f6e4fe9a0d5fe182eeabb53d948358",
+              "snippet_sha256": "99c59af5c13ab0a28c2cfb0ec8b95c43b094af3646ff7e3f12a5bc3a9fef8f50",
+              "verified_at": "2026-11-08T00:58:19.730682+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Oregon hiện có thành tích 4 trận thắng và 2 trận thua tại hội nghị Big Ten và có thể cải thiện thành 7 trận thắng nếu toàn thắng các trận còn lại.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "After Saturday's win, Oregon has a 4-2 record in Big Ten action.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+              "snippet": "After Saturday's win, Oregon has a 4-2 record in Big Ten action.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/oregon/news/oregon-cfp-ducks-path-playoff-season/d8c71b001424cf2107d123de",
+              "page_sha256": "690070a053c1986f73ecf3129c8c81c253f6e4fe9a0d5fe182eeabb53d948358",
+              "snippet_sha256": "0bc94792852e2fc8e4a9898e4e2b3f041da5ed3d65573d01a279aae70f09516f",
+              "verified_at": "2026-11-08T00:58:19.730682+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những thách thức lịch sử và các điều kiện cần thiết về mặt điểm số, lịch thi đấu mà đội bóng Oregon Ducks phải vượt qua. Phân tích chi tiết các kịch bản cạnh tranh trong hội nghị Big Ten để giải thích thực trạng cơ hội của đội bóng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T00:58:19.731503+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "2",
+        "2026",
+        "4",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-08T00:58:19.733015+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 362,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1658
+        },
+        "independent_domains": [
+          "france24.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
