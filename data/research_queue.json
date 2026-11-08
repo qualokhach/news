@@ -1982,7 +1982,7 @@
   },
   {
     "queue_id": "82e100a40f9c51999a20",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T10:48:28.932157+00:00",
     "expires_at": "2026-11-11T10:46:46.695014+00:00",
     "category_hint": "world",
@@ -2655,11 +2655,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T10:48:28.932179+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toa-nha-saudi-aramco-tai-riyadh-bi-hu-hai-sau-vu-tan-cong-bang-ten-lua-b100b5f1"
   },
   {
     "queue_id": "db067f3c76c06520c7da",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T10:48:27.544320+00:00",
     "expires_at": "2026-11-11T10:46:46.695014+00:00",
     "category_hint": "technology",
@@ -3505,7 +3506,8 @@
       ]
     },
     "research_ready_at": "2026-11-08T10:48:27.544339+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "loi-giai-cho-bai-toan-toan-hoc-55-nam-tuoi-do-con-nguoi-thuc-hien-d38c0cea"
   },
   {
     "queue_id": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96",
@@ -64600,7 +64602,7 @@
   },
   {
     "queue_id": "ben-davison-la-ai-va-ly-do-anthony-joshua-tiep-tuc-thay-oi-huan-luyen-vi-a4360420",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-08T10:48:49.943122+00:00",
     "expires_at": "2026-11-09T10:48:49.943122+00:00",
     "source_urls": [
@@ -64618,7 +64620,7 @@
       "source_url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
       "published_at": "2026-11-08T10:00:01+00:00",
       "fetched_at": "2026-11-08T10:48:54.419346+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-08T11:33:08.587713+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -64814,29 +64816,39 @@
         "2012"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-08T10:48:54.421341+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-08T11:33:08.587713+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 369,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1737
-        },
-        "independent_domains": [
-          "bbc.com",
-          "skysports.com",
-          "sportingnews.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1737,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/boxing/news/who-anthony-joshuas-trainer-ben-davison-reunion-tyson-fury/99fb3b33c2e547d813a2ce2c",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-08 18:33"
+    },
+    "published_at": "2026-11-08T11:33:08.587713+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "mo-hinh-the-gioi-la-gi-va-tai-sao-chung-sap-tro-nen-pho-bien-5fa139ad",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-08T10:48:49.943122+00:00",
     "expires_at": "2026-11-09T10:48:49.943122+00:00",
     "source_urls": [
@@ -64856,7 +64868,7 @@
       "source_url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
       "published_at": "2026-11-08T10:00:00+00:00",
       "fetched_at": "2026-11-08T10:49:00.838911+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-08T11:33:08.587713+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -65091,27 +65103,37 @@
         "3"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-08T10:49:00.841482+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-08T11:33:08.587713+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 475,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 2160
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "bbc.com",
-          "cnbc.com",
-          "engadget.com",
-          "sportingnews.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 2160,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "cnbc.com",
+            "engadget.com",
+            "sportingnews.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-08 18:33"
+    },
+    "published_at": "2026-11-08T11:33:08.587713+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
@@ -65358,5 +65380,502 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "toa-nha-saudi-aramco-tai-riyadh-bi-hu-hai-sau-vu-tan-cong-bang-ten-lua-b100b5f1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T11:32:31.544136+00:00",
+    "expires_at": "2026-11-09T11:32:31.544136+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+      "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
+    ],
+    "article": {
+      "id": "toa-nha-saudi-aramco-tai-riyadh-bi-hu-hai-sau-vu-tan-cong-bang-ten-lua-b100b5f1",
+      "title": "Tòa nhà Saudi Aramco tại Riyadh bị hư hại sau vụ tấn công bằng tên lửa",
+      "summary": "Một tòa nhà hành chính thuộc tập đoàn dầu mỏ Saudi Aramco tại Riyadh đã bị hư hại do mảnh vỡ tên lửa rơi xuống. Vụ việc diễn ra trong bối cảnh leo thang giao tranh giữa liên quân do Saudi dẫn đầu và lực lượng Houthi ở Yemen.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+      "published_at": "2026-11-08T09:47:36+00:00",
+      "fetched_at": "2026-11-08T11:32:41.607304+00:00",
+      "appnho_published_at": "2026-11-08T11:33:08.587713+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bộ Năng lượng Saudi Arabia cho biết một tòa nhà hành chính thuộc tập đoàn dầu mỏ nhà nước Saudi Aramco tại khu tài chính King Abdullah ở thủ đô Riyadh đã hứng chịu hư hại nhẹ. Nguyên nhân được xác định là do các mảnh vỡ từ tên lửa rơi xuống sau khi hệ thống phòng không đánh chặn.",
+        "Vụ việc xảy ra vào Chủ nhật, sau khi liên quân do Saudi dẫn đầu thông báo đã phá hủy các tên lửa đạn đạo và máy bay không người lái do lực lượng Houthi tại Yemen phóng về phía vương quốc. Theo giới chức Saudi Arabia, không có thương vong hay thiệt mạng nào được ghi nhận trong sự cố tại tòa nhà Aramco.",
+        "Cuộc tấn công này diễn ra ngay sau một ngày kể từ khi các cuộc không kích của liên quân do Saudi dẫn đầu tại khu vực gần thủ đô Sanaa của Yemen khiến nhiều người thiệt mạng và bị thương. Bộ Y tế do Houthi điều hành tại Yemen công bố con số thương vong đáng kể sau các đợt không kích này.",
+        "Sự leo thang quân sự gần đây làm gia tăng căng thẳng trong khu vực, trong bối cảnh giao tranh vẫn tiếp diễn trên nhiều mặt trận giữa lực lượng chính phủ Yemen và phong trào Houthi kể từ khi lệnh ngừng bắn cũ gặp nhiều thách thức."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Saudi Aramco tại Riyadh bị hư hại sau vụ tấn công tên lửa",
+      "meta_description": "Tòa nhà Saudi Aramco tại Riyadh bị hư hại nhẹ do mảnh vỡ tên lửa, một ngày sau các cuộc không kích gây thương vong tại Yemen.",
+      "keywords": [
+        "Saudi Aramco",
+        "Riyadh",
+        "Houthi",
+        "Yemen",
+        "Saudi Arabia"
+      ],
+      "slug": "toa-nha-saudi-aramco-tai-riyadh-bi-hu-hai-sau-vu-tan-cong-bang-ten-lua-b100b5f1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 237,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+        "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T09:47:36+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T07:40:07+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tòa nhà Saudi Aramco tại Riyadh bị hư hại do mảnh vỡ rơi sau khi liên quân đánh chặn tên lửa.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack | Conflict News | Al Jazeera",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+              "snippet": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack | Conflict News | Al Jazeera",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+              "page_sha256": "92f02f3d5bad1d5289090badc619aa331b5f4e387a93a5996d3b84e07890ab43",
+              "snippet_sha256": "1f03d88c0b5c07c73f03b6e76c1cbd8155683f885f41630e079bb53e46c575ee",
+              "verified_at": "2026-11-08T11:32:41.606843+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Không có người nào bị thương hoặc thiệt mạng trong vụ việc tại tòa nhà Aramco.",
+          "source_urls": [
+            "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "A ​Saudi ​Energy Ministry official said on ​Sunday ‌that ⁠an ‌administrative building belonging to ⁠state oil giant Saudi ​Aramco ‌in Riyadh had been ‌targeted in ​an attempted attack on the capital's financial district, with falling ​debris causing limited ​damage ​to the ​building with no injuries or fatalities.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+              "snippet": "A ​Saudi ​Energy Ministry official said on ​Sunday ‌that ⁠an ‌administrative building belonging to ⁠state oil giant Saudi ​Aramco ‌in Riyadh had been ‌targeted in ​an attempted attack on the capital's financial district, with falling ​debris causing limited ​damage ​to the ​building with no injuries or fatalities.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+              "page_sha256": "f250d28494b4fd4c54862fab1003fead6abaa8c13aa6d1306e07e5e1b7ea9d4d",
+              "snippet_sha256": "2974557a9d437cd7550016e0a95b6347c2bf97c9f2d5b7f18e54f6dc21da4d05",
+              "verified_at": "2026-11-08T11:32:41.606843+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cuộc không kích của Saudi tại Yemen diễn ra trước đó một ngày làm nhiều người thương vong.",
+          "source_urls": [
+            "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Yemen’s health ministry saidat least 33 peoplewere killed inSaudiair strikes near the capitalSanaa.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+              "snippet": "Yemen’s health ministry saidat least 33 peoplewere killed inSaudiair strikes near the capitalSanaa.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+              "page_sha256": "f250d28494b4fd4c54862fab1003fead6abaa8c13aa6d1306e07e5e1b7ea9d4d",
+              "snippet_sha256": "311656447994b440ef58c400719b6ce25e904c91a26d60f9f760e5e2fdab7915",
+              "verified_at": "2026-11-08T11:32:41.606843+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết kỹ thuật về thiệt hại do mảnh vỡ tên lửa tại tòa nhà Aramco ở Riyadh. Đồng thời đặt sự việc trong mối liên hệ sát sao với các cuộc không kích trước đó tại Yemen để phản ánh bức tranh xung đột.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T11:32:41.607362+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T11:33:08.587713+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 237,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1098,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 18:33"
+    },
+    "published_at": "2026-11-08T11:33:08.587713+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "loi-giai-cho-bai-toan-toan-hoc-55-nam-tuoi-do-con-nguoi-thuc-hien-d38c0cea",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T11:32:31.544136+00:00",
+    "expires_at": "2026-11-09T11:32:31.544136+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+      "https://www.bbc.co.uk/news/articles/c8046kdw56e2o?at_medium=RSS&at_campaign=rss",
+      "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html",
+      "https://www.sciencedaily.com/releases/2026/11/261102202836.htm",
+      "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
+      "https://www.theverge.com/games/1025415/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch-2"
+    ],
+    "article": {
+      "id": "loi-giai-cho-bai-toan-toan-hoc-55-nam-tuoi-do-con-nguoi-thuc-hien-d38c0cea",
+      "title": "Lời giải cho bài toán toán học 55 năm tuổi do con người thực hiện",
+      "summary": "Bài toán sắp xếp lại số học do nhà toán học Ronald Graham đặt ra từ năm 1971 cuối cùng đã được giới toán học trẻ giải quyết trọn vẹn qua một chuỗi các công trình nghiên cứu kết thúc vào đầu năm 2026.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+      "published_at": "2026-11-08T10:30:00+00:00",
+      "fetched_at": "2026-11-08T11:33:06.872224+00:00",
+      "appnho_published_at": "2026-11-08T11:33:08.587713+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bài toán toán học kéo dài suốt 55 năm mang tên giả thuyết sắp xếp của Ronald Graham vừa chính thức khép lại nhờ sự tham gia của một thế hệ nhà toán học trẻ tuổi. Được đặt ra từ năm 1971 bởi Ronald Graham, nhà toán học quá cố từng giữ chức chủ tịch Hội Toán học Hoa Kỳ, bài toán này từ lâu đã thách thức giới nghiên cứu bởi mức độ phức tạp của nó trong cấu trúc số học.",
+        "Nội dung bài toán bắt đầu với việc chọn một tập hợp bất kỳ gồm các số nguyên khác không, sau đó sắp xếp lại sao cho mọi tổng thành phần từ hai số đầu tiên cho đến toàn bộ tập hợp đều khác nhau. Trong bối cảnh số học đồng dư hoặc số học đồng hồ, nơi các con số lặp lại sau một số nguyên tố p, Graham phỏng đoán rằng việc sắp xếp này luôn khả thi ngay cả dưới những ràng buộc nghiêm ngặt.",
+        "Tuy nhiên, trong nhiều thập kỷ, không ai có thể chứng minh được phỏng đoán trên. Cục diện này đã thay đổi khi một nhóm nhà toán học trẻ công bố các công trình chứng minh trải dài qua nhiều lĩnh vực toán học khác nhau. Đóng góp quyết định xuất phát từ Lisa Sauermann thuộc Đại học Bonn và Huy Tuấn Phạm thuộc Đại học Chicago với bài báo cuối cùng xuất hiện vào tháng 2 năm 2026.",
+        "Xuyên suốt các công trình nghiên cứu, phương pháp xác suất và sức mạnh của sự ngẫu nhiên được xem là chìa khóa then chốt để khai phá các cấu trúc ẩn giấu. Trước đó, Alp Müyesser tại Đại học Oxford và cựu cố vấn Alexey Pokrovskiy từ Đại học Tổng hợp Luân Đôn cũng đã giải quyết các trường hợp với các tập hợp số lớn thông qua việc áp dụng các trật tự ngẫu nhiên để tìm kiếm lời giải trong bài toán tìm kim đáy bể."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bài toán toán học 55 năm tuổi của Ronald Graham đã được giải quyết",
+      "meta_description": "Khám phá cách giới toán học trẻ giải quyết bài toán sắp xếp số học 55 năm tuổi của Ronald Graham thông qua các phương pháp xác suất.",
+      "keywords": [
+        "toán học",
+        "Ronald Graham",
+        "giả thuyết sắp xếp",
+        "Đại học Bonn",
+        "Đại học Chicago"
+      ],
+      "slug": "loi-giai-cho-bai-toan-toan-hoc-55-nam-tuoi-do-con-nguoi-thuc-hien-d38c0cea",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 339,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+        "https://www.bbc.co.uk/news/articles/c8046kdw56e2o?at_medium=RSS&at_campaign=rss",
+        "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html",
+        "https://www.sciencedaily.com/releases/2026/11/261102202836.htm",
+        "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
+        "https://www.theverge.com/games/1025415/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch-2"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c8046kdw56e2o?at_medium=RSS&at_campaign=rss",
+        "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html",
+        "https://www.sciencedaily.com/releases/2026/11/261102202836.htm",
+        "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
+        "https://www.theverge.com/games/1025415/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch-2"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T10:30:00+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/c8046kdw56e2o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T07:04:36+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:15:01+00:00"
+        },
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102202836.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T13:05:12+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T19:15:49+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/games/1025415/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch-2",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T13:05:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Giả thuyết sắp xếp của Ronald Graham được đặt ra từ năm 1971 và liên quan đến việc sắp xếp các số nguyên sao cho các tổng thành phần đều khác nhau.",
+          "source_urls": [
+            "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans"
+          ],
+          "importance": "core",
+          "evidence_snippet": "But back in 1971, decades before he made that connection explicit, he posed a question that some mathematicians now say might have been inspired by juggling, too.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "snippet": "But back in 1971, decades before he made that connection explicit, he posed a question that some mathematicians now say might have been inspired by juggling, too.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "page_sha256": "ca575e08b73d8a5ccb19c3e92a31e3741ea63124fa5086c5c7b1dcb02e6a9a42",
+              "snippet_sha256": "dd5ec1ca57a8b2787969b7e5c47fe9e74ec60a411942563297748b0c65ef9b68",
+              "verified_at": "2026-11-08T11:33:06.871769+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bài toán cuối cùng được giải quyết thông qua một chuỗi bốn bài báo, với công trình cuối cùng do Lisa Sauermann tại Đại học Bonn và Huy Tuan Pham tại Đại học Chicago công bố vào tháng 2 năm 2026.",
+          "source_urls": [
+            "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thefinal paper, by Lisa Sauermann of the University of Bonn and Huy Tuan Pham of the University of Chicago, appeared in February 2026, officially closing the problem.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "snippet": "Thefinal paper, by Lisa Sauermann of the University of Bonn and Huy Tuan Pham of the University of Chicago, appeared in February 2026, officially closing the problem.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "page_sha256": "ca575e08b73d8a5ccb19c3e92a31e3741ea63124fa5086c5c7b1dcb02e6a9a42",
+              "snippet_sha256": "7e47c0d23ca680c0453bf80a8d21372632e186c776af71b09b3fba24965be6bf",
+              "verified_at": "2026-11-08T11:33:06.871769+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Alp Müyesser tại Đại học Oxford và Alexey Pokrovskiy tại Đại học Tổng hợp Luân Đôn đã giải quyết trường hợp tập hợp số bao gồm hầu như mọi số có thể lên tới p bằng cách sử dụng trật tự ngẫu nhiên.",
+          "source_urls": [
+            "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Müyesser, along with his former adviser, Alexey Pokrovskiy of University College London, tackled the case where your set includes almost every possible number up top.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "snippet": "Müyesser, along with his former adviser, Alexey Pokrovskiy of University College London, tackled the case where your set includes almost every possible number up top.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "page_sha256": "ca575e08b73d8a5ccb19c3e92a31e3741ea63124fa5086c5c7b1dcb02e6a9a42",
+              "snippet_sha256": "8ef5b207e80700e880a441c9a990addf2d5fa45d80c96de689a30f8ebcd92c34",
+              "verified_at": "2026-11-08T11:33:06.871769+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích rõ bản chất của giả thuyết sắp xếp do Ronald Graham đặt ra từ năm 1971 và quá trình các nhà toán học trẻ giải quyết bài toán này. Đồng thời, bài làm nổi bật vai trò của phương pháp xác suất và sự đóng góp của các nhà nghiên cứu từ Đại học Bonn, Đại học Chicago và Đại học Oxford trong việc khép lại vấn đề.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T11:33:06.872293+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1971",
+        "2026",
+        "55"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T11:33:08.587713+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 339,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1543,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "sciencedaily.com",
+            "theguardian.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 18:33"
+    },
+    "published_at": "2026-11-08T11:33:08.587713+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
