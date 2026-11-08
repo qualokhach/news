@@ -251,5 +251,14 @@
         "reason": "fact_ledger[2] trích đoạn từ thanhnien.vn không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-08 08:50",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-08T01:50:04.980362+00:00",
+    "prepared_candidates": 9,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]

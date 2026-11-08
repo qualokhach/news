@@ -1982,7 +1982,7 @@
   },
   {
     "queue_id": "10df9b51615a26c145b8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T00:57:23.286323+00:00",
     "expires_at": "2026-11-11T00:55:25.424934+00:00",
     "category_hint": "vietnam",
@@ -2638,11 +2638,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T00:57:23.286347+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "fpt-polytechnic-loi-nguoc-dong-ngoan-muc-ang-quang-ngoi-vo-ich-lien-quan-3be7a023"
   },
   {
     "queue_id": "bff13e9e78736820d5b7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T00:57:15.291877+00:00",
     "expires_at": "2026-11-11T00:55:25.424934+00:00",
     "category_hint": "vietnam",
@@ -3296,7 +3297,8 @@
       ]
     },
     "research_ready_at": "2026-11-08T00:57:15.291901+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vu-thit-lon-bo-nhun-tai-truong-mam-non-oi-ket-qua-xet-nghiem-chuyen-sau-19e0e140"
   },
   {
     "queue_id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
@@ -5397,7 +5399,7 @@
   },
   {
     "queue_id": "c86b4625b2a716c4347d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:13:58.907368+00:00",
     "expires_at": "2026-11-10T15:56:21.418732+00:00",
     "category_hint": "sports",
@@ -5987,9 +5989,8 @@
     },
     "research_ready_at": "2026-11-07T15:13:58.907395+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_led",
     "write_attempts": 1,
-    "next_write_after": "2026-11-07T19:56:21.418732+00:00"
+    "written_article_id": "noah-okafor-toa-sang-giup-leeds-anh-bai-tottenham-ay-kich-tinh-f8964d81"
   },
   {
     "queue_id": "81bf97066f222eedbd05",
@@ -7968,7 +7969,7 @@
   },
   {
     "queue_id": "8df3ae48bff45b11fe3b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-07T15:13:44.331619+00:00",
     "expires_at": "2026-11-10T15:12:01.343874+00:00",
     "category_hint": "vietnam",
@@ -9381,7 +9382,8 @@
       ]
     },
     "research_ready_at": "2026-11-07T15:13:44.331643+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "em-nhac-green-concert-khuay-ong-ngay-hoi-viet-nam-xanh-2026-07fe8595"
   },
   {
     "queue_id": "8997b5306c6b5d3b0955",
@@ -61720,5 +61722,942 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "fpt-polytechnic-loi-nguoc-dong-ngoan-muc-ang-quang-ngoi-vo-ich-lien-quan-3be7a023",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T01:49:36.805447+00:00",
+    "expires_at": "2026-11-09T01:49:36.805447+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+      "https://thanhnien.vn/billiards-ngo-dinh-nai-thang-cach-biet-nha-vo-dich-pba-giu-vung-ngoi-dau-18526110723123066.htm",
+      "https://dantri.com.vn/the-thao/man-utd-gap-rut-lien-he-nha-vo-dich-world-cup-thay-the-hlv-carrick-20261106123145195.htm"
+    ],
+    "article": {
+      "id": "fpt-polytechnic-loi-nguoc-dong-ngoan-muc-ang-quang-ngoi-vo-ich-lien-quan-3be7a023",
+      "title": "FPT Polytechnic lội ngược dòng ngoạn mục, đăng quang ngôi vô địch Liên Quân Mobile 2026",
+      "summary": "Tại sân vận động quốc gia Mỹ Đình, đội tuyển FPT Polytechnic đã giành chiến thắng ngược dòng 4-2 trước BOOM Esports để chính thức trở thành nhà vô địch Đấu Trường Danh Vọng Mùa Đông 2026.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+      "published_at": "2026-11-07T22:59:00+00:00",
+      "fetched_at": "2026-11-08T01:49:40.614233+00:00",
+      "appnho_published_at": "2026-11-08T01:50:04.980362+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 7-11, loạt trận chung kết tổng của giải đấu Liên Quân Mobile 2026 - Đấu Trường Danh Vọng Mùa Đông đã diễn ra đầy kịch tính tại sân vận động quốc gia Mỹ Đình, Hà Nội. Trận thư hùng cuối cùng là màn tranh tài giữa hai đại diện xuất sắc nhất là FPT Polytechnic và BOOM Esports.",
+        "Bước vào trận đấu quyết định, BOOM Esports đã tạo ra sức ép lớn khi vươn lên dẫn trước với tỉ số 2-1. Tuy nhiên, đội hình của FPT Polytechnic gồm các game thủ Nguyễn Thành Duy, Nguyễn Quang Duy, Lê Văn Việt, Đỗ Mạnh Hùng và Nguyễn Thế Khang đã thể hiện bản lĩnh vững vàng.",
+        "Họ liên tiếp giành chiến thắng trong ba ván đấu cuối cùng để lội ngược dòng thành công với tỉ số chung cuộc 4-2. Với chiến thắng này, FPT Polytechnic chính thức đăng quang ngôi vô địch và nhận phần thưởng tiền thưởng theo thứ hạng trị giá 1 tỉ đồng, chưa tính các khoản thưởng phụ.",
+        "Chức vô địch đánh dấu bước tiến vượt bậc của đội tuyển này khi ở mùa giải Đấu Trường Danh Vọng Mùa Đông trước đó, họ chỉ đứng ở vị trí thứ 7. Trên hành trình tiến vào chung kết tổng, FPT Polytechnic từng vượt qua Saigon Phantom với tỉ số sát nút 4-2 ở vòng Playoffs.",
+        "Sự kiện năm nay nằm trong chuỗi hoạt động kỷ niệm 10 năm tựa game Liên Quân Mobile với chủ đề 'Thập niên gắn kết', thu hút đông đảo người hâm mộ đến theo dõi trực tiếp các nội dung thi đấu thể thao điện tử và tham gia các hoạt động tương tác tại khu vực sân Mỹ Đình."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "FPT Polytechnic vô địch Đấu Trường Danh Vọng Mùa Đông 2026",
+      "meta_description": "FPT Polytechnic lội ngược dòng ấn tượng trước BOOM Esports để đăng quang ngôi vô địch Đấu Trường Danh Vọng Mùa Đông 2026 tại sân Mỹ Đình.",
+      "keywords": [
+        "Liên Quân Mobile 2026",
+        "FPT Polytechnic",
+        "Đấu Trường Danh Vọng Mùa Đông",
+        "BOOM Esports",
+        "thể thao điện tử"
+      ],
+      "slug": "fpt-polytechnic-loi-nguoc-dong-ngoan-muc-ang-quang-ngoi-vo-ich-lien-quan-3be7a023",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 290,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+        "https://thanhnien.vn/billiards-ngo-dinh-nai-thang-cach-biet-nha-vo-dich-pba-giu-vung-ngoi-dau-18526110723123066.htm",
+        "https://dantri.com.vn/the-thao/man-utd-gap-rut-lien-he-nha-vo-dich-world-cup-thay-the-hlv-carrick-20261106123145195.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/billiards-ngo-dinh-nai-thang-cach-biet-nha-vo-dich-pba-giu-vung-ngoi-dau-18526110723123066.htm",
+        "https://dantri.com.vn/the-thao/man-utd-gap-rut-lien-he-nha-vo-dich-world-cup-thay-the-hlv-carrick-20261106123145195.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T22:59:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/billiards-ngo-dinh-nai-thang-cach-biet-nha-vo-dich-pba-giu-vung-ngoi-dau-18526110723123066.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T17:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/man-utd-gap-rut-lien-he-nha-vo-dich-world-cup-thay-the-hlv-carrick-20261106123145195.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T07:37:04+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tối 7-11 tại sân Mỹ Đình, Hà Nội, loạt chung kết Liên Quân Mobile 2026 - Đấu Trường Danh Vọng Mùa Đông diễn ra giữa FPT Polytechnic và BOOM Esports.",
+          "source_urls": [
+            "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tối 7-11 tại sân Mỹ Đình, Hà Nội, loạt chung kết Liên Quân Mobile 2026 - Đấu Trường Danh Vọng Mùa Đông đã diễn ra với cuộc thư hùng của các đội tuyển xuất sắc nhất.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "snippet": "Tối 7-11 tại sân Mỹ Đình, Hà Nội, loạt chung kết Liên Quân Mobile 2026 - Đấu Trường Danh Vọng Mùa Đông đã diễn ra với cuộc thư hùng của các đội tuyển xuất sắc nhất.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "page_sha256": "8e86a1dc1b488f63e138e3e6671899fc7e6a35889de4fe448d4e58bb33d89939",
+              "snippet_sha256": "93df97fa5c780e5cd3e166a0371d74755d56d50070b31b98e9c02e30e65615f1",
+              "verified_at": "2026-11-08T01:49:40.613275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "FPT Polytechnic bị dẫn trước 1-2 nhưng đã thắng ngược dòng 3 ván cuối để thắng chung cuộc 4-2 và đăng quang ngôi vô địch.",
+          "source_urls": [
+            "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Dù bị đối thủ dẫn trước 1-2, FPT Polytechnic vẫn cho thấy bản lĩnh và phong độ ấn tượng khi liên tiếp giành chiến thắng trong 3 ván đấu cuối cùng để thắng ngược dòng với tỉ số 4-2.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "snippet": "Dù bị đối thủ dẫn trước 1-2, FPT Polytechnic vẫn cho thấy bản lĩnh và phong độ ấn tượng khi liên tiếp giành chiến thắng trong 3 ván đấu cuối cùng để thắng ngược dòng với tỉ số 4-2.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "page_sha256": "8e86a1dc1b488f63e138e3e6671899fc7e6a35889de4fe448d4e58bb33d89939",
+              "snippet_sha256": "4bf37e70e94e4b651a8e986f3f0b5454c3b62a8c8c7580fbfe876eaa2b543661",
+              "verified_at": "2026-11-08T01:49:40.613275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội hình thi đấu gồm Nguyễn Thành Duy, Nguyễn Quang Duy, Lê Văn Việt, Đỗ Mạnh Hùng và Nguyễn Thế Khang, nhận 1 tỉ đồng tiền thưởng theo thứ hạng.",
+          "source_urls": [
+            "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Chức vô địch này giúp đội nhận 1 tỉ đồng tiền thưởng theo thứ hạng, chưa bao gồm các khoản thưởng bonus.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "snippet": "Chức vô địch này giúp đội nhận 1 tỉ đồng tiền thưởng theo thứ hạng, chưa bao gồm các khoản thưởng bonus.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "page_sha256": "8e86a1dc1b488f63e138e3e6671899fc7e6a35889de4fe448d4e58bb33d89939",
+              "snippet_sha256": "f914df04962e82a9ca24ea0a85577e301b9d5ab83ee1e28ff42d8ede0c0d04c1",
+              "verified_at": "2026-11-08T01:49:40.613275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ở mùa giải Đấu Trường Danh Vọng Mùa Đông trước, FPT Polytechnic đứng thứ 7.",
+          "source_urls": [
+            "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "ỞĐấu Trường Danh Vọng Mùa Đôngmùa giải trước, đội FPT Polytechnic chỉ đứng thứ 7.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "snippet": "ỞĐấu Trường Danh Vọng Mùa Đôngmùa giải trước, đội FPT Polytechnic chỉ đứng thứ 7.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "page_sha256": "8e86a1dc1b488f63e138e3e6671899fc7e6a35889de4fe448d4e58bb33d89939",
+              "snippet_sha256": "183f856de4e5497d9f3fe60ee62535d4e18c8e0c45782a9eddd8bf159b5d9669",
+              "verified_at": "2026-11-08T01:49:40.613275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ hành trình lội ngược dòng ấn tượng từ vị trí thứ 7 ở mùa giải trước lên ngôi vô địch của FPT Polytechnic. Đồng thời, bối cảnh tổ chức sự kiện kỷ niệm 10 năm tại sân Mỹ Đình cũng được đặt trọn trong hệ sinh thái giải đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T01:49:40.614343+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "2026",
+        "7"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T01:50:04.980362+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 290,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1363,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/lien-quan-mobile-2026-co-nha-vo-dich-moi-100261108055529738.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 08:50"
+    },
+    "published_at": "2026-11-08T01:50:04.980362+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vu-thit-lon-bo-nhun-tai-truong-mam-non-oi-ket-qua-xet-nghiem-chuyen-sau-19e0e140",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T01:49:36.805447+00:00",
+    "expires_at": "2026-11-09T01:49:36.805447+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+      "https://thanhnien.vn/toan-canh-17h-cap-nhat-vu-thit-lon-nhun-bo-o-truong-mam-non-hon-10-ti-dong-cuu-tau-co-600-nam-o-hoi-an-185261107163426406.htm"
+    ],
+    "article": {
+      "id": "vu-thit-lon-bo-nhun-tai-truong-mam-non-oi-ket-qua-xet-nghiem-chuyen-sau-19e0e140",
+      "title": "Vụ thịt lợn bở, nhũn tại trường mầm non: Đợi kết quả xét nghiệm chuyên sâu",
+      "summary": "UBND phường Phương Liệt (Hà Nội) đã báo cáo UBND thành phố về vụ việc thịt lợn cung cấp cho Trường Mầm non Phương Liệt có biểu hiện bở, nhũn bất thường. Cơ quan chức năng đã lấy mẫu gửi kiểm nghiệm chuyên sâu và nhà trường đã thay thế đơn vị cung cấp thực phẩm.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+      "published_at": "2026-11-07T23:00:00+00:00",
+      "fetched_at": "2026-11-08T01:49:46.490316+00:00",
+      "appnho_published_at": "2026-11-08T01:50:04.980362+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Liên quan đến vụ việc phụ huynh Trường Mầm non Phương Liệt (Hà Nội) phát hiện thịt lợn do đơn vị cung ứng có biểu hiện bở, nhũn bất thường, UBND phường Phương Liệt đã có văn bản báo cáo toàn diện gửi UBND thành phố Hà Nội. Động thái này nhằm thực hiện chỉ đạo của Văn phòng UBND thành phố về việc kiểm tra và xử lý thông tin phản ánh.",
+        "Theo báo cáo của chính quyền địa phương, ngay sau khi ghi nhận sự việc trong hai ngày 4 và 5/11, lực lượng chức năng đã thành lập đoàn kiểm tra liên ngành tiến hành test nhanh và lấy mẫu 150 gram thịt. Mẫu vật này đã được gửi tới Viện Kiểm nghiệm An toàn vệ sinh thực phẩm Quốc gia để thực hiện kiểm nghiệm chuyên sâu, dự kiến sẽ công bố kết quả vào ngày 16/11 tới.",
+        "Trong thời gian chờ kết quả chính thức, nhà trường cùng ban đại diện cha mẹ học sinh đã yêu cầu thay thế số nguyên liệu nói trên bằng thực phẩm đảm bảo chất lượng. Đến ngày 6/11, Trường Mầm non Phương Liệt chính thức thay đổi đơn vị cung cấp thực phẩm sang Công ty Cổ phần đầu tư phát triển và dịch vụ thương mại Thăng Long nhằm ổn định bữa ăn bán trú cho học sinh.",
+        "Trước đó, phản ánh từ phụ huynh cho biết phần thịt nạc giao nhận có màu tái nhợt, mềm nhũn và không có độ bám dính như thịt thông thường. Về phía đơn vị cung cấp cũ, đại diện doanh nghiệp cho rằng lợn hơi có đầy đủ giấy tờ kiểm dịch nhưng có thể xuất hiện tỷ lệ nhỏ thịt lợn bị ảnh hưởng bởi hiện tượng stress trước khi giết mổ, dẫn đến biến tính protein và dễ rỉ dịch."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vụ thịt lợn bở nhũn ở trường mầm non Phương Liệt khi nào có kết quả",
+      "meta_description": "Cập nhật thông tin về vụ thịt lợn bở, nhũn tại Trường Mầm non Phương Liệt, Hà Nội. Cơ quan chức năng đã lấy mẫu kiểm nghiệm và nhà trường đổi nhà cung cấp.",
+      "keywords": [
+        "thịt lợn bở nhũn",
+        "Trường Mầm non Phương Liệt",
+        "an toàn thực phẩm",
+        "Hà Nội",
+        "kiểm nghiệm thực phẩm"
+      ],
+      "slug": "vu-thit-lon-bo-nhun-tai-truong-mam-non-oi-ket-qua-xet-nghiem-chuyen-sau-19e0e140",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 313,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+        "https://thanhnien.vn/toan-canh-17h-cap-nhat-vu-thit-lon-nhun-bo-o-truong-mam-non-hon-10-ti-dong-cuu-tau-co-600-nam-o-hoi-an-185261107163426406.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/toan-canh-17h-cap-nhat-vu-thit-lon-nhun-bo-o-truong-mam-non-hon-10-ti-dong-cuu-tau-co-600-nam-o-hoi-an-185261107163426406.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T23:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/toan-canh-17h-cap-nhat-vu-thit-lon-nhun-bo-o-truong-mam-non-hon-10-ti-dong-cuu-tau-co-600-nam-o-hoi-an-185261107163426406.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T10:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "UBND phường Phương Liệt đã báo cáo UBND thành phố Hà Nội sau phản ánh về việc thịt lợn do Công ty Ngôi Sao Xanh cung cấp có biểu hiện bở, nhũn bất thường.",
+          "source_urls": [
+            "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Báo cáo trên nhằm thực hiện văn bản số 23155/VP-TTDLCNS, ngày 6/11 của Văn phòng UBND Thành phố Hà Nội về việc kiểm tra, xử lý thông tin báoDân tríphản ánh việcphụ huynhTrường Mầm non Phương Liệt phát hiện thịt lợn do Công ty Ngôi Sao Xanh cung cấp có biểu hiện bất thường.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "snippet": "Báo cáo trên nhằm thực hiện văn bản số 23155/VP-TTDLCNS, ngày 6/11 của Văn phòng UBND Thành phố Hà Nội về việc kiểm tra, xử lý thông tin báoDân tríphản ánh việcphụ huynhTrường Mầm non Phương Liệt phát hiện thịt lợn do Công ty Ngôi Sao Xanh cung cấp có biểu hiện bất thường.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "page_sha256": "4e8f7fdd51fda66b8dfc27857b4d7d565cee03158ee6a99434bc4a68fab5d56a",
+              "snippet_sha256": "267208c90ca4dfa2018c51049d7dc85d85cf44f5c022c15a7b236106a723539d",
+              "verified_at": "2026-11-08T01:49:46.489515+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đoàn kiểm tra liên ngành đã lấy mẫu 150 gram thịt gửi Viện Kiểm nghiệm An toàn vệ sinh thực phẩm Quốc gia, dự kiến có kết quả vào ngày 16/11.",
+          "source_urls": [
+            "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Báo cáo của UBND phường cho biết, ngay sau khi có thông tin về thịt lợn bở, nhũn bất thường trong hai ngày liên tiếp (4-5/11), địa phương đã lập đoàn kiểm tra liên ngành test nhanh và phối hợp lấy mẫu 150 gram thịt gửi Viện Kiểm nghiệm An toàn vệ sinh thực phẩm Quốc gia để kiểm nghiệm chuyên sâu, dự kiến có kết quả ngày 16/11 tới.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "snippet": "Báo cáo của UBND phường cho biết, ngay sau khi có thông tin về thịt lợn bở, nhũn bất thường trong hai ngày liên tiếp (4-5/11), địa phương đã lập đoàn kiểm tra liên ngành test nhanh và phối hợp lấy mẫu 150 gram thịt gửi Viện Kiểm nghiệm An toàn vệ sinh thực phẩm Quốc gia để kiểm nghiệm chuyên sâu, dự kiến có kết quả ngày 16/11 tới.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "page_sha256": "4e8f7fdd51fda66b8dfc27857b4d7d565cee03158ee6a99434bc4a68fab5d56a",
+              "snippet_sha256": "2a22fb954627d0a94b83a1473130a199c26301c0648b9113a2c15862ff68139f",
+              "verified_at": "2026-11-08T01:49:46.489515+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ngày 6/11, Trường Mầm non Phương Liệt đã thay thế nhà cung cấp thực phẩm mới là Công ty Cổ phần đầu tư phát triển và dịch vụ thương mại Thăng Long.",
+          "source_urls": [
+            "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ngày 6/11, Trường Mầm non Phương Liệt đã thay thế nhà cung cấp là đơn vị Công ty Cổ phần đầu tư phát triển và dịch vụ thương mại Thăng Long.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "snippet": "Ngày 6/11, Trường Mầm non Phương Liệt đã thay thế nhà cung cấp là đơn vị Công ty Cổ phần đầu tư phát triển và dịch vụ thương mại Thăng Long.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "page_sha256": "4e8f7fdd51fda66b8dfc27857b4d7d565cee03158ee6a99434bc4a68fab5d56a",
+              "snippet_sha256": "7f255eb60270d6e4ca34f64d55ab4df2518fc7010e282d87fce81b4e43f72f28",
+              "verified_at": "2026-11-08T01:49:46.489515+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mốc thời gian cụ thể của kết quả kiểm nghiệm mẫu thịt lợn và quá trình xử lý hành chính của chính quyền địa phương. Đồng thời, văn bản tổng hợp đầy đủ phản ứng từ phía phụ huynh và giải thích từ nhà cung cấp để độc giả nắm bắt toàn diện sự việc.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T01:49:46.490434+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "150"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T01:50:04.980362+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 313,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1433,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/giao-duc/vu-thit-bo-nhun-nghi-do-lon-bi-stress-khi-nao-co-ket-qua-xet-nghiem-20261107213846581.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 08:50"
+    },
+    "published_at": "2026-11-08T01:50:04.980362+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "em-nhac-green-concert-khuay-ong-ngay-hoi-viet-nam-xanh-2026-07fe8595",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T01:49:36.805447+00:00",
+    "expires_at": "2026-11-09T01:49:36.805447+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+      "https://thanhnien.vn/thanh-thuy-ha-truc-linh-do-sac-khuay-dong-tham-do-hoa-hau-viet-nam-2026-18526110719592263.htm",
+      "https://dantri.com.vn/the-thao/tuyen-viet-nam-on-dinh-bong-da-dong-nam-a-bien-dong-vi-asian-cup-20261107150416163.htm"
+    ],
+    "article": {
+      "id": "em-nhac-green-concert-khuay-ong-ngay-hoi-viet-nam-xanh-2026-07fe8595",
+      "title": "Đêm nhạc Green Concert khuấy động Ngày hội Việt Nam Xanh 2026",
+      "summary": "Đêm nhạc Green Concert trong khuôn khổ Ngày hội Việt Nam Xanh 2026 tại TP.HCM đã thu hút đông đảo khán giả với các màn trình diễn sôi động từ Negav, Quốc Đại, Dương Quốc Hưng cùng thông điệp bảo vệ môi trường ý nghĩa.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+      "published_at": "2026-11-07T14:26:00+00:00",
+      "fetched_at": "2026-11-08T01:49:52.037517+00:00",
+      "appnho_published_at": "2026-11-08T01:50:04.980362+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 7-11, đêm nhạc Green Concert diễn ra trong khuôn khổ Ngày hội Việt Nam Xanh 2026 tại công viên Phan Đình Phùng, TP.HCM, thu hút sự quan tâm lớn của đông đảo khán giả trẻ từ rất sớm.",
+        "Ngay từ 16h, nhiều người đã có mặt để xếp hàng, giữ chỗ và tham gia các hoạt động minigame với loạt phần quà hấp dẫn như xe điện VinFast trị giá 43 triệu đồng cùng nhiều sản phẩm trải nghiệm khác.",
+        "Chương trình mở đầu bằng ca khúc Hành trình của lá, mang đến thông điệp về vòng đời tự nhiên và giá trị của hệ sinh thái, gắn liền với tinh thần phát triển bền vững của ngày hội.",
+        "Hoa hậu Lê Nguyễn Bảo Ngọc xuất hiện và dẫn dắt phần giao lưu, chia sẻ về những câu chuyện biến đổi khí hậu tại các quốc đảo như Fiji, Tuvalu cũng như thực trạng tại Việt Nam, qua đó nhấn mạnh tầm quan trọng của chuyển đổi xanh.",
+        "Không khí sự kiện càng thêm phần bùng nổ với các tiết mục âm nhạc đặc sắc từ dàn nghệ sĩ tên tuổi. Ca sĩ Quốc Đại mở màn phần biểu diễn với tà áo dài xanh qua các bài hát quen thuộc, đồng thời xuống sân khấu giao lưu trực tiếp với khu vực fanzone.",
+        "Tiếp nối bầu không khí hào hùng và trẻ trung là sự góp mặt của ca sĩ Dương Quốc Hưng cùng loạt giai điệu gắn kết tinh thần tự hào dân tộc, tạo nên một đêm nhạc vừa sôi động vừa giàu ý nghĩa cộng đồng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Đêm nhạc Green Concert Ngày hội Việt Nam Xanh 2026 sôi động tại TP.HCM",
+      "meta_description": "Khám phá không khí bùng nổ của đêm nhạc Green Concert tại Ngày hội Việt Nam Xanh 2026 với sự góp mặt của Negav, Quốc Đại, Dương Quốc Hưng và Hoa hậu Bảo Ngọc.",
+      "keywords": [
+        "Green Concert",
+        "Ngày hội Việt Nam Xanh 2026",
+        "Negav",
+        "Quốc Đại",
+        "Bảo Ngọc"
+      ],
+      "slug": "em-nhac-green-concert-khuay-ong-ngay-hoi-viet-nam-xanh-2026-07fe8595",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 271,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+        "https://thanhnien.vn/thanh-thuy-ha-truc-linh-do-sac-khuay-dong-tham-do-hoa-hau-viet-nam-2026-18526110719592263.htm",
+        "https://dantri.com.vn/the-thao/tuyen-viet-nam-on-dinh-bong-da-dong-nam-a-bien-dong-vi-asian-cup-20261107150416163.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/thanh-thuy-ha-truc-linh-do-sac-khuay-dong-tham-do-hoa-hau-viet-nam-2026-18526110719592263.htm",
+        "https://dantri.com.vn/the-thao/tuyen-viet-nam-on-dinh-bong-da-dong-nam-a-bien-dong-vi-asian-cup-20261107150416163.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:26:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/thanh-thuy-ha-truc-linh-do-sac-khuay-dong-tham-do-hoa-hau-viet-nam-2026-18526110719592263.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T13:37:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/tuyen-viet-nam-on-dinh-bong-da-dong-nam-a-bien-dong-vi-asian-cup-20261107150416163.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T09:12:06+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đêm nhạc Green Concert diễn ra tối 7-11 trong khuôn khổ Ngày hội Việt Nam Xanh 2026 tại công viên Phan Đình Phùng, TP.HCM.",
+          "source_urls": [
+            "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tối 7-11, đêm nhạc Green Concert trong khuôn khổNgày hội Việt Nam Xanh 2026diễn ra đầy sôi đội, rộn ràng tại công viên Phan Đình Phùng (123 Pasteur, phường Xuân Hòa, TP.HCM).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "snippet": "Tối 7-11, đêm nhạc Green Concert trong khuôn khổNgày hội Việt Nam Xanh 2026diễn ra đầy sôi đội, rộn ràng tại công viên Phan Đình Phùng (123 Pasteur, phường Xuân Hòa, TP.HCM).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "page_sha256": "9789667c42977a4c98dcaebf5ad24ceb2a40b28d5b5092207884858ed6743452",
+              "snippet_sha256": "e34569740c64b38aafbd8ddb698341d21ecb01e74c0e058da793c856df4421c7",
+              "verified_at": "2026-11-08T01:49:52.036623+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phần quà minigame nổi bật trước giờ G có xe điện VinFast trị giá 43 triệu đồng cùng túi mỹ phẩm Cocoon, sữa và nước giải khát.",
+          "source_urls": [
+            "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nổi bật trong số đó là xe điện VinFast trị giá 43 triệu đồng, túi mỹ phẩm Cocoon, sữa, nước giải khát cùng nhiều phần quà trải nghiệm thú vị khác.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "snippet": "Nổi bật trong số đó là xe điện VinFast trị giá 43 triệu đồng, túi mỹ phẩm Cocoon, sữa, nước giải khát cùng nhiều phần quà trải nghiệm thú vị khác.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "page_sha256": "9789667c42977a4c98dcaebf5ad24ceb2a40b28d5b5092207884858ed6743452",
+              "snippet_sha256": "2846b46bbb7263ef2eab034d8cc30587ea301aaa646f0942737828336afec527",
+              "verified_at": "2026-11-08T01:49:52.036623+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hoa hậu Bảo Ngọc giao lưu và chia sẻ về tác động của biến đổi khí hậu đối với các quốc đảo như Fiji, Tuvalu và Việt Nam.",
+          "source_urls": [
+            "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nàng hậu kể về câu chuyện về quốc đảo Fiji, Tuvalu - những nơi đang phải đối mặt với nguy cơ chịu ảnh hưởng nghiêm trọng từ nước biển dâng và biến đổi khí hậu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "snippet": "Nàng hậu kể về câu chuyện về quốc đảo Fiji, Tuvalu - những nơi đang phải đối mặt với nguy cơ chịu ảnh hưởng nghiêm trọng từ nước biển dâng và biến đổi khí hậu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "page_sha256": "9789667c42977a4c98dcaebf5ad24ceb2a40b28d5b5092207884858ed6743452",
+              "snippet_sha256": "cce133f4dc5faac21f7fa274c656ff8fd8b2b7b5a36add01fa4d2e7c5fd83b4e",
+              "verified_at": "2026-11-08T01:49:52.036623+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ca sĩ Quốc Đại biểu diễn các ca khúc về quê hương và di chuyển xuống khu vực fanzone để tương tác với khán giả.",
+          "source_urls": [
+            "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cả hai ca khúc đều nhận được sự hưởng ứng của đông đảo khán giả.Đặc biệt, trong phần trình diễn, ca sĩ Quốc Đại bước xuống sân khấu, di chuyển dọc lối giữa khu vực fanzone và mời khán giả hát cùng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "snippet": "Cả hai ca khúc đều nhận được sự hưởng ứng của đông đảo khán giả.Đặc biệt, trong phần trình diễn, ca sĩ Quốc Đại bước xuống sân khấu, di chuyển dọc lối giữa khu vực fanzone và mời khán giả hát cùng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "page_sha256": "9789667c42977a4c98dcaebf5ad24ceb2a40b28d5b5092207884858ed6743452",
+              "snippet_sha256": "4302f9c6739146c9eb1b741612f79745cc036008ece8ba22a760a0f02e477148",
+              "verified_at": "2026-11-08T01:49:52.036623+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy mô tổ chức và các hoạt động bên lề của đêm nhạc Green Concert trong Ngày hội Việt Nam Xanh 2026. Đồng thời, bài phân tích sự kết hợp giữa các tiết mục nghệ thuật và thông điệp môi trường từ các nghệ sĩ và khách mời.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T01:49:52.037621+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "16",
+        "2026",
+        "43"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T01:50:04.980362+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 271,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1234,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/khan-gia-viet-nam-xanh-gianh-hat-voi-negav-nguyen-phi-hung-qua-chay-100261107210112003.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 08:50"
+    },
+    "published_at": "2026-11-08T01:50:04.980362+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "noah-okafor-toa-sang-giup-leeds-anh-bai-tottenham-ay-kich-tinh-f8964d81",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-08T01:49:36.805447+00:00",
+    "expires_at": "2026-11-09T01:49:36.805447+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
+      "https://www.skysports.com/football/leeds-united-vs-tottenham-hotspur/report/559540"
+    ],
+    "article": {
+      "id": "noah-okafor-toa-sang-giup-leeds-anh-bai-tottenham-ay-kich-tinh-f8964d81",
+      "title": "Noah Okafor tỏa sáng giúp Leeds đánh bại Tottenham đầy kịch tính",
+      "summary": "Bàn thắng muộn của Noah Okafor mang về chiến thắng 1-0 cho Leeds United trước Tottenham Hotspur trong trận đấu tại Ngoại hạng Anh, khép lại chuỗi trận không thắng của chủ nhà và chấm dứt mạch hưng phấn của đối thủ.",
+      "category": "sports",
+      "source_name": "BBC Sport - Football",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T14:35:23+00:00",
+      "fetched_at": "2026-11-08T01:50:01.743941+00:00",
+      "appnho_published_at": "2026-11-08T01:50:04.980362+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu tại sân vận động Elland Road chứng kiến màn so tài căng thẳng giữa Leeds United và Tottenham Hotspur trong khuôn khổ giải Ngoại hạng Anh. Chủ nhà Leeds bước vào cuộc đọ sức sau chuỗi trận chuệnh choạng, buộc huấn luyện viên Daniel Farke phải thực hiện những điều chỉnh chiến thuật quan trọng nhằm tìm lại sự ổn định. Phía bên kia chiến tuyến, Tottenham hướng tới mục tiêu giành chiến thắng thứ tư liên tiếp tại giải đấu để duy trì phong độ thăng hoa gần đây.",
+        "Hiệp một diễn ra chặt chẽ khi hai đội chơi thận trọng và không tạo ra nhiều cơ hội rõ rệt. Tình huống đáng chú ý nhất trước giờ nghỉ là pha phạm lỗi của hậu vệ Jayden Bogle bên phía Leeds nhắm vào gân kheo của Mathys Tel bên phía Tottenham. Sau quá trình xem xét kéo dài qua công nghệ video hỗ trợ trọng tài VAR, trọng tài quyết định không rút thẻ đỏ trực tiếp, giúp Bogle tiếp tục thi đấu trong sự phản ứng từ ban huấn luyện đội khách. Chấn thương từ pha bóng này cũng khiến Mathys Tel không thể tiếp tục thi đấu và phải rời sân nhường chỗ cho Dominic Solanke.",
+        "Bước sang hiệp hai, nhịp độ trận đấu được đẩy lên cao với hàng loạt pha hãm thành từ cả hai phía. Leeds United gia tăng sức ép và tạo ra các tình huống sóng gió trước khung thành đối phương, trong đó có cơ hội mười mươi từ cú dứt điểm đưa bóng đi vọt xà ngang của Ao Tanaka sau đường kiến tạo của Dominic Calvert-Lewin. Dù thủ Đội khách nỗ lực vùng lên trong những phút cuối trận và suýt có bàn gỡ hòa từ cú dứt điểm hiểm hóc của Jan Paul van Hecke bị thủ môn James Trafford cản phá, hàng thủ chủ nhà vẫn đứng vững.",
+        "Bước ngoặt của trận đấu đến ở phút thứ 79 khi huấn luyện viên Daniel Farke tung Noah Okafor vào sân thay Lukas Nmecha. Chỉ vỏn vẹn hai phút sau khi góp mặt trên sân, tiền đạo này đã tận dụng cơ hội từ đường chuyền của người đồng đội cũng mới vào sân thay người Harry Wilson để dứt điểm chuẩn xác, ấn định chiến thắng 1-0 cho đội chủ nhà. Thắng lợi này đưa Leeds vượt qua chính Tottenham trên bảng xếp hạng, đồng thời đẩy đội khách xuống vị trí thấp hơn sau những nỗ lực không thành ở giai đoạn cuối trận."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Leeds United 1-0 Tottenham: Noah Okafor ghi bàn quyết định",
+      "meta_description": "Cập nhật diễn biến trận Leeds United đối đầu Tottenham Hotspur với bàn thắng duy nhất của Noah Okafor và tình huống tranh cãi xoay quanh thẻ đỏ.",
+      "keywords": [
+        "Leeds United",
+        "Tottenham Hotspur",
+        "Noah Okafor",
+        "Ngoại hạng Anh",
+        "Jayden Bogle"
+      ],
+      "slug": "noah-okafor-toa-sang-giup-leeds-anh-bai-tottenham-ay-kich-tinh-f8964d81",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 429,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
+        "https://www.skysports.com/football/leeds-united-vs-tottenham-hotspur/report/559540"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
+        "https://www.skysports.com/football/leeds-united-vs-tottenham-hotspur/report/559540"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:35:23+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:34:21+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/leeds-united-vs-tottenham-hotspur/report/559540",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T14:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Noah Okafor ghi bàn thắng muộn mang lại chiến thắng cho Leeds United trước Tottenham tại Elland Road.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Leeds UnitedendedSpurs' mini-revival with a late goal from Noah Okafor giving them victory at Elland Road.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Leeds UnitedendedSpurs' mini-revival with a late goal from Noah Okafor giving them victory at Elland Road.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "0b0c6cd0a787482a344b51c99620dfcc824870106765ad40c407499f2db58da5",
+              "snippet_sha256": "8c0e5d153873179158eb34c9b8534df29c16168472bf795d6dbfc9753f8cfd66",
+              "verified_at": "2026-11-08T01:50:01.743134+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jayden Bogle thoát thẻ đỏ sau pha vào bóng với Mathys Tel trong hiệp một.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Mathys Tel:One or two lively moments but unable to continue after Jayden Bogle's poor first-half challenge.5",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Mathys Tel:One or two lively moments but unable to continue after Jayden Bogle's poor first-half challenge.5",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "0b0c6cd0a787482a344b51c99620dfcc824870106765ad40c407499f2db58da5",
+              "snippet_sha256": "af3ede3a35cd909204c834554c2c1a1b283050207099011ec179125297230227",
+              "verified_at": "2026-11-08T01:50:01.743134+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ môn James Trafford thực hiện pha cứu thua quan trọng trước cú dứt điểm của Jan Paul van Hecke ở những phút cuối.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Jan Paul van Hecke:One of his best games forSpurs.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Jan Paul van Hecke:One of his best games forSpurs.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "0b0c6cd0a787482a344b51c99620dfcc824870106765ad40c407499f2db58da5",
+              "snippet_sha256": "17304c29e9b74bf48d5c9af232d8ea33ad4b0aa8d4d52dd196091a21ba742ebf",
+              "verified_at": "2026-11-08T01:50:01.743134+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt chiến thuật của huấn luyện viên Daniel Farke và phân tích tình huống VAR gây tranh cãi liên quan đến pha phạm lỗi của Jayden Bogle. Bối cảnh phong độ trước trận và tác động trực tiếp của các quyền thay người trong hiệp hai cũng được hệ thống hóa đầy đủ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T01:50:01.744081+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "79"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-08T01:50:04.980362+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 429,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2047,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-08 08:50"
+    },
+    "published_at": "2026-11-08T01:50:04.980362+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
