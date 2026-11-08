@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "1eb50544abfb706511c2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T15:38:35.168850+00:00",
     "expires_at": "2026-11-11T15:36:38.303366+00:00",
     "category_hint": "vietnam",
@@ -955,11 +955,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T15:38:35.168873+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "oi-tuyen-viet-nam-hoi-quan-voi-luc-luong-moi-hlv-kim-sang-sik-truc-tiep--ae4007b3"
   },
   {
     "queue_id": "29f96ec2eb879ea7b8eb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T15:38:29.531108+00:00",
     "expires_at": "2026-11-11T15:36:38.303366+00:00",
     "category_hint": "technology",
@@ -1563,11 +1564,12 @@
       ]
     },
     "research_ready_at": "2026-11-08T15:38:29.531130+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thi-truong-ien-thoai-an-toan-cho-tre-em-khi-phu-huynh-tim-kiem-giai-phap-850be895"
   },
   {
     "queue_id": "0416368a99d7070c4905",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-08T15:38:28.929867+00:00",
     "expires_at": "2026-11-11T15:36:38.303366+00:00",
     "category_hint": "technology",
@@ -2146,7 +2148,8 @@
       ]
     },
     "research_ready_at": "2026-11-08T15:38:28.929886+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f"
   },
   {
     "queue_id": "db8c03fdadd4ed87ee57",
@@ -65510,5 +65513,628 @@
     ],
     "research_ready_at": "2026-11-03T08:25:22.340854+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+  },
+  {
+    "queue_id": "oi-tuyen-viet-nam-hoi-quan-voi-luc-luong-moi-hlv-kim-sang-sik-truc-tiep--ae4007b3",
+    "status": "READY",
+    "prepared_at": "2026-11-08T15:38:52.071984+00:00",
+    "expires_at": "2026-11-09T15:38:52.071984+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+      "https://dantri.com.vn/o-to-xe-may/honda-chot-ra-mat-suv-7-cho-moi-tai-dong-nam-a-vao-thang-sau-20261108110056845.htm"
+    ],
+    "article": {
+      "id": "oi-tuyen-viet-nam-hoi-quan-voi-luc-luong-moi-hlv-kim-sang-sik-truc-tiep--ae4007b3",
+      "title": "Đội tuyển Việt Nam hội quân với lực lượng mới, HLV Kim Sang-sik trực tiếp thị phạm tân binh",
+      "summary": "Trong buổi tập đầu tiên của đợt hội quân tháng 11.2026, HLV trưởng Kim Sang-sik dành nhiều thời gian hướng dẫn các gương mặt mới như Olaha Mạnh Đức và Quang Vinh, chuẩn bị cho các trận giao hữu sắp tới.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+      "published_at": "2026-11-08T13:40:00+00:00",
+      "fetched_at": "2026-11-08T15:38:55.772478+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội tuyển Việt Nam chính thức bắt đầu đợt tập trung trong khuôn khổ FIFA Days tháng 11 từ ngày 8.11, ghi nhận sự xuất hiện của nhiều gương mặt mới và các nhân tố U.23 được chọn lọc từ V-League.",
+        "Tại buổi tập đầu tiên diễn ra cùng ngày, ban huấn luyện chủ yếu áp dụng các bài tập cường độ nhẹ nhàng, thả lỏng để giúp cầu thủ lấy lại cảm giác bóng sau lịch thi đấu V-League.",
+        "Dù vậy, HLV Kim Sang-sik vẫn dành sự chú ý lớn cho nhóm cầu thủ tân binh. Nhà cầm quân người Hàn Quốc trực tiếp trao đổi và hướng dẫn chi tiết cách di chuyển, phối hợp cũng như tư duy vị trí khi triển khai bóng.",
+        "Trong đó, cầu thủ Olaha Mạnh Đức được nhà cầm quân trực tiếp thị phạm khá kỹ ở các nội dung tổ chức tấn công. Tiền vệ trẻ Quang Vinh, người đang thi đấu nổi bật tại V-League trong màu áo SLNA, cũng nhận được sự quan tâm đặc biệt.",
+        "Những chỉ dẫn trực tiếp này nhằm giúp các nhân tố mới nhanh chóng nắm bắt ý đồ chiến thuật, rút ngắn thời gian hòa nhập trước hai trận đấu giao hữu sắp tới với Đài Loan và Kyrgyzstan."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Đội tuyển Việt Nam hội quân: HLV Kim Sang-sik thị phạm các tân binh",
+      "meta_description": "Đội tuyển Việt Nam bắt đầu đợt tập trung tháng 11.2026 với nhiều nhân tố mới. HLV Kim Sang-sik trực tiếp hướng dẫn chiến thuật cho các cầu thủ trẻ.",
+      "keywords": [
+        "đội tuyển Việt Nam",
+        "Kim Sang-sik",
+        "Olaha Mạnh Đức",
+        "Quang Vinh",
+        "bóng đá Việt Nam"
+      ],
+      "slug": "oi-tuyen-viet-nam-hoi-quan-voi-luc-luong-moi-hlv-kim-sang-sik-truc-tiep--ae4007b3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 216,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+        "https://dantri.com.vn/o-to-xe-may/honda-chot-ra-mat-suv-7-cho-moi-tai-dong-nam-a-vao-thang-sau-20261108110056845.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/o-to-xe-may/honda-chot-ra-mat-suv-7-cho-moi-tai-dong-nam-a-vao-thang-sau-20261108110056845.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T13:40:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/o-to-xe-may/honda-chot-ra-mat-suv-7-cho-moi-tai-dong-nam-a-vao-thang-sau-20261108110056845.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T07:40:25+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội tuyển Việt Nam hội quân và tập luyện buổi đầu vào ngày 8.11 tại Trung tâm đào tạo bóng đá trẻ Việt Nam ở Hà Nội.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hôm nay (8.11),đội tuyển Việt Namđã hội quân và tập luyện buổi đầu tại Trung tâm đào tạo bóng đá trẻ Việt Nam (Hà Nội).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "snippet": "Hôm nay (8.11),đội tuyển Việt Namđã hội quân và tập luyện buổi đầu tại Trung tâm đào tạo bóng đá trẻ Việt Nam (Hà Nội).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "page_sha256": "46b7101486b5f86ddbb1b8a76433fe2a2745dc7e95459d6a4da3d46470cfecff",
+              "snippet_sha256": "b08f501b086f80595f1e6b84fd86f0fe046a562f017f47b494ee57a773c1b228",
+              "verified_at": "2026-11-08T15:38:55.771734+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HLV Kim Sang-sik trực tiếp hướng dẫn các gương mặt mới, trong đó Olaha Mạnh Đức được thị phạm kỹ về nội dung tổ chức tấn công.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Olaha Mạnh Đức được hướng dẫn khá kỹ, đặc biệt ở các nội dung liên quan đến tổ chức tấn công.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "snippet": "Olaha Mạnh Đức được hướng dẫn khá kỹ, đặc biệt ở các nội dung liên quan đến tổ chức tấn công.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "page_sha256": "46b7101486b5f86ddbb1b8a76433fe2a2745dc7e95459d6a4da3d46470cfecff",
+              "snippet_sha256": "11ff44d7dd5d9f130fead4ea278802cb2d5cd9b914ab68fd2415b9a60a457a7d",
+              "verified_at": "2026-11-08T15:38:55.771734+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tiền vệ trẻ Quang Vinh đang chơi tốt ở V-League với 3 bàn thắng và góp công giúp SLNA đứng trong tốp 3.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anh đang chơi tốt ở V-League với 3 bàn từ đầu giải, góp công lớn giúp SLNA đứng trong tốp 3.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "snippet": "Anh đang chơi tốt ở V-League với 3 bàn từ đầu giải, góp công lớn giúp SLNA đứng trong tốp 3.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "page_sha256": "46b7101486b5f86ddbb1b8a76433fe2a2745dc7e95459d6a4da3d46470cfecff",
+              "snippet_sha256": "017a5e45ad0119e5d1699ecd6772c6f21b9ad79f6e2364cdc967e217fb4df4f4",
+              "verified_at": "2026-11-08T15:38:55.771734+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội tuyển Việt Nam sẽ có các trận giao hữu với Đài Loan vào ngày 11.11 và Kyrgyzstan vào ngày 17.11.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo kế hoạch, đội tuyển Việt Nam tiếp tục tập luyện tại Ninh Bình trong những ngày tới trước khi bước vào hai trận giao hữu với Đài Loan (11.11) và Kyrgyzstan (17.11).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "snippet": "Theo kế hoạch, đội tuyển Việt Nam tiếp tục tập luyện tại Ninh Bình trong những ngày tới trước khi bước vào hai trận giao hữu với Đài Loan (11.11) và Kyrgyzstan (17.11).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-ra-mat-voi-nhan-su-moi-toanh-olaha-manh-duc-duoc-thay-kim-dich-than-thi-pham-185261108202623232.htm",
+              "page_sha256": "46b7101486b5f86ddbb1b8a76433fe2a2745dc7e95459d6a4da3d46470cfecff",
+              "snippet_sha256": "b73f776ad2e925db9a71042cd174867d6217c89e2548a0658fbb382e78458116",
+              "verified_at": "2026-11-08T15:38:55.771734+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quá trình chuẩn bị nhân sự và phương pháp huấn luyện của HLV Kim Sang-sik trong buổi tập đầu tiên của đội tuyển Việt Nam. Nội dung tập trung phân tích cách ban huấn luyện hỗ trợ các tân binh hòa nhập với lối chơi chung.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T15:38:55.772547+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "23"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-08T15:38:55.773505+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 216,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 993
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "thi-truong-ien-thoai-an-toan-cho-tre-em-khi-phu-huynh-tim-kiem-giai-phap-850be895",
+    "status": "READY",
+    "prepared_at": "2026-11-08T15:38:52.071984+00:00",
+    "expires_at": "2026-11-09T15:38:52.071984+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+      "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids",
+      "https://www.theguardian.com/football/2026/nov/03/west-ham-scott-parker-football-daily-newsletter"
+    ],
+    "article": {
+      "id": "thi-truong-ien-thoai-an-toan-cho-tre-em-khi-phu-huynh-tim-kiem-giai-phap-850be895",
+      "title": "Thị trường điện thoại an toàn cho trẻ em: Khi phụ huynh tìm kiếm giải pháp kiểm soát công nghệ",
+      "summary": "Trước những lo ngại về tác động của điện thoại thông minh không kiểm soát, nhiều công ty công nghệ đang tung ra các thiết bị và phần mềm giúp phụ huynh bảo vệ con cái tốt hơn.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+      "published_at": "2026-11-07T19:00:00+00:00",
+      "fetched_at": "2026-11-08T15:39:05.503495+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Khi các bậc phụ huynh ngày càng lo ngại về những mối nguy hiểm tiềm ẩn từ quyền truy cập điện thoại thông minh không giới hạn của trẻ em, một số lượng lớn các công ty đang phát triển các thiết bị được thiết kế riêng cho đối tượng này. Những sản phẩm này thường giữ lại các tính năng cơ bản như màn hình cảm ứng, máy ảnh và khả năng liên lạc, nhưng phần mềm bên trong đã được chỉnh sửa đáng kể để loại bỏ hoặc hạn chế trình duyệt web, mạng xã hội và kho ứng dụng.",
+        "Thông qua ứng dụng đồng hành, phụ huynh có thể quản lý thiết bị bằng cách phê duyệt danh sách liên lạc, theo dõi vị trí, thiết lập giới hạn thời gian sử dụng màn hình và chọn các ứng dụng khả dụng. Một số nhà cung cấp tiêu biểu trên thị trường hiện nay bao gồm Bark Phone với phần mềm giám sát liên tục các tin nhắn, hình ảnh và email để phát hiện dấu hiệu bắt nạt qua mạng hoặc nội dung không lành mạnh. Trong khi đó, các hãng khác như Gabb hay Pinwheel tập trung vào việc loại bỏ hoàn toàn rủi ro trực tuyến hoặc cung cấp chế độ linh hoạt theo từng thời điểm trong ngày như giờ học tập.",
+        "Bên cạnh các dòng điện thoại thông minh tùy chỉnh, thị trường còn ghi nhận sự xuất hiện của các thiết bị tối giản chỉ tập trung vào gọi và nhắn tin, cùng các sản phẩm điện thoại cố định tại nhà dành riêng cho trẻ nhỏ. Mức giá và gói cước dịch vụ của các dòng sản phẩm này rất đa dạng, dao động từ các thiết bị gia đình cơ bản đến các dòng máy tích hợp hệ điều hành riêng biệt như Thrive OS của Teracube. Sự đa dạng này phản ánh nỗ lực của các doanh nghiệp nhằm đáp ứng nhu cầu bảo vệ không gian kỹ thuật số an toàn hơn cho trẻ em."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thị trường điện thoại an toàn cho trẻ em và các giải pháp công nghệ",
+      "meta_description": "Khám phá các thiết bị và giải pháp di động an toàn dành cho trẻ em do các công ty công nghệ phát triển nhằm đáp ứng nhu cầu của phụ huynh.",
+      "keywords": [
+        "điện thoại an toàn cho trẻ",
+        "công nghệ trẻ em",
+        "Bark Phone",
+        "Gabb",
+        "Pinwheel"
+      ],
+      "slug": "thi-truong-ien-thoai-an-toan-cho-tre-em-khi-phu-huynh-tim-kiem-giai-phap-850be895",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 348,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+        "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids",
+        "https://www.theguardian.com/football/2026/nov/03/west-ham-scott-parker-football-daily-newsletter"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids",
+        "https://www.theguardian.com/football/2026/nov/03/west-ham-scott-parker-football-daily-newsletter"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T19:00:00+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2308280/google-meta-and-tiktok-are-all-suing-california-to-block-social-media-law-intended-to-help-kids",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T18:58:07+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/03/west-ham-scott-parker-football-daily-newsletter",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T15:55:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nhiều công ty đang phát triển các thiết bị di động dành riêng cho trẻ em nhằm đáp ứng nhu cầu kiểm soát của phụ huynh.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The phonecosts $99.99, while service starts at $7.99 per month.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "snippet": "The phonecosts $99.99, while service starts at $7.99 per month.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "page_sha256": "c82a0b2bf4165ef3eaba3f30cb9ba90863fe7274f6f5b1dc83464e4bc15c8712",
+              "snippet_sha256": "c760cbcd556d332bbe0c3b018d81ef4805ee38c88a3d251474d15e2e23f29577",
+              "verified_at": "2026-11-08T15:39:05.502891+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Điện thoại dành cho trẻ em thường được chỉnh sửa phần mềm để hạn chế hoặc loại bỏ trình duyệt web, mạng xã hội và kho ứng dụng.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call"
+          ],
+          "importance": "core",
+          "evidence_snippet": "There are no apps, internet browsing, texting, or social media.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "snippet": "There are no apps, internet browsing, texting, or social media.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "page_sha256": "c82a0b2bf4165ef3eaba3f30cb9ba90863fe7274f6f5b1dc83464e4bc15c8712",
+              "snippet_sha256": "954f52dc990e6617b275dccdd211dd6c51655eb43ae772ab46424fb5fcc0dfce",
+              "verified_at": "2026-11-08T15:39:05.502891+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phụ huynh có thể quản lý thiết bị qua ứng dụng đồng hành để phê duyệt liên lạc, theo dõi vị trí và cài đặt thời gian sử dụng.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The service allows calls only between approved contacts through its Trusted Circle feature, offers scheduled Quiet Hours, provides address-based 911 service, sends emergency alerts when 911 is dialed, and lets parents review call logs through an online portal.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "snippet": "The service allows calls only between approved contacts through its Trusted Circle feature, offers scheduled Quiet Hours, provides address-based 911 service, sends emergency alerts when 911 is dialed, and lets parents review call logs through an online portal.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+              "page_sha256": "c82a0b2bf4165ef3eaba3f30cb9ba90863fe7274f6f5b1dc83464e4bc15c8712",
+              "snippet_sha256": "238697a90ed970cfe77349b477abf6cbe04574444e02ede0b4e5c71d54120fd3",
+              "verified_at": "2026-11-08T15:39:05.502891+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ xu hướng thị trường điện thoại an toàn cho trẻ em, so sánh các mô hình quản lý và giám sát khác nhau giữa các nhà cung cấp lớn như Bark, Gabb và Pinwheel, đồng thời cung cấp bức tranh toàn cảnh về mức chi phí và tính năng kỹ thuật mà phụ huynh có thể cân nhắc.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T15:39:05.503585+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-08T15:39:05.504850+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 348,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1580
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
+    "status": "READY",
+    "prepared_at": "2026-11-08T15:38:52.071984+00:00",
+    "expires_at": "2026-11-09T15:38:52.071984+00:00",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+      "https://www.aljazeera.com/news/2026/11/7/alien-cortical-mice-can-human-brain-cells-grow-inside-animals?traffic_source=rss"
+    ],
+    "article": {
+      "id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
+      "title": "Khoa học gia MIT biến tế bào miễn dịch thành 'thợ săn' ung thư ngay trong cơ thể",
+      "summary": "Các nhà nghiên cứu tại Học viện Công nghệ Massachusetts (MIT) phát triển thành công phương pháp dùng hạt nano để tái lập trình tế bào sát thủ tự nhiên (NK) trực tiếp bên trong cơ thể sinh vật.",
+      "category": "technology",
+      "source_name": "ScienceDaily - All",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+      "published_at": "2026-11-08T10:52:31+00:00",
+      "fetched_at": "2026-11-08T15:39:10.486235+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các nhà khoa học tại Học viện Công nghệ Massachusetts (MIT) vừa phát triển một kỹ thuật mới cho phép biến đổi tế bào miễn dịch trực tiếp bên trong cơ thể, hướng tới việc đơn giản hóa đáng kể các liệu pháp điều trị ung thư và bệnh tự miễn. Nghiên cứu này tập trung vào các tế bào sát thủ tự nhiên (NK), một loại tế bào miễn dịch có khả năng nhận diện và tiêu diệt các tế bào có hại.",
+        "Thay vì trích xuất tế bào từ bệnh nhân để chỉnh sửa trong phòng thí nghiệm như phương pháp CAR-T truyền thống, nhóm nghiên cứu sử dụng các hạt nano làm từ phân tử chất béo để đưa trực tiếp chỉ dẫn di truyền vào tế bào NK. Các chỉ dẫn này được mang bởi phân tử mRNA, ra lệnh cho tế bào sản xuất loại protein chuyên biệt giúp nhận diện và loại bỏ tế bào bệnh.",
+        "Phương pháp này giải quyết được thách thức lớn trong việc sản xuất liệu pháp tế bào, vốn đòi hỏi quy trình phức tạp, tốn kém thời gian và chi phí vận chuyển. Đặc biệt, việc sử dụng tế bào NK giúp tránh tình trạng các tế bào chỉnh sửa tự tấn công lẫn nhau khi điều trị các bệnh lý liên quan đến tế bào T.",
+        "Nghiên cứu do GS Daniel Anderson tại MIT làm tác giả chính và đã được công bố trên tạp chí Nature Biotechnology. Các thí nghiệm ban đầu trên chuột cho thấy phương pháp này có tiềm năng loại bỏ khối u và cải thiện các tình trạng bệnh lý mà không cần qua các bước nuôi cấy ngoài cơ thể phức tạp."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "MIT phát triển phương pháp tái lập trình tế bào miễn dịch trong cơ thể",
+      "meta_description": "Nhóm khoa học gia MIT sử dụng hạt nano mang thông tin di truyền để biến tế bào NK thành công cụ tiêu diệt tế bào ung thư và bệnh tự miễn ngay trong cơ thể.",
+      "keywords": [
+        "Khoa học gia MIT biến tế bào miễn dịch thành 'thợ săn' ung thư ngay trong cơ thể",
+        "Công nghệ",
+        "tin tức công nghệ"
+      ],
+      "slug": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 291,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+        "https://www.aljazeera.com/news/2026/11/7/alien-cortical-mice-can-human-brain-cells-grow-inside-animals?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/7/alien-cortical-mice-can-human-brain-cells-grow-inside-animals?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T10:52:31+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/7/alien-cortical-mice-can-human-brain-cells-grow-inside-animals?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T05:57:25+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các nhà khoa học MIT phát triển phương pháp biến đổi tế bào miễn dịch trực tiếp bên trong cơ thể bằng hạt nano.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261104084015.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The MIT team designed lipid nanoparticles (LNPs) capable of transporting messenger RNA into natural killer cells.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+              "snippet": "The MIT team designed lipid nanoparticles (LNPs) capable of transporting messenger RNA into natural killer cells.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+              "page_sha256": "f7a692dfe2e7042eb71b054262818c4d6dbe0215545760e1db91a02cbe1c632c",
+              "snippet_sha256": "1977d761789c560820a99c303ce021dbfa07be92b03a41f6a12affe591e8dc4c",
+              "verified_at": "2026-11-08T15:39:10.485749+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phương pháp tập trung vào tế bào sát thủ tự nhiên (NK) để tiêu diệt tế bào ung thư và tế bào T gây bệnh tự miễn.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261104084015.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "For example, the researchers can provide instructions for a receptor that recognizes CD19, a protein found on B cells, or CD3, a protein present on T cells, including those responsible for autoimmune attacks.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+              "snippet": "For example, the researchers can provide instructions for a receptor that recognizes CD19, a protein found on B cells, or CD3, a protein present on T cells, including those responsible for autoimmune attacks.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+              "page_sha256": "f7a692dfe2e7042eb71b054262818c4d6dbe0215545760e1db91a02cbe1c632c",
+              "snippet_sha256": "a05186a7d569c3c4cf31c9bd7bff96f4d7b8a9c201c4fdd7271d15ee42bd396d",
+              "verified_at": "2026-11-08T15:39:10.485749+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nghiên cứu do Giáo sư Daniel Anderson tại MIT dẫn dắt và được công bố trên tạp chí Nature Biotechnology.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261104084015.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anderson is the senior author of the research, published inNature Biotechnology.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+              "snippet": "Anderson is the senior author of the research, published inNature Biotechnology.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084015.htm",
+              "page_sha256": "f7a692dfe2e7042eb71b054262818c4d6dbe0215545760e1db91a02cbe1c632c",
+              "snippet_sha256": "c99540b1abe12c13c7bcf0a1253e369675cc7ba467d9c35a8c4ecf6a8c830c3b",
+              "verified_at": "2026-11-08T15:39:10.485749+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước đột phá công nghệ biến đổi tế bào miễn dịch trực tiếp trong cơ thể do MIT công bố, đồng thời chỉ rõ ưu điểm vượt trội của tế bào NK so với liệu pháp CAR-T truyền thống trong việc giải quyết các bài toán về chi phí và xung đột tế bào.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-08T15:39:10.486332+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-08T15:39:10.487338+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 291,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1334
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "sciencedaily.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
