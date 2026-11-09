@@ -293,5 +293,14 @@
         "reason": "fact_ledger[2] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-09 20:24",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-09T13:24:38.855932+00:00",
+    "prepared_candidates": 13,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]
