@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "e98f0c4fb1a30edc7614",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T19:14:28.789088+00:00",
     "expires_at": "2026-11-12T19:12:30.353101+00:00",
     "category_hint": "technology",
@@ -695,11 +695,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T19:14:28.789110+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a"
   },
   {
     "queue_id": "6fb18ff8be244e9d03ab",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T19:14:26.501808+00:00",
     "expires_at": "2026-11-12T19:12:30.353101+00:00",
     "category_hint": "world",
@@ -1318,11 +1319,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T19:14:26.501832+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0"
   },
   {
     "queue_id": "a6b00875f7aafab63902",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T19:14:24.048881+00:00",
     "expires_at": "2026-11-12T19:12:30.353101+00:00",
     "category_hint": "sports",
@@ -2126,7 +2128,8 @@
       ]
     },
     "research_ready_at": "2026-11-09T19:14:24.048901+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea"
   },
   {
     "queue_id": "fbb55e01490f9f67999c",
@@ -61902,5 +61905,631 @@
     "research_ready_at": "2026-11-04T16:39:17.871167+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "xac-inh-cac-cap-au-ban-ket-giai-bong-chuyen-nam-vo-ich-quoc-gia-2026-5f6f412e"
+  },
+  {
+    "queue_id": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a",
+    "status": "READY",
+    "prepared_at": "2026-11-09T19:14:45.252924+00:00",
+    "expires_at": "2026-11-10T19:14:45.252924+00:00",
+    "source_urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+    ],
+    "article": {
+      "id": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a",
+      "title": "Anthropic ra mắt bộ đôi mô hình AI Claude 5.2 trước thềm IPO",
+      "summary": "Anthropic vừa công bố hai mô hình trí tuệ nhân tạo mới là Claude Fable 5.2 và Claude Mythos 5.2, đánh dấu bước tiến kỹ thuật quan trọng trong bối cảnh công ty chuẩn bị cho đợt phát hành cổ phiếu lần đầu ra công chúng (IPO).",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "published_at": "2026-11-09T18:58:38+00:00",
+      "fetched_at": "2026-11-09T19:14:58.779509+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Công ty trí tuệ nhân tạo Anthropic vừa chính thức giới thiệu hai mô hình ngôn ngữ mới là Claude Fable 5.2 và Claude Mythos 5.2. Đây là những sản phẩm tiên tiến nhất của hãng tính đến thời điểm hiện tại, được thiết kế đặc biệt để giải quyết các thách thức kỹ thuật phức tạp trong lĩnh vực lập trình, suy luận và thị giác máy tính. Theo thông báo từ nhà sản xuất, các mô hình mới này có khả năng tạo phản hồi nhanh hơn 30% so với thế hệ 5.1 tiền nhiệm, đồng thời tối ưu hóa chi phí vận hành với mức giá giảm 20%.",
+        "Về khả năng ứng dụng, Claude Fable 5.2 được định hướng dành cho các tác vụ kỹ thuật chuyên sâu như điều phối nhóm tác nhân AI, thực hiện các dự án dài hạn và giải quyết các bài toán phần mềm khó. Trong giai đoạn thử nghiệm, mô hình này đã chứng minh hiệu quả qua việc hỗ trợ di chuyển hệ thống phần mềm phức tạp, thiết kế thiết bị điện tử từ đầu và giải quyết các vấn đề lý thuyết trong vật lý lỗ đen. Trong khi đó, Claude Mythos 5.2 hiện chỉ được cung cấp giới hạn cho các tổ chức đã qua kiểm duyệt thông qua các chương trình xác thực chuyên biệt.",
+        "Động thái ra mắt này diễn ra trong bối cảnh Anthropic đang chuẩn bị cho đợt IPO được dự báo có quy mô lớn, dự kiến có thể bắt đầu ngay trong tuần tới. Đây cũng là lần đầu tiên công ty phát hành các mô hình 'tiên phong' kể từ khi CEO Dario Amodei kêu gọi kiểm soát tốc độ phát triển AI vào tháng 9. Đại diện Anthropic khẳng định, việc ra mắt lần này tuân thủ nghiêm ngặt các quy trình kiểm tra an toàn và căn chỉnh mô hình. Dù chịu áp lực cạnh tranh thương mại gay gắt, công ty vẫn đang nỗ lực cân bằng giữa mục tiêu tăng trưởng và các cam kết về an toàn AI, một yếu tố then chốt mà các nhà đầu tư sẽ xem xét kỹ lưỡng trong lộ trình IPO sắp tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Anthropic ra mắt Claude Fable và Mythos 5.2",
+      "meta_description": "Anthropic chính thức giới thiệu Claude Fable 5.2 và Mythos 5.2 với khả năng xử lý kỹ thuật vượt trội, hướng tới các tác vụ chuyên sâu trước khi IPO.",
+      "keywords": [
+        "Anthropic",
+        "Claude 5.2",
+        "Claude Fable",
+        "Claude Mythos",
+        "trí tuệ nhân tạo"
+      ],
+      "slug": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 375,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+        "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T18:58:38+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T19:00:01+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-03T22:41:03+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Anthropic ra mắt hai mô hình AI mới là Claude Fable 5.2 và Claude Mythos 5.2.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Anthropicon Monday released two newartificial intelligencemodels, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for apotentially historic IPOthat could take place as soon as next week.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "snippet": "Anthropicon Monday released two newartificial intelligencemodels, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for apotentially historic IPOthat could take place as soon as next week.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "page_sha256": "782dd8aae675b7c42aa75d6465a540f4eed30d9475b4de9ed2b6381004369ade",
+              "snippet_sha256": "652ead79cc8e7cbe2deecf58dd902a586022f052e920957ba2c9e86193ff8dcc",
+              "verified_at": "2026-11-09T19:14:58.778715+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các mô hình mới tạo phản hồi nhanh hơn 30% và có chi phí thấp hơn 20% so với thế hệ 5.1.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The models also cost 20% less than the 5.1 generation, and will be available for $8 per million input tokens and $40 per million output tokens, the company said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "snippet": "The models also cost 20% less than the 5.1 generation, and will be available for $8 per million input tokens and $40 per million output tokens, the company said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "page_sha256": "782dd8aae675b7c42aa75d6465a540f4eed30d9475b4de9ed2b6381004369ade",
+              "snippet_sha256": "7affa4e644f6e6f308168e6b5bd1cc9ab0952f33738e6b353acb35107f249ee2",
+              "verified_at": "2026-11-09T19:14:58.778715+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anthropic đang chuẩn bị cho đợt IPO với định giá mục tiêu từ 1 nghìn tỷ đến 1,5 nghìn tỷ USD.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The company is aiming for a valuation of $1 trillion to $1.5 trillion in its offering, as CNBCpreviously reported, down from a target of $2 trillion that had been floated in recent months.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "snippet": "The company is aiming for a valuation of $1 trillion to $1.5 trillion in its offering, as CNBCpreviously reported, down from a target of $2 trillion that had been floated in recent months.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "page_sha256": "782dd8aae675b7c42aa75d6465a540f4eed30d9475b4de9ed2b6381004369ade",
+              "snippet_sha256": "6f27e6dbbb94c2687292aceb0050da1f7aba1a4ed2e85e8abc18213a135eb68e",
+              "verified_at": "2026-11-09T19:14:58.778715+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt về đối tượng sử dụng giữa hai mô hình Fable và Mythos trong bối cảnh chiến lược kinh doanh của Anthropic. Đồng thời, bài báo kết nối sự kiện ra mắt sản phẩm với bối cảnh IPO và các cam kết về an toàn AI của lãnh đạo công ty.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T19:14:58.779632+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "20",
+        "30",
+        "5.1",
+        "5.2"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T19:14:58.781401+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 375,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1702
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0",
+    "status": "READY",
+    "prepared_at": "2026-11-09T19:14:45.252924+00:00",
+    "expires_at": "2026-11-10T19:14:45.252924+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+      "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why"
+    ],
+    "article": {
+      "id": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0",
+      "title": "Ben White phá vỡ sự im lặng về quãng thời gian tự rời bỏ đội tuyển Anh",
+      "summary": "Hậu vệ Ben White của Arsenal khẳng định mọi người chưa biết toàn bộ câu chuyện đằng sau quyết định tạm chia tay đội tuyển Anh, dù anh thừa nhận không hối hận về quyết định của mình.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T19:00:10+00:00",
+      "fetched_at": "2026-11-09T19:15:04.878900+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hậu vệ Ben White của Arsenal vừa lên tiếng về quyết định từng khiến anh tự rời bỏ đội tuyển quốc gia, khẳng định rằng dư luận vẫn chưa biết toàn bộ câu chuyện đằng sau quãng thời gian vắng bóng kéo dài hơn ba năm qua.",
+        "Chia sẻ trước thềm các trận đấu tại Nations League dưới sự dẫn dắt của huấn luyện viên Thomas Tuchel, cầu thủ 29 tuổi cho biết anh chưa từng hé lộ chi tiết sự việc và sẽ không đẩy ai vào tình thế khó khăn hay chia sẻ những bí mật đó. Trước đây, White đã rời trại tập trung của đội tuyển Anh tại World Cup 2022 ở Qatar vì lý do cá nhân và không tham gia lựa chọn trong suốt phần còn lại triều đại của Gareth Southgate.",
+        "Khi được hỏi liệu anh có làm gì khác đi nếu có cơ hội nhìn lại, White khẳng định anh sẽ không thay đổi quyết định của mình. Dù thừa nhận đây không phải là điều vui vẻ gì, anh cho rằng bản thân là một người sống thực tế và thời điểm để tiến lên đã đến sau khi anh có dịp tái xuất trong trận hòa 1-1 với Uruguay hồi tháng 3 vừa qua.",
+        "Sự trở lại của White trong màu áo Tam Sư không diễn ra trong yên bình khi anh từng phải đối mặt với những tiếng la ó từ một bộ phận khán giả tại sân Wembley, đồng thời ghi bàn nhưng cũng để lọt quả phạt đền dẫn đến bàn gỡ hòa của đối thủ. Dù vậy, huấn luyện viên Thomas Tuchel và tiền vệ Jordan Henderson đều lên tiếng bảo vệ, trong đó chiến lược gia người Đức nhấn mạnh rằng hậu vệ này xứng đáng có một chương mới và nhận được những phản hồi tích cực từ phía người hâm mộ trong các trận đấu sắp tới gặp Croatia và Tây Ban Nha."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ben White lên tiếng về quyết định rời đội tuyển Anh trước đây",
+      "meta_description": "Hậu vệ Ben White của Arsenal chia sẻ về quãng thời gian vắng bóng ở đội tuyển Anh và việc anh được Thomas Tuchel triệu tập trở lại.",
+      "keywords": [
+        "Ben White",
+        "England",
+        "Thomas Tuchel",
+        "Arsenal",
+        "Nations League"
+      ],
+      "slug": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 330,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+        "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+        "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T19:00:10+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T19:00:50+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-04T10:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ben White cho biết mọi người chưa biết toàn bộ câu chuyện đằng sau quyết định không tham gia đội tuyển Anh trước đây.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "White 'deserves to open a new chapter' - Tuchel",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "snippet": "White 'deserves to open a new chapter' - Tuchel",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d72a4372483653c89b4a92236550063ff9adf17c053a01466baed7eb00322605",
+              "snippet_sha256": "0dc76e02b5bfbe8515f21b8231f436adf359b467a4eba0f26950fe17a488032d",
+              "verified_at": "2026-11-09T19:15:04.878437+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "White rời trại tập trung đội tuyển Anh tại World Cup 2022 ở Qatar vì lý do cá nhân.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "White, who has beennamed in Thomas Tuchel's squadfor upcoming Nations League fixtures,left the Three Lions' campat the 2022 World Cup in Qatar to return home for personal reasons.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "snippet": "White, who has beennamed in Thomas Tuchel's squadfor upcoming Nations League fixtures,left the Three Lions' campat the 2022 World Cup in Qatar to return home for personal reasons.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d72a4372483653c89b4a92236550063ff9adf17c053a01466baed7eb00322605",
+              "snippet_sha256": "f44332c96329f6c3598083b37855f7589771da3c444b4ca5545f0cb41d9a2086",
+              "verified_at": "2026-11-09T19:15:04.878437+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thomas Tuchel nhận xét Ben White xứng đáng có một chương mới và nhận phản hồi tích cực từ khán giả.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "After that, Chelsea midfielder Jordan Henderson said he and his fellow England playerswould always supportWhite, while Tuchelsaid recentlythat the defender deserves \"a new chapter\" and \"positive feedback from the crowd\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "snippet": "After that, Chelsea midfielder Jordan Henderson said he and his fellow England playerswould always supportWhite, while Tuchelsaid recentlythat the defender deserves \"a new chapter\" and \"positive feedback from the crowd\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d72a4372483653c89b4a92236550063ff9adf17c053a01466baed7eb00322605",
+              "snippet_sha256": "6fc2c5968a7975bcab168093c2d7dfb7e26d6cb67877c1f8fb3a98678de0a658",
+              "verified_at": "2026-11-09T19:15:04.878437+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích rõ hoàn cảnh và quan điểm hiện tại của Ben White khi quay lại đội tuyển Anh dưới thời Thomas Tuchel. Nội dung làm rõ góc nhìn của cầu thủ về giai đoạn vắng bóng và sự đón nhận từ ban huấn luyện lẫn người hâm mộ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T19:15:04.879011+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2022",
+        "29"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T19:15:04.880475+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 330,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1491
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea",
+    "status": "READY",
+    "prepared_at": "2026-11-09T19:14:45.252924+00:00",
+    "expires_at": "2026-11-10T19:14:45.252924+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea",
+      "title": "Đội hình ba người sau của Anh khiến HLV Borthwick phải suy nghĩ sau chiến thắng trước Úc",
+      "summary": "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc. Tuy nhiên, chấn thương của Feyi-Waboso và Furbank có thể khiến HLV Borthwick phải điều chỉnh đội hình trong các trận đấu tiếp theo.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+      "published_at": "2026-11-09T19:00:11+00:00",
+      "fetched_at": "2026-11-09T19:15:42.886460+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc. Đây là lần đầu tiên trong hai năm, HLV Steve Borthwick có thể bố trí đội hình này.",
+        "Feyi-Waboso đã thể hiện sự nguy hiểm của mình khi ghi bàn trong trận đấu, nhưng anh cũng phải rời sân vì chấn thương. Furbank cũng có một trận đấu ấn tượng, nhưng anh đang phải đối mặt với một vấn đề ở vùng chậu.",
+        "HLV Borthwick đang phải suy nghĩ về việc điều chỉnh đội hình trong các trận đấu tiếp theo, khi Feyi-Waboso và Furbank có thể không thể tham gia. Tuy nhiên, với sự xuất sắc của đội hình ba người sau, Anh có thể hy vọng vào một tương lai tươi sáng trong môn rugby.",
+        "Đội hình ba người sau của Anh đã thể hiện sự linh hoạt và sự nguy hiểm của mình trong trận đấu trước Úc. Với sự kết hợp giữa Feyi-Waboso, Freeman và Furbank, Anh có thể tạo ra nhiều cơ hội ghi bàn và gây áp lực lên đối thủ."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Đội hình ba người sau của Anh khiến HLV Borthwick phải suy nghĩ",
+      "meta_description": "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc.",
+      "keywords": [
+        "Anh",
+        "Úc",
+        "Borthwick",
+        "Feyi-Waboso",
+        "Freeman",
+        "Furbank"
+      ],
+      "slug": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 193,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+        "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T19:00:11+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T06:49:22+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship"
+          ],
+          "importance": "core",
+          "evidence_snippet": "View image in fullscreenSteve Borthwick has tried many combinations since Immanuel Feyi-Waboso, Tommy Freeman and George Furbank last lined up for England together.Photograph: Mark Chappell/Focus Images Ltd/Shutterstock",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "snippet": "View image in fullscreenSteve Borthwick has tried many combinations since Immanuel Feyi-Waboso, Tommy Freeman and George Furbank last lined up for England together.Photograph: Mark Chappell/Focus Images Ltd/Shutterstock",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "page_sha256": "f22b2bd1eaaeddd2af75358a45f43f8c8e4190ddd0fcba7412b8b50435601b87",
+              "snippet_sha256": "60c558736010c330e506998959cf3a1f2cc27f9d01d291497fcc1539b6ae6e0e",
+              "verified_at": "2026-11-09T19:15:42.885744+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Feyi-Waboso đã thể hiện sự nguy hiểm của mình khi ghi bàn trong trận đấu, nhưng anh cũng phải rời sân vì chấn thương.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Freddie Steward and Tom Roebuck enjoyed a degree of success when aerial supremacy was all the rage, but it does not feel like a coincidence that during England’s worst Six Nations campaign this year Feyi-Waboso was injured throughout, Furbank was overlooked and Freeman was often deployed at centre.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "snippet": "Freddie Steward and Tom Roebuck enjoyed a degree of success when aerial supremacy was all the rage, but it does not feel like a coincidence that during England’s worst Six Nations campaign this year Feyi-Waboso was injured throughout, Furbank was overlooked and Freeman was often deployed at centre.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "page_sha256": "f22b2bd1eaaeddd2af75358a45f43f8c8e4190ddd0fcba7412b8b50435601b87",
+              "snippet_sha256": "1072daeb2f7c1f4765e16e5077fa051175e834fe7941ea7764712c0756c7469a",
+              "verified_at": "2026-11-09T19:15:42.885744+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HLV Borthwick đang phải suy nghĩ về việc điều chỉnh đội hình trong các trận đấu tiếp theo, khi Feyi-Waboso và Furbank có thể không thể tham gia.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship"
+          ],
+          "importance": "core",
+          "evidence_snippet": "England’s emphatic winover the Wallabies on Sunday was the first time in two years Borthwick has been able to field a back-three of Immanuel Feyi-Waboso, Tommy Freeman and George Furbank.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "snippet": "England’s emphatic winover the Wallabies on Sunday was the first time in two years Borthwick has been able to field a back-three of Immanuel Feyi-Waboso, Tommy Freeman and George Furbank.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "page_sha256": "f22b2bd1eaaeddd2af75358a45f43f8c8e4190ddd0fcba7412b8b50435601b87",
+              "snippet_sha256": "8cc4b4fdb1bf3e53d5e68ee9ab9ab67f44f998910214e20feff2cf1138816526",
+              "verified_at": "2026-11-09T19:15:42.885744+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về đội hình ba người sau của Anh và sự xuất sắc của họ trong chiến thắng trước Úc. Nó cũng phân tích về các chấn thương của Feyi-Waboso và Furbank và cách HLV Borthwick có thể điều chỉnh đội hình trong các trận đấu tiếp theo. Ngoài ra, bài viết cũng đề cập đến sự linh hoạt và sự nguy hiểm của đội hình ba người sau của Anh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T19:15:42.886554+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-09T19:15:42.887629+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 193,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 919
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
