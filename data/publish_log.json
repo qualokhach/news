@@ -278,5 +278,20 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-09 08:58",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-09T01:58:02.579388+00:00",
+    "prepared_candidates": 12,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "nvidia-mo-cuoc-ieu-tra-oc-lap-sau-cao-buoc-ceo-jensen-huang-lien-quan-en-f210d58d",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

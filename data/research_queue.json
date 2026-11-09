@@ -2771,7 +2771,7 @@
   },
   {
     "queue_id": "3d0bcba46ce5a421bbb6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T01:16:26.211018+00:00",
     "expires_at": "2026-11-12T01:14:21.028015+00:00",
     "category_hint": "world",
@@ -3609,11 +3609,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T01:16:26.211038+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nvidia-mo-cuoc-ieu-tra-oc-lap-sau-cao-buoc-ceo-jensen-huang-lien-quan-en-f210d58d"
   },
   {
     "queue_id": "7f0f163094112fcbef7a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T01:16:21.910651+00:00",
     "expires_at": "2026-11-12T01:14:21.028015+00:00",
     "category_hint": "world",
@@ -4528,7 +4529,8 @@
       ]
     },
     "research_ready_at": "2026-11-09T01:16:21.910681+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "lanh-ao-ha-vien-my-ung-ho-luan-toi-bo-truong-quoc-phong-pete-hegseth-0db1cdbf"
   },
   {
     "queue_id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
@@ -70550,7 +70552,7 @@
   },
   {
     "queue_id": "tom-brady-gui-thong-iep-ay-cam-xuc-en-nguoi-ham-mo-patriots-trong-ngay-a-5f226d87",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T01:16:58.661211+00:00",
     "expires_at": "2026-11-10T01:16:58.661211+00:00",
     "source_urls": [
@@ -70566,7 +70568,7 @@
       "source_url": "https://www.sportingnews.com/us/nfl/new-england-patriots/news/tom-brady-heartfelt-message-patriots-fans/0785cf577432412db4190993",
       "published_at": "2026-11-09T00:14:35+00:00",
       "fetched_at": "2026-11-09T01:17:03.433457+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T01:58:02.579388+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -70774,27 +70776,37 @@
         "2019"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-09T01:17:03.434306+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T01:58:02.579388+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 282,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1347
-        },
-        "independent_domains": [
-          "skysports.com",
-          "sportingnews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1347,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/nfl/new-england-patriots/news/tom-brady-heartfelt-message-patriots-fans/0785cf577432412db4190993",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "skysports.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-09 08:58"
+    },
+    "published_at": "2026-11-09T01:58:02.579388+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "nhan-dien-6-dau-hieu-canh-bao-tuyen-giap-co-van-e-80e889a4",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T01:16:58.661211+00:00",
     "expires_at": "2026-11-10T01:16:58.661211+00:00",
     "source_urls": [
@@ -70811,7 +70823,7 @@
       "source_url": "https://tuoitre.vn/6-dau-hieu-canh-bao-tuyen-giap-co-van-de-100261108105230728.htm",
       "published_at": "2026-11-09T00:47:00+00:00",
       "fetched_at": "2026-11-09T01:17:09.440166+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T01:58:02.579388+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -70991,28 +71003,38 @@
         "4"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-09T01:17:09.441493+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T01:58:02.579388+00:00",
         "stats": {
           "paragraphs": 6,
           "words": 569,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 2659
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn",
-          "tuoitre.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 2659,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/6-dau-hieu-canh-bao-tuyen-giap-co-van-de-100261108105230728.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-09 08:58"
+    },
+    "published_at": "2026-11-09T01:58:02.579388+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "tong-giam-oc-tpbank-ngan-hang-phai-nang-chuan-quan-tri-e-hut-von-quoc-te-5986d233",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T01:16:58.661211+00:00",
     "expires_at": "2026-11-09T13:16:58.661211+00:00",
     "source_urls": [
@@ -71028,7 +71050,7 @@
       "source_url": "https://tuoitre.vn/tong-giam-doc-tpbank-muon-hut-von-quoc-te-ngan-hang-phai-nang-chuan-quan-tri-100261102103155944.htm",
       "published_at": "2026-11-09T01:00:00+00:00",
       "fetched_at": "2026-11-09T01:17:14.457366+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T01:58:02.579388+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -71187,22 +71209,578 @@
         "2026"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-09T01:17:14.458150+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T01:58:02.579388+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 303,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1371
+          "body_chars": 1371,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/tong-giam-doc-tpbank-muon-hut-von-quoc-te-ngan-hang-phai-nang-chuan-quan-tri-100261102103155944.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-09 08:58"
+    },
+    "published_at": "2026-11-09T01:58:02.579388+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nvidia-mo-cuoc-ieu-tra-oc-lap-sau-cao-buoc-ceo-jensen-huang-lien-quan-en-f210d58d",
+    "status": "HOLD",
+    "prepared_at": "2026-11-09T01:57:49.210871+00:00",
+    "expires_at": "2026-11-10T01:57:49.210871+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
+      "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+      "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+      "https://www.france24.com/en/technology/20261108-nvidia-jensen-huang-chinese-intelligence-probe"
+    ],
+    "article": {
+      "id": "nvidia-mo-cuoc-ieu-tra-oc-lap-sau-cao-buoc-ceo-jensen-huang-lien-quan-en-f210d58d",
+      "title": "Nvidia mở cuộc điều tra độc lập sau cáo buộc CEO Jensen Huang liên quan đến điệp tình báo",
+      "summary": "Hội đồng quản trị Nvidia đã khởi xướng một cuộc điều tra độc lập sau các thông tin cho rằng Tổng giám đốc Jensen Huang có mối quan hệ tình cảm với một nữ doanh nhân Trung Quốc bị tình nghi là điệp viên.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "published_at": "2026-11-08T22:54:50+00:00",
+      "fetched_at": "2026-11-09T01:57:54.561449+00:00",
+      "appnho_published_at": "",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hội đồng quản trị Tập đoàn Nvidia vừa chính thức thông báo khởi xướng một cuộc điều tra độc lập nhằm làm rõ các thông tin xoay quanh Tổng giám đốc Jensen Huang. Động thái này diễn ra sau khi truyền thông đưa tin cho rằng người đứng đầu hãng sản xuất chip trí tuệ nhân tạo hàng đầu thế giới đã trở thành mục tiêu của một chiến dịch tình báo nước ngoài.",
+        "Trong một thư điện tử gửi tới toàn thể nhân viên vào ngày Chủ nhật, ông Jensen Huang đã xác nhận việc có quan hệ tình cảm với bà Alice Huang, một điều hành viên lĩnh vực trí tuệ nhân tạo và cũng là người bị phía tình báo Mỹ cáo buộc thu thập thông tin cho Bắc Kinh. Tổng giám đốc Nvidia thừa nhận sai lầm cá nhân, gửi lời xin lỗi đến gia đình, đồng thời khẳng định hoàn toàn ủng hộ và sẽ hợp tác đầy đủ với cuộc điều tra do hội đồng quản trị tiến hành.",
+        "Mặc dù các cơ quan tình báo và báo chí quốc tế đã phơi bày nhiều chi tiết về mối quan hệ này, ban lãnh đạo Nvidia cho biết cho đến nay vẫn chưa có căn cứ nào cho thấy các bí mật của công ty hay vấn đề an ninh quốc gia của Mỹ bị xâm phạm. Tuy nhiên, trước tầm quan trọng chiến lược của Nvidia trong chuỗi cung ứng công nghệ toàn cầu và các lệnh kiểm soát xuất khẩu ngặt nghèo nhằm hạn chế Trung Quốc tiếp cận chip bán dẫn tiên tiến, cuộc điều tra độc lập được xem là bước đi cần thiết để bảo vệ uy tín doanh nghiệp.",
+        "Vụ việc đã nhanh chóng thu hút sự quan tâm lớn từ giới chức chính trị Mỹ. Một số nghị sĩ đảng Cộng hòa tại Quốc hội đã yêu cầu ông Jensen Huang tham gia các buổi làm việc kín để giải trình về các giao thức an ninh đối phó với gián điệp ngoại kiều. Trong khi đó, Tổng thống Donald Trump tỏ thận trọng khi đề cập đến sự việc, gọi đây là vấn đề phức tạp nhưng vẫn bày tỏ sự tin tưởng đối với năng lực lãnh đạo của ông Huang trong bối cảnh công nghệ Mỹ đang cạnh tranh gay gắt trên trường quốc tế.",
+        "Sự việc diễn ra vào thời điểm nhạy cảm đối với Nvidia, khi hãng vừa trải qua những biến động trên thị trường tài chính và đối mặt với áp lực gia tăng về quản trị doanh nghiệp. Với tư cách là nhà cung cấp chip AI cốt lõi cho phần lớn các hệ thống tính toán trên thế giới, việc duy trì sự minh bạch và ổn định trong bộ máy lãnh đạo đóng vai trò sống còn. Cuộc điều tra hiện vẫn đang tiếp diễn và hội đồng quản trị cam kết sẽ cập nhật thêm thông tin khi có kết luận chính thức."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nvidia điều tra CEO Jensen Huang sau cáo buộc liên quan điệp viên Trun",
+      "meta_description": "Nvidia mở điều tra độc lập sau khi CEO Jensen Huang thừa nhận có quan hệ với một nữ doanh nhân bị nghi là tình báo Trung Quốc, làm dấy lên lo ngại về an ninh qu",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "điệp tình báo Trung Quốc",
+        "an ninh quốc gia",
+        "chíp AI"
+      ],
+      "slug": "nvidia-mo-cuoc-ieu-tra-oc-lap-sau-cao-buoc-ceo-jensen-huang-lien-quan-en-f210d58d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 507,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
+        "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+        "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+        "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+        "https://www.france24.com/en/technology/20261108-nvidia-jensen-huang-chinese-intelligence-probe"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
+        "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+        "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+        "https://www.france24.com/en/technology/20261108-nvidia-jensen-huang-chinese-intelligence-probe"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T23:58:53+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T22:54:50+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T00:25:28+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T00:17:43+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/technology/20261108-nvidia-jensen-huang-chinese-intelligence-probe",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T23:02:54+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nvidia đã khởi xướng một cuộc điều tra độc lập sau các thông tin báo chí về CEO Jensen Huang.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nvidiasaid ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been thetargetof a foreign intelligence effort”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+              "snippet": "Nvidiasaid ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been thetargetof a foreign intelligence effort”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+              "page_sha256": "1337f3fff59b2a23f02a3dda9c422d2bd576cb2a8f1d9dee482d3f2de911d817",
+              "snippet_sha256": "f4c1948d7dfd758a9fc04dbf549091ee28df2c2c89c2f414cb640af0738d09de",
+              "verified_at": "2026-11-09T01:57:54.560655+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jensen Huang đã gửi thư cho nhân viên thừa nhận mối quan hệ và xin lỗi gia đình, đồng thời khẳng định hợp tác với cuộc điều tra.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nov 8There’s no slowing down media’s pivot-to-video 2.0Nov 8Nvidia is investigating Jensen Huang’s relationship with a Chinese spyNov 7Good riddance, Cybertruck!Nov 7Why a new report on Anthropic automating AI development is alarming researchersTwo hours agoSoul Glo’s Diaspora Problems is a hardcore record like no other",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+              "snippet": "Nov 8There’s no slowing down media’s pivot-to-video 2.0Nov 8Nvidia is investigating Jensen Huang’s relationship with a Chinese spyNov 7Good riddance, Cybertruck!Nov 7Why a new report on Anthropic automating AI development is alarming researchersTwo hours agoSoul Glo’s Diaspora Problems is a hardcore record like no other",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+              "page_sha256": "1087ba8c4e77a013ba07fd8db38e6d394796877a7ad9c45535cce37ceea608c1",
+              "snippet_sha256": "c3c978e1017c2ccae885461992129747b29ec118063c90d43e71c768d4624db3",
+              "verified_at": "2026-11-09T01:57:54.560655+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hội đồng quản trị Nvidia tuyên bố chưa có bằng chứng cho thấy bí mật công ty hoặc an ninh quốc gia Mỹ bị xâm phạm.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+              "snippet": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+              "page_sha256": "1337f3fff59b2a23f02a3dda9c422d2bd576cb2a8f1d9dee482d3f2de911d817",
+              "snippet_sha256": "128a4b11832143bb63dca2377f6a573fa01eaf477cdb46efd9fbcfd5ec2d266d",
+              "verified_at": "2026-11-09T01:57:54.560655+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nữ doanh nhân Alice Huang điều hành một công ty có trụ sở tại Singapore từng mua lượng lớn chip Nvidia.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nvidia’s chief executive, Jensen Huang, and his wife, Lori Huang, with Apple's Tim Cook at the top table during a state dinner hosted by Donald Trump for Xi Jinping at the White House in September.Photograph: Brendan Smialowski/AFP/Getty ImagesView image in fullscreenNvidia’s chief executive, Jensen Huang, and his wife, Lori Huang, with Apple's Tim Cook at the top table during a state dinner hosted by Donald Trump for Xi Jinping at the White House in September.Photograph: Brendan Smialowski/AFP/Getty Images",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+              "snippet": "Nvidia’s chief executive, Jensen Huang, and his wife, Lori Huang, with Apple's Tim Cook at the top table during a state dinner hosted by Donald Trump for Xi Jinping at the White House in September.Photograph: Brendan Smialowski/AFP/Getty ImagesView image in fullscreenNvidia’s chief executive, Jensen Huang, and his wife, Lori Huang, with Apple's Tim Cook at the top table during a state dinner hosted by Donald Trump for Xi Jinping at the White House in September.Photograph: Brendan Smialowski/AFP/Getty Images",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+              "page_sha256": "1337f3fff59b2a23f02a3dda9c422d2bd576cb2a8f1d9dee482d3f2de911d817",
+              "snippet_sha256": "9844618efa338fd77b0285d2caf4c723c7e6104f866e9bee25f0c6009e8f1fc9",
+              "verified_at": "2026-11-09T01:57:54.560655+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích sâu sắc phản ứng của hội đồng quản trị Nvidia và giới chức Mỹ trước thông tin CEO Jensen Huang liên quan đến cáo buộc tình báo. Nội dung làm rõ giới hạn ảnh hưởng của vụ việc đối với an ninh quốc gia, đồng thời đặt tình huống này trong bối cảnh cuộc cạnh tranh chiến lược chip bán dẫn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T01:57:54.561558+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-09T01:57:54.563268+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 507,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2284
         },
         "independent_domains": [
-          "thanhnien.vn",
-          "tuoitre.vn"
+          "aljazeera.com",
+          "france24.com",
+          "npr.org",
+          "theguardian.com",
+          "theverge.com"
         ],
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-09T01:58:02.579388+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-09T01:58:02.579388+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 507,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 2284,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "france24.com",
+          "npr.org",
+          "theguardian.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
     }
+  },
+  {
+    "queue_id": "lanh-ao-ha-vien-my-ung-ho-luan-toi-bo-truong-quoc-phong-pete-hegseth-0db1cdbf",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-09T01:57:49.210871+00:00",
+    "expires_at": "2026-11-10T01:57:49.210871+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+      "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump"
+    ],
+    "article": {
+      "id": "lanh-ao-ha-vien-my-ung-ho-luan-toi-bo-truong-quoc-phong-pete-hegseth-0db1cdbf",
+      "title": "Lãnh đạo Hạ viện Mỹ ủng hộ luận tội Bộ trưởng Quốc phòng Pete Hegseth",
+      "summary": "Lãnh đạo Dân chủ tại Hạ viện Mỹ Hakeem Jeffries tuyên bố ủng hộ nghị quyết luận tội Bộ trưởng Quốc phòng Pete Hegseth, trong bối cảnh đảng này chuẩn bị nắm quyền kiểm soát quốc hội và tiến hành hàng loạt cuộc điều tra chính quyền Tổng thống Donald Trump.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+      "published_at": "2026-11-09T00:07:02+00:00",
+      "fetched_at": "2026-11-09T01:58:00.495736+00:00",
+      "appnho_published_at": "2026-11-09T01:58:02.579388+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Lãnh đạo Dân chủ tại Hạ viện Mỹ Hakeem Jeffries vừa lên tiếng ủng hộ tiến trình luận tội Bộ trưởng Quốc phòng Pete Hegseth. Động thái này diễn ra khi đảng Dân chủ chuẩn bị tận dụng thế đa số tại quốc hội trong khóa tới để thực hiện các cuộc điều tra nhằm vào chính quyền của Tổng thống Donald Trump.",
+        "Trong một chương trình truyền hình phát sóng ngày chủ nhật, ông Jeffries khẳng định sự ủng hộ kiên quyết đối với nghị quyết luận tội ông Hegseth do Hạ nghị sĩ Cộng hòa Thomas Massie khởi xướng. Lãnh đạo Dân chủ cáo buộc người đứng đầu Lầu Năm Góc đã lạm quyền, làm suy yếu an ninh quốc gia và thúc đẩy cuộc chiến tại Iran.",
+        "Bên cạnh vấn đề quốc phòng, đảng Dân chủ đang lên kế hoạch triển khai các cuộc điều tra diện rộng trong 100 ngày đầu tiên khi quốc hội mới nhậm chức vào ngày 3 tháng 1. Các nghị sĩ Dân chủ đã nhắm đến nhiều nhân vật thân cận của Tổng thống Trump như Chánh văn phòng Nhà Trắng Stephen Miller và doanh nhân Elon Musk người dẫn dắt cơ quan hiệu suất chính phủ DOGE.",
+        "Ở chiều ngược lại, Nhà Trắng và Bộ Tư pháp Mỹ nhanh chóng đưa ra phản ứng cứng rắn. Tổng Biện lý Todd Blanche tuyên bố chính quyền sẵn sàng đối phó với các nỗ lực luận tội và điều tra từ phía đảng Dân chủ, đồng thời để ngỏ khả năng tiến hành các cuộc điều tra ngược lại đối với các nghị sĩ Dân chủ vì những phát ngôn mang tính đe dọa."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hakeem Jeffries ủng hộ luận tội Bộ trưởng Quốc phòng Pete Hegseth",
+      "meta_description": "Lãnh đạo Dân chủ Hạ viện Mỹ Hakeem Jeffries ủng hộ luận tội Bộ trưởng Quốc phòng Pete Hegseth khi đảng này chuẩn bị kiểm soát quốc hội và điều tra chính quyền.",
+      "keywords": [
+        "Hakeem Jeffries",
+        "Pete Hegseth",
+        "luận tội",
+        "Chính quyền Trump",
+        "Hạ viện Mỹ"
+      ],
+      "slug": "lanh-ao-ha-vien-my-ung-ho-luan-toi-bo-truong-quoc-phong-pete-hegseth-0db1cdbf",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 282,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+        "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T00:07:02+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T09:36:25+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Lãnh đạo Dân chủ tại Hạ viện Hakeem Jeffries ủng hộ việc luận tội Bộ trưởng Quốc phòng Pete Hegseth trong bối cảnh đảng này chuẩn bị nắm quyền kiểm soát quốc hội.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "United States House Minority Leader Hakeem Jeffries has thrown his support behindimpeachingDefense Secretary Pete Hegseth, as the Democratic Party prepares to use its incoming congressional majorities toprobePresident Donald Trump’s administration.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "snippet": "United States House Minority Leader Hakeem Jeffries has thrown his support behindimpeachingDefense Secretary Pete Hegseth, as the Democratic Party prepares to use its incoming congressional majorities toprobePresident Donald Trump’s administration.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "page_sha256": "2284de9211b1bcd914630c418fa9f7e5d9d76a1c0c6f6b6b858760fc129b6dde",
+              "snippet_sha256": "74c424c88f7d510ba97d43f2b9f0e16e17d41f2c478263c836e22826b2ff1d1c",
+              "verified_at": "2026-11-09T01:58:00.495116+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nghị quyết luận tội ông Hegseth do Hạ nghị sĩ Cộng hòa Thomas Massie đứng đầu.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The impeachment resolution has been spearheaded by outgoing Republican Representative Thomas Massie of Kentucky, a vocal critic of the US-Israelwar on Iran.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "snippet": "The impeachment resolution has been spearheaded by outgoing Republican Representative Thomas Massie of Kentucky, a vocal critic of the US-Israelwar on Iran.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "page_sha256": "2284de9211b1bcd914630c418fa9f7e5d9d76a1c0c6f6b6b858760fc129b6dde",
+              "snippet_sha256": "259cab8c17eb608d1b4312ae4646a609f2eb0e42ee1a564a7fef742af951b680",
+              "verified_at": "2026-11-09T01:58:00.495116+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quốc hội mới sẽ chính thức tuyên thệ nhậm chức vào ngày 3 tháng 1 tới.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "“If you work in this administration, you have a lawyer.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "snippet": "“If you work in this administration, you have a lawyer.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "page_sha256": "2284de9211b1bcd914630c418fa9f7e5d9d76a1c0c6f6b6b858760fc129b6dde",
+              "snippet_sha256": "1147bca4bd73562a96b934ff726fb0b69256333c20b12756b0fa2deae736803c",
+              "verified_at": "2026-11-09T01:58:00.495116+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng Biện lý Todd Blanche tuyên bố chính quyền sẵn sàng đối phó và có thể điều tra các nhà lập pháp Dân chủ.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Speaking on CNN’s State of the Union on Sunday,Attorney General Todd Blanchesaid there could be investigations into Democratic lawmakers over their “threatening” rhetoric.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "snippet": "Speaking on CNN’s State of the Union on Sunday,Attorney General Todd Blanchesaid there could be investigations into Democratic lawmakers over their “threatening” rhetoric.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "page_sha256": "2284de9211b1bcd914630c418fa9f7e5d9d76a1c0c6f6b6b858760fc129b6dde",
+              "snippet_sha256": "c0416c5a3baff8f7ee0fa1875630d927c31ab5981f96a8224b8a3f240fd208a8",
+              "verified_at": "2026-11-09T01:58:00.495116+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lập trường của lãnh đạo Dân chủ Hạ viện Hakeem Jeffries đối với nghị quyết luận tội Bộ trưởng Quốc phòng Pete Hegseth. Đồng thời, văn bản thiết lập bối cảnh chính trị rộng hơn khi đảng Dân chủ chuẩn bị nắm quyền kiểm soát quốc hội và đối đầu trực tiếp với các quan chức cấp cao trong chính quyền Trump.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T01:58:00.495817+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-09T01:58:02.579388+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 282,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1317,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-09 08:58"
+    },
+    "published_at": "2026-11-09T01:58:02.579388+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
