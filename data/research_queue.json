@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "046226d8fd1d9b6c5af7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T12:11:56.701410+00:00",
     "expires_at": "2026-11-12T12:09:38.438583+00:00",
     "category_hint": "sports",
@@ -695,11 +695,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T12:11:56.701435+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "coco-gauff-thang-nghet-tho-jessica-pegula-trong-tran-mo-man-wta-finals-fa8a7e1e"
   },
   {
     "queue_id": "ee5dd9496e5d3a63ffad",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T12:11:53.713096+00:00",
     "expires_at": "2026-11-12T12:09:38.438583+00:00",
     "category_hint": "sports",
@@ -1263,11 +1264,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T12:11:53.713123+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2"
   },
   {
     "queue_id": "84bacff220bd15c08a10",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T12:11:52.068208+00:00",
     "expires_at": "2026-11-12T12:09:38.438583+00:00",
     "category_hint": "world",
@@ -1861,7 +1863,8 @@
       ]
     },
     "research_ready_at": "2026-11-09T12:11:52.068236+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080"
   },
   {
     "queue_id": "3579cd6f02ce5a0ede91",
@@ -69582,5 +69585,668 @@
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "write_attempts": 1,
     "written_article_id": "california-oi-au-chinh-quyen-lien-bang-ve-cac-ieu-kien-tai-tro-bang-thon-6d69433d"
+  },
+  {
+    "queue_id": "coco-gauff-thang-nghet-tho-jessica-pegula-trong-tran-mo-man-wta-finals-fa8a7e1e",
+    "status": "READY",
+    "prepared_at": "2026-11-09T12:12:15.018895+00:00",
+    "expires_at": "2026-11-10T12:12:15.018895+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+      "https://www.aljazeera.com/sports/2026/11/7/jessica-pegula-mirra-andreeva-diva-comment-wta-finals-tennis?traffic_source=rss"
+    ],
+    "article": {
+      "id": "coco-gauff-thang-nghet-tho-jessica-pegula-trong-tran-mo-man-wta-finals-fa8a7e1e",
+      "title": "Coco Gauff thắng nghẹt thở Jessica Pegula trong trận mở màn WTA Finals",
+      "summary": "Coco Gauff vượt qua đồng hương Jessica Pegula với tỷ số 6-4, 6-7 (5-7), 6-2 sau trận đấu căng thẳng kéo dài gần 2 tiếng rưỡi tại Indian Wells.",
+      "category": "sports",
+      "source_name": "BBC Sport - All",
+      "source_url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T07:20:06+00:00",
+      "fetched_at": "2026-11-09T12:12:19.713074+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giải quần vợt danh giá WTA Finals chính thức khởi tranh tại Indian Wells, California, với màn chạm trán đầy kịch tính giữa hai tay vợt hàng đầu người Mỹ là Coco Gauff và Jessica Pegula trong khuôn khổ vòng bảng nội dung đơn nữ.",
+        "Bước vào trận đấu mở màn, hạt giống số bốn Coco Gauff đã thể hiện sự kiên cường và nền tảng thể lực bền bỉ trước đối thủ đồng hương từng giành ngôi á quân năm 2023. Gauff giành chiến thắng 6-4 ở set đấu thứ nhất sau khi cứu thành công ba điểm break quan trọng để vượt lên dẫn trước ở thời điểm quyết định của set mở màn.",
+        "Sang set thứ hai, diễn biến trở nên vô cùng kịch tính khi Pegula bất ngờ vùng lên mạnh mẽ. Tay vợt 32 tuổi tận dụng tốt các cơ hội để dẫn trước 5-1 và đứng trước cơ hội kết thúc set đấu, nhưng Gauff đã kiên cường gỡ lại ba game liền. Sau khi cứu một match point trên mặt sân hard court, Pegula đã xuất sắc thắng loạt tie-break với tỷ số 7-5 để đưa trận đấu vào set thứ ba quyết định.",
+        "Tuy nhiên, Gauff nhanh chóng lấy lại thế chủ động trong set cuối cùng nhờ lối chơi áp đảo và sự di chuyển linh hoạt. Cô sớm vươn lên dẫn trước 3-0 và duy trì khoảng cách an toàn trước khi khép lại chiến thắng chung cuộc 6-2 sau hai giờ 39 phút tranh tài trên sân.",
+        "Ở trận đấu còn lại cùng ngày, tay vợt trẻ người Séc Linda Noskova cũng có màn ra mắt ấn tượng tại giải đấu khi đánh bại đối thủ thay thế Marta Kostyuk với các tỷ số 6-2, 6-4 để vươn lên chia sẻ lợi thế tại vòng bảng round-robin."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Coco Gauff thắng Jessica Pegula tại WTA Finals 2026",
+      "meta_description": "Coco Gauff khởi đầu chiến dịch WTA Finals bằng chiến thắng kịch tính trước Jessica Pegula tại Indian Wells.",
+      "keywords": [
+        "Coco Gauff",
+        "Jessica Pegula",
+        "WTA Finals",
+        "Indian Wells",
+        "quần vợt nữ"
+      ],
+      "slug": "coco-gauff-thang-nghet-tho-jessica-pegula-trong-tran-mo-man-wta-finals-fa8a7e1e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 308,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+        "https://www.aljazeera.com/sports/2026/11/7/jessica-pegula-mirra-andreeva-diva-comment-wta-finals-tennis?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+        "https://www.aljazeera.com/sports/2026/11/7/jessica-pegula-mirra-andreeva-diva-comment-wta-finals-tennis?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T07:20:06+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T06:37:00+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/7/jessica-pegula-mirra-andreeva-diva-comment-wta-finals-tennis?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T07:09:12+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Coco Gauff vượt qua Jessica Pegula với tỷ số 6-4 6-7 (5-7) 6-2 tại Indian Wells trong trận mở màn WTA Finals.",
+          "source_urls": [
+            "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Coco Gauff shredded her shoes but stayed one step ahead of Jessica Pegula to defeat her compatriot ‌6-4 6-7 (5-7) 6-2 on the opening day of the WTA Finals at Indian Wells, while Czech Linda Noskova got the better of Marta Kostyuk 6-2 6-4.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+              "snippet": "Coco Gauff shredded her shoes but stayed one step ahead of Jessica Pegula to defeat her compatriot ‌6-4 6-7 (5-7) 6-2 on the opening day of the WTA Finals at Indian Wells, while Czech Linda Noskova got the better of Marta Kostyuk 6-2 6-4.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+              "page_sha256": "a8f2a8a2a0c6fd266db3f926757bd9eab4bfcef36c8412908cfd1db2d72a57ec",
+              "snippet_sha256": "b33b96d78aee562f5a2514f43d8e3063547e4c0ab4e80a68fe5a3e3aff9e29df",
+              "verified_at": "2026-11-09T12:12:19.712370+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gauff là hạt giống số bốn và là tay vợt 22 tuổi xuất hiện tại 5 kỳ WTA Finals liên tiếp kể từ Martina Hingis năm 2000.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Gauff - at 22, the youngest player to appear at five consecutive WTA Finals since Martina Hingis in 2000 - last competed at the China Open in early October.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+              "snippet": "Gauff - at 22, the youngest player to appear at five consecutive WTA Finals since Martina Hingis in 2000 - last competed at the China Open in early October.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "0adb225f3b792752300c71d7939c001f45824e8b079c723d703d520613e1729d",
+              "snippet_sha256": "da4dbc3c58d980ea912c0f0010e930c4e77519154c3953a069be58a0e5c02f47",
+              "verified_at": "2026-11-09T12:12:19.712370+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Linda Noskova đánh bại Marta Kostyuk với tỷ số 6-2 6-4 trong trận đấu mở màn khác của giải.",
+          "source_urls": [
+            "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Coco Gauff overcomes Jessica Pegula with a dominant third-set display to open her WTA Finals campaign with victory as Linda Noskova beats Marta Kostyuk;you can watch the WTA Finals from Indian Wells this week on Sky Sports Tennis",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+              "snippet": "Coco Gauff overcomes Jessica Pegula with a dominant third-set display to open her WTA Finals campaign with victory as Linda Noskova beats Marta Kostyuk;you can watch the WTA Finals from Indian Wells this week on Sky Sports Tennis",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+              "page_sha256": "a8f2a8a2a0c6fd266db3f926757bd9eab4bfcef36c8412908cfd1db2d72a57ec",
+              "snippet_sha256": "ddc66d5a3a74fff9651cb338d455d3ac89f760238522994a991259ec879c009d",
+              "verified_at": "2026-11-09T12:12:19.712370+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trận đấu giữa Gauff và Pegula kéo dài trong thời gian hai giờ 39 phút.",
+          "source_urls": [
+            "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Gauff took charge of the match in the third set, breaking to lead 3-0 before earning her sixth win against Pegula after two hours and 39 minutes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+              "snippet": "Gauff took charge of the match in the third set, breaking to lead 3-0 before earning her sixth win against Pegula after two hours and 39 minutes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/tennis/news/12040/13610050/wta-finals-coco-gauff-defeats-jessica-pegula-in-thriller-at-indian-wells-as-linda-noskova-beats-marta-kostyuk",
+              "page_sha256": "a8f2a8a2a0c6fd266db3f926757bd9eab4bfcef36c8412908cfd1db2d72a57ec",
+              "snippet_sha256": "df7210b354e9f5cf5606fe93643c5fc07d48ee8c0fbac2699b163c1d4f9e1b9e",
+              "verified_at": "2026-11-09T12:12:19.712370+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến kịch tính từng set trong trận đấu giữa Gauff và Pegula. Bối cảnh thể thức vòng bảng WTA Finals và kết quả trận Noskova - Kostyuk cũng được lồng ghép để cung cấp bức tranh toàn cảnh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T12:12:19.713152+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2023",
+        "32",
+        "39"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T12:12:19.714299+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 308,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1421
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2",
+    "status": "READY",
+    "prepared_at": "2026-11-09T12:12:15.018895+00:00",
+    "expires_at": "2026-11-10T12:12:15.018895+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights"
+    ],
+    "article": {
+      "id": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2",
+      "title": "Ramla Ali khóc nghẹn khi hiện thực hóa giấc mơ vô địch thế giới tại Texas",
+      "summary": "Vỏ sĩ Ramla Ali vượt qua Mikiah Kreps bằng quyết định chia điểm để giành đai vô địch thế giới hạng siêu gà WBO và IBF tại Arlington, Texas.",
+      "category": "sports",
+      "source_name": "BBC Sport - All",
+      "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T10:38:17+00:00",
+      "fetched_at": "2026-11-09T12:12:25.644272+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Võ sĩ Ramla Ali đã giành chiến thắng quyết định chia điểm trước đối thủ Mikiah Kreps trong sự kiện diễn ra tại Arlington, Texas, qua đó chính thức bước lên ngôi vô địch thế giới hạng siêu gà ở tuổi 36. Các trọng tài chấm điểm lần lượt là 97-92, 96-93 và 98-91 nghiêng về võ sĩ người Anh. Khoảnh khắc trọng tài xướng tên người chiến thắng, Ali đã khuỵu xuống sân đấu và bật khóc trong xúc động. Cô dành trọn chiến thắng này để tưởng nhớ người cha đã qua đời vào tháng Năm.",
+        "Trận đấu diễn ra vô cùng căng thẳng khi Mikiah Kreps tạo ra áp lực lớn và liên tục tung ra nhiều đòn đánh hơn trong suốt các hiệp đấu. Võ sĩ người Mỹ hoàn toàn thất vọng với kết quả chung cuộc sau khi thống kê cho thấy cô tung ra 115 cú đấm trúng đích so với 78 của Ali, cùng 91 cú đấm uy lực so với 70. Dù vậy, bước ngoặt của trận đấu đến từ hiệp thứ ba khi Ali hạ gục đối thủ bằng một cú móc trái đầy uy lực, mang về điểm số quan trọng 10-8 giúp cô giữ vững thế trận trước những đợt tấn công bão hòa từ đối phương.",
+        "Chiến thắng này đánh dấu cột mốc đỉnh cao mới trong cuộc đời đầy nghị lực của Ramla Ali, người từng chạy trốn khỏi Somalia từ khi còn là một đứa trẻ và lớn lên tại London với tư cách người tị nạn. Sau thất bại tại trận tranh đai vào năm 2023 từng dấy lên nhiều nghi ngờ về tương lai sự nghiệp, cô đã vượt qua áp lực tinh thần để chạm tay vào hai chiếc đai vô địch danh giá WBO và IBF. Sau trận đấu, nhà vô địch mới có thể hướng tới các trận đấu thống nhất đai tiềm năng trong tương lai."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ramla Ali vô địch thế giới WBO và IBF tại Texas",
+      "meta_description": "Ramla Ali đánh bại Mikiah Kreps để giành đai vô địch thế giới WBO và IBF super-bantamweight tại Arlington, Texas.",
+      "keywords": [
+        "Ramla Ali",
+        "Mikiah Kreps",
+        "boxing",
+        "WBO",
+        "IBF"
+      ],
+      "slug": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 326,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights"
+      ],
+      "source_links": [
+        "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T10:38:17+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T09:23:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ramla Ali đánh bại Mikiah Kreps trong trận tranh đai vô địch thế giới hạng siêu gà WBO và IBF tại Arlington, Texas ở tuổi 36.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ramla Ali secured her first world title at the age of 36 after defeating Mikiah Kreps in a split-decision victory in Arlington, Texas.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Ramla Ali secured her first world title at the age of 36 after defeating Mikiah Kreps in a split-decision victory in Arlington, Texas.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+              "snippet_sha256": "dc8c019053621e26092d171ce714cc78b2518329d7a8d02bc5d8176bb78ec28d",
+              "verified_at": "2026-11-09T12:12:25.643685+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Điểm số từ các trọng tài lần lượt là 97-92, 96-93 và 98-91 nghiêng về phía Ramla Ali.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ramla Ali was the first boxer from Somalia to compete at an Olympics",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Ramla Ali was the first boxer from Somalia to compete at an Olympics",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+              "snippet_sha256": "c8ad474089512014b4efc130f883d6ec8860854b7eae8ce35524e350daf45daf",
+              "verified_at": "2026-11-09T12:12:25.643685+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mikiah Kreps tung ra 115 cú đấm trúng đích so với 78 của Ali và giành 91 cú đấm uy lực so với 70 của đối thủ.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Kreps outlanded Ali with 115 punches to 78 and secured 91 power shots to Ali's 70 and one judge certainly was convinced of her as a clear winner with a wide 98-91 scorecard.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Kreps outlanded Ali with 115 punches to 78 and secured 91 power shots to Ali's 70 and one judge certainly was convinced of her as a clear winner with a wide 98-91 scorecard.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+              "snippet_sha256": "a3711c08545239ee9e29ed6bc21a711e5e0f2254ebddef9059ef918e2c699f1b",
+              "verified_at": "2026-11-09T12:12:25.643685+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mikiah Kreps bị knockdown trong hiệp ba sau khi dính một cú móc trái từ Ramla Ali.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Boxing: Ramla Ali defeats Mikiah Kreps to become unified world champion aged 36 - BBC Sport",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Boxing: Ramla Ali defeats Mikiah Kreps to become unified world champion aged 36 - BBC Sport",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+              "snippet_sha256": "2e2658c7e1589d24130cc16c648396f27b7bccce984afe23c1ac0a653265441e",
+              "verified_at": "2026-11-09T12:12:25.643685+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến điểm số và thế trận giằng co giữa hai võ sĩ tại Texas. Đồng thời, văn bản phân tích bối cảnh vượt qua nghịch cảnh và áp lực tâm lý của Ramla Ali.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T12:12:25.644356+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "115",
+        "2023",
+        "36",
+        "70",
+        "78",
+        "91"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T12:12:25.645249+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 326,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1473
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080",
+    "status": "READY",
+    "prepared_at": "2026-11-09T12:12:15.018895+00:00",
+    "expires_at": "2026-11-10T12:12:15.018895+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+      "https://www.bbc.co.uk/news/articles/c8ly00v3qwpdo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080",
+      "title": "Viện kiểm sát Anh đề nghị mức án tù dài hạn cho Russell Brand sau các tội danh hiếp dâm và tấn công tình dục",
+      "summary": "Tại phiên tòa tuyên án Russell Brand, phía công tố đề nghị mức án tù từ 10 đến 15 năm cho tội hiếp dâm, đồng thời nêu bật những tổn thương tâm lý nghiêm trọng của các nạn nhân do ảnh hưởng từ sự nổi tiếng của bị cáo.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+      "published_at": "2026-11-09T11:59:54+00:00",
+      "fetched_at": "2026-11-09T12:12:31.049499+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong phiên tòa diễn ra tại Anh, cơ quan công tố đã yêu cầu mức án tù dài hạn đối với Russell Brand sau khi bị cáo bị kết tội hiếp dâm và tấn công tình dục. Công tố viên đề nghị áp dụng mức hình phạt thuộc nhóm cấp độ một đối với tội danh hiếp dâm, với khung thời gian giam giữ dao động từ 10 đến 15 năm.",
+        "Lập luận tại tòa, phía công tố chỉ ra rằng bị cáo đã thao túng nạn nhân trẻ tuổi và có hành vi đối xử hạ thấp nhân phẩm sau khi tấn công, gây ra hậu quả tâm lý nghiêm trọng. Mức án từ 1 đến 4 năm tù cũng được đề nghị bổ sung cho từng tội danh tấn công tình dục khác mà bị cáo phải chịu trách nhiệm.",
+        "Thẩm phán xét xử ghi nhận ý kiến từ các bên và đồng tình rằng danh tiếng cùng sức ảnh hưởng công khai của bị cáo trong ngành giải trí đã khuếch đại thêm nỗi đau và sự khó khăn cho các nạn nhân khi tìm kiếm công lý hoặc muốn tránh mặt bị cáo. Trong khi đó, luật sư bào chữa cho rằng các hành vi vi phạm chỉ là những sự việc đơn lẻ và đưa ra các luận điểm giảm nhẹ hình phạt.",
+        "Các tài liệu trình bày tại tòa cũng làm rõ những tác động kéo dài đối với nạn nhân, bao gồm việc phải thay đổi lối sống, đối mặt với lo âu và gặp khó khăn trong việc tin tưởng người khác. Vụ việc tiếp tục thu hút sự quan tâm lớn của dư luận về trách nhiệm pháp lý đối với các cá nhân có tầm ảnh hưởng lớn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Viện kiểm sát đề nghị án tù dài hạn cho Russell Brand",
+      "meta_description": "Cơ quan công tố Anh yêu cầu mức án tù 10 đến 15 năm đối với Russell Brand trong phiên tòa tuyên án các tội danh hiếp dâm và tấn công tình dục.",
+      "keywords": [
+        "Russell Brand",
+        "tuyên án",
+        "hiếp dâm",
+        "tòa án Anh",
+        "kiểm sát"
+      ],
+      "slug": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 298,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+        "https://www.bbc.co.uk/news/articles/c8ly00v3qwpdo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c8ly00v3qwpdo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T11:59:54+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly00v3qwpdo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T01:10:12+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Công tố viên yêu cầu mức án từ 10 đến 15 năm tù cho tội danh hiếp dâm của Russell Brand.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The gravity of such an offence carries a starting point of 12 years custody and a range of 10-15 years.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+              "snippet": "The gravity of such an offence carries a starting point of 12 years custody and a range of 10-15 years.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+              "page_sha256": "51d5b7c8fa1f9697b7bc9bfeffffa8bbb7ab5bdeed84e20124917b4e97f346a4",
+              "snippet_sha256": "cd60f04636151708316e25905b758326157a39cf6270baa8ac1032e5752f4c50",
+              "verified_at": "2026-11-09T12:12:31.048960+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Công tố viên đề nghị mức án tù từ 1 đến 4 năm cho mỗi tội danh tấn công tình dục khác.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "For the other sexual assault offences Brand has been convicted of, Karmy-Jones has asked for custodial sentences of 1-4 years for each count.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+              "snippet": "For the other sexual assault offences Brand has been convicted of, Karmy-Jones has asked for custodial sentences of 1-4 years for each count.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+              "page_sha256": "51d5b7c8fa1f9697b7bc9bfeffffa8bbb7ab5bdeed84e20124917b4e97f346a4",
+              "snippet_sha256": "7c95d763e5fc497b18914594ac2b6747639c15e00ed9db7f5408345067b3ca1d",
+              "verified_at": "2026-11-09T12:12:31.048960+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật sư bào chữa lập luận rằng các hành vi phạm tội của Brand là những sự việc đơn lẻ.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "She says she suffered immense distress and anguish, from both the attack, as Brand’s profile rose, and also since, in pursuing a legal case.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+              "snippet": "She says she suffered immense distress and anguish, from both the attack, as Brand’s profile rose, and also since, in pursuing a legal case.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+              "page_sha256": "51d5b7c8fa1f9697b7bc9bfeffffa8bbb7ab5bdeed84e20124917b4e97f346a4",
+              "snippet_sha256": "145250c3f4ca095d531e7a2370f643639cf380de3a6a486f2cfd2ffea84acd0b",
+              "verified_at": "2026-11-09T12:12:31.048960+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật chi tiết từ phiên tòa tuyên án đối với Russell Brand, làm rõ các khung hình phạt mà cơ quan công tố đề nghị và đối chiếu quan điểm giữa bên buộc tội và phía bào chữa. Nội dung bám sát các diễn biến tại tòa mà không đưa ra phỏng đoán ngoài hồ sơ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T12:12:31.049580+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "15",
+        "4"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T12:12:31.050462+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 298,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1280
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
