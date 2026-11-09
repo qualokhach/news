@@ -302,5 +302,25 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-10 03:10",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-09T20:10:34.872304+00:00",
+    "prepared_candidates": 14,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "nvidia-oi-mat-song-gio-sau-quyet-inh-mo-ieu-tra-tong-giam-oc-50c39235",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "apple-tung-goi-mo-rong-dung-luong-ai-gia-50-usd-cho-nguoi-dung-logic-pro-2444e24b",
+        "status": "HOLD",
+        "reason": "fact_ledger[4] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

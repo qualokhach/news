@@ -2133,7 +2133,7 @@
   },
   {
     "queue_id": "fbb55e01490f9f67999c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T19:14:21.564169+00:00",
     "expires_at": "2026-11-12T19:12:30.353101+00:00",
     "category_hint": "world",
@@ -2911,11 +2911,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T19:14:21.564192+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nvidia-oi-mat-song-gio-sau-quyet-inh-mo-ieu-tra-tong-giam-oc-50c39235"
   },
   {
     "queue_id": "8ff20ff5f7ceec77bb00",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-09T19:14:20.118185+00:00",
     "expires_at": "2026-11-12T19:12:30.353101+00:00",
     "category_hint": "technology",
@@ -3519,11 +3520,12 @@
       ]
     },
     "research_ready_at": "2026-11-09T19:14:20.118206+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "apple-tung-goi-mo-rong-dung-luong-ai-gia-50-usd-cho-nguoi-dung-logic-pro-2444e24b"
   },
   {
     "queue_id": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T12:12:15.018895+00:00",
     "expires_at": "2026-11-10T12:12:15.018895+00:00",
     "source_urls": [
@@ -3539,7 +3541,7 @@
       "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T10:38:17+00:00",
       "fetched_at": "2026-11-09T12:12:25.644272+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -3726,23 +3728,33 @@
         "91"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-09T12:12:25.645249+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T20:10:34.872304+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 326,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1473
-        },
-        "independent_domains": [
-          "bbc.com",
-          "skysports.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1473,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 03:10"
+    },
+    "published_at": "2026-11-09T20:10:34.872304+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080",
@@ -61908,7 +61920,7 @@
   },
   {
     "queue_id": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T19:14:45.252924+00:00",
     "expires_at": "2026-11-10T19:14:45.252924+00:00",
     "source_urls": [
@@ -61925,7 +61937,7 @@
       "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
       "published_at": "2026-11-09T18:58:38+00:00",
       "fetched_at": "2026-11-09T19:14:58.779509+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -62104,28 +62116,38 @@
         "5.2"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-09T19:14:58.781401+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T20:10:34.872304+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 375,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1702
-        },
-        "independent_domains": [
-          "cnbc.com",
-          "techcrunch.com",
-          "theverge.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1702,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "techcrunch.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 03:10"
+    },
+    "published_at": "2026-11-09T20:10:34.872304+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T19:14:45.252924+00:00",
     "expires_at": "2026-11-10T19:14:45.252924+00:00",
     "source_urls": [
@@ -62142,7 +62164,7 @@
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T19:00:10+00:00",
       "fetched_at": "2026-11-09T19:15:04.878900+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -62320,28 +62342,38 @@
         "29"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-09T19:15:04.880475+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T20:10:34.872304+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 330,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1491
-        },
-        "independent_domains": [
-          "bbc.com",
-          "theguardian.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1491,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 03:10"
+    },
+    "published_at": "2026-11-09T20:10:34.872304+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-09T19:14:45.252924+00:00",
     "expires_at": "2026-11-10T19:14:45.252924+00:00",
     "source_urls": [
@@ -62357,7 +62389,7 @@
       "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
       "published_at": "2026-11-09T19:00:11+00:00",
       "fetched_at": "2026-11-09T19:15:42.886460+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -62514,22 +62546,590 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-09T19:15:42.887629+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-09T20:10:34.872304+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 193,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 919
+          "body_chars": 919,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-10 03:10"
+    },
+    "published_at": "2026-11-09T20:10:34.872304+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nvidia-oi-mat-song-gio-sau-quyet-inh-mo-ieu-tra-tong-giam-oc-50c39235",
+    "status": "HOLD",
+    "prepared_at": "2026-11-09T20:10:16.934739+00:00",
+    "expires_at": "2026-11-10T20:10:16.934739+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+      "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny",
+      "https://www.france24.com/en/video/20261109-nvidia-in-turmoil-as-china-denies-spying-claims",
+      "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss"
+    ],
+    "article": {
+      "id": "nvidia-oi-mat-song-gio-sau-quyet-inh-mo-ieu-tra-tong-giam-oc-50c39235",
+      "title": "Nvidia đối mặt sóng gió sau quyết định mở điều tra Tổng giám đốc",
+      "summary": "Vốn hóa thị trường của Nvidia sụt giảm hàng trăm tỷ USD sau khi hội đồng quản trị mở cuộc điều tra độc lập về mối quan hệ cá nhân của Tổng giám đốc Jensen Huang.",
+      "category": "technology",
+      "source_name": "The Guardian - Business",
+      "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+      "published_at": "2026-11-09T19:05:30+00:00",
+      "fetched_at": "2026-11-09T20:10:26.258908+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cổ phiếu của Nvidia ghi nhận mức sụt giảm mạnh khi thị trường tài chính Mỹ bước vào tuần giao dịch mới, khiến vốn hóa của hãng công nghệ này bốc hơi hàng trăm tỷ USD. Nguyên nhân xuất phát từ thông tin hội đồng quản trị công ty quyết định khởi động một cuộc điều tra độc lập liên quan đến Tổng giám đốc điều hành Jensen Huang.",
+        "Trước đó, ông Jensen Huang đã công khai thừa nhận có mối quan hệ tình cảm ngoài luồng với Alice Huang, một nữ doanh nhân từng giữ vị trí điều hành tại Megaspeed - đối tác của Nvidia. Theo các tài liệu tình báo, giới chức Mỹ nghi ngờ nữ doanh nhân này là một điệp viên của lực lượng tình báo Trung Quốc nhằm tiếp cận nhà lãnh đạo hãng chip AI hàng đầu thế giới.",
+        "Cuộc điều tra độc lập do hội đồng quản trị tiến hành sẽ tập trung làm rõ liệu Tổng giám đốc Nvidia có trở thành mục tiêu của chiến dịch tình báo nước ngoài hay không. Dù ban lãnh đạo khẳng định chưa có dấu hiệu cho thấy an ninh quốc gia hay các bí mật thương mại bị xâm phạm, sự việc đã lập tức tạo ra sức ép lớn đối với cấu trúc quản trị doanh nghiệp của hãng.",
+        "Nhiều chuyên gia phân tích nhận định vị thế của ông Jensen Huang tại Nvidia có những điểm khác biệt so với các nhà sáng lập tại Thung lũng Silicon. Ông nắm giữ lượng cổ phần phổ thông với tỷ lệ khoảng 3,6% và không có quyền biểu quyết ưu việt, đặt ra câu hỏi về cách hội đồng quản trị giám sát rủi ro cá nhân trong bối cảnh công ty nắm giữ vai trò cốt lõi đối với chuỗi cung ứng trí tuệ nhân tạo toàn cầu.",
+        "Trong khi đó, phía Bắc Kinh đã lên tiếng bác bỏ các cáo buộc gián điệp, gọi đây là những thông tin vô căn cứ nhằm bôi nhọ quốc gia này. Một số nhân vật nổi bật trong giới công nghệ và chính trị Mỹ đã lên tiếng bày tỏ sự ủng hộ đối với ông Jensen Huang, trong khi giới đầu tư tiếp tục theo dõi sát sao kết quả điều tra và tác động dài hạn đối với chiến lược kinh doanh của hãng tại thị trường Trung Quốc."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nvidia lao đao vì cuộc điều tra liên quan đến Tổng giám đốc Jensen Hua",
+      "meta_description": "Cổ phiếu Nvidia sụt giảm mạnh sau khi Tổng giám đốc Jensen Huang thừa nhận mối quan hệ ngoài luồng, kích hoạt cuộc điều tra của hội đồng quản trị.",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "cổ phiếu",
+        "trí tuệ nhân tạo",
+        "thị trường tài chính"
+      ],
+      "slug": "nvidia-oi-mat-song-gio-sau-quyet-inh-mo-ieu-tra-tong-giam-oc-50c39235",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 407,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+        "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny",
+        "https://www.france24.com/en/video/20261109-nvidia-in-turmoil-as-china-denies-spying-claims",
+        "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny",
+        "https://www.france24.com/en/video/20261109-nvidia-in-turmoil-as-china-denies-spying-claims",
+        "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T19:05:30+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T18:09:52+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261109-nvidia-in-turmoil-as-china-denies-spying-claims",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T16:42:03+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T18:11:11+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T16:00:10+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vốn hóa của Nvidia giảm mạnh sau khi công ty thông báo mở cuộc điều tra độc lập.",
+          "source_urls": [
+            "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Was the board aware of US intelligence reports that Ms Huang had been hired by China’s ministry of state security to spy on the Nvidia boss, as reported by the New York Times?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+              "snippet": "Was the board aware of US intelligence reports that Ms Huang had been hired by China’s ministry of state security to spy on the Nvidia boss, as reported by the New York Times?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+              "page_sha256": "ac599cc8fd8e09ec9e8886220399efafe635e7bbb8a6b6be6f57afe744332aeb",
+              "snippet_sha256": "dcccef8776f03157e0d923999f15a31987884c1ac02bcd51eddaf34b390c4829",
+              "verified_at": "2026-11-09T20:10:26.258087+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng giám đốc Jensen Huang thừa nhận có quan hệ ngoài luồng với Alice Huang.",
+          "source_urls": [
+            "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jensen Huang, in the black T-shirt, pictured with Alice Huang in Taipei in May 2025Photograph: CTI/AFPTV/AFP/Getty ImagesView image in fullscreenJensen Huang, in the black T-shirt, pictured with Alice Huang in Taipei in May 2025Photograph: CTI/AFPTV/AFP/Getty ImagesFrom5h ago",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+              "snippet": "Jensen Huang, in the black T-shirt, pictured with Alice Huang in Taipei in May 2025Photograph: CTI/AFPTV/AFP/Getty ImagesView image in fullscreenJensen Huang, in the black T-shirt, pictured with Alice Huang in Taipei in May 2025Photograph: CTI/AFPTV/AFP/Getty ImagesFrom5h ago",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+              "page_sha256": "ac599cc8fd8e09ec9e8886220399efafe635e7bbb8a6b6be6f57afe744332aeb",
+              "snippet_sha256": "371d58590ca02dce83d2f4f801c7eed4c10d0d76aeffd1ab6d65bfe1ab79d993",
+              "verified_at": "2026-11-09T20:10:26.258087+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phía Trung Quốc bác bỏ các cáo buộc gián điệp liên quan đến sự việc.",
+          "source_urls": [
+            "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In the meantime, the defence of Huang from elsewhere has begun.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+              "snippet": "In the meantime, the defence of Huang from elsewhere has begun.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+              "page_sha256": "ac599cc8fd8e09ec9e8886220399efafe635e7bbb8a6b6be6f57afe744332aeb",
+              "snippet_sha256": "f2ca48301f9ef66bab25e4f09bd9e700416a402f282e5cb244ffd1cfa5411c57",
+              "verified_at": "2026-11-09T20:10:26.258087+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích nguyên nhân sụt giảm vốn hóa của Nvidia và phân tích cấu trúc quản trị rủi ro của công ty. Đồng thời, bài làm rõ các phản ứng từ giới chức quốc tế và góc nhìn của thị trường.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T20:10:26.259022+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "3,6"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T20:10:26.260921+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 407,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1855
         },
         "independent_domains": [
+          "aljazeera.com",
           "bbc.com",
+          "france24.com",
+          "techcrunch.com",
           "theguardian.com"
         ],
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-09T20:10:34.872304+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-09T20:10:34.872304+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 407,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1855,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "france24.com",
+          "techcrunch.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "apple-tung-goi-mo-rong-dung-luong-ai-gia-50-usd-cho-nguoi-dung-logic-pro-2444e24b",
+    "status": "HOLD",
+    "prepared_at": "2026-11-09T20:10:16.934739+00:00",
+    "expires_at": "2026-11-10T20:10:16.934739+00:00",
+    "source_urls": [
+      "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "https://www.engadget.com/2305273/apple-products-features-transformed-under-tim-cook-leadership",
+      "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
+    ],
+    "article": {
+      "id": "apple-tung-goi-mo-rong-dung-luong-ai-gia-50-usd-cho-nguoi-dung-logic-pro-2444e24b",
+      "title": "Apple tung gói mở rộng dung lượng AI giá 50 USD cho người dùng Logic Pro",
+      "summary": "Apple bắt đầu thu phí mở rộng cho các tính năng trí tuệ nhân tạo Apple Intelligence với mức giá khoảng 50 USD, mở màn trên ứng dụng Logic Pro.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "published_at": "2026-11-09T19:09:58+00:00",
+      "fetched_at": "2026-11-09T20:10:32.304389+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Apple vừa triển khai tùy chọn mua thêm dung lượng sử dụng mang tên Intelligence Usage Packs với mức giá một lần là 49,99 USD. Thay đổi này nhằm giúp người dùng tiếp tục duy trì quyền truy cập vào một số tính năng trí tuệ nhân tạo sau khi đã vượt qua các giới hạn sử dụng định mức ban đầu.",
+        "Theo thông tin ghi nhận, Logic Pro hiện là ứng dụng đầu tiên của hãng áp dụng hình thức thu phí mở rộng này cho công nghệ Apple Intelligence. Ứng dụng này sở hữu trợ lý AI tích hợp sẵn hỗ trợ người dùng thực hiện các thao tác như bắt đầu bài hát mới, thiết lập bản thu giọng nói từ một câu lệnh đơn giản hoặc tinh chỉnh dự án đang hoạt động. Giới hạn sử dụng trên Logic Pro chịu ảnh hưởng trực tiếp bởi độ phức tạp trong các cuộc trò chuyện giữa người dùng và trợ lý ảo.",
+        "Các gói dung lượng bổ sung này chỉ phục vụ riêng cho Tài khoản Apple đã thực hiện giao dịch mua, đồng nghĩa tính năng Chia sẻ trong gia đình không được hỗ trợ. Về chính sách lưu trữ, Apple cho biết các phần dung lượng chưa sử dụng hết sẽ được chuyển đổi gộp sang tháng tiếp theo, tuy nhiên sẽ hết hạn sau thời hạn mười hai tháng kể từ ngày giao dịch.",
+        "Hiện tại, Logic Pro là nền tảng duy nhất cung cấp tùy chọn mua thêm dung lượng này, nhưng dự kiến sẽ sớm được mở rộng sang các ứng dụng khác trong hệ sinh thái Apple Creator Studio trong tháng này. Các phần mềm tiếp theo có thể bao gồm Pixelmator Pro, Final Cut Pro, Motion cùng với bộ ứng dụng văn phòng gồm Pages, Keynote và Numbers khi những nền tảng này được tích hợp chatbot AI của hãng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Apple ra mắt gói cước Apple Intelligence Usage Packs giá 50 USD",
+      "meta_description": "Apple giới thiệu các gói cước mua thêm dung lượng sử dụng tính năng AI Apple Intelligence, bắt đầu từ ứng dụng Logic Pro với giá 49,99 USD.",
+      "keywords": [
+        "Apple Intelligence",
+        "Logic Pro",
+        "Apple",
+        "AI",
+        "Apple Account"
+      ],
+      "slug": "apple-tung-goi-mo-rong-dung-luong-ai-gia-50-usd-cho-nguoi-dung-logic-pro-2444e24b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 320,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+        "https://www.engadget.com/2305273/apple-products-features-transformed-under-tim-cook-leadership",
+        "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2305273/apple-products-features-transformed-under-tim-cook-leadership",
+        "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T19:09:58+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2305273/apple-products-features-transformed-under-tim-cook-leadership",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T00:15:00+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T01:26:22+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Apple phát hành tùy chọn Mua thêm dung lượng với giá một lần là 49,99 USD để mở rộng quyền truy cập các tính năng Apple Intelligence.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+          ],
+          "importance": "core",
+          "evidence_snippet": "After publishing asupport article in early September outlining usage limitsfor some Apple Intelligence features, the company has updated Logic Pro with an option to “Buy More Usage” for a one-time purchase price of $49.99, asspotted by9to5Mac.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "snippet": "After publishing asupport article in early September outlining usage limitsfor some Apple Intelligence features, the company has updated Logic Pro with an option to “Buy More Usage” for a one-time purchase price of $49.99, asspotted by9to5Mac.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "page_sha256": "744d83a4fd3da6c7cfae0214598b3abcacc8ec2702aea65e11dafe732377673c",
+              "snippet_sha256": "d640b66813a008925c62b5683f73d892f075217511db92629acf2fef49aea594",
+              "verified_at": "2026-11-09T20:10:32.303706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Logic Pro là ứng dụng đầu tiên của Apple áp dụng hình thức thu phí cho việc sử dụng mở rộng Apple Intelligence.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+          ],
+          "importance": "core",
+          "evidence_snippet": "For Logic Pro, Apple says the usage limit is “impacted by the complexity of conversations you have with the assistant.” Users finding themselves running out of access can find the option to buy an Intelligence Usage Pack in the Intelligence Features > Show Usage section of the app’s main menu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "snippet": "For Logic Pro, Apple says the usage limit is “impacted by the complexity of conversations you have with the assistant.” Users finding themselves running out of access can find the option to buy an Intelligence Usage Pack in the Intelligence Features > Show Usage section of the app’s main menu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "page_sha256": "744d83a4fd3da6c7cfae0214598b3abcacc8ec2702aea65e11dafe732377673c",
+              "snippet_sha256": "b7d482a8626fed21a8b19800307c83f4d2cf0d6e8abfe8941e9b0cb890a20235",
+              "verified_at": "2026-11-09T20:10:32.303706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các gói dung lượng bổ sung chỉ có thể được sử dụng bởi Tài khoản Apple đã mua và không hỗ trợ tính năng Chia sẻ trong gia đình.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Apple’s M5 MacBook Air is down to its lowest price since July",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "snippet": "Apple’s M5 MacBook Air is down to its lowest price since July",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "page_sha256": "744d83a4fd3da6c7cfae0214598b3abcacc8ec2702aea65e11dafe732377673c",
+              "snippet_sha256": "64730a1f2684eebbcabfd32624340a9495aa855fc0c987f56eac4b26e91712c6",
+              "verified_at": "2026-11-09T20:10:32.303706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dung lượng chưa sử dụng sẽ được chuyển sang các tháng tiếp theo nhưng sẽ hết hạn sau 12 tháng kể từ ngày mua.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Pomera’s sleek distraction-free writing machine is just too smallInstagram’s AI age detection is expanding globallyThe future of AI hinges on… Jensen Huang’s sex life?Elizabeth LopattoTwo hours agoSony’s new PlayStation Portal handheld includes ‘additional’ internal storageTom WarrenTwo hours agoDisney and Adobe are building generative AI tools togetherJess Weatherbed3:38 PM UTCMedium is launching a new note-taking app called TKDavid Pierce3:04 PM UTCPomera’s sleek distraction-free writing machine is just too smallTerrence O'Brien2:00 PM UTCInstagram’s AI age detection is expanding globallyJess Weatherbed12:00 PM UTCAdvertiser Content From",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "snippet": "Pomera’s sleek distraction-free writing machine is just too smallInstagram’s AI age detection is expanding globallyThe future of AI hinges on… Jensen Huang’s sex life?Elizabeth LopattoTwo hours agoSony’s new PlayStation Portal handheld includes ‘additional’ internal storageTom WarrenTwo hours agoDisney and Adobe are building generative AI tools togetherJess Weatherbed3:38 PM UTCMedium is launching a new note-taking app called TKDavid Pierce3:04 PM UTCPomera’s sleek distraction-free writing machine is just too smallTerrence O'Brien2:00 PM UTCInstagram’s AI age detection is expanding globallyJess Weatherbed12:00 PM UTCAdvertiser Content From",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+              "page_sha256": "744d83a4fd3da6c7cfae0214598b3abcacc8ec2702aea65e11dafe732377673c",
+              "snippet_sha256": "928b62124177a62256b411b73d59f75ea70db3ae1746e7ef6c6d114de92fd687",
+              "verified_at": "2026-11-09T20:10:32.303706+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích chi tiết về quyết định thương mại hóa các tính năng AI của Apple thông qua gói cước bổ sung. Nội dung làm rõ các giới hạn kỹ thuật, điều kiện áp dụng tài khoản và phạm vi triển khai trên các ứng dụng sáng tạo.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-09T20:10:32.304489+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "49,99"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-09T20:10:32.305715+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 320,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1500
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[4] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-09T20:10:34.872304+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-09T20:10:34.872304+00:00",
+      "errors": [
+        "fact_ledger[4] trích đoạn từ theverge.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 320,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1500,
+        "source_access": [
+          {
+            "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]

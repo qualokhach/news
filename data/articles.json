@@ -18586,5 +18586,844 @@
     "quality_version": "1.5",
     "quality_status": "PASS",
     "editorial_value": "Tuyển chọn các bài AppNho News theo thời điểm xuất bản, có phân biệt bài mới và bài nhìn lại."
+  },
+  {
+    "id": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a",
+    "title": "Anthropic ra mắt bộ đôi mô hình AI Claude 5.2 trước thềm IPO",
+    "summary": "Anthropic vừa công bố hai mô hình trí tuệ nhân tạo mới là Claude Fable 5.2 và Claude Mythos 5.2, đánh dấu bước tiến kỹ thuật quan trọng trong bối cảnh công ty chuẩn bị cho đợt phát hành cổ phiếu lần đầu ra công chúng (IPO).",
+    "category": "technology",
+    "source_name": "The Verge - All",
+    "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+    "published_at": "2026-11-09T18:58:38+00:00",
+    "fetched_at": "2026-11-09T19:14:58.779509+00:00",
+    "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Công ty trí tuệ nhân tạo Anthropic vừa chính thức giới thiệu hai mô hình ngôn ngữ mới là Claude Fable 5.2 và Claude Mythos 5.2. Đây là những sản phẩm tiên tiến nhất của hãng tính đến thời điểm hiện tại, được thiết kế đặc biệt để giải quyết các thách thức kỹ thuật phức tạp trong lĩnh vực lập trình, suy luận và thị giác máy tính. Theo thông báo từ nhà sản xuất, các mô hình mới này có khả năng tạo phản hồi nhanh hơn 30% so với thế hệ 5.1 tiền nhiệm, đồng thời tối ưu hóa chi phí vận hành với mức giá giảm 20%.",
+      "Về khả năng ứng dụng, Claude Fable 5.2 được định hướng dành cho các tác vụ kỹ thuật chuyên sâu như điều phối nhóm tác nhân AI, thực hiện các dự án dài hạn và giải quyết các bài toán phần mềm khó. Trong giai đoạn thử nghiệm, mô hình này đã chứng minh hiệu quả qua việc hỗ trợ di chuyển hệ thống phần mềm phức tạp, thiết kế thiết bị điện tử từ đầu và giải quyết các vấn đề lý thuyết trong vật lý lỗ đen. Trong khi đó, Claude Mythos 5.2 hiện chỉ được cung cấp giới hạn cho các tổ chức đã qua kiểm duyệt thông qua các chương trình xác thực chuyên biệt.",
+      "Động thái ra mắt này diễn ra trong bối cảnh Anthropic đang chuẩn bị cho đợt IPO được dự báo có quy mô lớn, dự kiến có thể bắt đầu ngay trong tuần tới. Đây cũng là lần đầu tiên công ty phát hành các mô hình 'tiên phong' kể từ khi CEO Dario Amodei kêu gọi kiểm soát tốc độ phát triển AI vào tháng 9. Đại diện Anthropic khẳng định, việc ra mắt lần này tuân thủ nghiêm ngặt các quy trình kiểm tra an toàn và căn chỉnh mô hình. Dù chịu áp lực cạnh tranh thương mại gay gắt, công ty vẫn đang nỗ lực cân bằng giữa mục tiêu tăng trưởng và các cam kết về an toàn AI, một yếu tố then chốt mà các nhà đầu tư sẽ xem xét kỹ lưỡng trong lộ trình IPO sắp tới."
+    ],
+    "generation_provider": "Gemini:gemini-3.1-flash-lite",
+    "seo_title": "Anthropic ra mắt Claude Fable và Mythos 5.2",
+    "meta_description": "Anthropic chính thức giới thiệu Claude Fable 5.2 và Mythos 5.2 với khả năng xử lý kỹ thuật vượt trội, hướng tới các tác vụ chuyên sâu trước khi IPO.",
+    "keywords": [
+      "Anthropic",
+      "Claude 5.2",
+      "Claude Fable",
+      "Claude Mythos",
+      "trí tuệ nhân tạo"
+    ],
+    "slug": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 375,
+    "display_source": true,
+    "source_urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+    ],
+    "source_links": [
+      "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+    ],
+    "source_references": [
+      {
+        "name": "The Verge - All",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+        "domain": "theverge.com",
+        "source_type": "Báo chuyên ngành",
+        "source_family": "theverge.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T18:58:38+00:00"
+      },
+      {
+        "name": "CNBC - Top News",
+        "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+        "domain": "cnbc.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "cnbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T19:00:01+00:00"
+      },
+      {
+        "name": "TechCrunch - All",
+        "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+        "domain": "techcrunch.com",
+        "source_type": "Báo chuyên ngành",
+        "source_family": "techcrunch.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-03T22:41:03+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Anthropic ra mắt hai mô hình AI mới là Claude Fable 5.2 và Claude Mythos 5.2.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Anthropicon Monday released two newartificial intelligencemodels, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for apotentially historic IPOthat could take place as soon as next week.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "snippet": "Anthropicon Monday released two newartificial intelligencemodels, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for apotentially historic IPOthat could take place as soon as next week.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "page_sha256": "782dd8aae675b7c42aa75d6465a540f4eed30d9475b4de9ed2b6381004369ade",
+            "snippet_sha256": "652ead79cc8e7cbe2deecf58dd902a586022f052e920957ba2c9e86193ff8dcc",
+            "verified_at": "2026-11-09T19:14:58.778715+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Các mô hình mới tạo phản hồi nhanh hơn 30% và có chi phí thấp hơn 20% so với thế hệ 5.1.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "The models also cost 20% less than the 5.1 generation, and will be available for $8 per million input tokens and $40 per million output tokens, the company said.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "snippet": "The models also cost 20% less than the 5.1 generation, and will be available for $8 per million input tokens and $40 per million output tokens, the company said.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "page_sha256": "782dd8aae675b7c42aa75d6465a540f4eed30d9475b4de9ed2b6381004369ade",
+            "snippet_sha256": "7affa4e644f6e6f308168e6b5bd1cc9ab0952f33738e6b353acb35107f249ee2",
+            "verified_at": "2026-11-09T19:14:58.778715+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Anthropic đang chuẩn bị cho đợt IPO với định giá mục tiêu từ 1 nghìn tỷ đến 1,5 nghìn tỷ USD.",
+        "source_urls": [
+          "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "The company is aiming for a valuation of $1 trillion to $1.5 trillion in its offering, as CNBCpreviously reported, down from a target of $2 trillion that had been floated in recent months.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "snippet": "The company is aiming for a valuation of $1 trillion to $1.5 trillion in its offering, as CNBCpreviously reported, down from a target of $2 trillion that had been floated in recent months.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "page_sha256": "782dd8aae675b7c42aa75d6465a540f4eed30d9475b4de9ed2b6381004369ade",
+            "snippet_sha256": "6f27e6dbbb94c2687292aceb0050da1f7aba1a4ed2e85e8abc18213a135eb68e",
+            "verified_at": "2026-11-09T19:14:58.778715+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ sự khác biệt về đối tượng sử dụng giữa hai mô hình Fable và Mythos trong bối cảnh chiến lược kinh doanh của Anthropic. Đồng thời, bài báo kết nối sự kiện ra mắt sản phẩm với bối cảnh IPO và các cam kết về an toàn AI của lãnh đạo công ty.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-09T19:14:58.779632+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "20",
+      "30",
+      "5.1",
+      "5.2"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-09T20:10:34.872304+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 375,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1702,
+        "source_access": [
+          {
+            "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "cnbc.com",
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-10 03:10"
+  },
+  {
+    "id": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0",
+    "title": "Ben White phá vỡ sự im lặng về quãng thời gian tự rời bỏ đội tuyển Anh",
+    "summary": "Hậu vệ Ben White của Arsenal khẳng định mọi người chưa biết toàn bộ câu chuyện đằng sau quyết định tạm chia tay đội tuyển Anh, dù anh thừa nhận không hối hận về quyết định của mình.",
+    "category": "sports",
+    "source_name": "BBC News - Top Stories",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+    "published_at": "2026-11-09T19:00:10+00:00",
+    "fetched_at": "2026-11-09T19:15:04.878900+00:00",
+    "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Hậu vệ Ben White của Arsenal vừa lên tiếng về quyết định từng khiến anh tự rời bỏ đội tuyển quốc gia, khẳng định rằng dư luận vẫn chưa biết toàn bộ câu chuyện đằng sau quãng thời gian vắng bóng kéo dài hơn ba năm qua.",
+      "Chia sẻ trước thềm các trận đấu tại Nations League dưới sự dẫn dắt của huấn luyện viên Thomas Tuchel, cầu thủ 29 tuổi cho biết anh chưa từng hé lộ chi tiết sự việc và sẽ không đẩy ai vào tình thế khó khăn hay chia sẻ những bí mật đó. Trước đây, White đã rời trại tập trung của đội tuyển Anh tại World Cup 2022 ở Qatar vì lý do cá nhân và không tham gia lựa chọn trong suốt phần còn lại triều đại của Gareth Southgate.",
+      "Khi được hỏi liệu anh có làm gì khác đi nếu có cơ hội nhìn lại, White khẳng định anh sẽ không thay đổi quyết định của mình. Dù thừa nhận đây không phải là điều vui vẻ gì, anh cho rằng bản thân là một người sống thực tế và thời điểm để tiến lên đã đến sau khi anh có dịp tái xuất trong trận hòa 1-1 với Uruguay hồi tháng 3 vừa qua.",
+      "Sự trở lại của White trong màu áo Tam Sư không diễn ra trong yên bình khi anh từng phải đối mặt với những tiếng la ó từ một bộ phận khán giả tại sân Wembley, đồng thời ghi bàn nhưng cũng để lọt quả phạt đền dẫn đến bàn gỡ hòa của đối thủ. Dù vậy, huấn luyện viên Thomas Tuchel và tiền vệ Jordan Henderson đều lên tiếng bảo vệ, trong đó chiến lược gia người Đức nhấn mạnh rằng hậu vệ này xứng đáng có một chương mới và nhận được những phản hồi tích cực từ phía người hâm mộ trong các trận đấu sắp tới gặp Croatia và Tây Ban Nha."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Ben White lên tiếng về quyết định rời đội tuyển Anh trước đây",
+    "meta_description": "Hậu vệ Ben White của Arsenal chia sẻ về quãng thời gian vắng bóng ở đội tuyển Anh và việc anh được Thomas Tuchel triệu tập trở lại.",
+    "keywords": [
+      "Ben White",
+      "England",
+      "Thomas Tuchel",
+      "Arsenal",
+      "Nations League"
+    ],
+    "slug": "ben-white-pha-vo-su-im-lang-ve-quang-thoi-gian-tu-roi-bo-oi-tuyen-anh-e844e7a0",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 330,
+    "display_source": true,
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+      "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why"
+    ],
+    "source_links": [
+      "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+      "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why"
+    ],
+    "source_references": [
+      {
+        "name": "BBC News - Top Stories",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+        "domain": "bbc.co.uk",
+        "source_type": "Báo/đài",
+        "source_family": "bbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T19:00:10+00:00"
+      },
+      {
+        "name": "The Guardian - Sport",
+        "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+        "domain": "theguardian.com",
+        "source_type": "Báo",
+        "source_family": "theguardian.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-06T19:00:50+00:00"
+      },
+      {
+        "name": "Wired - All",
+        "url": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why",
+        "domain": "wired.com",
+        "source_type": "Tạp chí",
+        "source_family": "wired.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-04T10:00:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Ben White cho biết mọi người chưa biết toàn bộ câu chuyện đằng sau quyết định không tham gia đội tuyển Anh trước đây.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "core",
+        "evidence_snippet": "White 'deserves to open a new chapter' - Tuchel",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "snippet": "White 'deserves to open a new chapter' - Tuchel",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "d72a4372483653c89b4a92236550063ff9adf17c053a01466baed7eb00322605",
+            "snippet_sha256": "0dc76e02b5bfbe8515f21b8231f436adf359b467a4eba0f26950fe17a488032d",
+            "verified_at": "2026-11-09T19:15:04.878437+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "White rời trại tập trung đội tuyển Anh tại World Cup 2022 ở Qatar vì lý do cá nhân.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "White, who has beennamed in Thomas Tuchel's squadfor upcoming Nations League fixtures,left the Three Lions' campat the 2022 World Cup in Qatar to return home for personal reasons.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "snippet": "White, who has beennamed in Thomas Tuchel's squadfor upcoming Nations League fixtures,left the Three Lions' campat the 2022 World Cup in Qatar to return home for personal reasons.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "d72a4372483653c89b4a92236550063ff9adf17c053a01466baed7eb00322605",
+            "snippet_sha256": "f44332c96329f6c3598083b37855f7589771da3c444b4ca5545f0cb41d9a2086",
+            "verified_at": "2026-11-09T19:15:04.878437+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Thomas Tuchel nhận xét Ben White xứng đáng có một chương mới và nhận phản hồi tích cực từ khán giả.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "core",
+        "evidence_snippet": "After that, Chelsea midfielder Jordan Henderson said he and his fellow England playerswould always supportWhite, while Tuchelsaid recentlythat the defender deserves \"a new chapter\" and \"positive feedback from the crowd\".",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "snippet": "After that, Chelsea midfielder Jordan Henderson said he and his fellow England playerswould always supportWhite, while Tuchelsaid recentlythat the defender deserves \"a new chapter\" and \"positive feedback from the crowd\".",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "d72a4372483653c89b4a92236550063ff9adf17c053a01466baed7eb00322605",
+            "snippet_sha256": "6fc2c5968a7975bcab168093c2d7dfb7e26d6cb67877c1f8fb3a98678de0a658",
+            "verified_at": "2026-11-09T19:15:04.878437+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết giải thích rõ hoàn cảnh và quan điểm hiện tại của Ben White khi quay lại đội tuyển Anh dưới thời Thomas Tuchel. Nội dung làm rõ góc nhìn của cầu thủ về giai đoạn vắng bóng và sự đón nhận từ ban huấn luyện lẫn người hâm mộ.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-09T19:15:04.879011+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "2022",
+      "29"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-09T20:10:34.872304+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 330,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1491,
+        "source_access": [
+          {
+            "url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-10 03:10"
+  },
+  {
+    "id": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea",
+    "title": "Đội hình ba người sau của Anh khiến HLV Borthwick phải suy nghĩ sau chiến thắng trước Úc",
+    "summary": "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc. Tuy nhiên, chấn thương của Feyi-Waboso và Furbank có thể khiến HLV Borthwick phải điều chỉnh đội hình trong các trận đấu tiếp theo.",
+    "category": "sports",
+    "source_name": "The Guardian - Sport",
+    "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+    "published_at": "2026-11-09T19:00:11+00:00",
+    "fetched_at": "2026-11-09T19:15:42.886460+00:00",
+    "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc. Đây là lần đầu tiên trong hai năm, HLV Steve Borthwick có thể bố trí đội hình này.",
+      "Feyi-Waboso đã thể hiện sự nguy hiểm của mình khi ghi bàn trong trận đấu, nhưng anh cũng phải rời sân vì chấn thương. Furbank cũng có một trận đấu ấn tượng, nhưng anh đang phải đối mặt với một vấn đề ở vùng chậu.",
+      "HLV Borthwick đang phải suy nghĩ về việc điều chỉnh đội hình trong các trận đấu tiếp theo, khi Feyi-Waboso và Furbank có thể không thể tham gia. Tuy nhiên, với sự xuất sắc của đội hình ba người sau, Anh có thể hy vọng vào một tương lai tươi sáng trong môn rugby.",
+      "Đội hình ba người sau của Anh đã thể hiện sự linh hoạt và sự nguy hiểm của mình trong trận đấu trước Úc. Với sự kết hợp giữa Feyi-Waboso, Freeman và Furbank, Anh có thể tạo ra nhiều cơ hội ghi bàn và gây áp lực lên đối thủ."
+    ],
+    "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "seo_title": "Đội hình ba người sau của Anh khiến HLV Borthwick phải suy nghĩ",
+    "meta_description": "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc.",
+    "keywords": [
+      "Anh",
+      "Úc",
+      "Borthwick",
+      "Feyi-Waboso",
+      "Freeman",
+      "Furbank"
+    ],
+    "slug": "oi-hinh-ba-nguoi-sau-cua-anh-khien-hlv-borthwick-phai-suy-nghi-sau-chien-8cb123ea",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 193,
+    "display_source": true,
+    "source_urls": [
+      "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss"
+    ],
+    "source_links": [
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss"
+    ],
+    "source_references": [
+      {
+        "name": "The Guardian - Sport",
+        "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+        "domain": "theguardian.com",
+        "source_type": "Báo",
+        "source_family": "theguardian.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T19:00:11+00:00"
+      },
+      {
+        "name": "BBC News - Top Stories",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss",
+        "domain": "bbc.co.uk",
+        "source_type": "Báo/đài",
+        "source_family": "bbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T06:49:22+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Đội hình ba người sau của Anh gồm Immanuel Feyi-Waboso, Tommy Freeman và George Furbank đã thể hiện sự xuất sắc trong chiến thắng trước Úc.",
+        "source_urls": [
+          "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship"
+        ],
+        "importance": "core",
+        "evidence_snippet": "View image in fullscreenSteve Borthwick has tried many combinations since Immanuel Feyi-Waboso, Tommy Freeman and George Furbank last lined up for England together.Photograph: Mark Chappell/Focus Images Ltd/Shutterstock",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "snippet": "View image in fullscreenSteve Borthwick has tried many combinations since Immanuel Feyi-Waboso, Tommy Freeman and George Furbank last lined up for England together.Photograph: Mark Chappell/Focus Images Ltd/Shutterstock",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "page_sha256": "f22b2bd1eaaeddd2af75358a45f43f8c8e4190ddd0fcba7412b8b50435601b87",
+            "snippet_sha256": "60c558736010c330e506998959cf3a1f2cc27f9d01d291497fcc1539b6ae6e0e",
+            "verified_at": "2026-11-09T19:15:42.885744+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Feyi-Waboso đã thể hiện sự nguy hiểm của mình khi ghi bàn trong trận đấu, nhưng anh cũng phải rời sân vì chấn thương.",
+        "source_urls": [
+          "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Freddie Steward and Tom Roebuck enjoyed a degree of success when aerial supremacy was all the rage, but it does not feel like a coincidence that during England’s worst Six Nations campaign this year Feyi-Waboso was injured throughout, Furbank was overlooked and Freeman was often deployed at centre.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "snippet": "Freddie Steward and Tom Roebuck enjoyed a degree of success when aerial supremacy was all the rage, but it does not feel like a coincidence that during England’s worst Six Nations campaign this year Feyi-Waboso was injured throughout, Furbank was overlooked and Freeman was often deployed at centre.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "page_sha256": "f22b2bd1eaaeddd2af75358a45f43f8c8e4190ddd0fcba7412b8b50435601b87",
+            "snippet_sha256": "1072daeb2f7c1f4765e16e5077fa051175e834fe7941ea7764712c0756c7469a",
+            "verified_at": "2026-11-09T19:15:42.885744+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "HLV Borthwick đang phải suy nghĩ về việc điều chỉnh đội hình trong các trận đấu tiếp theo, khi Feyi-Waboso và Furbank có thể không thể tham gia.",
+        "source_urls": [
+          "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship"
+        ],
+        "importance": "core",
+        "evidence_snippet": "England’s emphatic winover the Wallabies on Sunday was the first time in two years Borthwick has been able to field a back-three of Immanuel Feyi-Waboso, Tommy Freeman and George Furbank.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "snippet": "England’s emphatic winover the Wallabies on Sunday was the first time in two years Borthwick has been able to field a back-three of Immanuel Feyi-Waboso, Tommy Freeman and George Furbank.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "page_sha256": "f22b2bd1eaaeddd2af75358a45f43f8c8e4190ddd0fcba7412b8b50435601b87",
+            "snippet_sha256": "8cc4b4fdb1bf3e53d5e68ee9ab9ab67f44f998910214e20feff2cf1138816526",
+            "verified_at": "2026-11-09T19:15:42.885744+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết này cung cấp thông tin về đội hình ba người sau của Anh và sự xuất sắc của họ trong chiến thắng trước Úc. Nó cũng phân tích về các chấn thương của Feyi-Waboso và Furbank và cách HLV Borthwick có thể điều chỉnh đội hình trong các trận đấu tiếp theo. Ngoài ra, bài viết cũng đề cập đến sự linh hoạt và sự nguy hiểm của đội hình ba người sau của Anh.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-09T19:15:42.886554+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-09T20:10:34.872304+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 193,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 919,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-10 03:10"
+  },
+  {
+    "id": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2",
+    "title": "Ramla Ali khóc nghẹn khi hiện thực hóa giấc mơ vô địch thế giới tại Texas",
+    "summary": "Vỏ sĩ Ramla Ali vượt qua Mikiah Kreps bằng quyết định chia điểm để giành đai vô địch thế giới hạng siêu gà WBO và IBF tại Arlington, Texas.",
+    "category": "sports",
+    "source_name": "BBC Sport - All",
+    "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+    "published_at": "2026-11-09T10:38:17+00:00",
+    "fetched_at": "2026-11-09T12:12:25.644272+00:00",
+    "appnho_published_at": "2026-11-09T20:10:34.872304+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Võ sĩ Ramla Ali đã giành chiến thắng quyết định chia điểm trước đối thủ Mikiah Kreps trong sự kiện diễn ra tại Arlington, Texas, qua đó chính thức bước lên ngôi vô địch thế giới hạng siêu gà ở tuổi 36. Các trọng tài chấm điểm lần lượt là 97-92, 96-93 và 98-91 nghiêng về võ sĩ người Anh. Khoảnh khắc trọng tài xướng tên người chiến thắng, Ali đã khuỵu xuống sân đấu và bật khóc trong xúc động. Cô dành trọn chiến thắng này để tưởng nhớ người cha đã qua đời vào tháng Năm.",
+      "Trận đấu diễn ra vô cùng căng thẳng khi Mikiah Kreps tạo ra áp lực lớn và liên tục tung ra nhiều đòn đánh hơn trong suốt các hiệp đấu. Võ sĩ người Mỹ hoàn toàn thất vọng với kết quả chung cuộc sau khi thống kê cho thấy cô tung ra 115 cú đấm trúng đích so với 78 của Ali, cùng 91 cú đấm uy lực so với 70. Dù vậy, bước ngoặt của trận đấu đến từ hiệp thứ ba khi Ali hạ gục đối thủ bằng một cú móc trái đầy uy lực, mang về điểm số quan trọng 10-8 giúp cô giữ vững thế trận trước những đợt tấn công bão hòa từ đối phương.",
+      "Chiến thắng này đánh dấu cột mốc đỉnh cao mới trong cuộc đời đầy nghị lực của Ramla Ali, người từng chạy trốn khỏi Somalia từ khi còn là một đứa trẻ và lớn lên tại London với tư cách người tị nạn. Sau thất bại tại trận tranh đai vào năm 2023 từng dấy lên nhiều nghi ngờ về tương lai sự nghiệp, cô đã vượt qua áp lực tinh thần để chạm tay vào hai chiếc đai vô địch danh giá WBO và IBF. Sau trận đấu, nhà vô địch mới có thể hướng tới các trận đấu thống nhất đai tiềm năng trong tương lai."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Ramla Ali vô địch thế giới WBO và IBF tại Texas",
+    "meta_description": "Ramla Ali đánh bại Mikiah Kreps để giành đai vô địch thế giới WBO và IBF super-bantamweight tại Arlington, Texas.",
+    "keywords": [
+      "Ramla Ali",
+      "Mikiah Kreps",
+      "boxing",
+      "WBO",
+      "IBF"
+    ],
+    "slug": "ramla-ali-khoc-nghen-khi-hien-thuc-hoa-giac-mo-vo-ich-the-gioi-tai-texas-6144c1c2",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 326,
+    "display_source": true,
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights"
+    ],
+    "source_links": [
+      "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights"
+    ],
+    "source_references": [
+      {
+        "name": "BBC Sport - All",
+        "url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+        "domain": "bbc.co.uk",
+        "source_type": "Báo/đài",
+        "source_family": "bbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T10:38:17+00:00"
+      },
+      {
+        "name": "Sky Sports - Football",
+        "url": "https://www.skysports.com/watch/video/13610085/ramla-ali-vs-mikiah-kreps-fight-highlights",
+        "domain": "skysports.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "skysports.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-09T09:23:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Ramla Ali đánh bại Mikiah Kreps trong trận tranh đai vô địch thế giới hạng siêu gà WBO và IBF tại Arlington, Texas ở tuổi 36.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Ramla Ali secured her first world title at the age of 36 after defeating Mikiah Kreps in a split-decision victory in Arlington, Texas.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "snippet": "Ramla Ali secured her first world title at the age of 36 after defeating Mikiah Kreps in a split-decision victory in Arlington, Texas.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+            "snippet_sha256": "dc8c019053621e26092d171ce714cc78b2518329d7a8d02bc5d8176bb78ec28d",
+            "verified_at": "2026-11-09T12:12:25.643685+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Điểm số từ các trọng tài lần lượt là 97-92, 96-93 và 98-91 nghiêng về phía Ramla Ali.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Ramla Ali was the first boxer from Somalia to compete at an Olympics",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "snippet": "Ramla Ali was the first boxer from Somalia to compete at an Olympics",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+            "snippet_sha256": "c8ad474089512014b4efc130f883d6ec8860854b7eae8ce35524e350daf45daf",
+            "verified_at": "2026-11-09T12:12:25.643685+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Mikiah Kreps tung ra 115 cú đấm trúng đích so với 78 của Ali và giành 91 cú đấm uy lực so với 70 của đối thủ.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Kreps outlanded Ali with 115 punches to 78 and secured 91 power shots to Ali's 70 and one judge certainly was convinced of her as a clear winner with a wide 98-91 scorecard.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "snippet": "Kreps outlanded Ali with 115 punches to 78 and secured 91 power shots to Ali's 70 and one judge certainly was convinced of her as a clear winner with a wide 98-91 scorecard.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+            "snippet_sha256": "a3711c08545239ee9e29ed6bc21a711e5e0f2254ebddef9059ef918e2c699f1b",
+            "verified_at": "2026-11-09T12:12:25.643685+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Mikiah Kreps bị knockdown trong hiệp ba sau khi dính một cú móc trái từ Ramla Ali.",
+        "source_urls": [
+          "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Boxing: Ramla Ali defeats Mikiah Kreps to become unified world champion aged 36 - BBC Sport",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "snippet": "Boxing: Ramla Ali defeats Mikiah Kreps to become unified world champion aged 36 - BBC Sport",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "page_sha256": "ed15043ea83b6dbd6c417e7d24559294c349b3cdcc7779e4518fbc07c4f789c8",
+            "snippet_sha256": "2e2658c7e1589d24130cc16c648396f27b7bccce984afe23c1ac0a653265441e",
+            "verified_at": "2026-11-09T12:12:25.643685+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ diễn biến điểm số và thế trận giằng co giữa hai võ sĩ tại Texas. Đồng thời, văn bản phân tích bối cảnh vượt qua nghịch cảnh và áp lực tâm lý của Ramla Ali.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-09T12:12:25.644356+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "115",
+      "2023",
+      "36",
+      "70",
+      "78",
+      "91"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-09T20:10:34.872304+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 326,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1473,
+        "source_access": [
+          {
+            "url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-10 03:10"
   }
 ]
