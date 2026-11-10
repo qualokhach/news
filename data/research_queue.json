@@ -4183,7 +4183,7 @@
   },
   {
     "queue_id": "c0f88b99b88e942a1dc1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T03:51:04.482315+00:00",
     "expires_at": "2026-11-13T03:49:19.595060+00:00",
     "category_hint": "vietnam",
@@ -4849,7 +4849,8 @@
       ]
     },
     "research_ready_at": "2026-11-10T03:51:04.482341+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nghich-ly-qua-bong-vang-harry-kane-vang-mat-trong-oi-hinh-fifpro-2026-63a9365f"
   },
   {
     "queue_id": "e98f0c4fb1a30edc7614",
@@ -62324,7 +62325,7 @@
   },
   {
     "queue_id": "cu-tri-california-bac-bo-e-xuat-anh-thue-tai-san-oi-voi-gioi-ty-phu-42d978ea",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-10T03:51:43.925120+00:00",
     "expires_at": "2026-11-11T03:51:43.925120+00:00",
     "source_urls": [
@@ -62342,7 +62343,7 @@
       "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
       "published_at": "2026-11-10T03:19:56+00:00",
       "fetched_at": "2026-11-10T03:51:50.340974+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-10T04:19:30.281808+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -62570,29 +62571,39 @@
         "5"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-10T03:51:50.342690+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-10T04:19:30.281808+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 374,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1688
-        },
-        "independent_domains": [
-          "bbc.com",
-          "cnbc.com",
-          "france24.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1688,
+          "source_access": [
+            {
+              "url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "france24.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 11:19"
+    },
+    "published_at": "2026-11-10T04:19:30.281808+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "gioi-tai-chinh-va-cac-ti-phu-my-len-tieng-sau-be-boi-ngoai-tinh-cua-ceo--b2d52d7c",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-10T03:51:43.925120+00:00",
     "expires_at": "2026-11-11T03:51:43.925120+00:00",
     "source_urls": [
@@ -62610,7 +62621,7 @@
       "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
       "published_at": "2026-11-10T02:48:00+00:00",
       "fetched_at": "2026-11-10T03:51:56.823067+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-10T04:19:30.281808+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -62804,29 +62815,39 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-10T03:51:56.824617+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-10T04:19:30.281808+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 420,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1892
-        },
-        "independent_domains": [
-          "bbc.com",
-          "dantri.com.vn",
-          "france24.com",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1892,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "dantri.com.vn",
+            "france24.com",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 11:19"
+    },
+    "published_at": "2026-11-10T04:19:30.281808+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-10T03:51:43.925120+00:00",
     "expires_at": "2026-11-11T03:51:43.925120+00:00",
     "source_urls": [
@@ -62843,7 +62864,7 @@
       "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
       "published_at": "2026-11-09T23:37:27+00:00",
       "fetched_at": "2026-11-10T03:52:03.432252+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-10T04:19:30.281808+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -63029,23 +63050,321 @@
         "34"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-10T03:52:03.433830+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-10T04:19:30.281808+00:00",
         "stats": {
           "paragraphs": 6,
           "words": 438,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1985
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn",
-          "tuoitre.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1985,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 11:19"
+    },
+    "published_at": "2026-11-10T04:19:30.281808+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nghich-ly-qua-bong-vang-harry-kane-vang-mat-trong-oi-hinh-fifpro-2026-63a9365f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-10T04:19:22.393802+00:00",
+    "expires_at": "2026-11-11T04:19:22.393802+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+      "https://thanhnien.vn/loi-thu-nhan-cua-hiep-den-vang-vong-toi-deo-la-gia-mua-ngoai-cho-185261106230130434.htm",
+      "https://tuoitre.vn/khoi-tranh-giai-bong-ban-cay-vot-vang-sau-7-nam-vang-bong-100261105221920803.htm"
+    ],
+    "article": {
+      "id": "nghich-ly-qua-bong-vang-harry-kane-vang-mat-trong-oi-hinh-fifpro-2026-63a9365f",
+      "title": "Nghịch lý Quả bóng vàng: Harry Kane vắng mặt trong đội hình FIFPro 2026",
+      "summary": "Chỉ hai tuần sau khi giành Quả bóng vàng 2026 và trở thành cầu thủ Anh đầu tiên sau 25 năm nhận danh hiệu này, tiền đạo Harry Kane bất ngờ vắng mặt trong Đội hình hay nhất thế giới FIFPro.",
+      "category": "sports",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+      "published_at": "2026-11-10T01:33:15+00:00",
+      "fetched_at": "2026-11-10T04:19:27.381810+00:00",
+      "appnho_published_at": "2026-11-10T04:19:30.281808+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chỉ hai tuần sau khi được vinh danh ở lễ trao giải Quả bóng vàng 2026 tại London, tiền đạo Harry Kane đã phải đón nhận một kết quả bất ngờ khi bị gạch tên khỏi Đội hình hay nhất thế giới FIFPro 2026. Đây là giải thưởng do chính các cầu thủ chuyên nghiệp bình chọn dưới sự bảo trợ của FIFA, với sự tham gia của hơn 19.000 cầu thủ đến từ 73 quốc gia trên toàn thế giới.",
+        "Theo công bố chi tiết từ ban tổ chức, ngôi sao đang khoác áo Bayern Munich chỉ nhận được 27,6% số phiếu bầu từ đồng nghiệp và xếp thứ năm trong nhóm tám tiền đạo được đề cử vào đội hình tiêu biểu. Do giải thưởng áp dụng sơ đồ chiến thuật 3-3-4 với bốn vị trí trên hàng công, Harry Kane đã chính thức bị loại khỏi danh sách lựa chọn chính thức.",
+        "Hàng công của đội hình tiêu biểu năm nay xướng tên Kylian Mbappe với 46% số phiếu, tiếp theo là Lamine Yamal đạt 37,4%, Lionel Messi với 29,5% và Erling Haaland nhận 28,4% số phiếu bầu. Trong khi đó, một chân sút tên tuổi khác là Cristiano Ronaldo cũng nằm ngoài danh sách khi chỉ đạt tỷ lệ 13,2% từ các đồng nghiệp.",
+        "Sự vắng mặt của Harry Kane tạo ra một cột chú ý đặc biệt trong lịch sử tồn tại của giải thưởng FIFPro kể từ năm 2005. Theo ghi nhận, đây là lần đầu tiên trong vòng 21 năm qua xuất hiện một nghịch lý khi cầu thủ giành danh hiệu Quả bóng vàng lại không thể góp mặt trong đội hình tiêu biểu của năm đó.",
+        "Trước đó vào cuối tháng 10, Harry Kane đã làm nên lịch sử cho bóng đá Anh khi trở thành cầu thủ đầu tiên sau 25 năm sở hữu Quả bóng vàng, kể từ sau danh hiệu của Michael Owen vào năm 2001. Dù vắng mặt ở đội hình FIFPro, tuyển thủ Anh vẫn chứng kiến đồng hương Jude Bellingham góp mặt ở tuyến giữa bên cạnh các gương mặt nổi bật khác."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Harry Kane vắng mặt ở Đội hình hay nhất thế giới FIFPro 2026",
+      "meta_description": "Tìm hiểu nguyên nhân Harry Kane không góp mặt trong Đội hình hay nhất thế giới FIFPro 2026 dù vừa giành Quả bóng vàng.",
+      "keywords": [
+        "Harry Kane",
+        "Quả bóng vàng 2026",
+        "Đội hình FIFPro 2026",
+        "bóng đá thế giới"
+      ],
+      "slug": "nghich-ly-qua-bong-vang-harry-kane-vang-mat-trong-oi-hinh-fifpro-2026-63a9365f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 358,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+        "https://thanhnien.vn/loi-thu-nhan-cua-hiep-den-vang-vong-toi-deo-la-gia-mua-ngoai-cho-185261106230130434.htm",
+        "https://tuoitre.vn/khoi-tranh-giai-bong-ban-cay-vot-vang-sau-7-nam-vang-bong-100261105221920803.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/loi-thu-nhan-cua-hiep-den-vang-vong-toi-deo-la-gia-mua-ngoai-cho-185261106230130434.htm",
+        "https://tuoitre.vn/khoi-tranh-giai-bong-ban-cay-vot-vang-sau-7-nam-vang-bong-100261105221920803.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T01:33:15+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/loi-thu-nhan-cua-hiep-den-vang-vong-toi-deo-la-gia-mua-ngoai-cho-185261106230130434.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T16:01:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/khoi-tranh-giai-bong-ban-cay-vot-vang-sau-7-nam-vang-bong-100261105221920803.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T15:36:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Harry Kane bất ngờ bị loại khỏi Đội hình hay nhất thế giới FIFPro 2026 chỉ hai tuần sau khi giành Quả bóng vàng.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Harry Kane bất ngờ bị loại khỏi Đội hình hay nhất thế giới FIFPro 2026, chỉ hai tuần sau khi ngôi sao người Anh giành Quả bóng vàng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "snippet": "(Dân trí) - Harry Kane bất ngờ bị loại khỏi Đội hình hay nhất thế giới FIFPro 2026, chỉ hai tuần sau khi ngôi sao người Anh giành Quả bóng vàng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "page_sha256": "91271c22cf4aeaa52db4e28e6956b0efc822b3cdb38e9ac33a0493dcbee52e91",
+              "snippet_sha256": "fe402f28972f9337a381ec9f4bd69cff46f782810003c9c57f3e68e5e5852d8a",
+              "verified_at": "2026-11-10T04:19:27.380618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hơn 19.000 cầu thủ đến từ 73 quốc gia tham gia bình chọn Đội hình tiêu biểu năm 2026.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đội hình hay nhất thế giới FIFPro 2026 được bình chọn bởi hơn 19.000 cầu thủ đến từ 73 quốc gia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "snippet": "Đội hình hay nhất thế giới FIFPro 2026 được bình chọn bởi hơn 19.000 cầu thủ đến từ 73 quốc gia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "page_sha256": "91271c22cf4aeaa52db4e28e6956b0efc822b3cdb38e9ac33a0493dcbee52e91",
+              "snippet_sha256": "b0d86bc5b909c5767d7ed954583f50ffa1884570dc33c2b7cb981f39a6980b59",
+              "verified_at": "2026-11-10T04:19:27.380618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Harry Kane chỉ nhận 27,6% số phiếu và xếp thứ 5 trong 8 tiền đạo được bình chọn.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Harry Kane chỉ xếp thứ 5 trong 8 tiền đạo được bình chọn vào đội hình hay nhất thế giới 2026, bất chấp anh vừa giành Quả bóng vàng FIFA hôm 26/10 (Ảnh: Getty).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "snippet": "Harry Kane chỉ xếp thứ 5 trong 8 tiền đạo được bình chọn vào đội hình hay nhất thế giới 2026, bất chấp anh vừa giành Quả bóng vàng FIFA hôm 26/10 (Ảnh: Getty).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "page_sha256": "91271c22cf4aeaa52db4e28e6956b0efc822b3cdb38e9ac33a0493dcbee52e91",
+              "snippet_sha256": "51673a8ae6eee302ba4c1166424c0aa30dcc041e3e0a5a1ae247ec02b06dfa23",
+              "verified_at": "2026-11-10T04:19:27.380618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hàng công đội hình FIFPro 2026 gồm Kylian Mbappe (46%), Lamine Yamal (37,4%), Lionel Messi (29,5%) và Erling Haaland (28,4%).",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đội hình được bình chọn theo sơ đồ 3-3-4, với hàng công gồm Kylian Mbappe (46%), Lamine Yamal (37,4%), LionelMessi(29,5%) và Erling Haaland (28,4%).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "snippet": "Đội hình được bình chọn theo sơ đồ 3-3-4, với hàng công gồm Kylian Mbappe (46%), Lamine Yamal (37,4%), LionelMessi(29,5%) và Erling Haaland (28,4%).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "page_sha256": "91271c22cf4aeaa52db4e28e6956b0efc822b3cdb38e9ac33a0493dcbee52e91",
+              "snippet_sha256": "1facf0179f8f932c6dddd6b7bc40bbf2cdf2081ec20f8e4b5ceb9b19d1d23c42",
+              "verified_at": "2026-11-10T04:19:27.380618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là lần đầu tiên trong 21 năm lịch sử giải thưởng FIFPro có cầu thủ giành Quả bóng vàng nhưng vắng mặt trong đội hình hay nhất năm.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Việc Kane bị loại đánh dấu lần đầu tiên trong lịch sử FIFPro có một cầu thủ giành Quả bóng vàng nhưng không góp mặt trong Đội hình hay nhất thế giới cùng năm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "snippet": "Việc Kane bị loại đánh dấu lần đầu tiên trong lịch sử FIFPro có một cầu thủ giành Quả bóng vàng nhưng không góp mặt trong Đội hình hay nhất thế giới cùng năm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "page_sha256": "91271c22cf4aeaa52db4e28e6956b0efc822b3cdb38e9ac33a0493dcbee52e91",
+              "snippet_sha256": "dbf1d461d8870e5b005c091eb0d095c0af2d509c82c22878d8cd59922302d28c",
+              "verified_at": "2026-11-10T04:19:27.380618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ nghịch lý hiếm hoi trong lịch sử bóng đá khi chủ nhân Quả bóng vàng vắng mặt ở đội hình tiêu biểu FIFPro. Bối cảnh số liệu cụ thể từ cuộc bỏ phiếu của các cầu thủ chuyên nghiệp được phân tích để giải thích kết quả.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-10T04:19:27.381936+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "13,2",
+        "19.000",
+        "2001",
+        "2005",
+        "2026",
+        "21",
+        "25",
+        "27,6",
+        "28,4",
+        "29,5",
+        "37,4",
+        "4",
+        "46",
+        "73"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-10T04:19:30.281808+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 358,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1658,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/the-thao/vua-gianh-qua-bong-vang-harry-kane-da-nhan-cu-soc-lon-20261110075442461.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-10 11:19"
+    },
+    "published_at": "2026-11-10T04:19:30.281808+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
