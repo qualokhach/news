@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "a1ff903775d27a857af0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T03:51:27.980815+00:00",
     "expires_at": "2026-11-13T03:49:19.595060+00:00",
     "category_hint": "world",
@@ -630,11 +630,12 @@
       ]
     },
     "research_ready_at": "2026-11-10T03:51:27.980842+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cu-tri-california-bac-bo-e-xuat-anh-thue-tai-san-oi-voi-gioi-ty-phu-42d978ea"
   },
   {
     "queue_id": "c1b85deac418a8beed12",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T03:51:26.025225+00:00",
     "expires_at": "2026-11-13T03:49:19.595060+00:00",
     "category_hint": "world",
@@ -1587,11 +1588,12 @@
       ]
     },
     "research_ready_at": "2026-11-10T03:51:26.025251+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gioi-tai-chinh-va-cac-ti-phu-my-len-tieng-sau-be-boi-ngoai-tinh-cua-ceo--b2d52d7c"
   },
   {
     "queue_id": "7a679d0a0c7d918c471f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T03:51:16.019263+00:00",
     "expires_at": "2026-11-13T03:49:19.595060+00:00",
     "category_hint": "vietnam",
@@ -4176,7 +4178,8 @@
       ]
     },
     "research_ready_at": "2026-11-10T03:51:16.019290+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4"
   },
   {
     "queue_id": "c0f88b99b88e942a1dc1",
@@ -62318,5 +62321,731 @@
       "origin": "auto"
     },
     "result_reason": "Candidate freshness window expired before publication"
+  },
+  {
+    "queue_id": "cu-tri-california-bac-bo-e-xuat-anh-thue-tai-san-oi-voi-gioi-ty-phu-42d978ea",
+    "status": "READY",
+    "prepared_at": "2026-11-10T03:51:43.925120+00:00",
+    "expires_at": "2026-11-11T03:51:43.925120+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+      "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+      "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+      "https://www.cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html"
+    ],
+    "article": {
+      "id": "cu-tri-california-bac-bo-e-xuat-anh-thue-tai-san-oi-voi-gioi-ty-phu-42d978ea",
+      "title": "Cử tri California bác bỏ đề xuất đánh thuế tài sản đối với giới tỷ phú",
+      "summary": "Cử tri bang California đã từ chối thông qua Proposition 40 - biện pháp đánh thuế một lần 5% đối với tài sản ròng của các tỷ phú nhằm bù đắp thâm hụt ngân sách y tế. Cuộc bỏ phiếu diễn ra sau một chiến dịch vận động đắt đỏ với sự phản đối mạnh mẽ từ các lãnh đạo công nghệ.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+      "published_at": "2026-11-10T03:19:56+00:00",
+      "fetched_at": "2026-11-10T03:51:50.340974+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cử tri bang California chính thức bác bỏ Proposition 40, một biện pháp đề xuất áp mức thuế một lần 5% đối với tổng tài sản ròng của những cá nhân có khối tài sản vượt quá 1 tỷ USD. Kết quả này khép lại cuộc tranh cãi kéo dài trong quá trình kiểm phiếu sau cuộc bầu cử giữa kỳ và đánh dấu bước thụt lùi đối với các chính trị gia theo trường phái cấp tiến trong nỗ lực nhắm vào nguồn thu nhập từ đầu tư của giới siêu giàu.",
+        "Đề xuất này vốn được kỳ vọng tạo ra khoảng 100 tỷ USD nhằm bù đắp phần ngân sách y tế liên bang bị cắt giảm, cùng một phần dành cho giáo dục và chương trình hỗ trợ lương thực. Tuy nhiên, dự luật vấp phải sự phản đối gay gắt từ Thống đốc Gavin Newsom cùng nhiều lãnh đạo đảng Dân chủ và các liên đoàn lao động do lo ngại làn sóng di cư của người giàu sẽ làm tổn hại nghiêm trọng đến nguồn thu thuế thu nhập vốn đóng vai trò chủ đạo trong ngân sách bang.",
+        "Cuộc chiến pháp lý và truyền thông xung quanh Proposition 40 ghi nhận mức chi phí kỷ lục trong lịch sử tiểu bang. Phe phản đối, chịu sự hậu thuẫn tài chính lớn từ các nhân vật nổi tiếng trong giới công nghệ Thung lũng Silicon, đã quyên góp số tiền vượt mức 333 triệu USD để vận động bác bỏ. Riêng nhà đồng sáng lập Google Sergey Brin đã đóng góp hơn 100 triệu USD vào một ủy ban chính trị nhằm triệt tiêu dự luật.",
+        "Trong khi đó, kết quả thăm dò ý kiến cử tri cho thấy sự phân hóa sâu sắc theo độ tuổi và thu nhập tại California. Đa số cử tri trẻ dưới 30 tuổi cùng một bộ phận người dân có thu nhập hộ gia đình dưới 100.000 USD mỗi năm bày tỏ sự ủng hộ đối với sáng kiến này. Ngược lại, nhóm cử tri lớn tuổi và các hộ gia đình có thu nhập từ 100.000 USD trở lên phần lớn bỏ phiếu chống lại biện pháp đánh thuế nói trên."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cử tri California bác bỏ đề xuất đánh thuế tài sản tỷ phú",
+      "meta_description": "Cử tri California bác bỏ Proposition 40, đề xuất đánh thuế tài sản ròng của các tỷ phú, sau chiến dịch vận động chống đối kỷ lục từ giới công nghệ.",
+      "keywords": [
+        "California",
+        "tỷ phú",
+        "thuế tài sản",
+        "Proposition 40",
+        "Gavin Newsom",
+        "Sergey Brin"
+      ],
+      "slug": "cu-tri-california-bac-bo-e-xuat-anh-thue-tai-san-oi-voi-gioi-ty-phu-42d978ea",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 374,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+        "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+        "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+        "https://www.cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+        "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+        "https://www.cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T03:19:56+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T02:54:54+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T03:34:46+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/05/three-tax-proposals-targeting-the-rich-the-new-congress-could-revive.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T16:45:24+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cử tri California đã bác bỏ đề xuất áp dụng mức thuế 5% đối với tài sản ròng của các tỷ phú, được gọi là Proposition 40.",
+          "source_urls": [
+            "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The AP Voter Poll indicates that the majority of young voters in California — those younger than 30 — voted “yes” on Proposition 40.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "snippet": "The AP Voter Poll indicates that the majority of young voters in California — those younger than 30 — voted “yes” on Proposition 40.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "page_sha256": "c910e1d12cf53ff0ef2c40cfd59fb4964ab7544e3950cd02c44bf1490ffb4b54",
+              "snippet_sha256": "f7e19c4b0101ed74503c4574555a14d73cd9dad8c209602aa8c07b877b298717",
+              "verified_at": "2026-11-10T03:51:50.340103+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Associated Press xác định phe bỏ phiếu chống đã giành đủ số phiếu để chiến thắng sau quá trình kiểm phiếu mất gần một tuần.",
+          "source_urls": [
+            "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Associated Press determined Monday that ‘no’ had received enough votes to win.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "snippet": "The Associated Press determined Monday that ‘no’ had received enough votes to win.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "page_sha256": "c910e1d12cf53ff0ef2c40cfd59fb4964ab7544e3950cd02c44bf1490ffb4b54",
+              "snippet_sha256": "a0fc46b668826e30f5004ffaf54e49cf101b48396bf58aee7267fbb903af64fc",
+              "verified_at": "2026-11-10T03:51:50.340103+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhà đồng sáng lập Google Sergey Brin đã đóng góp hơn 100 triệu USD vào một ủy ban hành động chính trị nhằm đánh bại biện pháp này.",
+          "source_urls": [
+            "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The “no” side raised roughly 10 times as much as the “yes” side.Googleco-founder Sergey Brin alone dumped more than $100 million into a political action committee working to defeat the measure.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "snippet": "The “no” side raised roughly 10 times as much as the “yes” side.Googleco-founder Sergey Brin alone dumped more than $100 million into a political action committee working to defeat the measure.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "page_sha256": "c910e1d12cf53ff0ef2c40cfd59fb4964ab7544e3950cd02c44bf1490ffb4b54",
+              "snippet_sha256": "0ff92a7c7eccaa7331bc0c3cfa0351e7bf353c2946e375299e7c10a560a84909",
+              "verified_at": "2026-11-10T03:51:50.340103+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thống đốc Gavin Newsom và nhiều lãnh đạo đảng Dân chủ phản đối đề xuất này với lo ngại nó sẽ khiến nhóm siêu giàu rời khỏi bang.",
+          "source_urls": [
+            "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The measure’s failure is a win for Democratic leaders who opposed it, including Gov.Gavin Newsom, who may run for president in 2028.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "snippet": "The measure’s failure is a win for Democratic leaders who opposed it, including Gov.Gavin Newsom, who may run for president in 2028.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "page_sha256": "c910e1d12cf53ff0ef2c40cfd59fb4964ab7544e3950cd02c44bf1490ffb4b54",
+              "snippet_sha256": "16277378a0b11388f491c8ddab39b624b01d3a3dd8d4cf7b2ffdb749c890548b",
+              "verified_at": "2026-11-10T03:51:50.340103+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh tài chính và những tranh cãi xung quanh Proposition 40 tại California. Đồng thời, phân tích sự chia rẽ trong nội bộ đảng Dân chủ cũng như tác động từ nguồn lực tài chính khổng lồ của giới công nghệ đến kết quả bầu cử.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-10T03:51:50.341094+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "100",
+        "100.000",
+        "30",
+        "333",
+        "40",
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-10T03:51:50.342690+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 374,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1688
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "gioi-tai-chinh-va-cac-ti-phu-my-len-tieng-sau-be-boi-ngoai-tinh-cua-ceo--b2d52d7c",
+    "status": "READY",
+    "prepared_at": "2026-11-10T03:51:43.925120+00:00",
+    "expires_at": "2026-11-11T03:51:43.925120+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+      "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "https://dantri.com.vn/cong-nghe/megaspeed-la-cong-ty-nao-vi-sao-bi-chu-y-trong-vu-viec-cua-ceo-nvidia-20261109165355632.htm",
+      "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy"
+    ],
+    "article": {
+      "id": "gioi-tai-chinh-va-cac-ti-phu-my-len-tieng-sau-be-boi-ngoai-tinh-cua-ceo--b2d52d7c",
+      "title": "Giới tài chính và các tỉ phú Mỹ lên tiếng sau bê bối ngoại tình của CEO NVIDIA",
+      "summary": "Nhiều nhân vật có ảnh hưởng tại Thung lũng Silicon và giới tài chính Mỹ, trong đó có tỉ phú Elon Musk và Bill Ackman, đã công khai đưa ra quan điểm sau khi CEO NVIDIA Jensen Huang đối mặt với cuộc điều tra nội bộ liên quan đến đời tư và nghi vấn an ninh.",
+      "category": "technology",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+      "published_at": "2026-11-10T02:48:00+00:00",
+      "fetched_at": "2026-11-10T03:51:56.823067+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Làn sóng bê bối đời tư kết hợp với các nghi vấn an ninh quốc gia bao quanh Tổng giám đốc NVIDIA Jensen Huang đã thu hút sự quan tâm lớn từ giới thượng đỉnh công nghệ và tài chính Mỹ. Trước thông tin ông Huang bị điều tra nội bộ về mối quan hệ ngoài hôn nhân với một nữ doanh nhân bị nghi liên quan đến hoạt động tình báo, nhiều nhân vật có ảnh hưởng tại Thung lũng Silicon đã nhanh chóng lên tiếng bảo vệ và đánh giá về vai trò trọng yếu của ông đối với nền công nghiệp trí tuệ nhân tạo.",
+        "Tỉ phú Elon Musk đã bày tỏ sự đồng tình với nhà đầu tư mạo hiểm Shaun Maguire khi cho rằng dù CEO NVIDIA đã vấp ngã trong đời tư, ông vẫn giữ vị thế là một trong những doanh nhân vĩ đại nhất thế hệ này. Giới quan sát từ Thung lũng Silicon nhấn mạnh rằng nhà điều hành NVIDIA đóng vai trò cốt lõi trong việc thúc đẩy năng lực cạnh tranh công nghệ của Mỹ, do đó cần tách bạch giữa đời sống cá nhân và tầm vóc chiến lược của tập đoàn trong bối cảnh cuộc đua AI toàn cầu đang diễn ra gay gắt.",
+        "Trong khi đó, nhà quản lý quỹ đầu cơ Bill Ackman kêu gọi công chúng thể hiện sự ủng hộ đối với ông Huang cùng gia đình, đồng thời nhìn nhận rằng ngay cả những cá nhân xuất chúng cũng có thể mắc sai lầm. Dù vậy, ông Ackman cũng làm rõ rằng sự bênh vực này không đồng nghĩa với việc nhà lãnh đạo NVIDIA được miễn trừ trách nhiệm trước pháp luật, và bày tỏ hy vọng cuộc điều tra sẽ không gây ra những hệ lụy tiêu cực đối với an ninh quốc gia Mỹ.",
+        "Về phần mình, Tổng thống Mỹ Donald Trump cũng công khai đưa ra quan điểm ủng hộ, khẳng định tin tưởng vào sự chính trực của ông Jensen Huang và cho rằng vị CEO này nên tiếp tục duy trì chức vụ hiện tại. Những phản ứng đa chiều từ các nhân vật chóp bu của giới tài chính và chính giới diễn ra trong bối cảnh tập đoàn chip hàng đầu thế giới đang phải đối mặt với áp lực lớn từ thị trường chứng khoán cũng như các câu hỏi chưa có lời giải đáp rõ ràng từ phía cơ quan công quyền."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Elon Musk và giới tài chính nói gì về bê bối của CEO NVIDIA Jensen Hua",
+      "meta_description": "Khám phá phản ứng của tỉ phú Elon Musk, Bill Ackman và giới tài chính Mỹ đối với cuộc điều tra nội bộ của CEO NVIDIA Jensen Huang.",
+      "keywords": [
+        "Elon Musk",
+        "Jensen Huang",
+        "NVIDIA",
+        "Thung lũng Silicon",
+        "Bill Ackman"
+      ],
+      "slug": "gioi-tai-chinh-va-cac-ti-phu-my-len-tieng-sau-be-boi-ngoai-tinh-cua-ceo--b2d52d7c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 420,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+        "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+        "https://dantri.com.vn/cong-nghe/megaspeed-la-cong-ty-nao-vi-sao-bi-chu-y-trong-vu-viec-cua-ceo-nvidia-20261109165355632.htm",
+        "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+        "https://dantri.com.vn/cong-nghe/megaspeed-la-cong-ty-nao-vi-sao-bi-chu-y-trong-vu-viec-cua-ceo-nvidia-20261109165355632.htm",
+        "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T02:48:00+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T01:44:53+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/megaspeed-la-cong-ty-nao-vi-sao-bi-chu-y-trong-vu-viec-cua-ceo-nvidia-20261109165355632.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T01:07:44+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T00:22:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tỉ phú Elon Musk đồng tình với nhà đầu tư mạo hiểm Shaun Maguire rằng CEO NVIDIA Jensen Huang là một trong những doanh nhân vĩ đại dù vướng sai lầm đời tư.",
+          "source_urls": [
+            "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tỉ phú Elon Muskbày tỏ đồng tình với nhà đầu tư mạo hiểm Shaun Maguire - người cho rằng CEO NVIDIA đã mắc sai lầm nghiêm trọng trong đời tư nhưng vẫn là \"một trong những doanh nhân vĩ đại nhất thế hệ này\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "snippet": "Tỉ phú Elon Muskbày tỏ đồng tình với nhà đầu tư mạo hiểm Shaun Maguire - người cho rằng CEO NVIDIA đã mắc sai lầm nghiêm trọng trong đời tư nhưng vẫn là \"một trong những doanh nhân vĩ đại nhất thế hệ này\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "page_sha256": "5346a4e09e418fff0b4d66c4000fbf73778ed2a20118591c676618cc4978d3b4",
+              "snippet_sha256": "a905a0943135f01c5a330dc7c061cab1b74a67d510ab1f0382955eddbea001d9",
+              "verified_at": "2026-11-10T03:51:56.822458+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tỉ phú Bill Ackman kêu gọi công chúng ủng hộ ông Huang và gia đình, đồng thời nêu rõ sự ủng hộ không đồng nghĩa với việc CEO NVIDIA được miễn trách nhiệm.",
+          "source_urls": [
+            "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tuy nhiên, ông Ackman sau đó làm rõ rằng sự ủng hộ không đồng nghĩa với việc CEO NVIDIA được miễn trách nhiệm, đồng thời bày tỏ hy vọng vụ việc không ảnh hưởng đến an ninh quốc gia Mỹ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "snippet": "Tuy nhiên, ông Ackman sau đó làm rõ rằng sự ủng hộ không đồng nghĩa với việc CEO NVIDIA được miễn trách nhiệm, đồng thời bày tỏ hy vọng vụ việc không ảnh hưởng đến an ninh quốc gia Mỹ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "page_sha256": "5346a4e09e418fff0b4d66c4000fbf73778ed2a20118591c676618cc4978d3b4",
+              "snippet_sha256": "19d340302af5b6816640cf06d04ce86b70b3142efae6b7449fb516df35bb7905",
+              "verified_at": "2026-11-10T03:51:56.822458+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Mỹ Donald Trump bày tỏ tin tưởng vào sự chính trực của ông Jensen Huang và cho rằng ông nên tiếp tục giữ chức vụ.",
+          "source_urls": [
+            "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "\"Tôi nghĩ anh ấy là một người chính trực\", Tổng thống Mỹ Donald Trump ủng hộ CEONVIDIA, đồng thời cho rằng ông Jensen Huang nên tiếp tục giữ chức vụ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "snippet": "\"Tôi nghĩ anh ấy là một người chính trực\", Tổng thống Mỹ Donald Trump ủng hộ CEONVIDIA, đồng thời cho rằng ông Jensen Huang nên tiếp tục giữ chức vụ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ti-phu-elon-musk-va-gioi-tai-chinh-noi-gi-sau-be-boi-ngoai-tinh-cua-ceo-nvidia-185261110092756341.htm",
+              "page_sha256": "5346a4e09e418fff0b4d66c4000fbf73778ed2a20118591c676618cc4978d3b4",
+              "snippet_sha256": "9fc3160d20e5f12e1189da9eb8beca08fc8a315dc4d2cf746e8d270fad22e809",
+              "verified_at": "2026-11-10T03:51:56.822458+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phản ứng cụ thể từ các tỉ phú và nhân vật tài chính hàng đầu nước Mỹ đối với bê bối của CEO NVIDIA. Phân tích này giúp độc giả hiểu rõ hơn cách giới công nghệ nhìn nhận giữa sai lầm cá nhân và vai trò chiến lược của lãnh đạo doanh nghiệp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-10T03:51:56.823181+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-10T03:51:56.824617+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 420,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1892
+        },
+        "independent_domains": [
+          "bbc.com",
+          "dantri.com.vn",
+          "france24.com",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
+    "status": "READY",
+    "prepared_at": "2026-11-10T03:51:43.925120+00:00",
+    "expires_at": "2026-11-11T03:51:43.925120+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+      "https://tuoitre.vn/nu-dai-kien-tuong-viet-nam-vo-dich-giai-co-chop-dong-nam-a-100261109161009484.htm",
+      "https://thanhnien.vn/lo-dien-11-dai-dien-viet-nam-tranh-tai-tai-tiktok-awards-dong-nam-a-2026-185261110091140968.htm"
+    ],
+    "article": {
+      "id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
+      "title": "U23 Việt Nam - U23 Thái Lan: Màn ra mắt của thế hệ cầu thủ mới",
+      "summary": "Trận đấu giao hữu giữa U23 Việt Nam và U23 Thái Lan diễn ra lúc 19h tối nay tại Pleiku, đánh dấu bước chuyển giao lực lượng quan trọng của cả hai đội để hướng tới SEA Games 34 và giải U23 châu Á 2028.",
+      "category": "sports",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+      "published_at": "2026-11-09T23:37:27+00:00",
+      "fetched_at": "2026-11-10T03:52:03.432252+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận giao hữu quốc tế giữa đội tuyển U23 Việt Nam và U23 Thái Lan diễn ra lúc 19h tối nay trên sân Pleiku, tỉnh Gia Lai. Đây là cữ dượt quan trọng trong quá trình chuẩn bị dài hạn của hai nền bóng đá cho các mục tiêu lớn trong tương lai gần như SEA Games 34 năm 2027 và vòng chung kết U23 châu Á 2028.",
+        "Bước vào giải đấu năm nay, cả hai đội tuyển đều thực hiện cuộc đại phẫu lực lượng khi phần lớn các gương mặt từng tạo nên dấu ấn ở các giải đấu khu vực và châu lục trước đây đều đã quá tuổi quy định. Theo điều lệ của SEA Games 34 và giải U23 châu Á 2028, các cầu thủ tham dự phải sinh năm 2005 trở về sau, tức từ 21 tuổi trở xuống.",
+        "Sự thay đổi này khiến đội hình U23 Việt Nam dự giải giao hữu tại Gia Lai thực chất là lứa cầu thủ U21. Hàng loạt cái tên quen thuộc như thủ môn Trung Kiên, hậu vệ Khuất Văn Khang, các trung vệ Hiểu Minh, Lý Đức, Nhật Minh cùng nhóm tiền đạo Đình Bắc, Thanh Nhàn, Quốc Việt không còn góp mặt do vượt quá giới hạn độ tuổi.",
+        "Thay thế cho thế hệ đi trước là những gương mặt trẻ đang khao khát khẳng định mình. Ở tuyến phòng ngự, thủ môn Cao Văn Bình cùng các trung vệ Quang Kiệt, Mạnh Hưng, Nguyên Hoàng được trao cơ hội. Trong khi đó, tuyến tiền vệ và hàng công chứng kiến sự xuất hiện của những nhân tố mới như Thái Bá Đạt, Lê Văn Thuận, Lê Đình Long Vũ, Trần Gia Bảo và cầu thủ Việt kiều Williams Minh Hoàng.",
+        "Tương tự đối thủ, U23 Thái Lan cũng chia tay một loạt trụ cột đã quá tuổi 21 như Oussama Thiangkham, Chanapach Buaphan, Sittha Boonlha hay Seksan Ratree. Cuộc đối đầu trên sân Pleiku vì thế sẽ là màn so tài hoàn toàn mới về mặt nhân sự so với lần chạm trán gần nhất giữa hai đội tại chung kết SEA Games 33.",
+        "Với lợi thế sân nhà và dàn cầu thủ trẻ đang quyết tâm thể hiện năng lực dưới sự dẫn dắt của HLV Đinh Hồng Vinh, U23 Việt Nam được đánh giá có nhiều cơ hội giành kết quả thuận lợi. Dù vậy, thước đo chính cho đội tuyển vẫn là khả năng thích ứng và cách tận dụng cơ hội của các chân sút trẻ trong quá trình định hình bộ khung hướng tới năm 2027."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "U23 Việt Nam - U23 Thái Lan: Thế hệ mới ra mắt",
+      "meta_description": "U23 Việt Nam và U23 Thái Lan bước vào trận giao hữu tại Gia Lai với đội hình được làm mới hoàn toàn, chuẩn bị cho các mục tiêu trọng điểm năm 2027 và 2028.",
+      "keywords": [
+        "U23 Việt Nam",
+        "U23 Thái Lan",
+        "SEA Games 34",
+        "U23 châu Á 2028",
+        "sân Pleiku"
+      ],
+      "slug": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 438,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+        "https://tuoitre.vn/nu-dai-kien-tuong-viet-nam-vo-dich-giai-co-chop-dong-nam-a-100261109161009484.htm",
+        "https://thanhnien.vn/lo-dien-11-dai-dien-viet-nam-tranh-tai-tai-tiktok-awards-dong-nam-a-2026-185261110091140968.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/nu-dai-kien-tuong-viet-nam-vo-dich-giai-co-chop-dong-nam-a-100261109161009484.htm",
+        "https://thanhnien.vn/lo-dien-11-dai-dien-viet-nam-tranh-tai-tai-tiktok-awards-dong-nam-a-2026-185261110091140968.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T23:37:27+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/nu-dai-kien-tuong-viet-nam-vo-dich-giai-co-chop-dong-nam-a-100261109161009484.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T09:37:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/lo-dien-11-dai-dien-viet-nam-tranh-tai-tai-tiktok-awards-dong-nam-a-2026-185261110091140968.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T03:40:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trận đấu giữa U23 Việt Nam và U23 Thái Lan diễn ra lúc 19h ngày 10/11 trên sân Pleiku, Gia Lai.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "*Trận đấu giữa đội tuyển U23 Việt Nam và U23 Thái Lan sẽ diễn ra lúc 19h tối nay (10/11), trên sân Pleiku (Gia Lai).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "snippet": "*Trận đấu giữa đội tuyển U23 Việt Nam và U23 Thái Lan sẽ diễn ra lúc 19h tối nay (10/11), trên sân Pleiku (Gia Lai).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "page_sha256": "81de2a13c7adf44f2e347281f962db1c03947ffa314fe65e79212e04863cbb11",
+              "snippet_sha256": "c3e1ff73c27b18dfb3d872201e64efdf9f046e84171008b41c18111e88699301",
+              "verified_at": "2026-11-10T03:52:03.431671+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cầu thủ đủ điều kiện dự SEA Games 34 và U23 châu Á 2028 phải sinh từ năm 2005 trở về sau (21 tuổi).",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo quy định củaSEA Games34 và giải U23 châu Á 2028, các cầu thủ đủ điều kiện tham dự các giải đấu vừa nêu phải sinh năm 2005 trở về sau (năm nay 21 tuổi).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "snippet": "Theo quy định củaSEA Games34 và giải U23 châu Á 2028, các cầu thủ đủ điều kiện tham dự các giải đấu vừa nêu phải sinh năm 2005 trở về sau (năm nay 21 tuổi).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "page_sha256": "81de2a13c7adf44f2e347281f962db1c03947ffa314fe65e79212e04863cbb11",
+              "snippet_sha256": "78b9f54ed39bfb857dbb0743b6ecb0cc50ced9815f133a22896c4e042f85a53e",
+              "verified_at": "2026-11-10T03:52:03.431671+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "U23 Việt Nam vắng loạt cầu thủ quá tuổi từng dự các giải trước như Trung Kiên, Khuất Văn Khang, Hiểu Minh, Đình Bắc, Thanh Nhàn, Quốc Việt.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Những người đã chia tay đội tuyển U23 Việt Nam có thủ môn Trung Kiên, hậu vệ phải Minh Phúc, hậu vệ trái Khuất Văn Khang, trung vệ Hiểu Minh, Lý Đức, Nhật Minh, tiền vệ Xuân Bắc, Quốc Cường, tiền đạo Đình Bắc, Thanh Nhàn, Ngọc Mỹ, Quốc Việt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "snippet": "Những người đã chia tay đội tuyển U23 Việt Nam có thủ môn Trung Kiên, hậu vệ phải Minh Phúc, hậu vệ trái Khuất Văn Khang, trung vệ Hiểu Minh, Lý Đức, Nhật Minh, tiền vệ Xuân Bắc, Quốc Cường, tiền đạo Đình Bắc, Thanh Nhàn, Ngọc Mỹ, Quốc Việt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
+              "page_sha256": "81de2a13c7adf44f2e347281f962db1c03947ffa314fe65e79212e04863cbb11",
+              "snippet_sha256": "de765906baa2e4d016b91a2c6bc0bf7583e848263f392ec0f07a1fbb77664ee6",
+              "verified_at": "2026-11-10T03:52:03.431671+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước chuyển giao lực lượng bắt buộc của cả U23 Việt Nam và U23 Thái Lan do giới hạn độ tuổi. Cung cấp bức tranh toàn cảnh về những gương mặt trẻ mới được triệu tập thay thế.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-10T03:52:03.432373+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "19",
+        "2005",
+        "2027",
+        "2028",
+        "21",
+        "23",
+        "33",
+        "34"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-10T03:52:03.433830+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 6,
+          "words": 438,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1985
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
