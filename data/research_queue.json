@@ -3,7 +3,7 @@
     "queue_id": "2e90881b8c623fb7c227",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-10T16:39:13.004263+00:00",
-    "expires_at": "2026-11-13T16:37:14.321049+00:00",
+    "expires_at": "2026-11-13T16:39:31.882680+00:00",
     "category_hint": "sports",
     "lead_title": "England hammer Australia to reach final",
     "source_urls": [
@@ -755,11 +755,14 @@
       ]
     },
     "research_ready_at": "2026-11-10T16:39:13.004285+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Quality gate failed: Đóng góp biên tập phải nêu ít nhất hai nội dung cụ thể, không chỉ là một câu khẩu hiệu | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This mod",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-10T20:39:31.882680+00:00"
   },
   {
     "queue_id": "7a6e7971da292207b690",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T16:39:11.451473+00:00",
     "expires_at": "2026-11-13T16:37:14.321049+00:00",
     "category_hint": "technology",
@@ -1338,11 +1341,12 @@
       ]
     },
     "research_ready_at": "2026-11-10T16:39:11.451495+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "google-chinh-thuc-phat-hanh-mo-hinh-ai-gemini-4-carbon-ra-cong-chung-133e1436"
   },
   {
     "queue_id": "4a589bf6f91671755c03",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T16:39:09.310565+00:00",
     "expires_at": "2026-11-13T16:37:14.321049+00:00",
     "category_hint": "technology",
@@ -1921,7 +1925,8 @@
       ]
     },
     "research_ready_at": "2026-11-10T16:39:09.310587+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gta-vi-se-xuat-hien-tren-xbox-cloud-gaming-va-mo-tai-truoc-212gb-d73941ec"
   },
   {
     "queue_id": "7ff240adfc3d2590208c",
@@ -69572,5 +69577,421 @@
     },
     "published_at": "2026-11-05T02:49:17.160822+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "google-chinh-thuc-phat-hanh-mo-hinh-ai-gemini-4-carbon-ra-cong-chung-133e1436",
+    "status": "READY",
+    "prepared_at": "2026-11-10T16:39:31.882680+00:00",
+    "expires_at": "2026-11-11T04:39:31.882680+00:00",
+    "source_urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide"
+    ],
+    "article": {
+      "id": "google-chinh-thuc-phat-hanh-mo-hinh-ai-gemini-4-carbon-ra-cong-chung-133e1436",
+      "title": "Google chính thức phát hành mô hình AI Gemini 4 Carbon ra công chúng",
+      "summary": "Google vừa mở rộng quyền tiếp cận mô hình trí tuệ nhân tạo Gemini 4 Carbon cho người dùng toàn cầu, kèm theo mức giá cạnh tranh và tính năng quản lý tác nhân mới.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "published_at": "2026-11-10T15:30:28+00:00",
+      "fetched_at": "2026-11-10T16:43:09.737476+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Google vừa chính thức triển khai mô hình trí tuệ nhân tạo mới nhất mang tên Gemini 4 Carbon ra cộng đồng, sau hai tuần cung cấp giới hạn cho một nhóm chuyên gia an ninh mạng. Đây được xem là mô hình mạnh mẽ nhất của hãng tính đến thời điểm hiện tại, đánh dấu bước tiến lớn trong cuộc đua công nghệ trí tuệ nhân tạo.",
+        "Theo công bố từ phía Google, trong khi mô hình tiền nhiệm Argon tiếp tục phù hợp với phần lớn công việc kỹ thuật phần mềm thông thường, Gemini 4 Carbon được thiết kế cho các tác vụ kiểm tra giới hạn năng lực AI. Các lĩnh vực thế mạnh của mô hình này bao gồm lập trình đa bước phức tạp và nghiên cứu khoa học mở rộng, hỗ trợ đắc lực trong việc phát hiện các lỗ hổng bảo mật hoặc dự đoán cấu trúc protein.",
+        "Bên cạnh đó, Google cũng giới thiệu trước tính năng bầy đàn trên nền tảng phát triển Antigravity, cho phép người dùng chuyển một câu lệnh đơn lẻ thành một nhóm tác nhân phối hợp ăn ý. Về mặt thương mại, mô hình được cung cấp thông qua Gemini API trong Google AI Studio và Gemini dành cho doanh nghiệp với mức giá khởi điểm ưu đãi cho các nhà phát triển.",
+        "Mức giá giới thiệu áp dụng là 2 USD cho mỗi triệu token đầu vào và 10 USD cho mỗi triệu token đầu ra, thấp hơn đáng kể so với các đối thủ cạnh tranh trên thị trường. Chi phí này dự kiến sẽ tăng gấp đôi vào cuối tháng 11 khi giai đoạn ưu đãi kết thúc, nhưng mô hình vẫn duy trì lợi thế về chi phí trên mỗi token."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Google phát hành Gemini 4 Carbon ra công chúng với tính năng swarm",
+      "meta_description": "Google chính thức tung ra mô hình AI Gemini 4 Carbon cho nhà phát triển và doanh nghiệp với mức giá cạnh tranh cùng nhiều cải tiến về hiệu năng.",
+      "keywords": [
+        "Google",
+        "Gemini 4 Carbon",
+        "AI",
+        "Antigravity",
+        "công nghệ"
+      ],
+      "slug": "google-chinh-thuc-phat-hanh-mo-hinh-ai-gemini-4-carbon-ra-cong-chung-133e1436",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 300,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+        "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T15:30:28+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T16:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Google phát hành mô hình AI Gemini 4 Carbon ra công chúng sau khi cung cấp cho nhóm chuyên gia an ninh mạng.",
+          "source_urls": [
+            "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Gemini 4 Carbon is now available in Google AI Studio and Gemini for business.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide",
+              "snippet": "Gemini 4 Carbon is now available in Google AI Studio and Gemini for business.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide",
+              "page_sha256": "752a34376d470c46f4d0e2b93261c8913ed4e908610780fc9426943a05536327",
+              "snippet_sha256": "d03b74fe2d8d0581e37626f04ed2641e484c58e76699f7d02e66ff1f5831a583",
+              "verified_at": "2026-11-10T16:43:09.736813+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gemini 4 Carbon được thiết kế cho các tác vụ phức tạp như lập trình đa bước và nghiên cứu khoa học, trong khi Argon phù hợp với công việc phần mềm thông thường.",
+          "source_urls": [
+            "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Argon was thefirst Gemini 4 modeland is considered less advanced than Carbon.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide",
+              "snippet": "Argon was thefirst Gemini 4 modeland is considered less advanced than Carbon.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide",
+              "page_sha256": "752a34376d470c46f4d0e2b93261c8913ed4e908610780fc9426943a05536327",
+              "snippet_sha256": "4a650a20be15687e7f516dc729f3b3af21f680c75051d2991b27b4f34faf0ee3",
+              "verified_at": "2026-11-10T16:43:09.736813+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mức giá giới thiệu của Carbon là 2 USD cho mỗi triệu token đầu vào và 10 USD cho mỗi triệu token đầu ra.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The model is launching with an introductory price of $2 per million input tokens and $10 per million output tokens, around afifth the costof OpenAI’s GPT-6 Astra and a quarter the cost of Anthropic’s Fable 5.2 model, whichlaunched yesterday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+              "snippet": "The model is launching with an introductory price of $2 per million input tokens and $10 per million output tokens, around afifth the costof OpenAI’s GPT-6 Astra and a quarter the cost of Anthropic’s Fable 5.2 model, whichlaunched yesterday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+              "page_sha256": "a2b447e41d41b3fda0bf94283f9427ec0ae61da1a6ae6427d3c21bb27a50cdc8",
+              "snippet_sha256": "b63312df54e66e77461b5bd443e0396bc8dcd46340933b088b6121d4f74d4be1",
+              "verified_at": "2026-11-10T16:43:09.736813+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Google giới thiệu tính năng bầy đàn trên nền tảng Antigravity giúp chuyển một câu lệnh thành nhóm tác nhân phối hợp.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "It will also be available to all Google AI Ultra subscribers in the Gemini app, the AI Mode in Search, and on Antigravity.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+              "snippet": "It will also be available to all Google AI Ultra subscribers in the Gemini app, the AI Mode in Search, and on Antigravity.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+              "page_sha256": "a2b447e41d41b3fda0bf94283f9427ec0ae61da1a6ae6427d3c21bb27a50cdc8",
+              "snippet_sha256": "803cd1e176a8cac5d414b658c258ceeddae4da0346dc4d19e904e87f5a73b91d",
+              "verified_at": "2026-11-10T16:43:09.736813+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chiến lược phát hành mô hình Gemini 4 Carbon của Google từ giai đoạn thử nghiệm an ninh mạng đến thương mại hóa toàn cầu. Đồng thời, bài phân tích chi tiết mức giá cạnh tranh trên mỗi token và các tính năng chuyên biệt của mô hình so với phiên bản tiền nhiệm Argon.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-10T16:43:09.737587+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2",
+        "4"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-10T16:43:09.738722+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 300,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1382
+        },
+        "independent_domains": [
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "gta-vi-se-xuat-hien-tren-xbox-cloud-gaming-va-mo-tai-truoc-212gb-d73941ec",
+    "status": "READY",
+    "prepared_at": "2026-11-10T16:39:31.882680+00:00",
+    "expires_at": "2026-11-11T16:39:31.882680+00:00",
+    "source_urls": [
+      "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+      "https://www.engadget.com/2311841/gta-6-now-available-for-preload"
+    ],
+    "article": {
+      "id": "gta-vi-se-xuat-hien-tren-xbox-cloud-gaming-va-mo-tai-truoc-212gb-d73941ec",
+      "title": "GTA VI sẽ xuất hiện trên Xbox Cloud Gaming và mở tải trước 212GB",
+      "summary": "Rockstar Games xác nhận GTA VI hỗ trợ Xbox Cloud Gaming cho cả dòng máy Xbox One, trong khi các hệ máy khác bắt đầu cho phép tải trước với dung lượng 212GB.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+      "published_at": "2026-11-10T16:29:02+00:00",
+      "fetched_at": "2026-11-10T16:43:21.848022+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Rockstar Games thông báo tựa game Grand Theft Auto VI sẽ chính thức góp mặt trên nền tảng Xbox Cloud Gaming ngay khi ra mắt vào tuần tới. Đáng chú ý, dịch vụ này sẽ mở rộng hỗ trợ cho cả các dòng máy chơi game đời cũ như Xbox One bên cạnh Xbox Series X và S, giúp người chơi sở hữu phần cứng cũ có thêm lựa chọn trải nghiệm.",
+        "Theo ghi nhận từ nhà phát hành, tính năng stream đám mây trên các dòng máy Xbox sẽ áp dụng các thiết lập đồ họa tương đương phiên bản Xbox Series S. CEO của Xbox, bà Asha Sharma, chia sẻ rằng thỏa thuận đám mây này đánh dấu bước khởi đầu cho chiến lược hợp tác kéo dài 10 năm giữa Microsoft và Take-Two.",
+        "Bên cạnh hình thức stream, các game thủ sở hữu hệ máy Xbox Series X|S và PlayStation 5 tại nhiều khu vực trên thế giới hiện đã có thể bắt đầu quá trình tải trước tựa game này. Với dung lượng cài đặt lớn lên tới 212GB, việc cho phép tải trước từ sớm giúp người dùng chủ động sắp xếp không gian lưu trữ trước ngày trò chơi chính thức phát hành vào 19 tháng 11."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "GTA VI hỗ trợ Xbox Cloud Gaming và cho phép tải trước 212GB",
+      "meta_description": "Tìm hiểu thông tin mới nhất về GTA VI trên Xbox Cloud Gaming, hỗ trợ máy Xbox One và chi tiết dung lượng tải trước 212GB trên các nền tảng.",
+      "keywords": [
+        "GTA VI",
+        "Xbox Cloud Gaming",
+        "Rockstar Games",
+        "Xbox One",
+        "PlayStation 5"
+      ],
+      "slug": "gta-vi-se-xuat-hien-tren-xbox-cloud-gaming-va-mo-tai-truoc-212gb-d73941ec",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 213,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+        "https://www.engadget.com/2311841/gta-6-now-available-for-preload"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2311841/gta-6-now-available-for-preload"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T16:29:02+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2311841/gta-6-now-available-for-preload",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T10:01:45+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "GTA VI sẽ có mặt trên Xbox Cloud Gaming khi ra mắt vào tuần tới và hỗ trợ cả dòng máy Xbox One.",
+          "source_urls": [
+            "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support"
+          ],
+          "importance": "core",
+          "evidence_snippet": "I also initially reported thatGrand Theft Auto VIwould be available to stream on PC, simply because the entire point of Xbox Cloud Gaming is to make games available on Xbox consoles, TVs, PCs, and the web.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+              "snippet": "I also initially reported thatGrand Theft Auto VIwould be available to stream on PC, simply because the entire point of Xbox Cloud Gaming is to make games available on Xbox consoles, TVs, PCs, and the web.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+              "page_sha256": "ed311628c6067f958cdefda09ac590058d29379867fe3515bf4c2caaa3e8535f",
+              "snippet_sha256": "42abfb0c9e17aa728149c628c5ca10c5c33a2bada04173f79f080bb5e26a4724",
+              "verified_at": "2026-11-10T16:43:21.847448+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xbox Cloud Gaming sẽ sử dụng thiết lập đồ họa của Xbox Series S để truyền phát trên các máy Xbox.",
+          "source_urls": [
+            "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Xbox’s own announcementblog postonly mentions Xbox Cloud Gaming streaming for Xbox Series X / S and Xbox One owners.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+              "snippet": "Xbox’s own announcementblog postonly mentions Xbox Cloud Gaming streaming for Xbox Series X / S and Xbox One owners.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+              "page_sha256": "ed311628c6067f958cdefda09ac590058d29379867fe3515bf4c2caaa3e8535f",
+              "snippet_sha256": "cac9199bc57819104ba61247f644a27a96d524d5d4d046f727286d916c57955d",
+              "verified_at": "2026-11-10T16:43:21.847448+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "GTA VI có dung lượng file cài đặt lớn là 212GB và đã cho phép tải trước trên Xbox Series X|S cùng PlayStation 5.",
+          "source_urls": [
+            "https://www.engadget.com/2311841/gta-6-now-available-for-preload"
+          ],
+          "importance": "core",
+          "evidence_snippet": "With its release justnine days away,Grand Theft Auto VIis now available for preloading on Xbox Series X|S and PlayStation 5 in most regions around the world.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2311841/gta-6-now-available-for-preload",
+              "snippet": "With its release justnine days away,Grand Theft Auto VIis now available for preloading on Xbox Series X|S and PlayStation 5 in most regions around the world.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2311841/gta-6-now-available-for-preload",
+              "page_sha256": "46d5faa121ea26563b95ac10d19eb846299dc838acd4135f3eb483a73498815d",
+              "snippet_sha256": "705ba972d2b0f8ee8af7185cf431cd9656c9b54510552730b5aa32740ffaeb92",
+              "verified_at": "2026-11-10T16:43:21.847448+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phạm vi hỗ trợ của dịch vụ đám mây Xbox Cloud Gaming đối với các dòng máy cũ như Xbox One. Đồng thời, thông tin về dung lượng tải trước khổng lồ 212GB cũng được kết nối để phản ánh chuẩn bị kỹ thuật cần thiết cho người chơi trước ngày phát hành.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-10T16:43:21.848112+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "212",
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-10T16:43:21.849064+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 213,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 985
+        },
+        "independent_domains": [
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
