@@ -1798,7 +1798,7 @@
   },
   {
     "queue_id": "0c3684d99a4b9e9a4b90",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-10T11:51:45.119789+00:00",
     "expires_at": "2026-11-13T11:49:19.715195+00:00",
     "category_hint": "vietnam",
@@ -3087,7 +3087,8 @@
       ]
     },
     "research_ready_at": "2026-11-10T11:51:45.119811+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bo-truong-xay-dung-giai-trinh-ve-nguon-von-va-phuong-an-thiet-ke-3-tuyen-f49ac739"
   },
   {
     "queue_id": "a1ff903775d27a857af0",
@@ -65653,7 +65654,7 @@
   },
   {
     "queue_id": "coinbase-uoc-cap-phep-hoat-ong-nhu-ngan-hang-tin-thac-quoc-gia-43b8d063",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-10T11:52:17.820122+00:00",
     "expires_at": "2026-11-10T23:52:17.820122+00:00",
     "source_urls": [
@@ -65669,7 +65670,7 @@
       "source_url": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank",
       "published_at": "2026-11-09T13:40:54+00:00",
       "fetched_at": "2026-11-10T11:52:36.214140+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-10T13:00:41.389385+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -65826,27 +65827,37 @@
         "2023"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-10T11:52:36.215611+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-10T13:00:41.389385+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 306,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1427
-        },
-        "independent_domains": [
-          "engadget.com",
-          "techcrunch.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1427,
+          "source_access": [
+            {
+              "url": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "techcrunch.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 20:00"
+    },
+    "published_at": "2026-11-10T13:00:41.389385+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "doanh-thu-thuc-pham-ong-hop-va-nuoc-ong-chai-tang-manh-tai-anh-sau-chien-226952f9",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-10T11:52:17.820122+00:00",
     "expires_at": "2026-11-11T11:52:17.820122+00:00",
     "source_urls": [
@@ -65862,7 +65873,7 @@
       "source_url": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-10T11:43:06+00:00",
       "fetched_at": "2026-11-10T11:52:44.768162+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-10T13:00:41.389385+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -66050,27 +66061,37 @@
         "83"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-10T11:52:44.769486+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-10T13:00:41.389385+00:00",
         "stats": {
           "paragraphs": 6,
           "words": 269,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1237
-        },
-        "independent_domains": [
-          "bbc.com",
-          "cnbc.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1237,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 20:00"
+    },
+    "published_at": "2026-11-10T13:00:41.389385+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "thu-minh-bay-to-niem-tu-hao-ve-truc-nhan-va-huong-tram-b946b225",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-10T11:52:17.820122+00:00",
     "expires_at": "2026-11-11T11:52:17.820122+00:00",
     "source_urls": [
@@ -66086,7 +66107,7 @@
       "source_url": "https://thanhnien.vn/thu-minh-noi-ve-truc-nhan-huong-tram-185261110163930124.htm",
       "published_at": "2026-11-10T11:47:00+00:00",
       "fetched_at": "2026-11-10T11:52:54.092496+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-10T13:00:41.389385+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -66244,22 +66265,244 @@
         "2026"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-10T11:52:54.093464+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-10T13:00:41.389385+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 181,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 797
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 797,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/thu-minh-noi-ve-truc-nhan-huong-tram-185261110163930124.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-10 20:00"
+    },
+    "published_at": "2026-11-10T13:00:41.389385+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "bo-truong-xay-dung-giai-trinh-ve-nguon-von-va-phuong-an-thiet-ke-3-tuyen-f49ac739",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-10T13:00:17.157040+00:00",
+    "expires_at": "2026-11-11T13:00:17.157040+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+      "https://dantri.com.vn/noi-vu/vinh-long-tang-toc-xu-ly-750-tru-so-doi-du-sau-nhap-tinh-sap-xep-bo-may-20261109162032990.htm"
+    ],
+    "article": {
+      "id": "bo-truong-xay-dung-giai-trinh-ve-nguon-von-va-phuong-an-thiet-ke-3-tuyen-f49ac739",
+      "title": "Bộ trưởng Xây dựng giải trình về nguồn vốn và phương án thiết kế 3 tuyến cao tốc hơn 162.000 tỉ đồng",
+      "summary": "Giải trình trước Quốc hội, Bộ trưởng Bộ Xây dựng Trần Hồng Minh cho biết ngân sách Trung ương bố trí khoảng 75% tổng vốn cho 3 dự án cao tốc, đồng thời làm rõ áp lực cân đối ngân sách địa phương và tiêu chuẩn kỹ thuật thiết kế.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+      "published_at": "2026-11-10T11:48:00+00:00",
+      "fetched_at": "2026-11-10T13:00:38.564979+00:00",
+      "appnho_published_at": "2026-11-10T13:00:41.389385+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong phiên thảo luận tại hội trường Quốc hội về chủ trương đầu tư 3 dự án cao tốc gồm Bảo Hà - Lai Châu (đoạn Bảo Hà - Tân Phong), Quảng Ngãi - Kon Tum và Mộc Châu - Sơn La - Điện Biên, vấn đề cân đối vốn ngân sách địa phương đã nhận được nhiều sự quan tâm từ các đại biểu.",
+        "Theo phương án được trình, tổng mức đầu tư cho 3 dự án này cần hơn 162.393 tỉ đồng. Các đại biểu như Nguyễn Thị Việt Nga và Nguyễn Đặng Ân đã bày tỏ băn khoăn về áp lực đối với các tỉnh miền núi có nguồn lực hạn chế như Lai Châu, khi khoản vốn đối ứng dự kiến có thể chiếm tỷ lệ lớn trong kế hoạch ngân sách giai đoạn 2026 - 2030, ảnh hưởng đến các nhiệm vụ thiết yếu khác.",
+        "Giải trình về vấn đề này, Bộ trưởng Bộ Xây dựng Trần Hồng Minh cho biết ngân sách Trung ương đã ưu tiên bố trí 119.398 tỉ đồng, đạt khoảng 75% tổng số vốn. Về phần vốn đối ứng, các địa phương đóng vai trò cơ quan chủ quản đều bố trí ngân sách tham gia, trong đó Quảng Ngãi và Lai Châu đã đồng ý đề xuất bỏ ra 50% kinh phí giải phóng mặt bằng.",
+        "Bên cạnh đó, Bộ trưởng khẳng định các tuyến cao tốc tuân thủ quy chuẩn và tiêu chuẩn thiết kế, với tốc độ thiết kế từ 100 - 120 km/giờ cho các đoạn qua đồng bằng và 80 km/giờ tại các vùng miền núi có địa hình khó khăn để đảm bảo an toàn kỹ thuật."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bộ trưởng Xây dựng nói về 3 cao tốc hơn 162.000 tỉ đồng",
+      "meta_description": "Thông tin chi tiết về việc bố trí ngân sách Trung ương, đối ứng địa phương và tiêu chuẩn thiết kế của 3 dự án cao tốc trọng điểm.",
+      "keywords": [
+        "Bộ trưởng Xây dựng",
+        "cao tốc",
+        "vốn ngân sách",
+        "Quốc hội",
+        "Trần Hồng Minh"
+      ],
+      "slug": "bo-truong-xay-dung-giai-trinh-ve-nguon-von-va-phuong-an-thiet-ke-3-tuyen-f49ac739",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 283,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+        "https://dantri.com.vn/noi-vu/vinh-long-tang-toc-xu-ly-750-tru-so-doi-du-sau-nhap-tinh-sap-xep-bo-may-20261109162032990.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/noi-vu/vinh-long-tang-toc-xu-ly-750-tru-so-doi-du-sau-nhap-tinh-sap-xep-bo-may-20261109162032990.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T11:48:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/noi-vu/vinh-long-tang-toc-xu-ly-750-tru-so-doi-du-sau-nhap-tinh-sap-xep-bo-may-20261109162032990.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T06:44:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bộ trưởng Bộ Xây dựng cho biết 3 dự án cao tốc Bảo Hà - Lai Châu, Quảng Ngãi - Kon Tum và Mộc Châu - Sơn La - Điện Biên cần hơn 162.393 tỉ đồng vốn ngân sách.",
+          "source_urls": [
+            "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Mai Hà10/11/2026 18:48 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Bộ trưởng Bộ Xây dựng cho biết, 3 dự án cao tốc Bảo Hà - Lai Châu, đoạn Bảo Hà - Tân Phong; Quảng Ngãi - Kon Tum và Mộc Châu - Sơn La - Điện Biên cần hơn 162.393 tỉ đồng vốn ngân sách.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "snippet": "Mai Hà10/11/2026 18:48 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Bộ trưởng Bộ Xây dựng cho biết, 3 dự án cao tốc Bảo Hà - Lai Châu, đoạn Bảo Hà - Tân Phong; Quảng Ngãi - Kon Tum và Mộc Châu - Sơn La - Điện Biên cần hơn 162.393 tỉ đồng vốn ngân sách.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "page_sha256": "11423f2d83149628588d5ef3d25df8acf74000000e5854c0ff3207f5feb18a3e",
+              "snippet_sha256": "a3104eaed35a6958099fea542368325b4daf6670127fb4ae6243ee8689a11f47",
+              "verified_at": "2026-11-10T13:00:38.564007+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ngân sách Trung ương đã ưu tiên bố trí 119.398 tỉ đồng trên tổng số hơn 162.393 tỉ đồng, đạt tỷ lệ khoảng 75%.",
+          "source_urls": [
+            "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Giải trình sau đó, về khả năng cân đối vốn địa phương, Bộ trưởng Bộ Xây dựng Trần Hồng Minh cho biết, ngân sách Trung ương đã ưu tiên cân đối, bố trí 119.398 tỉ đồng trên tổng số hơn 162.393 tỉ đồng (đạt tỷ lệ khoảng 75%).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "snippet": "Giải trình sau đó, về khả năng cân đối vốn địa phương, Bộ trưởng Bộ Xây dựng Trần Hồng Minh cho biết, ngân sách Trung ương đã ưu tiên cân đối, bố trí 119.398 tỉ đồng trên tổng số hơn 162.393 tỉ đồng (đạt tỷ lệ khoảng 75%).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "page_sha256": "11423f2d83149628588d5ef3d25df8acf74000000e5854c0ff3207f5feb18a3e",
+              "snippet_sha256": "ddc9297553bbc58253f40a4b432c83d914743afad4c5ea65ca7dcad61c4d97f7",
+              "verified_at": "2026-11-10T13:00:38.564007+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tỉnh Lai Châu dự kiến bố trí khoảng 2.004 tỉ đồng, tương đương 38,7% kế hoạch vốn ngân sách địa phương giai đoạn 2026 - 2030.",
+          "source_urls": [
+            "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tài liệu tổng hợp sơ bộ về 7 dự án cao tốc do địa phương quản lý cho thấy khoản này tương đương 38,7% kế hoạch vốn ngân sách địa phương giai đoạn 2026 - 2030 của Lai Châu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "snippet": "Tài liệu tổng hợp sơ bộ về 7 dự án cao tốc do địa phương quản lý cho thấy khoản này tương đương 38,7% kế hoạch vốn ngân sách địa phương giai đoạn 2026 - 2030 của Lai Châu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "page_sha256": "11423f2d83149628588d5ef3d25df8acf74000000e5854c0ff3207f5feb18a3e",
+              "snippet_sha256": "7c8d67ef5913ca9572604f19f33008e56540ae2d666dc7beb88e4b32ba1a989a",
+              "verified_at": "2026-11-10T13:00:38.564007+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ tỷ lệ phân bổ giữa ngân sách Trung ương và địa phương đối với 3 dự án cao tốc trọng điểm. Đồng thời, văn bản phản ánh ý kiến băn khoăn của đại biểu Quốc hội cùng phần giải trình chính thức của Bộ trưởng Bộ Xây dựng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-10T13:00:38.565081+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "119.398",
+        "120",
+        "162.393",
+        "2030",
+        "3",
+        "50",
+        "75",
+        "80"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-10T13:00:41.389385+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 283,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1235,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-10 20:00"
+    },
+    "published_at": "2026-11-10T13:00:41.389385+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

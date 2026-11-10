@@ -331,5 +331,14 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-10 20:00",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-10T13:00:41.389385+00:00",
+    "prepared_candidates": 12,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]
