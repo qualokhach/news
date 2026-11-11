@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "d8ecc3413a36da109d43",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:57.177062+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "world",
@@ -856,11 +856,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:57.177084+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747"
   },
   {
     "queue_id": "2497f20fe15875f54899",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:54.381005+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "sports",
@@ -1658,11 +1659,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:54.381029+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuu-ky-si-tom-obrien-qua-oi-o-tuoi-39-088dca1a"
   },
   {
     "queue_id": "94e3d9b5f23e18d6b2d8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:51.015051+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "sports",
@@ -2197,7 +2199,8 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:51.015073+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "fifa-thay-oi-quy-tac-boc-tham-world-cup-nu-2027-876d0c39"
   },
   {
     "queue_id": "89ab4b73920cb4fb8514",
@@ -80146,5 +80149,674 @@
     },
     "published_at": "2026-11-07T11:21:24.353035+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747",
+    "status": "READY",
+    "prepared_at": "2026-11-11T16:41:16.980183+00:00",
+    "expires_at": "2026-11-12T16:41:16.980183+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+      "https://www.euronews.com/2026/11/09/russia-hiv-spreads-beyond-risk-groups-in-27-regions-epidemiologists-say",
+      "https://www.france24.com/en/europe/20261109-we-call-it-war-life-balance-daryna-s-daily-struggle-to-live-survive-in-wartime-ukraine",
+      "https://www.aljazeera.com/news/2026/11/10/why-is-india-trying-to-broker-a-russia-ukraine-black-sea-food-corridor?traffic_source=rss",
+      "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747",
+      "title": "Nga và Ukraine đạt thỏa thuận trao đổi tù binh quy mô lớn",
+      "summary": "Sau hai ngày đàm phán tại Abu Dhabi dưới sự trung gian của Mỹ, Nga và Ukraine đã thống nhất thực hiện đợt trao đổi tù binh nhân đạo lớn nhất kể từ khi xung đột bắt đầu vào năm 2022.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+      "published_at": "2026-11-11T13:30:00+00:00",
+      "fetched_at": "2026-11-11T16:41:59.124657+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong một diễn biến ngoại giao đáng chú ý, các quan chức từ Nga và Ukraine xác nhận hai bên đã đạt được thỏa thuận về một đợt trao đổi tù binh quy mô lớn. Quyết định này được đưa ra sau hai ngày đàm phán tại Abu Dhabi, Các Tiểu vương quốc Ả Rập Thống nhất, với sự tham gia trung gian từ phía Mỹ. Đây được xem là đợt giải phóng nhân đạo lớn nhất kể từ khi cuộc xung đột giữa hai quốc gia bùng nổ vào năm 2022.",
+        "Jared Kushner, đại diện phía Mỹ, cho biết các bên đã thống nhất về nguyên tắc và sẽ hoàn tất con số cụ thể trong thời gian tới. Phía Nga, đứng đầu là ông Vladimir Medinsky, và phía Ukraine, dẫn đầu bởi ông Rustem Umerov, đều xác nhận kế hoạch này. Cuộc gặp tại Abu Dhabi đánh dấu lần đầu tiên các phái đoàn hai nước ngồi lại đàm phán trực tiếp sau khoảng thời gian gián đoạn kéo dài chín tháng.",
+        "Mặc dù đạt được thỏa thuận về vấn đề nhân đạo, các nhà quan sát lưu ý rằng triển vọng về một lệnh ngừng bắn toàn diện vẫn còn rất xa vời. Ngoại trưởng Mỹ Marco Rubio đánh giá cuộc họp là \"rất hiệu quả\" nhưng cũng thận trọng cảnh báo rằng việc đạt được đột phá để chấm dứt chiến tranh sẽ cần thêm nhiều thời gian. Hiện tại, cả hai bên vẫn giữ lập trường cứng rắn và chưa có dấu hiệu sẵn sàng nhượng bộ đối với các yêu cầu cốt lõi của nhau.",
+        "Bối cảnh đàm phán lần này diễn ra trong tình trạng căng thẳng leo thang trên thực địa. Trong khi các cuộc thảo luận diễn ra, giao tranh vẫn tiếp diễn dọc theo tiền tuyến. Nga tiếp tục các đợt tấn công bằng tên lửa và máy bay không người lái vào cơ sở hạ tầng năng lượng của Ukraine, trong khi Ukraine cũng đáp trả bằng các đòn tấn công tầm xa vào các mục tiêu quân sự và hạ tầng dầu khí của Nga. Sự kiện này cho thấy dù các kênh đối thoại nhân đạo đang được khơi thông, con đường dẫn đến hòa bình bền vững vẫn đối mặt với nhiều thách thức phức tạp."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Nga và Ukraine thỏa thuận trao đổi tù binh lớn tại Abu Dhabi",
+      "meta_description": "Nga và Ukraine vừa đạt được thỏa thuận trao đổi tù binh quy mô lớn sau các cuộc đàm phán do Mỹ làm trung gian tại Abu Dhabi, đánh dấu bước tiến nhân đạo quan tr",
+      "keywords": [
+        "Nga",
+        "Ukraine",
+        "trao đổi tù binh",
+        "Abu Dhabi",
+        "đàm phán"
+      ],
+      "slug": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 390,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+        "https://www.euronews.com/2026/11/09/russia-hiv-spreads-beyond-risk-groups-in-27-regions-epidemiologists-say",
+        "https://www.france24.com/en/europe/20261109-we-call-it-war-life-balance-daryna-s-daily-struggle-to-live-survive-in-wartime-ukraine",
+        "https://www.aljazeera.com/news/2026/11/10/why-is-india-trying-to-broker-a-russia-ukraine-black-sea-food-corridor?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/09/russia-hiv-spreads-beyond-risk-groups-in-27-regions-epidemiologists-say",
+        "https://www.france24.com/en/europe/20261109-we-call-it-war-life-balance-daryna-s-daily-struggle-to-live-survive-in-wartime-ukraine",
+        "https://www.aljazeera.com/news/2026/11/10/why-is-india-trying-to-broker-a-russia-ukraine-black-sea-food-corridor?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T13:30:00+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/09/russia-hiv-spreads-beyond-risk-groups-in-27-regions-epidemiologists-say",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T09:39:39+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/europe/20261109-we-call-it-war-life-balance-daryna-s-daily-struggle-to-live-survive-in-wartime-ukraine",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T09:10:50+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/10/why-is-india-trying-to-broker-a-russia-ukraine-black-sea-food-corridor?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T15:04:30+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-05T19:08:08+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nga và Ukraine đã đồng ý thực hiện một đợt trao đổi tù binh quy mô lớn sau các cuộc đàm phán tại Abu Dhabi.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "snippet": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "page_sha256": "187cb73c9a553d421b873150926ddf5532fc3ac423279606e3a8fb7b2860408e",
+              "snippet_sha256": "d10780440d86ffc1037288c5563a732553d0e751935083346acd4decf51b643d",
+              "verified_at": "2026-11-11T16:41:59.124055+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cuộc đàm phán tại Abu Dhabi được Mỹ làm trung gian và đây là đợt trao đổi nhân đạo lớn nhất kể từ năm 2022.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+          ],
+          "importance": "core",
+          "evidence_snippet": "U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began in 2022.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "snippet": "U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began in 2022.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "page_sha256": "187cb73c9a553d421b873150926ddf5532fc3ac423279606e3a8fb7b2860408e",
+              "snippet_sha256": "7352382a06cc12accad7f99f1819ec342147fd52661d07d833201bfc374e2a87",
+              "verified_at": "2026-11-11T16:41:59.124055+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phái đoàn Nga do Vladimir Medinsky dẫn đầu và phái đoàn Ukraine do Rustem Umerov dẫn đầu đã xác nhận kế hoạch trao đổi.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Vladimir Medinsky, the head of the Russian delegation, and Rustem Umerov, who led Kyiv's delegation in Abu Dhabi, confirmed the planned exchange.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "snippet": "Vladimir Medinsky, the head of the Russian delegation, and Rustem Umerov, who led Kyiv's delegation in Abu Dhabi, confirmed the planned exchange.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "page_sha256": "187cb73c9a553d421b873150926ddf5532fc3ac423279606e3a8fb7b2860408e",
+              "snippet_sha256": "32e473b4d1f7ed989dfd45d3fcf09241ce94465dfc3b9f9aae2b38a957fae422",
+              "verified_at": "2026-11-11T16:41:59.124055+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh đàm phán tại Abu Dhabi trong mối tương quan với tình hình chiến sự thực tế. Đồng thời, bài phân tích giới hạn của thỏa thuận nhân đạo này so với mục tiêu hòa bình dài hạn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T16:41:59.124764+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2022"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T16:41:59.126694+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 390,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1788
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "euronews.com",
+          "france24.com",
+          "npr.org"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cuu-ky-si-tom-obrien-qua-oi-o-tuoi-39-088dca1a",
+    "status": "READY",
+    "prepared_at": "2026-11-11T16:41:16.980183+00:00",
+    "expires_at": "2026-11-12T16:41:16.980183+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39",
+      "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+      "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "cuu-ky-si-tom-obrien-qua-oi-o-tuoi-39-088dca1a",
+      "title": "Cựu kỵ sĩ Tom O’Brien qua đời ở tuổi 39",
+      "summary": "Cộng đồng đua ngựa thế giới đang bày tỏ niềm tiếc thương sâu sắc trước sự ra đi của Tom O’Brien, kỵ sĩ từng giành nhiều chiến thắng tại Cheltenham Festival, sau thời gian dài chiến đấu với căn bệnh ung thư.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39",
+      "published_at": "2026-11-11T14:20:58+00:00",
+      "fetched_at": "2026-11-11T16:43:31.328875+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giới đua ngựa Anh và Ireland đang chìm trong không khí tang thương sau khi thông tin kỵ sĩ Tom O’Brien qua đời ở tuổi 39 được xác nhận. Ông ra đi sau một thời gian dài kiên cường chiến đấu với căn bệnh ung thư, để lại niềm tiếc thương lớn cho gia đình, bạn bè và đồng nghiệp trong môn thể thao này.",
+        "Trong suốt sự nghiệp kéo dài hai thập kỷ, O’Brien đã khẳng định vị thế là một trong những kỵ sĩ đáng tin cậy nhất. Ông ghi dấu ấn với hơn 1.000 chiến thắng trong các cuộc đua vượt rào, bao gồm năm danh hiệu Grade One danh giá và hai chiến thắng tại Cheltenham Festival. Những thành tựu nổi bật của ông bao gồm các chiến thắng tại Stayers’ Hurdle ở Aintree và Kauto Star Novice Chase ở Kempton cùng ngựa đua Thyme Hill. Ngoài ra, ông còn được nhớ đến với chiến thắng đầy cảm hứng cùng Dream Alliance tại giải Welsh Grand National năm 2009, câu chuyện sau đó đã truyền cảm hứng cho bộ phim điện ảnh Dream Horse.",
+        "Gắn bó phần lớn sự nghiệp với lò huấn luyện của Philip Hobbs gần Minehead, O’Brien được đồng nghiệp và các huấn luyện viên đánh giá cao không chỉ bởi tài năng trên yên ngựa mà còn bởi nhân cách tốt đẹp. Sau khi giải nghệ vào tháng 4 năm 2023, ông đã chuyển sang vai trò mới trong đội ngũ giám sát của Cơ quan Đua ngựa Anh (BHA).",
+        "Brant Dunshea, Giám đốc điều hành BHA, chia sẻ rằng sự ra đi của O’Brien là một mất mát to lớn đối với cộng đồng đua ngựa. Ông được nhớ đến như một người đồng nghiệp tận tụy, một người bạn trung thành và một người cha, người chồng mẫu mực. Sự ra đi của ông ở tuổi 39, khi vẫn còn nhiều dự định dang dở, đã để lại khoảng trống khó bù đắp trong lòng những người hâm mộ và những người từng có cơ hội làm việc cùng ông trên cả hai bờ biển Ireland."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Kỵ sĩ Tom O’Brien qua đời ở tuổi 39 sau thời gian chiến đấu với ung th",
+      "meta_description": "Tom O’Brien, kỵ sĩ nổi tiếng với hơn 1.000 chiến thắng trong sự nghiệp, đã qua đời ở tuổi 39. Ông từng giành nhiều danh hiệu Grade One và gắn bó lâu dài với môn",
+      "keywords": [
+        "Tom O'Brien",
+        "đua ngựa",
+        "Cheltenham Festival",
+        "kỵ sĩ",
+        "thể thao"
+      ],
+      "slug": "cuu-ky-si-tom-obrien-qua-oi-o-tuoi-39-088dca1a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 356,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39",
+        "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+        "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+        "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T14:20:58+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T10:31:00+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T13:29:41+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tom O’Brien qua đời ở tuổi 39 sau thời gian chiến đấu với bệnh ung thư.",
+          "source_urls": [
+            "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Multiple Grade One-winning jockey Tom O’Brien has died at the age of 39.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+              "snippet": "Multiple Grade One-winning jockey Tom O’Brien has died at the age of 39.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+              "page_sha256": "9a1bb8414504216436182384da0cc862954cf49b06f0d70787ff5506cd42abec",
+              "snippet_sha256": "6a8080c8f64f93eeb940f4128eb2bbb8836c750b8f1e173922b22489c4035a38",
+              "verified_at": "2026-11-11T16:43:31.328399+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "O’Brien đã giành hơn 1.000 chiến thắng trong sự nghiệp đua ngựa vượt rào.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tom O’Brien, who rode more than 1,000 winners over jumps including five Grade Ones and two at the Cheltenham festival, has died at the age of 39 after being diagnosed with cancer.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39",
+              "snippet": "Tom O’Brien, who rode more than 1,000 winners over jumps including five Grade Ones and two at the Cheltenham festival, has died at the age of 39 after being diagnosed with cancer.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/11/jockey-tom-obrien-cheltenham-festival-winner-horse-racing-dies-aged-39",
+              "page_sha256": "f1150fd0574cfd6095f63e2639a42e0b28d6fda174d63de5f0def9c2fd67cf67",
+              "snippet_sha256": "e7525abf2089a6f5fd96e2910989e616da5d483e941e8a7d58aa61a4cc154037",
+              "verified_at": "2026-11-11T16:43:31.328399+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông giải nghệ vào tháng 4 năm 2023 và sau đó làm việc cho đội ngũ giám sát của BHA.",
+          "source_urls": [
+            "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "O'Brien, who retired from the saddle in April 2023, rose to prominence with trainers Peter Bowen and Philip Hobbs and enjoyed a breakthrough season in 2006/07 with over 100 winners in that campaign.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+              "snippet": "O'Brien, who retired from the saddle in April 2023, rose to prominence with trainers Peter Bowen and Philip Hobbs and enjoyed a breakthrough season in 2006/07 with over 100 winners in that campaign.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/racing/news/12040/13610855/tom-obrien-cheltenham-festival-winning-jockey-dies-aged-39",
+              "page_sha256": "9a1bb8414504216436182384da0cc862954cf49b06f0d70787ff5506cd42abec",
+              "snippet_sha256": "711aa7d4b35c6c4cdba0a6b9531cb2ca3b1c69bf3a125d14ce9b1bffe9564397",
+              "verified_at": "2026-11-11T16:43:31.328399+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp sự nghiệp lẫy lừng của Tom O’Brien từ các nguồn tin uy tín, làm rõ tầm ảnh hưởng của ông đối với môn đua ngựa. Đồng thời, bài viết kết nối các cột mốc chuyên môn với những đánh giá từ đồng nghiệp để khắc họa chân dung một kỵ sĩ tài năng và nhân cách.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T16:43:31.328973+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.000",
+        "2009",
+        "2023",
+        "39"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T16:43:31.330103+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 356,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1678
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "fifa-thay-oi-quy-tac-boc-tham-world-cup-nu-2027-876d0c39",
+    "status": "READY",
+    "prepared_at": "2026-11-11T16:41:16.980183+00:00",
+    "expires_at": "2026-11-12T16:41:16.980183+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+      "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "fifa-thay-oi-quy-tac-boc-tham-world-cup-nu-2027-876d0c39",
+      "title": "FIFA thay đổi quy tắc bốc thăm World Cup nữ 2027",
+      "summary": "FIFA vừa xác nhận thay đổi quan trọng trong quy trình bốc thăm World Cup nữ 2027, nhằm tách biệt bốn đội dẫn đầu bảng xếp hạng thế giới cho đến vòng bán kết.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+      "published_at": "2026-11-11T16:03:44+00:00",
+      "fetched_at": "2026-11-11T16:43:52.026778+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Liên đoàn Bóng đá Thế giới (FIFA) vừa chính thức xác nhận một thay đổi quan trọng trong quy trình bốc thăm cho giải vô địch bóng đá nữ thế giới 2027. Theo đó, bốn đội tuyển có thứ hạng cao nhất trên bảng xếp hạng FIFA sẽ được tách biệt ở các nhánh đấu khác nhau cho đến vòng bán kết. Điều kiện tiên quyết để quy tắc này được kích hoạt là các đội bóng phải giành quyền đứng đầu bảng đấu của mình tại vòng chung kết.",
+        "Thể thức này được áp dụng tương tự như cách FIFA đã triển khai tại World Cup nam 2026. Hiện tại, Tây Ban Nha, Mỹ, Đức và Anh đang là bốn đội dẫn đầu bảng xếp hạng thế giới. Tuy nhiên, danh sách các đội hạt giống chính thức sẽ được chốt dựa trên bảng xếp hạng cập nhật ngày 7 tháng 12 tới, ngay trước thời điểm lễ bốc thăm diễn ra vào ngày 11 tháng 12 tại Rio de Janeiro.",
+        "Việc áp dụng quy tắc này nhằm đảm bảo tính cạnh tranh cao nhất cho giải đấu. Nếu các đội hạt giống duy trì được vị thế và giành quyền vào vòng trong, người hâm mộ sẽ chỉ có thể chứng kiến các cuộc đối đầu trực tiếp giữa họ từ vòng bán kết trở đi. Trong khi đó, Brazil với tư cách là chủ nhà đã được mặc định vào bảng A và sẽ tham gia trận khai mạc tại sân vận động Maracanã vào ngày 24 tháng 6 năm 2027.",
+        "Hiện tại, một số đội bóng hàng đầu như Mỹ và Anh vẫn đang trong quá trình hoàn tất thủ tục giành vé tham dự giải đấu. Các đội tuyển còn lại trong nhóm hạt giống dự kiến sẽ bao gồm Pháp, Brazil, Thụy Điển cùng các đội bóng có thứ hạng cao khác, tùy thuộc vào kết quả các trận đấu vòng loại cuối cùng."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "FIFA thay đổi quy tắc bốc thăm World Cup nữ 2027",
+      "meta_description": "FIFA áp dụng quy tắc tách biệt bốn đội hạt giống hàng đầu tại World Cup nữ 2027, tương tự như thể thức đã áp dụng tại giải đấu nam năm 2026.",
+      "keywords": [
+        "FIFA",
+        "World Cup nữ 2027",
+        "bốc thăm",
+        "bóng đá nữ"
+      ],
+      "slug": "fifa-thay-oi-quy-tac-boc-tham-world-cup-nu-2027-876d0c39",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 330,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+        "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T16:03:44+00:00"
+        },
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T18:33:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "FIFA xác nhận bốn đội dẫn đầu bảng xếp hạng sẽ được tách biệt đến bán kết tại World Cup nữ 2027 nếu họ đứng đầu bảng đấu.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The top four-ranked teams will be separated until the semi-finals at the 2027 Women’s World Cup, provided they each win their group, after a change to the tournament’s draw procedure was confirmed by Fifa.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+              "snippet": "The top four-ranked teams will be separated until the semi-finals at the 2027 Women’s World Cup, provided they each win their group, after a change to the tournament’s draw procedure was confirmed by Fifa.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+              "page_sha256": "5d5ce3524cdc83dfe89b99abb1b0c33cb2e1e76ab6182b6666ab08e2a5559845",
+              "snippet_sha256": "423fc18df65100e1f071bd13deb941a5701c09ce47f08c91e8a0fa1c5cd1cad4",
+              "verified_at": "2026-11-11T16:43:52.026345+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lễ bốc thăm World Cup nữ 2027 sẽ diễn ra vào ngày 11 tháng 12 tại Rio de Janeiro.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women’s World Cup",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+              "snippet": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women’s World Cup",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+              "page_sha256": "5d5ce3524cdc83dfe89b99abb1b0c33cb2e1e76ab6182b6666ab08e2a5559845",
+              "snippet_sha256": "22caad06c962581f39aaa804c73b244efa025f052cb98d3bafebf92928ded812",
+              "verified_at": "2026-11-11T16:43:52.026345+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Brazil là nước chủ nhà và sẽ thi đấu trận khai mạc tại sân Maracanã vào ngày 24 tháng 6.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Brazil, as hosts, will be placed into Group A and will contest the opening match at the Maracanã on 24 June.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+              "snippet": "Brazil, as hosts, will be placed into Group A and will contest the opening match at the Maracanã on 24 June.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
+              "page_sha256": "5d5ce3524cdc83dfe89b99abb1b0c33cb2e1e76ab6182b6666ab08e2a5559845",
+              "snippet_sha256": "de4849d7a502cc6ffc2f1f21a3fa4ff04506f92c2f69f57d168efbd25b397822",
+              "verified_at": "2026-11-11T16:43:52.026345+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự thay đổi trong quy trình bốc thăm của FIFA và tác động trực tiếp của nó đến cấu trúc nhánh đấu tại World Cup nữ 2027. Đồng thời, bài viết đặt bối cảnh so sánh với giải đấu nam 2026 để độc giả thấy được sự đồng bộ trong chính sách của cơ quan quản lý bóng đá thế giới.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T16:43:52.026866+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "2027"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T16:43:52.027761+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 330,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1486
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
