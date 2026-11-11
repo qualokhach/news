@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "3d4a505b24fc52fc94e7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T11:29:57.473510+00:00",
     "expires_at": "2026-11-14T11:28:04.499990+00:00",
     "category_hint": "world",
@@ -720,11 +720,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T11:29:57.473531+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tai-nan-giao-thong-nghiem-trong-tai-los-angeles-khien-nhieu-nguoi-thuong-12a6e4a6"
   },
   {
     "queue_id": "85d51bc1445b1d6810bd",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T11:29:53.469657+00:00",
     "expires_at": "2026-11-14T11:28:04.499990+00:00",
     "category_hint": "vietnam",
@@ -2083,11 +2084,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T11:29:53.469680+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8"
   },
   {
     "queue_id": "2d07a77c7c59d8f0e8d7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T11:29:48.781841+00:00",
     "expires_at": "2026-11-14T11:28:04.499990+00:00",
     "category_hint": "vietnam",
@@ -2726,7 +2728,8 @@
       ]
     },
     "research_ready_at": "2026-11-11T11:29:48.781866+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150"
   },
   {
     "queue_id": "955144f67faff6e57034",
@@ -75327,5 +75330,658 @@
     },
     "published_at": "2026-11-06T02:50:33.185473+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tai-nan-giao-thong-nghiem-trong-tai-los-angeles-khien-nhieu-nguoi-thuong-12a6e4a6",
+    "status": "READY",
+    "prepared_at": "2026-11-11T11:30:13.455173+00:00",
+    "expires_at": "2026-11-12T11:30:13.455173+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+      "https://www.aljazeera.com/news/2026/11/9/los-angeles-mayoral-race-points-to-growing-sway-of-democratic-socialists?traffic_source=rss",
+      "https://www.skysports.com/golf/news/12040/13610074/wtgl-los-angeles-golf-club-make-history-by-winning-inaugural-match-against-new-york-at-sofi-center",
+      "https://www.cbssports.com/soccer/news/steve-cherundolo-names-first-u-s-u-23-roster-on-road-to-2028-los-angeles-olympic-games"
+    ],
+    "article": {
+      "id": "tai-nan-giao-thong-nghiem-trong-tai-los-angeles-khien-nhieu-nguoi-thuong-12a6e4a6",
+      "title": "Tai nạn giao thông nghiêm trọng tại Los Angeles khiến nhiều người thương vong",
+      "summary": "Vụ ô tô đâm vào người đi bộ và hàng quán trong giờ cao điểm ngày thứ Ba tại Los Angeles đã làm ít nhất ba người thiệt mạng và ba người khác bị thương nặng.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+      "published_at": "2026-11-11T03:52:05+00:00",
+      "fetched_at": "2026-11-11T11:30:19.484861+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vào ngày thứ Ba trong khung giờ cao điểm, một vụ tai nạn giao thông nghiêm trọng đã xảy ra tại khu vực North Hollywood thuộc thành phố Los Angeles, bang California. Theo thông tin từ nhà chức trách địa phương, một chiếc ô tô đã lao vào khu vực có người đi bộ và hàng quán, để lại hậu quả đặc biệt nghiêm trọng với nhiều thương vong.",
+        "Cơ quan chức năng xác nhận ít nhất ba người đã thiệt mạng tại hiện trường. Bên cạnh đó, ba nạn nhân khác trong tình trạng nguy kịch đã được lực lượng cứu hộ đưa đi cấp cứu tại các bệnh viện khu vực. Thị trưởng Los Angeles, bà Karen Bass, cho biết các nạn nhân xấu số bao gồm cả người đi bộ và người bán hàng trên phố.",
+        "Vụ việc xảy ra gần một trạm tàu điện ngầm North Hollywood, trên đại lộ Lankershim thuộc khu thương mại và nghệ thuật NoHo thuộc Thung lũng San Fernando. Hình ảnh từ trực thăng truyền thông ghi lại cho thấy một chiếc SUV nhỏ màu trắng đã lao lên vỉa hè, đâm vào phần bên của một cấu trúc nhà chờ giao thông công cộng với phần đầu xe bị hư hỏng nặng.",
+        "Hiện tại, danh tính của người điều khiển phương tiện vẫn chưa được công bố và tài xế này đang được điều trị tại bệnh viện trong tình trạng nguy kịch theo thông tin từ cảnh sát Los Angeles. Cảnh sát trưởng Los Angeles Jim McDonnell cho biết cơ quan điều tra sẽ tiến hành rà soát hệ thống camera giám sát trong khu vực để làm rõ nguyên nhân vụ việc thông qua một quá trình điều tra kéo dài và kỹ lưỡng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tai nạn giao thông nghiêm trọng tại Los Angeles khiến 3 người thiệt mạ",
+      "meta_description": "Cập nhật thông tin vụ ô tô đâm vào người đi bộ và hàng quán tại khu vực North Hollywood, Los Angeles, khiến ít nhất 3 người tử vong và 3 người nguy kịch.",
+      "keywords": [
+        "Los Angeles",
+        "tai nạn giao thông",
+        "North Hollywood",
+        "tin thế giới"
+      ],
+      "slug": "tai-nan-giao-thong-nghiem-trong-tai-los-angeles-khien-nhieu-nguoi-thuong-12a6e4a6",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 296,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+        "https://www.aljazeera.com/news/2026/11/9/los-angeles-mayoral-race-points-to-growing-sway-of-democratic-socialists?traffic_source=rss",
+        "https://www.skysports.com/golf/news/12040/13610074/wtgl-los-angeles-golf-club-make-history-by-winning-inaugural-match-against-new-york-at-sofi-center",
+        "https://www.cbssports.com/soccer/news/steve-cherundolo-names-first-u-s-u-23-roster-on-road-to-2028-los-angeles-olympic-games"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/9/los-angeles-mayoral-race-points-to-growing-sway-of-democratic-socialists?traffic_source=rss",
+        "https://www.skysports.com/golf/news/12040/13610074/wtgl-los-angeles-golf-club-make-history-by-winning-inaugural-match-against-new-york-at-sofi-center",
+        "https://www.cbssports.com/soccer/news/steve-cherundolo-names-first-u-s-u-23-roster-on-road-to-2028-los-angeles-olympic-games"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T03:52:05+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/9/los-angeles-mayoral-race-points-to-growing-sway-of-democratic-socialists?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T15:05:22+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/golf/news/12040/13610074/wtgl-los-angeles-golf-club-make-history-by-winning-inaugural-match-against-new-york-at-sofi-center",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T08:57:00+00:00"
+        },
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/steve-cherundolo-names-first-u-s-u-23-roster-on-road-to-2028-los-angeles-olympic-games",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T20:43:45+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ít nhất ba người tử vong và ba người bị thương nặng trong vụ tai nạn ô tô đâm vào người đi bộ tại Los Angeles trong giờ cao điểm ngày thứ Ba.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The driver, whose identity remains unknown, is hospitalized in critical condition, according toLos Angelespolice.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "snippet": "The driver, whose identity remains unknown, is hospitalized in critical condition, according toLos Angelespolice.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "page_sha256": "6dfd5aad0c45e30ce192655c32dba3e076af3030d6e30a183d2aebed49330283",
+              "snippet_sha256": "2ebbff0bcc245349cbe8b9bf52bc98a90c64e107545bb6d5c94549c45753790a",
+              "verified_at": "2026-11-11T11:30:19.484275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vụ việc xảy ra gần trạm tàu điện ngầm North Hollywood, trên đại lộ Lankershim thuộc Thung lũng San Fernando.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "A local CBS News affiliate station reported that the ‌car crashed into a food stand near a bus stop along a major ​thoroughfare, Lankershim Boulevard, that runs through the busy NoHo commercial and arts district in the city’s San Fernando Valley.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "snippet": "A local CBS News affiliate station reported that the ‌car crashed into a food stand near a bus stop along a major ​thoroughfare, Lankershim Boulevard, that runs through the busy NoHo commercial and arts district in the city’s San Fernando Valley.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "page_sha256": "6dfd5aad0c45e30ce192655c32dba3e076af3030d6e30a183d2aebed49330283",
+              "snippet_sha256": "f0a5daf8523c8161f47d13df1723fe4fc5966b2cc24044c48d94b01295940016",
+              "verified_at": "2026-11-11T11:30:19.484275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thị trưởng Karen Bass xác nhận các nạn nhân bao gồm cả người đi bộ và người bán hàng.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The LA mayor, Karen Bass, said the victims included street vendors and pedestrians.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "snippet": "The LA mayor, Karen Bass, said the victims included street vendors and pedestrians.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "page_sha256": "6dfd5aad0c45e30ce192655c32dba3e076af3030d6e30a183d2aebed49330283",
+              "snippet_sha256": "f31d9d4bb784d3fff8b955f96e927ba30867ab492ba77c0821454e85cf5fbea2",
+              "verified_at": "2026-11-11T11:30:19.484275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tài xế điều khiển phương tiện chưa rõ danh tính và đang trong tình trạng nguy kịch tại bệnh viện.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Aerial news video footage of ⁠the scene showed a white-colored, partially crumpled ​small ​SUV that appeared ​to have run up onto the sidewalk and ​into the side of a mass-transit shelter structure.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "snippet": "Aerial news video footage of ⁠the scene showed a white-colored, partially crumpled ​small ​SUV that appeared ​to have run up onto the sidewalk and ​into the side of a mass-transit shelter structure.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
+              "page_sha256": "6dfd5aad0c45e30ce192655c32dba3e076af3030d6e30a183d2aebed49330283",
+              "snippet_sha256": "c31b9683281cbcbc5ed9ec3fb7c6fe58a64071d70cd147b54e2d3ce283a9e92b",
+              "verified_at": "2026-11-11T11:30:19.484275+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp chi tiết diễn biến vụ tai nạn giao thông nghiêm trọng tại Los Angeles dựa trên tường thuật từ báo giới. Nội dung làm rõ vị trí xảy ra sự việc tại khu vực North Hollywood cùng phản ứng ban đầu từ các cơ quan chức năng thành phố.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T11:30:19.484955+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-11T11:30:19.486387+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 296,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1397
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "cbssports.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8",
+    "status": "READY",
+    "prepared_at": "2026-11-11T11:30:13.455173+00:00",
+    "expires_at": "2026-11-11T23:30:13.455173+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+      "https://thanhnien.vn/nha-cho-xe-buyt-o-tphcm-thay-doi-bat-ngo-nguoi-dan-het-loi-khen-ngoi-vi-dieu-nay-185261105204724853.htm"
+    ],
+    "article": {
+      "id": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8",
+      "title": "iPhone 5C bất ngờ được săn đón sau 13 năm ra mắt nhờ trào lưu hoài cổ",
+      "summary": "Mẫu iPhone 5C ra mắt từ năm 2013 bất ngờ ghi nhận lượng tìm kiếm tăng vọt do giới trẻ ưa chuộng chất ảnh hoài cổ, đi kèm với những cảnh báo quan trọng về bảo mật từ chuyên gia.",
+      "category": "technology",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+      "published_at": "2026-11-11T07:20:47+00:00",
+      "fetched_at": "2026-11-11T11:30:24.826948+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trợ lý sản phẩm từ tổ chức Compare and Recycle ghi nhận lượt tìm kiếm cụm từ mua iPhone 5C đã tăng 40.500% trong năm qua. Bên cạnh đó, từ khóa về camera thiết bị này tăng 1.815% và từ khóa tên máy tăng 264%, phản ánh xu hướng tìm mua điện thoại đời cũ của một bộ phận người trẻ như Gen Z.",
+        "Trào lưu này xuất phát từ sở thích trải nghiệm chất ảnh mang màu sắc hoài cổ từ camera 8MP trên những dòng máy cũ. Tại Việt Nam, các mẫu máy như iPhone 5, 5C hay iPhone 6 cũng được rao bán phổ biến với giá từ vài trăm nghìn đồng trên các hội nhóm mạng xã hội và sàn thương mại điện tử trong khoảng một năm trở lại đây.",
+        "Tuy nhiên, các chuyên gia đưa ra cảnh báo về rủi ro bảo mật do phiên bản hệ điều hành cuối cùng thiết bị này hỗ trợ là iOS 10.3.3 phát hành từ năm 2017. Điều này đồng nghĩa thiết bị đã gần một thập kỷ không nhận được các bản vá lỗi hay cập nhật phần mềm, dễ khiến người dùng đối mặt với nguy cơ rò rỉ dữ liệu cá nhân nếu kết nối mạng.",
+        "Để hạn chế rủi ro, chuyên gia khuyến nghị người dùng nên giữ thiết bị ở chế độ ngoại tuyến, không lắp SIM, không đăng nhập tài khoản Apple ID cá nhân và chỉ sử dụng như một máy ảnh kỹ thuật số thông thường. Trường hợp bắt buộc phải kết nối mạng, người dùng nên tạo một tài khoản ID riêng biệt và tránh xa các dịch vụ nhạy cảm như ngân hàng hay email."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "iPhone 5C bất ngờ được săn đón sau 13 năm ra mắt",
+      "meta_description": "Trào lưu tìm mua iPhone 5C cũ bùng nổ nhờ sở thích chụp ảnh hoài cổ của Gen Z, song chuyên gia cảnh báo rủi ro bảo mật nghiêm trọng.",
+      "keywords": [
+        "iPhone 5C",
+        "Apple",
+        "công nghệ",
+        "điện thoại cổ",
+        "bảo mật"
+      ],
+      "slug": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 288,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+        "https://thanhnien.vn/nha-cho-xe-buyt-o-tphcm-thay-doi-bat-ngo-nguoi-dan-het-loi-khen-ngoi-vi-dieu-nay-185261105204724853.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/nha-cho-xe-buyt-o-tphcm-thay-doi-bat-ngo-nguoi-dan-het-loi-khen-ngoi-vi-dieu-nay-185261105204724853.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T07:20:47+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/nha-cho-xe-buyt-o-tphcm-thay-doi-bat-ngo-nguoi-dan-het-loi-khen-ngoi-vi-dieu-nay-185261105204724853.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T23:15:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Lượt tìm kiếm cụm từ mua iPhone 5C tăng 40.500% trong năm qua theo Compare and Recycle.",
+          "source_urls": [
+            "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Theo Compare and Recycle, lượt tìm kiếm cụm từ \"mua iPhone 5C\" đã tăng 40.500% trong năm qua.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+              "snippet": "(Dân trí) - Theo Compare and Recycle, lượt tìm kiếm cụm từ \"mua iPhone 5C\" đã tăng 40.500% trong năm qua.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+              "page_sha256": "f727790b38a53802c76d71bdf96647d9372e51fb6eb761adad4e07c3168ae161",
+              "snippet_sha256": "5fe5c27c3cb2824b7991d58b70a9bfb5ad373309c4078abb7bced019dc4b6b03",
+              "verified_at": "2026-11-11T11:30:24.826433+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "iPhone 5C hỗ trợ phiên bản iOS cuối cùng là iOS 10.3.3 phát hành từ năm 2017.",
+          "source_urls": [
+            "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phiên bản iOS cuối cùng mà thiết bị này hỗ trợ là iOS 10.3.3, được phát hành từ năm 2017.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+              "snippet": "Phiên bản iOS cuối cùng mà thiết bị này hỗ trợ là iOS 10.3.3, được phát hành từ năm 2017.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+              "page_sha256": "f727790b38a53802c76d71bdf96647d9372e51fb6eb761adad4e07c3168ae161",
+              "snippet_sha256": "3b3c792bef6dd10311ca73ef8a6e89e741abd3cf4dc71ff0fdcd7fdc9507a155",
+              "verified_at": "2026-11-11T11:30:24.826433+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tại Việt Nam, các dòng iPhone cũ như iPhone 5, 5C và iPhone 6 được rao bán giá từ vài trăm nghìn đồng trên các hội nhóm và sàn thương mại điện tử.",
+          "source_urls": [
+            "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Những mẫu máy như iPhone 5, iPhone 5C hay iPhone 6 được rao bán với giá chỉ từ vài trăm nghìn đồng trên các hội nhóm và sàn thương mại điện tử.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+              "snippet": "Những mẫu máy như iPhone 5, iPhone 5C hay iPhone 6 được rao bán với giá chỉ từ vài trăm nghìn đồng trên các hội nhóm và sàn thương mại điện tử.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/cong-nghe/iphone-5c-bat-ngo-duoc-san-don-sau-13-nam-ra-mat-20261110222019506.htm",
+              "page_sha256": "f727790b38a53802c76d71bdf96647d9372e51fb6eb761adad4e07c3168ae161",
+              "snippet_sha256": "4bc006283dcbbadb628ab23d315e131ea100c954f94de47c80310ff6b23c0825",
+              "verified_at": "2026-11-11T11:30:24.826433+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ nguyên nhân số lượng tìm kiếm iPhone 5C tăng vọt và đối chiếu với thực tế thị trường điện thoại cũ tại Việt Nam. Đồng thời, bài báo tổng hợp các khuyến nghị kỹ thuật cụ thể từ chuyên gia để cảnh báo rủi ro bảo mật do thiết bị đã ngừng cập nhật phần mềm lâu năm.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-11T11:30:24.827032+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.815",
+        "10.3",
+        "2017",
+        "264",
+        "3",
+        "40.500",
+        "5",
+        "6",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T11:30:24.828118+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 288,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1290
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150",
+    "status": "READY",
+    "prepared_at": "2026-11-11T11:30:13.455173+00:00",
+    "expires_at": "2026-11-12T11:30:13.455173+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+      "https://thanhnien.vn/el-nino-de-doa-nguon-nuoc-cac-chu-ho-thuy-dien-o-da-nang-noi-gi-185261107101934568.htm"
+    ],
+    "article": {
+      "id": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150",
+      "title": "Tong Bi thu, Chu tich nuoc To Lam ket thuc tot dep chuyen tham chinh thuc Nhat Ban",
+      "summary": "Chieu 11/11, Tong Bi thu, Chu tich nuoc To Lam va Phu nhân cung Doan dai bieu cap cao Viet Nam da roi thu do Tokyo, ket thuc tot dep chuyen tham chinh thuc Nhat Ban.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+      "published_at": "2026-11-11T07:56:14+00:00",
+      "fetched_at": "2026-11-11T11:30:34.761900+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Theo dac phai vien TTXVN, chieu 11/11 (gio dia phuong), Tong Bi thu, Chu tich nuoc To Lam cung Phu nhan va Doan dai bieu cap cao Viet Nam da roi thu do Tokyo, chinh thuc ket thuc chuyen tham chinh thuc Nhat Ban theo loi moi cua Nha nuoc Nhat Ban dien ra tu ngay 8 den 11/11.",
+        "Trong thoi gian chuyen tham, nha lanh dao Viet Nam da hoi kien va du chieu dai cua Nha vua va Hoang hau Nhat Ban tai Hoang cung; du le don chinh thuc, hoi dam va chung kien le trao cac van kien hop tac voi Thu tuong Takaichi Sanae. Hai ben da nhat tri thong qua Tuyen bo Tam nhin chung Viet Nam - Nhat Ban nham thuc day quan he Doi tac chien luoc toan dien vi hoa binh va thinh vuong tai chau A va tren the gioi len tam cao moi.",
+        "Nha lanh dao Viet Nam cung co cac buoi phat bieu tai Quoc hoi Nhat Ban, tham tinh Kanagawa, tiep cac nguyen Thu tuong Nhat Ban va tien hanh nhieu cuoc tiep xuc cap cao quan trong khac. Chuyen tham dau moc quan trong giup củng cố tin cậy chính trị, thuc day hop tac toan diện từ nông nghiệp chất lượng cao, khoa học công nghệ, trí tuệ nhân tạo (AI) cho den giao lưu nhân dân giua hai nước."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tong Bi thu, Chu tich nuoc To Lam ket thuc chuyen tham Nhat Ban",
+      "meta_description": "Tong Bi thu, Chu tich nuoc To Lam va Phu nhan ket thuc tot dep chuyen tham chinh thuc Nhat Ban tu ngay 8 den 11/11.",
+      "keywords": [
+        "To Lam",
+        "Nhat Ban",
+        "tham chinh thuc",
+        "Tuyen bo Tam nhin chung",
+        "Doi tac chien luoc toan dien"
+      ],
+      "slug": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 235,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+        "https://thanhnien.vn/el-nino-de-doa-nguon-nuoc-cac-chu-ho-thuy-dien-o-da-nang-noi-gi-185261107101934568.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/el-nino-de-doa-nguon-nuoc-cac-chu-ho-thuy-dien-o-da-nang-noi-gi-185261107101934568.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T07:56:14+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/el-nino-de-doa-nguon-nuoc-cac-chu-ho-thuy-dien-o-da-nang-noi-gi-185261107101934568.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T04:32:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tong Bi thu, Chu tich nuoc To Lam va Phu nhan ket thuc chuyen tham chinh thuc Nhat Ban tu ngay 8 den 11/11",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo đặc phái viên TTXVN, chiều 11/11 (giờ địa phương), Tổng Bí thư, Chủ tịch nước Tô Lâm cùng Phu nhân và Đoàn đại biểu cấp cao Việt Nam rời thủ đô Tokyo, kết thúc tốt đẹp chuyến thăm chính thức Nhật Bản theo lời mời của Nhà nước Nhật Bản từ ngày 8-11/11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+              "snippet": "Theo đặc phái viên TTXVN, chiều 11/11 (giờ địa phương), Tổng Bí thư, Chủ tịch nước Tô Lâm cùng Phu nhân và Đoàn đại biểu cấp cao Việt Nam rời thủ đô Tokyo, kết thúc tốt đẹp chuyến thăm chính thức Nhật Bản theo lời mời của Nhà nước Nhật Bản từ ngày 8-11/11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+              "page_sha256": "11825f9b9f380177d0fb86336c38d1ce9ca5d066e3808d6c75799ec9edec23e5",
+              "snippet_sha256": "fe0a83d023264cd609b8335e699bef9e05ef38a01990fafc0e1a1d16b5782144",
+              "verified_at": "2026-11-11T11:30:34.761281+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hai nha lanh dao thong qua Tuyen bo Tam nhin chung Viet Nam - Nhat Ban",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tổng Bí thư, Chủ tịch nước mong các cựu lãnh đạo Nhật Bản tiếp tục ủng hộ nâng tầm quan hệ Đối tác Chiến lược Toàn diện Việt Nam - Nhật Bản theo tinh thần Tuyên bố Tầm nhìn chung vừa được thông qua.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+              "snippet": "Tổng Bí thư, Chủ tịch nước mong các cựu lãnh đạo Nhật Bản tiếp tục ủng hộ nâng tầm quan hệ Đối tác Chiến lược Toàn diện Việt Nam - Nhật Bản theo tinh thần Tuyên bố Tầm nhìn chung vừa được thông qua.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+              "page_sha256": "11825f9b9f380177d0fb86336c38d1ce9ca5d066e3808d6c75799ec9edec23e5",
+              "snippet_sha256": "8aecab995aeae3cade10b2f8a77348c150635176cd0e9d1a63d74d2189fe49c6",
+              "verified_at": "2026-11-11T11:30:34.761281+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tong Bi thu, Chu tich nuoc To Lam da hoi kien Nha vua va Hoang hau Nhat Ban, hoi dam voi Thu tuong Takaichi Sanae va tham tinh Kanagawa",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong bối cảnh môi trường quốc tế gia tăng phức tạp, trên cơ sở tầm nhìn chiến lược mới của quan hệ Việt Nam - Nhật Bản, Tổng Bí thư, Chủ tịch nước Tô Lâm và Thủ tướng Takaichi Sanae đã nhất trí thông qua Tuyên bố Tầm nhìn chung Việt Nam-Nhật Bản nhằm thúc đẩy quan hệ “Đối tác chiến lược toàn diện Việt Nam-Nhật Bản vì hòa bình và thịnh vượng tại châu Á và trên thế giới” lên tầm cao mới, trên tinh thần “Đối tác đồng hành, đồng kiến tạo, cùng có lợi, vì tăng trưởng chất lượng cao, tự chủ chiến lược và tự cường\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+              "snippet": "Trong bối cảnh môi trường quốc tế gia tăng phức tạp, trên cơ sở tầm nhìn chiến lược mới của quan hệ Việt Nam - Nhật Bản, Tổng Bí thư, Chủ tịch nước Tô Lâm và Thủ tướng Takaichi Sanae đã nhất trí thông qua Tuyên bố Tầm nhìn chung Việt Nam-Nhật Bản nhằm thúc đẩy quan hệ “Đối tác chiến lược toàn diện Việt Nam-Nhật Bản vì hòa bình và thịnh vượng tại châu Á và trên thế giới” lên tầm cao mới, trên tinh thần “Đối tác đồng hành, đồng kiến tạo, cùng có lợi, vì tăng trưởng chất lượng cao, tự chủ chiến lược và tự cường\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-nhat-ban-20261111145554900.htm",
+              "page_sha256": "11825f9b9f380177d0fb86336c38d1ce9ca5d066e3808d6c75799ec9edec23e5",
+              "snippet_sha256": "5f3d0d181a7d29f54d262247536cedb922356db673713ad93fc542533f24a2fd",
+              "verified_at": "2026-11-11T11:30:34.761281+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet tong hop day du cac cot moc doi ngoai quan trong trong chuyen tham Nhat Ban cua Tong Bi thu, Chu tich nuoc To Lam. Nguon tin duoc doi chieu tu TTXVN va bao chi chinh thuc, dam phan phat thong tin chinh xac ve Tuyen bo Tam nhin chung cung cac hoat dong song phu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T11:30:34.761959+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T11:30:34.762917+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 235,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1090
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
