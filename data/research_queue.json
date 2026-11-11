@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "18e6714402dfafa7aa7e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T01:31:13.985472+00:00",
     "expires_at": "2026-11-14T01:29:27.373101+00:00",
     "category_hint": "world",
@@ -730,11 +730,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T01:31:13.985494+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anthropic-tien-gan-toi-ot-ipo-ky-luc-voi-inh-gia-hon-1-000-ty-usd-aa6598e3"
   },
   {
     "queue_id": "80d176881738a544d0ee",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T01:31:13.257371+00:00",
     "expires_at": "2026-11-14T01:29:27.373101+00:00",
     "category_hint": "technology",
@@ -1423,11 +1424,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T01:31:13.257396+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhieu-dong-ien-thoai-xiaomi-cu-dung-nhan-ho-tro-khi-hyperos-4-ra-mat-94327e5e"
   },
   {
     "queue_id": "f69861258ca58f78a349",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T01:31:06.888104+00:00",
     "expires_at": "2026-11-14T01:29:27.373101+00:00",
     "category_hint": "technology",
@@ -2006,7 +2008,8 @@
       ]
     },
     "research_ready_at": "2026-11-11T01:31:06.888130+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "kham-pha-co-cau-ky-thuat-cua-logo-phat-sang-tren-macbook-pro-trang-bi-ma-8ecd3d00"
   },
   {
     "queue_id": "574a0ac772ab0102a886",
@@ -71748,5 +71751,693 @@
     },
     "published_at": "2026-11-05T12:47:30.309264+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "anthropic-tien-gan-toi-ot-ipo-ky-luc-voi-inh-gia-hon-1-000-ty-usd-aa6598e3",
+    "status": "READY",
+    "prepared_at": "2026-11-11T01:31:42.952612+00:00",
+    "expires_at": "2026-11-12T01:31:42.952612+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+      "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo"
+    ],
+    "article": {
+      "id": "anthropic-tien-gan-toi-ot-ipo-ky-luc-voi-inh-gia-hon-1-000-ty-usd-aa6598e3",
+      "title": "Anthropic tiến gần tới đợt IPO kỷ lục với định giá hơn 1.000 tỷ USD",
+      "summary": "Với tốc độ tăng trưởng doanh thu ấn tượng, Anthropic đang chuẩn bị cho đợt chào bán cổ phiếu lần đầu ra công chúng (IPO) được kỳ vọng sẽ trở thành thương vụ lớn nhất trong lịch sử, thu hút sự chú ý của giới đầu tư công nghệ.",
+      "category": "technology",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+      "published_at": "2026-11-10T23:46:35+00:00",
+      "fetched_at": "2026-11-11T01:31:55.795611+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Công ty phát triển trí tuệ nhân tạo Anthropic đang tiến gần đến đợt chào bán cổ phiếu lần đầu ra công chúng (IPO) đầy kỳ vọng, với mức định giá trên cơ sở pha loãng hoàn toàn có thể đạt tới 1,405 nghìn tỷ USD. Theo hồ sơ cập nhật, công ty dự kiến chào bán 825 triệu cổ phiếu với mức giá từ 70 đến 78 USD mỗi cổ phiếu. Dự kiến, quá trình định giá sẽ hoàn tất vào ngày 18/11, mở đường cho cổ phiếu chính thức giao dịch vào ngày hôm sau.",
+        "Bình luận về sự kiện này, chuyên gia tài chính Jim Cramer cho rằng tốc độ tăng trưởng doanh thu bùng nổ là yếu tố then chốt giúp Anthropic củng cố mức định giá kỷ lục. Trong chín tháng đầu năm 2026, công ty ghi nhận doanh thu đạt 33,2 tỷ USD, tăng 1.206% so với cùng kỳ năm trước. Động lực tăng trưởng chủ yếu đến từ phân khúc khách hàng doanh nghiệp, đặc biệt là sự phổ biến của công cụ lập trình Claude Code. Hiện tại, Anthropic sở hữu hơn 11.900 khách hàng chi tiêu trên 100.000 USD mỗi năm.",
+        "Dù tốc độ tăng trưởng theo quý có dấu hiệu chậm lại, từ 144% trong quý II xuống còn 47% trong quý III, giới quan sát vẫn đánh giá đây là con số ấn tượng. Bên cạnh đó, bảy nhà đồng sáng lập của Anthropic cũng đã công bố kế hoạch bán cổ phần, dự kiến thu về khoảng 250 triệu USD mỗi người dựa trên mức giá trung bình. Sự kiện này được xem là tín hiệu tích cực cho thị trường công nghệ và lĩnh vực AI trong bối cảnh nhu cầu đầu tư vẫn duy trì ở mức cao."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Anthropic chuẩn bị IPO kỷ lục với định giá hơn 1.000 tỷ USD",
+      "meta_description": "Anthropic dự kiến IPO vào tháng 11/2026 với định giá lên tới 1,4 nghìn tỷ USD, dựa trên đà tăng trưởng doanh thu mạnh mẽ từ các khách hàng doanh nghiệp.",
+      "keywords": [
+        "Anthropic",
+        "IPO",
+        "trí tuệ nhân tạo",
+        "Jim Cramer",
+        "định giá công nghệ"
+      ],
+      "slug": "anthropic-tien-gan-toi-ot-ipo-ky-luc-voi-inh-gia-hon-1-000-ty-usd-aa6598e3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 302,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+        "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T23:46:35+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T19:57:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Anthropic dự kiến định giá lên tới 1,405 nghìn tỷ USD và chào bán 825 triệu cổ phiếu với giá 70-78 USD/cổ phiếu.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "At the high end, the offering would raise $64.35 billion andvalue Anthropic at up to $1.405 trillionon a fully diluted basis.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+              "snippet": "At the high end, the offering would raise $64.35 billion andvalue Anthropic at up to $1.405 trillionon a fully diluted basis.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+              "page_sha256": "8f24ae327bc2f96fbdf11b2eb0d4bca6d454658ae4dfb74af56ba6f48e47ca37",
+              "snippet_sha256": "541600a89acca6ff06fa797a7b6fed630f02afcc53ae7467616b04427f427d0a",
+              "verified_at": "2026-11-11T01:31:55.795027+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Doanh thu 9 tháng đầu năm 2026 của Anthropic đạt 33,2 tỷ USD, tăng 1.206% so với cùng kỳ năm trước.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Anthropic reported $33.2 billion in revenue during the first nine months of 2026, up 1,206% from a year earlier, according to its updated prospectus.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+              "snippet": "Anthropic reported $33.2 billion in revenue during the first nine months of 2026, up 1,206% from a year earlier, according to its updated prospectus.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+              "page_sha256": "8f24ae327bc2f96fbdf11b2eb0d4bca6d454658ae4dfb74af56ba6f48e47ca37",
+              "snippet_sha256": "1a9ba9e2a1b154f17bbbd70dcb460734d7da8e0972fbd7a25a020e883a0e5809",
+              "verified_at": "2026-11-11T01:31:55.795027+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bảy nhà đồng sáng lập của Anthropic dự kiến mỗi người thu về khoảng 250 triệu USD từ việc bán cổ phần trong đợt IPO.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "All 7 Anthropic founders will each cash out about $250M in IPO",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+              "snippet": "All 7 Anthropic founders will each cash out about $250M in IPO",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+              "page_sha256": "a9b9303fa0b14a344093f8759cc3c16df1bd291ffd33197cdcaffe5771dc0fbf",
+              "snippet_sha256": "0c1af57d1de15abef4804cb6f34f80f72fc19aa6c39321137328bf23298a6fe5",
+              "verified_at": "2026-11-11T01:31:55.795027+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa tốc độ tăng trưởng doanh thu thực tế và định giá IPO của Anthropic. Đồng thời, bài phân tích cung cấp bối cảnh về kế hoạch thoái vốn của các nhà sáng lập để độc giả có cái nhìn toàn diện về thương vụ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T01:31:55.795695+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,405",
+        "1.206",
+        "100.000",
+        "11.900",
+        "144",
+        "2026",
+        "250",
+        "33,2",
+        "47",
+        "70",
+        "78",
+        "825"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T01:31:55.796865+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 302,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1378
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "nhieu-dong-ien-thoai-xiaomi-cu-dung-nhan-ho-tro-khi-hyperos-4-ra-mat-94327e5e",
+    "status": "READY",
+    "prepared_at": "2026-11-11T01:31:42.952612+00:00",
+    "expires_at": "2026-11-12T01:31:42.952612+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+      "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family",
+      "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere"
+    ],
+    "article": {
+      "id": "nhieu-dong-ien-thoai-xiaomi-cu-dung-nhan-ho-tro-khi-hyperos-4-ra-mat-94327e5e",
+      "title": "Nhiều dòng điện thoại Xiaomi cũ dừng nhận hỗ trợ khi HyperOS 4 ra mắt",
+      "summary": "Bản cập nhật HyperOS 4 mới nhất của Xiaomi hiện đang được triển khai tại Trung Quốc, nhưng nhiều thiết bị đời cũ đã chính thức nằm ngoài lịch trình hoặc kết thúc vòng đời hỗ trợ phần mềm.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+      "published_at": "2026-11-10T23:00:00+00:00",
+      "fetched_at": "2026-11-11T01:32:01.526353+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bản cập nhật phần mềm HyperOS 4 mới nhất của Xiaomi đã bắt đầu đến tay người dùng tại thị trường Trung Quốc, mang theo giao diện trong suốt mới cùng nhiều cải tiến về hiệu suất. Tuy nhiên, đợt triển khai này cũng đồng nghĩa với việc một số dòng điện thoại và máy tính bảng đời cũ sẽ không còn nhận được các bản nâng cấp hệ điều hành tiếp theo do đã chạm mốc cuối vòng đời hỗ trợ.",
+        "Theo lịch trình công bố, nhóm thiết bị đầu tiên nhận HyperOS 4 bao gồm dòng Xiaomi 17, các dòng Redmi K100 và K90 cùng mẫu Xiaomi Pad 8. Các thiết bị tiếp theo sẽ nhận bản cập nhật theo từng đợt kéo dài đến tháng 1 năm 2027. Dù vậy, những dòng máy như Xiaomi 12 và 12T không có tên trong danh sách này vì đã hoặc sắp kết thúc thời gian hỗ trợ phần mềm chính thức từ hãng.",
+        "Bên cạnh đó, các công cụ theo dõi firmware cũng ghi nhận một số mẫu máy giá rẻ vẫn đang trong thời gian hỗ trợ nhưng chưa xuất hiện trong các bản thử nghiệm HyperOS 4. Dù Xiaomi chưa đưa ra xác nhận chính thức về việc các mẫu máy này có bị loại bỏ hay không, những thiết bị đã chính thức nằm trong danh sách kết thúc hỗ trợ sẽ dừng nhận hoàn toàn các bản nâng cấp hệ điều hành cũng như các bản vá bảo mật.",
+        "Việc quản lý thời gian hỗ trợ phần mềm luôn là yếu tố quan trọng đối với người dùng smartphone Android khi các hãng công nghệ ngày càng kéo dài cam kết cập nhật. Trong khi các dòng flagship mới hơn như Xiaomi 15 nhận được bốn bản cập nhật hệ điều hành và sáu năm vá bảo mật, các thiết bị đời cũ hơn sẽ dần phải dừng chân ở các phiên bản giao diện trước đó khi không còn đủ điều kiện kỹ thuật để nâng cấp."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Dòng điện thoại Xiaomi nào không còn được hỗ trợ cập nhật HyperOS 4",
+      "meta_description": "Tìm hiểu chi tiết về lịch trình cập nhật HyperOS 4 của Xiaomi, các thiết bị cũ không còn nhận bản nâng cấp phần mềm và danh sách dừng hỗ trợ năm 2026.",
+      "keywords": [
+        "Xiaomi",
+        "HyperOS 4",
+        "cập nhật phần mềm",
+        "điện thoại Xiaomi",
+        "công nghệ"
+      ],
+      "slug": "nhieu-dong-ien-thoai-xiaomi-cu-dung-nhan-ho-tro-khi-hyperos-4-ra-mat-94327e5e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 343,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+        "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family",
+        "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+        "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere"
+      ],
+      "source_links": [
+        "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family",
+        "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+        "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T23:00:00+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T19:00:26+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T18:43:43+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-07T05:00:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bản cập nhật HyperOS 4 mới của Xiaomi bắt đầu phát hành tại Trung Quốc cho các dòng máy như Xiaomi 17.",
+          "source_urls": [
+            "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update"
+          ],
+          "importance": "core",
+          "evidence_snippet": "HyperOS 4 is reportedly based on Android 17, but Xiaomi's newest phones already got Android 17 in July 2026 through an interim release called HyperOS 3.3.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "snippet": "HyperOS 4 is reportedly based on Android 17, but Xiaomi's newest phones already got Android 17 in July 2026 through an interim release called HyperOS 3.3.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "page_sha256": "aa6f857eee3c80eb34269397f885db4b73d206b3823b1934c466b1eb824e4645",
+              "snippet_sha256": "4cdb13371d8bfb7d10b24afe6ac5fd984d0753f98890a5d72f7678052114a537",
+              "verified_at": "2026-11-11T01:32:01.525608+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các dòng máy như Xiaomi 12T và Redmi Note 12 không nhận được bản cập nhật do đã hoặc sắp đến hạn kết thúc hỗ trợ phần mềm.",
+          "source_urls": [
+            "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Xiaomi 12 and 12 Pro, Redmi Note 12 5G, Redmi 12C and Redmi A2 and A2+ lost support in March, and the Poco F5 and F5 Pro in May.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "snippet": "The Xiaomi 12 and 12 Pro, Redmi Note 12 5G, Redmi 12C and Redmi A2 and A2+ lost support in March, and the Poco F5 and F5 Pro in May.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "page_sha256": "aa6f857eee3c80eb34269397f885db4b73d206b3823b1934c466b1eb824e4645",
+              "snippet_sha256": "6da56ad12b835124c5df088192ab0722001769e80d49a304e25018f60dbb9ee6",
+              "verified_at": "2026-11-11T01:32:01.525608+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lịch trình cập nhật của Xiaomi tại Trung Quốc kéo dài từ tháng 10 năm 2026 qua các đợt cho đến tháng 1 năm 2027.",
+          "source_urls": [
+            "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Xiaomi publishes end-of-support dates on its security center site.Gizmochinahas counted 19 devices due to drop off in 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "snippet": "Xiaomi publishes end-of-support dates on its security center site.Gizmochinahas counted 19 devices due to drop off in 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "page_sha256": "aa6f857eee3c80eb34269397f885db4b73d206b3823b1934c466b1eb824e4645",
+              "snippet_sha256": "9d4f94ae334d8f6131e6da58625870207bc52c303d0be6fa8e2df35c67d45fd6",
+              "verified_at": "2026-11-11T01:32:01.525608+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trang trung tâm bảo mật của Xiaomi liệt kê các thiết bị kết thúc hỗ trợ trong năm 2026 như Xiaomi 12, 12 Pro, 12T và 12T Pro.",
+          "source_urls": [
+            "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It began rolling out to the company's newest phones and tablets on October 15, 2026, but owners of the Xiaomi 12T and Redmi Note 12 are missing out.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "snippet": "It began rolling out to the company's newest phones and tablets on October 15, 2026, but owners of the Xiaomi 12T and Redmi Note 12 are missing out.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update",
+              "page_sha256": "aa6f857eee3c80eb34269397f885db4b73d206b3823b1934c466b1eb824e4645",
+              "snippet_sha256": "e1b0938f891f87e32ddd392f1e652318dcf654244335f744a0dddb9765e3d42c",
+              "verified_at": "2026-11-11T01:32:01.525608+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ tác động của đợt cập nhật HyperOS 4 đối với các thiết bị Xiaomi cũ. Đồng thời, phân tích chi tiết lịch trình phát hành phần mềm và danh sách các dòng máy chính thức kết thúc chu kỳ hỗ trợ trong năm 2026.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T01:32:01.526444+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "12",
+        "15",
+        "17",
+        "2027",
+        "4",
+        "8",
+        "90"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-11T01:32:01.528001+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 343,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1559
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "engadget.com",
+          "theguardian.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "kham-pha-co-cau-ky-thuat-cua-logo-phat-sang-tren-macbook-pro-trang-bi-ma-8ecd3d00",
+    "status": "READY",
+    "prepared_at": "2026-11-11T01:31:42.952612+00:00",
+    "expires_at": "2026-11-12T01:31:42.952612+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+      "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle"
+    ],
+    "article": {
+      "id": "kham-pha-co-cau-ky-thuat-cua-logo-phat-sang-tren-macbook-pro-trang-bi-ma-8ecd3d00",
+      "title": "Khám phá cơ cấu kỹ thuật của logo phát sáng trên MacBook Pro trang bị màn hình PROLED",
+      "summary": "Bản mổ xẻ từ iFixit hé lộ cách thức hoạt động của biểu tượng quả táo phát sáng trên dòng MacBook Pro cao cấp mới sử dụng màn hình OLED.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+      "published_at": "2026-11-11T00:03:54+00:00",
+      "fetched_at": "2026-11-11T01:32:12.397064+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bản mổ xẻ mới đây từ iFixit đã hé lộ những thành phần vật lý bên trong giúp tái tạo biểu tượng quả táo phát sáng trên dòng MacBook Pro trang bị màn hình PROLED XDR. Khác với các dòng MacBook sử dụng màn hình LCD trước đây vốn tận dụng khoảng hở từ đèn nền màn hình để chiếu sáng logo, các dòng máy dùng màn hình OLED đòi hỏi một giải pháp kỹ thuật hoàn toàn khác do công nghệ này không cần đèn nền riêng.",
+        "Theo kết quả khảo sát của iFixit, Apple đã tích hợp một dải đèn gồm bốn bóng LED đặt phía sau màn hình, kết hợp cùng một tấm khuếch tán ánh sáng để chiếu rọi vào logo. Bên cạnh đó, bề mặt logo được phủ lớp vật liệu tương tự như gương hai chiều, cho phép tạo hiệu ứng kim loại phản chiếu khi tắt đèn nhưng vẫn đảm bảo ánh sáng xuyên qua khi hệ thống LED hoạt động.",
+        "Bên cạnh chi tiết về logo, quá trình tháo lắp cũng cho thấy những thay đổi về thiết kế nhằm giảm trọng lượng máy như sử dụng ít nhôm hơn ở phần thân và nắp, kết hợp cùng bản lề được tinh chỉnh. Tuy nhiên, khả năng sửa chữa của thiết bị vẫn duy trì mức độ phức tạp cao, với nhiều thành phần như bộ nhớ hay cổng HDMI được hàn chết và người dùng phải tháo rời bảng mạch chính nếu muốn thay thế cổng USB-C."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "iFixit mổ xẻ cơ cấu logo phát sáng trên MacBook Pro PROLED",
+      "meta_description": "Tìm hiểu chi tiết công nghệ chiếu sáng logo Apple trên dòng MacBook Pro mới thông qua kết quả mổ xẻ từ iFixit.",
+      "keywords": [
+        "iFixit",
+        "MacBook Pro",
+        "PROLED",
+        "Apple",
+        "logo phát sáng"
+      ],
+      "slug": "kham-pha-co-cau-ky-thuat-cua-logo-phat-sang-tren-macbook-pro-trang-bi-ma-8ecd3d00",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 256,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+        "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle"
+      ],
+      "source_links": [
+        "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T00:03:54+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T12:00:21+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "iFixit thực hiện mổ xẻ MacBook Pro màn hình PROLED XDR và cho thấy cấu tạo của logo phát sáng",
+          "source_urls": [
+            "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works"
+          ],
+          "importance": "core",
+          "evidence_snippet": "iFixit Teardown Shows How Apple's Glowing PROLED MacBook Logo Works",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "snippet": "iFixit Teardown Shows How Apple's Glowing PROLED MacBook Logo Works",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "page_sha256": "d196f15f45c1d3bbcf5cb37cd12b14772e233f7b9e1dc4eef39eb61c737a272a",
+              "snippet_sha256": "2defe7dd4071489fd9ae858122ebead28a0df3e986617c7f9482c4d9b688dcaa",
+              "verified_at": "2026-11-11T01:32:12.396638+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Apple sử dụng dải đèn bốn bóng LED đặt sau màn hình cùng tấm khuếch tán để làm sáng logo",
+          "source_urls": [
+            "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Appleditched the glowing logoin 2016, so it's a bit ironic that the company waited until it stopped using backlit displays to bring it back.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "snippet": "Appleditched the glowing logoin 2016, so it's a bit ironic that the company waited until it stopped using backlit displays to bring it back.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "page_sha256": "d196f15f45c1d3bbcf5cb37cd12b14772e233f7b9e1dc4eef39eb61c737a272a",
+              "snippet_sha256": "069314e8bf8ded15ca3b301e8eddec87f443bc4ad6a2ae825aa92e38399a27db",
+              "verified_at": "2026-11-11T01:32:12.396638+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Logo Apple được phủ lớp gương hai chiều để tạo vẻ ngoài phản chiếu khi tắt và xuyên sáng khi bật LED",
+          "source_urls": [
+            "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Apple logo itself is also coated \"like a two-way mirror,\" according to iFixit, so that it can appear metallic and reflective when the logo is off, but still let light through when the LEDs are on.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "snippet": "The Apple logo itself is also coated \"like a two-way mirror,\" according to iFixit, so that it can appear metallic and reflective when the logo is off, but still let light through when the LEDs are on.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "page_sha256": "d196f15f45c1d3bbcf5cb37cd12b14772e233f7b9e1dc4eef39eb61c737a272a",
+              "snippet_sha256": "7eae6b55a7adf0349075981578db8a7bd62f3c2ca36bda4a170466c44e37722c",
+              "verified_at": "2026-11-11T01:32:12.396638+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thiết bị vẫn phức tạp để sửa chữa, phải tháo bảng mạch chính để thay cổng USB-C và nhiều linh kiện hàn cố định",
+          "source_urls": [
+            "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anyone droppingup to $15,000on a laptop probably isn't worried about doing their own repairs, but Apple's thin and light (and glowing) design comes with some tradeoffs, as always.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "snippet": "Anyone droppingup to $15,000on a laptop probably isn't worried about doing their own repairs, but Apple's thin and light (and glowing) design comes with some tradeoffs, as always.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works",
+              "page_sha256": "d196f15f45c1d3bbcf5cb37cd12b14772e233f7b9e1dc4eef39eb61c737a272a",
+              "snippet_sha256": "41338d13ae0ac857e3fcaa2f591d6dc67b26e0cbe7907e97c92d018bc8d56f1e",
+              "verified_at": "2026-11-11T01:32:12.396638+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ giải pháp kỹ thuật mà Apple áp dụng để đưa biểu tượng logo phát sáng quay trở lại trên dòng máy dùng màn hình OLED. Đồng thời, nội dung bài phân tích giới hạn về khả năng sửa chữa và các thay đổi cấu trúc bên trong do iFixit ghi nhận.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T01:32:12.397137+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-11T01:32:12.398087+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 256,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1169
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "engadget.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
