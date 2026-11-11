@@ -2204,7 +2204,7 @@
   },
   {
     "queue_id": "89ab4b73920cb4fb8514",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:49.388333+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "vietnam",
@@ -3945,11 +3945,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:49.388353+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "dau-an-cua-olaha-manh-duc-trong-ngay-ra-mat-doi-tuyen-viet-nam-7b516591"
   },
   {
     "queue_id": "0216914247c95e462147",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:41.368654+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "vietnam",
@@ -4752,11 +4753,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:41.368676+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ket-qua-xo-so-vietlott-mega-6-45-toi-11-11-giai-oc-ac-cong-don-17-6-ti-o-50951474"
   },
   {
     "queue_id": "6b32799cf0826a444619",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:30.118472+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "technology",
@@ -6109,11 +6111,12 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:30.118494+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vu-be-boi-cua-jensen-huang-mot-van-e-lon-hon-trong-nganh-cong-nghe-6ff192ba"
   },
   {
     "queue_id": "a7b9ff56b3d4e18b55c2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-11T16:40:13.161561+00:00",
     "expires_at": "2026-11-14T16:38:30.859485+00:00",
     "category_hint": "technology",
@@ -6633,7 +6636,8 @@
       ]
     },
     "research_ready_at": "2026-11-11T16:40:13.161580+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "microsoft-chinh-thuc-phat-hanh-cong-nghe-auto-sr-cho-rog-xbox-ally-x-20716e12"
   },
   {
     "queue_id": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8",
@@ -80818,5 +80822,928 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "dau-an-cua-olaha-manh-duc-trong-ngay-ra-mat-doi-tuyen-viet-nam-7b516591",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-11T17:29:01.469849+00:00",
+    "expires_at": "2026-11-12T17:29:01.469849+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+      "https://dantri.com.vn/the-thao/van-dong-vien-dau-tien-cua-viet-nam-gianh-suat-du-olympic-2028-20261110235426856.htm",
+      "https://tuoitre.vn/olaha-manh-duc-le-giang-patrik-roi-tuyen-viet-nam-100261111222450162.htm"
+    ],
+    "article": {
+      "id": "dau-an-cua-olaha-manh-duc-trong-ngay-ra-mat-doi-tuyen-viet-nam-7b516591",
+      "title": "Dau an cua Olaha Manh Duc trong ngay ra mat doi tuyen Viet Nam",
+      "summary": "Man trinh dien cua tien dao nhap tich Olaha Manh Duc trong tran dau dau tien khoac ao doi tuyen Viet Nam da thu hut su quan tam dac biet tu nhieu chuyen trang bong da khu vuc.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+      "published_at": "2026-11-11T15:34:00+00:00",
+      "fetched_at": "2026-11-11T17:29:12.002048+00:00",
+      "appnho_published_at": "2026-11-11T17:31:51.374975+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong tran ra quan Giai giao huu quoc te Casper Cup 2026 dien ra toi 11.11 tren san Thien Truong, doi tuyen Viet Nam da gianh chien thang 2-0 truoc Dai Bac Trung Hoa. Day la tran dau dac biet khi tien dao nhap tich Olaha Manh Duc co lan dau tien khoac ao doi tuyen quoc gia va lap tuc de lai dau an dam net voi ban thang mo ty so.",
+        "O phut 22 cua tran dau, tu pha phoi hop ben canh phai, Hong Phuc cang ngang de Olaha Manh Duc bang vao dut diem can thanh. Truoc do, chan sut goc Nigeria cung chinh la nguoi lam tuong de mo ra tinh huong tan cong nay. Nhieu chuyen trang bong da khu vuc nhu ASEAN Football hay Seasia Goal da danh nhieu loi khen ngợi cho man trinh dien nay, nhan manh rang anh chi mat 22 phut de ghi ban thang dau tien trong mau ao doi tuyen quoc gia.",
+        "Truyen thong Malaysia va Indonesia dong loat phan tich rang su xuat hien cua Olaha Manh Duc mang lai them nhieu lua chon tren hang cong cho HLV Kim Sang-sik, dac biet khi mot so nhan to khac khong gop mạt trong dot tap trung. Ngoai kha nang san ban, chan sut nay con duoc danh gia cao o nen tang the luc va su tich cuc trong cac tinh huong phong ngụ.",
+        "Ngay sau tran dau nay, ban huan luyen doi tuyen Viet Nam va cac CLB da thong nhat ke hoach de Olaha Manh Duc cung mot so cau thu khac nhu Le Giang Patrik, Nhat Minh va Quoc Cuong roi doi tuyen de tro ve CLB. Dieu nay nham chuan bi cho cac muc tieu va lich thi đấu cap CLB sap toi, giup can doi va hai hoa loi ich giua cac ben."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Olaha Manh Duc ra mat an tuong cung doi tuyen Viet Nam",
+      "meta_description": "Tim hieu ve man trinh dien va ghi dau an cua tien dao Olaha Manh Duc trong tran dau ra mat doi tuyen quoc gia.",
+      "keywords": [
+        "Olaha Manh Duc",
+        "doi tuyen Viet Nam",
+        "Casper Cup 2026",
+        "bong da Viet Nam",
+        "truyen thong Dong Nam A"
+      ],
+      "slug": "dau-an-cua-olaha-manh-duc-trong-ngay-ra-mat-doi-tuyen-viet-nam-7b516591",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 312,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+        "https://dantri.com.vn/the-thao/van-dong-vien-dau-tien-cua-viet-nam-gianh-suat-du-olympic-2028-20261110235426856.htm",
+        "https://tuoitre.vn/olaha-manh-duc-le-giang-patrik-roi-tuyen-viet-nam-100261111222450162.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/van-dong-vien-dau-tien-cua-viet-nam-gianh-suat-du-olympic-2028-20261110235426856.htm",
+        "https://tuoitre.vn/olaha-manh-duc-le-giang-patrik-roi-tuyen-viet-nam-100261111222450162.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T15:34:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/van-dong-vien-dau-tien-cua-viet-nam-gianh-suat-du-olympic-2028-20261110235426856.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T23:25:07+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/olaha-manh-duc-le-giang-patrik-roi-tuyen-viet-nam-100261111222450162.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T16:09:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tien dao nhap tich Olaha Manh Duc ghi ban mo ty so o phut 22 trong tran dau giua doi tuyen Viet Nam va Dai Bac Trung Hoa vao toi 11.11.",
+          "source_urls": [
+            "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chuyên trang chuyên cập nhật bóng đá Đông Nam Á nhấn mạnh tiền đạo gốc Nigeria chỉ cần 22 phút để có bàn thắng đầu tiên trong màu áo đội tuyển quốc gia.ASEAN Footballnhận xét: “Đây là màn khởi đầu không thể ấn tượng hơn đối với cầu thủ vừa hoàn tất quá trình nhập tịch với đội tuyển Việt Nam”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "snippet": "Chuyên trang chuyên cập nhật bóng đá Đông Nam Á nhấn mạnh tiền đạo gốc Nigeria chỉ cần 22 phút để có bàn thắng đầu tiên trong màu áo đội tuyển quốc gia.ASEAN Footballnhận xét: “Đây là màn khởi đầu không thể ấn tượng hơn đối với cầu thủ vừa hoàn tất quá trình nhập tịch với đội tuyển Việt Nam”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "page_sha256": "cfd745789bb7b73479523f1d417612a76f399742ed5d9f30241a871214d2768b",
+              "snippet_sha256": "9853708fc012df4f068d4c4c258a4525a389706bb06105f5a5914294af28ceda",
+              "verified_at": "2026-11-11T17:29:12.001375+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dinh Bac ghi ban an dinh chien thang 2-0 cho doi tuyển Việt Nam trong trận đấu trên sân Thiên Trường.",
+          "source_urls": [
+            "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tối 11.11,đội tuyển Việt Namđánh bại Đài Loan 2-0 trên sân Thiên Trường.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "snippet": "Tối 11.11,đội tuyển Việt Namđánh bại Đài Loan 2-0 trên sân Thiên Trường.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "page_sha256": "cfd745789bb7b73479523f1d417612a76f399742ed5d9f30241a871214d2768b",
+              "snippet_sha256": "874eec45691b3033b66519cad399f0434db3661ef62aeaa4ff6edefb5b43f516",
+              "verified_at": "2026-11-11T17:29:12.001375+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhieu chuyen trang bong da khu vuc nhu ASEAN Football, Seasia Goal va Makanbola da dua tin va danh gia cao man trinh dien cua Olaha Manh Duc.",
+          "source_urls": [
+            "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Không chỉASEAN Football,Seasia Goal(Indonesia) cũng dành sự chú ý cho sự kiện này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "snippet": "Không chỉASEAN Football,Seasia Goal(Indonesia) cũng dành sự chú ý cho sự kiện này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "page_sha256": "cfd745789bb7b73479523f1d417612a76f399742ed5d9f30241a871214d2768b",
+              "snippet_sha256": "2aac2be8bcdbbea87b2b624b605d11b435fbe2a9d11d94fc841b328287743fa9",
+              "verified_at": "2026-11-11T17:29:12.001375+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Olaha Manh Duc, Le Giang Patrik, Nhat Minh va Quoc Cuong roi doi tuyen Viet Nam sau tran dau de chuan bi thi dau cho CLB Cong an TP.HCM.",
+          "source_urls": [
+            "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trang này nhắc lại việc Olaha Mạnh Đức đến từ Nigeria, đã sinh sống tại Việt Nam hơn 5 năm và lập tức ghi bàn sau khi được trao cơ hội khoác áo đội tuyển quốc gia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "snippet": "Trang này nhắc lại việc Olaha Mạnh Đức đến từ Nigeria, đã sinh sống tại Việt Nam hơn 5 năm và lập tức ghi bàn sau khi được trao cơ hội khoác áo đội tuyển quốc gia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "page_sha256": "cfd745789bb7b73479523f1d417612a76f399742ed5d9f30241a871214d2768b",
+              "snippet_sha256": "83c353f7138e7d321d3ecab7b0fab15c69181d9d4fd45e05dd7dda1bec1471c1",
+              "verified_at": "2026-11-11T17:29:12.001375+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet phan tich chi tiet man ra mat an tuong cua tien dao nhap tich Olaha Manh Duc va goc nhin cua truyen thong khu vuc. Dong thoi, tac pham lam ro boi canh nhan su va quyet dinh cho phep cau thu tro ve CLB sau tran dau.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T17:29:12.002112+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11.11",
+        "2026",
+        "22"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-11T17:31:51.374975+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 312,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1439,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/truyen-thong-dong-nam-a-olaha-manh-duc-ra-mat-nhu-mo-cung-doi-tuyen-viet-nam-185261111222312708.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-12 00:31"
+    },
+    "published_at": "2026-11-11T17:31:51.374975+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ket-qua-xo-so-vietlott-mega-6-45-toi-11-11-giai-oc-ac-cong-don-17-6-ti-o-50951474",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-11T17:29:01.469849+00:00",
+    "expires_at": "2026-11-12T17:29:01.469849+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+      "https://tuoitre.vn/tin-tuc-the-gioi-11-11-cong-hoa-thay-lanh-dao-o-ha-vien-ket-qua-ngay-dau-dam-phan-nga-ukraine-100261111063611648.htm",
+      "https://dantri.com.vn/the-gioi/tong-thong-putin-keu-goi-phat-huy-toi-da-tiem-luc-hoi-dong-an-ninh-cis-20261109192835612.htm"
+    ],
+    "article": {
+      "id": "ket-qua-xo-so-vietlott-mega-6-45-toi-11-11-giai-oc-ac-cong-don-17-6-ti-o-50951474",
+      "title": "Kết quả xổ số Vietlott Mega 6/45 tối 11.11: Giải độc đắc cộng dồn 17,6 tỉ đồng",
+      "summary": "Tối 11.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 17,6 tỉ đồng.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+      "published_at": "2026-11-11T16:05:00+00:00",
+      "fetched_at": "2026-11-11T17:30:35.140799+00:00",
+      "appnho_published_at": "2026-11-11T17:31:51.374975+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 11.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 17,6 tỉ đồng.",
+        "Lúc 18 giờ 30 hôm nay 11.11, Vietlott thông báo kết quả kỳ quay số mở thưởng kỳ 01587 loại hình xổ số tự chọn Vietlott - xổ số Mega 6/45. Bộ số may mắn trúng thưởng trong lần quay tối nay là: 03–11–14–23–25–43.",
+        "Sau khi quay thưởng, loại hình xổ số này ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 17.638.002.500 đồng.",
+        "Trong khi đó, hệ thống ghi nhận có 30 người trúng giải nhất trị giá 10 triệu đồng; có 1.483 người trúng giải nhì trị giá 300.000 đồng; có 23.770 người trúng giải ba với số tiền là 30.000 đồng."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Kết quả xổ số Vietlott Mega 6/45 tối 11.11",
+      "meta_description": "Tối 11.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 17,6 tỉ ",
+      "keywords": [
+        "xổ số Vietlott",
+        "Mega 6/45",
+        "giải độc đắc",
+        "Kết quả xổ số Vietlott Mega 6/45 tối 11.11",
+        "Việt Nam"
+      ],
+      "slug": "ket-qua-xo-so-vietlott-mega-6-45-toi-11-11-giai-oc-ac-cong-don-17-6-ti-o-50951474",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 146,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+        "https://tuoitre.vn/tin-tuc-the-gioi-11-11-cong-hoa-thay-lanh-dao-o-ha-vien-ket-qua-ngay-dau-dam-phan-nga-ukraine-100261111063611648.htm",
+        "https://dantri.com.vn/the-gioi/tong-thong-putin-keu-goi-phat-huy-toi-da-tiem-luc-hoi-dong-an-ninh-cis-20261109192835612.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/tin-tuc-the-gioi-11-11-cong-hoa-thay-lanh-dao-o-ha-vien-ket-qua-ngay-dau-dam-phan-nga-ukraine-100261111063611648.htm",
+        "https://dantri.com.vn/the-gioi/tong-thong-putin-keu-goi-phat-huy-toi-da-tiem-luc-hoi-dong-an-ninh-cis-20261109192835612.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T16:05:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/tin-tuc-the-gioi-11-11-cong-hoa-thay-lanh-dao-o-ha-vien-ket-qua-ngay-dau-dam-phan-nga-ukraine-100261111063611648.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T23:45:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/tong-thong-putin-keu-goi-phat-huy-toi-da-tiem-luc-hoi-dong-an-ninh-cis-20261109192835612.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T14:15:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Kết quả xổ số Vietlott Mega 6/45 tối 11.11, giải độc đắc cộng dồn 17,6 tỉ đồng",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phạm Hữu- phamhauhuu@gmail.com11/11/2026 23:05 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Tối 11.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 17,6 tỉ đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "snippet": "Phạm Hữu- phamhauhuu@gmail.com11/11/2026 23:05 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Tối 11.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 17,6 tỉ đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "page_sha256": "6fe28303322d1956c9c80518a52943d99b52f5071a27d17dd7c3ad84c2f87384",
+              "snippet_sha256": "61b60f2cd08458c0bd047985b7d5b52965a583ccba60438e731f459b01d4227f",
+              "verified_at": "2026-11-11T17:30:35.140253+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: Kết quả xổ số Vietlott Mega 6/45 tối 11.11, giải độc đắc cộng dồn 17,6 tỉ đồngBỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+          "importance": "supporting",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm"
+          ],
+          "evidence_snippet": "Kết quả xổ số Vietlott Mega 6/45 tối 11.11, giải độc đắc cộng dồn 17,6 tỉ đồngBỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "snippet": "Kết quả xổ số Vietlott Mega 6/45 tối 11.11, giải độc đắc cộng dồn 17,6 tỉ đồngBỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "page_sha256": "6fe28303322d1956c9c80518a52943d99b52f5071a27d17dd7c3ad84c2f87384",
+              "snippet_sha256": "97cf387f7e2b0dd5536e9194960499f2917f856303ad456db6c6629e0c05bbcf",
+              "verified_at": "2026-11-11T17:30:35.140253+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: Đóng menuChào ngày mớiTin 24hTin thị trườngTin 360VideoMagazineTiện íchBạn cần biếtLiên hệThông tin toà soạnLiên hệ quảng cáo",
+          "importance": "supporting",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm"
+          ],
+          "evidence_snippet": "Đóng menuChào ngày mớiTin 24hTin thị trườngTin 360VideoMagazineTiện íchBạn cần biếtLiên hệThông tin toà soạnLiên hệ quảng cáo",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "snippet": "Đóng menuChào ngày mớiTin 24hTin thị trườngTin 360VideoMagazineTiện íchBạn cần biếtLiên hệThông tin toà soạnLiên hệ quảng cáo",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "page_sha256": "6fe28303322d1956c9c80518a52943d99b52f5071a27d17dd7c3ad84c2f87384",
+              "snippet_sha256": "74407d560e55dd1ae768f5836a832cc2ec5dc6e7d309ad80eb384fb98e349b9f",
+              "verified_at": "2026-11-11T17:30:35.140253+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo cung cấp thông tin về kết quả xổ số Vietlott Mega 6/45 tối 11.11, giúp người đọc biết được số tiền cộng dồn của giải độc đắc và các giải thưởng khác. Bài báo cũng cung cấp thông tin về số lượng người trúng giải và số tiền thưởng tương ứng. Điều này giúp người đọc có cái nhìn tổng quan về kết quả xổ số và có thể đưa ra quyết định sáng suốt khi tham gia xổ số.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T17:30:35.140863+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "002.500",
+        "01587",
+        "03",
+        "1.483",
+        "10",
+        "11",
+        "11.11",
+        "14",
+        "17,6",
+        "17.638",
+        "18",
+        "23",
+        "23.770",
+        "25",
+        "30",
+        "30.000",
+        "300.000",
+        "43"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-11T17:31:51.374975+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 146,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 695,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-1111-giai-doc-dac-cong-don-176-ti-dong-185261111191204262.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-12 00:31"
+    },
+    "published_at": "2026-11-11T17:31:51.374975+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vu-be-boi-cua-jensen-huang-mot-van-e-lon-hon-trong-nganh-cong-nghe-6ff192ba",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-11T17:29:01.469849+00:00",
+    "expires_at": "2026-11-12T17:29:01.469849+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+      "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor"
+    ],
+    "article": {
+      "id": "vu-be-boi-cua-jensen-huang-mot-van-e-lon-hon-trong-nganh-cong-nghe-6ff192ba",
+      "title": "Vụ bê bối của Jensen Huang: Một vấn đề lớn hơn trong ngành công nghệ",
+      "summary": "Vụ bê bối của Jensen Huang, CEO của Nvidia, đã gây ra sự quan tâm lớn trong ngành công nghệ. Tuy nhiên, một số chuyên gia cho rằng vấn đề này không chỉ dừng lại ở một cá nhân, mà nó còn phản ánh một vấn đề lớn hơn trong ngành.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+      "published_at": "2026-11-11T16:16:07+00:00",
+      "fetched_at": "2026-11-11T17:31:34.980371+00:00",
+      "appnho_published_at": "2026-11-11T17:31:51.374975+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vụ bê bối của Jensen Huang, CEO của Nvidia, đã gây ra sự quan tâm lớn trong ngành công nghệ. Tuy nhiên, một số chuyên gia cho rằng vấn đề này không chỉ dừng lại ở một cá nhân, mà nó còn phản ánh một vấn đề lớn hơn trong ngành.",
+        "Theo Nate Singer, CEO của Heron Intelligence, một công ty chuyên về tư vấn đầu tư, vấn đề này không chỉ liên quan đến Jensen Huang, mà nó còn liên quan đến nhiều công ty khác trong ngành công nghệ. Singer cho rằng có nhiều trường hợp tương tự đã xảy ra trong ngành, nhưng chúng không được công bố rộng rãi.",
+        "Một trong những lý do chính dẫn đến vấn đề này là sự thiếu minh bạch trong ngành công nghệ. Nhiều công ty không công bố thông tin đầy đủ về các hoạt động của họ, điều này làm cho việc phát hiện và ngăn chặn các hành vi không đúng trở nên khó khăn.",
+        "Ngoài ra, sự cạnh tranh gay gắt trong ngành công nghệ cũng là một yếu tố góp phần vào vấn đề này. Nhiều công ty sẵn sàng làm mọi thứ để đạt được lợi thế cạnh tranh, bao gồm cả việc sử dụng các phương pháp không đúng.",
+        "Vụ bê bối của Jensen Huang là một lời cảnh báo cho ngành công nghệ. Nó cho thấy rằng ngành công nghệ cần phải có những biện pháp mạnh mẽ hơn để ngăn chặn các hành vi không đúng và bảo vệ quyền lợi của các bên liên quan."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Vụ bê bối của Jensen Huang: Một vấn đề lớn hơn trong ngành công nghệ",
+      "meta_description": "Vụ bê bối của Jensen Huang, CEO của Nvidia, đã gây ra sự quan tâm lớn trong ngành công nghệ. Tuy nhiên, một số chuyên gia cho rằng vấn đề này không chỉ dừng lại",
+      "keywords": [
+        "Jensen Huang",
+        "Nvidia",
+        "vụ bê bối",
+        "ngành công nghệ"
+      ],
+      "slug": "vu-be-boi-cua-jensen-huang-mot-van-e-lon-hon-trong-nganh-cong-nghe-6ff192ba",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 265,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+        "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+        "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor"
+      ],
+      "source_links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+        "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T16:16:07+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T19:31:58+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T14:53:05+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vụ bê bối của Jensen Huang đã gây ra sự quan tâm lớn trong ngành công nghệ.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "snippet": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "page_sha256": "78992e87dc2ae4c059c695955acd50a0404fa54b5a3c6f63da01af93b0795960",
+              "snippet_sha256": "5d03cd74e91d05a37757c547fa8988c7c33f1cc4193bbe5ac8eebf55efbb2b38",
+              "verified_at": "2026-11-11T17:31:34.979951+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nate Singer, CEO của Heron Intelligence, cho rằng vấn đề này không chỉ liên quan đến Jensen Huang, mà nó còn liên quan đến nhiều công ty khác trong ngành công nghệ.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "As CEO of investment intel firm Heron Intelligence, Nate Singer has a unique view into the problem.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "snippet": "As CEO of investment intel firm Heron Intelligence, Nate Singer has a unique view into the problem.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "page_sha256": "78992e87dc2ae4c059c695955acd50a0404fa54b5a3c6f63da01af93b0795960",
+              "snippet_sha256": "d0dfafc9213b123b050cd4a3af95812ba3bbf33f09ec7f48f1369838b6188ee7",
+              "verified_at": "2026-11-11T17:31:34.979951+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sự thiếu minh bạch trong ngành công nghệ là một trong những lý do chính dẫn đến vấn đề này.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Harbinger raises $240M after expanding into defense",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "snippet": "Harbinger raises $240M after expanding into defense",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "page_sha256": "78992e87dc2ae4c059c695955acd50a0404fa54b5a3c6f63da01af93b0795960",
+              "snippet_sha256": "c70da4afee0b97445ecb24e27ea74b1e60b1c05658a3a43579f53d982f040c33",
+              "verified_at": "2026-11-11T17:31:34.979951+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp một góc nhìn mới về vụ bê bối của Jensen Huang, cho thấy rằng vấn đề này không chỉ dừng lại ở một cá nhân, mà nó còn phản ánh một vấn đề lớn hơn trong ngành công nghệ. Bài viết cũng cung cấp một số giải pháp để ngăn chặn các hành vi không đúng trong ngành công nghệ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T17:31:34.980460+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-11T17:31:51.374975+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 265,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1214,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "techcrunch.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-12 00:31"
+    },
+    "published_at": "2026-11-11T17:31:51.374975+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "microsoft-chinh-thuc-phat-hanh-cong-nghe-auto-sr-cho-rog-xbox-ally-x-20716e12",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-11T17:29:01.469849+00:00",
+    "expires_at": "2026-11-12T17:29:01.469849+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2313202/microsoft-automatic-super-resolution-comes-to-rog-xbox-ally-x",
+      "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+    ],
+    "article": {
+      "id": "microsoft-chinh-thuc-phat-hanh-cong-nghe-auto-sr-cho-rog-xbox-ally-x-20716e12",
+      "title": "Microsoft chính thức phát hành công nghệ Auto SR cho ROG Xbox Ally X",
+      "summary": "Microsoft chính thức phát hành công nghệ nâng cấp hình ảnh Automatic Super Resolution (Auto SR) cho ROG Xbox Ally X cùng các thiết bị tương thích, bổ sung chế độ cầm tay và hỗ trợ độ phân giải 1080p.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2313202/microsoft-automatic-super-resolution-comes-to-rog-xbox-ally-x",
+      "published_at": "2026-11-11T12:59:44+00:00",
+      "fetched_at": "2026-11-11T17:31:49.101220+00:00",
+      "appnho_published_at": "2026-11-11T17:31:51.374975+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Microsoft đã chính thức phát hành công nghệ Automatic Super Resolution (Auto SR) cho dòng thiết bị ROG Xbox Ally X, ROG Xbox Ally X20 và một số máy tính Windows Copilot+ trang bị bộ vi xử lý AMD Ryzen. Công nghệ này được định vị là đối trọng của hãng với các giải pháp nâng cấp hình ảnh tương tự như DLSS của NVIDIA.",
+        "Trước đó, Microsoft đã triển khai thử nghiệm Auto SR từ tháng 4 với giới hạn chỉ hoạt động khi thiết bị được cắm dock. Trong phiên bản chính thức này, công nghệ đã hỗ trợ chế độ chơi cầm tay và chạy trên nguồn pin theo yêu cầu từ người dùng, giúp cải thiện độ mượt cho các tựa game nặng khi di chuyển.",
+        "Bên cạnh đó, phiên bản chính thức hỗ trợ mặc định các tựa game chạy ở độ phân giải 1080p mà không bắt buộc người dùng phải hạ độ phân giải như giai đoạn thử nghiệm. Microsoft cũng lưu ý hiệu suất khi chơi ở độ phân giải 1080p trên thiết bị cầm tay có thể không tối ưu bằng các cấu hình khác, dù vẫn mang lại cải thiện hình ảnh đáng kể cho các tựa game cũ.",
+        "Trong các bản cập nhật Windows sắp tới, Microsoft sẽ tiếp tục bổ sung chế độ Performance Mode cho phép nâng mức giới hạn khung hình từ 60-75 fps lên tới 120 fps, cùng với tính năng hỗ trợ HDR nhằm tối ưu trải nghiệm cho các tựa game bắn súng và cạnh tranh tốc độ cao."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Microsoft phát hành Auto SR chính thức cho ROG Xbox Ally X",
+      "meta_description": "Microsoft chính thức phát hành công nghệ Auto SR cho ROG Xbox Ally X, cho phép hoạt động ở chế độ cầm tay, hỗ trợ độ phân giải 1080p và đạt tốc độ khung hình ca",
+      "keywords": [
+        "Microsoft",
+        "Auto SR",
+        "ROG Xbox Ally X",
+        "DLSS",
+        "Upscaling"
+      ],
+      "slug": "microsoft-chinh-thuc-phat-hanh-cong-nghe-auto-sr-cho-rog-xbox-ally-x-20716e12",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 266,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2313202/microsoft-automatic-super-resolution-comes-to-rog-xbox-ally-x",
+        "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+      ],
+      "source_links": [
+        "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2313202/microsoft-automatic-super-resolution-comes-to-rog-xbox-ally-x",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T12:59:44+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T00:34:34+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Microsoft chính thức phát hành Automatic Super Resolution (Auto SR) cho ROG Xbox Ally X, ROG Xbox Ally X20 và một số máy tính Windows Copilot+ dùng chip AMD Ryzen.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia’s DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs,the company announced today.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "snippet": "Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia’s DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs,the company announced today.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "page_sha256": "5e5438c0741e2aef8babd4f14bd1f27b732bbd3edd1f1cd9287c69e0a3942ae7",
+              "snippet_sha256": "191ce6e8225bde3300a377f95d5b0b5d647c1c3e7ff8b72bafea240a7e9cbb86",
+              "verified_at": "2026-11-11T17:31:49.100756+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phiên bản chính thức của Auto SR hỗ trợ chế độ chơi cầm tay và chạy trên nguồn pin, đồng thời tương thích với các tựa game chạy ở độ phân giải 1080p.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The full release of Auto SR announced today now works while you’re playing handheld and running on battery, and it also supports games running at 1080p.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "snippet": "The full release of Auto SR announced today now works while you’re playing handheld and running on battery, and it also supports games running at 1080p.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "page_sha256": "5e5438c0741e2aef8babd4f14bd1f27b732bbd3edd1f1cd9287c69e0a3942ae7",
+              "snippet_sha256": "35a415c09c1abd99e3b4c7ce75ed5e4642d148363c513be787498c0d4822e0ed",
+              "verified_at": "2026-11-11T17:31:49.100756+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chế độ Performance Mode sắp tới sẽ hỗ trợ tốc độ khung hình lên tới 120 fps cùng với khả năng tương thích HDR thông qua các bản cập nhật Windows.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Previously, Auto SR was also limited to framerates of “around” 60 to 75fps, but support for a new Auto SR Performance mode will allow you to hit framerates of up to 120fps.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "snippet": "Previously, Auto SR was also limited to framerates of “around” 60 to 75fps, but support for a new Auto SR Performance mode will allow you to hit framerates of up to 120fps.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "page_sha256": "5e5438c0741e2aef8babd4f14bd1f27b732bbd3edd1f1cd9287c69e0a3942ae7",
+              "snippet_sha256": "f0a5a9d489d9603fb3fa03ee8ccaf4fe7bda963dcb77264372cc470ae7b605ba",
+              "verified_at": "2026-11-11T17:31:49.100756+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước chuyển từ giai đoạn thử nghiệm sang phát hành chính thức của công nghệ Auto SR từ Microsoft. Đồng thời, văn bản phân tích các thay đổi về khả năng tương thích ở chế độ cầm tay, độ phân giải 1080p và giới hạn hiệu năng được hãng lưu ý.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-11T17:31:49.101297+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1080",
+        "120",
+        "20"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-11T17:31:51.374975+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 266,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1239,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-12 00:31"
+    },
+    "published_at": "2026-11-11T17:31:51.374975+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
