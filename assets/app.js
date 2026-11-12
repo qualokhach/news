@@ -59,7 +59,7 @@ if(homePage&&validCategory){
   if(latestBlock&&!document.getElementById("categoryMoreNav")){
     const nav=document.createElement("section");nav.id="categoryMoreNav";nav.className="category-more-nav";nav.setAttribute("aria-label","Khám phá thêm AppNho News");
     const links=[['world','🌐 Tin thế giới'],['vietnam','🇻🇳 Tin Việt Nam'],['sports','🏆 Tin thể thao'],['technology','💡 Tin công nghệ']].filter(([key])=>key!==validCategory).map(([key,label])=>`<a class="category-more-link" href="?category=${key}">${label}<span>↗</span></a>`).join("");
-    nav.innerHTML=`<div class="category-more-heading"><span class="eyebrow">KHÁM PHÁ THÊM</span><h2>Đọc thêm từ AppNho News</h2><p>Chuyển sang chuyên mục khác hoặc xem lại các sự kiện trước đây.</p></div><div class="category-more-links">${links}<a class="category-more-link history-link" href="./#archive">🗂️ Lịch sử tin tức <span>↗</span></a></div><a class="category-more-home" href="./">← Trở về trang chủ tổng hợp</a>`;
+    nav.innerHTML=`<div class="category-more-heading"><span class="eyebrow">KHÁM PHÁ THÊM</span><h2>Đọc thêm từ AppNho News</h2><p>Chuyển sang một chuyên mục khác để tiếp tục theo dõi tin tức.</p></div><div class="category-more-links">${links}</div><a class="category-more-home" href="./">← Trở về trang chủ tổng hợp</a>`;
     latestBlock.appendChild(nav);
   }
 }

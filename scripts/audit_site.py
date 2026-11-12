@@ -139,7 +139,7 @@ def main():
         assert cat in js, f"Frontend category handling missing: {cat}"
     assert "data/archive_manifest.json" in js, "Homepage does not load archive manifest"
     assert 'categoryHeroTitle' in js and 'categoryMoreNav' in js, "Category indexes must have a personalized hero and onward navigation"
-    assert 'href="./#archive"' in js, "Category onward navigation must link to the history section"
+    assert 'href="./#archive"' not in js, "Category onward navigation must not link to the removed history section"
     assert '.category-hero' in (ROOT/"assets/style.css").read_text(encoding="utf-8"), "Category hero styling is missing"
     article_js=(ROOT/"assets/article.js").read_text(encoding="utf-8")
     assert "data/archive_manifest.json" in article_js, "Article page does not load archive manifest"
