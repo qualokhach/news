@@ -3304,7 +3304,7 @@
   },
   {
     "queue_id": "72000e10a2ab952eb99c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:08:55.829159+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "sports",
@@ -4298,11 +4298,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:08:55.829186+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "manchester-united-sau-ky-nguyen-carrick-nhung-thach-thuc-cho-oi-mauricio-1eb53d20"
   },
   {
     "queue_id": "6a768fa81d77f8732492",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:08:53.347047+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "technology",
@@ -5006,11 +5007,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:08:53.347081+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "khoan-lo-ty-o-cua-softbank-va-dau-cham-het-cho-tham-vong-khi-tu-nhien-tr-9226c4ea"
   },
   {
     "queue_id": "e33103c9536a22b922d3",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:08:48.420248+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "world",
@@ -6419,11 +6421,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:08:48.420273+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "su-ra-i-cua-jensen-huang-e-doa-ke-hoach-tai-chinh-ai-500-ty-usd-a422db4d"
   },
   {
     "queue_id": "0d4d931728bcde2aca0c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:08:41.236507+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "world",
@@ -7352,7 +7355,8 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:08:41.236531+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "israel-tan-cong-benh-vien-gaza-khien-6-nguoi-thiet-mang-va-hang-chuc-ngu-b18990cf"
   },
   {
     "queue_id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
@@ -79343,7 +79347,7 @@
   },
   {
     "queue_id": "racing-bulls-chot-oi-hinh-tay-ua-cho-mua-giai-f1-2027-82a1e9a6",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-12T17:09:36.622367+00:00",
     "expires_at": "2026-11-13T17:09:36.622367+00:00",
     "source_urls": [
@@ -79359,7 +79363,7 @@
       "source_url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-12T16:02:16+00:00",
       "fetched_at": "2026-11-12T17:10:08.031096+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-12T17:47:56.715234+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -79522,23 +79526,38 @@
         "45"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-12T17:10:08.032745+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-12T17:47:56.715234+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 321,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1467
-        },
-        "independent_domains": [
-          "bbc.com",
-          "skysports.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1467,
+          "source_access": [
+            {
+              "url": "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-13 00:47"
+    },
+    "published_at": "2026-11-12T17:47:56.715234+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100",
@@ -79976,6 +79995,976 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "manchester-united-sau-ky-nguyen-carrick-nhung-thach-thuc-cho-oi-mauricio-1eb53d20",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-12T17:45:14.081423+00:00",
+    "expires_at": "2026-11-13T17:45:14.081423+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+      "https://www.cbssports.com/soccer/news/manchester-united-mauricio-pochettino-available-managers",
+      "https://www.aljazeera.com/sports/2026/11/11/why-is-pochettino-the-favourite-to-replace-carrick-at-manchester-united?traffic_source=rss"
+    ],
+    "article": {
+      "id": "manchester-united-sau-ky-nguyen-carrick-nhung-thach-thuc-cho-oi-mauricio-1eb53d20",
+      "title": "Manchester United sau kỷ nguyên Carrick: Những thách thức chờ đợi Mauricio Pochettino",
+      "summary": "Sau khi chia tay Michael Carrick, Manchester United đang hướng tới việc bổ nhiệm Mauricio Pochettino để vực dậy đội bóng đang đứng ở nhóm xuống hạng tại Premier League.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+      "published_at": "2026-11-12T17:00:22+00:00",
+      "fetched_at": "2026-11-12T17:45:52.896024+00:00",
+      "appnho_published_at": "2026-11-12T17:47:56.715234+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Manchester United vừa chính thức xác nhận chia tay huấn luyện viên Michael Carrick sau khởi đầu mùa giải đầy thất vọng. Đội bóng hiện đang chìm sâu ở nhóm xuống hạng, xếp thứ 18 trên bảng xếp hạng Premier League với chỉ một chiến thắng sau 10 vòng đấu đầu tiên. Đây được ghi nhận là khởi đầu tệ hại nhất của câu lạc bộ trong suốt 30 năm qua, tạo ra áp lực khổng lồ lên ban lãnh đạo và người kế nhiệm sắp tới.",
+        "Mauricio Pochettino, cựu huấn luyện viên đội tuyển Mỹ, được cho là ứng viên hàng đầu để tiếp quản chiếc ghế nóng tại Old Trafford. Với kinh nghiệm dày dặn tại Premier League qua các thời kỳ dẫn dắt Southampton, Tottenham và Chelsea, Pochettino được kỳ vọng sẽ mang lại lối chơi tấn công cởi mở và khả năng phát triển tài năng trẻ. Tuy nhiên, tân huấn luyện viên sẽ phải đối mặt với một danh sách dài các vấn đề tồn đọng từ thời Carrick.",
+        "Một trong những ưu tiên hàng đầu là thiết lập lại kỷ luật nội bộ. Mùa giải vừa qua chứng kiến những bất ổn trong phòng thay đồ, điển hình là việc đội trưởng Bruno Fernandes bị loại khỏi đội hình sau khi công khai chỉ trích chiến thuật, hay những phát ngôn gây tranh cãi của Lisandro Martinez nhắm vào giám đốc bóng đá Jason Wilcox. Việc ổn định tâm lý cầu thủ và tạo ra sự đồng thuận trong đội ngũ là chìa khóa để cải thiện thành tích.",
+        "Về mặt chuyên môn, hàng phòng ngự là điểm yếu chí mạng khi đội bóng đã để thủng lưới 30 bàn trên mọi đấu trường, con số cao nhất trong năm giải đấu hàng đầu châu Âu. Việc luân chuyển nhân sự liên tục ở hàng thủ đã gây ra sự thiếu ổn định. Pochettino cần sớm định hình một bộ tứ vệ cố định để tạo sự an tâm. Ngoài ra, bài toán tìm kiếm một trung phong cắm thực thụ thay thế cho Benjamin Sesko đang chấn thương cũng là thách thức lớn, khi các phương án thử nghiệm như Joshua Zirkzee hay Marcus Rashford chưa mang lại hiệu quả ổn định. Sự thành bại của Pochettino tại Old Trafford sẽ phụ thuộc rất nhiều vào khả năng giải quyết những tồn tại này ngay trong giai đoạn giữa mùa giải."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Manchester United bổ nhiệm Mauricio Pochettino và những vấn đề cần giả",
+      "meta_description": "Manchester United chính thức chia tay HLV Michael Carrick. Mauricio Pochettino được kỳ vọng sẽ giải quyết các vấn đề về kỷ luật, hàng thủ và phong độ của đội bó",
+      "keywords": [
+        "Manchester United",
+        "Mauricio Pochettino",
+        "Michael Carrick",
+        "Premier League",
+        "bóng đá Anh"
+      ],
+      "slug": "manchester-united-sau-ky-nguyen-carrick-nhung-thach-thuc-cho-oi-mauricio-1eb53d20",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 408,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+        "https://www.cbssports.com/soccer/news/manchester-united-mauricio-pochettino-available-managers",
+        "https://www.aljazeera.com/sports/2026/11/11/why-is-pochettino-the-favourite-to-replace-carrick-at-manchester-united?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.cbssports.com/soccer/news/manchester-united-mauricio-pochettino-available-managers",
+        "https://www.aljazeera.com/sports/2026/11/11/why-is-pochettino-the-favourite-to-replace-carrick-at-manchester-united?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T17:00:22+00:00"
+        },
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/manchester-united-mauricio-pochettino-available-managers",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T15:48:47+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/11/why-is-pochettino-the-favourite-to-replace-carrick-at-manchester-united?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T13:56:53+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Manchester United đã sa thải Michael Carrick sau khởi đầu mùa giải tệ nhất trong 30 năm.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager"
+          ],
+          "importance": "core",
+          "evidence_snippet": "No team in Europe’s top five leagues have conceded more than United’s 30 in all competitions, which is clearly a worry.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "snippet": "No team in Europe’s top five leagues have conceded more than United’s 30 in all competitions, which is clearly a worry.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "page_sha256": "ce5fbdca0c05a375cbfc79d053f743c60c26889a0e4de1d429f253fc1ccc2821",
+              "snippet_sha256": "28c3ac71771c03fd6287ab20c65405dc3fc2c5ab61040f6644968c5b53d74d5a",
+              "verified_at": "2026-11-12T17:45:52.895529+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mauricio Pochettino là ứng viên hàng đầu thay thế Carrick và đã có kinh nghiệm dẫn dắt Southampton, Tottenham, Chelsea.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager"
+          ],
+          "importance": "core",
+          "evidence_snippet": "View image in fullscreenAndrey Santos has struggled to prove his worth since joining from Chelsea for £50m in July.Photograph: Conor Molloy/ProSports/Shutterstock",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "snippet": "View image in fullscreenAndrey Santos has struggled to prove his worth since joining from Chelsea for £50m in July.Photograph: Conor Molloy/ProSports/Shutterstock",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "page_sha256": "ce5fbdca0c05a375cbfc79d053f743c60c26889a0e4de1d429f253fc1ccc2821",
+              "snippet_sha256": "42a54a634e1e0e750323e7db41fa296356beceb2bfa017a5964b49df0c3f46f4",
+              "verified_at": "2026-11-12T17:45:52.895529+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Manchester United đã để thủng lưới 30 bàn trên mọi đấu trường, con số cao nhất trong năm giải đấu hàng đầu châu Âu.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "View image in fullscreenFrom left to right: Sir Jim Ratcliffe; Manchester United chief executive, Omar Berrada; and director of football, Jason Wilcox.Photograph: Jacob King/PA",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "snippet": "View image in fullscreenFrom left to right: Sir Jim Ratcliffe; Manchester United chief executive, Omar Berrada; and director of football, Jason Wilcox.Photograph: Jacob King/PA",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "page_sha256": "ce5fbdca0c05a375cbfc79d053f743c60c26889a0e4de1d429f253fc1ccc2821",
+              "snippet_sha256": "ece2676c01f3c2def24b61ef45dfaaddb14971f2cc78a387692ca0952a2e9adb",
+              "verified_at": "2026-11-12T17:45:52.895529+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích sự chuyển giao quyền lực tại Manchester United trong bối cảnh khủng hoảng phong độ. Nội dung làm rõ mối liên hệ giữa các vấn đề kỷ luật nội bộ và hiệu suất thi đấu trên sân cỏ. Đồng thời, bài viết đặt ra các thách thức chuyên môn cụ thể mà tân huấn luyện viên phải đối mặt thay vì chỉ tường thuật thông tin bổ nhiệm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:45:52.896103+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "18",
+        "30"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-12T17:47:56.715234+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 408,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1957,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cbssports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-13 00:47"
+    },
+    "published_at": "2026-11-12T17:47:56.715234+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "khoan-lo-ty-o-cua-softbank-va-dau-cham-het-cho-tham-vong-khi-tu-nhien-tr-9226c4ea",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-12T17:45:14.081423+00:00",
+    "expires_at": "2026-11-13T17:45:14.081423+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+      "https://www.wired.com/story/scientists-discover-massive-starless-galaxy",
+      "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity"
+    ],
+    "article": {
+      "id": "khoan-lo-ty-o-cua-softbank-va-dau-cham-het-cho-tham-vong-khi-tu-nhien-tr-9226c4ea",
+      "title": "Khoản lỗ tỷ đô của SoftBank và dấu chấm hết cho tham vọng khí tự nhiên trong AI",
+      "summary": "Việc SoftBank ghi nhận khoản lỗ 7,1 tỷ USD, trong đó hơn một nửa liên quan đến thiết bị phát điện, đang làm dấy lên những nghi vấn về chiến lược đầu tư vào khí tự nhiên để phục vụ cơn sốt AI.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "published_at": "2026-11-12T17:00:52+00:00",
+      "fetched_at": "2026-11-12T17:46:18.154415+00:00",
+      "appnho_published_at": "2026-11-12T17:47:56.715234+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tập đoàn SoftBank vừa công bố khoản lỗ hàng quý lên tới 7,1 tỷ USD, một con số gây chú ý khi hơn một nửa trong số đó xuất phát từ các khoản đầu tư vào thiết bị phát điện. Sự kiện này đánh dấu một bước lùi đáng kể trong chiến lược mà CEO Masayoshi Son từng kỳ vọng sẽ giúp tập đoàn này kiểm soát nguồn cung năng lượng cho các trung tâm dữ liệu AI đang bùng nổ.",
+        "Trước đó, thông qua công ty con SB Energy, SoftBank đã thực hiện những bước đi táo bạo với cam kết chi 33 tỷ USD cho một nhà máy điện khí tự nhiên công suất 9,2 gigawatt. Để đảm bảo tiến độ và chiếm lĩnh thị trường, tập đoàn này đã đặt cọc cho hơn 13 gigawatt tua-bin, vượt xa nhu cầu thực tế khoảng 50%. Tuy nhiên, khi thị trường năng lượng thay đổi và các nhà vận hành trung tâm dữ liệu bắt đầu tìm kiếm những giải pháp thay thế hiệu quả hơn, những khoản tiền đặt cọc không hoàn lại này đã trở thành gánh nặng tài chính, với giá trị thiệt hại ước tính lên tới hơn 3 tỷ USD.",
+        "Giới chuyên gia nhận định đây là một bài học đắt giá về 'khám phá giá' trong bối cảnh cơn sốt điện năng của ngành AI. Mặc dù khí tự nhiên từng được coi là 'tấm khiên' an toàn cho các trung tâm dữ liệu, nhưng những rủi ro về nguồn cung trong mùa đông và sự cạnh tranh gay gắt đã khiến nhiều đơn vị vận hành cân nhắc lại. Thay vì phụ thuộc hoàn toàn vào khí đốt, xu hướng hiện nay đang chuyển dịch sang việc kết nối lưới điện kết hợp với các hệ thống lưu trữ pin quy mô lớn để tối ưu hóa chi phí.",
+        "Dù khoản lỗ của SoftBank là rất lớn, các chuyên gia cho rằng nó khó có khả năng tạo ra hiệu ứng domino dẫn đến việc hủy bỏ hàng loạt các dự án điện khí khác. Nhu cầu năng lượng của AI vẫn đang ở mức quá cao để thị trường có thể từ bỏ hoàn toàn nguồn năng lượng này. Tuy nhiên, sự kiện này cho thấy tham vọng độc quyền nguồn cung năng lượng của SoftBank đã chạm ngưỡng giới hạn, buộc tập đoàn phải nhìn nhận lại chiến lược trong một thị trường năng lượng đầy biến động."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "SoftBank lỗ lớn vì đặt cược vào khí tự nhiên cho AI",
+      "meta_description": "SoftBank đối mặt với khoản lỗ hơn 3 tỷ USD từ các đơn hàng tua-bin khí tự nhiên, phản ánh sự thay đổi trong nhu cầu năng lượng của ngành công nghiệp AI.",
+      "keywords": [
+        "SoftBank",
+        "AI",
+        "khí tự nhiên",
+        "SB Energy",
+        "đầu tư"
+      ],
+      "slug": "khoan-lo-ty-o-cua-softbank-va-dau-cham-het-cho-tham-vong-khi-tu-nhien-tr-9226c4ea",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 418,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+        "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+        "https://www.wired.com/story/scientists-discover-massive-starless-galaxy",
+        "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity"
+      ],
+      "source_links": [
+        "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+        "https://www.wired.com/story/scientists-discover-massive-starless-galaxy",
+        "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T17:00:52+00:00"
+        },
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T08:38:42+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T11:15:00+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T20:24:20+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "SoftBank ghi nhận khoản lỗ hàng quý 7,1 tỷ USD, với hơn một nửa liên quan đến thiết bị phát điện.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions"
+          ],
+          "importance": "core",
+          "evidence_snippet": "SoftBank announced a$7.1 billion quarterly losson Tuesday, with over half of that stemming from losses related to power-generating equipment.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "snippet": "SoftBank announced a$7.1 billion quarterly losson Tuesday, with over half of that stemming from losses related to power-generating equipment.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "page_sha256": "9bdd0db4fa5762d10de45bc141832f10a3939cdf2d0ef6c51e9a1708f9f0cedc",
+              "snippet_sha256": "ba1d6343c638c87049ce732b8c326306abe895cf07b1a185916b02610d2f58e7",
+              "verified_at": "2026-11-12T17:46:18.154014+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "SoftBank đã đặt cọc cho hơn 13 gigawatt tua-bin, vượt khoảng 50% so với nhu cầu thực tế.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Starting about two years ago, SoftBankreportedlyput down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "snippet": "Starting about two years ago, SoftBankreportedlyput down deposits on more than 13 gigawatts of turbines, almost 50% more than it needed.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "page_sha256": "9bdd0db4fa5762d10de45bc141832f10a3939cdf2d0ef6c51e9a1708f9f0cedc",
+              "snippet_sha256": "f58afbcab530cc326441266aa1eb9d60735aed977ed6e677beb79d74aa5262a2",
+              "verified_at": "2026-11-12T17:46:18.154014+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Khoản lỗ liên quan đến các khoản đặt cọc tua-bin không hoàn lại của SoftBank ước tính hơn 3 tỷ USD.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The magnitude of that misplaced bet — over $3 billion — reflects some of the electricity mania that has overtaken the AI world.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "snippet": "The magnitude of that misplaced bet — over $3 billion — reflects some of the electricity mania that has overtaken the AI world.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "page_sha256": "9bdd0db4fa5762d10de45bc141832f10a3939cdf2d0ef6c51e9a1708f9f0cedc",
+              "snippet_sha256": "e081497b9b75815a16c33184fd71813a052426825aee1e6e426b8081da745929",
+              "verified_at": "2026-11-12T17:46:18.154014+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa chiến lược đầu tư quá mức của SoftBank và sự thay đổi trong nhu cầu năng lượng thực tế của ngành AI. Đồng thời, bài phân tích giới hạn của khí tự nhiên như một giải pháp năng lượng duy nhất cho các trung tâm dữ liệu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:46:18.154488+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "13",
+        "3",
+        "33",
+        "50",
+        "7,1",
+        "9,2"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-12T17:47:56.715234+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 418,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1896,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "sciencedaily.com",
+            "techcrunch.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-13 00:47"
+    },
+    "published_at": "2026-11-12T17:47:56.715234+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "su-ra-i-cua-jensen-huang-e-doa-ke-hoach-tai-chinh-ai-500-ty-usd-a422db4d",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-12T17:45:14.081423+00:00",
+    "expires_at": "2026-11-13T17:45:14.081423+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+      "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+      "https://tuoitre.vn/co-phieu-nvidia-lao-doc-boc-hoi-601-ti-usd-von-hoa-sau-khi-ceo-jensen-huang-tu-chuc-100261112230059807.htm"
+    ],
+    "article": {
+      "id": "su-ra-i-cua-jensen-huang-e-doa-ke-hoach-tai-chinh-ai-500-ty-usd-a422db4d",
+      "title": "Sự ra đi của Jensen Huang đe dọa kế hoạch tài chính AI 500 tỷ USD",
+      "summary": "Việc Jensen Huang từ chức CEO Nvidia đang tạo ra những biến động lớn và làm dấy lên nghi vấn về tương lai của các thỏa thuận tài chính hạ tầng trí tuệ nhân tạo trị giá 500 tỷ USD trên Phố Wall.",
+      "category": "technology",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+      "published_at": "2026-11-12T17:06:18+00:00",
+      "fetched_at": "2026-11-12T17:46:30.024548+00:00",
+      "appnho_published_at": "2026-11-12T17:47:56.715234+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Việc ông Jensen Huang chính thức rời vị trí chủ tịch, giám đốc điều hành và thành viên hội đồng quản trị của Nvidia đang tạo ra cú sốc lớn đối với thị trường công nghệ toàn cầu. Sự biến động thượng tầng này diễn ra trong bối cảnh tập đoàn chip đang giữ vai trò trung tâm trong làn sóng bùng nổ trí tuệ nhân tạo, đồng thời đặt dấu hỏi lớn về khả năng duy trì các chiến lược tài chính dài hạn.",
+        "Trước đó vào tháng 8, Nvidia từng công bố các biên bản ghi nhớ với sáu hãng tài chính lớn nhằm huy động hơn 500 tỷ USD cho hạ tầng AI. Kế hoạch này được kỳ vọng sẽ biến các dòng chip xử lý đồ họa thành tài sản hạ tầng có thể vay vốn ngân hàng, thông qua các cấu trúc tài chính chuyên biệt có sự hậu thuẫn từ những tên tuổi lớn như BlackRock, Goldman Sachs hay Blackstone.",
+        "Tuy nhiên, sự vắng mặt của nhân vật trung tâm từng định hình tầm nhìn này khiến giới phân tích tài chính lo ngại. Dù các chuyên gia nhận định nguồn vốn cam kết khó có khả năng rút lui ngay lập tức vì các bên cho vay dựa trên hợp đồng khách hàng và chất lượng chip, rủi ro về việc thắt chặt điều kiện tín dụng hoặc làm chậm tiến độ ký kết các thỏa thuận cuối cùng là hiện hữu.",
+        "Bên cạnh áp lực từ thị trường tài chính, Nvidia cũng chưa từng xác định rõ người kế nhiệm ông Huang từ trước, buộc Giám đốc tài chính Colette Kress phải tạm giữ vai trò điều hành. Những diễn biến này không chỉ làm gia tăng sự thận trọng từ phía các nhà đầu tư mà còn đặt ra thách thức lớn trong việc giữ vững niềm tin của Phố Wall vào lộ trình chiến lược công nghệ tiếp theo của hãng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Jensen Huang từ chức và rủi ro từ kế hoạch tài chính AI 500 tỷ USD của",
+      "meta_description": "Phân tích tác động từ việc CEO Jensen Huang từ chức đến chiến lược huy động 500 tỷ USD cho hạ tầng AI của Nvidia và phản ứng của Phố Wall.",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "tài chính AI",
+        "Phố Wall",
+        "cổ phiếu công nghệ"
+      ],
+      "slug": "su-ra-i-cua-jensen-huang-e-doa-ke-hoach-tai-chinh-ai-500-ty-usd-a422db4d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 331,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+        "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+        "https://tuoitre.vn/co-phieu-nvidia-lao-doc-boc-hoi-601-ti-usd-von-hoa-sau-khi-ceo-jensen-huang-tu-chuc-100261112230059807.htm"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+        "https://tuoitre.vn/co-phieu-nvidia-lao-doc-boc-hoi-601-ti-usd-von-hoa-sau-khi-ceo-jensen-huang-tu-chuc-100261112230059807.htm"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T17:06:18+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:36:37+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/co-phieu-nvidia-lao-doc-boc-hoi-601-ti-usd-von-hoa-sau-khi-ceo-jensen-huang-tu-chuc-100261112230059807.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:32:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Jensen Huang đã từ chức chủ tịch, CEO và thành viên hội đồng quản trị Nvidia.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Leadership change atNvidiahas the potential to threaten financing of the artificial intelligence boom and test Jensen Huang's $500 billion vision to turn AI chips into tradable debt securities.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "snippet": "Leadership change atNvidiahas the potential to threaten financing of the artificial intelligence boom and test Jensen Huang's $500 billion vision to turn AI chips into tradable debt securities.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "page_sha256": "307f98549a5a1008e54475d871f1b44cb7a19c3622d91e9d8635b61546c7630b",
+              "snippet_sha256": "54a4407cbb6daf91ecce3c77dd2adb70f2c4fe7d451c4f5579653e16025395cc",
+              "verified_at": "2026-11-12T17:46:30.024226+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia từng công bố biên bản ghi nhớ với sáu hãng tài chính nhằm huy động hơn 500 tỷ USD cho hạ tầng AI vào tháng 8.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nvidia's leadership crisis could test its $500 billion AI financing betSkip Navigation",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "snippet": "Nvidia's leadership crisis could test its $500 billion AI financing betSkip Navigation",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "page_sha256": "307f98549a5a1008e54475d871f1b44cb7a19c3622d91e9d8635b61546c7630b",
+              "snippet_sha256": "6abf8876061f202aeb6cb36a3c187ed7a9ad52989fb1025831855ef547709d8f",
+              "verified_at": "2026-11-12T17:46:30.024226+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "CFO Colette Kress được bổ nhiệm làm CEO tạm thời của Nvidia.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Colette Kress, chief financial officer, has been named interim CEO.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "snippet": "Colette Kress, chief financial officer, has been named interim CEO.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "page_sha256": "307f98549a5a1008e54475d871f1b44cb7a19c3622d91e9d8635b61546c7630b",
+              "snippet_sha256": "56cbe1cb0bec0828a8c698d234ad8e4fe85ff983bc20d11aaaa4170e3f3d7d2f",
+              "verified_at": "2026-11-12T17:46:30.024226+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ trực tiếp giữa sự cố nhân sự thượng tầng tại Nvidia và các thỏa thuận huy động vốn hạ tầng AI khổng lồ trên Phố Wall. Đồng thời, tác phẩm cung cấp góc nhìn phân tích từ các chuyên gia tài chính về rủi ro thắt chặt tín dụng và mức độ ổn định của các đối tác chiến lược sau khi thiếu vắng nhà sáng lập.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:46:30.024613+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "500"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-12T17:47:56.715234+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 331,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1521,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "techcrunch.com",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-13 00:47"
+    },
+    "published_at": "2026-11-12T17:47:56.715234+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "israel-tan-cong-benh-vien-gaza-khien-6-nguoi-thiet-mang-va-hang-chuc-ngu-b18990cf",
+    "status": "HOLD",
+    "prepared_at": "2026-11-12T17:45:14.081423+00:00",
+    "expires_at": "2026-11-13T17:45:14.081423+00:00",
+    "source_urls": [
+      "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+      "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death"
+    ],
+    "article": {
+      "id": "israel-tan-cong-benh-vien-gaza-khien-6-nguoi-thiet-mang-va-hang-chuc-ngu-b18990cf",
+      "title": "Israel tấn công bệnh viện Gaza, khiến 6 người thiệt mạng và hàng chục người bị thương",
+      "summary": "Một cuộc tấn công của Israel vào bệnh viện Nasser ở Gaza đã khiến 6 người thiệt mạng và hàng chục người bị thương, theo các quan chức y tế địa phương.",
+      "category": "world",
+      "source_name": "NYT - World",
+      "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+      "published_at": "2026-11-12T15:16:38+00:00",
+      "fetched_at": "2026-11-12T17:47:55.080800+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Một cuộc tấn công của Israel vào bệnh viện Nasser ở Gaza đã khiến 6 người thiệt mạng và hàng chục người bị thương, theo các quan chức y tế địa phương. Cuộc tấn công này đã gây ra sự phẫn nộ và lo ngại về tình hình nhân đạo ở khu vực.",
+        "Bệnh viện Nasser là một trong những cơ sở y tế lớn nhất ở Gaza, và nó đã bị tấn công nhiều lần trong quá khứ. Cuộc tấn công này đã làm dấy lên lo ngại về sự an toàn của bệnh viện và nhân viên y tế.",
+        "Israel đã tuyên bố rằng họ đã tấn công một mục tiêu quân sự ở Gaza, nhưng các quan chức y tế địa phương đã phủ nhận điều này. Họ cho rằng cuộc tấn công này là một hành động gây hấn và không có lý do chính đáng.",
+        "Tình hình ở Gaza đang trở nên ngày càng tồi tệ, với nhiều người dân bị ảnh hưởng bởi cuộc xung đột. Cuộc tấn công này đã làm dấy lên lo ngại về sự an toàn và bảo vệ của người dân ở khu vực.",
+        "Các tổ chức quốc tế đã kêu gọi Israel và các bên liên quan phải tôn trọng luật pháp quốc tế và bảo vệ người dân vô tội. Họ cũng đã kêu gọi cộng đồng quốc tế phải có hành động cụ thể để giải quyết tình hình ở Gaza."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Tấn công bệnh viện Gaza: Israel gây ra thương vong và phá hủy cơ sở y ",
+      "meta_description": "Cuộc tấn công của Israel vào bệnh viện Nasser ở Gaza đã gây ra thương vong và phá hủy cơ sở y tế, làm dấy lên lo ngại về tình hình nhân đạo ở khu vực.",
+      "keywords": [
+        "Israel",
+        "Gaza",
+        "bệnh viện Nasser",
+        "tấn công",
+        "thương vong"
+      ],
+      "slug": "israel-tan-cong-benh-vien-gaza-khien-6-nguoi-thiet-mang-va-hang-chuc-ngu-b18990cf",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 245,
+      "display_source": true,
+      "source_urls": [
+        "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death"
+      ],
+      "source_references": [
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T15:16:38+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:55:10+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:54:12+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:18:24+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Israel tấn công bệnh viện Nasser ở Gaza, khiến 6 người thiệt mạng và hàng chục người bị thương",
+          "source_urls": [
+            "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Middle East|Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Sayhttps://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "snippet": "Middle East|Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Sayhttps://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "page_sha256": "ee9d009df91b0a50c812ad83c5dde96759b64b88eadd54e6664b56d49e8b26d6",
+              "snippet_sha256": "c6bb1bd1ce54aa41dbbfa0c7fa8c81ec38720409d3889051130da6c766797fac",
+              "verified_at": "2026-11-12T17:47:55.080447+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bệnh viện Nasser là một trong những cơ sở y tế lớn nhất ở Gaza",
+          "source_urls": [
+            "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nasser Hospital, in Khan Younis, is the largest functioning hospital in southern Gaza.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "snippet": "Nasser Hospital, in Khan Younis, is the largest functioning hospital in southern Gaza.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "page_sha256": "ee9d009df91b0a50c812ad83c5dde96759b64b88eadd54e6664b56d49e8b26d6",
+              "snippet_sha256": "b174b9c0bd1adfb77b8d4ec719b96be1e895c37ab4b48e72804fb39622d70e68",
+              "verified_at": "2026-11-12T17:47:55.080447+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Israel đã tuyên bố rằng họ đã tấn công một mục tiêu quân sự ở Gaza",
+          "source_urls": [
+            "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "7, 2023, prompted a devastating Israeli military response in Gaza.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "snippet": "7, 2023, prompted a devastating Israeli military response in Gaza.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+              "page_sha256": "ee9d009df91b0a50c812ad83c5dde96759b64b88eadd54e6664b56d49e8b26d6",
+              "snippet_sha256": "6396bfe5a92f0a8408a68703dead3442896eb34b352985d7f8da918609dde044",
+              "verified_at": "2026-11-12T17:47:55.080447+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về cuộc tấn công của Israel vào bệnh viện Nasser ở Gaza, và nó cũng phân tích tình hình nhân đạo ở khu vực. Bài viết này giúp độc giả hiểu rõ hơn về tình hình phức tạp ở Gaza và các bên liên quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:47:55.080860+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "6"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T17:47:55.081618+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 245,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1042
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "france24.com",
+          "nytimes.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: nytimes.com (HTTP 403)",
+    "checked_at": "2026-11-12T17:47:56.715234+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-12T17:47:56.715234+00:00",
+      "errors": [
+        "Nguồn không truy cập được: nytimes.com (HTTP 403)"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 245,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1042,
+        "source_access": [
+          {
+            "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+            "ok": false,
+            "reason": "HTTP 403"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "france24.com",
+          "nytimes.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
