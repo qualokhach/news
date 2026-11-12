@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "da6f594f3f8082775fa7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T02:35:17.764964+00:00",
     "expires_at": "2026-11-15T02:32:40.532581+00:00",
     "category_hint": "vietnam",
@@ -1047,11 +1047,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T02:35:17.764984+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "man-tot-nghiep-oc-la-tai-tp-hcm-hoa-than-thanh-chatgpt-va-claude-thu-hut-3ac2e7f8"
   },
   {
     "queue_id": "04423a75dbbfd03398f0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T02:34:56.872386+00:00",
     "expires_at": "2026-11-15T02:32:40.532581+00:00",
     "category_hint": "vietnam",
@@ -2111,11 +2112,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T02:34:56.872403+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chu-tich-hoi-ong-lien-bang-nga-valentina-matviyenko-bat-au-tham-chinh-th-ac3ef532"
   },
   {
     "queue_id": "2ad22f2de68a1064d576",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T02:34:50.890311+00:00",
     "expires_at": "2026-11-15T02:32:40.532581+00:00",
     "category_hint": "sports",
@@ -2804,7 +2806,8 @@
       ]
     },
     "research_ready_at": "2026-11-12T02:34:50.890328+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9"
   },
   {
     "queue_id": "fd69353e485a2bca7970",
@@ -83884,5 +83887,659 @@
     },
     "published_at": "2026-11-08T11:33:08.587713+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "man-tot-nghiep-oc-la-tai-tp-hcm-hoa-than-thanh-chatgpt-va-claude-thu-hut-3ac2e7f8",
+    "status": "READY",
+    "prepared_at": "2026-11-12T02:35:37.287406+00:00",
+    "expires_at": "2026-11-13T02:35:37.287406+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+      "https://dantri.com.vn/suc-khoe/bi-cho-nha-bat-ngo-tan-cong-nguoi-dan-ong-chan-thuong-nghiem-trong-20261111180244450.htm"
+    ],
+    "article": {
+      "id": "man-tot-nghiep-oc-la-tai-tp-hcm-hoa-than-thanh-chatgpt-va-claude-thu-hut-3ac2e7f8",
+      "title": "Màn tốt nghiệp độc lạ tại TP.HCM: Hóa thân thành ChatGPT và Claude, thu hút hơn 6 triệu lượt xem",
+      "summary": "Tân cử nhân ngành digital marketing tại Trường ĐH FPT TP.HCM đã tạo dấu ấn khác biệt trong lễ tốt nghiệp khi cùng các bạn hóa thân thành các mô hình AI quen thuộc như ChatGPT và Claude, thu hút sự quan tâm lớn trên mạng xã hội.",
+      "category": "technology",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+      "published_at": "2026-11-12T02:25:00+00:00",
+      "fetched_at": "2026-11-12T02:35:42.045665+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong lễ tốt nghiệp của Trường ĐH FPT TP.HCM, tân cử nhân ngành digital marketing Trần Thị Phương Thảo đã thu hút sự chú ý đặc biệt khi rủ hai người bạn cùng bước lên sân khấu nhận bằng trong hình hài các ứng dụng trí tuệ nhân tạo. Thay vì chỉ mặc lễ phục thông thường, nhóm đã thiết kế và in hình giao diện của ChatGPT cùng Claude dán lên các hộp mica để đội đầu.",
+        "Chia sẻ về ý tưởng này, Phương Thảo cho biết các công cụ AI là những người bạn đồng hành quen thuộc, hỗ trợ đắc lực trong suốt những năm tháng đại học từ khâu tìm kiếm ý tưởng đến giải quyết bài tập. Việc đưa hình ảnh công nghệ này lên sân khấu trang trọng nhằm tạo ra một cột mốc vui nhộn và mang đậm dấu ấn cá nhân.",
+        "Bên cạnh tạo hình ứng dụng AI, nhóm sinh viên còn chuẩn bị thêm đạo cụ như nón \"Học cao hiểu sâu\" và tấm bằng tốt nghiệp phóng lớn khoét khung ảnh để tạo sự tương tác dí dỏm cùng giảng viên. Theo ghi nhận từ nhóm thực hiện, các màn xuất hiện độc đáo này đã đạt tổng cộng hơn 6 triệu lượt xem trên các nền tảng mạng xã hội.",
+        "Về quá trình chuẩn bị, Đỗ Hữu Phát, Trưởng phòng Sáng tạo nội dung tại Ban Công tác học đường, cho biết khó khăn lớn nhất là kiểm soát thời lượng ngắn ngủi khoảng 15 đến 30 giây cho mỗi sinh viên lên nhận bằng. Đội ngũ phải kiểm tra kỹ kích thước và chất liệu đạo cụ để không làm ảnh hưởng đến tiến độ chung cũng như tầm nhìn của các đại biểu tham dự."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Man tot nghiep doc la hoa than thanh ChatGPT va Claude thu hut trieu l",
+      "meta_description": "Man xuat hien doc dao cua tan cu nhan Truong DH FPT TPHCM hoa than thanh cac ung dung AI khi nhan bang tot nghiep da dat hon 6 trieu luot xem.",
+      "keywords": [
+        "tốt nghiệp",
+        "ChatGPT",
+        "Claude",
+        "ĐH FPT TP.HCM",
+        "digital marketing"
+      ],
+      "slug": "man-tot-nghiep-oc-la-tai-tp-hcm-hoa-than-thanh-chatgpt-va-claude-thu-hut-3ac2e7f8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 298,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+        "https://dantri.com.vn/suc-khoe/bi-cho-nha-bat-ngo-tan-cong-nguoi-dan-ong-chan-thuong-nghiem-trong-20261111180244450.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/suc-khoe/bi-cho-nha-bat-ngo-tan-cong-nguoi-dan-ong-chan-thuong-nghiem-trong-20261111180244450.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T02:25:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/suc-khoe/bi-cho-nha-bat-ngo-tan-cong-nguoi-dan-ong-chan-thuong-nghiem-trong-20261111180244450.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T23:26:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trần Thị Phương Thảo, tân cử nhân ngành digital marketing Trường ĐH FPT TP.HCM, cùng hai người bạn hóa thân thành ChatGPT và Claude bước lên sân khấu nhận bằng.",
+          "source_urls": [
+            "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hưng Lợi12/11/2026 09:25 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Thay vì xuất hiện một mình trong lễ phục cử nhân, Trần Thị Phương Thảo (tân cử nhân ngành digital marketing, Trường ĐH FPT TP.HCM đã rủ hai người bạn hóa thân thành ChatGPT và Claude để cùng mình bước lên sân khấu nhận bằng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "snippet": "Hưng Lợi12/11/2026 09:25 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Thay vì xuất hiện một mình trong lễ phục cử nhân, Trần Thị Phương Thảo (tân cử nhân ngành digital marketing, Trường ĐH FPT TP.HCM đã rủ hai người bạn hóa thân thành ChatGPT và Claude để cùng mình bước lên sân khấu nhận bằng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "page_sha256": "edf74e36bb7b7e64d7007f5c5f08b41b2c205efb0a79e5c7b09706e4465a9df0",
+              "snippet_sha256": "d976744ed6f514cc641e33796039e144b56f18fc364aedf275f9384f4c761ec8",
+              "verified_at": "2026-11-12T02:35:42.044556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhóm sử dụng hộp mica dán hình giao diện ChatGPT và Claude kết hợp trang phục cử nhân để tạo hình ứng dụng AI phiên bản đời thực.",
+          "source_urls": [
+            "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Để hiện thực hóa ý tưởng, nhóm sử dụng hộp mica, thiết kế và in hình giao diện của ChatGPT, Claude rồi dán lên bề mặt hộp.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "snippet": "Để hiện thực hóa ý tưởng, nhóm sử dụng hộp mica, thiết kế và in hình giao diện của ChatGPT, Claude rồi dán lên bề mặt hộp.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "page_sha256": "edf74e36bb7b7e64d7007f5c5f08b41b2c205efb0a79e5c7b09706e4465a9df0",
+              "snippet_sha256": "d2da9098a3e6a7473ad3f3b76d420967e2829bbddbe36872fb30e901171cb351",
+              "verified_at": "2026-11-12T02:35:42.044556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các màn xuất hiện độc đáo này đã đạt tổng cộng hơn 6 triệu lượt xem trên các nền tảng.",
+          "source_urls": [
+            "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo chia sẻ của Đạt, 3 màn xuất hiện độc đáo đã đạt tổng cộng hơn 6 triệu lượt xem trên các nền tảng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "snippet": "Theo chia sẻ của Đạt, 3 màn xuất hiện độc đáo đã đạt tổng cộng hơn 6 triệu lượt xem trên các nền tảng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "page_sha256": "edf74e36bb7b7e64d7007f5c5f08b41b2c205efb0a79e5c7b09706e4465a9df0",
+              "snippet_sha256": "ad8f05e71796fcd552e7c6f476d2c1c385bf10fd9802b94fb0f2618d776c3665",
+              "verified_at": "2026-11-12T02:35:42.044556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đỗ Hữu Phát, Trưởng phòng Sáng tạo nội dung tại Ban Công tác học đường thuộc khối giáo dục FPT, cho biết khó khăn lớn nhất là kiểm soát thời gian từ 15 đến 30 giây cho mỗi sinh viên lên sân khấu và đảm bảo tính phù hợp với không khí buổi lễ.",
+          "source_urls": [
+            "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Với hàng ngàn sinh viên tham gia, mỗi lượt bước lên sân khấu chỉ kéo dài khoảng 15 - 30 giây.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "snippet": "Với hàng ngàn sinh viên tham gia, mỗi lượt bước lên sân khấu chỉ kéo dài khoảng 15 - 30 giây.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "page_sha256": "edf74e36bb7b7e64d7007f5c5f08b41b2c205efb0a79e5c7b09706e4465a9df0",
+              "snippet_sha256": "c717a2a570f5b98a147058089437c706e941eb599a10e1583aaac6708d1ec2b3",
+              "verified_at": "2026-11-12T02:35:42.044556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy trình hiện thực hóa ý tưởng sáng tạo của sinh viên trong một sự kiện trang trọng như lễ tốt nghiệp. Đồng thời, nội dung phân tích cách thức phối hợp hậu cần và kiểm soát thời gian để đảm bảo tiến độ buổi lễ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T02:35:42.045769+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "15",
+        "30",
+        "6"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T02:35:42.047270+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 298,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1354
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "chu-tich-hoi-ong-lien-bang-nga-valentina-matviyenko-bat-au-tham-chinh-th-ac3ef532",
+    "status": "READY",
+    "prepared_at": "2026-11-12T02:35:37.287406+00:00",
+    "expires_at": "2026-11-13T02:35:37.287406+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+      "https://thanhnien.vn/world-cup-u17-co-viet-nam-tham-du-bien-dong-lon-u17-my-chinh-thuc-rut-lui-185261112073347305.htm"
+    ],
+    "article": {
+      "id": "chu-tich-hoi-ong-lien-bang-nga-valentina-matviyenko-bat-au-tham-chinh-th-ac3ef532",
+      "title": "Chủ tịch Hội đồng Liên bang Nga Valentina Matviyenko bắt đầu thăm chính thức Việt Nam",
+      "summary": "Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko đã đến Hà Nội, bắt đầu chuyến thăm chính thức Việt Nam từ ngày 11 đến 13/11 nhằm thúc đẩy hợp tác nghị viện và quan hệ Đối tác chiến lược toàn diện.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+      "published_at": "2026-11-12T01:41:20+00:00",
+      "fetched_at": "2026-11-12T02:35:47.745543+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 11/11, Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko đã đến Hà Nội, bắt đầu chuyến thăm chính thức Việt Nam từ ngày 11 đến 13/11 theo lời mời của Chủ tịch Quốc hội Trần Thanh Mẫn. Đón đoàn tại sân bay quốc tế Nội Bài có Phó Chủ tịch Quốc hội, Chủ tịch Nhóm Nghị sỹ hữu nghị Việt Nam - Liên bang Nga Nguyễn Khắc Định cùng các đại diện Ủy ban Quốc phòng, Đối ngoại, An ninh của Quốc hội.",
+        "Đây là chuyến thăm chính thức Việt Nam lần thứ ba của bà Valentina Matviyenko trên cương vị Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga, sau các chuyến thăm diễn ra vào năm 2012 và 2017. Chuyến thăm diễn ra trong bối cảnh quan hệ hợp tác trên kênh nghị viện giữa hai nước tiếp tục được củng cố, duy trì thường xuyên qua các hoạt động trao đổi đoàn và tiếp xúc cấp cao tại các diễn đàn đa phương.",
+        "Theo chương trình, chuyến thăm nhằm triển khai hiệu quả các nội dung hợp tác theo Tuyên bố chung về việc củng cố hơn nữa quan hệ Đối tác chiến lược toàn diện Việt Nam - Nga trong giai đoạn mới. Qua đó, sự kiện góp phần nâng cao vai trò hợp tác nghị viện song phương, đồng thời thúc đẩy các lĩnh vực trọng điểm như khoa học - công nghệ, đổi mới sáng tạo, giáo dục và giao lưu nhân dân."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Chủ tịch Hội đồng Liên bang Nga Valentina Matviyenko thăm Việt Nam",
+      "meta_description": "Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko thăm chính thức Việt Nam từ 11 đến 13/11 theo lời mời của Chủ tịch Quốc hội Trần Thanh ",
+      "keywords": [
+        "Chủ tịch Hội đồng Liên bang Nga",
+        "Valentina Matviyenko",
+        "thăm chính thức Việt Nam",
+        "quan hệ Việt - Nga",
+        "hợp tác nghị viện"
+      ],
+      "slug": "chu-tich-hoi-ong-lien-bang-nga-valentina-matviyenko-bat-au-tham-chinh-th-ac3ef532",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 257,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+        "https://thanhnien.vn/world-cup-u17-co-viet-nam-tham-du-bien-dong-lon-u17-my-chinh-thuc-rut-lui-185261112073347305.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/world-cup-u17-co-viet-nam-tham-du-bien-dong-lon-u17-my-chinh-thuc-rut-lui-185261112073347305.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T01:41:20+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/world-cup-u17-co-viet-nam-tham-du-bien-dong-lon-u17-my-chinh-thuc-rut-lui-185261112073347305.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T00:34:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko thăm chính thức Việt Nam từ ngày 11 đến 13/11 theo lời mời của Chủ tịch Quốc hội Trần Thanh Mẫn.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tối 11/11, Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko đến Hà Nội, bắt đầu thăm chính thức Việt Nam, từ ngày 11 đến 13/11, theo lời mời của Chủ tịch Quốc hội Trần Thanh Mẫn.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "snippet": "Tối 11/11, Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko đến Hà Nội, bắt đầu thăm chính thức Việt Nam, từ ngày 11 đến 13/11, theo lời mời của Chủ tịch Quốc hội Trần Thanh Mẫn.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "page_sha256": "9231a924c42b38a4a3f704a27eae5c9fdfc039072bd9ecd68c158413b42f6345",
+              "snippet_sha256": "deddf8b4970f626debae2346c8705c95727922bfc416d0654dc9475afd2ed535",
+              "verified_at": "2026-11-12T02:35:47.744767+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đón đoàn tại sân bay quốc tế Nội Bài có Phó Chủ tịch Quốc hội Nguyễn Khắc Định và Phó Chủ nhiệm thường trực Ủy ban Quốc phòng, Đối ngoại, An ninh của Quốc hội Vũ Hải Hà.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ra sân bay quốc tế Nội Bài đón đoàn có: Phó Chủ tịch Quốc hội, Chủ tịch Nhóm Nghị sỹ hữu nghị Việt Nam - Liên bang Nga Nguyễn Khắc Định; Phó Chủ nhiệm thường trực Ủy ban Quốc phòng, Đối ngoại, An ninh của Quốc hội Vũ Hải Hà.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "snippet": "Ra sân bay quốc tế Nội Bài đón đoàn có: Phó Chủ tịch Quốc hội, Chủ tịch Nhóm Nghị sỹ hữu nghị Việt Nam - Liên bang Nga Nguyễn Khắc Định; Phó Chủ nhiệm thường trực Ủy ban Quốc phòng, Đối ngoại, An ninh của Quốc hội Vũ Hải Hà.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "page_sha256": "9231a924c42b38a4a3f704a27eae5c9fdfc039072bd9ecd68c158413b42f6345",
+              "snippet_sha256": "3d64da3862e3bbf4b9a98ed79c3b7c18f26da03a8e9d0659d258289b60673d01",
+              "verified_at": "2026-11-12T02:35:47.744767+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là chuyến thăm chính thức Việt Nam lần thứ ba của Chủ tịch Hội đồng Liên bang Nga Valentina Matviyenko sau các chuyến thăm năm 2012 và 2017.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đây là chuyến thăm chính thức Việt Nam lần thứ ba của Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko sau các chuyến thăm năm 2012 và 2017.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "snippet": "Đây là chuyến thăm chính thức Việt Nam lần thứ ba của Chủ tịch Hội đồng Liên bang, Quốc hội Liên bang Nga Valentina Matviyenko sau các chuyến thăm năm 2012 và 2017.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "page_sha256": "9231a924c42b38a4a3f704a27eae5c9fdfc039072bd9ecd68c158413b42f6345",
+              "snippet_sha256": "ffdec13ba4aa840f4d8efc137331c27cedc16def48992f7df78e101ef1196ebd",
+              "verified_at": "2026-11-12T02:35:47.744767+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh ngoại giao nghị viện giữa Việt Nam và Liên bang Nga thông qua chuyến thăm lần thứ ba của Chủ tịch Hội đồng Liên bang Valentina Matviyenko. Nội dung kết nối trực tiếp các thỏa thuận hợp tác song phương với định hướng triển khai Tuyên bố chung về Đối tác chiến lược toàn diện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T02:35:47.745646+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2012",
+        "2017"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T02:35:47.746819+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 257,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1203
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
+    "status": "READY",
+    "prepared_at": "2026-11-12T02:35:37.287406+00:00",
+    "expires_at": "2026-11-13T02:35:37.287406+00:00",
+    "source_urls": [
+      "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+      "https://www.theguardian.com/football/2026/nov/11/harry-kane-england-most-capped-mens-player-peter-shilton-croatia-nations-league",
+      "https://www.sportingnews.com/us/soccer/news/most-appearances-harry-kane-england-greatest-ever-player/1b7e78185f9476a3ea895b87",
+      "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
+      "title": "Harry Kane hướng tới cột mốc lịch sử cùng đội tuyển Anh và tham vọng danh hiệu lớn",
+      "summary": "Tiền đạo Harry Kane chuẩn bị có trận đấu thứ 126 kỷ lục cho đội tuyển Anh, vượt qua Peter Shilton, đồng thời đặt mục tiêu chinh phục các danh hiệu lớn như World Cup, Euro và Champions League sau khi giành Quả bóng vàng.",
+      "category": "sports",
+      "source_name": "Sky Sports - Football",
+      "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+      "published_at": "2026-11-11T15:29:00+00:00",
+      "fetched_at": "2026-11-12T02:35:58.337471+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tiền đạo Harry Kane chuẩn bị thiết lập cột mốc lịch sử khi bước ra sân trong trận đấu thuộc khuôn khổ UEFA Nations League gặp Croatia tại sân vận động Wembley. Trận đấu này sẽ đánh dấu lần khoác áo thứ 126 của Kane cho đội tuyển quốc gia, giúp anh vượt qua thủ thành Peter Shilton để trở thành cầu thủ có số lần ra sân nhiều nhất trong lịch sử bóng đá nam đội tuyển Anh.",
+        "Cột mốc đáng nhớ này diễn ra trong bối cảnh chân sút 33 tuổi vừa được vinh danh là cầu thủ xuất sắc nhất thế giới với giải thưởng Quả bóng vàng vào cuối tháng trước. Chia sẻ trong buổi họp báo trước trận đấu, đội trưởng tuyển Anh khẳng định những danh hiệu cá nhân là thành quả của quá trình nỗ lực tập thể, đồng thời bày tỏ khát vọng vươn tới những đỉnh cao mới ở cả cấp độ câu lạc bộ lẫn đội tuyển quốc gia.",
+        "\"Để giành được một danh hiệu lớn cùng đội tuyển Anh luôn là giấc mơ lớn nhất của tôi,\" Kane chia sẻ về mục tiêu vô địch Giải vô địch châu Âu hoặc World Cup. Ở cấp độ câu lạc bộ, sau khi giành các chức vô địch Bundesliga liên tiếp và cúp quốc gia Đức cùng Bayern Munich, tiền đạo này nhấn mạnh mục tiêu tiếp theo là chinh phục cúp C1 châu Âu Champions League.",
+        "Hành trình sự nghiệp của Kane đã trải qua nhiều thăng trầm, từ giai đoạn khởi đầu tại các đội trẻ cho đến 10 mùa giải gắn bó với Tottenham Hotspur mà không giành được danh hiệu tập thể lớn nào. Tuy nhiên, anh thừa nhận những khó khăn và thất bại trong quá khứ đã tạo động lực mạnh mẽ để bản thân không ngừng hoàn thiện. Dưới sự dẫn dắt của huấn luyện viên Thomas Tuchel, trận đấu sắp tới không chỉ là dịp tôn vinh kỷ lục ra sân của Kane mà còn là thời điểm để anh cùng các đồng đội tiếp tục khẳng định tham vọng giành các danh hiệu đỉnh cao."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Harry Kane lập kỷ lục ra sân cho tuyển Anh và tham vọng danh hiệu",
+      "meta_description": "Harry Kane chuẩn bị chạm mốc 126 lần khoác áo đội tuyển Anh, hướng tới các danh hiệu lớn sau khi giành Quả bóng vàng.",
+      "keywords": [
+        "Harry Kane",
+        "đội tuyển Anh",
+        "Quả bóng vàng",
+        "Nations League",
+        "champions league"
+      ],
+      "slug": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 363,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+        "https://www.theguardian.com/football/2026/nov/11/harry-kane-england-most-capped-mens-player-peter-shilton-croatia-nations-league",
+        "https://www.sportingnews.com/us/soccer/news/most-appearances-harry-kane-england-greatest-ever-player/1b7e78185f9476a3ea895b87",
+        "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/2026/nov/11/harry-kane-england-most-capped-mens-player-peter-shilton-croatia-nations-league",
+        "https://www.sportingnews.com/us/soccer/news/most-appearances-harry-kane-england-greatest-ever-player/1b7e78185f9476a3ea895b87",
+        "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T15:29:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/11/harry-kane-england-most-capped-mens-player-peter-shilton-croatia-nations-league",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T19:00:02+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/most-appearances-harry-kane-england-greatest-ever-player/1b7e78185f9476a3ea895b87",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T14:56:49+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T17:30:23+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Harry Kane chuẩn bị có trận đấu thứ 126 kỷ lục cho đội tuyển Anh, vượt qua Peter Shilton.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Image:Harry Kane scored twice on his 125th England appearance last month, with his record-breaking 126th cap set to come on Thursday",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+              "snippet": "Image:Harry Kane scored twice on his 125th England appearance last month, with his record-breaking 126th cap set to come on Thursday",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+              "page_sha256": "a9df4bac0a687c4fd20b39406844a5f2d4a53f1a04611610d6c2fdf4fd47ed91",
+              "snippet_sha256": "496b67ce7349e2b8d528110000bce87c3077b3abf6b7d37a6720a680f534dd5f",
+              "verified_at": "2026-11-12T02:35:58.336816+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kane đặt mục tiêu giành Euro, World Cup và Champions League sau khi giành Quả bóng vàng.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor"
+          ],
+          "importance": "core",
+          "evidence_snippet": "England: Harry Kane targets European Championships, World Cup and Champions League to add biggest team prizes to Ballon d'Or",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+              "snippet": "England: Harry Kane targets European Championships, World Cup and Champions League to add biggest team prizes to Ballon d'Or",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+              "page_sha256": "a9df4bac0a687c4fd20b39406844a5f2d4a53f1a04611610d6c2fdf4fd47ed91",
+              "snippet_sha256": "98145e89d865fe82e53147fd5b62fcf31677e5dcafa287d3abcfe5765583d923",
+              "verified_at": "2026-11-12T02:35:58.336816+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trận đấu diễn ra tại sân vận động Wembley gặp Croatia trong khuôn khổ Nations League.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "England captain Kane will win his 126th cap for his country against Croatia in the Nations League at Wembley.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+              "snippet": "England captain Kane will win his 126th cap for his country against Croatia in the Nations League at Wembley.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13610856/england-harry-kane-targets-european-championships-world-cup-and-champions-league-to-add-biggest-team-prizes-to-ballon-dor",
+              "page_sha256": "a9df4bac0a687c4fd20b39406844a5f2d4a53f1a04611610d6c2fdf4fd47ed91",
+              "snippet_sha256": "50d6394ba069343083f540d24c1bf7e446ba9a5ca9a874e074d38b5e885d6c25",
+              "verified_at": "2026-11-12T02:35:58.336816+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ hành trình vươn lên thành cầu thủ khoác áo tuyển Anh nhiều nhất lịch sử của Harry Kane. Phân tích sự chuyển dịch từ các cột mốc cá nhân như Quả bóng vàng sang tham vọng giành danh hiệu tập thể lớn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T02:35:58.337587+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "126",
+        "33"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T02:35:58.339396+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 363,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1678
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
