@@ -2811,7 +2811,7 @@
   },
   {
     "queue_id": "fd69353e485a2bca7970",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T02:34:47.437000+00:00",
     "expires_at": "2026-11-15T02:32:40.532581+00:00",
     "category_hint": "sports",
@@ -3472,11 +3472,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T02:34:47.437021+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "arizona-cardinals-chot-carson-beck-lam-quarterback-a-chinh-tuan-10-23e75c9c"
   },
   {
     "queue_id": "5eb0b0d6e870c875e63d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T02:34:45.668877+00:00",
     "expires_at": "2026-11-15T02:32:40.532581+00:00",
     "category_hint": "world",
@@ -4667,11 +4668,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T02:34:45.668895+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hoi-ong-quan-tri-nvidia-hop-ban-ve-tuong-lai-ceo-jensen-huang-giua-luc-c-af484146"
   },
   {
     "queue_id": "6ffab586026b10e4100e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T02:34:43.354425+00:00",
     "expires_at": "2026-11-15T02:32:40.532581+00:00",
     "category_hint": "world",
@@ -5235,7 +5237,8 @@
       ]
     },
     "research_ready_at": "2026-11-12T02:34:43.354443+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gioi-chuc-iran-lo-ngai-my-len-ke-hoach-tan-cong-quan-su-hoac-siet-chat-t-246744c1"
   },
   {
     "queue_id": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747",
@@ -83890,7 +83893,7 @@
   },
   {
     "queue_id": "man-tot-nghiep-oc-la-tai-tp-hcm-hoa-than-thanh-chatgpt-va-claude-thu-hut-3ac2e7f8",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-12T02:35:37.287406+00:00",
     "expires_at": "2026-11-13T02:35:37.287406+00:00",
     "source_urls": [
@@ -83906,7 +83909,7 @@
       "source_url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
       "published_at": "2026-11-12T02:25:00+00:00",
       "fetched_at": "2026-11-12T02:35:42.045665+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-12T03:21:40.360933+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -84091,27 +84094,37 @@
         "6"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-12T02:35:42.047270+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-12T03:21:40.360933+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 298,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1354
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1354,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/hon-6-trieu-luot-xem-man-tot-nghiep-doc-la-chatgpt-va-claude-bat-ngo-xuat-hien-185261112092513101.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-12 10:21"
+    },
+    "published_at": "2026-11-12T03:21:40.360933+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "chu-tich-hoi-ong-lien-bang-nga-valentina-matviyenko-bat-au-tham-chinh-th-ac3ef532",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-12T02:35:37.287406+00:00",
     "expires_at": "2026-11-13T02:35:37.287406+00:00",
     "source_urls": [
@@ -84127,7 +84140,7 @@
       "source_url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
       "published_at": "2026-11-12T01:41:20+00:00",
       "fetched_at": "2026-11-12T02:35:47.745543+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-12T03:21:40.360933+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -84285,23 +84298,33 @@
         "2017"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-12T02:35:47.746819+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-12T03:21:40.360933+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 257,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1203
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1203,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/thoi-su/chu-tich-hoi-dong-lien-bang-nga-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261112084101847.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-12 10:21"
+    },
+    "published_at": "2026-11-12T03:21:40.360933+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
@@ -84541,5 +84564,707 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "arizona-cardinals-chot-carson-beck-lam-quarterback-a-chinh-tuan-10-23e75c9c",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-12T03:21:18.228712+00:00",
+    "expires_at": "2026-11-13T03:21:18.228712+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+      "https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "arizona-cardinals-chot-carson-beck-lam-quarterback-a-chinh-tuan-10-23e75c9c",
+      "title": "Arizona Cardinals chốt Carson Beck làm quarterback đá chính tuần 10",
+      "summary": "Sau chấn thương của Gardner Minshew, huấn luyện viên trưởng Mike LaFleur xác nhận Carson Beck sẽ ra sân từ đầu trong trận đấu gặp Los Angeles Rams ở tuần 10.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+      "published_at": "2026-11-11T20:45:53+00:00",
+      "fetched_at": "2026-11-12T03:21:21.890094+00:00",
+      "appnho_published_at": "2026-11-12T03:21:40.360933+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Arizona Cardinals vừa chính thức xác nhận quyết định nhân sự quan trọng cho tuần 10 giải bóng bầu dục NFL, khi Carson Beck được trao suất đá chính ở vị trí quarterback. Huấn luyện viên trưởng Mike LaFleur đưa ra thông báo này sau khi Gardner Minshew dính chấn thương trong trận thua trước Seattle Seahawks ở tuần trước.",
+        "Sự thay đổi này biến Beck thành cầu thủ thứ ba đảm nhận vai trò quarterback số một của đội bóng trong ba tuần liên tiếp. Trước đó, đội bóng đã lần lượt trải qua các biến động nhân sự sau khi Jacoby Brissett chuyển đến Baltimore Ravens và Minshew gặp vấn đề về sức khỏe.",
+        "Bước vào trận đấu sắp tới gặp Los Angeles Rams, Beck sẽ có trận ra mắt chính thức tại NFL trong bối cảnh hàng công gặp nhiều khó khăn. Danh sách chấn thương kéo dài với việc Michael Wilson và Kendrick Bourne phải nghỉ thi đấu hết mùa, đặt áp lực lớn lên vai các tân binh và những cái tên còn lại trên sân."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cardinals chọn Carson Beck đá chính tuần 10 sau chấn thương của Minshe",
+      "meta_description": "Arizona Cardinals chính thức trao vị trí quarterback đá chính tuần 10 cho Carson Beck trong bối cảnh đội hình gặp nhiều tổn thất lực lượng.",
+      "keywords": [
+        "Cardinals",
+        "Carson Beck",
+        "NFL",
+        "Gardner Minshew",
+        "Los Angeles Rams"
+      ],
+      "slug": "arizona-cardinals-chot-carson-beck-lam-quarterback-a-chinh-tuan-10-23e75c9c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 181,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+        "https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T20:45:53+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T17:49:05+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cardinals chính thức đưa ra quyết định chọn Carson Beck làm quarterback đá chính cho tuần 10 sau chấn thương của Gardner Minshew.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cardinals make Carson Beck decision official for Week 10 after Gardner Minshew injury",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "snippet": "Cardinals make Carson Beck decision official for Week 10 after Gardner Minshew injury",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "page_sha256": "f0c568c6b667a028cde0185b45f71f67b59ec162978942222fe6de04efa7a416",
+              "snippet_sha256": "1af77448fc0965050632b4c77b4aec2263bd573467c8c5c8ea122f0ff7abc916",
+              "verified_at": "2026-11-12T03:21:21.889576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Huấn luyện viên trưởng Mike LaFleur công bố Beck sẽ đá chính trong trận đấu gặp Los Angeles Rams vào Chủ Nhật.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cardinals HC Mike LaFleur announces Beck will start for Arizona on Sunday vs.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "snippet": "Cardinals HC Mike LaFleur announces Beck will start for Arizona on Sunday vs.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "page_sha256": "f0c568c6b667a028cde0185b45f71f67b59ec162978942222fe6de04efa7a416",
+              "snippet_sha256": "a88566ce079b0013d2dc3f472beccec047b03f3d6cfe8a4fa6a11be59c0263fa",
+              "verified_at": "2026-11-12T03:21:21.889576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các wide receiver Michael Wilson và Kendrick Bourne phải nghỉ thi đấu hết mùa giải do chấn thương.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TheArizona Cardinalshave dealt with a significant number of injuries to their offensive players this season, with wide receivers Michael Wilson and Kendrick Bourne out for the rest of the season.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "snippet": "TheArizona Cardinalshave dealt with a significant number of injuries to their offensive players this season, with wide receivers Michael Wilson and Kendrick Bourne out for the rest of the season.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "page_sha256": "f0c568c6b667a028cde0185b45f71f67b59ec162978942222fe6de04efa7a416",
+              "snippet_sha256": "225be35437be8771e91ecc4d178efd0a35c6f375adfbaedfef7c97562d498638",
+              "verified_at": "2026-11-12T03:21:21.889576+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ tình thế khó khăn của Arizona Cardinals khi phải sử dụng quarterback thứ ba trong ba tuần liên tiếp. Đồng thời, văn bản phân tích bối cảnh lực lượng tổn thất nặng nề trước thềm trận đấu gặp Los Angeles Rams.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T03:21:21.890157+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-12T03:21:40.360933+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 181,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 893,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/nfl/arizona-cardinals/news/cardinals-make-carson-beck-decision-official-week-10/97e2e8b4e68f1eb8dc994592",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-12 10:21"
+    },
+    "published_at": "2026-11-12T03:21:40.360933+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "hoi-ong-quan-tri-nvidia-hop-ban-ve-tuong-lai-ceo-jensen-huang-giua-luc-c-af484146",
+    "status": "HOLD",
+    "prepared_at": "2026-11-12T03:21:18.228712+00:00",
+    "expires_at": "2026-11-13T03:21:18.228712+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+      "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html"
+    ],
+    "article": {
+      "id": "hoi-ong-quan-tri-nvidia-hop-ban-ve-tuong-lai-ceo-jensen-huang-giua-luc-c-af484146",
+      "title": "Hội đồng quản trị Nvidia họp bàn về tương lai CEO Jensen Huang giữa lúc cổ phiếu lao dốc",
+      "summary": "Cổ phiếu Nvidia sụt giảm mạnh trong phiên giao dịch ngoài giờ sau các thông tin về cuộc họp hội đồng quản trị nhằm xem xét vị trí của CEO Jensen Huang trước những bê bối đời tư liên quan đến cáo buộc gián điệp.",
+      "category": "technology",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "published_at": "2026-11-12T02:27:44+00:00",
+      "fetched_at": "2026-11-12T03:21:32.148116+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hội đồng quản trị của Nvidia nhóm họp để xem xét quyết định có bãi nhiệm Giám đốc điều hành Jensen Huang hay không. Động thái này diễn ra trong bối cảnh nhà sản xuất vi xử lý trí tuệ nhân tạo hàng đầu thế giới đối mặt với hàng loạt thông tin liên quan đến các mối quan hệ ngoài luồng của nhà lãnh đạo lâu năm này, gây chấn động thị trường công nghệ toàn cầu.",
+        "Tâm điểm của cuộc khủng hoảng xuất phát từ các cáo buộc liên quan đến mối quan hệ giữa ông Jensen Huang và bà Alice Huang, một nữ doanh nhân bị cơ quan tình báo Mỹ nghi ngờ có liên quan đến hoạt động hậu thuẫn vận chuyển chip Nvidia sang các doanh nghiệp Trung Quốc. Dù Nvidia lên tiếng khẳng định không có bí mật thương mại hay an ninh quốc gia nào bị xâm phạm, vụ việc đã châm ngòi cho những tranh luận căng thẳng về chính sách kiểm soát xuất khẩu chip.",
+        "Trong một diễn biến liên quan, giới truyền thông cũng đưa tin về một mối quan hệ khác giữa ông Jensen Huang và một quản lý cấp cao trực thuộc công ty. Hồi đầu tuần, ông Huang đã gửi thư điện tử thừa nhận hành vi không chung thủy với vợ và cam kết hợp tác toàn diện với cuộc điều tra nội bộ do các giám đốc độc lập cùng luật sư bên ngoài phụ trách.",
+        "Sức ép chính trị và pháp lý đối với nhà sáng lập Nvidia ngày càng gia tăng khi một số nhà lập pháp Mỹ yêu cầu điều tra, trong khi nghị sĩ Kevin Cramer lên tiếng kêu gọi ông từ chức do rủi ro xung đột lợi ích. Ngược lại, Tổng thống Mỹ Donald Trump bày tỏ sự ủng hộ, ca ngợi ông Huang là một cá nhân danh dự và đã đóng góp lớn cho quốc gia.",
+        "Trước áp lực từ bê bối, cổ phiếu của Nvidia đã sụt giảm hơn 8% trong giao dịch ngoài giờ. Tính từ thời điểm hội đồng quản trị công bố cuộc điều tra, giá trị vốn hóa thị trường của hãng chip này đã bốc hơi khoảng 600 tỷ USD, phản ánh tâm lý lo ngại sâu sắc của giới đầu tư về tương lai và cấu trúc quản trị của công ty trong giai đoạn tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nvidia họp bàn tương lai CEO Jensen Huang sau bê bối",
+      "meta_description": "Cập nhật thông tin về hội đồng quản trị Nvidia họp xem xét tương lai CEO Jensen Huang và biến động giá cổ phiếu hãng chip.",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "cổ phiếu Nvidia",
+        "gián điệp Trung Quốc"
+      ],
+      "slug": "hoi-ong-quan-tri-nvidia-hop-ban-ve-tuong-lai-ceo-jensen-huang-giua-luc-c-af484146",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 406,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+        "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+        "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+        "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T02:27:44+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T01:33:09+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T01:14:21+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hội đồng quản trị Nvidia họp để quyết định về tương lai của CEO Jensen Huang giữa lúc cổ phiếu lao dốc",
+          "source_urls": [
+            "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Analysts have suggested that with no obvious successor, the Nvidia board has a difficult decision to make on whether to removeJensen Huangas CEO.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "snippet": "Analysts have suggested that with no obvious successor, the Nvidia board has a difficult decision to make on whether to removeJensen Huangas CEO.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "page_sha256": "217641b29ae8b08f77d60bed3212a6b0c7a6b0a5a2698d89a93ddd90cb5a8ed1",
+              "snippet_sha256": "781372ee13165a48b8a056b375215c3a9721840454cfdf3937625e24584d853f",
+              "verified_at": "2026-11-12T03:21:32.147541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cổ phiếu Nvidia sụt giảm khoảng 8% trong phiên giao dịch ngoài giờ",
+          "source_urls": [
+            "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Shares inNvidiaslid more than 8% after close of trade.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "snippet": "Shares inNvidiaslid more than 8% after close of trade.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "page_sha256": "217641b29ae8b08f77d60bed3212a6b0c7a6b0a5a2698d89a93ddd90cb5a8ed1",
+              "snippet_sha256": "8360004603a052d93cbbeca626960cd19f8eea7f3f9b17c260594d267764d2fa",
+              "verified_at": "2026-11-12T03:21:32.147541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia mất khoảng 600 tỷ USD giá trị vốn hóa thị trường trong tuần diễn ra cuộc điều tra",
+          "source_urls": [
+            "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nvidia’s shares plunged in ⁠after-hours trading on news that its board may oust longtime CEOJensen Huang, with the chipmaker losing about $600bn ‌in stock market value this week since the board announced its investigation into his relationship with a Chinese businesswoman.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "snippet": "Nvidia’s shares plunged in ⁠after-hours trading on news that its board may oust longtime CEOJensen Huang, with the chipmaker losing about $600bn ‌in stock market value this week since the board announced its investigation into his relationship with a Chinese businesswoman.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "page_sha256": "217641b29ae8b08f77d60bed3212a6b0c7a6b0a5a2698d89a93ddd90cb5a8ed1",
+              "snippet_sha256": "1915ef6db44673b3636caaaaee6cc230e54d081f422c1cd3ac19840ff5b9aeee",
+              "verified_at": "2026-11-12T03:21:32.147541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích cụ thể bối cảnh pháp lý, phản ứng của giới đầu tư và các luồng ý kiến đa chiều từ chính giới Mỹ. Đồng thời, tác phẩm làm rõ mối liên hệ trực tiếp giữa các bê bối đời tư của lãnh đạo và mức sụt giảm giá trị vốn hóa nghiêm trọng của hãng chip.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T03:21:32.148215+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "600",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T03:21:32.149584+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 406,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1836
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "cnbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-12T03:21:40.360933+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-12T03:21:40.360933+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 406,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1836,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "cnbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "gioi-chuc-iran-lo-ngai-my-len-ke-hoach-tan-cong-quan-su-hoac-siet-chat-t-246744c1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-12T03:21:18.228712+00:00",
+    "expires_at": "2026-11-13T03:21:18.228712+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+      "https://www.euronews.com/video/2026/11/11/art-group-unveils-statue-satirising-trumps-military-service-record"
+    ],
+    "article": {
+      "id": "gioi-chuc-iran-lo-ngai-my-len-ke-hoach-tan-cong-quan-su-hoac-siet-chat-t-246744c1",
+      "title": "Giới chức Iran lo ngại Mỹ lên kế hoạch tấn công quân sự hoặc siết chặt trừng phạt",
+      "summary": "Các quan chức cấp cao Iran nhận định Washington đang cân nhắc thêm các biện pháp trừng phạt kinh tế hoặc hành động quân sự mới, trong bối cảnh căng thẳng bế tắc kéo dài quanh eo biển Hormuz.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+      "published_at": "2026-11-11T18:47:57+00:00",
+      "fetched_at": "2026-11-12T03:21:38.237496+00:00",
+      "appnho_published_at": "2026-11-12T03:21:40.360933+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các quan chức cấp cao Iran bày tỏ lo ngại rằng chính quyền Mỹ đang chuẩn bị cho các đợt không kích mới hoặc gia tăng áp lực kinh tế nhằm bóp nghẹt Tehran. Đánh giá này được đưa ra bởi Mehdi Mohammadi, cố vấn cho nhà đàm phán chính của Iran, qua thông tin đăng tải trên kênh Telegram cá nhân.",
+        "Theo phía Iran, Washington đã đưa ra mốc thời gian khoảng hai tuần để Tổng thống Donald Trump đưa ra quyết định về hành động quân sự. Phía Iran cho rằng chiến lược hiện tại của Mỹ là siết chặt phong tỏa xuất khẩu dầu mỏ và gây sức ép kinh tế, điều có thể làm gia tăng bất ổn nội địa.",
+        "Trong bối cảnh bế tắc ngoại giao, giới chức Iran cảnh báo nước này có thể phải tiến hành các biện pháp phủ đầu nếu tình trạng hiện tại tiếp diễn. Bên cạnh đó, Tehran cũng bác bỏ đề nghị gặp trực tiếp từ Phó Tổng thống Mỹ JD Vance trước khi phản hồi các điều kiện liên quan đến eo biển Hormuz.",
+        "Ở chiều ngược lại, Ngoại trưởng Mỹ Marco Rubio đánh giá các yêu cầu từ phía Iran là phi thực tế và cho rằng chính sách siết chặt kinh tế là đủ. Tuy nhiên, chính quyền Mỹ vẫn chịu áp lực phải giải quyết cuộc khủng hoảng trước khi Quốc hội có sự thay đổi nhân sự vào đầu tháng 1 tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Iran lo ngại Mỹ chuẩn bị tấn công quân sự hoặc siết chặt trừng phạt",
+      "meta_description": "Giới chức Iran đánh giá Mỹ đang chuẩn bị cho các đợt không kích hạn chế hoặc siết chặt cấm vận kinh tế, buộc Tehran phải cân nhắc các bước đi đáp trả.",
+      "keywords": [
+        "Iran",
+        "Mỹ",
+        "trừng phạt",
+        "tấn công quân sự",
+        "eo biển Hormuz"
+      ],
+      "slug": "gioi-chuc-iran-lo-ngai-my-len-ke-hoach-tan-cong-quan-su-hoac-siet-chat-t-246744c1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 249,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+        "https://www.euronews.com/video/2026/11/11/art-group-unveils-statue-satirising-trumps-military-service-record"
+      ],
+      "source_links": [
+        "https://www.euronews.com/video/2026/11/11/art-group-unveils-statue-satirising-trumps-military-service-record"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T18:47:57+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/video/2026/11/11/art-group-unveils-statue-satirising-trumps-military-service-record",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T09:39:46+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Senior Iranian officials believe the US is planning either further military strikes or an ever-tightening economic stranglehold that will push Tehran into retaliatory action.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Senior Iranian officials believe the US is planning either further military strikes or an ever-tightening economic stranglehold that will push Tehran into retaliatory action.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "snippet": "Senior Iranian officials believe the US is planning either further military strikes or an ever-tightening economic stranglehold that will push Tehran into retaliatory action.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "page_sha256": "e208801eaf1866272ff44aee6b3339714f99ae585baed530c8430efa60178dc0",
+              "snippet_sha256": "13b35328b4da91292dd6dff8467dc0fadb90d1e1a276aeda274804db36341fe6",
+              "verified_at": "2026-11-12T03:21:38.236783+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "The assessment comes from Mehdi Mohammadi, an adviser to Iran’s chief negotiator in talks with the US, Mohammad Bagher Ghalibaf.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The assessment comes from Mehdi Mohammadi, an adviser to Iran’s chief negotiator in talks with the US, Mohammad Bagher Ghalibaf.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "snippet": "The assessment comes from Mehdi Mohammadi, an adviser to Iran’s chief negotiator in talks with the US, Mohammad Bagher Ghalibaf.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "page_sha256": "e208801eaf1866272ff44aee6b3339714f99ae585baed530c8430efa60178dc0",
+              "snippet_sha256": "67998bba22c1e8b147d43cd8ba87b392dc0a5df1181dce76408c2976c5387ea9",
+              "verified_at": "2026-11-12T03:21:38.236783+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mohammadi said on his Telegram channel that the Americans had proposed a timeframe of about two weeks after which Donald Trump would make a decision on military action.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Mohammadi said on his Telegram channel that the Americans had proposed a timeframe of about two weeks after which Donald Trump would make a decision on military action.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "snippet": "Mohammadi said on his Telegram channel that the Americans had proposed a timeframe of about two weeks after which Donald Trump would make a decision on military action.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "page_sha256": "e208801eaf1866272ff44aee6b3339714f99ae585baed530c8430efa60178dc0",
+              "snippet_sha256": "08ead473c171774053a1a7f08d547a42269fb700fcb28e248789f5e14a0c1284",
+              "verified_at": "2026-11-12T03:21:38.236783+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "He also disclosed that Iran had rejected a request from the US vice-president, JD Vance, for a direct meeting with its negotiators before giving a response to Tehran’s conditions for lifting the siege on the strait.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He also disclosed that Iran had rejected a request from the US vice-president, JD Vance, for a direct meeting with its negotiators before giving a response to Tehran’s conditions for lifting the siege on the strait.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "snippet": "He also disclosed that Iran had rejected a request from the US vice-president, JD Vance, for a direct meeting with its negotiators before giving a response to Tehran’s conditions for lifting the siege on the strait.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "page_sha256": "e208801eaf1866272ff44aee6b3339714f99ae585baed530c8430efa60178dc0",
+              "snippet_sha256": "2bc6694bbb609732da4425be07a6bd40a7dabc9fd264579ea4933d23316de785",
+              "verified_at": "2026-11-12T03:21:38.236783+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Marco Rubio, the US secretary of state, gave the impression this week that the policy of economic strangulation was sufficient and described Iran’s demands as unrealistic.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Marco Rubio, the US secretary of state, gave the impression this week that the policy of economic strangulation was sufficient and described Iran’s demands as unrealistic.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "snippet": "Marco Rubio, the US secretary of state, gave the impression this week that the policy of economic strangulation was sufficient and described Iran’s demands as unrealistic.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "page_sha256": "e208801eaf1866272ff44aee6b3339714f99ae585baed530c8430efa60178dc0",
+              "snippet_sha256": "57d9badfc598a0c4719bcb178571d4dab8b54cae36d8c754ad4d3ce656dc8fb1",
+              "verified_at": "2026-11-12T03:21:38.236783+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những đánh giá từ phía giới chức Iran về thời hạn ra quyết định của Mỹ và các kịch bản đối phó. Đồng thời, nội dung đặt quan điểm của Tehran cạnh phản ứng từ Washington để phác họa toàn cảnh tình trạng bế tắc ngoại giao và áp lực chính trị hiện tại.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T03:21:38.237570+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-12T03:21:40.360933+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 249,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1147,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "euronews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-12 10:21"
+    },
+    "published_at": "2026-11-12T03:21:40.360933+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
