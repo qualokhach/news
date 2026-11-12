@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "3a95a087ff0246d60ce0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:09:17.775142+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "sports",
@@ -571,11 +571,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:09:17.775166+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "racing-bulls-chot-oi-hinh-tay-ua-cho-mua-giai-f1-2027-82a1e9a6"
   },
   {
     "queue_id": "6e318b6dc5cf36d9c319",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:09:15.587699+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "vietnam",
@@ -1542,11 +1543,12 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:09:15.587723+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100"
   },
   {
     "queue_id": "4e7a00e53dd8f3ac96c8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-12T17:09:04.500644+00:00",
     "expires_at": "2026-11-15T17:06:45.982756+00:00",
     "category_hint": "vietnam",
@@ -3297,7 +3299,8 @@
       ]
     },
     "research_ready_at": "2026-11-12T17:09:04.500668+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-bi-thu-chu-tich-nuoc-to-lam-du-tuan-le-cap-cao-apec-2026-tai-trung--5b0a7d11"
   },
   {
     "queue_id": "72000e10a2ab952eb99c",
@@ -79337,5 +79340,642 @@
     "research_ready_at": "2026-11-07T15:13:57.959896+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "verstappen-hamilton-va-leclerc-oi-mat-an-phat-xuat-phat-tai-sao-paulo-gr-e3b64fca"
+  },
+  {
+    "queue_id": "racing-bulls-chot-oi-hinh-tay-ua-cho-mua-giai-f1-2027-82a1e9a6",
+    "status": "READY",
+    "prepared_at": "2026-11-12T17:09:36.622367+00:00",
+    "expires_at": "2026-11-13T17:09:36.622367+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up"
+    ],
+    "article": {
+      "id": "racing-bulls-chot-oi-hinh-tay-ua-cho-mua-giai-f1-2027-82a1e9a6",
+      "title": "Racing Bulls chốt đội hình tay đua cho mùa giải F1 2027",
+      "summary": "Đội đua Racing Bulls chính thức xác nhận tiếp tục đồng hành cùng bộ đôi Liam Lawson và Arvid Lindblad trong mùa giải Công thức 1 năm 2027, chấm dứt những đồn đoán về nhân sự.",
+      "category": "sports",
+      "source_name": "BBC Sport - All",
+      "source_url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T16:02:16+00:00",
+      "fetched_at": "2026-11-12T17:10:08.031096+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội đua Racing Bulls vừa chính thức xác nhận sẽ tiếp tục sử dụng bộ đôi tay đua Liam Lawson và Arvid Lindblad cho mùa giải Công thức 1 năm 2027. Quyết định này được đưa ra sau một mùa giải đầy ấn tượng, nơi cả hai đã góp công lớn giúp đội vươn lên vị trí thứ năm trên bảng xếp hạng các đội đua với 114 điểm, tạo khoảng cách an toàn 45 điểm so với đội xếp sau là Alpine.",
+        "Việc giữ chân Lawson, 24 tuổi, đánh dấu một bước ngoặt trong chiến lược nhân sự của Red Bull. Trước đó, tương lai của tay đua người New Zealand từng bị đặt dấu hỏi lớn khi đội ngũ quản lý cân nhắc việc đôn ứng viên sáng giá từ giải Formula 2 là Nikola Tsolov lên thay thế. Tuy nhiên, phong độ ổn định của Lawson trong mùa giải hiện tại, bao gồm cả giai đoạn thay thế tay đua Isack Hadjar tại đội chính Red Bull, đã giúp anh bảo vệ thành công vị trí của mình. Trong khi đó, tay đua tân binh 19 tuổi Arvid Lindblad cũng được đánh giá cao sau những màn thể hiện đầy tiềm năng trong năm đầu tiên thi đấu tại F1.",
+        "Với việc chốt đội hình chính thức, Nikola Tsolov sẽ đảm nhận vai trò tay đua dự bị cho cả hai đội thuộc sở hữu của Red Bull trong mùa giải tới. Theo thông tin từ đội ngũ lãnh đạo, Tsolov sẽ tham gia chương trình phát triển chuyên sâu, bao gồm công việc mô phỏng và tích lũy kinh nghiệm trên đường đua. Quyết định này cho thấy sự thay đổi trong triết lý của Red Bull, khi họ ưu tiên sự ổn định và đánh giá kỹ lưỡng các tay đua hiện có thay vì vội vã thay đổi nhân sự như những mùa giải trước."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Racing Bulls giữ chân Liam Lawson và Arvid Lindblad cho mùa giải 2027",
+      "meta_description": "Đội đua Racing Bulls xác nhận giữ nguyên đội hình Liam Lawson và Arvid Lindblad cho mùa giải F1 2027, trong khi Nikola Tsolov đảm nhận vai trò dự bị.",
+      "keywords": [
+        "F1",
+        "Racing Bulls",
+        "Liam Lawson",
+        "Arvid Lindblad",
+        "đua xe"
+      ],
+      "slug": "racing-bulls-chot-oi-hinh-tay-ua-cho-mua-giai-f1-2027-82a1e9a6",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 321,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up"
+      ],
+      "source_links": [
+        "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:02:16+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T11:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Racing Bulls xác nhận Liam Lawson và Arvid Lindblad sẽ tiếp tục là tay đua chính cho mùa giải 2027.",
+          "source_urls": [
+            "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+              "snippet": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+              "page_sha256": "23e64f74cf0c31c1810092d8afa3f5ed7d6c9b8b65db3dc6e950b714c85fe4f4",
+              "snippet_sha256": "fc70ebc1840724f6714375b390090c8bec3db25b9d76b296dbbafe3364a5a4a1",
+              "verified_at": "2026-11-12T17:10:08.030263+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nikola Tsolov được bổ nhiệm làm tay đua dự bị cho cả hai đội đua của Red Bull trong mùa giải 2027.",
+          "source_urls": [
+            "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up"
+          ],
+          "importance": "core",
+          "evidence_snippet": "After weeks of speculation, Liam Lawson's future at Racing Bulls is secure for 2027; Lawson to again partner British youngster Arvid Lindblad; Nikola Tsolov named Red Bull teams' reserve driver;watch the Las Vegas GP weekend live on Sky Sports F1 from November 20-22",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+              "snippet": "After weeks of speculation, Liam Lawson's future at Racing Bulls is secure for 2027; Lawson to again partner British youngster Arvid Lindblad; Nikola Tsolov named Red Bull teams' reserve driver;watch the Las Vegas GP weekend live on Sky Sports F1 from November 20-22",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/f1/news/12040/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+              "page_sha256": "23e64f74cf0c31c1810092d8afa3f5ed7d6c9b8b65db3dc6e950b714c85fe4f4",
+              "snippet_sha256": "943d5ec7f8d7674caf05a9f7c4a6fa71bc8ff42082d56be88c6e14d429ce478b",
+              "verified_at": "2026-11-12T17:10:08.030263+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Racing Bulls hiện đang đứng thứ năm trên bảng xếp hạng các đội đua với 114 điểm.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Arvid Lindblad (left) and Liam Lawson have taken Racing Bulls to fifth place in the constructors' championship on 114 points, 45 points ahead of Alpine",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Arvid Lindblad (left) and Liam Lawson have taken Racing Bulls to fifth place in the constructors' championship on 114 points, 45 points ahead of Alpine",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "c839cafc1c3b03d4201f0f944ed0de3f6c923135e7c58be72b298aa6f53ff4c0",
+              "snippet_sha256": "ea15be284fc9ad82b3038722238a50819159986a0da79c84ce59d31c3bd903e1",
+              "verified_at": "2026-11-12T17:10:08.030263+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự thay đổi trong triết lý nhân sự của Red Bull khi ưu tiên sự ổn định thay vì thay thế tay đua liên tục. Đồng thời, bài phân tích bối cảnh phong độ của Lawson và vai trò mới của Tsolov để độc giả hiểu rõ hơn về cấu trúc đội hình của đội đua.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:10:08.031219+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "114",
+        "19",
+        "2",
+        "2027",
+        "24",
+        "45"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T17:10:08.032745+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 321,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1467
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100",
+    "status": "READY",
+    "prepared_at": "2026-11-12T17:09:36.622367+00:00",
+    "expires_at": "2026-11-13T17:09:36.622367+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+      "https://thanhnien.vn/tai-nang-pickleball-15-tuoi-vua-vo-dich-the-gioi-gay-sot-khi-den-viet-nam-18526111222053022.htm",
+      "https://dantri.com.vn/the-thao/u23-viet-nam-thang-u23-singapore-tien-gan-ngoi-vo-dich-20261112180724381.htm"
+    ],
+    "article": {
+      "id": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100",
+      "title": "U23 Việt Nam chia tay nhóm cầu thủ trụ cột trước trận quyết đấu với Qatar",
+      "summary": "Sau chiến thắng trước U23 Singapore, đội tuyển U23 Việt Nam buộc phải chia tay bốn cầu thủ để trở về phục vụ câu lạc bộ chủ quản, gây ảnh hưởng đến lực lượng trước trận tranh chức vô địch.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+      "published_at": "2026-11-12T16:12:00+00:00",
+      "fetched_at": "2026-11-12T17:10:33.707402+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội tuyển U23 Việt Nam vừa xác nhận chia tay bốn cầu thủ sau lượt trận thứ hai tại Giải giao hữu quốc tế U23 - Gia Lai VTV Cup 2026. Các cầu thủ rời đội bao gồm hai gương mặt Việt kiều là Williams Minh Hoàng (Anh), Khoa Ngô (Úc), cùng hai cầu thủ trong nước là Đức Phú và Đinh Quang Kiệt. Nhóm cầu thủ này sẽ trở về tập luyện cùng câu lạc bộ Công An TP.HCM từ ngày 13-11 để chuẩn bị cho trận đấu gặp Buriram United tại giải vô địch các CLB Đông Nam Á - Shopee Cup 2026-2027, diễn ra vào ngày 18-11 trên sân Bình Dương.",
+        "Việc thiếu vắng nhóm cầu thủ trên đặt ra bài toán nhân sự cho huấn luyện viên Đinh Hồng Vinh trước trận đấu cuối cùng gặp U23 Qatar vào ngày 14-11, nơi hai đội sẽ tranh chức vô địch. Đặc biệt, sự ra đi của Williams Minh Hoàng và Khoa Ngô khiến hàng công của U23 Việt Nam chỉ còn lại ba tiền đạo là Minh Tâm, Gia Bảo và Hoàng Anh. Dù vậy, ban huấn luyện vẫn tỏ ra tự tin với các phương án thay thế ở những tuyến còn lại.",
+        "Đối với vị trí tiền vệ trung tâm mà Đức Phú để lại, ông Vinh có thể tin dùng Cao Hoàng Minh, Thái Bá Đạt hoặc Quang Duyệt. Trong đó, Quang Duyệt là cái tên gây ấn tượng mạnh sau hai trận đấu vừa qua. Chia sẻ về học trò, huấn luyện viên Đinh Hồng Vinh cho biết ông đã quyết định trao cơ hội cho Duyệt sau khi theo dõi cầu thủ này thi đấu tại V-League. Sự chững chạc của tiền vệ sinh năm 2005 được kỳ vọng sẽ giúp đội duy trì sức mạnh trong trận đấu quyết định sắp tới.",
+        "Trước đó, một nhóm bốn cầu thủ khác gồm Lê Giang Patrik, Olaha Mạnh Đức, Quốc Cường và Nhật Minh cũng đã rời đội tuyển sau trận thắng Đài Bắc Trung Hoa tại Giải giao hữu quốc tế Casper Cup 2026. Việc các câu lạc bộ triệu hồi cầu thủ trong giai đoạn giải đấu giao hữu đang diễn ra cho thấy sự ưu tiên của các đội bóng trong nước đối với các giải đấu cấp khu vực và quốc tế quan trọng hơn."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "U23 Việt Nam chia tay Williams Minh Hoàng, Khoa Ngô trước trận gặp Qat",
+      "meta_description": "Đội tuyển U23 Việt Nam chia tay Williams Minh Hoàng, Khoa Ngô cùng hai cầu thủ khác sau trận thắng Singapore để chuẩn bị cho giải Shopee Cup 2026-2027.",
+      "keywords": [
+        "U23 Việt Nam",
+        "Gia Lai VTV Cup 2026",
+        "Williams Minh Hoàng",
+        "Khoa Ngô",
+        "Đinh Hồng Vinh"
+      ],
+      "slug": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 396,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+        "https://thanhnien.vn/tai-nang-pickleball-15-tuoi-vua-vo-dich-the-gioi-gay-sot-khi-den-viet-nam-18526111222053022.htm",
+        "https://dantri.com.vn/the-thao/u23-viet-nam-thang-u23-singapore-tien-gan-ngoi-vo-dich-20261112180724381.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/tai-nang-pickleball-15-tuoi-vua-vo-dich-the-gioi-gay-sot-khi-den-viet-nam-18526111222053022.htm",
+        "https://dantri.com.vn/the-thao/u23-viet-nam-thang-u23-singapore-tien-gan-ngoi-vo-dich-20261112180724381.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:12:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tai-nang-pickleball-15-tuoi-vua-vo-dich-the-gioi-gay-sot-khi-den-viet-nam-18526111222053022.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T15:08:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/u23-viet-nam-thang-u23-singapore-tien-gan-ngoi-vo-dich-20261112180724381.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T11:09:32+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Williams Minh Hoàng, Khoa Ngô, Đức Phú và Đinh Quang Kiệt chia tay U23 Việt Nam sau trận thắng Singapore.",
+          "source_urls": [
+            "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sau trận thắng U23 Singapore ở Gia Lai VTV Cup 2026, Williams Minh Hoàng, Khoa Ngô, Đức Phú và Đinh Quang Kiệt đã chia tay đội tuyển U23 Việt Nam.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+              "snippet": "Sau trận thắng U23 Singapore ở Gia Lai VTV Cup 2026, Williams Minh Hoàng, Khoa Ngô, Đức Phú và Đinh Quang Kiệt đã chia tay đội tuyển U23 Việt Nam.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+              "page_sha256": "16e9b4724c6e73bcc093a9fdc9ee5a95180fb6071fd95701f2174cd26c1a0ad8",
+              "snippet_sha256": "a20c1388e594db792ae484260f11a5757ca1b6a3b6d55195d5ad33c2f3ab2e0f",
+              "verified_at": "2026-11-12T17:10:33.706613+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cầu thủ này trở về CLB Công An TP.HCM để chuẩn bị cho trận gặp Buriram United tại Shopee Cup vào ngày 18-11.",
+          "source_urls": [
+            "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đội bóng ngành công an cần lực lượng tốt nhất để chuẩn bị cho trận gặp Buriram United (Thái Lan) ở lượt trận thứ 2 bảng A Giải vô địch các CLB Đông Nam Á - Shopee Cup 2026-2027, diễn ra vào ngày 18-11 trên sân Bình Dương.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+              "snippet": "Đội bóng ngành công an cần lực lượng tốt nhất để chuẩn bị cho trận gặp Buriram United (Thái Lan) ở lượt trận thứ 2 bảng A Giải vô địch các CLB Đông Nam Á - Shopee Cup 2026-2027, diễn ra vào ngày 18-11 trên sân Bình Dương.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+              "page_sha256": "16e9b4724c6e73bcc093a9fdc9ee5a95180fb6071fd95701f2174cd26c1a0ad8",
+              "snippet_sha256": "ecdd1c0eeaa43b037f4e7912b31c6ab0f59b79b2a427e669cdb2c851a4a8a2cd",
+              "verified_at": "2026-11-12T17:10:33.706613+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "U23 Việt Nam sẽ gặp U23 Qatar vào ngày 14-11 để tranh chức vô địch giải Gia Lai VTV Cup 2026.",
+          "source_urls": [
+            "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Bảng xếp hạng Giải U23 - Gia Lai VTV Cup 2026: Việt Nam nhất, Thái Lan chót bảng",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+              "snippet": "Bảng xếp hạng Giải U23 - Gia Lai VTV Cup 2026: Việt Nam nhất, Thái Lan chót bảng",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/u23-viet-nam-chia-tay-williams-minh-hoang-khoa-ngo-100261112225434087.htm",
+              "page_sha256": "16e9b4724c6e73bcc093a9fdc9ee5a95180fb6071fd95701f2174cd26c1a0ad8",
+              "snippet_sha256": "5e452dc87acacc074ea52e4e6ef5c1fb92191e8595584fc1c9f11c75945360e5",
+              "verified_at": "2026-11-12T17:10:33.706613+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ tác động của việc triệu hồi cầu thủ từ câu lạc bộ chủ quản đối với kế hoạch nhân sự của đội tuyển U23 Việt Nam. Đồng thời, bài phân tích các phương án thay thế mà ban huấn luyện đã chuẩn bị để duy trì sức mạnh cho trận tranh ngôi vô địch.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:10:33.707536+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2005",
+        "2026",
+        "2027",
+        "23"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T17:10:33.709244+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 396,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1791
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tong-bi-thu-chu-tich-nuoc-to-lam-du-tuan-le-cap-cao-apec-2026-tai-trung--5b0a7d11",
+    "status": "READY",
+    "prepared_at": "2026-11-12T17:09:36.622367+00:00",
+    "expires_at": "2026-11-13T17:09:36.622367+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+      "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-se-tham-du-tuan-le-cap-cao-apec-33-tai-trung-quoc-185261112222541284.htm",
+      "https://dantri.com.vn/thoi-su/chu-tich-gia-lai-yeu-cau-so-tan-ngay-nguoi-dan-vung-nguy-hiem-khong-cho-xay-ra-su-co-20261112205938246.htm"
+    ],
+    "article": {
+      "id": "tong-bi-thu-chu-tich-nuoc-to-lam-du-tuan-le-cap-cao-apec-2026-tai-trung--5b0a7d11",
+      "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm dự Tuần lễ cấp cao APEC 2026 tại Trung Quốc",
+      "summary": "Nhận lời mời của Tổng Bí thư, Chủ tịch nước Trung Quốc Tập Cận Bình, Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân sẽ tham dự Tuần lễ cấp cao APEC lần thứ 33 tại Thâm Quyến, Trung Quốc từ ngày 17 đến 20-11.",
+      "category": "world",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+      "published_at": "2026-11-12T16:24:00+00:00",
+      "fetched_at": "2026-11-12T17:11:02.663627+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Theo thông cáo của Bộ Ngoại giao Việt Nam, Tổng Bí thư, Chủ tịch nước Tô Lâm cùng Phu nhân và đoàn đại biểu cấp cao sẽ có chuyến công tác tại Trung Quốc từ ngày 17 đến 20-11. Chuyến đi diễn ra theo lời mời của Tổng Bí thư, Chủ tịch nước Trung Quốc Tập Cận Bình và Phu nhân, trong khuôn khổ Tuần lễ cấp cao Diễn đàn Hợp tác Kinh tế châu Á - Thái Bình Dương (APEC) lần thứ 33 tại thành phố Thâm Quyến.",
+        "Tuần lễ cấp cao APEC 2026, diễn ra từ ngày 13 đến 19-11, có chủ đề \"Xây dựng cộng đồng châu Á - Thái Bình Dương cùng thịnh vượng\" với các ưu tiên về mở cửa, đổi mới và hợp tác. Dự kiến, Tổng Bí thư, Chủ tịch nước Tô Lâm sẽ tham dự Hội nghị cấp cao APEC vào ngày 19-11 và chứng kiến lễ chuyển giao vai trò chủ nhà APEC 2027. Ngoài ra, người đứng đầu Đảng và Nhà nước Việt Nam cũng sẽ phát biểu chính tại Hội nghị Thượng đỉnh Doanh nghiệp APEC vào chiều 18-11.",
+        "Chuyến công tác lần này được kỳ vọng sẽ tiếp tục củng cố đà phát triển tích cực trong quan hệ Việt Nam - Trung Quốc. Kể từ đầu năm 2026, hai nước đã duy trì các hoạt động tiếp xúc cấp cao linh hoạt. Trước đó, trong chuyến thăm cấp Nhà nước tới Trung Quốc vào tháng 4-2026, hai bên đã ký kết 32 văn kiện hợp tác và ra Tuyên bố chung về việc làm sâu sắc hơn quan hệ Đối tác hợp tác chiến lược toàn diện. Các số liệu kinh tế cũng cho thấy sự gắn kết chặt chẽ, với kim ngạch thương mại hai chiều trong 10 tháng đầu năm 2026 đạt 290 tỉ USD, tăng 39,3% so với cùng kỳ.",
+        "Việc tham dự APEC 2026 không chỉ khẳng định vai trò thành viên tích cực của Việt Nam tại diễn đàn mà còn là bước chuẩn bị quan trọng cho Năm APEC 2027 do Việt Nam đăng cai. Đây là lần thứ ba Việt Nam đảm nhận vai trò chủ nhà, tiếp tục khẳng định uy tín và vị thế của quốc gia trong tiến trình hội nhập kinh tế quốc tế và đa phương hóa chính sách đối ngoại."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tổng Bí thư, Chủ tịch nước Tô Lâm dự APEC 2026 tại Trung Quốc",
+      "meta_description": "Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân sẽ tham dự Tuần lễ cấp cao APEC lần thứ 33 tại Thâm Quyến, Trung Quốc, nhằm củng cố quan hệ đối tác chiến lược giữ",
+      "keywords": [
+        "Tô Lâm",
+        "APEC 2026",
+        "Trung Quốc",
+        "ngoại giao Việt Nam"
+      ],
+      "slug": "tong-bi-thu-chu-tich-nuoc-to-lam-du-tuan-le-cap-cao-apec-2026-tai-trung--5b0a7d11",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 396,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+        "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-se-tham-du-tuan-le-cap-cao-apec-33-tai-trung-quoc-185261112222541284.htm",
+        "https://dantri.com.vn/thoi-su/chu-tich-gia-lai-yeu-cau-so-tan-ngay-nguoi-dan-vung-nguy-hiem-khong-cho-xay-ra-su-co-20261112205938246.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-se-tham-du-tuan-le-cap-cao-apec-33-tai-trung-quoc-185261112222541284.htm",
+        "https://dantri.com.vn/thoi-su/chu-tich-gia-lai-yeu-cau-so-tan-ngay-nguoi-dan-vung-nguy-hiem-khong-cho-xay-ra-su-co-20261112205938246.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:24:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-se-tham-du-tuan-le-cap-cao-apec-33-tai-trung-quoc-185261112222541284.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T15:40:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/chu-tich-gia-lai-yeu-cau-so-tan-ngay-nguoi-dan-vung-nguy-hiem-khong-cho-xay-ra-su-co-20261112205938246.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T15:07:19+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân sẽ dự APEC 2026 tại Trung Quốc từ ngày 17 đến 20-11.",
+          "source_urls": [
+            "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân sẽ dự APEC 2026 tại Trung Quốc",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+              "snippet": "Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân sẽ dự APEC 2026 tại Trung Quốc",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+              "page_sha256": "d913dee4d7d8e2131355a3d131678b6ebcfea6f78d74ecd13a39d00ab8e8e3bc",
+              "snippet_sha256": "685a949a6ccdb8e1216a6bd7137a05ec7c5df3fb65f48e3cfba56121872b076b",
+              "verified_at": "2026-11-12T17:11:02.662761+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tuần lễ cấp cao APEC 2026 diễn ra tại Thâm Quyến từ ngày 13 đến 19-11 với chủ đề Xây dựng cộng đồng châu Á - Thái Bình Dương cùng thịnh vượng.",
+          "source_urls": [
+            "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Năm APEC 2026 do Trung Quốc đăng cai có chủ đề \"Xây dựng cộng đồng châu Á - Thái Bình Dương cùng thịnh vượng\", với 3 ưu tiên về mở cửa, đổi mới và hợp tác.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+              "snippet": "Năm APEC 2026 do Trung Quốc đăng cai có chủ đề \"Xây dựng cộng đồng châu Á - Thái Bình Dương cùng thịnh vượng\", với 3 ưu tiên về mở cửa, đổi mới và hợp tác.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+              "page_sha256": "d913dee4d7d8e2131355a3d131678b6ebcfea6f78d74ecd13a39d00ab8e8e3bc",
+              "snippet_sha256": "a64964fc9b7ff7c587d8a56555b3f9c20df30cd99aaa2ce4d1b48a2eb860f269",
+              "verified_at": "2026-11-12T17:11:02.662761+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kim ngạch thương mại Việt Nam - Trung Quốc trong 10 tháng đầu năm 2026 đạt 290 tỉ USD, tăng 39,3%.",
+          "source_urls": [
+            "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Về thương mại, trong 10 tháng đầu năm 2026, kim ngạch thương mại đạt 290 tỉ USD, tăng 39,3%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+              "snippet": "Về thương mại, trong 10 tháng đầu năm 2026, kim ngạch thương mại đạt 290 tỉ USD, tăng 39,3%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-se-du-apec-2026-tai-trung-quoc-100261112225850403.htm",
+              "page_sha256": "d913dee4d7d8e2131355a3d131678b6ebcfea6f78d74ecd13a39d00ab8e8e3bc",
+              "snippet_sha256": "7423f9b2e69689ce6e113d88761dcbe5f250df640dd263055bc557ed4f676280",
+              "verified_at": "2026-11-12T17:11:02.662761+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh quan hệ song phương Việt - Trung thông qua các số liệu thương mại và đầu tư cụ thể trong năm 2026. Đồng thời, bài phân tích ý nghĩa của sự kiện trong lộ trình chuẩn bị cho vai trò chủ nhà APEC 2027 của Việt Nam.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-12T17:11:02.663750+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2026",
+        "2027",
+        "290",
+        "32",
+        "33",
+        "39,3"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-12T17:11:02.665467+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 396,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1775
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
