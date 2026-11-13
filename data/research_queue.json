@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "376457f6243af524bcb1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-13T02:11:33.330433+00:00",
     "expires_at": "2026-11-16T02:09:33.527247+00:00",
     "category_hint": "sports",
@@ -610,11 +610,12 @@
       ]
     },
     "research_ready_at": "2026-11-13T02:11:33.330456+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-con-so-thong-ke-kho-tin-cua-victor-wembanyama-trong-chuoi-tran-tha-02cd598f"
   },
   {
     "queue_id": "34ccf09f80d469dee196",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-13T02:11:31.974529+00:00",
     "expires_at": "2026-11-16T02:09:33.527247+00:00",
     "category_hint": "sports",
@@ -1283,11 +1284,12 @@
       ]
     },
     "research_ready_at": "2026-11-13T02:11:31.974552+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea"
   },
   {
     "queue_id": "c7a76a7d750d464ec8d5",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-13T02:11:29.218349+00:00",
     "expires_at": "2026-11-16T02:09:33.527247+00:00",
     "category_hint": "world",
@@ -2497,7 +2499,8 @@
       ]
     },
     "research_ready_at": "2026-11-13T02:11:29.218371+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-thong-ukraine-hoan-nghenh-no-luc-cua-my-ua-chau-au-vao-am-phan-hoa--2abd5118"
   },
   {
     "queue_id": "4137ab6657337180db36",
@@ -81741,5 +81744,649 @@
     },
     "published_at": "2026-11-08T16:23:40.293843+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nhung-con-so-thong-ke-kho-tin-cua-victor-wembanyama-trong-chuoi-tran-tha-02cd598f",
+    "status": "READY",
+    "prepared_at": "2026-11-13T02:11:54.750350+00:00",
+    "expires_at": "2026-11-14T02:11:54.750350+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+      "https://www.aljazeera.com/sports/2026/11/10/nba-doncic-lakers-wembanyama-spurs-curry-warriors?traffic_source=rss"
+    ],
+    "article": {
+      "id": "nhung-con-so-thong-ke-kho-tin-cua-victor-wembanyama-trong-chuoi-tran-tha-02cd598f",
+      "title": "Những con số thống kê khó tin của Victor Wembanyama trong chuỗi trận thắng của Spurs",
+      "summary": "Victor Wembanyama đang thể hiện phong độ đỉnh cao với hàng loạt kỷ lục và thống kê ấn tượng, góp phần giúp San Antonio Spurs duy trì chuỗi trận thắng ấn tượng tại giải bóng rổ nhà nghề Mỹ NBA.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+      "published_at": "2026-11-13T00:30:18+00:00",
+      "fetched_at": "2026-11-13T02:11:58.997304+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngôi sao trẻ Victor Wembanyama của San Antonio Spurs đang thể hiện một phong độ vô cùng ấn tượng, thiết lập hàng loạt cột mốc lịch sử trong chuỗi trận thăng hoa gần đây của đội bóng tại giải bóng rổ nhà nghề Mỹ NBA. Với phong độ xuất sắc này, Wembanyama không chỉ giúp Spurs vươn lên nhóm đầu bảng xếp hạng miền Tây mà cá nhân anh cũng ghi tên mình vào lịch sử giải đấu bằng những thông số chưa từng có.",
+        "Trong chiến thắng trước Chicago Bulls, cầu thủ 22 tuổi đã có 32 điểm và 5 pha chắn bóng, qua đó san bằng kỷ lục 18 trận đạt từ 30 điểm và 5 pha chắn bóng trở lên trong màu áo Spurs của huyền thoại Tim Duncan. Điều đáng nói là Wembanyama đạt được cột mốc này chỉ sau 193 trận đấu, trong khi Tim Duncan cần tới 1.392 trận.",
+        "Trước đó, ngôi sao người Pháp cũng có màn trình diễn bùng nổ với 52 điểm, 24 kiến tạo và 8 pha chắn bóng trong trận đấu gặp Dallas Mavericks. Thành tích này giúp anh trở thành cầu thủ đầu tiên kể từ Bob McAdoo vào năm 1974 ghi được ít nhất 50 điểm, 20 rebound và 5 pha chắn bóng trong một trận đấu.",
+        "Tính trong 5 trận gần nhất, Wembanyama duy trì trung bình 36,6 điểm, 13,0 rebound và 5,0 pha chắn bóng mỗi trận chỉ trong khoảng 28 phút thi đấu. Theo các số liệu thống kê, anh cũng trở thành cầu thủ đầu tiên trong lịch sử kể từ khi hệ thống tính block ra đời ở mùa giải 1973-1974 duy trì trung bình tối thiểu 35 điểm và 5 block qua một chuỗi 5 trận."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thống kê đỉnh cao của Victor Wembanyama cùng San Antonio Spurs",
+      "meta_description": "Khám phá những thống kê ấn tượng và kỷ lục lịch sử của Victor Wembanyama trong chuỗi trận thăng hoa của San Antonio Spurs tại NBA.",
+      "keywords": [
+        "Victor Wembanyama",
+        "San Antonio Spurs",
+        "NBA",
+        "thống kê bóng rổ",
+        "Tim Duncan"
+      ],
+      "slug": "nhung-con-so-thong-ke-kho-tin-cua-victor-wembanyama-trong-chuoi-tran-tha-02cd598f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 295,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+        "https://www.aljazeera.com/sports/2026/11/10/nba-doncic-lakers-wembanyama-spurs-curry-warriors?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/sports/2026/11/10/nba-doncic-lakers-wembanyama-spurs-curry-warriors?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T00:30:18+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/10/nba-doncic-lakers-wembanyama-spurs-curry-warriors?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T06:22:35+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Wembanyama san bằng thành tích 18 trận đạt ít nhất 30 điểm và 5 block của Tim Duncan tại Spurs.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4"
+          ],
+          "importance": "core",
+          "evidence_snippet": "With his 32-point, five-block performance in a win over theBullson Wednesday night, Wembanyama (18) matched Tim Duncan (18) in all-time Spurs games with at least 30 points and five blocks, including the playoffs.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+              "snippet": "With his 32-point, five-block performance in a win over theBullson Wednesday night, Wembanyama (18) matched Tim Duncan (18) in all-time Spurs games with at least 30 points and five blocks, including the playoffs.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+              "page_sha256": "47fad5633794c4e7f1e4e4046b2f236dcc19f686bc18e251bb5cf82f99837a21",
+              "snippet_sha256": "43cd48c34ea18bce38fd7b7f5143f8dddf3001be461944c6339293b36b77d299",
+              "verified_at": "2026-11-13T02:11:58.996309+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Wembanyama ghi 52 điểm và 24 rebound trong trận đấu với Mavericks, trở thành cầu thủ đầu tiên đạt thống kê này cùng 5 block từ năm 1974.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4"
+          ],
+          "importance": "core",
+          "evidence_snippet": "CAREER NIGHT FOR VICTOR WEMBANYAMA 🚨 🤯 52 PTS (CAREER-HIGH) 🤯 24 REB (CAREER-HIGH) 🤯 8 BLK FIRST PLAYER WITH 50+ PTS, 20+ REB, 5+ BLK SINCE BOB MCADOO IN 1974.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+              "snippet": "CAREER NIGHT FOR VICTOR WEMBANYAMA 🚨 🤯 52 PTS (CAREER-HIGH) 🤯 24 REB (CAREER-HIGH) 🤯 8 BLK FIRST PLAYER WITH 50+ PTS, 20+ REB, 5+ BLK SINCE BOB MCADOO IN 1974.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+              "page_sha256": "47fad5633794c4e7f1e4e4046b2f236dcc19f686bc18e251bb5cf82f99837a21",
+              "snippet_sha256": "79ee2fc07592ece870f9cfd26bbcb9b0f248d6d3396658a3e29c141d814a67ee",
+              "verified_at": "2026-11-13T02:11:58.996309+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Wembanyama duy trì trung bình 36,6 điểm và 5,0 block trong 5 trận gần nhất với số phút trung bình là 28 phút.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Wemby over his last 5 games: 36.6 PPG 13.0 RPG 5.0 BPG 66% FG 41% 3PT in just 28 minutes per game… https://t.co/Z1Q6F9pHzy",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+              "snippet": "Wemby over his last 5 games: 36.6 PPG 13.0 RPG 5.0 BPG 66% FG 41% 3PT in just 28 minutes per game… https://t.co/Z1Q6F9pHzy",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/san-antonio-spurs/news/dizzying-victor-wembanyama-stats-spurs-win-streak/08dab649e28cfc5e32eab7d4",
+              "page_sha256": "47fad5633794c4e7f1e4e4046b2f236dcc19f686bc18e251bb5cf82f99837a21",
+              "snippet_sha256": "a1856b8464557ca04230ca401c0e36508bbfc0eaf80a3a690866a7a9fb1b63f9",
+              "verified_at": "2026-11-13T02:11:58.996309+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp và làm nổi bật các cột mốc thống kê lịch sử của Victor Wembanyama so sánh với các huyền thoại như Tim Duncan và Bob McAdoo. Nội dung làm rõ hiệu suất ghi điểm cực cao chỉ trong số phút thi đấu giới hạn trong chuỗi trận thắng của Spurs.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-13T02:11:58.997418+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.392",
+        "13,0",
+        "18",
+        "193",
+        "1973",
+        "1974",
+        "20",
+        "22",
+        "24",
+        "28",
+        "30",
+        "32",
+        "35",
+        "36,6",
+        "5",
+        "5,0",
+        "50",
+        "52",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-13T02:11:58.999083+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 295,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1371
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea",
+    "status": "READY",
+    "prepared_at": "2026-11-13T02:11:54.750350+00:00",
+    "expires_at": "2026-11-14T02:11:54.750350+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+      "https://www.bbc.co.uk/sport/cricket/articles/cwr7ydgv03kvo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea",
+      "title": "Hệ thống xổ số NBA mới gây bất lợi cho Memphis Grizzlies trong năm 2027",
+      "summary": "Thay đổi trong quy định xổ số NBA đang khiến Memphis Grizzlies đối mặt với rủi ro lớn khi quyền chọn cầu thủ từ Utah Jazz bị hạn chế, bất chấp phong độ sa sút của đối thủ.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+      "published_at": "2026-11-13T01:26:02+00:00",
+      "fetched_at": "2026-11-13T02:12:19.344162+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hệ thống xổ số NBA vừa được cải tổ đang tạo ra những tác động không mong muốn đối với Memphis Grizzlies, đặc biệt trong việc khai thác quyền chọn cầu thủ từ Utah Jazz tại kỳ NBA Draft 2027. Dù Utah Jazz đang trải qua khởi đầu mùa giải đầy khó khăn với thành tích 1-11, Memphis Grizzlies không còn khả năng tận dụng tối đa sự sa sút này để giành lấy vị trí chọn cầu thủ cao nhất như dưới thể thức cũ.",
+        "Theo quy định mới, các đội bóng không được phép sở hữu quyền chọn trong top 5 trong ba năm liên tiếp. Do Utah Jazz đã có các lượt chọn trong top 5 ở cả hai kỳ Draft 2025 và 2026, lượt chọn mà Memphis Grizzlies sở hữu thông qua thương vụ Jaren Jackson Jr. sẽ bị hạn chế, không thể rơi vào nhóm 5 vị trí dẫn đầu. Điều này đồng nghĩa với việc vị trí cao nhất mà Grizzlies có thể đạt được là lượt chọn thứ 6.",
+        "Memphis Grizzlies là đội bóng duy nhất bỏ phiếu chống lại hệ thống xổ số mới này vì lo ngại những hạn chế về thứ hạng. Trong bối cảnh kỳ Draft 2027 được đánh giá là kém chất lượng hơn so với hai năm trước, việc bị chặn ở vị trí thứ 6 thay vì có cơ hội cạnh tranh các vị trí đầu bảng được xem là một tổn thất đáng kể cho kế hoạch xây dựng đội hình của Grizzlies. Sự thay đổi này làm thay đổi hoàn toàn giá trị của tài sản mà Memphis đã dày công tích lũy thông qua các giao dịch chuyển nhượng trước đó."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Hệ thống xổ số NBA mới ảnh hưởng đến quyền chọn cầu thủ của Grizzlies",
+      "meta_description": "Memphis Grizzlies có thể chịu thiệt hại lớn từ quy định xổ số NBA mới khi quyền chọn cầu thủ từ Utah Jazz bị giới hạn vị trí trong kỳ Draft 2027.",
+      "keywords": [
+        "NBA",
+        "Memphis Grizzlies",
+        "Utah Jazz",
+        "NBA Draft Lottery",
+        "bóng rổ"
+      ],
+      "slug": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 288,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+        "https://www.bbc.co.uk/sport/cricket/articles/cwr7ydgv03kvo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/cricket/articles/cwr7ydgv03kvo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T01:26:02+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cwr7ydgv03kvo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-06T13:40:59+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Memphis Grizzlies sở hữu quyền chọn vòng đầu tiên từ Utah Jazz trong năm 2027.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Grizzlies own an additional first-round pick in 2027, and the brutal 1-11 start by theJazzwould have made their pick likely to go to Memphis under the previous format.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+              "snippet": "The Grizzlies own an additional first-round pick in 2027, and the brutal 1-11 start by theJazzwould have made their pick likely to go to Memphis under the previous format.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+              "page_sha256": "a5625d730d60b5ccced4c3c02af011431ed4d4e24529a71d4f10401b74bcb4e3",
+              "snippet_sha256": "1bdb9201898c9188b0b8de67bf0f352453ea8c35980a6ce6ba4d7e0b769250a3",
+              "verified_at": "2026-11-13T02:12:19.343568+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Utah Jazz đã có các lượt chọn trong top 5 tại NBA Draft 2025 và 2026.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Teams cannot land top-five picks in three consecutive years, and the Jazz already had top-five picks in both 2025 and 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+              "snippet": "Teams cannot land top-five picks in three consecutive years, and the Jazz already had top-five picks in both 2025 and 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+              "page_sha256": "a5625d730d60b5ccced4c3c02af011431ed4d4e24529a71d4f10401b74bcb4e3",
+              "snippet_sha256": "e412ea75095e150747f5cba7e98acc5ccc4fadde2da699fa5303ef1fec383c98",
+              "verified_at": "2026-11-13T02:12:19.343568+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dưới quy định mới, lượt chọn của Utah Jazz mà Grizzlies sở hữu không thể nằm trong top 5 tại kỳ Draft 2027.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It is worth noting that the Jazz cannot receive top-5 pick in the 2027 NBA Draft under the new rules and format since they've been in the top 5 each of the previous two drafts.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+              "snippet": "It is worth noting that the Jazz cannot receive top-5 pick in the 2027 NBA Draft under the new rules and format since they've been in the top 5 each of the previous two drafts.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/memphis-grizzlies/news/nba-draft-lottery-system-grizzlies-jazz/a8ec2981b670d3f861b34673",
+              "page_sha256": "a5625d730d60b5ccced4c3c02af011431ed4d4e24529a71d4f10401b74bcb4e3",
+              "snippet_sha256": "409c2963fba3133520f43aa943cb4a2d7d9cecc5841234b05ce786a6545f2e49",
+              "verified_at": "2026-11-13T02:12:19.343568+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa hệ thống xổ số cũ và mới trong việc định giá quyền chọn cầu thủ. Đồng thời, phân tích tác động cụ thể của quy định hạn chế top 5 đối với chiến lược nhân sự của Memphis Grizzlies.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-13T02:12:19.344268+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2025",
+        "2026",
+        "2027",
+        "5",
+        "6"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-13T02:12:19.345385+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 288,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1303
+        },
+        "independent_domains": [
+          "bbc.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tong-thong-ukraine-hoan-nghenh-no-luc-cua-my-ua-chau-au-vao-am-phan-hoa--2abd5118",
+    "status": "READY",
+    "prepared_at": "2026-11-13T02:11:54.750350+00:00",
+    "expires_at": "2026-11-13T14:11:54.750350+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+      "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink",
+      "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html"
+    ],
+    "article": {
+      "id": "tong-thong-ukraine-hoan-nghenh-no-luc-cua-my-ua-chau-au-vao-am-phan-hoa--2abd5118",
+      "title": "Tổng thống Ukraine hoan nghênh nỗ lực của Mỹ đưa châu Âu vào đàm phán hòa bình",
+      "summary": "Tổng thống Ukraine Volodymyr Zelensky hoan nghênh cam kết từ các đặc phái viên Mỹ về việc đưa đại diện Liên minh Châu Âu tham gia vòng đàm phán hòa bình tiếp theo với Nga.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T02:01:35+00:00",
+      "fetched_at": "2026-11-13T02:12:24.810447+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Ukraine Volodymyr Zelensky đã chính thức lên tiếng hoan nghênh cam kết từ các đặc phái viên Mỹ. Theo đó, đại diện Liên minh Châu Âu sẽ được bao gồm trong vòng đàm phán hòa bình tiếp theo với Nga sau thời gian dài đứng ngoài các tiến xúc tiến ngoại giao.",
+        "Động thái này diễn ra trong bối cảnh các đặc phái viên Mỹ gồm Jared Kushner và Steve Witkoff đã có cuộc gặp với ông Zelensky tại Dublin vào tối thứ Năm. Chuyến công tác này nằm trong chuỗi hoạt động ngoại giao con thoi, nối tiếp cuộc gặp trực tiếp với Tổng thống Nga Vladimir Putin tại Moscow trước đó cùng ngày.",
+        "Trước đó, các nhà lãnh đạo châu Âu bày tỏ nhiều quan ngại sâu sắc về an ninh khu vực khi chiến sự kéo dài. Việc đưa đại diện châu Âu vào bàn đàm phán được kỳ vọng sẽ đảm bảo khối này có tiếng nói quyết định trong các vấn đề liên quan trực tiếp đến tương lai an ninh lục địa.",
+        "Dù vậy, lập trường của điện Kremlin về vấn đề này vẫn chưa có sự nhượng bộ rõ ràng. Trong cuộc gặp tại Moscow, phía Nga khẳng định các yêu cầu về lãnh thổ và điều kiện chấm dứt xung đột không thay đổi, đồng thời cuộc gặp trước đó tại Abu Dhabi cũng chưa đạt được bước đột phá.",
+        "Bên cạnh tiến trình ngoại giao, các bên cũng ghi nhận một số diễn biến nhân đạo đáng chú ý khi Nga và Ukraine đạt thỏa thuận thực hiện một đợt trao đổi tù nhân lớn. Phía Mỹ kỳ vọng thỏa thuận này sẽ sớm đưa hàng nghìn người trở về đoàn tụ với gia đình."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Zelensky hoan nghênh Mỹ đưa châu Âu tham gia đàm phán hòa bình với Nga",
+      "meta_description": "Tổng thống Ukraine Volodymyr Zelensky khẳng định sự tham gia của châu Âu sẽ đảm bảo tiếng nói của khối này trong các cuộc đàm phán hòa bình sắp tới.",
+      "keywords": [
+        "Zelensky",
+        "đàm phán hòa bình",
+        "Nga Ukraine",
+        "Jared Kushner",
+        "châu Âu"
+      ],
+      "slug": "tong-thong-ukraine-hoan-nghenh-no-luc-cua-my-ua-chau-au-vao-am-phan-hoa--2abd5118",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 296,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+        "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink",
+        "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+        "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink",
+        "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T02:01:35+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T01:39:42+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T22:26:37+00:00"
+        },
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T16:54:22+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Ukraine Volodymyr Zelensky hoan nghênh cam kết từ các đặc phái viên Mỹ về việc đưa đại diện Liên minh Châu Âu tham gia vòng đàm phán hòa bình tiếp theo với Nga.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tensions between the US and Ukraine were on display on Thursday before Witkoff and Kushner's meeting with Zelensky.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Tensions between the US and Ukraine were on display on Thursday before Witkoff and Kushner's meeting with Zelensky.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "40995ce663c49064ef5c3ae135c7471d0d7d7b14988758170505bc6cc96511a0",
+              "snippet_sha256": "0d2b78504460ecfa128c4860fc485e1c7b12379f5e1f58e7893d1fd6f511ebe6",
+              "verified_at": "2026-11-13T02:12:24.809864+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các đặc phái viên Mỹ Jared Kushner và Steve Witkoff đã gặp ông Zelensky tại Dublin vào tối thứ Năm sau khi gặp Tổng thống Vladimir Putin tại Moscow.",
+          "source_urls": [
+            "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks"
+          ],
+          "importance": "core",
+          "evidence_snippet": "• US special envoysSteve WitkoffandJared Kushnermet with Ukrainian President Volodymyr Zelensky in Dublin following their talks with his Russian counterpartVladimir Putinin Moscow.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+              "snippet": "• US special envoysSteve WitkoffandJared Kushnermet with Ukrainian President Volodymyr Zelensky in Dublin following their talks with his Russian counterpartVladimir Putinin Moscow.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
+              "page_sha256": "cec2c9f7276a7054be7b8bf507513828bc64d7263a3c9add320b41205e812aff",
+              "snippet_sha256": "fb0d2008d616cbeaa339c9aa7ac5bd35f920dc593c85a10ff3a31c3e75653b67",
+              "verified_at": "2026-11-13T02:12:24.809864+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nga và Ukraine đã đồng ý thực hiện một đợt trao đổi tù nhân lớn, được kỳ vọng sẽ đưa hàng nghìn người trở về với gia đình.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The technology owned by Elon Musk's SpaceX company has played a vital role in government and military connectivity in Ukraine, and increasingly assists infacilitating communication on Ukraine's front line.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+              "snippet": "The technology owned by Elon Musk's SpaceX company has played a vital role in government and military connectivity in Ukraine, and increasingly assists infacilitating communication on Ukraine's front line.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "40995ce663c49064ef5c3ae135c7471d0d7d7b14988758170505bc6cc96511a0",
+              "snippet_sha256": "89dd2e9d4a350b117afd24d28864e54fd1c471d0d7c289e1a127c16ea8d4e28c",
+              "verified_at": "2026-11-13T02:12:24.809864+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh ngoại giao con thoi của các đặc phái viên Mỹ giữa Moscow và Dublin, đồng thời phân tích ý nghĩa của việc châu Âu chính thức có đại diện tham gia bàn đàm phán hòa bình.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-13T02:12:24.810570+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-13T02:12:24.812127+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 296,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1378
+        },
+        "independent_domains": [
+          "bbc.com",
+          "france24.com",
+          "nytimes.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
