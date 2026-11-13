@@ -406,5 +406,14 @@
         "reason": "Nguồn không truy cập được: nytimes.com (HTTP 403)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-13 09:54",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-13T02:54:57.310850+00:00",
+    "prepared_candidates": 26,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]
