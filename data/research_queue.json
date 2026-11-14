@@ -2435,7 +2435,7 @@
   },
   {
     "queue_id": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-13T02:11:54.750350+00:00",
     "expires_at": "2026-11-14T02:11:54.750350+00:00",
     "source_urls": [
@@ -2628,11 +2628,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "tong-thong-ukraine-hoan-nghenh-no-luc-cua-my-ua-chau-au-vao-am-phan-hoa--2abd5118",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-13T02:11:54.750350+00:00",
     "expires_at": "2026-11-13T14:11:54.750350+00:00",
     "source_urls": [
@@ -2863,7 +2864,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "376457f6243af524bcb1",
@@ -7999,7 +8001,7 @@
   },
   {
     "queue_id": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-12T17:09:36.622367+00:00",
     "expires_at": "2026-11-13T17:09:36.622367+00:00",
     "source_urls": [
@@ -8213,11 +8215,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "tong-bi-thu-chu-tich-nuoc-to-lam-du-tuan-le-cap-cao-apec-2026-tai-trung--5b0a7d11",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-12T17:09:36.622367+00:00",
     "expires_at": "2026-11-13T17:09:36.622367+00:00",
     "source_urls": [
@@ -8433,7 +8436,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "3a95a087ff0246d60ce0",
@@ -15796,7 +15800,7 @@
   },
   {
     "queue_id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-12T02:35:37.287406+00:00",
     "expires_at": "2026-11-13T02:35:37.287406+00:00",
     "source_urls": [
@@ -16031,7 +16035,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "da6f594f3f8082775fa7",
@@ -21276,7 +21281,7 @@
   },
   {
     "queue_id": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T16:41:16.980183+00:00",
     "expires_at": "2026-11-12T16:41:16.980183+00:00",
     "source_urls": [
@@ -21529,11 +21534,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "cuu-ky-si-tom-obrien-qua-oi-o-tuoi-39-088dca1a",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T16:41:16.980183+00:00",
     "expires_at": "2026-11-12T16:41:16.980183+00:00",
     "source_urls": [
@@ -21747,11 +21753,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "fifa-thay-oi-quy-tac-boc-tham-world-cup-nu-2027-876d0c39",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T16:41:16.980183+00:00",
     "expires_at": "2026-11-12T16:41:16.980183+00:00",
     "source_urls": [
@@ -21941,7 +21948,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "d8ecc3413a36da109d43",
@@ -28585,7 +28593,7 @@
   },
   {
     "queue_id": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T11:30:13.455173+00:00",
     "expires_at": "2026-11-11T23:30:13.455173+00:00",
     "source_urls": [
@@ -28783,11 +28791,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T11:30:13.455173+00:00",
     "expires_at": "2026-11-12T11:30:13.455173+00:00",
     "source_urls": [
@@ -28976,7 +28985,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "3d4a505b24fc52fc94e7",
@@ -33891,7 +33901,7 @@
   },
   {
     "queue_id": "nhieu-dong-ien-thoai-xiaomi-cu-dung-nhan-ho-tro-khi-hyperos-4-ra-mat-94327e5e",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T01:31:42.952612+00:00",
     "expires_at": "2026-11-12T01:31:42.952612+00:00",
     "source_urls": [
@@ -34155,11 +34165,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "kham-pha-co-cau-ky-thuat-cua-logo-phat-sang-tren-macbook-pro-trang-bi-ma-8ecd3d00",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-11T01:31:42.952612+00:00",
     "expires_at": "2026-11-12T01:31:42.952612+00:00",
     "source_urls": [
@@ -34371,7 +34382,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "18e6714402dfafa7aa7e",
@@ -37840,7 +37852,7 @@
   },
   {
     "queue_id": "google-chinh-thuc-phat-hanh-mo-hinh-ai-gemini-4-carbon-ra-cong-chung-133e1436",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-10T16:39:31.882680+00:00",
     "expires_at": "2026-11-11T04:39:31.882680+00:00",
     "source_urls": [
@@ -38057,11 +38069,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "gta-vi-se-xuat-hien-tren-xbox-cloud-gaming-va-mo-tai-truoc-212gb-d73941ec",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-10T16:39:31.882680+00:00",
     "expires_at": "2026-11-11T16:39:31.882680+00:00",
     "source_urls": [
@@ -38252,7 +38265,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "2e90881b8c623fb7c227",
@@ -55061,7 +55075,7 @@
   },
   {
     "queue_id": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-09T12:12:15.018895+00:00",
     "expires_at": "2026-11-10T12:12:15.018895+00:00",
     "source_urls": [
@@ -55254,7 +55268,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "046226d8fd1d9b6c5af7",
@@ -59036,7 +59051,7 @@
   },
   {
     "queue_id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-08T15:38:52.071984+00:00",
     "expires_at": "2026-11-09T15:38:52.071984+00:00",
     "source_urls": [
@@ -59222,11 +59237,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-08T10:48:49.943122+00:00",
     "expires_at": "2026-11-09T10:48:49.943122+00:00",
     "source_urls": [
@@ -59468,11 +59484,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-08T00:57:44.989138+00:00",
     "expires_at": "2026-11-09T00:57:44.989138+00:00",
     "source_urls": [
@@ -59730,11 +59747,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "charlie-savage-ghi-ban-vao-luoi-oi-bong-cua-cha-tai-fa-cup-5ea9b968",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-08T00:57:44.989138+00:00",
     "expires_at": "2026-11-09T00:57:44.989138+00:00",
     "source_urls": [
@@ -59921,11 +59939,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "co-hoi-nao-cho-oregon-ducks-nuoi-mong-du-vong-play-off-bong-bau-duc-ai-h-fc2148f9",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-08T00:57:44.989138+00:00",
     "expires_at": "2026-11-09T00:57:44.989138+00:00",
     "source_urls": [
@@ -60139,11 +60158,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-07T15:14:18.890945+00:00",
     "expires_at": "2026-11-08T15:14:18.890945+00:00",
     "source_urls": [
@@ -60334,11 +60354,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "phu-nu-u-35-giam-can-can-tranh-3-cam-bay-chuyen-hoa-pho-bien-e13411f0",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-07T05:28:10.194173+00:00",
     "expires_at": "2026-11-08T05:28:10.194173+00:00",
     "source_urls": [
@@ -60553,7 +60574,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "ngoai-truong-thai-lan-canh-bao-trat-tu-quoc-te-dua-tren-luat-le-ang-suy--fc7ca440",
@@ -74075,7 +74097,7 @@
   },
   {
     "queue_id": "khi-nao-nen-noi-su-that-va-luc-nao-nen-giu-im-lang-d2a5de47",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-14T02:28:53.419129+00:00",
     "expires_at": "2026-11-15T02:28:53.419129+00:00",
     "source_urls": [
@@ -74092,7 +74114,7 @@
       "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
       "published_at": "2026-11-10T10:00:00+00:00",
       "fetched_at": "2026-11-14T02:29:09.419299+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-14T02:41:17.115823+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -74295,28 +74317,38 @@
         "2022"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-14T02:29:09.421355+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-14T02:41:17.115823+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 362,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1644
-        },
-        "independent_domains": [
-          "bbc.com",
-          "engadget.com",
-          "npr.org"
-        ],
-        "primary_source_present": false
+          "body_chars": 1644,
+          "source_access": [
+            {
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "engadget.com",
+            "npr.org"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-14 09:41"
+    },
+    "published_at": "2026-11-14T02:41:17.115823+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "faa-go-lenh-tam-dung-bay-toan-quoc-sau-su-co-thong-tin-lien-lac-c4979dfd",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-14T02:28:53.419129+00:00",
     "expires_at": "2026-11-15T02:28:53.419129+00:00",
     "source_urls": [
@@ -74618,11 +74650,44 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ cnbc.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ cnbc.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-14T02:41:17.115823+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-14T02:41:17.115823+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ cnbc.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ cnbc.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 346,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1536,
+        "source_access": [
+          {
+            "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com",
+          "france24.com",
+          "npr.org",
+          "theguardian.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "tong-thong-trump-khong-co-ke-hoach-e-cap-van-e-nvidia-trong-chuyen-tham--671eaab3",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-14T02:28:53.419129+00:00",
     "expires_at": "2026-11-15T02:28:53.419129+00:00",
     "source_urls": [
@@ -74641,7 +74706,7 @@
       "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
       "published_at": "2026-11-14T01:34:11+00:00",
       "fetched_at": "2026-11-14T02:29:21.839896+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-14T02:41:17.115823+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -74855,25 +74920,35 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-14T02:29:21.841639+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-14T02:41:17.115823+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 299,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1402
-        },
-        "independent_domains": [
-          "bbc.com",
-          "cnbc.com",
-          "engadget.com",
-          "npr.org",
-          "techcrunch.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1402,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "engadget.com",
+            "npr.org",
+            "techcrunch.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-14 09:41"
+    },
+    "published_at": "2026-11-14T02:41:17.115823+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

@@ -415,5 +415,130 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-14 09:41",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-14T02:41:17.115823+00:00",
+    "prepared_candidates": 25,
+    "published_count": 2,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "faa-go-lenh-tam-dung-bay-toan-quoc-sau-su-co-thong-tin-lien-lac-c4979dfd",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ cnbc.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ cnbc.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "tong-thong-ukraine-hoan-nghenh-no-luc-cua-my-ua-chau-au-vao-am-phan-hoa--2abd5118",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "u23-viet-nam-chia-tay-nhom-cau-thu-tru-cot-truoc-tran-quyet-au-voi-qatar-facde100",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "tong-bi-thu-chu-tich-nuoc-to-lam-du-tuan-le-cap-cao-apec-2026-tai-trung--5b0a7d11",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "harry-kane-huong-toi-cot-moc-lich-su-cung-oi-tuyen-anh-va-tham-vong-danh-768bced9",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "nga-va-ukraine-at-thoa-thuan-trao-oi-tu-binh-quy-mo-lon-aea51747",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "cuu-ky-si-tom-obrien-qua-oi-o-tuoi-39-088dca1a",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "fifa-thay-oi-quy-tac-boc-tham-world-cup-nu-2027-876d0c39",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "iphone-5c-bat-ngo-uoc-san-on-sau-13-nam-ra-mat-nho-trao-luu-hoai-co-cbb25ab8",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "nhieu-dong-ien-thoai-xiaomi-cu-dung-nhan-ho-tro-khi-hyperos-4-ra-mat-94327e5e",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "kham-pha-co-cau-ky-thuat-cua-logo-phat-sang-tren-macbook-pro-trang-bi-ma-8ecd3d00",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "google-chinh-thuc-phat-hanh-mo-hinh-ai-gemini-4-carbon-ra-cong-chung-133e1436",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "gta-vi-se-xuat-hien-tren-xbox-cloud-gaming-va-mo-tai-truoc-212gb-d73941ec",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "vien-kiem-sat-anh-e-nghi-muc-an-tu-dai-han-cho-russell-brand-sau-cac-toi-0e7b3080",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "khoa-hoc-gia-mit-bien-te-bao-mien-dich-thanh-tho-san-ung-thu-ngay-trong--d771d25f",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "xu-wales-thang-nhoc-nhat-ban-tai-nations-championship-con-nhieu-viec-pha-b90f00d4",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "vu-xa-sung-kinh-hoang-tai-krakow-sau-nguoi-thiet-mang-va-boi-canh-ieu-tr-67b6ae96",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "charlie-savage-ghi-ban-vao-luoi-oi-bong-cua-cha-tai-fa-cup-5ea9b968",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "co-hoi-nao-cho-oregon-ducks-nuoi-mong-du-vong-play-off-bong-bau-duc-ai-h-fc2148f9",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "john-eustace-giai-toa-ap-luc-lon-tai-derby-county-sau-man-loi-nguoc-dong-8792aa93",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "phu-nu-u-35-giam-can-can-tranh-3-cam-bay-chuyen-hoa-pho-bien-e13411f0",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      }
+    ]
   }
 ]
