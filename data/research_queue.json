@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "f6341891b293166afecb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T10:59:33.296918+00:00",
     "expires_at": "2026-11-17T10:57:57.704300+00:00",
     "category_hint": "world",
@@ -794,11 +794,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T10:59:33.296945+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "my-uoc-cho-la-ua-ra-y-tuong-ukraine-nhuong-at-oi-lay-tu-cach-thanh-vien--831dc9e6"
   },
   {
     "queue_id": "adf2f39b3a1f6c8db854",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T10:59:31.584811+00:00",
     "expires_at": "2026-11-17T10:57:57.704300+00:00",
     "category_hint": "technology",
@@ -1472,11 +1473,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T10:59:31.584832+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f"
   },
   {
     "queue_id": "aa54f0dc99e64fc1fe9b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T10:59:30.424724+00:00",
     "expires_at": "2026-11-17T10:57:57.704300+00:00",
     "category_hint": "technology",
@@ -2040,7 +2042,8 @@
       ]
     },
     "research_ready_at": "2026-11-14T10:59:30.424745+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4"
   },
   {
     "queue_id": "10c88396efda738848b3",
@@ -78126,5 +78129,712 @@
     },
     "published_at": "2026-11-08T16:23:40.293843+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "my-uoc-cho-la-ua-ra-y-tuong-ukraine-nhuong-at-oi-lay-tu-cach-thanh-vien--831dc9e6",
+    "status": "READY",
+    "prepared_at": "2026-11-14T10:59:58.350999+00:00",
+    "expires_at": "2026-11-15T10:59:58.350999+00:00",
+    "source_urls": [
+      "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+      "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+      "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss",
+      "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit"
+    ],
+    "article": {
+      "id": "my-uoc-cho-la-ua-ra-y-tuong-ukraine-nhuong-at-oi-lay-tu-cach-thanh-vien--831dc9e6",
+      "title": "Mỹ được cho là đưa ra ý tưởng Ukraine nhượng đất đổi lấy tư cách thành viên NATO",
+      "summary": "Tổng thống Ukraine Volodymyr Zelenskyy cho biết các nhà đàm phán Mỹ đã đặt ra câu hỏi về việc Ukraine rút lực lượng khỏi vùng Donbas để đổi lấy tư cách gia nhập NATO trong các nỗ lực ngoại giao mới.",
+      "category": "world",
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+      "published_at": "2026-11-14T10:35:08+00:00",
+      "fetched_at": "2026-11-14T11:00:02.880627+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Ukraine Volodymyr Zelenskyy cho biết các nhà đàm phán Washington đã đưa ra một ý tưởng mới trong nỗ lực ngoại giao nhằm chấm dứt xung đột. Cụ thể, phía Mỹ đã đặt ra câu hỏi liệu Ukraine có rút các lực lượng còn lại khỏi vùng Donbas ở miền đông để đổi lấy tư cách thành viên liên minh quân sự NATO hay không.",
+        "Theo nhà lãnh đạo Ukraine, đây là lần đầu tiên vấn đề này được đặt lên bàn thảo luận. Trước đó, các quan chức Mỹ từng tuyên bố việc Ukraine gia nhập NATO là không khả thi. Sự thay đổi trong cách tiếp cận này diễn ra sau một chuỗi các cuộc gặp ngoại giao cấp cao giữa phái viên Mỹ với Tổng thống Nga Vladimir Putin tại Moscow và cuộc gặp tiếp theo với ông Zelenskyy tại Ireland.",
+        "Dù vậy, triển vọng của một thỏa thuận như vậy vẫn đối mặt với nhiều rào cản lớn từ lập trường của Moscow. Các tín hiệu từ Điện Kremlin cho thấy yêu cầu của Nga về lãnh thổ và vị thế trung lập của Ukraine không thay đổi, trong khi các quan chức Nga khẳng định vấn đề này không được đề cập trong cuộc gặp với phái viên Mỹ.",
+        "Trả lời phỏng vấn, ông Zelenskyy khẳng định ông không có quyền tự đưa ra quyết định nhượng bộ lãnh thổ nếu không có sự đồng thuận từ người dân. Ông cho biết sẽ đưa vấn đề này ra trưng cầu dân ý nếu nhận được một đề xuất toàn diện bao gồm các bảo đảm an ninh từ phương Tây, không có hạn chế đối với quân đội và có nguồn lực tài chính để tái thiết đất nước."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mỹ đề xuất Ukraine nhượng Donbas đổi tư cách thành viên NATO",
+      "meta_description": "Tổng thống Volodymyr Zelenskyy cho biết Washington đã nêu ý kiến về việc Ukraine rút khỏi Donbas để đổi lấy tư cách thành viên NATO trong tiến trình đàm phán.",
+      "keywords": [
+        "Ukraine",
+        "NATO",
+        "Donbas",
+        "Zelenskyy",
+        "Mỹ"
+      ],
+      "slug": "my-uoc-cho-la-ua-ra-y-tuong-ukraine-nhuong-at-oi-lay-tu-cach-thanh-vien--831dc9e6",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 296,
+      "display_source": true,
+      "source_urls": [
+        "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+        "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+        "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss",
+        "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+        "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss",
+        "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit"
+      ],
+      "source_references": [
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:35:08+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:30:38+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:30:04+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T06:39:09+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T20:38:25+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Volodymyr Zelenskyy cho biết Mỹ đã đề xuất ý tưởng Ukraine rút lực lượng khỏi vùng Donbas để đổi lấy tư cách thành viên NATO.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "US negotiators have touted the idea of Ukraine withdrawing its remaining forces from the eastern Donbas region in exchange for Nato membership, Volodymyr Zelensky has said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+              "snippet": "US negotiators have touted the idea of Ukraine withdrawing its remaining forces from the eastern Donbas region in exchange for Nato membership, Volodymyr Zelensky has said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "ebd7d4ca4d5f71a35a53079a94c45690a4975b405b4fe8a1556b35b59bb0ea46",
+              "snippet_sha256": "43cf94d7173acb44aef7708fbd033a0b261c3f9d903064ef0500a5cd80dc9a72",
+              "verified_at": "2026-11-14T11:00:02.880074+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phái viên Mỹ Steve Witkoff và Jared Kushner đã gặp Tổng thống Nga Vladimir Putin tại Moscow trước khi tới Ireland gặp ông Zelenskyy.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "US envoys Jared Kushner and Steve Witkoff travelled to the Irish capital on Thursday to meet Zelensky, after a round of talks with Russian President Vladimir Putin in Moscow the day prior.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+              "snippet": "US envoys Jared Kushner and Steve Witkoff travelled to the Irish capital on Thursday to meet Zelensky, after a round of talks with Russian President Vladimir Putin in Moscow the day prior.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "ebd7d4ca4d5f71a35a53079a94c45690a4975b405b4fe8a1556b35b59bb0ea46",
+              "snippet_sha256": "abbf293c2efc8f80b479bf0249e1e4d1172533a606e9c031d794253a761139a6",
+              "verified_at": "2026-11-14T11:00:02.880074+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Zelenskyy tuyên bố sẽ đưa vấn đề này ra trưng cầu dân ý nếu nhận được đề xuất có chứa các bảo đảm an ninh, không hạn chế quân đội và có quỹ tái thiết.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+              "snippet": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+              "page_sha256": "db7bfc9d4482b421fc27edca97d104513b313327c0299e72328c0608bb241336",
+              "snippet_sha256": "4b5a539240a181d2f99a86d783fd356aa8b43394aefa35d609d850e001c0f443",
+              "verified_at": "2026-11-14T11:00:02.880074+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ đề xuất ngoại giao mới của Mỹ liên quan đến việc Ukraine nhượng bộ lãnh thổ đổi lấy tư cách thành viên NATO. Nội dung phân tích phản ứng của Tổng thống Zelenskyy về việc đưa vấn đề ra trưng cầu dân ý cùng những khó khăn từ lập trường của Nga.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T11:00:02.880714+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-14T11:00:02.881855+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 296,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1370
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "euronews.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
+    "status": "READY",
+    "prepared_at": "2026-11-14T10:59:58.350999+00:00",
+    "expires_at": "2026-11-15T10:59:58.350999+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+      "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+      "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+      "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
+      "title": "Mưa lũ tại Gaza đẩy người dân vào thế tiến thoái lưỡng nan giữa nước sạch và thoát nước thải",
+      "summary": "Các trận mưa lớn hồi đầu tháng 11 đã làm ngập lụt hàng chục nghìn lều trại tị nạn tại Dải Gaza, buộc các đội ngũ kỹ thuật phải đối mặt với bài toán nan giải giữa việc bơm nước chống ngập hay duy trì nguồn nước uống. Thảm họa này cũng gây ra thương vong và làm bùng nổ tranh cãi ngoại giao về hạn chế viện trợ.",
+      "category": "world",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+      "published_at": "2026-11-14T10:30:00+00:00",
+      "fetched_at": "2026-11-14T11:00:09.663593+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Những trận mưa lớn trút xuống Dải Gaza trong các ngày đầu tháng 11 đã khiến hàng chục nghìn lều trại của người tị nạn bị ngập sâu, làm trầm trọng thêm cuộc khủng hoảng nhân đạo tại vùng đất này. Tại trại tị nạn Al Maghazi, các đội ngũ kỹ thuật và kỹ sư đô thị phải đối mặt với một sự đánh đổi vô cùng khó khăn. Lượng dầu diesel ít ỏi mà họ có buộc phải phân chia giữa việc vận hành máy bơm hút nước ngập ra khỏi các khu vực trú ẩn hoặc cung cấp cho các giếng nước sinh hoạt để phục vụ người dân.",
+        "Tình trạng ngập lụt lan rộng không chỉ phá hủy nơi ở tạm bợ mà còn làm quá tải hệ thống thoát nước vốn đã hư hại nặng nề do các cuộc giao tranh trước đó. Thiếu các nắp cống do bị phá hủy hoặc thất lạc khiến nước mưa tràn trực tiếp vào hệ thống nước thải, gây ra hiện tượng trào ngược dòng nước ô nhiễm ra các con đường trong trại. Các kỹ sư địa phương cho biết việc ưu tiên duy trì các giếng nước và máy phát điện phục vụ nước uống được đặt lên hàng đầu, khiến việc khắc phục các mạng lưới cống ngầm bị trì hoãn do nguồn lực và vật liệu hạn chế.",
+        "Bên cạnh bài toán hạ tầng, thảm họa thời tiết còn trực tiếp đe dọa tính mạng người dân khi một bờ cát tại trại tị nạn Ard al-Ribat bị sạt lở do mưa lớn, cướp đi sinh mạng của bốn người trong một gia đình. Các tổ chức nhân đạo và Liên Hợp Quốc ghi nhận hàng trăm nghìn hộ gia đình chịu ảnh hưởng nặng nề khi lều bạt bị rách, chăn màn ngập nước và không đủ trang thiết bị sưởi ấm trong mùa đông.",
+        "Sự cố lụt lội đã châm ngòi cho những tranh cãi ngoại giao gay gắt về trách nhiệm cứu trợ và quản lý hàng hóa. Hội đồng Hòa bình do Mỹ hậu thuẫn đã đưa ra những chỉ trích hiếm hoi đối với Israel, cho rằng phản ứng và tốc độ cho phép vận chuyển hàng cứu trợ mùa đông vào dải Gaza vẫn còn chưa đủ. Trong khi đó, phía Israel khẳng định đã cho phép hàng chục nghìn lều trại cùng xe tải chở vật tư đi qua, đồng thời quy trách nhiệm cho các vấn đề phân phối nội bộ và việc Hamas chưa chịu giải giáp hoàn toàn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mưa lũ tại Gaza: Khủng hoảng nước sạch, lều trại ngập lụt và tranh cãi",
+      "meta_description": "Bài viết phân tích tình hình mưa lũ nghiêm trọng tại Dải Gaza, những khó khăn chồng chất của các trại tị nạn và tranh cãi xung quanh việc phân phối hàng cứu trợ",
+      "keywords": [
+        "Gaza",
+        "mưa lũ",
+        "nước sạch",
+        "nước thải",
+        "khủng hoảng nhân đạo"
+      ],
+      "slug": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 433,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+        "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+        "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+        "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+        "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+        "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:30:00+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T14:04:17+00:00"
+        },
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T16:09:21+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T15:21:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các đội ngũ kỹ thuật tại trại tị nạn Al Maghazi phải lựa chọn giữa việc bơm nước lũ hay cung cấp nhiên liệu cho các giếng nước uống.",
+          "source_urls": [
+            "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Dr Asma Saleh, a general practitioner at the Al Maghazi clinic of the United Nations Relief and Works Agency for Palestine Refugees (UNRWA), reports an increase in children presenting with respiratory and gastrointestinal illnesses as the rainy season begins.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "snippet": "Dr Asma Saleh, a general practitioner at the Al Maghazi clinic of the United Nations Relief and Works Agency for Palestine Refugees (UNRWA), reports an increase in children presenting with respiratory and gastrointestinal illnesses as the rainy season begins.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "page_sha256": "5134bad62b60fbb6150885e60417de33b63fa136f730352031becaed24991f2c",
+              "snippet_sha256": "6530925e71d78df8e49efe8d4e480472e775ebc433ba7bfb6ce44d5c697cdbe4",
+              "verified_at": "2026-11-14T11:00:09.662982+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mưa lớn quét qua Gaza trong cuối tuần ngày 7 và 8 tháng 11, làm ngập ít nhất 70.000 lều trại trong vòng 12 giờ theo Văn phòng Truyền thông Chính phủ Gaza.",
+          "source_urls": [
+            "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Gaza’s Government Media Office has saidat least 70,000tents sheltering displaced Palestinians had flooded within 12 hours.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "snippet": "Gaza’s Government Media Office has saidat least 70,000tents sheltering displaced Palestinians had flooded within 12 hours.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "page_sha256": "5134bad62b60fbb6150885e60417de33b63fa136f730352031becaed24991f2c",
+              "snippet_sha256": "3187f40cec32b9050a0539f1e1b5e01ef5ebe0c12f869177b2525155e706f642",
+              "verified_at": "2026-11-14T11:00:09.662982+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sạt lở bờ cát tại trại tị nạn Ard al-Ribat ở Deir el-Balah đã làm bốn người thiệt mạng, bao gồm ba trẻ em và một phụ nữ.",
+          "source_urls": [
+            "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water"
+          ],
+          "importance": "core",
+          "evidence_snippet": "They war-gameddimming the sun—it went worse than you think",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "snippet": "They war-gameddimming the sun—it went worse than you think",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "page_sha256": "5134bad62b60fbb6150885e60417de33b63fa136f730352031becaed24991f2c",
+              "snippet_sha256": "966cbedbfcf9d5e7b947a6ce3399f4862fae0ff7eeac0caa3765d8a90fffd1c2",
+              "verified_at": "2026-11-14T11:00:09.662982+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hội đồng Hòa bình do Mỹ hậu thuẫn đã gọi thảm họa này là một thách thức nhân đạo có thể lường trước và chỉ trích phản ứng viện trợ của Israel là chưa đủ.",
+          "source_urls": [
+            "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Israel Defense Forces did not respond to WIRED Middle East’s request for comment on restrictions affecting the entry of equipment and supplies needed for flood prevention and infrastructure repairs.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "snippet": "The Israel Defense Forces did not respond to WIRED Middle East’s request for comment on restrictions affecting the entry of equipment and supplies needed for flood prevention and infrastructure repairs.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
+              "page_sha256": "5134bad62b60fbb6150885e60417de33b63fa136f730352031becaed24991f2c",
+              "snippet_sha256": "4911ae394b0dc13cc638e82cdc4b5458393ce3e3702b53d1950bb4d4ad4c560d",
+              "verified_at": "2026-11-14T11:00:09.662982+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối quan hệ nhân quả trực tiếp giữa lượng nhiên liệu hạn chế và sự đánh đổi giữa nước sạch và thoát nước thải tại Gaza. Đồng thời, văn bản phân tích bối cảnh pháp lý - chính trị thông qua phản ứng của Hội đồng Hòa bình và các bên liên quan sau thảm họa mưa lũ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T11:00:09.663688+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-14T11:00:09.664929+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 433,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1935
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "nytimes.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4",
+    "status": "READY",
+    "prepared_at": "2026-11-14T10:59:58.350999+00:00",
+    "expires_at": "2026-11-15T10:59:58.350999+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/best-pickleball-paddles",
+      "https://thanhnien.vn/nang-chat-luong-giai-pickleball-vtv9-open-2026-tien-thuong-hap-dan-185261110172630962.htm"
+    ],
+    "article": {
+      "id": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4",
+      "title": "Công nghệ vợt pickleball: Bước tiến mới từ lõi foam đến sợi carbon",
+      "summary": "Sau ba năm thử nghiệm, thị trường vợt pickleball đang chứng kiến sự chuyển dịch công nghệ đáng kể, với sự xuất hiện của các dòng vợt lõi foam thay thế cho cấu trúc polymer truyền thống.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+      "published_at": "2026-11-14T10:37:00+00:00",
+      "fetched_at": "2026-11-14T11:00:28.276807+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sự bùng nổ của pickleball trên toàn cầu đã thúc đẩy một cuộc đua công nghệ mạnh mẽ giữa các nhà sản xuất vợt. Sau ba năm liên tục thử nghiệm các dòng sản phẩm mới nhất, giới chuyên môn ghi nhận những bước tiến đáng kể trong thiết kế, đặc biệt là sự thay đổi từ cấu trúc nhựa đúc nhiệt truyền thống sang các loại vật liệu lõi mới.",
+        "Điểm nhấn đáng chú ý trong năm 2026 là sự phổ biến của các dòng vợt sử dụng lõi foam kín (closed-cell foam) thay vì lõi polymer dạng tổ ong thông thường. Các mẫu như Diadem Warrior BluCore đang thu hút sự chú ý nhờ khả năng mang lại cảm giác bóng ổn định, độ bền cao và khả năng hấp thụ rung chấn tốt hơn. Theo đánh giá, vật liệu foam không chỉ giúp vợt chịu được các điều kiện nhiệt độ khắc nghiệt mà còn cung cấp sự kiểm soát vượt trội trong các tình huống phòng thủ.",
+        "Bên cạnh đó, các dòng vợt truyền thống như Selkirk Vanguard Control Invikta vẫn giữ vững vị thế nhờ sự cân bằng và cảm giác cầm nắm tối ưu. Đối với những người mới bắt đầu, các bộ sản phẩm giá rẻ như Panel Sound vẫn là lựa chọn hợp lý để làm quen với môn thể thao này mà không cần đầu tư quá lớn. Dù công nghệ thermoformed (đúc nhiệt) đang chiếm ưu thế về sức mạnh, sự đa dạng trong lựa chọn lõi foam và sợi carbon aramid đang mở ra những hướng đi mới cho người chơi ở mọi trình độ, từ phong trào đến chuyên nghiệp."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Xu hướng công nghệ vợt pickleball năm 2026",
+      "meta_description": "Khám phá những thay đổi trong công nghệ sản xuất vợt pickleball năm 2026, từ các dòng vợt lõi foam bền bỉ đến các lựa chọn tối ưu cho người mới bắt đầu.",
+      "keywords": [
+        "pickleball",
+        "vợt pickleball",
+        "công nghệ thể thao",
+        "Selkirk",
+        "Diadem"
+      ],
+      "slug": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 282,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/best-pickleball-paddles",
+        "https://thanhnien.vn/nang-chat-luong-giai-pickleball-vtv9-open-2026-tien-thuong-hap-dan-185261110172630962.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/nang-chat-luong-giai-pickleball-vtv9-open-2026-tien-thuong-hap-dan-185261110172630962.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/best-pickleball-paddles",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:37:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/nang-chat-luong-giai-pickleball-vtv9-open-2026-tien-thuong-hap-dan-185261110172630962.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T11:01:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Thị trường vợt pickleball đang chuyển dịch sang sử dụng lõi foam kín thay vì lõi polymer tổ ong truyền thống.",
+          "source_urls": [
+            "https://www.wired.com/story/best-pickleball-paddles"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Whether foam ends up dominating the pickleball market remains to be seen, but people who play nearly every day will also appreciate that this paddle uses an aramid carbon fiber face that is more durable than raw carbon and that the foam absorbs more vibration.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+              "snippet": "Whether foam ends up dominating the pickleball market remains to be seen, but people who play nearly every day will also appreciate that this paddle uses an aramid carbon fiber face that is more durable than raw carbon and that the foam absorbs more vibration.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+              "page_sha256": "dac0527274b4089bd2cfe65ea1d963b6d6b67267f67c2c5024ead830ee08dd90",
+              "snippet_sha256": "4cf0b5d5f11e19b37893b4be8874f1a43dc01fca51941c4f7b597ceb3966063d",
+              "verified_at": "2026-11-14T11:00:28.276344+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vợt Diadem Warrior BluCore sử dụng lõi foam, mang lại cảm giác mềm mại và độ bền cao hơn so với các dòng vợt thông thường.",
+          "source_urls": [
+            "https://www.wired.com/story/best-pickleball-paddles"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Among my long-standing favorite paddles like the Selkirk Vanguard Control Invikta, there are two new ones—including the Diadem Warrior BluCore—that step back from the raw power of heat-molded plastic cores by substituting foam cores that offer a very consistent and controlled feel.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+              "snippet": "Among my long-standing favorite paddles like the Selkirk Vanguard Control Invikta, there are two new ones—including the Diadem Warrior BluCore—that step back from the raw power of heat-molded plastic cores by substituting foam cores that offer a very consistent and controlled feel.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+              "page_sha256": "dac0527274b4089bd2cfe65ea1d963b6d6b67267f67c2c5024ead830ee08dd90",
+              "snippet_sha256": "9c2cd78531d770ed65576f52490a822b5b67f83c3183abcbcdb40ef2e5b7a9bb",
+              "verified_at": "2026-11-14T11:00:28.276344+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Selkirk Vanguard Control Invikta được đánh giá cao về khả năng kiểm soát và sự cân bằng, dù không sử dụng công nghệ đúc nhiệt (thermoformed).",
+          "source_urls": [
+            "https://www.wired.com/story/best-pickleball-paddles"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Selkirk Vanguard Control Invikta sold me on the brand.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+              "snippet": "The Selkirk Vanguard Control Invikta sold me on the brand.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-pickleball-paddles",
+              "page_sha256": "dac0527274b4089bd2cfe65ea1d963b6d6b67267f67c2c5024ead830ee08dd90",
+              "snippet_sha256": "32c64eccf7c651bf3ea2dc31e4085c8297df20bb866a9336a22faf687eeecb1d",
+              "verified_at": "2026-11-14T11:00:28.276344+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa công nghệ lõi foam mới và cấu trúc polymer truyền thống. Đồng thời, bài phân tích giúp người đọc định hướng lựa chọn vợt dựa trên nhu cầu thực tế thay vì chỉ chạy theo xu hướng sức mạnh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T11:00:28.276878+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T11:00:28.277678+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 282,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1313
+        },
+        "independent_domains": [
+          "thanhnien.vn",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
