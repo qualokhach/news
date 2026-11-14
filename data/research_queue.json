@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "89fd92ceefab0217d0f7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T02:28:35.352431+00:00",
     "expires_at": "2026-11-17T02:26:37.351813+00:00",
     "category_hint": "world",
@@ -650,11 +650,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T02:28:35.352453+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "khi-nao-nen-noi-su-that-va-luc-nao-nen-giu-im-lang-d2a5de47"
   },
   {
     "queue_id": "cb10287d8841153beb69",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T02:28:26.972291+00:00",
     "expires_at": "2026-11-17T02:26:37.351813+00:00",
     "category_hint": "technology",
@@ -1513,11 +1514,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T02:28:26.972314+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "faa-go-lenh-tam-dung-bay-toan-quoc-sau-su-co-thong-tin-lien-lac-c4979dfd"
   },
   {
     "queue_id": "7cb06f7e79d0c089b81b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T02:28:24.828240+00:00",
     "expires_at": "2026-11-17T02:26:37.351813+00:00",
     "category_hint": "world",
@@ -2428,7 +2430,8 @@
       ]
     },
     "research_ready_at": "2026-11-14T02:28:24.828259+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-thong-trump-khong-co-ke-hoach-e-cap-van-e-nvidia-trong-chuyen-tham--671eaab3"
   },
   {
     "queue_id": "he-thong-xo-so-nba-moi-gay-bat-loi-cho-memphis-grizzlies-trong-nam-2027-d5cc0cea",
@@ -74069,5 +74072,808 @@
     "research_ready_at": "2026-11-08T15:38:35.168873+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "oi-tuyen-viet-nam-hoi-quan-voi-luc-luong-moi-hlv-kim-sang-sik-truc-tiep--ae4007b3"
+  },
+  {
+    "queue_id": "khi-nao-nen-noi-su-that-va-luc-nao-nen-giu-im-lang-d2a5de47",
+    "status": "READY",
+    "prepared_at": "2026-11-14T02:28:53.419129+00:00",
+    "expires_at": "2026-11-15T02:28:53.419129+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+      "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
+      "https://www.engadget.com/2309637/how-long-pc-ram-lasts-lifespan"
+    ],
+    "article": {
+      "id": "khi-nao-nen-noi-su-that-va-luc-nao-nen-giu-im-lang-d2a5de47",
+      "title": "Khi nào nên nói sự thật và lúc nào nên giữ im lặng?",
+      "summary": "Chuyên gia tâm lý xã hội Vanessa Bohns chia sẻ những nghiên cứu và câu hỏi cần cân nhắc trước khi đưa ra ý kiến thẳng thắn hoặc giữ lại cho riêng mình.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+      "published_at": "2026-11-10T10:00:00+00:00",
+      "fetched_at": "2026-11-14T02:29:09.419299+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Việc quyết định nên nói gì hay giữ im lặng đôi khi là phần khó khăn nhất trong giao tiếp hàng ngày. Theo nhà tâm lý học xã hội Vanessa Bohns, sự thật không phải lúc nào cũng là lựa chọn tối ưu nếu thông tin đưa ra thiếu giá trị thực tế.",
+        "Trong cuốn sách xuất bản tháng 10 mang tên 'Should I Say Something? The Science of What to Share—and What to Keep to Yourself', Bohns lý giải rằng con người thường e ngại việc làm tổn thương hoặc gây bối rối cho người khác. Hiện tượng giảm thiểu thông tin khó chịu này được gọi là hiệu ứng MUM. Tuy nhiên, việc cân nhắc kỹ lưỡng giúp mỗi người đưa ra lựa chọn phù hợp thay vì tự động che giấu sự thật.",
+        "Bohns đề xuất ba câu hỏi quan trọng trước khi chia sẻ quan điểm cá nhân. Đầu tiên, người nói cần tự hỏi liệu thông tin phản hồi có mang tính hành động hay không. Sự thật chỉ thực sự hữu ích khi giúp người nghe tiến bộ hơn, tránh vấp ngã hoặc học hỏi thêm điều mới mẻ. Những lời chê bai không có tính xây dựng hoặc ngoài lề tốt hơn hết nên được giữ lại.",
+        "Thứ hai, việc cất lời không chỉ truyền tải nội dung mà còn mang ý nghĩa thể hiện sự quan tâm đến đối phương. Một khảo sát năm 2022 cho thấy phần lớn mọi người thường đánh giá thấp nhu cầu nhận phản hồi từ người xung quanh. Trong thí nghiệm thực tế khi các nhà nghiên cứu cố tình bôi vết bẩn lên mặt, tỷ lệ người qua đường nhắc nhở rất thấp dù đó là vấn đề rõ ràng.",
+        "Cuối cùng, mỗi cá nhân nên nhìn nhận lại động cơ thực sự của bản thân trước khi mở lời. Việc lựa chọn im lặng đôi khi xuất phát từ mong muốn né sự khó chịu cá nhân hơn là vì lòng tốt đối với người khác. Hiểu rõ các yếu tố này giúp cải thiện chất lượng giao tiếp trong mọi mối quan hệ xã hội."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Khi nào nên nói sự thật và lúc nào nên giữ im lặng",
+      "meta_description": "Bài viết phân tích các câu hỏi cần đặt ra trước khi chia sẻ ý kiến thẳng thắn theo góc nhìn của chuyên gia tâm lý xã hội Vanessa Bohns.",
+      "keywords": [
+        "sự thật",
+        "giao tiếp",
+        "tâm lý học",
+        "Vanessa Bohns",
+        "phản hồi"
+      ],
+      "slug": "khi-nao-nen-noi-su-that-va-luc-nao-nen-giu-im-lang-d2a5de47",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 362,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+        "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
+        "https://www.engadget.com/2309637/how-long-pc-ram-lasts-lifespan"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
+        "https://www.engadget.com/2309637/how-long-pc-ram-lasts-lifespan"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T10:00:00+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T08:00:49+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2309637/how-long-pc-ram-lasts-lifespan",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-08T22:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nhà tâm lý học xã hội Vanessa Bohns chia sẻ lời khuyên về việc khi nào nên nói sự thật hoặc giữ im lặng.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sometimes the hardest part about talking to other people isn'tfindingthe right words to say — butdecidingif you should say anything at all, says social psychologist Vanessa Bohns.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "snippet": "Sometimes the hardest part about talking to other people isn'tfindingthe right words to say — butdecidingif you should say anything at all, says social psychologist Vanessa Bohns.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "page_sha256": "a9b74d099c175fe22f82a68cd8674dfc9668cad512880b0d68b5661934e6bf11",
+              "snippet_sha256": "7eea2c1bff029b7f3f9365c5a639e9dd12887ca82b970058a91560489d7f18db",
+              "verified_at": "2026-11-14T02:29:09.418297+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bohns là tác giả cuốn sách xuất bản tháng 10 mang tựa đề Should I Say Something? The Science of What to Share—and What to Keep to Yourself.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Science of What to Share—and What to Keep to Yourself, published in October.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "snippet": "The Science of What to Share—and What to Keep to Yourself, published in October.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "page_sha256": "a9b74d099c175fe22f82a68cd8674dfc9668cad512880b0d68b5661934e6bf11",
+              "snippet_sha256": "088a144d2f7dd2280a46d4869b1761aa355318902bcdff7d9d0afd7110687a70",
+              "verified_at": "2026-11-14T02:29:09.418297+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hiện tượng minimizing unpleasant messages được gọi là hiệu ứng MUM.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In fact, there's a name for the phenomenon —the MUM effect, or minimizing unpleasant messages.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "snippet": "In fact, there's a name for the phenomenon —the MUM effect, or minimizing unpleasant messages.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "page_sha256": "a9b74d099c175fe22f82a68cd8674dfc9668cad512880b0d68b5661934e6bf11",
+              "snippet_sha256": "9f39d85c43e43a1858b692d953d2ff976cf0eab24d73c147b8862e934619d82b",
+              "verified_at": "2026-11-14T02:29:09.418297+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Một khảo sát năm 2022 cho thấy mọi người thường đánh giá thấp mong muốn nhận phản hồi của người khác.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A 2022 survey, for example, found thatpeople consistently underestimate others' desire for feedback.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "snippet": "A 2022 survey, for example, found thatpeople consistently underestimate others' desire for feedback.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/10/nx-s1-6034519/is-honesty-always-the-best-policy-when-to-speak-up-or-stay-silent",
+              "page_sha256": "a9b74d099c175fe22f82a68cd8674dfc9668cad512880b0d68b5661934e6bf11",
+              "snippet_sha256": "de0416c6f0531345ad838919d0ad941a8398e7b724dde6df74341854730f3963",
+              "verified_at": "2026-11-14T02:29:09.418297+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích cơ chế tâm lý đằng sau quyết định nói sự thật hay giữ im lặng dựa trên nghiên cứu khoa học xã hội. Nội dung làm rõ giới hạn của thông tin phản hồi và những lầm tưởng phổ biến về nhu cầu lắng nghe của người đối diện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T02:29:09.419420+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2022"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T02:29:09.421355+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 362,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1644
+        },
+        "independent_domains": [
+          "bbc.com",
+          "engadget.com",
+          "npr.org"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "faa-go-lenh-tam-dung-bay-toan-quoc-sau-su-co-thong-tin-lien-lac-c4979dfd",
+    "status": "READY",
+    "prepared_at": "2026-11-14T02:28:53.419129+00:00",
+    "expires_at": "2026-11-15T02:28:53.419129+00:00",
+    "source_urls": [
+      "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
+      "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+      "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+      "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
+    ],
+    "article": {
+      "id": "faa-go-lenh-tam-dung-bay-toan-quoc-sau-su-co-thong-tin-lien-lac-c4979dfd",
+      "title": "FAA go lenh tam dung bay toan quoc sau su co thong tin lien lac",
+      "summary": "Cục Hàng không Liên bang Mỹ (FAA) da phai ban hanh lenh tam dung cat canh toan quoc trong hon 4 gio do su co he thong thong tin lien lac, gay anh huong nghiem trong den giao thong hang khong truoc khi duoc go bo vao toi thu Sau.",
+      "category": "world",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "published_at": "2026-11-14T02:25:24+00:00",
+      "fetched_at": "2026-11-14T02:29:16.397888+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cục Hàng không Liên bang Mỹ (FAA) đã chính thức dỡ bỏ lệnh tạm dừng cất cánh trên toàn quốc vào lúc 8 giờ 15 tối thứ Sáu theo giờ miền Đông, sau hơn 4 giờ khiến hoạt động hàng không tại các sân bay trên khắp nước Mỹ bị ngưng trệ nghiêm trọng.",
+        "Lệnh tạm dừng khẩn cấp này được ban đầu ban hành vào chiều cùng ngày do những trục trặc về thông tin liên lac ảnh hưởng trực tiếp đến nhiều trung tâm kiểm soát không lưu. Đây là lần thứ hai kể từ sau các cuộc tấn công ngày 11 tháng 9 năm 2001, cơ quan hàng không này phải đưa ra quyết định dừng bay toàn quốc trên diện rộng.",
+        "Trong cuộc họp báo sau khi lệnh cấm được dỡ bỏ, Bộ trưởng Giao thông vận tải Sean Duffy đã quy trách nhiệm cho cơ quan hạ tầng kiểm soát không lưu đã quá cũ kỹ. Ông cho biết các thiết bị viễn thông dạng tương tự đã gặp tình trạng dữ liệu từ radar và liên lạc từ máy bay bị không đồng bộ do bộ định tuyến bị quá tải dữ liệu.",
+        "Về phía an ninh quốc gia, Bộ trưởng An ninh Nội địa Markwayne Mullin khẳng định tại Nhà Trắng rằng cơ quan chức năng chưa ghi nhận bất kỳ dấu hiệu nào cho thấy sự cố bắt nguồn từ một cuộc tấn công mạng hay mối đe dọa an ninh nào khác, đồng thời loại trừ yếu tố khủng bố.",
+        "Mặc dù lệnh cấm bay đã được gỡ bỏ và các chuyến bay quốc tế đã bắt đầu được xử lý theo từng trường hợp cụ thể, tình trạng hỗn loạn tại các sân bay vẫn tiếp tục kéo dài. Số liệu từ các trang theo dõi chuyến bay ghi nhận hàng nghìn chuyến bay bị hoãn hoặc hủy bỏ, với tác động dự kiến còn kéo dài sang những ngày cuối tuần do máy bay và phi hành đoàn bị dồn ứ tại nhiều điểm đến."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "FAA go lenh tam dung bay toan quoc sau su co vi pham thong tin",
+      "meta_description": "Cục Hàng không Liên bang Mỹ (FAA) da go bo lenh tam dung bay toan quoc keo dai hon 4 gio do loi thong tin lien lac anh huong den nhieu trung tam kiem soat khong",
+      "keywords": [
+        "FAA",
+        "tam dung bay",
+        "hang khong My",
+        "Sean Duffy",
+        "Markwayne Mullin"
+      ],
+      "slug": "faa-go-lenh-tam-dung-bay-toan-quoc-sau-su-co-thong-tin-lien-lac-c4979dfd",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 346,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/news/1033489/faa-ground-stop",
+        "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+        "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
+        "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+        "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+        "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+        "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
+        "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+        "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+        "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T02:25:24+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T01:54:38+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T23:17:38+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T22:36:46+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T21:29:31+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T02:08:50+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cục Hàng không Liên bang Mỹ FAA da ra lenh tam dung cat canh toan quoc vao chieu thu Sau do su co thong tin lien lac.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "While the FAA lifted the ground stop, travel chaos continued at airports, which were forced to find places for parked planes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "snippet": "While the FAA lifted the ground stop, travel chaos continued at airports, which were forced to find places for parked planes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "page_sha256": "11cffd4258efe6a9a18b1cae8f187f952d0f596f2ac4f015e9265f9caaf60235",
+              "snippet_sha256": "4250e5acee05f8ed5b3b860d2a977eebef096ca6156ec4f7154fcc9e388a3b1f",
+              "verified_at": "2026-11-14T02:29:16.397085+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lenh tam dung duoc go bo vao luc 8 gio 15 toi gio mien Dong sau hon 4 gio anh huong.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The FAA canceled the ground stop at 8:15 p.m.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "snippet": "The FAA canceled the ground stop at 8:15 p.m.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "page_sha256": "11cffd4258efe6a9a18b1cae8f187f952d0f596f2ac4f015e9265f9caaf60235",
+              "snippet_sha256": "42a9a8f5068617d837497f2150889c319673dd9987c2f9906a1691714db074a4",
+              "verified_at": "2026-11-14T02:29:16.397085+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bo truong Giao thong Van tai Sean Duffy da do loi cho ha tang kiem soat khong luu cu ky va thiet bi vien thong tuong tu qua tai du lieu.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Transportation Secretary Sean Duffy blamed aging air traffic control infrastructure for the problem.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "snippet": "Transportation Secretary Sean Duffy blamed aging air traffic control infrastructure for the problem.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "page_sha256": "11cffd4258efe6a9a18b1cae8f187f952d0f596f2ac4f015e9265f9caaf60235",
+              "snippet_sha256": "11bd02e58530db16b3426e6271f0929348abf1a891b7023dfabd3d721203f717",
+              "verified_at": "2026-11-14T02:29:16.397085+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bo truong An ninh Noi dia Markwayne Mullin cho biet khong co dau hieu cho thay day la mot cu the tan cong mang hay de doa an ninh.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Homeland Security Secretary Markwayne Mullin said Friday at the White House that there was no indication that the issues were a threat to the United States.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "snippet": "Homeland Security Secretary Markwayne Mullin said Friday at the White House that there was no indication that the issues were a threat to the United States.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+              "page_sha256": "11cffd4258efe6a9a18b1cae8f187f952d0f596f2ac4f015e9265f9caaf60235",
+              "snippet_sha256": "f9d72f8fa75482a81aa62589d63d854614b1ff7971781ac8c62b6b1876ccc32a",
+              "verified_at": "2026-11-14T02:29:16.397085+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet giai thich ro nguyen nhan ky thuat cua su co gian doan hang khong tai My do he thong cu ky qua tai va lam ro phan ung tu cac co quan chuc nang. Dong thoi, bai phan tich ro hau qua thuc te doi voi lich trinh bay va nguon goc thong tin tu cac quan chuc lien quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T02:29:16.398005+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "15",
+        "4",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T02:29:16.400042+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 346,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1536
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com",
+          "france24.com",
+          "npr.org",
+          "theguardian.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tong-thong-trump-khong-co-ke-hoach-e-cap-van-e-nvidia-trong-chuyen-tham--671eaab3",
+    "status": "READY",
+    "prepared_at": "2026-11-14T02:28:53.419129+00:00",
+    "expires_at": "2026-11-15T02:28:53.419129+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+      "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang"
+    ],
+    "article": {
+      "id": "tong-thong-trump-khong-co-ke-hoach-e-cap-van-e-nvidia-trong-chuyen-tham--671eaab3",
+      "title": "Tổng thống Trump không có kế hoạch đề cập vấn đề Nvidia trong chuyến thăm Trung Quốc",
+      "summary": "Giới chức Mỹ xác nhận Tổng thống Donald Trump sẽ không đưa các cáo buộc liên quan đến cựu CEO Nvidia Jensen Huang hay vấn đề kiểm soát xuất khẩu chip vào chương trình nghị sự trong chuyến thăm Trung Quốc sắp tới.",
+      "category": "world",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "published_at": "2026-11-14T01:34:11+00:00",
+      "fetched_at": "2026-11-14T02:29:21.839896+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giới chức cấp cao Mỹ cho biết Tổng thống Donald Trump không có kế hoạch đưa vấn đề liên quan đến cựu Tổng giám đốc điều hành Nvidia Jensen Huang hay các cáo buộc gián điệp vào nội dung thảo luận trong chuyến công tác tới Trung Quốc sắp tới.",
+        "Thông tin này được đưa ra trong bối cảnh ông Trump chuẩn bị tham dự hội nghị thượng đỉnh Hợp tác Kinh tế Châu Á - Thái Bình Dương (APEC) diễn ra tại thành phố Thâm Quyến. Sắp xếp chuyến đi cũng bao gồm cuộc gặp ba bên giữa Tổng thống Mỹ, Chủ tịch Trung Quốc Tập Cận Bình và Tổngພັນ thống Nga Vladimir Putin.",
+        "Các quan chức Nhà Trắng giải thích rằng các biện pháp kiểm soát xuất khẩu của Mỹ không phải là nội dung được đưa ra đàm phán với phía Trung Quốc. Trọng tâm trong các cuộc trao đổi về mặt kinh tế sẽ tập trung vào việc thực thi thỏa thuận thương mại giữa hai nước.",
+        "Liên quan đến những diễn biến xoay quanh Nvidia, cựu CEO Jensen Huang đã từ chức sau các báo cáo về mối quan hệ cá nhân với Alice Huang - người từng là giám đốc điều hành tại một công ty công nghệ có liên quan đến các cáo buộc chuyển hướng chip hạn chế sang Trung Quốc. Phía Trung Quốc trước đó từng bác bỏ các cáo buộc này.",
+        "Ngoài ra, các quan chức Mỹ cũng xác nhận tỷ phú Elon Musk, người đứng đầu Tesla và SpaceX, sẽ tham gia đoàn tháp tùng Tổng thống Trump trong chuyến đi tới Thâm Quyến với tư cách cố vấn, trong bối cảnh các mối quan hệ kinh tế và an ninh quốc gia tiếp tục được chú trọng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Trump không bàn về Nvidia và vấn đề điệp viên khi thăm Trung Quốc",
+      "meta_description": "Các quan chức cấp cao Mỹ cho biết Tổng thống Donald Trump không dự định nêu vấn đề Nvidia hay các cáo buộc liên quan trong chuyến thăm Trung Quốc sắp tới.",
+      "keywords": [
+        "Donald Trump",
+        "Nvidia",
+        "Jensen Huang",
+        "Trung Quốc",
+        "APEC"
+      ],
+      "slug": "tong-thong-trump-khong-co-ke-hoach-e-cap-van-e-nvidia-trong-chuyen-tham--671eaab3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 299,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+        "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+        "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+        "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+        "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+        "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+        "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+        "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T01:34:11+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T22:18:55+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T02:05:55+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T22:43:00+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T12:58:10+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Donald Trump không có kế hoạch nêu vấn đề liên quan đến cựu CEO Nvidia Jensen Huang hay nghi vấn gián điệp trong chuyến thăm Trung Quốc.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "PresidentDonald Trumpis not expected to raise allegations of aChineseintelligence operation involving formerNvidiaCEO Jensen Huangduring his upcoming meeting with Chinese President Xi Jinping, senior U.S.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "snippet": "PresidentDonald Trumpis not expected to raise allegations of aChineseintelligence operation involving formerNvidiaCEO Jensen Huangduring his upcoming meeting with Chinese President Xi Jinping, senior U.S.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "page_sha256": "8414b3de10fdc31fa1bc181f925fa2a9a038c1d25a02846af1e27cb80f06dfd3",
+              "snippet_sha256": "bc219b1b1230835438bd243938f9570761f4bee8fc78897e51ec0e52d7500d82",
+              "verified_at": "2026-11-14T02:29:21.839300+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Elon Musk sẽ cùng tham gia chuyến đi của Tổng thống Trump tới Thâm Quyến, Trung Quốc, nhân dịp hội nghị thượng đỉnh APEC.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Officials also said thatElon Musk, the CEO ofTeslaandSpaceX,will accompany Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "snippet": "Officials also said thatElon Musk, the CEO ofTeslaandSpaceX,will accompany Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "page_sha256": "8414b3de10fdc31fa1bc181f925fa2a9a038c1d25a02846af1e27cb80f06dfd3",
+              "snippet_sha256": "887a75da6f0132338c42dce4848b13c0c3bf1bbc30b9289fd6138b1162dba84a",
+              "verified_at": "2026-11-14T02:29:21.839300+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trọng tâm cuộc gặp kinh tế với Chủ tịch Trung Quốc Tập Cận Bình sẽ tập trung vào việc thực thi thỏa thuận thương mại thay vì các vấn đề kiểm soát xuất khẩu hay an ninh quốc gia đang được điều tra tại Mỹ.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "snippet": "Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+              "page_sha256": "8414b3de10fdc31fa1bc181f925fa2a9a038c1d25a02846af1e27cb80f06dfd3",
+              "snippet_sha256": "0d9cca229414fd879ca3aa55eb9a921867946d646ac4deb4ebc07c30d9b39b0e",
+              "verified_at": "2026-11-14T02:29:21.839300+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lập trường chính thức của chính quyền Mỹ về việc tách biệt các vấn đề an ninh nội bộ và kiểm soát xuất khẩu chip ra khỏi chương trình nghị sự ngoại giao cấp cao tại Trung Quốc. Bối cảnh chuyến thăm APEC và sự tháp tùng của giới lãnh đạo doanh nghiệp cũng được xâu chuỗi để cung cấp góc nhìn toàn diện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T02:29:21.840010+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-14T02:29:21.841639+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 299,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1402
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "engadget.com",
+          "npr.org",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
