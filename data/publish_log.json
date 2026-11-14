@@ -555,5 +555,25 @@
         "reason": "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-14 23:10",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-14T16:10:19.665066+00:00",
+    "prepared_candidates": 8,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "mauricio-pochettino-chinh-thuc-tro-thanh-hlv-truong-cua-manchester-unite-e2f94aaf",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "chelsea-dan-truoc-manchester-city-trong-the-tran-nhieu-bien-ong-tai-wome-0b46dc90",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

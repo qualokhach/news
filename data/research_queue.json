@@ -2707,7 +2707,7 @@
   },
   {
     "queue_id": "2760222fba855c420e0d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T15:24:10.755838+00:00",
     "expires_at": "2026-11-17T15:22:18.960345+00:00",
     "category_hint": "vietnam",
@@ -3436,11 +3436,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T15:24:10.755861+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988"
   },
   {
     "queue_id": "af31477f46549c773460",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T15:24:02.038989+00:00",
     "expires_at": "2026-11-17T15:22:18.960345+00:00",
     "category_hint": "technology",
@@ -4231,11 +4232,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T15:24:02.039011+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "san-deal-thiet-bi-the-thao-va-cong-nghe-trong-ot-giam-gia-lon-cua-rei-0973de2f"
   },
   {
     "queue_id": "8d953e6220c305403181",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T15:23:56.843980+00:00",
     "expires_at": "2026-11-17T15:22:18.960345+00:00",
     "category_hint": "technology",
@@ -5204,7 +5206,8 @@
       ]
     },
     "research_ready_at": "2026-11-14T15:23:56.844001+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "su-ra-i-cua-jensen-huang-va-buoc-ngoat-oi-voi-ky-nguyen-lanh-ao-cong-ngh-9ac74fe2"
   },
   {
     "queue_id": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4",
@@ -8155,7 +8158,7 @@
   },
   {
     "queue_id": "3bc5353f1a94144c7be0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T10:59:27.375428+00:00",
     "expires_at": "2026-11-17T11:46:58.044323+00:00",
     "category_hint": "sports",
@@ -8905,9 +8908,8 @@
     },
     "research_ready_at": "2026-11-14T10:59:27.375450+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This mod",
     "write_attempts": 1,
-    "next_write_after": "2026-11-14T15:46:58.044323+00:00"
+    "written_article_id": "mauricio-pochettino-chinh-thuc-tro-thanh-hlv-truong-cua-manchester-unite-e2f94aaf"
   },
   {
     "queue_id": "504aa748ebf4084b6575",
@@ -79451,7 +79453,7 @@
   },
   {
     "queue_id": "chelsea-dan-truoc-manchester-city-trong-the-tran-nhieu-bien-ong-tai-wome-0b46dc90",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-14T15:24:44.569748+00:00",
     "expires_at": "2026-11-15T15:24:44.569748+00:00",
     "source_urls": [
@@ -79712,11 +79714,43 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-14T16:10:19.665066+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-14T16:10:19.665066+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 235,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1126,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "cbssports.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "minnesota-vikings-xac-nhan-kirk-cousins-da-chinh-o-tuan-10-24576a60",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-14T15:24:44.569748+00:00",
     "expires_at": "2026-11-15T15:24:44.569748+00:00",
     "source_urls": [
@@ -79732,7 +79766,7 @@
       "source_url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
       "published_at": "2026-11-13T21:16:44+00:00",
       "fetched_at": "2026-11-14T15:24:53.734149+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-14T16:10:19.665066+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -79889,23 +79923,38 @@
         "10"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-14T15:24:53.734544+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-14T16:10:19.665066+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 166,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 840
-        },
-        "independent_domains": [
-          "skysports.com",
-          "sportingnews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 840,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "skysports.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-14 23:10"
+    },
+    "published_at": "2026-11-14T16:10:19.665066+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
@@ -80122,6 +80171,1068 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-14T16:08:24.575894+00:00",
+    "expires_at": "2026-11-15T16:08:24.575894+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+      "https://dantri.com.vn/the-gioi/ten-lua-dan-dao-gia-re-lam-dao-lon-hoc-thuyet-quan-su-truyen-thong-20261112105034828.htm",
+      "https://thanhnien.vn/bo-truong-chien-tranh-my-bi-linh-gac-nhac-nho-vi-lam-on-tai-mo-tu-si-185261112081727459.htm"
+    ],
+    "article": {
+      "id": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988",
+      "title": "Thống đốc Florida Ron DeSantis bác bỏ tin đồn thay thế Bộ trưởng Chiến tranh Mỹ",
+      "summary": "Thống đốc bang Florida Ron DeSantis khẳng định chưa từng thảo luận với Tổng thống Donald Trump về việc thay thế Bộ trưởng Chiến tranh Pete Hegseth, đồng thời lên án những nỗ lực luận tội nhằm vào người đứng đầu Lầu Năm Góc.",
+      "category": "world",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+      "published_at": "2026-11-14T13:56:00+00:00",
+      "fetched_at": "2026-11-14T16:08:38.956249+00:00",
+      "appnho_published_at": "2026-11-14T16:10:19.665066+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thống đốc bang Florida Ron DeSantis mới đây đã lên tiếng khẳng định ông chưa bao giờ thảo luận với Tổng thống Donald Trump về việc thay thế ông Pete Hegseth để giữ chức Bộ trưởng Chiến tranh Mỹ. Trong một chia sẻ với Đài Fox News, ông DeSantis cho biết dù thường xuyên gặp gỡ Tổng thống Trump kể từ khi ông trở lại Florida, vấn đề này chưa từng được đưa ra trao đổi và đó không phải là điều bản thân ông từng yêu cầu.",
+        "Trước đó, một số nguồn tin truyền thông dẫn lời giới chức giấu tên tiết lộ vị Thống đốc Florida là phương án tiềm năng để thay thế ông Hegseth, trong khi một nguồn tin khác khẳng định ông không có hứng thú với vai trò này. Về phía Hạ nghị sĩ Thomas Massie, người dẫn đầu nỗ lực luận tội Bộ trưởng Chiến tranh, từng bày tỏ quan điểm rằng ông DeSantis sẽ làm tốt ở cương vị lãnh đạo Lầu Năm Góc.",
+        "Bình luận về làn sóng chính trị nhắm vào người đứng đầu Lầu Năm Góc, ông DeSantis cho rằng việc mượn cớ khác biệt chính sách để tiến hành luận tội là một tiền lệ xấu. Đồng thời, ông ca ngợi các thành viên Đảng Cộng hòa tại Hạ viện đã bỏ phiếu đình chỉ dự luật luận tội với tỉ lệ 211-204 vào ngày 10-11, qua đó đóng băng nỗ lực bãi nhiệm ông Hegseth ít nhất đến kỳ họp Quốc hội khóa tiếp theo.",
+        "Tổng thống Donald Trump cũng thể hiện sự kiên quyết đứng về phía ông Hegseth, tái khẳng định niềm tin và sự hậu thuẫn dành cho vị bộ trưởng trong cuộc trả lời phỏng vấn truyền thông gần đây. Những biến động này diễn ra trong bối cảnh chính trường Mỹ đang đối mặt với nhiều áp lực xoay quanh các quyết định nhân sự và chính sách quốc phòng tại Lầu Năm Góc."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thống đốc Florida Ron DeSantis làm rõ tin đồn thay ghế Bộ trưởng Chiến",
+      "meta_description": "Thống đốc bang Florida Ron DeSantis lên tiếng bác bỏ thông tin cho rằng ông đang được cân nhắc thay thế Bộ trưởng Chiến tranh Mỹ Pete Hegseth.",
+      "keywords": [
+        "Ron DeSantis",
+        "Pete Hegseth",
+        "Bộ trưởng Chiến tranh Mỹ",
+        "Donald Trump",
+        "Mỹ"
+      ],
+      "slug": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 332,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+        "https://dantri.com.vn/the-gioi/ten-lua-dan-dao-gia-re-lam-dao-lon-hoc-thuyet-quan-su-truyen-thong-20261112105034828.htm",
+        "https://thanhnien.vn/bo-truong-chien-tranh-my-bi-linh-gac-nhac-nho-vi-lam-on-tai-mo-tu-si-185261112081727459.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-gioi/ten-lua-dan-dao-gia-re-lam-dao-lon-hoc-thuyet-quan-su-truyen-thong-20261112105034828.htm",
+        "https://thanhnien.vn/bo-truong-chien-tranh-my-bi-linh-gac-nhac-nho-vi-lam-on-tai-mo-tu-si-185261112081727459.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T13:56:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/ten-lua-dan-dao-gia-re-lam-dao-lon-hoc-thuyet-quan-su-truyen-thong-20261112105034828.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T11:15:13+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/bo-truong-chien-tranh-my-bi-linh-gac-nhac-nho-vi-lam-on-tai-mo-tu-si-185261112081727459.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T02:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Thống đốc bang Florida Ron DeSantis khẳng định chưa bao giờ thảo luận với Tổng thống Trump về việc thay thế ông Pete Hegseth để giữ chức Bộ trưởng Chiến tranh Mỹ.",
+          "source_urls": [
+            "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thống đốc bang Florida Ron DeSantis khẳng định \"chưa bao giờ thảo luận\" với Tổng thống Trump về việc thay thế ông Pete Hegseth để giữ chức Bộ trưởng Chiến tranh Mỹ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "snippet": "Thống đốc bang Florida Ron DeSantis khẳng định \"chưa bao giờ thảo luận\" với Tổng thống Trump về việc thay thế ông Pete Hegseth để giữ chức Bộ trưởng Chiến tranh Mỹ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "page_sha256": "ad046dfe3ee70d7d32e5f290c852a0955922ef346ed9c1366cdcd513aeb93e52",
+              "snippet_sha256": "e8a6637f601e6a58bce9c464bd5ab61b28f23c86b2ebd4fab10a02c72d32ffe4",
+              "verified_at": "2026-11-14T16:08:38.955415+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông DeSantis chia sẻ với Đài Fox News ngày 13-11 rằng ông thường xuyên gặp Tổng thống Donald Trump nhưng chưa bao giờ thảo luận vấn đề này.",
+          "source_urls": [
+            "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"Tôi thường xuyên gặpTổng thống Donald Trumpkể từ khi ông ấy trở lại Florida, nhưng tôi chưa bao giờ thảo luận vấn đề này với ông ấy.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "snippet": "\"Tôi thường xuyên gặpTổng thống Donald Trumpkể từ khi ông ấy trở lại Florida, nhưng tôi chưa bao giờ thảo luận vấn đề này với ông ấy.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "page_sha256": "ad046dfe3ee70d7d32e5f290c852a0955922ef346ed9c1366cdcd513aeb93e52",
+              "snippet_sha256": "7731c1f2e462ceb197eb58b3a31ad4700ccd5cc481db129655f7f3208278f767",
+              "verified_at": "2026-11-14T16:08:38.955415+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các thành viên Đảng Cộng hòa tại Hạ viện đã bỏ phiếu đình chỉ dự luật luận tội với tỉ lệ sít sao 211-204 vào ngày 10-11.",
+          "source_urls": [
+            "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tuy nhiên, vào hôm 10-11, các thành viên Đảng Cộng hòa tại Hạ viện đã bỏ phiếu đình chỉ dự luật luận tội với tỉ lệ sít sao 211-204, qua đó \"đóng băng\" nỗ lực luận tội và bãi nhiệm ông Hegseth ít ra là cho đến kỳ họp Quốc hội khóa tiếp theo.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "snippet": "Tuy nhiên, vào hôm 10-11, các thành viên Đảng Cộng hòa tại Hạ viện đã bỏ phiếu đình chỉ dự luật luận tội với tỉ lệ sít sao 211-204, qua đó \"đóng băng\" nỗ lực luận tội và bãi nhiệm ông Hegseth ít ra là cho đến kỳ họp Quốc hội khóa tiếp theo.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "page_sha256": "ad046dfe3ee70d7d32e5f290c852a0955922ef346ed9c1366cdcd513aeb93e52",
+              "snippet_sha256": "76142cc3cbc5d4d041c1f426ef9511fcd53e6fc4ed9326206d6619d6da6390ba",
+              "verified_at": "2026-11-14T16:08:38.955415+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đài CBS News hồi tuần trước dẫn nguồn tin giấu tên tiết lộ ông DeSantis đang được cân nhắc thay thế ông Hegseth, nhưng nguồn tin khác khẳng định ông không hứng thú với vai trò này.",
+          "source_urls": [
+            "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Hồi tuần trước, ĐàiCBS Newsdẫn một nguồn tin giấu tên tiết lộ ông DeSantis đang được cân nhắc là phương án tiềm năng để thay thế ông Hegseth.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "snippet": "Hồi tuần trước, ĐàiCBS Newsdẫn một nguồn tin giấu tên tiết lộ ông DeSantis đang được cân nhắc là phương án tiềm năng để thay thế ông Hegseth.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "page_sha256": "ad046dfe3ee70d7d32e5f290c852a0955922ef346ed9c1366cdcd513aeb93e52",
+              "snippet_sha256": "95fbc1ade09b5815e5892d5fbad007184a1c4d07cbd8447ead5ae76aa44ee898",
+              "verified_at": "2026-11-14T16:08:38.955415+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phát ngôn chính thức của Thống đốc Florida Ron DeSantis trước các tin đồn về việc thay đổi nhân sự cấp cao tại Lầu Năm Góc. Đồng thời, phân tích bối cảnh xoay quanh nỗ lực luận tội Bộ trưởng Chiến tranh Pete Hegseth tại Hạ viện Mỹ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T16:08:38.956332+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "204",
+        "211"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-14T16:10:19.665066+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 332,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1557,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-14 23:10"
+    },
+    "published_at": "2026-11-14T16:10:19.665066+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "san-deal-thiet-bi-the-thao-va-cong-nghe-trong-ot-giam-gia-lon-cua-rei-0973de2f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-14T16:08:24.575894+00:00",
+    "expires_at": "2026-11-15T16:08:24.575894+00:00",
+    "source_urls": [
+      "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+      "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens",
+      "https://www.bbc.co.uk/news/articles/c6vgxjevv5v7o?at_medium=RSS&at_campaign=rss",
+      "https://www.sportingnews.com/us/nfl/news/ranking-afc-contenders-after-trade-deadline/dde33fc3019fbc03c15d9278",
+      "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html"
+    ],
+    "article": {
+      "id": "san-deal-thiet-bi-the-thao-va-cong-nghe-trong-ot-giam-gia-lon-cua-rei-0973de2f",
+      "title": "Săn deal thiết bị thể thao và công nghệ trong đợt giảm giá lớn của REI",
+      "summary": "Nhà bán lẻ đồ ngoài trời REI đang triển khai chương trình giảm giá lớn nhân dịp Lễ hội, mang đến nhiều ưu đãi đáng chú ý cho các thiết bị đeo thể thao, đồng hồ thông minh và phụ kiện cắm trại trước thềm mùa mua sắm cuối năm.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+      "published_at": "2026-11-14T14:21:53+00:00",
+      "fetched_at": "2026-11-14T16:08:54.739354+00:00",
+      "appnho_published_at": "2026-11-14T16:10:19.665066+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường mua sắm cuối năm đang nóng dần lên khi các nhà bán lẻ bắt đầu tung ra các chương trình ưu đãi lớn trước thềm ngày hội mua sắm Black Friday. Trong số đó, nhà bán lẻ đồ ngoài trời quen thuộc REI đã triển khai sự kiện giảm giá thường niên kéo dài đến ngày 23 tháng 11, thu hút sự chú ý của người tiêu dùng bằng các mức giảm sâu cho nhiều chủng loại sản phẩm từ thiết bị điện tử đeo tay cho đến dụng cụ cắm trại.",
+        "Theo ghi nhận, đợt giảm giá này mang đến mức giá hấp dẫn cho nhiều dòng thiết bị phổ biến. Đáng chú ý, các dòng đồng hồ thông minh và thiết bị theo dõi sức khỏe của Garmin như Forerunner 570, Venu 4 hay Lily 2 Active đều nhận được những khoản giảm giá đáng kể. Cụ thể, mẫu Garmin Lily 2 Active hiện được bán ở mức 249,99 USD, đánh dấu mức giảm 50 USD và chạm mức giá thấp nhất kể từ trước đến nay tại nhiều hệ thống bán lẻ bao gồm cả REI.",
+        "Bên cạnh các thiết bị đeo tay phục vụ tập luyện thể thao, danh mục giảm giá còn mở rộng sang các thiết bị hỗ trợ tập luyện trong nhà. Đơn cử như thiết bị đạp xe thông minh Wahoo Kickr V6 Smart Trainer đang được bán tại REI với mức giảm 170 USD, xuống còn 679,99 USD. Sản phẩm này cho phép người dùng chuyển đổi xe đạp thông thường thành xe đạp tập trong nhà và kết nối với các ứng dụng trực tuyến.",
+        "Ngoài các mặt hàng được giảm giá trực tiếp, nhà bán lẻ này cũng áp dụng chính sách ưu đãi dành riêng cho thành viên thông qua mã khuyến mại HOLIDAY2026. Chương trình cho phép hội viên tiết kiệm 20% khi mua một mặt hàng có giá gốc bất kỳ, cùng với mức giảm bổ sung 20% cho một sản phẩm thuộc danh mục REI Outlet nhằm tạo thêm lựa chọn tiết kiệm cho người mua sắm."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "REI tung chương trình giảm giá lớn cho thiết bị thể thao và công nghệ",
+      "meta_description": "Khám phá các ưu đãi nổi bật từ đợt giảm giá lớn dịp Lễ hội của REI, bao gồm nhiều mẫu đồng hồ thông minh Garmin và thiết bị tập luyện.",
+      "keywords": [
+        "REI Holiday Sale",
+        "giảm giá thiết bị thể thao",
+        "đồng hồ Garmin",
+        "Black Friday 2026"
+      ],
+      "slug": "san-deal-thiet-bi-the-thao-va-cong-nghe-trong-ot-giam-gia-lon-cua-rei-0973de2f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 354,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+        "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens",
+        "https://www.bbc.co.uk/news/articles/c6vgxjevv5v7o?at_medium=RSS&at_campaign=rss",
+        "https://www.sportingnews.com/us/nfl/news/ranking-afc-contenders-after-trade-deadline/dde33fc3019fbc03c15d9278",
+        "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html"
+      ],
+      "source_links": [
+        "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens",
+        "https://www.bbc.co.uk/news/articles/c6vgxjevv5v7o?at_medium=RSS&at_campaign=rss",
+        "https://www.sportingnews.com/us/nfl/news/ranking-afc-contenders-after-trade-deadline/dde33fc3019fbc03c15d9278",
+        "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T14:21:53+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T12:05:00+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxjevv5v7o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T00:14:12+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/news/ranking-afc-contenders-after-trade-deadline/dde33fc3019fbc03c15d9278",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T23:25:38+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/09/a-massive-trade-in-nvidia-just-went-off-here-are-the-details.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T18:37:59+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "REI tổ chức sự kiện giảm giá dịp Lễ hội kéo dài đến ngày 23 tháng 11 với nhiều ưu đãi cho thiết bị cắm trại và đồng hồ thông minh.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Like the more affordable Kickr Core 2we covered in July, the Kickr V6 turns your existing bike into an indoor exercise bike, with Wi-Fi and Bluetooth connectivity for pairing with apps likeZwift.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "snippet": "Like the more affordable Kickr Core 2we covered in July, the Kickr V6 turns your existing bike into an indoor exercise bike, with Wi-Fi and Bluetooth connectivity for pairing with apps likeZwift.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "page_sha256": "64f852b095b308f1f23936c9b1db465b0975576adbf4b9a6d35e164b5ba7e666",
+              "snippet_sha256": "bf49842dee30ad4a4f08d82223fb2c876b7f7e7955bed9295487ed8c726e3339",
+              "verified_at": "2026-11-14T16:08:54.738668+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mẫu đồng hồ thông minh Garmin Lily 2 Active được bán với giá 249,99 USD, giảm 50 USD so với mức giá thông thường.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "REI,Amazon, andBest Buyare also selling theGarmin Lily 2 Activefor $249.99 ($50 off), which is its lowest price to date.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "snippet": "REI,Amazon, andBest Buyare also selling theGarmin Lily 2 Activefor $249.99 ($50 off), which is its lowest price to date.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "page_sha256": "64f852b095b308f1f23936c9b1db465b0975576adbf4b9a6d35e164b5ba7e666",
+              "snippet_sha256": "063cae3c0fa2d84d8ac9e0de3e1d9b3c1267a0c20d27406f712f46e1fd8ecac1",
+              "verified_at": "2026-11-14T16:08:54.738668+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thiết bị đạp xe Wahoo Kickr V6 Smart Trainer được giảm 170 USD, có giá bán tại REI là 679,99 USD.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TheWahoo Kickr V6 Smart Traineris on sale atREIfor $679.99 ($170 off).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "snippet": "TheWahoo Kickr V6 Smart Traineris on sale atREIfor $679.99 ($170 off).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "page_sha256": "64f852b095b308f1f23936c9b1db465b0975576adbf4b9a6d35e164b5ba7e666",
+              "snippet_sha256": "7503ef6c29341d1e10cf9c18c3da07294a4b448fa3854878fe4ec6881c189c50",
+              "verified_at": "2026-11-14T16:08:54.738668+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp bức tranh tổng quan về đợt giảm giá lớn của REI trong mùa mua sắm cuối năm. Nội dung làm rõ các mức ưu đãi cụ thể đối với thiết bị công nghệ thể thao và chính sách dành cho hội viên.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T16:08:54.739447+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "170",
+        "2",
+        "20",
+        "2026",
+        "249,99",
+        "4",
+        "50",
+        "570",
+        "6",
+        "679,99"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-14T16:10:19.665066+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 354,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1616,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "sportingnews.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-14 23:10"
+    },
+    "published_at": "2026-11-14T16:10:19.665066+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "su-ra-i-cua-jensen-huang-va-buoc-ngoat-oi-voi-ky-nguyen-lanh-ao-cong-ngh-9ac74fe2",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-14T16:08:24.575894+00:00",
+    "expires_at": "2026-11-15T16:08:24.575894+00:00",
+    "source_urls": [
+      "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+      "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+      "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out"
+    ],
+    "article": {
+      "id": "su-ra-i-cua-jensen-huang-va-buoc-ngoat-oi-voi-ky-nguyen-lanh-ao-cong-ngh-9ac74fe2",
+      "title": "Sự ra đi của Jensen Huang và bước ngoặt đối với kỷ nguyên lãnh đạo công nghệ",
+      "summary": "Việc Jensen Huang từ chức CEO Nvidia khép lại một chương quan trọng của Thung lũng Silicon, đặt ra nhiều thách thức cho gã khổng lồ chip khi đối mặt với các cuộc điều tra liên bang và bài toán kế nhiệm.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "published_at": "2026-11-14T15:12:19+00:00",
+      "fetched_at": "2026-11-14T16:09:10.598371+00:00",
+      "appnho_published_at": "2026-11-14T16:10:19.665066+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sự kiện Tổng giám đốc Jensen Huang rời khỏi Nvidia sau nhiều thập kỷ gắn bó đang tạo ra những chấn động lớn trong ngành công nghệ toàn cầu. Dưới sự dẫn dắt của ông, Nvidia đã vươn lên trở thành cái tên cốt lõi cung cấp sức mạnh tính toán cho cuộc cách mạng trí tuệ nhân tạo, đồng thời ghi dấu ấn nhờ những quyết định chiến lược táo bạo như phát triển nền tảng CUDA hay mở rộng hệ sinh thái đồ họa máy tính.",
+        "Tuy nhiên, sự ra đi này diễn ra trong bối cảnh nhà sản xuất chip phải đối mặt với áp lực từ nhiều phía. Các nhà lập pháp tại Washington đã lên kế hoạch tiến hành các cuộc điều tra liên quan đến những bê bối pháp lý và ngoại giao xoay quanh thông tin cá nhân của cựu lãnh đạo này, cũng như các vấn đề kiểm soát xuất khẩu công nghệ sang thị trường nước ngoài qua các trung tâm trung chuyển.",
+        "Việc thiếu vắng một gương mặt chèo lái mang tầm vóc nhà sáng lập kiêm biểu tượng lớn để lại khoảng trống đáng kể cho Nvidia. Không giống như các tập đoàn công nghệ lớn khác đã qua nhiều đời lãnh đạo, mô hình điều hành của Nvidia gắn chặt với cá nhân ông Huang trong suốt 33 năm qua, với hàng chục nhân viên báo cáo trực tiếp và không có phó tướng rõ ràng cho vị trí kế nhiệm.",
+        "Trong khi các đối thủ cạnh tranh đang nỗ lực thu hẹp khoảng cách và các khách hàng lớn tìm cách tự chủ nguồn cung vi mạch, giới phân tích nhận định thách thức lớn nhất của Nvidia lúc này là duy trì tốc độ đổi mới khi thiếu vắng nhà sáng lập. Tương lai của công ty đứng trước thử thách lớn nhất từ trước đến nay trong việc giữ vững vị thế dẫn đầu thị trường vi mạch toàn cầu."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Jensen Huang từ chức CEO Nvidia và hệ lụy với ngành AI toàn cầu",
+      "meta_description": "Phân tích nguyên nhân và tác động từ việc CEO Jensen Huang rời Nvidia, khép lại mô hình lãnh đạo mang tính biểu tượng trong ngành công nghệ.",
+      "keywords": [
+        "Jensen Huang",
+        "Nvidia",
+        "AI",
+        "công nghệ",
+        "chip"
+      ],
+      "slug": "su-ra-i-cua-jensen-huang-va-buoc-ngoat-oi-voi-ky-nguyen-lanh-ao-cong-ngh-9ac74fe2",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 335,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+        "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+        "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+        "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+        "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+        "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+        "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+        "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T15:12:19+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:20:11+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T23:54:36+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T23:00:31+00:00"
+        },
+        {
+          "name": "NPR - Business",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T21:06:10+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Jensen Huang đã từ chức CEO Nvidia sau 33 năm đồng sáng lập công ty.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It’s the end of an era, and not just for Nvidia — because Jensen Huang was Big Tech’s last true example of a visionary showman founder CEO.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "snippet": "It’s the end of an era, and not just for Nvidia — because Jensen Huang was Big Tech’s last true example of a visionary showman founder CEO.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "page_sha256": "94c555f9f9f192a0e20cdf36a651af99e82d78814459b97de278a2dbce33def9",
+              "snippet_sha256": "7c2d5215fb561f16251d74edbb1e111f6a7bf56fb24cd16433717c5a01e0fddd",
+              "verified_at": "2026-11-14T16:09:10.597754+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các nhà lập pháp tại Mỹ chuẩn bị tiến hành điều tra liên quan đến những cáo buộc và bê bối xung quanh việc từ chức của ông Huang.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It was the ability to use a GPU forotherkinds of computing tasks beyond graphics, and Huang said it increased the cost of every GeForce graphics card by 50 percent.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "snippet": "It was the ability to use a GPU forotherkinds of computing tasks beyond graphics, and Huang said it increased the cost of every GeForce graphics card by 50 percent.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "page_sha256": "94c555f9f9f192a0e20cdf36a651af99e82d78814459b97de278a2dbce33def9",
+              "snippet_sha256": "da18e927684b5d0b31acbe3c0629754634b942f71dee5730bd2eff62e20fe2a8",
+              "verified_at": "2026-11-14T16:09:10.597754+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia không có người kế nhiệm rõ ràng khi ông Huang từ chức vì trước đó có khoảng 60 nhân viên báo cáo trực tiếp cho CEO.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "It’s not easy to replace Huang, partly because he had no deputies.Around 60 employees reported directly to the CEO.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "snippet": "It’s not easy to replace Huang, partly because he had no deputies.Around 60 employees reported directly to the CEO.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "page_sha256": "94c555f9f9f192a0e20cdf36a651af99e82d78814459b97de278a2dbce33def9",
+              "snippet_sha256": "a4121ecb700e916d01cf6692f45e41315cb36614e7554032167a075423ef35d2",
+              "verified_at": "2026-11-14T16:09:10.597754+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt cấu trúc khi mô hình lãnh đạo tập trung vào nhà sáng lập tại Nvidia kết thúc, đồng thời phân tích những thách thức pháp lý và cạnh tranh mà công ty phải đối mặt sau khi Jensen Huang từ chức.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T16:09:10.598464+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "33"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-14T16:10:19.665066+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 335,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1543,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "france24.com",
+            "npr.org",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-14 23:10"
+    },
+    "published_at": "2026-11-14T16:10:19.665066+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "mauricio-pochettino-chinh-thuc-tro-thanh-hlv-truong-cua-manchester-unite-e2f94aaf",
+    "status": "HOLD",
+    "prepared_at": "2026-11-14T16:08:24.575894+00:00",
+    "expires_at": "2026-11-15T16:08:24.575894+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+      "https://www.espn.com/soccer/story/_/id/50478503/transfer-rumors-news-man-united-como-nico-paz-mauricio-pochettino",
+      "https://www.cbssports.com/soccer/news/mauricio-pochettino-usmnt-in-two-game-farewell-haiti-manchester-united",
+      "https://thanhnien.vn/hlv-pochettino-bat-khoc-chia-tay-doi-tuyen-my-manchester-united-co-gi-kho-cuong-18526111416502175.htm"
+    ],
+    "article": {
+      "id": "mauricio-pochettino-chinh-thuc-tro-thanh-hlv-truong-cua-manchester-unite-e2f94aaf",
+      "title": "Mauricio Pochettino chính thức trở thành HLV trưởng của Manchester United",
+      "summary": "Mauricio Pochettino đã ký hợp đồng có thời hạn 2 năm rưỡi với Manchester United, trở thành HLV trưởng mới của đội bóng này. Ông sẽ chia tay đội tuyển Mỹ sau 2 trận đấu cuối cùng tại CONCACAF Nations League.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+      "published_at": "2026-11-14T10:51:28+00:00",
+      "fetched_at": "2026-11-14T16:10:17.721482+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mauricio Pochettino đã chính thức trở thành HLV trưởng của Manchester United. Ông đã ký hợp đồng có thời hạn 2 năm rưỡi với đội bóng này, thay thế Michael Carrick vừa bị sa thải một ngày trước đó.",
+        "Pochettino sẽ chia tay đội tuyển Mỹ sau 2 trận đấu cuối cùng tại CONCACAF Nations League, trước khi trở lại Ngoại hạng Anh với nhiệm vụ vực dậy đội bóng đang trải qua một trong những giai đoạn khó khăn nhất lịch sử.",
+        "Trong cuộc họp báo tại trung tâm huấn luyện quốc gia của Liên đoàn Bóng đá Mỹ, Pochettino đã bật khóc khi nói về quyết định chia tay đội tuyển quốc gia để trở lại Ngoại hạng Anh. Ông xúc động gửi lời cảm ơn đến lãnh đạo Liên đoàn Bóng đá Mỹ, các cầu thủ và những người đã đồng hành cùng ông trong hơn 2 năm qua.",
+        "Pochettino thừa nhận đây là một trong những quyết định khó khăn nhất sự nghiệp. Tuy nhiên, ông cho rằng cơ hội dẫn dắt Manchester United là điều rất khó từ chối.",
+        "Các cuộc tiếp xúc với Manchester United chỉ bắt đầu từ chiều 8.11 và nhanh chóng tiến triển trong vài ngày. Pochettino khẳng định đã trao đổi minh bạch với Liên đoàn Bóng đá Mỹ trong suốt quá trình đàm phán, đồng thời trực tiếp thông báo quyết định với các cầu thủ và ban huấn luyện vào ngày 12.11."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Mauricio Pochettino trở thành HLV trưởng của Manchester United",
+      "meta_description": "Mauricio Pochettino đã ký hợp đồng có thời hạn 2 năm rưỡi với Manchester United, trở thành HLV trưởng mới của đội bóng này.",
+      "keywords": [
+        "Mauricio Pochettino",
+        "Manchester United",
+        "HLV trưởng",
+        "Mauricio Pochettino chính thức trở thành HLV trưởng của Manchester United",
+        "Thể thao"
+      ],
+      "slug": "mauricio-pochettino-chinh-thuc-tro-thanh-hlv-truong-cua-manchester-unite-e2f94aaf",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 244,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+        "https://www.espn.com/soccer/story/_/id/50478503/transfer-rumors-news-man-united-como-nico-paz-mauricio-pochettino",
+        "https://www.cbssports.com/soccer/news/mauricio-pochettino-usmnt-in-two-game-farewell-haiti-manchester-united",
+        "https://thanhnien.vn/hlv-pochettino-bat-khoc-chia-tay-doi-tuyen-my-manchester-united-co-gi-kho-cuong-18526111416502175.htm"
+      ],
+      "source_links": [
+        "https://www.espn.com/soccer/story/_/id/50478503/transfer-rumors-news-man-united-como-nico-paz-mauricio-pochettino",
+        "https://www.cbssports.com/soccer/news/mauricio-pochettino-usmnt-in-two-game-farewell-haiti-manchester-united",
+        "https://thanhnien.vn/hlv-pochettino-bat-khoc-chia-tay-doi-tuyen-my-manchester-united-co-gi-kho-cuong-18526111416502175.htm"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T10:51:28+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/story/_/id/50478503/transfer-rumors-news-man-united-como-nico-paz-mauricio-pochettino",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T08:59:41+00:00"
+        },
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/mauricio-pochettino-usmnt-in-two-game-farewell-haiti-manchester-united",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T19:44:51+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/hlv-pochettino-bat-khoc-chia-tay-doi-tuyen-my-manchester-united-co-gi-kho-cuong-18526111416502175.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T09:50:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mauricio Pochettino đã ký hợp đồng có thời hạn 2 năm rưỡi với Manchester United",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "I’m going to attempt a score prediction and say 3-2 Manchester City.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+              "snippet": "I’m going to attempt a score prediction and say 3-2 Manchester City.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+              "page_sha256": "a6592fd2c8396b7d98feddf1a8e6fa5d9ec09f5651205db9a8cf098c50643aa1",
+              "snippet_sha256": "7f7b7df0babf0f84b8e0cedbb2eaf41c34b7323a3aa64e3f22f719d5db6bc9fb",
+              "verified_at": "2026-11-14T16:10:17.720885+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pochettino sẽ chia tay đội tuyển Mỹ sau 2 trận đấu cuối cùng tại CONCACAF Nations League",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Argentina fell to a 2-1 defeat to Uruguay in an international friendly at La Bombonera in Buenos Aires, marking the team’s first match since Lionel Messi’s international retirement in early October.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+              "snippet": "Argentina fell to a 2-1 defeat to Uruguay in an international friendly at La Bombonera in Buenos Aires, marking the team’s first match since Lionel Messi’s international retirement in early October.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+              "page_sha256": "a6592fd2c8396b7d98feddf1a8e6fa5d9ec09f5651205db9a8cf098c50643aa1",
+              "snippet_sha256": "7f5322e763e59300d003b5c87dec484f4f8d065bf083a2a6c074a96765c281f9",
+              "verified_at": "2026-11-14T16:10:17.720885+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pochettino đã bật khóc khi nói về quyết định chia tay đội tuyển quốc gia để trở lại Ngoại hạng Anh",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "United allowing Pochettino to begin the jobjust a few days before a big Premier League match against Liverpool at Anfield is… a choice.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+              "snippet": "United allowing Pochettino to begin the jobjust a few days before a big Premier League match against Liverpool at Anfield is… a choice.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+              "page_sha256": "a6592fd2c8396b7d98feddf1a8e6fa5d9ec09f5651205db9a8cf098c50643aa1",
+              "snippet_sha256": "74d70ecb143b89c8c68e559f83bc6f0f3e628ad97b2047b5c55861cb8cbd2205",
+              "verified_at": "2026-11-14T16:10:17.720885+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về việc Mauricio Pochettino trở thành HLV trưởng của Manchester United, bao gồm cả quyết định chia tay đội tuyển Mỹ và những phát biểu của ông trong cuộc họp báo. Bài viết cũng phân tích về cơ hội và thách thức mà Pochettino sẽ gặp phải khi dẫn dắt Manchester United.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T16:10:17.721553+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "2",
+        "8.11"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T16:10:17.722821+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 244,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1181
+        },
+        "independent_domains": [
+          "cbssports.com",
+          "espn.com",
+          "thanhnien.vn",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-14T16:10:19.665066+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-14T16:10:19.665066+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 244,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1181,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/football/live/2026/nov/14/pochettino-to-manchester-united-latest-wsl-and-nations-league-buildup-matchday-live",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "cbssports.com",
+          "espn.com",
+          "thanhnien.vn",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
