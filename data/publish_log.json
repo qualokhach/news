@@ -540,5 +540,20 @@
         "reason": "Candidate freshness window expired before publication"
       }
     ]
+  },
+  {
+    "slot": "2026-11-14 18:50",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-14T11:50:01.764045+00:00",
+    "prepared_candidates": 6,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "my-uoc-cho-la-ua-ra-y-tuong-ukraine-nhuong-at-oi-lay-tu-cach-thanh-vien--831dc9e6",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
