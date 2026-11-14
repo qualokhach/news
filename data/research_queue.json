@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "fcd06198257cda5cdb56",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T15:24:27.454443+00:00",
     "expires_at": "2026-11-17T15:22:18.960345+00:00",
     "category_hint": "sports",
@@ -690,11 +690,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T15:24:27.454462+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chelsea-dan-truoc-manchester-city-trong-the-tran-nhieu-bien-ong-tai-wome-0b46dc90"
   },
   {
     "queue_id": "d20a7c77921dacad1ffe",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T15:24:23.028046+00:00",
     "expires_at": "2026-11-17T15:22:18.960345+00:00",
     "category_hint": "sports",
@@ -1303,11 +1304,12 @@
       ]
     },
     "research_ready_at": "2026-11-14T15:24:23.028071+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "minnesota-vikings-xac-nhan-kirk-cousins-da-chinh-o-tuan-10-24576a60"
   },
   {
     "queue_id": "419264f5d709751c8178",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-14T15:24:21.100190+00:00",
     "expires_at": "2026-11-17T15:22:18.960345+00:00",
     "category_hint": "vietnam",
@@ -2700,7 +2702,8 @@
       ]
     },
     "research_ready_at": "2026-11-14T15:24:21.100215+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656"
   },
   {
     "queue_id": "2760222fba855c420e0d",
@@ -79445,5 +79448,680 @@
     "research_ready_at": "2026-11-09T12:11:34.252497+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "phong-trao-quyen-uoc-sua-chua-ghi-dau-an-sau-bau-cu-giua-ky-tai-my-d68b0bb4"
+  },
+  {
+    "queue_id": "chelsea-dan-truoc-manchester-city-trong-the-tran-nhieu-bien-ong-tai-wome-0b46dc90",
+    "status": "READY",
+    "prepared_at": "2026-11-14T15:24:44.569748+00:00",
+    "expires_at": "2026-11-15T15:24:44.569748+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+      "https://www.cbssports.com/soccer/news/uwcl-power-rankings-arsenal-barcelona-manchester-city-real-madrid",
+      "https://www.skysports.com/football/chelsea-women-vs-manchester-city-women/live/575819",
+      "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "chelsea-dan-truoc-manchester-city-trong-the-tran-nhieu-bien-ong-tai-wome-0b46dc90",
+      "title": "Chelsea dẫn trước Manchester City trong thế trận nhiều biến động tại Women's Super League",
+      "summary": "Tường thuật trận đấu Women's Super League diễn ra tại Stamford Bridge giữa Chelsea và Manchester City, ghi nhận bàn thắng mở tỷ số của Sandy Baltimore và bước ngoặt thẻ đỏ của thủ thành Ayaka Yamashita.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+      "published_at": "2026-11-14T15:19:29+00:00",
+      "fetched_at": "2026-11-14T15:24:48.810947+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận cầu tâm điểm tại sân Stamford Bridge thuộc khuôn khổ giải vô địch bóng đá nữ quốc gia Anh (Women's Super League) diễn ra trong bầu không khí căng thẳng và nhiều tình huống bất ngờ giữa Chelsea và Manchester City.",
+        "Bước ngoặt của hiệp đấu đầu tiên đến vào thời gian bù giờ ở phút 45+4, khi Sandy Baltimore lập công đưa Chelsea vươn lên dẫn trước 1-0 với sự góp mặt của các đồng đội Wieke Kaptein, Ellie Carpenter và Lexi Potter trong pha ăn mừng.",
+        "Bước sang hiệp hai, thế trận tiếp tục giằng co với nhiều cơ hội bị bỏ lỡ từ cả hai phía. Manchester City tiến hành điều chỉnh nhân sự khi đưa Vivianne Miedema và Blindkilde Brown vào sân nhằm tìm kiếm bàn gỡ hòa.",
+        "Tuy nhiên, hy vọng của đội khách gặp thử thách lớn ở phút 75 khi thủ môn Ayaka Yamashita lao ra ngoài vòng cấm để cản phá pha bứt tốc của Alyssa Thompson và phải nhận thẻ đỏ trực tiếp từ trọng tài, buộc Manchester City phải thi đấu với 10 người trên sân.",
+        "Dù có lợi thế hơn người và tạo ra sức ép cùng các tình huống cố định đáng chú ý về cuối trận, Chelsea vẫn duy trì thành quả cách biệt tối thiểu để kiểm soát thế trận cho đến những phút cuối cùng của cuộc đối đầu."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Chelsea đấu Manchester City tại Women's Super League: Diễn biến chính",
+      "meta_description": "Cập nhật diễn biến trận đấu giữa Chelsea và Manchester City tại Women's Super League với bàn thắng của Baltimore và thẻ đỏ của Yamashita.",
+      "keywords": [
+        "Chelsea",
+        "Manchester City",
+        "Women's Super League",
+        "Sandy Baltimore",
+        "Ayaka Yamashita"
+      ],
+      "slug": "chelsea-dan-truoc-manchester-city-trong-the-tran-nhieu-bien-ong-tai-wome-0b46dc90",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 235,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+        "https://www.cbssports.com/soccer/news/uwcl-power-rankings-arsenal-barcelona-manchester-city-real-madrid",
+        "https://www.skysports.com/football/chelsea-women-vs-manchester-city-women/live/575819",
+        "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.cbssports.com/soccer/news/uwcl-power-rankings-arsenal-barcelona-manchester-city-real-madrid",
+        "https://www.skysports.com/football/chelsea-women-vs-manchester-city-women/live/575819",
+        "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T15:19:29+00:00"
+        },
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/uwcl-power-rankings-arsenal-barcelona-manchester-city-real-madrid",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T23:01:42+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/chelsea-women-vs-manchester-city-women/live/575819",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T11:15:00+00:00"
+        },
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T15:25:55+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trận đấu giữa Chelsea và Manchester City diễn ra tại sân Stamford Bridge trong khuôn khổ Women's Super League.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chelsea v Manchester City: Women’s Super League – live | Women's Super League | The GuardianSkip to main contentSkip to navigationSkip to key events",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "snippet": "Chelsea v Manchester City: Women’s Super League – live | Women's Super League | The GuardianSkip to main contentSkip to navigationSkip to key events",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "page_sha256": "80b45a466875222f2103c9d7e2e0f0c29c336a471eda6bdfaeee62027a0a2c3c",
+              "snippet_sha256": "8d9c948523903b18e6040d270912e1cc236e550a3ffb089b0f9444333bbc4f63",
+              "verified_at": "2026-11-14T15:24:48.810310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sandy Baltimore ghi bàn mở tỷ số cho Chelsea ở phút 45+4 của hiệp một.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chelsea 1-0 Manchester City (Baltimore, 45+4 mins)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "snippet": "Chelsea 1-0 Manchester City (Baltimore, 45+4 mins)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "page_sha256": "80b45a466875222f2103c9d7e2e0f0c29c336a471eda6bdfaeee62027a0a2c3c",
+              "snippet_sha256": "88e283f01d00da88ef15b4148f1a079b7ef5d559c232dffe344822d0a62b7f14",
+              "verified_at": "2026-11-14T15:24:48.810310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ môn Ayaka Yamashita của Manchester City nhận thẻ đỏ ở phút 75 sau tình huống tranh chấp với Alyssa Thompson.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "View image in fullscreenManchester City's Ayaka Yamashita fells Chelsea’s Alyssa Thompson miles out of her area.Photograph: John Sibley/Action Images/ReutersView image in fullscreenAnd is heading off for an early bath.Photograph: John Sibley/Action Images/Reuters",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "snippet": "View image in fullscreenManchester City's Ayaka Yamashita fells Chelsea’s Alyssa Thompson miles out of her area.Photograph: John Sibley/Action Images/ReutersView image in fullscreenAnd is heading off for an early bath.Photograph: John Sibley/Action Images/Reuters",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "page_sha256": "80b45a466875222f2103c9d7e2e0f0c29c336a471eda6bdfaeee62027a0a2c3c",
+              "snippet_sha256": "da153ac6f2d4858bcda068f48ad7a1c0e5f27e1f51f0360fb48d974c34965391",
+              "verified_at": "2026-11-14T15:24:48.810310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Manchester City tung Vivianne Miedema và Blindkilde Brown vào sân thay người trong hiệp hai.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "City hope to change things with a double substitution, taking off Fowler and Coffey and bringing on Blindkilde Brown and Vivianne Miedema.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "snippet": "City hope to change things with a double substitution, taking off Fowler and Coffey and bringing on Blindkilde Brown and Vivianne Miedema.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/14/chelsea-v-man-city-womens-super-league-live",
+              "page_sha256": "80b45a466875222f2103c9d7e2e0f0c29c336a471eda6bdfaeee62027a0a2c3c",
+              "snippet_sha256": "8fa837094ccc646db6c3ef424e43d941cab13d50ac4591b7b4b70539f5fc6622",
+              "verified_at": "2026-11-14T15:24:48.810310+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt chiến thuật và tình huống thẻ đỏ quyết định cục diện trận đấu. Phân tích chi tiết chuỗi diễn biến hiệp hai giúp độc giả nắm bắt toàn cảnh áp lực mà hai đội tạo ra.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T15:24:48.811002+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "4",
+        "45",
+        "75"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T15:24:48.811848+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 235,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1126
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cbssports.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "minnesota-vikings-xac-nhan-kirk-cousins-da-chinh-o-tuan-10-24576a60",
+    "status": "READY",
+    "prepared_at": "2026-11-14T15:24:44.569748+00:00",
+    "expires_at": "2026-11-15T15:24:44.569748+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+      "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders"
+    ],
+    "article": {
+      "id": "minnesota-vikings-xac-nhan-kirk-cousins-da-chinh-o-tuan-10-24576a60",
+      "title": "Minnesota Vikings xac nhan Kirk Cousins da chinh o Tuan 10",
+      "summary": "Huan luyen vien truong Kevin O'Connell thong bao quarterback Kirk Cousins se bat chinh trong tran dau gap Green Bay Packers sau khi chuyen den tu Las Vegas Raiders.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+      "published_at": "2026-11-13T21:16:44+00:00",
+      "fetched_at": "2026-11-14T15:24:53.734149+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cau thu quarterback Kirk Cousins se chinh thuc ra san trong doi hinh xuat phat cua Minnesota Vikings o tran dau Tuan 10 gap Green Bay Packers vao chu nhat toi. Thong tin nay duoc huan luyen vien truong Kevin O'Connell cong bo sau buoi tap cuoi tuan.",
+        "Truoc do, Minnesota Vikings da chiu ap luc lon sau khi co chuoi thanh tich sa sut va hieu suat thi dau kem tu Carson Wentz khi Kyler Murray dac biet vang mat vi chan thuong. Doi bong da quyet dinh thuc hien thuong vu trao doi voi Las Vegas Raiders de dua Cousins tro lai.",
+        "Viec Kirk Cousins kip thoi thich nghi voi he thong chien thuat trong thoi gian ngan giup ban huan luyen vien an tam giao trong trach. Trong boi canh T.J. Hockenson khong the thi dau, Cousins duoc ky vong se phoi hop chat che cung bo doi wide receiver Jordan Addison va Justin Jefferson de doi dau voi hang thu Green Bay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vikings xac nhan Kirk Cousins da chinh o Tuan 10 gap Packers",
+      "meta_description": "Minnesota Vikings xac nhan Kirk Cousins se la quarterback da chinh trong tran dau Tuan 10 voi Green Bay Packers.",
+      "keywords": [
+        "Minnesota Vikings",
+        "Kirk Cousins",
+        "Green Bay Packers",
+        "NFL",
+        "Tuan 10"
+      ],
+      "slug": "minnesota-vikings-xac-nhan-kirk-cousins-da-chinh-o-tuan-10-24576a60",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 166,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+        "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders"
+      ],
+      "source_links": [
+        "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T21:16:44+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T20:08:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vikings xac nhan Kirk Cousins se bat chinh o Tuan 10 gap Green Bay Packers",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf"
+          ],
+          "importance": "core",
+          "evidence_snippet": "As theVikings announced Fridayafternoon, Cousins is good to go and will be the team's Week 10 starting quarterback when the 6-2 Vikings face off against theGreen Bay Packers.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+              "snippet": "As theVikings announced Fridayafternoon, Cousins is good to go and will be the team's Week 10 starting quarterback when the 6-2 Vikings face off against theGreen Bay Packers.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+              "page_sha256": "0b77186f1c5c5e109e3ccce142d79a86950a3677d6736d6cc7f583335e0c3650",
+              "snippet_sha256": "c3efb278c2350a66537bf14b5cd0394e777c7e93f60bc263eb399716c7aa6f19",
+              "verified_at": "2026-11-14T15:24:53.733919+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Huan luyen vien Kevin O'Connell thong bao thong tin nay vao ngay thu sau",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "\"Head Coach Kevin O'Connell has announced that QB Kirk Cousins will start Sunday at Green Bay,\" the Vikings announced Friday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+              "snippet": "\"Head Coach Kevin O'Connell has announced that QB Kirk Cousins will start Sunday at Green Bay,\" the Vikings announced Friday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/minnesota-vikings/news/vikings-announce-kirk-cousins-starting-news-week-10-packers/35ddd7441affdb6a5569c3cf",
+              "page_sha256": "0b77186f1c5c5e109e3ccce142d79a86950a3677d6736d6cc7f583335e0c3650",
+              "snippet_sha256": "9a7e975f9f8ccaef14caf0b78d5d059f735874665dacd356deb2c63a9b3a50f4",
+              "verified_at": "2026-11-14T15:24:53.733919+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Minnesota Vikings trao doi voi Las Vegas Raiders de chiêu mo lai Kirk Cousins",
+          "source_urls": [
+            "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Minnesota Vikings have re-signed quarterback Kirk Cousins in a trade with the Las Vegas Raiders in order to improve their offense.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders",
+              "snippet": "The Minnesota Vikings have re-signed quarterback Kirk Cousins in a trade with the Las Vegas Raiders in order to improve their offense.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13610762/kirk-cousins-minnesota-vikings-reportedly-re-sign-quarterback-from-las-vegas-raiders",
+              "page_sha256": "40cceba8b983387885eaa0c1f39f6363d820a5fd1305628c2a805d86e780360b",
+              "snippet_sha256": "6dce54842a411b00ecedf1dab69e55f5c778b6cfd88bf381a3e441388007bf9e",
+              "verified_at": "2026-11-14T15:24:53.733919+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet lam ro quyet dinh xep Kirk Cousins da chinh ngay trong tuan dau tien gia nhap Minnesota Vikings. Dong thoi, phan tich boi canh khung hoang vi tri quarterback va tinh hinh nhan su cua doi bong truoc them tran gap Green Bay Packers.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T15:24:53.734183+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T15:24:53.734544+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 166,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 840
+        },
+        "independent_domains": [
+          "skysports.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
+    "status": "READY",
+    "prepared_at": "2026-11-14T15:24:44.569748+00:00",
+    "expires_at": "2026-11-15T15:24:44.569748+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+      "https://thanhnien.vn/sao-tre-hagl-minh-tam-noi-gi-sau-ban-thang-quy-hon-vang-giup-u23-viet-nam-vo-dich-185261114213559538.htm",
+      "https://dantri.com.vn/the-thao/hoa-u23-qatar-u23-viet-nam-gianh-chuc-vo-dich-giai-giao-huu-quoc-te-20261114182443618.htm"
+    ],
+    "article": {
+      "id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
+      "title": "Ông Hun Sen: Thành tựu của Việt Nam là cơ hội phát triển cho Campuchia",
+      "summary": "Trong cuộc hội kiến tại Phnom Penh, Chủ tịch Thượng viện Campuchia Hun Sen nhấn mạnh thành tựu của Việt Nam cũng chính là cơ hội phát triển cho Campuchia, đồng thời đánh giá cao mối quan hệ hữu nghị truyền thống giữa hai nước.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+      "published_at": "2026-11-14T13:36:00+00:00",
+      "fetched_at": "2026-11-14T15:24:58.719331+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Theo thông tin từ Bộ Ngoại giao, ngày 14-11, nhân dịp tham dự Hội nghị cấp cao Pháp ngữ lần thứ 20 tại Phnom Penh, Tổng Bí thư, Chủ tịch nước Tô Lâm đã có cuộc hội kiến với Chủ tịch Đảng Nhân dân Campuchia, Chủ tịch Thượng viện Campuchia Hun Sen. Tại cuộc gặp, hai nhà lãnh đạo đã trao đổi sâu rộng về định hướng chiến lược nhằm thắt chặt hơn nữa quan hệ song phương trong giai đoạn mới.",
+        "Chúc mừng những bước tiến quan trọng của Việt Nam, Chủ tịch Hun Sen nhấn mạnh rằng thành tựu của Việt Nam cũng chính là thành tựu và cơ hội phát triển cho Campuchia. Ông bày tỏ niềm tin vững chắc rằng Việt Nam sẽ thực hiện thắng lợi các mục tiêu phát triển trong giai đoạn mới, đồng thời khẳng định Campuchia luôn ghi nhớ sự giúp đỡ quý báu của Việt Nam trong sự nghiệp giải phóng dân tộc cũng như công cuộc xây dựng đất nước.",
+        "Đáp lời, Tổng Bí thư, Chủ tịch nước Tô Lâm đánh giá cao những đóng góp to lớn của ông Hun Sen đối với sự phát triển của Campuchia cũng như quan hệ hai nước. Lãnh đạo Việt Nam khẳng định luôn ủng hộ một Campuchia hòa bình, ổn định và tin tưởng nước này sẽ tổ chức thành công Hội nghị cấp cao Pháp ngữ lần thứ 20, góp phần nâng cao vị thế quốc tế.",
+        "Về phương hướng hợp tác, hai bên nhất trí tiếp tục duy trì tiếp xúc cấp cao, nâng cao chất lượng hợp tác kinh tế, thương mại biên giới, kết nối hạ tầng giao thông và thúc đẩy các dự án trọng điểm. Hai nhà lãnh đạo cũng nhấn mạnh tầm quan trọng của việc củng cố quốc phòng, an ninh biên giới, kiên trì nguyên tắc không để thế lực nào dùng lãnh thổ nước này chống phá nước kia, đồng thời hướng tới các hoạt động thiết thực kỷ niệm 60 năm thiết lập quan hệ ngoại giao vào năm 2027."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ông Hun Sen: Thành tựu của Việt Nam là cơ hội phát triển cho Campuchia",
+      "meta_description": "Chủ tịch Thượng viện Campuchia Hun Sen khẳng định thành tựu của Việt Nam là cơ hội phát triển cho Campuchia trong cuộc hội kiến Tổng Bí thư, Chủ tịch nước Tô Lâ",
+      "keywords": [
+        "Hun Sen",
+        "Tô Lâm",
+        "Việt Nam Campuchia",
+        "Pháp ngữ",
+        "quan hệ song phương"
+      ],
+      "slug": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 351,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+        "https://thanhnien.vn/sao-tre-hagl-minh-tam-noi-gi-sau-ban-thang-quy-hon-vang-giup-u23-viet-nam-vo-dich-185261114213559538.htm",
+        "https://dantri.com.vn/the-thao/hoa-u23-qatar-u23-viet-nam-gianh-chuc-vo-dich-giai-giao-huu-quoc-te-20261114182443618.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/sao-tre-hagl-minh-tam-noi-gi-sau-ban-thang-quy-hon-vang-giup-u23-viet-nam-vo-dich-185261114213559538.htm",
+        "https://dantri.com.vn/the-thao/hoa-u23-qatar-u23-viet-nam-gianh-chuc-vo-dich-giai-giao-huu-quoc-te-20261114182443618.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T13:36:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/sao-tre-hagl-minh-tam-noi-gi-sau-ban-thang-quy-hon-vang-giup-u23-viet-nam-vo-dich-185261114213559538.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T14:42:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/hoa-u23-qatar-u23-viet-nam-gianh-chuc-vo-dich-giai-giao-huu-quoc-te-20261114182443618.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T11:24:57+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ngày 14-11, nhân dịp tham dự Hội nghị cấp cao Pháp ngữ lần thứ 20 tại Phnom Penh, Tổng Bí thư, Chủ tịch nước Tô Lâm đã hội kiến Chủ tịch Đảng Nhân dân Campuchia, Chủ tịch Thượng viện Campuchia Hun Sen.",
+          "source_urls": [
+            "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo thông tin từ Bộ Ngoại giao, ngày 14-11, nhân dịp tham dự Hội nghị cấp cao Pháp ngữ lần thứ 20 tại Phnom Penh,Tổng Bí thư, Chủ tịch nước Tô Lâmđã có cuộc hội kiến với Chủ tịch Đảng Nhân dân Campuchia, Chủ tịch Thượng viện Campuchia Hun Sen.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+              "snippet": "Theo thông tin từ Bộ Ngoại giao, ngày 14-11, nhân dịp tham dự Hội nghị cấp cao Pháp ngữ lần thứ 20 tại Phnom Penh,Tổng Bí thư, Chủ tịch nước Tô Lâmđã có cuộc hội kiến với Chủ tịch Đảng Nhân dân Campuchia, Chủ tịch Thượng viện Campuchia Hun Sen.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+              "page_sha256": "4988c444a391d66ea6ba369d8b7f259d789a07aa101e8acd6c4d261687e82fed",
+              "snippet_sha256": "321d53721ca8029c404305027c233f8740b9c781b9d4a10a8332321fe0dde78e",
+              "verified_at": "2026-11-14T15:24:58.718875+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Hun Sen nhấn mạnh thành tựu của Việt Nam cũng chính là thành tựu và cơ hội phát triển cho Campuchia, đồng thời trân trọng sự giúp đỡ của Việt Nam.",
+          "source_urls": [
+            "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chúc mừng những thành tựu quan trọng mà Việt Nam đã đạt được, ông Hun Sen nhấn mạnh thành tựu của Việt Nam cũng chính là thành tựu và cơ hội phát triển cho Campuchia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+              "snippet": "Chúc mừng những thành tựu quan trọng mà Việt Nam đã đạt được, ông Hun Sen nhấn mạnh thành tựu của Việt Nam cũng chính là thành tựu và cơ hội phát triển cho Campuchia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+              "page_sha256": "4988c444a391d66ea6ba369d8b7f259d789a07aa101e8acd6c4d261687e82fed",
+              "snippet_sha256": "6bf49d3ad0e6f1a5c8486aa95a161b28d90180643b2ad9db929453458176fb42",
+              "verified_at": "2026-11-14T15:24:58.718875+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hai bên nhất trí phát huy vai trò định hướng chiến lược, thúc đẩy kết nối kinh tế, hạ tầng giao thông, thương mại biên giới và củng cố hợp tác quốc phòng an ninh.",
+          "source_urls": [
+            "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Hai nước sẽ thúc đẩy gắn kết chặt chẽ hơn giữa hai nền kinh tế, trong đó ưu tiên kết nối hạ tầng giao thông chiến lược, tạo thuận lợi cho thương mại biên giới, đẩy mạnh hợp tác đầu tư, năng lượng, nhất là cao su, lúa gạo, y tế, ngân hàng, chuyển đổi số và giáo dục - đào tạo.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+              "snippet": "Hai nước sẽ thúc đẩy gắn kết chặt chẽ hơn giữa hai nền kinh tế, trong đó ưu tiên kết nối hạ tầng giao thông chiến lược, tạo thuận lợi cho thương mại biên giới, đẩy mạnh hợp tác đầu tư, năng lượng, nhất là cao su, lúa gạo, y tế, ngân hàng, chuyển đổi số và giáo dục - đào tạo.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ong-hun-sen-thanh-tuu-cua-viet-nam-cung-la-thanh-tuu-va-co-hoi-phat-trien-cho-campuchia-100261114195026461.htm",
+              "page_sha256": "4988c444a391d66ea6ba369d8b7f259d789a07aa101e8acd6c4d261687e82fed",
+              "snippet_sha256": "c02b37b23f53fe5225901f3a5ee6d73f4ed7dc80004cb8c2333e3727fd33511d",
+              "verified_at": "2026-11-14T15:24:58.718875+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh cuộc gặp cấp cao giữa hai nhà lãnh đạo nhân dịp tham dự Hội nghị Pháp ngữ tại Phnom Penh. Phân tích các trụ cột hợp tác chiến lược từ kinh tế đến an ninh biên giới và định hướng kỷ niệm 60 năm ngoại giao.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-14T15:24:58.719399+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "20",
+        "2027",
+        "60"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-14T15:24:58.720266+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 351,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1636
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
