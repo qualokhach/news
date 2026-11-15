@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "82bb217a933e430edd86",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:55.296900+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "technology",
@@ -880,11 +880,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:55.296919+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "spacex-at-uoc-thanh-tuu-lon-voi-viec-bat-uoc-tang-thuong-cua-starship-9c91fa0d"
   },
   {
     "queue_id": "943c3d0b088a6c6d91f3",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:51.646747+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "technology",
@@ -1488,11 +1489,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:51.646769+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4"
   },
   {
     "queue_id": "24a7656ba637a358149f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:49.476846+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "sports",
@@ -2091,7 +2093,8 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:49.476868+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hannah-hidalgo-lap-cot-moc-lich-su-voi-pha-cuop-bong-thu-500-b8f6d03b"
   },
   {
     "queue_id": "67818415170002340fc9",
@@ -82077,5 +82080,683 @@
     "research_ready_at": "2026-11-09T19:14:28.789110+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "anthropic-ra-mat-bo-oi-mo-hinh-ai-claude-5-2-truoc-them-ipo-6e2e087a"
+  },
+  {
+    "queue_id": "spacex-at-uoc-thanh-tuu-lon-voi-viec-bat-uoc-tang-thuong-cua-starship-9c91fa0d",
+    "status": "READY",
+    "prepared_at": "2026-11-15T01:22:15.204243+00:00",
+    "expires_at": "2026-11-16T01:22:15.204243+00:00",
+    "source_urls": [
+      "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+      "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
+      "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+      "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+      "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time"
+    ],
+    "article": {
+      "id": "spacex-at-uoc-thanh-tuu-lon-voi-viec-bat-uoc-tang-thuong-cua-starship-9c91fa0d",
+      "title": "SpaceX Đạt Được Thành Tựu Lớn Với Việc Bắt Được Tầng Thượng Của Starship",
+      "summary": "Công ty SpaceX của Elon Musk vừa đạt được một thành tựu lớn khi bắt được tầng thượng của tàu vũ trụ Starship sau khi nó hoàn thành chuyến bay vào vũ trụ. Đây là một bước tiến quan trọng trong việc phát triển công nghệ tái sử dụng tàu vũ trụ.",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+      "published_at": "2026-11-15T00:40:59+00:00",
+      "fetched_at": "2026-11-15T01:22:59.573710+00:00",
+      "appnho_published_at": "",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "SpaceX, công ty công nghệ hàng không vũ trụ của Elon Musk, vừa đạt được một thành tựu lớn khi bắt được tầng thượng của tàu vũ trụ Starship sau khi nó hoàn thành chuyến bay vào vũ trụ. Đây là một bước tiến quan trọng trong việc phát triển công nghệ tái sử dụng tàu vũ trụ, giúp giảm chi phí và tăng cường hiệu quả cho các chuyến bay vào vũ trụ.",
+        "Chuyến bay của Starship bắt đầu từ căn cứ Starbase ở Texas, Hoa Kỳ, và sau khi hoàn thành nhiệm vụ, tầng thượng của tàu vũ trụ đã được bắt bởi các cánh tay cơ học của tháp phóng. Đây là lần đầu tiên SpaceX thực hiện thành công việc bắt tầng thượng của Starship, đánh dấu một bước tiến quan trọng trong việc phát triển công nghệ tái sử dụng tàu vũ trụ.",
+        "Thành tựu này của SpaceX không chỉ giúp công ty tiết kiệm chi phí và tăng cường hiệu quả cho các chuyến bay vào vũ trụ, mà còn mở ra khả năng cho các chuyến bay tái sử dụng trong tương lai. Với công nghệ tái sử dụng, SpaceX có thể giảm thiểu chi phí và thời gian cần thiết để chuẩn bị cho các chuyến bay mới, giúp tăng cường tần suất và hiệu quả cho các hoạt động khám phá vũ trụ.",
+        "Ngoài ra, thành tựu này cũng giúp SpaceX tiến gần hơn đến mục tiêu của mình, đó là giảm chi phí và tăng cường hiệu quả cho các chuyến bay vào vũ trụ. Công ty đang hướng tới việc phát triển một hệ thống tàu vũ trụ tái sử dụng có thể thực hiện nhiều chuyến bay vào vũ trụ mà không cần phải thay thế hoặc sửa chữa lớn.",
+        "Tóm lại, việc bắt được tầng thượng của Starship là một thành tựu lớn của SpaceX, đánh dấu một bước tiến quan trọng trong việc phát triển công nghệ tái sử dụng tàu vũ trụ. Thành tựu này sẽ giúp công ty tiết kiệm chi phí, tăng cường hiệu quả và tiến gần hơn đến mục tiêu của mình trong việc khám phá vũ trụ."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "SpaceX Đạt Được Thành Tựu Lớn Với Việc Bắt Được Tầng Thượng Của Starsh",
+      "meta_description": "SpaceX vừa đạt được một thành tựu lớn khi bắt được tầng thượng của tàu vũ trụ Starship sau khi nó hoàn thành chuyến bay vào vũ trụ.",
+      "keywords": [
+        "SpaceX",
+        "Starship",
+        "tái sử dụng",
+        "vũ trụ"
+      ],
+      "slug": "spacex-at-uoc-thanh-tuu-lon-voi-viec-bat-uoc-tang-thuong-cua-starship-9c91fa0d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 367,
+      "display_source": true,
+      "source_urls": [
+        "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+        "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
+        "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+        "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+        "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
+        "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+        "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+        "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time"
+      ],
+      "source_references": [
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T00:40:59+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T00:14:22+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T22:35:06+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T21:42:41+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T20:54:14+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "SpaceX đã bắt được tầng thượng của Starship sau khi nó hoàn thành chuyến bay vào vũ trụ.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world"
+          ],
+          "importance": "core",
+          "evidence_snippet": "SpaceX has now returned both elements of a Starship rocket safely to its launch tower.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "snippet": "SpaceX has now returned both elements of a Starship rocket safely to its launch tower.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "page_sha256": "376ab9b4d3d826b34cb0254c8594a3226252a91e5ef6aba995972ab8ad2cb428",
+              "snippet_sha256": "97c7b04bda5da5519aa6f2420f6ae079ffba4b76e0e689d9b39bb7413193d521",
+              "verified_at": "2026-11-15T01:22:59.573008+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là lần đầu tiên SpaceX thực hiện thành công việc bắt tầng thượng của Starship.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "SpaceX has five Starships in an advanced state of development at Starbase today; and its factory houses the components for a dozen more.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "snippet": "SpaceX has five Starships in an advanced state of development at Starbase today; and its factory houses the components for a dozen more.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "page_sha256": "376ab9b4d3d826b34cb0254c8594a3226252a91e5ef6aba995972ab8ad2cb428",
+              "snippet_sha256": "11a141715922fbf7c45ce252e3f3bb0ff894094deb3c70bb11e320632cbbb374",
+              "verified_at": "2026-11-15T01:22:59.573008+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thành tựu này của SpaceX sẽ giúp công ty tiết kiệm chi phí và tăng cường hiệu quả cho các chuyến bay vào vũ trụ.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Eric BergerSenior Space EditorEric BergerSenior Space EditorEric Berger is the senior space editor at Ars Technica, covering everything from astronomy to private space to NASA policy, and author of two books:Liftoff, about the rise of SpaceX; andReentry, on the development of the Falcon 9 rocket and Dragon.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "snippet": "Eric BergerSenior Space EditorEric BergerSenior Space EditorEric Berger is the senior space editor at Ars Technica, covering everything from astronomy to private space to NASA policy, and author of two books:Liftoff, about the rise of SpaceX; andReentry, on the development of the Falcon 9 rocket and Dragon.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "page_sha256": "376ab9b4d3d826b34cb0254c8594a3226252a91e5ef6aba995972ab8ad2cb428",
+              "snippet_sha256": "c1b137c9d7dfba7a01a8f514ccd86afa52b69dfbd5a1d889aac22485f7c4d8d9",
+              "verified_at": "2026-11-15T01:22:59.573008+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp một cái nhìn tổng quan về thành tựu của SpaceX trong việc bắt được tầng thượng của Starship, và phân tích ý nghĩa của thành tựu này trong việc phát triển công nghệ tái sử dụng tàu vũ trụ. Bài viết cũng giúp độc giả hiểu rõ hơn về mục tiêu và hướng đi của SpaceX trong việc khám phá vũ trụ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T01:22:59.573836+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-15T01:22:59.575338+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 367,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1694
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "arstechnica.com",
+          "engadget.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
+    "status": "READY",
+    "prepared_at": "2026-11-15T01:22:15.204243+00:00",
+    "expires_at": "2026-11-16T01:22:15.204243+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+      "https://www.cnbc.com/2026/11/12/medical-bills-credit-card-debt.html",
+      "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage"
+    ],
+    "article": {
+      "id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
+      "title": "Bằng chế mới của Sony hé lộ khả năng thanh toán và truyền tải thông tin qua tay cầm PlayStation",
+      "summary": "Một hồ sơ sáng chế năm 2025 của Sony cho thấy hãng đang nghiên cứu công nghệ truyền tải dữ liệu và thanh toán trực tiếp thông qua tay cầm PlayStation bằng thiết bị di động gần kề.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+      "published_at": "2026-11-15T00:45:00+00:00",
+      "fetched_at": "2026-11-15T01:23:05.672436+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sony vừa có động thái mới nhằm đơn giản hóa trải nghiệm mua sắm kỹ thuật số của người dùng thông qua một hồ sơ sáng chế tạm thời được đệ trình vào năm 2025. Tài liệu này mang tiêu đề truyền tải thông tin điều khiển bằng trò chơi điện tử, phác thảo phương thức kết nối giữa tay cầm PlayStation với các thiết bị di động ở gần như điện thoại thông minh để truyền thông tin tài khoản hoặc chi tiết thanh toán tới máy chơi game.",
+        "Theo nội dung sáng chế, tay cầm có khả năng phát hiện thiết bị lân cận thông qua công nghệ kết nối Bluetooth, NFC hoặc kết hợp cả hai phương thức này. Khi xảy ra một sự kiện cụ thể tại máy chơi game như mua trò chơi, nhập thẻ quà tặng hay tham gia trận đấu trực tuyến, thiết bị di động sẽ nhận tín hiệu, gửi xác nhận ngược lại cho tay cầm và từ đó chuyển tiếp dữ liệu đến hệ thống console.",
+        "Công nghệ giao tiếp tầm ngắn NFC từ lâu đã quen thuộc trên các dòng điện thoại thông minh và đồng hồ thông minh để thực hiện thanh toán không tiếp xúc. Trong lĩnh vực trò chơi điện tử, các bộ điều khiển tích hợp NFC không phải là điều hoàn toàn mới mẻ khi dòng máy Wii U GamePad và Nintendo Switch Pro Controller từng ứng dụng công nghệ tương tự để quét thẻ amiibo.",
+        "Việc thao tác qua các menu thanh toán rườm rà hay phải thủ công nhập thông tin thẻ bằng tay cầm truyền thống từ lâu đã gây ra không ít phiền hà cho cộng đồng game thủ. Giải pháp chạm thiết bị di động để xử lý giao dịch được kỳ vọng sẽ hạn chế tình trạng người dùng bỏ dở giỏ hàng do mất thời gian tìm kiếm thẻ hoặc nhập liệu qua bàn phím ảo.",
+        "Bên cạnh tính năng thanh toán một chạm, các sơ đồ trong hồ sơ sáng chế còn cho thấy tiềm năng mở rộng sang khả năng đăng nhập tài khoản PlayStation. Dù đây mới chỉ là một tài liệu sáng chế và chưa có gì đảm bảo tính năng này sẽ được thương mại hóa, những định hướng này phản ánh nỗ lực của Sony trong việc tối ưu hóa trải nghiệm người dùng trong kỷ nguyên số."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Sáng chế tay cầm PlayStation mới của Sony hỗ trợ thanh toán",
+      "meta_description": "Tìm hiểu về hồ sơ sáng chế mới của Sony giúp tay cầm PlayStation tương tác với thiết bị di động để thanh toán và đăng nhập tài khoản.",
+      "keywords": [
+        "Sony",
+        "PlayStation",
+        "tay cầm game",
+        "sáng chế",
+        "NFC"
+      ],
+      "slug": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 407,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+        "https://www.cnbc.com/2026/11/12/medical-bills-credit-card-debt.html",
+        "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/12/medical-bills-credit-card-debt.html",
+        "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T00:45:00+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/12/medical-bills-credit-card-debt.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T13:15:02+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T16:23:31+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sony đã nộp một hồ sơ sáng chế tạm thời vào năm 2025 có tiêu đề Video game controller-driven information transfer liên quan đến việc truyền tải thông tin qua tay cầm.",
+          "source_urls": [
+            "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Now, a provisional patent that Sony filed in 2025, titled \"Video game controller-driven information transfer,\" suggests it's removing another step in the process.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+              "snippet": "Now, a provisional patent that Sony filed in 2025, titled \"Video game controller-driven information transfer,\" suggests it's removing another step in the process.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+              "page_sha256": "3f2936bdead8467bc00fa02da60be09e06209d4b0b30209301f56395a331c6b7",
+              "snippet_sha256": "e692e0840e964fa2cac39fd78529e5c3281990806f76df316a197547618b6ab7",
+              "verified_at": "2026-11-15T01:23:05.671939+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tay cầm có thể phát hiện các thiết bị lân cận như điện thoại thông qua NFC, kết nối Bluetooth hoặc cả hai để gửi thông tin thanh toán hoặc tài khoản tới máy chơi game.",
+          "source_urls": [
+            "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Clicking around through payment menus and adding your card detailsusing a PlayStation controlleris a grievance for countless gamers, so this seamless, user-friendly process makes buying games, DLC or virtually anything from the PlayStation Store more beneficial for both parties.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+              "snippet": "Clicking around through payment menus and adding your card detailsusing a PlayStation controlleris a grievance for countless gamers, so this seamless, user-friendly process makes buying games, DLC or virtually anything from the PlayStation Store more beneficial for both parties.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+              "page_sha256": "3f2936bdead8467bc00fa02da60be09e06209d4b0b30209301f56395a331c6b7",
+              "snippet_sha256": "5f672e437bcaa22813f33e543a0d4385e1da6065930f79f52c4a6068f0277906",
+              "verified_at": "2026-11-15T01:23:05.671939+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cả Wii U GamePad và Nintendo Switch Pro Controller đều từng sử dụng công nghệ tiệm cận dựa trên NFC để quét amiibo.",
+          "source_urls": [
+            "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Outside of that, NFC-capable controllers are not fully novel, as both the Wii U GamePad and Nintendo Switch Pro Controller use this proximity-based tech to scan amiibos.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+              "snippet": "Outside of that, NFC-capable controllers are not fully novel, as both the Wii U GamePad and Nintendo Switch Pro Controller use this proximity-based tech to scan amiibos.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader",
+              "page_sha256": "3f2936bdead8467bc00fa02da60be09e06209d4b0b30209301f56395a331c6b7",
+              "snippet_sha256": "8b1fac1cc742bbd275fecbf4c5b5de316636a1705fc5c320059031cfa9b0e80b",
+              "verified_at": "2026-11-15T01:23:05.671939+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích chi tiết cơ chế kỹ thuật và ý nghĩa thực tiễn của hồ sơ sáng chế tay cầm PlayStation mới do Sony đệ trình. Nội dung làm rõ công nghệ NFC và Bluetooth được áp dụng ra sao để giải quyết sự phiền hà trong quá trình thanh toán số của game thủ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T01:23:05.672557+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2025"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-15T01:23:05.673870+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 407,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1877
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "hannah-hidalgo-lap-cot-moc-lich-su-voi-pha-cuop-bong-thu-500-b8f6d03b",
+    "status": "READY",
+    "prepared_at": "2026-11-15T01:22:15.204243+00:00",
+    "expires_at": "2026-11-16T01:22:15.204243+00:00",
+    "source_urls": [
+      "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+      "https://www.sportingnews.com/us/ncaa-football/news/watch-jason-benettis-tribute-late-dan-hicks-notre-dame/2029884664c4dcf0184c5ede"
+    ],
+    "article": {
+      "id": "hannah-hidalgo-lap-cot-moc-lich-su-voi-pha-cuop-bong-thu-500-b8f6d03b",
+      "title": "Hannah Hidalgo lập cột mốc lịch sử với pha cướp bóng thứ 500",
+      "summary": "Hannah Hidalgo ghi dấu ấn lịch sử khi trở thành cầu thủ đầu tiên tại giải bóng rổ nữ NCAA đạt mốc 2.000 điểm và 500 pha cướp bóng kể từ mùa giải 1987-88.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+      "published_at": "2026-11-15T00:49:24+00:00",
+      "fetched_at": "2026-11-15T01:23:11.309183+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong khuôn khổ giải đấu Shamrock Classic diễn ra vào thứ Bảy, ngôi sao Hannah Hidalgo đã có màn trình diễn ấn tượng để dẫn dắt đội bóng rổ nữ Notre Dame (xếp hạng 13) giành chiến thắng thuyết phục 108-84 trước DePaul.",
+        "Trận đấu này đánh dấu cột mốc lịch sử cá nhân của Hidalgo khi cô ghi được 31 điểm, 7 pha bắt bóng bật bảng, 7 kiến tạo, 2 pha cản bóng và đặc biệt là pha cướp bóng thứ 500 trong sự nghiệp thi đấu của mình.",
+        "Theo thống kê từ ESPN Research, với việc hoàn tất 4 pha cướp bóng trong trận, Hidalgo chính thức trở thành nữ cầu thủ thứ năm trong lịch sử NCAA Division I đạt mốc 500 pha cướp bóng sự nghiệp.",
+        "Đáng chú ý hơn, cô cũng là cầu thủ đầu tiên trong lịch sử bóng rổ Division I đạt được thông số từ 2.000 điểm sự nghiệp trở lên kết hợp với ít nhất 500 pha cướp bóng kể từ khi chỉ số cướp bóng được tính thức từ mùa giải 1987-88.",
+        "Hỗ trợ cho Hidalgo trong chiến thắng này là màn tỏa sáng của các đồng đội như Leah Macy với 24 điểm cùng 9 pha bắt bóng bật bảng, giúp Notre Dame duy trì mạch trận ấn tượng trong giai đoạn đầu mùa giải năm nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hannah Hidalgo lập kỷ lục 500 pha cướp bóng tại NCAA",
+      "meta_description": "Hannah Hidalgo dẫn dắt Notre Dame giành chiến thắng trước DePaul, đồng thời thiết lập cột mốc lịch sử chưa từng có tại bóng rổ đại học nữ.",
+      "keywords": [
+        "Hannah Hidalgo",
+        "Notre Dame",
+        "NCAA",
+        "bóng rổ nữ đại học",
+        "Shamrock Classic"
+      ],
+      "slug": "hannah-hidalgo-lap-cot-moc-lich-su-voi-pha-cuop-bong-thu-500-b8f6d03b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 229,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+        "https://www.sportingnews.com/us/ncaa-football/news/watch-jason-benettis-tribute-late-dan-hicks-notre-dame/2029884664c4dcf0184c5ede"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/ncaa-football/news/watch-jason-benettis-tribute-late-dan-hicks-notre-dame/2029884664c4dcf0184c5ede"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T00:49:24+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/watch-jason-benettis-tribute-late-dan-hicks-notre-dame/2029884664c4dcf0184c5ede",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T21:57:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hannah Hidalgo ghi 31 điểm, 7 rebound, 7 kiến tạo, 2 block và có pha cướp bóng thứ 500 trong sự nghiệp giúp Notre Dame thắng DePaul 108-84 tại Shamrock Classic.",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club"
+          ],
+          "importance": "core",
+          "evidence_snippet": "13 Notre Dame to a 108-84 win over DePaul in the Shamrock Classic on Saturday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+              "snippet": "13 Notre Dame to a 108-84 win over DePaul in the Shamrock Classic on Saturday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+              "page_sha256": "5e97a0ace5d125bd4ceec8638428e08e277e54d639b870a8d8eea76eed44ee06",
+              "snippet_sha256": "a0d1ce4eb2d782710a209151632bb791a19bf9091d19752ca0eb66c3d3605f9d",
+              "verified_at": "2026-11-15T01:23:11.308613+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hidalgo là nữ cầu thủ Division I thứ năm đạt 500 pha cướp bóng sự nghiệp và là người đầu tiên có tối thiểu 2.000 điểm cùng 500 pha cướp bóng kể từ mùa giải 1987-88.",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hildalgo had four steals to become the fifth Division I female to reach 500 career steals and the first player in Division I basketball with at least 2,000 career points and 500 steals since steals became an official stat in 1987-88, according to ESPN Research.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+              "snippet": "Hildalgo had four steals to become the fifth Division I female to reach 500 career steals and the first player in Division I basketball with at least 2,000 career points and 500 steals since steals became an official stat in 1987-88, according to ESPN Research.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+              "page_sha256": "5e97a0ace5d125bd4ceec8638428e08e277e54d639b870a8d8eea76eed44ee06",
+              "snippet_sha256": "57c57a48e301adf6cec50d456838a5a2fc279b62e9ca28e7c855329616153e49",
+              "verified_at": "2026-11-15T01:23:11.308613+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Leah Macy đóng góp 24 điểm với hiệu suất ném 10/13 và 9 rebound cho Notre Dame, trong khi Kate Clarke dẫn đầu DePaul với 20 điểm.",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Kate Clarkehad 20 points to lead DePaul (3-1).Gina Davorijahad 15 points, andMikaia Litzahad 14 with 11 assists.Ally TimmandDoyinsola Lijirineach added 12 points.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+              "snippet": "Kate Clarkehad 20 points to lead DePaul (3-1).Gina Davorijahad 15 points, andMikaia Litzahad 14 with 11 assists.Ally TimmandDoyinsola Lijirineach added 12 points.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50482180/hidalgo-gets-500th-steal-creating-exclusive-career-club",
+              "page_sha256": "5e97a0ace5d125bd4ceec8638428e08e277e54d639b870a8d8eea76eed44ee06",
+              "snippet_sha256": "1b2623239ac8896b8f1fac3c551888b562a82aeeaf182a1c2d87811c5d01261f",
+              "verified_at": "2026-11-15T01:23:11.308613+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ cột mốc lịch sử của Hannah Hidalgo thông qua thống kê chi tiết từ ESPN Research từ mùa giải 1987-88. Đồng thời, văn bản cung cấp bối cảnh diễn biến trận đấu giữa Notre Dame và DePaul tại giải Shamrock Classic mà các bản tin ngắn chưa tổng hợp hết.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T01:23:11.309266+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "108",
+        "13",
+        "1987",
+        "2",
+        "2.000",
+        "24",
+        "31",
+        "4",
+        "500",
+        "7",
+        "84",
+        "88",
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-15T01:23:11.310153+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 229,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1052
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
