@@ -2173,7 +2173,7 @@
   },
   {
     "queue_id": "a8276a011555a7b55b83",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T15:54:58.428649+00:00",
     "expires_at": "2026-11-18T15:53:41.674636+00:00",
     "category_hint": "sports",
@@ -2755,7 +2755,8 @@
       ]
     },
     "research_ready_at": "2026-11-15T15:54:58.428669+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "andy-robertson-vuot-cot-moc-lich-su-khang-inh-dau-an-o-oi-tuyen-scotland-c4980224"
   },
   {
     "queue_id": "toa-an-jordan-tuyen-an-tu-hinh-ba-ke-khung-bo-vu-xa-sung-nha-tho-cccafff9",
@@ -5422,7 +5423,7 @@
     "queue_id": "c9c796e5c7599d64c7f5",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-15T11:33:10.740297+00:00",
-    "expires_at": "2026-11-18T12:17:39.291546+00:00",
+    "expires_at": "2026-11-18T16:37:43.735881+00:00",
     "category_hint": "sports",
     "lead_title": "Spain v England buildup, reaction to Portugal’s post-Ronaldo thrashing, WSL and more – matchday live",
     "source_urls": [
@@ -6120,9 +6121,9 @@
     },
     "research_ready_at": "2026-11-15T11:33:10.740315+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: fact_ledger[2] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are ",
-    "write_attempts": 1,
-    "next_write_after": "2026-11-15T16:17:39.291546+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[2] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Quality gate failed: Đoạn 1 có số liệu/ngày tháng không tìm thấy trong fact ledger hoặc văn bản nguồn: 9 | Gemini/gemini-3.1-flash-lite: fact_ledger[2] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger",
+    "write_attempts": 2,
+    "next_write_after": "2026-11-16T00:37:43.735881+00:00"
   },
   {
     "queue_id": "14dc0ad6eb80dde952ac",
@@ -13638,7 +13639,7 @@
   },
   {
     "queue_id": "1374c97b24feb54cb79a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:42.002384+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "vietnam",
@@ -14752,7 +14753,8 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:42.002405+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "u-23-viet-nam-vo-ich-giai-giao-huu-quoc-te-tai-gia-lai-minh-tam-lap-cu-u-21d11202"
   },
   {
     "queue_id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
@@ -81567,7 +81569,7 @@
   },
   {
     "queue_id": "chinh-phu-anh-can-nhac-thao-luan-ve-quy-inh-o-tuoi-ong-thuan-tinh-duc-d1e582f0",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-15T15:55:22.486909+00:00",
     "expires_at": "2026-11-16T15:55:22.486909+00:00",
     "source_urls": [
@@ -81583,7 +81585,7 @@
       "source_url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-15T15:08:30+00:00",
       "fetched_at": "2026-11-15T15:55:27.014457+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-15T16:41:45.367515+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -81743,27 +81745,42 @@
         "18"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-15T15:55:27.015839+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-15T16:41:45.367515+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 253,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1129
-        },
-        "independent_domains": [
-          "bbc.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1129,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-15 23:41"
+    },
+    "published_at": "2026-11-15T16:41:45.367515+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "luc-luong-hau-thuan-boi-saudi-arabia-rut-lui-khoi-bien-o-truoc-a-tien-cu-2886f329",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-15T15:55:22.486909+00:00",
     "expires_at": "2026-11-16T15:55:22.486909+00:00",
     "source_urls": [
@@ -81779,7 +81796,7 @@
       "source_url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
       "published_at": "2026-11-15T15:42:25+00:00",
       "fetched_at": "2026-11-15T15:55:32.917411+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-15T16:41:45.367515+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -81935,23 +81952,38 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-15T15:55:32.918506+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-15T16:41:45.367515+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 302,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1417
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "nytimes.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1417,
+          "source_access": [
+            {
+              "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "nytimes.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-15 23:41"
+    },
+    "published_at": "2026-11-15T16:41:45.367515+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
@@ -82213,5 +82245,499 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "andy-robertson-vuot-cot-moc-lich-su-khang-inh-dau-an-o-oi-tuyen-scotland-c4980224",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T16:37:43.735881+00:00",
+    "expires_at": "2026-11-16T16:37:43.735881+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+      "https://www.bbc.co.uk/sport/cricket/articles/c699erlyv74po?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "andy-robertson-vuot-cot-moc-lich-su-khang-inh-dau-an-o-oi-tuyen-scotland-c4980224",
+      "title": "Andy Robertson vượt cột mốc lịch sử, khẳng định dấu ấn ở đội tuyển Scotland",
+      "summary": "Hậu vệ Andy Robertson chuẩn bị chạm mốc 103 lần khoác áo đội tuyển Scotland, vượt qua thành tích của Kenny Dalglish và ghi dấu ấn đậm nét trong vai trò thủ lĩnh.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+      "published_at": "2026-11-15T12:00:16+00:00",
+      "fetched_at": "2026-11-15T16:37:47.929925+00:00",
+      "appnho_published_at": "2026-11-15T16:41:45.367515+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hậu vệ Andy Robertson chuẩn bị đạt cột mốc 103 lần khoác áo đội tuyển quốc gia khi bước vào trận đấu tại St Gallen, qua đó vượt qua kỷ lục của huyền thoại Kenny Dalglish. Dù bóng đá Scotland từng sản sinh ra nhiều tên tuổi lớn ở các vị trí khác nhau trong những thập kỷ trước, hành trình vươn lên đỉnh cao của cầu thủ đang khoác áo Liverpool này mang những dấu ấn rất riêng.",
+        "Khởi đầu sự nghiệp quốc tế từ tháng 3 năm 2014 trong trận giao hữu tại Warsaw dưới tư cách cầu thủ từng bị loại khỏi hệ thống trẻ Celtic và phải làm lại từ Queen's Park lẫn Dundee United, Robertson đã không ngừng tiến bộ. Cựu huấn luyện viên Steve Bruce từng đưa anh đến Hull City đánh giá cao năng lực và tinh thần thi đấu bền bỉ của hậu vệ này, trong khi cựu đồng đội Alan Hutton cũng bày ấn tượng mạnh mẽ với nguồn năng lượng không mệt mỏi của anh trên sân.",
+        "Được trao băng đội trưởng từ năm 2018 bởi huấn luyện viên Alex McLeish, cầu thủ 32 tuổi đã đảm nhận trọng trách này trong 80 trận đấu. Dưới sự dẫn dắt của Robertson trên sân cỏ, tuyển Scotland đã chuyển mình từ một tập thể lận đận ở đấu trường quốc tế trở thành gương mặt quen thuộc tại các giải đấu lớn, đồng thời khẳng định tầm quan trọng của người thủ lĩnh đối với môi trường sinh hoạt chung của toàn đội."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Andy Robertson thiết lập cột mốc lịch sử mới cùng đội tuyển Scotland",
+      "meta_description": "Andy Robertson chuẩn bị đạt cột mốc 103 trận khoác áo tuyển Scotland, vượt qua Kenny Dalglish và chứng minh tầm vóc của một thủ quân xuất sắc.",
+      "keywords": [
+        "Andy Robertson",
+        "Scotland",
+        "Kenny Dalglish",
+        "bóng đá quốc tế"
+      ],
+      "slug": "andy-robertson-vuot-cot-moc-lich-su-khang-inh-dau-an-o-oi-tuyen-scotland-c4980224",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 262,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+        "https://www.bbc.co.uk/sport/cricket/articles/c699erlyv74po?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/cricket/articles/c699erlyv74po?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T12:00:16+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c699erlyv74po?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T12:53:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Andy Robertson sắp đạt mốc 103 lần khoác áo đội tuyển Scotland trong trận đấu tại St Gallen.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It counts as sacrilege, even to generations who have watchedKenny Dalglishonly on YouTube, to reputationally place Robertson above the Liverpool hero on the basis of a cap haul that will reach 103 in St Gallen on Monday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "snippet": "It counts as sacrilege, even to generations who have watchedKenny Dalglishonly on YouTube, to reputationally place Robertson above the Liverpool hero on the basis of a cap haul that will reach 103 in St Gallen on Monday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "page_sha256": "8699a08dfa3e89406ad5d70122bd8eff76440e343cd22cfdcb9cf3264e0bb9ec",
+              "snippet_sha256": "cf6a087bb08a5958266e20bd6e9898a486c6e1ccca4e38cdc85457b730debf06",
+              "verified_at": "2026-11-15T16:37:47.928974+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kenny Dalglish kết thúc sự nghiệp quốc tế ở con số 102 lần ra sân.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Dalglish’s international career ended at 102 and the curious events that meant he missed the 1986 World Cup.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "snippet": "Dalglish’s international career ended at 102 and the curious events that meant he missed the 1986 World Cup.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "page_sha256": "8699a08dfa3e89406ad5d70122bd8eff76440e343cd22cfdcb9cf3264e0bb9ec",
+              "snippet_sha256": "7800f09deaa7dc12559ea63a07b109942ea0bb0de96ad5ae1d0cbb191e3bc3f4",
+              "verified_at": "2026-11-15T16:37:47.928974+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Robertson ra mắt đội tuyển vào tháng 3 năm 2014 trong trận giao hữu ở Warsaw sau khi qua các CLB Queen's Park và Dundee United.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "By March 2014, when Robertson made his debut as a 67th-minute substitute in a friendly in Warsaw, he had been rejected by Celtic’s youth system, reset his career at Queen’s Park and turned heads in Dundee United colours.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "snippet": "By March 2014, when Robertson made his debut as a 67th-minute substitute in a friendly in Warsaw, he had been rejected by Celtic’s youth system, reset his career at Queen’s Park and turned heads in Dundee United colours.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "page_sha256": "8699a08dfa3e89406ad5d70122bd8eff76440e343cd22cfdcb9cf3264e0bb9ec",
+              "snippet_sha256": "dc92670251636066b3d98a18432b0c45cb452164e7a8f6726985490d0db346fd",
+              "verified_at": "2026-11-15T16:37:47.928974+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Alex McLeish trao băng đội trưởng đội tuyển Scotland cho Andy Robertson vào năm 2018.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Alex McLeish, who handed Robertson the Scotland captaincy in 2018, jokes about the possible impact on Dalglish.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "snippet": "Alex McLeish, who handed Robertson the Scotland captaincy in 2018, jokes about the possible impact on Dalglish.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "page_sha256": "8699a08dfa3e89406ad5d70122bd8eff76440e343cd22cfdcb9cf3264e0bb9ec",
+              "snippet_sha256": "01c981a4abd14355c91e9df2e45e51d3eb64257abf9e0d13784dd33d8db2ee6b",
+              "verified_at": "2026-11-15T16:37:47.928974+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Robertson đã đeo băng thủ quân đội tuyển quốc gia tổng cộng 80 lần.",
+          "source_urls": [
+            "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Robertson has worn the armband 80 times.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "snippet": "Robertson has worn the armband 80 times.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "page_sha256": "8699a08dfa3e89406ad5d70122bd8eff76440e343cd22cfdcb9cf3264e0bb9ec",
+              "snippet_sha256": "7e4275edb7b41892c8f29877c81a5313e8b44848b585fa3a866a01d848ec4cde",
+              "verified_at": "2026-11-15T16:37:47.928974+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ hành trình sự nghiệp đầy thử thách của Andy Robertson từ bóng đá hạng dưới đến khi giữ kỷ lục khoác áo đội tuyển Scotland. Đồng thời, bài phân tích góc độ đóng góp của anh trong vai trò thủ quân và sự chuyển mình của bóng đá Scotland dưới sự dẫn dắt của cầu thủ này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T16:37:47.930023+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "103",
+        "2014",
+        "2018",
+        "32",
+        "80"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T16:41:45.367515+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 262,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1242,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 23:41"
+    },
+    "published_at": "2026-11-15T16:41:45.367515+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "u-23-viet-nam-vo-ich-giai-giao-huu-quoc-te-tai-gia-lai-minh-tam-lap-cu-u-21d11202",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T16:37:43.735881+00:00",
+    "expires_at": "2026-11-16T16:37:43.735881+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+      "https://dantri.com.vn/the-thao/phan-ung-cua-cdv-dong-nam-a-khi-u23-viet-nam-vo-dich-giai-giao-huu-quoc-te-20261114234835839.htm"
+    ],
+    "article": {
+      "id": "u-23-viet-nam-vo-ich-giai-giao-huu-quoc-te-tai-gia-lai-minh-tam-lap-cu-u-21d11202",
+      "title": "U.23 Việt Nam vô địch giải giao hữu quốc tế tại Gia Lai, Minh Tâm lập cú đúp danh hiệu",
+      "summary": "Đội tuyển U.23 Việt Nam khép lại giải giao hữu quốc tế U.23 - Gia Lai VTV Cup 2026 với chức vô địch bất bại sau trận hòa U.23 Qatar, đồng thời thâu tóm các giải thưởng cá nhân quan trọng.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+      "published_at": "2026-11-15T01:15:00+00:00",
+      "fetched_at": "2026-11-15T16:37:53.745500+00:00",
+      "appnho_published_at": "2026-11-15T16:41:45.367515+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 14.11, lễ bế mạc giải bóng đá giao hữu quốc tế U.23 - Gia Lai VTV Cup 2026 đã diễn ra trên sân Pleiku, khép lại hành trình tranh tài của bốn đội tuyển gồm U.23 Việt Nam, U.23 Qatar, U.23 Singapore và U.23 Thái Lan. Thầy trò HLV Đinh Hồng Vinh chính thức đăng quang ngôi vô địch với thành tích bất bại, giành tổng cộng 7 điểm sau ba lượt trận.",
+        "Ở lượt trận đấu cuối cùng, U.23 Việt Nam có cuộc chạm trán thử thách với U.23 Qatar. Dù để đối thủ vươn lên dẫn trước trong hiệp thi đấu thứ nhất, đội chủ nhà vẫn thể hiện bản lĩnh kiên trì tổ chức lối chơi. Phút 48, tiền đạo Nguyễn Minh Tâm lập công mang về bàn thắng quân bình tỷ số 1-1, giữ vững ngôi đầu bảng cho đội nhà.",
+        "Với chức vô địch thuyết phục này, U.23 Việt Nam nhận phần thưởng trị giá 100.000 USD, tương đương khoảng 2,6 tỉ đồng. Trong khi đó, U.23 Qatar đứng vị trí á quân với 40.000 USD và U.23 Thái Lan nhận 20.000 USD cho hạng ba chung cuộc.",
+        "Bên cạnh thành tích tập thể, các cầu thủ trẻ Việt Nam còn áp đảo ở các hạng mục vinh danh cá nhân. Tiền đạo Nguyễn Minh Tâm đang khoác áo HAGL thâu tóm cú đúp danh hiệu Cầu thủ xuất sắc nhất giải và Vua phá lưới với 3 bàn thắng. Ở vị trí trấn giữ khung thành, thủ môn Cao Văn Bình cũng được bầu chọn là Thủ môn xuất sắc nhất giải nhờ những pha cứu thua ấn tượng, góp phần quan trọng vào sự chắc chắn của hàng phòng ngự U.23 Việt Nam suốt giải đấu."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "U.23 Việt Nam vô địch Gia Lai VTV Cup 2026, Minh Tâm xuất sắc nhận cú ",
+      "meta_description": "U.23 Việt Nam vô địch giải giao hữu quốc tế U.23 - Gia Lai VTV Cup 2026 với thành tích bất bại, tiền đạo Nguyễn Minh Tâm giành cú đúp danh hiệu cá nhân.",
+      "keywords": [
+        "U23 Việt Nam",
+        "Gia Lai VTV Cup 2026",
+        "Nguyễn Minh Tâm",
+        "bóng đá Việt Nam",
+        "sân Pleiku"
+      ],
+      "slug": "u-23-viet-nam-vo-ich-giai-giao-huu-quoc-te-tai-gia-lai-minh-tam-lap-cu-u-21d11202",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 294,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+        "https://dantri.com.vn/the-thao/phan-ung-cua-cdv-dong-nam-a-khi-u23-viet-nam-vo-dich-giai-giao-huu-quoc-te-20261114234835839.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/phan-ung-cua-cdv-dong-nam-a-khi-u23-viet-nam-vo-dich-giai-giao-huu-quoc-te-20261114234835839.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T01:15:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/phan-ung-cua-cdv-dong-nam-a-khi-u23-viet-nam-vo-dich-giai-giao-huu-quoc-te-20261114234835839.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T23:46:47+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "U.23 Việt Nam vô địch giải giao hữu quốc tế U.23 - Gia Lai VTV Cup 2026 với 7 điểm sau 3 trận bất bại.",
+          "source_urls": [
+            "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đội tuyển U.23 VN đã hòa ấn tượng U.23 Qatar 1-1 trên sân Pleiku ở lượt trận cuối vào hôm qua (14.11) để lên ngôi vô địch giải bóng đá quốc tế U.23 - Gia Lai VTV Cup 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "snippet": "Đội tuyển U.23 VN đã hòa ấn tượng U.23 Qatar 1-1 trên sân Pleiku ở lượt trận cuối vào hôm qua (14.11) để lên ngôi vô địch giải bóng đá quốc tế U.23 - Gia Lai VTV Cup 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "page_sha256": "e4be6791c558c3cead89ffadae36d9b64703a9af24876f07e67ba427bd4aab72",
+              "snippet_sha256": "ac3c3d83093551a58b7aaae43d18bc01fa74932e49926bc1fa75d407c05d6dd1",
+              "verified_at": "2026-11-15T16:37:53.744730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguyễn Minh Tâm ghi bàn ở phút 48 giúp U.23 Việt Nam hòa U.23 Qatar 1-1 và giành cú đúp danh hiệu Cầu thủ xuất sắc nhất cùng Vua phá lưới.",
+          "source_urls": [
+            "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Dù bị dẫn trước trong hiệp 1, U.23 Việt Nam vẫn kiên trì triển khai lối chơi và tìm được bàn gỡ nhờ pha lập công của Nguyễn Minh Tâm ở phút 48, qua đó bảo vệ thành công ngôi đầu bảng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "snippet": "Dù bị dẫn trước trong hiệp 1, U.23 Việt Nam vẫn kiên trì triển khai lối chơi và tìm được bàn gỡ nhờ pha lập công của Nguyễn Minh Tâm ở phút 48, qua đó bảo vệ thành công ngôi đầu bảng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "page_sha256": "e4be6791c558c3cead89ffadae36d9b64703a9af24876f07e67ba427bd4aab72",
+              "snippet_sha256": "65eb6af955ea6fde057ef5939b203b9c7e99a799b45256f58e746b03abb532e6",
+              "verified_at": "2026-11-15T16:37:53.744730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ môn Cao Văn Bình giành danh hiệu Thủ môn xuất sắc nhất giải đấu.",
+          "source_urls": [
+            "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ở vị trí thủ môn, Cao Văn Bình nhận danh hiệu Thủ môn xuất sắc nhất giải.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "snippet": "Ở vị trí thủ môn, Cao Văn Bình nhận danh hiệu Thủ môn xuất sắc nhất giải.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "page_sha256": "e4be6791c558c3cead89ffadae36d9b64703a9af24876f07e67ba427bd4aab72",
+              "snippet_sha256": "e0595d4697f226aafe3a875b6be55216fa510e751cebe70a946a01759477bab4",
+              "verified_at": "2026-11-15T16:37:53.744730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "U.23 Việt Nam nhận tiền thưởng 100.000 USD, tương đương khoảng 2,6 tỉ đồng cho chức vô địch.",
+          "source_urls": [
+            "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Với chức vô địch,U.23 Việt Namnhận phần thưởng 100.000 USD, tương đương khoảng 2,6 tỉ đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "snippet": "Với chức vô địch,U.23 Việt Namnhận phần thưởng 100.000 USD, tương đương khoảng 2,6 tỉ đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "page_sha256": "e4be6791c558c3cead89ffadae36d9b64703a9af24876f07e67ba427bd4aab72",
+              "snippet_sha256": "648098207ba84d9239adc434a7e76b88a96abd5d2bfa55e77668db798268912a",
+              "verified_at": "2026-11-15T16:37:53.744730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp kết quả chung cuộc và các danh hiệu cá nhân của giải đấu U.23 - Gia Lai VTV Cup 2026. Nội dung làm nổi bật diễn biến trận hòa quyết định trước U.23 Qatar cùng cơ cấu tiền thưởng của ban tổ chức.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T16:37:53.745597+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100.000",
+        "14.11",
+        "2,6",
+        "20.000",
+        "2026",
+        "23",
+        "3",
+        "40.000",
+        "48",
+        "7"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T16:41:45.367515+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 294,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1351,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/bau-duc-trao-thuong-1-ti-dong-cho-nha-vo-dich-u23-viet-nam-minh-tam-lap-cu-dup-danh-hieu-185261115081151631.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 23:41"
+    },
+    "published_at": "2026-11-15T16:41:45.367515+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
