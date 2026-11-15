@@ -2098,7 +2098,7 @@
   },
   {
     "queue_id": "67818415170002340fc9",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:49.296827+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "sports",
@@ -2732,11 +2732,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:49.296849+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bo-ao-nha-tham-bai-trong-ngay-mo-man-ky-nguyen-hau-cristiano-ronaldo-5a4cc77e"
   },
   {
     "queue_id": "d88892e2edbc5ab0b00d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:48.849798+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "world",
@@ -3300,11 +3301,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:48.849819+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuu-quan-chuc-faa-hoan-chuyen-bay-la-giai-phap-an-toan-nhat-trong-su-co--7730c0ad"
   },
   {
     "queue_id": "7bc51c4b9194159a1069",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:47.947852+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "vietnam",
@@ -4066,11 +4068,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:47.947878+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "u-23-thai-lan-gianh-hang-ba-gia-lai-vtv-cup-2026-sau-chien-thang-truoc-u-41f90859"
   },
   {
     "queue_id": "79fe6184492efdb16e02",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T01:21:42.680767+00:00",
     "expires_at": "2026-11-18T01:20:19.471906+00:00",
     "category_hint": "world",
@@ -4749,7 +4752,8 @@
       ]
     },
     "research_ready_at": "2026-11-15T01:21:42.680790+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vu-va-cham-tau-cho-dau-tai-new-orleans-toan-bo-hanh-khach-an-toan-ca-por-f8799258"
   },
   {
     "queue_id": "1374c97b24feb54cb79a",
@@ -82083,7 +82087,7 @@
   },
   {
     "queue_id": "spacex-at-uoc-thanh-tuu-lon-voi-viec-bat-uoc-tang-thuong-cua-starship-9c91fa0d",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-15T01:22:15.204243+00:00",
     "expires_at": "2026-11-16T01:22:15.204243+00:00",
     "source_urls": [
@@ -82102,7 +82106,7 @@
       "source_url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
       "published_at": "2026-11-15T00:40:59+00:00",
       "fetched_at": "2026-11-15T01:22:59.573710+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-15T02:07:53.101047+00:00",
       "content_type": "news_analysis",
       "data_type": "general",
       "collection": "current",
@@ -82315,26 +82319,36 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-15T01:22:59.575338+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-15T02:07:53.101047+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 367,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1694
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "arstechnica.com",
-          "engadget.com",
-          "npr.org",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1694,
+          "source_access": [
+            {
+              "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "arstechnica.com",
+            "engadget.com",
+            "npr.org",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-15 09:07"
+    },
+    "published_at": "2026-11-15T02:07:53.101047+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
@@ -82758,5 +82772,902 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "bo-ao-nha-tham-bai-trong-ngay-mo-man-ky-nguyen-hau-cristiano-ronaldo-5a4cc77e",
+    "status": "HOLD",
+    "prepared_at": "2026-11-15T02:07:26.353015+00:00",
+    "expires_at": "2026-11-16T02:07:26.353015+00:00",
+    "source_urls": [
+      "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+      "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+      "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend"
+    ],
+    "article": {
+      "id": "bo-ao-nha-tham-bai-trong-ngay-mo-man-ky-nguyen-hau-cristiano-ronaldo-5a4cc77e",
+      "title": "Bồ Đào Nha thảm bại trong ngày mở màn kỷ nguyên hậu Cristiano Ronaldo",
+      "summary": "Đội tuyển Bồ Đào Nha đã phải nhận thất bại nặng nề nhất trên sân nhà trong một trận đấu chính thức khi để thua Đan Mạch 1-4 tại UEFA Nations League, chỉ ít lâu sau khi Cristiano Ronaldo chính thức giải nghệ quốc tế.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+      "published_at": "2026-11-15T00:49:24+00:00",
+      "fetched_at": "2026-11-15T02:07:31.378782+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu tại Braga đánh dấu chương mới của bóng đá Bồ Đào Nha khi họ bước vào cuộc đối đầu với Đan Mạch mà không có sự phục vụ của Cristiano Ronaldo. Siêu sao 41 tuổi đã thông báo giải nghệ đội tuyển quốc gia sau vụ mâu thuẫn với huấn luyện viên Jorge Jesus liên quan đến việc không được lựa chọn ở các trận đấu trước đó. Dù đã giành vé vào tứ kết từ trước, đội chủ nhà vẫn đặt mục tiêu giành kết quả tốt trong ngày ra quân tại UEFA Nations League.",
+        "Trước khi trận đấu diễn ra, ban huấn luyện, cầu thủ và người hâm mộ đã có những hoạt động tri ân sâu sắc dành cho cầu thủ ghi bàn hàng đầu lịch sử đội tuyển. Toàn bộ các cầu thủ ra sân mặc áo đấu mang số 7 và tên của Ronaldo, trong khi khán giả trên khán đài giăng băng rôn tri ân đội trưởng cũ và vỗ tay tán thưởng khi trận đấu bước sang phút thứ bảy. LĐBĐ Bồ Đào Nha cũng quyết định thay đổi thiết kế số áo 7 nhằm vĩnh viễn vinh danh những đóng góp của anh.",
+        "Tuy nhiên, màn trình diễn trên sân lại gây thất vọng lớn cho người hâm mộ chủ nhà. Đan Mạch nhanh chóng chiếm thế chủ động và vươn lên dẫn trước trước giờ nghỉ giải lao nhờ pha lập công trên chấm phạt đền của đội trưởng Pierre-Emile Hojbjerg sau khi Ruben Dias để bóng chạm tay trong vòng cấm. Sang hiệp hai, tiền đạo Rasmus Hojlund tỏa sáng rực rỡ với một cú đúp ở các phút 50 và 57 để nâng tỷ số lên 3-0, khoét sâu vào những sơ hở trong hàng phòng ngự Bồ Đào Nha.",
+        "Tình hình càng trở nên tồi tệ hơn khi Joachim Andersen ghi bàn bằng đầu ở phút 75, nâng cách biệt lên bốn bàn cho đội khách và khiến nhiều cổ động viên trên sân phải bỏ về sớm trong tiếng la ó. Bàn thắng danh dự của Bernardo Silva trong thời gian bù giờ chỉ giúp định đoạt kết quả trận đấu sau khi VAR can thiệp. Thất bại 1-4 này trở thành trận thua đậm nhất trên sân nhà trong một giải đấu chính thức của Bồ Đào Nha kể từ năm 1993, đặt ra nhiều câu hỏi về năng lực thích ứng của đội bóng dưới thời HLV Jorge Jesus."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bồ Đào Nha thua Đan Mạch 1-4 trong trận đầu vắng Cristiano Ronaldo",
+      "meta_description": "Tuyển Bồ Đào Nha nhận thất bại 1-4 trước Đan Mạch tại UEFA Nations League trong trận đấu đầu tiên sau khi Cristiano Ronaldo chia tay đội tuyển quốc gia.",
+      "keywords": [
+        "Bồ Đào Nha",
+        "Cristiano Ronaldo",
+        "Đan Mạch",
+        "UEFA Nations League",
+        "Jorge Jesus"
+      ],
+      "slug": "bo-ao-nha-tham-bai-trong-ngay-mo-man-ky-nguyen-hau-cristiano-ronaldo-5a4cc77e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 416,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+        "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+        "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+        "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T00:49:24+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T22:00:45+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T19:13:43+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bồ Đào Nha thua đậm Đan Mạch 4-1 trên sân nhà tại UEFA Nations League trong trận đấu đầu tiên không có Cristiano Ronaldo.",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Portugalbegan life withoutCristiano Ronaldoby suffering their heaviest home loss in a competitive game asDenmarkran out emphatic 4-1 winners in theUEFA Nations Leagueon Saturday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+              "snippet": "Portugalbegan life withoutCristiano Ronaldoby suffering their heaviest home loss in a competitive game asDenmarkran out emphatic 4-1 winners in theUEFA Nations Leagueon Saturday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+              "page_sha256": "af118d6e69185eafb7c7e2e7309e224f26af9617e83caa857a2bc96fd75fa0c8",
+              "snippet_sha256": "78eb4b1c3bda1d98dfd56e24e17153d44843f6f5b8d210949987c8a938fa6a7b",
+              "verified_at": "2026-11-15T02:07:31.378176+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cristiano Ronaldo tuyên bố giã từ sự nghiệp quốc tế ở tuổi 41 sau mâu thuẫn với HLV Jorge Jesus.",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The 41-year-old Portugal superstarannounced his international retirement last weekfollowing a falling out with coach Jorge Jesus.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+              "snippet": "The 41-year-old Portugal superstarannounced his international retirement last weekfollowing a falling out with coach Jorge Jesus.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+              "page_sha256": "af118d6e69185eafb7c7e2e7309e224f26af9617e83caa857a2bc96fd75fa0c8",
+              "snippet_sha256": "a82720939e4c7d81b5a87955615d78bc52a01bd7533e345d0efc7b87f77f1827",
+              "verified_at": "2026-11-15T02:07:31.378176+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Rasmus Hojlund ghi hai bàn thắng và Pierre-Emile Hojbjerg cùng Joachim Andersen lập công mang về chiến thắng 4-1 cho Đan Mạch.",
+          "source_urls": [
+            "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Rasmus Hojlund starred with a superb brace on Saturday as second place Denmark close in on a spot in the quarterfinals with a brilliant display in Braga.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+              "snippet": "Rasmus Hojlund starred with a superb brace on Saturday as second place Denmark close in on a spot in the quarterfinals with a brilliant display in Braga.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+              "page_sha256": "064236c10425516cd971751cc4d7ca1ad19a91842e7909e50287310f0eb4a485",
+              "snippet_sha256": "6da153333e70271f5a1d61a7000166ad964c97f8232f53224d0e51ed9e9df58b",
+              "verified_at": "2026-11-15T02:07:31.378176+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh hậu chia tay Cristiano Ronaldo thông qua diễn biến chi tiết của trận thua kỷ lục trước Đan Mạch. Phân tích nguyên nhân và phản ứng từ phía ban huấn luyện cũng như người hâm mộ tại sân vận động Braga.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T02:07:31.378881+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1993",
+        "41",
+        "50",
+        "57",
+        "7",
+        "75"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-15T02:07:31.380281+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 416,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1887
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "espn.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-15T02:07:53.101047+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-15T02:07:53.101047+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 416,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1887,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/soccer/story/_/id/50483765/portugal-denmark-worst-home-loss-cristiano-ronaldo",
+            "ok": false,
+            "reason": "HTTP 202"
+          },
+          {
+            "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "espn.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "cuu-quan-chuc-faa-hoan-chuyen-bay-la-giai-phap-an-toan-nhat-trong-su-co--7730c0ad",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T02:07:26.353015+00:00",
+    "expires_at": "2026-11-16T02:07:26.353015+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+      "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html"
+    ],
+    "article": {
+      "id": "cuu-quan-chuc-faa-hoan-chuyen-bay-la-giai-phap-an-toan-nhat-trong-su-co--7730c0ad",
+      "title": "Cựu quan chức FAA: Hoãn chuyến bay là giải pháp an toàn nhất trong sự cố liên lạc",
+      "summary": "Đại diện đội ngũ an toàn FAA Kyle Bailey cho biết việc hoãn các chuyến bay là phương án an toàn tối ưu giữa lúc xảy ra sự cố lỗi truyền thông trên quy mô toàn quốc.",
+      "category": "technology",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+      "published_at": "2026-11-14T01:28:46+00:00",
+      "fetched_at": "2026-11-15T02:07:38.366188+00:00",
+      "appnho_published_at": "2026-11-15T02:07:53.101047+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong bối cảnh xảy ra sự cố gián đoạn hệ thống truyền thông trên toàn quốc tại Mỹ, cựu đại diện đội ngũ an toàn của Cục Hàng không Liên bang (FAA), ông Kyle Bailey, đã đưa ra những đánh giá về tình hình ứng phó và bảo đảm an toàn bay.",
+        "Theo quan điểm của ông Kyle Bailey, việc quyết định hoãn các chuyến bay là phương án hành động mang lại độ an toàn cao nhất trong thời điểm hệ thống gặp trục trặc bất ngờ.",
+        "Đồng thời, cựu quan chức này cũng đưa ra nhận định rằng hiện tại vẫn chưa có ai nắm bắt hoàn toàn và chính xác bản chất cũng như toàn bộ diễn biến của sự cố đang diễn ra trên hệ thống truyền thông này."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cựu quan chức FAA lên tiếng về sự cố truyền thông hàng không",
+      "meta_description": "Cựu đại diện đội ngũ an toàn FAA Kyle Bailey nhận định việc tạm hoãn các chuyến bay là lựa chọn an toàn nhất trong bối cảnh gián đoạn thông tin toàn quốc.",
+      "keywords": [
+        "FAA",
+        "Kyle Bailey",
+        "hang khong",
+        "su co truyen thong",
+        "my"
+      ],
+      "slug": "cuu-quan-chuc-faa-hoan-chuyen-bay-la-giai-phap-an-toan-nhat-trong-su-co--7730c0ad",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 133,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+        "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T01:28:46+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T17:52:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cựu đại diện đội ngũ an toàn FAA Kyle Bailey cho rằng việc hoãn các chuyến bay là phương án an toàn nhất trong bối cảnh xảy ra sự cố truyền thông trên toàn quốc.",
+          "source_urls": [
+            "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Former FAA safety team representative Kyle Bailey says grounding flights is the safest course of action amid the nationwide communications failure, adding ‘nobody really knows what is going on’.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+              "snippet": "Former FAA safety team representative Kyle Bailey says grounding flights is the safest course of action amid the nationwide communications failure, adding ‘nobody really knows what is going on’.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+              "page_sha256": "a98dc62050d57c6bafdf1ffb5c90246bd31252a3ad3fb726598b24b59dfe365e",
+              "snippet_sha256": "ae40292fe7d25472466ad23bb5e209f089cc9159806b496d93b57b5370eaa1b1",
+              "verified_at": "2026-11-15T02:07:38.365821+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Kyle Bailey cho biết hiện không có ai thực sự nắm rõ toàn bộ tình hình đang diễn ra liên quan đến sự cố liên lạc này.",
+          "source_urls": [
+            "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Share Former FAA official says ‘nobody really knows what is going on’ on social media",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+              "snippet": "Share Former FAA official says ‘nobody really knows what is going on’ on social media",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+              "page_sha256": "a98dc62050d57c6bafdf1ffb5c90246bd31252a3ad3fb726598b24b59dfe365e",
+              "snippet_sha256": "f99db506b5514ccd8433e5af58b3bec46a6ad92997ed799a0a3466e86b8cd893",
+              "verified_at": "2026-11-15T02:07:38.365821+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: Former House Speaker Paul Ryan speaks with CNBC's David Faber at the CNBC Connect: Balance of Power event in New York City on November 5, 2026CNBC",
+          "importance": "supporting",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html"
+          ],
+          "evidence_snippet": "Former House Speaker Paul Ryan speaks with CNBC's David Faber at the CNBC Connect: Balance of Power event in New York City on November 5, 2026CNBC",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html",
+              "snippet": "Former House Speaker Paul Ryan speaks with CNBC's David Faber at the CNBC Connect: Balance of Power event in New York City on November 5, 2026CNBC",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html",
+              "page_sha256": "29c5631b9f39e904d0c0c0147de40f834cbe11986d44172112b8abc7455ecd1e",
+              "snippet_sha256": "df20ec10b3c4e0508b3e04f212927ef224f64fc4477e3900d3bb4084f98ce867",
+              "verified_at": "2026-11-15T02:07:38.365821+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quan điểm của cựu quan chức FAA Kyle Bailey về giải pháp hoãn chuyến bay. Bối cảnh và diễn biến của sự cố truyền thông toàn quốc được tường thuật khách quan từ nguồn tin chính thức.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T02:07:38.366250+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T02:07:53.101047+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 133,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 606,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cnbc.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 09:07"
+    },
+    "published_at": "2026-11-15T02:07:53.101047+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "u-23-thai-lan-gianh-hang-ba-gia-lai-vtv-cup-2026-sau-chien-thang-truoc-u-41f90859",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T02:07:26.353015+00:00",
+    "expires_at": "2026-11-16T02:07:26.353015+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+      "https://dantri.com.vn/the-thao/thai-lan-vao-chung-ket-kings-cup-malaysia-thua-doi-tuyen-trung-quoc-20261114223012288.htm"
+    ],
+    "article": {
+      "id": "u-23-thai-lan-gianh-hang-ba-gia-lai-vtv-cup-2026-sau-chien-thang-truoc-u-41f90859",
+      "title": "U.23 Thái Lan giành hạng ba Gia Lai VTV Cup 2026 sau chiến thắng trước U.23 Singapore",
+      "summary": "U.23 Thái Lan khép lại giải giao hữu tứ hùng Gia Lai VTV Cup 2026 với chiến thắng 3-1 trước U.23 Singapore, qua đó giành vị trí thứ ba chung cuộc.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+      "published_at": "2026-11-14T14:19:00+00:00",
+      "fetched_at": "2026-11-15T02:07:44.889588+00:00",
+      "appnho_published_at": "2026-11-15T02:07:53.101047+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giải giao hữu tứ hùng Gia Lai VTV Cup 2026 chính thức khép lại với trận đấu giữa U.23 Thái Lan và U.23 Singapore. Bước vào cuộc so tài này, đội bóng xứ chùa vàng đã thể hiện lối chơi sắc nét để vượt qua đối thủ cùng khu vực.",
+        "Trải qua các diễn biến chính trên sân, U.23 Thái Lan giành chiến thắng thuyết phục với tỷ số 3-1 trước U.23 Singapore. Kết quả này giúp đội bóng trẻ xứ chùa vàng tích lũy được 3 điểm chung cuộc sau các lượt trận.",
+        "Với thành tích này, U.23 Thái Lan chính thức cán đích ở vị trí thứ ba tại giải đấu giao hữu quốc tế năm nay. Trong khi đó, U.23 Singapore ngậm ngùi đứng ở vị trí cuối bảng xếp hạng sau khi kết thúc các lượt trận của mình."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "U.23 Thái Lan thắng U.23 Singapore giành hạng ba Gia Lai VTV Cup 2026",
+      "meta_description": "Cập nhật kết quả trận đấu giữa U.23 Thái Lan và U.23 Singapore tại giải giao hữu tứ hùng Gia Lai VTV Cup 2026.",
+      "keywords": [
+        "U23 Thái Lan",
+        "U23 Singapore",
+        "Gia Lai VTV Cup 2026",
+        "bóng đá trẻ"
+      ],
+      "slug": "u-23-thai-lan-gianh-hang-ba-gia-lai-vtv-cup-2026-sau-chien-thang-truoc-u-41f90859",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 143,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+        "https://dantri.com.vn/the-thao/thai-lan-vao-chung-ket-kings-cup-malaysia-thua-doi-tuyen-trung-quoc-20261114223012288.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/thai-lan-vao-chung-ket-kings-cup-malaysia-thua-doi-tuyen-trung-quoc-20261114223012288.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T14:19:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/thai-lan-vao-chung-ket-kings-cup-malaysia-thua-doi-tuyen-trung-quoc-20261114223012288.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T15:39:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "U.23 Thái Lan khép lại giải giao hữu tứ hùng Gia Lai VTV Cup 2026 bằng chiến thắng 3-1 trước U.23 Singapore",
+          "source_urls": [
+            "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hoàng Thiên14/11/2026 21:19 GMT+7Chia sẻU.23 Thái Lan khép lại giải giao hữu tứ hùng Gia Lai VTV Cup 2026 bằng chiến thắng 3-1 trước U.23 Singapore.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "snippet": "Hoàng Thiên14/11/2026 21:19 GMT+7Chia sẻU.23 Thái Lan khép lại giải giao hữu tứ hùng Gia Lai VTV Cup 2026 bằng chiến thắng 3-1 trước U.23 Singapore.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "page_sha256": "afbae08373c120e0173414a15e6e905b388d197b5d438c979fed533e5ded2a67",
+              "snippet_sha256": "61955e9b48939e0fbaaf8f3cf35dfeae15131e56f9b37ac8c35c0841e690bdba",
+              "verified_at": "2026-11-15T02:07:44.889200+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Với 3 điểm chung cuộc, U.23 Thái Lan cán đích ở vị trí thứ ba, còn U.23 Singapore đứng cuối bảng",
+          "source_urls": [
+            "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Với 3 điểm chung cuộc, đội bóng xứ chùa vàng cán đích ở vị trí thứ ba, trong khi U.23 Singapore đứng cuối bảng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "snippet": "Với 3 điểm chung cuộc, đội bóng xứ chùa vàng cán đích ở vị trí thứ ba, trong khi U.23 Singapore đứng cuối bảng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "page_sha256": "afbae08373c120e0173414a15e6e905b388d197b5d438c979fed533e5ded2a67",
+              "snippet_sha256": "2df499b4a53b072e32c05c733c5facb6702f4e9c657406df4030352cd658ef79",
+              "verified_at": "2026-11-15T02:07:44.889200+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: Highlight U.23 Thái Lan 3-1 U.23 Singapore: 'Voi chiến' thắng thuyết phục, giành hạng ba Gia Lai VTV Cup 2026Bỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+          "importance": "supporting",
+          "source_urls": [
+            "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm"
+          ],
+          "evidence_snippet": "Highlight U.23 Thái Lan 3-1 U.23 Singapore: 'Voi chiến' thắng thuyết phục, giành hạng ba Gia Lai VTV Cup 2026Bỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "snippet": "Highlight U.23 Thái Lan 3-1 U.23 Singapore: 'Voi chiến' thắng thuyết phục, giành hạng ba Gia Lai VTV Cup 2026Bỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "page_sha256": "afbae08373c120e0173414a15e6e905b388d197b5d438c979fed533e5ded2a67",
+              "snippet_sha256": "c8fe41366b35532a44af117367237cf7cdb388641234a3a32fc247dd2baf4490",
+              "verified_at": "2026-11-15T02:07:44.889200+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật về kết quả và thứ hạng chung cuộc của các đội bóng tại giải giao hữu quốc tế. Nội dung tập trung làm rõ cục diện bảng đấu và thành tích của U.23 Thái Lan cùng U.23 Singapore.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T02:07:44.889639+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "23",
+        "3"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T02:07:53.101047+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 143,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 657,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/highlight-u23-thai-lan-3-1-u23-singapore-voi-chien-thang-thuyet-phuc-gianh-hang-ba-gia-lai-vtv-cup-2026-185261114211916054.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 09:07"
+    },
+    "published_at": "2026-11-15T02:07:53.101047+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vu-va-cham-tau-cho-dau-tai-new-orleans-toan-bo-hanh-khach-an-toan-ca-por-f8799258",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T02:07:26.353015+00:00",
+    "expires_at": "2026-11-16T02:07:26.353015+00:00",
+    "source_urls": [
+      "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+      "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans"
+    ],
+    "article": {
+      "id": "vu-va-cham-tau-cho-dau-tai-new-orleans-toan-bo-hanh-khach-an-toan-ca-por-f8799258",
+      "title": "Vụ va chạm tàu chở dầu tại New Orleans: Toàn bộ hành khách an toàn, cả port nộp đơn kiện",
+      "summary": "Cảng New Orleans đệ đơn kiện yêu cầu bồi thường sau sự cố tàu chở dầu đâm vào tàu du lịch sông đang neo đậu, khiến phương tiện lật nghiêng nhưng may mắn không có thiệt hại về nhân mạng.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T22:27:06+00:00",
+      "fetched_at": "2026-11-15T02:07:50.782100+00:00",
+      "appnho_published_at": "2026-11-15T02:07:53.101047+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vụ va chạm xảy ra vào chiều thứ Sáu khi tàu chở dầu Atlantic Asphalt đâm vào tàu du lịch sông American Heritage đang neo đậu tại Cảng New Orleans. Cú đâm mạnh khiến chiếc tàu du lịch, do American Cruise Lines vận hành, bị lật nghiêng và chìm một phần xuống sông Mississippi. Vào thời điểm xảy ra sự cố, trên tàu có khoảng 129 hành khách cùng đội ngũ thành viên đoàn thủy thủ, vừa hoàn thành chuyến hành trình khám phá kéo dài tám ngày qua các điểm đến tại Louisiana và Mississippi.",
+        "Ngay lập tức, lực lượng chức năng đã triển khai chiến dịch cứu hộ khẩn cấp với sự tham gia của cảnh sát cảng vụ, lực lượng cứu hỏa cùng các tàu lai dắt hoạt động trên khu vực. Giao thông đường thủy trên sông Mississippi đã tạm thời bị phong tỏa để phục vụ công tác cứu nạn. Theo số liệu được Cảng New Orleans xác nhận, toàn bộ 197 hành khách và thành viên thủy thủ đoàn đã được đưa vào bờ an toàn hoặc tự bơi vào khu vực an toàn với áo phao, không có trường hợp nào mất tích. Có 32 người trên tàu đã được đưa tới bệnh viện điều trị các chấn thương không nguy hiểm đến tính mạng.",
+        "Thị trưởng New Orleans Helena Moreno cùng các quan chức cảng vụ đã gọi sự kiện này là một \"phép màu trên sông Mississippi\" nhờ phản ứng nhanh chóng và sự phối hợp nhịp nhàng của lực lượng cứu hộ. Dù nguyên nhân chính xác vẫn đang trong quá trình điều tra, Đại úy Lực lượng Bảo vệ Bờ biển Mỹ Melanie Burnham cho biết ban đầu ghi nhận dấu hiệu mất khả năng điều hướng trên tàu chở dầu.",
+        "Liên quan đến thiệt hại sau tai nạn, Cảng New Orleans đã đệ đơn kiện lên tòa án liên bang tại Quận Đông Louisiana đối với tàu M/V Atlantic Asphalt, chủ sở hữu Nave Shipping SA cùng công ty quản lý Thome Ship Management Pte Ltd. Phía cảng vụ cáo buộc sự cố xuất phát từ sự sơ suất và không sử dụng đầy đủ các biện pháp phòng ngừa va chạm, yêu cầu mức bồi thường hơn 1 triệu USD để trang trải chi phí dọn dẹp, kiểm tra và sửa chữa cơ sở hạ tầng bến cảng bị hư hại nặng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vụ va chạm tàu chở dầu tại New Orleans và diễn biến mới nhất",
+      "meta_description": "Thông tin chi tiết về vụ tàu chở dầu đâm tàu du lịch tại New Orleans, công tác cứu hộ và hành động pháp lý từ phía cảng vụ.",
+      "keywords": [
+        "New Orleans",
+        "tàu chở dầu",
+        "American Heritage",
+        "M/V Atlantic Asphalt",
+        "Cảng New Orleans"
+      ],
+      "slug": "vu-va-cham-tau-cho-dau-tai-new-orleans-toan-bo-hanh-khach-an-toan-ca-por-f8799258",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 405,
+      "display_source": true,
+      "source_urls": [
+        "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+        "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+        "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans"
+      ],
+      "source_references": [
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T21:04:32+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T22:27:06+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T13:15:42+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tàu du lịch American Heritage bị tàu chở dầu Atlantic Asphalt đâm khi đang neo đậu tại Cảng New Orleans.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The American Heritage cruise ship, operated by American Cruise Lines, was docked at the Port of New Orleans when it was hit by the Atlantic Asphalt tanker, causing it to flip and become partially submerged.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+              "snippet": "The American Heritage cruise ship, operated by American Cruise Lines, was docked at the Port of New Orleans when it was hit by the Atlantic Asphalt tanker, causing it to flip and become partially submerged.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+              "page_sha256": "c6eb990697fe4545d42e0c3273905708c0ea41ae1110df841b5a310b3bf367e6",
+              "snippet_sha256": "cac76b690df0107ce23e527b22d4060604ea19d7db7234fef1f76925dea98c89",
+              "verified_at": "2026-11-15T02:07:50.781722+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Toàn bộ 197 hành khách và thành viên thủy thủ đoàn được xác định an toàn, không có ai mất tích và không có thương vong nghiêm trọng.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und"
+          ],
+          "importance": "core",
+          "evidence_snippet": "According to the Port of New Orleans, all 197 passengers and crew members had been accounted for.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+              "snippet": "According to the Port of New Orleans, all 197 passengers and crew members had been accounted for.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+              "page_sha256": "c6eb990697fe4545d42e0c3273905708c0ea41ae1110df841b5a310b3bf367e6",
+              "snippet_sha256": "dc170b8db0ad82677bbaa9475d91d9b3e3a737fb2c9036cf0e25ae1666a94b58",
+              "verified_at": "2026-11-15T02:07:50.781722+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cảng New Orleans đệ đơn kiện đòi hơn 1 triệu USD thiệt hại từ phía chủ tàu và công ty quản lý tàu chở dầu.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "New Orleans port sues tanker owners over cruise ship collision for $1m - BBC News",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+              "snippet": "New Orleans port sues tanker owners over cruise ship collision for $1m - BBC News",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "fa4502df63e510b00e4b5892229ae822540a602e8df88b427153278b8d278b78",
+              "snippet_sha256": "bed131d8d48b243e29addfc035c79472d1c4a9e063a15c750896876327d48e3c",
+              "verified_at": "2026-11-15T02:07:50.781722+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích toàn diện diễn biến vụ tai nạn tàu thủy tại New Orleans, kết hợp thông tin giải cứu an toàn với động thái pháp lý và yêu cầu bồi thường từ cảng vụ. Góc nhìn này làm rõ trách nhiệm pháp lý bước đầu của các bên liên quan cùng tình trạng thiệt hại cơ sở hạ tầng được ghi nhận trong hồ sơ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T02:07:50.782206+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "129",
+        "197",
+        "32"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T02:07:53.101047+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 405,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1909,
+          "source_access": [
+            {
+              "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "euronews.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 09:07"
+    },
+    "published_at": "2026-11-15T02:07:53.101047+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
