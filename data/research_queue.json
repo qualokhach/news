@@ -2142,7 +2142,7 @@
     "queue_id": "c9c796e5c7599d64c7f5",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-15T11:33:10.740297+00:00",
-    "expires_at": "2026-11-18T11:31:31.974500+00:00",
+    "expires_at": "2026-11-18T12:17:39.291546+00:00",
     "category_hint": "sports",
     "lead_title": "Spain v England buildup, reaction to Portugal’s post-Ronaldo thrashing, WSL and more – matchday live",
     "source_urls": [
@@ -2839,11 +2839,14 @@
       ]
     },
     "research_ready_at": "2026-11-15T11:33:10.740315+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: fact_ledger[2] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are ",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-15T16:17:39.291546+00:00"
   },
   {
     "queue_id": "14dc0ad6eb80dde952ac",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T11:33:10.167572+00:00",
     "expires_at": "2026-11-18T11:31:31.974500+00:00",
     "category_hint": "world",
@@ -3677,11 +3680,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T11:33:10.167593+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e"
   },
   {
     "queue_id": "2d888d5a9333702d59df",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T11:33:09.149826+00:00",
     "expires_at": "2026-11-18T11:31:31.974500+00:00",
     "category_hint": "vietnam",
@@ -4423,11 +4427,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T11:33:09.149848+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4"
   },
   {
     "queue_id": "cdc21b627aee3b089292",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T11:32:57.919352+00:00",
     "expires_at": "2026-11-18T11:31:31.974500+00:00",
     "category_hint": "vietnam",
@@ -5169,7 +5174,8 @@
       ]
     },
     "research_ready_at": "2026-11-15T11:32:57.919375+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053"
   },
   {
     "queue_id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
@@ -81667,7 +81673,7 @@
   },
   {
     "queue_id": "mac-mini-gan-chip-m6-giam-gia-som-tren-amazon-truoc-them-black-friday-5749fb37",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-15T11:33:37.317640+00:00",
     "expires_at": "2026-11-16T11:33:37.317640+00:00",
     "source_urls": [
@@ -81683,7 +81689,7 @@
       "source_url": "https://www.wired.com/story/mac-mini-deal-11-13-2026",
       "published_at": "2026-11-15T10:00:00+00:00",
       "fetched_at": "2026-11-15T11:33:41.302715+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-15T12:21:28.079263+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -81850,23 +81856,33 @@
         "779"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-15T11:33:41.304029+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-15T12:21:28.079263+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 266,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1172
-        },
-        "independent_domains": [
-          "engadget.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1172,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/mac-mini-deal-11-13-2026",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-15 19:21"
+    },
+    "published_at": "2026-11-15T12:21:28.079263+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "toa-an-jordan-tuyen-an-tu-hinh-ba-ke-khung-bo-vu-xa-sung-nha-tho-cccafff9",
@@ -82389,5 +82405,768 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T12:17:39.291546+00:00",
+    "expires_at": "2026-11-16T12:17:39.291546+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
+      "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
+      "https://www.skysports.com/f1/news/12040/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border"
+    ],
+    "article": {
+      "id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
+      "title": "Israel tiêu diệt chỉ huy Lữ đoàn Rafah của Hamas trong cuộc không kích tại Gaza",
+      "summary": "Quân đội Israel và các quan chức Hamas xác nhận Samir Abu Younis, chỉ huy mới được bổ nhiệm của Lữ đoàn Rafah thuộc Hamas, đã thiệt mạng trong một cuộc không kích tại miền nam Dải Gaza.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T08:17:41+00:00",
+      "fetched_at": "2026-11-15T12:21:04.251268+00:00",
+      "appnho_published_at": "2026-11-15T12:21:28.079263+00:00",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Một chỉ huy cấp cao của lực lượng Hamas vừa thiệt mạng trong một cuộc không kích của Israel tại khu định cư ở miền nam Dải Gaza. Sự việc này đánh dấu một diễn biến mới trong bối cảnh các hoạt động quân sự và đụng độ vẫn tiếp diễn tại vùng lãnh thổ này, bất chấp thỏa thuận ngừng bắn đạt được từ năm trước.",
+        "Theo thông tin từ Lữ đoàn Al-Qassam, cánh quân sự của Hamas, và được các quan chức Israel xác nhận, nhân vật thiệt mạng là Samir Abu Younis, 53 tuổi, người mới được bổ nhiệm làm chỉ huy Lữ đoàn Rafah từ ngày 15 tháng 9 sau cái chết của người tiền nhiệm Nael Abu Obeid. Vụ không kích diễn ra vào ngày thứ Bảy tại khu Al-Mawasi, nơi có nhiều người tản cư sinh sống.",
+        "Nhân chứng tại hiện trường cho biết bốn quả tên lửa đã bắn trúng một lều trại tại khu Al-Waha thuộc Al-Mawasi, gây ra hỏa hoạn. Các nguồn tin y tế tại Bệnh viện Nasser ở thành phố Khan Younis ghi nhận một thi thể và ba người bị thương được đưa tới cấp cứu sau cuộc tấn công.",
+        "Lực lượng Phòng vệ Israel (IDF) cùng cơ quan an ninh ISA ra tuyên bố xác nhận đã tiêu diệt Younis. Phía Israel cáo buộc nhân vật này là một nhân vật trung tâm trong hàng ngũ lãnh đạo của Hamas, có vai trò chỉ đạo các hoạt động tấn công nhằm vào thường dân Israel cũng như binh sĩ IDF, đồng thời nỗ lực khôi phục sức mạnh cho tổ chức vũ trang này.",
+        "Về phía Hamas, Al-Qassam Brigades khẳng định Younis từng tham gia nhiều chiến dịch và là một trong những chỉ huy quan trọng tham gia hoạch định cuộc tấn công vào miền nam Israel ngày 7 tháng 10 năm 2023. Tổ chức này đã gọi cái chết của ông là một vụ ám sát, đồng thời cho biết tang lễ sẽ được tổ chức tại Khan Younis.",
+        "Cuộc xung đột tại đây bùng phát sau sự kiện ngày 7 tháng 10 năm 2023, khiến khoảng 1.200 người thiệt mạng và 251 người bị bắt làm con tin ở miền nam Israel. Theo bộ y tế tại vùng lãnh thổ này, tổng số người thiệt mạng kể từ đó đã vượt mốc 74.650 người.",
+        "Mặc dù lệnh ngừng bắn đã được ký kết vào tháng 10 năm ngoái, Israel vẫn duy trì các cuộc không kích rải rác mà họ tuyên bố nhằm vào các tay súng Hamas còn lại. Phía Israel lập luận rằng các hành động quân sự này nằm trong quyền hạn được phép theo các điều khoản của thỏa thuận ngừng bắn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Israel tiêu diệt chỉ huy Hamas Samir Abu Younis trong không kích tại G",
+      "meta_description": "Các quan chức Israel và Hamas xác nhận Samir Abu Younis, chỉ huy Lữ đoàn Rafah, đã thiệt mạng trong một cuộc không kích mới đây tại Dải Gaza.",
+      "keywords": [
+        "Israel",
+        "Hamas",
+        "Gaza",
+        "Samir Abu Younis",
+        "Al-Mawasi"
+      ],
+      "slug": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 462,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
+        "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
+        "https://www.skysports.com/f1/news/12040/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
+        "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
+        "https://www.skysports.com/f1/news/12040/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T08:17:41+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T20:03:55+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T18:00:50+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T18:03:02+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/f1/news/12040/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T20:48:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Samir Abu Younis, chỉ huy Lữ đoàn Rafah của Hamas, đã thiệt mạng trong một cuộc không kích tại Al-Mawasi, miền nam Dải Gaza.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Samir Abu Younis, the newly appointed commander of the Rafah Brigade, was killed on Saturday in Al-Mawasi in the southern Gaza Strip, according to Hamas's Al-Qassam Brigades military wing.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Samir Abu Younis, the newly appointed commander of the Rafah Brigade, was killed on Saturday in Al-Mawasi in the southern Gaza Strip, according to Hamas's Al-Qassam Brigades military wing.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "641b1ede060f3aaa1e7ad6e7d8d29dc94377b34d227cd96ee6af41839e9c6bff",
+              "snippet_sha256": "f5d9cc7312bd57674ec12313c6f5728b1d84d3821c8ab496fe7c9d641e134edf",
+              "verified_at": "2026-11-15T12:21:04.250832+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quân đội Israel (IDF) và cơ quan an ninh ISA xác nhận đã tiêu diệt Younis, cáo buộc ông chỉ đạo các cuộc tấn công chống lại dân thường và binh sĩ Israel.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It added: \"Younis directed the brigade's terrorists to advance and carry out terror attacks against Israeli civilians and IDF troops.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "snippet": "It added: \"Younis directed the brigade's terrorists to advance and carry out terror attacks against Israeli civilians and IDF troops.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "641b1ede060f3aaa1e7ad6e7d8d29dc94377b34d227cd96ee6af41839e9c6bff",
+              "snippet_sha256": "8c92935cc8b99b98e9544d300eddb7892f73d2c5f90a7bb1d023b28bfd7655a7",
+              "verified_at": "2026-11-15T12:21:04.250832+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Younis, 53 tuổi, nhậm chức chỉ huy Lữ đoàn Rafah từ ngày 15 tháng 9 sau cái chết của Nael Abu Obeid.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Younis, 53, had been in his position since 15 September, following the death of the brigade's previous commander, Nael Abu Obeid.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Younis, 53, had been in his position since 15 September, following the death of the brigade's previous commander, Nael Abu Obeid.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "641b1ede060f3aaa1e7ad6e7d8d29dc94377b34d227cd96ee6af41839e9c6bff",
+              "snippet_sha256": "f0225089c469b2c94e34a58d35d7955919b1b2257bfe49ff769e3df5d961f72a",
+              "verified_at": "2026-11-15T12:21:04.250832+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh và diễn biến của vụ không kích tiêu diệt chỉ huy Hamas Samir Abu Younis tại Gaza. Đồng thời, bài phân tích đối chiếu thông tin từ cả hai phía Israel và lực lượng Hamas để cung cấp cái nhìn khách quan về tình hình thực thi lệnh ngừng bắn và các chiến dịch quân sự hiện tại.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T12:21:04.251354+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.200",
+        "251",
+        "53",
+        "74.650"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T12:21:28.079263+00:00",
+        "stats": {
+          "paragraphs": 7,
+          "words": 462,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2144,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "france24.com",
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 19:21"
+    },
+    "published_at": "2026-11-15T12:21:28.079263+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T12:17:39.291546+00:00",
+    "expires_at": "2026-11-16T12:17:39.291546+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+      "https://dantri.com.vn/thoi-su/ong-trinh-van-quyet-bi-xoa-ten-khoi-doan-luat-su-tp-ha-noi-20261114211621691.htm",
+      "https://thanhnien.vn/ong-le-quoc-phong-du-le-phat-dong-phat-trien-van-hoa-dan-toc-ton-giao-185261112191731639.htm"
+    ],
+    "article": {
+      "id": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4",
+      "title": "Những người có tên độc lạ trúng cử trưởng ấp, khu vực tại Cần Thơ",
+      "summary": "Các cá nhân có tên độc lạ từng thu hút sự chú ý trên mạng xã hội trước ngày bầu cử như ông Huỳnh Hello, ông Nguyễn Văn Bậm Trợn và bà Phan Vú Sửa đều đã chính thức trúng cử chức danh trưởng ấp, trưởng khu vực tại Cần Thơ với tỉ lệ tín nhiệm cao.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+      "published_at": "2026-11-15T10:46:00+00:00",
+      "fetched_at": "2026-11-15T12:21:09.912278+00:00",
+      "appnho_published_at": "2026-11-15T12:21:28.079263+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chiều 15-11, thông tin từ các cơ quan chức năng tại Cần Thơ cho biết toàn bộ quá trình bầu cử trưởng ấp, trưởng khu vực nhiệm kỳ 2026 - 2031 trên địa bàn thành phố đã hoàn tất. Đợt bầu cử này ghi nhận 1.227 người trúng cử trên tổng số 1.227 ấp, khu vực, đạt tỉ lệ 100%. Trong đó, số người tái cử chiếm 77,5% và số ứng cử mới chiếm 22,5%.",
+        "Đáng chú ý, danh sách trúng cử xuất hiện một số cá nhân từng gây xôn xao trên mạng xã hội trước ngày bầu cử nhờ sở hữu những cái tên độc và lạ. Cụ thể, tại xã Tân Thạnh, ông Huỳnh Hello sinh năm 1993 đã trúng cử chức danh trưởng ấp trong nhóm các ứng viên đạt tỉ lệ phiếu bầu đều vượt mức 90%.",
+        "Tại xã Long Hưng, ông Nguyễn Văn Bậm Trợn sinh năm 1983 chính thức đảm nhận vị trí trưởng ấp Phương Hòa sau khi giành tỉ lệ phiếu bầu đạt 97,95%. Trong khi đó, tại phường Hưng Phú, bà Phan Vú Sửa sinh năm 1985 đã trúng cử trưởng khu vực Phú Thuận với tỉ lệ 94,51%.",
+        "Lãnh đạo địa phương đánh giá đằng sau những cái tên thu hút sự tò mò từ cộng đồng mạng là những người cán bộ cơ sở gần gũi với nhân dân và có năng lực thực tế. Cuộc bầu cử tại Cần Thơ đợt này cũng ghi nhận sự tham gia của đông đảo cử tri đại diện cho các hộ gia đình cùng đội ngũ nhân sự có trình độ chuyên môn đa dạng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Những người có tên độc lạ trúng cử trưởng ấp, khu vực ở Cần Thơ",
+      "meta_description": "Cập nhật thông tin về kết quả bầu cử trưởng ấp, trưởng khu vực tại Cần Thơ nhiệm kỳ 2026-2031, ghi nhận các trường hợp trúng cử có tên độc đáo thu hút sự quan t",
+      "keywords": [
+        "Cần Thơ",
+        "bầu trưởng ấp",
+        "Huỳnh Hello",
+        "Nguyễn Văn Bậm Trợn",
+        "Phan Vú Sửa"
+      ],
+      "slug": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 275,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+        "https://dantri.com.vn/thoi-su/ong-trinh-van-quyet-bi-xoa-ten-khoi-doan-luat-su-tp-ha-noi-20261114211621691.htm",
+        "https://thanhnien.vn/ong-le-quoc-phong-du-le-phat-dong-phat-trien-van-hoa-dan-toc-ton-giao-185261112191731639.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/ong-trinh-van-quyet-bi-xoa-ten-khoi-doan-luat-su-tp-ha-noi-20261114211621691.htm",
+        "https://thanhnien.vn/ong-le-quoc-phong-du-le-phat-dong-phat-trien-van-hoa-dan-toc-ton-giao-185261112191731639.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T10:46:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/ong-trinh-van-quyet-bi-xoa-ten-khoi-doan-luat-su-tp-ha-noi-20261114211621691.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T14:25:41+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ong-le-quoc-phong-du-le-phat-dong-phat-trien-van-hoa-dan-toc-ton-giao-185261112191731639.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T12:36:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cả 12 người ứng cử trưởng ấp tại xã Tân Thạnh, TP Cần Thơ đều trúng cử với tỉ lệ phiếu bầu trên 90%, trong đó có ông Huỳnh Hello sinh năm 1993.",
+          "source_urls": [
+            "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chiều 15-11, thông tin từ UBND xã Tân Thạnh (TP Cần Thơ), cả 12 người ứng cử trưởng ấp trên địa bàn đều trúng cử, với tỉ lệ phiếu bầu đều đạt trên 90%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "snippet": "Chiều 15-11, thông tin từ UBND xã Tân Thạnh (TP Cần Thơ), cả 12 người ứng cử trưởng ấp trên địa bàn đều trúng cử, với tỉ lệ phiếu bầu đều đạt trên 90%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "page_sha256": "0df8512848ea625cfecaa4a5aecda2b91b6aae025d8398e22609201a2fb54af7",
+              "snippet_sha256": "2a5a714efcd41eb50bcebe633c5077ffe2c231cf809ce5bd1ea806f83a191174",
+              "verified_at": "2026-11-15T12:21:09.911647+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Nguyễn Văn Bậm Trợn sinh năm 1983 trúng cử trưởng ấp Phương Hòa tại xã Long Hưng, TP Cần Thơ với tỉ lệ phiếu bầu đạt 97,95%.",
+          "source_urls": [
+            "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tại xã Long Hưng (TP Cần Thơ), ông Nguyễn Văn Bậm Trợn (sinh năm 1983) trúng cử trưởng ấp Phương Hòa với tỉ lệ phiếu bầu đạt 97,95%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "snippet": "Tại xã Long Hưng (TP Cần Thơ), ông Nguyễn Văn Bậm Trợn (sinh năm 1983) trúng cử trưởng ấp Phương Hòa với tỉ lệ phiếu bầu đạt 97,95%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "page_sha256": "0df8512848ea625cfecaa4a5aecda2b91b6aae025d8398e22609201a2fb54af7",
+              "snippet_sha256": "764d3a49611016ff456d856fd4845e9fa43198dee885877dbbf5ab46d5c3d574",
+              "verified_at": "2026-11-15T12:21:09.911647+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bà Phan Vú Sửa sinh năm 1985 trúng cử trưởng khu vực Phú Thuận tại phường Hưng Phú, TP Cần Thơ với tỉ lệ phiếu bầu đạt 94,51%.",
+          "source_urls": [
+            "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Còn theo UBND phường Hưng Phú (TP Cần Thơ) thì bà Phan Vú Sửa (sinh năm 1985) đã trúng cử trưởng khu vực Phú Thuận, đạt tỉ lệ 94,51%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "snippet": "Còn theo UBND phường Hưng Phú (TP Cần Thơ) thì bà Phan Vú Sửa (sinh năm 1985) đã trúng cử trưởng khu vực Phú Thuận, đạt tỉ lệ 94,51%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "page_sha256": "0df8512848ea625cfecaa4a5aecda2b91b6aae025d8398e22609201a2fb54af7",
+              "snippet_sha256": "3af570253b8fe59f99c639b73003d872869efa11e1a7eebcf0d6fd858de9ec3a",
+              "verified_at": "2026-11-15T12:21:09.911647+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tính đến 14h ngày 15-11, toàn bộ 1.227 ấp, khu vực thuộc 103 xã, phường tại TP Cần Thơ đã hoàn thành bầu cử trưởng ấp, khu vực nhiệm kỳ 2026 - 2031 với tỉ lệ trúng cử đạt 100%.",
+          "source_urls": [
+            "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "NhưTuổi Trẻđã đưa tin,Sở Nội vụ TP Cần Thơcho hay tính đến 14h ngày 15-11, toàn bộ 1.227 ấp, khu vực thuộc 103 xã, phường trên địa bàn thành phố đã hoàn thành việc tổ chức họp cộng đồng dân cư để bầu trưởng ấp, khu vực nhiệm kỳ 2026 - 2031.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "snippet": "NhưTuổi Trẻđã đưa tin,Sở Nội vụ TP Cần Thơcho hay tính đến 14h ngày 15-11, toàn bộ 1.227 ấp, khu vực thuộc 103 xã, phường trên địa bàn thành phố đã hoàn thành việc tổ chức họp cộng đồng dân cư để bầu trưởng ấp, khu vực nhiệm kỳ 2026 - 2031.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "page_sha256": "0df8512848ea625cfecaa4a5aecda2b91b6aae025d8398e22609201a2fb54af7",
+              "snippet_sha256": "2e3afbd940c2b60d550d640b872db4ac9867d3c41c0a68928c6f682f4f8cbc89",
+              "verified_at": "2026-11-15T12:21:09.911647+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh và kết quả thực tế của cuộc bầu cử trưởng ấp tại Cần Thơ, đồng thời xác thực thông tin về những cá nhân có tên độc lạ đã trúng cử với tỉ lệ phiếu bầu cao do chính quyền địa phương ghi nhận.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T12:21:09.912340+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.227",
+        "100",
+        "1983",
+        "1985",
+        "1993",
+        "2026",
+        "2031",
+        "22,5",
+        "77,5",
+        "90",
+        "94,51",
+        "97,95"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T12:21:28.079263+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 275,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1213,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 19:21"
+    },
+    "published_at": "2026-11-15T12:21:28.079263+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-15T12:17:39.291546+00:00",
+    "expires_at": "2026-11-16T12:17:39.291546+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+      "https://thanhnien.vn/ca-si-la-hoc-tro-lam-truong-tiet-lo-phan-ung-gia-dinh-khi-khong-theo-bolero-185261114202010169.htm",
+      "https://dantri.com.vn/kinh-doanh/ty-phu-tran-ba-duong-ban-680000-tan-chuoi-loi-gap-4-lan-lam-co-khi-20261113065021528.htm"
+    ],
+    "article": {
+      "id": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053",
+      "title": "Dàn nghệ sĩ gạo cội trở về trường cũ hát mừng 70 năm Học viện Âm nhạc Quốc gia",
+      "summary": "Đêm nhạc kỷ niệm 70 năm Học viện Âm nhạc Quốc gia Việt Nam đã quy tụ nhiều thế hệ nghệ sĩ, giảng viên và cựu sinh viên nổi tiếng như Thanh Lam, Mỹ Linh, Trọng Tấn, Đăng Dương cùng các giọng ca gạo cội trở về biểu diễn.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+      "published_at": "2026-11-15T10:54:00+00:00",
+      "fetched_at": "2026-11-15T12:21:26.133794+00:00",
+      "appnho_published_at": "2026-11-15T12:21:28.079263+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Khoa thanh nhạc thuộc Học viện Âm nhạc Quốc gia Việt Nam vừa tổ chức đêm nhạc mang tên \"70 năm - Những thanh âm ngân mãi\" vào tối 14-11, nhằm hướng tới cột mốc kỷ niệm 70 năm thành lập trường và chào mừng Ngày Nhà giáo Việt Nam 20-11. Chương trình đã quy tụ tổng cộng 28 ca sĩ, bao gồm nhiều nghệ sĩ nhân dân, nghệ sĩ ưu tú cùng các gương mặt nổi bật của âm nhạc Việt Nam qua nhiều thế hệ cùng chung vui.",
+        "Sự kiện đánh dấu màn hội ngộ đặc biệt của những tên tuổi lớn từng trưởng thành từ mái trường này như Thanh Lam, Mỹ Linh, Trọng Tấn hay Đăng Dương. Dù đã là những ngôi sao tên tuổi, khi trở lại sân khấu trường cũ, họ đều nhắc lại chặng thời gian gắn bó với Nhạc viện Hà Nội trước đây. Trong đó, Thanh Lam từng theo học đàn tỳ bà rồi chuyển sang thanh nhạc từ năm 1985, Mỹ Linh đỗ thủ khoa khoa thanh nhạc năm 1993, trong khi Trọng Tấn và Đăng Dương cũng có những ngã rẽ và hành trình gắn bó sâu đậm với các thế hệ thầy cô tại đây.",
+        "Bên cạnh các tiết mục kết hợp quen thuộc như màn song ca của Thanh Lam và Mỹ Linh hay phần trình diễn của nhóm \"tam ca nhạc đỏ\", đêm nhạc còn ghi dấu ấn bởi sự xuất hiện hiếm hoi của các giọng hát gạo cội. Tiết mục của ba nghệ sĩ nhân dân Quang Thọ, Dương Minh Đức và Ngọc Khang cùng sự góp mặt của NSND Hà Thủy đã mang lại không gian âm nhạc xúc động cho khán giả, tái hiện lại chặng đường sư phạm bền bỉ của ngôi trường này.",
+        "Chia sẻ về dấu mốc 70 năm, lãnh đạo khoa thanh nhạc nhấn mạnh hành trình phát triển của đơn vị gắn liền với lịch sử hình thành nền âm nhạc chuyên nghiệp hiện đại nước nhà. Đêm nhạc không chỉ là dịp để các thế hệ học trò tri ân người thầy, người cô đã gắn bó với bục giảng, mà còn là minh chứng cho sự tiếp nối truyền thống nghệ thuật qua nhiều thế hệ học viên trưởng thành từ mái trường này."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Dàn nghệ sĩ gạo cội hát mừng 70 năm Học viện Âm nhạc Quốc gia",
+      "meta_description": "Đêm nhạc kỷ niệm 70 năm Học viện Âm nhạc Quốc gia Việt Nam quy tụ các thế hệ nghệ sĩ Thanh Lam, Mỹ Linh, Trọng Tấn, Đăng Dương cùng nhiều tên tuổi lớn trở về tr",
+      "keywords": [
+        "Học viện Âm nhạc Quốc gia Việt Nam",
+        "Thanh Lam",
+        "Mỹ Linh",
+        "Trọng Tấn",
+        "Đăng Dương",
+        "Khoa thanh nhạc"
+      ],
+      "slug": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 389,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+        "https://thanhnien.vn/ca-si-la-hoc-tro-lam-truong-tiet-lo-phan-ung-gia-dinh-khi-khong-theo-bolero-185261114202010169.htm",
+        "https://dantri.com.vn/kinh-doanh/ty-phu-tran-ba-duong-ban-680000-tan-chuoi-loi-gap-4-lan-lam-co-khi-20261113065021528.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/ca-si-la-hoc-tro-lam-truong-tiet-lo-phan-ung-gia-dinh-khi-khong-theo-bolero-185261114202010169.htm",
+        "https://dantri.com.vn/kinh-doanh/ty-phu-tran-ba-duong-ban-680000-tan-chuoi-loi-gap-4-lan-lam-co-khi-20261113065021528.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T10:54:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ca-si-la-hoc-tro-lam-truong-tiet-lo-phan-ung-gia-dinh-khi-khong-theo-bolero-185261114202010169.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T13:54:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/ty-phu-tran-ba-duong-ban-680000-tan-chuoi-loi-gap-4-lan-lam-co-khi-20261113065021528.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T23:55:41+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Khoa thanh nhạc Học viện Âm nhạc Quốc gia Việt Nam tổ chức đêm nhạc 70 năm - Những thanh âm ngân mãi tối 14-11.",
+          "source_urls": [
+            "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Khoa thanh nhạc (Học viện Âm nhạc Quốc gia Việt Nam) vừa có đêm nhạc70 năm - Những thanh âm ngân mãitối 14-11, nằm trong chuỗi kỷ niệm 70 năm thành lập trường, đồng thời cũng chào mừng Ngày Nhà giáo Việt Nam 20-11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "snippet": "Khoa thanh nhạc (Học viện Âm nhạc Quốc gia Việt Nam) vừa có đêm nhạc70 năm - Những thanh âm ngân mãitối 14-11, nằm trong chuỗi kỷ niệm 70 năm thành lập trường, đồng thời cũng chào mừng Ngày Nhà giáo Việt Nam 20-11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "page_sha256": "a0d84d3ed53c4c7fc62eab4e6662307aea4d93643cd7795992a5dc340f174442",
+              "snippet_sha256": "f8ee5d201ca69f3aebacb9dd2e5889b4d2715a9d5af9c004ce6fef44097c3d9c",
+              "verified_at": "2026-11-15T12:21:26.133301+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chương trình có sự góp mặt của 28 ca sĩ, trong đó có Thanh Lam, Mỹ Linh, Trọng Tấn và Đăng Dương.",
+          "source_urls": [
+            "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thanh Lam song ca cùng Mỹ LinhÔi quê tôi; Trọng Tấn, Đăng Dương và Việt Hoàn bùng nổ với mashupĐường chúng ta đi-Hà Nội niềm tin và hy vọng.Khán giả nghe họ hát, nhưng thấy cả chặng đường sư phạm của lò đào tạo này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "snippet": "Thanh Lam song ca cùng Mỹ LinhÔi quê tôi; Trọng Tấn, Đăng Dương và Việt Hoàn bùng nổ với mashupĐường chúng ta đi-Hà Nội niềm tin và hy vọng.Khán giả nghe họ hát, nhưng thấy cả chặng đường sư phạm của lò đào tạo này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "page_sha256": "a0d84d3ed53c4c7fc62eab4e6662307aea4d93643cd7795992a5dc340f174442",
+              "snippet_sha256": "a7e6355f20a3a22009a174412540f55147d5fcae10f7cb555ba9a4142a5e85f5",
+              "verified_at": "2026-11-15T12:21:26.133301+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sự kiện có sự hội ngộ của các nghệ sĩ gạo cội như NSND Quang Thọ, NSND Dương Minh Đức, NSND Ngọc Khang và NSND Hà Thủy.",
+          "source_urls": [
+            "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ba nghệ sĩ gạo cội Quang Thọ, Dương Minh Đức và Ngọc Khang trình diễn Bình Trị Thiên khói lửa - Video: ĐẬU DUNG",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "snippet": "Ba nghệ sĩ gạo cội Quang Thọ, Dương Minh Đức và Ngọc Khang trình diễn Bình Trị Thiên khói lửa - Video: ĐẬU DUNG",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "page_sha256": "a0d84d3ed53c4c7fc62eab4e6662307aea4d93643cd7795992a5dc340f174442",
+              "snippet_sha256": "e6be39dd138b7ef466624a2210e91fec1950ae707860223cdc52af1bd15b727c",
+              "verified_at": "2026-11-15T12:21:26.133301+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh và ý nghĩa của đêm nhạc kỷ niệm 70 năm thông qua việc đặt các thế hệ nghệ sĩ trưởng thành từ trường đặt cạnh chặng đường sư phạm của học viện. Đóng góp biên tập nằm ở việc tổng hợp chi tiết hành trình học tập tại trường của các nghệ sĩ tên tuổi cùng sự hội ngộ của các giọng hát gạo cội.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T12:21:26.133871+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1985",
+        "1993",
+        "28",
+        "70"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-15T12:21:28.079263+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 389,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1750,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-15 19:21"
+    },
+    "published_at": "2026-11-15T12:21:28.079263+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
