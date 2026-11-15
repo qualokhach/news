@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "870ec669fdb0f565f9c9",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T15:55:04.299786+00:00",
     "expires_at": "2026-11-18T15:53:41.674636+00:00",
     "category_hint": "world",
@@ -580,11 +580,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T15:55:04.299807+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chinh-phu-anh-can-nhac-thao-luan-ve-quy-inh-o-tuoi-ong-thuan-tinh-duc-d1e582f0"
   },
   {
     "queue_id": "392bb186e191e6ee0fc0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T15:55:01.113437+00:00",
     "expires_at": "2026-11-18T15:53:41.674636+00:00",
     "category_hint": "world",
@@ -1223,11 +1224,12 @@
       ]
     },
     "research_ready_at": "2026-11-15T15:55:01.113459+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "luc-luong-hau-thuan-boi-saudi-arabia-rut-lui-khoi-bien-o-truoc-a-tien-cu-2886f329"
   },
   {
     "queue_id": "13a88ddfc768f3ed6e7c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T15:54:59.827383+00:00",
     "expires_at": "2026-11-18T15:53:41.674636+00:00",
     "category_hint": "sports",
@@ -2166,7 +2168,8 @@
       ]
     },
     "research_ready_at": "2026-11-15T15:54:59.827403+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca"
   },
   {
     "queue_id": "a8276a011555a7b55b83",
@@ -81561,5 +81564,654 @@
     },
     "published_at": "2026-11-10T17:21:27.114068+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "chinh-phu-anh-can-nhac-thao-luan-ve-quy-inh-o-tuoi-ong-thuan-tinh-duc-d1e582f0",
+    "status": "READY",
+    "prepared_at": "2026-11-15T15:55:22.486909+00:00",
+    "expires_at": "2026-11-16T15:55:22.486909+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand"
+    ],
+    "article": {
+      "id": "chinh-phu-anh-can-nhac-thao-luan-ve-quy-inh-o-tuoi-ong-thuan-tinh-duc-d1e582f0",
+      "title": "Chính phủ Anh cân nhắc thảo luận về quy định độ tuổi đồng thuận tình dục",
+      "summary": "Các bộ trưởng Anh cho biết vấn đề thay đổi độ tuổi đồng thuận tình dục sẽ được đưa ra thảo luận, sau những lời kêu gọi từ các nạn nhân trong các vụ án liên quan đến nghệ sĩ giải trí.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T15:08:30+00:00",
+      "fetched_at": "2026-11-15T15:55:27.014457+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chính phủ Anh đang đối mặt với những lời kêu gọi thay đổi khung pháp lý về độ tuổi đồng thuận tình dục. Các bộ trưởng xác nhận vấn đề này sẽ được đưa ra thảo luận trong thời gian tới, trong bối cảnh dư luận hướng sự chú ý lớn về các vụ bê bối liên quan đến giới giải trí.",
+        "Theo quy định hiện hành tại Anh, người trưởng thành ở mọi lứa tuổi đều có thể quan hệ tình dục hợp pháp với thanh thiếu niên từ 16 đến 17 tuổi. Tuy nhiên, các chiến dịch vận động và nạn nhân đã lên tiếng yêu cầu áp dụng mức độ tuổi đồng thuận theo thang bậc để ngăn chặn sự mất cân bằng quyền lực giữa người lớn tuổi và trẻ vị thành niên.",
+        "Động thái này diễn ra sau khi diễn viên hài Russell Brand bị kết án tù vì tội hiếp dâm và tấn công tình dục. Một trong những người từng tố cáo, sau khi từ bỏ quyền giấu tên, đã công khai kêu gọi nhà nước cấm các mối quan hệ tình dục giữa người trưởng thành lớn tuổi và người dưới 18 tuổi.",
+        "Nhiều chính trị gia và tổ chức bảo vệ trẻ em cũng lên tiếng ủng hộ việc mở một cuộc tranh luận công khai để xem xét lại hệ thống luật pháp hiện hành, nhằm bảo vệ nhóm vị thành niên trước nguy cơ bị thao túng hoặc lạm dụng quyền lực."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Anh xem xét quy định độ tuổi đồng thuận sau vụ Russell Brand",
+      "meta_description": "Chính phủ Anh đối mặt với áp lực thay đổi luật độ tuổi đồng thuận tình dục sau các cáo buộc và bản án đối với nghệ sĩ Russell Brand.",
+      "keywords": [
+        "độ tuổi đồng thuận",
+        "Russell Brand",
+        "Anh",
+        "chính phủ",
+        "pháp luật"
+      ],
+      "slug": "chinh-phu-anh-can-nhac-thao-luan-ve-quy-inh-o-tuoi-ong-thuan-tinh-duc-d1e582f0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 253,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T15:08:30+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T00:17:14+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chính phủ Anh đối mặt với các cuộc thảo luận về việc thay đổi quy định độ tuổi đồng thuận tình dục sau vụ án Russell Brand.",
+          "source_urls": [
+            "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand"
+          ],
+          "importance": "core",
+          "evidence_snippet": "British comedian and TV star Russell Brand was sentenced to 10 years and 6 months on 9 November after being convicted for rape and sexual assaults.Photograph: Brook Mitchell/AFP/Getty ImagesView image in fullscreenBritish comedian and TV star Russell Brand was sentenced to 10 years and 6 months on 9 November after being convicted for rape and sexual assaults.Photograph: Brook Mitchell/AFP/Getty Images",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand",
+              "snippet": "British comedian and TV star Russell Brand was sentenced to 10 years and 6 months on 9 November after being convicted for rape and sexual assaults.Photograph: Brook Mitchell/AFP/Getty ImagesView image in fullscreenBritish comedian and TV star Russell Brand was sentenced to 10 years and 6 months on 9 November after being convicted for rape and sexual assaults.Photograph: Brook Mitchell/AFP/Getty Images",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand",
+              "page_sha256": "b8e41e08875c8504c96a7fe9b12bd811a025843d200c00a9121337dc6fd662b2",
+              "snippet_sha256": "71ca1a341af32be9d3cbb229dfca71360893b1abdc03303fc542cb48813fea91",
+              "verified_at": "2026-11-15T15:55:27.013738+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật pháp Anh hiện cho phép người trưởng thành ở bất kỳ độ tuổi nào quan hệ tình dục với người từ 16 và 17 tuổi.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Anna Edmundson, director of policy and social change at the NSPCC charity, said 16 and 17-year-olds can be particularly vulnerable to grooming by some adults and laws have been changed in recent years to prevent more people in positions of trust from having sexual relationships with children of such an age.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+              "snippet": "Anna Edmundson, director of policy and social change at the NSPCC charity, said 16 and 17-year-olds can be particularly vulnerable to grooming by some adults and laws have been changed in recent years to prevent more people in positions of trust from having sexual relationships with children of such an age.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8b345d47d98071f1505382b67075d76f7fbd1c20f52fbdffdd3ef07c6a5d0618",
+              "snippet_sha256": "96d54e46dd0ea0c013b4147736e6a38066c226814338ab7b2e16cdcdb85bdc8e",
+              "verified_at": "2026-11-15T15:55:27.013738+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Russell Brand đã bị kết án tù vì tội hiếp dâm và tấn công tình dục tại Tòa án Crown Southwark.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "AtSouthwark Crown Court on Monday, Brand was sentenced to 10-and-a-half-years imprisonmentafter being convicted of one count of rape and three counts of sexual assault, involving four women between 2004 and 2009.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+              "snippet": "AtSouthwark Crown Court on Monday, Brand was sentenced to 10-and-a-half-years imprisonmentafter being convicted of one count of rape and three counts of sexual assault, involving four women between 2004 and 2009.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8b345d47d98071f1505382b67075d76f7fbd1c20f52fbdffdd3ef07c6a5d0618",
+              "snippet_sha256": "3d5f513d6cb197bb2120d81c272fe9de4cf4633a12aca862d715e4b12bc53ad2",
+              "verified_at": "2026-11-15T15:55:27.013738+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh pháp lý hiện hành tại Anh về độ tuổi 16-17 và phản ứng từ các quan chức chính phủ sau vụ án. Đồng thời, phân tích nguyên nhân dẫn đến làn sóng kêu gọi cải cách từ các chiến dịch vận động xã hội.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T15:55:27.014560+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "16",
+        "17",
+        "18"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-15T15:55:27.015839+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 253,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1129
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "luc-luong-hau-thuan-boi-saudi-arabia-rut-lui-khoi-bien-o-truoc-a-tien-cu-2886f329",
+    "status": "READY",
+    "prepared_at": "2026-11-15T15:55:22.486909+00:00",
+    "expires_at": "2026-11-16T15:55:22.486909+00:00",
+    "source_urls": [
+      "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+      "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+    ],
+    "article": {
+      "id": "luc-luong-hau-thuan-boi-saudi-arabia-rut-lui-khoi-bien-o-truoc-a-tien-cu-2886f329",
+      "title": "Lực lượng hậu thuẫn bởi Saudi Arabia rút lui khỏi Biển Đỏ trước đà tiến của lực lượng Houthi",
+      "summary": "Lực lượng Vũ trang miền Nam tại Yemen tuyên bố rút lui khỏi vùng bờ biển Biển Đỏ sau nhiều tuần giao tranh, trong bối cảnh ưu thế quân sự tiếp tục nghiêng về phía lực lượng Houthi và các cuộc tấn công xuyên biên giới gia tăng.",
+      "category": "world",
+      "source_name": "NYT - World",
+      "source_url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+      "published_at": "2026-11-15T15:42:25+00:00",
+      "fetched_at": "2026-11-15T15:55:32.917411+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các lực lượng được Saudi Arabia hậu thuẫn tại Yemen vừa cho biết họ đang tiến hành rút quân khỏi khu vực bờ biển Biển Đỏ. Quyết định này được đưa ra sau nhiều tuần giao tranh căng thẳng nhằm giành lại quyền kiểm soát các vùng lãnh thổ chiến lược từ tay phong trào Houthi có liên kết với Iran.",
+        "Theo tuyên bố từ lực lượng Vũ trang miền Nam liên minh với chính phủ Yemen, động thái tái triển khai lực lượng nhằm mục đích bảo vệ thành phố Aden — thủ đô lâm thời của chính phủ được quốc tế công nhận trong suốt hơn một thập kỷ qua. Giới quan sát nhận định sự rút lui này là một đòn giáng mạnh đối với chính quyền Yemen và các đồng minh Saudi Arabia, khi cân bằng quyền lực tại chiến trường tiếp tục nghiêng về phía lực lượng Houthi.",
+        "Việc rút quân đồng thời thừa nhận rằng liên minh chính phủ và Saudi Arabia chưa thể giành lại quyền kiểm soát eo biển Bab al-Mandab, một tuyến hàng hải huyết mạch cho thương mại toàn cầu nằm ở phía nam Biển Đỏ. Bên cạnh đó, lực lượng Vũ trang miền Nam cho biết việc tái bố trí lực lượng cũng giúp họ tập trung giải tỏa thế bao vây của Houthi tại thành phố Taiz.",
+        "Ở diễn biến liên quan, xung đột tại đây bùng phát trở lại từ tháng 7 trong bối cảnh căng thẳng khu vực gia tăng. Trong khi đó, lực lượng Houthi tiếp tục thực hiện các cuộc tấn công bằng máy bay không người lái và tên lửa nhằm vào hạ tầng quân sự cùng cơ sở năng lượng tại Saudi Arabia, bao gồm thủ đô Riyadh và các khu vực dầu mỏ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Lực lượng Yemen hậu thuẫn bởi Saudi rút khỏi Biển Đỏ",
+      "meta_description": "Lực lượng hậu thuẫn bởi Saudi Arabia rút lui khỏi bờ biển Biển Đỏ ở Yemen để bảo vệ thành phố Aden trong bối cảnh Houthi tiến công mạnh mẽ.",
+      "keywords": [
+        "Yemen",
+        "Houthi",
+        "Saudi Arabia",
+        "Biển Đỏ",
+        "Aden"
+      ],
+      "slug": "luc-luong-hau-thuan-boi-saudi-arabia-rut-lui-khoi-bien-o-truoc-a-tien-cu-2886f329",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 302,
+      "display_source": true,
+      "source_urls": [
+        "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+        "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T15:42:25+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T23:52:38+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các lực lượng được Saudi Arabia hậu thuẫn tại Yemen cho biết họ đang rút lui khỏi bờ biển Biển Đỏ sau nhiều tuần giao tranh với Houthi.",
+          "source_urls": [
+            "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The retreat is a blow for the Yemeni government and Saudi Arabia as the balance of power in Yemen continues to tilt toward the Houthis, analysts said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+              "snippet": "The retreat is a blow for the Yemeni government and Saudi Arabia as the balance of power in Yemen continues to tilt toward the Houthis, analysts said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+              "page_sha256": "ad19dafd2d5063625c5379618cdcbe6fb774ac1a8728e6b28aa12a842633d2d0",
+              "snippet_sha256": "f11cafb19b023cc1f8ad59bfe68610a689384c83e90d98e8a345fac348d45e58",
+              "verified_at": "2026-11-15T15:55:32.916859+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lực lượng Vũ trang miền Nam liên minh với chính phủ Yemen tuyên bố tái triển khai để bảo vệ thủ đô lâm thời Aden.",
+          "source_urls": [
+            "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ImageChildren at a displacement camp on the outskirts of Aden, Yemen, this month.Credit...Abdulnasser Alseddik/Associated Press",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+              "snippet": "ImageChildren at a displacement camp on the outskirts of Aden, Yemen, this month.Credit...Abdulnasser Alseddik/Associated Press",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+              "page_sha256": "ad19dafd2d5063625c5379618cdcbe6fb774ac1a8728e6b28aa12a842633d2d0",
+              "snippet_sha256": "a06cd8308659f60449f2b40d4e0625968de881d610529970a5e3c4153928f378",
+              "verified_at": "2026-11-15T15:55:32.916859+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lực lượng Houthi trước đó đã tiến hành các cuộc tấn công nhằm vào cơ sở hạ tầng năng lượng và quân sự tại Saudi Arabia.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "list 2 of 3Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+              "snippet": "list 2 of 3Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+              "page_sha256": "a814598476fff55838b7f28be79c185220d00a1d72511ded701299456338ff5e",
+              "snippet_sha256": "637c3e4b66114ebcee3577dd475d4267c097a2894e605faa1c39387608e0ebef",
+              "verified_at": "2026-11-15T15:55:32.916859+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt quân sự mới nhất tại Yemen khi lực lượng liên minh phải rút lui khỏi Biển Đỏ để bảo vệ thủ đô lâm thời Aden. Ngữ cảnh xung đột khu vực và áp lực đối với các tuyến hàng hải quốc tế được phân tích dựa trên thông tin chính thức từ các bên liên quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T15:55:32.917510+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-15T15:55:32.918506+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 302,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1417
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "nytimes.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
+    "status": "READY",
+    "prepared_at": "2026-11-15T15:55:22.486909+00:00",
+    "expires_at": "2026-11-16T15:55:22.486909+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+      "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+      "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+      "https://www.sportingnews.com/us/ncaa-football/news/faa-ground-stop-live-updates-college-football/02a75ddcf3a8d3c1970f80a6",
+      "https://www.theguardian.com/sport/2026/nov/14/faa-ground-stop-nba-nhl-college-football-travel-disruption"
+    ],
+    "article": {
+      "id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
+      "title": "Bốn trọng tài NFL thực hiện 'ca kép' sau lệnh cấm bay của FAA",
+      "summary": "Do ảnh hưởng từ lệnh cấm bay diện rộng của Cơ quan Hàng không Liên bang Mỹ (FAA), bốn trọng tài NFL phải di chuyển bằng đường bộ để điều hành hai trận đấu trong cùng một ngày Chủ nhật.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+      "published_at": "2026-11-15T15:41:13+00:00",
+      "fetched_at": "2026-11-15T15:55:38.769477+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sự cố gián đoạn hàng không do lệnh cấm bay diện rộng của Cơ quan Hàng không Liên bang Mỹ (FAA) vào ngày thứ Sáu đã tạo ra những tác động hy hữu trong làng thể thao chuyên nghiệp. Theo thông tin từ ESPN, bốn trọng tài NFL sẽ phải thực hiện một ca làm việc kép bất thường trong ngày Chủ nhật khi phải điều hành hai trận đấu khác nhau.",
+        "Cụ thể, trọng tài chính Don Willard, trọng tài bắt bóng Terry Killens, trọng tài biên Jabir Walker và trọng tài biên Justin Larrew sẽ làm nhiệm vụ trong trận đấu giữa Miami Dolphins và Indianapolis Colts diễn ra lúc 1 giờ chiều theo giờ miền Đông tại Indianapolis. Ngay sau tiếng còi mãn cuộc ở trận đấu này, nhóm trọng tài sẽ phải di chuyển quãng đường khoảng 110 dặm bằng đường bộ để đến Cincinnati kịp thời gian làm nhiệm vụ cho trận đấu muộn giữa Pittsburgh Bengals và Cincinnati Bengals lúc 8 giờ 20 tối.",
+        "Sự điều chỉnh lịch làm việc này nằm trong kế hoạch rộng hơn của NFL nhằm phân công lại các trọng tài đến các trận đấu nằm trong phạm vi khoảng cách có thể lái xe từ quê nhà của họ. Ngoài ra, phía giải đấu cho biết mỗi một trong số 17 tổ trọng tài của giải đều có sẵn một trọng tài dự phòng đã được xác định trước và được huấn luyện kỹ lưỡng trong năm để có thể sẵn sàng thay thế vị trí trọng tài chính khi cần thiết.",
+        "Lệnh cấm bay toàn quốc diễn ra do các vấn đề công nghệ liên quan đến hệ thống kiểm soát không lưu, khiến các hãng hàng không phải mất nhiều ngày để khôi phục lại lịch trình bình thường, gây ảnh hưởng lan rộng đến việc di chuyển của hành khách cũng như các đội tuyển thể thao chuyên nghiệp và đại học trên toàn nước Mỹ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bốn trọng tài NFL làm ca kép sau lệnh cấm bay FAA",
+      "meta_description": "Sự cố cấm bay diện rộng của FAA khiến bốn trọng tài NFL phải làm việc hai trận đấu trong ngày Chủ nhật sau khi di chuyển bằng đường bộ.",
+      "keywords": [
+        "NFL",
+        "FAA",
+        "trọng tài",
+        "thể thao Mỹ",
+        "cấm bay"
+      ],
+      "slug": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 331,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+        "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+        "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+        "https://www.sportingnews.com/us/ncaa-football/news/faa-ground-stop-live-updates-college-football/02a75ddcf3a8d3c1970f80a6",
+        "https://www.theguardian.com/sport/2026/nov/14/faa-ground-stop-nba-nhl-college-football-travel-disruption"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+        "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+        "https://www.sportingnews.com/us/ncaa-football/news/faa-ground-stop-live-updates-college-football/02a75ddcf3a8d3c1970f80a6",
+        "https://www.theguardian.com/sport/2026/nov/14/faa-ground-stop-nba-nhl-college-football-travel-disruption"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T15:41:13+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T14:24:18+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T01:13:59+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/faa-ground-stop-live-updates-college-football/02a75ddcf3a8d3c1970f80a6",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T13:58:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/14/faa-ground-stop-nba-nhl-college-football-travel-disruption",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T07:21:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bốn trọng tài NFL phải thực hiện ca kép trong ngày Chủ nhật, điều hành hai trận đấu khác nhau do ảnh hưởng của lệnh cấm bay FAA.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Information from The Associated Press was used in this report.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+              "snippet": "Information from The Associated Press was used in this report.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+              "page_sha256": "8528fea78dca84aa96228d83a0cc831db1d1b16f88be8722099b407786d77a58",
+              "snippet_sha256": "92c0c255d8def725081d66f11d4f511d51ba44716a78e690eb0f3e2793ea3131",
+              "verified_at": "2026-11-15T15:55:38.768890+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các trọng tài gồm Don Willard, Terry Killens, Jabir Walker và Justin Larrew làm nhiệm vụ trận Dolphins-Colts tại Indianapolis rồi lái xe 110 dặm tới Cincinnati để làm nhiệm vụ trận Steelers-Bengals.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Referee Don Willard, umpire Terry Killens, field judge Jabir Walker and side judge Justin Larrew all will work theDolphins-Coltsgame at 1 p.m.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+              "snippet": "Referee Don Willard, umpire Terry Killens, field judge Jabir Walker and side judge Justin Larrew all will work theDolphins-Coltsgame at 1 p.m.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+              "page_sha256": "8528fea78dca84aa96228d83a0cc831db1d1b16f88be8722099b407786d77a58",
+              "snippet_sha256": "e154bd9a2257beaa38c9d5f7397ed0b0ba06e3d5650da9e688aebb4658ef2204",
+              "verified_at": "2026-11-15T15:55:38.768890+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "NFL có kế hoạch tái phân bổ trọng tài đến các trận đấu trong khoảng cách lái xe từ quê nhà và mỗi tổ trọng tài có sẵn một trọng tài dự phòng được đào tạo trong năm.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The nationwide stop, attributed to new technology being added to the nation's air traffic control system that caused \"intermittent\" communications and radar gaps, was the second since the Sept.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+              "snippet": "The nationwide stop, attributed to new technology being added to the nation's air traffic control system that caused \"intermittent\" communications and radar gaps, was the second since the Sept.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+              "page_sha256": "8528fea78dca84aa96228d83a0cc831db1d1b16f88be8722099b407786d77a58",
+              "snippet_sha256": "d48388283c994333215bc2482e5d82024d7fe522cf7edada3f82a4f1ca36b4a8",
+              "verified_at": "2026-11-15T15:55:38.768890+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích rõ tình huống hy hữu trong giải bóng bầu dục Mỹ NFL khi các trọng tài phải làm ca kép do ảnh hưởng dây chuyền từ lệnh cấm bay của FAA. Nội dung làm nổi bật phương án xử lý tình huống của ban tổ chức giải đấu và khoảng cách di chuyển thực tế giữa các trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-15T15:55:38.769594+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "110",
+        "17",
+        "20",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-15T15:55:38.771175+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 331,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1575
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "espn.com",
+          "npr.org",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
