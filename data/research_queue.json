@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "366d2aed8bd41dc8f081",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T18:58:39.623133+00:00",
     "expires_at": "2026-11-19T18:56:39.429421+00:00",
     "category_hint": "world",
@@ -1355,11 +1355,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T18:58:39.623151+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hoi-ong-quan-tri-nvidia-chua-can-nhac-ua-jensen-huang-tro-lai-ghe-ceo-40d19ede"
   },
   {
     "queue_id": "94dca9e6573c2ef8cf95",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T18:58:37.459277+00:00",
     "expires_at": "2026-11-19T18:56:39.429421+00:00",
     "category_hint": "technology",
@@ -2158,11 +2159,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T18:58:37.459298+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "apple-bo-sung-tinh-nang-nhan-dien-khuon-mat-han-che-cho-iphone-duo-b3d5951b"
   },
   {
     "queue_id": "d4048866fe5c074fe8f1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T18:58:28.339799+00:00",
     "expires_at": "2026-11-19T18:56:39.429421+00:00",
     "category_hint": "world",
@@ -2906,7 +2908,8 @@
       ]
     },
     "research_ready_at": "2026-11-16T18:58:28.339817+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "my-siet-chat-quy-inh-kiem-soat-cong-nghe-ai-tu-xa-sau-be-boi-nvidia-eeb3e321"
   },
   {
     "queue_id": "42ca4b5c1b4624be5271",
@@ -76995,5 +76998,867 @@
     "research_ready_at": "2026-11-11T16:40:49.388353+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "dau-an-cua-olaha-manh-duc-trong-ngay-ra-mat-doi-tuyen-viet-nam-7b516591"
+  },
+  {
+    "queue_id": "hoi-ong-quan-tri-nvidia-chua-can-nhac-ua-jensen-huang-tro-lai-ghe-ceo-40d19ede",
+    "status": "READY",
+    "prepared_at": "2026-11-16T18:59:03.842082+00:00",
+    "expires_at": "2026-11-17T18:59:03.842082+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+      "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+      "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+      "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+      "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "hoi-ong-quan-tri-nvidia-chua-can-nhac-ua-jensen-huang-tro-lai-ghe-ceo-40d19ede",
+      "title": "Hội đồng quản trị Nvidia chưa cân nhắc đưa Jensen Huang trở lại ghế CEO",
+      "summary": "Dù vấp phải làn sóng vận động mạnh mẽ từ giới công nghệ và sự ủng hộ công khai của Tổng thống Mỹ Donald Trump, hội đồng quản trị Nvidia hiện không có kế hoạch tái bổ nhiệm Jensen Huang làm CEO trong lúc cuộc điều tra an ninh quốc gia đang diễn ra.",
+      "category": "technology",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "published_at": "2026-11-16T18:22:06+00:00",
+      "fetched_at": "2026-11-16T18:59:19.121342+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hội đồng quản trị của tập đoàn công nghệ Nvidia hiện không xem xét việc đưa ông Jensen Huang trở lại vị trí tổng giám đốc điều hành, bất chấp những đồn đoán và các nỗ lực hậu trường từ giới đồng minh trong ngành công nghệ nhằm khôi phục chức vụ cho cựu lãnh đạo này.",
+        "Theo thông tin từ những người am hiểu vấn đề, ban quản trị tập đoàn đang tập trung toàn lực vào cuộc điều tra liên quan đến vấn đề an ninh quốc gia đối với ông Huang sau khi ông từ chức vào tuần trước. Quyết định từ bỏ chiếc ghế lãnh đạo được đưa ra sau khi ông thừa nhận mối quan hệ ngoài luồng và các thông tin liên quan đến nhân sự trong công ty.",
+        "Trong khi đó, một chiến dịch mang tên 'Stand with Jensen' đã thu hút hàng trăm nghìn chữ ký từ nhân viên, đối tác, cổ đông cùng các nhân vật tên tuổi trong làng công nghệ như tỷ phú Elon Musk. Nhóm đồng minh của ông Huang tại Thung lũng Silicon cũng thiết lập các hoạt động hậu thuẫn và tìm kiếm sự ủng hộ từ phía Nhà Trắng nhằm gây áp lực buộc hội đồng quản trị phải xem xét lại quyết định.",
+        "Về phía giới chức chính trị, Tổng thống Mỹ Donald Trump chia sẻ với báo giới rằng ông không phản đối việc cựu CEO Nvidia quay lại công việc cũ. Tuy nhiên, quan điểm này có phần trái ngược với lập trường của một số quan chức trong nội các, khi Bộ trưởng Tài chính Mỹ kêu gọi tìm kiếm một gương mặt lãnh đạo hoàn toàn mới từ bên ngoài cho tập đoàn chip bán dẫn này.",
+        "Hiện tại, quá trình lựa chọn đơn vị tư vấn tìm kiếm nhân sự cấp cao cho vị trí CEO đang được Nvidia triển khai. Giới quan sát nhận định khả năng ông Jensen Huang được tái bổ nhiệm là rất thấp trong thời điểm các cuộc điều tra độc lập và rà soát nội bộ vẫn đang tiếp tục diễn ra."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nvidia: Hội đồng quản trị chưa cân nhắc đưa Jensen Huang trở lại",
+      "meta_description": "Hội đồng quản trị Nvidia hiện không thảo luận việc đưa cựu CEO Jensen Huang trở lại vị trí lãnh đạo, bất chấp chiến dịch vận động và sự ủng hộ từ giới công nghệ",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "CEO",
+        "Thung lũng Silicon",
+        "Donald Trump"
+      ],
+      "slug": "hoi-ong-quan-tri-nvidia-chua-can-nhac-ua-jensen-huang-tro-lai-ghe-ceo-40d19ede",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 359,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+        "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+        "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+        "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+        "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+        "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+        "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+        "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+        "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+        "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:22:06+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T17:24:26+00:00"
+        },
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T15:43:06+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T14:06:16+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T14:03:14+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T11:45:40+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hội đồng quản trị Nvidia không xem xét đưa Jensen Huang trở lại làm CEO.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "watch nowVIDEO19:3719:37The rise, reinvention and uncertain future of Nvidia without Jensen HuangTechChoose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "snippet": "watch nowVIDEO19:3719:37The rise, reinvention and uncertain future of Nvidia without Jensen HuangTechChoose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "page_sha256": "239281e662663d35be539feae58f0d808470e9a04ba663f263ba891c3f908a87",
+              "snippet_sha256": "2e53e1efad9056b7ed2ae2f492fcf549728c3733bb39fe8d8bc2846a4a74aa72",
+              "verified_at": "2026-11-16T18:59:19.120727+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hội đồng quản trị đang tập trung vào cuộc điều tra an ninh quốc gia liên quan đến ông Huang.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "PresidentDonald Trumpsaid on Monday that he is open to Jensen Huang returning as CEO of Nvidia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "snippet": "PresidentDonald Trumpsaid on Monday that he is open to Jensen Huang returning as CEO of Nvidia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "page_sha256": "239281e662663d35be539feae58f0d808470e9a04ba663f263ba891c3f908a87",
+              "snippet_sha256": "5f80152ab9ba38046494a2761666165b11bce46739b011d3a3d24a31375643fe",
+              "verified_at": "2026-11-16T18:59:19.120727+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jensen Huang đã từ chức CEO Nvidia sau 33 năm gắn bó, sau khi thừa nhận có quan hệ tình cảm.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Last week, Huang resigned from Nvidia, the company he founded, after 33 years as CEO.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "snippet": "Last week, Huang resigned from Nvidia, the company he founded, after 33 years as CEO.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "page_sha256": "239281e662663d35be539feae58f0d808470e9a04ba663f263ba891c3f908a87",
+              "snippet_sha256": "2be984e044f44b683e87ecbae548287d2fc4dca1e31b3af0e73bb45bd159cd91",
+              "verified_at": "2026-11-16T18:59:19.120727+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đơn kiến nghị trực tuyến yêu cầu phục chức cho ông Huang đã thu hút khoảng 180.000 chữ ký, trong đó có Elon Musk.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anonline petitioncalling for his reinstatement has drawn 180,000 signatures as well as support from major figures includingElon Musk, Y Combinator CEO Garry Tan and Epic Games CEO Tim Sweeney.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "snippet": "Anonline petitioncalling for his reinstatement has drawn 180,000 signatures as well as support from major figures includingElon Musk, Y Combinator CEO Garry Tan and Epic Games CEO Tim Sweeney.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "page_sha256": "239281e662663d35be539feae58f0d808470e9a04ba663f263ba891c3f908a87",
+              "snippet_sha256": "87490de5b69bf7f17c91bd389ae46a0e89ff03bd1bb005a06936213462f3d611",
+              "verified_at": "2026-11-16T18:59:19.120727+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Mỹ Donald Trump cho biết ông mở cửa và không phiền lòng nếu Jensen Huang quay lại làm CEO Nvidia.",
+          "source_urls": [
+            "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "We write with gratitude for Jensen Huang and with a clear demand to the Board: bring Jensen back while an independent investigation establishes the facts, unless and until you can provide compelling evidence that his removal is in NVIDIA’s best interests,” the letter published on the petition’s website said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+              "snippet": "We write with gratitude for Jensen Huang and with a clear demand to the Board: bring Jensen back while an independent investigation establishes the facts, unless and until you can provide compelling evidence that his removal is in NVIDIA’s best interests,” the letter published on the petition’s website said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+              "page_sha256": "0839f8cfd8118b57a42fb52e7a09221e75734d92fc30a9e86cdea6256fafc9f1",
+              "snippet_sha256": "4b2320615c54e75452ef0b92d96d7727fc437e0e0437bdcfc3d742bac421b1e1",
+              "verified_at": "2026-11-16T18:59:19.120727+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lập trường hiện tại của hội đồng quản trị Nvidia trái ngược hoàn toàn với chiến dịch vận động rầm rộ từ Thung lũng Silicon và ý kiến của Tổng thống Mỹ. Qua đó, bài phân tích phác họa bức tranh toàn cảnh về cuộc khủng hoảng lãnh đạo và những mâu thuẫn chính sách xung quanh nhà sản xuất chip hàng đầu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T18:59:19.121431+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-16T18:59:19.122794+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 359,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1647
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "arstechnica.com",
+          "bbc.com",
+          "cnbc.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "apple-bo-sung-tinh-nang-nhan-dien-khuon-mat-han-che-cho-iphone-duo-b3d5951b",
+    "status": "READY",
+    "prepared_at": "2026-11-16T18:59:03.842082+00:00",
+    "expires_at": "2026-11-17T18:59:03.842082+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+      "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+      "https://www.engadget.com/2313699/iphone-duo-vs-oppo-find-n6-foldable-comparison",
+      "https://dantri.com.vn/cong-nghe/ban-le-iphone-duo-sau-hon-450000-lan-gap-se-nhu-the-nao-20261115230756190.htm",
+      "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use",
+      "https://thanhnien.vn/iphone-duo-gap-hon-440000-lan-moi-bat-dau-co-dau-hieu-xuong-cap-185261114153518199.htm"
+    ],
+    "article": {
+      "id": "apple-bo-sung-tinh-nang-nhan-dien-khuon-mat-han-che-cho-iphone-duo-b3d5951b",
+      "title": "Apple bổ sung tính năng nhận diện khuôn mặt hạn chế cho iPhone Duo",
+      "summary": "Người dùng iPhone Duo sắp được trải nghiệm tính năng nhận diện khuôn mặt thông qua bản cập nhật iOS 27.3, dù đây không phải là hệ thống Face ID toàn diện như trên các dòng iPhone truyền thống.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+      "published_at": "2026-11-16T18:26:26+00:00",
+      "fetched_at": "2026-11-16T18:59:32.405155+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Apple vừa thông báo sẽ mang tính năng nhận diện khuôn mặt lên mẫu điện thoại gập iPhone Duo thông qua bản cập nhật iOS 27.3. Do thiết kế gập phức tạp với bản lề và nhiều lớp màn hình, thiết bị này vốn không có đủ không gian vật lý để tích hợp hệ thống cảm biến TrueDepth cần thiết cho Face ID tiêu chuẩn. Thay vào đó, Apple đã áp dụng công nghệ nhận diện người dùng từ thiết bị HomeView để giải quyết nhu cầu mở khóa nhanh cho người dùng.",
+        "Khác với Face ID, công nghệ nhận diện mới trên iPhone Duo hoạt động dựa trên camera trước và được bảo mật trong không gian Secure Exclave của chip A20 Pro. Tuy nhiên, tính năng này đi kèm với nhiều hạn chế đáng kể. Người dùng không thể sử dụng nó để xác thực thanh toán Apple Wallet hoặc truy cập các ứng dụng nhạy cảm như ngân hàng; các tác vụ này vẫn yêu cầu dấu vân tay qua Touch ID hoặc mật mã. Ngoài ra, hệ thống chỉ hoạt động trên màn hình ngoài và yêu cầu người dùng phải xác thực bằng Touch ID hoặc mật mã trong vòng 45 phút trước đó để kích hoạt.",
+        "Việc Apple chấp nhận triển khai một phiên bản nhận diện khuôn mặt 'rút gọn' cho thấy sự thỏa hiệp hiếm hoi của hãng trước những phản hồi về sự bất tiện của Touch ID trên dòng điện thoại gập này. Trong khi các tin đồn cho rằng Apple đang nỗ lực đưa Face ID hoàn chỉnh lên thế hệ iPhone Duo thứ hai, các chu kỳ phát triển sản phẩm khắt khe có thể khiến tính năng này phải chờ đến thế hệ thứ ba vào năm 2028 mới có thể xuất hiện. Hiện tại, iOS 27.3 cũng bổ sung tùy chọn cho phép người dùng tự động khóa thiết bị khi gập máy, giúp tăng cường bảo mật cho người dùng trong quá trình sử dụng hàng ngày."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Apple mang nhận diện khuôn mặt lên iPhone Duo qua iOS 27.3",
+      "meta_description": "Apple cập nhật tính năng nhận diện khuôn mặt cho iPhone Duo trong iOS 27.3. Tìm hiểu giới hạn của công nghệ này so với Face ID truyền thống.",
+      "keywords": [
+        "iPhone Duo",
+        "Apple",
+        "iOS 27.3",
+        "nhận diện khuôn mặt",
+        "Face ID"
+      ],
+      "slug": "apple-bo-sung-tinh-nang-nhan-dien-khuon-mat-han-che-cho-iphone-duo-b3d5951b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 343,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+        "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+        "https://www.engadget.com/2313699/iphone-duo-vs-oppo-find-n6-foldable-comparison",
+        "https://dantri.com.vn/cong-nghe/ban-le-iphone-duo-sau-hon-450000-lan-gap-se-nhu-the-nao-20261115230756190.htm",
+        "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use",
+        "https://thanhnien.vn/iphone-duo-gap-hon-440000-lan-moi-bat-dau-co-dau-hieu-xuong-cap-185261114153518199.htm"
+      ],
+      "source_links": [
+        "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+        "https://www.engadget.com/2313699/iphone-duo-vs-oppo-find-n6-foldable-comparison",
+        "https://dantri.com.vn/cong-nghe/ban-le-iphone-duo-sau-hon-450000-lan-gap-se-nhu-the-nao-20261115230756190.htm",
+        "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use",
+        "https://thanhnien.vn/iphone-duo-gap-hon-440000-lan-moi-bat-dau-co-dau-hieu-xuong-cap-185261114153518199.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:26:26+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:44:16+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2313699/iphone-duo-vs-oppo-find-n6-foldable-comparison",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T15:30:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/ban-le-iphone-duo-sau-hon-450000-lan-gap-se-nhu-the-nao-20261115230756190.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T07:57:07+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T18:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/iphone-duo-gap-hon-440000-lan-moi-bat-dau-co-dau-hieu-xuong-cap-185261114153518199.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T09:38:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Apple bổ sung tính năng nhận diện khuôn mặt cho iPhone Duo trong bản cập nhật iOS 27.3.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Apple is working on a face unlock feature for the iPhone Duo that uses the front-facing camera for authentication, and it’s already testing it with the new iOS 27.3 beta released today,as reported byMacRumors.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+              "snippet": "Apple is working on a face unlock feature for the iPhone Duo that uses the front-facing camera for authentication, and it’s already testing it with the new iOS 27.3 beta released today,as reported byMacRumors.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+              "page_sha256": "cf781f5f230a196c53112b6ab483f5c3612a0ee212a5f1e17f0f6a199d010c67",
+              "snippet_sha256": "632a40a785b03654ccc80dd69799de2431c74af4b7d3ffc40005954eca5c7b8a",
+              "verified_at": "2026-11-16T18:59:32.404759+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tính năng nhận diện khuôn mặt trên iPhone Duo không thể dùng để thanh toán Apple Pay hoặc mở khóa ứng dụng nhạy cảm.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Apple is testing a new iPhone Duo feature that would use the front-facing camera to look at your face for authentication.﻿",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+              "snippet": "Apple is testing a new iPhone Duo feature that would use the front-facing camera to look at your face for authentication.﻿",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+              "page_sha256": "cf781f5f230a196c53112b6ab483f5c3612a0ee212a5f1e17f0f6a199d010c67",
+              "snippet_sha256": "d213b71df17f3fc2b8bc9fda376abd9c62ef1b7882b81aed4dcf23cb517f5880",
+              "verified_at": "2026-11-16T18:59:32.404759+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tính năng nhận diện khuôn mặt yêu cầu xác thực bằng Touch ID hoặc mật mã trong vòng 45 phút trước đó để hoạt động.",
+          "source_urls": [
+            "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "For face recognition to work, it needs a recent Touch ID or passcode authentication within a 45-minute window.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+              "snippet": "For face recognition to work, it needs a recent Touch ID or passcode authentication within a 45-minute window.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+              "page_sha256": "0ff219b6b9d8a52f22a36725fa03509878c1852bc2385dfcd124475b54f214ad",
+              "snippet_sha256": "a6a98ddbceb00e09862d8a2bac7cc7a2be20e15dd6626ef8d47603577636ecc5",
+              "verified_at": "2026-11-16T18:59:32.404759+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa công nghệ nhận diện mới và Face ID truyền thống, đồng thời giải thích lý do kỹ thuật khiến Apple phải đưa ra giải pháp thay thế. Bài viết cũng đặt bối cảnh về lộ trình phát triển phần cứng của Apple đối với dòng điện thoại gập trong tương lai.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T18:59:32.405232+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "20",
+        "2028",
+        "27.3",
+        "45"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T18:59:32.406508+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 343,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1589
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "engadget.com",
+          "techcrunch.com",
+          "thanhnien.vn",
+          "theverge.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "my-siet-chat-quy-inh-kiem-soat-cong-nghe-ai-tu-xa-sau-be-boi-nvidia-eeb3e321",
+    "status": "READY",
+    "prepared_at": "2026-11-16T18:59:03.842082+00:00",
+    "expires_at": "2026-11-17T18:59:03.842082+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+      "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+      "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html"
+    ],
+    "article": {
+      "id": "my-siet-chat-quy-inh-kiem-soat-cong-nghe-ai-tu-xa-sau-be-boi-nvidia-eeb3e321",
+      "title": "Mỹ siết chặt quy định kiểm soát công nghệ AI từ xa sau bê bối Nvidia",
+      "summary": "Bộ Thương mại Mỹ vừa công bố quy định tạm thời nhằm bịt lỗ hổng cho phép các công ty Trung Quốc tiếp cận năng lực siêu trí tuệ nhân tạo từ xa qua các trung tâm dữ liệu nước ngoài, trong bối cảnh cuộc khủng hoảng tại Nvidia đang gây chấn động chính trường.",
+      "category": "technology",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "published_at": "2026-11-16T18:49:26+00:00",
+      "fetched_at": "2026-11-16T18:59:38.053715+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bộ Thương mại Mỹ vừa ban hành một quy định tạm thời nhằm ngăn chặn tình trạng các công ty tại các quốc gia bị hạn chế tiếp cận năng lực siêu trí tuệ nhân tạo thông qua các hệ thống máy tính và trung tâm dữ liệu đặt ở nước thứ ba. Động thái này nhằm bịt lại lỗ hổng pháp lý lâu nay, cho phép các doanh nghiệp lách luật bằng cách thuê năng lực tính toán từ xa thay vì mua trực tiếp phần cứng.",
+        "Quy định mới yêu cầu các doanh nghiệp phải xin giấy phép xuất khẩu, tái xuất hoặc chuyển giao chip và máy chủ AI nếu các hạ tầng này có thể cung cấp khả năng xử lý cho các thực thể thuộc nhóm quốc gia bị cấm vận. Biện pháp này được xem là sự mở rộng trực tiếp của các giới hạn xuất khẩu hiện hành, nhắm đến các mạng lưới hoặc trung tâm dữ liệu đạt ngưỡng năng lực tính toán xử lý nhất định.",
+        "Động thái chính sách này diễn ra ngay sau khi cựu Giám đốc điều hành Nvidia Jensen Huang từ chức vì những cáo buộc liên quan đến một vụ bê bối gián điệp. Các nhà chức trách Mỹ trước đó đã mở cuộc điều tra đối với Megaspeed International, một công ty trung tâm dữ liệu có trụ sở tại Singapore, do nghi ngờ đơn vị này hỗ trợ chuyển hướng các thiết bị tính toán tiên tiến của Mỹ cho các đối tác tại Trung Quốc.",
+        "Bên cạnh đó, quy định mới cũng bổ sung yêu cầu cấp phép nghiêm ngặt hơn đối với các lô hàng vận chuyển chất bán dẫn tiên tiến đến một số quốc gia được đánh giá là có nguy cơ chuyển hướng cao như Malaysia, Singapore, Indonesia, Thailand và Brazil. Quyết định này phản ánh những nỗ lực thắt chặt quản lý công nghệ nhạy cảm trong bối cảnh áp lực từ giới lập pháp và nội bộ chính quyền gia tăng đối với các cơ quan quản lý liên bang."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mỹ siết chặt kiểm soát công nghệ AI từ xa sau bê bối Nvidia",
+      "meta_description": "Bộ Thương mại Mỹ công bố quy định mới ngăn chặn việc tiếp cận chip AI tiên tiến từ xa, nhằm đối phó với những hệ lụy từ bê bối của hãng Nvidia.",
+      "keywords": [
+        "Nvidia",
+        "Bộ Thương mại Mỹ",
+        "trí tuệ nhân tạo",
+        "kiểm soát xuất khẩu",
+        "Mỹ - Trung"
+      ],
+      "slug": "my-siet-chat-quy-inh-kiem-soat-cong-nghe-ai-tu-xa-sau-be-boi-nvidia-eeb3e321",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 353,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+        "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+        "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+        "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+        "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+        "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:49:26+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T17:22:11+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T15:02:34+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T19:53:57+00:00"
+        },
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T01:28:40+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bộ Thương mại Mỹ công bố quy định mới ngăn chặn việc tiếp cận chip và máy chủ trí tuệ nhân tạo tiên tiến từ xa thông qua các trung tâm dữ liệu nước ngoài.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Biden's framework would have also limited access to AI chips by countries considered security risks, required licenses for certain chip exports, and created restrictions on the power of advanced models and computing infrastructure.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+              "snippet": "Biden's framework would have also limited access to AI chips by countries considered security risks, required licenses for certain chip exports, and created restrictions on the power of advanced models and computing infrastructure.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+              "page_sha256": "a0f3bc2cab44dc6dc5e5eb12c2d79edbd95346c5e72c60cf1046587164f6cf42",
+              "snippet_sha256": "64de05d3c50d61735d31257d4fdc7235897a26ea1b34b42475fc9b095eb9f0b3",
+              "verified_at": "2026-11-16T18:59:38.053271+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy định tạm thời yêu cầu giấy phép xuất khẩu đối với các trung tâm dữ liệu có khả năng cung cấp năng lực tính toán vượt ngưỡng cho các quốc gia thuộc diện hạn chế.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Follow your favorite stocksCREATE FREE ACCOUNTwatch nowVIDEO3:3103:31Commerce Department cracks down on China computing power loopholeSquawk on the Street",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+              "snippet": "Follow your favorite stocksCREATE FREE ACCOUNTwatch nowVIDEO3:3103:31Commerce Department cracks down on China computing power loopholeSquawk on the Street",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+              "page_sha256": "78a295d7b36861e50337c32fba0c31966f446192c1cb597a5ccf5b3d68ff2a75",
+              "snippet_sha256": "faf0f0ece0f40f4c08c95ed29a27db4ffecb89dacd0215f2ec41e460d615367d",
+              "verified_at": "2026-11-16T18:59:38.053271+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Động thái này diễn ra trong bối cảnh Jensen Huang từ chức tại Nvidia sau các cáo buộc liên quan đến mối quan hệ cá nhân với một cựu lãnh đạo của Megaspeed International.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Alice Huang, who is not related to Jensen Huang, is a former executive at Megaspeed International, a Singapore-based data center company.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+              "snippet": "Alice Huang, who is not related to Jensen Huang, is a former executive at Megaspeed International, a Singapore-based data center company.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+              "page_sha256": "a0f3bc2cab44dc6dc5e5eb12c2d79edbd95346c5e72c60cf1046587164f6cf42",
+              "snippet_sha256": "7c489becbce76a887108861ff5744c4351ba881dbef34cad8e0d09f6b0e31914",
+              "verified_at": "2026-11-16T18:59:38.053271+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết kỹ thuật của quy định mới về năng lực tính toán từ xa và bối cảnh chính sách liên quan đến các bên kiểm soát. Phân tích giúp người đọc hiểu rõ cách thức chính phủ Mỹ bịt lỗ hổng trung tâm dữ liệu nước ngoài sau biến động tại Nvidia.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T18:59:38.053807+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-16T18:59:38.054993+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 353,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1616
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "npr.org",
+          "nytimes.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
