@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "284b5e92c14d78cf1f9b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:27:01.884444+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "technology",
@@ -590,11 +590,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:27:01.884465+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee"
   },
   {
     "queue_id": "5f69a195c0f0a7b05b3d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:27:00.869210+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "vietnam",
@@ -1231,11 +1232,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:27:00.869232+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bong-ban-trung-quoc-trai-qua-chuoi-cu-soc-lien-tiep-trong-mot-thang-b8604c31"
   },
   {
     "queue_id": "a4e68ddf3ef7cf2a18f7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:26:49.059276+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "vietnam",
@@ -2249,7 +2251,8 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:26:49.059298+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tuyen-y-tro-lai-mat-at-voi-tran-thua-am-truoc-bi-e5b58b7b"
   },
   {
     "queue_id": "c5ced06ce18d907facd0",
@@ -81292,5 +81295,684 @@
       "origin": "auto"
     },
     "result_reason": "Candidate freshness window expired before publication"
+  },
+  {
+    "queue_id": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee",
+    "status": "READY",
+    "prepared_at": "2026-11-16T01:27:25.997157+00:00",
+    "expires_at": "2026-11-17T01:27:25.997157+00:00",
+    "source_urls": [
+      "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+      "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower",
+      "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk"
+    ],
+    "article": {
+      "id": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee",
+      "title": "Tên lửa Vulcan gặp sự cố trong lần phóng, gây đòn giáng mạnh vào đối thủ của SpaceX",
+      "summary": "Tên lửa Vulcan của United Launch Alliance cùng 40 vệ tinh băng thông rộng Amazon Leo đã rơi trở lại Trái Đất chỉ vài phút sau khi cất cánh, đánh dấu thất bại toàn diện đầu tiên của liên doanh này và tạo ra thách thức lớn cho các bên liên quan.",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+      "published_at": "2026-11-15T23:11:54+00:00",
+      "fetched_at": "2026-11-16T01:27:30.235139+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tên lửa Vulcan thuộc Liên minh Phóng tên lửa Thống nhất (ULA) và 40 vệ tinh băng thông rộng Amazon Leo đã rơi trở lại Trái Đất chỉ vài phút sau khi cất cánh vào Chủ nhật, gây ra sự cố nghiêm trọng ảnh hưởng đến toàn bộ ngành công nghiệp không gian Mỹ. Sứ mệnh này vốn là chuyến bay đầu tiên trong số 38 lần phóng được Amazon đặt lịch nhằm xây dựng mạng lưới vệ tinh cạnh tranh trực tiếp với hệ thống Starlink của SpaceX, đồng thời đảm nhận khoảng một nửa số nhiệm vụ không gian an ninh quốc gia của quân đội Mỹ trong những năm tới.",
+        "Trước thời điểm xảy ra sự cố, sáu tên lửa đẩy phụ nhiên liệu rắn đã hoạt động tốt trong hai phút đầu tiên sau khi phóng từ Trạm Lực lượng Không gian Cape Canaveral tại Florida. Tuy nhiên, ULA cho biết tên lửa đã gặp bất thường khi chuyến bay diễn ra được 10 phút và không thể đưa sứ mệnh Amazon lên quỹ đạo. Các nguồn tin cho biết vấn đề bắt nguồn từ tầng đẩy chính trang bị động cơ BE-4 do Blue Origin sản xuất, với các động cơ tiếp tục cháy thêm ít nhất 30 giây so với kế hoạch trước khi tên lửa xuất hiện hiện tượng quay tròn và tách tầng.",
+        "Sự cố này đánh dấu thất bại toàn diện đầu tiên của ULA kể từ khi công ty được thành lập vào năm 2006 thông qua việc hợp nhất các bộ phận tên lửa của Boeing và Lockheed Martin. Việc tên lửa có thể phải đối mặt với lệnh tạm đình chỉ bay trong thời gian không xác định tạo ra sức ép lớn cho các khách hàng chủ chốt như Lực lượng Không gian Mỹ và Amazon. Hiện tại, mạng lưới Amazon Leo mới chỉ có 396 vệ tinh trong kế hoạch tổng thể gồm 3.292 chiếc thuộc thế hệ đầu tiên, đòi hỏi thêm nhiều chuyến phóng để đạt công suất đầy đủ sau khi các vệ tinh hiện phải nằm trong kho lưu trữ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tên lửa Vulcan của ULA gặp sự cố phóng, ảnh hưởng đến Amazon",
+      "meta_description": "Tên lửa Vulcan và 40 vệ tinh Amazon Leo rơi trở lại Trái Đất sau khi cất cánh, tạo ra bước lùi lớn cho ngành công nghiệp không gian Mỹ.",
+      "keywords": [
+        "Vulcan",
+        "ULA",
+        "Amazon Leo",
+        "SpaceX",
+        "Blue Origin"
+      ],
+      "slug": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 358,
+      "display_source": true,
+      "source_urls": [
+        "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+        "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower",
+        "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk"
+      ],
+      "source_links": [
+        "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower",
+        "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk"
+      ],
+      "source_references": [
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T23:11:54+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T10:05:49+00:00"
+        },
+        {
+          "name": "NPR - Business",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T10:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tên lửa Vulcan của ULA và 40 vệ tinh Amazon Leo rơi trở lại Trái Đất phút sau khi cất cánh vào Chủ nhật.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Amazon has 37 more Vulcan launches reserved with ULA, each of which is slated to deliver 40 or more Amazon Leo satellites to orbit.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "snippet": "Amazon has 37 more Vulcan launches reserved with ULA, each of which is slated to deliver 40 or more Amazon Leo satellites to orbit.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "page_sha256": "08c7c79b129f68def10cdf63175c3d24894fc3354a9ca50e78ff9ca7c2c2abbf",
+              "snippet_sha256": "db2c3b4aa0f25a2e282d5f57c523a5a28fb94f4ce33dbfc906639dfd3000693f",
+              "verified_at": "2026-11-16T01:27:30.234469+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vulcan thực hiện hợp đồng phóng khoảng một nửa sứ mệnh không gian an ninh quốc gia của quân đội Mỹ và 38 chuyến phóng cho Amazon.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Vulcan rocket is on contract to launch roughly half of the US military’s national security space missions in the next few years, and Sunday’s mission was the first of 38 Vulcan launches booked by Amazon to build out its network of broadband Internet satellites aimed at competing with SpaceX’s Starlink.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "snippet": "The Vulcan rocket is on contract to launch roughly half of the US military’s national security space missions in the next few years, and Sunday’s mission was the first of 38 Vulcan launches booked by Amazon to build out its network of broadband Internet satellites aimed at competing with SpaceX’s Starlink.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "page_sha256": "08c7c79b129f68def10cdf63175c3d24894fc3354a9ca50e78ff9ca7c2c2abbf",
+              "snippet_sha256": "2598290e4ba400a9decfbc00aac3e58ef7f3ab051d5d578c36f4d6a3eb821c33",
+              "verified_at": "2026-11-16T01:27:30.234469+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "ULA xác nhận tên lửa gặp bất thường sau 10 phút bay và không đưa được sứ mệnh Amazon lên quỹ đạo.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors"
+          ],
+          "importance": "core",
+          "evidence_snippet": "In a statement, ULA said the rocket “suffered an anomaly 10 minutes into the flight and failed to deliver the Amazon mission to orbit.” The company said it did not immediately have “any specific data to understand what occurred.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "snippet": "In a statement, ULA said the rocket “suffered an anomaly 10 minutes into the flight and failed to deliver the Amazon mission to orbit.” The company said it did not immediately have “any specific data to understand what occurred.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "page_sha256": "08c7c79b129f68def10cdf63175c3d24894fc3354a9ca50e78ff9ca7c2c2abbf",
+              "snippet_sha256": "085f54d1bf923b0cce9de2ea3a18407820000197cb0d874dd21e789e55a9f641",
+              "verified_at": "2026-11-16T01:27:30.234469+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là thất bại toàn diện đầu tiên của ULA kể từ khi thành lập năm 2006 từ việc hợp nhất Boeing và Lockheed Martin.",
+          "source_urls": [
+            "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "This was the first total mission failure for United Launch Alliance since its formation in 2006 with the merger of the rocket divisions of Boeing and Lockheed Martin.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "snippet": "This was the first total mission failure for United Launch Alliance since its formation in 2006 with the merger of the rocket divisions of Boeing and Lockheed Martin.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+              "page_sha256": "08c7c79b129f68def10cdf63175c3d24894fc3354a9ca50e78ff9ca7c2c2abbf",
+              "snippet_sha256": "12a7c1f12ed4403f08e2649be5702363b7666f99cf358643b623f690c0b5f2f3",
+              "verified_at": "2026-11-16T01:27:30.234469+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích chi tiết về sự cố kỹ thuật của tên lửa Vulcan và những hệ lụy đối với kế hoạch triển khai mạng lưới vệ tinh Amazon Leo. Bối cảnh cạnh tranh với hệ thống Starlink của SpaceX và các mốc thời gian diễn ra chuyến phóng được làm rõ dựa trên dữ liệu thực tế.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T01:27:30.235232+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2006",
+        "3.292",
+        "30",
+        "38",
+        "396",
+        "4",
+        "40"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T01:27:30.236432+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 358,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1649
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "euronews.com",
+          "npr.org"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bong-ban-trung-quoc-trai-qua-chuoi-cu-soc-lien-tiep-trong-mot-thang-b8604c31",
+    "status": "READY",
+    "prepared_at": "2026-11-16T01:27:25.997157+00:00",
+    "expires_at": "2026-11-17T01:27:25.997157+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+      "https://thanhnien.vn/thuong-dinh-lich-su-my-trung-nga-se-ban-chu-de-gi-185261115202424677.htm",
+      "https://dantri.com.vn/doi-song/xuat-hien-bon-tieu-dung-trong-nha-ve-sinh-nu-o-trung-quoc-gay-xon-xao-20261115114107011.htm"
+    ],
+    "article": {
+      "id": "bong-ban-trung-quoc-trai-qua-chuoi-cu-soc-lien-tiep-trong-mot-thang-b8604c31",
+      "title": "Bóng bàn Trung Quốc trải qua chuỗi cú sốc liên tiếp trong một tháng",
+      "summary": "Việc trắng tay tại WTT Contender Istanbul đánh dấu cú sốc thứ tư trong vòng một tháng của bóng bàn Trung Quốc, phản ánh áp lực đè nặng lên cả lực lượng đỉnh cao lẫn thế hệ trẻ.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+      "published_at": "2026-11-15T23:31:00+00:00",
+      "fetched_at": "2026-11-16T01:27:35.423859+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Việc trắng tay ở cả năm nội dung tại WTT Contender Istanbul vừa qua đã kéo dài chuỗi kết quả đáng thất vọng của bóng bàn Trung Quốc. Đây được ghi nhận là cú sốc thứ tư trong vòng một tháng qua, cho thấy những khó khăn đang hiện hữu từ các giải đấu đỉnh cao cho đến hệ thống sân chơi trẻ.",
+        "Tại giải đấu ở Istanbul, dù chỉ thuộc cấp độ Contender và Trung Quốc cử lực lượng tuyến hai tham dự, việc không có đại diện nào góp mặt ở chung kết vẫn gây bất ngờ lớn cho người hâm mộ. Cả năm nội dung gồm đơn nam, đơn nữ, đôi nam, đôi nữ và đôi nam nữ đều nằm ngoài tầm với của đoàn. Hai niềm hy vọng cuối cùng ở nội dung đơn là Lý Thiên Dương và Tung Ca Mạn đều gục ngã trước các đối thủ Nhật Bản tại vòng tứ kết sau những trận đấu sát nút.",
+        "Nhìn rộng ra trong vòng một tháng qua, nền bóng bàn xứ tỷ dân đã liên tiếp hứng chịu những vấp ngã đáng chú ý. Cú sốc khởi đầu vào cuối tháng 10 tại WTT Champions Montpellier khi đội tuyển nam không có đại diện nào vào bán kết. Tiếp đến, tại Olympic trẻ Dakar, lần đầu tiên kể từ năm 2010, đội tuyển bóng bàn nước này ra về mà không giành được huy chương nào. Ban huấn luyện sau đó thừa nhận các tay vợt trẻ còn yếu về khả năng chịu áp lực và xử lý điểm quyết định.",
+        "Bước sang đầu tháng 11, chuỗi kết quả tiêu cực tiếp tục lặp lại tại WTT Champions Frankfurt khi không có tay vợt nam hay nữ nào vào bán kết. Những kết quả này, đặt cạnh thất bại của đội nam trước Nhật Bản tại chung kết Asiad Aichi - Nagoya trước đó, cho thấy sức ép đang trải rộng trên nhiều tuyến. Dù đội nữ vẫn duy trì thế lực mạnh ở một số đấu trường lớn, ưu thế tuyệt đối của bóng bàn Trung Quốc dường như không còn được bảo đảm chắc chắn trước sự bứt phá nhanh chóng từ các đối thủ quốc tế."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bóng bàn Trung Quốc chịu cú sốc thứ tư trong vòng một tháng",
+      "meta_description": "Phân tích chuỗi kết quả thất vọng của bóng bàn Trung Quốc từ các giải đỉnh cao đến sân chơi trẻ trong vòng một tháng qua.",
+      "keywords": [
+        "bóng bàn Trung Quốc",
+        "WTT Contender Istanbul",
+        "thể thao Trung Quốc",
+        "WTT Champions"
+      ],
+      "slug": "bong-ban-trung-quoc-trai-qua-chuoi-cu-soc-lien-tiep-trong-mot-thang-b8604c31",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 375,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+        "https://thanhnien.vn/thuong-dinh-lich-su-my-trung-nga-se-ban-chu-de-gi-185261115202424677.htm",
+        "https://dantri.com.vn/doi-song/xuat-hien-bon-tieu-dung-trong-nha-ve-sinh-nu-o-trung-quoc-gay-xon-xao-20261115114107011.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/thuong-dinh-lich-su-my-trung-nga-se-ban-chu-de-gi-185261115202424677.htm",
+        "https://dantri.com.vn/doi-song/xuat-hien-bon-tieu-dung-trong-nha-ve-sinh-nu-o-trung-quoc-gay-xon-xao-20261115114107011.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T23:31:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/thuong-dinh-lich-su-my-trung-nga-se-ban-chu-de-gi-185261115202424677.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T13:55:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/doi-song/xuat-hien-bon-tieu-dung-trong-nha-ve-sinh-nu-o-trung-quoc-gay-xon-xao-20261115114107011.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T05:43:45+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bóng bàn Trung Quốc trắng tay cả năm nội dung tại WTT Contender Istanbul.",
+          "source_urls": [
+            "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Việc trắng tay cả năm nội dung tại WTT Contender Istanbul nối dài chuỗi kết quả đáng thất vọng của bóng bàn Trung Quốc, khi khó khăn xuất hiện từ các giải đấu đỉnh cao đến sân chơi trẻ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+              "snippet": "Việc trắng tay cả năm nội dung tại WTT Contender Istanbul nối dài chuỗi kết quả đáng thất vọng của bóng bàn Trung Quốc, khi khó khăn xuất hiện từ các giải đấu đỉnh cao đến sân chơi trẻ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+              "page_sha256": "208c123dac7271df07fe9904c7f862b5cc3f0e21c0a19d8bebc2574fe1890b11",
+              "snippet_sha256": "96af225a0b75abeb994619e68d167dd0d91e0ee51e69cb328e29b20ad9296c69",
+              "verified_at": "2026-11-16T01:27:35.423404+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lý Thiên Dương thua Ryoichi Yoshiyama 2-3 và Tung Ca Mạn thua Miyu Hirano 2-3 tại tứ kết đơn.",
+          "source_urls": [
+            "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Lý Thiên Dương (Li Tianyang) dẫn Ryoichi Yoshiyama 2-0 nhưng thua ngược 2-3.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+              "snippet": "Lý Thiên Dương (Li Tianyang) dẫn Ryoichi Yoshiyama 2-0 nhưng thua ngược 2-3.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+              "page_sha256": "208c123dac7271df07fe9904c7f862b5cc3f0e21c0a19d8bebc2574fe1890b11",
+              "snippet_sha256": "a070bb95984ede169ddc7b509bb388afba36a9ac1d20d0244ebf3a708ec11fdb",
+              "verified_at": "2026-11-16T01:27:35.423404+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tại Olympic trẻ Dakar, Trung Quốc không giành được huy chương bóng bàn nào lần đầu tiên kể từ năm 2010.",
+          "source_urls": [
+            "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Lần đầu tiên kể từ khi Olympic trẻ ra đời năm 2010, Trung Quốc không giành được huy chương bóng bàn nào.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+              "snippet": "Lần đầu tiên kể từ khi Olympic trẻ ra đời năm 2010, Trung Quốc không giành được huy chương bóng bàn nào.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/bong-ban-trung-quoc-chiu-cu-soc-thu-4-trong-vong-1-thang-100261115214210499.htm",
+              "page_sha256": "208c123dac7271df07fe9904c7f862b5cc3f0e21c0a19d8bebc2574fe1890b11",
+              "snippet_sha256": "cec6192885a4175f85bb9b3f9414108e1549f20ac8a3874eedde937198dd064a",
+              "verified_at": "2026-11-16T01:27:35.423404+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích nguyên nhân và hệ quả của chuỗi thất bại liên tiếp trong bóng bàn Trung Quốc. Đồng thời, văn bản làm rõ bối cảnh từ các giải trẻ đến đấu trường chuyên nghiệp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T01:27:35.423936+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2010"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T01:27:35.424901+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 375,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1689
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tuyen-y-tro-lai-mat-at-voi-tran-thua-am-truoc-bi-e5b58b7b",
+    "status": "READY",
+    "prepared_at": "2026-11-16T01:27:25.997157+00:00",
+    "expires_at": "2026-11-17T01:27:25.997157+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+      "https://dantri.com.vn/the-thao/kich-ban-giup-doi-tuyen-viet-nam-vo-dich-sau-tran-dau-voi-kyrgyzstan-20261115183629848.htm",
+      "https://thanhnien.vn/doi-tuyen-anh-cham-dut-chuoi-tran-bat-bai-dai-nhat-lich-su-cua-tay-ban-nha-185261116080215493.htm"
+    ],
+    "article": {
+      "id": "tuyen-y-tro-lai-mat-at-voi-tran-thua-am-truoc-bi-e5b58b7b",
+      "title": "Tuyển Ý trở lại mặt đất với trận thua đậm trước Bỉ",
+      "summary": "Tuyển Ý vừa nhận thất bại nặng nề 1-4 trước tuyển Bỉ, chấm dứt hy vọng vào tứ kết UEFA Nations League.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+      "published_at": "2026-11-15T23:33:00+00:00",
+      "fetched_at": "2026-11-16T01:28:14.512157+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sáng 16-11, tại lượt trận cuối bảng 1 League A UEFA Nations League, tuyển Ý nhận thất bại nặng nề 1-4 trước tuyển Bỉ.",
+        "Trước đó, tuyển Ý gây sốc với màn trình diễn vượt trội và đánh bại Pháp hùng mạnh với tỉ số 3-1. Tuy nhiên, trước Bỉ, Ý trình diễn một lối chơi thảm họa, và biến trận thắng Pháp trước đó giống như một vụ \"tai nạn\" hơn là đẳng cấp thật sự.",
+        "Đoàn quân của HLV Mancini chỉ chơi tạm ổn trong hơn 10 phút đầu và có được bàn thắng trước. Rồi sau đó Bỉ hoàn toàn áp đảo, lấn lướt.",
+        "Phút 11, sau pha phản xạ xuất thần của thủ thành Donnarumma, Ý tổ chức phản công. Bóng xuất hiện bên cánh phải và Kayode tạt vào vòng cấm. Esposito cho thấy bản năng săn bàn lợi hại với cú lao vào chạm bóng tinh tế để mở tỉ số.",
+        "Tuy nhiên, đội chủ nhà Bỉ cũng chỉ mất có 3 phút để đưa trận đấu về thế cân bằng. Cú sút bị ngăn chặn của De Bruyne vô tình tạo ra tình huống lộn xộn, khiến hàng phòng ngự tuyển Ý luống cuống."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Tuyển Ý thua đậm Bỉ: Kết thúc hy vọng vào tứ kết UEFA Nations League",
+      "meta_description": "Tuyển Ý vừa nhận thất bại nặng nề 1-4 trước tuyển Bỉ, chấm dứt hy vọng vào tứ kết UEFA Nations League.",
+      "keywords": [
+        "Tuyển Ý",
+        "Bỉ",
+        "UEFA Nations League",
+        "Tuyển Ý trở lại mặt đất với trận thua đậm trước Bỉ",
+        "Thể thao"
+      ],
+      "slug": "tuyen-y-tro-lai-mat-at-voi-tran-thua-am-truoc-bi-e5b58b7b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 201,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+        "https://dantri.com.vn/the-thao/kich-ban-giup-doi-tuyen-viet-nam-vo-dich-sau-tran-dau-voi-kyrgyzstan-20261115183629848.htm",
+        "https://thanhnien.vn/doi-tuyen-anh-cham-dut-chuoi-tran-bat-bai-dai-nhat-lich-su-cua-tay-ban-nha-185261116080215493.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/kich-ban-giup-doi-tuyen-viet-nam-vo-dich-sau-tran-dau-voi-kyrgyzstan-20261115183629848.htm",
+        "https://thanhnien.vn/doi-tuyen-anh-cham-dut-chuoi-tran-bat-bai-dai-nhat-lich-su-cua-tay-ban-nha-185261116080215493.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T23:33:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/kich-ban-giup-doi-tuyen-viet-nam-vo-dich-sau-tran-dau-voi-kyrgyzstan-20261115183629848.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T23:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/doi-tuyen-anh-cham-dut-chuoi-tran-bat-bai-dai-nhat-lich-su-cua-tay-ban-nha-185261116080215493.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T01:10:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tuyển Ý thua Bỉ với tỉ số 1-4",
+          "source_urls": [
+            "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tuyển Ý để thua bẽ mặt trước Bỉ dù vừa đánh bại một tuyển Pháp hùng mạnh - Ảnh: AFP",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+              "snippet": "Tuyển Ý để thua bẽ mặt trước Bỉ dù vừa đánh bại một tuyển Pháp hùng mạnh - Ảnh: AFP",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+              "page_sha256": "8922050766b1570b457748705123caba243277bd48556ed1db4583300f7322c9",
+              "snippet_sha256": "0555533efb7fa1bf5345b4a5afbb506450de80fd80b3db5b12e2b7b9ffcd7e0b",
+              "verified_at": "2026-11-16T01:28:14.511794+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tuyển Ý đánh bại Pháp với tỉ số 3-1",
+          "source_urls": [
+            "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cách đây ít ngày, đội tuyển Ý gây sốc với màn trình diễn vượt trội và đánh bại Pháp hùng mạnh với tỉ số 3-1.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+              "snippet": "Cách đây ít ngày, đội tuyển Ý gây sốc với màn trình diễn vượt trội và đánh bại Pháp hùng mạnh với tỉ số 3-1.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+              "page_sha256": "8922050766b1570b457748705123caba243277bd48556ed1db4583300f7322c9",
+              "snippet_sha256": "afc50f81e396c24cf339949565a564896d10b71c6b4f2195c26f086a936a4750",
+              "verified_at": "2026-11-16T01:28:14.511794+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bỉ áp đảo và lấn lướt tuyển Ý",
+          "source_urls": [
+            "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Bồ Đào Nha gặp 'ác mộng', sau khi Ronaldo tuyên bố giã từ đội tuyển",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+              "snippet": "Bồ Đào Nha gặp 'ác mộng', sau khi Ronaldo tuyên bố giã từ đội tuyển",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/tuyen-y-tro-lai-mat-dat-voi-tran-thua-dam-truoc-bi-10026111606184575.htm",
+              "page_sha256": "8922050766b1570b457748705123caba243277bd48556ed1db4583300f7322c9",
+              "snippet_sha256": "3483a1dc79793efa9b87db14dbaacc72f0f243e402f8dfe3c8d5f207b369d31e",
+              "verified_at": "2026-11-16T01:28:14.511794+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về trận thua của tuyển Ý trước Bỉ, giúp độc giả hiểu rõ hơn về tình hình của đội bóng. Đồng thời, bài viết cũng phân tích về lối chơi của tuyển Ý và Bỉ, giúp độc giả có cái nhìn sâu sắc hơn về trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T01:28:14.512224+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "11",
+        "3"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T01:28:14.512972+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 201,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 907
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
