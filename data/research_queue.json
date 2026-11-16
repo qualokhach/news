@@ -2913,7 +2913,7 @@
   },
   {
     "queue_id": "42ca4b5c1b4624be5271",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T18:58:25.648920+00:00",
     "expires_at": "2026-11-19T18:56:39.429421+00:00",
     "category_hint": "sports",
@@ -3492,11 +3492,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T18:58:25.648941+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "andy-robertson-chinh-thuc-tro-thanh-cau-thu-khoac-ao-tuyen-scotland-nhie-a030f5d4"
   },
   {
     "queue_id": "04dcf67dc5edaca7c6b4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T18:58:23.915552+00:00",
     "expires_at": "2026-11-19T18:56:39.429421+00:00",
     "category_hint": "sports",
@@ -4145,11 +4146,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T18:58:23.915573+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nations-league-soi-ong-voi-loat-tran-inh-cao-va-tam-iem-su-chia-tay-cua--f44fb184"
   },
   {
     "queue_id": "b0779c23c12a04450bcb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T18:58:23.245508+00:00",
     "expires_at": "2026-11-19T18:56:39.429421+00:00",
     "category_hint": "vietnam",
@@ -5823,7 +5825,8 @@
       ]
     },
     "research_ready_at": "2026-11-16T18:58:23.245529+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "e-nghi-bo-xay-dung-ra-soat-va-co-quan-iem-chinh-thuc-ve-to-hop-cong-nghi-1f4c3969"
   },
   {
     "queue_id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
@@ -77001,7 +77004,7 @@
   },
   {
     "queue_id": "hoi-ong-quan-tri-nvidia-chua-can-nhac-ua-jensen-huang-tro-lai-ghe-ceo-40d19ede",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-16T18:59:03.842082+00:00",
     "expires_at": "2026-11-17T18:59:03.842082+00:00",
     "source_urls": [
@@ -77021,7 +77024,7 @@
       "source_url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
       "published_at": "2026-11-16T18:22:06+00:00",
       "fetched_at": "2026-11-16T18:59:19.121342+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-16T19:54:16.038872+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -77304,31 +77307,46 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-16T18:59:19.122794+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-16T19:54:16.038872+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 359,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1647
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "arstechnica.com",
-          "bbc.com",
-          "cnbc.com",
-          "france24.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1647,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "arstechnica.com",
+            "bbc.com",
+            "cnbc.com",
+            "france24.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-17 02:54"
+    },
+    "published_at": "2026-11-16T19:54:16.038872+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "apple-bo-sung-tinh-nang-nhan-dien-khuon-mat-han-che-cho-iphone-duo-b3d5951b",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-16T18:59:03.842082+00:00",
     "expires_at": "2026-11-17T18:59:03.842082+00:00",
     "source_urls": [
@@ -77348,7 +77366,7 @@
       "source_url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
       "published_at": "2026-11-16T18:26:26+00:00",
       "fetched_at": "2026-11-16T18:59:32.405155+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-16T19:54:16.038872+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -77584,31 +77602,46 @@
         "45"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-16T18:59:32.406508+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-16T19:54:16.038872+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 343,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1589
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "engadget.com",
-          "techcrunch.com",
-          "thanhnien.vn",
-          "theverge.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1589,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "engadget.com",
+            "techcrunch.com",
+            "thanhnien.vn",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-17 02:54"
+    },
+    "published_at": "2026-11-16T19:54:16.038872+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "my-siet-chat-quy-inh-kiem-soat-cong-nghe-ai-tu-xa-sau-be-boi-nvidia-eeb3e321",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-16T18:59:03.842082+00:00",
     "expires_at": "2026-11-17T18:59:03.842082+00:00",
     "source_urls": [
@@ -77627,7 +77660,7 @@
       "source_url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
       "published_at": "2026-11-16T18:49:26+00:00",
       "fetched_at": "2026-11-16T18:59:38.053715+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-16T19:54:16.038872+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -77840,25 +77873,771 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-16T18:59:38.054993+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-16T19:54:16.038872+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 353,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1616
+          "body_chars": 1616,
+          "source_access": [
+            {
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "npr.org",
+            "nytimes.com",
+            "techcrunch.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-17 02:54"
+    },
+    "published_at": "2026-11-16T19:54:16.038872+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "andy-robertson-chinh-thuc-tro-thanh-cau-thu-khoac-ao-tuyen-scotland-nhie-a030f5d4",
+    "status": "HOLD",
+    "prepared_at": "2026-11-16T19:52:50.937152+00:00",
+    "expires_at": "2026-11-17T19:52:50.937152+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/football/news/12040/13611544/andy-robertson-scotland-captain-on-reaching-sir-kenny-dalglishs-caps-record-hell-always-be-the-greatest"
+    ],
+    "article": {
+      "id": "andy-robertson-chinh-thuc-tro-thanh-cau-thu-khoac-ao-tuyen-scotland-nhie-a030f5d4",
+      "title": "Andy Robertson chính thức trở thành cầu thủ khoác áo tuyển Scotland nhiều nhất lịch sử",
+      "summary": "Với việc ra sân trong trận đấu tại Nations League gặp Thụy Sĩ, Andy Robertson đã vượt qua kỷ lục 102 lần khoác áo đội tuyển quốc gia của huyền thoại Kenny Dalglish, thiết lập cột mốc mới cho bóng đá Scotland.",
+      "category": "sports",
+      "source_name": "BBC Sport - Football",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T18:50:18+00:00",
+      "fetched_at": "2026-11-16T19:53:49.910463+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hậu vệ Andy Robertson đã chính thức đi vào lịch sử bóng đá Scotland khi trở thành cầu thủ nam khoác áo đội tuyển quốc gia nhiều nhất từ trước đến nay. Trong trận đấu thuộc khuôn khổ Nations League gặp Thụy Sĩ tại St Gallen, Robertson đã có lần ra sân thứ 103, qua đó vượt qua kỷ lục 102 lần khoác áo mà huyền thoại Kenny Dalglish đã nắm giữ suốt 40 năm qua.",
+        "Sự kiện này đánh dấu cột mốc quan trọng sau 12 năm kể từ khi Robertson có trận ra mắt đội tuyển trong một trận giao hữu với Ba Lan vào năm 2014. Dù thiết lập kỷ lục mới, đội trưởng hiện tại của Scotland vẫn bày tỏ sự tôn trọng sâu sắc dành cho người tiền nhiệm. Robertson khẳng định rằng dù anh có thể vượt qua về số lần ra sân, nhưng Kenny Dalglish vẫn luôn là \"vị vua\" và là cầu thủ vĩ đại nhất trong lịch sử bóng đá nước này.",
+        "Kể từ khi được trao băng đội trưởng vào năm 2018 dưới thời Alex McLeish, Robertson đã trở thành thủ lĩnh không thể thay thế, dẫn dắt đội tuyển tham dự ba giải đấu lớn. Sự nghiệp của anh tại đội tuyển quốc gia gắn liền với nhiều đời huấn luyện viên, từ Gordon Strachan, người đã trao cơ hội ra mắt, đến Steve Clarke, người đã cùng anh tạo nên những dấu ấn lịch sử. Những đồng đội như Scott McTominay và các cầu thủ trẻ như Findlay Curtis đều dành lời khen ngợi cho vai trò thủ lĩnh và tầm ảnh hưởng của Robertson đối với thế hệ kế cận."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Andy Robertson phá kỷ lục khoác áo tuyển Scotland của Kenny Dalglish",
+      "meta_description": "Andy Robertson đạt cột mốc 103 lần ra sân cho tuyển Scotland, chính thức vượt qua kỷ lục tồn tại 40 năm của huyền thoại Kenny Dalglish.",
+      "keywords": [
+        "Andy Robertson",
+        "Scotland",
+        "Kenny Dalglish",
+        "bóng đá quốc tế",
+        "kỷ lục"
+      ],
+      "slug": "andy-robertson-chinh-thuc-tro-thanh-cau-thu-khoac-ao-tuyen-scotland-nhie-a030f5d4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 283,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/football/news/12040/13611544/andy-robertson-scotland-captain-on-reaching-sir-kenny-dalglishs-caps-record-hell-always-be-the-greatest"
+      ],
+      "source_links": [
+        "https://www.skysports.com/football/news/12040/13611544/andy-robertson-scotland-captain-on-reaching-sir-kenny-dalglishs-caps-record-hell-always-be-the-greatest"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:50:18+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13611544/andy-robertson-scotland-captain-on-reaching-sir-kenny-dalglishs-caps-record-hell-always-be-the-greatest",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T15:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Andy Robertson đạt 103 lần khoác áo tuyển Scotland trong trận gặp Thụy Sĩ tại Nations League.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Andy Robertson will become Scotland's most capped men's international after being named in the starting XI for Monday's Nations League game in Switzerland to reach 103 appearances for his country.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Andy Robertson will become Scotland's most capped men's international after being named in the starting XI for Monday's Nations League game in Switzerland to reach 103 appearances for his country.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "997a5ae51d24afc115d0203304428f4d5156815ebc36def7664c5dc71523dbf6",
+              "snippet_sha256": "4e305c5898c471628e060162c9e5594f0a88b75213251c91ffa3c34fc40ef77f",
+              "verified_at": "2026-11-16T19:53:49.909922+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kenny Dalglish giữ kỷ lục 102 lần khoác áo tuyển Scotland trong 40 năm.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Twelve years on from his debut - off the bench in a Poland friendly - he will surpass his friend and fellow Liverpool legend, Kenny Dalglish, whose record haul had stood for 40 years.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Twelve years on from his debut - off the bench in a Poland friendly - he will surpass his friend and fellow Liverpool legend, Kenny Dalglish, whose record haul had stood for 40 years.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "997a5ae51d24afc115d0203304428f4d5156815ebc36def7664c5dc71523dbf6",
+              "snippet_sha256": "e8c8dfad5d2a2a0a195ce3d13bfc11197e8fd929a282e74f3f3286aab31ccb6e",
+              "verified_at": "2026-11-16T19:53:49.909922+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Robertson ra mắt đội tuyển Scotland vào năm 2014 trong trận gặp Ba Lan.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "It was Strachan who plucked him from the under-21s to hand him his debut as a 19-year-old in a win over Poland in March 2014.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "snippet": "It was Strachan who plucked him from the under-21s to hand him his debut as a 19-year-old in a win over Poland in March 2014.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "997a5ae51d24afc115d0203304428f4d5156815ebc36def7664c5dc71523dbf6",
+              "snippet_sha256": "f604732fbb0bf83cad214a53a1a8878474319a0f95df7dbf460656f2439047b1",
+              "verified_at": "2026-11-16T19:53:49.909922+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Robertson được Alex McLeish trao băng đội trưởng vào năm 2018.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Since being given the armband by Alex McLeish after Scott Brown retired in 2018, Robertson has captained Scotland 33 times more than any other player.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Since being given the armband by Alex McLeish after Scott Brown retired in 2018, Robertson has captained Scotland 33 times more than any other player.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "997a5ae51d24afc115d0203304428f4d5156815ebc36def7664c5dc71523dbf6",
+              "snippet_sha256": "b97166bf099635cb41f17f04a4f3c2804828776ff9b336c60296faed531f42ce",
+              "verified_at": "2026-11-16T19:53:49.909922+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa kỷ lục về số lần ra sân và di sản chuyên môn của các huyền thoại. Đồng thời, bài phân tích bối cảnh chuyển giao thế hệ thông qua góc nhìn của các đồng đội trẻ tuổi.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T19:53:49.910532+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "102",
+        "103",
+        "12",
+        "2014",
+        "2018",
+        "40"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T19:53:49.911325+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 283,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1319
         },
         "independent_domains": [
           "bbc.com",
-          "cnbc.com",
-          "npr.org",
-          "nytimes.com",
-          "techcrunch.com"
+          "skysports.com"
         ],
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-16T19:54:16.038872+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-16T19:54:16.038872+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 3,
+        "words": 283,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1319,
+        "source_access": [
+          {
+            "url": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      }
     }
+  },
+  {
+    "queue_id": "nations-league-soi-ong-voi-loat-tran-inh-cao-va-tam-iem-su-chia-tay-cua--f44fb184",
+    "status": "HOLD",
+    "prepared_at": "2026-11-16T19:52:50.937152+00:00",
+    "expires_at": "2026-11-17T19:52:50.937152+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+      "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
+      "https://www.skysports.com/football/switzerland-vs-scotland/live/554127"
+    ],
+    "article": {
+      "id": "nations-league-soi-ong-voi-loat-tran-inh-cao-va-tam-iem-su-chia-tay-cua--f44fb184",
+      "title": "Nations League sôi động với loạt trận đỉnh cao và tâm điểm sự chia tay của Cristiano Ronaldo",
+      "summary": "Loạt trận UEFA Nations League diễn ra với nhiều diễn biến chú ý, từ các cặp đấu đỉnh cao như Đức đối đầu Hà Lan, Thụy Sĩ chạm trán Scotland cho đến dư âm từ quyết định giã từ đội tuyển quốc gia của Cristiano Ronaldo.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+      "published_at": "2026-11-16T18:51:09+00:00",
+      "fetched_at": "2026-11-16T19:54:08.614812+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Loạt trận UEFA Nations League tiếp tục thu hút sự quan tâm lớn từ người hâm mộ bóng đá châu Âu với nhiều diễn biến hấp dẫn trên các sân cỏ. Tâm điểm của các cuộc đọ sức này xoay quanh những màn so tài đỉnh cao và các cột mốc đáng nhớ của nhiều gương mặt kỳ cựu trong làng túc cầu quốc tế.",
+        "Tại St Gallen, đội tuyển Scotland bước vào trận đấu gặp Thụy Sĩ với mục tiêu duy trì đà hưng phấn sau chiến thắng trước Bắc Macedonia. Trận đấu này đánh dấu cột mốc 103 lần khoác áo đội tuyển quốc gia của đội trưởng Andy Robertson. Dù có những ý kiến so sánh di sản của anh với huyền thoại Kenny Dalglish, người có 102 lần ra sân và bỏ lỡ World Cup 1986, Robertson vẫn được ghi nhận là một trong những thủ lĩnh xuất sắc nhất lịch sử bóng đá Scotland.",
+        "Trong khi đó, một cặp đấu đáng chú ý khác là cuộc chạm trán giữa Đức và Hà Lan tại sân vận động Olympiastadion ở Berlin. Đội tuyển Đức ra sân với sơ đồ chiến thuật 4-2-3-1 dưới sự dẫn dắt của các trụ cột như thủ thành Ter Stegen, Joshua Kimmich và Florian Wirtz. Phía bên kia chiến tuyến, Hà Lan bố trí đội hình 4-3-3 với sự góp mặt của các cái tên quen thuộc như Bart Verbruggen, Denzel Dumfries và Cody Gakpo, phản ánh rõ nét triết lý định hình lối chơi của ban huấn luyện hai bên.",
+        "Bên lề các trận đấu diễn ra trên sân cỏ, bóng đá châu Âu những ngày qua cũng chứng kiến những dư âm lớn từ việc Cristiano Ronaldo chính thức kết thúc sự nghiệp thi đấu quốc tế ở tuổi 41. Sau khi khép lại hành trình với 234 trận đấu và 146 bàn thắng lập kỷ lục thế giới, cầu thủ này đã để lại khoảng trống lớn tại đội tuyển Bồ Đào Nha. HLV trưởng đội tuyển Wales, Craig Bellamy, đã lên tiếng bày tỏ sự tiếc nuối và kêu gọi người hâm mộ Bồ Đào Nha nên trân trọng di sản vĩ đại mà tiền đạo này để lại thay vì tập trung vào những tranh cãi xung quanh việc chia tay đội tuyển."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nations League: Cập nhật loạt trận Thụy Sĩ - Scotland và Đức - Hà Lan",
+      "meta_description": "Tổng hợp các thông tin đáng chú ý tại UEFA Nations League với tâm điểm các cặp đấu Thụy Sĩ - Scotland, Đức - Hà Lan và cột mốc lịch sử của Andy Robertson.",
+      "keywords": [
+        "Nations League",
+        "Thụy Sĩ đấu Scotland",
+        "Đức đấu Hà Lan",
+        "Andy Robertson",
+        "Cristiano Ronaldo"
+      ],
+      "slug": "nations-league-soi-ong-voi-loat-tran-inh-cao-va-tam-iem-su-chia-tay-cua--f44fb184",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 387,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+        "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
+        "https://www.skysports.com/football/switzerland-vs-scotland/live/554127"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
+        "https://www.skysports.com/football/switzerland-vs-scotland/live/554127"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:51:09+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T17:15:12+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/switzerland-vs-scotland/live/554127",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T18:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Andy Robertson đạt cột mốc 103 lần khoác áo đội tuyển Scotland trong trận đấu gặp Thụy Sĩ tại St Gallen.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It counts as sacrilege, even to generations who have watchedKenny Dalglishonly on YouTube, to reputationally place Robertson above the Liverpool hero on the basis of a cap haul that will reach 103 in St Gallen on Monday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "snippet": "It counts as sacrilege, even to generations who have watchedKenny Dalglishonly on YouTube, to reputationally place Robertson above the Liverpool hero on the basis of a cap haul that will reach 103 in St Gallen on Monday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "page_sha256": "e72008a6b0730cf0b82173855995e47103130d18b11e61fef2ce6d0b033c59e1",
+              "snippet_sha256": "cf6a087bb08a5958266e20bd6e9898a486c6e1ccca4e38cdc85457b730debf06",
+              "verified_at": "2026-11-16T19:54:08.614207+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội tuyển Đức và Hà Lan công bố đội hình xuất phát cho trận đấu tại Olympiastadion ở Berlin.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A view inside Berlin’s Olympiastadion before Germany v Netherlands.Photograph: Stuart Franklin/Getty ImagesView image in fullscreenA view inside Berlin’s Olympiastadion before Germany v Netherlands.Photograph: Stuart Franklin/Getty ImagesKey events",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "snippet": "A view inside Berlin’s Olympiastadion before Germany v Netherlands.Photograph: Stuart Franklin/Getty ImagesView image in fullscreenA view inside Berlin’s Olympiastadion before Germany v Netherlands.Photograph: Stuart Franklin/Getty ImagesKey events",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "page_sha256": "e72008a6b0730cf0b82173855995e47103130d18b11e61fef2ce6d0b033c59e1",
+              "snippet_sha256": "6a8b5a9924e12cc198a8ccebf64f8b5a9d9c300fc7828b831686303ecb1526fa",
+              "verified_at": "2026-11-16T19:54:08.614207+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cristiano Ronaldo đã kết thúc sự nghiệp thi đấu quốc tế ở tuổi 41 sau 234 trận và ghi được 146 bàn thắng.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Wales take on a Ronaldo-less Portugal in their finalNations LeagueA4 group game on Tuesday, with the 41-year-old having ended his international career earlier this month after 234 games and 146 goals – both of which are records in the men’s game.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "snippet": "Wales take on a Ronaldo-less Portugal in their finalNations LeagueA4 group game on Tuesday, with the 41-year-old having ended his international career earlier this month after 234 games and 146 goals – both of which are records in the men’s game.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "page_sha256": "e72008a6b0730cf0b82173855995e47103130d18b11e61fef2ce6d0b033c59e1",
+              "snippet_sha256": "49a30ffeb269a408a18214834e2679fb662b7e8d0ed73b58956adf0d4b7f363d",
+              "verified_at": "2026-11-16T19:54:08.614207+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HLV trưởng đội tuyển Wales Craig Bellamy chia sẻ quan điểm bóng đá quốc tế sẽ nhớ sự hiện diện của Ronaldo.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Craig Bellamy admits football will miss Cristiano Ronaldo on the international stage but believes Portugal fans should celebrate his greatness and not focus on his controversial departure from the national team.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "snippet": "Craig Bellamy admits football will miss Cristiano Ronaldo on the international stage but believes Portugal fans should celebrate his greatness and not focus on his controversial departure from the national team.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+              "page_sha256": "e72008a6b0730cf0b82173855995e47103130d18b11e61fef2ce6d0b033c59e1",
+              "snippet_sha256": "c821a58fb18605a7d3812f5c57100d725948dae718c30876e1435542e756be8b",
+              "verified_at": "2026-11-16T19:54:08.614207+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải quyết câu hỏi về các diễn biến trọng tâm tại loạt trận UEFA Nations League, làm rõ bối cảnh nhân sự và các cột mốc lịch sử của các đội tuyển. Đồng thời, văn bản phân tích tác động và phản ứng xung quanh sự kiện từ giã đội tuyển quốc gia của Cristiano Ronaldo dựa hoàn toàn trên hồ sơ nguồn đã kiểm chứng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T19:54:08.614904+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "102",
+        "103",
+        "146",
+        "1986",
+        "234",
+        "3",
+        "41"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T19:54:08.615842+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 387,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1792
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-16T19:54:16.038872+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-16T19:54:16.038872+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 387,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1792,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "e-nghi-bo-xay-dung-ra-soat-va-co-quan-iem-chinh-thuc-ve-to-hop-cong-nghi-1f4c3969",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T19:52:50.937152+00:00",
+    "expires_at": "2026-11-17T19:52:50.937152+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+      "https://thanhnien.vn/lich-thi-dau-u17-viet-nam-tai-world-cup-moi-nhat-xac-dinh-kenh-phat-chinh-thuc-185261116235448867.htm"
+    ],
+    "article": {
+      "id": "e-nghi-bo-xay-dung-ra-soat-va-co-quan-iem-chinh-thuc-ve-to-hop-cong-nghi-1f4c3969",
+      "title": "Đề nghị Bộ Xây dựng rà soát và có quan điểm chính thức về Tổ hợp công nghiệp đường sắt",
+      "summary": "Chính phủ yêu cầu Bộ Xây dựng rà soát, có quan điểm chính thức về dự án Tổ hợp công nghiệp đường sắt trong bối cảnh Hà Nội có đề xuất đầu tư khu công nghiệp tương tự ở vị trí gần kề.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+      "published_at": "2026-11-16T15:26:00+00:00",
+      "fetched_at": "2026-11-16T19:54:13.821613+00:00",
+      "appnho_published_at": "2026-11-16T19:54:16.038872+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chiều 16-11, Phó thủ tướng thường trực Phạm Gia Túc đã chủ trì cuộc họp bàn về phương án triển khai Tổ hợp công nghiệp đường sắt. Cuộc họp diễn ra trong bối cảnh Chính phủ đã giao Bộ Xây dựng nghiên cứu triển khai dự án này, song Hà Nội cũng có đề xuất đầu tư một khu công nghiệp đường sắt tại vị trí lân cận với các chức năng tương tự.",
+        "Tại cuộc họp, Phó thủ tướng lưu ý việc hình thành nhiều khu công nghiệp riêng biệt cho từng loại hình đường sắt mà thiếu sự phối hợp chặt chẽ có thể dẫn đến tình trạng đầu tư trùng lặp, dư thừa công suất và lãng phí nguồn lực công. Lãnh đạo Chính phủ nhấn mạnh mục tiêu phát triển ngành công nghiệp này là từng bước xây dựng năng lực tự chủ chung cho quốc gia thay vì phục vụ riêng lẻ cho một doanh nghiệp, đồng thời phải đáp ứng nhu cầu cho cả đường sắt đô thị, quốc gia lẫn tốc độ cao.",
+        "Báo cáo tại đây, Thứ trưởng Bộ Xây dựng Bùi Xuân Dũng cho biết theo quyết định ngày 29-10-2025 của Thủ tướng, tổ hợp quy mô khoảng 250ha đã được xác định tại xã Chuyên Mỹ và xã Ứng Hòa, Hà Nội. Bộ Xây dựng đang lập quy hoạch chi tiết để chuẩn bị đầu tư. Tuy nhiên, do đề xuất từ phía doanh nghiệp tuân theo pháp luật đầu tư còn Bộ Xây dựng triển khai theo trình tự đầu tư công, các bên cần làm rõ hình thức và phương thức tổ chức.",
+        "Kết luận nội dung này, Phó thủ tướng thường trực đề nghị Bộ Xây dựng khẩn trương rà soát, đưa ra quan điểm chính thức và báo cáo Thủ tướng cùng các cấp có thẩm quyền để đảm bảo tiến độ triển khai đồng bộ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tổ hợp công nghiệp đường sắt: Đề nghị Bộ Xây dựng rà soát, có quan điể",
+      "meta_description": "Phó thủ tướng thường trực Phạm Gia Túc yêu cầu Bộ Xây dựng rà soát, báo cáo phương án thống nhất về Tổ hợp công nghiệp đường sắt nhằm tránh đầu tư trùng lặp và ",
+      "keywords": [
+        "tổ hợp công nghiệp đường sắt",
+        "Bộ Xây dựng",
+        "Phạm Gia Túc",
+        "Hà Nội",
+        "đầu tư công nghiệp đường sắt"
+      ],
+      "slug": "e-nghi-bo-xay-dung-ra-soat-va-co-quan-iem-chinh-thuc-ve-to-hop-cong-nghi-1f4c3969",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 320,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+        "https://thanhnien.vn/lich-thi-dau-u17-viet-nam-tai-world-cup-moi-nhat-xac-dinh-kenh-phat-chinh-thuc-185261116235448867.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/lich-thi-dau-u17-viet-nam-tai-world-cup-moi-nhat-xac-dinh-kenh-phat-chinh-thuc-185261116235448867.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T15:26:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/lich-thi-dau-u17-viet-nam-tai-world-cup-moi-nhat-xac-dinh-kenh-phat-chinh-thuc-185261116235448867.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T17:25:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chiều 16-11, Phó thủ tướng thường trực Phạm Gia Túc chủ trì cuộc họp về Tổ hợp công nghiệp đường sắt.",
+          "source_urls": [
+            "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chiều 16-11,Phó thủ tướng thường trựcPhạm Gia Túc chủ trì cuộc họp về Tổ hợp công nghiệp đường sắt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "snippet": "Chiều 16-11,Phó thủ tướng thường trựcPhạm Gia Túc chủ trì cuộc họp về Tổ hợp công nghiệp đường sắt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "page_sha256": "d62aebae86bad33582b923168ec946e06a0672c7e2edc36c4f5d774219e9b8e0",
+              "snippet_sha256": "fe1370cde44f514294ebe1026445e63a28252c26a79ad59df1a1a72548d562e6",
+              "verified_at": "2026-11-16T19:54:13.821079+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thứ trưởng Bộ Xây dựng Bùi Xuân Dũng cho biết theo quyết định ngày 29-10-2025 của Thủ tướng, tổ hợp quy mô khoảng 250ha đã được xác định tại khu vực xã Chuyên Mỹ và xã Ứng Hòa - Hà Nội.",
+          "source_urls": [
+            "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Báo cáo tại cuộc họp, Thứ trưởng Bộ Xây dựng Bùi Xuân Dũng cho biết theo quyết định ngày 29-10-2025 của Thủ tướng, Tổ hợp công nghiệp đường sắt quy mô khoảng 250ha đã được xác định tại khu vực xã Chuyên Mỹ và xã Ứng Hòa - Hà Nội.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "snippet": "Báo cáo tại cuộc họp, Thứ trưởng Bộ Xây dựng Bùi Xuân Dũng cho biết theo quyết định ngày 29-10-2025 của Thủ tướng, Tổ hợp công nghiệp đường sắt quy mô khoảng 250ha đã được xác định tại khu vực xã Chuyên Mỹ và xã Ứng Hòa - Hà Nội.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "page_sha256": "d62aebae86bad33582b923168ec946e06a0672c7e2edc36c4f5d774219e9b8e0",
+              "snippet_sha256": "50605136b3af2c74f3b3f288dfb9e09ba920a77a9c48de2dab7e7b8bbee91378",
+              "verified_at": "2026-11-16T19:54:13.821079+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phó thủ tướng thường trực đề nghị Bộ Xây dựng rà soát, có quan điểm chính thức và báo cáo Thủ tướng, cấp có thẩm quyền về nhiệm vụ nghiên cứu, chuẩn bị đầu tư tổ hợp công nghiệp đường sắt.",
+          "source_urls": [
+            "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đối với nhiệm vụ nghiên cứu, chuẩn bị đầu tư tổ hợp công nghiệp đường sắt đã được Chính phủ, Thủ tướng giao, Phó thủ tướng thường trực đề nghị Bộ Xây dựng rà soát, có quan điểm chính thức và báo cáo Thủ tướng, cấp có thẩm quyền về nội dung này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "snippet": "Đối với nhiệm vụ nghiên cứu, chuẩn bị đầu tư tổ hợp công nghiệp đường sắt đã được Chính phủ, Thủ tướng giao, Phó thủ tướng thường trực đề nghị Bộ Xây dựng rà soát, có quan điểm chính thức và báo cáo Thủ tướng, cấp có thẩm quyền về nội dung này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "page_sha256": "d62aebae86bad33582b923168ec946e06a0672c7e2edc36c4f5d774219e9b8e0",
+              "snippet_sha256": "d37c0a383b75b23bbbdd7c6e1eb507d5d9073fd83599780fa01fed13743e114f",
+              "verified_at": "2026-11-16T19:54:13.821079+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ điểm nghẽn về sự chồng chéo giữa đề xuất của địa phương và nhiệm vụ được Chính phủ giao cho bộ chuyên ngành. Qua đó, phản ánh chỉ đạo sát sao của lãnh đạo Chính phủ trong việc tối ưu hóa nguồn lực đầu tư cho công nghiệp đường sắt.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T19:54:13.821692+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "250"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T19:54:16.038872+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 320,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1457,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/to-hop-cong-nghiep-duong-sat-de-nghi-bo-xay-dung-ra-soat-co-quan-diem-chinh-thuc-100261116212549451.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-17 02:54"
+    },
+    "published_at": "2026-11-16T19:54:16.038872+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
