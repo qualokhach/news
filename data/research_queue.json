@@ -2256,7 +2256,7 @@
   },
   {
     "queue_id": "c5ced06ce18d907facd0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:26:38.666922+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "world",
@@ -2850,11 +2850,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:26:38.666940+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "kinh-te-nhat-ban-bat-ngo-suy-giam-trong-quy-iii-do-chi-phi-nang-luong-ta-67423309"
   },
   {
     "queue_id": "6b4a63a6b4737d987bf9",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:26:38.224975+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "world",
@@ -3488,11 +3489,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:26:38.224998+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "lan-song-inh-cong-tai-bangladesh-khi-nganh-may-mac-oi-mat-voi-khung-hoan-87305e41"
   },
   {
     "queue_id": "300e52bd4c10ea5822e2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:26:36.610758+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "sports",
@@ -4071,11 +4073,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:26:36.610776+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toronto-tempo-nam-loi-the-lon-so-huu-juju-watkins-sau-ky-xo-so-wnba-draf-2c2ad2b8"
   },
   {
     "queue_id": "b8a7e266f9820bd4b5d6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T01:26:36.435168+00:00",
     "expires_at": "2026-11-19T01:25:13.941713+00:00",
     "category_hint": "sports",
@@ -5025,7 +5028,8 @@
       ]
     },
     "research_ready_at": "2026-11-16T01:26:36.435189+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nfl-tuan-10-suc-manh-tan-cong-cua-49ers-va-hy-vong-mong-manh-cua-browns-9715b2a8"
   },
   {
     "queue_id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
@@ -81974,5 +81978,908 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "kinh-te-nhat-ban-bat-ngo-suy-giam-trong-quy-iii-do-chi-phi-nang-luong-ta-67423309",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T02:23:31.781352+00:00",
+    "expires_at": "2026-11-16T14:23:31.781352+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+      "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "kinh-te-nhat-ban-bat-ngo-suy-giam-trong-quy-iii-do-chi-phi-nang-luong-ta-67423309",
+      "title": "Kinh tế Nhật Bản bất ngờ suy giảm trong quý III do chi phí năng lượng tăng cao",
+      "summary": "Nền kinh tế Nhật Bản ghi nhận mức suy giảm bất ngờ trong quý III, đi ngược lại dự báo của giới chuyên gia, trong bối cảnh giá năng lượng leo thang tác động trực tiếp đến tiêu dùng và xuất khẩu ròng.",
+      "category": "world",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+      "published_at": "2026-11-16T01:02:48+00:00",
+      "fetched_at": "2026-11-16T02:23:38.629416+00:00",
+      "appnho_published_at": "2026-11-16T02:24:07.128904+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nền kinh tế Nhật Bản đã bất ngờ ghi nhận mức suy giảm trong quý III, đi ngược lại các dự báo trước đó của giới chuyên gia. Theo dữ liệu được công bố, GDP của quốc gia này đã thu hẹp ở mức 0.1% theo năm trong giai đoạn ba tháng tính đến tháng 9, đảo chiều so với mức tăng trưởng 1.4% của quý trước đó. Trước đó, kết quả khảo sát từ Reuters cho thấy các nhà kinh tế từng kỳ vọng nền kinh tế sẽ duy trì đà tăng trưởng ở mức 0.3%.",
+        "Nguyên nhân chính dẫn đến sự sụt giảm này là do chi phí nhập khẩu năng lượng tăng cao, làm gia tăng áp lực lên tiêu dùng và khiến xuất khẩu ròng trở thành yếu tố kìm hãm đà tăng trưởng, với mức cắt giảm 0.6 điểm phần trăm. Mặc dù kim ngạch xuất khẩu của Nhật Bản đã vượt kỳ vọng trong hai tháng của quý, chi phí năng lượng đắt đỏ đã bào mòn thành quả này. Dù vậy, tính trên cơ sở so với cùng kỳ năm trước, nền kinh tế vẫn duy trì mức tăng trưởng 1.1%, đạt hiệu suất mạnh nhất kể từ quý II năm 2025 nhờ mức nền thấp của năm ngoái.",
+        "Những diễn biến này đang đặt ra thách thức cho lộ trình bình thường hóa chính sách của Ngân hàng Trung ương Nhật Bản (BOJ). Tuy nhiên, giới quan sát thị trường và các tổ chức tài chính như LSEG hay Capital Economics vẫn đánh giá khả năng cơ quan này tiến hành nâng lãi suất 25 điểm chuẩn trong cuộc họp tháng 12 là khá cao, trong bối cảnh áp lực lạm phát cơ bản tiếp tục duy trì ở mức cao và vượt dự báo của các nhà phân tích."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Kinh tế Nhật Bản suy giảm quý III do áp lực năng lượng",
+      "meta_description": "Kinh tế Nhật Bản bất ngờ suy giảm 0.1% trong quý III theo năm do chi phí nhập khẩu năng lượng tăng cao, ảnh hưởng đến triển vọng chính sách tiền tệ.",
+      "keywords": [
+        "Kinh tế Nhật Bản",
+        "GDP quý III",
+        "Ngân hàng Trung ương Nhật Bản",
+        "Lạm phát",
+        "Giá năng lượng"
+      ],
+      "slug": "kinh-te-nhat-ban-bat-ngo-suy-giam-trong-quy-iii-do-chi-phi-nang-luong-ta-67423309",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 308,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+        "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T01:02:48+00:00"
+        },
+        {
+          "name": "BBC - Business",
+          "url": "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T16:01:19+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nền kinh tế Nhật Bản bất ngờ suy giảm ở mức 0.1% theo năm trong quý III so với quý trước.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Japan's economy unexpectedly contracted in the third quarter, shrinkingat an annualized 0.1%compared to the previous quarter, as elevated energy prices impacted consumption and net exports.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "snippet": "Japan's economy unexpectedly contracted in the third quarter, shrinkingat an annualized 0.1%compared to the previous quarter, as elevated energy prices impacted consumption and net exports.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "page_sha256": "b0ec9e91b096791bbf8ee7b8b45c16d3cde814f9f2e284023082337e1d635103",
+              "snippet_sha256": "ecd448bed62011896acbfdba50ce00eea9a7cb0f844f56cf5f18f369aefd30c8",
+              "verified_at": "2026-11-16T02:23:38.628763+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Khảo sát của Reuters trước đó dự báo kinh tế Nhật Bản tăng trưởng 0.3% trong ba tháng tính đến tháng 9, trong khi quý trước đạt 1.4%.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A Reuters poll of economists had estimated the economy to grow at 0.3% in the three months to September, while GDP had expanded at 1.4% in the previous quarter.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "snippet": "A Reuters poll of economists had estimated the economy to grow at 0.3% in the three months to September, while GDP had expanded at 1.4% in the previous quarter.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "page_sha256": "b0ec9e91b096791bbf8ee7b8b45c16d3cde814f9f2e284023082337e1d635103",
+              "snippet_sha256": "95838b8368371e4bf7ba4b68fff351856d12cf23fc1c34c7466f365b86953dbe",
+              "verified_at": "2026-11-16T02:23:38.628763+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xuất khẩu ròng kìm hãm tăng trưởng do chi phí nhập khẩu năng lượng cao, cắt giảm 0.6 điểm phần trăm từ tăng trưởng chung.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Japan's exports beat expectations for two of the three months in the quarter, but net exports weighed on the economy due to higher costs of energy imports, cutting 0.6 percentage point from the country's growth.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "snippet": "Japan's exports beat expectations for two of the three months in the quarter, but net exports weighed on the economy due to higher costs of energy imports, cutting 0.6 percentage point from the country's growth.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "page_sha256": "b0ec9e91b096791bbf8ee7b8b45c16d3cde814f9f2e284023082337e1d635103",
+              "snippet_sha256": "bffb019197e821a87b73900f89906de3f301ce0f9941b62a3df1d30154df8053",
+              "verified_at": "2026-11-16T02:23:38.628763+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "LSEG ước tính có 75.6% khả năng Ngân hàng Trung ương Nhật Bản nâng lãi suất 25 điểm cơ bản trong tháng 12.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The GDP data could complicate Japan's policy normalization path, though there's still a 75.6% chance of the Bank of Japan raising rates by 25 basis points in December, according to LSEG.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "snippet": "The GDP data could complicate Japan's policy normalization path, though there's still a 75.6% chance of the Bank of Japan raising rates by 25 basis points in December, according to LSEG.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "page_sha256": "b0ec9e91b096791bbf8ee7b8b45c16d3cde814f9f2e284023082337e1d635103",
+              "snippet_sha256": "f669db31c380883814ea36e4f1195321c545992d19697bcb1555c14ebbdba763",
+              "verified_at": "2026-11-16T02:23:38.628763+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lạm phát lõi trong tháng 9 đạt 2.1%, vượt dự báo của các nhà phân tích và BOJ đã đạt mục tiêu lạm phát 2% lần đầu tiên sau 13 năm.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The BOJ had declared that its2% underlying inflation targethad been met for the first time in 13 years at its meeting last month.Core inflation in Septemberalso hit its highest level this year at 2.1%, overshooting analysts' expectations.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "snippet": "The BOJ had declared that its2% underlying inflation targethad been met for the first time in 13 years at its meeting last month.Core inflation in Septemberalso hit its highest level this year at 2.1%, overshooting analysts' expectations.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "page_sha256": "b0ec9e91b096791bbf8ee7b8b45c16d3cde814f9f2e284023082337e1d635103",
+              "snippet_sha256": "d2fa8c3062dfd49cf3a9d9575ed7e0ce0a04de5d48aabd3c98749b820a1bed9b",
+              "verified_at": "2026-11-16T02:23:38.628763+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích chi tiết dữ liệu GDP quý III của Nhật Bản và tác động từ chi phí năng lượng. Làm rõ bối cảnh lạm phát và triển vọng chính sách lãi suất của Ngân hàng Trung ương Nhật Bản.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-16T02:23:38.629493+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0.1",
+        "0.3",
+        "0.6",
+        "1.1",
+        "1.4",
+        "2025",
+        "25"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T02:24:07.128904+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 308,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1381,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 09:24"
+    },
+    "published_at": "2026-11-16T02:24:07.128904+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "lan-song-inh-cong-tai-bangladesh-khi-nganh-may-mac-oi-mat-voi-khung-hoan-87305e41",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T02:23:31.781352+00:00",
+    "expires_at": "2026-11-16T14:23:31.781352+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+      "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+      "https://www.theguardian.com/uk-news/2026/nov/09/barnsley-strike-nursery-privatisation-reform-council-yorkshire-grimethorpe"
+    ],
+    "article": {
+      "id": "lan-song-inh-cong-tai-bangladesh-khi-nganh-may-mac-oi-mat-voi-khung-hoan-87305e41",
+      "title": "Làn sóng đình công tại Bangladesh: Khi ngành may mặc đối mặt với khủng hoảng tiền lương",
+      "summary": "Hàng loạt nhà máy may mặc tại Bangladesh phải đóng cửa do công nhân đình công đòi tăng lương tối thiểu trong bối cảnh chi phí sinh hoạt leo thang.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T01:05:44+00:00",
+      "fetched_at": "2026-11-16T02:23:49.088219+00:00",
+      "appnho_published_at": "2026-11-16T02:24:07.128904+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngành công nghiệp may mặc của Bangladesh, vốn đóng góp khoảng 10% GDP quốc gia và mang lại gần 40 tỷ USD doanh thu xuất khẩu hàng năm, đang rơi vào tình trạng bất ổn nghiêm trọng. Trong những ngày cuối tuần qua, gần 150 cơ sở sản xuất tại các trung tâm dệt may trọng điểm như Savar, Ashulia và Gazipur đã phải đóng cửa do làn sóng đình công của công nhân.",
+        "Nguyên nhân chính dẫn đến sự việc là yêu cầu tăng lương tối thiểu lên 30.000 taka (khoảng 182 bảng Anh) mỗi tháng. Hiện tại, mức lương tối thiểu của người lao động chỉ dừng lại ở con số 12.500 taka. Theo đại diện công đoàn, mức thu nhập này không còn đủ để trang trải cuộc sống trong bối cảnh lạm phát và khủng hoảng chi phí sinh hoạt đang đè nặng lên vai hàng triệu công nhân ngành may.",
+        "### Tác động và phản ứng từ các bên",
+        "Sự gián đoạn sản xuất đã gây ra những lo ngại lớn cho các nhà xuất khẩu và đối tác quốc tế. Các hiệp hội chủ doanh nghiệp như BGMEA và BKMEA đã lên tiếng yêu cầu chính phủ bảo vệ các nhà máy, đồng thời cảnh báo rằng việc tiếp tục đàm phán về tiền lương sẽ khó đạt kết quả nếu không có sự đảm bảo an toàn cho cơ sở vật chất. Một số chủ sở hữu đã áp dụng quy định 'Không làm việc, không trả lương' để tạm dừng hoạt động và cắt giảm chi phí khi sản xuất bị đình trệ.",
+        "Trong khi đó, chính phủ Bangladesh đã thành lập một hội đồng tiền lương tối thiểu vào ngày 1/11 để xem xét lại cấu trúc thu nhập cho người lao động. Hội đồng này dự kiến sẽ đưa ra các khuyến nghị cuối cùng vào cuối tháng 11, với lộ trình áp dụng mức lương mới từ ngày 1/12. Tuy nhiên, các tổ chức công đoàn vẫn bày tỏ sự hoài nghi về tính công bằng của quá trình này, cho rằng quyền lợi của người lao động đã bị hy sinh trong nhiều năm để duy trì giá thành sản phẩm cạnh tranh cho các thương hiệu toàn cầu.",
+        "Hiện tại, tình hình vẫn diễn biến phức tạp với các cuộc biểu tình trên đường phố, buộc cảnh sát phải can thiệp để giải tỏa giao thông. Nếu tình trạng đình công kéo dài, ngành may mặc Bangladesh – quốc gia xuất khẩu hàng may sẵn lớn thứ hai thế giới – có nguy cơ đối mặt với những hệ quả tiêu cực kéo dài đối với chuỗi cung ứng quốc tế."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Công nhân may mặc Bangladesh đình công đòi tăng lương",
+      "meta_description": "Hàng trăm nhà máy may mặc tại Bangladesh tạm dừng hoạt động do công nhân đình công yêu cầu mức lương tối thiểu mới để đối phó với khủng hoảng chi phí sinh hoạt.",
+      "keywords": [
+        "Bangladesh",
+        "đình công",
+        "ngành may mặc",
+        "tiền lương tối thiểu",
+        "khủng hoảng chi phí sinh hoạt"
+      ],
+      "slug": "lan-song-inh-cong-tai-bangladesh-khi-nganh-may-mac-oi-mat-voi-khung-hoan-87305e41",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 454,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+        "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+        "https://www.theguardian.com/uk-news/2026/nov/09/barnsley-strike-nursery-privatisation-reform-council-yorkshire-grimethorpe"
+      ],
+      "source_links": [
+        "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+        "https://www.theguardian.com/uk-news/2026/nov/09/barnsley-strike-nursery-privatisation-reform-council-yorkshire-grimethorpe"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T01:05:44+00:00"
+        },
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T15:54:21+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/09/barnsley-strike-nursery-privatisation-reform-council-yorkshire-grimethorpe",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-09T18:50:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Gần 150 nhà máy may mặc tại Bangladesh đã đóng cửa do công nhân đình công đòi tăng lương.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nearly 150 sites across the country have been closed in the textile hubs of Savar, Ashulia and Gazipur this weekend.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Nearly 150 sites across the country have been closed in the textile hubs of Savar, Ashulia and Gazipur this weekend.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d0b249e19519809a517aa8a93cec03cb220b1832045cdc5f48638a562ae17f0c",
+              "snippet_sha256": "3c64f1aba1746b6c423071026f27e172a5d36cdc8720d15ad9f01f37bccb36e9",
+              "verified_at": "2026-11-16T02:23:49.087859+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Công nhân yêu cầu mức lương tối thiểu 30.000 taka mỗi tháng, so với mức 12.500 taka hiện tại.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The minimum monthly wage in Bangladesh is currently 12,500 taka but employees say this is not enough to deal with the cost of living crisis.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "snippet": "The minimum monthly wage in Bangladesh is currently 12,500 taka but employees say this is not enough to deal with the cost of living crisis.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d0b249e19519809a517aa8a93cec03cb220b1832045cdc5f48638a562ae17f0c",
+              "snippet_sha256": "db092818057f41f77b84c758b9f0dd555af32f975aed37a0a964cd0e22831fab",
+              "verified_at": "2026-11-16T02:23:49.087859+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chính phủ Bangladesh đã thành lập hội đồng tiền lương tối thiểu vào ngày 1/11 và dự kiến áp dụng mức lương mới từ ngày 1/12.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Bangladesh Garment Manufacturers and Exporters Association (BGMEA) and the Bangladesh Knitwear Manufacturers and Exporters Association (BKMEA) is calling for protection for factories.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "snippet": "The Bangladesh Garment Manufacturers and Exporters Association (BGMEA) and the Bangladesh Knitwear Manufacturers and Exporters Association (BKMEA) is calling for protection for factories.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d0b249e19519809a517aa8a93cec03cb220b1832045cdc5f48638a562ae17f0c",
+              "snippet_sha256": "cebb74b034a23d9f0009bcc10518dcf7f258e6ca47db0d5286d29ce45a852a5c",
+              "verified_at": "2026-11-16T02:23:49.087859+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa khủng hoảng chi phí sinh hoạt và áp lực lên chuỗi cung ứng may mặc toàn cầu tại Bangladesh. Đồng thời, bài phân tích đối chiếu giữa yêu cầu của người lao động và phản ứng từ phía chủ doanh nghiệp để cung cấp cái nhìn đa chiều về cuộc xung đột.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-16T02:23:49.088318+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "12.500",
+        "150",
+        "182",
+        "30.000",
+        "40"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T02:24:07.128904+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 454,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2081,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "nytimes.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 09:24"
+    },
+    "published_at": "2026-11-16T02:24:07.128904+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "toronto-tempo-nam-loi-the-lon-so-huu-juju-watkins-sau-ky-xo-so-wnba-draf-2c2ad2b8",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T02:23:31.781352+00:00",
+    "expires_at": "2026-11-17T02:23:31.781352+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+      "https://www.espn.com/wnba/story/_/id/50463130/wnba-mock-draft-2027-draft-lottery-projections"
+    ],
+    "article": {
+      "id": "toronto-tempo-nam-loi-the-lon-so-huu-juju-watkins-sau-ky-xo-so-wnba-draf-2c2ad2b8",
+      "title": "Toronto Tempo nắm lợi thế lớn sở hữu JuJu Watkins sau kỳ xổ số WNBA Draft 2027",
+      "summary": "Kết quả xổ số WNBA Draft 2027 xác định Toronto Tempo giành lượt lựa chọn đầu tiên, mở ra cơ hội chiêu mộ ngôi sao USC JuJu Watkins.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+      "published_at": "2026-11-16T01:15:31+00:00",
+      "fetched_at": "2026-11-16T02:23:53.741744+00:00",
+      "appnho_published_at": "2026-11-16T02:24:07.128904+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Kỳ xổ số WNBA Draft diễn ra vào tối Chủ Nhật xác định Toronto Tempo sẽ nắm giữ lượt lựa chọn tổng thể đầu tiên trong kỳ tuyển quân năm 2027. Kết quả này đưa đội bóng ở phía bắc vào vị thế thuận lợi để chiêu mộ ngôi sao trẻ thuộc biên chế USC, JuJu Watkins, người được đánh giá là triển vọng hàng đầu của lớp tân binh sắp tới.",
+        "Dù đội hình Toronto hiện sở hữu nhiều hậu vệ chất lượng như Brittany Sykes, Marina Mabrey và tài năng trẻ Kiki Rice, ban lãnh đạo đội bóng vẫn được kỳ vọng sẽ chọn gương mặt xuất sắc nhất trên bảng đánh giá. Watkins sở hữu khả năng ghi điểm toàn diện và sự nhạy bén trong phòng ngự, những yếu tố mang lại sự bổ sung tức thì cho đội hình.",
+        "Sự xuất hiện tiềm năng của Watkins kết hợp cùng Kiki Rice được kỳ vọng sẽ tạo nên bộ đôi hậu vệ dài hạn cho Toronto, đồng thời mang lại sự linh hoạt trong chiến lược lực lượng. Bên cạnh đó, khả năng phòng ngự và ghi điểm của cô cũng góp phần cải thiện chiều sâu đội hình sau một mùa giải đội bóng gặp nhiều khó khăn ở mặt trận phòng ngự."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Toronto Tempo nắm lượt pick số 1 WNBA Draft 2027 để đón JuJu Watkins",
+      "meta_description": "Toronto Tempo sở hữu lượt pick đầu tiên tại WNBA Draft 2027, tạo tiền đề để chiêu mộ tài năng trẻ sáng giá JuJu Watkins từ USC.",
+      "keywords": [
+        "JuJu Watkins",
+        "Toronto Tempo",
+        "WNBA Draft 2027",
+        "bong ro nu"
+      ],
+      "slug": "toronto-tempo-nam-loi-the-lon-so-huu-juju-watkins-sau-ky-xo-so-wnba-draf-2c2ad2b8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 218,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+        "https://www.espn.com/wnba/story/_/id/50463130/wnba-mock-draft-2027-draft-lottery-projections"
+      ],
+      "source_links": [
+        "https://www.espn.com/wnba/story/_/id/50463130/wnba-mock-draft-2027-draft-lottery-projections"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T01:15:31+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/wnba/story/_/id/50463130/wnba-mock-draft-2027-draft-lottery-projections",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T22:38:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Kết quả xổ số WNBA Draft cho thấy Toronto Tempo sẽ có lượt lựa chọn đầu tiên trong kỳ draft năm 2027.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sunday night's WNBA Draft Lottery revealed that the Toronto Tempo will have the top pick in the 2027 draft.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "snippet": "Sunday night's WNBA Draft Lottery revealed that the Toronto Tempo will have the top pick in the 2027 draft.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "page_sha256": "e1ff14bf8924b8a25e4f469ae8d6ddd7d05c56cea63e71329242da519bc3343e",
+              "snippet_sha256": "edc7595d96f0bd8244d7baa5a87a46b48e01b41828ba15e8f6640a9d72269eb8",
+              "verified_at": "2026-11-16T02:23:53.741406+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Toronto Tempo có các cầu thủ Brittany Sykes và Marina Mabrey ký hợp đồng tối đa, cùng với lựa chọn vòng một Kiki Rice.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Rice and Watkins will project as the Tempo's long-term backcourt, and that will give Toronto flexibility in addressing Mabrey and Sykes' futures with the franchise.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "snippet": "Rice and Watkins will project as the Tempo's long-term backcourt, and that will give Toronto flexibility in addressing Mabrey and Sykes' futures with the franchise.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "page_sha256": "e1ff14bf8924b8a25e4f469ae8d6ddd7d05c56cea63e71329242da519bc3343e",
+              "snippet_sha256": "1583d39c6cd63d987e5df3aa987b9f9acab6edca84f1811c389431551841b5fd",
+              "verified_at": "2026-11-16T02:23:53.741406+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "JuJu Watkins là ngôi sao của USC được đánh giá cao về khả năng ghi điểm ba cấp độ và bản năng phòng ngự mạnh mẽ.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4"
+          ],
+          "importance": "core",
+          "evidence_snippet": "WNBA Mock Draft 2027: Projecting where Hannah Hidalgo, Madison Booker land after JuJu Watkins goes No.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "snippet": "WNBA Mock Draft 2027: Projecting where Hannah Hidalgo, Madison Booker land after JuJu Watkins goes No.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "page_sha256": "e1ff14bf8924b8a25e4f469ae8d6ddd7d05c56cea63e71329242da519bc3343e",
+              "snippet_sha256": "4f6b4f476038daff5339dff1f4bea3c20561799fa831b9c42c337404fdf737c0",
+              "verified_at": "2026-11-16T02:23:53.741406+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích chi tiết tác động chuyên môn của lượt pick số 1 WNBA Draft 2027 đối với Toronto Tempo. Nội dung làm rõ cấu trúc lực lượng hiện tại của đội bóng và cách JuJu Watkins hòa nhập để giải quyết các điểm yếu về phòng ngự và ghi điểm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T02:23:53.741809+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2027"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T02:24:07.128904+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 218,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 999,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/wnba/news/how-juju-watkins-fits-toronto-tempo-after-wnba-draft-lottery/fb0fbaca1d961f0ea26429b4",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "espn.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 09:24"
+    },
+    "published_at": "2026-11-16T02:24:07.128904+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nfl-tuan-10-suc-manh-tan-cong-cua-49ers-va-hy-vong-mong-manh-cua-browns-9715b2a8",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T02:23:31.781352+00:00",
+    "expires_at": "2026-11-17T02:23:31.781352+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+      "https://www.sportingnews.com/us/nfl/cleveland-browns/news/browns-win-texans-could-afc-wild-card-implications/c833a70b0c8c6929246dbe5f"
+    ],
+    "article": {
+      "id": "nfl-tuan-10-suc-manh-tan-cong-cua-49ers-va-hy-vong-mong-manh-cua-browns-9715b2a8",
+      "title": "NFL Tuần 10: Sức mạnh tấn công của 49ers và hy vọng mong manh của Browns",
+      "summary": "Tuần 10 NFL chứng kiến sự bùng nổ của hàng công 49ers khi Deebo Samuel trở lại, trong khi Cleveland Browns giành lợi thế quan trọng trong cuộc đua giành vé Wild Card tại AFC.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+      "published_at": "2026-11-16T01:16:21+00:00",
+      "fetched_at": "2026-11-16T02:24:05.150336+00:00",
+      "appnho_published_at": "2026-11-16T02:24:07.128904+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tuần thi đấu thứ 10 của mùa giải NFL 2026 đã mang đến những câu hỏi thú vị về cục diện các đội bóng. Tại San Francisco, hàng công của 49ers (thành tích 8-1) đã có màn trình diễn ấn tượng nhất dưới thời huấn luyện viên Kyle Shanahan kể từ năm 2017. Với sự trở lại của Deebo Samuel sau chấn thương gân kheo, đội bóng đã đạt 580 tổng số yard, trung bình 9,8 yard mỗi pha bóng trong chiến thắng trước Dallas Cowboys. Dù Brock Purdy chịu áp lực lớn với 5 lần bị sack, anh vẫn duy trì sự ổn định, bao gồm đường chuyền touchdown 74 yard cho Christian McCaffrey. Hai tuần tới, khi đối đầu với các hàng thủ mạnh như Vikings và Seahawks, sẽ là bài kiểm tra thực sự cho tiềm năng tấn công của 49ers.",
+        "Trong khi đó, tại AFC, Cleveland Browns đang thắp sáng hy vọng playoff sau chiến thắng 27-24 trước Houston Texans. Với kết quả này, Browns nâng thành tích lên 6-4 và vượt qua New England Patriots để chiếm vị trí hạt giống số 7. Đây là bước ngoặt quan trọng khi Browns hiện nắm quyền tự quyết trong cuộc đua giành suất Wild Card cuối cùng. Ngược lại, thất bại khiến Texans rơi vào thế khó với thành tích 3-6, đối mặt với lịch thi đấu đầy thử thách phía trước. Trong khi Browns có lịch trình tương đối dễ thở hơn, họ vẫn cần duy trì sự tập trung trong các trận đấu quan trọng với Cincinnati Bengals để bảo toàn vị trí hiện tại trong bảng xếp hạng."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "NFL Tuần 10: 49ers bùng nổ, Browns thắp sáng hy vọng playoff",
+      "meta_description": "Tổng hợp diễn biến chính NFL Tuần 10: San Francisco 49ers khẳng định sức mạnh tấn công, còn Cleveland Browns vươn lên vị trí thứ 7 tại AFC sau chiến thắng trước",
+      "keywords": [
+        "NFL",
+        "San Francisco 49ers",
+        "Cleveland Browns",
+        "Bóng bầu dục Mỹ",
+        "Playoff NFL"
+      ],
+      "slug": "nfl-tuan-10-suc-manh-tan-cong-cua-49ers-va-hy-vong-mong-manh-cua-browns-9715b2a8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 274,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+        "https://www.sportingnews.com/us/nfl/cleveland-browns/news/browns-win-texans-could-afc-wild-card-implications/c833a70b0c8c6929246dbe5f"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/nfl/cleveland-browns/news/browns-win-texans-could-afc-wild-card-implications/c833a70b0c8c6929246dbe5f"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T01:16:21+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/cleveland-browns/news/browns-win-texans-could-afc-wild-card-implications/c833a70b0c8c6929246dbe5f",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T22:16:09+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "San Francisco 49ers đạt 580 tổng số yard trong trận thắng Cowboys, mức cao nhất dưới thời HLV Kyle Shanahan từ năm 2017.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "back from a hamstring injury Sunday and the offense took off, averaging 9.8 yards per play and posting 580 total yards -- the most in any game under coach Kyle Shanahan (since 2017) -- against a bad Cowboys defense.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "snippet": "back from a hamstring injury Sunday and the offense took off, averaging 9.8 yards per play and posting 580 total yards -- the most in any game under coach Kyle Shanahan (since 2017) -- against a bad Cowboys defense.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "page_sha256": "30d73a23cfe546616f6797e05c698ed087cda745fe4316726e46fed2d81344b8",
+              "snippet_sha256": "dafa3207010e0066733e44b8aa7f3dd62067e21c9d31b5f33f355d5c17e04fd4",
+              "verified_at": "2026-11-16T02:24:05.149814+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cleveland Browns thắng Houston Texans 27-24, nâng thành tích lên 6-4 và chiếm vị trí hạt giống số 7 tại AFC.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Detroit improved to 7-2 with a win after the Patriots lostDrake Mayeearly to an ankle injury.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "snippet": "Detroit improved to 7-2 with a win after the Patriots lostDrake Mayeearly to an ankle injury.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "page_sha256": "30d73a23cfe546616f6797e05c698ed087cda745fe4316726e46fed2d81344b8",
+              "snippet_sha256": "843aa03894ff16fe2efba487ffa41d14f0e3d6bb0b9b5d47f4139c0560d6c7fa",
+              "verified_at": "2026-11-16T02:24:05.149814+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Brock Purdy bị sack 5 lần trong trận đấu với Cowboys nhưng vẫn dẫn dắt 49ers giành chiến thắng.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Whatever progress the Cowboys thought they were making defensively was exposed by the 49ers.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "snippet": "Whatever progress the Cowboys thought they were making defensively was exposed by the 49ers.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "page_sha256": "30d73a23cfe546616f6797e05c698ed087cda745fe4316726e46fed2d81344b8",
+              "snippet_sha256": "68dff7c58b9286e2d6c977c99353ac4361e66aaa9a29bd65a653133bd69de28f",
+              "verified_at": "2026-11-16T02:24:05.149814+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết kết nối hai diễn biến quan trọng nhất của tuần đấu là sự thăng hoa của 49ers và sự thay đổi cục diện tại AFC Wild Card. Việc đặt cạnh nhau các dữ kiện về phong độ tấn công và vị trí bảng xếp hạng giúp độc giả có cái nhìn tổng thể về tác động của kết quả tuần 10.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T02:24:05.150410+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2017",
+        "2026",
+        "49",
+        "5",
+        "580",
+        "7",
+        "74",
+        "9,8"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T02:24:07.128904+00:00",
+        "stats": {
+          "paragraphs": 2,
+          "words": 274,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1333,
+          "source_access": [
+            {
+              "url": "https://www.espn.com/nfl/story/_/id/50443510/week-10-sunday-games-takeaways-questions-2026",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "espn.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 09:24"
+    },
+    "published_at": "2026-11-16T02:24:07.128904+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
