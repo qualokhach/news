@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "96bff826c39dea871ffd",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T12:06:21.317653+00:00",
     "expires_at": "2026-11-19T12:04:22.063260+00:00",
     "category_hint": "world",
@@ -599,11 +599,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T12:06:21.317678+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tau-ngam-hat-nhan-anh-ket-thuc-chuyen-tuan-tra-ky-luc-217-ngay-duoi-nuoc-16f82b9e"
   },
   {
     "queue_id": "d14d230b266db2246ab1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T12:06:20.803978+00:00",
     "expires_at": "2026-11-19T12:04:22.063260+00:00",
     "category_hint": "world",
@@ -1025,11 +1026,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T12:06:20.803999+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74"
   },
   {
     "queue_id": "3944baeb95a83679c431",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T12:06:19.693022+00:00",
     "expires_at": "2026-11-19T12:04:22.063260+00:00",
     "category_hint": "technology",
@@ -1823,7 +1825,8 @@
       ]
     },
     "research_ready_at": "2026-11-16T12:06:19.693044+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thuong-nghi-si-my-chi-trich-bo-truong-thuong-mai-ve-van-e-chip-ai-cua-nv-6541b67c"
   },
   {
     "queue_id": "773fbb00dd32619875cc",
@@ -77629,5 +77632,719 @@
     "research_ready_at": "2026-11-11T11:29:48.781866+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "tong-bi-thu-chu-tich-nuoc-to-lam-ket-thuc-tot-dep-chuyen-tham-chinh-thuc-33b00150"
+  },
+  {
+    "queue_id": "tau-ngam-hat-nhan-anh-ket-thuc-chuyen-tuan-tra-ky-luc-217-ngay-duoi-nuoc-16f82b9e",
+    "status": "READY",
+    "prepared_at": "2026-11-16T12:06:44.666355+00:00",
+    "expires_at": "2026-11-17T12:06:44.666355+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour"
+    ],
+    "article": {
+      "id": "tau-ngam-hat-nhan-anh-ket-thuc-chuyen-tuan-tra-ky-luc-217-ngay-duoi-nuoc-16f82b9e",
+      "title": "Tàu ngầm hạt nhân Anh kết thúc chuyến tuần tra kỷ lục 217 ngày dưới nước",
+      "summary": "Tàu ngầm mang tên lửa hạt nhân HMS Vengeance của Hải quân Hoàng gia Anh đã cập cảng sau 217 ngày lặn liên tục, phá vỡ kỷ lục trước đó trong bối cảnh lịch trình bảo trì hạm đội gặp nhiều chậm trễ.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T21:48:10+00:00",
+      "fetched_at": "2026-11-16T12:06:58.710229+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tàu ngầm mang tên lửa hạt nhân HMS Vengeance của Hải quân Hoàng gia Anh đã chính thức trở về căn cứ ở Scotland sau khi hoàn thành chuyến tuần tra dưới mặt nước kéo dài 217 ngày. Chuyến hải trình kỷ lục này bắt đầu từ ngày 12/4 với thủy thủ đoàn gồm 140 người làm nhiệm vụ trong tình trạng gần như cô lập hoàn toàn.",
+        "Bộ trưởng Quốc phòng Anh Wes Streeting đã có mặt tại căn cứ hải quân Clyde để chào đón thủy thủ đoàn trở về vào chủ nhật. Phát biểu tại sự kiện, ông cho biết việc các thủy thủ phải phục vụ lâu hơn dự định là điều không dễ dàng gì, đồng thời ca ngợi sự cống hiến và tính chuyên nghiệp của lực lượng này.",
+        "Thành tích này đã vượt qua kỷ lục 205 ngày trước đó do tàu ngầm HMS Vanguard thiết lập vào tháng 4. Việc thời gian tuần tra kéo dài từ mức thông thường là ba tháng lên tới sáu tháng hoặc hơn xuất phát từ tình trạng thiếu hụt tàu và tiến độ bảo trì hạm đội diễn ra chậm chạp. Hiện tại, một số tàu ngầm khác như HMS Victorious đang trong quá trình bảo dưỡng dài hạn.",
+        "Các chuyên gia và giới chức quân sự thừa nhận thời gian triển khai kéo dài đang đặt áp lực lớn lên các thủy thủ cũng như độ tin cậy của những con tàu lớn tuổi. Trong khi chương trình đóng tàu thế hệ mới đang được triển khai, Hải quân Anh vẫn phải duy trì lực lượng răn đe hạt nhân thường trực trên biển kể từ năm 1969."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tàu ngầm HMS Vengeance của Anh hoàn thành chuyến tuần tra kỷ lục 217 n",
+      "meta_description": "Tàu ngầm HMS Vengeance chở tên lửa hạt nhân Trident đã trở về căn cứ tại Scotland sau 217 ngày tuần tra liên tục dưới nước.",
+      "keywords": [
+        "HMS Vengeance",
+        "Trident",
+        "Hải quân Hoàng gia Anh",
+        "Wes Streeting",
+        "Faslane"
+      ],
+      "slug": "tau-ngam-hat-nhan-anh-ket-thuc-chuyen-tuan-tra-ky-luc-217-ngay-duoi-nuoc-16f82b9e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 284,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T21:48:10+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T18:50:33+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tàu ngầm HMS Vengeance trở về căn cứ ở Scotland sau 217 ngày lặn tuần tra.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour"
+          ],
+          "importance": "core",
+          "evidence_snippet": "HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on Sunday, having left the country when Keir Starmer was in Downing Street and Manchester United were third in the Premier League.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+              "snippet": "HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on Sunday, having left the country when Keir Starmer was in Downing Street and Manchester United were third in the Premier League.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+              "page_sha256": "3b562db8fb9f5d94914da3af09291e837460954c13a8db81fa615b6ddda86eaf",
+              "snippet_sha256": "6ccfa33cf1d6b7ef5812b80cec003bf4db930b2abccacd1d90012187603f3237",
+              "verified_at": "2026-11-16T12:06:58.709362+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủy thủ đoàn gồm 140 người khởi hành từ Faslane vào ngày 12 tháng 4.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The 140-strong crew of HMS Vengeance have spent the tour in almost total isolation beneath the surface after setting out from Faslane, near Helensburgh, Argyll and Bute, on 12 April.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+              "snippet": "The 140-strong crew of HMS Vengeance have spent the tour in almost total isolation beneath the surface after setting out from Faslane, near Helensburgh, Argyll and Bute, on 12 April.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "cd6901fa8dbb93ff920f2832a9eb0d45c1f2a76e3fba4363bdaae0f23b699638",
+              "snippet_sha256": "019166413cbf5059210f6a9bae1d42c03e4f21f013777b627b4f48a9e39850cd",
+              "verified_at": "2026-11-16T12:06:58.709362+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ trưởng Quốc phòng Wes Streeting có mặt tại căn cứ hải quân Clyde để chào đón thủy thủ đoàn.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Defence Secretary Wes Streeting was at HM Naval Base Clyde to welcome the crew home on Sunday",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Defence Secretary Wes Streeting was at HM Naval Base Clyde to welcome the crew home on Sunday",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "cd6901fa8dbb93ff920f2832a9eb0d45c1f2a76e3fba4363bdaae0f23b699638",
+              "snippet_sha256": "7e221efc70e22bac7f71715573d693f0661dadfcaccacf3af8d709a1cad2ad6c",
+              "verified_at": "2026-11-16T12:06:58.709362+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kỷ lục trước đó thuộc về tàu ngầm HMS Vanguard với 205 ngày trở về vào tháng 4.",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Its tour surpasses the previous 205-day record set by HMS Vanguard, and has raised questions about the strains placed on sailors and the reliability of ageing submarines sent on the extended missions.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+              "snippet": "Its tour surpasses the previous 205-day record set by HMS Vanguard, and has raised questions about the strains placed on sailors and the reliability of ageing submarines sent on the extended missions.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+              "page_sha256": "3b562db8fb9f5d94914da3af09291e837460954c13a8db81fa615b6ddda86eaf",
+              "snippet_sha256": "cb77d82a8adcc568592fb1644831ea3525b3fa27433c593b5e78ede51a5ec435",
+              "verified_at": "2026-11-16T12:06:58.709362+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh nguyên nhân khiến các chuyến tuần tra của tàu ngầm Anh kéo dài gấp đôi so với tiêu chuẩn lịch sử. Đồng thời, tác phẩm đối chiếu các mốc thời gian kỷ lục mới và cũ giữa HMS Vengeance và HMS Vanguard dựa trên các nguồn chính thống.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T12:06:58.710343+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "140",
+        "1969",
+        "205",
+        "217"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T12:06:58.712103+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 284,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1298
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
+    "status": "READY",
+    "prepared_at": "2026-11-16T12:06:44.666355+00:00",
+    "expires_at": "2026-11-17T12:06:44.666355+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+      "https://www.theguardian.com/sport/2026/nov/14/anthony-santander-blue-jays-anti-muslim-posts-apology"
+    ],
+    "article": {
+      "id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
+      "title": "Cuộc cách mạng tình dục âm thầm diễn ra trên mạng xã hội tại Ai Cập",
+      "summary": "Nhiều tài khoản mạng xã hội tại Ai Cập đang thu hút hàng triệu lượt xem khi đề cập đến các vấn đề nhạy cảm như giáo dục giới tính và hủ tục cắt bỏ bộ phận sinh dục nữ, dù vấp phải nhiều rào cản từ xã hội.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+      "published_at": "2026-11-16T09:50:45+00:00",
+      "fetched_at": "2026-11-16T12:07:03.947854+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại Ai Cập, một xu hướng thay đổi nhận thức đang diễn ra khi nhiều tài khoản mạng xã hội công khai thảo luận về các chủ đề liên quan đến tình dục. Các nền tảng này thu hút lượng lớn người theo dõi và đạt hàng triệu lượt xem nhờ đề cập đến nhiều khía cạnh khác nhau trong đời sống.",
+        "Nội dung các bài đăng đề cập đến nhiều vấn đề thực tế, bao gồm cả thực trạng cắt bỏ bộ phận sinh dục nữ vốn ảnh hưởng đến 93% phụ nữ ở các vùng nông thôn, cùng với các chủ đề về giáo dục giới tính và khoái cảm cá nhân. Những chủ đề này lâu nay vẫn bị coi là điều cấm kỵ.",
+        "Dù vậy, việc thay đổi nhận thức cộng đồng vẫn đối mặt với nhiều khó khăn lớn. Giáo dục giới tính hoàn toàn vắng bóng trong hệ thống trường học, trong khi xã hội duy trì cấu trúc gia trưởng và phần đông người dân coi tình dục là vấn đề không phù hợp với chuẩn mực đạo đức.",
+        "Các bài viết và thảo luận trực tuyến này cho thấy những nỗ lực bước đầu nhằm phá vỡ các định kiến lâu đời. Tuy nhiên, sự chênh lệch giữa không gian mạng và thực tế giáo dục tại các trường học cho thấy chặng đường thay đổi quan niệm xã hội vẫn còn rất dài."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cách mạng tình dục trên mạng xã hội tại Ai Cập phá vỡ định kiến",
+      "meta_description": "Các tài khoản mạng xã hội tại Ai Cập đang công khai thảo luận về giáo dục giới tính, khoái cảm và nạn cắt bỏ bộ phận sinh dục nữ.",
+      "keywords": [
+        "Ai Cập",
+        "mạng xã hội",
+        "giáo dục giới tính",
+        "vấn đề xã hội"
+      ],
+      "slug": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 242,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+        "https://www.theguardian.com/sport/2026/nov/14/anthony-santander-blue-jays-anti-muslim-posts-apology"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/14/anthony-santander-blue-jays-anti-muslim-posts-apology"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T09:50:45+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/14/anthony-santander-blue-jays-anti-muslim-posts-apology",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T13:00:50+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tại Ai Cập, một cuộc cách mạng tình dục đang diễn ra trên mạng xã hội với các tài khoản thu hút hàng chục nghìn người theo dõi và hàng triệu lượt xem.",
+          "source_urls": [
+            "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The content you requested does not exist or is not available anymore.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+              "snippet": "The content you requested does not exist or is not available anymore.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+              "page_sha256": "f08242d7daa5f6cd3b6caa9d2fb32fe70fd09dc15a4a22a2f714ed4016e5f24d",
+              "snippet_sha256": "349bed8c936180128846a24a22f023d6cbf59364da54eb33e2cba673a0932c47",
+              "verified_at": "2026-11-16T12:07:03.947480+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các nội dung đề cập đến nạn cắt bỏ bộ phận sinh dục nữ (chiếm 93% phụ nữ ở vùng nông thôn), giáo dục giới tính và khoái cảm tình dục.",
+          "source_urls": [
+            "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Accounts followed by tens of thousands of people, with posts attracting millions of views, are tackling a wide range of issues surrounding sexuality – from the widespread practice of female genital mutilation (which 93 per cent of women in rural areas have undergone) to sex education and sexual pleasure.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+              "snippet": "Accounts followed by tens of thousands of people, with posts attracting millions of views, are tackling a wide range of issues surrounding sexuality – from the widespread practice of female genital mutilation (which 93 per cent of women in rural areas have undergone) to sex education and sexual pleasure.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+              "page_sha256": "f08242d7daa5f6cd3b6caa9d2fb32fe70fd09dc15a4a22a2f714ed4016e5f24d",
+              "snippet_sha256": "ce9c5315e77243927290aa105d1b71596ef5cc1611468b27be14de90d1d1cdbf",
+              "verified_at": "2026-11-16T12:07:03.947480+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giáo dục giới tính hoàn toàn vắng bóng trong trường học và xã hội Ai Cập vẫn mang tính gia trưởng sâu sắc, nơi tình dục và khoái cảm vẫn là chủ đề cấm kỵ đối với hàng chục triệu người.",
+          "source_urls": [
+            "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "For tens of millions of Egyptians, sexuality and pleasure are still taboo subjects, associated with debauchery and seen as incompatible with family values and morals.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+              "snippet": "For tens of millions of Egyptians, sexuality and pleasure are still taboo subjects, associated with debauchery and seen as incompatible with family values and morals.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/focus/20261116-breaking-taboos-egypt-s-sexual-revolution-takes-to-social-media",
+              "page_sha256": "f08242d7daa5f6cd3b6caa9d2fb32fe70fd09dc15a4a22a2f714ed4016e5f24d",
+              "snippet_sha256": "f934470bea8d9892a77bbaff9b2a5c50f88b144d2da024919df85e5ab462fd1f",
+              "verified_at": "2026-11-16T12:07:03.947480+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự đối lập giữa không gian thảo luận trên mạng xã hội và thực tế giáo dục truyền thống tại Ai Cập. Đồng thời, văn bản cung cấp bức tranh toàn diện về các chủ đề nhạy cảm được đề cập cùng những rào cản xã hội hiện hữu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T12:07:03.947928+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "93"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-16T12:07:03.948575+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 242,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1076
+        },
+        "independent_domains": [
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "thuong-nghi-si-my-chi-trich-bo-truong-thuong-mai-ve-van-e-chip-ai-cua-nv-6541b67c",
+    "status": "READY",
+    "prepared_at": "2026-11-16T12:06:44.666355+00:00",
+    "expires_at": "2026-11-17T00:06:44.666355+00:00",
+    "source_urls": [
+      "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+      "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry",
+      "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+      "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+      "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary",
+      "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss"
+    ],
+    "article": {
+      "id": "thuong-nghi-si-my-chi-trich-bo-truong-thuong-mai-ve-van-e-chip-ai-cua-nv-6541b67c",
+      "title": "Thượng nghị sĩ Mỹ chỉ trích Bộ trưởng Thương mại về vấn đề chip AI của Nvidia",
+      "summary": "Thượng nghị sĩ Maria Cantwell vừa gửi thư chỉ trích Bộ trưởng Thương mại Howard Lutnick, cáo buộc cơ quan này lơ là việc thực thi các biện pháp kiểm soát xuất khẩu chip AI của Nvidia sang Trung Quốc trong bối cảnh bê bối tình báo.",
+      "category": "world",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+      "published_at": "2026-11-16T10:52:52+00:00",
+      "fetched_at": "2026-11-16T12:07:09.259226+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thượng nghị sĩ Washington Maria Cantwell, một trong những đảng viên Dân chủ hàng đầu tại ủy ban thương mại Thượng viện, đã lên tiếng chỉ trích gay gắt Bộ Thương mại dưới quyền Bộ trưởng Howard Lutnick. Trong bức thư gửi vào ngày Chủ nhật, bà Cantwell cáo buộc cơ quan này đã không thực thi đầy đủ các quy định nhằm ngăn chặn chip trí tuệ nhân tạo của Nvidia lọt vào tay Trung Quốc.",
+        "Theo nội dung bức thư, bà Cantwell cho rằng Bộ Thương mại đã làm suy yếu an ninh quốc gia và góp phần làm mất đi lợi thế công nghệ AI của Hoa Kỳ. Nữ thượng nghị sĩ chỉ trích cơ quan này đã phớt lờ các cảnh báo từ phía Nhà Trắng và giới tình báo, đồng thời duy trì những kẽ hở cho phép các công ty bị gắn mác đe dọa an ninh quốc gia tiếp cận công nghệ nhạy cảm.",
+        "Cụ thể, bức thư nhấn mạnh việc Bộ Thương mại đã không hạn chế kịp thời quyền tiếp cận chip AI của công ty Megaspeed có trụ sở tại Singapore, đơn vị từng liên quan đến các cáo buộc gián điệp. Bên cạnh đó, cơ quan này cũng bị chỉ trích vì cho phép các hãng công nghệ lớn như Alibaba và ByteDance tiếp cận chip Nvidia thông qua các trung tâm dữ liệu ở nước ngoài.",
+        "Động thái chỉ trích này diễn ra trong bối cảnh áp lực đè nặng lên Bộ trưởng Howard Lutnick từ nhiều phía trong chính quyền. Trước đó, Bộ trưởng Tài chính Scott Bessent cũng công khai cáo buộc Bộ Thương mại chậm trễ trong việc áp dụng các lệnh trừng phạt và đưa các thực thể liên quan vào danh sách hạn chế thương mại.",
+        "Trong khi Quốc hội Mỹ đang thúc đẩy việc thắt chặt các quy định kiểm soát xuất khẩu chip AI, các nguồn tin cho biết Bộ Thương mại có thể đưa ra các hướng dẫn mới. Vụ việc tiếp tục làm nổi bật những căng thẳng chính trị xoay quanh chính sách thương mại công nghệ cao giữa Washington và Bắc Kinh."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thượng nghị sĩ Mỹ chỉ trích Bộ trưởng Thương mại vụ chip Nvidia",
+      "meta_description": "Thượng nghị sĩ Maria Cantwell cáo buộc Bộ Thương mại dưới quyền Howard Lutnick đã làm suy yếu an ninh quốc gia và lợi thế công nghệ AI của Mỹ.",
+      "keywords": [
+        "Nvidia",
+        "Howard Lutnick",
+        "Maria Cantwell",
+        "Bộ Thương mại Mỹ",
+        "chip AI",
+        "Trung Quốc"
+      ],
+      "slug": "thuong-nghi-si-my-chi-trich-bo-truong-thuong-mai-ve-van-e-chip-ai-cua-nv-6541b67c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 365,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+        "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry",
+        "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+        "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+        "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary",
+        "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry",
+        "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+        "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+        "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary",
+        "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T10:52:52+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T17:05:00+00:00"
+        },
+        {
+          "name": "NPR - Business",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T22:21:07+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T14:56:21+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T19:51:28+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-12T19:22:28+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T07:26:28+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Thượng nghị sĩ Maria Cantwell chỉ trích Bộ Thương mại dưới thời Howard Lutnick vì không thực thi kiểm soát chip AI Nvidia sang Trung Quốc.",
+          "source_urls": [
+            "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for neglecting to enforce protections intended to keep Nvidia’s AI chips away from China.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+              "snippet": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for neglecting to enforce protections intended to keep Nvidia’s AI chips away from China.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+              "page_sha256": "4d862795edb2d3901793b204a7594a37b97700832fcb0efa546c966b3edb5a3d",
+              "snippet_sha256": "023eba7567610a4a2d494d6f8e14d09d2c3630de5641326164003ffa82a3181a",
+              "verified_at": "2026-11-16T12:07:09.258667+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bà Cantwell cáo buộc Bộ Thương mại làm suy yếu an ninh quốc gia và trao đi lợi thế công nghệ AI của Mỹ.",
+          "source_urls": [
+            "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“America cannot maintain its leadership in AI if the agency responsible for protecting that advantage fails to enforce its own controls,” Cantwell said, closing her letter.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+              "snippet": "“America cannot maintain its leadership in AI if the agency responsible for protecting that advantage fails to enforce its own controls,” Cantwell said, closing her letter.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+              "page_sha256": "4d862795edb2d3901793b204a7594a37b97700832fcb0efa546c966b3edb5a3d",
+              "snippet_sha256": "844ca88ca321475d5e9ffe36d60c419c062b49614392aa38ddffa766bc55ec52",
+              "verified_at": "2026-11-16T12:07:09.258667+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ Thương mại bị cáo buộc không nghe theo cảnh báo về việc hạn chế Megaspeed và để ngỏ kẽ hở cho Alibaba, ByteDance tiếp cận chip qua trung tâm dữ liệu nước ngoài.",
+          "source_urls": [
+            "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cantwell also criticizes the DOC for allowing Alibaba and ByteDance to access Nvidia chips through overseas data centers, and extending a loophole that let restricted companies obtain American AI technology through subsidiaries.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+              "snippet": "Cantwell also criticizes the DOC for allowing Alibaba and ByteDance to access Nvidia chips through overseas data centers, and extending a loophole that let restricted companies obtain American AI technology through subsidiaries.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+              "page_sha256": "4d862795edb2d3901793b204a7594a37b97700832fcb0efa546c966b3edb5a3d",
+              "snippet_sha256": "c2bbcf606f7195ac12b2c8a904de174af2d16cb7946b0116e56332f7b996d31e",
+              "verified_at": "2026-11-16T12:07:09.258667+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những cáo buộc pháp lý và chính trị nhằm vào Bộ Thương mại Mỹ trong việc quản lý xuất khẩu chip AI. Đồng thời, văn bản phân tích bối cảnh áp lực từ quốc hội và mâu thuẫn nội bộ chính quyền trong việc xử lý các lỗ hổng an ninh liên quan đến Nvidia.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-16T12:07:09.259328+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-16T12:07:09.261237+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 365,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1712
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "france24.com",
+          "npr.org",
+          "techcrunch.com",
+          "theguardian.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
