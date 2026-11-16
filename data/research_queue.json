@@ -1830,7 +1830,7 @@
   },
   {
     "queue_id": "773fbb00dd32619875cc",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T12:06:16.985480+00:00",
     "expires_at": "2026-11-19T12:04:22.063260+00:00",
     "category_hint": "technology",
@@ -2559,11 +2559,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T12:06:16.985499+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "xe-robotaxi-zoox-chinh-thuc-xuat-hien-tren-ung-dung-uber-tai-las-vegas-ecf99119"
   },
   {
     "queue_id": "9c7a6d304112bf7ebd63",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T12:06:14.413966+00:00",
     "expires_at": "2026-11-19T12:04:22.063260+00:00",
     "category_hint": "vietnam",
@@ -3447,11 +3448,12 @@
       ]
     },
     "research_ready_at": "2026-11-16T12:06:14.413989+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "xtool-gia-nhap-thi-truong-viet-nam-bat-tay-chien-luoc-cung-viettel-comme-0032c6db"
   },
   {
     "queue_id": "294b0c4cbd48de35a4e7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-16T12:06:05.575487+00:00",
     "expires_at": "2026-11-19T12:04:22.063260+00:00",
     "category_hint": "vietnam",
@@ -4166,7 +4168,8 @@
       ]
     },
     "research_ready_at": "2026-11-16T12:06:05.575511+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "t-u-5-chuan-bi-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-va-bao-hie-88bed858"
   },
   {
     "queue_id": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee",
@@ -15564,7 +15567,7 @@
     "queue_id": "c9c796e5c7599d64c7f5",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-15T11:33:10.740297+00:00",
-    "expires_at": "2026-11-18T16:37:43.735881+00:00",
+    "expires_at": "2026-11-19T13:10:15.841818+00:00",
     "category_hint": "sports",
     "lead_title": "Spain v England buildup, reaction to Portugal’s post-Ronaldo thrashing, WSL and more – matchday live",
     "source_urls": [
@@ -16262,9 +16265,9 @@
     },
     "research_ready_at": "2026-11-15T11:33:10.740315+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[2] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Quality gate failed: Đoạn 1 có số liệu/ngày tháng không tìm thấy trong fact ledger hoặc văn bản nguồn: 9 | Gemini/gemini-3.1-flash-lite: fact_ledger[2] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger",
-    "write_attempts": 2,
-    "next_write_after": "2026-11-16T00:37:43.735881+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Cloudflare Workers AI/@cf/meta/llama-3",
+    "write_attempts": 3,
+    "next_write_after": "2026-11-17T05:10:15.841818+00:00"
   },
   {
     "queue_id": "14dc0ad6eb80dde952ac",
@@ -77635,7 +77638,7 @@
   },
   {
     "queue_id": "tau-ngam-hat-nhan-anh-ket-thuc-chuyen-tuan-tra-ky-luc-217-ngay-duoi-nuoc-16f82b9e",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-16T12:06:44.666355+00:00",
     "expires_at": "2026-11-17T12:06:44.666355+00:00",
     "source_urls": [
@@ -77651,7 +77654,7 @@
       "source_url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-15T21:48:10+00:00",
       "fetched_at": "2026-11-16T12:06:58.710229+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-16T13:19:04.924929+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -77837,23 +77840,38 @@
         "217"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-16T12:06:58.712103+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-16T13:19:04.924929+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 284,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1298
-        },
-        "independent_domains": [
-          "bbc.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1298,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-16 20:19"
+    },
+    "published_at": "2026-11-16T13:19:04.924929+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
@@ -78346,5 +78364,680 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "xe-robotaxi-zoox-chinh-thuc-xuat-hien-tren-ung-dung-uber-tai-las-vegas-ecf99119",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T13:10:15.841818+00:00",
+    "expires_at": "2026-11-17T13:10:15.841818+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+      "https://www.skysports.com/f1/news/12040/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+      "https://www.bbc.co.uk/sport/formula1/articles/c804w7nxr61zo?at_medium=RSS&at_campaign=rss",
+      "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+      "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies"
+    ],
+    "article": {
+      "id": "xe-robotaxi-zoox-chinh-thuc-xuat-hien-tren-ung-dung-uber-tai-las-vegas-ecf99119",
+      "title": "Xe robotaxi Zoox chính thức xuất hiện trên ứng dụng Uber tại Las Vegas",
+      "summary": "Zoox, công ty xe tự lái thuộc sở hữu của Amazon, đã chính thức đưa các dòng xe robotaxi vào hoạt động trên ứng dụng Uber tại Las Vegas, đánh dấu bước ngoặt trong chiến lược mở rộng dịch vụ xe tự hành.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+      "published_at": "2026-11-16T12:00:00+00:00",
+      "fetched_at": "2026-11-16T13:10:20.249781+00:00",
+      "appnho_published_at": "2026-11-16T13:19:04.924929+00:00",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các xe robotaxi của Zoox đã chính thức có mặt trên ứng dụng Uber tại Las Vegas, đánh dấu cột mốc quan trọng khi công ty xe tự hành thuộc sở hữu của Amazon lần đầu tiên hợp tác với một nền tảng gọi xe bên thứ ba. Sự kiện triển khai này không chỉ mở ra bước đi chiến lược mới cho Zoox mà còn củng cố mạng lưới dịch vụ giao thông tự lái của Uber tại Bắc Mỹ.",
+        "Đối với Zoox, việc tích hợp lên nền tảng Uber giúp hãng tiếp cận lượng lớn khách hàng tiềm năng, tạo đà bứt phá cần thiết khi đang cạnh tranh với các đối thủ đi đầu thị trường như Tesla và Waymo. Trong khi đó, bước đi này nằm trong kế hoạch rộng lớn hơn của Uber nhằm trở thành nhà cung cấp công nghệ xe tự hành hàng đầu tại nhiều khu vực trên thế giới.",
+        "Bên cạnh thị trường Las Vegas, mối quan hệ hợp tác này dự kiến sẽ còn mở rộng trong thời gian tới. Zoox có kế hoạch triển khai dịch vụ robotaxi thương mại tại Los Angeles trong năm nay và đưa các chuyến xe lên ứng dụng Uber vào năm 2027. Trước đó, Cơ quan Giao thông Nevada đã phê duyệt giấy phép cho phép Uber triển khai tới 1.000 xe robotaxi tại hạt Clark thông qua các đối tác gồm Motional và Zoox.",
+        "Tại Las Vegas, Uber và Zoox cũng công bố thỏa thuận hợp tác nhiều năm với MGM Resorts International để làm đối tác chia sẻ chuyến đi và xe robotaxi cho các khu nghỉ dưỡng thuộc tập đoàn này. Hai bên sẽ phối hợp cải thiện các điểm đón trả khách cũng như hệ thống biển báo nhằm hỗ trợ người dùng dễ dàng tìm kiếm xe tự lái tại các khu phức hợp rộng lớn.",
+        "Tuy nhiên, giai đoạn đầu của việc tích hợp trên ứng dụng Uber vẫn đi kèm một số giới hạn nhất định. Khách hàng chưa thể chủ động chọn riêng xe Zoox ngay lập tức. Thay vào đó, những người yêu cầu các dịch vụ như UberX, Uber Comfort, Uber Electric, Uber Comfort Electric hoặc Wait & Save có thể được ghép nối ngẫu nhiên với xe robotaxi của Zoox. Dù vậy, người dùng có thể tăng tỷ lệ trải nghiệm xe tự lái bằng cách chọn tùy chọn tự động trong phần cài đặt ứng dụng.",
+        "Lãnh đạo Uber cho biết công ty có kế hoạch giới thiệu một tùy chọn xe tự hành chuyên dụng trên ứng dụng khi mức độ sẵn sàng và độ tin cậy được nâng cao. Las Vegas hiện là thành phố đầu tiên tại Mỹ mà người dùng có thể tiếp cận hai đối tác xe hoàn toàn không người lái trên nền tảng Uber, qua đó phản ánh sự thay đổi trong cách tiếp cận của hãng với thị trường xe tự hành trước thềm các thỏa thuận độc quyền kết thúc trong tương lai."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Xe robotaxi Zoox có mặt trên Uber tại Las Vegas",
+      "meta_description": "Zoox chính thức triển khai dịch vụ xe robotaxi thông qua ứng dụng Uber tại thị trường Las Vegas, mở ra chiến lược hợp tác xe tự lái mới.",
+      "keywords": [
+        "Zoox",
+        "Uber",
+        "Las Vegas",
+        "xe robotaxi",
+        "xe tự lái"
+      ],
+      "slug": "xe-robotaxi-zoox-chinh-thuc-xuat-hien-tren-ung-dung-uber-tai-las-vegas-ecf99119",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 511,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+        "https://www.skysports.com/f1/news/12040/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+        "https://www.bbc.co.uk/sport/formula1/articles/c804w7nxr61zo?at_medium=RSS&at_campaign=rss",
+        "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+        "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies"
+      ],
+      "source_links": [
+        "https://www.skysports.com/f1/news/12040/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+        "https://www.bbc.co.uk/sport/formula1/articles/c804w7nxr61zo?at_medium=RSS&at_campaign=rss",
+        "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+        "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T12:00:00+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/f1/news/12040/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T09:50:00+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c804w7nxr61zo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T08:35:56+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T22:07:22+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-10T22:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Zoox robotaxis are officially available through the Uber app in Las Vegas, marking the Amazon-owned autonomous vehicle company’s first partnership with a third-party ride-hailing platform.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Zoox robotaxis are officially available through the Uber app in Las Vegas, marking the Amazon-owned autonomous vehicle company’s first partnership with a third-party ride-hailing platform.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "snippet": "Zoox robotaxis are officially available through the Uber app in Las Vegas, marking the Amazon-owned autonomous vehicle company’s first partnership with a third-party ride-hailing platform.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "page_sha256": "5b2843db28e00f4438df3540b6fbd9bcba3839a02e218d436f073bea2e128696",
+              "snippet_sha256": "11922e9782c53a05da88b0e9dc00ee445da36cdeca275832fef6279009869133",
+              "verified_at": "2026-11-16T13:10:20.249226+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "The Nevada Transportation Authority unanimously approved a permit that allowed Uber to deploy up to 1,000 robotaxis in Clark County through its partnerships with Motional and Zoox.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Earlier this year, the Nevada Transportation Authority unanimously approved a permit that allowed Uber todeploy up to 1,000 robotaxisin Clark County — home to Las Vegas — through its partnerships with Hyundai subsidiary Motional and Zoox.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "snippet": "Earlier this year, the Nevada Transportation Authority unanimously approved a permit that allowed Uber todeploy up to 1,000 robotaxisin Clark County — home to Las Vegas — through its partnerships with Hyundai subsidiary Motional and Zoox.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "page_sha256": "5b2843db28e00f4438df3540b6fbd9bcba3839a02e218d436f073bea2e128696",
+              "snippet_sha256": "80a81276040d68838ce744685b134626ef27cbada5883d9fd08dc298348ccfa6",
+              "verified_at": "2026-11-16T13:10:20.249226+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Customers won’t be able to select a Zoox robotaxi initially, but may be matched when requesting standard Uber rides, with options to adjust preferences in app settings.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Customers can increase their chances of getting a Zoox robotaxi by opting for autonomous rides through “ride preferences” in the Uber app’s settings.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "snippet": "Customers can increase their chances of getting a Zoox robotaxi by opting for autonomous rides through “ride preferences” in the Uber app’s settings.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "page_sha256": "5b2843db28e00f4438df3540b6fbd9bcba3839a02e218d436f073bea2e128696",
+              "snippet_sha256": "188d70de75cf0cd47ff14902be352ba8f9e3d909d61814c985a21a6780f00861",
+              "verified_at": "2026-11-16T13:10:20.249226+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích chi tiết thỏa thuận hợp tác chiến lược giữa Zoox và Uber tại thị trường Las Vegas. Nội dung làm rõ các giới hạn vận hành ban đầu, quy mô triển khai dự kiến cùng tác động đến bức tranh cạnh tranh xe tự lái.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T13:10:20.249885+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.000",
+        "2027"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T13:19:04.924929+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 511,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2354,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "engadget.com",
+            "skysports.com",
+            "techcrunch.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 20:19"
+    },
+    "published_at": "2026-11-16T13:19:04.924929+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "xtool-gia-nhap-thi-truong-viet-nam-bat-tay-chien-luoc-cung-viettel-comme-0032c6db",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T13:10:15.841818+00:00",
+    "expires_at": "2026-11-17T13:10:15.841818+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+      "https://dantri.com.vn/kinh-doanh/pinetree-tiep-tuc-vao-top-10-dich-vu-ban-le-tot-nhat-thi-truong-chung-khoan-20261113235619836.htm"
+    ],
+    "article": {
+      "id": "xtool-gia-nhap-thi-truong-viet-nam-bat-tay-chien-luoc-cung-viettel-comme-0032c6db",
+      "title": "xTool gia nhập thị trường Việt Nam, bắt tay chiến lược cùng Viettel Commerce",
+      "summary": "Doanh nghiệp công cụ sáng tạo cá nhân xTool chính thức công bố hợp tác chiến lược với Viettel Commerce nhằm mở rộng hoạt động tại thị trường Việt Nam.",
+      "category": "technology",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+      "published_at": "2026-11-16T08:46:00+00:00",
+      "fetched_at": "2026-11-16T13:10:25.365128+00:00",
+      "appnho_published_at": "2026-11-16T13:19:04.924929+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Doanh nghiệp chuyên về các công cụ sáng tạo cá nhân xTool vừa chính thức công bố thỏa thuận hợp tác chiến lược với Viettel Commerce, đơn vị thành viên trực thuộc Tập đoàn Viettel. Sự kiện này đánh dấu bước tiến quan trọng trong kế hoạch mở rộng hoạt động của thương hiệu này tại thị trường Việt Nam.",
+        "Theo thỏa thuận, sự hợp tác giữa hai bên tập trung triển khai ba lĩnh vực chính gồm bán lẻ và trải nghiệm trực tiếp thông qua các không gian trưng bày, pop-up, trình diễn sản phẩm tại chỗ; phát triển kênh thương mại điện tử trên các nền tảng Shopee, Lazada và Tiki; đồng thời ứng dụng trong kinh doanh với các mặt hàng tùy chỉnh, sản xuất lô nhỏ, cùng lĩnh vực giáo dục và đào tạo.",
+        "Về mặt phân công nhiệm vụ, xTool đảm nhận việc cung cấp danh mục sản phẩm, chuyên môn kỹ thuật, công tác tiếp thị và đào tạo. Trong khi đó, Viettel Commerce phát huy thế mạnh về năng lực phân phối, hệ thống logistics, sự thấu hiểu sâu sắc thị trường nội địa cùng mạng lưới khách hàng doanh nghiệp rộng khắp.",
+        "Đại diện các bên kỳ vọng sự kết hợp này sẽ tạo ra các giải pháp phù hợp cho người tiêu dùng, doanh nhân và cộng đồng doanh nghiệp trong nước. Qua đó, thỏa thuận không chỉ mở ra cơ hội kinh doanh mới cho các mô hình nhỏ dựa trên xu hướng sản phẩm cá nhân hóa mà còn hỗ trợ người dùng Việt Nam hiện thực hóa các ý tưởng sáng tạo."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "xTool hợp tác chiến lược với Viettel Commerce tại thị trường Việt Nam",
+      "meta_description": "xTool công bố hợp tác chiến lược với Viettel Commerce, đánh dấu bước tiến mới trong kế hoạch mở rộng hoạt động và phát triển sản phẩm cá nhân hóa tại Việt Nam.",
+      "keywords": [
+        "xTool",
+        "Viettel Commerce",
+        "thị trường Việt Nam",
+        "hợp tác chiến lược",
+        "máy khắc cắt laser"
+      ],
+      "slug": "xtool-gia-nhap-thi-truong-viet-nam-bat-tay-chien-luoc-cung-viettel-comme-0032c6db",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 275,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+        "https://dantri.com.vn/kinh-doanh/pinetree-tiep-tuc-vao-top-10-dich-vu-ban-le-tot-nhat-thi-truong-chung-khoan-20261113235619836.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/pinetree-tiep-tuc-vao-top-10-dich-vu-ban-le-tot-nhat-thi-truong-chung-khoan-20261113235619836.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T08:46:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/pinetree-tiep-tuc-vao-top-10-dich-vu-ban-le-tot-nhat-thi-truong-chung-khoan-20261113235619836.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T01:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "xTool công bố hợp tác chiến lược với Viettel Commerce, đơn vị thành viên Tập đoàn Viettel.",
+          "source_urls": [
+            "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thông tin dịch vụ16/11/2026 15:46 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!xTool, doanh nghiệp trong lĩnh vực công cụ sáng tạo cá nhân, ngày 6.11 công bố hợp tác chiến lược với Viettel Commerce, đơn vị thành viên Tập đoàn Viettel.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "snippet": "Thông tin dịch vụ16/11/2026 15:46 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!xTool, doanh nghiệp trong lĩnh vực công cụ sáng tạo cá nhân, ngày 6.11 công bố hợp tác chiến lược với Viettel Commerce, đơn vị thành viên Tập đoàn Viettel.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "page_sha256": "1083dc3678f32ebd61388ba22cfaf677e9d78d886d1cc3f8fac7110c844a5c30",
+              "snippet_sha256": "cfb15397f3ceaebbe2eb99be173a0ca71eabff5fd4a5d24811847f4c6126a648",
+              "verified_at": "2026-11-16T13:10:25.364702+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hợp tác tập trung vào ba lĩnh vực gồm bán lẻ và trải nghiệm trực tiếp, thương mại điện tử trên Shopee, Lazada, Tiki, và ứng dụng trong kinh doanh, giáo dục.",
+          "source_urls": [
+            "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thứ ba là ứng dụng trong kinh doanh, gồm hàng hóa tùy chỉnh, sản phẩm gắn thương hiệu, sản xuất lô nhỏ, giáo dục và đào tạo.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "snippet": "Thứ ba là ứng dụng trong kinh doanh, gồm hàng hóa tùy chỉnh, sản phẩm gắn thương hiệu, sản xuất lô nhỏ, giáo dục và đào tạo.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "page_sha256": "1083dc3678f32ebd61388ba22cfaf677e9d78d886d1cc3f8fac7110c844a5c30",
+              "snippet_sha256": "87d3a420cd06384248e56bf8bc2c9d87895e4af57e47763a3a5ce7111ceab3cc",
+              "verified_at": "2026-11-16T13:10:25.364702+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "xTool đóng góp danh mục sản phẩm, kỹ thuật và tiếp thị, trong khi Viettel Commerce phát huy năng lực phân phối, logistics và mạng lưới khách hàng doanh nghiệp.",
+          "source_urls": [
+            "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Viettel Commerce phát huy năng lực phân phối, logistics, hiểu biết thị trường và mạng lưới khách hàng doanh nghiệp.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "snippet": "Viettel Commerce phát huy năng lực phân phối, logistics, hiểu biết thị trường và mạng lưới khách hàng doanh nghiệp.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "page_sha256": "1083dc3678f32ebd61388ba22cfaf677e9d78d886d1cc3f8fac7110c844a5c30",
+              "snippet_sha256": "f9c65798ce2d36404283a42f0a5b15ea018de4fad619f13b5cbe415026312a23",
+              "verified_at": "2026-11-16T13:10:25.364702+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mô hình phân công vai trò cụ thể giữa xTool và Viettel Commerce trong chiến lược thâm nhập thị trường Việt Nam. Đồng thời, nội dung chỉ ra ba trụ cột hợp tác trọng tâm gồm bán lẻ trực tiếp, thương mại điện tử và ứng dụng kinh doanh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T13:10:25.365198+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T13:19:04.924929+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 275,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1314,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/xtool-chinh-thuc-gia-nhap-thi-truong-viet-nam-hop-tac-chien-luoc-voi-viettel-commerce-185261116155214202.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 20:19"
+    },
+    "published_at": "2026-11-16T13:19:04.924929+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "t-u-5-chuan-bi-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-va-bao-hie-88bed858",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-16T13:10:15.841818+00:00",
+    "expires_at": "2026-11-17T13:10:15.841818+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+      "https://dantri.com.vn/giao-duc/hat-boi-cai-luong-roi-nha-hat-cham-toi-trai-tim-hoc-sinh-tphcm-20261116154218106.htm"
+    ],
+    "article": {
+      "id": "t-u-5-chuan-bi-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-va-bao-hie-88bed858",
+      "title": "T.Ư 5 chuẩn bị ban hành nghị quyết mới về cải cách tiền lương và bảo hiểm xã hội",
+      "summary": "Tại hội nghị đối thoại chính sách ngày 16.11, Phó thủ tướng Phạm Thị Thanh Trà cho biết T.Ư 5 sắp tới sẽ ban hành nghị quyết mới về cải cách chính sách tiền lương và bảo hiểm xã hội, làm nền tảng để sửa đổi toàn diện luật BHXH.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+      "published_at": "2026-11-16T09:33:00+00:00",
+      "fetched_at": "2026-11-16T13:10:40.231283+00:00",
+      "appnho_published_at": "2026-11-16T13:19:04.924929+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tới đây, Ban Chấp hành Trung ương (T.Ư 5) sẽ ban hành nghị quyết mới về cải cách chính sách tiền lương và bảo hiểm xã hội (BHXH). Thông tin này được Phó thủ tướng Phạm Thị Thanh Trà cho biết tại hội nghị đối thoại chính sách phát triển hệ sinh thái kinh tế bạc diễn ra vào sáng 16.11.",
+        "Trên cơ sở nghị quyết mới của T.Ư, luật BHXH sẽ được sửa đổi một cách toàn diện, trong đó bao gồm cả các nội dung liên quan đến bảo hiểm y tế hỗ trợ. Phó thủ tướng cho biết Chính phủ sẽ tiếp tục rà soát, hoàn thiện hệ thống pháp luật và các chính sách liên quan đến người cao tuổi, BHXH cùng thị trường lao động để thích ứng với tốc độ già hóa dân số.",
+        "Bên cạnh đó, Bộ Nội vụ được giao phối hợp với Ban Chính sách, chiến lược T.Ư để nghiên cứu, hoàn thiện đề án và tham mưu việc sửa đổi luật BHXH. Cùng với định hướng cải cách tiền lương, các cơ quan chức năng cũng được phân công nghiên cứu sửa đổi bộ luật Lao động nhằm phát huy nguồn nhân lực cao tuổi phù hợp với điều kiện thực tế."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "T.Ư 5 ban hành nghị quyết mới về cải cách tiền lương và BHXH",
+      "meta_description": "Thông tin mới nhất về việc T.Ư 5 chuẩn bị ban hành nghị quyết mới về cải cách tiền lương và BHXH, làm cơ sở sửa đổi toàn diện luật liên quan.",
+      "keywords": [
+        "cải cách tiền lương",
+        "bảo hiểm xã hội",
+        "Phạm Thị Thanh Trà",
+        "chính sách tiền lương"
+      ],
+      "slug": "t-u-5-chuan-bi-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-va-bao-hie-88bed858",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 212,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+        "https://dantri.com.vn/giao-duc/hat-boi-cai-luong-roi-nha-hat-cham-toi-trai-tim-hoc-sinh-tphcm-20261116154218106.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/giao-duc/hat-boi-cai-luong-roi-nha-hat-cham-toi-trai-tim-hoc-sinh-tphcm-20261116154218106.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T09:33:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/giao-duc/hat-boi-cai-luong-roi-nha-hat-cham-toi-trai-tim-hoc-sinh-tphcm-20261116154218106.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T08:48:13+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "T.Ư 5 sắp tới sẽ ban hành nghị quyết mới về cải cách chính sách tiền lương và bảo hiểm xã hội.",
+          "source_urls": [
+            "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tới đây, T.Ư 5 sẽ ban hành nghị quyết mới về cải cách chính sách tiền lương và bảo hiểm xã hội (BHXH).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "snippet": "Tới đây, T.Ư 5 sẽ ban hành nghị quyết mới về cải cách chính sách tiền lương và bảo hiểm xã hội (BHXH).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "page_sha256": "93dacf9df50f2c0abb8bf8ff0315a0ba00db1d609a997054b2be8c74e789cf6f",
+              "snippet_sha256": "75edabb03d1b765e8761bd75a01261672b8d0a403b219fc7576e5e6f7464825d",
+              "verified_at": "2026-11-16T13:10:40.230862+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thông tin về cải cách tiền lương được Phó thủ tướng Phạm Thị Thanh Trà công bố tại hội nghị đối thoại chính sách ngày 16.11.",
+          "source_urls": [
+            "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thông tin về cải cáchtiền lươngtrên được Phó thủ tướng Phạm Thị Thanh Trà, Chủ tịch Ủy ban Quốc gia về người cao tuổi Việt Nam cho biết tại hội nghị đối thoại chính sách phát triển hệ sinh thái kinh tế bạc do Ban Chính sách, chiến lược T.Ư, Học viện Chính trị quốc gia Hồ Chí Minh, Văn phòng Chính phủ, Hội đồng Lý luận T.Ư, Tạp chíCộng sản, Ủy ban Kinh tế tài chính của Quốc hội và Hội Người cao tuổi Việt Nam, tổ chức sáng 16.11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "snippet": "Thông tin về cải cáchtiền lươngtrên được Phó thủ tướng Phạm Thị Thanh Trà, Chủ tịch Ủy ban Quốc gia về người cao tuổi Việt Nam cho biết tại hội nghị đối thoại chính sách phát triển hệ sinh thái kinh tế bạc do Ban Chính sách, chiến lược T.Ư, Học viện Chính trị quốc gia Hồ Chí Minh, Văn phòng Chính phủ, Hội đồng Lý luận T.Ư, Tạp chíCộng sản, Ủy ban Kinh tế tài chính của Quốc hội và Hội Người cao tuổi Việt Nam, tổ chức sáng 16.11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "page_sha256": "93dacf9df50f2c0abb8bf8ff0315a0ba00db1d609a997054b2be8c74e789cf6f",
+              "snippet_sha256": "665f61479ad8c3aec22f158731088c674434f0adb8dd436d5155009df88fa501",
+              "verified_at": "2026-11-16T13:10:40.230862+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trên cơ sở nghị quyết mới, luật BHXH sẽ được sửa đổi toàn diện, bao gồm nội dung về bảo hiểm y tế hỗ trợ.",
+          "source_urls": [
+            "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trên cơ sở nghị quyết này, luật BHXH sẽ được sửa đổi một cách toàn diện, trong đó có nội dung liên quan đến bảo hiểm y tế hỗ trợ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "snippet": "Trên cơ sở nghị quyết này, luật BHXH sẽ được sửa đổi một cách toàn diện, trong đó có nội dung liên quan đến bảo hiểm y tế hỗ trợ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "page_sha256": "93dacf9df50f2c0abb8bf8ff0315a0ba00db1d609a997054b2be8c74e789cf6f",
+              "snippet_sha256": "9706cbb48e17addc57d76ed7de74a4ed2d145e2ba9a28e0e63ea19d4e35f220f",
+              "verified_at": "2026-11-16T13:10:40.230862+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lộ trình hoạch định chính sách tiền lương và an sinh xã hội cấp quốc gia. Thông tin cung cấp cái nhìn đồng bộ về việc sửa đổi luật BHXH dựa trên nghị quyết sắp tới của T.Ư 5.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-16T13:10:40.231340+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "16.11",
+        "5"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-16T13:19:04.924929+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 212,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 967,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/tu-5-se-ban-hanh-nghi-quyet-moi-ve-cai-cach-tien-luong-bhxh-185261116152727416.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-16 20:19"
+    },
+    "published_at": "2026-11-16T13:19:04.924929+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
