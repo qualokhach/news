@@ -685,5 +685,85 @@
         "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-18 01:46",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-17T18:46:47.760773+00:00",
+    "prepared_candidates": 17,
+    "published_count": 3,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "nhan-inh-thi-truong-cau-thu-tu-do-mlb-nhung-thuong-vu-ang-au-tu-va-can-c-4eca1921",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "my-chinh-thuc-mat-trang-thai-mien-dich-soi-sau-26-nam-65474e82",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "thuong-nghi-si-my-chi-trich-bo-truong-thuong-mai-ve-van-e-chip-ai-cua-nv-6541b67c",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "bong-ban-trung-quoc-trai-qua-chuoi-cu-soc-lien-tiep-trong-mot-thang-b8604c31",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "tuyen-y-tro-lai-mat-at-voi-tran-thua-am-truoc-bi-e5b58b7b",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "toa-an-jordan-tuyen-an-tu-hinh-ba-ke-khung-bo-vu-xa-sung-nha-tho-cccafff9",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "arsene-wenger-quyet-inh-khong-tranh-cu-ghe-chu-tich-fifa-63cb949e",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "hannah-hidalgo-lap-cot-moc-lich-su-voi-pha-cuop-bong-thu-500-b8f6d03b",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      },
+      {
+        "id": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      }
+    ]
   }
 ]

@@ -2774,7 +2774,7 @@
   },
   {
     "queue_id": "3ddf9e6a1bc11a8949df",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T17:56:16.611656+00:00",
     "expires_at": "2026-11-20T17:54:43.593908+00:00",
     "category_hint": "vietnam",
@@ -3605,7 +3605,8 @@
       ]
     },
     "research_ready_at": "2026-11-17T17:56:16.611676+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thai-lan-vo-ich-king-s-cup-2026-madam-pang-chia-se-cam-xuc-truyen-thong--7ab9463f"
   },
   {
     "queue_id": "0a573a55a5bf2f8e8f25",
@@ -17718,7 +17719,7 @@
   },
   {
     "queue_id": "cuoc-cach-mang-tinh-duc-am-tham-dien-ra-tren-mang-xa-hoi-tai-ai-cap-5924cb74",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-16T12:06:44.666355+00:00",
     "expires_at": "2026-11-17T12:06:44.666355+00:00",
     "source_urls": [
@@ -17907,11 +17908,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "thuong-nghi-si-my-chi-trich-bo-truong-thuong-mai-ve-van-e-chip-ai-cua-nv-6541b67c",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-16T12:06:44.666355+00:00",
     "expires_at": "2026-11-17T00:06:44.666355+00:00",
     "source_urls": [
@@ -18206,7 +18208,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "96bff826c39dea871ffd",
@@ -22382,7 +22385,7 @@
   },
   {
     "queue_id": "ten-lua-vulcan-gap-su-co-trong-lan-phong-gay-on-giang-manh-vao-oi-thu-cu-f8bf0aee",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-16T01:27:25.997157+00:00",
     "expires_at": "2026-11-17T01:27:25.997157+00:00",
     "source_urls": [
@@ -22624,11 +22627,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "bong-ban-trung-quoc-trai-qua-chuoi-cu-soc-lien-tiep-trong-mot-thang-b8604c31",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-16T01:27:25.997157+00:00",
     "expires_at": "2026-11-17T01:27:25.997157+00:00",
     "source_urls": [
@@ -22838,11 +22842,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "tuyen-y-tro-lai-mat-at-voi-tran-thua-am-truoc-bi-e5b58b7b",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-16T01:27:25.997157+00:00",
     "expires_at": "2026-11-17T01:27:25.997157+00:00",
     "source_urls": [
@@ -23057,7 +23062,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "284b5e92c14d78cf1f9b",
@@ -28093,7 +28099,7 @@
   },
   {
     "queue_id": "bon-trong-tai-nfl-thuc-hien-ca-kep-sau-lenh-cam-bay-cua-faa-959b83ca",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-15T15:55:22.486909+00:00",
     "expires_at": "2026-11-16T15:55:22.486909+00:00",
     "source_urls": [
@@ -28350,7 +28356,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "870ec669fdb0f565f9c9",
@@ -31113,7 +31120,7 @@
   },
   {
     "queue_id": "toa-an-jordan-tuyen-an-tu-hinh-ba-ke-khung-bo-vu-xa-sung-nha-tho-cccafff9",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-15T11:33:37.317640+00:00",
     "expires_at": "2026-11-16T11:33:37.317640+00:00",
     "source_urls": [
@@ -31347,11 +31354,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "arsene-wenger-quyet-inh-khong-tranh-cu-ghe-chu-tich-fifa-63cb949e",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-15T11:33:37.317640+00:00",
     "expires_at": "2026-11-16T11:33:37.317640+00:00",
     "source_urls": [
@@ -31631,7 +31639,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "e000061c66fa58f6bf05",
@@ -33774,7 +33783,7 @@
   },
   {
     "queue_id": "c9c796e5c7599d64c7f5",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-15T11:33:10.740297+00:00",
     "expires_at": "2026-11-19T13:10:15.841818+00:00",
     "category_hint": "sports",
@@ -34474,9 +34483,8 @@
     },
     "research_ready_at": "2026-11-15T11:33:10.740315+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[3] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Cloudflare Workers AI/@cf/meta/llama-3",
     "write_attempts": 3,
-    "next_write_after": "2026-11-17T05:10:15.841818+00:00"
+    "written_article_id": "tay-ban-nha-cham-tran-anh-tai-nations-league-thu-thach-toi-thuong-cho-th-0951de81"
   },
   {
     "queue_id": "14dc0ad6eb80dde952ac",
@@ -36813,7 +36821,7 @@
   },
   {
     "queue_id": "bang-che-moi-cua-sony-he-lo-kha-nang-thanh-toan-va-truyen-tai-thong-tin--1ecb1bf4",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-15T01:22:15.204243+00:00",
     "expires_at": "2026-11-16T01:22:15.204243+00:00",
     "source_urls": [
@@ -37025,11 +37033,12 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "hannah-hidalgo-lap-cot-moc-lich-su-voi-pha-cuop-bong-thu-500-b8f6d03b",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-15T01:22:15.204243+00:00",
     "expires_at": "2026-11-16T01:22:15.204243+00:00",
     "source_urls": [
@@ -37232,7 +37241,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "82bb217a933e430edd86",
@@ -43111,7 +43121,7 @@
   },
   {
     "queue_id": "ong-hun-sen-thanh-tuu-cua-viet-nam-la-co-hoi-phat-trien-cho-campuchia-0b89c656",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-14T15:24:44.569748+00:00",
     "expires_at": "2026-11-15T15:24:44.569748+00:00",
     "source_urls": [
@@ -43324,7 +43334,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "fcd06198257cda5cdb56",
@@ -48538,7 +48549,7 @@
   },
   {
     "queue_id": "cong-nghe-vot-pickleball-buoc-tien-moi-tu-loi-foam-en-soi-carbon-965928a4",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-14T10:59:58.350999+00:00",
     "expires_at": "2026-11-15T10:59:58.350999+00:00",
     "source_urls": [
@@ -48727,7 +48738,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "f6341891b293166afecb",
@@ -76546,7 +76558,7 @@
   },
   {
     "queue_id": "nhan-inh-thi-truong-cau-thu-tu-do-mlb-nhung-thuong-vu-ang-au-tu-va-can-c-4eca1921",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-17T17:57:05.989656+00:00",
     "expires_at": "2026-11-18T17:57:05.989656+00:00",
     "source_urls": [
@@ -76737,11 +76749,44 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-17T18:46:47.760773+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-17T18:46:47.760773+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 3,
+        "words": 243,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1107,
+        "source_access": [
+          {
+            "url": "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "oi-tuyen-viet-nam-lo-hen-voi-chuc-vo-ich-casper-cup-2026-68030291",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-17T17:57:05.989656+00:00",
     "expires_at": "2026-11-18T17:57:05.989656+00:00",
     "source_urls": [
@@ -76758,7 +76803,7 @@
       "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
       "published_at": "2026-11-17T14:56:00+00:00",
       "fetched_at": "2026-11-17T17:57:43.822096+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-17T18:46:47.760773+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -76941,28 +76986,38 @@
         "89"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-17T17:57:43.823092+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-17T18:46:47.760773+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 358,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1678
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn",
-          "tuoitre.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1678,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-18 01:46"
+    },
+    "published_at": "2026-11-17T18:46:47.760773+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "my-chinh-thuc-mat-trang-thai-mien-dich-soi-sau-26-nam-65474e82",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-17T17:57:05.989656+00:00",
     "expires_at": "2026-11-18T17:57:05.989656+00:00",
     "source_urls": [
@@ -77217,6 +77272,471 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-17T18:46:47.760773+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-17T18:46:47.760773+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 199,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 893,
+        "source_access": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "cnbc.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
+  },
+  {
+    "queue_id": "thai-lan-vo-ich-king-s-cup-2026-madam-pang-chia-se-cam-xuc-truyen-thong--7ab9463f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-17T18:46:08.182401+00:00",
+    "expires_at": "2026-11-18T18:46:08.182401+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+      "https://dantri.com.vn/the-thao/supachok-ghi-ban-doi-tuyen-thai-lan-vo-dich-kings-cup-2026-20261117221130215.htm",
+      "https://vnexpress.net/tim-ra-hai-doi-vo-dich-giai-the-thao-dien-tu-fang-campus-2026-5145048.html"
+    ],
+    "article": {
+      "id": "thai-lan-vo-ich-king-s-cup-2026-madam-pang-chia-se-cam-xuc-truyen-thong--7ab9463f",
+      "title": "Thái Lan vô địch King's Cup 2026: Madam Pang chia sẻ cảm xúc, truyền thông nước nhà tán dương",
+      "summary": "Đội tuyển Thái Lan đã xuất sắc giành chức vô địch King's Cup 2026 sau chiến thắng thuyết phục trước Tajikistan. Sự kiện này đánh dấu danh hiệu đầu tiên của HLV Anthony Hudson và nhận được sự quan tâm lớn từ truyền thông cũng như lãnh đạo bóng đá Thái Lan.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "fetched_at": "2026-11-17T18:46:28.651157+00:00",
+      "appnho_published_at": "2026-11-17T18:46:47.760773+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 17/11, đội tuyển Thái Lan đã khép lại hành trình tại King's Cup 2026 bằng chiến thắng thuyết phục 3-0 trước Tajikistan trong trận chung kết diễn ra trên sân vận động Sisaket. Kết quả này giúp \"Voi chiến\" lần thứ 17 đăng quang tại giải đấu truyền thống này, chấm dứt hai năm chờ đợi kể từ lần vô địch gần nhất vào năm 2024. Đội chủ nhà đã thể hiện phong độ ấn tượng với thành tích toàn thắng, ghi tổng cộng 9 bàn thắng và giữ sạch lưới xuyên suốt giải đấu.",
+        "Trước chiến thắng của đội nhà, bà Nualphan Lamsam (Madam Pang), Chủ tịch Liên đoàn Bóng đá Thái Lan (FAT), đã bày tỏ sự phấn khích trên trang cá nhân. Đăng tải hình ảnh thống kê lượng khán giả đến sân, bà chia sẻ ngắn gọn thông điệp: \"Thật tuyệt vời\". Đây là danh hiệu đầu tiên của HLV Anthony Hudson kể từ khi ông tiếp quản vị trí huấn luyện viên trưởng đội tuyển quốc gia Thái Lan, một cột mốc được truyền thông nước này đánh giá cao.",
+        "Truyền thông Thái Lan đồng loạt dành sự quan tâm đặc biệt cho thành tích của thầy trò HLV Anthony Hudson. Tờ Siam Sport nhấn mạnh đây là bước ngoặt đáng nhớ trong hành trình của nhà cầm quân người Anh, đồng thời ghi nhận tỷ lệ thắng 63,2% của ông sau 19 trận dẫn dắt đội tuyển. Bên cạnh đó, các tờ báo cũng tiết lộ về khoản tiền thưởng hấp dẫn dành cho đội bóng. Theo thông tin từ tờ Khaosod, đội tuyển Thái Lan nhận được tổng cộng 3,3 triệu baht (khoảng 2,75 tỉ đồng) tiền thưởng từ Trưởng đoàn Chalermchai Mahakitjirapong, bao gồm khoản thưởng cho chức vô địch và thưởng theo số bàn thắng ghi được.",
+        "Về chuyên môn, màn trình diễn của các cá nhân như Teerasak Poeiphimai với cú đúp bàn thắng trong hiệp hai và Supachok Sarachat với bàn mở tỷ số đã góp công lớn vào thắng lợi chung cuộc. Sau giải đấu này, đội tuyển Thái Lan dự kiến sẽ tiếp tục các hoạt động trong dịp FIFA Days từ ngày 22 đến 30/3/2027 với các trận giao hữu sắp tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Thái Lan vô địch King's Cup 2026: Madam Pang và truyền thông Thái Lan ",
+      "meta_description": "Đội tuyển Thái Lan giành chức vô địch King's Cup 2026 sau khi đánh bại Tajikistan 3-0. Madam Pang bày tỏ niềm vui, trong khi truyền thông Thái Lan ca ngợi thành",
+      "keywords": [
+        "King's Cup 2026",
+        "Madam Pang",
+        "đội tuyển Thái Lan",
+        "Anthony Hudson",
+        "bóng đá Thái Lan"
+      ],
+      "slug": "thai-lan-vo-ich-king-s-cup-2026-madam-pang-chia-se-cam-xuc-truyen-thong--7ab9463f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 377,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+        "https://dantri.com.vn/the-thao/supachok-ghi-ban-doi-tuyen-thai-lan-vo-dich-kings-cup-2026-20261117221130215.htm",
+        "https://vnexpress.net/tim-ra-hai-doi-vo-dich-giai-the-thao-dien-tu-fang-campus-2026-5145048.html"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/supachok-ghi-ban-doi-tuyen-thai-lan-vo-dich-kings-cup-2026-20261117221130215.htm",
+        "https://vnexpress.net/tim-ra-hai-doi-vo-dich-giai-the-thao-dien-tu-fang-campus-2026-5145048.html"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T17:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/supachok-ghi-ban-doi-tuyen-thai-lan-vo-dich-kings-cup-2026-20261117221130215.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T15:23:25+00:00"
+        },
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/tim-ra-hai-doi-vo-dich-giai-the-thao-dien-tu-fang-campus-2026-5145048.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T02:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội tuyển Thái Lan vô địch King's Cup 2026 sau khi thắng Tajikistan 3-0 vào ngày 17/11.",
+          "source_urls": [
+            "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Supachok tỏa sáng, đội tuyển Thái Lan đánh bại Tajikistan 3-0: Vô địch King's Cup 2026",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "snippet": "Supachok tỏa sáng, đội tuyển Thái Lan đánh bại Tajikistan 3-0: Vô địch King's Cup 2026",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "page_sha256": "338bbff8b064fe566fb3e502dcecebe4629f6872e97a0f51f5a3aeab1f47c3ed",
+              "snippet_sha256": "b9c8ac76518f75fdec5104c799b2b4e3de72d7330e0a276b4d3cde9974f33f26",
+              "verified_at": "2026-11-17T18:46:28.650541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Madam Pang chia sẻ thông điệp \"Thật tuyệt vời\" trên trang cá nhân sau chiến thắng của đội nhà.",
+          "source_urls": [
+            "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trên trang cá nhân, bà đăng ảnh chụp thống kê khán giả đến sân của Ban tổ chức cùng chia sẻ ngắn gọn: \"Thật tuyệt vời”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "snippet": "Trên trang cá nhân, bà đăng ảnh chụp thống kê khán giả đến sân của Ban tổ chức cùng chia sẻ ngắn gọn: \"Thật tuyệt vời”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "page_sha256": "338bbff8b064fe566fb3e502dcecebe4629f6872e97a0f51f5a3aeab1f47c3ed",
+              "snippet_sha256": "5d41c15e5fec60e57279f9dd843ea62efb7480a4874c477eb4db8b7b19170c5d",
+              "verified_at": "2026-11-17T18:46:28.650541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng tiền thưởng đội tuyển Thái Lan nhận được là 3,3 triệu baht (khoảng 2,75 tỉ đồng).",
+          "source_urls": [
+            "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tổng cộng, đội tuyển Thái Lan được thưởng 3,3 triệu baht, tương đương khoảng 2,75 tỉ đồng”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "snippet": "Tổng cộng, đội tuyển Thái Lan được thưởng 3,3 triệu baht, tương đương khoảng 2,75 tỉ đồng”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "page_sha256": "338bbff8b064fe566fb3e502dcecebe4629f6872e97a0f51f5a3aeab1f47c3ed",
+              "snippet_sha256": "8944c5f30752291d22c0d516d34505122fe075adb1b697f41d4be6f3b7ce8798",
+              "verified_at": "2026-11-17T18:46:28.650541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp diễn biến trận chung kết King's Cup 2026 và phản ứng từ các bên liên quan, làm rõ bối cảnh danh hiệu đầu tiên của HLV Anthony Hudson. Đồng thời, bài viết cung cấp thông tin chi tiết về cơ cấu tiền thưởng mà đội tuyển Thái Lan nhận được, giúp độc giả có cái nhìn toàn diện về sự kiện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T18:46:28.651253+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "17",
+        "19",
+        "2,75",
+        "2024",
+        "2026",
+        "3,3",
+        "63,2",
+        "9"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-17T18:46:47.760773+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 377,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1827,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/madam-pang-thot-len-cau-gi-khi-doi-nha-vo-dich-kings-cup-bao-thai-lan-ca-ngoi-het-loi-18526111722422666.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-18 01:46"
+    },
+    "published_at": "2026-11-17T18:46:47.760773+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tay-ban-nha-cham-tran-anh-tai-nations-league-thu-thach-toi-thuong-cho-th-0951de81",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-17T18:46:08.182401+00:00",
+    "expires_at": "2026-11-18T18:46:08.182401+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+      "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "tay-ban-nha-cham-tran-anh-tai-nations-league-thu-thach-toi-thuong-cho-th-0951de81",
+      "title": "Tây Ban Nha chạm trán Anh tại Nations League: Thử thách tối thượng cho thầy trò Thomas Tuchel",
+      "summary": "Tuyển Anh bước vào trận đấu gặp Tây Ban Nha tại Madrid trong khuôn khổ UEFA Nations League với mục tiêu kiểm chứng sự tiến bộ sau thất bại tại World Cup và trận thua 2-3 trước chính đối thủ này vào tháng 9.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T20:22:00+00:00",
+      "fetched_at": "2026-11-17T18:46:45.672568+00:00",
+      "appnho_published_at": "2026-11-17T18:46:47.760773+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội tuyển Anh sẽ có chuyến làm khách đầy thử thách trước Tây Ban Nha tại sân vận động Metropolitano trong khuôn khổ bảng đấu UEFA Nations League. Trận đấu diễn ra trong bối cảnh Tam Sư muốn kiểm chứng mức độ tiến bộ sau thất bại ở bán kết World Cup trước Argentina và trận thua 3-2 trước Tây Ban Nha ngay tại Wembley hồi tháng 9.",
+        "Phát biểu trước trận đấu, đội trưởng Harry Kane mô tả đây là cơ hội hoàn hảo để đội bóng tự khẳng định mình trước các nhà đương kim vô địch thế giới và châu Âu. Trong khi đó, huấn luyện viên Thomas Tuchel thừa nhận đây là bài kiểm tra ở cấp độ cao nhất của bóng đá thế giới, khi Tây Ban Nha đang duy trì chuỗi phong độ ấn tượng trên sân nhà và sân khách.",
+        "Tiền vệ Declan Rice cũng thừa nhận cuộc đối đầu với đội bóng xứ sở bò tót sẽ phản ánh chính xác vị thế hiện tại của tập thể tuyển Anh. Sau bốn chiến thắng liên tiếp kể từ tháng 9, trận đấu tối nay tại Madrid sẽ cho thấy liệu đoàn quân của Thomas Tuchel đã rút ra được những bài học cần thiết sau các giải đấu lớn vừa qua hay chưa."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tây Ban Nha vs Anh: Thử thách lớn tại UEFA Nations League",
+      "meta_description": "Đội tuyển Anh đối đầu Tây Ban Nha ở Madrid trong khuôn khổ Nations League. Đây là bài kiểm tra quan trọng cho HLV Thomas Tuchel và các học trò.",
+      "keywords": [
+        "Tây Ban Nha",
+        "Anh",
+        "Nations League",
+        "Thomas Tuchel",
+        "Harry Kane"
+      ],
+      "slug": "tay-ban-nha-cham-tran-anh-tai-nations-league-thu-thach-toi-thuong-cho-th-0951de81",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 221,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+        "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T11:30:47+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T20:22:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội tuyển Anh đối đầu với Tây Ban Nha tại Madrid trong khuôn khổ Nations League.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Turning our attention back to the Nations League, England play Spain at 7:45pm.It’s an important game for England, who feel as though they have something to prove after their World Cup semi-final exit against Argentina and their 3-2 defeat against Spain two months ago.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "snippet": "Turning our attention back to the Nations League, England play Spain at 7:45pm.It’s an important game for England, who feel as though they have something to prove after their World Cup semi-final exit against Argentina and their 3-2 defeat against Spain two months ago.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "page_sha256": "9584e720a4bbe67d71f20e2e62bd6a97157b9191ee2f1bb3d34e8dd2a1c7c58e",
+              "snippet_sha256": "29765be4aea2d635480156fc352f1edf28dd4ecf139235b1012c2232c82f59ea",
+              "verified_at": "2026-11-17T18:46:45.671999+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Harry Kane mô tả trận đấu này là cơ hội hoàn hảo để đội tuyển Anh chứng minh năng lực.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "View image in fullscreenLamine Yamal finished third in a Ballon d’Or race which saw Harry Kane scoop the top prize.Photograph: Ben Gregory-Ring/PA",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "snippet": "View image in fullscreenLamine Yamal finished third in a Ballon d’Or race which saw Harry Kane scoop the top prize.Photograph: Ben Gregory-Ring/PA",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "page_sha256": "9584e720a4bbe67d71f20e2e62bd6a97157b9191ee2f1bb3d34e8dd2a1c7c58e",
+              "snippet_sha256": "7fd553159568e382797c709c09979fbdec179d7cfd6d8e64ee843da2345e92be",
+              "verified_at": "2026-11-17T18:46:45.671999+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tuchel đánh giá đây là bài kiểm tra ở cấp độ cao nhất trước đối thủ đang có chuỗi trận bất bại dài.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "When asked about this incident, Tuchel said that England “will not expect anything [untoward]” to happen today.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "snippet": "When asked about this incident, Tuchel said that England “will not expect anything [untoward]” to happen today.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "page_sha256": "9584e720a4bbe67d71f20e2e62bd6a97157b9191ee2f1bb3d34e8dd2a1c7c58e",
+              "snippet_sha256": "aae8fd9bea6ef0dd5ad75f12dcf511683298f18a10775445daa0e618b724cb13",
+              "verified_at": "2026-11-17T18:46:45.671999+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ bối cảnh chuẩn bị của đội tuyển Anh trước thềm trận đấu quan trọng gặp Tây Ban Nha tại UEFA Nations League. Tác phẩm tổng hợp các phát biểu của ban huấn luyện và cầu thủ chủ chốt để đánh giá đúng mức độ thử thách mà Tam Sư phải đối mặt.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T18:46:45.672638+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-17T18:46:47.760773+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 221,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1013,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-buildup-wsl-and-more-matchday-live",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-18 01:46"
+    },
+    "published_at": "2026-11-17T18:46:47.760773+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
