@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "0a573a55a5bf2f8e8f25",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:46.108131+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "technology",
@@ -565,11 +565,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:46.108148+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b"
   },
   {
     "queue_id": "30faeedfd6573c0d5189",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:45.573278+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "world",
@@ -1178,11 +1179,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:45.573304+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400"
   },
   {
     "queue_id": "158f008fb02f85efbba4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:44.184208+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "world",
@@ -2022,7 +2024,8 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:44.184225+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09"
   },
   {
     "queue_id": "57f5e51ac8dc378c3763",
@@ -79506,5 +79509,658 @@
     },
     "published_at": "2026-11-12T17:47:56.715234+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+    "status": "READY",
+    "prepared_at": "2026-11-17T12:32:04.020280+00:00",
+    "expires_at": "2026-11-18T12:32:04.020280+00:00",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+      "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years"
+    ],
+    "article": {
+      "id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+      "title": "Phát hiện tín hiệu lạ trong ánh sáng cổ xưa của vũ trụ: Manh mối về vật lý mới?",
+      "summary": "Các nhà khoa học tại UC San Diego vừa phát triển phương pháp mới nhằm xác định liệu sự xoay chuyển bí ẩn trong bức xạ nền vi sóng vũ trụ là hiện tượng vật lý thực sự hay chỉ là sai số từ kính thiên văn.",
+      "category": "technology",
+      "source_name": "ScienceDaily - All",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+      "published_at": "2026-11-17T12:14:04+00:00",
+      "fetched_at": "2026-11-17T12:32:20.664016+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các nhà vật lý tại Đại học California San Diego (UC San Diego) vừa công bố một kỹ thuật mới nhằm giải mã hiện tượng xoay chuyển bí ẩn trong ánh sáng cổ xưa nhất của vũ trụ. Đây là bước tiến quan trọng trong việc tìm hiểu bức xạ nền vi sóng vũ trụ (CMB) – tàn dư bức xạ từ khoảng 380.000 năm sau vụ nổ Big Bang, cung cấp cái nhìn về trạng thái sơ khai của vũ trụ cách đây gần 13,8 tỷ năm.",
+        "Hiện tượng được gọi là 'lưỡng chiết vũ trụ' (cosmic birefringence) cho thấy sự phân cực của ánh sáng cổ xưa có thể đã thay đổi nhẹ trong hành trình xuyên không gian. Nếu được xác nhận, đây có thể là bằng chứng về các quá trình vật lý nằm ngoài Mô hình Chuẩn, đồng thời mang lại hiểu biết mới về vật chất tối và năng lượng tối. Tuy nhiên, thách thức lớn nhất là phân biệt liệu tín hiệu này là hiện tượng vũ trụ thực sự hay chỉ là sai số do sự lệch trục của các thiết bị dò trên kính thiên văn.",
+        "Để giải quyết vấn đề này, nhóm nghiên cứu do Anto I. Lonappan dẫn đầu đã so sánh các bản đồ phân cực riêng biệt từ dữ liệu của vệ tinh Planck. Phương pháp này cho phép loại bỏ các sai số xoay chung, từ đó cô lập các điểm không nhất quán trong hiệu chuẩn của từng nhóm thiết bị. Kết quả thử nghiệm cho thấy góc lưỡng chiết vũ trụ ước tính đạt 0,37 ± 0,12 độ, củng cố độ tin cậy cho các phân tích trước đó và giúp các nhà khoa học tiến gần hơn đến việc xác định bản chất thực sự của tín hiệu này."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tín hiệu lạ trong ánh sáng vũ trụ cổ xưa có thể mở ra vật lý mới",
+      "meta_description": "Nghiên cứu mới từ UC San Diego giúp phân biệt sai số thiết bị và hiện tượng vật lý thực sự trong bức xạ nền vi sóng vũ trụ, mở đường cho khám phá về vật chất tố",
+      "keywords": [
+        "vũ trụ",
+        "vật lý",
+        "bức xạ nền vi sóng",
+        "UC San Diego",
+        "vật chất tối"
+      ],
+      "slug": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 306,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+        "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years"
+      ],
+      "source_references": [
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:14:04+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T16:34:33+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các nhà khoa học tại UC San Diego phát triển kỹ thuật mới để kiểm tra sai số thiết bị trong việc đo góc phân cực của bức xạ nền vi sóng vũ trụ.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The UC San Diego researchers found a way to investigate the problem from another angle.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "snippet": "The UC San Diego researchers found a way to investigate the problem from another angle.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "page_sha256": "7f7c57cec748b37439b61046e8553dd97e3c557ec6b93ac769423e0c917b36bf",
+              "snippet_sha256": "77c405c3a0a8a7551ddca99d7788617fec0b94ca00e4bc45913fbd265655f916",
+              "verified_at": "2026-11-17T12:32:20.663541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bức xạ nền vi sóng vũ trụ (CMB) là tàn dư bức xạ từ khoảng 380.000 năm sau vụ nổ Big Bang.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The mystery centers on the cosmic microwave background (CMB), a faint glow of radiation left over from approximately 380,000 years after the Big Bang.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "snippet": "The mystery centers on the cosmic microwave background (CMB), a faint glow of radiation left over from approximately 380,000 years after the Big Bang.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "page_sha256": "7f7c57cec748b37439b61046e8553dd97e3c557ec6b93ac769423e0c917b36bf",
+              "snippet_sha256": "5469ca7a45f868b3e91dfbeb456fa30c87bb60f1f429e2088de533ab1136399d",
+              "verified_at": "2026-11-17T12:32:20.663541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhóm nghiên cứu ước tính góc lưỡng chiết vũ trụ là 0,37 ± 0,12 độ dựa trên dữ liệu từ vệ tinh Planck.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "This produced an estimated cosmic birefringence angle of 0.37 ± 0.12 degrees, matching the Minami-Komatsu result.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "snippet": "This produced an estimated cosmic birefringence angle of 0.37 ± 0.12 degrees, matching the Minami-Komatsu result.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "page_sha256": "7f7c57cec748b37439b61046e8553dd97e3c557ec6b93ac769423e0c917b36bf",
+              "snippet_sha256": "1f25499276c0436b6f188879778a7151fa6254399fa1cfda529453c12fea8591",
+              "verified_at": "2026-11-17T12:32:20.663541+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa sai số thiết bị và hiện tượng vật lý thực sự trong dữ liệu vũ trụ. Đồng thời, bài báo giải thích cách thức phương pháp mới của UC San Diego giúp kiểm chứng các quan sát từ vệ tinh Planck.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T12:32:20.664083+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0,12",
+        "0,37",
+        "13,8",
+        "380.000"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T12:32:20.664889+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 306,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1373
+        },
+        "independent_domains": [
+          "euronews.com",
+          "sciencedaily.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+    "status": "READY",
+    "prepared_at": "2026-11-17T12:32:04.020280+00:00",
+    "expires_at": "2026-11-18T00:32:04.020280+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+      "https://www.france24.com/en/video/20261113-west-bank-without-international-trade-and-financial-support-large-settlements-would-not-exist-1"
+    ],
+    "article": {
+      "id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+      "title": "Anh công bố các lệnh trừng phạt đầu tiên nhắm vào doanh nghiệp Israel tại Bờ Tây",
+      "summary": "Bộ trưởng Ngoại giao Anh Ed Miliband vừa công bố các lệnh trừng phạt nhằm vào 8 công ty xây dựng và phát triển bất động sản của Israel liên quan đến các khu định cư ở Bờ Tây, đồng thời áp đặt biện pháp trừng phạt lên một nhóm hoạt động hữu ngực của Israel.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+      "published_at": "2026-11-17T12:18:08+00:00",
+      "fetched_at": "2026-11-17T12:32:27.978670+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Bộ trưởng Ngoại giao Anh Ed Miliband vừa thông báo gói lệnh trừng phạt đầu tiên đối với các doanh nghiệp Israel có liên quan đến hoạt động xây dựng khu định cư tại Bờ Tây. Quyết định này nhằm mục đích ngăn chặn dòng tài chính chảy vào 8 công ty xây dựng, phát triển bất động sản và kiến trúc được xác định tham gia quy hoạch hoặc xây dựng cơ sở hạ tầng trong các khu định cư bị coi là bất hợp pháp.",
+        "Theo Bộ Ngoại giao Anh, động thái trên diễn ra ngay trước thời điểm chính phủ Israel chuẩn bị phân bổ các gói thầu cho dự án định cư lớn tại hành lang E1. Chính quyền Anh cáo buộc chính quyền Israel hiện tại không những không ngăn chặn mà còn tạo điều kiện và khuyến khích các khu định cư mở rộng, qua đó làm suy yếu triển vọng của giải pháp hai nhà nước.",
+        "Bên cạnh các doanh nghiệp xây dựng tại Bờ Tây, Anh cũng áp đặt biện pháp trừng phạt đối với một nhóm hoạt động hữu ngực của Israel bị cáo buộc tham gia cản trở hàng viện trợ vào Gaza. Phía Anh nhấn mạnh rằng tình trạng hiện nay tại cả Bờ Tây và dải Gaza là không thể chấp nhận được, trong bối cảnh hàng triệu dân thường đang chịu cảnh thiếu thốn vật phẩm cứu trợ và nơi trú ẩn.",
+        "Dù vậy, Ngoại giao Anh cũng bày tỏ thiện chí sẵn sàng hợp tác mang tính xây dựng với một chính phủ mới tại Israel và Chính quyền Phố-lét-ti-nin để thúc đẩy hòa bình lâu dài. Trong khi đó, các lệnh trừng phạt mới đối với 8 công ty xây dựng sẽ cần thêm thời gian để kiểm chứng thực tế mức độ phụ thuộc tài chính của các bên liên quan vào nguồn vốn từ Anh."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Anh áp lệnh trừng phạt công ty Israel tại Bờ Tây",
+      "meta_description": "Bộ trưởng Ngoại giao Anh Ed Miliband công bố lệnh trừng phạt các công ty Israel hoạt động xây dựng khu định cư ở Bờ Tây nhằm bảo vệ giải pháp hai nhà nước.",
+      "keywords": [
+        "Ed Miliband",
+        "Bờ Tây",
+        "Israel",
+        "trừng phạt",
+        "Anh"
+      ],
+      "slug": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 322,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+        "https://www.france24.com/en/video/20261113-west-bank-without-international-trade-and-financial-support-large-settlements-would-not-exist-1"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/video/20261113-west-bank-without-international-trade-and-financial-support-large-settlements-would-not-exist-1"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:18:08+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261113-west-bank-without-international-trade-and-financial-support-large-settlements-would-not-exist-1",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T16:15:44+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ed Miliband công bố các lệnh trừng phạt đầu tiên đối với các công ty Israel dự định xây dựng khu định cư bất hợp pháp ở Bờ Tây.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Miliband and his Middle East minister, Stephen Doughty, have repeatedly highlighted the Israeli government’s refusal to let a variety of dual-use goods into Gaza.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "snippet": "Miliband and his Middle East minister, Stephen Doughty, have repeatedly highlighted the Israeli government’s refusal to let a variety of dual-use goods into Gaza.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "page_sha256": "6d6a10e18c2c1a0c86751a97ed42c9c917157aa4358a674bb86c2a781b75b4ae",
+              "snippet_sha256": "f344060594f508b4e5ab52b33f69440bf6d0b990978d59da61e1165a440f6fea",
+              "verified_at": "2026-11-17T12:32:27.978290+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các biện pháp trừng phạt nhắm vào tám công ty xây dựng, phát triển bất động sản và kiến trúc tham gia kế hoạch hoặc xây dựng hạ tầng tại các khu định cư ở Bờ Tây.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The dispute over dual-use goods and closed entry points into Gaza has lasted for more than two years.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "snippet": "The dispute over dual-use goods and closed entry points into Gaza has lasted for more than two years.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "page_sha256": "6d6a10e18c2c1a0c86751a97ed42c9c917157aa4358a674bb86c2a781b75b4ae",
+              "snippet_sha256": "c23063f767ad043d711cb7cdc27d117f566405a7667c0a9d62859109d33457de",
+              "verified_at": "2026-11-17T12:32:27.978290+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ngoại giao Anh đồng thời áp đặt trừng phạt đối với một nhóm hoạt động hữu ngực của Israel có liên quan đến việc cản trở viện trợ vào Gaza.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Israeli authorities also continue to block timber from entering, leaving no emergency shelter kits available in Gaza.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "snippet": "The Israeli authorities also continue to block timber from entering, leaving no emergency shelter kits available in Gaza.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "page_sha256": "6d6a10e18c2c1a0c86751a97ed42c9c917157aa4358a674bb86c2a781b75b4ae",
+              "snippet_sha256": "a5b1a750e0770c6d28d3e10e33258bbe98b7ba51245951b9e9b3ce207a427a05",
+              "verified_at": "2026-11-17T12:32:27.978290+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh cụ thể của lệnh trừng phạt do Anh ban hành đối với các doanh nghiệp Israel tại Bờ Tây ngay trước thềm phân bổ thầu dự án E1. Đồng thời, văn bản kết nối quyết định này với tình hình viện trợ nhân đạo tại Gaza và thái độ ngoại giao của Anh.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-17T12:32:27.978741+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T12:32:27.979385+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 322,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1483
+        },
+        "independent_domains": [
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+    "status": "READY",
+    "prepared_at": "2026-11-17T12:32:04.020280+00:00",
+    "expires_at": "2026-11-18T12:32:04.020280+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+      "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
+      "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+      "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html"
+    ],
+    "article": {
+      "id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "title": "Tổng thống Mỹ Donald Trump bắt đầu chuyến công du Châu Á trong bối cảnh ngoại giao và công nghệ nhiều biến động",
+      "summary": "Chuyến công du Châu Á của Tổng thống Mỹ Donald Trump diễn ra khi ông dừng chân tại Manila trước thềm hội nghị thượng đỉnh ba bên với Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin tại Thâm Quyến, đồng thời giới công nghệ đang xôn xao trước các bước đi mới của Nvidia.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+      "published_at": "2026-11-17T12:20:57+00:00",
+      "fetched_at": "2026-11-17T12:32:45.579417+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Mỹ Donald Trump đã bắt đầu chuyến công du Châu Á kéo dài 48 giờ bằng việc đặt chân đến Manila, Philippines, để tham dự các cuộc gặp với lãnh đạo khu vực và tham gia hội nghị của khối ASEAN. Điểm nhấn đáng chú ý trong hành trình này là kế hoạch di chuyển đến Thâm Cận, Trung Quốc, để tham dự hội nghị thượng đỉnh ba bên chưa từng có tiền lệ cùng Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin bên lề diễn đàn APEC.",
+        "Chuyến đi diễn ra trong bối cảnh chính quyền Mỹ vừa công bố các quy định mới nhằm hạn chế quyền truy cập từ xa vào các máy chủ và chip AI tiên tiến, nhằm bịt các lỗ hổng an ninh. Trong nước, sự từ chức gần đây của CEO Nvidia Jensen Huang đã gây chấn động thung lũng Silicon, khiến nhiều nhà lãnh đạo công nghệ và nhà đầu tư lên tiếng kêu gọi hội đồng quản trị xem xét lại và giữ các lựa chọn mở đối với tương lai của ông tại tập đoàn sản xuất chip hàng đầu thế giới này.",
+        "Bên cạnh các vấn đề về công nghệ và thương mại, chương trình nghị sự tại hội nghị thượng đỉnh sắp tới cũng thu hút sự quan tâm lớn từ quốc tế. Dù Nhà Trắng trước đó từng thông báo vấn đề Ukraine sẽ không nằm trong nội dung thảo luận, Tổng thống Trump khi rời Washington đã tuyên bố ông dự định bàn về chủ đề này. Các nhà quan sát và đồng minh châu Âu hiện đang theo dõi sát sao diễn biến các cuộc gặp nhằm đánh giá tác động đối với ổn định chiến lược khu vực."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Trump bắt đầu chuyến công du Châu Á, chuẩn bị họp thượng đỉnh với Tập ",
+      "meta_description": "Cập nhật chuyến công du Châu Á của Tổng thống Mỹ Donald Trump, chuẩn bị cho hội nghị thượng đỉnh lịch sử với Tập Cận Bình và Vladimir Putin tại Thâm Quyến.",
+      "keywords": [
+        "Donald Trump",
+        "Châu Á",
+        "Tập Cận Bình",
+        "Vladimir Putin",
+        "Nvidia",
+        "APEC",
+        "ASEAN"
+      ],
+      "slug": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 301,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+        "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
+        "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+        "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
+        "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+        "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:20:57+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T11:00:58+00:00"
+        },
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:28:23+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:07:04+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Trump đã đến Manila để bắt đầu chuyến công du Châu Á và tham dự hội nghị ASEAN trước khi tới Thâm Quyến dự hội nghị thượng đỉnh với ông Tập Cận Bình và ông Vladimir Putin.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy"
+          ],
+          "importance": "core",
+          "evidence_snippet": "President Trump is in Manila today to meet with allies at the ASEAN summit.Tomorrow, he travels to Shenzhen, China, for a joint summit with Chinese leader Xi Jinping and Russian President Vladimir Putin.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "snippet": "President Trump is in Manila today to meet with allies at the ASEAN summit.Tomorrow, he travels to Shenzhen, China, for a joint summit with Chinese leader Xi Jinping and Russian President Vladimir Putin.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "page_sha256": "e157b27ce89430f31411cdfe46f2846ded673dd02f840b3c8d248c480067a646",
+              "snippet_sha256": "f8fb03293c9856ac997f914eb6dd40550e0d00d898d32d1816f281b30871823f",
+              "verified_at": "2026-11-17T12:32:45.578877+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sự ra đi của CEO Nvidia Jensen Huang đã tạo ra làn sóng kêu gọi từ một số lãnh đạo công nghệ yêu cầu xem xét đưa ông trở lại vị trí lãnh đạo.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nvidia CEO Jensen Huang's resignation has shaken Silicon Valley, prompting calls from some tech leaders for the board to reinstate him.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "snippet": "Nvidia CEO Jensen Huang's resignation has shaken Silicon Valley, prompting calls from some tech leaders for the board to reinstate him.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "page_sha256": "e157b27ce89430f31411cdfe46f2846ded673dd02f840b3c8d248c480067a646",
+              "snippet_sha256": "7ed202534903cf5c704214e5912d494b9e8082026a0b82cd953773cb22624e67",
+              "verified_at": "2026-11-17T12:32:45.578877+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chính phủ Mỹ đã ban hành quy định mới nhằm chặn quyền truy cập từ xa vào các máy chủ và chip AI cao cấp nhằm ngăn chặn rủi ro từ các trung tâm dữ liệu nước ngoài.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nvidia is the world's dominant producer of AI chips.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "snippet": "Nvidia is the world's dominant producer of AI chips.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "page_sha256": "e157b27ce89430f31411cdfe46f2846ded673dd02f840b3c8d248c480067a646",
+              "snippet_sha256": "907e9d848ca961b0ad2cb94767b88d637561eb87fd30f53c66ec0d1a2cf35d7e",
+              "verified_at": "2026-11-17T12:32:45.578877+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Trump cho biết ông dự định thảo luận về vấn đề Ukraine trong chuyến đi, mâu thuẫn với thông báo trước đó từ Nhà Trắng.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Shivaram says that Europe and Ukraine are concerned abouthow Ukraine may be discussedat the meeting, and what might come out of it, because President Volodymyr Zelenskyy will not be at APEC and Trump has recently been more lenient toward Putin and Russia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "snippet": "Shivaram says that Europe and Ukraine are concerned abouthow Ukraine may be discussedat the meeting, and what might come out of it, because President Volodymyr Zelenskyy will not be at APEC and Trump has recently been more lenient toward Putin and Russia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "page_sha256": "e157b27ce89430f31411cdfe46f2846ded673dd02f840b3c8d248c480067a646",
+              "snippet_sha256": "7a72887a85173a1cdf3524048fc4115a977b5adf52090460ea6037ac55042937",
+              "verified_at": "2026-11-17T12:32:45.578877+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lịch trình chuyến công du Châu Á của Tổng thống Mỹ Donald Trump cùng các điểm nóng ngoại giao và công nghệ liên quan đến Nvidia. Cung cấp góc nhìn tổng hợp giữa các thỏa thuận thương mại, hội nghị thượng đỉnh ba bên đầu tiên với Nga - Trung và tác động từ thị trường chip bán dẫn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T12:32:45.579485+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "48"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T12:32:45.580368+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 301,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1372
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "npr.org",
+          "nytimes.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
