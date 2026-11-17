@@ -655,5 +655,35 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-17 20:55",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-17T13:55:02.870441+00:00",
+    "prepared_candidates": 20,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      }
+    ]
   }
 ]

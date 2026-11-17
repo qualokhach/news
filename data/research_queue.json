@@ -2029,7 +2029,7 @@
   },
   {
     "queue_id": "57f5e51ac8dc378c3763",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:39.919065+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "vietnam",
@@ -2800,11 +2800,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:39.919085+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc"
   },
   {
     "queue_id": "d02bd6a92373d289d16b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:32.686584+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "vietnam",
@@ -3723,11 +3724,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:32.686600+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920"
   },
   {
     "queue_id": "9abf08b5ef881270937b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:25.023805+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "sports",
@@ -4361,11 +4363,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:25.023822+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc"
   },
   {
     "queue_id": "e846884caad6ce9a2196",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T12:31:24.345812+00:00",
     "expires_at": "2026-11-20T12:29:54.439886+00:00",
     "category_hint": "sports",
@@ -5046,11 +5049,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T12:31:24.345828+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50"
   },
   {
     "queue_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-17T04:14:25.568578+00:00",
     "expires_at": "2026-11-18T04:14:25.568578+00:00",
     "source_urls": [
@@ -5066,7 +5070,7 @@
       "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
       "published_at": "2026-11-17T02:44:28+00:00",
       "fetched_at": "2026-11-17T04:15:43.910299+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-17T13:55:02.870441+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -5230,23 +5234,33 @@
         "8"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-17T04:15:43.911403+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-17T13:55:02.870441+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 296,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1372
-        },
-        "independent_domains": [
-          "cnbc.com",
-          "sportingnews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1372,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-17 20:55"
+    },
+    "published_at": "2026-11-17T13:55:02.870441+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "9ed06cc0a850cd5d22e6",
@@ -79512,7 +79526,7 @@
   },
   {
     "queue_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-17T12:32:04.020280+00:00",
     "expires_at": "2026-11-18T12:32:04.020280+00:00",
     "source_urls": [
@@ -79528,7 +79542,7 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
       "published_at": "2026-11-17T12:14:04+00:00",
       "fetched_at": "2026-11-17T12:32:20.664016+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-17T13:55:02.870441+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -79688,27 +79702,37 @@
         "380.000"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-17T12:32:20.664889+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-17T13:55:02.870441+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 306,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1373
-        },
-        "independent_domains": [
-          "euronews.com",
-          "sciencedaily.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1373,
+          "source_access": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "euronews.com",
+            "sciencedaily.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-17 20:55"
+    },
+    "published_at": "2026-11-17T13:55:02.870441+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-17T12:32:04.020280+00:00",
     "expires_at": "2026-11-18T00:32:04.020280+00:00",
     "source_urls": [
@@ -79724,7 +79748,7 @@
       "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
       "published_at": "2026-11-17T12:18:08+00:00",
       "fetched_at": "2026-11-17T12:32:27.978670+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-17T13:55:02.870441+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -79883,27 +79907,37 @@
         "8"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-17T12:32:27.979385+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-17T13:55:02.870441+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 322,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1483
-        },
-        "independent_domains": [
-          "france24.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1483,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "france24.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-17 20:55"
+    },
+    "published_at": "2026-11-17T13:55:02.870441+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-17T12:32:04.020280+00:00",
     "expires_at": "2026-11-18T12:32:04.020280+00:00",
     "source_urls": [
@@ -79921,7 +79955,7 @@
       "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
       "published_at": "2026-11-17T12:20:57+00:00",
       "fetched_at": "2026-11-17T12:32:45.579417+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-17T13:55:02.870441+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -80143,24 +80177,1043 @@
         "48"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-17T12:32:45.580368+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-17T13:55:02.870441+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 301,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1372
+          "body_chars": 1372,
+          "source_access": [
+            {
+              "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "npr.org",
+            "nytimes.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-17 20:55"
+    },
+    "published_at": "2026-11-17T13:55:02.870441+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc",
+    "status": "HOLD",
+    "prepared_at": "2026-11-17T13:52:27.224578+00:00",
+    "expires_at": "2026-11-18T13:52:27.224578+00:00",
+    "source_urls": [
+      "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+      "https://dantri.com.vn/phap-luat/den-nha-ban-trai-o-tphcm-choi-hot-girl-ly-meo-vuong-vong-lao-ly-20261117132934619.htm",
+      "https://thanhnien.vn/bat-mi-tien-cong-cua-lao-dong-pho-thong-dip-nhung-thang-cuoi-nam-185261113172027405.htm"
+    ],
+    "article": {
+      "id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc",
+      "title": "Biến động tài sản của đồng CEO Binance Yi He trong đợt thị trường lao dốc",
+      "summary": "Bà Yi He, đồng CEO Binance, vừa công khai ảnh chụp tài khoản cá nhân cho thấy giá trị tài sản giảm hơn 101 triệu USD trong 30 ngày, trong bối cảnh thị trường tiền số trải qua giai đoạn bán tháo mạnh.",
+      "category": "technology",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+      "published_at": "2026-11-17T11:03:52+00:00",
+      "fetched_at": "2026-11-17T13:52:46.826984+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong bối cảnh thị trường tiền số trải qua đợt bán tháo mạnh mẽ, bà Yi He - đồng CEO của sàn giao dịch Binance và là bạn đời của nhà sáng lập Changpeng Zhao (CZ) - đã công khai ảnh chụp tài khoản giao dịch cá nhân trên nền tảng Binance Square. Dữ liệu cho thấy tổng giá trị tài sản trong tài khoản của bà đã giảm hơn 101,3 triệu USD chỉ trong vòng 30 ngày qua.",
+        "Theo chi tiết từ ảnh chụp, mục lãi và lỗ giao dịch (Trade PNL) ghi nhận mức âm 97,324 triệu USD, trong khi các khoản chuyển tiền và giao dịch khác giảm gần 3,991 triệu USD. Tuy nhiên, các chuyên gia lưu ý rằng con số này phản ánh biến động giá trị tài sản trên biểu đồ, không đồng nghĩa với việc toàn bộ là khoản lỗ đã hiện thực hóa do bán tháo tài sản. Ảnh chụp cũng không tiết lộ danh mục cụ thể hay tỷ lệ lỗ đã chốt của bà.",
+        "Giải thích về sự sụt giảm này, bà Yi He cho biết một phần biến động xuất phát từ việc chuyển tiền sang tài khoản phụ để thử nghiệm chiến lược mua tự động bằng AIPro. Do hệ thống chưa vận hành ổn định, bà đã chuyển số tiền này trở lại giao dịch giao ngay (spot). Bà cũng trấn an nhà đầu tư rằng đợt điều chỉnh này chỉ là tạm thời và những người nắm giữ tài sản giao ngay không nên lo ngại.",
+        "Sự kiện này diễn ra khi thị trường tiền số chịu áp lực lớn, với Bitcoin có thời điểm rơi xuống sát 62.000 USD và các quỹ ETF Bitcoin tại Mỹ ghi nhận dòng vốn rút ròng đáng kể. Đồng BNB, đồng tiền số do Binance phát hành và từng chiếm tỷ trọng lớn trong tài sản công khai của bà Yi He hồi đầu năm, cũng chịu áp lực giảm giá. Trong khi đó, nhà sáng lập CZ khẳng định ông không bán tiền số mà tiếp tục áp dụng chiến lược trung bình giá (DCA) để tích lũy tài sản trong giai đoạn thị trường đi xuống."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Yi He đồng CEO Binance lỗ hơn 100 triệu USD khi thị trường tiền số giả",
+      "meta_description": "Đồng CEO Binance Yi He công khai tài khoản giảm hơn 101 triệu USD sau 30 ngày. Tìm hiểu nguyên nhân và phản ứng của bà trước biến động thị trường tiền số.",
+      "keywords": [
+        "Yi He",
+        "Binance",
+        "tiền số",
+        "CZ",
+        "thị trường crypto"
+      ],
+      "slug": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 369,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+        "https://dantri.com.vn/phap-luat/den-nha-ban-trai-o-tphcm-choi-hot-girl-ly-meo-vuong-vong-lao-ly-20261117132934619.htm",
+        "https://thanhnien.vn/bat-mi-tien-cong-cua-lao-dong-pho-thong-dip-nhung-thang-cuoi-nam-185261113172027405.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/phap-luat/den-nha-ban-trai-o-tphcm-choi-hot-girl-ly-meo-vuong-vong-lao-ly-20261117132934619.htm",
+        "https://thanhnien.vn/bat-mi-tien-cong-cua-lao-dong-pho-thong-dip-nhung-thang-cuoi-nam-185261113172027405.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T11:03:52+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/phap-luat/den-nha-ban-trai-o-tphcm-choi-hot-girl-ly-meo-vuong-vong-lao-ly-20261117132934619.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T08:12:45+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/bat-mi-tien-cong-cua-lao-dong-pho-thong-dip-nhung-thang-cuoi-nam-185261113172027405.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T06:37:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bà Yi He, đồng CEO Binance, công khai tài khoản cá nhân giảm hơn 101,3 triệu USD trong 30 ngày.",
+          "source_urls": [
+            "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Bà Yi He hôm qua chia sẻ ảnh chụp tài khoản giao dịch cá nhân trên mạng xã hội Binance Square, cho thấy tổng giá trị tài sản giảm hơn 101,3 triệu USD trong 30 ngày qua.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+              "snippet": "Bà Yi He hôm qua chia sẻ ảnh chụp tài khoản giao dịch cá nhân trên mạng xã hội Binance Square, cho thấy tổng giá trị tài sản giảm hơn 101,3 triệu USD trong 30 ngày qua.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+              "page_sha256": "5a8e89fbb73562eb34484524e6011d18f947e1b1bd96a95857cc2d786fde3241",
+              "snippet_sha256": "0726c9531a31e24700e643175fcf5c28faee5ba1ea7f2fc0eed86457e5cab995",
+              "verified_at": "2026-11-17T13:52:46.826525+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bà Yi He giải thích một phần mức giảm là do chuyển tiền thử nghiệm chiến lược mua tự động bằng AIPro.",
+          "source_urls": [
+            "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Bà cũng giải thích rằng một nhịp giảm mạnh trên biểu đồ tài khoản xuất phát từ việc chuyển tiền sang tài khoản phụ để thử nghiệm chiến lược mua tự động bằng AIPro.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+              "snippet": "Bà cũng giải thích rằng một nhịp giảm mạnh trên biểu đồ tài khoản xuất phát từ việc chuyển tiền sang tài khoản phụ để thử nghiệm chiến lược mua tự động bằng AIPro.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+              "page_sha256": "5a8e89fbb73562eb34484524e6011d18f947e1b1bd96a95857cc2d786fde3241",
+              "snippet_sha256": "895589fe487dc437646f76fd1405ff079ea654eaaa1cbba417c69ce4c889a460",
+              "verified_at": "2026-11-17T13:52:46.826525+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhà sáng lập Binance CZ cho biết ông không bán tiền số mà tiếp tục mua vào theo chiến lược trung bình giá.",
+          "source_urls": [
+            "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nhà sáng lập Binance cho biết ông không bántiền sốtrong đợt thị trường đi xuống mà tiếp tục mua vào theo chiến lược trung bình giá (DCA).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+              "snippet": "Nhà sáng lập Binance cho biết ông không bántiền sốtrong đợt thị trường đi xuống mà tiếp tục mua vào theo chiến lược trung bình giá (DCA).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+              "page_sha256": "5a8e89fbb73562eb34484524e6011d18f947e1b1bd96a95857cc2d786fde3241",
+              "snippet_sha256": "38363e1283389d0d414c07383ad6bcc5708381ea4fb7d2f71d749f9d0e5d7031",
+              "verified_at": "2026-11-17T13:52:46.826525+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa biến động giá trị tài sản trên biểu đồ và khoản lỗ thực tế đã chốt. Đồng thời, bài phân tích đặt sự kiện này trong bối cảnh thị trường rộng lớn hơn và phản ứng của các nhân vật chủ chốt tại Binance.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T13:52:46.827052+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "101,3",
+        "3,991",
+        "30",
+        "62.000",
+        "97,324"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T13:52:46.828094+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 369,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1669
         },
         "independent_domains": [
-          "cnbc.com",
-          "npr.org",
-          "nytimes.com",
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-17T13:55:02.870441+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-17T13:55:02.870441+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 369,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1669,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/ban-doi-cua-cz-lo-hon-100-trieu-usd-khi-tien-so-lao-doc-5145696.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920",
+    "status": "HOLD",
+    "prepared_at": "2026-11-17T13:52:27.224578+00:00",
+    "expires_at": "2026-11-18T13:52:27.224578+00:00",
+    "source_urls": [
+      "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+      "https://dantri.com.vn/thoi-su/lap-to-kiem-tra-15-thua-dat-co-dau-hieu-vi-pham-xay-dung-quanh-ho-song-ray-20261117165850941.htm",
+      "https://thanhnien.vn/lam-dong-siet-tien-do-dau-tu-cong-lanh-dao-kiem-tra-dot-xuat-cong-truong-ca-cuoi-tuan-18526111617474346.htm"
+    ],
+    "article": {
+      "id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920",
+      "title": "Nvidia lập ủy ban giám sát an ninh quốc gia và kiểm soát xuất khẩu chip",
+      "summary": "Nvidia thông báo thành lập ủy ban mới thuộc HĐQT nhằm giám sát các chính sách an ninh quốc gia và quy định thương mại toàn cầu, trong bối cảnh thị trường có nhiều biến động về nhân sự lãnh đạo và các hạn chế siết chặt từ Washington.",
+      "category": "technology",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+      "published_at": "2026-11-17T11:18:19+00:00",
+      "fetched_at": "2026-11-17T13:53:15.401950+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày 17/11, tập đoàn thiết kế chip Nvidia chính thức thông báo thành lập một ủy ban mới trực thuộc Hội đồng quản trị với tên gọi Ủy ban Giám sát an ninh quốc gia và kiểm soát xuất khẩu. Đơn vị này được thành lập nhằm tăng cường quản lý các chương trình an ninh quốc gia và đảm bảo tuân thủ nghiêm ngặt các quy định thương mại toàn cầu.",
+        "Theo công bố từ phía doanh nghiệp, người giữ chức vụ chủ tịch của ủy ban mới là bà Suzanne Nora Johnson, thành viên Hội đồng quản trị. Hai nhân sự còn lại tham gia điều hành ủy ban gồm ông Stephen Neal và ông John Dabiri. Trong cơ cấu hoạt động, ủy ban sẽ phối hợp làm việc trực tiếp với các chuyên gia độc lập chuyên môn về lĩnh vực pháp lý, an ninh quốc gia cũng như tuân thủ thương mại.",
+        "Bên cạnh đó, các nhóm chuyên trách về an ninh quốc gia và tuân thủ thương mại toàn cầu hiện tại của công ty sẽ có trách nhiệm báo cáo công việc trực tiếp cho ủy ban mới này. CEO tạm quyền Colette Kress sẽ tiếp tục điều hành các hoạt động kinh doanh hàng ngày. Về chế độ sinh hoạt, đơn vị mới dự kiến tổ chức họp ít nhất mỗi quý một lần, bao gồm các phiên làm việc chung với ban lãnh đạo và các cuộc họp riêng giữa các thành viên trong ủy ban.",
+        "Việc Nvidia ra mắt cơ quan giám sát mới diễn ra chỉ vài ngày sau khi ông Jensen Huang từ chức CEO. Trước đó, thị trường xuất hiện thông tin liên quan đến mối quan hệ cá nhân của ông với một doanh nhân bị nghi là gián điệp Trung Quốc, làm dấy lên những lo ngại về rủi ro an ninh cũng như hoạt động giám sát xuất khẩu dòng chip tiên tiến. Quyết định lập ủy ban cũng được đưa ra chỉ một ngày sau khi Washington thông báo tiếp tục siết chặt các hạn chế đối với khả năng tiếp cận chip AI tiên tiến của Trung Quốc."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nvidia lập cơ quan kiểm soát xuất khẩu chip và an ninh quốc gia",
+      "meta_description": "Nvidia thành lập ủy ban mới thuộc HĐQT để giám sát an ninh quốc gia và kiểm soát xuất khẩu chip, diễn ra sau khi Jensen Huang từ chức CEO.",
+      "keywords": [
+        "Nvidia",
+        "kiểm soát xuất khẩu chip",
+        "an ninh quốc gia",
+        "chip AI",
+        "HĐQT Nvidia"
+      ],
+      "slug": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 365,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+        "https://dantri.com.vn/thoi-su/lap-to-kiem-tra-15-thua-dat-co-dau-hieu-vi-pham-xay-dung-quanh-ho-song-ray-20261117165850941.htm",
+        "https://thanhnien.vn/lam-dong-siet-tien-do-dau-tu-cong-lanh-dao-kiem-tra-dot-xuat-cong-truong-ca-cuoi-tuan-18526111617474346.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/lap-to-kiem-tra-15-thua-dat-co-dau-hieu-vi-pham-xay-dung-quanh-ho-song-ray-20261117165850941.htm",
+        "https://thanhnien.vn/lam-dong-siet-tien-do-dau-tu-cong-lanh-dao-kiem-tra-dot-xuat-cong-truong-ca-cuoi-tuan-18526111617474346.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T11:18:19+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/lap-to-kiem-tra-15-thua-dat-co-dau-hieu-vi-pham-xay-dung-quanh-ho-song-ray-20261117165850941.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T10:46:32+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/lam-dong-siet-tien-do-dau-tu-cong-lanh-dao-kiem-tra-dot-xuat-cong-truong-ca-cuoi-tuan-18526111617474346.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T10:38:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ngày 17/11, Nvidia thông báo thành lập ủy ban mới thuộc HĐQT để giám sát an ninh quốc gia và kiểm soát xuất khẩu.",
+          "source_urls": [
+            "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ngày 17/11, Nvidia thông báo thành lập một ủy ban mới thuộc HĐQT để giám sát các chính sách an ninh quốc gia, kiểm soát xuất khẩu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "snippet": "Ngày 17/11, Nvidia thông báo thành lập một ủy ban mới thuộc HĐQT để giám sát các chính sách an ninh quốc gia, kiểm soát xuất khẩu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "page_sha256": "9b48639a8f38a1403e60a5f017c6aadbeb55ad10cac05259f0bf6ce90a2e289b",
+              "snippet_sha256": "c6336fd94c3d123f0a1f634a4787755fafa0af3c219774f9ef814fad0d06c616",
+              "verified_at": "2026-11-17T13:53:15.401580+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ủy ban Giám sát an ninh quốc gia và kiểm soát xuất khẩu do bà Suzanne Nora Johnson làm chủ tịch, cùng hai thành viên Stephen Neal và John Dabiri.",
+          "source_urls": [
+            "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo Nvidia, Ủy ban Giám sát an ninh quốc gia và kiểm soát xuất khẩu sẽ do bà Suzanne Nora Johnson, thành viên HĐQT làm chủ tịch.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "snippet": "Theo Nvidia, Ủy ban Giám sát an ninh quốc gia và kiểm soát xuất khẩu sẽ do bà Suzanne Nora Johnson, thành viên HĐQT làm chủ tịch.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "page_sha256": "9b48639a8f38a1403e60a5f017c6aadbeb55ad10cac05259f0bf6ce90a2e289b",
+              "snippet_sha256": "d9909df2615e828eefd3f0d6d026b304f735fbe11a2fb8cb9ba09a07b4d3b3b6",
+              "verified_at": "2026-11-17T13:53:15.401580+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhóm an ninh quốc gia và tuân thủ thương mại báo cáo cho ủy ban mới và CEO tạm quyền Colette Kress; ủy ban dự kiến họp ít nhất mỗi quý một lần.",
+          "source_urls": [
+            "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nhóm an ninh quốc gia và nhóm tuân thủ thương mại toàn cầu hiện tại của Nvidia sẽ báo cáo công việc cho ủy ban mới và CEO tạm quyền Colette Kress để điều hành hoạt động hàng ngày.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "snippet": "Nhóm an ninh quốc gia và nhóm tuân thủ thương mại toàn cầu hiện tại của Nvidia sẽ báo cáo công việc cho ủy ban mới và CEO tạm quyền Colette Kress để điều hành hoạt động hàng ngày.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "page_sha256": "9b48639a8f38a1403e60a5f017c6aadbeb55ad10cac05259f0bf6ce90a2e289b",
+              "snippet_sha256": "74621a7caffb7331c4bca19ef14a6686f92def5c5aa423733beeb00a62174a79",
+              "verified_at": "2026-11-17T13:53:15.401580+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Động thái diễn ra vài ngày sau khi Jensen Huang từ chức CEO và một ngày sau thông báo siết hạn chế chip AI của Washington đối với Trung Quốc.",
+          "source_urls": [
+            "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ủy ban cũng được thành lập một ngày sau khi Washington thông báo sẽ tiếp tục siết hạn chế khả năng tiếp cận chip AI tiên tiến của các công ty như Nvidia đối với Trung Quốc.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "snippet": "Ủy ban cũng được thành lập một ngày sau khi Washington thông báo sẽ tiếp tục siết hạn chế khả năng tiếp cận chip AI tiên tiến của các công ty như Nvidia đối với Trung Quốc.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+              "page_sha256": "9b48639a8f38a1403e60a5f017c6aadbeb55ad10cac05259f0bf6ce90a2e289b",
+              "snippet_sha256": "a9d29f22b32e53bd6d49b040d8de9ca4f920efdd0ca14800c60dcfbbcc785f47",
+              "verified_at": "2026-11-17T13:53:15.401580+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ cơ cấu nhân sự, lịch họp định kỳ và vai trò của Ủy ban Giám sát an ninh quốc gia và kiểm soát xuất khẩu mới thành lập tại Nvidia. Đồng thời, văn bản đặt sự kiện này vào bối cảnh sát sườn với việc thay đổi nhân sự cấp cao và các chính sách siết chặt hạn chế xuất khẩu chip AI từ Washington.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T13:53:15.402016+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-17T13:53:15.402887+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 365,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1674
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-17T13:55:02.870441+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-17T13:55:02.870441+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 365,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1674,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc",
+    "status": "HOLD",
+    "prepared_at": "2026-11-17T13:52:27.224578+00:00",
+    "expires_at": "2026-11-18T13:52:27.224578+00:00",
+    "source_urls": [
+      "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+      "https://www.sportingnews.com/us/ncaa-football/news/college-football-rankings-updated-top-25/520de5d8b4ca6aafa122be6f",
+      "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss"
+    ],
+    "article": {
+      "id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc",
+      "title": "Bóng bầu dục đại học Mỹ: Top 5 ổn định sau tuần 11 kịch tính",
+      "summary": "Tuần 11 giải bóng bầu dục đại học Mỹ chứng kiến sự ổn định ở nhóm dẫn đầu bảng xếp hạng, trong khi nhiều đội bóng khác tạo nên những màn trình diễn ấn tượng.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+      "published_at": "2026-11-17T12:27:02+00:00",
+      "fetched_at": "2026-11-17T13:53:54.217338+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tuần 11 của mùa giải bóng bầu dục đại học Mỹ đã khép lại với những kết quả quan trọng, củng cố vị thế của các đội bóng hàng đầu. Theo bảng xếp hạng mới nhất, nhóm 5 đội dẫn đầu vẫn giữ nguyên thứ hạng, cho thấy sự ổn định đáng kể trong giai đoạn nước rút của mùa giải chính. Georgia tiếp tục duy trì phong độ ấn tượng, trong khi Utah và UCLA khẳng định sức mạnh với những chiến thắng quan trọng để duy trì thành tích bất bại.",
+        "Điểm nhấn của tuần đấu này là những màn trình diễn áp đảo từ các đội trong top 10. Georgia đã có chiến thắng thuyết phục 48-21 trước Missouri, đánh dấu trận thắng thứ ba liên tiếp trước các đối thủ xếp hạng. Sự trở lại của các trụ cột đang bị chấn thương giúp đội bóng này trở nên đáng gờm hơn bao giờ hết. Trong khi đó, Utah đã phải trải qua một trận đấu nghẹt thở trước Arizona, giành chiến thắng sít sao nhờ đường chuyền quyết định vào những phút cuối, qua đó kéo dài chuỗi thắng lên con số 16.",
+        "Ở một diễn biến khác, UCLA tiếp tục gây ấn tượng với hàng phòng ngự vững chắc. Dù hàng công không ghi điểm quá bùng nổ, nhưng khả năng buộc đối thủ mắc sai lầm đã giúp họ đạt thành tích 10-0 lần thứ ba trong lịch sử chương trình. Đáng chú ý, Wake Forest cũng đã tạo nên cú hích lớn sau chiến thắng đậm 49-7 trước SMU, qua đó khẳng định tham vọng cạnh tranh một suất tham dự vòng play-off (CFP).",
+        "Bên cạnh những đội bóng giữ vững phong độ, tuần 11 cũng chứng kiến những biến động ở các vị trí phía sau khi một số đội như USC, Kentucky hay LSU phải nhận thất bại. Những kết quả này không chỉ làm thay đổi cục diện bảng xếp hạng mà còn tạo ra áp lực lớn hơn cho các đội trong cuộc đua giành vé vào vòng chung kết. Với việc mùa giải chính đang dần đi đến hồi kết, mỗi trận đấu sắp tới đều mang tính chất quyết định đến thứ hạng cuối cùng của các đội bóng trên bảng xếp hạng tổng thể."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Bảng xếp hạng bóng bầu dục đại học Mỹ tuần 11",
+      "meta_description": "Cập nhật bảng xếp hạng bóng bầu dục đại học Mỹ sau tuần 11 với sự ổn định của nhóm dẫn đầu và những diễn biến đáng chú ý từ các đội bóng.",
+      "keywords": [
+        "bóng bầu dục đại học",
+        "bảng xếp hạng",
+        "College Football",
+        "tuần 11"
+      ],
+      "slug": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 389,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+        "https://www.sportingnews.com/us/ncaa-football/news/college-football-rankings-updated-top-25/520de5d8b4ca6aafa122be6f",
+        "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/ncaa-football/news/college-football-rankings-updated-top-25/520de5d8b4ca6aafa122be6f",
+        "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:27:02+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/college-football-rankings-updated-top-25/520de5d8b4ca6aafa122be6f",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T11:00:01+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T17:33:03+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nhóm 5 đội dẫn đầu bảng xếp hạng bóng bầu dục đại học Mỹ giữ nguyên vị trí sau tuần 11.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Week 11 Power Rankings: Top 5 holds steadyOhio State Buckeyes1dESPNConnelly sizes up college football's best races down the homestretchWake Forest Demon Deacons2dBill Connelly",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+              "snippet": "Week 11 Power Rankings: Top 5 holds steadyOhio State Buckeyes1dESPNConnelly sizes up college football's best races down the homestretchWake Forest Demon Deacons2dBill Connelly",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+              "page_sha256": "d86749c957807c1fd2c35dec6aaec47002ee553ee963cd35a15cd8a1276a896b",
+              "snippet_sha256": "813328d793428e8e0ff263135c73ef1a33ddd53561e76da777ff3e5181865022",
+              "verified_at": "2026-11-17T13:53:54.216878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Georgia thắng Missouri 48-21, Utah thắng Arizona với cách biệt 1 điểm, UCLA thắng Illinois 22-14.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "playHeather Dinich and Paul Finebaum disagree about Texas' spot in the CFP (1:46)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+              "snippet": "playHeather Dinich and Paul Finebaum disagree about Texas' spot in the CFP (1:46)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+              "page_sha256": "d86749c957807c1fd2c35dec6aaec47002ee553ee963cd35a15cd8a1276a896b",
+              "snippet_sha256": "827184e0f9e801270b01a18c7319595a73ae9bc3bb27f309d51ebaddb8a9cac1",
+              "verified_at": "2026-11-17T13:53:54.216878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "UCLA đạt thành tích 10-0 lần thứ ba trong lịch sử chương trình.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Facing a strong Duke defense, the Hurricanes had to adjust their offensive game plan withoutMalachi Toney-- using a short, quick game to eventually pull away in a 36-25 victory.Darian Mensahhad 382 yards passing, the bulk of it on throws that went 5 yards or fewer in the air.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+              "snippet": "Facing a strong Duke defense, the Hurricanes had to adjust their offensive game plan withoutMalachi Toney-- using a short, quick game to eventually pull away in a 36-25 victory.Darian Mensahhad 382 yards passing, the bulk of it on throws that went 5 yards or fewer in the air.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+              "page_sha256": "d86749c957807c1fd2c35dec6aaec47002ee553ee963cd35a15cd8a1276a896b",
+              "snippet_sha256": "e3d498a367a1e00f624dc15f5fc5ddde628bbd364d2c278ef0498377f3948630",
+              "verified_at": "2026-11-17T13:53:54.216878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp diễn biến tuần 11 để làm rõ sự ổn định của nhóm dẫn đầu so với các biến động ở nhóm dưới. Phân tích này giúp độc giả hiểu rõ tác động của các kết quả trận đấu cụ thể đến vị thế của các đội trong cuộc đua giành vé dự vòng play-off.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T13:53:54.217410+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "11",
+        "16",
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T13:53:54.218409+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 389,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1799
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-17T13:55:02.870441+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-17T13:55:02.870441+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 389,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1799,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/college-football/story/_/id/50473507/2026-college-football-power-rankings-top-25-week-11",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50",
+    "status": "HOLD",
+    "prepared_at": "2026-11-17T13:52:27.224578+00:00",
+    "expires_at": "2026-11-18T13:52:27.224578+00:00",
+    "source_urls": [
+      "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+      "https://www.theguardian.com/australia-news/2026/nov/17/nsw-inquest-free-birth-keeper-baby-death-ntwnfb",
+      "https://www.sportingnews.com/us/nba/toronto-raptors/news/raptors-predicted-trade-175m-ex-lakers-nba-finals-champion-pair-kawhi-leonard/3cca1a4e3fa38e90b6ddcab2"
+    ],
+    "article": {
+      "id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50",
+      "title": "Hướng Dẫn Từ Vựng NBA: Các Thuật Ngữ Về Giao Dịch, Tự Do Cầu Tuyển Và CBA",
+      "summary": "Bài viết này sẽ giúp bạn hiểu rõ hơn về các thuật ngữ liên quan đến giao dịch, tự do cầu tuyển và CBA trong giải bóng rổ chuyên nghiệp NBA.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+      "published_at": "2026-11-17T12:27:39+00:00",
+      "fetched_at": "2026-11-17T13:55:00.822369+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giải bóng rổ chuyên nghiệp NBA có rất nhiều thuật ngữ chuyên môn liên quan đến giao dịch, tự do cầu tuyển và CBA. Trong bài viết này, chúng tôi sẽ giúp bạn hiểu rõ hơn về các thuật ngữ này.",
+        "Các thuật ngữ quan trọng bao gồm:",
+        "- Hợp đồng tập thể (CBA): Là hợp đồng giữa NBA và Hiệp hội cầu thủ bóng rổ quốc gia (NBPA), bao gồm các điều khoản về lương cầu thủ, chia sẻ doanh thu và giới hạn lương.",
+        "- Giới hạn lương (Salary Cap): Là giới hạn tổng lương của các cầu thủ trong một đội. Các đội vượt quá giới hạn lương chỉ có thể thêm cầu thủ thông qua các ngoại lệ hoặc giao dịch cân bằng.",
+        "- Thuế xa xỉ (Luxury Tax): Là mức thuế cao hơn giới hạn lương. Các đội vượt quá mức thuế này sẽ phải trả phạt cho mỗi đô la vượt quá và có ngoại lệ trung cấp nhỏ hơn.",
+        "- Ápron: Là ngưỡng trên mức thuế xa xỉ, kích hoạt các hạn chế bổ sung về chi tiêu và xây dựng đội.",
+        "Các thuật ngữ khác bao gồm:",
+        "- Ngoại lệ lương (Salary Cap Exceptions): Là các quy tắc cho phép các đội vượt quá giới hạn lương trong các tình huống cụ thể, chẳng hạn như tái ký hợp đồng với cầu thủ có \"quyền Bird\" hoặc ký hợp đồng với cầu thủ mới sử dụng ngoại lệ trung cấp, ngoại lệ hai năm một lần và ngoại lệ tối thiểu.",
+        "- Giao dịch cầu thủ (Trade Exceptions): Là các ngoại lệ cho phép các đội giao dịch cầu thủ mà không cần phải cân bằng lương.",
+        "- Ký hợp đồng và giao dịch (Sign-and-Trade): Là cơ chế hợp đồng trong đó cầu thủ ký hợp đồng với đội hiện tại và ngay lập tức được giao dịch.",
+        "- Hợp đồng tối thiểu cho cầu thủ kỳ cựu (Veteran Minimum Contracts): Là hợp đồng một hoặc hai năm dựa trên thang lương do NBA phát hành hàng năm vào ngày 30 tháng 6."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Hướng Dẫn Từ Vựng NBA: Các Thuật Ngữ Về Giao Dịch, Tự Do Cầu Tuyển Và ",
+      "meta_description": "Tìm hiểu về các thuật ngữ quan trọng trong NBA, bao gồm giao dịch, tự do cầu tuyển và CBA.",
+      "keywords": [
+        "NBA",
+        "giao dịch",
+        "tự do cầu tuyển",
+        "CBA"
+      ],
+      "slug": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 351,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+        "https://www.theguardian.com/australia-news/2026/nov/17/nsw-inquest-free-birth-keeper-baby-death-ntwnfb",
+        "https://www.sportingnews.com/us/nba/toronto-raptors/news/raptors-predicted-trade-175m-ex-lakers-nba-finals-champion-pair-kawhi-leonard/3cca1a4e3fa38e90b6ddcab2"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/australia-news/2026/nov/17/nsw-inquest-free-birth-keeper-baby-death-ntwnfb",
+        "https://www.sportingnews.com/us/nba/toronto-raptors/news/raptors-predicted-trade-175m-ex-lakers-nba-finals-champion-pair-kawhi-leonard/3cca1a4e3fa38e90b6ddcab2"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T12:27:39+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/17/nsw-inquest-free-birth-keeper-baby-death-ntwnfb",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T06:33:13+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nba/toronto-raptors/news/raptors-predicted-trade-175m-ex-lakers-nba-finals-champion-pair-kawhi-leonard/3cca1a4e3fa38e90b6ddcab2",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T06:49:12+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hợp đồng tập thể (CBA) là hợp đồng giữa NBA và Hiệp hội cầu thủ bóng rổ quốc gia (NBPA).",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Collective bargaining agreement (CBA):A legal contract between the NBA and the National Basketball Players Association (NBPA), covering various aspects of league operations, including player salaries, revenue sharing and the salary cap.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+              "snippet": "Collective bargaining agreement (CBA):A legal contract between the NBA and the National Basketball Players Association (NBPA), covering various aspects of league operations, including player salaries, revenue sharing and the salary cap.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+              "page_sha256": "802cfd973fe5ce198ef3395aba2d2d6e7c963d91ad993b917d4b5cc182cb3bfd",
+              "snippet_sha256": "3020962215b034fa199ccfe99aed28998c543c4cc812986490c9e149278959db",
+              "verified_at": "2026-11-17T13:55:00.821951+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giới hạn lương (Salary Cap) là giới hạn tổng lương của các cầu thủ trong một đội.",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Players waived after this date receive their full salary for the season.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+              "snippet": "Players waived after this date receive their full salary for the season.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+              "page_sha256": "802cfd973fe5ce198ef3395aba2d2d6e7c963d91ad993b917d4b5cc182cb3bfd",
+              "snippet_sha256": "eef510352ee4bd79a90aea8cf55c217e22c23caa72934b4d76cc0d6ffd4222a1",
+              "verified_at": "2026-11-17T13:55:00.821951+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thuế xa xỉ (Luxury Tax) là mức thuế cao hơn giới hạn lương.",
+          "source_urls": [
+            "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba"
+          ],
+          "importance": "core",
+          "evidence_snippet": "This can help teams manage luxury taxes and hard-cap costs, but they cannot go below 14 players for more than 14 consecutive days.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+              "snippet": "This can help teams manage luxury taxes and hard-cap costs, but they cannot go below 14 players for more than 14 consecutive days.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+              "page_sha256": "802cfd973fe5ce198ef3395aba2d2d6e7c963d91ad993b917d4b5cc182cb3bfd",
+              "snippet_sha256": "5150a83e1b8235e9c34f803ae788904a2dc4173a8f9a5cd7ea52ac5a0b84aac8",
+              "verified_at": "2026-11-17T13:55:00.821951+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp một hướng dẫn toàn diện về các thuật ngữ quan trọng trong NBA, giúp người đọc hiểu rõ hơn về các quy tắc và quy định của giải bóng rổ chuyên nghiệp này. Chúng tôi đã tổng hợp và giải thích các thuật ngữ một cách rõ ràng và dễ hiểu, giúp người đọc có thể áp dụng kiến thức này vào việc theo dõi và phân tích các sự kiện trong NBA.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T13:55:00.822437+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-17T13:55:00.823266+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 11,
+          "words": 351,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1593
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com",
           "theguardian.com"
         ],
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-17T13:55:02.870441+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-17T13:55:02.870441+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 11,
+        "words": 351,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1593,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]

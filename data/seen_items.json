@@ -52,7 +52,8 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-11-17T12:31:01.221679+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50"
     },
     "https://www.sportingnews.com/us/ncaa-basketball/news/watch-duke-illinois-basketball-channel-time-schedule-stream/1af7f23b624114c6231fd542": {
       "id": "358b4165e6ecd4c0ca48",
@@ -475,7 +476,8 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-17T12:31:01.221538+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc"
     },
     "https://www.espn.com/college-football/story/_/id/50503621/heisman-watch-week-11-duke-nate-sheppard": {
       "id": "2110d1d6f8373ebf5bbc",
@@ -583,7 +585,8 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-17T12:31:01.221503+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50"
     },
     "https://www.espn.com/nba/story/_/id/50490202/lebron-76ers-start-execs-big-questions": {
       "id": "73a51873e8d66152da18",
@@ -1699,8 +1702,9 @@
       "source_name": "ScienceDaily - All",
       "category": "technology",
       "first_seen_at": "2026-11-17T12:31:01.221120+00:00",
-      "status": "ready_for_publish",
-      "article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b"
+      "status": "published",
+      "article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.sciencedaily.com/releases/2026/11/261116023401.htm": {
       "id": "607a73474e16967c53c6",
@@ -2312,8 +2316,9 @@
       "source_name": "CNBC - Top News",
       "category": "world",
       "first_seen_at": "2026-11-17T12:31:01.220912+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09"
+      "status": "published",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.bbc.co.uk/news/videos/cm3eg3q758gjo?at_medium=RSS&at_campaign=rss": {
       "id": "0e23fc84e68fcc203fb9",
@@ -2853,7 +2858,8 @@
       "source_name": "VnExpress - Kinh doanh",
       "category": "vietnam",
       "first_seen_at": "2026-11-17T12:31:01.220694+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc"
     },
     "https://vnexpress.net/nvidia-lap-co-quan-kiem-soat-xuat-khau-chip-5145813.html": {
       "id": "63eb91452c2ad9191fef",
@@ -2862,7 +2868,8 @@
       "source_name": "VnExpress - Kinh doanh",
       "category": "vietnam",
       "first_seen_at": "2026-11-17T12:31:01.220690+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920"
     },
     "https://www.bbc.co.uk/sport/football/articles/c91430yk4el2o?at_medium=RSS&at_campaign=rss": {
       "id": "3e1783d8a95acaa1c2e0",
@@ -3222,8 +3229,9 @@
       "source_name": "NYT - World",
       "category": "world",
       "first_seen_at": "2026-11-17T12:31:01.220564+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09"
+      "status": "published",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.euronews.com/video/2026/11/17/latest-news-bulletin-november-17th-2026-morning": {
       "id": "976a87c9d98cbb9d322d",
@@ -3583,8 +3591,9 @@
       "source_name": "NPR - News",
       "category": "world",
       "first_seen_at": "2026-11-17T12:31:01.220435+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09"
+      "status": "published",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.aljazeera.com/sports/2026/11/17/cristiano-ronaldo-mother-portugal-coach-jorge-jesus?traffic_source=rss": {
       "id": "cfe1a4be3c29c3e90921",
@@ -3908,8 +3917,9 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-11-17T12:31:01.220318+00:00",
-      "status": "ready_for_publish",
-      "article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400"
+      "status": "published",
+      "article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.theguardian.com/world/2026/nov/17/serbia-student-list-mps-sworn-in-election-triumph": {
       "id": "4206522a06967a5709c9",
@@ -3954,7 +3964,8 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-11-17T12:31:01.220303+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "huong-dan-tu-vung-nba-cac-thuat-ngu-ve-giao-dich-tu-do-cau-tuyen-va-cba-f4a32c50"
     },
     "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb": {
       "id": "35f3abf5970006e7ab49",
@@ -4521,7 +4532,8 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-17T12:31:01.220093+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc"
     },
     "https://dantri.com.vn/o-to-xe-may/honda-sh-limited-edition-hrc-gia-tu-220-trieu-dong-tai-viet-nam-20261117140413863.htm": {
       "id": "30ac7786ec4d768f816c",
@@ -4854,7 +4866,8 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-17T12:31:01.219962+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920"
     },
     "https://dantri.com.vn/noi-vu/dong-nguoi-dung-hai-ben-duong-don-18-liet-si-tro-ve-20261117151242300.htm": {
       "id": "bc47931d174bb27cd41d",
@@ -5331,7 +5344,8 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-17T12:31:01.219792+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "nvidia-lap-uy-ban-giam-sat-an-ninh-quoc-gia-va-kiem-soat-xuat-khau-chip-ba404920"
     },
     "https://thanhnien.vn/ninh-binh-xac-minh-nguoi-cheo-do-o-tam-coc-niu-tay-khach-doi-tien-tip-185261117171233712.htm": {
       "id": "bee3513628e4aeb2d50a",
@@ -6668,8 +6682,9 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-11-17T04:13:22.579378+00:00",
-      "status": "ready_for_publish",
-      "article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73"
+      "status": "published",
+      "article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.sportingnews.com/us/nba/news/cameron-boozer-vs-aj-dybantsa-stat-comparison-grizzlies-wizards/a3170837bf5e2fb7395fd533": {
       "id": "43a169d12795a9c39079",
@@ -15633,8 +15648,9 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-11-16T12:05:39.242076+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09"
+      "status": "published",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.theguardian.com/tv-and-radio/2026/nov/16/eurovision-organisers-malaysia-removal-lgbt-footage-first-asian-contest": {
       "id": "d2a40e942f9610e23f38",
@@ -19016,8 +19032,9 @@
       "source_name": "Euronews - World",
       "category": "world",
       "first_seen_at": "2026-11-16T01:26:15.704163+00:00",
-      "status": "ready_for_publish",
-      "article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b"
+      "status": "published",
+      "article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.euronews.com/2026/11/15/australia-and-philippines-sign-new-defence-pact-amid-south-china-sea-tensions": {
       "id": "581e43f0185efc2b42e6",
@@ -19197,7 +19214,8 @@
       "source_name": "Al Jazeera - All",
       "category": "world",
       "first_seen_at": "2026-11-16T01:26:15.704105+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc"
     },
     "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss": {
       "id": "175e955f766e2b5002bf",
@@ -23208,7 +23226,8 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-11-15T11:32:29.952417+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "bong-bau-duc-ai-hoc-my-top-5-on-inh-sau-tuan-11-kich-tinh-8b440bdc"
     },
     "https://www.skysports.com/cricket/live-blog/12040/13612226/australia-vs-england-second-odi-live-latest-score-updates-as-harry-brooks-side-look-to-level-series-in-adelaide": {
       "id": "800ac1d7de24ced5e155",
@@ -25360,7 +25379,8 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-15T11:32:29.951614+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "bien-ong-tai-san-cua-ong-ceo-binance-yi-he-trong-ot-thi-truong-lao-doc-809fdbcc"
     },
     "https://thanhnien.vn/lich-thi-dau-doi-tuyen-viet-nam-vs-kyrgyzstan-moi-nhat-gio-cuc-dep-chi-phat-truc-tiep-tren-mot-kenh-185261115130423939.htm": {
       "id": "4a757dbcaad651849b80",
@@ -37765,8 +37785,9 @@
       "source_name": "CNBC - Top News",
       "category": "world",
       "first_seen_at": "2026-11-14T02:27:59.274773+00:00",
-      "status": "ready_for_publish",
-      "article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73"
+      "status": "published",
+      "article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html": {
       "id": "dfdb16d10022176c1f19",
@@ -38534,8 +38555,9 @@
       "source_name": "France 24 - English",
       "category": "world",
       "first_seen_at": "2026-11-14T02:27:59.274435+00:00",
-      "status": "ready_for_publish",
-      "article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400"
+      "status": "published",
+      "article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+      "published_at": "2026-11-17T13:55:02.870441+00:00"
     },
     "https://www.france24.com/en/tv-shows/access-asia/20261113-el-ni%C3%B1o-fuels-climate-disasters-the-high-price-of-inaction": {
       "id": "5caf5eedf5acab06b302",
@@ -179339,86 +179361,6 @@
   "source_usage": [
     {
       "source_name": "Dân Trí - Tin mới",
-      "source_url": "https://dantri.com.vn/the-thao/u23-viet-nam-u23-thai-lan-19h-hom-nay-the-he-moi-ra-mat-20261109233314665.htm",
-      "category": "sports",
-      "article_id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
-      "published_at": "2026-11-10T04:19:30.281808+00:00",
-      "recorded_at": "2026-11-10T04:19:30.281808+00:00"
-    },
-    {
-      "source_name": "Tuổi Trẻ - Tin mới",
-      "source_url": "https://tuoitre.vn/nu-dai-kien-tuong-viet-nam-vo-dich-giai-co-chop-dong-nam-a-100261109161009484.htm",
-      "category": "sports",
-      "article_id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
-      "published_at": "2026-11-10T04:19:30.281808+00:00",
-      "recorded_at": "2026-11-10T04:19:30.281808+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/lo-dien-11-dai-dien-viet-nam-tranh-tai-tai-tiktok-awards-dong-nam-a-2026-185261110091140968.htm",
-      "category": "sports",
-      "article_id": "u23-viet-nam-u23-thai-lan-man-ra-mat-cua-the-he-cau-thu-moi-92d47dd4",
-      "published_at": "2026-11-10T04:19:30.281808+00:00",
-      "recorded_at": "2026-11-10T04:19:30.281808+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/bo-truong-xay-dung-noi-ve-3-cao-toc-hon-162000-ti-sap-dau-tu-185261110183359111.htm",
-      "category": "vietnam",
-      "article_id": "bo-truong-xay-dung-giai-trinh-ve-nguon-von-va-phuong-an-thiet-ke-3-tuyen-f49ac739",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "Dân Trí - Tin mới",
-      "source_url": "https://dantri.com.vn/noi-vu/vinh-long-tang-toc-xu-ly-750-tru-so-doi-du-sau-nhap-tinh-sap-xep-bo-may-20261109162032990.htm",
-      "category": "vietnam",
-      "article_id": "bo-truong-xay-dung-giai-trinh-ve-nguon-von-va-phuong-an-thiet-ke-3-tuyen-f49ac739",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "Engadget - All",
-      "source_url": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank",
-      "category": "technology",
-      "article_id": "coinbase-uoc-cap-phep-hoat-ong-nhu-ngan-hang-tin-thac-quoc-gia-43b8d063",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "TechCrunch - All",
-      "source_url": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery",
-      "category": "technology",
-      "article_id": "coinbase-uoc-cap-phep-hoat-ong-nhu-ngan-hang-tin-thac-quoc-gia-43b8d063",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "BBC - Business",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
-      "category": "world",
-      "article_id": "doanh-thu-thuc-pham-ong-hop-va-nuoc-ong-chai-tang-manh-tai-anh-sau-chien-226952f9",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "CNBC - Top News",
-      "source_url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
-      "category": "world",
-      "article_id": "doanh-thu-thuc-pham-ong-hop-va-nuoc-ong-chai-tang-manh-tai-anh-sau-chien-226952f9",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/thu-minh-noi-ve-truc-nhan-huong-tram-185261110163930124.htm",
-      "category": "technology",
-      "article_id": "thu-minh-bay-to-niem-tu-hao-ve-truc-nhan-va-huong-tram-b946b225",
-      "published_at": "2026-11-10T13:00:41.389385+00:00",
-      "recorded_at": "2026-11-10T13:00:41.389385+00:00"
-    },
-    {
-      "source_name": "Dân Trí - Tin mới",
       "source_url": "https://dantri.com.vn/suc-khoe/khi-chuyen-kho-noi-cua-benh-nhan-thanh-tro-cuoi-tren-trang-ca-nhan-bac-si-20261102215316204.htm",
       "category": "technology",
       "article_id": "thu-minh-bay-to-niem-tu-hao-ve-truc-nhan-va-huong-tram-b946b225",
@@ -180936,6 +180878,86 @@
       "article_id": "quarterback-gio-lopez-vuon-len-nhom-ung-vien-hang-au-heisman-watch-be28f876",
       "published_at": "2026-11-17T04:47:05.845715+00:00",
       "recorded_at": "2026-11-17T04:47:05.845715+00:00"
+    },
+    {
+      "source_name": "ScienceDaily - All",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+      "category": "technology",
+      "article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years",
+      "category": "technology",
+      "article_id": "phat-hien-tin-hieu-la-trong-anh-sang-co-xua-cua-vu-tru-manh-moi-ve-vat-l-a8e4c99b",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+      "category": "world",
+      "article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/video/20261113-west-bank-without-international-trade-and-financial-support-large-settlements-would-not-exist-1",
+      "category": "world",
+      "article_id": "anh-cong-bo-cac-lenh-trung-phat-au-tien-nham-vao-doanh-nghiep-israel-tai-a9be0400",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+      "category": "world",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
+      "category": "world",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "NYT - World",
+      "source_url": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+      "category": "world",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
+      "category": "world",
+      "article_id": "tong-thong-my-donald-trump-bat-au-chuyen-cong-du-chau-a-trong-boi-canh-n-4770fc09",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+      "category": "sports",
+      "article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
+    },
+    {
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "category": "sports",
+      "article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+      "published_at": "2026-11-17T13:55:02.870441+00:00",
+      "recorded_at": "2026-11-17T13:55:02.870441+00:00"
     }
   ],
   "last_run_window_end": "2026-11-17T12:29:54.439886+00:00"
