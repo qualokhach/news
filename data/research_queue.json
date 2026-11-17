@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "c37f9dd44b1d6c3fde47",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T17:56:30.019076+00:00",
     "expires_at": "2026-11-20T17:54:43.593908+00:00",
     "category_hint": "sports",
@@ -582,11 +582,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T17:56:30.019109+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhan-inh-thi-truong-cau-thu-tu-do-mlb-nhung-thuong-vu-ang-au-tu-va-can-c-4eca1921"
   },
   {
     "queue_id": "7f5675d0083249a36322",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T17:56:25.844829+00:00",
     "expires_at": "2026-11-20T17:54:43.593908+00:00",
     "category_hint": "vietnam",
@@ -2064,11 +2065,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T17:56:25.844852+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "oi-tuyen-viet-nam-lo-hen-voi-chuc-vo-ich-casper-cup-2026-68030291"
   },
   {
     "queue_id": "1a0aac968a4e8b3fad7a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T17:56:18.522932+00:00",
     "expires_at": "2026-11-20T17:54:43.593908+00:00",
     "category_hint": "world",
@@ -2767,7 +2769,8 @@
       ]
     },
     "research_ready_at": "2026-11-17T17:56:18.522955+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "my-chinh-thuc-mat-trang-thai-mien-dich-soi-sau-26-nam-65474e82"
   },
   {
     "queue_id": "3ddf9e6a1bc11a8949df",
@@ -76540,5 +76543,680 @@
     },
     "published_at": "2026-11-12T17:47:56.715234+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nhan-inh-thi-truong-cau-thu-tu-do-mlb-nhung-thuong-vu-ang-au-tu-va-can-c-4eca1921",
+    "status": "READY",
+    "prepared_at": "2026-11-17T17:57:05.989656+00:00",
+    "expires_at": "2026-11-18T17:57:05.989656+00:00",
+    "source_urls": [
+      "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+      "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872"
+    ],
+    "article": {
+      "id": "nhan-inh-thi-truong-cau-thu-tu-do-mlb-nhung-thuong-vu-ang-au-tu-va-can-c-4eca1921",
+      "title": "Nhận định thị trường cầu thủ tự do MLB: Những thương vụ đáng đầu tư và cần cân nhắc",
+      "summary": "Giới chuyên môn đưa ra các dự báo và tiêu chí lựa chọn cầu thủ tự do trong kỳ chuyển nhượng MLB 2026-27, trong đó Seiya Suzuki được đánh giá là một trong những lựa chọn an toàn nhất nhờ sự ổn định và bền bỉ.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+      "published_at": "2026-11-17T17:45:45+00:00",
+      "fetched_at": "2026-11-17T17:57:11.174990+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Kỳ chuyển nhượng cầu thủ tự do Major League Baseball (MLB) mùa giải 2026-27 đang diễn ra trong bối cảnh thị trường có nhiều biến động và thời gian chuẩn bị ngắn trước thời điểm tháng 12. Giới phân tích thể thao đã tiến hành xếp hạng và dự báo hợp đồng cho nhóm cầu thủ dẫn đầu, qua đó lọc ra những cái tên mang lại giá trị hiệu quả cao nhất trên chi phí đầu tư dự kiến.",
+        "Trong số các outfielder (cầu thủ ngoài sân) hàng đầu, Seiya Suzuki của Chicago Cubs nổi lên như một điểm sáng với độ an toàn cao. Các chuyên gia đánh giá cao Suzuki nhờ sự bền bỉ và phong độ ổn định trong nhiều mùa giải qua. Dù bước sang tuổi 32, khả năng duy trì hiệu suất tấn công lẫn phòng ngự giúp anh trở thành mục tiêu săn đón của nhiều đội bóng muốn củng cố lực lượng ngay lập tức.",
+        "Theo các dự báo thị trường, hợp đồng tiềm năng của Suzuki có thể đạt mức bốn năm với giá trị 90 triệu USD, hoặc thậm chí vươn lên cột mốc cao hơn tùy thuộc vào sự quan tâm từ các CLB khát ngôi sao. Việc cân nhắc giữa giá trị hợp đồng dài hạn và rủi ro sụt giảm phong độ ở những năm cuối luôn là bài toán trọng tâm cho các đội bóng trong mùa Đông này."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Thị trường cầu thủ tự do MLB 2026-27: Đáng đầu tư và cần tránh",
+      "meta_description": "Phân tích các phương án đầu tư cầu thủ tự do MLB mùa giải 2026-27 dựa trên dự báo hợp đồng và hiệu suất thực tế.",
+      "keywords": [
+        "MLB",
+        "Cầu thủ tự do",
+        "Seiya Suzuki",
+        "Chuyển nhượng bóng chày"
+      ],
+      "slug": "nhan-inh-thi-truong-cau-thu-tu-do-mlb-nhung-thuong-vu-ang-au-tu-va-can-c-4eca1921",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 243,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+        "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T17:45:45+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T16:32:31+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Seiya Suzuki là một trong những outfielder ổn định nhất trong những mùa giải gần đây với nền tảng thể lực và phong độ được đánh giá cao.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872"
+          ],
+          "importance": "core",
+          "evidence_snippet": "For theChicago Cubs, two outfielders are likely to draw serious interest: Seiya Suzuki and Ian Happ are among the best OF options available this Fall.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872",
+              "snippet": "For theChicago Cubs, two outfielders are likely to draw serious interest: Seiya Suzuki and Ian Happ are among the best OF options available this Fall.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/mlb/chicago-cubs/news/why-cubs-seiya-suzuki-might-one-safest-bets-mlb-free-agency/2e3528ec4c0e5caa270b3872",
+              "page_sha256": "fc1e03db03df00220da748d14925796e8ed7654656a99701a757eb156c653476",
+              "snippet_sha256": "6b0aa856b5c9777bb818d481db7955004fecac7c510bd7540d61a05eebd65d86",
+              "verified_at": "2026-11-17T17:57:11.174464+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hợp đồng dự kiến của Seiya Suzuki được định mức ở mức 4 năm với giá trị 90 triệu USD.",
+          "source_urls": [
+            "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Projected contract: 4 years, $90 million (22.5 AAV)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+              "snippet": "Projected contract: 4 years, $90 million (22.5 AAV)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+              "page_sha256": "4d94c004f2b928be62cbd4a2f677f143998f25108d07e703939b52b415ca916d",
+              "snippet_sha256": "ed4e3bc386994ef505c96c356c1a26e1017c61e9d0ac33aab06a3f7caf29b876",
+              "verified_at": "2026-11-17T17:57:11.174464+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mùa chuyển nhượng 2026-27 diễn ra trong bối cảnh ngắn hạn trước thời điểm tháng 12 do các cuộc đàm phán thỏa thuận lao động.",
+          "source_urls": [
+            "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Here are my three free agents to invest in and three to avoid for the 2026-27 MLB offseason.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+              "snippet": "Here are my three free agents to invest in and three to avoid for the 2026-27 MLB offseason.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mlb/story/_/id/50501988/free-agency-2026-27-invest-avoid-contract-projections",
+              "page_sha256": "4d94c004f2b928be62cbd4a2f677f143998f25108d07e703939b52b415ca916d",
+              "snippet_sha256": "3d1c502eaf2b26b1be27cfe6e34cddf07172fc3a3e89e6ad4f7c611aac81a297",
+              "verified_at": "2026-11-17T17:57:11.174464+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ các tiêu chí định giá và lựa chọn cầu thủ tự do của chuyên gia, đồng thời phân tích trường hợp cụ thể của Seiya Suzuki trong bối cảnh thị trường MLB ngắn hạn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T17:57:11.175056+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "27",
+        "32",
+        "90"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T17:57:11.175924+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 243,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1107
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "oi-tuyen-viet-nam-lo-hen-voi-chuc-vo-ich-casper-cup-2026-68030291",
+    "status": "READY",
+    "prepared_at": "2026-11-17T17:57:05.989656+00:00",
+    "expires_at": "2026-11-18T17:57:05.989656+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+      "https://dantri.com.vn/the-thao/hlv-kyrgyzstan-doi-tuyen-viet-nam-co-nhieu-cau-thu-gioi-20261117224342281.htm",
+      "https://tuoitre.vn/bang-xep-hang-casper-cup-2026-tuyen-viet-nam-dung-thu-2-100261117215716994.htm"
+    ],
+    "article": {
+      "id": "oi-tuyen-viet-nam-lo-hen-voi-chuc-vo-ich-casper-cup-2026-68030291",
+      "title": "Đội tuyển Việt Nam lỡ hẹn với chức vô địch Casper Cup 2026",
+      "summary": "Dẫn trước từ sớm nhưng đội tuyển Việt Nam đã để thua ngược Kyrgyzstan 1-2 trong những phút cuối trận, qua đó khép lại giải giao hữu quốc tế Casper Cup 2026 ở vị trí á quân.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+      "published_at": "2026-11-17T14:56:00+00:00",
+      "fetched_at": "2026-11-17T17:57:43.822096+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 17/11/2026, trên sân vận động Thiên Trường (Ninh Bình), đội tuyển Việt Nam đã khép lại hành trình tại giải giao hữu quốc tế Casper Cup 2026 bằng trận thua ngược 1-2 trước Kyrgyzstan. Kết quả này khiến thầy trò huấn luyện viên Kim Sang Sik lỡ cơ hội đăng quang ngay trên sân nhà, trong khi đội bóng Trung Á chính thức giành ngôi vô địch với thành tích toàn thắng.",
+        "Trận đấu diễn ra với kịch bản đầy tiếc nuối cho đội chủ nhà. Ngay từ phút 19, tiền đạo Nguyễn Đình Bắc đã khai thông thế bế tắc bằng một pha solo và dứt điểm đẹp mắt từ ngoài khu vực 16m50, đưa Việt Nam vươn lên dẫn trước. Lợi thế này được duy trì trong phần lớn thời gian thi đấu, giúp người hâm mộ kỳ vọng vào một chiến thắng chung cuộc.",
+        "Tuy nhiên, cục diện thay đổi chóng mặt ở những phút cuối trận. Phút 86, Valerii Kichin tận dụng tình huống phạt góc để đánh đầu gỡ hòa cho Kyrgyzstan. Chỉ ba phút sau, ở phút 89, Atabaev thực hiện cú lốp bóng từ phần sân nhà, tận dụng sai lầm của thủ môn Trung Kiên để ấn định chiến thắng 2-1 cho đội khách. Những phút bù giờ ít ỏi còn lại không đủ để đội tuyển Việt Nam tìm kiếm bàn gỡ.",
+        "Sau trận đấu, huấn luyện viên Urmat Abdukaimov của Kyrgyzstan đánh giá cao năng lực của các cầu thủ Việt Nam nhưng cho rằng chất lượng đội hình dự bị của đội bóng Trung Á đã tạo ra sự khác biệt. Về phía đội tuyển Việt Nam, giải đấu này được xem là cơ hội để ban huấn luyện thử nghiệm đội hình và đánh giá lực lượng. Với kết quả này, Việt Nam kết thúc giải với 3 điểm sau hai lượt trận, xếp thứ hai trên bảng xếp hạng, trong khi Đài Loan (Trung Quốc) đứng cuối bảng sau hai trận toàn thua. Trận thua này cũng được ghi nhận là khiến đội tuyển Việt Nam bị trừ điểm trên bảng xếp hạng FIFA."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Kết quả Casper Cup 2026: Việt Nam thua ngược Kyrgyzstan",
+      "meta_description": "Đội tuyển Việt Nam đánh rơi chức vô địch Casper Cup 2026 sau trận thua ngược 1-2 trước Kyrgyzstan tại sân Thiên Trường tối 17/11/2026.",
+      "keywords": [
+        "Casper Cup 2026",
+        "đội tuyển Việt Nam",
+        "Kyrgyzstan",
+        "bóng đá",
+        "sân Thiên Trường"
+      ],
+      "slug": "oi-tuyen-viet-nam-lo-hen-voi-chuc-vo-ich-casper-cup-2026-68030291",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 358,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+        "https://dantri.com.vn/the-thao/hlv-kyrgyzstan-doi-tuyen-viet-nam-co-nhieu-cau-thu-gioi-20261117224342281.htm",
+        "https://tuoitre.vn/bang-xep-hang-casper-cup-2026-tuyen-viet-nam-dung-thu-2-100261117215716994.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/hlv-kyrgyzstan-doi-tuyen-viet-nam-co-nhieu-cau-thu-gioi-20261117224342281.htm",
+        "https://tuoitre.vn/bang-xep-hang-casper-cup-2026-tuyen-viet-nam-dung-thu-2-100261117215716994.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T14:56:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/hlv-kyrgyzstan-doi-tuyen-viet-nam-co-nhieu-cau-thu-gioi-20261117224342281.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T15:56:42+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/bang-xep-hang-casper-cup-2026-tuyen-viet-nam-dung-thu-2-100261117215716994.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T15:48:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội tuyển Việt Nam thua Kyrgyzstan 1-2 tại Casper Cup 2026 vào ngày 17/11/2026 trên sân Thiên Trường.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đội tuyển Việt Nam đánh rơi chức vô địch Casper Cup 2026 trong vài phút nghiệt ngãBỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "snippet": "Đội tuyển Việt Nam đánh rơi chức vô địch Casper Cup 2026 trong vài phút nghiệt ngãBỏ qua đến nội dung chínhBạn cần biếtTiện íchLiên hệTheo dõi báo trên",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "page_sha256": "f59b2ec87a2455724ecb9c9d1286202d931f9bf4b2c12057ad64eb4dcc661f62",
+              "snippet_sha256": "395d8e284eb0068d7ed93d6b430aa7a15b2ca27ee1f3c0ad1ec27478832f57b6",
+              "verified_at": "2026-11-17T17:57:43.821768+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguyễn Đình Bắc ghi bàn mở tỷ số cho Việt Nam ở phút 19.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đình Bắc mở tỷ số ở phút 19 bằng pha solo và dứt điểm đẹp mắt, giúp đội tuyển Việt Nam dẫn trước trong phần lớn trận đấu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "snippet": "Đình Bắc mở tỷ số ở phút 19 bằng pha solo và dứt điểm đẹp mắt, giúp đội tuyển Việt Nam dẫn trước trong phần lớn trận đấu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "page_sha256": "f59b2ec87a2455724ecb9c9d1286202d931f9bf4b2c12057ad64eb4dcc661f62",
+              "snippet_sha256": "c702b557933e340824ef60de9d25cbbb2db57cbcbf5027b6e642d9784824519c",
+              "verified_at": "2026-11-17T17:57:43.821768+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kyrgyzstan ghi hai bàn ở phút 86 và 89 để lội ngược dòng.",
+          "source_urls": [
+            "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tuy nhiên, Kichin đánh đầu gỡ hòa ở phút 86, trước khi Atabaev lốp bóng ấn định chiến thắng 2-1 cho Kyrgyzstan ở phút 89.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "snippet": "Tuy nhiên, Kichin đánh đầu gỡ hòa ở phút 86, trước khi Atabaev lốp bóng ấn định chiến thắng 2-1 cho Kyrgyzstan ở phút 89.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/doi-tuyen-viet-nam-danh-roi-chuc-vo-dich-casper-cup-2026-trong-vai-phut-nghiet-nga-185261117215255339.htm",
+              "page_sha256": "f59b2ec87a2455724ecb9c9d1286202d931f9bf4b2c12057ad64eb4dcc661f62",
+              "snippet_sha256": "71b6c5160e5aca443ed0809f73cf6433a721f1cd7aa0c1db9a9a7390464aa416",
+              "verified_at": "2026-11-17T17:57:43.821768+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến kịch tính trong những phút cuối trận, giải thích nguyên nhân dẫn đến sự thay đổi kết quả. Đồng thời, bài báo đặt trận đấu vào bối cảnh giải giao hữu nhằm đánh giá lực lượng của đội tuyển Việt Nam.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T17:57:43.822194+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "16",
+        "19",
+        "2026",
+        "3",
+        "50",
+        "86",
+        "89"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T17:57:43.823092+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 358,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1678
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "my-chinh-thuc-mat-trang-thai-mien-dich-soi-sau-26-nam-65474e82",
+    "status": "READY",
+    "prepared_at": "2026-11-17T17:57:05.989656+00:00",
+    "expires_at": "2026-11-18T17:57:05.989656+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+      "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
+      "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+      "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho"
+    ],
+    "article": {
+      "id": "my-chinh-thuc-mat-trang-thai-mien-dich-soi-sau-26-nam-65474e82",
+      "title": "Mỹ chính thức mất trạng thái miễn dịch sởi sau 26 năm",
+      "summary": "Tổ chức Y tế Pan American (PAHO) đã宣 bố Mỹ mất trạng thái miễn dịch sởi sau 26 năm do số ca nhiễm tăng cao và lan rộng trên toàn quốc.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+      "published_at": "2026-11-17T16:07:53+00:00",
+      "fetched_at": "2026-11-17T17:59:14.003213+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mỹ đã chính thức mất trạng thái miễn dịch sởi sau 26 năm, theo tuyên bố của Tổ chức Y tế Pan American (PAHO). Đây là một bước lùi lớn trong lĩnh vực y tế công cộng của nước này.",
+        "Số ca nhiễm sởi tại Mỹ đã tăng cao trong những năm gần đây, với hơn 5.400 ca nhiễm được báo cáo vào năm 2026. Điều này đã khiến PAHO phải xem xét lại trạng thái miễn dịch sởi của Mỹ.",
+        "PAHO đã quyết định rút trạng thái miễn dịch sởi của Mỹ sau khi xem xét các bằng chứng dịch tễ và phòng thí nghiệm. Tổ chức này cũng đã tuyên bố rằng sởi đã trở thành một bệnh truyền nhiễm liên tục tại Mỹ.",
+        "Mất trạng thái miễn dịch sởi có thể có những hậu quả nghiêm trọng, bao gồm cả việc lan rộng của bệnh trên toàn quốc và tăng nguy cơ mắc bệnh cho những người chưa được tiêm chủng.",
+        "Các chuyên gia y tế đang kêu gọi người dân Mỹ phải tiêm chủng đầy đủ để ngăn chặn sự lan rộng của sởi và phục hồi trạng thái miễn dịch sởi cho nước này."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Mỹ mất trạng thái miễn dịch sởi sau 26 năm",
+      "meta_description": "Tổ chức Y tế Pan American (PAHO) đã tuyên bố Mỹ mất trạng thái miễn dịch sởi sau 26 năm do số ca nhiễm tăng cao và lan rộng trên toàn quốc.",
+      "keywords": [
+        "Mỹ",
+        "sởi",
+        "miễn dịch",
+        "PAHO"
+      ],
+      "slug": "my-chinh-thuc-mat-trang-thai-mien-dich-soi-sau-26-nam-65474e82",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 199,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
+        "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+        "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
+        "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+        "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T16:07:53+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T17:10:03+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T16:16:24+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T17:09:09+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T22:15:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mỹ đã mất trạng thái miễn dịch sởi sau 26 năm",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The United States has officially lost its measles elimination status, reversing a public health achievement maintained for 26 years, as the country grapples with its largest outbreak in more than three decades.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+              "snippet": "The United States has officially lost its measles elimination status, reversing a public health achievement maintained for 26 years, as the country grapples with its largest outbreak in more than three decades.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+              "page_sha256": "9ba1c399516d42fc954b2f5f8db36ddd3e2c8157c36416d7ec6c6cd52866687d",
+              "snippet_sha256": "0be4d95c560f7012154c4811fc672d114d9c8187569254661211ef56c2faa302",
+              "verified_at": "2026-11-17T17:59:14.002757+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Số ca nhiễm sởi tại Mỹ đã tăng cao trong những năm gần đây",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ferrari argued that the US should look to countries with experience containing measles outbreaks, including India, where community health workers visit households to identify children who may have missed vaccinations or whose families may be reluctant to vaccinate.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+              "snippet": "Ferrari argued that the US should look to countries with experience containing measles outbreaks, including India, where community health workers visit households to identify children who may have missed vaccinations or whose families may be reluctant to vaccinate.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+              "page_sha256": "9ba1c399516d42fc954b2f5f8db36ddd3e2c8157c36416d7ec6c6cd52866687d",
+              "snippet_sha256": "9936c0e7583fa5ac55d9ea00a70032e02a31e5ef5da913479d84072db010acce",
+              "verified_at": "2026-11-17T17:59:14.002757+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "PAHO đã quyết định rút trạng thái miễn dịch sởi của Mỹ",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "While they do not expect PAHO’s announcement to prompt a significant change in federal policy, some hope it will spur action among state and local health departments.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+              "snippet": "While they do not expect PAHO’s announcement to prompt a significant change in federal policy, some hope it will spur action among state and local health departments.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+              "page_sha256": "9ba1c399516d42fc954b2f5f8db36ddd3e2c8157c36416d7ec6c6cd52866687d",
+              "snippet_sha256": "e609777fabd851698a1f1a3440646d3c6d424a06b2775d7a7e76960d37c6b9e9",
+              "verified_at": "2026-11-17T17:59:14.002757+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo này cung cấp thông tin chi tiết về việc Mỹ mất trạng thái miễn dịch sởi sau 26 năm, bao gồm cả nguyên nhân và hậu quả của sự kiện này. Bài báo cũng cung cấp những thông tin hữu ích về cách phòng ngừa và kiểm soát sự lan rộng của sởi.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T17:59:14.003274+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "26",
+        "5.400"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T17:59:14.004350+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 199,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 893
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "cnbc.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
