@@ -646,5 +646,14 @@
         "reason": "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-17 11:47",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-17T04:47:05.845715+00:00",
+    "prepared_candidates": 17,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]
