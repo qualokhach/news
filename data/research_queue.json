@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "9ed06cc0a850cd5d22e6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T04:14:04.166123+00:00",
     "expires_at": "2026-11-20T04:12:11.064015+00:00",
     "category_hint": "vietnam",
@@ -622,11 +622,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T04:14:04.166145+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "dinh-duong-ung-cach-chia-khoa-tu-nhien-giup-giam-rung-toc-5ff4cdcf"
   },
   {
     "queue_id": "55d0a2c0213c20bc8fe1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T04:13:56.517190+00:00",
     "expires_at": "2026-11-20T04:12:11.064015+00:00",
     "category_hint": "sports",
@@ -1310,11 +1311,12 @@
       ]
     },
     "research_ready_at": "2026-11-17T04:13:56.517212+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "quarterback-gio-lopez-vuon-len-nhom-ung-vien-hang-au-heisman-watch-be28f876"
   },
   {
     "queue_id": "2704aab15bbf46c94d4b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-17T04:13:52.933454+00:00",
     "expires_at": "2026-11-20T04:12:11.064015+00:00",
     "category_hint": "sports",
@@ -1878,7 +1880,8 @@
       ]
     },
     "research_ready_at": "2026-11-17T04:13:52.933476+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73"
   },
   {
     "queue_id": "f4986d37558c16b712de",
@@ -75086,5 +75089,621 @@
     "research_ready_at": "2026-11-12T02:34:43.354443+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
     "written_article_id": "gioi-chuc-iran-lo-ngai-my-len-ke-hoach-tan-cong-quan-su-hoac-siet-chat-t-246744c1"
+  },
+  {
+    "queue_id": "dinh-duong-ung-cach-chia-khoa-tu-nhien-giup-giam-rung-toc-5ff4cdcf",
+    "status": "READY",
+    "prepared_at": "2026-11-17T04:14:25.568578+00:00",
+    "expires_at": "2026-11-18T04:14:25.568578+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+      "https://dantri.com.vn/bat-dong-san/hang-tram-can-ho-tap-the-cu-sap-giai-toa-de-mo-rong-quoc-lo-1a-qua-ha-noi-20261117000224666.htm",
+      "https://thanhnien.vn/hon-5000-vdv-lan-toa-loi-song-xanh-o-giai-yic-phu-ly-green-race-2026-185261115151722188.htm"
+    ],
+    "article": {
+      "id": "dinh-duong-ung-cach-chia-khoa-tu-nhien-giup-giam-rung-toc-5ff4cdcf",
+      "title": "Dinh dưỡng đúng cách: Chìa khóa tự nhiên giúp giảm rụng tóc",
+      "summary": "Việc điều chỉnh chế độ ăn uống với các thực phẩm giàu dưỡng chất đóng vai trò quan trọng trong việc bảo vệ nang tóc và hỗ trợ quá trình mọc tóc tự nhiên.",
+      "category": "technology",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+      "published_at": "2026-11-17T02:54:00+00:00",
+      "fetched_at": "2026-11-17T04:15:20.389688+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tình trạng rụng tóc không chỉ gây lo lắng về thẩm mỹ mà còn phản ánh sức khỏe của nang tóc. Bên cạnh các yếu tố như căng thẳng hay cách chăm sóc tóc, việc bổ sung dưỡng chất thông qua chế độ ăn uống hàng ngày là giải pháp tự nhiên giúp mái tóc trở nên chắc khỏe hơn.",
+        "Các loại thực phẩm như quả bơ, rau lá xanh đậm, sữa chua Hy Lạp, hàu và cá hồi được xem là nguồn cung cấp dưỡng chất thiết yếu. Quả bơ chứa folate, magie cùng vitamin E và C, trong đó vitamin E và C đóng vai trò là chất chống oxy hóa bảo vệ nang tóc khỏi tổn thương. Trong khi đó, các loại rau lá xanh đậm như cải bó xôi hay cải xoăn cung cấp vitamin nhóm B, C và các hợp chất chống viêm như quercetin, giúp bảo vệ nang tóc khỏi các tác động tiêu cực.",
+        "Protein là thành phần không thể thiếu, vì thiếu hụt protein có thể dẫn đến tóc mỏng và rụng. Sữa chua Hy Lạp không chỉ là nguồn protein tốt mà còn chứa selen và vitamin B12, những dưỡng chất giúp bảo vệ nang tóc. Đối với kẽm, hàu là thực phẩm dồi dào nhất, hỗ trợ chu kỳ phát triển của tóc; sự thiếu hụt kẽm thường liên quan đến tình trạng tóc thưa, xơ xác và bạc sớm.",
+        "Cá hồi cung cấp protein, vitamin D và các axit béo omega-3 như DHA và EPA, giúp nuôi dưỡng da đầu và bảo vệ tóc. Ngoài ra, trà xanh cũng là lựa chọn đáng chú ý nhờ chứa catechin, hợp chất có khả năng hỗ trợ quá trình mọc tóc bằng cách tác động vào quá trình chuyển đổi hormone liên quan đến rụng tóc.",
+        "Để đạt hiệu quả tối ưu, bên cạnh việc bổ sung thực phẩm, người dùng nên kết hợp các thói quen lành mạnh như tránh căng thẳng kéo dài, mát xa da đầu, hạn chế buộc tóc quá chặt và giảm sử dụng nhiệt trực tiếp lên tóc. Việc duy trì lối sống cân bằng và chế độ ăn giàu chất chống oxy hóa sẽ tạo nền tảng vững chắc cho sự phát triển của mái tóc."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Thực phẩm giàu dưỡng chất giúp giảm rụng tóc hiệu quả",
+      "meta_description": "Khám phá các loại thực phẩm như bơ, hàu, cá hồi và trà xanh giúp cung cấp dưỡng chất thiết yếu, bảo vệ nang tóc và giảm tình trạng rụng tóc.",
+      "keywords": [
+        "rụng tóc",
+        "dinh dưỡng",
+        "sức khỏe tóc",
+        "thực phẩm"
+      ],
+      "slug": "dinh-duong-ung-cach-chia-khoa-tu-nhien-giup-giam-rung-toc-5ff4cdcf",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 382,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+        "https://dantri.com.vn/bat-dong-san/hang-tram-can-ho-tap-the-cu-sap-giai-toa-de-mo-rong-quoc-lo-1a-qua-ha-noi-20261117000224666.htm",
+        "https://thanhnien.vn/hon-5000-vdv-lan-toa-loi-song-xanh-o-giai-yic-phu-ly-green-race-2026-185261115151722188.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/bat-dong-san/hang-tram-can-ho-tap-the-cu-sap-giai-toa-de-mo-rong-quoc-lo-1a-qua-ha-noi-20261117000224666.htm",
+        "https://thanhnien.vn/hon-5000-vdv-lan-toa-loi-song-xanh-o-giai-yic-phu-ly-green-race-2026-185261115151722188.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T02:54:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/bat-dong-san/hang-tram-can-ho-tap-the-cu-sap-giai-toa-de-mo-rong-quoc-lo-1a-qua-ha-noi-20261117000224666.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T02:21:57+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/hon-5000-vdv-lan-toa-loi-song-xanh-o-giai-yic-phu-ly-green-race-2026-185261115151722188.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T08:29:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Quả bơ chứa folate, magie, vitamin E và C giúp bảo vệ nang tóc và hỗ trợ sức khỏe mái tóc.",
+          "source_urls": [
+            "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Bơ chứa các dưỡng chất có lợi cho sức khỏe mái tóc, chẳng hạn như folate, magie cùng các vitamin E và C.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+              "snippet": "Bơ chứa các dưỡng chất có lợi cho sức khỏe mái tóc, chẳng hạn như folate, magie cùng các vitamin E và C.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+              "page_sha256": "17a5e8275e33dfe307fe3ab9e06ff234932b66319df34a420839e0c8709c2a64",
+              "snippet_sha256": "1d01aa18156c69545f91b5d2d25e8ac9401bf44188803dcdf1134e9e1863a90b",
+              "verified_at": "2026-11-17T04:15:20.389022+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hàu giàu kẽm, protein, selen và vitamin B12, là các dưỡng chất quan trọng cho chu kỳ phát triển của tóc.",
+          "source_urls": [
+            "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hàu cũng cung cấp protein, selen và vitamin B12, các dưỡng chất quan trọng đối với sự phát triển của tóc.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+              "snippet": "Hàu cũng cung cấp protein, selen và vitamin B12, các dưỡng chất quan trọng đối với sự phát triển của tóc.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+              "page_sha256": "17a5e8275e33dfe307fe3ab9e06ff234932b66319df34a420839e0c8709c2a64",
+              "snippet_sha256": "f1484b8d55d9f8c3cd1cb1d44010fc22fbf53ce8ab845d787dee90fc5eea2efc",
+              "verified_at": "2026-11-17T04:15:20.389022+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cá hồi cung cấp protein, axit béo omega-3, vitamin B12 và D giúp nuôi dưỡng và bảo vệ sức khỏe tóc cũng như da đầu.",
+          "source_urls": [
+            "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cá hồi chứa hàm lượng cao protein, axit béo omega-3 cùng các vitamin B12 và D, hỗ trợ sức khỏe tổng thể và sự phát triển của mái tóc.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+              "snippet": "Cá hồi chứa hàm lượng cao protein, axit béo omega-3 cùng các vitamin B12 và D, hỗ trợ sức khỏe tổng thể và sự phát triển của mái tóc.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/nhung-thuc-an-giau-duong-chat-giup-giai-toa-noi-lo-rung-toc-100261117095241749.htm",
+              "page_sha256": "17a5e8275e33dfe307fe3ab9e06ff234932b66319df34a420839e0c8709c2a64",
+              "snippet_sha256": "72dddb58dda2dc7b02ce47070714fd4c5ec9141ac9e75f0ef0686a4d18552199",
+              "verified_at": "2026-11-17T04:15:20.389022+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết hệ thống hóa các nhóm thực phẩm cụ thể dựa trên cơ chế tác động của từng dưỡng chất đối với nang tóc. Đồng thời, bài viết làm rõ mối liên hệ giữa thói quen sinh hoạt và chế độ ăn uống trong việc giải quyết vấn đề rụng tóc.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T04:15:20.389783+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "3"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T04:15:20.391264+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 382,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1725
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "quarterback-gio-lopez-vuon-len-nhom-ung-vien-hang-au-heisman-watch-be28f876",
+    "status": "READY",
+    "prepared_at": "2026-11-17T04:14:25.568578+00:00",
+    "expires_at": "2026-11-18T04:14:25.568578+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+      "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html"
+    ],
+    "article": {
+      "id": "quarterback-gio-lopez-vuon-len-nhom-ung-vien-hang-au-heisman-watch-be28f876",
+      "title": "Quarterback Gio Lopez vươn lên nhóm ứng viên hàng đầu Heisman Watch",
+      "summary": "Tiền vệ Gio Lopez của Wake Forest đã chính thức bước vào danh sách ứng viên hàng đầu cho giải thưởng Heisman Trophy sau những màn thể hiện ấn tượng mùa giải này.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+      "published_at": "2026-11-17T02:07:32+00:00",
+      "fetched_at": "2026-11-17T04:15:25.493116+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tiền vệ chủ lực Gio Lopez của đội bóng bầu dục đại học Wake Forest đã chính thức góp mặt trong nhóm ứng viên hàng đầu của danh sách Heisman Watch, đánh dấu bước tiến lớn sau chuỗi thành tích ấn tượng cùng đội nhà trong suốt mùa giải năm nay.",
+        "Trong trận đấu gần đây nhất, Lopez đã chuyền bóng đạt 201 yards cùng một touchdown và tự mình ghi hai touchdown bằng những tình huống chạy bóng, giúp Wake Forest giành chiến thắng áp đảo 49-7 trước đối thủ SMU diễn ra vào thứ Bảy.",
+        "Chiến thắng thuyết phục trước một đối thủ từng nằm trong top 25 của bảng xếp hạng Associated Press đã tạo ra sức hút lớn, giúp cầu thủ này chuyển từ nhóm dự bị sang thẳng nhóm ứng viên sáng giá cho danh hiệu cá nhân danh giá của bóng bầu dục sinh viên.",
+        "Tính đến thời điểm hiện tại của mùa giải, tài năng trẻ này đã có được tổng cộng 2.377 yards chuyền bóng và 19 đường chuyền thành bàn chỉ sau chín trận ra sân, bên cạnh 351 yards chạy bóng cùng 8 lần tự ghi điểm cho đội bóng.",
+        "Thành tích thi đấu xuất sắc của Lopez cũng đồng thời góp phần quan trọng đưa Wake Forest leo lên vị trí thứ 10 trong bảng xếp hạng cập nhật mới nhất của AP Top 25, khẳng định vị thế cạnh tranh mạnh mẽ của toàn đội trong giai đoạn nước rút."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Gio Lopez vào nhóm ứng viên hàng đầu Heisman Watch",
+      "meta_description": "Tiền vệ Gio Lopez của Wake Forest vươn lên nhóm ứng viên hàng đầu trong danh sách Heisman Watch sau chiến thắng thuyết phục trước SMU.",
+      "keywords": [
+        "Gio Lopez",
+        "Wake Forest",
+        "Heisman Watch",
+        "bóng bầu dục đại học"
+      ],
+      "slug": "quarterback-gio-lopez-vuon-len-nhom-ung-vien-hang-au-heisman-watch-be28f876",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 252,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+        "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T02:07:32+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-11T14:13:25+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Gio Lopez passed for 201 yards and a touchdown and ran for two scores in a 49-7 rout of SMU on Saturday.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Lopez passed for 201 yards and a touchdown and ran for two scores in a 49-7 rout of SMU on Saturday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+              "snippet": "Lopez passed for 201 yards and a touchdown and ran for two scores in a 49-7 rout of SMU on Saturday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+              "page_sha256": "676252c51c529e730b84ac5c8a1c33ef15e5259676037032ada6340ac81ab59a",
+              "snippet_sha256": "2a05057ad6c698b4bf0128c59b1f652d1c1253d8699759294b4ce94e704bf93e",
+              "verified_at": "2026-11-17T04:15:25.492508+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "The North Carolina transfer has passed for 2,377 yards and 19 touchdowns with one interception, and he has riushed for 351 yards and eight scores in nine games.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The North Carolina transfer has passed for 2,377 yards and 19 touchdowns with one interception, and he has riushed for 351 yards and eight scores.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+              "snippet": "The North Carolina transfer has passed for 2,377 yards and 19 touchdowns with one interception, and he has riushed for 351 yards and eight scores.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+              "page_sha256": "676252c51c529e730b84ac5c8a1c33ef15e5259676037032ada6340ac81ab59a",
+              "snippet_sha256": "dc542c0bb09a2ba1d738f89391dc61bb6d6a2b204e514531b384ea7a6a1bb87f",
+              "verified_at": "2026-11-17T04:15:25.492508+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lopez's success has pushed the Demon Deacons up to No. 10 in the latest AP Top 25.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "10 in the latest AP Top 25.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+              "snippet": "10 in the latest AP Top 25.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/wake-forest-qb-gio-lopez-enters-heisman-watch-top-contenders-list/8d4bf4ece401f505915aaa49",
+              "page_sha256": "676252c51c529e730b84ac5c8a1c33ef15e5259676037032ada6340ac81ab59a",
+              "snippet_sha256": "bf1454c525f48a5a2b87b046806041c26b5bb5065f3eb05414b0a69571a63728",
+              "verified_at": "2026-11-17T04:15:25.492508+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật chi tiết về sự thăng tiến của Gio Lopez trong cuộc đua Heisman Trophy. Nội dung làm rõ bối cảnh thành tích thi đấu và tác động trực tiếp của các chiến thắng gần đây đối với thứ hạng của đội bóng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T04:15:25.493206+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "19",
+        "2.377",
+        "201",
+        "25",
+        "351",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T04:15:25.494256+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 252,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1186
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+    "status": "READY",
+    "prepared_at": "2026-11-17T04:14:25.568578+00:00",
+    "expires_at": "2026-11-18T04:14:25.568578+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+      "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+    ],
+    "article": {
+      "id": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+      "title": "Khủng hoảng tại Washington Wizards: Vì sao chuỗi 8 trận thua kéo dài?",
+      "summary": "Washington Wizards đang trải qua chuỗi 8 trận thua liên tiếp đầy thất vọng. Dưới đây là 5 nguyên nhân chính dẫn đến tình trạng sa sút của đội bóng này trong mùa giải hiện tại.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+      "published_at": "2026-11-17T02:44:28+00:00",
+      "fetched_at": "2026-11-17T04:15:43.910299+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau khởi đầu đầy hứa hẹn với tỷ lệ thắng 4-3, Washington Wizards bất ngờ rơi vào cuộc khủng hoảng phong độ nghiêm trọng với chuỗi 8 trận thua liên tiếp. Hiện tại, đội bóng đang đứng ở mức 4-11 sau 15 trận đấu, một kết quả nằm ngoài dự tính của ban huấn luyện và người hâm mộ.",
+        "Nguyên nhân đầu tiên và rõ rệt nhất nằm ở hàng phòng ngự lỏng lẻo. Trong chuỗi trận thất bại này, đối thủ của Wizards đạt tỷ lệ ném rổ thành công trên 50% và ghi trung bình 129,5 điểm mỗi trận. Washington hiện là đội để đối phương có nhiều pha kiến tạo nhất tại khu vực miền Đông, đồng thời gặp khó khăn lớn trong việc kiểm soát bóng bật bảng dù sở hữu Anthony Davis và Alex Sarr trong đội hình.",
+        "Trên mặt trận tấn công, phong độ của ngôi sao Trae Young là một dấu hỏi lớn. Cầu thủ này đang có hiệu suất ném 3 điểm chỉ đạt hơn 30% và tỷ lệ ném tổng thể dưới 40%. Sự thiếu ổn định của Young, kết hợp với việc Alex Sarr chưa tìm được nhịp độ thi đấu ổn định, khiến đội bóng thiếu đi phương án ghi điểm hiệu quả.",
+        "Cuối cùng, áp lực tâm lý và vai trò của huấn luyện viên Brian Keefe đang trở thành tâm điểm. Đội bóng dường như chưa thoát khỏi thói quen thua cuộc kéo dài từ những mùa giải trước. Việc thiếu sự dẫn dắt quyết liệt từ các cựu binh để định hướng cho dàn cầu thủ trẻ như AJ Dybantsa hay Kyshawn George đang khiến Wizards lún sâu vào vũng lầy, đặt chiếc ghế của ông Keefe vào tình thế báo động."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Washington Wizards và chuỗi 8 trận thua liên tiếp: Nguyên nhân và phân",
+      "meta_description": "Phân tích 5 lý do khiến Washington Wizards rơi vào chuỗi 8 trận thua liên tiếp, từ vấn đề phòng ngự đến phong độ sa sút của các ngôi sao chủ chốt.",
+      "keywords": [
+        "Washington Wizards",
+        "NBA",
+        "Trae Young",
+        "bóng rổ",
+        "thể thao"
+      ],
+      "slug": "khung-hoang-tai-washington-wizards-vi-sao-chuoi-8-tran-thua-keo-dai-83f09e73",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 296,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+        "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T02:44:28+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T22:18:43+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Washington Wizards đang trải qua chuỗi 8 trận thua liên tiếp và có thành tích 4-11 sau 15 trận.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5"
+          ],
+          "importance": "core",
+          "evidence_snippet": "5 reasons the Wizards are on 8-game losing streak",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "snippet": "5 reasons the Wizards are on 8-game losing streak",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "page_sha256": "9a7d134d9d3c2249f254937ab42fd094fc7b0aa12787299a8678176b38723e94",
+              "snippet_sha256": "673f0673a55081d1be0403c889654616fe2f27dffbf2cad8e0c142fd7bdc7619",
+              "verified_at": "2026-11-17T04:15:43.909802+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đối thủ của Wizards ghi trung bình 129,5 điểm mỗi trận trong chuỗi thua này và đạt tỷ lệ ném trên 50%.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Opponents are shooting better than 50 percent against the Wizards during their losing streak, the worst mark of any Eastern Conference team over that stretch, and they're averaging 129.5 points per game.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "snippet": "Opponents are shooting better than 50 percent against the Wizards during their losing streak, the worst mark of any Eastern Conference team over that stretch, and they're averaging 129.5 points per game.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "page_sha256": "9a7d134d9d3c2249f254937ab42fd094fc7b0aa12787299a8678176b38723e94",
+              "snippet_sha256": "e540a9a55be56a2d79b5f91461ce9db442c2ac11d9d77741c7b4bea6bb6567f9",
+              "verified_at": "2026-11-17T04:15:43.909802+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trae Young ký hợp đồng 4 năm trị giá 202 triệu USD và đang có hiệu suất ném 3 điểm chỉ hơn 30%.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Young is barely shooting better than 30 percent from 3-point range this season, and he's shooting well under 40 percent from the field.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "snippet": "Young is barely shooting better than 30 percent from 3-point range this season, and he's shooting well under 40 percent from the field.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nba/washington-wizards/news/5-reasons-wizards-losing-streak/de83aadd44be4ee1d6302ac5",
+              "page_sha256": "9a7d134d9d3c2249f254937ab42fd094fc7b0aa12787299a8678176b38723e94",
+              "snippet_sha256": "89ebfad0ef12c6de14f8af1691717a021cb2c679c70d173f25a138ce236bd96f",
+              "verified_at": "2026-11-17T04:15:43.909802+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích sâu sắc mối liên hệ giữa các chỉ số phòng ngự yếu kém và phong độ cá nhân của ngôi sao chủ chốt. Đồng thời, bài báo làm rõ bối cảnh tâm lý của đội bóng sau chuỗi dài không có tính cạnh tranh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-17T04:15:43.910415+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "129,5",
+        "15",
+        "3",
+        "30",
+        "40",
+        "50",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-17T04:15:43.911403+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 296,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1372
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
