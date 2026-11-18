@@ -2208,7 +2208,7 @@
   },
   {
     "queue_id": "29a482e1bf5832b65671",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T12:19:15.558244+00:00",
     "expires_at": "2026-11-21T12:16:51.181749+00:00",
     "category_hint": "world",
@@ -3197,11 +3197,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T12:19:15.558266+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chu-tich-trung-quoc-tap-can-binh-on-tong-thong-my-donald-trump-bang-cai--5d2395a3"
   },
   {
     "queue_id": "7c1e4762b64f1b7111de",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T12:19:07.861125+00:00",
     "expires_at": "2026-11-21T12:16:51.181749+00:00",
     "category_hint": "vietnam",
@@ -5362,11 +5363,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T12:19:07.861146+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-ong-ho-voi-chu-tich-trung-qu-0785bcd8"
   },
   {
     "queue_id": "7d7db2b7ea488d761ae7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T12:19:01.318660+00:00",
     "expires_at": "2026-11-21T12:16:51.181749+00:00",
     "category_hint": "vietnam",
@@ -6093,7 +6095,8 @@
       ]
     },
     "research_ready_at": "2026-11-18T12:19:01.318682+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ca-mau-trien-khai-nen-tang-so-tiep-nhan-phan-anh-nguoi-dan-tai-xa-phuong-075b942f"
   },
   {
     "queue_id": "e79de07409ef5a947ee1",
@@ -81530,7 +81533,7 @@
   },
   {
     "queue_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-18T12:19:52.950765+00:00",
     "expires_at": "2026-11-19T12:19:52.950765+00:00",
     "source_urls": [
@@ -81548,7 +81551,7 @@
       "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
       "published_at": "2026-11-18T12:01:38+00:00",
       "fetched_at": "2026-11-18T12:20:02.252387+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-18T13:28:53.069022+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -81765,29 +81768,39 @@
         "73"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-18T12:20:02.253947+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-18T13:28:53.069022+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 373,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1732
-        },
-        "independent_domains": [
-          "cbssports.com",
-          "cnbc.com",
-          "sportingnews.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1732,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "cbssports.com",
+            "cnbc.com",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-18 20:28"
+    },
+    "published_at": "2026-11-18T13:28:53.069022+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-18T12:19:52.950765+00:00",
     "expires_at": "2026-11-19T12:19:52.950765+00:00",
     "source_urls": [
@@ -81804,7 +81817,7 @@
       "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
       "published_at": "2026-11-18T12:06:53+00:00",
       "fetched_at": "2026-11-18T12:20:08.347601+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-18T13:28:53.069022+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -81993,24 +82006,34 @@
         "64"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-18T12:20:08.348751+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-18T13:28:53.069022+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 424,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1949
-        },
-        "independent_domains": [
-          "cnbc.com",
-          "sportingnews.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1949,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-18 20:28"
+    },
+    "published_at": "2026-11-18T13:28:53.069022+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565",
@@ -82246,5 +82269,699 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "chu-tich-trung-quoc-tap-can-binh-on-tong-thong-my-donald-trump-bang-cai--5d2395a3",
+    "status": "HOLD",
+    "prepared_at": "2026-11-18T13:28:03.217578+00:00",
+    "expires_at": "2026-11-19T13:28:03.217578+00:00",
+    "source_urls": [
+      "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+      "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+      "https://www.euronews.com/video/2026/11/18/xi-jinping-greets-trump-with-a-hug-and-red-carpet-at-shenzhen-airport",
+      "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+    ],
+    "article": {
+      "id": "chu-tich-trung-quoc-tap-can-binh-on-tong-thong-my-donald-trump-bang-cai--5d2395a3",
+      "title": "Chủ tịch Trung Quốc Tập Cận Bình đón Tổng thống Mỹ Donald Trump bằng cái ôm bất ngờ tại Thâm Quyến",
+      "summary": "Tổng thống Mỹ Donald Trump đã hạ cánh xuống thành phố Thâm Quyến của Trung Quốc để tham dự hội nghị APEC và chuẩn bị cho cuộc gặp thượng đỉnh ba bên hiếm hoi với lãnh đạo Trung-Nga.",
+      "category": "world",
+      "source_name": "NYT - World",
+      "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+      "published_at": "2026-11-18T12:15:08+00:00",
+      "fetched_at": "2026-11-18T13:28:23.010594+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Mỹ Donald Trump đã đến Thâm Quyến, Trung Quốc, để tham gia chuỗi sự kiện trong khuôn khổ Diễn đàn Hợp tác Kinh tế Châu Á - Thái Bình Dương (APEC). Chuyến đi diễn ra trong bối cảnh ông Trump có cuộc gặp gỡ thứ ba trong năm với nhà lãnh đạo Trung Quốc, sau các chuyến thăm tại Bắc Kinh và Washington trước đó.",
+        "Ngay khi Air Force One hạ xuống sân bay Thâm Quyến, Chủ tịch Trung Quốc Tập Cận Bình đã ra tận sân bay đón và dành cho người đồng cấp Mỹ một cái ôm cùng thảm đỏ trang trọng. Đây được xem là cử chỉ cá nhân hiếm hoi, mang tính đáp lễ sau khi ông Trump từng ra tận căn cứ không quân Andrews ở Washington để đón ông Tập vào tháng 9.",
+        "Sự đón tiếp nồng ấm tại sân bay có sự tham gia của đông đảo người dân mặc trang phục màu sắc vẫy cờ hoa và hô vang khẩu hiệu chào mừng bằng tiếng Quan Thoại. Trước đó cùng ngày, Tổng thống Nga Vladimir Putin cũng đã đặt chân đến Thâm Quyến nhưng được đón tiếp bởi một quan chức cấp thấp hơn.",
+        "Chuyến thăm của ông Trump diễn ra ngay trước thềm cuộc họp thượng đỉnh ba bên dự kiến diễn ra vào thứ Năm giữa lãnh đạo ba nước Mỹ, Trung Quốc và Nga. Giới quan sát lưu ý rằng dù Nga là đối tác chiến lược thân thiết của Bắc Kinh, Trung Quốc vẫn duy trì mối quan hệ kinh tế sâu rộng hơn đáng kể với phía Mỹ.",
+        "Trong chuyến công du châu Á lần này, lịch trình của nhà lãnh đạo Mỹ còn bao gồm điểm dừng chân tại Manila để hội kiến các đối tác khu vực. Cuộc gặp sắp tới tại Thâm Quyến được kỳ vọng sẽ định hình thêm các bước đi tiếp theo trong quan hệ song phương và đa phương giữa các cường quốc hàng đầu."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Chủ tịch Tập Cận Bình đón Tổng thống Trump tại Thâm Quyến trước thềm A",
+      "meta_description": "Chủ tịch Trung Quốc Tập Cận Bình đã có cử chỉ đón tiếp ngoại giao hiếm hoi dành cho Tổng thống Mỹ Donald Trump ngay khi ông đặt chân tới Thâm Quyến.",
+      "keywords": [
+        "Donald Trump",
+        "Tập Cận Bình",
+        "Thâm Quyến",
+        "APEC",
+        "Mỹ - Trung - Nga"
+      ],
+      "slug": "chu-tich-trung-quoc-tap-can-binh-on-tong-thong-my-donald-trump-bang-cai--5d2395a3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 337,
+      "display_source": true,
+      "source_urls": [
+        "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+        "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+        "https://www.euronews.com/video/2026/11/18/xi-jinping-greets-trump-with-a-hug-and-red-carpet-at-shenzhen-airport",
+        "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+        "https://www.euronews.com/video/2026/11/18/xi-jinping-greets-trump-with-a-hug-and-red-carpet-at-shenzhen-airport",
+        "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+      ],
+      "source_references": [
+        {
+          "name": "NYT - World",
+          "url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+          "domain": "nytimes.com",
+          "source_type": "Báo",
+          "source_family": "nytimes.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:15:08+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T10:32:03+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/video/2026/11/18/xi-jinping-greets-trump-with-a-hug-and-red-carpet-at-shenzhen-airport",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T10:18:32+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T01:23:29+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chủ tịch Trung Quốc Tập Cận Bình đã ôm Tổng thống Trump khi ông hạ cánh xuống Thâm Quyến vào thứ Tư.",
+          "source_urls": [
+            "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec"
+          ],
+          "importance": "core",
+          "evidence_snippet": "What President Trump appeared to lack in enthusiasm, his hosts in the Philippines made up for in hospitality by catering to his preferences during a brief state visit.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+              "snippet": "What President Trump appeared to lack in enthusiasm, his hosts in the Philippines made up for in hospitality by catering to his preferences during a brief state visit.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+              "page_sha256": "aa1b63e8b2728ec2c08065faccb4da286a149c7f2957b04ad562c11552acc147",
+              "snippet_sha256": "cbe1d1f369e9d01b73fcaff3f1402e8ab1e27e8ceef88c3e4adeb30aed495de1",
+              "verified_at": "2026-11-18T13:28:23.009719+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cuộc gặp thượng đỉnh ba bên dự kiến diễn ra vào thứ Năm giữa lãnh đạo Mỹ, Trung Quốc và Nga.",
+          "source_urls": [
+            "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec"
+          ],
+          "importance": "core",
+          "evidence_snippet": "He did not even go to the summit venue; Southeast Asian leaders met him at the hotel where he was staying.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+              "snippet": "He did not even go to the summit venue; Southeast Asian leaders met him at the hotel where he was staying.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+              "page_sha256": "aa1b63e8b2728ec2c08065faccb4da286a149c7f2957b04ad562c11552acc147",
+              "snippet_sha256": "65c38e1d6ef97d255236f2e8cdcff09aa9ec8cf174827968ceb565d1f2267d36",
+              "verified_at": "2026-11-18T13:28:23.009719+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Trump từng ra Joint Base Andrews ngoài Washington để đón ông Tập vào tháng 9.",
+          "source_urls": [
+            "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trump made a point of going to Joint Base Andrews outside Washington to greet Mr.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+              "snippet": "Trump made a point of going to Joint Base Andrews outside Washington to greet Mr.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+              "page_sha256": "aa1b63e8b2728ec2c08065faccb4da286a149c7f2957b04ad562c11552acc147",
+              "snippet_sha256": "6a87112dc3e94eed5707c701f6c3466cd5defab6cac79f1684fa42c4c01a8dde",
+              "verified_at": "2026-11-18T13:28:23.009719+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp bức tranh chi tiết về nghi thức ngoại giao tại sân bay Thâm Quyến và bối cảnh trước thềm hội nghị ba bên. Nội dung làm nổi bật sự đối chiếu giữa cách đón tiếp các nguyên thủ và phân tích mối quan hệ giữa các bên.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T13:28:23.010717+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-18T13:28:23.012730+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 337,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1535
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "euronews.com",
+          "npr.org",
+          "nytimes.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ nytimes.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ nytimes.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-18T13:28:53.069022+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-18T13:28:53.069022+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ nytimes.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[2] trích đoạn từ nytimes.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 337,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1535,
+        "source_access": [
+          {
+            "url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "cnbc.com",
+          "euronews.com",
+          "npr.org",
+          "nytimes.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-ong-ho-voi-chu-tich-trung-qu-0785bcd8",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-18T13:28:03.217578+00:00",
+    "expires_at": "2026-11-19T13:28:03.217578+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+      "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-tiep-lien-minh-doanh-nghiep-my-apec-185261118172540477.htm"
+    ],
+    "article": {
+      "id": "tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-ong-ho-voi-chu-tich-trung-qu-0785bcd8",
+      "title": "Tổng thống Nga hé lộ kết quả cuộc gặp 2 giờ đồng hồ với Chủ tịch Trung Quốc",
+      "summary": "Tổng thống Nga Vladimir Putin đã chia sẻ về kết quả cuộc hội đàm kéo dài 2 giờ đồng hồ với Chủ tịch Trung Quốc Tập Cận Bình bên lề Hội nghị APEC tại Thâm Quyến.",
+      "category": "world",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+      "published_at": "2026-11-18T11:13:33+00:00",
+      "fetched_at": "2026-11-18T13:28:38.230765+00:00",
+      "appnho_published_at": "2026-11-18T13:28:53.069022+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Nga Vladimir Putin và Tổng Bí thư, Chủ tịch Trung Quốc Tập Cận Bình đã có cuộc hội đàm kéo dài 2 giờ đồng hồ bên lề Hội nghị cấp cao Diễn đàn Hợp tác Kinh tế châu Á - Thái Bình Dương (APEC) tại thành phố Thâm Quyến, Trung Quốc. Bình luận về sự kiện này, nhà lãnh đạo Nga đánh giá đây là cuộc gặp hiệu quả.",
+        "Phát biểu tại Đại học MSU-BIT Thâm Quyến, Tổng thống Putin cho biết hai bên đã thảo luận về nhiều chủ đề hợp tác song phương, trong đó tập trung vào khoa học, giáo dục, đổi mới sáng tạo và giao thông vận tải. Ông nhấn mạnh kim ngạch thương mại song phương tiếp tục duy trì mức cao và việc phối hợp chính sách đối ngoại diễn ra ổn định nhằm thúc đẩy trật tự thế giới đa cực.",
+        "Về phía Trung Quốc, Chủ tịch Tập Cận Bình khẳng định quan hệ giữa Moscow và Bắc Kinh luôn vững chắc như núi, không bị ảnh hưởng bởi những biến động ngắn hạn của tình hình quốc tế. Lãnh đạo hai nước đều nhấn mạnh tầm quan trọng của việc bảo đảm hòa bình và thịnh vượng tại khu vực châu Á - Thái Bình Dương.",
+        "Đại diện tập đoàn năng lượng Nga Novatek cũng cho biết cuộc gặp đã đề cập đến các vấn đề then chốt và diễn ra tốt đẹp với nhiều nội dung thực chất. Hai nhà lãnh đạo đã dành thời gian trao đổi sâu về những vấn đề quan trọng sau khi phần đưa tin của báo chí kết thúc."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tổng thống Nga hé lộ kết quả cuộc gặp với Chủ tịch Trung Quốc",
+      "meta_description": "Tổng thống Nga Vladimir Putin đánh giá cuộc hội đàm 2 giờ với Chủ tịch Trung Quốc Tập Cận Bình tại Thâm Quyến là hiệu quả.",
+      "keywords": [
+        "Vladimir Putin",
+        "Tập Cận Bình",
+        "Nga Trung Quốc",
+        "APEC Thâm Quyến"
+      ],
+      "slug": "tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-ong-ho-voi-chu-tich-trung-qu-0785bcd8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 277,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+        "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-tiep-lien-minh-doanh-nghiep-my-apec-185261118172540477.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-tiep-lien-minh-doanh-nghiep-my-apec-185261118172540477.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:13:33+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tong-bi-thu-chu-tich-nuoc-to-lam-tiep-lien-minh-doanh-nghiep-my-apec-185261118172540477.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:50:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Nga Vladimir Putin và Chủ tịch Trung Quốc Tập Cận Bình đã hội đàm 2 giờ tại Thâm Quyến bên lề APEC.",
+          "source_urls": [
+            "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tổng thống Nga Vladimir Putin và Tổng Bí thư, Chủ tịch Trung Quốc Tập Cận Bình đã có cuộc hội đàm kéo dài 2 giờ đồng hồ vào ngày 18/11 bên lề Hội nghị cấp cao Diễn đàn Hợp tác Kinh tế châu Á - Thái Bình Dương (APEC) tại thành phố Thâm Quyến, Trung Quốc, theo Tass.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "snippet": "Tổng thống Nga Vladimir Putin và Tổng Bí thư, Chủ tịch Trung Quốc Tập Cận Bình đã có cuộc hội đàm kéo dài 2 giờ đồng hồ vào ngày 18/11 bên lề Hội nghị cấp cao Diễn đàn Hợp tác Kinh tế châu Á - Thái Bình Dương (APEC) tại thành phố Thâm Quyến, Trung Quốc, theo Tass.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "page_sha256": "97b38f005d6be45c2d263da82214189ef8aaf8b752ab49b1395a186d9e35c543",
+              "snippet_sha256": "b3d7d48b266327ab1c91671a5641b9d366299c3a1b314d0e5f440aada5f5015b",
+              "verified_at": "2026-11-18T13:28:38.230038+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Putin đánh giá cuộc hội đàm hiệu quả, tập trung vào khoa học, giáo dục và quan hệ đối tác kinh tế.",
+          "source_urls": [
+            "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Bình luận về cuộc gặp, trong bài phát biểu tại Đại học MSU-BIT Thâm Quyến (SMBU), Tổng thống Putin đánh giá đây là cuộc hội đàm hiệu quả, với nhiều chủ đề được đề cập tới, trong đó tập trung vào thành tựu hợp tác giữa 2 nước về lĩnh vực khoa học và giáo dục.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "snippet": "Bình luận về cuộc gặp, trong bài phát biểu tại Đại học MSU-BIT Thâm Quyến (SMBU), Tổng thống Putin đánh giá đây là cuộc hội đàm hiệu quả, với nhiều chủ đề được đề cập tới, trong đó tập trung vào thành tựu hợp tác giữa 2 nước về lĩnh vực khoa học và giáo dục.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "page_sha256": "97b38f005d6be45c2d263da82214189ef8aaf8b752ab49b1395a186d9e35c543",
+              "snippet_sha256": "4c5af38b7580299adbbb36f081df9ea81ddba27c17b78a268b95d442d7986329",
+              "verified_at": "2026-11-18T13:28:38.230038+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Tập Cận Bình khẳng định quan hệ Trung Quốc - Nga vững chắc như núi và không bị ảnh hưởng bởi biến động quốc tế.",
+          "source_urls": [
+            "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nhà lãnh đạo Trung Quốc cho biết quan hệ giữa Moscow và Bắc Kinh vẫn \"vững chắc như núi\" bất chấp những biến động của tình hình quốc tế.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "snippet": "Nhà lãnh đạo Trung Quốc cho biết quan hệ giữa Moscow và Bắc Kinh vẫn \"vững chắc như núi\" bất chấp những biến động của tình hình quốc tế.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "page_sha256": "97b38f005d6be45c2d263da82214189ef8aaf8b752ab49b1395a186d9e35c543",
+              "snippet_sha256": "7bc7cbfc40a708d75ca14f6191dff81d874f80e9f3df67876a102e6daea73ed4",
+              "verified_at": "2026-11-18T13:28:38.230038+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ các chi tiết cốt lõi từ cuộc gặp song phương kéo dài 2 giờ giữa lãnh đạo Nga và Trung Quốc tại APEC Thâm Quyến. Ngữ cảnh phát biểu tại trường đại học và các lĩnh vực hợp tác trọng tâm được trình bày mạch lạc dựa trên thông tin chính thức.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T13:28:38.230863+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-18T13:28:53.069022+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 277,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1259,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/the-gioi/tong-thong-nga-he-lo-ket-qua-cuoc-gap-2-gio-dong-ho-voi-chu-tich-trung-quoc-20261118152847949.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-18 20:28"
+    },
+    "published_at": "2026-11-18T13:28:53.069022+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ca-mau-trien-khai-nen-tang-so-tiep-nhan-phan-anh-nguoi-dan-tai-xa-phuong-075b942f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-18T13:28:03.217578+00:00",
+    "expires_at": "2026-11-19T13:28:03.217578+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+      "https://dantri.com.vn/kinh-doanh/casso-ra-mat-capital-mo-them-duong-tiep-can-von-nhanh-cho-doanh-nghiep-sme-20261118155938530.htm",
+      "https://tuoitre.vn/khanh-hoa-lay-y-kien-nguoi-dan-ve-thanh-lap-phuong-van-phong-100261118083940673.htm"
+    ],
+    "article": {
+      "id": "ca-mau-trien-khai-nen-tang-so-tiep-nhan-phan-anh-nguoi-dan-tai-xa-phuong-075b942f",
+      "title": "Cà Mau triển khai nền tảng số tiếp nhận phản ánh người dân tại xã, phường",
+      "summary": "Tỉnh Cà Mau chính thức ra mắt nền tảng Tammi OA nhằm số hóa quy trình tiếp nhận và xử lý phản ánh, kiến nghị của người dân tại 100% xã, phường trên địa bàn.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+      "published_at": "2026-11-18T12:00:00+00:00",
+      "fetched_at": "2026-11-18T13:28:50.246445+00:00",
+      "appnho_published_at": "2026-11-18T13:28:53.069022+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày 18/11, Sở Khoa học và Công nghệ tỉnh Cà Mau đã tổ chức lễ ra mắt nền tảng chuyển đổi số Tammi OA tại xã Vĩnh Lợi. Đây là bước đi quan trọng trong kế hoạch của tỉnh nhằm phủ sóng kênh tiếp nhận phản ánh, kiến nghị của người dân tại 100% xã, phường trên toàn địa bàn.",
+        "Thông qua nền tảng Tammi OA, người dân có thể thực hiện nhiều thao tác trực tuyến như gửi phản ánh, kiến nghị, tra cứu thông tin thủ tục hành chính, lịch tiếp công dân và cập nhật các thông báo về chính sách an sinh, cảnh báo thiên tai, dịch bệnh. Chính quyền địa phương có trách nhiệm phân công cán bộ quản trị, xây dựng quy chế xử lý và thông báo kết quả phản hồi cho người dân theo quy định. Chủ tịch UBND các xã, phường sẽ trực tiếp chỉ đạo và kiểm tra quá trình triển khai này.",
+        "Để đảm bảo tính hiệu quả, Sở Khoa học và Công nghệ phối hợp cùng Viettel Cà Mau tổ chức tập huấn vận hành cho cán bộ phụ trách, hoàn thành trước ngày 20/11. Các địa phương có thời hạn đến ngày 30/3/2027 để hoàn tất việc cập nhật dữ liệu và xây dựng kế hoạch tuyên truyền. Song song đó, các tổ công nghệ số cộng đồng, đoàn viên và thanh niên sẽ trực tiếp hướng dẫn người dân sử dụng nền tảng tại khóm, ấp, đặc biệt ưu tiên nhóm người cao tuổi và người dân tại các vùng sâu, vùng xa.",
+        "Việc đánh giá kết quả triển khai sẽ dựa trên các tiêu chí về mức độ sử dụng, hiệu quả tương tác và sự hài lòng của người dân. Hệ thống được kỳ vọng sẽ tạo ra kênh kết nối thông suốt, giúp chính quyền cơ sở giải quyết hồ sơ nhanh chóng và minh bạch hơn. Hiện tại, Viettel Cà Mau chịu trách nhiệm duy trì hệ thống hoạt động 24/7, hỗ trợ kỹ thuật và bảo đảm an toàn dữ liệu cho người dùng. Động thái này nằm trong nỗ lực chung của tỉnh nhằm đẩy mạnh số hóa dữ liệu hộ tịch và đất đai, hướng tới mục tiêu phục vụ người dân tốt hơn."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Cà Mau ra mắt kênh số Tammi OA tiếp nhận phản ánh người dân",
+      "meta_description": "Cà Mau triển khai nền tảng Tammi OA tại các xã, phường để người dân gửi phản ánh, tra cứu thông tin và nhận kết quả xử lý từ chính quyền cơ sở.",
+      "keywords": [
+        "Cà Mau",
+        "chuyển đổi số",
+        "Tammi OA",
+        "tiếp nhận phản ánh",
+        "chính quyền điện tử"
+      ],
+      "slug": "ca-mau-trien-khai-nen-tang-so-tiep-nhan-phan-anh-nguoi-dan-tai-xa-phuong-075b942f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 385,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+        "https://dantri.com.vn/kinh-doanh/casso-ra-mat-capital-mo-them-duong-tiep-can-von-nhanh-cho-doanh-nghiep-sme-20261118155938530.htm",
+        "https://tuoitre.vn/khanh-hoa-lay-y-kien-nguoi-dan-ve-thanh-lap-phuong-van-phong-100261118083940673.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/casso-ra-mat-capital-mo-them-duong-tiep-can-von-nhanh-cho-doanh-nghiep-sme-20261118155938530.htm",
+        "https://tuoitre.vn/khanh-hoa-lay-y-kien-nguoi-dan-ve-thanh-lap-phuong-van-phong-100261118083940673.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/casso-ra-mat-capital-mo-them-duong-tiep-can-von-nhanh-cho-doanh-nghiep-sme-20261118155938530.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T08:59:49+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/khanh-hoa-lay-y-kien-nguoi-dan-ve-thanh-lap-phuong-van-phong-100261118083940673.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T02:05:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tỉnh Cà Mau ra mắt nền tảng Tammi OA để tiếp nhận phản ánh của người dân tại các xã, phường.",
+          "source_urls": [
+            "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tỉnh đặt mục tiêu triển khai nền tảng này tại 100% xã, phường để người dân tra cứu thông tin, gửi phản ánh, kiến nghị và nhận phản hồi từ chính quyền cơ sở.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "snippet": "Tỉnh đặt mục tiêu triển khai nền tảng này tại 100% xã, phường để người dân tra cứu thông tin, gửi phản ánh, kiến nghị và nhận phản hồi từ chính quyền cơ sở.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "page_sha256": "02c3cdc2d3fd577026cfb7bcd0c1b820d4c7323ef16538d11bd8806467784892",
+              "snippet_sha256": "c69813002fd19c46aa5d275491e19e04aa0a16e1a83ec7e34910da6b3b896827",
+              "verified_at": "2026-11-18T13:28:50.245846+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sở Khoa học - Công nghệ tỉnh Cà Mau phối hợp với Viettel Cà Mau tập huấn vận hành cho cán bộ, thời hạn hoàn thành là ngày 20/11.",
+          "source_urls": [
+            "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Sở Khoa học - Công nghệ phối hợp với Viettel Cà Mau tập huấn cán bộ phụ trách vận hành, với thời hạn hoàn thành ngày 20.11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "snippet": "Sở Khoa học - Công nghệ phối hợp với Viettel Cà Mau tập huấn cán bộ phụ trách vận hành, với thời hạn hoàn thành ngày 20.11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "page_sha256": "02c3cdc2d3fd577026cfb7bcd0c1b820d4c7323ef16538d11bd8806467784892",
+              "snippet_sha256": "8bf3dfb43435b0cecbbbf0e62d8060d25cf0d27039a00168284372cf36d18b5e",
+              "verified_at": "2026-11-18T13:28:50.245846+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các xã, phường có thời hạn đến ngày 30/3/2027 để hoàn thành cập nhật dữ liệu và kế hoạch tuyên truyền.",
+          "source_urls": [
+            "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Các xã, phường có thời hạn đến ngày 30.3.2027 để hoàn thànhcập nhật dữ liệuvà xây dựng kế hoạch tuyên truyền, hướng dẫn sử dụng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "snippet": "Các xã, phường có thời hạn đến ngày 30.3.2027 để hoàn thànhcập nhật dữ liệuvà xây dựng kế hoạch tuyên truyền, hướng dẫn sử dụng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "page_sha256": "02c3cdc2d3fd577026cfb7bcd0c1b820d4c7323ef16538d11bd8806467784892",
+              "snippet_sha256": "4a8574fa94c14f95989f6de841aeed7c8ecd81fa24bd8fe3321813af4d83f8bd",
+              "verified_at": "2026-11-18T13:28:50.245846+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy trình vận hành và trách nhiệm của các bên liên quan trong việc triển khai nền tảng Tammi OA tại Cà Mau. Đồng thời, bài phân tích bối cảnh chuyển đổi số cấp xã và các mốc thời gian quan trọng để độc giả nắm bắt lộ trình thực hiện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T13:28:50.246562+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-18T13:28:53.069022+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 385,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1760,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/ca-mau-ra-mat-kenh-so-tiep-nhan-phan-anh-cua-nguoi-dan-tai-cac-xa-phuong-18526110617552003.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-18 20:28"
+    },
+    "published_at": "2026-11-18T13:28:53.069022+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

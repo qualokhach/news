@@ -785,5 +785,20 @@
         "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-18 20:28",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-18T13:28:53.069022+00:00",
+    "prepared_candidates": 6,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "chu-tich-trung-quoc-tap-can-binh-on-tong-thong-my-donald-trump-bang-cai--5d2395a3",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ nytimes.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ nytimes.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
