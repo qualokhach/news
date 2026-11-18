@@ -2290,7 +2290,7 @@
   },
   {
     "queue_id": "1a02d5dbee7dac4db238",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:18.104169+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "sports",
@@ -2871,11 +2871,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:18.104189+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "steve-harvey-nguoi-khai-sinh-bang-xep-hang-bong-da-bottom-10-qua-doi-o-t-342a0cb1"
   },
   {
     "queue_id": "66804921fd78a9347ab1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:17.813875+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "technology",
@@ -3826,11 +3827,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:17.813895+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98"
   },
   {
     "queue_id": "c80d3162c064551878a6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:15.637455+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "world",
@@ -4584,11 +4586,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:15.637477+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gioi-phe-binh-ca-ngoi-grand-theft-auto-6-la-kiet-tac-sau-khi-ra-mat-47be7a89"
   },
   {
     "queue_id": "e1d158db2bf82012e588",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:13.242226+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "technology",
@@ -5397,7 +5400,8 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:13.242248+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ang-dan-chu-tai-ha-vien-my-chuan-bi-chien-dich-ieu-tra-nham-vao-vong-tro-e6d0758f"
   },
   {
     "queue_id": "17dfa83702289f9d3fda",
@@ -86254,5 +86258,1096 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "steve-harvey-nguoi-khai-sinh-bang-xep-hang-bong-da-bottom-10-qua-doi-o-t-342a0cb1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-18T18:26:02.893854+00:00",
+    "expires_at": "2026-11-19T18:26:02.893854+00:00",
+    "source_urls": [
+      "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+      "https://www.sportingnews.com/us/womens-college-basketball/news/watch-south-carolina-usc-womens-basketball-channel-time-schedule-stream/3e3cd2436fe7545d07f23a90"
+    ],
+    "article": {
+      "id": "steve-harvey-nguoi-khai-sinh-bang-xep-hang-bong-da-bottom-10-qua-doi-o-t-342a0cb1",
+      "title": "Steve Harvey, nguoi khai sinh bang xep hang bong da Bottom 10, qua doi o tuoi 80",
+      "summary": "Steve Harvey, nha bao va la nguoi sang lap bang xep hang bong da dai hoc Bottom 10 noi tieng, da qua doi o tuoi 80, de lai dau an sau dam trong van hoa the thao My.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+      "published_at": "2026-11-18T17:06:34+00:00",
+      "fetched_at": "2026-11-18T18:26:12.643315+00:00",
+      "appnho_published_at": "2026-11-18T18:26:46.828372+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Gioi truyen thong va nguoi ham mo bong da dai hoc My dang tuong nho Steve Harvey, nguoi duoc biet den la cha de cua bang xep hang Bottom 10, sau khi ong qua doi o do tuoi 80 vao tuan truoc. Thong tin nay duoc xac nhan khi cac ban xep hang thuong ky cua chuyen muc nay van duoc duy tri tren he thong cua ESPN.",
+        "Sinh ra va lon len tai mien nam California, Harvey tung la sinh vien bao chi tai truong Dai hoc Nam California (USC). Trong thoi gian nay, ong da sang tao ra y tuong ve bang xep hang vinh danh nhung doi bong co thanh tich kem nhat trong giai dau dai hoc. Thay vi chi tap trung vao cac doi bong hang dau, ong lai danh su quan tam dac biet cho nhung tap the gap nhieu kho khan.",
+        "Trong cac bai viet va cuoc trao doi truoc day, ong tung chia se rang ong nhin thay su gan gui va chan thuc tu nhung doi bong kem the nay hon la nhung nha vo dich lien tuc. Ben canh Bottom 10, ong con co su nghiep lam bao tai nhieu to chuc o Los Angeles nhu Los Angeles Times, L.A. Herald Examiner hay Long Beach's Grunion Gazette.",
+        "Su ra di cua Steve Harvey de lai su tiec nuoi cho nhieu nguoi theo doi bong da dai hoc, dac biet la nhung ai da gan bo voi chuyen muc mang phong cach hai huoc, doc dao nay trong suot nhieu thap ky qua tren cac nen tang the thao truc tuyen."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Steve Harvey, nguoi sang lap Bottom 10 bong da dai hoc, qua doi o tuoi",
+      "meta_description": "Steve Harvey, cha de cua bang xep hang Bottom 10 trong bong da dai hoc My, da qua doi o tuoi 80. Thong tin tu ESPN.",
+      "keywords": [
+        "Steve Harvey",
+        "Bottom 10",
+        "bong da dai hoc",
+        "ESPN",
+        "the thao My"
+      ],
+      "slug": "steve-harvey-nguoi-khai-sinh-bang-xep-hang-bong-da-bottom-10-qua-doi-o-t-342a0cb1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 270,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+        "https://www.sportingnews.com/us/womens-college-basketball/news/watch-south-carolina-usc-womens-basketball-channel-time-schedule-stream/3e3cd2436fe7545d07f23a90"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/womens-college-basketball/news/watch-south-carolina-usc-womens-basketball-channel-time-schedule-stream/3e3cd2436fe7545d07f23a90"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:06:34+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/womens-college-basketball/news/watch-south-carolina-usc-womens-basketball-channel-time-schedule-stream/3e3cd2436fe7545d07f23a90",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T07:30:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Steve Harvey, nguoi sang lap bang xep hang Bottom 10 cua bong da dai hoc, qua doi o tuoi 80.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Because the Bottom 10's founding father has left this extremely mortal coil at the age of 80.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "snippet": "Because the Bottom 10's founding father has left this extremely mortal coil at the age of 80.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "page_sha256": "f0b29122cd07c3a7277656bb1a3cf62313d20f707bd6fca389b032ea64952c40",
+              "snippet_sha256": "c80d2a88f92be53e03f66ac675c4cbddf1b53d7d7f0568740171a3f924e000e3",
+              "verified_at": "2026-11-18T18:26:12.642794+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ong sang tao ra bang xep hang nay tu thoi con la sinh vien bao chi tai Dai hoc Nam California (USC).",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Both of South Carolina's most storied programs had an equally bad day on Saturday, Clemson and the Gamecocks losing to a pair of Bottom 10 Wait Listers in the Georgia Tech Wrambling Reck and Arkansaw.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "snippet": "Both of South Carolina's most storied programs had an equally bad day on Saturday, Clemson and the Gamecocks losing to a pair of Bottom 10 Wait Listers in the Georgia Tech Wrambling Reck and Arkansaw.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "page_sha256": "f0b29122cd07c3a7277656bb1a3cf62313d20f707bd6fca389b032ea64952c40",
+              "snippet_sha256": "00495d3ede8e313d3b547c47bfa4a74617ee2221a6dd02f07aa3e97e894fb23f",
+              "verified_at": "2026-11-18T18:26:12.642794+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Harvey tung lam viec cho nhieu to bao tai khu vực Los Angeles nhu L.A. Herald Examiner, L.A. Times va Long Beach's Grunion Gazette.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Observed and Long Beach's Grunion Gazette, he spent the adult years of his 80 trips around the sun scouring Los Angeles for the weird and misspelled.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "snippet": "Observed and Long Beach's Grunion Gazette, he spent the adult years of his 80 trips around the sun scouring Los Angeles for the weird and misspelled.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "page_sha256": "f0b29122cd07c3a7277656bb1a3cf62313d20f707bd6fca389b032ea64952c40",
+              "snippet_sha256": "5c3e659216902200fdd9f7c3f6e85494c7e29dd31b90c2452ac509aca9fa17e1",
+              "verified_at": "2026-11-18T18:26:12.642794+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet phac hoa dau an cua Steve Harvey doi voi chuyen muc Bottom 10 trong bong da dai hoc My. Dong gop bien tap nam o viec lam ro nguon goc hinh thanh y tuong bang xep hang va dau an su nghiep bao chi cua ong.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T18:26:12.643372+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "80"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-18T18:26:46.828372+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 270,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1252,
+          "source_access": [
+            {
+              "url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "espn.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-19 01:26"
+    },
+    "published_at": "2026-11-18T18:26:46.828372+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-18T18:26:02.893854+00:00",
+    "expires_at": "2026-11-19T06:26:02.893854+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+      "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+      "https://www.wired.com/story/wired-yearbook-2026-clement-delangue",
+      "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+    ],
+    "article": {
+      "id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
+      "title": "Nhiều ngân hàng lớn tại Mỹ từ chối chịu trách nhiệm khi khách hàng dùng trợ lý AI bị tấn công",
+      "summary": "Nhiều ngân hàng thương mại hàng đầu tại Mỹ, bao gồm Citibank và JPMorgan, đã cập nhật điều khoản dịch vụ để làm rõ rằng khách hàng sẽ phải hoàn toàn chịu rủi ro và trách nhiệm nếu ủy quyền cho các công cụ AI cá nhân hóa truy cập tài khoản ngân hàng của họ.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "published_at": "2026-11-18T17:32:10+00:00",
+      "fetched_at": "2026-11-18T18:26:23.138745+00:00",
+      "appnho_published_at": "2026-11-18T18:26:46.828372+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nhiều tổ chức tài chính lớn tại Mỹ đang đưa ra những thông điệp cứng rắn về việc khách hàng sử dụng các công cụ trí tuệ nhân tạo để quản lý tài chính cá nhân. Mới đây, Citibank, ngân hàng thương mại lớn thứ ba tại Mỹ, đã tiến hành thay đổi các điều khoản dịch vụ nhằm thông báo rằng mọi rủi ro phát sinh từ việc sử dụng công cụ AI của bên thứ ba sẽ do chính khách hàng gánh chịu, ngay cả khi tài khoản của họ bị tấn công mã độc.",
+        "Các trợ lý AI hiện nay có thể được cấp thông tin đăng nhập để phân tích chi tiêu, đưa ra lời khuyên đầu tư hoặc thậm chí xử lý các giao dịch và thanh toán hóa đơn. Tuy nhiên, các ngân hàng không muốn chịu trách nhiệm cho các giao dịch cố ý hoặc vô ý do các trợ lý tự động này thực hiện. Đại diện Citibank cho biết việc cập nhật Thỏa thuận Người dùng Trực tuyến nhằm làm rõ các rủi ro khi chia sẻ thông tin đăng nhập ngân hàng cho các công cụ của bên thứ ba.",
+        "Không chỉ riêng Citibank, các ngân hàng lớn khác cũng đã áp dụng các biện pháp tương tự. JPMorgan Chase và Bank of America đã công bố các chính sách tương tự vào tháng trước, trong khi PNC cũng thay đổi điều khoản dịch vụ của mình. Ngoài ra, ngân hàng Citizens cũng đã gửi email cảnh báo khách hàng rằng họ sẽ phải tự chịu trách nhiệm cho mọi hoạt động do trợ lý AI thực hiện trên tài khoản của họ.",
+        "Bên cạnh các lo ngại về an ninh mạng khi dữ liệu đăng nhập có thể bị rò rỉ, các ngân hàng còn xem sự xuất hiện của các công cụ AI này là một thách thức cạnh tranh trực tiếp. Các công ty khởi nghiệp AI đang tìm cách thâm nhập vào lĩnh vực tài chính cá nhân để khai thác nguồn phí dịch vụ béo bở. Trong bối cảnh đó, các ngân hàng lớn đang thể hiện rõ quan điểm siết chặt quản lý và bảo vệ quyền kiểm soát đối với hệ thống giao dịch của mình."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ngân hàng Mỹ tuyên bố khách hàng dùng trợ lý AI tự chịu trách nhiệm rủ",
+      "meta_description": "Các ngân hàng lớn tại Mỹ như Citibank, JPMorgan và Bank of America cập nhật chính sách, khẳng định khách hàng tự chịu trách nhiệm nếu tài khoản bị hack hoặc gặp",
+      "keywords": [
+        "trợ lý AI",
+        "ngân hàng Mỹ",
+        "Citibank",
+        "JPMorgan",
+        "bảo mật tài chính"
+      ],
+      "slug": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 383,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+        "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+        "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+        "https://www.wired.com/story/wired-yearbook-2026-clement-delangue",
+        "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+      ],
+      "source_links": [
+        "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+        "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+        "https://www.wired.com/story/wired-yearbook-2026-clement-delangue",
+        "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:32:10+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T16:40:44+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T10:00:00+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T11:00:00+00:00"
+        },
+        {
+          "name": "BBC - Business",
+          "url": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T00:18:01+00:00"
+        },
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T22:01:40+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Citibank thay đổi điều khoản dịch vụ, thông báo khách hàng dùng AI cá nhân hóa tự chịu trách nhiệm nếu gặp sự cố hoặc bị hack.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Citibank, the third largest commercial bank in the United States, changed its terms of service this week, telling customers who use third-party AI tools for personal finance that anything that goes wrong is their problem — even if they get hacked.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "snippet": "Citibank, the third largest commercial bank in the United States, changed its terms of service this week, telling customers who use third-party AI tools for personal finance that anything that goes wrong is their problem — even if they get hacked.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "page_sha256": "5f9056d3892902d6fcf0e9f4266954149aa8fbdbe3cb42bcdcf6eed9c62e626a",
+              "snippet_sha256": "beda64afbcfa414ca396d08d469a3313509d6eadea2a98a922e6c4669ec417a1",
+              "verified_at": "2026-11-18T18:26:23.138301+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "JPMorgan và Bank of America đã công bố các chính sách tương tự vào tháng trước, trong khi PNC thay đổi điều khoản vào ngày công bố bài báo.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+          ],
+          "importance": "core",
+          "evidence_snippet": "JPMorgan andBank of America, the two largest banks in the country, announced similar policies last month.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "snippet": "JPMorgan andBank of America, the two largest banks in the country, announced similar policies last month.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "page_sha256": "5f9056d3892902d6fcf0e9f4266954149aa8fbdbe3cb42bcdcf6eed9c62e626a",
+              "snippet_sha256": "97029c9fcdc7e7b8125e90bec86eaeec1e5cfbeff823fc14185d1d66db3bf049",
+              "verified_at": "2026-11-18T18:26:23.138301+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ngân hàng Citizens cũng gửi email cảnh báo khách hàng rằng họ phải chịu hoàn toàn trách nhiệm cho mọi hoạt động do trợ lý AI gây ra.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Banking giant Citizens similarly emailed its customers this week, warning that they are also on the hook for anything their AI assistant does, according to an email seen by TechCrunch.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "snippet": "Banking giant Citizens similarly emailed its customers this week, warning that they are also on the hook for anything their AI assistant does, according to an email seen by TechCrunch.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "page_sha256": "5f9056d3892902d6fcf0e9f4266954149aa8fbdbe3cb42bcdcf6eed9c62e626a",
+              "snippet_sha256": "debcf8bb2a72a1c7bb3d4d4c504c2e0cbe245abbeb44f9e0d8efdd16914fbd11",
+              "verified_at": "2026-11-18T18:26:23.138301+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ xu hướng pháp lý mới của ngành ngân hàng Mỹ đối với các công cụ tài chính tích hợp trí tuệ nhân tạo. Phân tích cách các tổ chức tín dụng lớn chuyển dịch trách nhiệm bảo mật sang phía người dùng khi cấp quyền cho bên thứ ba.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-18T18:26:23.138833+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-18T18:26:46.828372+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 383,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1722,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "npr.org",
+            "techcrunch.com",
+            "theguardian.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-19 01:26"
+    },
+    "published_at": "2026-11-18T18:26:46.828372+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "gioi-phe-binh-ca-ngoi-grand-theft-auto-6-la-kiet-tac-sau-khi-ra-mat-47be7a89",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-18T18:26:02.893854+00:00",
+    "expires_at": "2026-11-19T18:26:02.893854+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+      "https://www.theverge.com/games/1035801/grand-theft-auto-6-review",
+      "https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto",
+      "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review",
+      "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece",
+      "https://www.sportingnews.com/us/tsn/news/grand-theft-auto-6-soundtrack-stream-track-list/b62ffa889c1b408e25dcc5e5"
+    ],
+    "article": {
+      "id": "gioi-phe-binh-ca-ngoi-grand-theft-auto-6-la-kiet-tac-sau-khi-ra-mat-47be7a89",
+      "title": "Giới phê bình ca ngợi Grand Theft Auto 6 là kiệt tác sau khi ra mắt",
+      "summary": "Các đánh giá đầu tiên từ giới phê bình quốc tế cho thấy tựa game Grand Theft Auto 6 đạt mức điểm số rất cao trên Metacritic và nhận được sự khen ngợi nồng nhiệt nhờ thế giới mở chi tiết cùng cốt truyện tập trung vào hai nhân vật chính Jason và Lucia.",
+      "category": "technology",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T17:34:25+00:00",
+      "fetched_at": "2026-11-18T18:26:32.205180+00:00",
+      "appnho_published_at": "2026-11-18T18:26:46.828372+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau 13 năm chờ đợi kể từ phiên bản tiền nhiệm, tựa game Grand Theft Auto 6 chính thức nhận được những đánh giá đầu tiên từ giới phê bình quốc tế. Hầu hết các trang tin và chuyên gia trong ngành đều đưa ra những nhận xét vô cùng tích cực, đưa tựa game này trở thành một trong những tâm điểm lớn nhất của ngành công nghiệp trò chơi điện tử.",
+        "Trên trang tổng hợp đánh giá Metacritic, trò chơi đạt mức điểm trung bình rất cao, đứng ở nhóm dẫn đầu cùng một số tựa game kinh điển khác trong lịch sử. Các nhà phê bình từ nhiều hãng thông tấn và trang tin chuyên ngành đồng loạt ca ngợi quy mô, đồ họa cùng chiều sâu cốt truyện mà nhà phát triển Rockstar Games đã xây dựng trong không gian lấy cảm hứng từ bang Florida.",
+        "Điểm nhấn lớn trong phần nội dung trò chơi là mối quan hệ giữa hai nhân vật chính Jason Duval và Lucia Caminos. Giới phê bình đánh giá cao cách xây dựng hai nhân vật mang tính tương hỗ, tạo nên chiều sâu cảm xúc thay vì chỉ xoay quanh các yếu tố bạo lực hay hành động thông thường như các phiên bản trước đó trong dòng game.",
+        "Bên cạnh những lời khen ngợi áp đảo, một vài nhà phê bình cũng chỉ ra một số điểm hạn chế nhỏ trong nhịp độ trò chơi hoặc sự bận tâm về mức độ chân thực có thể làm thay đổi phong cách hỗn loạn quen thuộc. Dù vậy, phần lớn ý kiến đều thống nhất rằng sản phẩm đã đáp ứng được kỳ vọng khổng lồ của cộng đồng người chơi sau một thập kỷ phát triển."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Grand Theft Auto 6 nhận mưa lời khen từ giới phê bình",
+      "meta_description": "Khám phá các đánh giá chi tiết từ giới phê bình quốc tế về tựa game Grand Theft Auto 6, từ điểm số trên Metacritic đến cốt truyện và bối cảnh tại Vice City.",
+      "keywords": [
+        "Grand Theft Auto 6",
+        "GTA 6",
+        "Rockstar Games",
+        "Metacritic",
+        "game phê bình"
+      ],
+      "slug": "gioi-phe-binh-ca-ngoi-grand-theft-auto-6-la-kiet-tac-sau-khi-ra-mat-47be7a89",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 297,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+        "https://www.theverge.com/games/1035801/grand-theft-auto-6-review",
+        "https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto",
+        "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review",
+        "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece",
+        "https://www.sportingnews.com/us/tsn/news/grand-theft-auto-6-soundtrack-stream-track-list/b62ffa889c1b408e25dcc5e5"
+      ],
+      "source_links": [
+        "https://www.theverge.com/games/1035801/grand-theft-auto-6-review",
+        "https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto",
+        "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review",
+        "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece",
+        "https://www.sportingnews.com/us/tsn/news/grand-theft-auto-6-soundtrack-stream-track-list/b62ffa889c1b408e25dcc5e5"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:34:25+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/games/1035801/grand-theft-auto-6-review",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:30:39+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:30:00+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:00:27+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:00:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/tsn/news/grand-theft-auto-6-soundtrack-stream-track-list/b62ffa889c1b408e25dcc5e5",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T09:00:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Metacritic đưa điểm số trung bình của Grand Theft Auto 6 lên mức rất cao dựa trên các đánh giá của giới phê bình.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Does Grand Theft Auto 6, surely the most anticipated game of all time, live up to the hype?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "snippet": "Does Grand Theft Auto 6, surely the most anticipated game of all time, live up to the hype?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "58215722130e8c01e63a584fd5f4525feed954f8d1ac2a9cbab256c7cb200b68",
+              "snippet_sha256": "454165bd28364bf1a1678b9b148ecaa8c61d138a1563ab4ac87ba4b9e49b9ce1",
+              "verified_at": "2026-11-18T18:26:32.204761+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mối quan hệ giữa hai nhân vật chính Jason và Lucia đóng vai trò trung tâm trong cốt truyện và được giới phê bình đặc biệt chú ý.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "And the relationship between the lead characters, Jason and Lucia, has also stunned critics.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "snippet": "And the relationship between the lead characters, Jason and Lucia, has also stunned critics.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "58215722130e8c01e63a584fd5f4525feed954f8d1ac2a9cbab256c7cb200b68",
+              "snippet_sha256": "03a84fa329495d0405dd0756966e4365fbcbaafd8aa021e694a943615bdc211f",
+              "verified_at": "2026-11-18T18:26:32.204761+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tựa game do Rockstar Games phát triển lấy bối cảnh tại không gian lấy cảm hứng từ Miami và bang Florida.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Meanwhile in its five star review, Eurogamer said makers Rockstar had \"pushed back the horizon of video games once again\" with its graphics, storytelling and world building.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "snippet": "Meanwhile in its five star review, Eurogamer said makers Rockstar had \"pushed back the horizon of video games once again\" with its graphics, storytelling and world building.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "58215722130e8c01e63a584fd5f4525feed954f8d1ac2a9cbab256c7cb200b68",
+              "snippet_sha256": "ba9c34be005aaf344132df0d9a9623e839cb422db43eaef67b2dfc425a7c7534",
+              "verified_at": "2026-11-18T18:26:32.204761+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích chi tiết mức độ đón nhận của giới phê bình đối với Grand Theft Auto 6. Đồng thời, phân tích các yếu tố cốt truyện mới và điểm số trung bình trên các nền tảng tổng hợp đánh giá.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T18:26:32.205252+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "13",
+        "6"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-18T18:26:46.828372+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 297,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1376,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "bbc.com",
+            "npr.org",
+            "sportingnews.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-19 01:26"
+    },
+    "published_at": "2026-11-18T18:26:46.828372+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ang-dan-chu-tai-ha-vien-my-chuan-bi-chien-dich-ieu-tra-nham-vao-vong-tro-e6d0758f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-18T18:26:02.893854+00:00",
+    "expires_at": "2026-11-19T18:26:02.893854+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+      "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+      "https://www.france24.com/en/americas/20261118-us-democrats-nominate-hakeem-jeffries-to-be-first-black-speaker-of-the-house",
+      "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks",
+      "https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination",
+      "https://www.aljazeera.com/news-analysis/2026/11/14/why-us-democrats-are-expected-to-keep-schumer-and-jeffries-in-power?traffic_source=rss"
+    ],
+    "article": {
+      "id": "ang-dan-chu-tai-ha-vien-my-chuan-bi-chien-dich-ieu-tra-nham-vao-vong-tro-e6d0758f",
+      "title": "Đảng Dân chủ tại Hạ viện Mỹ chuẩn bị chiến dịch điều tra nhắm vào vòng tròn thân cận của Tổng thống Trump",
+      "summary": "Sau khi giành quyền kiểm soát Hạ viện trong cuộc bầu cử giữa kỳ, Đảng Dân chủ bắt đầu tiến hành các bước pháp lý và yêu cầu bảo lưu tài liệu đối với nhiều nhân vật trong quỹ đạo quyền lực của Tổng thống Donald Trump, từ các dự án kinh doanh gia đình cho đến các quan chức cấp cao.",
+      "category": "world",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+      "published_at": "2026-11-18T10:00:00+00:00",
+      "fetched_at": "2026-11-18T18:26:43.828172+00:00",
+      "appnho_published_at": "2026-11-18T18:26:46.828372+00:00",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau khi giành lại quyền kiểm soát Hạ viện và Thượng viện trong cuộc bầu cử giữa kỳ, đảng Dân chủ đang nhanh chóng triển khai các bước chuẩn bị cho những cuộc điều tra quy mô lớn nhắm trực tiếp vào gia đình và các cộng sự thân cận của Tổng động thống Donald Trump. Những động thái ban đầu cho thấy các nhà lập pháp Dân chủ muốn tập trung làm rõ nguồn gốc tài sản gia tăng và các hoạt động kinh doanh của những nhân vật chủ chốt trong quỹ đạo quyền lực.",
+        "Trong một bức thư được gửi đi vào thứ Tư, nghị sĩ Robert Garcia, người sắp đảm nhận vị trí đứng đầu Ủy ban Giám sát Hạ viện, đã yêu cầu Donald Trump Jr. phải bảo lưu toàn bộ hồ sơ liên quan đến các hoạt động kinh doanh cũng như các lễ kỷ niệm đám cưới của ông này. Các yêu cầu bảo lưu tài liệu tương tự cũng được gửi tới Eric Trump với tư cách là người đồng sáng lập công ty tiền mã hóa World Liberty Financial, cũng như Jared Kushner, người đang điều hành một quỹ đầu tư do Saudi Arabia hậu thuẫn đồng thời là đặc phái viên của tổng thống về Trung Đông.",
+        "Bên cạnh các thành viên trong gia đình tổng thống, thông báo lưu trữ tài liệu còn được gửi tới nhiều nhân vật thuộc chính quyền như Chánh văn phòng Nhà Trạch Stephen Miller, Phó Tổng thống JD Vance và Bộ trưởng Tư pháp Todd Blanche liên quan đến các vấn đề chính sách và vụ việc khác nhau. Phía đảng Dân chủ lập luận rằng sự gia tăng đột biến về tài chính và các thương vụ kinh doanh của những người trong vòng tròn thân cận tổng thống làm dấy lên những lo ngại nghiêm trọng về khả năng đổi chác chính sách hoặc tiếp cận ưu đãi đặc biệt.",
+        "Các dự án kinh doanh của gia đình tổng thống, đặc biệt là công ty tiền mã hóa World Liberty Financial và hãng đầu tư mạo hiểm 1789 của Donald Trump Jr., đã trải qua giai đoạn tăng trưởng mạnh mẽ với nguồn vốn huy động lớn trong thời gian qua. Các nhà lập pháp như Thượng nghị sĩ Elizabeth Warren và Thượng nghị sĩ Richard Blumenthal đã nhiều lần nêu bật những rủi ro an ninh quốc gia tiềm ẩn hoặc tiến hành giám sát các dự án này trong nhiều tháng qua, trong khi Hạ nghị sĩ Ro Khanna đặt câu hỏi về các thỏa thuận bán cổ phần liên quan đến các quỹ nước ngoài.",
+        "Ngay lập tức, phản ứng từ Nhà Trắng và phe ủng hộ Tổng thống Trump diễn ra vô cùng gay gắt trước những động thái từ phía đảng Dân chủ. Người phát ngôn Nhà Trắng Lauren Bis chỉ trích các cuộc điều tra này là mang tính chất phe phái và đi ngược lại lợi ích của người dân Mỹ, trong khi luật sư và các đại diện pháp lý của gia đình Trump kiên quyết khẳng định chưa từng có hành vi vi phạm hay sử dụng ảnh hưởng chính trị để trục lợi cá nhân.",
+        "Sự đối đầu chính trị này diễn ra trong bối cảnh hạ nghị sĩ Hakeem Jeffries vừa được đảng Dân chủ chính thức đề cử làm Chủ tịch Hạ viện, chuẩn bị bước vào giai đoạn lãnh đạo một đa số lớn tại hạ viện từ đầu năm tới. Với nguồn lực và quyền lực giám sát mới trong tay, các cuộc đối đầu giữa phe Dân chủ tại quốc hội và chính quyền đương nhiệm hứa hẹn sẽ còn tiếp tục leo thang trong thời gian tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Đảng Dân chủ Hạ viện Mỹ điều tra vòng tròn thân cận của Trump",
+      "meta_description": "Đảng Dân chủ tại Hạ viện Mỹ khởi động các yêu cầu bảo lưu tài liệu và chuẩn bị điều tra các thành viên gia đình cũng như quan chức trong chính quyền của Tổng th",
+      "keywords": [
+        "Đảng Dân chủ",
+        "Hạ viện Mỹ",
+        "Donald Trump",
+        "điều tra",
+        "chính trị Mỹ"
+      ],
+      "slug": "ang-dan-chu-tai-ha-vien-my-chuan-bi-chien-dich-ieu-tra-nham-vao-vong-tro-e6d0758f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 632,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+        "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+        "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+        "https://www.france24.com/en/americas/20261118-us-democrats-nominate-hakeem-jeffries-to-be-first-black-speaker-of-the-house",
+        "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks",
+        "https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination",
+        "https://www.aljazeera.com/news-analysis/2026/11/14/why-us-democrats-are-expected-to-keep-schumer-and-jeffries-in-power?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+        "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+        "https://www.france24.com/en/americas/20261118-us-democrats-nominate-hakeem-jeffries-to-be-first-black-speaker-of-the-house",
+        "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks",
+        "https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination",
+        "https://www.aljazeera.com/news-analysis/2026/11/14/why-us-democrats-are-expected-to-keep-schumer-and-jeffries-in-power?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T10:00:00+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:34:23+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T15:56:30+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/americas/20261118-us-democrats-nominate-hakeem-jeffries-to-be-first-black-speaker-of-the-house",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T15:45:39+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T15:32:43+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:24:01+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news-analysis/2026/11/14/why-us-democrats-are-expected-to-keep-schumer-and-jeffries-in-power?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T14:57:04+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đảng Dân chủ tại Hạ viện Mỹ yêu cầu Donald Trump Jr. bảo lưu hồ sơ liên quan đến các lễ cưới và hoạt động kinh doanh.",
+          "source_urls": [
+            "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Russian oligarch who paid for Donald Trump Jr.’s wedding party later claimed the president’s sonreimbursed him.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "snippet": "The Russian oligarch who paid for Donald Trump Jr.’s wedding party later claimed the president’s sonreimbursed him.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "page_sha256": "5eff358d199fa71293dfe1becd263203e9d9701bb644976d055fedfce2b5b6dc",
+              "snippet_sha256": "3d05e9e993b87d796719195f46e9e901505a3c9487788f4d4cfaa15caa403017",
+              "verified_at": "2026-11-18T18:26:43.827674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nghị sĩ Robert Garcia gửi yêu cầu bảo lưu hồ sơ tới Eric Trump, Jared Kushner và một số quan chức trong chính quyền.",
+          "source_urls": [
+            "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Representative Robert Garcia, the incoming head of the House Oversight Committee, also issued similar record-preservation requests to Eric Trump along with Donald Trump Jr., as cofounders of the wildly controversial crypto firm World Liberty Financial, and their brother-in-law Jared Kushner, who runs a Saudi-backed investment firm while serving as a presidential envoy to the Middle East.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "snippet": "Representative Robert Garcia, the incoming head of the House Oversight Committee, also issued similar record-preservation requests to Eric Trump along with Donald Trump Jr., as cofounders of the wildly controversial crypto firm World Liberty Financial, and their brother-in-law Jared Kushner, who runs a Saudi-backed investment firm while serving as a presidential envoy to the Middle East.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "page_sha256": "5eff358d199fa71293dfe1becd263203e9d9701bb644976d055fedfce2b5b6dc",
+              "snippet_sha256": "d3a5aafbff82ef888e696d354ff3fda30278aecee63949c44eefb99c351d5d0e",
+              "verified_at": "2026-11-18T18:26:43.827674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhà Trắng chỉ trích các cuộc điều tra của đảng Dân chủ là mang tính chất phi thực tế và chống lại người dân Mỹ.",
+          "source_urls": [
+            "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "“The Administration,” counsel to the president Will Scharf wrote to Garcia after the election, “will not be extorted.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "snippet": "“The Administration,” counsel to the president Will Scharf wrote to Garcia after the election, “will not be extorted.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "page_sha256": "5eff358d199fa71293dfe1becd263203e9d9701bb644976d055fedfce2b5b6dc",
+              "snippet_sha256": "d38301e06c323131519864f7151a718980a282ea1fa3c7848305c23916b95ccd",
+              "verified_at": "2026-11-18T18:26:43.827674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích chiến lược kiểm soát và các bước đi đầu tiên của đảng Dân chủ tại Hạ viện Mỹ trong việc nhắm vào gia đình và quan chức trong chính quyền của Tổng thống Donald Trump. Nội dung làm rõ bối cảnh chính trị hậu bầu cử giữa kỳ, các yêu cầu pháp lý cụ thể đối với từng cá nhân và phản ứng từ phía Nhà Trắng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T18:26:43.828292+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1789"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-18T18:26:46.828372+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 632,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2932,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "arstechnica.com",
+            "bbc.com",
+            "france24.com",
+            "npr.org",
+            "theguardian.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-19 01:26"
+    },
+    "published_at": "2026-11-18T18:26:46.828372+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
