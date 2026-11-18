@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "e79de07409ef5a947ee1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T03:11:14.849954+00:00",
     "expires_at": "2026-11-21T03:09:20.939611+00:00",
     "category_hint": "vietnam",
@@ -1331,11 +1331,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T03:11:14.849976+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tp-hcm-du-kien-dung-7-khu-at-oi-lay-cao-toc-ket-noi-san-bay-long-thanh-68060a93"
   },
   {
     "queue_id": "1e735d5f14456002e892",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T03:11:05.909062+00:00",
     "expires_at": "2026-11-21T03:09:20.939611+00:00",
     "category_hint": "vietnam",
@@ -2014,11 +2015,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T03:11:05.909084+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vpbanks-sap-gia-nhap-cau-lac-bo-cong-ty-chung-khoan-von-ty-usd-e8139923"
   },
   {
     "queue_id": "3229d67d44dc6d1eebd5",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T03:10:59.061546+00:00",
     "expires_at": "2026-11-21T03:09:20.939611+00:00",
     "category_hint": "technology",
@@ -3122,7 +3124,8 @@
       ]
     },
     "research_ready_at": "2026-11-18T03:10:59.061567+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tuong-lai-au-tu-mao-hiem-cua-nvidia-ung-truoc-nguong-cua-thay-oi-51876100"
   },
   {
     "queue_id": "3fc8c365f6e77b7cc853",
@@ -76810,5 +76813,685 @@
       "origin": "auto"
     },
     "result_reason": "Candidate freshness window expired before publication"
+  },
+  {
+    "queue_id": "tp-hcm-du-kien-dung-7-khu-at-oi-lay-cao-toc-ket-noi-san-bay-long-thanh-68060a93",
+    "status": "READY",
+    "prepared_at": "2026-11-18T03:11:36.554472+00:00",
+    "expires_at": "2026-11-19T03:11:36.554472+00:00",
+    "source_urls": [
+      "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+      "https://dantri.com.vn/thoi-su/khu-dat-gan-20ha-vua-bi-thu-hoi-tai-khu-cong-nghe-cao-tphcm-20261117175939640.htm"
+    ],
+    "article": {
+      "id": "tp-hcm-du-kien-dung-7-khu-at-oi-lay-cao-toc-ket-noi-san-bay-long-thanh-68060a93",
+      "title": "TP HCM dự kiến dùng 7 khu đất đổi lấy cao tốc kết nối sân bay Long Thành",
+      "summary": "Sở Tài chính TP HCM vừa có tờ trình gửi UBND thành phố về phương án sử dụng 7 khu đất rộng gần 179 ha để thanh toán cho nhà đầu tư thực hiện dự án đường cao tốc đô thị Hồ Tràm - sân bay Long Thành theo hình thức BT.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Thời sự",
+      "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+      "published_at": "2026-11-18T00:21:35+00:00",
+      "fetched_at": "2026-11-18T03:11:40.434704+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sở Tài chính TP HCM vừa có tờ trình gửi UBND thành phố xem xét, phê duyệt dự án đường cao tốc đô thị Hồ Tràm - Cảng hàng không quốc tế Long Thành theo phương thức đối tác công tư (PPP) và hợp đồng xây dựng - chuyển giao (BT). Theo đề xuất, tổng mức đầu tư của dự án này đạt khoảng 40.828 tỷ đồng, bao gồm cả thuế và lãi vay phát sinh trong giai đoạn xây dựng.",
+        "Để thanh toán cho nhà đầu tư là Công ty cổ phần Masterise Hạ tầng cao tốc Long Thành - Hồ Tràm, thành phố dự kiến sử dụng quỹ đất gồm 7 khu vực với tổng diện tích gần 179 ha, có giá trị tạm tính khoảng 35.000 tỷ đồng. Nhà đầu tư có trách nhiệm tự huy động toàn bộ nguồn vốn thực hiện, trong đó 15% là vốn chủ sở hữu và 85% là vốn vay cùng các nguồn huy động hợp pháp khác.",
+        "Trong danh sách đối ứng, hai khu đất có giá trị lớn nhất nằm tại khu Đông thành phố, chiếm hơn 88% tổng giá trị quỹ đất thanh toán gồm Khu đô thị Trường Thọ tại phường Thủ Đức và Khu Nông trường Dừa tại phường Long Trường. Bên cạnh đó, phương án cũng bao gồm một số khu đất vàng tại khu vực nội đô như số 10 Hàm Nghi, số 120 Trần Hưng Đạo và số 200 Võ Văn Tần.",
+        "Theo kế hoạch được trình, toàn bộ quỹ đất dự kiến được thanh toán một lần sau khi ký kết hợp đồng BT, thời gian dự kiến diễn ra trong tháng 12. Phần giá trị còn lại gần 5.900 tỷ đồng sẽ được phía ngân sách chi trả trong vòng ba năm sau khi công trình hoàn thành nghiệm thu và đưa vào khai thác sử dụng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "TP HCM dự kiến dùng 7 khu đất đổi làm cao tốc sân bay Long Thành",
+      "meta_description": "TP HCM dự kiến dùng 7 khu đất rộng gần 179 ha, trị giá khoảng 35.000 tỷ đồng để thanh toán cho nhà đầu tư dự án cao tốc kết nối sân bay Long Thành.",
+      "keywords": [
+        "TP HCM",
+        "cao tốc Long Thành - Hồ Tràm",
+        "khu đất đối ứng",
+        "hợp đồng BT",
+        "Sở Tài chính TP HCM"
+      ],
+      "slug": "tp-hcm-du-kien-dung-7-khu-at-oi-lay-cao-toc-ket-noi-san-bay-long-thanh-68060a93",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 316,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+        "https://dantri.com.vn/thoi-su/khu-dat-gan-20ha-vua-bi-thu-hoi-tai-khu-cong-nghe-cao-tphcm-20261117175939640.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/khu-dat-gan-20ha-vua-bi-thu-hoi-tai-khu-cong-nghe-cao-tphcm-20261117175939640.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thời sự",
+          "url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T00:21:35+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/khu-dat-gan-20ha-vua-bi-thu-hoi-tai-khu-cong-nghe-cao-tphcm-20261117175939640.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T02:29:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "TP HCM dự kiến dùng 7 khu đất rộng gần 179 ha, trị giá khoảng 35.000 tỷ đồng thuộc các phường Thủ Đức, Sài Gòn, Bến Thành… để thanh toán cho nhà đầu tư cao tốc Long Thành - Hồ Tràm.",
+          "source_urls": [
+            "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "TP HCM dự kiến dùng 7 khu đất rộng gần 179 ha, trị giá khoảng 35.000 tỷ đồng thuộc các phường Thủ Đức, Sài Gòn, Bến Thành… để thanh toán cho nhà đầu tư cao tốc Long Thành - Hồ Tràm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+              "snippet": "TP HCM dự kiến dùng 7 khu đất rộng gần 179 ha, trị giá khoảng 35.000 tỷ đồng thuộc các phường Thủ Đức, Sài Gòn, Bến Thành… để thanh toán cho nhà đầu tư cao tốc Long Thành - Hồ Tràm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+              "page_sha256": "05a934869cd5a4ae1b39736cc2e99b3c4521af4931ed54f624af33289fd95ecc",
+              "snippet_sha256": "8a8184d6653d6c8e8c22c3f09107837833d8be7a9bba3f7c5b074dbde41fae94",
+              "verified_at": "2026-11-18T03:11:40.433773+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng mức đầu tư dự án khoảng 40.828 tỷ đồng, đã gồm thuế và lãi vay trong thời gian xây dựng.",
+          "source_urls": [
+            "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo đó, tổng mức đầu tư dự án khoảng 40.828 tỷ đồng, đã gồm thuế và lãi vay trong thời gian xây dựng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+              "snippet": "Theo đó, tổng mức đầu tư dự án khoảng 40.828 tỷ đồng, đã gồm thuế và lãi vay trong thời gian xây dựng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+              "page_sha256": "05a934869cd5a4ae1b39736cc2e99b3c4521af4931ed54f624af33289fd95ecc",
+              "snippet_sha256": "b7e6d0adb1b2e992378542aec00b9778e43f94bcdb9bf078ea6f62006315fbc1",
+              "verified_at": "2026-11-18T03:11:40.433773+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhà đầu tư là Công ty cổ phần Masterise Hạ tầng cao tốc Long Thành - Hồ Tràm, tự huy động toàn bộ vốn, trong đó 15% vốn chủ sở hữu và 85% vốn vay cùng các nguồn huy động hợp pháp khác.",
+          "source_urls": [
+            "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nhà đầu tư là Công ty cổ phần Masterise Hạ tầng cao tốc Long Thành - Hồ Tràm, tự huy động toàn bộ vốn, trong đó 15% vốn chủ sở hữu và 85% vốn vay cùng các nguồn huy động hợp pháp khác.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+              "snippet": "Nhà đầu tư là Công ty cổ phần Masterise Hạ tầng cao tốc Long Thành - Hồ Tràm, tự huy động toàn bộ vốn, trong đó 15% vốn chủ sở hữu và 85% vốn vay cùng các nguồn huy động hợp pháp khác.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/tp-hcm-du-kien-dung-7-khu-dat-doi-lam-cao-toc-ket-noi-san-bay-long-thanh-5145892.html",
+              "page_sha256": "05a934869cd5a4ae1b39736cc2e99b3c4521af4931ed54f624af33289fd95ecc",
+              "snippet_sha256": "f273c8d2410a81601e9da0a9f691fe0194972f0b8aa3b16a7d0bcb3d76b3b045",
+              "verified_at": "2026-11-18T03:11:40.433773+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy mô tài chính và danh mục các khu đất đối ứng mà TP HCM dự kiến sử dụng để phát triển hạ tầng giao thông chiến lược. Đồng thời, văn bản phân tích rõ phương án huy động vốn của nhà đầu tư và tiến độ thanh toán dự kiến trong đề án.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T03:11:40.434819+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "120",
+        "15",
+        "179",
+        "200",
+        "35.000",
+        "40.828",
+        "5.900",
+        "7",
+        "85",
+        "88"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T03:11:40.436415+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 316,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1393
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "vpbanks-sap-gia-nhap-cau-lac-bo-cong-ty-chung-khoan-von-ty-usd-e8139923",
+    "status": "READY",
+    "prepared_at": "2026-11-18T03:11:36.554472+00:00",
+    "expires_at": "2026-11-19T03:11:36.554472+00:00",
+    "source_urls": [
+      "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+      "https://thanhnien.vn/nga-to-cao-ukraine-tan-cong-cau-crimea-mo-cuoc-dieu-tra-hinh-su-185261117161800398.htm",
+      "https://dantri.com.vn/thoi-su/cong-an-dua-nguoi-dan-ong-bi-ran-doc-can-vuot-50km-di-cap-cuu-20261117155538688.htm"
+    ],
+    "article": {
+      "id": "vpbanks-sap-gia-nhap-cau-lac-bo-cong-ty-chung-khoan-von-ty-usd-e8139923",
+      "title": "VPBankS sắp gia nhập câu lạc bộ công ty chứng khoán vốn tỷ USD",
+      "summary": "Công ty cổ phần Chứng khoán VPBank chuẩn bị hoàn tất đợt phát hành cổ phiếu thưởng lớn, đưa vốn điều lệ vượt mốc 1 tỷ USD và vươn lên vị trí thứ ba toàn ngành.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+      "published_at": "2026-11-18T01:09:57+00:00",
+      "fetched_at": "2026-11-18T03:11:46.199180+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Công ty cổ phần Chứng khoán VPBank (VPBankS) chuẩn bị chốt quyền nhận cổ phiếu thưởng với tỷ lệ 45% vào ngày 30/11 tới đây. Theo kế hoạch, doanh nghiệp dự kiến phát hành gần 844 triệu cổ phiếu để chia thưởng cho cổ đông, qua đó nâng tổng số lượng cổ phần sở hữu của nhà đầu tư với mức cứ 100 cổ phần nhận thêm 45 cổ phần mới.",
+        "Sau khi hoàn tất thương vụ phát hành này, vốn điều lệ của VPBankS sẽ tăng mạnh từ 18.750 tỷ đồng lên mức 27.187 tỷ đồng. Khoản vốn này quy đổi tương đương hơn 1 tỷ USD, giúp doanh nghiệp chính thức ghi tên mình vào danh sách đơn vị thứ ba trong ngành chứng khoán đạt cột mốc vốn điều lệ tỷ USD, đứng sau SSI và TCBS.",
+        "Việc liên tục gia tăng quy mô vốn đóng vai trò chiến lược đối với các công ty chứng khoán khi muốn mở rộng hoạt động kinh doanh, đặc biệt là hai mảng trọng điểm gồm tự doanh và cho vay ký quỹ (margin). Theo quy định hiện hành từ Ủy ban Chứng khoán Nhà nước, tổng dư nợ margin mà một công ty chứng khoán được phép cung cấp không vượt quá hai lần vốn chủ sở hữu.",
+        "Xét về tốc độ phát triển, VPBankS ghi nhận quá trình mở rộng quy mô vốn thuộc nhóm nhanh nhất thị trường. Chỉ trong vòng bốn năm tính từ thời điểm gia nhập hệ sinh thái của ngân hàng mẹ vào năm 2022, vốn điều lệ của công ty đã bật tăng từ mức 270 tỷ đồng lên 27.187 tỷ đồng, tương đương mức tăng trưởng gấp mười lần.",
+        "Bên cạnh đợt tăng vốn sắp tới, kết quả kinh doanh của doanh nghiệp trong 9 tháng đầu năm ghi nhận doanh thu hoạt động đạt 10.544 tỷ đồng, tăng 93% so với cùng kỳ năm trước. Lợi nhuận trước thuế của công ty đạt 3.516 tỷ đồng, tăng 8%. Tính đến hết quý III, tổng tài sản vượt 83.300 tỷ đồng, trong đó dư nợ cho vay ký quỹ đạt gần 39.530 tỷ đồng và cũng xếp thứ ba toàn ngành."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "VPBankS chính thức vượt mốc vốn điều lệ 1 tỷ USD",
+      "meta_description": "Công ty Chứng khoán VPBank sắp đạt vốn điều lệ 27.187 tỷ đồng, trở thành đơn vị thứ ba trong ngành chứng khoán vượt mốc tỷ USD.",
+      "keywords": [
+        "VPBankS",
+        "vốn điều lệ",
+        "công ty chứng khoán",
+        "chứng khoán tỷ USD"
+      ],
+      "slug": "vpbanks-sap-gia-nhap-cau-lac-bo-cong-ty-chung-khoan-von-ty-usd-e8139923",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 370,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+        "https://thanhnien.vn/nga-to-cao-ukraine-tan-cong-cau-crimea-mo-cuoc-dieu-tra-hinh-su-185261117161800398.htm",
+        "https://dantri.com.vn/thoi-su/cong-an-dua-nguoi-dan-ong-bi-ran-doc-can-vuot-50km-di-cap-cuu-20261117155538688.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/nga-to-cao-ukraine-tan-cong-cau-crimea-mo-cuoc-dieu-tra-hinh-su-185261117161800398.htm",
+        "https://dantri.com.vn/thoi-su/cong-an-dua-nguoi-dan-ong-bi-ran-doc-can-vuot-50km-di-cap-cuu-20261117155538688.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T01:09:57+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/nga-to-cao-ukraine-tan-cong-cau-crimea-mo-cuoc-dieu-tra-hinh-su-185261117161800398.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T09:54:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/cong-an-dua-nguoi-dan-ong-bi-ran-doc-can-vuot-50km-di-cap-cuu-20261117155538688.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T09:45:59+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "VPBankS chốt quyền nhận cổ phiếu thưởng tỷ lệ 45% vào ngày 30/11 với lượng phát hành gần 844 triệu cổ phiếu.",
+          "source_urls": [
+            "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "VPBankS dự kiến phát hành 843,75 triệu cổ phiếu để chia thưởng cho cổ đông, tức mỗi nhà đầu tư sở hữu 100 cổ phần sẽ nhận thêm 45 cổ phần mới.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "snippet": "VPBankS dự kiến phát hành 843,75 triệu cổ phiếu để chia thưởng cho cổ đông, tức mỗi nhà đầu tư sở hữu 100 cổ phần sẽ nhận thêm 45 cổ phần mới.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "page_sha256": "4aafe4d573aaca7dbb894087fb613d5395fe4dcf1e46a3fe159ad451181fe631",
+              "snippet_sha256": "f31cb958e4e3684f29918e2647eb733b48f3db6dc8027ad637a345f211f9a65a",
+              "verified_at": "2026-11-18T03:11:46.198342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vốn điều lệ của VPBankS tăng từ 18.750 tỷ đồng lên 27.187 tỷ đồng, tương đương hơn 1 tỷ USD, xếp thứ ba ngành chứng khoán.",
+          "source_urls": [
+            "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sau khi hoàn thành việc phát hành gần 844 triệu cổ phiếu thưởng, VPBankS sẽ có vốn điều lệ đạt mức 27.187 tỷ đồng, tương đương hơn 1 tỷ USD, trở thành công ty chứng khoán thứ ba đạt cột mốc này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "snippet": "Sau khi hoàn thành việc phát hành gần 844 triệu cổ phiếu thưởng, VPBankS sẽ có vốn điều lệ đạt mức 27.187 tỷ đồng, tương đương hơn 1 tỷ USD, trở thành công ty chứng khoán thứ ba đạt cột mốc này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "page_sha256": "4aafe4d573aaca7dbb894087fb613d5395fe4dcf1e46a3fe159ad451181fe631",
+              "snippet_sha256": "53ba56166e97d6b143dcfeb56275d5394876fc4ddb6d003e843b7b29ab6c10a2",
+              "verified_at": "2026-11-18T03:11:46.198342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng dư nợ margin của công ty chứng khoán theo quy định không vượt quá 2 lần vốn chủ sở hữu.",
+          "source_urls": [
+            "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo quy định của Ủy ban Chứng khoán Nhà nước, tổng dư nợ margin của một công ty chứng khoán không được vượt quá 2 lần vốn chủ sở hữu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "snippet": "Theo quy định của Ủy ban Chứng khoán Nhà nước, tổng dư nợ margin của một công ty chứng khoán không được vượt quá 2 lần vốn chủ sở hữu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "page_sha256": "4aafe4d573aaca7dbb894087fb613d5395fe4dcf1e46a3fe159ad451181fe631",
+              "snippet_sha256": "e5b51c41840093aa7788d37f3f527f1a4302e5f054133fe9c3991daaedc37e28",
+              "verified_at": "2026-11-18T03:11:46.198342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong vòng 4 năm kể từ 2022, vốn điều lệ VPBankS tăng từ 270 tỷ đồng lên 27.187 tỷ đồng, gấp 10 lần.",
+          "source_urls": [
+            "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong vòng 4 năm, tính từ thời điểm gia nhập hệ sinh thái của VPBank vào năm 2022, vốn điều lệ của doanh nghiệp đã tăng từ 270 tỷ đồng lên 27.187, tương đương gấp 10 lần.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "snippet": "Trong vòng 4 năm, tính từ thời điểm gia nhập hệ sinh thái của VPBank vào năm 2022, vốn điều lệ của doanh nghiệp đã tăng từ 270 tỷ đồng lên 27.187, tương đương gấp 10 lần.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "page_sha256": "4aafe4d573aaca7dbb894087fb613d5395fe4dcf1e46a3fe159ad451181fe631",
+              "snippet_sha256": "06977b5a07db9e046be9249af69a28abf37501ef77d7c53d2285e7ebe7f875b8",
+              "verified_at": "2026-11-18T03:11:46.198342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lũy kế 9 tháng đầu năm 2026, doanh thu hoạt động đạt 10.544 tỷ đồng và lợi nhuận trước thuế đạt 3.516 tỷ đồng.",
+          "source_urls": [
+            "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Lũy kế 9 tháng đầu năm 2026, công ty ghi nhận doanh thu hoạt động đạt 10.544 tỷ đồng, tăng 93% so với cùng kỳ năm trước.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "snippet": "Lũy kế 9 tháng đầu năm 2026, công ty ghi nhận doanh thu hoạt động đạt 10.544 tỷ đồng, tăng 93% so với cùng kỳ năm trước.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+              "page_sha256": "4aafe4d573aaca7dbb894087fb613d5395fe4dcf1e46a3fe159ad451181fe631",
+              "snippet_sha256": "ea7aaad06bd4f76b30c51e8b552ad64e28f247fcff078296c6b34b8884e25427",
+              "verified_at": "2026-11-18T03:11:46.198342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích chi tiết kế hoạch tăng vốn điều lệ của VPBankS và đặt trong bối cảnh tốc độ tăng trưởng quy mô cùng các chỉ số tài chính cốt lõi. Qua đó, bài làm rõ tác động của việc tăng vốn đối với dư nợ cho vay ký quỹ và vị thế của doanh nghiệp trong ngành chứng khoán.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T03:11:46.199297+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10.544",
+        "100",
+        "18.750",
+        "2022",
+        "27.187",
+        "270",
+        "3.516",
+        "39.530",
+        "45",
+        "8",
+        "83.300",
+        "844",
+        "9",
+        "93"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T03:11:46.200763+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 370,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1690
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tuong-lai-au-tu-mao-hiem-cua-nvidia-ung-truoc-nguong-cua-thay-oi-51876100",
+    "status": "READY",
+    "prepared_at": "2026-11-18T03:11:36.554472+00:00",
+    "expires_at": "2026-11-19T03:11:36.554472+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+      "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo"
+    ],
+    "article": {
+      "id": "tuong-lai-au-tu-mao-hiem-cua-nvidia-ung-truoc-nguong-cua-thay-oi-51876100",
+      "title": "Tương lai đầu tư mạo hiểm của Nvidia đứng trước ngưỡng cửa thay đổi",
+      "summary": "Sau khi Jensen Huang rời ghế CEO, Nvidia đối mặt với áp lực thay đổi chiến lược đầu tư vào các startup AI, dù giá trị danh mục đầu tư hiện đạt mức kỷ lục 65,5 tỷ USD.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+      "published_at": "2026-11-18T01:44:21+00:00",
+      "fetched_at": "2026-11-18T03:12:02.233972+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nvidia vừa công bố báo cáo tài chính cho thấy giá trị cổ phần của hãng trong các công ty tư nhân đã tăng vọt lên 65,5 tỷ USD, so với mức 22 tỷ USD ghi nhận vào tháng 1. Sự gia tăng này phản ánh các khoản đầu tư mới cùng sự đánh giá cao đối với danh mục hiện có, với khoảng 58 tỷ USD đã được giải ngân trong chín tháng đầu năm tài chính. Kể từ cuối năm 2023, Nvidia đã rót vốn vào gần 350 startup, bao gồm các tên tuổi lớn như OpenAI và Anthropic, nhằm mở rộng hệ sinh thái trí tuệ nhân tạo.",
+        "Tuy nhiên, sự ra đi đột ngột của đồng sáng lập Jensen Huang đã đặt ra dấu hỏi lớn về chiến lược này. Trong cuộc họp báo cáo thu nhập mới đây, quyền CEO Colette Kress khẳng định công ty sẽ tiếp tục hỗ trợ tài chính cho các khách hàng chiến lược, nhưng nhấn mạnh việc sẽ đánh giá nghiêm ngặt hơn các cam kết trong tương lai. Các nhà đầu tư đang kỳ vọng vào một cách tiếp cận thận trọng hơn dưới thời bà Kress, với dự báo Nvidia có thể sẽ chọn lọc kỹ lưỡng hơn và giảm quy mô các khoản đầu tư mới.",
+        "Giới quan sát trong lĩnh vực đầu tư mạo hiểm hiện đang chuẩn bị cho khả năng Nvidia thu hẹp đáng kể dòng vốn. Với việc hội đồng quản trị đã chính thức bác bỏ khả năng đưa ông Huang trở lại vị trí lãnh đạo, tương lai của các thương vụ đầu tư mang tính chiến lược của Nvidia vẫn là một ẩn số lớn, phụ thuộc vào định hướng của người kế nhiệm chính thức trong thời gian tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Nvidia đối mặt tương lai bất định sau khi Jensen Huang rời ghế CEO",
+      "meta_description": "Nvidia ghi nhận giá trị đầu tư startup đạt 65,5 tỷ USD, nhưng sự ra đi của Jensen Huang khiến giới đầu tư lo ngại về khả năng duy trì các thương vụ trong tương ",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "đầu tư mạo hiểm",
+        "AI",
+        "Colette Kress"
+      ],
+      "slug": "tuong-lai-au-tu-mao-hiem-cua-nvidia-ung-truoc-nguong-cua-thay-oi-51876100",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 301,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+        "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T01:44:21+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T22:50:32+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Giá trị cổ phần của Nvidia trong các công ty tư nhân đạt 65,5 tỷ USD, tăng từ 22 tỷ USD vào tháng 1.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billionon Tuesday, up from the $22 billion reported in January.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+              "snippet": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billionon Tuesday, up from the $22 billion reported in January.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+              "page_sha256": "9c47a0c1ec5d9671936b753cdadb5f472fd0f05fe0aa1c98a6423ffb1395ef7d",
+              "snippet_sha256": "e0ef1b6f9c6d67a1f2f48592d1e18befb7fe407eb4389e7add394a6beb356a5f",
+              "verified_at": "2026-11-18T03:12:02.233354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia đã đầu tư vào gần 350 startup kể từ cuối năm 2023.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nvidiastatedin late 2023 that the goal of its corporate investing is to expand the AI ecosystem by backing startups it considers to be “game changers and market makers.” Over the nearly three years that followed, the chipmaker has invested in nearly 350 startups, according to PitchBook.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+              "snippet": "Nvidiastatedin late 2023 that the goal of its corporate investing is to expand the AI ecosystem by backing startups it considers to be “game changers and market makers.” Over the nearly three years that followed, the chipmaker has invested in nearly 350 startups, according to PitchBook.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+              "page_sha256": "9c47a0c1ec5d9671936b753cdadb5f472fd0f05fe0aa1c98a6423ffb1395ef7d",
+              "snippet_sha256": "cb04fccedb59fc608cca3b4e479ae1139e8d9ee093d36deba715cb5533a6d810",
+              "verified_at": "2026-11-18T03:12:02.233354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hội đồng quản trị Nvidia đã bác bỏ khả năng đưa Jensen Huang trở lại vị trí CEO.",
+          "source_urls": [
+            "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "NvidiaBoard Chairman Harvey Jones opened a conference call with investors on Tuesday by saying theAI chip companywould not rehire co-founderJensen HuangasCEOand would not take questions on the matter.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo",
+              "snippet": "NvidiaBoard Chairman Harvey Jones opened a conference call with investors on Tuesday by saying theAI chip companywould not rehire co-founderJensen HuangasCEOand would not take questions on the matter.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo",
+              "page_sha256": "7a56beceb4b76909423fa3b883fc7fd10dd304e957804f68e778eaaced7c8bf0",
+              "snippet_sha256": "c6b34cf56fc55f72a0102ef11a48d16f9586b4207efdeaff48424feeddb94ff7",
+              "verified_at": "2026-11-18T03:12:02.233354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự tương phản giữa thành công tài chính hiện tại của danh mục đầu tư và rủi ro chiến lược sau khi thay đổi nhân sự cấp cao. Đồng thời, bài phân tích chỉ ra sự chuyển dịch từ phong cách đầu tư mạnh tay của cựu CEO sang hướng tiếp cận thận trọng hơn dưới quyền điều hành tạm thời.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T03:12:02.234106+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2023",
+        "22",
+        "350",
+        "58",
+        "65,5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T03:12:02.235351+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 301,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1354
+        },
+        "independent_domains": [
+          "france24.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
