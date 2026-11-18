@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "493a6ec6a92ce76ed686",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T12:19:25.223151+00:00",
     "expires_at": "2026-11-21T12:16:51.181749+00:00",
     "category_hint": "sports",
@@ -825,11 +825,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T12:19:25.223169+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75"
   },
   {
     "queue_id": "75519fa11cfe45c29b98",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T12:19:20.232888+00:00",
     "expires_at": "2026-11-21T12:16:51.181749+00:00",
     "category_hint": "sports",
@@ -1463,11 +1464,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T12:19:20.232906+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59"
   },
   {
     "queue_id": "0ebbff268fb635f1c537",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T12:19:16.869443+00:00",
     "expires_at": "2026-11-21T12:16:51.181749+00:00",
     "category_hint": "world",
@@ -2201,7 +2203,8 @@
       ]
     },
     "research_ready_at": "2026-11-18T12:19:16.869461+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565"
   },
   {
     "queue_id": "29a482e1bf5832b65671",
@@ -81524,5 +81527,724 @@
     },
     "published_at": "2026-11-14T11:50:01.764045+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
+    "status": "READY",
+    "prepared_at": "2026-11-18T12:19:52.950765+00:00",
+    "expires_at": "2026-11-19T12:19:52.950765+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+      "https://www.theguardian.com/sport/2026/nov/18/ten-is-the-minimum-14-year-old-surfing-champion-leihani-zoric-aims-for-record-world-title-haul",
+      "https://www.cbssports.com/soccer/news/ronaldinho-46-year-old-return-soccer-italian-third-division-ravenna",
+      "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html"
+    ],
+    "article": {
+      "id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
+      "title": "Andrej Stojakovic phá kỷ lục tồn tại 69 năm với màn trình diễn lịch sử trước Duke",
+      "summary": "Cầu thủ Andrej Stojakovic của Illinois ghi 46 điểm trong trận đấu với Duke, vượt qua kỷ lục tồn tại từ tháng 2 năm 1957 và chấm dứt chuỗi 35 trận thắng liên tiếp trên sân nhà của đối thủ.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+      "published_at": "2026-11-18T12:01:38+00:00",
+      "fetched_at": "2026-11-18T12:20:02.252387+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong trận đấu diễn ra tối thứ Ba tại nhà thi đấu Cameron Indoor Stadium, cầu thủ Andrej Stojakovic của đội bóng rổ đại học Illinois đã thiết lập một cột mốc lịch sử. Cụ thể, anh ghi tới 46 điểm, góp phần giúp đội xếp hạng 10 Fighting Illini giành chiến thắng áp đảo 99-78 trước đối thủ xếp hạng 5 Duke. Kết quả này đồng thời chấm dứt chuỗi 35 trận thắng liên tiếp trên sân nhà của đội chủ nhà Duke.",
+        "Màn trình diễn xuất sắc của Stojakovic đã chính thức xô đổ kỷ lục ghi điểm nhiều nhất đối với một cầu thủ đội khách tại Cameron Indoor Stadium. Kỷ lục cũ trước đó thuộc về Grady Wallace của South Carolina với 43 điểm, được thiết lập từ tháng 2 năm 1957 và đã tồn tại suốt 69 năm qua. Ngoài ra, thành tích của Stojakovic chỉ kém hai điểm so với kỷ lục ghi điểm trong một trận đấu duy nhất của toàn bộ nhà thi đấu này do huyền thoại Dick Groat lập nên từ năm 1952.",
+        "Về mặt hiệu suất thi đấu, con trai của cựu ngôi sao NBA Peja Stojakovic đã thể hiện khả năng tấn công vô cùng ấn tượng. Anh thành công trong 14 trên tổng số 21 cú ném rổ và thực hiện chính xác 16 trong 20 quả ném phạt. Stojakovic kết thúc hiệp một với 20 điểm trước khi ghi thêm 26 điểm nữa ở hiệp đấu thứ hai, bất chấp việc toàn đội Illinois gặp khó khăn trong các tình huống ném xa khi chỉ thành công 6 lần sau 32 cú sút từ vạch ba điểm.",
+        "Sự hỗ trợ từ đồng đội cũng đóng vai trò quan trọng khi tân binh Quentin Coleman ghi thêm 27 điểm, giúp cặp đôi này phối hợp mang về tổng cộng 73 điểm cho đội khách. Chiến thắng này mang ý nghĩa lớn đối với Illinois sau trận thua nặng nề 67-110 trước chính Duke vào tháng 2 năm 2025. Qua đó, Illinois nâng thành tích của mình lên 4 trận thắng và 1 trận thua ở mùa giải năm nay dù vẫn thiếu vắng cầu thủ David Mirkovic do chấn thương."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Andrej Stojakovic phá kỷ lục 69 năm trong trận thắng lịch sử trước Duk",
+      "meta_description": "Andrej Stojakovic ghi 46 điểm giúp Illinois đánh bại Duke 99-78, xô đổ kỷ lục cầu thủ khách ghi điểm nhiều nhất tại sân Cameron Indoor Stadium từ năm 1957.",
+      "keywords": [
+        "Andrej Stojakovic",
+        "Duke",
+        "Illinois",
+        "bong ro dai hoc",
+        "ky luc"
+      ],
+      "slug": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 373,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+        "https://www.theguardian.com/sport/2026/nov/18/ten-is-the-minimum-14-year-old-surfing-champion-leihani-zoric-aims-for-record-world-title-haul",
+        "https://www.cbssports.com/soccer/news/ronaldinho-46-year-old-return-soccer-italian-third-division-ravenna",
+        "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/18/ten-is-the-minimum-14-year-old-surfing-champion-leihani-zoric-aims-for-record-world-title-haul",
+        "https://www.cbssports.com/soccer/news/ronaldinho-46-year-old-return-soccer-italian-third-division-ravenna",
+        "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:01:38+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/18/ten-is-the-minimum-14-year-old-surfing-champion-leihani-zoric-aims-for-record-world-title-haul",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T07:22:28+00:00"
+        },
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/ronaldinho-46-year-old-return-soccer-italian-third-division-ravenna",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T17:32:47+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-14T14:02:39+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Andrej Stojakovic ghi 46 điểm giúp Illinois đánh bại Duke 99-78, chấm dứt chuỗi 35 trận thắng sân nhà của Duke.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365"
+          ],
+          "importance": "core",
+          "evidence_snippet": "5 Duke 99-78, ending the Blue Devils' 35-game home winning streak.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "snippet": "5 Duke 99-78, ending the Blue Devils' 35-game home winning streak.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "page_sha256": "c1373631541be0b9367786268a0f35e33b47ba884b468c8bd14d1b487884e9f4",
+              "snippet_sha256": "7ab50bea72248eebca3dd1c87f3e409a408e71933ee2208caf6d4f3417780b93",
+              "verified_at": "2026-11-18T12:20:02.251861+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Stojakovic phá kỷ lục ghi điểm cho cầu thủ khách tại Cameron Indoor Stadium tồn tại từ tháng 2 năm 1957 do Grady Wallace lập ra với 43 điểm.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Stojakovic surpassed a record that had stood since February 1957, when South Carolina's Grady Wallace scored 43 points at Cameron Indoor Stadium.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "snippet": "Stojakovic surpassed a record that had stood since February 1957, when South Carolina's Grady Wallace scored 43 points at Cameron Indoor Stadium.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "page_sha256": "c1373631541be0b9367786268a0f35e33b47ba884b468c8bd14d1b487884e9f4",
+              "snippet_sha256": "1e03eb342309619f6ec77dcbfd9cf42016c90d7008146aea787ee734b8d7c8b3",
+              "verified_at": "2026-11-18T12:20:02.251861+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Stojakovic ném thành công 14/21 cú dứt điểm và thực hiện 16/20 quả ném phạt, ghi 20 điểm trong hiệp một và 26 điểm ở hiệp hai.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Stojakovic entered halftime with 20 points before adding another 26 during the second half.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "snippet": "Stojakovic entered halftime with 20 points before adding another 26 during the second half.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
+              "page_sha256": "c1373631541be0b9367786268a0f35e33b47ba884b468c8bd14d1b487884e9f4",
+              "snippet_sha256": "1e3ee118c39819cd28816622b1949f6c07b12817e1d318b4d9b9f253b640e1ee",
+              "verified_at": "2026-11-18T12:20:02.251861+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết về kỷ lục tồn tại gần bảy thập kỷ tại sân nhà của Duke và phân tích sự hiệu quả trong khâu ghi điểm của Andrej Stojakovic. Bối cảnh đối đầu từ mùa giải trước cũng được lồng ghép để làm nổi bật sự bứt phá của đội khách Illinois.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T12:20:02.252481+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "110",
+        "14",
+        "16",
+        "1952",
+        "1957",
+        "20",
+        "2025",
+        "21",
+        "26",
+        "27",
+        "32",
+        "35",
+        "4",
+        "43",
+        "46",
+        "5",
+        "6",
+        "67",
+        "69",
+        "73"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T12:20:02.253947+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 373,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1732
+        },
+        "independent_domains": [
+          "cbssports.com",
+          "cnbc.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
+    "status": "READY",
+    "prepared_at": "2026-11-18T12:19:52.950765+00:00",
+    "expires_at": "2026-11-19T12:19:52.950765+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+      "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+      "https://www.theguardian.com/technology/2026/nov/15/ethnic-minorities-wales-police-facial-scans-data"
+    ],
+    "article": {
+      "id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
+      "title": "Trận thua lịch sử trên sân nhà của đội bóng rổ Duke",
+      "summary": "Đội bóng rổ nam Duke vừa phải nhận thất bại nặng nề nhất trên sân nhà trong hơn bốn thập kỷ qua sau trận thua trước Illinois.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+      "published_at": "2026-11-18T12:06:53+00:00",
+      "fetched_at": "2026-11-18T12:20:08.347601+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội bóng rổ nam Duke vừa trải qua một trong những kết quả đáng thất vọng nhất tại sân nhà Cameron Indoor Stadium trong lịch sử gần đây khi để thua đậm trước đối thủ Illinois. Trận thua này lập tức thu hút sự chú ý của giới chuyên môn thể thao đại học Mỹ bởi tính chất bất ngờ và mức độ chênh lệch của tỷ số chung cuộc.",
+        "Trong trận đấu này, đội ngũ Blue Devils xếp hạng năm đã để thua 99-78 trước đối thủ đứng thứ mười là Fighting Illini. Theo ghi nhận từ các tài liệu thống kê, đây là trận thua sân nhà có cách biệt lớn nhất của Duke kể từ khi giải đấu NCAA Tournament mở rộng quy mô lên 64 đội vào năm 1985. Kỷ lục thất bại sân nhà lớn nhất trước đó trong khoảng thời gian này thuộc về trận thua 20 điểm trước North Carolina vào năm 1989.",
+        "Không chỉ dừng lại ở tỷ số, trận đấu còn phơi bày nhiều điểm yếu lớn trong lối chơi của Duke khi đối đầu với một đối thủ có thể hình và lối chơi quyết liệt. Đội khách Illinois đã tạo ra ưu thế áp đảo với 54 pha tranh bóng bật bảng so với 34 của chủ nhà, đồng thời ghi tới 48 điểm khu vực dưới rổ so với 30 điểm của Duke. Những con số này càng trở nên đáng chú ý khi Illinois bước vào trận đấu mà thiếu vắng cầu thủ quan trọng David Mirkovic.",
+        "Bên cạnh ưu thế khu vực cận rổ, phía Illinois còn chứng kiến màn trình diễn nổi bật từ các cá nhân khi Andrej Stojakovic ghi 46 điểm và tân binh Quentin Coleman đóng góp thêm 27 điểm. Phía Duke, dù tân binh Joaquim Boumtje Boumtje nỗ lực dẫn đầu với 17 điểm và Caleb Foster ghi 15 điểm từ băng ghế dự bị, tập thể chủ nhà vẫn không thể san lấp khoảng cách điểm số được tạo ra xuyên suốt hiệp thi đấu thứ hai.",
+        "Thất bại này không loại Duke khỏi cuộc đua vô địch toàn quốc nhưng đã gióng lên hồi chuông cảnh báo về những vấn đề phòng ngự và tranh chấp bóng bật bảng. Đội bóng dưới sự dẫn dắt của ban huấn luyện sẽ cần nhanh chóng chấn chỉnh đội hình trước khi bước vào các chuyến làm khách tiếp theo nhằm cải thiện thành tích và chuẩn bị cho giai đoạn quyết định của mùa giải."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Duke Basketball Nhận Thất Bại Kỷ Lục Trên Sân Nhà Trước Illinois",
+      "meta_description": "Đội bóng rổ nam Duke thua 99-78 trước Illinois tại sân nhà Cameron Indoor Stadium, ghi nhận trận thua đậm nhất từ năm 1985.",
+      "keywords": [
+        "Duke basketball",
+        "Cameron Indoor Stadium",
+        "Illinois",
+        "NCAA",
+        "thể thao Mỹ"
+      ],
+      "slug": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 424,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+        "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+        "https://www.theguardian.com/technology/2026/nov/15/ethnic-minorities-wales-police-facial-scans-data"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+        "https://www.theguardian.com/technology/2026/nov/15/ethnic-minorities-wales-police-facial-scans-data"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:06:53+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T13:40:54+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/technology/2026/nov/15/ethnic-minorities-wales-police-facial-scans-data",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T14:00:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội bóng rổ nam Duke thua 99-78 trước Illinois tại Cameron Indoor Stadium.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Illinois surpassed that margin Tuesday while ending Duke's 35-game winning streak at Cameron Indoor Stadium.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "snippet": "Illinois surpassed that margin Tuesday while ending Duke's 35-game winning streak at Cameron Indoor Stadium.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "page_sha256": "66f6ad40560ae68d6c313402c907432ea881b49db21f003de1de9e94758d252f",
+              "snippet_sha256": "ad1b8d6ea320540c09d0849fb4a0b5016fb118b21e767204519781f8e41c24b8",
+              "verified_at": "2026-11-18T12:20:08.347212+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là trận thua sân nhà nặng nề nhất của Duke kể từ năm 1985.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3"
+          ],
+          "importance": "core",
+          "evidence_snippet": "10 Fighting Illini, suffering their most lopsided home defeat since the NCAA Tournament expanded to 64 teams in 1985.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "snippet": "10 Fighting Illini, suffering their most lopsided home defeat since the NCAA Tournament expanded to 64 teams in 1985.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "page_sha256": "66f6ad40560ae68d6c313402c907432ea881b49db21f003de1de9e94758d252f",
+              "snippet_sha256": "a0232cd1d649106cd4585485168f147ea217fa3706cac6cac3090147a699f200",
+              "verified_at": "2026-11-18T12:20:08.347212+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Illinois thiết lập lợi thế 54-34 về tranh bóng bật bảng và áp đảo khu vực dưới rổ với 48-30 điểm.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "That game offers an opportunity to address some of the defensive and rebounding problems that became particularly apparent against Illinois.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "snippet": "That game offers an opportunity to address some of the defensive and rebounding problems that became particularly apparent against Illinois.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
+              "page_sha256": "66f6ad40560ae68d6c313402c907432ea881b49db21f003de1de9e94758d252f",
+              "snippet_sha256": "3034dfa367dcf5e36c02a167634d546b4883ca971806d32f5ac233b490d7171c",
+              "verified_at": "2026-11-18T12:20:08.347212+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh lịch sử của trận thua đậm nhất trên sân nhà của Duke trong hơn 40 qua. Phân tích chi tiết các thông số về khu vực dưới rổ và khả năng tranh bóng bật bảng giúp độc giả hiểu rõ nguyên nhân chuyên môn dẫn đến thất bại.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T12:20:08.347693+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "15",
+        "17",
+        "1985",
+        "1989",
+        "20",
+        "27",
+        "30",
+        "34",
+        "46",
+        "48",
+        "54",
+        "64"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T12:20:08.348751+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 424,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1949
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565",
+    "status": "READY",
+    "prepared_at": "2026-11-18T12:19:52.950765+00:00",
+    "expires_at": "2026-11-19T00:19:52.950765+00:00",
+    "source_urls": [
+      "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+      "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+      "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
+    ],
+    "article": {
+      "id": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565",
+      "title": "Ngoại trưởng Mỹ Marco Rubio: Không có bằng chứng các sự cố công nghệ gần đây liên kết với nhau",
+      "summary": "Ngoại trưởng Mỹ Marco Rubio khẳng định nhà chức trách chưa tìm thấy bất kỳ bằng chứng nào cho thấy chuỗi sự cố công nghệ tại Mỹ trong thời gian qua có liên quan đến nhau hoặc do các tác nhân xấu gây ra.",
+      "category": "world",
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+      "published_at": "2026-11-18T12:05:26+00:00",
+      "fetched_at": "2026-11-18T12:20:21.739480+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong bối cảnh công chúng Mỹ lo ngại trước một loạt sự cố gián đoạn công nghệ liên tiếp trong tuần qua, Ngoại trưởng Marco Rubio đã lên tiếng làm rõ tình hình. Phát biểu bên lề một hội nghị thượng đỉnh ngoại giao cấp cao tại châu Á, ông Rubio khẳng định các nhà chức trách có \"bằng chứng bằng không\" cho thấy các sự cố này có liên quan đến nhau hay xuất phát từ các tác nhân xấu.",
+        "Chuỗi sự cố gần đây đã ảnh hưởng đến nhiều lĩnh vực trọng yếu tại Mỹ, từ hệ thống điều hành không lưu khiến các chuyến bay phải ngừng cất cánh trong nhiều giờ, sự cố dịch vụ email và nhắn tin của Microsoft, cho đến việc gián đoạn tại các ngân hàng lớn, dịch vụ thanh toán di động và hệ thống liên lạc nội bộ của Cơ quan An ninh Quốc gia (NSA). Những sự cố này đã gây ra tình trạng xáo trộn lớn đối với người dân và hạ tầng số.",
+        "Trước những đồn đoán và lo ngại trên không gian mạng về một âm mưu hoặc cuộc tấn công có chủ ý, ông Rubio nhấn mạnh rằng mỗi sự cố đều mang tính chất độc lập và không phải là một phần của chiến dịch tấn công hệ thống nhằm vào nước Mỹ. Đồng quan điểm, Giám đốc Tình báo Quốc gia Mỹ Jay Clayton cùng Bộ trưởng An ninh Nội địa Markwayne Mullin cũng xác nhận các cơ quan chức năng không ghi nhận dấu hiệu của một cuộc tấn công mạng hay mối đe dọa từ tội phạm mạng.",
+        "Bên cạnh đó, các chuyên gia an ninh mạng nhận định nhiều sự cố xuất phát từ các đợt nâng cấp hạ tầng cũ hoặc lỗi phần mềm trong bối cảnh hệ thống công nghệ ngày càng phức tạp và chịu nhiều áp lực. Dù vậy, đảng Dân chủ đối lập vẫn chỉ trích tình trạng thiếu minh bạch từ phía chính quyền và yêu cầu các cơ quan quản lý phải báo cáo chi tiết trước Quốc hội về các biện pháp khắc phục."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Marco Rubio: Không có bằng chứng chuỗi sự cố công nghệ tại Mỹ liên kết",
+      "meta_description": "Ngoại trưởng Mỹ Marco Rubio khẳng định các sự cố công nghệ và gián đoạn dịch vụ gần đây tại Mỹ hoàn toàn độc lập và không phải là một cuộc tấn công hệ thống.",
+      "keywords": [
+        "Marco Rubio",
+        "sự cố công nghệ",
+        "Mỹ",
+        "an ninh mạng",
+        "Microsoft",
+        "hàng không"
+      ],
+      "slug": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 362,
+      "display_source": true,
+      "source_urls": [
+        "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+        "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+        "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+        "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
+      ],
+      "source_references": [
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:05:26+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T02:15:19+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:35:36+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T11:39:21+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ngoại trưởng Mỹ Marco Rubio khẳng định nhà chức trách có \"bằng chứng bằng không\" rằng các sự cố công nghệ gần đây tại Mỹ liên quan đến nhau hoặc do tác nhân xấu gây ra.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "US Secretary of State Marco Rubio has dismissed widespread concerns online that the series of recent tech outages in the past week are connected, telling reporters there was \"zero evidence\" of any link.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+              "snippet": "US Secretary of State Marco Rubio has dismissed widespread concerns online that the series of recent tech outages in the past week are connected, telling reporters there was \"zero evidence\" of any link.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8c1ffab21c7dedbd068986c78756c5f319cb6da6d80b283ae1d82c82da248e2d",
+              "snippet_sha256": "d52919d5fcd46bbeb4c91cea2aafe8ae499101368cd04ac11370b062995c05a9",
+              "verified_at": "2026-11-18T12:20:21.739054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chuỗi sự cố bao gồm việc gián đoạn hàng không, sự cố dịch vụ Microsoft, trục trặc tại các ngân hàng lớn và hệ thống thông tin của NSA.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In the past week, there has been amassive Microsoft outage, an apparent tech glitch whichgrounded all US flights for hours,and issues for theNational Security Agency,outages affecting the biggest US banks and Apple.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+              "snippet": "In the past week, there has been amassive Microsoft outage, an apparent tech glitch whichgrounded all US flights for hours,and issues for theNational Security Agency,outages affecting the biggest US banks and Apple.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8c1ffab21c7dedbd068986c78756c5f319cb6da6d80b283ae1d82c82da248e2d",
+              "snippet_sha256": "d7b3c150dfe721577692209b634421944fc028f0b3153d33e891397782fbd423",
+              "verified_at": "2026-11-18T12:20:21.739054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giám đốc Tình báo Quốc gia Jay Clayton và Bộ trưởng An ninh Nội địa Markwayne Mullin đều xác nhận các sự cố không phải là sản phẩm của một cuộc tấn công mạng.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Trump administration has insisted Americans and their various systems remain secure, with Homeland Security Secretary Markwayne Mullin emphasizing that the wave of recent outages does not stem from cyber criminals.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+              "snippet": "The Trump administration has insisted Americans and their various systems remain secure, with Homeland Security Secretary Markwayne Mullin emphasizing that the wave of recent outages does not stem from cyber criminals.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+              "page_sha256": "e3702b5386f1cf52e8fe83572b82cd16ec4e2d3faad5b6ed0e063d4ac3050372",
+              "snippet_sha256": "87f7e74a9d22d466afb0a75419a03140669b34c56bfb4b2d96fe3c2f11a5378e",
+              "verified_at": "2026-11-18T12:20:21.739054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh và phản ứng chính thức của chính quyền Mỹ trước chuỗi sự cố công nghệ liên tiếp, đồng thời tổng hợp góc nhìn từ các cơ quan chức năng và giới chuyên gia an ninh mạng để giải tỏa những đồn đoán chưa được kiểm chứng trên mạng xã hội.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-18T12:20:21.739564+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-18T12:20:21.740551+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 362,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1647
+        },
+        "independent_domains": [
+          "bbc.com",
+          "euronews.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
