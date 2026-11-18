@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "e88dce59e79ed7bbccee",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:36.262298+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "vietnam",
@@ -755,11 +755,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:36.262320+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thach-thuc-tu-khoang-trong-trong-thu-gom-va-tai-che-rac-thai-ien-tu-1158f315"
   },
   {
     "queue_id": "eea1baf62a86d51fa50a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:27.597972+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "vietnam",
@@ -1690,11 +1691,12 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:27.597994+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "co-hoi-va-thach-thuc-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-nghin-ty--4e60871c"
   },
   {
     "queue_id": "31c0dc2d1f54356ba408",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:18.695965+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "sports",
@@ -2283,7 +2285,8 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:18.695985+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuc-dien-tranh-ve-du-chung-ket-cac-giai-au-bong-bau-duc-ai-hoc-tuan-12-dc5e24c0"
   },
   {
     "queue_id": "1a02d5dbee7dac4db238",
@@ -85564,6 +85567,692 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "thach-thuc-tu-khoang-trong-trong-thu-gom-va-tai-che-rac-thai-ien-tu-1158f315",
+    "status": "READY",
+    "prepared_at": "2026-11-18T17:39:06.449428+00:00",
+    "expires_at": "2026-11-19T17:39:06.449428+00:00",
+    "source_urls": [
+      "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+      "https://dantri.com.vn/thoi-su/5-tuyen-metro-khoang-1-trieu-ty-dong-cua-ha-noi-du-kien-chu-yeu-di-ngam-20261118162422349.htm",
+      "https://thanhnien.vn/toan-canh-17h-phim-giang-ho-mang-vi-sao-het-thoi-nha-may-dien-rac-dau-tien-tai-dong-nai-185261115164609574.htm"
+    ],
+    "article": {
+      "id": "thach-thuc-tu-khoang-trong-trong-thu-gom-va-tai-che-rac-thai-ien-tu-1158f315",
+      "title": "Thách thức từ 'khoảng trống' trong thu gom và tái chế rác thải điện tử",
+      "summary": "Việt Nam đang đối mặt với sự gia tăng nhanh chóng của rác thải điện tử, trong khi hệ thống thu gom chính thức vẫn chưa thể cạnh tranh với mạng lưới đồng nát tự phát, gây ra nhiều rủi ro về môi trường và an toàn.",
+      "category": "technology",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+      "published_at": "2026-11-18T17:00:00+00:00",
+      "fetched_at": "2026-11-18T17:39:28.951983+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Theo số liệu từ Cục Môi trường, Bộ Nông nghiệp và Môi trường, Việt Nam đã phát sinh khoảng 516.000 tấn chất thải điện tử trong năm 2022, tương đương 5,3 kg mỗi người. Con số này cho thấy sự gia tăng đáng báo động, gấp hơn 4 lần so với mức 116.000 tấn ghi nhận vào năm 2014. Trong cơ cấu rác thải này, các thiết bị điện tử nhỏ chiếm tỷ trọng lớn nhất với 209.000 tấn, tiếp theo là thiết bị trao đổi nhiệt như tủ lạnh, điều hòa và các vật dụng điện tử cỡ lớn.",
+        "Nguyên nhân chính khiến rác thải điện tử khó được đưa vào các kênh tái chế chính thức nằm ở sự tiện lợi của mạng lưới thu mua đồng nát tự phát. Những người thu mua này có khả năng tiếp cận tận nhà và thanh toán ngay, trong khi các điểm tiếp nhận chính thức chưa tạo được sự thuận tiện tương đương cho người dân. Hệ quả là phần lớn thiết bị cũ bị tháo dỡ thủ công để lấy các bộ phận có giá trị như lõi đồng, nhôm, trong khi các thành phần nguy hại thường bị thải bỏ không đúng cách, gây ô nhiễm đất, nước và không khí.",
+        "Bên cạnh đó, rủi ro cháy nổ là một vấn đề nghiêm trọng, đặc biệt với các thiết bị chứa pin lithium-ion như điện thoại hay máy tính xách tay. Khi bị va đập hoặc nghiền ép trong quá trình thu gom phi chính thức, pin có thể xảy ra hiện tượng thoát nhiệt, sinh khí và phát lửa. Việc đập phá linh kiện tại các cơ sở thủ công cũng làm tăng nguy cơ phát tán chất độc hại ra môi trường.",
+        "Để lấp đầy khoảng trống này, các chuyên gia nhấn mạnh vào việc thực thi hiệu quả trách nhiệm mở rộng của nhà sản xuất (EPR). Các doanh nghiệp cần đảm bảo tỷ lệ tái chế bắt buộc, ví dụ như 15% đối với điện thoại di động và 7% đối với tivi, màn hình máy tính. Đồng thời, việc xây dựng cơ sở dữ liệu số, ứng dụng mã QR để truy xuất nguồn gốc thiết bị từ khi ra thị trường đến lúc xử lý là giải pháp then chốt. Việc kết nối giữa nhà sản xuất, đơn vị thu gom và cơ sở tái chế đạt chuẩn, cùng với chính sách hỗ trợ người lao động trong mạng lưới tái chế thủ công chuyển đổi sang mô hình chính thức, được kỳ vọng sẽ giúp kiểm soát tốt hơn dòng chảy rác thải điện tử trong tương lai."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Thực trạng và giải pháp cho rác thải điện tử tại Việt Nam",
+      "meta_description": "Lượng rác thải điện tử tại Việt Nam tăng gấp 4 lần sau 8 năm. Bài viết phân tích nguyên nhân và các giải pháp để kiểm soát nguồn thải này.",
+      "keywords": [
+        "rác thải điện tử",
+        "tái chế",
+        "EPR",
+        "môi trường",
+        "thu gom rác"
+      ],
+      "slug": "thach-thuc-tu-khoang-trong-trong-thu-gom-va-tai-che-rac-thai-ien-tu-1158f315",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 448,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+        "https://dantri.com.vn/thoi-su/5-tuyen-metro-khoang-1-trieu-ty-dong-cua-ha-noi-du-kien-chu-yeu-di-ngam-20261118162422349.htm",
+        "https://thanhnien.vn/toan-canh-17h-phim-giang-ho-mang-vi-sao-het-thoi-nha-may-dien-rac-dau-tien-tai-dong-nai-185261115164609574.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/5-tuyen-metro-khoang-1-trieu-ty-dong-cua-ha-noi-du-kien-chu-yeu-di-ngam-20261118162422349.htm",
+        "https://thanhnien.vn/toan-canh-17h-phim-giang-ho-mang-vi-sao-het-thoi-nha-may-dien-rac-dau-tien-tai-dong-nai-185261115164609574.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/5-tuyen-metro-khoang-1-trieu-ty-dong-cua-ha-noi-du-kien-chu-yeu-di-ngam-20261118162422349.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T09:29:35+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/toan-canh-17h-phim-giang-ho-mang-vi-sao-het-thoi-nha-may-dien-rac-dau-tien-tai-dong-nai-185261115164609574.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T10:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Năm 2022, Việt Nam phát sinh khoảng 516.000 tấn chất thải điện tử, tăng hơn 4 lần so với mức 116.000 tấn năm 2014.",
+          "source_urls": [
+            "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tại Diễn đàn Công nhân lao động vì môi trường ngày 18/11, ông Hồ Kiên Trung, Phó cục trưởng Cục Môi trường (Bộ Nông nghiệp và Môi trường), cho biết năm 2022 Việt Nam phát sinh khoảng 516.000 tấn chất thải điện tử, tương đương 5,3 kg mỗi người.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+              "snippet": "Tại Diễn đàn Công nhân lao động vì môi trường ngày 18/11, ông Hồ Kiên Trung, Phó cục trưởng Cục Môi trường (Bộ Nông nghiệp và Môi trường), cho biết năm 2022 Việt Nam phát sinh khoảng 516.000 tấn chất thải điện tử, tương đương 5,3 kg mỗi người.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+              "page_sha256": "5d374bebd0e2e221893eefe04751ba05b674ca55642e994d48494c8010b89484",
+              "snippet_sha256": "7314985c821499247c16f4483b042d6f6f214c6cb07237373d2e9ec9cfd9790d",
+              "verified_at": "2026-11-18T17:39:28.951384+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các thiết bị điện tử nhỏ chiếm 209.000 tấn, thiết bị trao đổi nhiệt 105.000 tấn và vật dụng điện tử cỡ lớn 85.000 tấn trong tổng lượng rác thải điện tử.",
+          "source_urls": [
+            "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong đó, thiết bị điện tử nhỏ chiếm khoảng 209.000 tấn, thiết bị trao đổi nhiệt (tủ lạnh, điều hòa) 105.000 tấn và vật dụng điện, điện tử cỡ lớn 85.000 tấn.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+              "snippet": "Trong đó, thiết bị điện tử nhỏ chiếm khoảng 209.000 tấn, thiết bị trao đổi nhiệt (tủ lạnh, điều hòa) 105.000 tấn và vật dụng điện, điện tử cỡ lớn 85.000 tấn.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+              "page_sha256": "5d374bebd0e2e221893eefe04751ba05b674ca55642e994d48494c8010b89484",
+              "snippet_sha256": "1e662a2daf92ccb8312f7851a6e34b6dec3c97610013dcff0526531d2abd75f7",
+              "verified_at": "2026-11-18T17:39:28.951384+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tỷ lệ tái chế bắt buộc theo EPR đối với điện thoại di động là 15%, máy tính bảng, máy tính xách tay 9%, tivi và màn hình máy tính 7%, tủ lạnh, điều hòa, lò vi sóng 5%.",
+          "source_urls": [
+            "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo đó tỷ lệ tái chế bắt buộc đối với điện thoại di động là 15%; máy tính bảng, máy tính xách tay 9%; tivi và màn hình máy tính 7%; tủ lạnh, điều hòa, lò vi sóng 5%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+              "snippet": "Theo đó tỷ lệ tái chế bắt buộc đối với điện thoại di động là 15%; máy tính bảng, máy tính xách tay 9%; tivi và màn hình máy tính 7%; tủ lạnh, điều hòa, lò vi sóng 5%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+              "page_sha256": "5d374bebd0e2e221893eefe04751ba05b674ca55642e994d48494c8010b89484",
+              "snippet_sha256": "b63ccc0425da00cac2d4fea1f3d2d6d4b03ca00204a1d940be3b46c6a58a37b9",
+              "verified_at": "2026-11-18T17:39:28.951384+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự tương phản giữa mạng lưới thu gom tự phát và hệ thống chính thức, giải thích lý do tại sao rác thải điện tử khó được xử lý đúng quy trình. Đồng thời, bài phân tích các rủi ro an toàn cụ thể từ pin lithium-ion và các giải pháp kỹ thuật như EPR và mã định danh số để quản lý vòng đời sản phẩm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T17:39:28.952084+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "116.000",
+        "15",
+        "2014",
+        "2022",
+        "209.000",
+        "4",
+        "5,3",
+        "516.000",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T17:39:28.953361+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 448,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2027
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "co-hoi-va-thach-thuc-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-nghin-ty--4e60871c",
+    "status": "READY",
+    "prepared_at": "2026-11-18T17:39:06.449428+00:00",
+    "expires_at": "2026-11-19T17:39:06.449428+00:00",
+    "source_urls": [
+      "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+      "https://dantri.com.vn/cong-nghe/doanh-nghiep-nho-khong-can-nhieu-ai-chi-can-chon-dung-mot-viec-20261118174206412.htm",
+      "https://thanhnien.vn/3-doanh-nghiep-tai-tro-150-ti-dong-cho-du-an-cong-dong-giao-duc-tai-tphcm-185261118183824901.htm",
+      "https://tuoitre.vn/asean-vua-ky-hiep-dinh-kinh-te-so-2000-ti-usd-chuyen-gia-noi-gi-100261116224703254.htm"
+    ],
+    "article": {
+      "id": "co-hoi-va-thach-thuc-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-nghin-ty--4e60871c",
+      "title": "Cơ hội và thách thức cho doanh nghiệp nhỏ trong nền kinh tế số nghìn tỷ USD",
+      "summary": "Nền kinh tế số ASEAN dự báo đạt quy mô hơn 1.100 tỷ USD vào năm 2035. Để tận dụng cơ hội này, các doanh nghiệp siêu nhỏ, nhỏ và vừa (MSME) cần vượt qua rào cản về kỹ năng số và chính sách thông qua sự hỗ trợ từ các hiệp định khu vực.",
+      "category": "technology",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+      "published_at": "2026-11-18T17:05:00+00:00",
+      "fetched_at": "2026-11-18T17:40:07.067537+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nền kinh tế số tại Đông Nam Á đang chứng kiến sự tăng trưởng mạnh mẽ với quy mô đạt 368 tỷ USD trong năm nay và dự báo sẽ chạm mốc 1.139 tỷ USD vào năm 2035. Trong đó, thương mại điện tử đóng vai trò chủ chốt khi tổng giá trị giao dịch dự kiến tăng hơn 3,6 lần, từ 226 tỷ USD lên 820 tỷ USD. Đây là cơ hội lớn cho các doanh nghiệp siêu nhỏ, nhỏ và vừa (MSME), nhóm chiếm tới 99,9% tổng số doanh nghiệp và tạo ra hơn 85% việc làm trong khu vực.",
+        "Tuy nhiên, việc tiếp cận miếng bánh nghìn tỷ USD không dễ dàng. Các chuyên gia chỉ ra rằng thách thức lớn nhất đối với MSME là năng lực số, bao gồm khả năng phân tích dữ liệu, quản lý tồn kho và kỹ năng bán hàng qua livestream. Nhiều doanh nghiệp vẫn gặp khó khăn trong việc xây dựng hiện diện trực tuyến và chuyển đổi người xem thành người mua. Thực tế, các chương trình đào tạo như ASEAN SOAR Together đã cho thấy hiệu quả rõ rệt khi giúp doanh nghiệp tăng doanh thu gấp 2-3 lần nhờ chuyển đổi sang phương thức bán hàng số.",
+        "Để tạo hành lang thông thoáng cho thương mại xuyên biên giới, Hiệp định khung về Kinh tế số ASEAN (DEFA) đã được 11 quốc gia thành viên ký kết vào ngày 14/11 vừa qua. DEFA bao trùm các lĩnh vực quan trọng như thương mại số, luồng dữ liệu, thanh toán điện tử và trí tuệ nhân tạo. Mục tiêu của hiệp định là nâng quy mô kinh tế số khu vực lên 2.000 tỷ USD vào năm 2030.",
+        "Đối với các doanh nghiệp nhỏ, DEFA được kỳ vọng sẽ giải quyết các rào cản về thủ tục hải quan, định danh số và bảo vệ dữ liệu. Khi các hệ thống thanh toán và quy định được liên thông, một doanh nghiệp nhỏ tại địa phương có thể tiếp cận thị trường khu vực với hơn 700 triệu dân dễ dàng hơn. Dù hiệp định dự kiến có hiệu lực sau 180 ngày kể từ khi ký, quá trình triển khai tại từng quốc gia nhằm giảm chi phí tuân thủ vẫn là yếu tố quyết định sự thành công của các doanh nghiệp trong kỷ nguyên số."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Cơ hội cho doanh nghiệp nhỏ trong nền kinh tế số ASEAN",
+      "meta_description": "Khám phá tiềm năng và rào cản của doanh nghiệp nhỏ trong nền kinh tế số ASEAN dự kiến đạt 1.100 tỷ USD vào năm 2035 cùng tác động của Hiệp định DEFA.",
+      "keywords": [
+        "kinh tế số",
+        "ASEAN",
+        "DEFA",
+        "doanh nghiệp nhỏ",
+        "thương mại điện tử"
+      ],
+      "slug": "co-hoi-va-thach-thuc-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-nghin-ty--4e60871c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 401,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+        "https://dantri.com.vn/cong-nghe/doanh-nghiep-nho-khong-can-nhieu-ai-chi-can-chon-dung-mot-viec-20261118174206412.htm",
+        "https://thanhnien.vn/3-doanh-nghiep-tai-tro-150-ti-dong-cho-du-an-cong-dong-giao-duc-tai-tphcm-185261118183824901.htm",
+        "https://tuoitre.vn/asean-vua-ky-hiep-dinh-kinh-te-so-2000-ti-usd-chuyen-gia-noi-gi-100261116224703254.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/cong-nghe/doanh-nghiep-nho-khong-can-nhieu-ai-chi-can-chon-dung-mot-viec-20261118174206412.htm",
+        "https://thanhnien.vn/3-doanh-nghiep-tai-tro-150-ti-dong-cho-du-an-cong-dong-giao-duc-tai-tphcm-185261118183824901.htm",
+        "https://tuoitre.vn/asean-vua-ky-hiep-dinh-kinh-te-so-2000-ti-usd-chuyen-gia-noi-gi-100261116224703254.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:05:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/doanh-nghiep-nho-khong-can-nhieu-ai-chi-can-chon-dung-mot-viec-20261118174206412.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:38:08+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/3-doanh-nghiep-tai-tro-150-ti-dong-cho-du-an-cong-dong-giao-duc-tai-tphcm-185261118183824901.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:27:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/asean-vua-ky-hiep-dinh-kinh-te-so-2000-ti-usd-chuyen-gia-noi-gi-100261116224703254.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T16:19:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nền kinh tế số Đông Nam Á đạt 368 tỷ USD năm 2026 và dự báo lên 1.139 tỷ USD vào năm 2035.",
+          "source_urls": [
+            "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo báo cáo e-Conomy SEA mới đây của Google, Temasek, Bain & Company, nền kinh tế số Đông Nam Á năm nay tăng trưởng 17%, đạt quy mô 368 tỷ USD và dự báo lên mức 1.139 tỷ USD vào 2035.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+              "snippet": "Theo báo cáo e-Conomy SEA mới đây của Google, Temasek, Bain & Company, nền kinh tế số Đông Nam Á năm nay tăng trưởng 17%, đạt quy mô 368 tỷ USD và dự báo lên mức 1.139 tỷ USD vào 2035.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+              "page_sha256": "b3bf80cbab4f037c554865d14c4ef3cbe5854abc3d82fbf6863197b0b237e049",
+              "snippet_sha256": "649dac7678738139342d03c62a390c66f52f3e1b13bd22ee89a541d2338d6e17",
+              "verified_at": "2026-11-18T17:40:07.067013+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hiệp định khung về Kinh tế số ASEAN (DEFA) được 11 thành viên ký kết ngày 14/11/2026.",
+          "source_urls": [
+            "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong nỗ lực giải quyết và xây dựng một hạ tầng kết nối thực sự, Hiệp định khung về Kinh tế số (DEFA) được 11 thành viên ASEAN ký kết tại Philippines hôm 14/11, trước thềm Hội nghị Cấp cao ASEAN lần thứ 49.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+              "snippet": "Trong nỗ lực giải quyết và xây dựng một hạ tầng kết nối thực sự, Hiệp định khung về Kinh tế số (DEFA) được 11 thành viên ASEAN ký kết tại Philippines hôm 14/11, trước thềm Hội nghị Cấp cao ASEAN lần thứ 49.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+              "page_sha256": "b3bf80cbab4f037c554865d14c4ef3cbe5854abc3d82fbf6863197b0b237e049",
+              "snippet_sha256": "f1078a98687500a8a6f0360a57e6ed486add43eb4e9d9fa4b0b25d33377ee55f",
+              "verified_at": "2026-11-18T17:40:07.067013+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Doanh nghiệp siêu nhỏ chiếm 99,9% tổng số doanh nghiệp và tạo ra hơn 85% việc làm tại ASEAN.",
+          "source_urls": [
+            "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo TS Piti Srisangnam, Giám đốc điều hành Quỹ ASEAN, các công ty siêu nhỏ chiếm 99,9% tổng số doanh nghiệp trong khu vực và tạo ra hơn 85% việc làm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+              "snippet": "Theo TS Piti Srisangnam, Giám đốc điều hành Quỹ ASEAN, các công ty siêu nhỏ chiếm 99,9% tổng số doanh nghiệp trong khu vực và tạo ra hơn 85% việc làm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+              "page_sha256": "b3bf80cbab4f037c554865d14c4ef3cbe5854abc3d82fbf6863197b0b237e049",
+              "snippet_sha256": "bb694c90204811f984fb53b6da514c9738e125c9a6a05bbf786b29f86c5b4cfb",
+              "verified_at": "2026-11-18T17:40:07.067013+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa các số liệu dự báo kinh tế vĩ mô và thực trạng vận hành của doanh nghiệp nhỏ. Đồng thời, bài phân tích vai trò cụ thể của Hiệp định DEFA trong việc tháo gỡ các rào cản kỹ thuật cho thương mại xuyên biên giới.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T17:40:07.067626+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.139",
+        "11",
+        "180",
+        "2.000",
+        "2030",
+        "2035",
+        "226",
+        "3,6",
+        "368",
+        "700",
+        "820",
+        "85",
+        "99,9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T17:40:07.068894+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 401,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1829
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cuc-dien-tranh-ve-du-chung-ket-cac-giai-au-bong-bau-duc-ai-hoc-tuan-12-dc5e24c0",
+    "status": "READY",
+    "prepared_at": "2026-11-18T17:39:06.449428+00:00",
+    "expires_at": "2026-11-19T17:39:06.449428+00:00",
+    "source_urls": [
+      "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+      "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+      "https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/why-eagles-cutting-fred-johnson-hollywood-brown-bye-week/08773b68f90debb705a822fa"
+    ],
+    "article": {
+      "id": "cuc-dien-tranh-ve-du-chung-ket-cac-giai-au-bong-bau-duc-ai-hoc-tuan-12-dc5e24c0",
+      "title": "Cục diện tranh vé dự chung kết các giải đấu bóng bầu dục đại học tuần 12",
+      "summary": "Khi mùa giải thường niên chỉ còn hai tuần, các đội bóng bầu dục đại học đang bước vào giai đoạn quyết định để giành quyền tham dự trận chung kết hội nghị.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+      "published_at": "2026-11-18T17:06:34+00:00",
+      "fetched_at": "2026-11-18T17:40:25.065603+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa giải bóng bầu dục đại học đang tiến gần đến hồi kết với chỉ hai tuần thi đấu còn lại trước khi các trận chung kết hội nghị diễn ra. Với việc thể thức College Football Playoff sẽ mở rộng lên 24 đội vào mùa giải tới, các trận đấu tranh ngôi vương hội nghị năm nay mang ý nghĩa đặc biệt quan trọng, nơi các đội bóng nỗ lực khẳng định vị thế và giành lấy những danh hiệu lịch sử.",
+        "Theo dữ liệu từ ESPN Research, nhiều đội bóng đang đứng trước cơ hội tự quyết hoặc cần sự trợ giúp từ kết quả của các đối thủ cạnh tranh để giành vé vào trận chung kết. Tại một số hội nghị, cục diện đã trở nên rõ ràng hơn khi các đội như Liberty, Boise State và Louisiana Tech (đội đã giành ngôi đầu bảng West) đã chắc chắn có suất tham dự. Ngược lại, các đội như Miami, Wake Forest, Texas Tech, UCLA và Indiana vẫn đang phải tính toán các kịch bản cụ thể dựa trên kết quả thắng thua của chính mình và các đối thủ trực tiếp.",
+        "Đáng chú ý, kịch bản của mỗi đội rất khác biệt. Ví dụ, Indiana cần phải thắng đồng thời chờ đợi các thất bại từ Ohio State, Oregon, Northwestern và Purdue để chắc chắn có tên trong trận chung kết. Trong khi đó, các đội như Georgia hiện chưa có kịch bản nào để giành vé ngay trong tuần 12. Ở nhóm các đội khác, New Mexico chỉ cần một chiến thắng trước Wyoming là đủ điều kiện, trong khi Wyoming lại cần một chuỗi kết quả thuận lợi từ các trận đấu của Air Force, North Dakota State và UNLV.",
+        "Sự căng thẳng này phản ánh tính cạnh tranh khốc liệt của giai đoạn cuối mùa giải. Khi Championship Week dần khép lại trong tương lai, những kịch bản tranh vé này không chỉ là những con số thống kê, mà là cơ hội cuối cùng để các đội bóng ghi dấu ấn trong lịch sử hội nghị của mình. Người hâm mộ sẽ cần theo dõi sát sao các diễn biến trên sân cỏ trong suốt thứ Bảy này để cập nhật những thay đổi mới nhất về cục diện các bảng đấu."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Kịch bản giành vé dự chung kết bóng bầu dục đại học tuần 12",
+      "meta_description": "Tổng hợp các kịch bản giúp các đội bóng bầu dục đại học giành quyền vào trận chung kết hội nghị trong tuần thi đấu thứ 12.",
+      "keywords": [
+        "bóng bầu dục đại học",
+        "chung kết hội nghị",
+        "tuần 12",
+        "kịch bản thi đấu"
+      ],
+      "slug": "cuc-dien-tranh-ve-du-chung-ket-cac-giai-au-bong-bau-duc-ai-hoc-tuan-12-dc5e24c0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 390,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+        "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+        "https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/why-eagles-cutting-fred-johnson-hollywood-brown-bye-week/08773b68f90debb705a822fa"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+        "https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/why-eagles-cutting-fred-johnson-hollywood-brown-bye-week/08773b68f90debb705a822fa"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:06:34+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T23:18:38+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/why-eagles-cutting-fred-johnson-hollywood-brown-bye-week/08773b68f90debb705a822fa",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-13T21:37:49+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mùa giải bóng bầu dục đại học chỉ còn hai tuần thi đấu trước khi bước vào các trận chung kết hội nghị.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12"
+          ],
+          "importance": "core",
+          "evidence_snippet": "No clinching scenarios in the East Division during Week 12.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+              "snippet": "No clinching scenarios in the East Division during Week 12.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+              "page_sha256": "e031aedc1978fe395f69987686b3ed1073f7d34264d6fc85f995367f1d206879",
+              "snippet_sha256": "7369c70a0461bb72e31fe59da41e25b6bc11d45e1b40241630eba195aabd83e8",
+              "verified_at": "2026-11-18T17:40:25.065240+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Liberty, Boise State và Louisiana Tech đã chắc chắn giành quyền tham dự trận chung kết hội nghị.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Louisiana Tech has clinched the West Division title and spot in the conference championship game.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+              "snippet": "Louisiana Tech has clinched the West Division title and spot in the conference championship game.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+              "page_sha256": "e031aedc1978fe395f69987686b3ed1073f7d34264d6fc85f995367f1d206879",
+              "snippet_sha256": "0e778e62a19d14a44fb04ee0a3fc47c81a904c07b5f8b2b3cf161731b3de07a2",
+              "verified_at": "2026-11-18T17:40:25.065240+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Indiana cần thắng và chờ đợi các đối thủ gồm Ohio State, Oregon, Northwestern và Purdue cùng thất bại để giành vé vào chung kết.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "2) Losses by Ohio State, Oregon, Northwestern & Purdue",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+              "snippet": "2) Losses by Ohio State, Oregon, Northwestern & Purdue",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+              "page_sha256": "e031aedc1978fe395f69987686b3ed1073f7d34264d6fc85f995367f1d206879",
+              "snippet_sha256": "5e422144487a8957c2cc25892fdf2af32c2fc15c359ff4b373f0944131a1d414",
+              "verified_at": "2026-11-18T17:40:25.065240+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp và hệ thống hóa các kịch bản phức tạp từ dữ liệu của ESPN thành một bản tin dễ hiểu cho độc giả. Việc phân loại các đội đã chắc suất và các đội còn đang tranh chấp giúp làm rõ bức tranh toàn cảnh về giai đoạn cuối mùa giải.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-18T17:40:25.065691+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "24"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-18T17:40:25.066646+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 390,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1819
+        },
+        "independent_domains": [
+          "bbc.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
