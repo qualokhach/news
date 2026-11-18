@@ -765,5 +765,25 @@
         "reason": "Candidate freshness window expired before publication"
       }
     ]
+  },
+  {
+    "slot": "2026-11-18 10:52",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-18T03:52:11.997545+00:00",
+    "prepared_candidates": 6,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "tp-hcm-du-kien-dung-7-khu-at-oi-lay-cao-toc-ket-noi-san-bay-long-thanh-68060a93",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "vpbanks-sap-gia-nhap-cau-lac-bo-cong-ty-chung-khoan-von-ty-usd-e8139923",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      }
+    ]
   }
 ]
