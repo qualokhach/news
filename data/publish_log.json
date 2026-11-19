@@ -818,5 +818,75 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-19 20:58",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "prepared_candidates": 14,
+    "published_count": 2,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "cau-crimea-tiep-tuc-bi-tan-cong-giao-thong-uong-sat-tam-inh-chi-46685de4",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "bon-hang-muc-co-the-anh-huong-tien-o-khai-thac-san-bay-long-thanh-vao-th-aa7ad55f",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "sovico-va-mizuho-hop-tac-thuc-ay-ket-noi-tai-chinh-quoc-te-dfa00c56",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "buc-tranh-nua-au-mua-giai-nfl-2026-iem-sang-va-goc-toi-tren-hang-cong-ca-989138a1",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "goc-nhin-nfl-lieu-co-u-32-tien-ve-at-chuan-chinh-thuc-tai-bat-ky-thoi-ie-2ba50085",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "giam-oc-ieu-hanh-microsoft-satya-nadella-ly-giai-quyet-inh-e-nghi-60-000-485f29be",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "bruce-arena-chi-trich-lien-oan-bong-a-my-sau-su-ra-i-cua-pochettino-459fe320",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "su-thay-oi-chien-thuat-giup-arda-guler-ruc-sang-duoi-thoi-mourinho-2ff0577e",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "thach-thuc-tu-khoang-trong-trong-thu-gom-va-tai-che-rac-thai-ien-tu-1158f315",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "co-hoi-va-thach-thuc-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-nghin-ty--4e60871c",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "cuc-dien-tranh-ve-du-chung-ket-cac-giai-au-bong-bau-duc-ai-hoc-tuan-12-dc5e24c0",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565",
+        "status": "EXPIRED",
+        "reason": "Candidate freshness window expired before publication"
+      }
+    ]
   }
 ]

@@ -2496,7 +2496,7 @@
   },
   {
     "queue_id": "10207d85a74fb03a8723",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:12:55.974591+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "world",
@@ -3200,11 +3200,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:12:55.974605+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hoi-nghi-thuong-inh-ba-ben-lich-su-giua-my-trung-quoc-va-nga-tai-apec-759c4745"
   },
   {
     "queue_id": "0a6b226ef12733eaa541",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:12:54.110737+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "world",
@@ -3838,11 +3839,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:12:54.110751+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cau-crimea-tiep-tuc-bi-tan-cong-giao-thong-uong-sat-tam-inh-chi-46685de4"
   },
   {
     "queue_id": "13b0df24d945ae4302a7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:12:53.370307+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "vietnam",
@@ -4467,11 +4469,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:12:53.370328+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bon-hang-muc-co-the-anh-huong-tien-o-khai-thac-san-bay-long-thanh-vao-th-aa7ad55f"
   },
   {
     "queue_id": "7ce106968854942b3514",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:12:44.894530+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "vietnam",
@@ -5180,11 +5183,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:12:44.894547+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "sovico-va-mizuho-hop-tac-thuc-ay-ket-noi-tai-chinh-quoc-te-dfa00c56"
   },
   {
     "queue_id": "giam-oc-ieu-hanh-microsoft-satya-nadella-ly-giai-quyet-inh-e-nghi-60-000-485f29be",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-19T02:52:55.388866+00:00",
     "expires_at": "2026-11-20T02:52:55.388866+00:00",
     "source_urls": [
@@ -5399,11 +5403,39 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ techcrunch.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 316,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1454,
+        "source_access": [
+          {
+            "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "bruce-arena-chi-trich-lien-oan-bong-a-my-sau-su-ra-i-cua-pochettino-459fe320",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-19T02:52:55.388866+00:00",
     "expires_at": "2026-11-20T02:52:55.388866+00:00",
     "source_urls": [
@@ -5593,11 +5625,39 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 289,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1411,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "engadget.com",
+          "espn.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "su-thay-oi-chien-thuat-giup-arda-guler-ruc-sang-duoi-thoi-mourinho-2ff0577e",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-19T02:52:55.388866+00:00",
     "expires_at": "2026-11-20T02:52:55.388866+00:00",
     "source_urls": [
@@ -5809,6 +5869,35 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 357,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1638,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
@@ -11454,7 +11543,7 @@
   },
   {
     "queue_id": "thach-thuc-tu-khoang-trong-trong-thu-gom-va-tai-che-rac-thai-ien-tu-1158f315",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-18T17:39:06.449428+00:00",
     "expires_at": "2026-11-19T17:39:06.449428+00:00",
     "source_urls": [
@@ -11673,11 +11762,40 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 448,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 2027,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/khoang-trong-thu-gom-tai-che-hon-nua-trieu-rac-dien-tu-5146277.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "co-hoi-va-thach-thuc-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-nghin-ty--4e60871c",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-18T17:39:06.449428+00:00",
     "expires_at": "2026-11-19T17:39:06.449428+00:00",
     "source_urls": [
@@ -11921,11 +12039,41 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 401,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1829,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/co-hoi-cho-doanh-nghiep-nho-trong-nen-kinh-te-so-1-100-ty-usd-5146186.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "cuc-dien-tranh-ve-du-chung-ket-cac-giai-au-bong-bau-duc-ai-hoc-tuan-12-dc5e24c0",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-18T17:39:06.449428+00:00",
     "expires_at": "2026-11-19T17:39:06.449428+00:00",
     "source_urls": [
@@ -12136,6 +12284,35 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 390,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1819,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/college-football/story/_/id/50512475/conference-title-game-clinching-scenarios-week-12",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
@@ -18127,7 +18304,7 @@
   },
   {
     "queue_id": "ngoai-truong-my-marco-rubio-khong-co-bang-chung-cac-su-co-cong-nghe-gan--7f011565",
-    "status": "READY",
+    "status": "EXPIRED",
     "prepared_at": "2026-11-18T12:19:52.950765+00:00",
     "expires_at": "2026-11-19T00:19:52.950765+00:00",
     "source_urls": [
@@ -18358,7 +18535,8 @@
         "primary_source_present": false
       },
       "origin": "auto"
-    }
+    },
+    "result_reason": "Candidate freshness window expired before publication"
   },
   {
     "queue_id": "493a6ec6a92ce76ed686",
@@ -87827,7 +88005,7 @@
   },
   {
     "queue_id": "anthropic-lap-ky-luc-ipo-81-ty-usd-trong-boi-canh-nganh-tri-tue-nhan-tao-66e1edd5",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-19T12:13:23.615671+00:00",
     "expires_at": "2026-11-20T12:13:23.615671+00:00",
     "source_urls": [
@@ -87846,7 +88024,7 @@
       "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
       "published_at": "2026-11-19T12:00:00+00:00",
       "fetched_at": "2026-11-19T12:13:33.638590+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-19T13:58:16.216957+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -88067,30 +88245,40 @@
         "956"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-19T12:13:33.639858+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-19T13:58:16.216957+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 353,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1616
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "bbc.com",
-          "france24.com",
-          "npr.org",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1616,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "france24.com",
+            "npr.org",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-19 20:58"
+    },
+    "published_at": "2026-11-19T13:58:16.216957+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "buc-tranh-nua-au-mua-giai-nfl-2026-iem-sang-va-goc-toi-tren-hang-cong-ca-989138a1",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-19T12:13:23.615671+00:00",
     "expires_at": "2026-11-20T12:13:23.615671+00:00",
     "source_urls": [
@@ -88377,11 +88565,40 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 392,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1876,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "skysports.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "goc-nhin-nfl-lieu-co-u-32-tien-ve-at-chuan-chinh-thuc-tai-bat-ky-thoi-ie-2ba50085",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-19T12:13:23.615671+00:00",
     "expires_at": "2026-11-20T12:13:23.615671+00:00",
     "source_urls": [
@@ -88573,6 +88790,1018 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 234,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1066,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "espn.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "hoi-nghi-thuong-inh-ba-ben-lich-su-giua-my-trung-quoc-va-nga-tai-apec-759c4745",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-19T13:55:23.355330+00:00",
+    "expires_at": "2026-11-20T13:55:23.355330+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+      "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
+      "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
+      "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "hoi-nghi-thuong-inh-ba-ben-lich-su-giua-my-trung-quoc-va-nga-tai-apec-759c4745",
+      "title": "Hội nghị thượng đỉnh ba bên lịch sử giữa Mỹ, Trung Quốc và Nga tại APEC",
+      "summary": "Tổng thống Mỹ Donald Trump, Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin đã tiến hành cuộc gặp ba bên chưa từng có tại thành phố Thâm Quyến, Trung Quốc, bên lề hội nghị APEC để thảo luận về các vấn đề toàn cầu lớn như vũ khí hạt nhân và an ninh quốc tế.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+      "published_at": "2026-11-19T08:32:10+00:00",
+      "fetched_at": "2026-11-19T13:55:47.496785+00:00",
+      "appnho_published_at": "2026-11-19T13:58:16.216957+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Mỹ Donald Trump, Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin đã có cuộc gặp mặt trực tiếp trong khuôn khổ hội nghị thượng đỉnh Diễn đàn Hợp tác Kinh tế Châu Á - Thái Bình Dương (APEC) tổ chức tại thành phố Thâm Quyến, Trung Quốc. Sự kiện đánh dấu lần đầu tiên lãnh đạo ba cường quốc thế giới nhóm họp trong một khuôn khổ ba bên chính thức, thu hút sự quan tâm lớn của dư luận quốc tế.",
+        "Trước khi bước vào phiên họp kín kéo dài khoảng 55 phút, ba nhà lãnh đạo đã tham gia chụp ảnh chung và đưa ra các phát biểu mở đầu định hướng. Chủ tịch Trung Quốc Tập Cận Bình nhận định sự kiện mang ý nghĩa bước ngoặt, nhấn mạnh tầm quan trọng của việc các cường quốc sống hòa hợp và phối hợp giải quyết thách thức toàn cầu. Trong khi đó, Tổng thống Mỹ Donald Trump cho rằng ba nước đang nắm giữ vị thế đặc biệt để thảo luận về vấn đề vũ khí hạt nhân, đồng thời khẳng định việc các nhà lãnh đạo duy trì đối thoại là điều cần thiết.",
+        "Về phía Nga, Tổng thống Vladimir Putin xác định cuộc xung đột tại Ukraine là một trong những tâm điểm trao đổi chính. Trước cuộc gặp ba bên, ông Trump và ông Tập Cận Bình cũng như ông Trump và ông Putin đã có các cuộc hội đàm song phương riêng biệt nhằm củng cố quan hệ song phương, thảo luận về thương mại và các điểm nóng địa chính trị hiện tại. Các bên đã trao đổi quan điểm về nhiều vấn đề từ ổn định chiến lược đến không phổ biến vũ khí hạt nhân.",
+        "Tuy nhiên, giới phân tích lưu ý rằng cuộc gặp không nhằm mục tiêu ký kết các thỏa thuận lớn ngay lập tức do vẫn tồn tại những bất đồng sâu sắc giữa các bên liên quan đến nhiều vấn đề quốc tế. Cuộc gặp lịch sử này diễn ra trong bối cảnh các quốc gia nhỏ hơn theo dõi sát sao để đánh giá tác động đối với lợi ích chiến lược toàn cầu."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hội nghị thượng đỉnh ba bên Mỹ - Trung - Nga tại APEC Thâm Quyến",
+      "meta_description": "Khám phá bối cảnh và diễn biến của cuộc gặp thượng đỉnh ba bên chưa từng có giữa Tổng thống Mỹ Donald Trump, Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga ",
+      "keywords": [
+        "APEC Thâm Quyến",
+        "Donald Trump",
+        "Tập Cận Bình",
+        "Vladimir Putin",
+        "hội nghị ba bên"
+      ],
+      "slug": "hoi-nghi-thuong-inh-ba-ben-lich-su-giua-my-trung-quoc-va-nga-tai-apec-759c4745",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 377,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+        "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
+        "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
+        "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
+        "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
+        "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T08:32:10+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T06:33:02+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T01:47:04+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T16:10:44+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Mỹ Donald Trump, Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin đã gặp nhau trong cuộc gặp ba bên tại hội nghị APEC ở Thâm Quyến, Trung Quốc.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Add Al Jazeera on GoogleUS President Donald Trump, right, Chinese President Xi Jinping and Russian President Vladimir Putin arrive for a trilateral meeting at Kylin Villa in Shenzhen, China [Win McNamee/Getty Images]ByAl Jazeera Staff,APandReutersPublished On 19 Nov 202619 Nov 2026",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "snippet": "Add Al Jazeera on GoogleUS President Donald Trump, right, Chinese President Xi Jinping and Russian President Vladimir Putin arrive for a trilateral meeting at Kylin Villa in Shenzhen, China [Win McNamee/Getty Images]ByAl Jazeera Staff,APandReutersPublished On 19 Nov 202619 Nov 2026",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "page_sha256": "ce92bb35bb11ad4d2d1f48b0fe0a2b17f27769f930aa12150e1e537dbc48fd5a",
+              "snippet_sha256": "9df4868bdf07063f84f7e31bcf614223d4781bf7073c94dd50e44256c0b496a9",
+              "verified_at": "2026-11-19T13:55:47.495837+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Trung Quốc Tập Cận Bình gọi cuộc họp có ý nghĩa bước ngoặt và nhấn mạnh thế giới hòa bình khi các cường quốc sống hòa hợp.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Speaking to Fox News earlier on Thursday, Trump highlighted the pomp surrounding his arrival.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "snippet": "Speaking to Fox News earlier on Thursday, Trump highlighted the pomp surrounding his arrival.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "page_sha256": "ce92bb35bb11ad4d2d1f48b0fe0a2b17f27769f930aa12150e1e537dbc48fd5a",
+              "snippet_sha256": "6cce354b34c7a8e6387109ab94727a6664ad72bc2d3d16598627ca047fde3131",
+              "verified_at": "2026-11-19T13:55:47.495837+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Nga Vladimir Putin tập trung thảo luận về cuộc chiến ở Ukraine trước khi ba nhà lãnh đạo bước vào phiên họp kín kéo dài khoảng 55 phút.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Meanwhile, in his opening remarks, Putin made it clear that the war in Ukraine would be the focus of his conversation, before the three retreated into closed-door talks which lasted for about 55 minutes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "snippet": "Meanwhile, in his opening remarks, Putin made it clear that the war in Ukraine would be the focus of his conversation, before the three retreated into closed-door talks which lasted for about 55 minutes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "page_sha256": "ce92bb35bb11ad4d2d1f48b0fe0a2b17f27769f930aa12150e1e537dbc48fd5a",
+              "snippet_sha256": "458cb5ae0938207ddaa0b88189805924a860ef0ccdf8423009d0cf5eab9c192b",
+              "verified_at": "2026-11-19T13:55:47.495837+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh ngoại giao và các nội dung trọng tâm trong cuộc gặp ba bên hiếm hoi giữa lãnh đạo Mỹ, Trung Quốc và Nga tại APEC. Tác phẩm phân tích góc nhìn riêng của từng quốc gia về vấn đề hạt nhân và xung đột Ukraine dựa trên các tuyên bố chính thức được ghi nhận.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T13:55:47.496869+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "55"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-19T13:58:16.216957+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 377,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1730,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "euronews.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-19 20:58"
+    },
+    "published_at": "2026-11-19T13:58:16.216957+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "cau-crimea-tiep-tuc-bi-tan-cong-giao-thong-uong-sat-tam-inh-chi-46685de4",
+    "status": "HOLD",
+    "prepared_at": "2026-11-19T13:55:23.355330+00:00",
+    "expires_at": "2026-11-20T13:55:23.355330+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss"
+    ],
+    "article": {
+      "id": "cau-crimea-tiep-tuc-bi-tan-cong-giao-thong-uong-sat-tam-inh-chi-46685de4",
+      "title": "Cầu Crimea tiếp tục bị tấn công: Giao thông đường sắt tạm đình chỉ",
+      "summary": "Cầu Crimea nối liền Nga và vùng lãnh thổ sáp nhập tiếp tục hứng chịu một đợt tấn công mới trong tuần, khiến giao thông đường sắt phải tạm thời gián đoạn.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-19T01:05:03+00:00",
+      "fetched_at": "2026-11-19T13:55:54.756269+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cầu Crimea, công trình hạ tầng chiến lược nối liền Nga với bán đảo đã sáp nhập, lại tiếp tục trở thành mục tiêu trong một cuộc tấn công mới diễn ra vào ban đêm. Theo thông tin từ phía Nga, đây là lần thứ ba tuyến giao thông quan trọng này bị oanh tạc trong vòng một tuần qua, làm gia tăng thêm căng thẳng trong khu vực.",
+        "Sergei Aksyonov, người đứng đầu chính quyền do Moscow bổ nhiệm tại Crimea, cho biết các tuyến đường sắt trên cầu đã phải tạm thời đình chỉ hoạt động sau cuộc tập kích. Dù vậy, Bộ Giao thông vận tải Nga xác nhận không có thương vong nào được ghi nhận trong sự cố mới nhất này, đồng thời các chuyên gia đang tiến hành đánh giá mức độ thiệt hại thực tế trên công trình.",
+        "Đợt không kích mới diễn ra chỉ vài ngày sau khi một cuộc tấn công kết hợp giữa tên lửa và máy bay không người lái vào hôm thứ Ba đã phá hủy phần đường bộ trung tâm của cầu. Sự kiện này tiếp nối chiến dịch dài ngày của lực lượng Ukraine nhằm nhắm vào các tài sản hậu cần và biểu tượng của Nga, trong bối cảnh các nhà lãnh đạo thế giới đang có các cuộc gặp thượng đỉnh quan trọng.",
+        "Trong khi các cơ quan chức năng khẩn trương khắc phục hậu quả và khôi phục tuyến đường sắt, các diễn biến quân sự xung quanh vẫn tiếp tục căng thẳng. Phía Nga trước đó cũng triển khai các cuộc tập kích nhắm vào các cây cầu quan trọng qua sông Dnipro tại thủ đô Kyiv, gây ảnh hưởng đến hệ thống giao thông đô thị và hạ tầng năng lượng địa phương."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cầu Crimea bị tấn công lần thứ ba trong tuần, giao thông đình chỉ",
+      "meta_description": "Cầu Crimea tiếp tục bị tấn công bằng máyσ bay không người lái vào ban đêm, khiến tuyến đường sắt tạm ngưng hoạt động theo thông báo từ phía Nga.",
+      "keywords": [
+        "Cầu Crimea",
+        "Nga",
+        "Ukraine",
+        "Kerch",
+        "Sergei Aksyonov"
+      ],
+      "slug": "cau-crimea-tiep-tuc-bi-tan-cong-giao-thong-uong-sat-tam-inh-chi-46685de4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 302,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T01:05:03+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T23:27:37+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T13:29:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cầu Crimea bị tấn công lần thứ ba trong tuần theo thông báo từ phía Nga.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "How the attack on Putin's prized Crimean Bridge unfolded",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "How the attack on Putin's prized Crimean Bridge unfolded",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9ecf613198f0f99efc00a21c146967903f844e43b79f20c2a31b49256fab14c2",
+              "snippet_sha256": "0e8405592eaf613aa4dcb1b0d1581f2562b208c5b0429be77797c75322dbc510",
+              "verified_at": "2026-11-19T13:55:54.755949+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sergei Aksyonov xác nhận giao thông đường sắt bị tạm đình chỉ sau cuộc tấn công.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Moscow-installed head of Crimea, Sergei Aksyonov, said that rail traffic was temporarily suspended following another strike on the bridge connecting Russia to occupied Crimea.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "The Moscow-installed head of Crimea, Sergei Aksyonov, said that rail traffic was temporarily suspended following another strike on the bridge connecting Russia to occupied Crimea.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9ecf613198f0f99efc00a21c146967903f844e43b79f20c2a31b49256fab14c2",
+              "snippet_sha256": "5c3cefa6876c642129fc743ce48ec37a5fc16d4199f7a04a9bffea02993fda06",
+              "verified_at": "2026-11-19T13:55:54.755949+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ Giao thông vận tải Nga cho biết không có ai bị thương trong vụ tấn công ban đêm.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9ecf613198f0f99efc00a21c146967903f844e43b79f20c2a31b49256fab14c2",
+              "snippet_sha256": "d18f1cb512bcd1517e4735cb0b086cc09584a5893707df8990870a70f6ebe342",
+              "verified_at": "2026-11-19T13:55:54.755949+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hôm thứ Ba, tên lửa và máy bay không người lái đã phá hủy phần đường bộ trung tâm của cầu.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "BBC reports from Kyiv bridge hit by Russian attack",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "BBC reports from Kyiv bridge hit by Russian attack",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9ecf613198f0f99efc00a21c146967903f844e43b79f20c2a31b49256fab14c2",
+              "snippet_sha256": "6bd89e3a36dd168077e1e7d8478b87bd24da2a2ba4b5dfefe5a4c0f3a414980f",
+              "verified_at": "2026-11-19T13:55:54.755949+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh và diễn biến của chuỗi các cuộc tấn công liên tiếp nhằm vào cầu Crimea trong vòng một tuần. Đồng thời, tác phẩm cung cấp thông tin đối trọng về phản ứng của chính quyền Nga và tác động cụ thể đến hệ thống giao thông.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T13:55:54.756328+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-19T13:55:54.756897+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 302,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1408
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 302,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1408,
+        "source_access": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "bon-hang-muc-co-the-anh-huong-tien-o-khai-thac-san-bay-long-thanh-vao-th-aa7ad55f",
+    "status": "HOLD",
+    "prepared_at": "2026-11-19T13:55:23.355330+00:00",
+    "expires_at": "2026-11-20T13:55:23.355330+00:00",
+    "source_urls": [
+      "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+      "https://dantri.com.vn/thoi-su/cuon-thep-hon-10-tan-roi-tai-tram-thu-phi-cao-toc-ben-luc-long-thanh-20261119161715054.htm"
+    ],
+    "article": {
+      "id": "bon-hang-muc-co-the-anh-huong-tien-o-khai-thac-san-bay-long-thanh-vao-th-aa7ad55f",
+      "title": "Bốn hạng mục có thể ảnh hưởng tiến độ khai thác sân bay Long Thành vào tháng 12",
+      "summary": "Bộ Xây dựng đánh giá phương án vận hành sân bay Long Thành từ ngày 24/12 do ACV đề xuất đối mặt với thách thức lớn tại 4 gói thầu thuộc dự án thành phần 3.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Thời sự",
+      "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+      "published_at": "2026-11-19T09:55:40+00:00",
+      "fetched_at": "2026-11-19T13:56:07.349093+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hơn một tháng trước mốc dự kiến vận hành thương mại vào ngày 24/12, dự án sân bay Long Thành tại Đồng Nai còn khối lượng công việc rất lớn phải hoàn thành, từ thi công nhà ga, đường nội cảng đến các thủ tục nghiệm thu, cấp phép. Trong báo cáo gửi lãnh đạo Chính phủ, Bộ Xây dựng đánh giá phương án vận hành do Tổng công ty Cảng hàng không Việt Nam (ACV) đề xuất giúp sớm đưa công trình vào sử dụng nhưng cần xem xét dựa trên kết quả thực tế của một số hạng mục còn khối lượng lớn.",
+        "Theo tiến độ đến cuối tháng 10, ba dự án thành phần gồm trụ sở cơ quan quản lý nhà nước, công trình phục vụ quản lý bay và công trình dịch vụ mặt đất hướng tới mục tiêu sẵn sàng trong tháng 12. Tuy nhiên, thách thức lớn nhất tập trung ở dự án thành phần 3 gồm các công trình thiết yếu. Trong 16 gói thầu, có 4 gói đã hoàn thành và 12 gói đang triển khai. Khối lượng còn lại rất lớn và có nguy cơ ảnh hưởng tiến độ tại bốn hạng mục trọng điểm.",
+        "Cụ thể, bốn nhóm hạng mục chịu ảnh hưởng gồm đường giao thông nội cảng và hạ tầng kỹ thuật thuộc gói 4.8, nhà ga hành khách thuộc gói 5.10, nhà ga hàng hóa số 1 cùng các công trình phụ trợ thuộc gói 7.8, và nhà để xe thuộc gói 11.5. Những gói thầu này có nhiều hạng mục phức tạp, đồng thời vướng mắc về nguồn vật liệu xây dựng và thanh toán cho nhà thầu. Một số gói phải hoàn thành trong tháng 11 để các hạng mục liên quan có thể đấu nối và nghiệm thu đồng bộ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bốn hạng mục có thể ảnh hưởng khai thác Long Thành vào tháng 12",
+      "meta_description": "Khối lượng công việc lớn tại bốn hạng mục thuộc dự án thành phần 3 có thể ảnh hưởng đến mốc khai thác thương mại sân bay Long Thành vào tháng 12.",
+      "keywords": [
+        "sân bay Long Thành",
+        "ACV",
+        "Bộ Xây dựng",
+        "dự án thành phần 3",
+        "khai thác thương mại"
+      ],
+      "slug": "bon-hang-muc-co-the-anh-huong-tien-o-khai-thac-san-bay-long-thanh-vao-th-aa7ad55f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 307,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+        "https://dantri.com.vn/thoi-su/cuon-thep-hon-10-tan-roi-tai-tram-thu-phi-cao-toc-ben-luc-long-thanh-20261119161715054.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/cuon-thep-hon-10-tan-roi-tai-tram-thu-phi-cao-toc-ben-luc-long-thanh-20261119161715054.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thời sự",
+          "url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T09:55:40+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/cuon-thep-hon-10-tan-roi-tai-tram-thu-phi-cao-toc-ben-luc-long-thanh-20261119161715054.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T09:23:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sân bay Long Thành tại Đồng Nai dự kiến khai thác thương mại từ ngày 24/12.",
+          "source_urls": [
+            "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sân bay Long Thành tại Đồng Nai dự kiến khai thác thương mại từngày 24/12.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+              "snippet": "Sân bay Long Thành tại Đồng Nai dự kiến khai thác thương mại từngày 24/12.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+              "page_sha256": "3ccc705a2672db0d155dcf252398372cd8510f44105fa72d334e05ff1a0befc2",
+              "snippet_sha256": "5602dace6cf4c941fabe1078697a44046604fc803868057b4414bc9366e3e486",
+              "verified_at": "2026-11-19T13:56:07.348620+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thách thức lớn nhất nằm ở dự án thành phần 3 với các gói thầu tập trung ở đường giao thông nội cảng và hạ tầng kỹ thuật gói 4.8, nhà ga hành khách gói 5.10, nhà ga hàng hóa số 1 và công trình phụ trợ gói 7.8, nhà để xe gói 11.5.",
+          "source_urls": [
+            "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo tiến độ ACV đưa ra, khối lượng còn lại tại một số gói vẫn rất lớn, có nguy cơ ảnh hưởng tới mốc hoàn thành, tập trung ở đường giao thông nội cảng và hạ tầng kỹ thuật (gói 4.8), nhà ga hành khách (gói 5.10), nhà ga hàng hóa số 1 và các công trình phụ trợ (gói 7.8), nhà để xe (gói 11.5).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+              "snippet": "Theo tiến độ ACV đưa ra, khối lượng còn lại tại một số gói vẫn rất lớn, có nguy cơ ảnh hưởng tới mốc hoàn thành, tập trung ở đường giao thông nội cảng và hạ tầng kỹ thuật (gói 4.8), nhà ga hành khách (gói 5.10), nhà ga hàng hóa số 1 và các công trình phụ trợ (gói 7.8), nhà để xe (gói 11.5).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+              "page_sha256": "3ccc705a2672db0d155dcf252398372cd8510f44105fa72d334e05ff1a0befc2",
+              "snippet_sha256": "af429671111fce526913a80d69942ecf828742570b81b6569a558a404765509c",
+              "verified_at": "2026-11-19T13:56:07.348620+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ Xây dựng đánh giá phương án vận hành từ ngày 24/12 do ACV đề xuất giúp sớm đưa công trình vào sử dụng nhưng một số hạng mục còn khối lượng công việc lớn nên mốc khai thác cần xem xét dựa trên kết quả thực tế.",
+          "source_urls": [
+            "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong báo cáo gửi lãnh đạo Chính phủ về điều kiện và công tác chuẩn bị khai thác sân bay mới đây, Bộ Xây dựng đánh giá phương án vận hành từ ngày 24/12 do ACV đề xuất giúp sớm đưa công trình vào sử dụng, từng bước phát huy hiệu quả và tạo điều kiện triển khai lộ trình chuyển đổi.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+              "snippet": "Trong báo cáo gửi lãnh đạo Chính phủ về điều kiện và công tác chuẩn bị khai thác sân bay mới đây, Bộ Xây dựng đánh giá phương án vận hành từ ngày 24/12 do ACV đề xuất giúp sớm đưa công trình vào sử dụng, từng bước phát huy hiệu quả và tạo điều kiện triển khai lộ trình chuyển đổi.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+              "page_sha256": "3ccc705a2672db0d155dcf252398372cd8510f44105fa72d334e05ff1a0befc2",
+              "snippet_sha256": "88962ac7a76cc3ae7e4aaec29292719984f53aa2f56112a71434057f76f9338e",
+              "verified_at": "2026-11-19T13:56:07.348620+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bốn hạng mục trọng điểm thuộc dự án thành phần 3 có nguy cơ ảnh hưởng tiến độ khai thác sân bay Long Thành. Đồng thời, văn bản phản ánh góc nhìn và đánh giá của Bộ Xây dựng về áp lực thời gian thử nghiệm và các vướng mắc thực tế.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T13:56:07.349156+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "11.5",
+        "12",
+        "16",
+        "3",
+        "4",
+        "4.8",
+        "5.10",
+        "7.8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T13:56:07.349827+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 307,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1382
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 3,
+        "words": 307,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1382,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/bon-hang-muc-co-the-anh-huong-khai-thac-long-thanh-vao-thang-12-5146679.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "sovico-va-mizuho-hop-tac-thuc-ay-ket-noi-tai-chinh-quoc-te-dfa00c56",
+    "status": "HOLD",
+    "prepared_at": "2026-11-19T13:55:23.355330+00:00",
+    "expires_at": "2026-11-20T13:55:23.355330+00:00",
+    "source_urls": [
+      "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+      "https://thanhnien.vn/mb-lap-ngan-hang-con-von-3000-ti-trong-trung-tam-tai-chinh-tphcm-185261118224310591.htm",
+      "https://dantri.com.vn/kinh-doanh/bo-truong-bo-tai-chinh-de-nghi-icbc-ho-tro-ket-noi-voi-cac-nha-dau-tu-20261117203436868.htm"
+    ],
+    "article": {
+      "id": "sovico-va-mizuho-hop-tac-thuc-ay-ket-noi-tai-chinh-quoc-te-dfa00c56",
+      "title": "Sovico và Mizuho hợp tác thúc đẩy kết nối tài chính quốc tế",
+      "summary": "Tập đoàn Sovico vừa ký kết thỏa thuận hợp tác chiến lược với Ngân hàng Mizuho (Nhật Bản) nhằm mở rộng cơ hội đầu tư, kết nối thị trường vốn và phát triển các giải pháp tài chính bền vững.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+      "published_at": "2026-11-19T10:30:00+00:00",
+      "fetched_at": "2026-11-19T13:58:14.198385+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong khuôn khổ Diễn đàn Công tư về Hợp tác kinh tế và khoa học công nghệ Việt Nam - Nhật Bản diễn ra ngày 11/11, Tập đoàn Sovico và Ngân hàng Mizuho đã chính thức ký kết thỏa thuận hợp tác toàn diện. Đây được xem là bước đi chiến lược nhằm tăng cường kết nối giữa doanh nghiệp Việt Nam với thị trường vốn quốc tế, đặc biệt là Nhật Bản.",
+        "Theo nội dung thỏa thuận, hai bên sẽ tập trung nghiên cứu và triển khai các giải pháp tài chính phục vụ hoạt động kinh doanh cũng như các dự án tiềm năng của Sovico. Các lĩnh vực hợp tác trọng tâm bao gồm kết nối thị trường vốn, thúc đẩy tài chính xanh và xây dựng các mô hình tài chính gắn liền với mục tiêu phát triển bền vững. Ngoài ra, hai đơn vị dự kiến sẽ phối hợp tổ chức các diễn đàn doanh nghiệp, đối thoại cấp cao và hội nghị kết nối đầu tư, tạo nền tảng trao đổi thông tin cho cộng đồng doanh nghiệp hai nước.",
+        "Ông Phạm Khắc Dũng, Phó chủ tịch Tập đoàn Sovico, nhấn mạnh rằng việc thiết lập quan hệ đối tác với Mizuho – một trong những tập đoàn tài chính lớn nhất Nhật Bản – là cột mốc quan trọng trong định hướng mở rộng kết nối quốc tế của tập đoàn. Thông qua mạng lưới tài chính rộng khắp của Mizuho, Sovico kỳ vọng sẽ tìm kiếm thêm nguồn lực cho các sáng kiến đầu tư dài hạn, đồng thời củng cố chiến lược phát triển kinh doanh bền vững.",
+        "Về phía Mizuho, với kinh nghiệm dày dặn trong việc cung cấp các giải pháp tài chính xuyên biên giới và hỗ trợ các định chế tài chính, ngân hàng này đóng vai trò cầu nối quan trọng trong việc thu xếp vốn và tư vấn đầu tư. Sự hợp tác này không chỉ mang lại lợi ích trực tiếp cho Sovico trong việc tiếp cận nguồn vốn quốc tế mà còn góp phần thúc đẩy quan hệ đối tác kinh tế song phương giữa Việt Nam và Nhật Bản, tạo tiền đề cho các dự án hợp tác có giá trị dài hạn trong tương lai."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Sovico hợp tác ngân hàng Mizuho thúc đẩy kết nối tài chính",
+      "meta_description": "Tập đoàn Sovico và Ngân hàng Mizuho ký thỏa thuận hợp tác chiến lược, hướng tới mục tiêu mở rộng kết nối thị trường vốn và phát triển tài chính bền vững tại Việ",
+      "keywords": [
+        "Sovico",
+        "Mizuho",
+        "kết nối tài chính",
+        "đầu tư",
+        "tài chính bền vững"
+      ],
+      "slug": "sovico-va-mizuho-hop-tac-thuc-ay-ket-noi-tai-chinh-quoc-te-dfa00c56",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 384,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+        "https://thanhnien.vn/mb-lap-ngan-hang-con-von-3000-ti-trong-trung-tam-tai-chinh-tphcm-185261118224310591.htm",
+        "https://dantri.com.vn/kinh-doanh/bo-truong-bo-tai-chinh-de-nghi-icbc-ho-tro-ket-noi-voi-cac-nha-dau-tu-20261117203436868.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/mb-lap-ngan-hang-con-von-3000-ti-trong-trung-tam-tai-chinh-tphcm-185261118224310591.htm",
+        "https://dantri.com.vn/kinh-doanh/bo-truong-bo-tai-chinh-de-nghi-icbc-ho-tro-ket-noi-voi-cac-nha-dau-tu-20261117203436868.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T10:30:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/mb-lap-ngan-hang-con-von-3000-ti-trong-trung-tam-tai-chinh-tphcm-185261118224310591.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T02:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/bo-truong-bo-tai-chinh-de-nghi-icbc-ho-tro-ket-noi-voi-cac-nha-dau-tu-20261117203436868.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T13:41:36+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tập đoàn Sovico và Ngân hàng Mizuho ký thỏa thuận hợp tác tại Diễn đàn Công tư về Hợp tác kinh tế và khoa học công nghệ Việt Nam - Nhật Bản ngày 11/11.",
+          "source_urls": [
+            "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thỏa thuận được trao tại Diễn đàn Công tư về Hợp tác kinh tế và khoa học công nghệ Việt Nam - Nhật Bản, ngày 11/11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+              "snippet": "Thỏa thuận được trao tại Diễn đàn Công tư về Hợp tác kinh tế và khoa học công nghệ Việt Nam - Nhật Bản, ngày 11/11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+              "page_sha256": "36680efad4d4ddf2600bf16ceaa3e9e79dd36e790d8bf408de4e701c37a9b90b",
+              "snippet_sha256": "5c57e7ed43f9a45392236fd7e5c265a03a6efc3afb25607977c86ae903be2551",
+              "verified_at": "2026-11-19T13:58:14.198069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các lĩnh vực hợp tác bao gồm kết nối thị trường vốn, tài chính xanh và các giải pháp tài chính bền vững.",
+          "source_urls": [
+            "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Các lĩnh vực hợp tác dự kiến gồm kết nối với thị trường vốn Nhật Bản và quốc tế, tài chính xanh và các giải pháp tài chính gắn với mục tiêu phát triển bền vững.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+              "snippet": "Các lĩnh vực hợp tác dự kiến gồm kết nối với thị trường vốn Nhật Bản và quốc tế, tài chính xanh và các giải pháp tài chính gắn với mục tiêu phát triển bền vững.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+              "page_sha256": "36680efad4d4ddf2600bf16ceaa3e9e79dd36e790d8bf408de4e701c37a9b90b",
+              "snippet_sha256": "de4d9900dc8f638b407f5626abca8f0286966adc9550abe1b0c4a47ec31c4657",
+              "verified_at": "2026-11-19T13:58:14.198069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Phạm Khắc Dũng, Phó chủ tịch Tập đoàn Sovico, khẳng định hợp tác với Mizuho là bước tiến trong định hướng mở rộng kết nối quốc tế của tập đoàn.",
+          "source_urls": [
+            "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tại sự kiện, ông Phạm Khắc Dũng, Phó chủ tịch Tập đoàn Sovico, cho biết việc thiết lập các hợp tác toàn diện với Ngân hàng Mizuho là bước tiến trong định hướng mở rộng kết nối quốc tế của Sovico.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+              "snippet": "Tại sự kiện, ông Phạm Khắc Dũng, Phó chủ tịch Tập đoàn Sovico, cho biết việc thiết lập các hợp tác toàn diện với Ngân hàng Mizuho là bước tiến trong định hướng mở rộng kết nối quốc tế của Sovico.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+              "page_sha256": "36680efad4d4ddf2600bf16ceaa3e9e79dd36e790d8bf408de4e701c37a9b90b",
+              "snippet_sha256": "aeaf004dad16357b40d6d955b2b7dff0b52407a5ba4e364846b9302eb186727d",
+              "verified_at": "2026-11-19T13:58:14.198069+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ ý nghĩa của việc hợp tác giữa Sovico và Mizuho trong bối cảnh thúc đẩy kết nối tài chính quốc tế. Đồng thời, bài phân tích các lĩnh vực hợp tác cụ thể như tài chính xanh và thị trường vốn, giúp độc giả hiểu rõ hơn về tác động của thỏa thuận đối với chiến lược phát triển dài hạn của doanh nghiệp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T13:58:14.198451+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-19T13:58:14.199218+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 384,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1764
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-19T13:58:16.216957+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-19T13:58:16.216957+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 384,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1764,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/sovico-hop-tac-ngan-hang-mizuho-thuc-day-ket-noi-tai-chinh-5146715.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
