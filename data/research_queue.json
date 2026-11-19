@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "6a246acbe754f3ea7815",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:13:03.949266+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "technology",
@@ -1086,11 +1086,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:13:03.949286+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anthropic-lap-ky-luc-ipo-81-ty-usd-trong-boi-canh-nganh-tri-tue-nhan-tao-66e1edd5"
   },
   {
     "queue_id": "700c587c514924c61210",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:12:59.483420+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "sports",
@@ -1724,11 +1725,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:12:59.483437+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "buc-tranh-nua-au-mua-giai-nfl-2026-iem-sang-va-goc-toi-tren-hang-cong-ca-989138a1"
   },
   {
     "queue_id": "7ebca506c7b265042ce2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T12:12:57.438461+00:00",
     "expires_at": "2026-11-22T12:11:15.576089+00:00",
     "category_hint": "sports",
@@ -2489,7 +2491,8 @@
       ]
     },
     "research_ready_at": "2026-11-19T12:12:57.438477+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "goc-nhin-nfl-lieu-co-u-32-tien-ve-at-chuan-chinh-thuc-tai-bat-ky-thoi-ie-2ba50085"
   },
   {
     "queue_id": "10207d85a74fb03a8723",
@@ -87821,5 +87824,755 @@
     },
     "published_at": "2026-11-16T02:24:07.128904+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "anthropic-lap-ky-luc-ipo-81-ty-usd-trong-boi-canh-nganh-tri-tue-nhan-tao-66e1edd5",
+    "status": "READY",
+    "prepared_at": "2026-11-19T12:13:23.615671+00:00",
+    "expires_at": "2026-11-20T12:13:23.615671+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+      "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+      "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+      "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss"
+    ],
+    "article": {
+      "id": "anthropic-lap-ky-luc-ipo-81-ty-usd-trong-boi-canh-nganh-tri-tue-nhan-tao-66e1edd5",
+      "title": "Anthropic lap ky luc IPO 81 ty USD trong boi canh nganh tri tue nhan tao doi mat nhieu thach thuc",
+      "summary": "Cong ty phat trien tri tue nhan tao Anthropic vua hoan tat dot phat hanh co phieu ra cong chung dau tien (IPO) voi so tien huy dong duoc khoang 81 ty USD, thiet lap ky luc moi tren thi truong chung khoan.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "fetched_at": "2026-11-19T12:13:33.638590+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cong ty nghien cuu tri tue nhan tao Anthropic chinh thuc hoan tat dot phat hanh co phieu ra cong chung dau tien voi so tien huy dong dat khoang 81 ty USD, vuot qua ky luc truoc do do SpaceX thiet lap vao thang sau khi ban 956 trieu co phieu o muc gia 83 USD moi co phieu.",
+        "Dot IPO nay dua dinh gia ban dau cua Anthropic len vao khoang 1,5 nghìn ty USD. Ngoai so tien tren, cong ty con co ke hoach thu them thong qua cac giao dich phat hanh rieng le cho cac doi tac lon nhu Google, Microsoft va Nvidia, nang tong nguon von huy dong len tren 107 ty USD. Co phieu cua cong ty se chinh thuc giao dich tren san giao dich chung khoan Nasdaq duoi ma giao dich ANT.",
+        "Su kien nay dien ra trong boi canh nhieu nha dau tu theo doi sat sao tinh hinh tai chinh cua cac doanh nghiep cong nghệ. Du doanh thu trong nua dau nam cua Anthropic ghi nhan tang truong manh me, cong ty van phai doi mat voi nhung khoan chi phi van hanh lon cung nhu cam ket chi tra hon 900 ty USD cho cac nha cung cap trong 19 nam toi, chu yeu de phat trien cac trung tam du lieu phuc vu cho mo hinh Claude.",
+        "Ben canh ap luc ve tai chinh va ha tang, Anthropic con gap phai nhung thach thuc tu viec uu tien yeu cu an toan va dao duc trong cong nghe. Giam doc dieu hanh Dario Amodei tung chia se rang viec phat trien cac bien phap an toan la yeu to han che toc do trien khai san pham, tham chi cong ty da tung tri hoan viec ra mat mot mo hinh moi de bao ve cong chung khoi nhung rủi ro tiem an. Nhung nguon quan ngai nay phan anh nhung tranh cai rong hon tren thi truong ve kha nang duy tri tang truong va loi nhuan dai han cua cacong ty tri tue nhan tao hien nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Anthropic lap ky luc IPO 81 ty USD va nhung thach thuc cua nganh AI",
+      "meta_description": "Anthropic huy dong thanh cong 81 ty USD trong dot IPO ky luc tren san Nasdaq, nhung van doi mat nhieu ap luc ve chi phi va van de an toan.",
+      "keywords": [
+        "Anthropic",
+        "IPO",
+        "AI",
+        "Claude",
+        "Nasdaq"
+      ],
+      "slug": "anthropic-lap-ky-luc-ipo-81-ty-usd-trong-boi-canh-nganh-tri-tue-nhan-tao-66e1edd5",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 353,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+        "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+        "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+        "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+        "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+        "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T12:00:00+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T21:28:08+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T11:02:54+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T10:00:00+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T00:20:03+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Anthropic hoan tat dot IPO huy dong khoang 81 ty USD va co phieu bat dau giao dich tren Nasdaq duoi ma ANT.",
+          "source_urls": [
+            "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The IPO raised about $81 billion (more than $107 billion when adding in private sales of shares), which is more thanthe $75 billion SpaceX receivedin June in a previous world record.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "snippet": "The IPO raised about $81 billion (more than $107 billion when adding in private sales of shares), which is more thanthe $75 billion SpaceX receivedin June in a previous world record.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "page_sha256": "53e8fdf5b82308207191d690ba1d8ff8080dc11b8694aa34f6dfb28351464d8a",
+              "snippet_sha256": "a0c144feec49ea437b0092ceb3efeb5790df4727423535c98cfaf23fc074b180",
+              "verified_at": "2026-11-19T12:13:33.638051+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anthropic cam ket tra cho cac nha cung cap hon 900 ty USD trong 19 nam toi, chu yeu de phat trien trung tam du lieu cho Claude.",
+          "source_urls": [
+            "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "But the AI lab has also committed to paying vendors more than $900 billion over the next 19 years, mostly to developdata centerspoweringClaudeand its other AI models.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "snippet": "But the AI lab has also committed to paying vendors more than $900 billion over the next 19 years, mostly to developdata centerspoweringClaudeand its other AI models.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "page_sha256": "53e8fdf5b82308207191d690ba1d8ff8080dc11b8694aa34f6dfb28351464d8a",
+              "snippet_sha256": "9c017f222aadb3263f245499617dcae0493f0bf0db23c3ee81fb769787009a61",
+              "verified_at": "2026-11-19T12:13:33.638051+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giam doc dieu hanh Dario Amodei cho biet viec phat trien cac bien phap an toan la yeu to han che trong viec trien khai mo hinh AI.",
+          "source_urls": [
+            "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "At a livestreamed investor meeting last week, Anthropic CEODario Amodeisaid developing safeguards was the limiting factor in deploying its AI models.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "snippet": "At a livestreamed investor meeting last week, Anthropic CEODario Amodeisaid developing safeguards was the limiting factor in deploying its AI models.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
+              "page_sha256": "53e8fdf5b82308207191d690ba1d8ff8080dc11b8694aa34f6dfb28351464d8a",
+              "snippet_sha256": "f76ca3e00a5db7ecb6fb9eeeeb6dfa7701c202a7464093528aa8147195ec0a08",
+              "verified_at": "2026-11-19T12:13:33.638051+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet phan tich su kien IPO ky luc cua Anthropic va dat trong boi canh nhung thach thuc ve tai chinh, ha tang cung nhu chien luoc an toan cua doanh nghiep. Tac pham lam ro ap luc tu chi phi dau tu trung tam du lieu va van de quan tri rủi ro trong nganh AI.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T12:13:33.638650+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,5",
+        "107",
+        "19",
+        "81",
+        "83",
+        "900",
+        "956"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T12:13:33.639858+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 353,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1616
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "france24.com",
+          "npr.org",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "buc-tranh-nua-au-mua-giai-nfl-2026-iem-sang-va-goc-toi-tren-hang-cong-ca-989138a1",
+    "status": "READY",
+    "prepared_at": "2026-11-19T12:13:23.615671+00:00",
+    "expires_at": "2026-11-20T12:13:23.615671+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+      "https://www.sportingnews.com/us/nfl/news/nfl-condemns-mike-florio-hitler-joke-mike-vrabel/35db174de8ff1d8b45e4859a",
+      "https://www.skysports.com/nfl/news/12040/13612601/nfl-patrick-mahomes-has-a-new-star-kirk-cousins-emotional-story-continues-and-christian-mccaffrey-lights-up-the-dallas-cowboys-nfl-sunday-review"
+    ],
+    "article": {
+      "id": "buc-tranh-nua-au-mua-giai-nfl-2026-iem-sang-va-goc-toi-tren-hang-cong-ca-989138a1",
+      "title": "Bức tranh nửa đầu mùa giải NFL 2026: Điểm sáng và góc tối trên hàng công các đội bóng",
+      "summary": "Khảo sát nửa đầu mùa giải 2026 của NFL ghi nhận những gam màu trái ngược trong chiến thuật tấn công của các đội bóng, từ chuỗi phong độ ấn tượng của Cincinnati Bengals cho đến những khó khăn tại Los Angeles Chargers và sự bổ sung nhân sự đáng chú ý ở Minnesota Vikings.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+      "published_at": "2026-11-19T12:07:06+00:00",
+      "fetched_at": "2026-11-19T12:13:50.412945+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa giải NFL 2026 đang trôi qua nửa chặng đường với những diễn biến đầy kịch tính, làm nổi bật vai trò quyết định của các điều phối viên tấn công và người gọi chiến thuật tại các nhượng quyền thương mại. Trong khi một số đội bóng duy trì được sự ổn định đáng kinh ngạc nhờ sự kết hợp ăn ý giữa ban huấn luyện và các ngôi sao trên sân, nhiều tập thể khác vẫn loay hoay tìm kiếm công thức chiến thắng để cứu vãn phần còn lại của mùa giải.",
+        "Tại Cincinnati Bengals, sự phối hợp giữa điều phối viên Dan Pitcher và huấn luyện viên trưởng Zac Taylor đã giúp hệ thống tấn công vận hành trơn tru dưới sự dẫn dắt của tiền vệ Joe Burrow. Tình hình tương tự cũng diễn ra ở Jacksonville Jaguars với sự góp mặt của Grant Udinski và Liam Coen trong vai trò gọi chiến thuật, đưa cả hai quarterback này vào nhóm ứng viên cạnh tranh danh hiệu. Ngược lại, hàng công của Los Angeles Chargers dưới sự chỉ đạo của Mike McDaniel lại trải qua quãng thời gian khó khăn với những màn trình diễn bị đánh giá là kém hiệu quả.",
+        "Bên cạnh đó, thị trường chuyển nhượng và những biến động nhân sự cũng tạo ra tác động tức thì đến cách vận hành chiến thuật. Minnesota Vikings, đội bóng từng gặp nhiều trở ngại trong việc ghi điểm, đã thực hiện bước đi quan trọng khi đưa quarterback Kirk Cousins trở lại qua một thương vụ trao đổi. Sự hiện diện của cầu thủ kỳ cựu này lập tức mang lại làn gió mới, hỗ trợ huấn luyện viên Kevin O'Connell tối ưu hóa các phương án tấn công trong chiến thắng trước Green Bay Packers.",
+        "Bước vào giai đoạn nước rút với tám tuần thi đấu còn lại, áp lực đè nặng lên vai các điều phối viên và người gọi chiến thuật trên toàn giải đấu. Những ai tìm ra giải pháp chiến thuật tối ưu không chỉ giúp đội bóng bứt phá trong cuộc đua giành vé playoff mà còn có cơ hội bước lên vị trí huấn luyện viên trưởng vào năm 2027, trong khi những người chậm cải thiện sẽ phải đối mặt với nguy cơ bị thay thế."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nửa đầu mùa giải NFL 2026: Điểm sáng và góc tối hàng công các đội",
+      "meta_description": "Phân tích tình hình nửa đầu mùa giải NFL 2026 qua góc nhìn về các điều phối viên tấn công, sự thể hiện của các đội bóng lớn và những thay đổi chiến thuật đáng c",
+      "keywords": [
+        "NFL 2026",
+        "offensive coordinator",
+        "Kirk Cousins",
+        "Joe Burrow",
+        "Minnesota Vikings"
+      ],
+      "slug": "buc-tranh-nua-au-mua-giai-nfl-2026-iem-sang-va-goc-toi-tren-hang-cong-ca-989138a1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 392,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+        "https://www.sportingnews.com/us/nfl/news/nfl-condemns-mike-florio-hitler-joke-mike-vrabel/35db174de8ff1d8b45e4859a",
+        "https://www.skysports.com/nfl/news/12040/13612601/nfl-patrick-mahomes-has-a-new-star-kirk-cousins-emotional-story-continues-and-christian-mccaffrey-lights-up-the-dallas-cowboys-nfl-sunday-review"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/nfl/news/nfl-condemns-mike-florio-hitler-joke-mike-vrabel/35db174de8ff1d8b45e4859a",
+        "https://www.skysports.com/nfl/news/12040/13612601/nfl-patrick-mahomes-has-a-new-star-kirk-cousins-emotional-story-continues-and-christian-mccaffrey-lights-up-the-dallas-cowboys-nfl-sunday-review"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T12:07:06+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/news/nfl-condemns-mike-florio-hitler-joke-mike-vrabel/35db174de8ff1d8b45e4859a",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T21:19:21+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/nfl/news/12040/13612601/nfl-patrick-mahomes-has-a-new-star-kirk-cousins-emotional-story-continues-and-christian-mccaffrey-lights-up-the-dallas-cowboys-nfl-sunday-review",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T06:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mùa giải NFL 2026 đã trải qua nửa chặng đường đầu tiên với những điểm sáng và góc tối của các điều phối viên tấn công và người gọi chiến thuật.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report"
+          ],
+          "importance": "core",
+          "evidence_snippet": "We've seen the good and bad of offensive coordinators and playcallers across the league throughout the first half of the 2026 NFL season.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "snippet": "We've seen the good and bad of offensive coordinators and playcallers across the league throughout the first half of the 2026 NFL season.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "page_sha256": "2b637b5829d004a9aa2119f0fc0b61d659f9f1248e85a4cac89c194dd11758e6",
+              "snippet_sha256": "b4bef4f90e1a84e5508eef4b5ab254e799f99d34fc36aa567e86ff942573d5d3",
+              "verified_at": "2026-11-19T12:13:50.412215+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dan Pitcher làm điều phối viên tấn công và Zac Taylor gọi chiến thuật giúp hàng công Cincinnati Bengals thi đấu hiệu quả với Joe Burrow.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "With Dan Pitcher coordinating the offense and coach Zac Taylor calling plays,Joe Burrowhas theCincinnati Bengals' offense humming.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "snippet": "With Dan Pitcher coordinating the offense and coach Zac Taylor calling plays,Joe Burrowhas theCincinnati Bengals' offense humming.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "page_sha256": "2b637b5829d004a9aa2119f0fc0b61d659f9f1248e85a4cac89c194dd11758e6",
+              "snippet_sha256": "e42851e4ea8092f058ba1ce2e0311e6a2f1b140f7f2fb23a3ce341e688aa2a2c",
+              "verified_at": "2026-11-19T12:13:50.412215+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Grant Udinski giữ vai trò điều phối viên tấn công và Liam Coen gọi chiến thuật cho Jacksonville Jaguars với Trevor Lawrence.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The same goes forTrevor Lawrenceand theJacksonville Jaguars, with Grant Udinski as OC and coach Liam Coen the playcaller.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "snippet": "The same goes forTrevor Lawrenceand theJacksonville Jaguars, with Grant Udinski as OC and coach Liam Coen the playcaller.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "page_sha256": "2b637b5829d004a9aa2119f0fc0b61d659f9f1248e85a4cac89c194dd11758e6",
+              "snippet_sha256": "ca8cc0cb9c8f66e250e1f8d2d753ac8a2be9be4fc3d0f0699129cfbd4b132759",
+              "verified_at": "2026-11-19T12:13:50.412215+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hàng công Los Angeles Chargers dưới sự chỉ đạo của Mike McDaniel gặp nhiều khó khăn trong nửa đầu mùa giải.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "On the other side of things, theLos Angeles Chargers' offense under OC/playcaller Mike McDaniel has been a disaster.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "snippet": "On the other side of things, theLos Angeles Chargers' offense under OC/playcaller Mike McDaniel has been a disaster.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "page_sha256": "2b637b5829d004a9aa2119f0fc0b61d659f9f1248e85a4cac89c194dd11758e6",
+              "snippet_sha256": "506bf9c24a7527f9ef20c89f743b370f3330e3416c7243a96700c471596385a4",
+              "verified_at": "2026-11-19T12:13:50.412215+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Minnesota Vikings chiêu mộ lại Kirk Cousins từ Las Vegas Raiders để giải quyết bài toán ghi điểm và hỗ trợ Kevin O'Connell trong việc gọi chiến thuật.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report"
+          ],
+          "importance": "core",
+          "evidence_snippet": "TheMinnesota Vikingshad struggled to put points on the board until they acquired QBKirk Cousins, which had an immediate impact on coach Kevin O'Connell's playcalling in Sunday's win over theGreen Bay Packers.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "snippet": "TheMinnesota Vikingshad struggled to put points on the board until they acquired QBKirk Cousins, which had an immediate impact on coach Kevin O'Connell's playcalling in Sunday's win over theGreen Bay Packers.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "page_sha256": "2b637b5829d004a9aa2119f0fc0b61d659f9f1248e85a4cac89c194dd11758e6",
+              "snippet_sha256": "c805f7a522683e1769551c86766dfe87edf26fe49fc096822987c49cb8b90bde",
+              "verified_at": "2026-11-19T12:13:50.412215+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Còn tám tuần nữa là kết thúc mùa giải, tạo áp lực lớn cho các điều phối viên trong việc tìm kiếm công thức chiến thắng.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "What has gone wrong?Miami has largely struggled to move the ball consistently through the air,",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "snippet": "What has gone wrong?Miami has largely struggled to move the ball consistently through the air,",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+              "page_sha256": "2b637b5829d004a9aa2119f0fc0b61d659f9f1248e85a4cac89c194dd11758e6",
+              "snippet_sha256": "a093c53095995206c8f5223cfa4a8483894d7d5e4c4cdd0d6591c0531b633a84",
+              "verified_at": "2026-11-19T12:13:50.412215+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bức tranh chiến thuật nửa đầu mùa giải NFL 2026 thông qua phong độ của các điều phối viên tấn công. Đồng thời, tác phẩm phân tích tác động từ các sự thay đổi nhân sự quan trọng như trường hợp của Kirk Cousins tại Vikings và đối chiếu sự khác biệt giữa các hàng công dẫn đầu với nhóm đang gặp khủng hoảng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T12:13:50.413018+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "2027"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T12:13:50.413880+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 392,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1876
+        },
+        "independent_domains": [
+          "espn.com",
+          "skysports.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "goc-nhin-nfl-lieu-co-u-32-tien-ve-at-chuan-chinh-thuc-tai-bat-ky-thoi-ie-2ba50085",
+    "status": "READY",
+    "prepared_at": "2026-11-19T12:13:23.615671+00:00",
+    "expires_at": "2026-11-20T12:13:23.615671+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+      "https://www.aljazeera.com/news/2026/11/19/trump-claims-iran-is-developing-bioweapons-is-there-any-evidence?traffic_source=rss"
+    ],
+    "article": {
+      "id": "goc-nhin-nfl-lieu-co-u-32-tien-ve-at-chuan-chinh-thuc-tai-bat-ky-thoi-ie-2ba50085",
+      "title": "Góc nhìn NFL: Liệu có đủ 32 tiền vệ đạt chuẩn chính thức tại bất kỳ thời điểm nào?",
+      "summary": "Bài viết phân tích quan điểm của chuyên gia Bill Barnwell về vấn đề lực lượng tiền vệ (QB) tại NFL, trong bối cảnh mùa giải 2026 chịu ảnh hưởng nặng nề bởi chấn thương.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+      "published_at": "2026-11-19T12:07:06+00:00",
+      "fetched_at": "2026-11-19T12:14:07.429489+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa giải NFL đang chứng kiến tình trạng chấn thương nghiêm trọng ở vị trí tiền vệ (quarterback), làm nổi bật lại một tranh luận lâu năm trong giới chuyên môn thể thao Mỹ.",
+        "Theo chuyên gia Bill Barnwell của ESPN, giải đấu thường xuyên đối mặt với quan điểm cho rằng không có đủ 32 tiền vệ đạt chuẩn chất lượng starter để phân bổ đều cho các đội bóng. Tuy nhiên, lập luận này có điểm chưa toàn diện khi chỉ đánh giá nhóm 32 cầu thủ đang ra sân trực tiếp.",
+        "Thực tế, ngay cả khi không tính đến các ca chấn thương và xem xét lựa chọn ưu tiên của từng đội trước mùa giải 2026, vẫn có những đội không sở hữu tiền vệ đạt mức khả dĩ hoặc xuất sắc. Trong khi đó, việc chuyển đổi từ cầu thủ đá chính sang phương án dự phòng tạo ra rủi ro lớn về mặt chiến thuật và tỷ lệ chiến thắng.",
+        "Trong thập kỷ qua, các đội bóng giữ chân được tiền vệ chính thức trong cả trận và đối đầu với đối thủ thiếu vắng sự phục vụ của cầu thủ đá chính ưa thích đã giành chiến thắng gần 66% số trận. Dù vậy, việc đánh giá lại cách nhìn nhận về nguồn lực tiền vệ dự trữ vẫn là bài toán cần thiết cho các CLB."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "NFL: Chuyên gia ESPN bàn về số lượng tiền vệ đạt chuẩn chính thức",
+      "meta_description": "Khám phá góc nhìn của Bill Barnwell về việc liệu NFL có thực sự thiếu hụt 32 tiền vệ đạt chuẩn starter-level hay không qua bài viết mới nhất.",
+      "keywords": [
+        "NFL",
+        "Bill Barnwell",
+        "Quarterback",
+        "ESPN",
+        "Bóng bầu dục Mỹ"
+      ],
+      "slug": "goc-nhin-nfl-lieu-co-u-32-tien-ve-at-chuan-chinh-thuc-tai-bat-ky-thoi-ie-2ba50085",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 234,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+        "https://www.aljazeera.com/news/2026/11/19/trump-claims-iran-is-developing-bioweapons-is-there-any-evidence?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/19/trump-claims-iran-is-developing-bioweapons-is-there-any-evidence?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T12:07:06+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/19/trump-claims-iran-is-developing-bioweapons-is-there-any-evidence?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T11:38:39+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mùa giải 2026 ghi nhận tình trạng chấn thương nặng nề ở vị trí tiền vệ tại NFL.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Even if we ignore injuries and just consider each team's ideal and preferred option heading into 2026, that's still going to leave us with a handful of teams that don't have a quarterback who projects to be even a viable starter, let alone a solid one.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+              "snippet": "Even if we ignore injuries and just consider each team's ideal and preferred option heading into 2026, that's still going to leave us with a handful of teams that don't have a quarterback who projects to be even a viable starter, let alone a solid one.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+              "page_sha256": "3967fe001250b96a8138e9e6c55af1f5b9dc341baa7a965cbda8b20f23e0ab18",
+              "snippet_sha256": "2412843c1d7bcd00242c63cc928a1a443b00fd8accc9485cb5cc63d8e44b22b6",
+              "verified_at": "2026-11-19T12:14:07.429065+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quan điểm phổ biến cho rằng không có đủ 32 tiền vệ đạt chuẩn starter-level để phân bổ cho các đội NFL.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Barnwell debunks a myth: Yes, there are at least 32 starter-level QBs in the NFL at any given time45mBill BarnwellReid's midseason NFL mock draft: 32 prospect landing spots, four QBs and one big tradeNew York Jets1dJordan Reid",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+              "snippet": "Barnwell debunks a myth: Yes, there are at least 32 starter-level QBs in the NFL at any given time45mBill BarnwellReid's midseason NFL mock draft: 32 prospect landing spots, four QBs and one big tradeNew York Jets1dJordan Reid",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+              "page_sha256": "3967fe001250b96a8138e9e6c55af1f5b9dc341baa7a965cbda8b20f23e0ab18",
+              "snippet_sha256": "0917ccd820d2549df9974eb55bf2e04b3147c87a0b6c06f02c3d7cb41707c411",
+              "verified_at": "2026-11-19T12:14:07.429065+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong thập kỷ qua, các đội giữ được tiền vệ chính thức và gặp đối thủ mất starter đã thắng gần 66% số trận.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Over the past decade -- without factoring in any other information -- teams that got a full game from their starting quarterback and went up against opposition that didn't get a single snap from their preferred starter won nearly 66% of the time.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+              "snippet": "Over the past decade -- without factoring in any other information -- teams that got a full game from their starting quarterback and went up against opposition that didn't get a single snap from their preferred starter won nearly 66% of the time.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50521968/how-many-starting-quarterbacks-32-teams-talent-barnwell",
+              "page_sha256": "3967fe001250b96a8138e9e6c55af1f5b9dc341baa7a965cbda8b20f23e0ab18",
+              "snippet_sha256": "7c4683a12c9839faeb5ff9ba2b2a0c200294240ab8b55890a6467aa92a19fc77",
+              "verified_at": "2026-11-19T12:14:07.429065+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải mã quan điểm phổ biến về sự thiếu hụt tiền vệ tại NFL. Đóng góp biên tập nằm ở việc đặt bối cảnh chấn thương mùa giải 2026 cạnh thống kê thắng thua khi dùng cầu thủ dự bị.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T12:14:07.429542+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "32",
+        "66"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T12:14:07.430181+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 234,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1066
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "espn.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
