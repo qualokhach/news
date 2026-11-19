@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "e24042631d07424c776a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T02:52:34.458111+00:00",
     "expires_at": "2026-11-22T02:50:22.094342+00:00",
     "category_hint": "technology",
@@ -595,11 +595,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T02:52:34.458131+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "giam-oc-ieu-hanh-microsoft-satya-nadella-ly-giai-quyet-inh-e-nghi-60-000-485f29be"
   },
   {
     "queue_id": "3d8d6bbbf38a2b8980a6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T02:52:34.194428+00:00",
     "expires_at": "2026-11-22T02:50:22.094342+00:00",
     "category_hint": "sports",
@@ -1163,11 +1164,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T02:52:34.194449+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bruce-arena-chi-trich-lien-oan-bong-a-my-sau-su-ra-i-cua-pochettino-459fe320"
   },
   {
     "queue_id": "c83746d3b65fca0d9455",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T02:52:32.481211+00:00",
     "expires_at": "2026-11-22T02:50:22.094342+00:00",
     "category_hint": "sports",
@@ -1909,7 +1911,8 @@
       ]
     },
     "research_ready_at": "2026-11-19T02:52:32.481233+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "su-thay-oi-chien-thuat-giup-arda-guler-ruc-sang-duoi-thoi-mourinho-2ff0577e"
   },
   {
     "queue_id": "6a2c8f4055c950b8f32e",
@@ -87877,5 +87880,634 @@
     },
     "published_at": "2026-11-15T16:41:45.367515+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "giam-oc-ieu-hanh-microsoft-satya-nadella-ly-giai-quyet-inh-e-nghi-60-000-485f29be",
+    "status": "READY",
+    "prepared_at": "2026-11-19T02:52:55.388866+00:00",
+    "expires_at": "2026-11-20T02:52:55.388866+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+      "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+    ],
+    "article": {
+      "id": "giam-oc-ieu-hanh-microsoft-satya-nadella-ly-giai-quyet-inh-e-nghi-60-000-485f29be",
+      "title": "Giám đốc điều hành Microsoft Satya Nadella lý giải quyết định đề nghị 60.000 nhân sự thôi việc tự nguyện",
+      "summary": "CEO Microsoft Satya Nadella giải thích lý do đưa ra lựa chọn nghỉ việc có đền bù cho 60.000 nhân viên trong bối cảnh tái cơ cấu doanh nghiệp theo định hướng trí tuệ nhân tạo.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+      "published_at": "2026-11-19T00:42:56+00:00",
+      "fetched_at": "2026-11-19T02:53:04.206762+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giám đốc điều hành Microsoft, ông Satya Nadella, vừa có những chia sẻ chi tiết về quyết định đưa ra lựa chọn nghỉ việc có đền bù cho khoảng 60.000 nhân sự diễn ra vào tháng 10. Thay vì tiến hành một đợt sa thải quy mô lớn theo cách truyền thống, ban lãnh đạo chọn giải pháp này nhằm tạo cho người lao động quyền chủ động đưa ra quyết định cho tương lai cá nhân của họ.",
+        "Lý giải về định hướng trên, người đứng đầu Microsoft nhấn mạnh yếu tố cốt lõi là quá trình tái cơ cấu tập đoàn thành một tổ chức vận hành dựa trên trí tuệ nhân tạo. Ông cho rằng mô hình công việc đang thay đổi khi mọi nhân viên dần chuyển sang vai trò quản lý các tác vụ tự động thay vì trực tiếp thực hiện mọi công đoạn thủ công như trước.",
+        "Lấy ví dụ từ đội ngũ phát triển sản phẩm với quy mô chỉ gồm một số lượng nhỏ các nhà phát triển đã làm chủ công nghệ, lãnh đạo Microsoft nhận định phương thức tổ chức công việc tại doanh nghiệp lâu năm này cần phải thích ứng. Dù quá trình chuyển đổi này có thể tạo ra những áp lực và khó khăn nhất định cho một bộ phận nhân sự, ông khẳng định đây là bước đi bắt buộc phải thực hiện.",
+        "Trước đó, trong các cuộc trao đổi với truyền thông, ông Nadella cũng chỉ ra rằng những cuộc thảo luận xoay quanh làn sóng công nghệ mới đôi khi tạo ra tâm lý lo âu về quyền kiểm soát định hướng nghề nghiệp. Động thái đưa ra các lựa chọn nghỉ việc tự nguyện được xem là thông điệp rõ ràng giúp nhân viên định hình lại lộ trình cá nhân trong giai đoạn chuyển đổi số."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "CEO Microsoft Satya Nadella lý giải việc đề nghị 60.000 nhân sự nghỉ v",
+      "meta_description": "Satya Nadella chia sẻ về quyết định đưa ra gói thỏa thuận thôi việc cho 60.000 nhân viên Microsoft để thích ứng với mô hình công nghệ mới.",
+      "keywords": [
+        "Microsoft",
+        "Satya Nadella",
+        "trí tuệ nhân tạo",
+        "tái cơ cấu",
+        "công nghệ"
+      ],
+      "slug": "giam-oc-ieu-hanh-microsoft-satya-nadella-ly-giai-quyet-inh-e-nghi-60-000-485f29be",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 316,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+        "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+      ],
+      "source_links": [
+        "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T00:42:56+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T01:48:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "CEO Microsoft Satya Nadella giải thích việc đề nghị 60.000 nhân viên thôi việc tự nguyện vào tháng 10 thay vì sa thải hàng loạt.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Microsoft CEO Satya Nadella explained Wednesday why heoffered buyouts to 60,000 of his employeesin October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "snippet": "Microsoft CEO Satya Nadella explained Wednesday why heoffered buyouts to 60,000 of his employeesin October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "page_sha256": "a65572abd22927eb65790d70d97aedbbece9b1b97f67d60e16bfd293690afc9a",
+              "snippet_sha256": "3e08ffafe1e1b13c2b6a97a0c49f5dfd298911a46a6fbd754fa9998e998c7e1d",
+              "verified_at": "2026-11-19T02:53:04.206172+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mục đích của việc đưa ra lựa chọn là để đảm bảo nhân viên cảm thấy họ có quyền chủ động trong các quyết định.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jensen Huang was having a third affair, Reuters reports",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "snippet": "Jensen Huang was having a third affair, Reuters reports",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "page_sha256": "a65572abd22927eb65790d70d97aedbbece9b1b97f67d60e16bfd293690afc9a",
+              "snippet_sha256": "eebf6c1a81a58484de8161283146ec122ef500b1e034e4ea007721361a3817c9",
+              "verified_at": "2026-11-19T02:53:04.206172+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Microsoft đang tái cơ cấu để mọi nhân viên sử dụng trí tuệ nhân tạo trong công việc và tập trung vào việc quản lý hệ thống đó.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "But Microsoft, as a 51-year-old company, didn’t grow up as an AI-first company.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "snippet": "But Microsoft, as a 51-year-old company, didn’t grow up as an AI-first company.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "page_sha256": "a65572abd22927eb65790d70d97aedbbece9b1b97f67d60e16bfd293690afc9a",
+              "snippet_sha256": "5cc20c9f2aeea884a01938d37e352326b8d30c55631136181b575f38781bc3cf",
+              "verified_at": "2026-11-19T02:53:04.206172+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quá trình tái cơ cấu và thay đổi có thể khó khăn nhưng là việc phải được thực hiện.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Jensen Huang didn’t show confidence in his successor, report says",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "snippet": "Jensen Huang didn’t show confidence in his successor, report says",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+              "page_sha256": "a65572abd22927eb65790d70d97aedbbece9b1b97f67d60e16bfd293690afc9a",
+              "snippet_sha256": "7c77cea04b242dfc62aae0f56b8372fdd473b93350ba7d6cd941d88942386e48",
+              "verified_at": "2026-11-19T02:53:04.206172+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ động cơ đằng sau quyết định tái cơ cấu nhân sự quy mô lớn của Microsoft. Phân tích ngữ cảnh chuyển dịch chiến lược sang mô hình vận hành tích hợp trí tuệ nhân tạo.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T02:53:04.206842+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "60.000"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T02:53:04.207836+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 316,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1454
+        },
+        "independent_domains": [
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bruce-arena-chi-trich-lien-oan-bong-a-my-sau-su-ra-i-cua-pochettino-459fe320",
+    "status": "READY",
+    "prepared_at": "2026-11-19T02:52:55.388866+00:00",
+    "expires_at": "2026-11-20T02:52:55.388866+00:00",
+    "source_urls": [
+      "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+      "https://www.engadget.com/2320281/why-gta-6-no-60-fps-performance-mode"
+    ],
+    "article": {
+      "id": "bruce-arena-chi-trich-lien-oan-bong-a-my-sau-su-ra-i-cua-pochettino-459fe320",
+      "title": "Bruce Arena chỉ trích Liên đoàn bóng đá Mỹ sau sự ra đi của Pochettino",
+      "summary": "Cựu huấn luyện viên đội tuyển Mỹ Bruce Arena đưa ra những đánh giá gay gắt về cách liên đoàn tìm người thay thế Mauricio Pochettino.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+      "published_at": "2026-11-19T01:43:49+00:00",
+      "fetched_at": "2026-11-19T02:53:12.409881+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cựu huấn luyện viên đội tuyển nam quốc gia Mỹ Bruce Arena vừa đưa ra những chỉ trích mạnh mẽ nhắm vào Liên đoàn bóng đá nước này, trong bối cảnh tổ chức này đang tất bật tìm kiếm người thay thế Mauricio Pochettino.",
+        "Pochettino đã chính thức rời ghế nóng của đội tuyển Mỹ để đảm nhận vai trò huấn luyện viên trưởng tại câu lạc bộ Manchester United sau hơn hai năm dẫn dắt. Sự ra đi này diễn ra ngay sau khi chiến lược gia người Argentina giúp tuyển Mỹ giành chiến thắng 2-0 trước Haiti, hoàn tất tổng tỷ số 8-0 để tiến vào trận chung kết Concacaf Nations League. Liên đoàn bóng đá Mỹ cho biết quá trình tìm kiếm thuyền trưởng mới sẽ bắt đầu với việc huấn luyện viên U23 Steve Cherundolo phụ trách đợt tập trung tháng 12 và trận giao hữu gặp Jamaica sắp tới.",
+        "Tuy nhiên, trả lời truyền thông về công tác nhân sự này, ông Arena bày tỏ sự không hài lòng rõ rệt khi cho rằng giới chức trách không hề nắm bắt được phương hướng giải quyết. Đây không phải lần đầu tiên nhà cầm quân từng nắm giữ kỷ lục số trận thắng cùng tuyển Mỹ lên tiếng phàn trích các quyết định của liên đoàn. Trong quá khứ, ông từng công khai phản đối việc bổ nhiệm một huấn luyện viên ngoại như Pochettino, với quan điểm rằng người dẫn dắt đội tuyển quốc gia cần phải thấu hiểu tường tận văn hóa và môi trường bóng đá nội địa.",
+        "Hiện tại, Bruce Arena đang tập trung chuẩn bị cho San Jose Earthquakes bước vào loạt trận playoff MLS gặp Houston Dynamo FC."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bruce Arena chỉ trích liên đoàn bóng đá Mỹ việc tìm HLV thay Pochettin",
+      "meta_description": "Cựu HLV tuyển Mỹ Bruce Arena lên tiếng chỉ trích cách liên đoàn bóng đá nước này tìm người thay thế Mauricio Pochettino vừa gia nhập Man United.",
+      "keywords": [
+        "Bruce Arena",
+        "Mauricio Pochettino",
+        "USMNT",
+        "U.S. Soccer",
+        "bong da My"
+      ],
+      "slug": "bruce-arena-chi-trich-lien-oan-bong-a-my-sau-su-ra-i-cua-pochettino-459fe320",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 289,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+        "https://www.engadget.com/2320281/why-gta-6-no-60-fps-performance-mode"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2320281/why-gta-6-no-60-fps-performance-mode"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T01:43:49+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2320281/why-gta-6-no-60-fps-performance-mode",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:15:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bruce Arena gọi trích dẫn liên đoàn không có phương hướng trong việc tìm HLV thay Pochettino",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach"
+          ],
+          "importance": "core",
+          "evidence_snippet": "FormerUnited Statesmen's coach and currentSan Jose Earthquakescoach Bruce Arena called out U.S.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+              "snippet": "FormerUnited Statesmen's coach and currentSan Jose Earthquakescoach Bruce Arena called out U.S.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+              "page_sha256": "b93edbcd46974ede26f151e06f0e7c0287432a2688e7827b63896a60d14940ed",
+              "snippet_sha256": "dea386e7249f59a05ce7c50dfe18dac05d54da8069c52011de9f80c40a2f8242",
+              "verified_at": "2026-11-19T02:53:12.409345+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pochettino chuyển sang dẫn dắt Manchester United sau hơn 2 năm làm việc ở tuyển Mỹ",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Pochettino led the United States to a 2-0 victory overHaition Tuesday in his final game in charge before immediately departing for England.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+              "snippet": "Pochettino led the United States to a 2-0 victory overHaition Tuesday in his final game in charge before immediately departing for England.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+              "page_sha256": "b93edbcd46974ede26f151e06f0e7c0287432a2688e7827b63896a60d14940ed",
+              "snippet_sha256": "c71aa345cabdff714812f299d5069e44b820e896dd6a749c7c1b65d6f3982f21",
+              "verified_at": "2026-11-19T02:53:12.409345+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Steve Cherundolo sẽ chỉ đạo đợt tập trung tháng 12 và trận giao hữu với Jamaica",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Soccer said the federation would begin the search for a new coach with U23 manager Steve Cherundolo overseeing a December camp and friendly againstJamaicanext month.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+              "snippet": "Soccer said the federation would begin the search for a new coach with U23 manager Steve Cherundolo overseeing a December camp and friendly againstJamaicanext month.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
+              "page_sha256": "b93edbcd46974ede26f151e06f0e7c0287432a2688e7827b63896a60d14940ed",
+              "snippet_sha256": "4f5f00131e387fdb1d22af575ea99cf4d4bde20ad8c656891d18f5ac20472e90",
+              "verified_at": "2026-11-19T02:53:12.409345+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cập nhật phản ứng mới nhất của cựu HLV Bruce Arena về tiến trình tìm kiếm người dẫn dắt tuyển Mỹ. Đồng thời, bài báo đặt phát biểu này trong khung cảnh thành tích vừa qua của đội dưới thời Pochettino và lịch trình sắp tới của liên đoàn để làm rõ góc nhìn chuyên môn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T02:53:12.409962+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "23"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T02:53:12.411002+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 289,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1411
+        },
+        "independent_domains": [
+          "engadget.com",
+          "espn.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "su-thay-oi-chien-thuat-giup-arda-guler-ruc-sang-duoi-thoi-mourinho-2ff0577e",
+    "status": "READY",
+    "prepared_at": "2026-11-19T02:52:55.388866+00:00",
+    "expires_at": "2026-11-20T02:52:55.388866+00:00",
+    "source_urls": [
+      "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+      "https://dantri.com.vn/thoi-su/ong-le-minh-tri-nam-bat-loi-the-san-bay-long-thanh-nang-doi-song-dan-20261118160358897.htm",
+      "https://tuoitre.vn/cu-kep-tau-starship-cua-spacex-se-thay-doi-tuong-lai-du-hanh-vu-tru-the-nao-100261115205818281.htm"
+    ],
+    "article": {
+      "id": "su-thay-oi-chien-thuat-giup-arda-guler-ruc-sang-duoi-thoi-mourinho-2ff0577e",
+      "title": "Sự thay đổi chiến thuật giúp Arda Guler rực sáng dưới thời Mourinho",
+      "summary": "Dưới bàn tay huấn luyện của Jose Mourinho, tiền vệ trẻ Arda Guler đang trải qua mùa giải bùng nổ tại Real Madrid nhờ sự thay đổi linh hoạt về vị trí và nhiệm vụ trên sân.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+      "published_at": "2026-11-19T01:53:53+00:00",
+      "fetched_at": "2026-11-19T02:53:52.738581+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Dưới sự dẫn dắt của HLV Jose Mourinho, tiền vệ Arda Guler đang có những bước phát triển vượt bậc để trở thành một nhân tố quan trọng trong hệ thống chiến thuật của Real Madrid. Từ một cầu thủ chủ yếu dựa vào kỹ thuật cá nhân ở hành lang cánh, tuyển thủ Thổ Nhĩ Kỳ đã được điều chỉnh để đảm nhận vai trò toàn diện và linh hoạt hơn trên sân.",
+        "Sự thay đổi rõ rệt nhất nằm ở cách di chuyển và tham gia vào lối chơi chung của đội bóng. Thay vì bị bó buộc bên cánh phải hay chờ đợi cơ hội sát vòng cấm đối phương, Guler thường xuyên di chuyển vào trung lộ, lùi sâu nhận bóng và kết nối giữa các tuyến. Khả năng quan sát không gian và tìm ra khoảng trống giúp anh phát huy tối đa tầm nhìn chiến thuật, qua đó điều tiết nhịp độ trận đấu và tung ra những đường chuyền sắc bén cho đồng đội.",
+        "Bên cạnh mặt trận tấn công, chiến lược gia người Bồ Đào Nha còn yêu cầu cầu thủ 21 tuổi nâng cao ý thức phòng ngự và tham gia tích cực vào hệ thống pressing. Guler phải học cách đọc tình huống, bịt các hướng chuyền của đối phương và hỗ trợ bảo vệ những khu vực trọng yếu khi đội nhà không kiểm soát bóng. Sự tiến bộ này giúp anh không chỉ tạo dấu ấn bằng các khoảnh khắc lóe sáng cá nhân mà còn duy trì ảnh hưởng xuyên suốt trong các trận đấu.",
+        "Nhờ sự tin tưởng và những điều chỉnh chiến thuật hợp lý từ ban huấn luyện, Guler đang trải khởi đầu ấn tượng nhất từ trước đến nay trong sự nghiệp. Tính đến giữa tháng 11, anh đã có bốn bàn thắng và sáu đường kiến tạo sau 14 trận trên mọi đấu trường. Sự ăn ý với Kylian Mbappe cùng khả năng phối hợp nhịp nhàng cùng các đồng đội tuyến giữa đang giúp Real Madrid duy trì chuỗi phong độ ổn định tại đấu trường quốc nội."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mourinho nâng tầm Arda Guler tại Real Madrid ra sao",
+      "meta_description": "Khám phá cách HLV Jose Mourinho biến Arda Guler thành tiền vệ đa năng, điều tiết lối chơi và tỏa sáng rực rỡ tại Real Madrid trong mùa giải này.",
+      "keywords": [
+        "Arda Guler",
+        "Jose Mourinho",
+        "Real Madrid",
+        "La Liga",
+        "bóng đá Tây Ban Nha"
+      ],
+      "slug": "su-thay-oi-chien-thuat-giup-arda-guler-ruc-sang-duoi-thoi-mourinho-2ff0577e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 357,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+        "https://dantri.com.vn/thoi-su/ong-le-minh-tri-nam-bat-loi-the-san-bay-long-thanh-nang-doi-song-dan-20261118160358897.htm",
+        "https://tuoitre.vn/cu-kep-tau-starship-cua-spacex-se-thay-doi-tuong-lai-du-hanh-vu-tru-the-nao-100261115205818281.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/ong-le-minh-tri-nam-bat-loi-the-san-bay-long-thanh-nang-doi-song-dan-20261118160358897.htm",
+        "https://tuoitre.vn/cu-kep-tau-starship-cua-spacex-se-thay-doi-tuong-lai-du-hanh-vu-tru-the-nao-100261115205818281.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T01:53:53+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/ong-le-minh-tri-nam-bat-loi-the-san-bay-long-thanh-nang-doi-song-dan-20261118160358897.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T09:35:53+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/cu-kep-tau-starship-cua-spacex-se-thay-doi-tuong-lai-du-hanh-vu-tru-the-nao-100261115205818281.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-15T14:23:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "HLV Jose Mourinho giúp Arda Guler phát triển từ một cầu thủ tấn công kỹ thuật thành tiền vệ đa năng, điều tiết lối chơi tại Real Madrid.",
+          "source_urls": [
+            "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "HLV Jose Mourinho giúp Arda Guler phát triển từ một cầu thủ tấn công dựa nhiều vào kỹ thuật cá nhân thành tiền vệ đa năng, có khả năng điều tiết lối chơi và tạo ảnh hưởng lên toàn bộ hệ thống Real Madrid.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+              "snippet": "HLV Jose Mourinho giúp Arda Guler phát triển từ một cầu thủ tấn công dựa nhiều vào kỹ thuật cá nhân thành tiền vệ đa năng, có khả năng điều tiết lối chơi và tạo ảnh hưởng lên toàn bộ hệ thống Real Madrid.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+              "page_sha256": "51b61f526f0ce009f741bc70efcc6f7bc5d3e35f5b34d4a0019874c11621e258",
+              "snippet_sha256": "253941bf0a21b494679ff6f97852481f2d9df0494b4dd3385b6abeac80e03d6c",
+              "verified_at": "2026-11-19T02:53:52.737945+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Màn trình diễn tại Real Madrid giúp Guler đạt thành tích bốn bàn và sáu kiến tạo sau 14 trận trên mọi đấu trường.",
+          "source_urls": [
+            "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Màn trình diễn này giúpGulernâng thành tích mùa giải lên bốn bàn và sáu kiến tạo sau 14 trận trên mọi đấu trường, đạt trung bình 0,71 lần góp dấu giày vào bàn thắng mỗi trận.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+              "snippet": "Màn trình diễn này giúpGulernâng thành tích mùa giải lên bốn bàn và sáu kiến tạo sau 14 trận trên mọi đấu trường, đạt trung bình 0,71 lần góp dấu giày vào bàn thắng mỗi trận.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+              "page_sha256": "51b61f526f0ce009f741bc70efcc6f7bc5d3e35f5b34d4a0019874c11621e258",
+              "snippet_sha256": "cad4fa642ae1d7c9cebffba38827dbfec5ecf0e11de8394a171afa3cd761484a",
+              "verified_at": "2026-11-19T02:53:52.737945+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mourinho yêu cầu Guler cải thiện khả năng đọc tình huống pressing, bịt hướng chuyền của đối thủ và lùi về bảo vệ khu vực quan trọng.",
+          "source_urls": [
+            "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "HLV người Bồ Đào Nha yêu cầu tiền vệ này cải thiện khả năng đọc tình huống pressing, bịt các hướng chuyền của đối thủ và hiểu thời điểm cần lùi về bảo vệ những khu vực quan trọng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+              "snippet": "HLV người Bồ Đào Nha yêu cầu tiền vệ này cải thiện khả năng đọc tình huống pressing, bịt các hướng chuyền của đối thủ và hiểu thời điểm cần lùi về bảo vệ những khu vực quan trọng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/mourinho-nang-tam-arda-guler-the-nao-5142782.html",
+              "page_sha256": "51b61f526f0ce009f741bc70efcc6f7bc5d3e35f5b34d4a0019874c11621e258",
+              "snippet_sha256": "d6331b99f3e3832f3bf7f21948d5221af2cc3999e375df2473903bb42e3e8272",
+              "verified_at": "2026-11-19T02:53:52.737945+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự dịch chuyển về mặt vai trò chiến thuật từ một cầu thủ chạy cánh thuần túy sang một tiền vệ đa năng của Arda Guler. Đồng thời, phân tích chi tiết các yêu cầu khắt khe của HLV Jose Mourinho về khả năng phòng ngự và đọc trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T02:53:52.738669+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "14",
+        "21"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T02:53:52.739990+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 357,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1638
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
