@@ -1710,7 +1710,7 @@
   },
   {
     "queue_id": "2a06c671d6b29602bc49",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T17:43:35.409105+00:00",
     "expires_at": "2026-11-22T17:41:29.929058+00:00",
     "category_hint": "world",
@@ -2289,11 +2289,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T17:43:35.409126+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuu-ceo-nvidia-jensen-huang-oi-mat-voi-rui-ro-phap-ly-gia-tang-99898da1"
   },
   {
     "queue_id": "07031d63e2433cf5ac12",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T17:43:29.864684+00:00",
     "expires_at": "2026-11-22T17:41:29.929058+00:00",
     "category_hint": "vietnam",
@@ -3084,11 +3085,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T17:43:29.864706+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vinfast-ra-mat-bo-oi-xe-may-ien-cao-cap-sadie-va-rasad-gia-tu-59-9-trieu-29e12e7e"
   },
   {
     "queue_id": "70900f21dc47dfa1c69b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T17:43:17.947988+00:00",
     "expires_at": "2026-11-22T17:41:29.929058+00:00",
     "category_hint": "vietnam",
@@ -4835,7 +4837,8 @@
       ]
     },
     "research_ready_at": "2026-11-19T17:43:17.948010+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tong-thong-azerbaijan-ilham-aliyev-bat-au-tham-chinh-thuc-viet-nam-e5cbd892"
   },
   {
     "queue_id": "6a246acbe754f3ea7815",
@@ -21071,7 +21074,7 @@
   },
   {
     "queue_id": "17dfa83702289f9d3fda",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-18T17:38:09.516869+00:00",
     "expires_at": "2026-11-21T17:36:49.180820+00:00",
     "category_hint": "world",
@@ -21650,7 +21653,8 @@
       ]
     },
     "research_ready_at": "2026-11-18T17:38:09.516890+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "phi-bao-hiem-qua-eo-bien-hormuz-bi-ay-len-muc-cao-chua-tung-thay-trong-b-cb8ef1dd"
   },
   {
     "queue_id": "493a6ec6a92ce76ed686",
@@ -88157,5 +88161,870 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "cuu-ceo-nvidia-jensen-huang-oi-mat-voi-rui-ro-phap-ly-gia-tang-99898da1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-19T18:41:47.298567+00:00",
+    "expires_at": "2026-11-20T18:41:47.298567+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+      "https://thanhnien.vn/ceo-nvidia-tam-quyen-noi-gi-voi-nhan-vien-sau-khi-ong-jensen-huang-tu-chuc-185261119143614726.htm"
+    ],
+    "article": {
+      "id": "cuu-ceo-nvidia-jensen-huang-oi-mat-voi-rui-ro-phap-ly-gia-tang-99898da1",
+      "title": "Cựu CEO Nvidia Jensen Huang đối mặt với rủi ro pháp lý gia tăng",
+      "summary": "Sau khi từ chức, cựu CEO Nvidia Jensen Huang đang đối mặt với hàng loạt rủi ro pháp lý nghiêm trọng liên quan đến các bê bối cá nhân và nghi vấn vi phạm quy định xuất khẩu chip sang Trung Quốc.",
+      "category": "technology",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+      "published_at": "2026-11-19T17:32:50+00:00",
+      "fetched_at": "2026-11-19T18:42:18.456501+00:00",
+      "appnho_published_at": "2026-11-19T18:43:37.192567+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cựu CEO Nvidia, ông Jensen Huang, đang đứng trước áp lực pháp lý ngày càng lớn sau khi từ chức vào ngày 12/11 vừa qua. Các rủi ro này xuất phát từ một loạt bê bối đời tư, bao gồm cáo buộc về ba mối quan hệ ngoài luồng, trong đó có một người được cho là gián điệp Trung Quốc làm việc tại Megaspeed – một khách hàng của Nvidia đang bị điều tra vì nghi vấn chuyển hướng chip bán dẫn tiên tiến sang Trung Quốc trái quy định của Mỹ.",
+        "Tình hình trở nên phức tạp hơn khi Nvidia đang đối mặt với các cuộc điều tra từ giới chức liên bang và tiểu bang, cùng với làn sóng kiện tụng từ cổ đông. Cổ phiếu của hãng đã giảm 19% kể từ ngày 8/11, thời điểm ông Huang gửi lời xin lỗi toàn công ty. Các chuyên gia pháp lý cảnh báo rằng ông Huang có thể đối mặt với sự giám sát gắt gao từ Bộ Tư pháp Mỹ (DOJ) và Ủy ban Chứng khoán và Giao dịch (SEC), với khả năng bị cấm đảm nhiệm các vị trí điều hành.",
+        "Hiện tại, ông Huang đã thuê công ty luật Paul, Weiss để đại diện cho mình, trong khi Nvidia cũng đã chỉ định Wachtell, Lipton, Rosen & Katz tiến hành một cuộc điều tra độc lập. Dù có những nỗ lực từ một bộ phận nhân viên nhằm đưa ông Huang trở lại, Hội đồng quản trị Nvidia đã khẳng định không có kế hoạch phục chức cho ông. Các chuyên gia nhận định, câu hỏi then chốt về việc ai đã biết thông tin gì và vào thời điểm nào sẽ là yếu tố quyết định mức độ trách nhiệm pháp lý của cả cá nhân ông Huang lẫn tập đoàn Nvidia trong thời gian tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Jensen Huang và Nvidia đối mặt rủi ro pháp lý sau bê bối",
+      "meta_description": "Cựu CEO Nvidia Jensen Huang đang đối mặt với các cuộc điều tra từ Bộ Tư pháp và SEC sau khi từ chức vì bê bối đời tư và nghi vấn vi phạm xuất khẩu chip.",
+      "keywords": [
+        "Jensen Huang",
+        "Nvidia",
+        "pháp lý",
+        "bê bối",
+        "xuất khẩu chip"
+      ],
+      "slug": "cuu-ceo-nvidia-jensen-huang-oi-mat-voi-rui-ro-phap-ly-gia-tang-99898da1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 313,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+        "https://thanhnien.vn/ceo-nvidia-tam-quyen-noi-gi-voi-nhan-vien-sau-khi-ong-jensen-huang-tu-chuc-185261119143614726.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/ceo-nvidia-tam-quyen-noi-gi-voi-nhan-vien-sau-khi-ong-jensen-huang-tu-chuc-185261119143614726.htm"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T17:32:50+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ceo-nvidia-tam-quyen-noi-gi-voi-nhan-vien-sau-khi-ong-jensen-huang-tu-chuc-185261119143614726.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T11:07:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cựu CEO Nvidia Jensen Huang từ chức vào ngày 12/11 sau các bê bối đời tư và nghi vấn vi phạm xuất khẩu chip.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Graziano said his law firm is \"actively looking at securities law liability for Nvidia, Jensen Huang and other senior executives in the company given all the recent developments regarding their [potential] knowledge and facilitation of illegal chip sales to Chinese entities.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "snippet": "Graziano said his law firm is \"actively looking at securities law liability for Nvidia, Jensen Huang and other senior executives in the company given all the recent developments regarding their [potential] knowledge and facilitation of illegal chip sales to Chinese entities.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "page_sha256": "dabcb275b6fd7681fb1d94e05fb783ceac28635aa7e2fb625468a8af16687886",
+              "snippet_sha256": "ef0ba4547bdec09313c7b85dbb027c6c5da6845a3dccf337cb215ca4d3d545e0",
+              "verified_at": "2026-11-19T18:42:18.455849+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cổ phiếu Nvidia giảm 19% kể từ ngày 8/11 sau khi ông Huang thừa nhận các mối quan hệ ngoài luồng.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Nvidia's share price has fallen 19% since Nov.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "snippet": "Nvidia's share price has fallen 19% since Nov.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "page_sha256": "dabcb275b6fd7681fb1d94e05fb783ceac28635aa7e2fb625468a8af16687886",
+              "snippet_sha256": "5c4db88a97223a8a37691a40b0463bd1b068966d662a468e7957a5c63e462a38",
+              "verified_at": "2026-11-19T18:42:18.455849+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hội đồng quản trị Nvidia khẳng định không có kế hoạch đưa ông Jensen Huang trở lại vị trí CEO.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nvidia's staff split over Jensen Huang return as Kress takes over",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "snippet": "Nvidia's staff split over Jensen Huang return as Kress takes over",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "page_sha256": "dabcb275b6fd7681fb1d94e05fb783ceac28635aa7e2fb625468a8af16687886",
+              "snippet_sha256": "fdabe884a6e7f5e8ac8ee653402f97988a60f4094a6afca2abfcbb914d68d4d7",
+              "verified_at": "2026-11-19T18:42:18.455849+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa các bê bối cá nhân của cựu CEO và rủi ro tuân thủ quy định xuất khẩu của Nvidia. Đồng thời, bài viết đối chiếu tình hình pháp lý hiện tại với các tiền lệ xử phạt trong ngành công nghệ để độc giả thấy rõ quy mô rủi ro.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T18:42:18.456585+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "19"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-19T18:43:37.192567+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 313,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1418,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-20 01:43"
+    },
+    "published_at": "2026-11-19T18:43:37.192567+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vinfast-ra-mat-bo-oi-xe-may-ien-cao-cap-sadie-va-rasad-gia-tu-59-9-trieu-29e12e7e",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-19T18:41:47.298567+00:00",
+    "expires_at": "2026-11-20T18:41:47.298567+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+      "https://thanhnien.vn/vinfast-tung-bo-doi-xe-tay-ga-dien-cao-cap-gia-tu-599-trieu-185261119190450402.htm"
+    ],
+    "article": {
+      "id": "vinfast-ra-mat-bo-oi-xe-may-ien-cao-cap-sadie-va-rasad-gia-tu-59-9-trieu-29e12e7e",
+      "title": "VinFast ra mắt bộ đôi xe máy điện cao cấp Sadie và Rasad, giá từ 59,9 triệu đồng",
+      "summary": "VinFast chính thức công bố hai mẫu xe máy điện cao cấp Sadie và Rasad với giá bán niêm yết lần lượt là 59,9 triệu đồng và 78,9 triệu đồng, đánh dấu bước tiến mới của hãng vào phân khúc xe hai bánh cao cấp.",
+      "category": "technology",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+      "published_at": "2026-11-19T14:28:33+00:00",
+      "fetched_at": "2026-11-19T18:42:41.278194+00:00",
+      "appnho_published_at": "2026-11-19T18:43:37.192567+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày 19/11, VinFast chính thức công bố bộ đôi xe máy điện cao cấp mới mang tên Sadie và Rasad, hướng tới nhóm khách hàng có yêu cầu cao về thiết kế, công nghệ và trải nghiệm sử dụng. Trong đó, mẫu xe Sadie có giá niêm yết 59,9 triệu đồng với phong cách tân cổ điển thanh lịch, còn mẫu maxi-scooter Rasad mang kiểu dáng thể thao, vạm vỡ được niêm yết ở mức 78,9 triệu đồng (đã bao gồm VAT).",
+        "Về khả năng vận hành, cả hai mẫu xe đều sử dụng động cơ đặt giữa có công suất danh định 3.500W và tối đa 7.500W, cho phép đạt tốc độ tối đa 100 km/h. Bộ đôi được trang bị hai pin LFP dung lượng 2,3 kWh hoạt động song song, mang lại quãng đường di chuyển lên tới 160 km sau mỗi lần sạc đầy theo điều kiện kiểm thử của nhà sản xuất. Xe sở hữu ba chế độ lái Eco, Normal và Sport cùng hệ thống phanh tái sinh bốn mức.",
+        "Bên cạnh đó, Sadie và Rasad sở hữu nhiều trang bị an toàn và công nghệ hiện đại như hệ thống chống bó cứng phanh ABS 2 kênh, hỗ trợ khởi hành ngang dốc, số lùi, kết nối Bluetooth hiển thị Google Maps trên màn hình TFT cùng ứng dụng quản lý xe từ xa qua điện thoại. Khách hàng mua xe trong giai đoạn này nhận ưu đãi 8 triệu đồng đến hết ngày 19/12 theo chương trình ưu đãi, đồng thời được áp dụng chính sách bảo hành 6 năm cho xe và 8 năm cho pin không giới hạn số km."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "VinFast ra mắt xe máy điện cao cấp Sadie và Rasad giá từ 59,9 triệu",
+      "meta_description": "VinFast vừa giới thiệu bộ đôi xe máy điện cao cấp Sadie và Rasad tại thị trường Việt Nam với nhiều trang bị công nghệ hiện đại và tầm hoạt động tới 160 km.",
+      "keywords": [
+        "VinFast Sadie",
+        "VinFast Rasad",
+        "xe máy điện cao cấp",
+        "VinFast"
+      ],
+      "slug": "vinfast-ra-mat-bo-oi-xe-may-ien-cao-cap-sadie-va-rasad-gia-tu-59-9-trieu-29e12e7e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 280,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+        "https://thanhnien.vn/vinfast-tung-bo-doi-xe-tay-ga-dien-cao-cap-gia-tu-599-trieu-185261119190450402.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/vinfast-tung-bo-doi-xe-tay-ga-dien-cao-cap-gia-tu-599-trieu-185261119190450402.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T14:28:33+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/vinfast-tung-bo-doi-xe-tay-ga-dien-cao-cap-gia-tu-599-trieu-185261119190450402.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T12:23:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "VinFast ra mắt hai mẫu xe máy điện cao cấp Sadie và Rasad với giá niêm yết lần lượt là 59,9 triệu đồng và 78,9 triệu đồng vào ngày 19/11.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Ngày 19/11, VinFast công bố bổ sung thêm vào danh mục sản phẩm hai mẫu xe máy điện cao cấp Sadie và Rasad, với giá niêm yết lần lượt là 59,9 và 78,9 triệu đồng (đã bao gồm VAT).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "snippet": "(Dân trí) - Ngày 19/11, VinFast công bố bổ sung thêm vào danh mục sản phẩm hai mẫu xe máy điện cao cấp Sadie và Rasad, với giá niêm yết lần lượt là 59,9 và 78,9 triệu đồng (đã bao gồm VAT).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "page_sha256": "1f081654f1ef033467a2181b04210a27387e8c34f9f9310581e0d9eb8d7dbc9c",
+              "snippet_sha256": "b1129bea93a7d8f465c116873957254f20b9feb172f69b8cdfac8025b73bc7aa",
+              "verified_at": "2026-11-19T18:42:41.277287+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sadie sở hữu thiết kế tân cổ điển trong khi Rasad mang phong cách maxi-scooter thể thao.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong khi đó, Rasad là mẫu maxi-scooter chạy điện được thiết kế theo một phong cách hoàn toàn khác, phù hợp với những khách hàng đề cao sự mạnh mẽ, lịch lãm và hiện đại.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "snippet": "Trong khi đó, Rasad là mẫu maxi-scooter chạy điện được thiết kế theo một phong cách hoàn toàn khác, phù hợp với những khách hàng đề cao sự mạnh mẽ, lịch lãm và hiện đại.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "page_sha256": "1f081654f1ef033467a2181b04210a27387e8c34f9f9310581e0d9eb8d7dbc9c",
+              "snippet_sha256": "e025d305a12d9ab9bcd63b80a40ffe6c72bc6fffa6ba916c92c47db81ca28af5",
+              "verified_at": "2026-11-19T18:42:41.277287+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cả hai mẫu xe đều trang bị động cơ đặt giữa công suất danh định 3.500W, tối đa 7.500W, tốc độ tối đa 100 km/h và dùng 2 pin LFP cho quãng đường 160 km mỗi lần sạc.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Về tính năng vận hành, cả hai mẫu xe cao cấp mới của VinFast đều được trang bị động cơ đặt giữa (center motor) có công suất danh định 3.500W, công suất tối đa 7.500W, cho tốc độ tối đa 100 km/h, đáp ứng cả nhu cầu di chuyển trong đô thị lẫn những hành trình dài.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "snippet": "Về tính năng vận hành, cả hai mẫu xe cao cấp mới của VinFast đều được trang bị động cơ đặt giữa (center motor) có công suất danh định 3.500W, công suất tối đa 7.500W, cho tốc độ tối đa 100 km/h, đáp ứng cả nhu cầu di chuyển trong đô thị lẫn những hành trình dài.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "page_sha256": "1f081654f1ef033467a2181b04210a27387e8c34f9f9310581e0d9eb8d7dbc9c",
+              "snippet_sha256": "a2d7b95aca04d0c2253e77772a0cbd7185d1b412c38c0d328224fba59093ceee",
+              "verified_at": "2026-11-19T18:42:41.277287+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chính sách bảo hành gồm 6 năm cho xe và 8 năm cho pin không giới hạn số km, kèm ưu đãi giảm 8 triệu đồng đến hết ngày 19/12.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cả hai đều được bảo hành 6 năm cho xe, 8 năm cho pin không giới hạn số km, dự kiến sẽ có mặt tại hệ thống đại lý phân phối VinFast trên toàn quốc ngay trong tháng 11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "snippet": "Cả hai đều được bảo hành 6 năm cho xe, 8 năm cho pin không giới hạn số km, dự kiến sẽ có mặt tại hệ thống đại lý phân phối VinFast trên toàn quốc ngay trong tháng 11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "page_sha256": "1f081654f1ef033467a2181b04210a27387e8c34f9f9310581e0d9eb8d7dbc9c",
+              "snippet_sha256": "858ce05ed98b2eb14291cb9545acb77fc5250aace53e2268f52ec61986c4bf0c",
+              "verified_at": "2026-11-19T18:42:41.277287+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật chi tiết về cấu hình vận hành, trang bị công nghệ và chính sách giá của bộ đôi xe máy điện cao cấp mới. Nội dung làm rõ định hướng phân khúc cao cấp của hãng xe Việt Nam mà không sử dụng dữ liệu ngoài nguồn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T18:42:41.278274+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "160",
+        "2",
+        "2,3",
+        "3.500",
+        "59,9",
+        "6",
+        "7.500",
+        "78,9",
+        "8"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-19T18:43:37.192567+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 280,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1269,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-hai-mau-xe-may-dien-cao-cap-sadie-va-rasad-20261119203134166.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-20 01:43"
+    },
+    "published_at": "2026-11-19T18:43:37.192567+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tong-thong-azerbaijan-ilham-aliyev-bat-au-tham-chinh-thuc-viet-nam-e5cbd892",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-19T18:41:47.298567+00:00",
+    "expires_at": "2026-11-20T18:41:47.298567+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+      "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm"
+    ],
+    "article": {
+      "id": "tong-thong-azerbaijan-ilham-aliyev-bat-au-tham-chinh-thuc-viet-nam-e5cbd892",
+      "title": "Tổng thống Azerbaijan Ilham Aliyev bắt đầu thăm chính thức Việt Nam",
+      "summary": "Tổng thống Azerbaijan Ilham Aliyev và phu nhân đã đến Hà Nội, bắt đầu thăm chính thức Việt Nam từ ngày 19 đến 21/11 theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm và phu nhân.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+      "published_at": "2026-11-19T15:27:00+00:00",
+      "fetched_at": "2026-11-19T18:43:20.023182+00:00",
+      "appnho_published_at": "2026-11-19T18:43:37.192567+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 19/11, Tổng thống Azerbaijan Ilham Aliyev và phu nhân đã đến Hà Nội, bắt đầu thăm chính thức Việt Nam từ ngày 19 đến 21/11 theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm và phu nhân.",
+        "Đây là chuyến thăm chính thức Việt Nam lần thứ hai của Tổng thống Ilham Aliyev kể từ sau chuyến thăm lần đầu tiên vào năm 2014. Chuyến thăm góp phần đưa quan hệ Việt Nam - Azerbaijan bước sang giai đoạn phát triển mới, tương xứng với tầm vóc của khuôn khổ Đối tác chiến lược.",
+        "Việt Nam và Azerbaijan có mối quan hệ hữu nghị truyền thống lâu đời, được xây dựng và vun đắp qua nhiều thế hệ lãnh đạo và nhân dân hai nước. Trong suốt chặng đường phát triển, Azerbaijan luôn dành cho Việt Nam sự ủng hộ và tình cảm chân thành; Việt Nam cũng luôn coi trọng quan hệ hữu nghị và hợp tác với Azerbaijan."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Tổng thống Azerbaijan thăm Việt Nam: Tăng cường quan hệ song phương",
+      "meta_description": "Tổng thống Azerbaijan Ilham Aliyev và phu nhân đã đến Hà Nội, bắt đầu thăm chính thức Việt Nam từ ngày 19 đến 21/11.",
+      "keywords": [
+        "Tổng thống Azerbaijan",
+        "Ilham Aliyev",
+        "thăm Việt Nam",
+        "quan hệ song phương"
+      ],
+      "slug": "tong-thong-azerbaijan-ilham-aliyev-bat-au-tham-chinh-thuc-viet-nam-e5cbd892",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 164,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+        "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T15:27:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T15:26:57+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Azerbaijan Ilham Aliyev và phu nhân đã đến Hà Nội, bắt đầu thăm chính thức Việt Nam từ ngày 19 đến 21/11.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tổng thống Cộng hòa Azerbaijan Ilham Aliyev và Phu nhân sẽ thăm chính thức Việt Nam từ ngày 19 đến 21/11, theo thông cáo của Bộ Ngoại giao.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "snippet": "Tổng thống Cộng hòa Azerbaijan Ilham Aliyev và Phu nhân sẽ thăm chính thức Việt Nam từ ngày 19 đến 21/11, theo thông cáo của Bộ Ngoại giao.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "page_sha256": "bc5bbc34492fe54179ba935a91b6ee4f415314c16f07f27c40bed27eb97fd161",
+              "snippet_sha256": "51d42b9ca0d169923888401a89fe57d0e8ea81b0beef73eb403ba77c5cecee41",
+              "verified_at": "2026-11-19T18:43:20.022646+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đây là chuyến thăm chính thức Việt Nam lần thứ hai của Tổng thống Ilham Aliyev kể từ sau chuyến thăm lần đầu tiên vào năm 2014.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đây là chuyến thăm chính thức Việt Nam lần thứ hai của Tổng thống Ilham Aliyev kể từ sau chuyến thăm lần đầu tiên vào năm 2014.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "snippet": "Đây là chuyến thăm chính thức Việt Nam lần thứ hai của Tổng thống Ilham Aliyev kể từ sau chuyến thăm lần đầu tiên vào năm 2014.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "page_sha256": "bc5bbc34492fe54179ba935a91b6ee4f415314c16f07f27c40bed27eb97fd161",
+              "snippet_sha256": "d73771185ba687feb20e440bcd14a128b39fba9bcca260e823fa87f05314c2b9",
+              "verified_at": "2026-11-19T18:43:20.022646+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Việt Nam và Azerbaijan có mối quan hệ hữu nghị truyền thống lâu đời, được xây dựng và vun đắp qua nhiều thế hệ lãnh đạo và nhân dân hai nước.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+            "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Việt Nam và Azerbaijan có mối quan hệ hữu nghị truyền thống lâu đời, được xây dựng và vun đắp qua nhiều thế hệ lãnh đạo và nhân dân hai nước.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "snippet": "Việt Nam và Azerbaijan có mối quan hệ hữu nghị truyền thống lâu đời, được xây dựng và vun đắp qua nhiều thế hệ lãnh đạo và nhân dân hai nước.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            },
+            {
+              "source_url": "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+              "snippet": "Việt Nam và Azerbaijan có mối quan hệ hữu nghị truyền thống lâu đời, được xây dựng và vun đắp qua nhiều thế hệ lãnh đạo và nhân dân hai nước.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "page_sha256": "bc5bbc34492fe54179ba935a91b6ee4f415314c16f07f27c40bed27eb97fd161",
+              "snippet_sha256": "f9861c348ed995f1ef495a5569170903252bcc76c674f699fbd75b6ff194f4db",
+              "verified_at": "2026-11-19T18:43:20.022646+00:00",
+              "match_method": "exact_normalized_substring"
+            },
+            {
+              "source_url": "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+              "page_sha256": "28e384a1c6e5ce842d31640f64718afaf51c70597e889d8e9612f1e50a2f8048",
+              "snippet_sha256": "f9861c348ed995f1ef495a5569170903252bcc76c674f699fbd75b6ff194f4db",
+              "verified_at": "2026-11-19T18:43:20.022646+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin cập nhật về chuyến thăm chính thức Việt Nam của Tổng thống Azerbaijan Ilham Aliyev. Chúng tôi đã phân tích các thông tin từ nguồn tin cậy và cung cấp một cái nhìn tổng quan về quan hệ song phương giữa Việt Nam và Azerbaijan. Bài viết cũng nêu bật ý nghĩa của chuyến thăm trong việc tăng cường quan hệ hợp tác giữa hai nước.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T18:43:20.023245+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2014"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-19T18:43:37.192567+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 164,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 782,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/thoi-su/tong-thong-azerbaijan-va-phu-nhan-den-ha-noi-bat-dau-tham-chinh-thuc-viet-nam-20261119222521576.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://thanhnien.vn/tong-thong-azerbaijan-ilham-aliyev-bat-dau-tham-chinh-thuc-viet-nam-185261119220338906.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-20 01:43"
+    },
+    "published_at": "2026-11-19T18:43:37.192567+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "phi-bao-hiem-qua-eo-bien-hormuz-bi-ay-len-muc-cao-chua-tung-thay-trong-b-cb8ef1dd",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-19T18:41:47.298567+00:00",
+    "expires_at": "2026-11-20T18:41:47.298567+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+      "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
+    ],
+    "article": {
+      "id": "phi-bao-hiem-qua-eo-bien-hormuz-bi-ay-len-muc-cao-chua-tung-thay-trong-b-cb8ef1dd",
+      "title": "Phí bảo hiểm qua eo biển Hormuz bị đẩy lên mức cao chưa từng thấy trong bối cảnh xung đột",
+      "summary": "Phát biểu tại phiên điều trần, một quan chức Hải quân Mỹ cho biết chi phí bảo hiểm cho mỗi chuyến hải trình qua eo biển Hormuz đã lên tới 64 triệu USD, làm dấy lên tranh cãi về an toàn hàng hải và gánh nặng kinh tế từ cuộc xung đột Mỹ - Israel với Iran.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+      "published_at": "2026-11-18T14:47:34+00:00",
+      "fetched_at": "2026-11-19T18:43:34.676927+00:00",
+      "appnho_published_at": "2026-11-19T18:43:37.192567+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong một phiên điều trần của Ủy ban Quân vụ Thượng viện diễn ra vào thứ Ba, quyền Bộ trưởng Hải quân Mỹ Hung Cao tuyên bố chi phí bảo hiểm cho các tàu thương mại di chuyển qua eo biển Hormuz đã tăng vọt lên mức 64 triệu USD cho một chuyến hải trình duy nhất. Phát biểu này lập tức thu hút sự quan tâm lớn khi các nhà lập pháp đặt câu hỏi về gánh nặng tài chính của cuộc chiến và mức độ tự do hàng hải tại khu vực trọng yếu.",
+        "Tuy nhiên, con số do ông Hung Cao đưa ra chưa được kiểm chứng độc lập và nhận nhiều hoài nghi từ giới chuyên môn. Theo phân tích từ các đơn vị hàng hải, mức phí này cao hơn đáng kể so với các báo cáo trước đó. Cụ thể, các dữ liệu từ S&P Global và Reuters từng ghi nhận chi phí bảo hiểm rủi ro chiến tranh hoặc chi phí vận chuyển dầu qua khu vực này trong năm chỉ dao động từ khoảng 10 triệu đến 21 triệu USD tùy theo giá trị tàu và loại hàng hóa.",
+        "Eo biển Hormuz vốn là tuyến đường biển huyết mạch vận chuyển khoảng một phần năm nguồn cung dầu mỏ thế giới trước khi xung đột bùng nổ vào ngày 28 tháng Hai. Dù một số tàu thuyền vẫn tiếp tục quá cảnh, lưu lượng giao thông hàng hải tại đây hiện vẫn duy trì ở mức thấp hơn đáng kể so với thời điểm trước chiến tranh. Sự leo thang của chi phí bảo hiểm phản ánh rủi ro hiện hữu từ các mối đe dọa quân sự như tên lửa, máy bay không người lái hay thủy lôi.",
+        "Bên cạnh vấn đề chi phí hàng hải, phiên điều trần tại Thượng viện cũng chứng kiến những tranh cãi gay gắt giữa ông Hung Cao và các nghị sĩ đảng Dân chủ liên quan đến áp lực tinh thần đối với lực lượng hải quân Mỹ trong thời gian qua. Giới quan sát nhận định, những tranh cãi này cho thấy áp lực đa chiều từ chi phí kinh tế cho đến nguồn lực quân sự sau nhiều tháng xung đột kéo dài tại vùng Vịnh."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Chi phí bảo hiểm eo biển Hormuz đạt mức 64 triệu USD theo quan chức Mỹ",
+      "meta_description": "Quan chức Hải quân Mỹ nêu chi phí bảo hiểm quá cảnh eo biển Hormuz đạt 64 triệu USD, thu hút sự chú ý về rủi ro hàng hải trong chiến sự Mỹ-Israel và Iran.",
+      "keywords": [
+        "Hormuz",
+        "bảo hiểm hàng hải",
+        "Hải quân Mỹ",
+        "xung đột Iran",
+        "vận tải dầu mỏ"
+      ],
+      "slug": "phi-bao-hiem-qua-eo-bien-hormuz-bi-ay-len-muc-cao-chua-tung-thay-trong-b-cb8ef1dd",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 384,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+        "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T14:47:34+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:00:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Quyền Bộ trưởng Hải quân Mỹ Hung Cao phát biểu trong phiên điều trần rằng chi phí bảo hiểm quá cảnh eo biển Hormuz đạt 64 triệu USD cho một chuyến.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A senior United States Navy official has claimed that insurance costs for commercial ships crossing the Strait of Hormuz have soared to $64m for a single transit, highlighting the enormous economic toll of the US-Israeli war on Iran.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "snippet": "A senior United States Navy official has claimed that insurance costs for commercial ships crossing the Strait of Hormuz have soared to $64m for a single transit, highlighting the enormous economic toll of the US-Israeli war on Iran.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "page_sha256": "fc6ea91f6b8191de8f66c66b367f4599a83ba09f5877072a3fc8567f44d6dd4d",
+              "snippet_sha256": "0319468eb2b842938f2b322db7ae3d4072f0b669f08e73d72a71b05a8d268ecc",
+              "verified_at": "2026-11-19T18:43:34.676280+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mức phí 64 triệu USD chưa được kiểm chứng độc lập và cao hơn các báo cáo trước đó từ S&P Global hay Reuters với ước tính từ 10 triệu đến 21 triệu USD.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Separately, Reuters news agency reported in September that the cost of moving an oil cargo through Hormuz had risen to roughly $10m-$20m, quoting an executive at Dubai’s Emirates National Oil Company (ENOC).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "snippet": "Separately, Reuters news agency reported in September that the cost of moving an oil cargo through Hormuz had risen to roughly $10m-$20m, quoting an executive at Dubai’s Emirates National Oil Company (ENOC).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "page_sha256": "fc6ea91f6b8191de8f66c66b367f4599a83ba09f5877072a3fc8567f44d6dd4d",
+              "snippet_sha256": "a559f26ede382c6c7813ea78137fcb5b3cc4158aeb6d03dde18ccf17319afb19",
+              "verified_at": "2026-11-19T18:43:34.676280+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Eo biển Hormuz là tuyến đường vận chuyển khoảng một phần năm dầu mỏ thế giới trước chiến tranh, hiện lưu lượng giao thông vẫn ở mức thấp hơn nhiều so với trước đây.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Shipping traffic through the Strait of Hormuz remains approximately 65 percent below pre-war levels, according to the latest weekly report from the United Kingdom Maritime Trade Operations (UKMTO).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "snippet": "Shipping traffic through the Strait of Hormuz remains approximately 65 percent below pre-war levels, according to the latest weekly report from the United Kingdom Maritime Trade Operations (UKMTO).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "page_sha256": "fc6ea91f6b8191de8f66c66b367f4599a83ba09f5877072a3fc8567f44d6dd4d",
+              "snippet_sha256": "92ffe1632cdbd2ddd131ba5dba6780051e23e405ea173a07dd8e5d8205a805f1",
+              "verified_at": "2026-11-19T18:43:34.676280+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ mức độ tin cậy của con số 64 triệu USD phí bảo hiểm do quan chức Mỹ công bố thông qua việc đối chiếu với các dữ liệu từ S&P Global và Reuters. Đồng thời, bài viết đặt con số này vào bức tranh tổng thể về rủi ro hàng hải và lưu lượng giao thông thấp hơn thời kỳ tiền chiến tại eo biển Hormuz.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T18:43:34.677028+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "21",
+        "64"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-19T18:43:37.192567+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 384,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1717,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cnbc.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-20 01:43"
+    },
+    "published_at": "2026-11-19T18:43:37.192567+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
