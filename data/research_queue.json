@@ -3,7 +3,7 @@
     "queue_id": "4f1d89d8075ba9c1c405",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-19T17:43:39.592051+00:00",
-    "expires_at": "2026-11-22T17:41:29.929058+00:00",
+    "expires_at": "2026-11-22T17:44:15.447087+00:00",
     "category_hint": "sports",
     "lead_title": "Why Broncos are signing Riley Moss to a $67 million contract extension",
     "source_urls": [
@@ -565,11 +565,14 @@
       ]
     },
     "research_ready_at": "2026-11-19T17:43:39.592073+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This mod",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-19T21:44:15.447087+00:00"
   },
   {
     "queue_id": "0a5ba6df4125a48ffc52",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T17:43:37.604740+00:00",
     "expires_at": "2026-11-22T17:41:29.929058+00:00",
     "category_hint": "world",
@@ -1133,11 +1136,12 @@
       ]
     },
     "research_ready_at": "2026-11-19T17:43:37.604761+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anh-bon-nguoi-an-ong-bi-ket-toi-lam-dung-tinh-duc-phu-nu-bi-chong-anh-th-e5ad103d"
   },
   {
     "queue_id": "0521d98e3ffc0c41bbdd",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-19T17:43:37.160408+00:00",
     "expires_at": "2026-11-22T17:41:29.929058+00:00",
     "category_hint": "technology",
@@ -1701,7 +1705,8 @@
       ]
     },
     "research_ready_at": "2026-11-19T17:43:37.160429+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "apple-homepod-mini-2-nang-cap-phan-cung-nhung-thieu-ot-pha-ve-trai-nghie-9d2d2839"
   },
   {
     "queue_id": "2a06c671d6b29602bc49",
@@ -87761,5 +87766,396 @@
     },
     "published_at": "2026-11-16T19:54:16.038872+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "anh-bon-nguoi-an-ong-bi-ket-toi-lam-dung-tinh-duc-phu-nu-bi-chong-anh-th-e5ad103d",
+    "status": "READY",
+    "prepared_at": "2026-11-19T17:44:15.447087+00:00",
+    "expires_at": "2026-11-20T17:44:15.447087+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband"
+    ],
+    "article": {
+      "id": "anh-bon-nguoi-an-ong-bi-ket-toi-lam-dung-tinh-duc-phu-nu-bi-chong-anh-th-e5ad103d",
+      "title": "Anh: Bốn người đàn ông bị kết tội lạm dụng tình dục phụ nữ bị chồng đánh thuốc",
+      "summary": "Một tòa án tại Anh vừa tuyên án bốn người đàn ông phạm tội lạm dụng tình dục một phụ nữ sau khi người chồng đánh thuốc mê và đăng tin quảng cáo vợ mình trên mạng.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-19T17:27:47+00:00",
+      "fetched_at": "2026-11-19T17:48:51.238492+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại Tòa án Hoàng gia Winchester, bồi thẩm đoàn vừa đưa ra phán quyết kết tội bốn người đàn ông liên quan đến vụ lạm dụng tình dục một phụ nữ trong một vụ án chưa từng có tiền lệ tại Anh. Nạn nhân, bà Joanne Young, đã bị chính chồng mình là Philip Young đánh thuốc mê và bí mật đăng tin quảng cáo trên internet để mời những người đàn ông khác đến thực hiện hành vi tình dục mà bà không hề hay biết.",
+        "Philip Young, cựu ủy viên hội đồng địa phương, trước đó đã thừa nhận 56 tội danh, bao gồm cưỡng hiếp, quản trị chất kích thích với ý đồ xấu và quay lén vợ mình trong suốt 13 năm tại nhà riêng ở Swindon. Các bị cáo gồm Norman Macksoni, Richard Wilkins, Connor Sanderson-Doyle và Mohammed Hassan đã bị kết tội với nhiều tội danh về tình dục sau phiên tòa kéo dài ba tuần. Trong đó, Wilkins và Macksoni bị kết tội cưỡng hiếp.",
+        "Phát biểu sau phiên tòa, bà Joanne Young, người đã từ bỏ quyền ẩn danh, khẳng định vụ việc đã hủy hoại cuộc đời bà và nhấn mạnh tầm quan trọng của việc tin tưởng vào tiếng nói của nạn nhân. Công tố viên James Foster từ Cơ quan Công tố Hoàng gia (CPS) cho biết đây là lần đầu tiên một bồi thẩm đoàn tại Anh xem xét và kết tội trong một vụ án lạm dụng tình dục có tổ chức thông qua việc đánh thuốc mê do người chồng dàn dựng. Vụ việc này có những nét tương đồng với vụ án Gisèle Pelicot tại Pháp. Các bị cáo dự kiến sẽ nhận bản án vào ngày 21 và 22 tháng 12 tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Anh: Bốn người đàn ông bị kết tội lạm dụng tình dục phụ nữ bị chồng đá",
+      "meta_description": "Bốn người đàn ông tại Anh bị kết tội lạm dụng tình dục một phụ nữ sau khi chồng cô đánh thuốc mê và mời người lạ đến nhà trong suốt 13 năm.",
+      "keywords": [
+        "Anh",
+        "lạm dụng tình dục",
+        "tòa án",
+        "Joanne Young",
+        "Philip Young"
+      ],
+      "slug": "anh-bon-nguoi-an-ong-bi-ket-toi-lam-dung-tinh-duc-phu-nu-bi-chong-anh-th-e5ad103d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 298,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T17:27:47+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T16:08:06+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bốn người đàn ông bị kết tội lạm dụng tình dục một phụ nữ sau khi chồng cô đánh thuốc mê và quảng cáo cô trên mạng.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Wiltshire Police said it was still looking for another man wanted in connection with alleged sex offences against Joanne Young.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+              "snippet": "Wiltshire Police said it was still looking for another man wanted in connection with alleged sex offences against Joanne Young.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d334201947db7e345245390b0508fd80fb0bfe6a3f28665dcc643a1ab7bfaa9a",
+              "snippet_sha256": "87c9733f974419a86644c6a453e0d1ebb59d7aa0c380f9f62f323c8a7b618fd7",
+              "verified_at": "2026-11-19T17:48:51.237894+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Philip Young đã thừa nhận 56 tội danh bao gồm cưỡng hiếp, đánh thuốc mê và quay lén vợ trong 13 năm.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Philip Young - who served as a Conservative Swindon borough councillor between 2007 and 2010 - drugged and raped his wife over 13 years and invited the men via websites and apps such as Craigslist, Grindr and Fab Swingers to have sex with her without her knowledge.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+              "snippet": "Philip Young - who served as a Conservative Swindon borough councillor between 2007 and 2010 - drugged and raped his wife over 13 years and invited the men via websites and apps such as Craigslist, Grindr and Fab Swingers to have sex with her without her knowledge.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d334201947db7e345245390b0508fd80fb0bfe6a3f28665dcc643a1ab7bfaa9a",
+              "snippet_sha256": "8394f8cabe02f067eb843426aa9a9fa603bab9f92703e7ac9a85b81466175c1c",
+              "verified_at": "2026-11-19T17:48:51.237894+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các bị cáo sẽ bị tuyên án vào ngày 21 và 22 tháng 12.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The trial of the four defendants heard the investigation into Philip Young had begun after police were alerted to the fact he had uploaded extreme pornographic images to the internet in 2023.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+              "snippet": "The trial of the four defendants heard the investigation into Philip Young had begun after police were alerted to the fact he had uploaded extreme pornographic images to the internet in 2023.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "d334201947db7e345245390b0508fd80fb0bfe6a3f28665dcc643a1ab7bfaa9a",
+              "snippet_sha256": "40466b841c11afb94b2eaaa71b83860c4ec65b5b77043d259b6d995a15413268",
+              "verified_at": "2026-11-19T17:48:51.237894+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ tính chất đặc biệt của vụ án khi đây là lần đầu tiên tại Anh một bồi thẩm đoàn kết tội trong vụ lạm dụng tình dục có tổ chức do người chồng dàn dựng. Đồng thời, bài viết đặt vụ việc trong bối cảnh so sánh với vụ án Gisèle Pelicot tại Pháp để độc giả thấy rõ quy mô và tính chất nghiêm trọng của vấn đề.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T17:48:51.238572+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "13",
+        "56"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T17:48:51.239605+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 298,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1379
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "apple-homepod-mini-2-nang-cap-phan-cung-nhung-thieu-ot-pha-ve-trai-nghie-9d2d2839",
+    "status": "READY",
+    "prepared_at": "2026-11-19T17:44:15.447087+00:00",
+    "expires_at": "2026-11-20T17:44:15.447087+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+      "https://www.wired.com/review/apple-homeview-review"
+    ],
+    "article": {
+      "id": "apple-homepod-mini-2-nang-cap-phan-cung-nhung-thieu-ot-pha-ve-trai-nghie-9d2d2839",
+      "title": "Apple HomePod mini 2: Nâng cấp phần cứng nhưng thiếu đột phá về trải nghiệm",
+      "summary": "Apple vừa ra mắt HomePod mini 2 với chip S10 mạnh mẽ hơn, nhưng thiết bị vẫn gây hụt hẫng khi chưa hỗ trợ Siri AI và không có cải thiện đáng kể về chất lượng âm thanh.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+      "published_at": "2026-11-19T17:30:00+00:00",
+      "fetched_at": "2026-11-19T17:49:31.985322+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Apple vừa chính thức giới thiệu HomePod mini 2 với mức giá 149 USD. Dù được kỳ vọng là một bản nâng cấp toàn diện, thiết bị này hiện chỉ đóng vai trò hỗ trợ trong hệ sinh thái của Apple, đứng sau các sản phẩm mới như HomeView hay Apple TV 4K. Điểm nhấn đáng chú ý nhất nằm ở bên trong khi Apple đã thay thế chip S5 cũ kỹ bằng chip S10, tương tự như trên Apple Watch Series 10. Theo Apple, sự thay đổi này là cần thiết để chuẩn bị cho khả năng tương thích với Siri AI trong tương lai.",
+        "Bên cạnh sức mạnh xử lý, chip S10 còn hỗ trợ tính năng đánh giá âm nhạc thời gian thực để tối ưu hóa dải động và độ lớn âm thanh. Người dùng cũng có thể kết hợp bốn loa HomePod mini 2 với Apple TV 4K thế hệ thứ tư để tạo hệ thống âm thanh vòm. Một tính năng mới khác là Sound Glow, cho phép đèn trên bề mặt cảm ứng thay đổi màu sắc theo bìa album hoặc phản ứng với âm nhạc. Ngoài ra, khả năng kết nối với máy Mac đã được cải thiện, cho phép loa hoạt động như một thiết bị đầu ra mặc định ổn định thay vì chỉ qua AirPlay tạm thời.",
+        "Tuy nhiên, trải nghiệm thực tế cho thấy HomePod mini 2 vẫn tồn tại nhiều hạn chế. Chất lượng âm thanh không có sự khác biệt rõ rệt so với thế hệ tiền nhiệm, với dải bass thiếu chiều sâu. Quan trọng hơn, tính năng Siri AI vẫn chưa khả dụng và Apple chưa đưa ra thời điểm ra mắt cụ thể. Tốc độ phản hồi của trợ lý ảo hiện tại cũng không nhanh hơn so với phiên bản cũ, khiến người dùng cảm thấy đây là một bản cập nhật cần thiết về phần cứng nhưng chưa mang lại đột phá về trải nghiệm sử dụng."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Đánh giá Apple HomePod mini 2: Nâng cấp cần thiết nhưng chưa ấn tượng",
+      "meta_description": "Apple HomePod mini 2 sở hữu chip S10 mới và tính năng Sound Glow, nhưng thiếu vắng Siri AI và chất lượng âm thanh không đổi so với thế hệ trước.",
+      "keywords": [
+        "Apple",
+        "HomePod mini 2",
+        "S10 chip",
+        "Siri AI",
+        "công nghệ"
+      ],
+      "slug": "apple-homepod-mini-2-nang-cap-phan-cung-nhung-thieu-ot-pha-ve-trai-nghie-9d2d2839",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 336,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+        "https://www.wired.com/review/apple-homeview-review"
+      ],
+      "source_links": [
+        "https://www.wired.com/review/apple-homeview-review"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T17:30:00+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/review/apple-homeview-review",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T10:18:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "HomePod mini 2 được trang bị chip S10 thay thế cho chip S5 cũ.",
+          "source_urls": [
+            "https://www.engadget.com/2321939/apple-homepod-mini-2-review"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Apple swapped in its S10 chip from the Apple Watch Series 10, kicking the nearly antique S5 silicon to the curb.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+              "snippet": "Apple swapped in its S10 chip from the Apple Watch Series 10, kicking the nearly antique S5 silicon to the curb.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+              "page_sha256": "b6bfecfb884869ad94af7d9d4c9a1e9df006b26a4d364795574ee640fa06aa46",
+              "snippet_sha256": "4e077f19e049461486d854ac1ce93e69eb219dd7e47d5028e5968d40817b1e0e",
+              "verified_at": "2026-11-19T17:49:31.984871+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thiết bị hiện chưa hỗ trợ Siri AI và chưa có thời điểm ra mắt cụ thể cho tính năng này.",
+          "source_urls": [
+            "https://www.engadget.com/2321939/apple-homepod-mini-2-review"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The biggest issue with the HomePod mini 2 right now is its biggest omission: Siri AI.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+              "snippet": "The biggest issue with the HomePod mini 2 right now is its biggest omission: Siri AI.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+              "page_sha256": "b6bfecfb884869ad94af7d9d4c9a1e9df006b26a4d364795574ee640fa06aa46",
+              "snippet_sha256": "eede70b62d67bfae66572de52c105e0955bb34d99325f752f6a632afb42f734a",
+              "verified_at": "2026-11-19T17:49:31.984871+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HomePod mini 2 có giá bán 149 USD và bổ sung tính năng Sound Glow.",
+          "source_urls": [
+            "https://www.engadget.com/2321939/apple-homepod-mini-2-review"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Still, the company providesa few upgradesin theHomePod mini 2 ($149), ensuring that it's ready for Siri AI and the assistant's newfound ability to offer personalized context for your queries.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+              "snippet": "Still, the company providesa few upgradesin theHomePod mini 2 ($149), ensuring that it's ready for Siri AI and the assistant's newfound ability to offer personalized context for your queries.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2321939/apple-homepod-mini-2-review",
+              "page_sha256": "b6bfecfb884869ad94af7d9d4c9a1e9df006b26a4d364795574ee640fa06aa46",
+              "snippet_sha256": "a5f371bccad23f65265ea2b06c7077e89cd4641b84da21323537e6b87959a3f7",
+              "verified_at": "2026-11-19T17:49:31.984871+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự chênh lệch giữa kỳ vọng về một bản nâng cấp 'thế hệ 2' và thực tế trải nghiệm người dùng. Đồng thời, phân tích giới hạn của thiết bị khi thiếu vắng Siri AI dù đã được trang bị chip xử lý mới.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-19T17:49:31.985399+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "149",
+        "2",
+        "4",
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-19T17:49:31.986277+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 336,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1502
+        },
+        "independent_domains": [
+          "engadget.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
