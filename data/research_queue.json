@@ -2482,7 +2482,7 @@
   },
   {
     "queue_id": "dc1e63533d2d71d86fdc",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T02:39:45.264520+00:00",
     "expires_at": "2026-11-23T02:38:17.995065+00:00",
     "category_hint": "world",
@@ -3960,11 +3960,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T02:39:45.264540+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8"
   },
   {
     "queue_id": "3adccc47cb13f651522b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T02:39:41.583793+00:00",
     "expires_at": "2026-11-23T02:38:17.995065+00:00",
     "category_hint": "sports",
@@ -4593,11 +4594,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T02:39:41.583813+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce"
   },
   {
     "queue_id": "e8638bcdfaddcbe514be",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T02:39:41.121502+00:00",
     "expires_at": "2026-11-23T02:38:17.995065+00:00",
     "category_hint": "sports",
@@ -5248,7 +5250,8 @@
       ]
     },
     "research_ready_at": "2026-11-20T02:39:41.121519+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af"
   },
   {
     "queue_id": "anh-bon-nguoi-an-ong-bi-ket-toi-lam-dung-tinh-duc-phu-nu-bi-chong-anh-th-e5ad103d",
@@ -5645,7 +5648,7 @@
     "queue_id": "4f1d89d8075ba9c1c405",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-19T17:43:39.592051+00:00",
-    "expires_at": "2026-11-22T17:44:15.447087+00:00",
+    "expires_at": "2026-11-23T03:43:25.487026+00:00",
     "category_hint": "sports",
     "lead_title": "Why Broncos are signing Riley Moss to a $67 million contract extension",
     "source_urls": [
@@ -6208,9 +6211,9 @@
     },
     "research_ready_at": "2026-11-19T17:43:39.592073+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This mod",
-    "write_attempts": 1,
-    "next_write_after": "2026-11-19T21:44:15.447087+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_led",
+    "write_attempts": 2,
+    "next_write_after": "2026-11-20T11:43:25.487026+00:00"
   },
   {
     "queue_id": "0a5ba6df4125a48ffc52",
@@ -87294,7 +87297,7 @@
   },
   {
     "queue_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-20T02:40:28.440837+00:00",
     "expires_at": "2026-11-21T02:40:28.440837+00:00",
     "source_urls": [
@@ -87311,7 +87314,7 @@
       "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
       "published_at": "2026-11-20T02:07:00+00:00",
       "fetched_at": "2026-11-20T02:40:33.642365+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-20T03:47:06.942194+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -87492,28 +87495,38 @@
         "7"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-20T02:40:33.644158+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-20T03:47:06.942194+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 324,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1471
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn",
-          "tuoitre.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1471,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-20 10:47"
+    },
+    "published_at": "2026-11-20T03:47:06.942194+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "gta-6-lap-ky-luc-doanh-thu-vuot-2-ty-usd-ngay-sau-khi-phat-hanh-eb7e6e8f",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-20T02:40:28.440837+00:00",
     "expires_at": "2026-11-21T02:40:28.440837+00:00",
     "source_urls": [
@@ -87733,11 +87746,44 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-20T03:47:06.942194+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-20T03:47:06.942194+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 267,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1227,
+        "source_access": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-20T02:40:28.440837+00:00",
     "expires_at": "2026-11-21T02:40:28.440837+00:00",
     "source_urls": [
@@ -87753,7 +87799,7 @@
       "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
       "published_at": "2026-11-20T02:15:00+00:00",
       "fetched_at": "2026-11-20T02:40:45.022807+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-20T03:47:06.942194+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -87911,23 +87957,768 @@
         "7"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-20T02:40:45.024102+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-20T03:47:06.942194+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 283,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1278
+          "body_chars": 1278,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "publication_slot": "2026-11-20 10:47"
+    },
+    "published_at": "2026-11-20T03:47:06.942194+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-20T03:43:25.487026+00:00",
+    "expires_at": "2026-11-21T03:43:25.487026+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+      "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump"
+    ],
+    "article": {
+      "id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+      "title": "Cục diện ngoại giao toàn cầu dịch chuyển sau cuộc gặp thượng đỉnh tại Trung Quốc",
+      "summary": "Tổng thống Mỹ, Nga và Trung Quốc đã có cuộc gặp tại hội nghị thượng đỉnh APEC ở Trung Quốc, trong bối cảnh các nhà lãnh đạo châu Âu thảo luận về an ninh và quan hệ khu vực.",
+      "category": "world",
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+      "published_at": "2026-11-19T14:15:39+00:00",
+      "fetched_at": "2026-11-20T03:43:32.733559+00:00",
+      "appnho_published_at": "2026-11-20T03:47:06.942194+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong tuần này, các nhà lãnh đạo thế giới đang có những bước đi ngoại giao đáng chú ý, nổi bật là cuộc gặp giữa Tổng thống Mỹ Donald Trump, Tổng thống Nga Vladimir Putin và Chủ tịch Trung Quốc Tập Cận Bình tại hội nghị thượng đỉnh APEC ở Trung Quốc. Sự kiện này đặt ra câu hỏi lớn cho dư luận quốc tế về việc liệu đây có phải là sự khởi đầu cho một sự dịch chuyển quyền lực toàn cầu lớn hay chỉ là một cơ hội chụp ảnh mang tính hình thức.",
+        "Tổng thống Nga Vladimir Putin sau đó đã mô tả cuộc gặp gỡ ba bên này là một cuộc trao đổi hoàn toàn cởi mở và thẳng thắn. Theo nhà lãnh đạo Nga, các bên đã thảo luận về hàng loạt vấn đề an ninh quốc tế quan trọng, bao gồm cuộc chiến tại Ukraine, các rủi ro hạt nhân, an ninh hàng hải cũng như vai trò của các thể chế quốc tế. Ông Putin cũng bày tỏ kỳ vọng cuộc đối thoại này sẽ mở đường cho các cuộc thảo luận sâu hơn và tiềm năng đi đến các thỏa thuận trong tương lai.",
+        "Song song với diễn biến tại APEC, giới chức phương Tây cũng có những hoạt động ngoại giao dồn dập. Đơn cử, nhân vật Andy Burnham có lịch trình gặp gỡ các nhà lãnh đạo phương Tây tại Berlin và Brussels nhằm thảo luận về vấn đề Ukraine và việc thúc đẩy quan hệ gắn kết hơn với Liên minh Châu Âu. Những động thái này phản ánh nỗ lực của châu Âu trong việc định hình lại lập trường và phản ứng trước các bước đi chiến lược của các cường quốc lớn trên trường quốc tế."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cục diện ngoại giao toàn cầu dịch chuyển sau hội nghị APEC",
+      "meta_description": "Cuộc gặp giữa lãnh đạo Mỹ, Nga và Trung Quốc tại APEC diễn ra trong bối cảnh các nhà lãnh đạo châu Âu nhóm họp tại Berlin và Brussels.",
+      "keywords": [
+        "APEC",
+        "châu Âu",
+        "Nga",
+        "Mỹ",
+        "Trung Quốc"
+      ],
+      "slug": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 301,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+        "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T17:23:36+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T14:15:39+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Andy Burnham gặp các nhà lãnh đạo phương Tây ở Berlin và Brussels để bàn về Ukraine và quan hệ với EU.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Andy Burnham is meeting western leaders in Berlin and Brussels this week, to discuss Ukraine and closer ties to the EU.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+              "snippet": "Andy Burnham is meeting western leaders in Berlin and Brussels this week, to discuss Ukraine and closer ties to the EU.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+              "page_sha256": "7f0568ab3da8216b6eb05eb639de364c6617dc51af2439cfad0e3ac421843814",
+              "snippet_sha256": "8e0a4923ef6f6e6e0b7959b296712f4b7c4c5270d32f6b98cd2f5cd85adef9d4",
+              "verified_at": "2026-11-20T03:43:32.733200+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Donald Trump, Vladimir Putin và Xi Jinping đã gặp nhau tại hội nghị thượng đỉnh APEC ở Trung Quốc.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Meanwhile, Donald Trump, Vladimir Putin and Xi Jinping have met at the Apec summit in China.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+              "snippet": "Meanwhile, Donald Trump, Vladimir Putin and Xi Jinping have met at the Apec summit in China.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+              "page_sha256": "7f0568ab3da8216b6eb05eb639de364c6617dc51af2439cfad0e3ac421843814",
+              "snippet_sha256": "0a2858a8775ba486a65e7aacb66a593f743cca23a1c3a4d374403920ed081de8",
+              "verified_at": "2026-11-20T03:43:32.733200+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vladimir Putin mô tả cuộc gặp là trao đổi cởi mở, thảo luận về chiến sự Ukraine, rủi ro hạt nhân và an ninh hàng hải.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Europe Tonight: Trump, Putin and Xi hold talks as Ukraine allies meet in Berlin",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+              "snippet": "Europe Tonight: Trump, Putin and Xi hold talks as Ukraine allies meet in Berlin",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+              "page_sha256": "e6a17bb3e82805e440666e15f93db8a59b465038352cb972dd1fe4710d278565",
+              "snippet_sha256": "eeb6bfffea6dcb8537617c0dcaf635860115af7458e159f8c004d25b045841cf",
+              "verified_at": "2026-11-20T03:43:32.733200+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết đặt song song hai sự kiện ngoại giao lớn diễn ra cùng thời điểm là hội nghị APEC và các cuộc họp tại Berlin-Brussels. Qua đó, tác phẩm làm rõ mối quan tâm của châu Âu trước các bước đi của các cường quốc lớn và phân tích giới hạn của các thỏa thuận ngoại giao.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T03:43:32.733637+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-20T03:47:06.942194+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 301,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1369,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "euronews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-20 10:47"
+    },
+    "published_at": "2026-11-20T03:47:06.942194+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-20T03:43:25.487026+00:00",
+    "expires_at": "2026-11-21T03:43:25.487026+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+      "https://www.sportingnews.com/us/nfl/baltimore-ravens/news/ravens-punish-marlon-humphrey-derogatory-baltimore-comment/d8a2dbf2d8083e65c3f3edd5",
+      "https://www.theguardian.com/sport/2026/nov/19/marlon-humphrey-criminals-comment-baltimore-ravens"
+    ],
+    "article": {
+      "id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "title": "Baltimore Ravens kỷ luật Marlon Humphrey vì phát ngôn gây tranh cãi về thành phố",
+      "summary": "Hậu vệ kỳ cúp Marlon Humphrey của Baltimore Ravens bị đội bóng gửi về nhà và loại khỏi danh sách thi đấu trận gặp Carolina Panthers sau bình luận xúc phạm thành phố Baltimore trên podcast cá nhân.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+      "published_at": "2026-11-20T01:00:15+00:00",
+      "fetched_at": "2026-11-20T03:43:39.118448+00:00",
+      "appnho_published_at": "2026-11-20T03:47:06.942194+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hậu vệ cánh Marlon Humphrey của đội bóng bầu dục Baltimore Ravens phải đối mặt với án kỷ luật nghiêm khắc từ ban huấn luyện sau khi đưa ra những bình luận mang tính miệt thị nhắm vào thành phố Baltimore. Sự việc diễn ra trong bối cảnh đội bóng chuẩn bị bước vào trận đấu tuần 11 gặp đối thủ Carolina Panthers.",
+        "Trong một tập phát sóng của chương trình podcast cá nhân được công bố vào giữa tuần, Humphrey đã có phát ngôn gây phẫn nộ khi được hỏi về đặc sản của thành phố này. Sau khi kể tên một số biểu tượng quen thuộc, cầu thủ 30 tuổi đã đưa ra câu nói đùa rằng thành phố giỏi nhất trong việc tạo ra tội phạm. Phát ngôn này nhanh chóng lan truyền trên mạng xã hội và vấp phải làn sóng chỉ trích dữ dội từ phía người hâm mộ.",
+        "Ngay sau khi sự việc bùng phát, huấn luyện viên trưởng Jesse Minter đã thông báo quyết định kỷ luật đối với cầu thủ kỳ cựu này. Theo đó, Humphrey bị yêu cầu rời khỏi đại bản doanh của đội bóng, không tham gia tập luyện trong phần còn lại của tuần và chính thức bị gạch tên khỏi đội hình thi đấu trong trận gặp Panthers sắp tới.",
+        "Dù Humphrey đã lên tiếng xin lỗi công khai vào chiều cùng ngày và thừa nhận bản thân hiểu rõ sức nặng của lời nói, ban lãnh đạo Ravens vẫn giữ nguyên hình phạt. Huấn luyện viên Minter nhấn mạnh rằng hành động phát ngôn của cầu thủ này hoàn toàn đi ngược lại các giá trị và tiêu chuẩn mà tổ chức hướng tới, đồng thời khẳng định đội bóng cần đưa ra biện pháp răn đe thích hợp.",
+        "Bên cạnh án phạt từ câu lạc bộ, phát ngôn của Humphrey cũng vấp phải phản ứng mạnh mẽ từ chính quyền địa phương. Thị trưởng Baltimore Brandon Scott ra tuyên bố cho rằng lời xin lỗi bằng lời nói là chưa đủ, đồng thời bày tỏ sự thất vọng khi một gương mặt đại diện cho đội bóng lại có phát ngôn làm tổn thương hình ảnh cộng đồng và thế hệ trẻ tại địa phương."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Baltimore Ravens phạt Marlon Humphrey vì phát ngôn về thành phố",
+      "meta_description": "Cầu thủ Marlon Humphrey bị Baltimore Ravens kỷ luật, vắng mặt trận đấu tuần 11 sau câu nói đùa gây tranh cãi về thành phố Baltimore trên podcast.",
+      "keywords": [
+        "Marlon Humphrey",
+        "Baltimore Ravens",
+        "NFL",
+        "Jesse Minter",
+        "Brandon Scott"
+      ],
+      "slug": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 380,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+        "https://www.sportingnews.com/us/nfl/baltimore-ravens/news/ravens-punish-marlon-humphrey-derogatory-baltimore-comment/d8a2dbf2d8083e65c3f3edd5",
+        "https://www.theguardian.com/sport/2026/nov/19/marlon-humphrey-criminals-comment-baltimore-ravens"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/nfl/baltimore-ravens/news/ravens-punish-marlon-humphrey-derogatory-baltimore-comment/d8a2dbf2d8083e65c3f3edd5",
+        "https://www.theguardian.com/sport/2026/nov/19/marlon-humphrey-criminals-comment-baltimore-ravens"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T01:00:15+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/baltimore-ravens/news/ravens-punish-marlon-humphrey-derogatory-baltimore-comment/d8a2dbf2d8083e65c3f3edd5",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T17:02:33+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/19/marlon-humphrey-criminals-comment-baltimore-ravens",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T13:07:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hậu vệ cánh Marlon Humphrey bị Baltimore Ravens gửi về nhà và sẽ vắng mặt trong trận đấu gặp Carolina Panthers sau phát ngôn gây tranh cãi trên podcast.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive"
+          ],
+          "importance": "core",
+          "evidence_snippet": "--Baltimore RavenscornerbackMarlon Humphreywas sent home from the team facility and will be inactive for Sunday's game against theCarolina Panthersfollowing a recent derogatory comment he made about the city of Baltimore on his podcast, coach Jesse Minter announced Thursday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "snippet": "--Baltimore RavenscornerbackMarlon Humphreywas sent home from the team facility and will be inactive for Sunday's game against theCarolina Panthersfollowing a recent derogatory comment he made about the city of Baltimore on his podcast, coach Jesse Minter announced Thursday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "page_sha256": "b60e121b3fa90d2492970815419d619ccc03bc8b9df5d8a325da9269bd58d21c",
+              "snippet_sha256": "128d95f136685f9b52134df4c2521d8cfc4347bfc6041d276365e62c50f08f73",
+              "verified_at": "2026-11-20T03:43:39.117826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Huấn luyện viên Jesse Minter thông báo án phạt áp dụng cho một trận đấu và Humphrey không tham gia tập luyện phần còn lại của tuần.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Minter spoke with the 10-player leadership council to inform them of his decision to send Humphrey home.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "snippet": "Minter spoke with the 10-player leadership council to inform them of his decision to send Humphrey home.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "page_sha256": "b60e121b3fa90d2492970815419d619ccc03bc8b9df5d8a325da9269bd58d21c",
+              "snippet_sha256": "8a4c2acefae967a4d65b82d81f85dc9ec545ccae1aba9efc81d01c1f140f1283",
+              "verified_at": "2026-11-20T03:43:39.117826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Marlon Humphrey đã gửi lời xin lỗi công khai vì phát ngôn của mình trên podcast cá nhân.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The podcast episode featuring Humphrey's \"criminals\" comment has since been deleted from his YouTube page.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "snippet": "The podcast episode featuring Humphrey's \"criminals\" comment has since been deleted from his YouTube page.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "page_sha256": "b60e121b3fa90d2492970815419d619ccc03bc8b9df5d8a325da9269bd58d21c",
+              "snippet_sha256": "7d7f325e322be30a7126c9c3b6808c457b6c1343d141612818f00c60b79b44ac",
+              "verified_at": "2026-11-20T03:43:39.117826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thị trưởng Baltimore Brandon Scott ra tuyên bố chỉ trích phát ngôn này và cho rằng lời xin lỗi bằng lời là chưa đủ.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Baltimore Mayor Brandon Scott acknowledged Humphrey's apology in a statement posted to social media, but noted, \"a verbal apology is not enough.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "snippet": "Baltimore Mayor Brandon Scott acknowledged Humphrey's apology in a statement posted to social media, but noted, \"a verbal apology is not enough.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "page_sha256": "b60e121b3fa90d2492970815419d619ccc03bc8b9df5d8a325da9269bd58d21c",
+              "snippet_sha256": "12ec483199907508d46de2dbffa0ed57899bab6c3d9f6ea4c7ace5465283ef34",
+              "verified_at": "2026-11-20T03:43:39.117826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quyết định kỷ luật nội bộ của ban huấn luyện Baltimore Ravens đối với cầu thủ Marlon Humphrey. Đồng thời, bài phản ánh phản ứng từ phía chính quyền thành phố và góc nhìn tổ chức về giới hạn ứng xử của vận động viên.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T03:43:39.118527+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "30"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-20T03:47:06.942194+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 380,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1780,
+          "source_access": [
+            {
+              "url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "espn.com",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-20 10:47"
+    },
+    "published_at": "2026-11-20T03:47:06.942194+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af",
+    "status": "HOLD",
+    "prepared_at": "2026-11-20T03:43:25.487026+00:00",
+    "expires_at": "2026-11-21T03:43:25.487026+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+      "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+      "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af",
+      "title": "Cộng đồng Cincinnati tiếc thương hà mã nổi tiếng Fiona qua đời",
+      "summary": "Hà mã Fiona, biểu tượng nổi tiếng của Sở thú Cincinnati, đã qua đời do biến chứng sau khi nuốt phải một chiếc mũ len bị rơi vào chuồng, để lại niềm tiếc thương sâu sắc cho cộng đồng và các đội thể thao thành phố.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+      "published_at": "2026-11-19T17:12:57+00:00",
+      "fetched_at": "2026-11-20T03:43:45.334520+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hà mã Fiona, một trong những động vật sở thú nổi tiếng nhất tại Mỹ, đã qua đời ở tuổi lên 9 sau khi nuốt phải một chiếc mũ len nhỏ rơi vào khu vực chuồng nuôi. Sự việc hy hữu xảy ra khi một khách tham quan tung chiếc mũ lên không trung, vô tình vướng vào quạt trần và bị hất qua khe hở nhỏ phía trên khu vực kính quan sát.",
+        "Ban đầu, Fiona không có biểu hiện bất thường. Tuy nhiên, vài ngày sau, cô hà mã bắt đầu kém ăn. Đội ngũ thú y và nhân viên sở thú tại Cincinnati đã nỗ lực hết sức trong suốt nhiều ngày để cứu chữa. Do phẫu thuật được đánh giá là quá rủi ro đối với cá thể hà mã trưởng thành nặng khoảng 1.113kg, các bác sĩ đã thử nghiệm nhiều phương pháp thay thế như siêu âm, nội soi đại tràng bằng ống soi dài gần 3 mét, và sử dụng tấm rung mượn từ trang trại ngựa để kích thích hệ tiêu hóa.",
+        "Dù đội ngũ chăm sóc đã thực hiện các biện pháp hỗ trợ tích cực, bao gồm cả việc cho Fiona sedated để kiểm tra ruột, tình trạng tắc nghẽn quá mức chịu đựng của cơ thể. Giám đốc Sở thú Cincinnati, ông Dave Jenike, cho biết đội ngũ y tế đã làm mọi thứ có thể nhưng cơ thể Fiona không thể vượt qua sự cố y tế này.",
+        "Sự ra đi của Fiona để lại niềm tiếc thương lớn cho người dân thành phố và cộng đồng mạng toàn cầu. Kể từ khi chào đời non tháng vào năm 2017 và sống sót nhờ sự chăm sóc tận tình suốt ngày đêm, Fiona đã trở thành biểu tượng của sự kiên cường và niềm vui tại Cincinnati. Ngay sau khi tin buồn được công bố, các đội bóng thể thao lớn trong thành phố như Cincinnati Bengals và Cincinnati Reds cùng nhiều tổ chức đã đồng loạt đăng tải thông điệp tri ân, tưởng nhớ biểu tượng được yêu mến của địa phương."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hà mã Fiona qua đời tại Sở thú Cincinnati do nuốt mũ len",
+      "meta_description": "Tìm hiểu về sự ra đi đáng tiếc của hà mã Fiona tại Sở thú Cincinnati và những nỗ lực cứu chữa không thành công của đội ngũ y tế.",
+      "keywords": [
+        "Fiona the hippo",
+        "Cincinnati Zoo",
+        "hà mã Fiona",
+        "Sở thú Cincinnati",
+        "tin thế giới"
+      ],
+      "slug": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 355,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+        "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+        "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+        "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T01:00:15+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T17:12:57+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T23:40:29+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hà mã Fiona đã qua đời do biến chứng y tế sau khi nuốt một chiếc mũ len rơi vào chuồng tại Sở thú Cincinnati.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The hat fell near Fiona when a visitor to the Cincinnati zoo tossed it in the air, after which it bounced off a ceiling fan and fell into the enclosure,according to the Associated Press.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+              "snippet": "The hat fell near Fiona when a visitor to the Cincinnati zoo tossed it in the air, after which it bounced off a ceiling fan and fell into the enclosure,according to the Associated Press.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+              "page_sha256": "e86668f27185c0cdfd147ceaec88bde7a8eaca82fd6aff949fedc80235ac15de",
+              "snippet_sha256": "0b49df579ce5192297c41099cd166b3e472a165ff9341cc8764caffb62b5d9ca",
+              "verified_at": "2026-11-20T03:43:45.334006+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chiếc mũ len lọt vào chuồng do một du khách tung lên không trung và bị quạt trần hất qua khe hở nhỏ.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Fiona remained out of her enclosure while she was receiving treatment.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+              "snippet": "Fiona remained out of her enclosure while she was receiving treatment.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+              "page_sha256": "e86668f27185c0cdfd147ceaec88bde7a8eaca82fd6aff949fedc80235ac15de",
+              "snippet_sha256": "fa4eaf4757a7bda705f973e295c8480007cc2e8f88326556f854437b5f5f315a",
+              "verified_at": "2026-11-20T03:43:45.334006+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội ngũ thú y đã thử nhiều biện pháp hỗ trợ như nội soi, siêu âm, tăng lượng thức ăn và dùng tấm rung để giúp tống dị vật ra ngoài nhưng phẫu thuật không khả thi.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“The hope is that the vibrations will help encourage movement through her digestive tract and help the object pass,” thezoo had said on social media.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+              "snippet": "“The hope is that the vibrations will help encourage movement through her digestive tract and help the object pass,” thezoo had said on social media.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+              "page_sha256": "e86668f27185c0cdfd147ceaec88bde7a8eaca82fd6aff949fedc80235ac15de",
+              "snippet_sha256": "be10453e60f2269f281a4ab4690a6ee7e8c9566641814a91864dcb3c50bdb5dc",
+              "verified_at": "2026-11-20T03:43:45.334006+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các đội thể thao chuyên nghiệp tại Cincinnati như Bengals và Reds đã gửi lời tri ân và tưởng nhớ Fiona sau khi có thông tin về cái chết của cô.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Our look at a five-franchise raceMiami Dolphins2dNFL Nation, +2 MoreBehold the Beer Spear: Commanders unveil limited-edition vessel tied to new alternatesWashington Commanders2hESPN staffBengals, Reds pay tribute to Fiona the hippo after her deathCincinnati Bengals3hESPNBengals offense will be biggest test yet for Commanders' improving defenseWashington Commanders6hJohn KeimFacing backup QBs or not, the Bills are rolling54mNick SussFalcons seek change, but keep ending up in the same spot52mMarc RaimondiMonroe Freeling, Lee Hunter top Panthers' rookie report at Week 1151mMike KayeInside Travis Kelce's love affair with Arrowhead Stadium53mNate TaylorWhy Packers can't protect Jordan Love or rush successfully53mRob DemovskyThe Playbook: Shadow Reports, lineup locks and projected scores for Week 1112hMike Clay15 pass catchers you can trust (or not): Should you believe in Diggs, Tyson, Downs?1",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+              "snippet": "Our look at a five-franchise raceMiami Dolphins2dNFL Nation, +2 MoreBehold the Beer Spear: Commanders unveil limited-edition vessel tied to new alternatesWashington Commanders2hESPN staffBengals, Reds pay tribute to Fiona the hippo after her deathCincinnati Bengals3hESPNBengals offense will be biggest test yet for Commanders' improving defenseWashington Commanders6hJohn KeimFacing backup QBs or not, the Bills are rolling54mNick SussFalcons seek change, but keep ending up in the same spot52mMarc RaimondiMonroe Freeling, Lee Hunter top Panthers' rookie report at Week 1151mMike KayeInside Travis Kelce's love affair with Arrowhead Stadium53mNate TaylorWhy Packers can't protect Jordan Love or rush successfully53mRob DemovskyThe Playbook: Shadow Reports, lineup locks and projected scores for Week 1112hMike Clay15 pass catchers you can trust (or not): Should you believe in Diggs, Tyson, Downs?1",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+              "page_sha256": "29aa04e5263807806db610c3a01f3575f5ad07fa4119798c1fe50ba3bb461d22",
+              "snippet_sha256": "7e89f84fedc9539311263442875cdd65ac58ca9724aa20816c3211e952cf8100",
+              "verified_at": "2026-11-20T03:43:45.334006+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chuỗi diễn biến y tế chi tiết từ lúc hà mã Fiona nuốt dị vật cho đến các biện pháp can thiệp bất thành của sở thú. Đồng thời, bài phân tích bối cảnh biểu tượng văn hóa của Fiona tại Cincinnati và phản ứng của cộng đồng thể thao địa phương.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T03:43:45.334600+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.113",
+        "2017",
+        "3",
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T03:43:45.335555+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 355,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1605
         },
         "independent_domains": [
-          "dantri.com.vn",
-          "tuoitre.vn"
+          "bbc.com",
+          "espn.com",
+          "theguardian.com"
         ],
         "primary_source_present": false
       },
-      "origin": "auto",
-      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0"
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[4] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-20T03:47:06.942194+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-20T03:47:06.942194+00:00",
+      "errors": [
+        "fact_ledger[4] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 355,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1605,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50534625/cincinnati-bengals-reds-fiona-hippo",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "espn.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]

@@ -897,5 +897,25 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-20 10:47",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-20T03:47:06.942194+00:00",
+    "prepared_candidates": 8,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af",
+        "status": "HOLD",
+        "reason": "fact_ledger[4] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "gta-6-lap-ky-luc-doanh-thu-vuot-2-ty-usd-ngay-sau-khi-phat-hanh-eb7e6e8f",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

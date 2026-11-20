@@ -529,7 +529,8 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-20T02:39:20.423416+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af"
     },
     "https://www.espn.com/nfl/story/_/id/50532679/cowboys-christian-parker-dc-job-do": {
       "id": "b47c436650d705aee8f1",
@@ -556,7 +557,9 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-20T02:39:20.423405+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://www.espn.com/nfl/story/_/id/50535411/bears-jeffery-simmons-says-knee-fine-expects-play-vs-saints": {
       "id": "464da2df098faab5c593",
@@ -2456,7 +2459,8 @@
       "source_name": "BBC News - World",
       "category": "world",
       "first_seen_at": "2026-11-20T02:39:20.422716+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af"
     },
     "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss": {
       "id": "a178720431e75cf71a99",
@@ -2699,8 +2703,9 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-20T02:39:20.422624+00:00",
-      "status": "ready_for_publish",
-      "article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3"
+      "status": "published",
+      "article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://dantri.com.vn/the-gioi/tong-thong-putin-neu-huong-cham-dut-xung-dot-ukraine-20261120060708758.htm": {
       "id": "d414c9d6b15b8e1d43e7",
@@ -3798,8 +3803,9 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-20T02:39:20.422206+00:00",
-      "status": "ready_for_publish",
-      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95"
+      "status": "published",
+      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm": {
       "id": "d4b160abda0127e6bafb",
@@ -3808,8 +3814,9 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-20T02:39:20.422195+00:00",
-      "status": "ready_for_publish",
-      "article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3"
+      "status": "published",
+      "article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://tuoitre.vn/dong-thai-la-tren-air-force-one-cua-ong-trump-khi-roi-tham-quyen-100261119223606431.htm": {
       "id": "fda2767bf7b41e44c15b",
@@ -4280,7 +4287,9 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-11-19T17:42:48.591405+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://www.sportingnews.com/us/nfl/denver-broncos/news/why-broncos-signing-riley-moss-67-million-contract-extension/59fbe66e7bea89417de79862": {
       "id": "b8dec664a6af5e747a40",
@@ -4478,7 +4487,9 @@
       "source_name": "The Guardian - Sport",
       "category": "sports",
       "first_seen_at": "2026-11-19T17:42:48.591318+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://www.theguardian.com/sport/2026/nov/19/england-new-zealand-wholesale-changes-nations-championship-rugby-union": {
       "id": "44076dc05f00c4e3130d",
@@ -6003,7 +6014,9 @@
       "source_name": "Euronews - World",
       "category": "world",
       "first_seen_at": "2026-11-19T17:42:48.590634+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://www.euronews.com/2026/11/19/islam-to-become-worlds-largest-religion-by-2035-as-christianity-also-grows-study-says": {
       "id": "f4c2ad451df7f37878ab",
@@ -6543,7 +6556,8 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-11-19T17:42:48.590396+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "cong-ong-cincinnati-tiec-thuong-ha-ma-noi-tieng-fiona-qua-oi-0f01e0af"
     },
     "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband": {
       "id": "73edb84bb2669777d589",
@@ -6643,7 +6657,9 @@
       "source_name": "The Guardian - World",
       "category": "world",
       "first_seen_at": "2026-11-19T17:42:48.590353+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment": {
       "id": "83ed9ad492618f78fcd6",
@@ -7050,8 +7066,9 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-19T17:42:48.590171+00:00",
-      "status": "ready_for_publish",
-      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95"
+      "status": "published",
+      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://dantri.com.vn/kinh-doanh/anthropic-chinh-thuc-len-san-nasdaq-tao-ra-hang-tram-trieu-phu-moi-20261119215554540.htm": {
       "id": "b118226eff28e22f6940",
@@ -19874,8 +19891,9 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-18T17:37:48.219194+00:00",
-      "status": "ready_for_publish",
-      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95"
+      "status": "published",
+      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "published_at": "2026-11-20T03:47:06.942194+00:00"
     },
     "https://thanhnien.vn/bat-giam-nguoi-quan-tri-fanpage-cam-xoa-bai-185261118202456569.htm": {
       "id": "0c784d7bd590ade5a104",
@@ -179404,86 +179422,6 @@
   },
   "source_usage": [
     {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/my-iran-qatar-lo-ngai-ong-netanyahu-co-the-pha-hong-dam-phan-185261114164204005.htm",
-      "category": "world",
-      "article_id": "ket-qua-am-phan-nga-ukraine-sau-mot-tuan-tang-toc-ngoai-giao-7c7e8d90",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "Dân Trí - Tin mới",
-      "source_url": "https://dantri.com.vn/the-thao/bong-ban-viet-nam-gay-tieng-vang-lon-gianh-hcv-thu-2-o-giai-dong-nam-a-20261114170318166.htm",
-      "category": "sports",
-      "article_id": "nguyen-anh-tu-vo-ich-on-nam-bong-ban-viet-nam-gianh-5-huy-chuong-o-giai--644d5c97",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/nguyen-anh-tu-gianh-cu-dup-hcv-dong-nam-a-viet-nam-doat-tong-cong-5-huy-chuong-khu-vuc-185261114165750186.htm",
-      "category": "sports",
-      "article_id": "nguyen-anh-tu-vo-ich-on-nam-bong-ban-viet-nam-gianh-5-huy-chuong-o-giai--644d5c97",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "Wired - All",
-      "source_url": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water",
-      "category": "world",
-      "article_id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "Al Jazeera - All",
-      "source_url": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
-      "category": "world",
-      "article_id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "NYT - World",
-      "source_url": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
-      "category": "world",
-      "article_id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "BBC News - Top Stories",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
-      "category": "world",
-      "article_id": "mua-lu-tai-gaza-ay-nguoi-dan-vao-the-tien-thoai-luong-nan-giua-nuoc-sach-cd09b39f",
-      "published_at": "2026-11-14T11:50:01.764045+00:00",
-      "recorded_at": "2026-11-14T11:50:01.764045+00:00"
-    },
-    {
-      "source_name": "Tuổi Trẻ - Tin mới",
-      "source_url": "https://tuoitre.vn/thong-doc-florida-lam-ro-tin-don-thay-ghe-bo-truong-chien-tranh-100261114201628652.htm",
-      "category": "world",
-      "article_id": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988",
-      "published_at": "2026-11-14T16:10:19.665066+00:00",
-      "recorded_at": "2026-11-14T16:10:19.665066+00:00"
-    },
-    {
-      "source_name": "Dân Trí - Tin mới",
-      "source_url": "https://dantri.com.vn/the-gioi/ten-lua-dan-dao-gia-re-lam-dao-lon-hoc-thuyet-quan-su-truyen-thong-20261112105034828.htm",
-      "category": "world",
-      "article_id": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988",
-      "published_at": "2026-11-14T16:10:19.665066+00:00",
-      "recorded_at": "2026-11-14T16:10:19.665066+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/bo-truong-chien-tranh-my-bi-linh-gac-nhac-nho-vi-lam-on-tai-mo-tu-si-185261112081727459.htm",
-      "category": "world",
-      "article_id": "thong-oc-florida-ron-desantis-bac-bo-tin-on-thay-the-bo-truong-chien-tra-f6303988",
-      "published_at": "2026-11-14T16:10:19.665066+00:00",
-      "recorded_at": "2026-11-14T16:10:19.665066+00:00"
-    },
-    {
       "source_name": "The Verge - All",
       "source_url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
       "category": "technology",
@@ -181002,6 +180940,86 @@
       "article_id": "phi-bao-hiem-qua-eo-bien-hormuz-bi-ay-len-muc-cao-chua-tung-thay-trong-b-cb8ef1dd",
       "published_at": "2026-11-19T18:43:37.192567+00:00",
       "recorded_at": "2026-11-19T18:43:37.192567+00:00"
+    },
+    {
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/politics/audio/2026/nov/19/is-europe-in-shadow-of-trump-putin-xi-alliance-podcast",
+      "category": "world",
+      "article_id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/19/putin-hails-new-chapter-in-the-history-of-diplomacy-after-talks-with-trump",
+      "category": "world",
+      "article_id": "cuc-dien-ngoai-giao-toan-cau-dich-chuyen-sau-cuoc-gap-thuong-inh-tai-tru-942d20c8",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive",
+      "category": "sports",
+      "article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/baltimore-ravens/news/ravens-punish-marlon-humphrey-derogatory-baltimore-comment/d8a2dbf2d8083e65c3f3edd5",
+      "category": "sports",
+      "article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/19/marlon-humphrey-criminals-comment-baltimore-ravens",
+      "category": "sports",
+      "article_id": "baltimore-ravens-ky-luat-marlon-humphrey-vi-phat-ngon-gay-tranh-cai-ve-t-e977c8ce",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+      "category": "vietnam",
+      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-gioi/nhan-vat-tham-lang-dung-sau-cac-chuyen-cong-du-cua-tong-thong-my-20261119212919241.htm",
+      "category": "vietnam",
+      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/cong-doan-tphcm-ho-tro-cong-nhan-cong-ty-ecco-moi-giai-the-2-trieu-dong-nguoi-185261118201932162.htm",
+      "category": "vietnam",
+      "article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+      "category": "vietnam",
+      "article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-thao/tu-dai-hoi-the-thao-toan-quoc-huong-toi-viec-to-chuc-cac-su-kien-quoc-te-20261119191435792.htm",
+      "category": "vietnam",
+      "article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+      "published_at": "2026-11-20T03:47:06.942194+00:00",
+      "recorded_at": "2026-11-20T03:47:06.942194+00:00"
     }
   ],
   "last_run_window_end": "2026-11-20T02:38:17.995065+00:00"
