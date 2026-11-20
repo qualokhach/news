@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "9262f897391c99b9de2e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T02:40:08.528408+00:00",
     "expires_at": "2026-11-23T02:38:17.995065+00:00",
     "category_hint": "vietnam",
@@ -759,11 +759,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T02:40:08.528430+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95"
   },
   {
     "queue_id": "d411bba6c3fd57a608c1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T02:40:00.464883+00:00",
     "expires_at": "2026-11-23T02:38:17.995065+00:00",
     "category_hint": "world",
@@ -1327,11 +1328,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T02:40:00.464901+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gta-6-lap-ky-luc-doanh-thu-vuot-2-ty-usd-ngay-sau-khi-phat-hanh-eb7e6e8f"
   },
   {
     "queue_id": "94e87af3ef98cad97cf5",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T02:39:59.064083+00:00",
     "expires_at": "2026-11-23T02:38:17.995065+00:00",
     "category_hint": "vietnam",
@@ -2475,7 +2477,8 @@
       ]
     },
     "research_ready_at": "2026-11-20T02:39:59.064108+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3"
   },
   {
     "queue_id": "dc1e63533d2d71d86fdc",
@@ -87287,6 +87290,644 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+    "status": "READY",
+    "prepared_at": "2026-11-20T02:40:28.440837+00:00",
+    "expires_at": "2026-11-21T02:40:28.440837+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+      "https://dantri.com.vn/the-gioi/nhan-vat-tham-lang-dung-sau-cac-chuyen-cong-du-cua-tong-thong-my-20261119212919241.htm",
+      "https://thanhnien.vn/cong-doan-tphcm-ho-tro-cong-nhan-cong-ty-ecco-moi-giai-the-2-trieu-dong-nguoi-185261118201932162.htm"
+    ],
+    "article": {
+      "id": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "title": "Công nhân Thanh Hóa vớt hàng loạt xác heo trên kênh Bắc",
+      "summary": "Tình trạng người dân ném xác heo chết và rác thải xuống kênh Bắc (Thanh Hóa) tái diễn phức tạp từ đầu tháng 11, buộc lực lượng công nhân phải liên tục vớt và tiêu hủy mỗi ngày.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+      "published_at": "2026-11-20T02:07:00+00:00",
+      "fetched_at": "2026-11-20T02:40:33.642365+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong những ngày qua, tuyến kênh Bắc đoạn qua đập Quy Xá, thôn Lạc Quy, xã Thiệu Trung, tỉnh Thanh Hóa xuất hiện nhiều xác heo chết và bao tải chứa rác thải sinh hoạt trôi nổi, gây ô nhiễm môi trường nghiêm trọng. Theo ghi nhận, số động vật chết và rác thải này bị người dân bỏ vào bao tải rồi ném trực tiếp xuống lòng kênh.",
+        "Đại diện Công ty TNHH một thành viên Sông Chu - đơn vị quản lý hệ thống kênh Bắc - cho biết từ đầu năm đến tháng 10-2026, tình trạng này có giảm so với năm 2025. Tuy nhiên, bắt đầu từ tháng 11 đến nay, hành vi xả thải xác động vật lại tái diễn phức tạp, đúng thời điểm bệnh dịch tả heo châu Phi diễn biến phức tạp và tiềm ẩn nguy cơ phát tán mầm bệnh.",
+        "Do lượng rác và xác động vật dồn ứ, trong hai tuần qua, trung bình mỗi ngày công nhân của đơn vị phải vớt từ 5 đến 7 xác heo cùng nhiều bao tải rác trên tuyến kênh này. Riêng trong hai ngày từ 18 đến 19-11, lực lượng chức năng đã vớt tổng cộng 18 xác heo cùng rác thải sinh hoạt. Nhiều cá thể đang trong quá trình phân hủy, bốc mùi hôi thối và ảnh hưởng trực tiếp đến nguồn nước.",
+        "Ông Ngô Văn Ngọc, Phó giám đốc phụ trách Chi nhánh thủy lợi Thiệu Hóa thuộc Công ty TNHH một thành viên Sông Chu, cho biết việc thu gom và tiêu hủy chỉ là giải pháp khắc phục hậu quả trước mắt. Để giải quyết dứt điểm, chính quyền địa phương cần nâng cao trách nhiệm quản lý địa bàn, tăng cường kiểm tra giám sát tại các khu vực thường xảy ra vi phạm và phối hợp xử lý nghiêm các cá nhân cố tình xả thải ra môi trường."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mỗi ngày công nhân vớt từ 5-7 xác heo ở kênh Bắc, Thanh Hóa",
+      "meta_description": "Tình trạng ném xác heo chết và rác thải xuống tuyến kênh Bắc qua Thanh Hóa gây ô nhiễm môi trường và tạo áp lực lớn cho công nhân thu gom.",
+      "keywords": [
+        "Thanh Hóa",
+        "kênh Bắc",
+        "xác heo chết",
+        "ô nhiễm môi trường",
+        "Công ty Sông Chu"
+      ],
+      "slug": "cong-nhan-thanh-hoa-vot-hang-loat-xac-heo-tren-kenh-bac-2cf41a95",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 324,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+        "https://dantri.com.vn/the-gioi/nhan-vat-tham-lang-dung-sau-cac-chuyen-cong-du-cua-tong-thong-my-20261119212919241.htm",
+        "https://thanhnien.vn/cong-doan-tphcm-ho-tro-cong-nhan-cong-ty-ecco-moi-giai-the-2-trieu-dong-nguoi-185261118201932162.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-gioi/nhan-vat-tham-lang-dung-sau-cac-chuyen-cong-du-cua-tong-thong-my-20261119212919241.htm",
+        "https://thanhnien.vn/cong-doan-tphcm-ho-tro-cong-nhan-cong-ty-ecco-moi-giai-the-2-trieu-dong-nguoi-185261118201932162.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T02:07:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/nhan-vat-tham-lang-dung-sau-cac-chuyen-cong-du-cua-tong-thong-my-20261119212919241.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T14:43:09+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/cong-doan-tphcm-ho-tro-cong-nhan-cong-ty-ecco-moi-giai-the-2-trieu-dong-nguoi-185261118201932162.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T14:01:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trên tuyến kênh Bắc đoạn qua đập Quy Xá, thôn Lạc Quy, xã Thiệu Trung, tỉnh Thanh Hóa xuất hiện nhiều xác heo chết và bao tải chứa rác thải sinh hoạt.",
+          "source_urls": [
+            "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong những ngày qua, trên tuyến kênh Bắc đoạn qua đập Quy Xá, thôn Lạc Quy, xã Thiệu Trung, tỉnh Thanh Hóa xuất hiện nhiều xác heo chết và bao tải chứa rác thải sinh hoạt gây ô nhiễm môi trường.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "snippet": "Trong những ngày qua, trên tuyến kênh Bắc đoạn qua đập Quy Xá, thôn Lạc Quy, xã Thiệu Trung, tỉnh Thanh Hóa xuất hiện nhiều xác heo chết và bao tải chứa rác thải sinh hoạt gây ô nhiễm môi trường.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "page_sha256": "963f32682c4a8465771cf9681b9c52df30cb62c530e6b2babcac1f9660c38f34",
+              "snippet_sha256": "c21ee48b128d90e0cd2b8b9b78cdf3bff8ef7559bfad784269cb81960da1b900",
+              "verified_at": "2026-11-20T02:40:33.641508+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong hai tuần qua, trung bình mỗi ngày công nhân phải vớt từ 5 - 7 xác heo và nhiều bao tải chứa rác thải trên kênh Bắc.",
+          "source_urls": [
+            "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong hai tuần qua, trung bình mỗi ngày công nhân phải vớt từ 5 - 7 xác heo và nhiều bao tải chứa rác thải trên kênh Bắc.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "snippet": "Trong hai tuần qua, trung bình mỗi ngày công nhân phải vớt từ 5 - 7 xác heo và nhiều bao tải chứa rác thải trên kênh Bắc.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "page_sha256": "963f32682c4a8465771cf9681b9c52df30cb62c530e6b2babcac1f9660c38f34",
+              "snippet_sha256": "002a21d248e6889ad83bc849fb9a40ccfce0e98e5fecf37960cb222581477473",
+              "verified_at": "2026-11-20T02:40:33.641508+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Từ ngày 18 đến 19-11, công nhân đã vớt 18 xác heo cùng nhiều rác thải sinh hoạt trên tuyến kênh này.",
+          "source_urls": [
+            "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đặc biệt, từ ngày 18 đến 19-11, công nhân đã vớt 18 xác heo cùng nhiều rác thải sinh hoạt trên tuyến kênh này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "snippet": "Đặc biệt, từ ngày 18 đến 19-11, công nhân đã vớt 18 xác heo cùng nhiều rác thải sinh hoạt trên tuyến kênh này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/moi-ngay-cong-nhan-vot-tu-5-7-xac-heo-o-kenh-bac-thanh-hoa-100261120064913222.htm",
+              "page_sha256": "963f32682c4a8465771cf9681b9c52df30cb62c530e6b2babcac1f9660c38f34",
+              "snippet_sha256": "f1521c817e81a7098650692aacf92325243e335f5b3a1eceb728c9db10bafc17",
+              "verified_at": "2026-11-20T02:40:33.641508+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ áp lực thực tế đối với lực lượng duy tu hệ thống thủy lợi khi phải xử lý lượng lớn xác động vật trôi nổi. Đồng thời, văn bản phân tích mối liên hệ giữa thời điểm tái diễn tình trạng xả thải và nguy cơ dịch bệnh trên địa bàn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T02:40:33.642479+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "18",
+        "2025",
+        "2026",
+        "5",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T02:40:33.644158+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 324,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1471
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "gta-6-lap-ky-luc-doanh-thu-vuot-2-ty-usd-ngay-sau-khi-phat-hanh-eb7e6e8f",
+    "status": "READY",
+    "prepared_at": "2026-11-20T02:40:28.440837+00:00",
+    "expires_at": "2026-11-21T02:40:28.440837+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history"
+    ],
+    "article": {
+      "id": "gta-6-lap-ky-luc-doanh-thu-vuot-2-ty-usd-ngay-sau-khi-phat-hanh-eb7e6e8f",
+      "title": "GTA 6 lập kỷ lục doanh thu vượt 2 tỷ USD ngay sau khi phát hành",
+      "summary": "Grand Theft Auto 6 được ước tính đạt doanh thu hơn 2,36 tỷ USD và bán ra hơn 24,5 triệu bản sau ngày ra mắt, thu hút sự quan tâm lớn từ cộng đồng game thủ toàn cầu.",
+      "category": "technology",
+      "source_name": "BBC - Business",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T02:13:05+00:00",
+      "fetched_at": "2026-11-20T02:40:39.658565+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tựa game bom tấn Grand Theft Auto 6 (GTA 6) được ước tính đã trở thành đợt phát hành giải trí lớn nhất trong lịch sử sau khi chính thức ra mắt vào ngày thứ Năm, đánh dấu khoảng thời gian chờ đợi kéo dài 13 năm đối với người hâm mộ.",
+        "Theo nền tảng phân tích Sensor Tower, trò chơi thuộc thể loại hành động phiêu lưu thế giới mở này đã bán được hơn 24,5 triệu bản tính đến ngày thứ Năm, thu về khoảng 2,36 tỷ USD. Để so sánh, bộ phim có doanh thu phòng vé cao nhất từ đầu năm nay là Spider-Man: Brand New Day đạt 2,5 tỷ USD trong toàn bộ thời gian chiếu rạp.",
+        "Hãng sản xuất Rockstar và công ty mẹ Take-Two chưa công bố số liệu bán hàng chính thức nhưng xác nhận nhu cầu của thị trường đối với tựa game này là chưa từng có tiền lệ. Giới chuyên môn và các nhà đánh giá cũng dành nhiều lời khen ngợi cho phần mới nhất trong loạt trò chơi mô phỏng tội phạm kéo dài gần ba thập kỷ của Rockstar.",
+        "Bên cạnh thành công thương mại, Sensor Tower dự báo sức hút của GTA 6 lớn đến mức có thể làm giảm 10% thời gian game thủ dành cho các tựa game chơi đơn khác. Các ước tính này dựa trên dữ liệu biên nhận email, các nguồn thống kê theo dõi hàng triệu người dùng hằng ngày và hồ sơ công khai trên các nền tảng chơi game lớn như PlayStation và Xbox."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "GTA 6 lập kỷ lục doanh thu vượt 2 tỷ USD theo ước tính ngành",
+      "meta_description": "Trò chơi Grand Theft Auto 6 đạt doanh thu ước tính hơn 2,36 tỷ USD với hơn 24,5 triệu bản bán ra sau khi ra mắt sau 13 năm chờ đợi.",
+      "keywords": [
+        "GTA 6",
+        "Grand Theft Auto 6",
+        "Rockstar Games",
+        "Sensor Tower",
+        "doanh thu game"
+      ],
+      "slug": "gta-6-lap-ky-luc-doanh-thu-vuot-2-ty-usd-ngay-sau-khi-phat-hanh-eb7e6e8f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 267,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history"
+      ],
+      "source_references": [
+        {
+          "name": "BBC - Business",
+          "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T02:13:05+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T12:06:50+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Grand Theft Auto 6 được ước tính đạt doanh thu khoảng 2,36 tỷ USD và bán hơn 24,5 triệu bản sau khi ra mắt vào ngày thứ Năm theo nền tảng Sensor Tower.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The highly anticipated open-world action-adventure has sold more than 24.5 million units as of Thursday, raking in about $2.36bn (£1.8bn), according to analytics platform Sensor Tower.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+              "snippet": "The highly anticipated open-world action-adventure has sold more than 24.5 million units as of Thursday, raking in about $2.36bn (£1.8bn), according to analytics platform Sensor Tower.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "eac238956815b0534bd6d74c57f4ad9aae94ae6e6c72ce85f6ce6d597d66b0c4",
+              "snippet_sha256": "02246e102ef6e17343a13c3746dd69445db3ffff43e1592dce964b69d8147c2e",
+              "verified_at": "2026-11-20T02:40:39.657952+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Rockstar và công ty mẹ Take-Two chưa công bố chi tiết doanh số bán hàng nhưng cho biết nhu cầu đối với trò chơi là chưa từng có tiền lệ.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "GTA 6's maker Rockstar and parent company Take-Two have not released details of the game's sales but said demand has been \"unprecedented\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+              "snippet": "GTA 6's maker Rockstar and parent company Take-Two have not released details of the game's sales but said demand has been \"unprecedented\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "eac238956815b0534bd6d74c57f4ad9aae94ae6e6c72ce85f6ce6d597d66b0c4",
+              "snippet_sha256": "99ca5d302f48585127a7343eb3b88988ce9a2c72f61e3345d07459e46f9444bb",
+              "verified_at": "2026-11-20T02:40:39.657952+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sensor Tower dự báo GTA 6 sẽ làm giảm 10% thời gian game thủ dành cho các tựa game chơi đơn khác dựa trên dữ liệu thống kê từ hàng triệu người dùng hằng ngày.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Sensor Tower said GTA 6 will be so popular that it will reduce the time gamers spend on other single-player titles by 10%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Sensor Tower said GTA 6 will be so popular that it will reduce the time gamers spend on other single-player titles by 10%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "eac238956815b0534bd6d74c57f4ad9aae94ae6e6c72ce85f6ce6d597d66b0c4",
+              "snippet_sha256": "a4723a7f9bf6021480d36a89e7308e5946f4b3e90c3ef173dececc231b90ae60",
+              "verified_at": "2026-11-20T02:40:39.657952+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Olivier Mauco, Chủ tịch Đài quan sát Trò chơi Điện tử Châu Âu, nhận định GTA là vua của thể loại thế giới mở và thế hệ tiếp theo tạo ra sự kỳ vọng lớn sau 13 năm gián đoạn.",
+          "source_urls": [
+            "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "\"It's kind of the masterpiece of the game industry,\" says Mauco of Grand Theft Auto, whose next instalment has generated considerable anticipation following a 13-year hiatus.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history",
+              "snippet": "\"It's kind of the masterpiece of the game industry,\" says Mauco of Grand Theft Auto, whose next instalment has generated considerable anticipation following a 13-year hiatus.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/tv-shows/spotlight/20261118-a-masterpiece-of-the-gaming-industry-gta-most-expensive-entertainment-production-in-history",
+              "page_sha256": "ce7075c7db123880060f81806304ab092278aa3163d4e85069b2ef6edf9b7912",
+              "snippet_sha256": "1619e03c1b377e3495eafb03537084a148e4256d62960b2b06d6e9a650c7fd4d",
+              "verified_at": "2026-11-20T02:40:39.657952+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy mô doanh thu ước tính và lượng bản bán ra của GTA 6 dựa trên dữ liệu từ Sensor Tower. Đồng thời, bài phản ánh góc nhìn từ nhà quan sát ngành về bài toán kinh tế trong việc sản xuất các tựa game bom tấn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T02:40:39.658669+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "13",
+        "2,36",
+        "2,5",
+        "24,5",
+        "6"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T02:40:39.659659+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 267,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1227
+        },
+        "independent_domains": [
+          "bbc.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+    "status": "READY",
+    "prepared_at": "2026-11-20T02:40:28.440837+00:00",
+    "expires_at": "2026-11-21T02:40:28.440837+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+      "https://dantri.com.vn/the-thao/tu-dai-hoi-the-thao-toan-quoc-huong-toi-viec-to-chuc-cac-su-kien-quoc-te-20261119191435792.htm"
+    ],
+    "article": {
+      "id": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+      "title": "Quốc hội thông qua Luật Luật sư sửa đổi: Bổ sung tiêu chuẩn và kỳ thi quốc gia",
+      "summary": "Sáng 20-11, Quốc hội chính thức thông qua Luật Luật sư sửa đổi với nhiều điểm mới về tiêu chuẩn, điều kiện hành nghề và mô hình kỳ thi quốc gia do Bộ Tư pháp chủ trì.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+      "published_at": "2026-11-20T02:15:00+00:00",
+      "fetched_at": "2026-11-20T02:40:45.022807+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sáng 20-11, với đa số đại biểu có mặt tán thành, Quốc hội đã chính thức thông qua Luật Luật sư sửa đổi. Luật mới sẽ có hiệu lực thi hành từ ngày 1-3-2027, đánh dấu bước thay đổi quan trọng trong việc chuẩn hóa chất lượng đội ngũ hành nghề pháp lý tại Việt Nam.",
+        "Theo quy định mới tại điều 7 của luật, tiêu chuẩn luật sư được bổ sung các yêu cầu cụ thể như là công dân Việt Nam, trung thành với Tổ quốc, tuân thủ Hiến pháp và pháp luật, có bản lĩnh chính trị vững vàng, phẩm chất đạo đức tốt cùng sự liêm chính, trung thực. Về trình độ chuyên môn, dự luật yêu cầu có bằng cử nhân luật, đồng thời mở ra ngoại lệ đối với người có bằng luật sau đại học tại các quốc gia không đào tạo cử nhân luật, như văn bằng Juris Doctor tại Mỹ hay Canada, nhằm thu hút nhân lực chất lượng cao.",
+        "Bên cạnh tiêu chuẩn cá nhân, luật mới cũng quy định mô hình kỳ thi quốc gia về luật sư do Hội đồng tuyển chọn do Bộ trưởng Bộ Tư pháp thành lập trực tiếp tổ chức. Cơ cấu hội đồng gồm lãnh đạo Bộ Tư pháp làm Chủ tịch, Thường trực Liên đoàn Luật sư Việt Nam làm Phó chủ tịch thường trực, cùng đại diện các cơ quan tiến hành tố tụng và chuyên gia. Việc đổi mới này nhằm nâng cao tính chuẩn hóa, cắt giảm thủ tục hành chính từ 4 bước xuống còn 2 bước, qua đó tối ưu hóa thời gian và chi phí cho người dự thi."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Quốc hội thông qua Luật Luật sư sửa đổi: Tiêu chuẩn và điều kiện mới",
+      "meta_description": "Quốc hội thông qua Luật Luật sư sửa đổi vào sáng 20-11, bổ sung tiêu chuẩn hành nghề, quy định ngoại lệ bằng sau đại học và thiết lập kỳ thi quốc gia.",
+      "keywords": [
+        "Luật Luật sư sửa đổi",
+        "Quốc hội",
+        "tiêu chuẩn luật sư",
+        "kỳ thi quốc gia về luật sư"
+      ],
+      "slug": "quoc-hoi-thong-qua-luat-luat-su-sua-oi-bo-sung-tieu-chuan-va-ky-thi-quoc-9ebb53c3",
+      "images": [],
+      "content_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Danh_m%E1%BB%A5c_Ti%C3%AAu_chu%E1%BA%A9n_Qu%E1%BB%91c_gia_%28TCVN%29_2017.pdf/page1-960px-Danh_m%E1%BB%A5c_Ti%C3%AAu_chu%E1%BA%A9n_Qu%E1%BB%91c_gia_%28TCVN%29_2017.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "content_image_alt": "Quốc hội thông qua Luật Luật sư sửa đổi: Bổ sung tiêu chuẩn và kỳ thi quốc gia",
+      "content_image_credit": "Vietnam Standard and Quality Institute (CC BY 4.0)",
+      "content_image_credit_url": "https://commons.wikimedia.org/wiki/File:Danh_m%E1%BB%A5c_Ti%C3%AAu_chu%E1%BA%A9n_Qu%E1%BB%91c_gia_(TCVN)_2017.pdf",
+      "word_count": 283,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+        "https://dantri.com.vn/the-thao/tu-dai-hoi-the-thao-toan-quoc-huong-toi-viec-to-chuc-cac-su-kien-quoc-te-20261119191435792.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/tu-dai-hoi-the-thao-toan-quoc-huong-toi-viec-to-chuc-cac-su-kien-quoc-te-20261119191435792.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T02:15:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/tu-dai-hoi-the-thao-toan-quoc-huong-toi-viec-to-chuc-cac-su-kien-quoc-te-20261119191435792.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T23:23:58+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sáng 20-11, với 470/482 đại biểu có mặt tán thành, Quốc hội đã thông qua Luật Luật sư sửa đổi, có hiệu lực từ ngày 1-3-2027.",
+          "source_urls": [
+            "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sáng 20-11, với 470/482 đại biểu có mặt tán thành, Quốc hội đã thông quaLuật Luật sưsửa đổi.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "snippet": "Sáng 20-11, với 470/482 đại biểu có mặt tán thành, Quốc hội đã thông quaLuật Luật sưsửa đổi.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "page_sha256": "ffa10a7460bb12b88d1cfb6d2a52826b2b111744145df73b59a8225211e2a57a",
+              "snippet_sha256": "e36ecea08189d1c7b3f474c31e0c9ba871780bee59adb7fe324ad5fc4c637ffa",
+              "verified_at": "2026-11-20T02:40:45.022004+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật mới quy định tiêu chuẩn luật sư bao gồm bản lĩnh chính trị vững vàng, phẩm chất đạo đức tốt, liêm chính, có bằng cử nhân luật hoặc bằng luật sau đại học tại quốc gia không đào tạo cử nhân luật.",
+          "source_urls": [
+            "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Luật quy định người có bằng luật sau đại học tại quốc gia không đào tạo cử nhân luật muốn trở thành luật sư phải đáp ứng tiêu chuẩn là công dân Việt Nam, trung thành với Tổ quốc, tuân thủ Hiến pháp, pháp luật, có bản lĩnh chính trị vững vàng, có phẩm chất đạo đức tốt, kiên quyết bảo vệ công lý, liêm chính và trung thực.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "snippet": "Luật quy định người có bằng luật sau đại học tại quốc gia không đào tạo cử nhân luật muốn trở thành luật sư phải đáp ứng tiêu chuẩn là công dân Việt Nam, trung thành với Tổ quốc, tuân thủ Hiến pháp, pháp luật, có bản lĩnh chính trị vững vàng, có phẩm chất đạo đức tốt, kiên quyết bảo vệ công lý, liêm chính và trung thực.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "page_sha256": "ffa10a7460bb12b88d1cfb6d2a52826b2b111744145df73b59a8225211e2a57a",
+              "snippet_sha256": "8ef3f709b3a9b27369fc1cb848d5852ef3a0fe9d5b79d90f6b0bcb34f245f09d",
+              "verified_at": "2026-11-20T02:40:45.022004+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hội đồng tuyển chọn luật sư do Bộ trưởng Bộ Tư pháp thành lập, gồm lãnh đạo Bộ Tư pháp làm Chủ tịch và Thường trực Liên đoàn Luật sư Việt Nam làm Phó chủ tịch thường trực.",
+          "source_urls": [
+            "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Gồm lãnh đạo Bộ Tư pháp là Chủ tịch, Thường trực Liên đoàn Luật sư Việt Nam là Phó chủ tịch thường trực, cùng đại diện cơ quan tiến hành tố tụng, cơ sở đào tạo nghề luật sư,tổ chức xã hội- nghề nghiệp của luật sư, chuyên gia và luật sư.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "snippet": "Gồm lãnh đạo Bộ Tư pháp là Chủ tịch, Thường trực Liên đoàn Luật sư Việt Nam là Phó chủ tịch thường trực, cùng đại diện cơ quan tiến hành tố tụng, cơ sở đào tạo nghề luật sư,tổ chức xã hội- nghề nghiệp của luật sư, chuyên gia và luật sư.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/quoc-hoi-thong-qua-sua-luat-luat-su-bo-sung-tieu-chuan-dieu-kien-hanh-nghe-100261120085536774.htm",
+              "page_sha256": "ffa10a7460bb12b88d1cfb6d2a52826b2b111744145df73b59a8225211e2a57a",
+              "snippet_sha256": "3fbe16d8ddd1520a3134d50c83441ab194584f7865e1fc22d490df5c71e645b3",
+              "verified_at": "2026-11-20T02:40:45.022004+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những thay đổi then chốt về tiêu chuẩn hành nghề và mô hình kỳ thi quốc gia trong Luật Luật sư sửa đổi vừa được thông qua. Nội dung tập trung phân tích các điều kiện mới đối với văn bằng sau đại học quốc tế và cơ cấu hội đồng tuyển chọn do Bộ Tư pháp chủ trì.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T02:40:45.022912+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "4",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T02:40:45.024102+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 283,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1278
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto",
+      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0"
     }
   }
 ]
