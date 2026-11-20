@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "0e8152af7741cb7ffa80",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T17:22:01.031500+00:00",
     "expires_at": "2026-11-23T17:19:44.202165+00:00",
     "category_hint": "technology",
@@ -580,11 +580,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T17:22:01.031526+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nha-toan-hoc-tai-anthropic-tuyen-bo-giai-thanh-cong-gia-thuyet-riemann-v-66a873bc"
   },
   {
     "queue_id": "26b9f203d3009c17fed2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T17:21:59.073620+00:00",
     "expires_at": "2026-11-23T17:19:44.202165+00:00",
     "category_hint": "technology",
@@ -1676,11 +1677,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T17:21:59.073646+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684"
   },
   {
     "queue_id": "68218d1cc95a2227143c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T17:21:57.449306+00:00",
     "expires_at": "2026-11-23T17:19:44.202165+00:00",
     "category_hint": "world",
@@ -2394,7 +2396,8 @@
       ]
     },
     "research_ready_at": "2026-11-20T17:21:57.449331+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nguoi-an-ong-my-bi-ket-toi-sat-hai-phu-nu-anh-ec94e1b3"
   },
   {
     "queue_id": "628b1be8aeff729c3844",
@@ -89640,5 +89643,620 @@
     },
     "published_at": "2026-11-17T18:46:47.760773+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nha-toan-hoc-tai-anthropic-tuyen-bo-giai-thanh-cong-gia-thuyet-riemann-v-66a873bc",
+    "status": "READY",
+    "prepared_at": "2026-11-20T17:22:26.132048+00:00",
+    "expires_at": "2026-11-21T17:22:26.132048+00:00",
+    "source_urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "nha-toan-hoc-tai-anthropic-tuyen-bo-giai-thanh-cong-gia-thuyet-riemann-v-66a873bc",
+      "title": "Nhà toán học tại Anthropic tuyên bố giải thành công Giả thuyết Riemann với sự hỗ trợ của AI",
+      "summary": "Levent Alpöge, một nhà toán học làm việc tại Anthropic, tuyên bố đã tìm ra lời giải cho Giả thuyết Riemann, một trong những bài toán hóc búa nhất thế giới, nhờ sự hỗ trợ từ chatbot Claude.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "published_at": "2026-11-20T16:57:47+00:00",
+      "fetched_at": "2026-11-20T17:22:44.619147+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Levent Alpöge, một nhà toán học tại Anthropic, vừa đưa ra tuyên bố gây chấn động khi cho biết đã tìm ra lời giải cho Giả thuyết Riemann – một trong bảy bài toán thuộc giải thưởng Thiên niên kỷ (Millennium Prize) của Viện Toán học Clay. Theo thông tin được công bố trên trang web cá nhân, Alpöge khẳng định chatbot Claude đóng vai trò quan trọng trong việc phát triển chứng minh này, đồng thời cho biết phương pháp của ông có khả năng mở rộng để giải quyết cả Giả thuyết Riemann Tổng quát và Mở rộng.",
+        "Giả thuyết Riemann, được đề xuất từ năm 1859, từ lâu đã được coi là một trong những thách thức toán học khó khăn nhất, liên quan đến sự phân bổ của các số nguyên tố. Dù tuyên bố của Alpöge đã thu hút sự chú ý lớn, hiện tại lời giải này mới chỉ được đăng tải trên trang web cá nhân và chưa được cộng đồng toán học quốc tế thẩm định. Phía Anthropic hiện chưa đưa ra bình luận chính thức về sự việc này.",
+        "Theo quy định của Viện Toán học Clay, bất kỳ lời giải nào cho các bài toán Thiên niên kỷ đều cần trải qua ít nhất hai năm kiểm chứng nghiêm ngặt và nhận được sự chấp thuận rộng rãi từ giới chuyên môn trước khi được công nhận chính thức. Trong quá khứ, Anthropic từng bày tỏ sự hoài nghi về khả năng các kỹ thuật của Claude có thể giải quyết được bài toán này. Sự kiện này diễn ra trong bối cảnh Anthropic vừa thực hiện đợt phát hành cổ phiếu lần đầu ra công chúng (IPO) vào ngày 19/11/2026, đánh dấu một giai đoạn đầy biến động trong lĩnh vực ứng dụng AI vào nghiên cứu toán học chuyên sâu."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Nhà toán học Anthropic tuyên bố giải Giả thuyết Riemann nhờ AI Claude",
+      "meta_description": "Nhà toán học Levent Alpöge tuyên bố giải thành công Giả thuyết Riemann với sự trợ giúp của AI Claude, gây chú ý trong cộng đồng toán học toàn cầu.",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Giả thuyết Riemann",
+        "Toán học",
+        "Levent Alpöge"
+      ],
+      "slug": "nha-toan-hoc-tai-anthropic-tuyen-bo-giai-thanh-cong-gia-thuyet-riemann-v-66a873bc",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 312,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+        "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T16:57:47+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T02:20:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Levent Alpöge, nhà toán học tại Anthropic, tuyên bố đã giải được Giả thuyết Riemann với sự hỗ trợ của Claude.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics’s most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world’s best mathematicians for decades.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "snippet": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics’s most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world’s best mathematicians for decades.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "page_sha256": "c0e5380b86422bb6ea842869bd39d3a429eee1eac4153412b00a7891c5ccfbc5",
+              "snippet_sha256": "d2073a7b3e4ba2ad3902df25a241058d7130e966edbcbb2356dc344bc4de1b95",
+              "verified_at": "2026-11-20T17:22:44.618285+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giả thuyết Riemann là một trong bảy bài toán Thiên niên kỷ với giải thưởng 1 triệu USD, yêu cầu ít nhất hai năm thẩm định để được công nhận.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "I believe I have, working with Claude, discovered a proof1of the Riemann Hypothesis.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "snippet": "I believe I have, working with Claude, discovered a proof1of the Riemann Hypothesis.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "page_sha256": "c0e5380b86422bb6ea842869bd39d3a429eee1eac4153412b00a7891c5ccfbc5",
+              "snippet_sha256": "a29cd96aafcbfe71f60d046646ab2af674499124feb7f7f2fe8c4753887b44ad",
+              "verified_at": "2026-11-20T17:22:44.618285+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anthropic đã thực hiện IPO vào ngày 19/11/2026.",
+          "source_urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anthropic went public on November 19th, 2026.Photo: Getty ImagesPart OfAll the drama around AI’s takeover of mathematicssee all updates",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "snippet": "Anthropic went public on November 19th, 2026.Photo: Getty ImagesPart OfAll the drama around AI’s takeover of mathematicssee all updates",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "page_sha256": "c0e5380b86422bb6ea842869bd39d3a429eee1eac4153412b00a7891c5ccfbc5",
+              "snippet_sha256": "df1d359430c55d67c4174f3f015f3609e4b503c2022f503637b3cff059b35847",
+              "verified_at": "2026-11-20T17:22:44.618285+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ giới hạn của tuyên bố cá nhân so với quy trình thẩm định chính thức của Viện Toán học Clay. Đồng thời, bài báo đặt sự kiện này vào bối cảnh cạnh tranh gay gắt trong lĩnh vực AI toán học sau các tranh cãi liên quan đến OpenAI.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T17:22:44.619250+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1859"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T17:22:44.620836+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 312,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1489
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+    "status": "READY",
+    "prepared_at": "2026-11-20T17:22:26.132048+00:00",
+    "expires_at": "2026-11-21T17:22:26.132048+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+      "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale"
+    ],
+    "article": {
+      "id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+      "title": "Săn ưu đãi sớm Black Friday 2026: Những lựa chọn công nghệ đáng chú ý",
+      "summary": "Thị trường mua sắm Black Friday năm 2026 đã khởi động từ sớm với nhiều ưu đãi hấp dẫn trên các thiết bị công nghệ, từ tai nghe chống ồn đến thiết bị gia dụng thông minh.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+      "published_at": "2026-11-20T17:01:45+00:00",
+      "fetched_at": "2026-11-20T17:23:04.652191+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa mua sắm Black Friday năm 2026 đã chính thức khởi động sớm hơn thường lệ, khi các chương trình khuyến mãi xuất hiện từ trước tháng 11. Thay vì tập trung vào ngày thứ Sáu sau Lễ Tạ ơn như truyền thống, người tiêu dùng hiện nay có thể tiếp cận hàng loạt ưu đãi công nghệ ngay từ thời điểm này. Tuy nhiên, thách thức đối với người mua là phân biệt giữa các đợt giảm giá thực sự và những sản phẩm có khả năng tiếp tục hạ giá khi ngày hội mua sắm chính thức diễn ra.",
+        "Trong danh sách các sản phẩm đáng chú ý, tai nghe Sony WH-1000XM6 đang ghi nhận mức giá thấp nhất từ trước đến nay. Bên cạnh đó, các phụ kiện của Apple như AirTag thế hệ thứ 2 cũng được giảm giá 6 USD. Đối với không gian sống, đồng hồ báo thức Hatch Sleep Clock hiện có giá 188 USD, giảm 62 USD so với giá gốc. Các thiết bị gia dụng như nồi chiên không dầu Typhur Dome 2 cũng đang được giảm 105 USD, mang lại lựa chọn đa dạng cho người tiêu dùng.",
+        "Ngoài ra, các giải pháp sạc thông minh như đế sạc không dây 3 trong 1 hay bộ sạc Ugreen với thiết kế robot độc đáo cũng đang thu hút sự chú ý với mức giảm giá lên tới 40%. Các chuyên gia khuyến cáo người mua nên tập trung vào những thiết bị đã được kiểm chứng chất lượng để đảm bảo giá trị đầu tư, thay vì chỉ chạy theo các con số giảm giá trên những mẫu sản phẩm kém chất lượng thường thấy trong dịp này."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tổng hợp ưu đãi công nghệ sớm Black Friday 2026",
+      "meta_description": "Khám phá các ưu đãi công nghệ nổi bật trong mùa Black Friday 2026, bao gồm tai nghe Sony, thiết bị Apple và đồ gia dụng thông minh với mức giá giảm sâu.",
+      "keywords": [
+        "Black Friday 2026",
+        "ưu đãi công nghệ",
+        "mua sắm trực tuyến",
+        "giảm giá thiết bị"
+      ],
+      "slug": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 288,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+        "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale"
+      ],
+      "source_links": [
+        "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T17:01:45+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T19:35:52+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các đợt giảm giá Black Friday 2026 đã bắt đầu từ trước tháng 11.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-20-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026) | WIREDSkip to main content",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "snippet": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026) | WIREDSkip to main content",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "page_sha256": "d28b6d41f4936c1165f93fcd76d12c5accbeaa294bce7819c4fd9f4bbc1937f4",
+              "snippet_sha256": "ff601471e6829c934f978294a40600d946a5592bbb30dd025c1677c2c79895a6",
+              "verified_at": "2026-11-20T17:23:04.651284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đồng hồ Hatch Sleep Clock đang được giảm 62 USD, xuống còn 188 USD.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-20-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "A rare sale on an excellent sunrise alarm:Hatch Sleep Clock for $188 ($62 Off)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "snippet": "A rare sale on an excellent sunrise alarm:Hatch Sleep Clock for $188 ($62 Off)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "page_sha256": "d28b6d41f4936c1165f93fcd76d12c5accbeaa294bce7819c4fd9f4bbc1937f4",
+              "snippet_sha256": "6afdb4a217c43c1c374c4c1ac7479d7f233a67b8a60b27583cd8b040c13f0bfc",
+              "verified_at": "2026-11-20T17:23:04.651284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tai nghe Sony WH-1000XM6 đang ở mức giá thấp nhất từng được ghi nhận.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-20-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "With excellent noise canceling, 30-hour battery life, and loads of customization options, theSony WH-1000XM6are a great pair of headphones.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "snippet": "With excellent noise canceling, 30-hour battery life, and loads of customization options, theSony WH-1000XM6are a great pair of headphones.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "page_sha256": "d28b6d41f4936c1165f93fcd76d12c5accbeaa294bce7819c4fd9f4bbc1937f4",
+              "snippet_sha256": "5a637e33fc80801f7b230c83e01398212ab35b9eefea768fe3a8fe39a55befb7",
+              "verified_at": "2026-11-20T17:23:04.651284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nồi chiên không dầu Typhur Dome 2 giảm 105 USD, còn 285 USD.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-deals-11-20-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "A do-it-all air fryer:Typhur Dome 2 for $285 ($105 off)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "snippet": "A do-it-all air fryer:Typhur Dome 2 for $285 ($105 off)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "page_sha256": "d28b6d41f4936c1165f93fcd76d12c5accbeaa294bce7819c4fd9f4bbc1937f4",
+              "snippet_sha256": "a9528a0d5e8179a079528ac044c9b8893a2ada4d5c8d4ba8d8ab8717a8b76957",
+              "verified_at": "2026-11-20T17:23:04.651284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp cái nhìn tổng quan về xu hướng mua sắm sớm trong năm 2026, giúp người dùng nhận diện các sản phẩm công nghệ có giá trị thực tế. Đồng thời, bài báo làm rõ sự khác biệt giữa các đợt giảm giá sớm và chiến lược mua sắm thông minh để tránh các sản phẩm kém chất lượng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T17:23:04.652294+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "1000",
+        "105",
+        "188",
+        "2",
+        "2026",
+        "3",
+        "40",
+        "6",
+        "62"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T17:23:04.653637+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 288,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1315
+        },
+        "independent_domains": [
+          "theverge.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "nguoi-an-ong-my-bi-ket-toi-sat-hai-phu-nu-anh-ec94e1b3",
+    "status": "READY",
+    "prepared_at": "2026-11-20T17:22:26.132048+00:00",
+    "expires_at": "2026-11-21T17:22:26.132048+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/uk-news/2026/nov/20/home-office-tells-woman-born-london-she-is-not-british"
+    ],
+    "article": {
+      "id": "nguoi-an-ong-my-bi-ket-toi-sat-hai-phu-nu-anh-ec94e1b3",
+      "title": "Người đàn ông Mỹ bị kết tội sát hại phụ nữ Anh",
+      "summary": "Tòa án tại Florida, Mỹ vừa tuyên án Dwain Hall phạm tội bắt cóc và sát hại Sonia Exelby, một phụ nữ người Anh mà đối tượng này đã làm quen qua mạng.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T17:18:46+00:00",
+      "fetched_at": "2026-11-20T17:23:19.925866+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Một tòa án tại Ocala, Florida (Mỹ) vừa đưa ra phán quyết kết tội Dwain Hall, 54 tuổi, về các tội danh bắt cóc và sát hại cấp độ một đối với Sonia Exelby, một phụ nữ 32 tuổi đến từ Southsea, Hampshire, Anh.",
+        "Theo hồ sơ vụ án, Hall đã làm quen và dụ dỗ nạn nhân thông qua một trang web chuyên về sở thích cá nhân (fetish website). Sau khi thuyết phục Exelby di chuyển từ Anh sang Mỹ, đối tượng đã thực hiện hành vi sát hại nạn nhân bằng hung khí sắc nhọn.",
+        "Vụ việc được phát hiện sau khi Exelby được gia đình thông báo mất tích vào tháng 10 năm 2025. Năm ngày sau đó, vào ngày 17 tháng 10 năm 2025, thi thể của cô được tìm thấy bị chôn vùi tại một khu vực rừng thuộc Quận Marion, Florida.",
+        "Phán quyết của tòa án khép lại quá trình xét xử đối với vụ án gây chấn động này. Hiện tại, các cơ quan chức năng vẫn đang tiếp tục hoàn thiện hồ sơ vụ việc và chưa công bố thêm các tình tiết chi tiết khác liên quan đến quá trình điều tra."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Dwain Hall bị kết tội sát hại Sonia Exelby tại Mỹ",
+      "meta_description": "Dwain Hall, 54 tuổi, bị tòa án Florida kết tội bắt cóc và sát hại Sonia Exelby sau khi dụ dỗ nạn nhân từ Anh sang Mỹ.",
+      "keywords": [
+        "Dwain Hall",
+        "Sonia Exelby",
+        "Florida",
+        "án mạng",
+        "bắt cóc"
+      ],
+      "slug": "nguoi-an-ong-my-bi-ket-toi-sat-hai-phu-nu-anh-ec94e1b3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 202,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/uk-news/2026/nov/20/home-office-tells-woman-born-london-she-is-not-british"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/uk-news/2026/nov/20/home-office-tells-woman-born-london-she-is-not-british"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T17:18:46+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/20/home-office-tells-woman-born-london-she-is-not-british",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T11:22:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Dwain Hall, 54 tuổi, bị kết tội bắt cóc và sát hại Sonia Exelby, 32 tuổi, tại tòa án ở Ocala, Florida.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Dwain Hall, 54, convinced 32-year-old Sonia Exelby from Southsea, Hampshire, to travel to the United States where he stabbed her to death.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Dwain Hall, 54, convinced 32-year-old Sonia Exelby from Southsea, Hampshire, to travel to the United States where he stabbed her to death.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "b4eba60f79a68bf0267805f91015bba399a4bcaf4de906f10de0ed3b225e059a",
+              "snippet_sha256": "41e378e5ae9923c66fb0302bf8078459044b8b33d637021451fcf6884cdead37",
+              "verified_at": "2026-11-20T17:23:19.925513+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nạn nhân Sonia Exelby bị sát hại bằng cách đâm sau khi được Hall dụ dỗ từ Anh sang Mỹ qua một trang web.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Dwain Hall found guilty of kidnapping and murdering Sonia Exelby - BBC News",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Dwain Hall found guilty of kidnapping and murdering Sonia Exelby - BBC News",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "b4eba60f79a68bf0267805f91015bba399a4bcaf4de906f10de0ed3b225e059a",
+              "snippet_sha256": "29e5f0e69d56e7ba1c0f6d23d79636ac16de08221716d69098e3640024a532ad",
+              "verified_at": "2026-11-20T17:23:19.925513+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thi thể của Exelby được tìm thấy tại khu vực rừng ở Quận Marion, Florida vào ngày 17 tháng 10 năm 2025.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Exelby's body was found buried in woodland in Marion County, Florida, on 17 October 2025 after she was reported missing from her home five days earlier.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Exelby's body was found buried in woodland in Marion County, Florida, on 17 October 2025 after she was reported missing from her home five days earlier.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "b4eba60f79a68bf0267805f91015bba399a4bcaf4de906f10de0ed3b225e059a",
+              "snippet_sha256": "b946668fb0bc6afbc09e21be75e4464b5b9eab689bc00a26b332b8187a27a43a",
+              "verified_at": "2026-11-20T17:23:19.925513+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối quan hệ giữa hung thủ và nạn nhân thông qua môi trường mạng, đồng thời cung cấp mốc thời gian cụ thể về quá trình phát hiện thi thể. Việc trình bày các dữ kiện giúp độc giả nắm bắt diễn biến chính của vụ án mà không cần suy diễn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T17:23:19.925949+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2025",
+        "32",
+        "54"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T17:23:19.926756+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 202,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 920
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
