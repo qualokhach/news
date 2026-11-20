@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "9d766fcd259843c8296d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T12:15:04.791870+00:00",
     "expires_at": "2026-11-23T12:12:56.654868+00:00",
     "category_hint": "vietnam",
@@ -820,11 +820,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T12:15:04.791893+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25"
   },
   {
     "queue_id": "524a2a9c6a3369aa2dd7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T12:14:59.342651+00:00",
     "expires_at": "2026-11-23T12:12:56.654868+00:00",
     "category_hint": "technology",
@@ -1388,11 +1389,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T12:14:59.342671+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chinh-quyen-my-tiep-tuc-giu-lenh-cam-kinh-doanh-dong-router-moi-cua-tp-l-8d5b23e8"
   },
   {
     "queue_id": "618345ad9353c8556de2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T12:14:58.360780+00:00",
     "expires_at": "2026-11-23T12:12:56.654868+00:00",
     "category_hint": "technology",
@@ -2225,7 +2227,8 @@
       ]
     },
     "research_ready_at": "2026-11-20T12:14:58.360801+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bay-nha-ong-sang-lap-anthropic-thu-ve-gan-2-ty-usd-trong-ot-phat-hanh-co-dc5ce6d0"
   },
   {
     "queue_id": "3a4d1a5695cc88a2d228",
@@ -87261,5 +87264,661 @@
     },
     "published_at": "2026-11-17T04:47:05.845715+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+    "status": "READY",
+    "prepared_at": "2026-11-20T12:15:44.286573+00:00",
+    "expires_at": "2026-11-21T12:15:44.286573+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+      "https://dantri.com.vn/thoi-su/chinh-thuc-bo-tu-hinh-voi-6-toi-tu-132027-20261120132846757.htm"
+    ],
+    "article": {
+      "id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+      "title": "Quốc hội thông qua Bộ luật Hình sự sửa đổi: Bỏ hình phạt tử hình với 6 tội danh",
+      "summary": "Chiều 20/11, Quốc hội đã thông qua Bộ luật Hình sự (sửa đổi), chính thức bãi bỏ hình phạt tử hình đối với 6 tội danh và có hiệu lực thi hành từ ngày 1/3/2027.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+      "published_at": "2026-11-20T09:51:00+00:00",
+      "fetched_at": "2026-11-20T12:15:48.538264+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chiều 20/11, với đa số đại biểu tham gia biểu quyết tán thành, Quốc hội đã chính thức thông qua Bộ luật Hình sự (sửa đổi) gồm 25 chương và 417 điều. Văn bản quan trọng này có hiệu lực thi hành từ ngày 1/3/2027, đánh dấu bước điều chỉnh lớn trong chính sách hình sự của nhà nước.",
+        "Theo quy định mới, hình phạt tử hình được bãi bỏ đối với 6 tội danh. Cụ thể gồm các tội bạo loạn, chống loài người, tội phạm chiến tranh, khủng bố nhằm chống chính quyền nhân dân, hiếp dâm người dưới 16 tuổi và mua bán trái phép chất ma túy. Sau khi điều chỉnh, hệ thống pháp luật sẽ chỉ duy trì hình phạt tử hình đối với 4 tội danh gồm phản bội Tổ quốc, giết người, khủng bố và sản xuất trái phép chất ma túy.",
+        "Lý giải về việc bãi bỏ hình phạt tử hình ở một số nhóm tội, Chính phủ cho biết quyết định này dựa trên cơ sở chính sách nhân đạo, sự phân hóa trách nhiệm hình sự và xu hướng hội nhập quốc tế. Đối với tội mua bán trái phép chất ma túy, cơ quan soạn thảo nhận định chưa có căn cứ thuyết phục cho thấy hình phạt tử hình mang lại hiệu quả răn đe cao hơn tù chung thân đối với loại tội phạm hoạt động vì lợi nhuận lớn.",
+        "Bên cạnh việc thu hẹp diện áp dụng án tử hình, Bộ luật Hình sự sửa đổi còn bổ sung cơ chế khoan hồng đặc biệt và quy định cho phép tòa án quyết định hình phạt dưới mức thấp nhất của khung nếu người phạm tội tự nguyện khai báo, hợp tác tích cực và bồi thường thiệt hại. Đồng thời, luật cũng quy định chế độ tạm hoãn truy cứu trách nhiệm hình sự đối với các trường hợp vi phạm kinh tế do nguyên nhân khách quan vì lợi ích chung."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Quốc hội thông qua Bộ luật Hình sự sửa đổi bỏ tử hình 6 tội danh",
+      "meta_description": "Bộ luật Hình sự sửa đổi vừa được Quốc hội thông qua chính thức bãi bỏ hình phạt tử hình với 6 tội danh, có hiệu lực từ ngày 1/3/2027.",
+      "keywords": [
+        "Bộ luật Hình sự sửa đổi",
+        "bỏ tử hình 6 tội danh",
+        "Quốc hội",
+        "khoan hồng đặc biệt"
+      ],
+      "slug": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+      "images": [],
+      "content_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Danh_m%E1%BB%A5c_Ti%C3%AAu_chu%E1%BA%A9n_Qu%E1%BB%91c_gia_%28TCVN%29_2017.pdf/page1-960px-Danh_m%E1%BB%A5c_Ti%C3%AAu_chu%E1%BA%A9n_Qu%E1%BB%91c_gia_%28TCVN%29_2017.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "content_image_alt": "Quốc hội thông qua Bộ luật Hình sự sửa đổi: Bỏ hình phạt tử hình với 6 tội danh",
+      "content_image_credit": "Vietnam Standard and Quality Institute (CC BY 4.0)",
+      "content_image_credit_url": "https://commons.wikimedia.org/wiki/File:Danh_m%E1%BB%A5c_Ti%C3%AAu_chu%E1%BA%A9n_Qu%E1%BB%91c_gia_(TCVN)_2017.pdf",
+      "word_count": 337,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+        "https://dantri.com.vn/thoi-su/chinh-thuc-bo-tu-hinh-voi-6-toi-tu-132027-20261120132846757.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/chinh-thuc-bo-tu-hinh-voi-6-toi-tu-132027-20261120132846757.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T09:51:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/chinh-thuc-bo-tu-hinh-voi-6-toi-tu-132027-20261120132846757.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T09:32:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chiều 20/11, Quốc hội thông qua bộ luật Hình sự sửa đổi, có hiệu lực thi hành từ ngày 1/3/2027.",
+          "source_urls": [
+            "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chiều 20.11, với đa số đại biểu tham gia biểu quyết tán thành, Quốc hội thông qua bộ luật Hình sự (sửa đổi), có hiệu lực thi hành từ 1.3.2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "snippet": "Chiều 20.11, với đa số đại biểu tham gia biểu quyết tán thành, Quốc hội thông qua bộ luật Hình sự (sửa đổi), có hiệu lực thi hành từ 1.3.2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "page_sha256": "c77769e5bfaf42260583f7dc1041130a825e536411ee1ff0cf7f86b276ed6e5f",
+              "snippet_sha256": "cb1f64f8333433582fd925dc6b84d03b85e9604a94c7a3604193f111c39b8b52",
+              "verified_at": "2026-11-20T12:15:48.537717+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật mới bỏ hình phạt tử hình đối với 6 tội danh gồm bạo loạn, chống loài người, tội phạm chiến tranh, khủng bố nhằm chống chính quyền nhân dân, hiếp dâm người dưới 16 tuổi và mua bán trái phép chất ma túy.",
+          "source_urls": [
+            "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Luật mớibỏ hình phạt tử hìnhđối với 6 tội danh, gồm các tội bạo loạn, chống loài người, tội phạm chiến tranh và khủng bố nhằm chống chính quyền nhân dân (nhập chung vào tội khủng bố), hiếp dâm người dưới 16 tuổi và mua bán trái phép chất ma túy.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "snippet": "Luật mớibỏ hình phạt tử hìnhđối với 6 tội danh, gồm các tội bạo loạn, chống loài người, tội phạm chiến tranh và khủng bố nhằm chống chính quyền nhân dân (nhập chung vào tội khủng bố), hiếp dâm người dưới 16 tuổi và mua bán trái phép chất ma túy.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "page_sha256": "c77769e5bfaf42260583f7dc1041130a825e536411ee1ff0cf7f86b276ed6e5f",
+              "snippet_sha256": "1d1c4aad968521e7357fd1bee0c6e1bd145c8785213d420864e23777ec6c28b9",
+              "verified_at": "2026-11-20T12:15:48.537717+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chỉ còn 4 tội danh giữ hình phạt tử hình gồm phản bội Tổ quốc, giết người, khủng bố và sản xuất trái phép chất ma túy.",
+          "source_urls": [
+            "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Như vậy, sẽ chỉ còn 4 tội danh giữ hình phạt tử hình, gồm các tội phản bội Tổ quốc, giết người, khủng bố và sản xuất trái phép chất ma túy.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "snippet": "Như vậy, sẽ chỉ còn 4 tội danh giữ hình phạt tử hình, gồm các tội phản bội Tổ quốc, giết người, khủng bố và sản xuất trái phép chất ma túy.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "page_sha256": "c77769e5bfaf42260583f7dc1041130a825e536411ee1ff0cf7f86b276ed6e5f",
+              "snippet_sha256": "0ac6d8ee818352ea102fe34a42af9852a70db32b922a214d52caa2b00daf1bde",
+              "verified_at": "2026-11-20T12:15:48.537717+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp đầy đủ các nội dung trọng tâm của việc sửa đổi Bộ luật Hình sự, làm rõ danh mục 6 tội danh được bãi bỏ án tử hình và 4 tội danh còn lại. Đồng thời, bài báo cung cấp bối cảnh chi tiết về cơ sở lý giải của Chính phủ và các quy định mới về cơ chế khoan hồng đặc biệt.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T12:15:48.538345+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "16",
+        "25",
+        "4",
+        "417",
+        "6"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T12:15:48.539370+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 337,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1527
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto",
+      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "queue_id": "chinh-quyen-my-tiep-tuc-giu-lenh-cam-kinh-doanh-dong-router-moi-cua-tp-l-8d5b23e8",
+    "status": "READY",
+    "prepared_at": "2026-11-20T12:15:44.286573+00:00",
+    "expires_at": "2026-11-21T12:15:44.286573+00:00",
+    "source_urls": [
+      "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+      "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html"
+    ],
+    "article": {
+      "id": "chinh-quyen-my-tiep-tuc-giu-lenh-cam-kinh-doanh-dong-router-moi-cua-tp-l-8d5b23e8",
+      "title": "Chính quyền Mỹ tiếp tục giữ lệnh cấm kinh doanh dòng router mới của TP-Link",
+      "summary": "Hãng thiết bị mạng TP-Link vẫn chưa thể đưa các dòng router Wi-Fi mới nhất vào thị trường Mỹ do lệnh cấm toàn diện đối với thiết bị ngoại kiều được chính quyền Trump ban hành từ tháng 3/2026.",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+      "published_at": "2026-11-20T12:00:43+00:00",
+      "fetched_at": "2026-11-20T12:15:54.277518+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hãng công nghệ TP-Link vẫn chưa được phép phân phối các thế hệ router Wi-Fi mới nhất tại thị trường Mỹ, trong bối cảnh chính quyền nước này duy trì lệnh cấm ngặt nghèo đối với thiết bị định tuyến ngoại kiều từ tháng 3/2026. Quy định này ngăn chặn việc nhập khẩu hoặc kinh doanh mọi dòng router mới không được thiết kế hoặc sản xuất nội địa, trừ khi nhận được sự chấp thuận đặc biệt qua quy trình xét duyệt ngoại lệ phối hợp giữa Ủy ban Truyền thông Liên bang (FCC), Bộ Quốc phòng và Bộ An ninh Nội địa.",
+        "Mặc dù một số đối thủ cạnh tranh đã vượt qua vòng kiểm duyệt và nhận được giấy phép ngoại lệ, TP-Link vẫn gặp nhiều trở ngại trong việc thuyết phục giới chức trách. Các sản phẩm cũ hơn được phê duyệt trước tháng 3/2026 vẫn tiếp tục được lưu hành, nhưng các dòng router Wi-Fi 8 mới ra mắt - chẳng hạn mẫu Archer 8 Ultra có giá quốc tế khoảng 1.178 USD - chưa thể thâm nhập thị trường Mỹ. Quá trình xét duyệt hồ sơ này hiện vẫn diễn ra trong vòng bí mật, khiến thời điểm TP-Link có thể nhận giấy phép trở nên bất định.",
+        "Bên cạnh áp lực từ chính sách đưa chuỗi cung ứng về nước, TP-Link còn phải đối mặt với các nghi vấn về an ninh liên quan đến nguồn gốc thành lập tại Trung Quốc dù doanh nghiệp này tuyên bố đã hoàn tất việc tách biệt cơ cấu sở hữu và chuyển trụ sở toàn cầu sang California vào tháng 10/2024. Trong khi đó, một số nhà lập pháp Mỹ đã đề xuất dự luật mới nhằm siết chặt thẩm quyền của FCC đối với Danh sách Covered List, yêu cầu minh bạch hơn trong việc bổ sung các danh mục công nghệ bị cấm nhằm đáp ứng nhu cầu an ninh quốc gia dài hạn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Chính quyền Trump duy trì lệnh cấm router mới của TP-Link tại Mỹ",
+      "meta_description": "TP-Link gặp khó khăn trong việc xin ngoại lệ từ chính quyền Mỹ để bán các dòng router Wi-Fi mới trong bối cảnh siết chặt an ninh mạng đối với thiết bị ngoại kiề",
+      "keywords": [
+        "TP-Link",
+        "chính quyền Trump",
+        "lệnh cấm router",
+        "Mỹ",
+        "Wi-Fi",
+        "an ninh mạng"
+      ],
+      "slug": "chinh-quyen-my-tiep-tuc-giu-lenh-cam-kinh-doanh-dong-router-moi-cua-tp-l-8d5b23e8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 331,
+      "display_source": true,
+      "source_urls": [
+        "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+        "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html"
+      ],
+      "source_references": [
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T12:00:43+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T17:11:11+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chính quyền Trump áp dụng lệnh cấm toàn diện đối với router tiêu dùng sản xuất ở nước ngoài vào tháng 3/2026.",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Trump administrationimposed a sweeping banon foreign-made consumer routers in March 2026, and TP-Link hasn’t been able to obtain an exemption.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+              "snippet": "The Trump administrationimposed a sweeping banon foreign-made consumer routers in March 2026, and TP-Link hasn’t been able to obtain an exemption.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+              "page_sha256": "142bc719933513e7b7635fab440899dcbb6effa958f063c9e6a0e29ea3090a2a",
+              "snippet_sha256": "d49b85adcff717d722fde5b4adc280b94b0c49d9675e751b45c809cc4d2b69a5",
+              "verified_at": "2026-11-20T12:15:54.277063+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "TP-Link đã hoàn tất việc tách biệt tổ chức và chuyển trụ sở toàn cầu sang California vào tháng 10/2024.",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The US-based TP-Linkestablished California as global headquartersin October 2024, months aftercompletinga “formal organizational separation” from the TP-Link entity in China.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+              "snippet": "The US-based TP-Linkestablished California as global headquartersin October 2024, months aftercompletinga “formal organizational separation” from the TP-Link entity in China.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+              "page_sha256": "142bc719933513e7b7635fab440899dcbb6effa958f063c9e6a0e29ea3090a2a",
+              "snippet_sha256": "021d91535884a48b431c3970c4ca83deb83b821ef0b7445a0fac7864df7734d3",
+              "verified_at": "2026-11-20T12:15:54.277063+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy trình xem xét ngoại lệ do FCC phối hợp cùng Bộ Quốc phòng và Bộ An ninh Nội địa thực hiện.",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“That’s why I have always loved the Covered List.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+              "snippet": "“That’s why I have always loved the Covered List.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us",
+              "page_sha256": "142bc719933513e7b7635fab440899dcbb6effa958f063c9e6a0e29ea3090a2a",
+              "snippet_sha256": "e35dccecfc3b8da2f72b399be901ab7b5dc679b84ec6da9e6934a48312bd3ec6",
+              "verified_at": "2026-11-20T12:15:54.277063+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ tình trạng pháp lý và rào cản quản lý mà TP-Link đang đối mặt tại thị trường Mỹ, đồng thời đặt vấn đề về mức độ minh bạch của quy trình cấp phép ngoại lệ do chính quyền liên bang nắm giữ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T12:15:54.277592+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.178",
+        "2024",
+        "2026",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T12:15:54.278432+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 331,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1552
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bay-nha-ong-sang-lap-anthropic-thu-ve-gan-2-ty-usd-trong-ot-phat-hanh-co-dc5ce6d0",
+    "status": "READY",
+    "prepared_at": "2026-11-20T12:15:44.286573+00:00",
+    "expires_at": "2026-11-21T12:15:44.286573+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+      "https://www.npr.org/2026/11/19/nx-s1-6042560/ai-giant-anthropics-shares-pop-in-debut-after-blockbuster-ipo",
+      "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+      "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+    ],
+    "article": {
+      "id": "bay-nha-ong-sang-lap-anthropic-thu-ve-gan-2-ty-usd-trong-ot-phat-hanh-co-dc5ce6d0",
+      "title": "Bảy nhà đồng sáng lập Anthropic thu về gần 2 tỷ USD trong đợt phát hành cổ phiếu kỷ lục",
+      "summary": "Bảy nhà đồng sáng lập của công ty trí tuệ nhân tạo Anthropic đã thu về tổng cộng khoảng 1,95 tỷ USD từ đợt phát hành cổ phiếu lần đầu ra công chúng (IPO) lớn nhất lịch sử.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+      "published_at": "2026-11-20T00:43:50+00:00",
+      "fetched_at": "2026-11-20T12:15:59.761058+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Công ty trí tuệ nhân tạo Anthropic chính thức trở thành công ty đại chúng sau một đợt phát hành cổ phiếu lần đầu ra công chúng (IPO) đạt mức kỷ lục. Theo các tài liệu và thông tin từ thị trường, tổng số tiền công ty huy động được đạt mức lớn, trong đó nhóm bảy nhà đồng sáng lập đã thu về khoảng 1,95 tỷ USD từ việc bán một phần cổ phần sở hữu.",
+        "Mỗi nhà sáng lập đã đưa ra khoảng 3,4 triệu cổ phiếu để bán trong đợt IPO này. Với mức giá IPO đã được điều chỉnh lên 83 USD mỗi cổ phiếu, mỗi người trong số họ thu về khoảng 280 million USD trước khi tính phí bảo lãnh và thuế. Con số này cao hơn so với mức dự tính ban đầu dựa trên khoảng giá giữa ở mức 74 USD mỗi cổ phiếu.",
+        "Bên cạnh khoản thu nhập cá nhân từ đợt thoái vốn, các hồ sơ IPO của Anthropic cho biết nhóm nhà sáng lập đã cam kết dành phần lớn lượng cổ phần cá nhân còn lại cho các hoạt động từ thiện. Tuy nhiên, công ty cũng lưu ý rằng các cam kết này mang tính tự nguyện, có thể thu hồi và không tạo thành nghĩa vụ ràng buộc về mặt pháp lý.",
+        "Đợt IPO này diễn ra trong bối cảnh thị trường có nhiều biến động và thu hút sự tham gia mạnh mẽ từ các tập đoàn công nghệ lớn. Sự kiện đánh dấu một cột mốc quan trọng trong lĩnh vực trí tuệ nhân tạo khi Anthropic tiếp tục đẩy mạnh các khoản đầu tư lớn vào cơ sở hạ tầng và năng lực tính toán trong thời gian tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bảy nhà sáng lập Anthropic thu gần 2 tỷ USD trong đợt IPO kỷ lục",
+      "meta_description": "Khám phá chi tiết đợt IPO lịch sử của Anthropic, nơi 7 nhà sáng lập thu về gần 2 tỷ USD và cam kết về các định hướng phát triển tiếp theo.",
+      "keywords": [
+        "Anthropic",
+        "IPO",
+        "AI",
+        "cổ phiếu",
+        "công nghệ"
+      ],
+      "slug": "bay-nha-ong-sang-lap-anthropic-thu-ve-gan-2-ty-usd-trong-ot-phat-hanh-co-dc5ce6d0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 296,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+        "https://www.npr.org/2026/11/19/nx-s1-6042560/ai-giant-anthropics-shares-pop-in-debut-after-blockbuster-ipo",
+        "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+        "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+        "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/19/nx-s1-6042560/ai-giant-anthropics-shares-pop-in-debut-after-blockbuster-ipo",
+        "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+        "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+        "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T00:43:50+00:00"
+        },
+        {
+          "name": "NPR - Business",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6042560/ai-giant-anthropics-shares-pop-in-debut-after-blockbuster-ipo",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T21:19:56+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T14:26:20+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T11:00:01+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T10:02:21+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Anthropic trở thành công ty đại chúng và huy động tổng cộng 81,3 tỷ USD, trong đó có 1,95 tỷ USD cho bảy nhà đồng sáng lập.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+              "snippet": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+              "page_sha256": "00705e788f15e349dc0d55d8cd614b519e1f08967f228e10f497c7117365fb1e",
+              "snippet_sha256": "e0877b9fd5afeaa13587b18c618270333c75e4504f049a53c980ab0831fdc852",
+              "verified_at": "2026-11-20T12:15:59.760581+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mỗi nhà đồng sáng lập đưa khoảng 3,4 triệu cổ phiếu ra bán và thu về khoảng 280 triệu USD ở mức giá IPO 83 USD mỗi cổ phiếu trước phí và thuế.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "At the upgraded IPO price of $83 per share, that means they each pocketed about $280 million before underwriting fees and taxes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+              "snippet": "At the upgraded IPO price of $83 per share, that means they each pocketed about $280 million before underwriting fees and taxes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+              "page_sha256": "00705e788f15e349dc0d55d8cd614b519e1f08967f228e10f497c7117365fb1e",
+              "snippet_sha256": "88e76fe8dda91e14e8c06e3018910da40b39cd0967e2413052a992646b8ed091",
+              "verified_at": "2026-11-20T12:15:59.760581+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các nhà sáng lập cam kết dành 80% vốn cổ phần cá nhân cho từ thiện, dù công ty lưu ý đây là biểu hiện ý định tự nguyện và có thể thu hồi.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The company said that each of the founders has pledged to dedicate 80% of their personal equity in the companyto philanthropy.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+              "snippet": "The company said that each of the founders has pledged to dedicate 80% of their personal equity in the companyto philanthropy.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+              "page_sha256": "00705e788f15e349dc0d55d8cd614b519e1f08967f228e10f497c7117365fb1e",
+              "snippet_sha256": "e0a1b742a89884ebc7cc71c6ed5a7c2fdaa75b766df2df117695f1c8946da415",
+              "verified_at": "2026-11-20T12:15:59.760581+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích rõ chi tiết tài chính xung quanh đợt thoái vốn của các nhà đồng sáng lập Anthropic trong thương vụ IPO kỷ lục. Đồng thời, văn bản làm rõ bối cảnh định giá cổ phiếu và những cam kết từ thiện mang tính tự nguyện đi kèm theo hồ sơ công ty.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T12:15:59.761136+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,95",
+        "280",
+        "3,4",
+        "74",
+        "83"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-20T12:15:59.762326+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 296,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1309
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "npr.org",
+          "techcrunch.com",
+          "theguardian.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
