@@ -2401,7 +2401,7 @@
   },
   {
     "queue_id": "628b1be8aeff729c3844",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T17:21:56.786674+00:00",
     "expires_at": "2026-11-23T17:19:44.202165+00:00",
     "category_hint": "vietnam",
@@ -3327,11 +3327,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T17:21:56.786703+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ho-kinh-doanh-doanh-thu-en-10-ti-ong-uoc-chon-phuong-phap-tinh-thue-tu-n-fc88833b"
   },
   {
     "queue_id": "1355a68c7272a722726f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T17:21:44.499922+00:00",
     "expires_at": "2026-11-23T17:19:44.202165+00:00",
     "category_hint": "world",
@@ -4413,11 +4414,12 @@
       ]
     },
     "research_ready_at": "2026-11-20T17:21:44.499946+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ba-lan-cao-buoc-nga-co-y-khieu-khich-sau-khi-ten-lua-roi-xuong-lanh-tho-fafae368"
   },
   {
     "queue_id": "df345421e2568bad6b2c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-20T17:21:42.922797+00:00",
     "expires_at": "2026-11-23T17:19:44.202165+00:00",
     "category_hint": "vietnam",
@@ -5731,7 +5733,8 @@
       ]
     },
     "research_ready_at": "2026-11-20T17:21:42.922822+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "u-17-trung-quoc-khoi-au-kho-khan-tai-world-cup-2026-sau-tran-thua-am-tru-05a0f678"
   },
   {
     "queue_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
@@ -17165,7 +17168,7 @@
     "queue_id": "4f1d89d8075ba9c1c405",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-19T17:43:39.592051+00:00",
-    "expires_at": "2026-11-23T03:43:25.487026+00:00",
+    "expires_at": "2026-11-23T18:02:15.342042+00:00",
     "category_hint": "sports",
     "lead_title": "Why Broncos are signing Riley Moss to a $67 million contract extension",
     "source_urls": [
@@ -17728,9 +17731,9 @@
     },
     "research_ready_at": "2026-11-19T17:43:39.592073+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.1-flash-lite: fact_led",
-    "write_attempts": 2,
-    "next_write_after": "2026-11-20T11:43:25.487026+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệ",
+    "write_attempts": 3,
+    "next_write_after": "2026-11-21T10:02:15.342042+00:00"
   },
   {
     "queue_id": "0a5ba6df4125a48ffc52",
@@ -89646,7 +89649,7 @@
   },
   {
     "queue_id": "nha-toan-hoc-tai-anthropic-tuyen-bo-giai-thanh-cong-gia-thuyet-riemann-v-66a873bc",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-20T17:22:26.132048+00:00",
     "expires_at": "2026-11-21T17:22:26.132048+00:00",
     "source_urls": [
@@ -89662,7 +89665,7 @@
       "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "published_at": "2026-11-20T16:57:47+00:00",
       "fetched_at": "2026-11-20T17:22:44.619147+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-20T18:06:56.278274+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -89819,23 +89822,33 @@
         "1859"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-20T17:22:44.620836+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-20T18:06:56.278274+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 312,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1489
-        },
-        "independent_domains": [
-          "bbc.com",
-          "theverge.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1489,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-21 01:06"
+    },
+    "published_at": "2026-11-20T18:06:56.278274+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
@@ -90258,5 +90271,711 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "ho-kinh-doanh-doanh-thu-en-10-ti-ong-uoc-chon-phuong-phap-tinh-thue-tu-n-fc88833b",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-20T18:02:15.342042+00:00",
+    "expires_at": "2026-11-21T18:02:15.342042+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+      "https://dantri.com.vn/kinh-doanh/36-nam-ivb-ket-noi-nguon-luc-dong-hanh-cung-doanh-nghiep-fdi-20261120195905074.htm",
+      "https://thanhnien.vn/chinh-phu-khong-dong-y-nang-nguong-doanh-thu-mien-thue-len-2-ti-185261120171742012.htm"
+    ],
+    "article": {
+      "id": "ho-kinh-doanh-doanh-thu-en-10-ti-ong-uoc-chon-phuong-phap-tinh-thue-tu-n-fc88833b",
+      "title": "Hộ kinh doanh doanh thu đến 10 tỉ đồng được chọn phương pháp tính thuế từ năm 2027",
+      "summary": "Quốc hội chính thức thông qua quy định nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ lên 10 tỉ đồng/năm, áp dụng từ kỳ tính thuế 2027, giúp hộ kinh doanh giảm áp lực sổ sách kế toán.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+      "published_at": "2026-11-20T14:46:00+00:00",
+      "fetched_at": "2026-11-20T18:02:28.842890+00:00",
+      "appnho_published_at": "2026-11-20T18:06:56.278274+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chiều 20-11, Quốc hội đã chính thức thông qua Luật sửa đổi, bổ sung một số điều của Luật Thuế thu nhập doanh nghiệp, Luật Thuế sử dụng đất phi nông nghiệp và Luật Thuế thu nhập cá nhân với tỷ lệ đại biểu tán thành cao. Một trong những điểm mới đáng chú ý là việc nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ đồng lên 10 tỉ đồng mỗi năm.",
+        "Theo quy định vừa được thông qua, từ kỳ tính thuế năm 2027, các doanh nghiệp có tổng doanh thu không quá 10 tỉ đồng/năm cũng như hộ và cá nhân kinh doanh có doanh thu trên 1 tỉ đến 10 tỉ đồng/năm sẽ có quyền lựa chọn cách tính thuế thu nhập phù hợp. Người nộp thuế có thể chọn tính trên thu nhập tính thuế hoặc tính theo tỉ lệ phần trăm trực tiếp trên doanh thu.",
+        "Sự thay đổi này mang lại thêm lựa chọn cho nhóm hộ và cá nhân kinh doanh có quy mô doanh thu từ trên 3 tỉ đến 10 tỉ đồng/năm. Thay vì bắt buộc phải xác định thu nhập tính thuế trên cơ sở doanh thu trừ đi chi phí như trước đây - quy trình vốn khiến nhiều người kinh doanh lúng túng khi tập hợp hóa đơn, chứng từ và chứng minh chi phí hợp lệ - nay họ có thể chọn phương pháp tính theo tỉ lệ doanh thu.",
+        "Theo Bộ Tài chính, khoảng 81,1% doanh nghiệp và 99,98% hộ kinh doanh tại Việt Nam hiện có doanh thu không quá 10 tỉ đồng/năm. Việc nới rộng ngưỡng doanh thu lựa chọn phương pháp tính thuế được kỳ vọng sẽ giúp giảm bớt gánh nặng về kê khai, giảm áp lực sổ sách kế toán từ nhiều sổ xuống còn một sổ đối với hình thức tính thuế theo tỉ lệ doanh thu, đồng thời tạo sự đồng bộ chính sách giữa doanh nghiệp và hộ kinh doanh."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hộ kinh doanh doanh thu dưới 10 tỉ đồng được chọn cách tính thuế mới",
+      "meta_description": "Quy định mới cho phép hộ kinh doanh và doanh nghiệp có doanh thu đến 10 tỉ đồng/năm được lựa chọn phương pháp tính thuế theo tỉ lệ từ kỳ tính thuế 2027.",
+      "keywords": [
+        "hộ kinh doanh",
+        "tính thuế theo tỉ lệ",
+        "thuế thu nhập cá nhân",
+        "doanh thu 10 tỉ đồng",
+        "Quốc hội"
+      ],
+      "slug": "ho-kinh-doanh-doanh-thu-en-10-ti-ong-uoc-chon-phuong-phap-tinh-thue-tu-n-fc88833b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 338,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+        "https://dantri.com.vn/kinh-doanh/36-nam-ivb-ket-noi-nguon-luc-dong-hanh-cung-doanh-nghiep-fdi-20261120195905074.htm",
+        "https://thanhnien.vn/chinh-phu-khong-dong-y-nang-nguong-doanh-thu-mien-thue-len-2-ti-185261120171742012.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/36-nam-ivb-ket-noi-nguon-luc-dong-hanh-cung-doanh-nghiep-fdi-20261120195905074.htm",
+        "https://thanhnien.vn/chinh-phu-khong-dong-y-nang-nguong-doanh-thu-mien-thue-len-2-ti-185261120171742012.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T14:46:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/36-nam-ivb-ket-noi-nguon-luc-dong-hanh-cung-doanh-nghiep-fdi-20261120195905074.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T12:59:11+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/chinh-phu-khong-dong-y-nang-nguong-doanh-thu-mien-thue-len-2-ti-185261120171742012.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T11:18:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Quốc hội thông qua quy định nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ lên 10 tỉ đồng/năm vào chiều 20-11.",
+          "source_urls": [
+            "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Quốc hội chính thức thông qua quy định nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ lên 10 tỉ đồng/năm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "snippet": "Quốc hội chính thức thông qua quy định nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ lên 10 tỉ đồng/năm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "page_sha256": "5cadde2b6372008998127bfe3eb350f452f3f73ee11342f27d32fc37b8be8184",
+              "snippet_sha256": "c64b7ccd1d7d18ddaa43de6d71c82fda9b89e05de45c3f951d5658c1b945d5ff",
+              "verified_at": "2026-11-20T18:02:28.842066+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy định này áp dụng từ kỳ tính thuế năm 2027 cho doanh nghiệp và hộ, cá nhân kinh doanh có doanh thu không quá 10 tỉ đồng/năm.",
+          "source_urls": [
+            "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Quy định nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ lên 10 tỉ đồng/năm áp dụng từ kỳ tính thuế năm 2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "snippet": "Quy định nâng ngưỡng doanh thu được lựa chọn phương pháp tính thuế từ 3 tỉ lên 10 tỉ đồng/năm áp dụng từ kỳ tính thuế năm 2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "page_sha256": "5cadde2b6372008998127bfe3eb350f452f3f73ee11342f27d32fc37b8be8184",
+              "snippet_sha256": "fcb601704b4a82100cbc606433d77f05949c05e3d22149fd3192211a017f0875",
+              "verified_at": "2026-11-20T18:02:28.842066+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Khoảng 81,1% doanh nghiệp và 99,98% hộ kinh doanh có doanh thu không quá 10 tỉ đồng/năm theo số liệu của Bộ Tài chính.",
+          "source_urls": [
+            "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo số liệu Bộ Tài chính công bố, khoảng 81,1% doanh nghiệp và 99,98% hộ kinh doanh có doanh thu không quá 10 tỉ đồng/năm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "snippet": "Theo số liệu Bộ Tài chính công bố, khoảng 81,1% doanh nghiệp và 99,98% hộ kinh doanh có doanh thu không quá 10 tỉ đồng/năm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "page_sha256": "5cadde2b6372008998127bfe3eb350f452f3f73ee11342f27d32fc37b8be8184",
+              "snippet_sha256": "edcbf0d8e1b91ee85a9834a94b3d4b688cdbc154a4e626c0791b7979bab3c8a6",
+              "verified_at": "2026-11-20T18:02:28.842066+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy định mới về ngưỡng doanh thu tính thuế đối với hộ kinh doanh và doanh nghiệp nhỏ từ năm 2027. Phân tích tập trung vào sự thay đổi từ phương pháp trừ chi phí sang tính thuế theo tỉ lệ doanh thu, giải quyết vướng mắc về chứng từ và giảm áp lực sổ sách.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T18:02:28.842999+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "2027",
+        "3",
+        "81,1",
+        "99,98"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-20T18:06:56.278274+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 338,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1536,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/chinh-thuc-ho-kinh-doanh-doanh-thu-den-10-ti-dong-nam-duoc-chon-tinh-thue-theo-ti-le-100261120212627122.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-21 01:06"
+    },
+    "published_at": "2026-11-20T18:06:56.278274+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ba-lan-cao-buoc-nga-co-y-khieu-khich-sau-khi-ten-lua-roi-xuong-lanh-tho-fafae368",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-20T18:02:15.342042+00:00",
+    "expires_at": "2026-11-21T18:02:15.342042+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine"
+    ],
+    "article": {
+      "id": "ba-lan-cao-buoc-nga-co-y-khieu-khich-sau-khi-ten-lua-roi-xuong-lanh-tho-fafae368",
+      "title": "Ba Lan cáo buộc Nga cố ý khiêu khích sau khi tên lửa rơi xuống lãnh thổ",
+      "summary": "Thủ tướng Ba Lan Donald Tusk khẳng định việc các vật thể bay vi phạm không phận nước này không phải ngẫu nhiên, khi sự việc diễn ra đúng lúc các đồng minh phương Tây đang tiến hành tập trận quân sự.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T16:54:29+00:00",
+      "fetched_at": "2026-11-20T18:02:35.643135+00:00",
+      "appnho_published_at": "2026-11-20T18:06:56.278274+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chính quyền Ba Lan cho biết một tên lửa hành trình của Nga nằm trong số ba vật thể vi phạm không phận nước này vào sáng sớm ngày thứ Sáu. Sự việc xảy ra trong bối cảnh Nga tiến hành một trong những đợt không kích quy mô lớn nhất nhằm vào các mục tiêu tại Ukraine kể từ khi xung đột bùng nổ vào năm 2022.",
+        "Bộ trưởng Quốc phòng Ba Lan Wladyslaw Kosiniak-Kamysz thông tin, một tên lửa loại Kh-101 đã rơi xuống khu vực nông thôn tại Nowy Lipowiec ở đông nam Ba Lan, cách biên giới Ukraine khoảng 50km. Hai vật thể khác gồm một nghiû thể tên lửa và một máy bay không người lái chạy bằng phản lực cũng rơi tại các khu vực lân cận.",
+        "Thủ tướng Ba Lan Donald Tusk nhận định sự cố này không phải là một tai nạn ngẫu nhiên, bởi nó diễn ra ngay tại thời điểm các cuộc tập trận quân sự của phương Tây và các đồng minh đang được tổ chức trong khu vực. Warsaw đã gọi đây là một hành động khiêu khích có chủ đích từ phía Moskva.",
+        "Tổng thư ký NATO Mark Rutte đã lên án mạnh mẽ các vi phạm không phận nghiêm trọng này và xác nhận các máy bay chiến đấu của khối đã được điều động phản ứng. Trong khi đó, các bộ trưởng quốc phòng từ Anh, Pháp, Ba Lan, Estonia và Lithuania sau đó đã trực tiếp tới thăm thao trường diễn tập quân sự.",
+        "Phía Nga hiện chưa đưa ra bình luận nào về các cáo buộc vi phạm không phận nêu trên. Các nhà lãnh đạo châu Âu nhấn mạnh sự cố này một lần nữa cho thấy những rủi ro an ninh nghiêm trọng từ cuộc xung đột đang lan rộng ra các nước láng giềng của Ukraine."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ba Lan cáo buộc Nga khiêu khích sau vụ rơi tên lửa",
+      "meta_description": "Thủ tướng Ba Lan Donald Tusk cho rằng vụ tên lửa rơi xuống lãnh thổ nước này là hành động khiêu khích có chủ ý từ Moskva.",
+      "keywords": [
+        "Ba Lan",
+        "Nga",
+        "Tên lửa",
+        "Tập trận quân sự",
+        "NATO"
+      ],
+      "slug": "ba-lan-cao-buoc-nga-co-y-khieu-khich-sau-khi-ten-lua-roi-xuong-lanh-tho-fafae368",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 316,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T16:54:29+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T16:16:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ba Lan thông báo một tên lửa hành trình Nga cùng hai vật thể khác đã vi phạm không phận nước này vào sáng thứ Sáu.",
+          "source_urls": [
+            "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Absolutely all the targets were ordinary civilian infrastructure – things that literally sustain people’s lives,” he said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+              "snippet": "Absolutely all the targets were ordinary civilian infrastructure – things that literally sustain people’s lives,” he said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+              "page_sha256": "941cafee67c82c06270ea73315ca6a07658ef945102407ec3fa1ec85a53e25b4",
+              "snippet_sha256": "2ed5b2363709e9d8e96ab957dd35e40f5bdc86f09228245ed9ece4a0953a7651",
+              "verified_at": "2026-11-20T18:02:35.642443+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Donald Tusk phát biểu rằng sự việc này không phải là tai nạn mà là hành động khiêu khích có chủ ý khi các đồng minh phương Tây đang tập trận quân sự.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "snippet": "Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "2947178db624b8148add60c3037406eb76f9f1ebffa418d6446aa38d705b07de",
+              "snippet_sha256": "85836056c6f262557a8127e8ca95f24c61dc4b3b2555bb75bee5f627fd071464",
+              "verified_at": "2026-11-20T18:02:35.642443+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ trưởng Quốc phòng Wladyslaw Kosiniak-Kamysz cho biết tên lửa Kh-101 rơi xuống Nowy Lipowiec, cách biên giới Ukraine khoảng 50km.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "snippet": "Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "2947178db624b8148add60c3037406eb76f9f1ebffa418d6446aa38d705b07de",
+              "snippet_sha256": "13747e77b6d337f7470bcb4046c165c14433dcbc4acb43b004b1ec2f2d70207d",
+              "verified_at": "2026-11-20T18:02:35.642443+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thư ký NATO Mark Rutte lên án các vụ vi phạm không phận và xác nhận máy bay phản lực NATO đã được điều động phản ứng.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nato Secretary General Mark Rutte condemned \"grave violations of Polish airspace\" and said Nato jets had been scrambled in response.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "snippet": "Nato Secretary General Mark Rutte condemned \"grave violations of Polish airspace\" and said Nato jets had been scrambled in response.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "2947178db624b8148add60c3037406eb76f9f1ebffa418d6446aa38d705b07de",
+              "snippet_sha256": "a4a39065934bcd4708b5b5b1d45f235dd2a42242fac101893ab1585e7573a413",
+              "verified_at": "2026-11-20T18:02:35.642443+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh địa chính trị nhạy cảm khi các vật thể bay rơi xuống lãnh thổ Ba Lan ngay giữa lúc diễn ra tập trận quân sự của phương Tây. Phân tích này kết nối phản ứng của các quan chức Ba Lan và NATO nhằm đánh giá mức độ leo thang an ninh trong khu vực.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T18:02:35.643236+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "101",
+        "2022",
+        "50"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-20T18:06:56.278274+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 316,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1456,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-21 01:06"
+    },
+    "published_at": "2026-11-20T18:06:56.278274+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "u-17-trung-quoc-khoi-au-kho-khan-tai-world-cup-2026-sau-tran-thua-am-tru-05a0f678",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-20T18:02:15.342042+00:00",
+    "expires_at": "2026-11-21T18:02:15.342042+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+      "https://dantri.com.vn/cong-nghe/xoa-lom-song-cho-hon-130000-nguoi-dan-tai-vung-xa-nhat-to-quoc-20261120145244147.htm",
+      "https://tuoitre.vn/giai-the-ban-chi-dao-doi-moi-va-nang-cao-hieu-qua-hoat-dong-giam-dinh-tu-phap-o-cap-trung-uong-100261120165431144.htm"
+    ],
+    "article": {
+      "id": "u-17-trung-quoc-khoi-au-kho-khan-tai-world-cup-2026-sau-tran-thua-am-tru-05a0f678",
+      "title": "U.17 Trung Quốc khởi đầu khó khăn tại World Cup 2026 sau trận thua đậm trước Tây Ban Nha",
+      "summary": "Đội tuyển U.17 Trung Quốc đã có màn ra quân không như ý tại bảng H giải U.17 World Cup 2026 khi để thua 0-5 trước đối thủ mạnh Tây Ban Nha, qua đó tạm xếp cuối bảng đấu.",
+      "category": "sports",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+      "published_at": "2026-11-20T17:00:00+00:00",
+      "fetched_at": "2026-11-20T18:03:10.982630+00:00",
+      "appnho_published_at": "2026-11-20T18:06:56.278274+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội tuyển U.17 Trung Quốc đã trải qua trận ra quân đầy thử thách tại bảng H giải U.17 World Cup 2026 khi đối đầu với U.17 Tây Ban Nha, đội bóng được đánh giá là ứng cử viên nặng ký cho chức vô địch. Với giá trị đội hình lên tới 19,5 triệu euro, đại diện châu Âu đã thể hiện sự áp đảo hoàn toàn về chuyên môn và lối chơi tấn công ấn tượng ngay từ những phút đầu tiên.",
+        "Trong suốt hiệp 1, U.17 Tây Ban Nha kiểm soát bóng tới 78% và tạo ra 8 pha dứt điểm, gấp 4 lần so với đối thủ. Sự vượt trội này sớm được cụ thể hóa bằng hai bàn thắng của Pesquer ở phút 40 và Tunkara ở phút 45+2. Bước sang hiệp 2, sức ép từ phía Tây Ban Nha càng gia tăng với tốc độ trận đấu được đẩy lên cao hơn. Đội bóng này tung thêm 14 cú sút về phía khung thành U.17 Trung Quốc, qua đó ghi thêm 3 bàn thắng nhờ cú đúp của Emeka (phút 73, 79) và pha lập công của Trujillano ở phút 85, ấn định chiến thắng 5-0 chung cuộc.",
+        "Kết quả này khiến U.17 Trung Quốc rơi xuống vị trí cuối bảng H với 0 điểm và hiệu số -5. Trong khi đó, U.17 Tây Ban Nha vươn lên dẫn đầu bảng với 3 điểm và hiệu số +5. Ở trận đấu còn lại của bảng H, U.17 Ma Rốc đã giành chiến thắng 2-0 trước U.17 Fiji, qua đó tạm xếp thứ hai. Đối với U.17 Trung Quốc, thất bại trước một đối thủ có đẳng cấp vượt trội như Tây Ban Nha là bài học kinh nghiệm lớn cho hành trình còn lại tại giải đấu. Đội bóng cần nhanh chóng cải thiện khả năng phòng ngự và tổ chức tấn công để tìm kiếm cơ hội giành điểm trong các lượt trận tiếp theo, khi áp lực về hiệu số bàn thắng bại đang là một bất lợi đáng kể sau trận thua đậm này."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Kết quả U.17 World Cup 2026: Trung Quốc thua Tây Ban Nha 0-5",
+      "meta_description": "Đội tuyển U.17 Trung Quốc đã có màn ra quân không như ý tại bảng H giải U.17 World Cup 2026 khi để thua 0-5 trước đối thủ mạnh Tây Ban Nha, qua đó tạm xếp cuối ",
+      "keywords": [
+        "U.17 World Cup 2026",
+        "U.17 Trung Quốc",
+        "U.17 Tây Ban Nha",
+        "bóng đá trẻ"
+      ],
+      "slug": "u-17-trung-quoc-khoi-au-kho-khan-tai-world-cup-2026-sau-tran-thua-am-tru-05a0f678",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 352,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+        "https://dantri.com.vn/cong-nghe/xoa-lom-song-cho-hon-130000-nguoi-dan-tai-vung-xa-nhat-to-quoc-20261120145244147.htm",
+        "https://tuoitre.vn/giai-the-ban-chi-dao-doi-moi-va-nang-cao-hieu-qua-hoat-dong-giam-dinh-tu-phap-o-cap-trung-uong-100261120165431144.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/cong-nghe/xoa-lom-song-cho-hon-130000-nguoi-dan-tai-vung-xa-nhat-to-quoc-20261120145244147.htm",
+        "https://tuoitre.vn/giai-the-ban-chi-dao-doi-moi-va-nang-cao-hieu-qua-hoat-dong-giam-dinh-tu-phap-o-cap-trung-uong-100261120165431144.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T17:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/xoa-lom-song-cho-hon-130000-nguoi-dan-tai-vung-xa-nhat-to-quoc-20261120145244147.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T10:43:50+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/giai-the-ban-chi-dao-doi-moi-va-nang-cao-hieu-qua-hoat-dong-giam-dinh-tu-phap-o-cap-trung-uong-100261120165431144.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T10:19:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "U.17 Trung Quốc thua U.17 Tây Ban Nha 0-5 trong trận ra quân bảng H tại U.17 World Cup 2026.",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Văn Trình- trinhthach775@gmail.com21/11/2026 00:00 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!U.17 Trung Quốc không thể tạo nên bất ngờ ở trận ra quân bảng H giải U.17 World Cup 2026 khi để thua 0-5 trước U.17 Tây Ban Nha.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "snippet": "Văn Trình- trinhthach775@gmail.com21/11/2026 00:00 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!U.17 Trung Quốc không thể tạo nên bất ngờ ở trận ra quân bảng H giải U.17 World Cup 2026 khi để thua 0-5 trước U.17 Tây Ban Nha.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "page_sha256": "2b652493593d8d122b2a7d7ced2aac700af4b05779d92038526393292804552d",
+              "snippet_sha256": "8bd490f04fde93c3dd62d5b57b70a6371e0d106f4ed7102cb915ac9992d13549",
+              "verified_at": "2026-11-20T18:03:10.981938+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "U.17 Tây Ban Nha có giá trị đội hình 19,5 triệu euro và được đánh giá là ứng cử viên vô địch.",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tại U.17 World Cup 2026, U.17 Tây Ban Nha là đội có giá trị đội hình cao nhất: 19,5 triệu euro.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "snippet": "Tại U.17 World Cup 2026, U.17 Tây Ban Nha là đội có giá trị đội hình cao nhất: 19,5 triệu euro.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "page_sha256": "2b652493593d8d122b2a7d7ced2aac700af4b05779d92038526393292804552d",
+              "snippet_sha256": "3a206d6fe293f1ec631bb5875401f5d416dd80d39b6fd019e5b8e840cd5d5858",
+              "verified_at": "2026-11-20T18:03:10.981938+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các bàn thắng của Tây Ban Nha được ghi bởi Pesquer (40'), Tunkara (45+2'), Emeka (73', 79') và Trujillano (85').",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Kết thúc hiệp đấu này, U.17 Tây Ban Nha cũng có lợi thế lớn khi dẫn trước 2-0 nhờ các bàn thắng của Pesquer (phút 40) và Tunkara (phút 45+2).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "snippet": "Kết thúc hiệp đấu này, U.17 Tây Ban Nha cũng có lợi thế lớn khi dẫn trước 2-0 nhờ các bàn thắng của Pesquer (phút 40) và Tunkara (phút 45+2).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "page_sha256": "2b652493593d8d122b2a7d7ced2aac700af4b05779d92038526393292804552d",
+              "snippet_sha256": "a8deadd9381b89dbb7b2f5e7218e5ada66ce969c63986917d447669a992a88a0",
+              "verified_at": "2026-11-20T18:03:10.981938+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự chênh lệch về trình độ giữa hai đội thông qua các thông số kỹ thuật cụ thể từ trận đấu. Đồng thời, bài viết đặt kết quả này trong bối cảnh tổng thể của bảng H để độc giả có cái nhìn toàn diện về cục diện bảng đấu sau lượt trận đầu tiên.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-20T18:03:10.982734+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0",
+        "1",
+        "14",
+        "17",
+        "19,5",
+        "2",
+        "2026",
+        "3",
+        "4",
+        "40",
+        "45",
+        "5",
+        "73",
+        "78",
+        "79",
+        "8",
+        "85"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-20T18:06:56.278274+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 352,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1542,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-thua-tay-ban-nha-0-5-dung-cuoi-bang-185261120231301163.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-21 01:06"
+    },
+    "published_at": "2026-11-20T18:06:56.278274+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
