@@ -520,7 +520,8 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-21T02:52:27.814950+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9"
     },
     "https://www.espn.com/womens-college-basketball/story/_/id/50544572/lsu-tigers-women-basketball-guard-milaysia-fulwiley-not-facing-felony-charges-arrest": {
       "id": "a42706842716c6cdb854",
@@ -1015,7 +1016,8 @@
       "source_name": "VnExpress - Thể thao",
       "category": "sports",
       "first_seen_at": "2026-11-21T02:52:27.814779+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584"
     },
     "https://vnexpress.net/truc-tiep-viet-nam-bi-u17-world-cup-5147219.html": {
       "id": "1cf349c8083aebb55241",
@@ -1294,8 +1296,9 @@
       "source_name": "ScienceDaily - All",
       "category": "technology",
       "first_seen_at": "2026-11-21T02:52:27.814687+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.wired.com/story/internet-archive-staffers-are-unionizing": {
       "id": "bb4917aca47a4236123f",
@@ -2115,7 +2118,8 @@
       "source_name": "VnExpress - Kinh doanh",
       "category": "vietnam",
       "first_seen_at": "2026-11-21T02:52:27.814398+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff"
     },
     "https://www.bbc.co.uk/sport/darts/articles/ck7928yjd1dgo?at_medium=RSS&at_campaign=rss": {
       "id": "4c39f4946b0ff0d88e60",
@@ -3042,7 +3046,8 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-21T02:52:27.814019+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff"
     },
     "https://dantri.com.vn/lao-dong-viec-lam/nhung-lao-dong-duoc-thuong-tien-nghi-4-ngay-dip-le-van-hoa-viet-nam-2411-20261118154638223.htm": {
       "id": "110908e2cf87ed81dc95",
@@ -3411,7 +3416,8 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-21T02:52:27.813883+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584"
     },
     "https://dantri.com.vn/giao-duc/gs-duong-quang-ham-va-di-san-cua-mot-nep-nha-20261115190710319.htm": {
       "id": "a3b3a31733cdb6d258b9",
@@ -3744,7 +3750,8 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-21T02:52:27.813760+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584"
     },
     "https://thanhnien.vn/huong-toi-nam-apec-2027-voi-dau-an-viet-nam-185261121041344211.htm": {
       "id": "6dab8df497592ee3cb42",
@@ -5277,8 +5284,9 @@
       "source_name": "Wired - All",
       "category": "technology",
       "first_seen_at": "2026-11-20T17:21:00.763789+00:00",
-      "status": "ready_for_publish",
-      "article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684"
+      "status": "published",
+      "article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://arstechnica.com/staff/2026/11/science-has-a-home-here-at-ars-please-help-keep-it-that-way": {
       "id": "a77ec04cfd0fecaed687",
@@ -6145,8 +6153,9 @@
       "source_name": "France 24 - English",
       "category": "world",
       "first_seen_at": "2026-11-20T17:21:00.763329+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56"
+      "status": "published",
+      "article_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.france24.com/en/tv-shows/access-asia/20261120-shenzhen-trilateral-xi-jinping-s-masterclass-in-diplomatic-theatre": {
       "id": "3189c813d399384e5b90",
@@ -6299,8 +6308,9 @@
       "source_name": "Al Jazeera - All",
       "category": "world",
       "first_seen_at": "2026-11-20T17:21:00.763251+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56"
+      "status": "published",
+      "article_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.aljazeera.com/video/newsfeed/2026/11/20/brexit-debate-returns-as-uk-pm-seeks-closer-eu-ties?traffic_source=rss": {
       "id": "e26571170cfbaaa123c5",
@@ -10656,8 +10666,9 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-20T12:14:20.944684+00:00",
-      "status": "ready_for_publish",
-      "article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25"
+      "status": "published",
+      "article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-trong-cay-tai-cong-vien-ngap-nuoc-bao-phong-trung-quoc-20261120163349263.htm": {
       "id": "f96e1374a3245667a2a3",
@@ -11127,8 +11138,9 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-20T12:14:20.944425+00:00",
-      "status": "ready_for_publish",
-      "article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25"
+      "status": "published",
+      "article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://thanhnien.vn/di-soi-ech-phat-hien-be-gai-so-sinh-bi-bo-roi-giua-rung-o-da-nang-185261120163611889.htm": {
       "id": "ff2605252f9cf1912cc0",
@@ -11510,7 +11522,8 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-20T12:14:20.944125+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff"
     },
     "https://tuoitre.vn/dong-nuoc-thai-den-kit-chay-thang-ra-bien-o-khanh-hoa-100261120134611187.htm": {
       "id": "8c82008d972ee3a86482",
@@ -12034,7 +12047,8 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-11-20T02:39:20.423545+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9"
     },
     "https://www.sportingnews.com/us/mlb/cincinnati-reds/news/donald-trump-pete-rose-pardon-hall-fame/cb51f6da65fcc3d9166694db": {
       "id": "b9a083a64abc83447872",
@@ -13100,8 +13114,9 @@
       "source_name": "The Verge - All",
       "category": "technology",
       "first_seen_at": "2026-11-20T02:39:20.423167+00:00",
-      "status": "ready_for_publish",
-      "article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684"
+      "status": "published",
+      "article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming": {
       "id": "8ea3ede346e8eecc6443",
@@ -13904,8 +13919,9 @@
       "source_name": "France 24 - English",
       "category": "world",
       "first_seen_at": "2026-11-20T02:39:20.422884+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.france24.com/en/europe/20261120-pm-s%C3%A1nchez-admits-mistakes-in-key-debate-ahead-of-spain-election": {
       "id": "31911ebf68daeb5e0c8e",
@@ -16650,8 +16666,9 @@
       "source_name": "NASA - News Releases",
       "category": "technology",
       "first_seen_at": "2026-11-19T17:42:48.591203+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions": {
       "id": "4401efb7dba1efc9a951",
@@ -20802,8 +20819,9 @@
       "source_name": "Wired - All",
       "category": "technology",
       "first_seen_at": "2026-11-19T12:12:16.708283+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself": {
       "id": "c0d4b4c5304f86a5c678",
@@ -26650,8 +26668,9 @@
       "source_name": "Al Jazeera - All",
       "category": "world",
       "first_seen_at": "2026-11-19T02:51:23.613567+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.aljazeera.com/news/2026/11/18/migrant-boat-capsizes-off-senegal-leaving-at-least-one-dead?traffic_source=rss": {
       "id": "b5d39fc9d96167f6eba0",
@@ -32970,8 +32989,9 @@
       "source_name": "Engadget - All",
       "category": "technology",
       "first_seen_at": "2026-11-18T12:18:19.608235+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://news.mit.edu/2026/building-blocks-for-greener-skyline-miana-smith-1118": {
       "id": "396f1d2b419af0458154",
@@ -33259,8 +33279,9 @@
       "source_name": "The Verge - All",
       "category": "technology",
       "first_seen_at": "2026-11-18T12:18:19.608092+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2"
+      "status": "published",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00"
     },
     "https://www.bbc.co.uk/news/videos/cx1l0vm87yl9o?at_medium=RSS&at_campaign=rss": {
       "id": "f9f859c42f153f706da3",
@@ -179514,110 +179535,6 @@
   "source_usage": [
     {
       "source_name": "Engadget - All",
-      "source_url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time",
-      "category": "technology",
-      "article_id": "spacex-at-uoc-thanh-tuu-lon-voi-viec-bat-uoc-tang-thuong-cua-starship-9c91fa0d",
-      "published_at": "2026-11-15T02:07:53.101047+00:00",
-      "recorded_at": "2026-11-15T02:07:53.101047+00:00"
-    },
-    {
-      "source_name": "BBC News - World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-      "category": "world",
-      "article_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "France 24 - English",
-      "source_url": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
-      "category": "world",
-      "article_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "The Guardian - World",
-      "source_url": "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
-      "category": "world",
-      "article_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Al Jazeera - All",
-      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
-      "category": "world",
-      "article_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Sky Sports - Football",
-      "source_url": "https://www.skysports.com/f1/news/12040/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border",
-      "category": "world",
-      "article_id": "israel-tieu-diet-chi-huy-lu-oan-rafah-cua-hamas-trong-cuoc-khong-kich-ta-322a0f5e",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Tuổi Trẻ - Tin mới",
-      "source_url": "https://tuoitre.vn/ba-phan-vu-sua-ong-nguyen-van-bam-tron-huynh-hello-trung-cu-truong-ap-truong-khu-vuc-100261115171817037.htm",
-      "category": "vietnam",
-      "article_id": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Dân Trí - Tin mới",
-      "source_url": "https://dantri.com.vn/thoi-su/ong-trinh-van-quyet-bi-xoa-ten-khoi-doan-luat-su-tp-ha-noi-20261114211621691.htm",
-      "category": "vietnam",
-      "article_id": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/ong-le-quoc-phong-du-le-phat-dong-phat-trien-van-hoa-dan-toc-ton-giao-185261112191731639.htm",
-      "category": "vietnam",
-      "article_id": "nhung-nguoi-co-ten-oc-la-trung-cu-truong-ap-khu-vuc-tai-can-tho-9efb90d4",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Tuổi Trẻ - Tin mới",
-      "source_url": "https://tuoitre.vn/thanh-lam-my-linh-trong-tan-va-dang-duong-cung-ve-truong-cu-hat-100261115173554038.htm",
-      "category": "vietnam",
-      "article_id": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Thanh Niên - Tin mới",
-      "source_url": "https://thanhnien.vn/ca-si-la-hoc-tro-lam-truong-tiet-lo-phan-ung-gia-dinh-khi-khong-theo-bolero-185261114202010169.htm",
-      "category": "vietnam",
-      "article_id": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Dân Trí - Tin mới",
-      "source_url": "https://dantri.com.vn/kinh-doanh/ty-phu-tran-ba-duong-ban-680000-tan-chuoi-loi-gap-4-lan-lam-co-khi-20261113065021528.htm",
-      "category": "vietnam",
-      "article_id": "dan-nghe-si-gao-coi-tro-ve-truong-cu-hat-mung-70-nam-hoc-vien-am-nhac-qu-1cf10053",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Wired - All",
-      "source_url": "https://www.wired.com/story/mac-mini-deal-11-13-2026",
-      "category": "technology",
-      "article_id": "mac-mini-gan-chip-m6-giam-gia-som-tren-amazon-truoc-them-black-friday-5749fb37",
-      "published_at": "2026-11-15T12:21:28.079263+00:00",
-      "recorded_at": "2026-11-15T12:21:28.079263+00:00"
-    },
-    {
-      "source_name": "Engadget - All",
       "source_url": "https://www.engadget.com/2316107/deep-discounts-tvs-before-black-friday-deals",
       "category": "technology",
       "article_id": "mac-mini-gan-chip-m6-giam-gia-som-tren-amazon-truoc-them-black-friday-5749fb37",
@@ -181111,6 +181028,110 @@
       "article_id": "nha-toan-hoc-tai-anthropic-tuyen-bo-giai-thanh-cong-gia-thuyet-riemann-v-66a873bc",
       "published_at": "2026-11-20T18:06:56.278274+00:00",
       "recorded_at": "2026-11-20T18:06:56.278274+00:00"
+    },
+    {
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261120-spains-political-crossroads-europes-wider-stakes-spaniards-to-vote-in-key-election",
+      "category": "world",
+      "article_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/sports/2026/11/20/nations-league-knockouts-spain-france-england-norway-quarterfinals?traffic_source=rss",
+      "category": "world",
+      "article_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "ScienceDaily - All",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/voyager-1-spacecraft-reaches-one-light-day-milestone",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "NASA - News Releases",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/18/nasas-voyager-1-hits-record-one-light-day-distance-50-years-after-launch?traffic_source=rss",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
+      "category": "technology",
+      "article_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+      "category": "technology",
+      "article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
+      "category": "technology",
+      "article_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+      "category": "vietnam",
+      "article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/thoi-su/chinh-thuc-bo-tu-hinh-voi-6-toi-tu-132027-20261120132846757.htm",
+      "category": "vietnam",
+      "article_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
+      "published_at": "2026-11-21T03:29:11.465295+00:00",
+      "recorded_at": "2026-11-21T03:29:11.465295+00:00"
     }
   ],
   "last_run_window_end": "2026-11-21T02:51:19.422799+00:00"

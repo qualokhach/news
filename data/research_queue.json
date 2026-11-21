@@ -2052,7 +2052,7 @@
   },
   {
     "queue_id": "d2f1ccf339584e6a41a1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T02:53:07.781456+00:00",
     "expires_at": "2026-11-24T02:51:19.422799+00:00",
     "category_hint": "vietnam",
@@ -2883,11 +2883,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T02:53:07.781478+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff"
   },
   {
     "queue_id": "c8f9daf074a9772688ef",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T02:52:58.661947+00:00",
     "expires_at": "2026-11-24T02:51:19.422799+00:00",
     "category_hint": "sports",
@@ -3586,11 +3587,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T02:52:58.661969+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9"
   },
   {
     "queue_id": "260481543f1f45e71bb2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T02:52:58.126306+00:00",
     "expires_at": "2026-11-24T02:51:19.422799+00:00",
     "category_hint": "sports",
@@ -4635,11 +4637,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T02:52:58.126329+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584"
   },
   {
     "queue_id": "san-uu-ai-som-black-friday-2026-nhung-lua-chon-cong-nghe-ang-chu-y-05112684",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-20T17:22:26.132048+00:00",
     "expires_at": "2026-11-21T17:22:26.132048+00:00",
     "source_urls": [
@@ -4655,7 +4658,7 @@
       "source_url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
       "published_at": "2026-11-20T17:01:45+00:00",
       "fetched_at": "2026-11-20T17:23:04.652191+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T03:29:11.465295+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -4845,27 +4848,37 @@
         "62"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-20T17:23:04.653637+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T03:29:11.465295+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 288,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1315
-        },
-        "independent_domains": [
-          "theverge.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1315,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-21 10:29"
+    },
+    "published_at": "2026-11-21T03:29:11.465295+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "nguoi-an-ong-my-bi-ket-toi-sat-hai-phu-nu-anh-ec94e1b3",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-20T17:22:26.132048+00:00",
     "expires_at": "2026-11-21T17:22:26.132048+00:00",
     "source_urls": [
@@ -5057,6 +5070,34 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-21T03:29:11.465295+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-21T03:29:11.465295+00:00",
+      "errors": [
+        "fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 202,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 920,
+        "source_access": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
@@ -10798,7 +10839,7 @@
   },
   {
     "queue_id": "quoc-hoi-thong-qua-bo-luat-hinh-su-sua-oi-bo-hinh-phat-tu-hinh-voi-6-toi-01590e25",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-20T12:15:44.286573+00:00",
     "expires_at": "2026-11-21T12:15:44.286573+00:00",
     "source_urls": [
@@ -10814,7 +10855,7 @@
       "source_url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
       "published_at": "2026-11-20T09:51:00+00:00",
       "fetched_at": "2026-11-20T12:15:48.538264+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T03:29:11.465295+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -10975,24 +11016,34 @@
         "6"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-20T12:15:48.539370+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T03:29:11.465295+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 337,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1527
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1527,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/chinh-thuc-bo-tu-hinh-voi-6-toi-danh-185261120161734953.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
       "origin": "auto",
-      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0"
-    }
+      "content_image_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "publication_slot": "2026-11-21 10:29"
+    },
+    "published_at": "2026-11-21T03:29:11.465295+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "chinh-quyen-my-tiep-tuc-giu-lenh-cam-kinh-doanh-dong-router-moi-cua-tp-l-8d5b23e8",
@@ -89482,7 +89533,7 @@
   },
   {
     "queue_id": "tay-ban-nha-truoc-nga-re-chinh-tri-va-thu-thach-tai-tu-ket-uefa-nations--9d9eae56",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-21T02:53:49.700348+00:00",
     "expires_at": "2026-11-22T02:53:49.700348+00:00",
     "source_urls": [
@@ -89498,7 +89549,7 @@
       "source_url": "https://www.france24.com/en/tv-shows/talking-europe/20261120-spains-political-crossroads-europes-wider-stakes-spaniards-to-vote-in-key-election",
       "published_at": "2026-11-20T15:17:17+00:00",
       "fetched_at": "2026-11-21T02:53:53.932330+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T03:29:11.465295+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -89681,27 +89732,42 @@
         "3"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-21T02:53:53.933281+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T03:29:11.465295+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 310,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1339
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "france24.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1339,
+          "source_access": [
+            {
+              "url": "https://www.france24.com/en/tv-shows/talking-europe/20261120-spains-political-crossroads-europes-wider-stakes-spaniards-to-vote-in-key-election",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.aljazeera.com/sports/2026/11/20/nations-league-knockouts-spain-france-england-norway-quarterfinals?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-21 10:29"
+    },
+    "published_at": "2026-11-21T03:29:11.465295+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "tau-vu-tru-voyager-1-cua-nasa-cham-moc-lich-su-cach-trai-at-mot-ngay-anh-447a64d2",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-21T02:53:49.700348+00:00",
     "expires_at": "2026-11-22T02:53:49.700348+00:00",
     "source_urls": [
@@ -89722,7 +89788,7 @@
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
       "published_at": "2026-11-21T02:24:22+00:00",
       "fetched_at": "2026-11-21T02:54:00.124324+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T03:29:11.465295+00:00",
       "content_type": "news_analysis",
       "data_type": "general",
       "collection": "current",
@@ -90007,32 +90073,42 @@
         "25,9"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-21T02:54:00.126054+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T03:29:11.465295+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 502,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 2281
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "engadget.com",
-          "france24.com",
-          "nasa.gov",
-          "sciencedaily.com",
-          "theverge.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 2281,
+          "source_access": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "engadget.com",
+            "france24.com",
+            "nasa.gov",
+            "sciencedaily.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-21 10:29"
+    },
+    "published_at": "2026-11-21T03:29:11.465295+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "co-phieu-nvidia-va-anthropic-oi-mat-lan-song-ban-thao-tren-pho-wall-242dcb8c",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-21T02:53:49.700348+00:00",
     "expires_at": "2026-11-22T02:53:49.700348+00:00",
     "source_urls": [
@@ -90303,6 +90379,833 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-21T03:29:11.465295+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-21T03:29:11.465295+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 342,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1600,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/co-phieu-nvidia-anthropic-bi-ban-thao-5147289.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff",
+    "status": "HOLD",
+    "prepared_at": "2026-11-21T03:28:53.801553+00:00",
+    "expires_at": "2026-11-22T03:28:53.801553+00:00",
+    "source_urls": [
+      "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+      "https://dantri.com.vn/kinh-doanh/bo-cong-thuong-muon-ap-gia-dien-san-xuat-cho-trung-tam-du-lieu-20261120210036837.htm",
+      "https://tuoitre.vn/gan-80-tuoi-tien-si-van-miet-mai-nghien-cuu-100261119154948966.htm"
+    ],
+    "article": {
+      "id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff",
+      "title": "Nghiên cứu lộ trình áp dụng giá điện sinh hoạt theo khung giờ",
+      "summary": "Luật Điện lực sửa đổi vừa được Quốc hội thông qua giao Bộ Công Thương nghiên cứu lộ trình áp dụng giá bán lẻ điện sinh hoạt theo khung giờ cao, thấp điểm khi đủ điều kiện kỹ thuật.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+      "published_at": "2026-11-21T02:30:06+00:00",
+      "fetched_at": "2026-11-21T03:28:58.050383+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Quốc hội vừa thông qua Luật sửa đổi, bổ sung một số điều của Luật Điện lực với sự tán thành của trên 99% đại biểu tham gia biểu quyết. Điểm đáng chú ý trong nội dung luật là việc giao Bộ Công Thương nghiên cứu lộ trình áp dụng giá bán lẻ điện sinh hoạt theo khung giờ cao điểm, thấp điểm và bình thường khi điều kiện kỹ thuật cho phép.",
+        "Hiện tại, giá điện theo thời gian sử dụng chủ yếu được áp dụng cho khách hàng sản xuất và kinh doanh. Trong khi đó, các hộ gia đình vẫn đang tính tiền điện theo biểu giá bán lẻ sinh hoạt lũy tiến 5 bậc, với mức giá dao động từ 1.901 đồng đến 3.844 đồng một kWh, chưa gồm thuế VAT. Hồi tháng 6, Bộ Công Thương từng cho biết hệ thống chưa đủ điều kiện kỹ thuật để áp dụng giá điện sinh hoạt theo khung giờ như lĩnh vực sản xuất.",
+        "Xét về cơ cấu tiêu thụ, điện sinh hoạt chiếm tỷ trọng lớn thứ hai trong toàn quốc, chỉ sau nhóm khách hàng công nghiệp. Đây cũng là nhóm khách hàng được đánh giá là khó điều chỉnh hành vi tiêu thụ hơn so với các lĩnh vực khác. Dù vậy, Bộ Công Thương nhận định việc mở rộng cơ chế giá điện theo giờ trong tương lai sẽ tạo động lực để người dân thay đổi thời điểm sử dụng, tránh tập trung vào giờ cao điểm, từ đó giảm áp lực vận hành cho hệ thống điện quốc gia.",
+        "Bên cạnh định hướng nghiên cứu giá điện theo khung giờ cho sinh hoạt, Luật Điện lực sửa đổi còn bổ sung lộ trình xóa bỏ bù chéo giá điện và cải tiến cơ cấu biểu giá bán lẻ điện. Luật mới cũng quy định các chính sách phát triển năng lượng liên quan đến độc quyền nhà nước và điện hạt nhân module nhỏ, đồng thời có hiệu lực thi hành từ ngày 1/6/2027."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nghiên cứu lộ trình tính giá điện sinh hoạt theo khung giờ",
+      "meta_description": "Quốc hội thông qua Luật Điện lực sửa đổi, giao Bộ Công Thương nghiên cứu lộ trình áp giá điện sinh hoạt theo khung giờ cao và thấp điểm.",
+      "keywords": [
+        "giá điện sinh hoạt",
+        "khung giờ",
+        "Luật Điện lực",
+        "Bộ Công Thương"
+      ],
+      "slug": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 343,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+        "https://dantri.com.vn/kinh-doanh/bo-cong-thuong-muon-ap-gia-dien-san-xuat-cho-trung-tam-du-lieu-20261120210036837.htm",
+        "https://tuoitre.vn/gan-80-tuoi-tien-si-van-miet-mai-nghien-cuu-100261119154948966.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/bo-cong-thuong-muon-ap-gia-dien-san-xuat-cho-trung-tam-du-lieu-20261120210036837.htm",
+        "https://tuoitre.vn/gan-80-tuoi-tien-si-van-miet-mai-nghien-cuu-100261119154948966.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T02:30:06+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/bo-cong-thuong-muon-ap-gia-dien-san-xuat-cho-trung-tam-du-lieu-20261120210036837.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T23:00:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/gan-80-tuoi-tien-si-van-miet-mai-nghien-cuu-100261119154948966.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T10:26:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Luật Điện lực sửa đổi vừa được thông qua, giao Bộ Công Thương nghiên cứu lộ trình áp giá điện sinh hoạt theo khung giờ cao, thấp điểm khi điều kiện kỹ thuật cho phép.",
+          "source_urls": [
+            "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Luật Điện lực sửa đổi vừa được thông qua, giao Bộ Công Thương nghiên cứu lộ trình áp giá điện sinh hoạt theo khung giờ cao, thấp điểm khi điều kiện kỹ thuật cho phép.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "snippet": "Luật Điện lực sửa đổi vừa được thông qua, giao Bộ Công Thương nghiên cứu lộ trình áp giá điện sinh hoạt theo khung giờ cao, thấp điểm khi điều kiện kỹ thuật cho phép.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "page_sha256": "7cb04970cc53934f495163ae39c2209f0ef3c3af1024e1b719a23e467472ed60",
+              "snippet_sha256": "68de5fbe594018b3c2c7878f1da1686720ab6d0b625673d9de8638e1963c8373",
+              "verified_at": "2026-11-21T03:28:58.049503+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sáng 21/11, Quốc hội đã thông qua Luật sửa đổi, bổ sung một số điều của Luật Điện lực với trên 99% đại biểu tham gia tán thành.",
+          "source_urls": [
+            "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sáng 21/11, Quốc hội đã thông qua Luật sửa đổi, bổ sung một số điều của Luật Điện lực với trên 99% đại biểu tham gia tán thành.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "snippet": "Sáng 21/11, Quốc hội đã thông qua Luật sửa đổi, bổ sung một số điều của Luật Điện lực với trên 99% đại biểu tham gia tán thành.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "page_sha256": "7cb04970cc53934f495163ae39c2209f0ef3c3af1024e1b719a23e467472ed60",
+              "snippet_sha256": "788bb35fe628ec183dac2950614e1dd377ce6409802ed7bf06463c95f00a150d",
+              "verified_at": "2026-11-21T03:28:58.049503+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hộ gia đình hiện tính theo biểu giá bán lẻ sinh hoạt lũy tiến 5 bậc, với mức thấp nhất 1.901 đồng và cao nhất 3.844 đồng một kWh, chưa gồm VAT.",
+          "source_urls": [
+            "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Còn hộ gia đình tính theo biểu giá bán lẻ sinh hoạt lũy tiến 5 bậc, với mức thấp nhất 1.901 đồng và cao nhất 3.844 đồng một kWh, chưa gồm VAT.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "snippet": "Còn hộ gia đình tính theo biểu giá bán lẻ sinh hoạt lũy tiến 5 bậc, với mức thấp nhất 1.901 đồng và cao nhất 3.844 đồng một kWh, chưa gồm VAT.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "page_sha256": "7cb04970cc53934f495163ae39c2209f0ef3c3af1024e1b719a23e467472ed60",
+              "snippet_sha256": "f4bc782d81af89ec4ba2287c1f1fe143b9387baeb72402e4f28370678e3110a3",
+              "verified_at": "2026-11-21T03:28:58.049503+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Điện sinh hoạt chiếm tỷ trọng lớn thứ hai trong cơ cấu tiêu thụ điện cả nước, chỉ sau nhóm khách hàng công nghiệp.",
+          "source_urls": [
+            "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Điện sinh hoạt chiếm tỷ trọng lớn thứ hai trong cơ cấu tiêu thụ điện cả nước, chỉ sau nhóm khách hàng công nghiệp.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "snippet": "Điện sinh hoạt chiếm tỷ trọng lớn thứ hai trong cơ cấu tiêu thụ điện cả nước, chỉ sau nhóm khách hàng công nghiệp.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "page_sha256": "7cb04970cc53934f495163ae39c2209f0ef3c3af1024e1b719a23e467472ed60",
+              "snippet_sha256": "fa1466d7817f7ab59682e66bda9c5cdacc42249d063c14afb881a3b3f59195b2",
+              "verified_at": "2026-11-21T03:28:58.049503+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật sửa đổi, bổ sung một số điều của Luật Điện lực có hiệu lực từ 1/6/2027.",
+          "source_urls": [
+            "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Luật sửa đổi, bổ sung một số điều của Luật Điện lực có hiệu lực từ 1/6/2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "snippet": "Luật sửa đổi, bổ sung một số điều của Luật Điện lực có hiệu lực từ 1/6/2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+              "page_sha256": "7cb04970cc53934f495163ae39c2209f0ef3c3af1024e1b719a23e467472ed60",
+              "snippet_sha256": "ead045f9e0c89eb422fa7161ddfadcbcf30dcbb235f782c786db925c5d957100",
+              "verified_at": "2026-11-21T03:28:58.049503+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quyết định mới của Quốc hội về việc giao nghiên cứu giá điện sinh hoạt theo khung giờ trong Luật Điện lực sửa đổi. Đồng thời, bài đặt dữ liệu này cạnh biểu giá lũy tiến hiện hành và tỷ trọng tiêu thụ để chỉ rõ bối cảnh và thách thức khi triển khai.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T03:28:58.050475+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.901",
+        "3.844",
+        "5",
+        "99"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T03:28:58.051910+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 343,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1568
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-21T03:29:11.465295+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-21T03:29:11.465295+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 343,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1568,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/se-nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-5147315.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9",
+    "status": "HOLD",
+    "prepared_at": "2026-11-21T03:28:53.801553+00:00",
+    "expires_at": "2026-11-22T03:28:53.801553+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+      "https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/how-1-8-chargers-might-play-out-top-five-pick-2027-nfl-draft/38f50c088aba130840b399bb"
+    ],
+    "article": {
+      "id": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9",
+      "title": "Cơn sốt Drew Mestemaker và kịch bản đấu giá lượt chọn số 1 NFL Draft 2027",
+      "summary": "Sự bứt phá mạnh mẽ của tiền vệ Drew Mestemaker trong mùa giải 2026 đang làm nóng thị trường dự thảo NFL 2027, với nhận định sẽ diễn ra cuộc cạnh tranh gay gắt cho lượt chọn đầu tiên.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+      "published_at": "2026-11-21T02:42:01+00:00",
+      "fetched_at": "2026-11-21T03:29:03.852763+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sự thăng tiến vượt bậc của tiền vệ Drew Mestemaker thuộc biên chế Oklahoma State trong mùa giải 2026 đang thu hút sự quan tâm lớn từ giới chuyên môn. Theo đánh giá của Mel Kiper Jr. trên ESPN, cầu thủ này đã leo lên vị trí thứ hai trên bảng xếp hạng Big Board và hoàn toàn có thể vươn đến vị trí cao hơn nữa khi kỳ tuyển quân diễn ra.",
+        "Bình luận trên The Adam Schefter Podcast, chuyên gia Adam Schefter dự báo sẽ xuất hiện một cuộc đấu giá cam go cho lượt chọn số một nhằm sở hữu quyền tuyển mộ Mestemaker. Các đội bóng khát khao tìm kiếm tiền vệ dẫn dắt lối chơi được cho là sẵn sàng thực hiện các thương vụ trao đổi với những đội đang nắm giữ thứ hạng đầu bảng.",
+        "Bước vào tuần 11 của mùa giải, Tennessee Titans và Los Angeles Chargers tạm giữ hai vị trí dẫn đầu với thành tích 1-8. Tuy nhiên, giới chuyên gia nhận định cả hai đội bóng này nhiều khả năng vẫn đặt niềm tin lần lượt vào Cam Ward và Justin Herbert, qua đó mở ra cơ hội giao dịch lượt chọn cho các CLB khác.",
+        "Trong 10 trận đấu đầu tiên cho Oklahoma State sau khi chuyển từ North Texas, Mestemaker đã ghi dấu ấn với 3.239 yard chuyền bóng, 30 lần lập công qua không chiến và 4 touchdown bằng những tình huống tự chạy bóng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Drew Mestemaker hút sóng NFL Draft 2027 với khả năng tạo cuộc đấu giá ",
+      "meta_description": "Tiền vệ Drew Mestemaker của Oklahoma State vươn lên dẫn đầu bảng xếp hạng dự thảo NFL 2027, thu hút sự chú ý từ các chuyên gia và câu lạc bộ thiếu hụt vị trí QB",
+      "keywords": [
+        "Drew Mestemaker",
+        "NFL Draft 2027",
+        "Adam Schefter",
+        "Oklahoma State",
+        "Cam Ward"
+      ],
+      "slug": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 249,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+        "https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/how-1-8-chargers-might-play-out-top-five-pick-2027-nfl-draft/38f50c088aba130840b399bb"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/how-1-8-chargers-might-play-out-top-five-pick-2027-nfl-draft/38f50c088aba130840b399bb"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T02:42:01+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/how-1-8-chargers-might-play-out-top-five-pick-2027-nfl-draft/38f50c088aba130840b399bb",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T23:39:31+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Drew Mestemaker vươn lên vị trí thứ hai trên Big Board của Mel Kiper Jr. tại ESPN.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick"
+          ],
+          "importance": "core",
+          "evidence_snippet": "1 pick for the right to draft Drew Mestemaker,\" the ESPN NFL Insider said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "snippet": "1 pick for the right to draft Drew Mestemaker,\" the ESPN NFL Insider said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "page_sha256": "341d678dd6f697f2763db9e6a39f17d72c3749df162a4f18b13a117ab7d90f6f",
+              "snippet_sha256": "abee847c814a77fd03e83135e86da45374e1ce45af65add197722fffc58af482",
+              "verified_at": "2026-11-21T03:29:03.852095+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Adam Schefter dự đoán sẽ có một cuộc đấu giá cho lượt chọn số 1 để sở hữu Drew Mestemaker.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"Tennessee, I believe, even at the 1-hole, would stick with Cam Ward,\" Schefter said on the podcast.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "snippet": "\"Tennessee, I believe, even at the 1-hole, would stick with Cam Ward,\" Schefter said on the podcast.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "page_sha256": "341d678dd6f697f2763db9e6a39f17d72c3749df162a4f18b13a117ab7d90f6f",
+              "snippet_sha256": "5fcc6ce1b3c1d3befd8e0edf63d7d271b7e454b74bedac4429d6fbf2b11d2dc8",
+              "verified_at": "2026-11-21T03:29:03.852095+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Titan và Chargers đều có thành tích 1-8 khi bước vào tuần 11 của mùa giải NFL.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Entering Week 11, the Titans (1-8) and Chargers (1-8) would have the top two picks in April's draft.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "snippet": "Entering Week 11, the Titans (1-8) and Chargers (1-8) would have the top two picks in April's draft.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "page_sha256": "341d678dd6f697f2763db9e6a39f17d72c3749df162a4f18b13a117ab7d90f6f",
+              "snippet_sha256": "c07ff95cbf2521e82aebf7c6dbde87c55d0bb1c5870eb264807437a017b9ceff",
+              "verified_at": "2026-11-21T03:29:03.852095+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mestemaker đạt 3.239 yard chuyền bóng, 30 touchdown qua không chiến và 4 touchdown chạy bóng trong 10 trận đầu mùa.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Mestemaker, aNorth Texastransfer who followed coach Eric Morris to Oklahoma State, has since put up 3,239 passing yards and 30 passing touchdowns, plus another four rushing touchdowns, in his first 10 games for the Cowboys.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "snippet": "Mestemaker, aNorth Texastransfer who followed coach Eric Morris to Oklahoma State, has since put up 3,239 passing yards and 30 passing touchdowns, plus another four rushing touchdowns, in his first 10 games for the Cowboys.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+              "page_sha256": "341d678dd6f697f2763db9e6a39f17d72c3749df162a4f18b13a117ab7d90f6f",
+              "snippet_sha256": "4ccdb4b2d164a2c729875ea0d73ec2a1fe0b124483f3d7258ef728faa539fef0",
+              "verified_at": "2026-11-21T03:29:03.852095+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ triển vọng của tiền vệ Drew Mestemaker trong kỳ dự thảo NFL 2027 dựa trên nhận định từ giới chuyên gia ESPN. Đồng thời, văn bản phân tích bối cảnh phân bổ lượt chọn của các đội bóng top đầu như Titans hay Chargers.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T03:29:03.852842+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "11",
+        "2026",
+        "3.239",
+        "30",
+        "4"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T03:29:03.853801+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 249,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1179
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-21T03:29:11.465295+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-21T03:29:11.465295+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 249,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1179,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50541939/draft-buzz-mestemaker-spur-auction-no-1-pick",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584",
+    "status": "HOLD",
+    "prepared_at": "2026-11-21T03:28:53.801553+00:00",
+    "expires_at": "2026-11-22T03:28:53.801553+00:00",
+    "source_urls": [
+      "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+      "https://dantri.com.vn/thoi-su/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-danh-hieu-anh-hung-20261121070717650.htm",
+      "https://thanhnien.vn/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-nhan-danh-hieu-anh-hung-185261120231841597.htm"
+    ],
+    "article": {
+      "id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584",
+      "title": "Messi và thử thách bảo vệ ngai vàng MLS Cup",
+      "summary": "Lionel Messi cùng Inter Miami bước vào vòng play-off MLS Cup với mục tiêu bảo vệ chức vô địch, đối mặt với thử thách từ Columbus Crew và các đối thủ cạnh tranh ở miền Đông.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+      "published_at": "2026-11-20T11:00:00+00:00",
+      "fetched_at": "2026-11-21T03:29:09.111573+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau khi giành Chiếc Giày Vàng mùa thứ hai liên tiếp, Lionel Messi cùng Inter Miami đang hướng đến mục tiêu trở thành đội đầu tiên bảo vệ thành công chức vô địch MLS Cup kể từ kỳ tích của LA Galaxy vào năm 2012. Thách thức lớn đang chờ đợi đội bóng áo hồng khi họ bước vào vòng play-off với tư cách là hạt giống số hai miền Đông.",
+        "Inter Miami sẽ mở màn chiến dịch bằng trận tiếp đón Columbus Crew trên sân nhà vào lúc 6h ngày 22/11 (giờ Hà Nội). Dù đứng thứ hai miền Đông với 60 điểm ở giai đoạn tính điểm, đoàn quân của Messi chỉ thắng 6 trận trên sân nhà, con số thấp nhất trong số 18 đội giành quyền vào play-off. Phía bên kia chiến tuyến, Columbus Crew lại cho thấy sự thăng tiến mạnh mẽ dưới sự dẫn dắt của huấn luyện viên tạm quyền Laurent Courtois với chuỗi phong độ ấn tượng cuối mùa.",
+        "Bước vào giai đoạn quyết định này, Messi mang theo hành trang là một năm thi đấu nhiều dấu ấn cá nhân tại cả đấu trường quốc tế lẫn giải quốc nội. Tại MLS, anh kết thúc giai đoạn tính điểm với 26 bàn thắng và 17 pha kiến tạo sau 31 trận ra sân, dẫn đầu danh sách góp công vào bàn thắng nhiều nhất giải. Sự hỗ trợ từ các đồng đội tên tuổi như Luis Suarez hay Rodrigo De Paul sẽ là bệ phóng quan trọng để Miami hy vọng tái lập thành tích lịch sử.",
+        "Để chạm tay vào chiếc cúp vô địch lần thứ hai liên tiếp, Inter Miami sẽ cần vượt qua chuỗi trận căng thẳng tại vòng play-off với tối đa năm chiến thắng nữa. Những đối thủ sừng sỏ như Nashville với kỷ lục điểm số ở miền Đông hay Vancouver Whitecaps ở miền Tây đều sẵn sàng ngáng đường, biến hành trình bảo vệ ngai vàng của Messi và các đồng đội trở thành một thử thách đầy cam go."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Messi cùng Inter Miami săn chức vô địch MLS Cup thứ hai liên tiếp",
+      "meta_description": "Lionel Messi và Inter Miami bắt đầu hành trình bảo vệ chức vô địch MLS Cup bằng trận đấu gặp Columbus Crew tại vòng play-off.",
+      "keywords": [
+        "Lionel Messi",
+        "Inter Miami",
+        "MLS Cup",
+        "Columbus Crew",
+        "bóng đá Mỹ"
+      ],
+      "slug": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 346,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+        "https://dantri.com.vn/thoi-su/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-danh-hieu-anh-hung-20261121070717650.htm",
+        "https://thanhnien.vn/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-nhan-danh-hieu-anh-hung-185261120231841597.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-danh-hieu-anh-hung-20261121070717650.htm",
+        "https://thanhnien.vn/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-nhan-danh-hieu-anh-hung-185261120231841597.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T11:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-danh-hieu-anh-hung-20261121070717650.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T01:38:21+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/luc-luong-vu-trang-hai-phong-lan-thu-hai-don-nhan-danh-hieu-anh-hung-185261120231841597.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T00:49:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sau khi giành Chiếc Giày Vàng mùa thứ hai liên tiếp, Lionel Messi cùng Inter Miami hướng đến mục tiêu trở thành đội đầu tiên bảo vệ thành công chức vô địch MLS Cup kể từ LA Galaxy năm 2012.",
+          "source_urls": [
+            "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sau khi giành Chiếc Giày Vàng mùa thứ hai liên tiếp, Lionel Messi cùng Inter Miami hướng đến mục tiêu trở thành đội đầu tiên bảo vệ thành công chức vô địch MLS Cup kể từ LA Galaxy năm 2012.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+              "snippet": "Sau khi giành Chiếc Giày Vàng mùa thứ hai liên tiếp, Lionel Messi cùng Inter Miami hướng đến mục tiêu trở thành đội đầu tiên bảo vệ thành công chức vô địch MLS Cup kể từ LA Galaxy năm 2012.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+              "page_sha256": "13f4ffe0fcafca62847b54a252f5b9667ea7bc5eca2c22e26c8c4ba6558f8168",
+              "snippet_sha256": "5e63aaad7facf580eec40f8c9a9070c01a5d85f17bd7a00fd8bcfb363ba3f41e",
+              "verified_at": "2026-11-21T03:29:09.111031+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Inter Miami mở màn vòng play-off bằng trận tiếp Columbus Crew trên sân Nu Stadium lúc 6h ngày 22/11, giờ Hà Nội và đứng thứ hai miền Đông với 60 điểm.",
+          "source_urls": [
+            "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Inter Miamimở màn vòng play-off bằng trận tiếp Columbus Crew trên sân Nu Stadium lúc 6h ngày 22/11, giờ Hà Nội.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+              "snippet": "Inter Miamimở màn vòng play-off bằng trận tiếp Columbus Crew trên sân Nu Stadium lúc 6h ngày 22/11, giờ Hà Nội.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+              "page_sha256": "13f4ffe0fcafca62847b54a252f5b9667ea7bc5eca2c22e26c8c4ba6558f8168",
+              "snippet_sha256": "d92888a389b5a33331acb4ce805e21bdafe2d96a3b06ffc2d43ba81b5dde2e88",
+              "verified_at": "2026-11-21T03:29:09.111031+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Messi kết thúc giai đoạn tính điểm với 26 bàn và 17 kiến tạo qua 31 trận, góp công vào 43 bàn và dẫn đầu giải đấu.",
+          "source_urls": [
+            "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trở lại MLS, Messi kết thúc giai đoạn tính điểm với 26 bàn và 17 kiến tạo qua 31 trận.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+              "snippet": "Trở lại MLS, Messi kết thúc giai đoạn tính điểm với 26 bàn và 17 kiến tạo qua 31 trận.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+              "page_sha256": "13f4ffe0fcafca62847b54a252f5b9667ea7bc5eca2c22e26c8c4ba6558f8168",
+              "snippet_sha256": "e2d5ed89c2367faecdf1e95934785245c7a183b6d64e2ad7c36ba09fd379259c",
+              "verified_at": "2026-11-21T03:29:09.111031+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh phong độ sân nhà của Inter Miami so với các đối thủ cạnh tranh tại miền Đông. Đồng thời, tác phẩm phân tích kỹ lưỡng các mốc thống kê cá nhân của Lionel Messi trước thềm vòng play-off MLS Cup.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T03:29:09.111657+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "17",
+        "18",
+        "2012",
+        "26",
+        "31",
+        "6",
+        "60"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T03:29:09.112895+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 346,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1612
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-21T03:29:11.465295+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-21T03:29:11.465295+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 346,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1612,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/messi-san-chuc-vo-dich-mls-cup-thu-hai-lien-tiep-5146433.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]

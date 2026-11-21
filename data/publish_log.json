@@ -935,5 +935,40 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-21 10:29",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-21T03:29:11.465295+00:00",
+    "prepared_candidates": 13,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "nghien-cuu-lo-trinh-ap-dung-gia-ien-sinh-hoat-theo-khung-gio-9f0e0bff",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "con-sot-drew-mestemaker-va-kich-ban-au-gia-luot-chon-so-1-nfl-draft-2027-5e055ec9",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      },
+      {
+        "id": "messi-va-thu-thach-bao-ve-ngai-vang-mls-cup-a9ecb584",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "co-phieu-nvidia-va-anthropic-oi-mat-lan-song-ban-thao-tren-pho-wall-242dcb8c",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "nguoi-an-ong-my-bi-ket-toi-sat-hai-phu-nu-anh-ec94e1b3",
+        "status": "HOLD",
+        "reason": "fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
