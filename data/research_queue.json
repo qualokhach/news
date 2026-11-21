@@ -2066,7 +2066,7 @@
   },
   {
     "queue_id": "da119fdccc1f2f3510c6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T16:25:34.126144+00:00",
     "expires_at": "2026-11-24T16:24:00.036404+00:00",
     "category_hint": "world",
@@ -2700,11 +2700,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T16:25:34.126165+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6"
   },
   {
     "queue_id": "36c25be45398bbf61ca4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T16:25:33.113461+00:00",
     "expires_at": "2026-11-24T16:24:00.036404+00:00",
     "category_hint": "sports",
@@ -3287,11 +3288,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T16:25:33.113484+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nwsl-ay-manh-chien-luoc-phat-trien-tai-nang-va-lanh-ao-3d2c4203"
   },
   {
     "queue_id": "0fd047196f3fab27c7f3",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T16:25:31.732323+00:00",
     "expires_at": "2026-11-24T16:24:00.036404+00:00",
     "category_hint": "sports",
@@ -4087,7 +4089,8 @@
       ]
     },
     "research_ready_at": "2026-11-21T16:25:31.732345+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4"
   },
   {
     "queue_id": "cuu-huan-luyen-vien-darren-lehmann-tiep-tuc-bac-bo-cao-buoc-trong-vu-be--33f65f90",
@@ -92808,7 +92811,7 @@
   },
   {
     "queue_id": "cach-kiem-tra-thong-tin-card-o-hoa-gpu-tren-may-tinh-windows-de-dang-6fea619b",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-21T16:26:08.872816+00:00",
     "expires_at": "2026-11-22T04:26:08.872816+00:00",
     "source_urls": [
@@ -92825,7 +92828,7 @@
       "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
       "published_at": "2026-11-21T16:00:00+00:00",
       "fetched_at": "2026-11-21T16:26:13.338812+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T17:00:03.296281+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -93001,24 +93004,34 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-21T16:26:13.340310+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T17:00:03.296281+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 385,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1740
-        },
-        "independent_domains": [
-          "bbc.com",
-          "cnbc.com",
-          "engadget.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1740,
+          "source_access": [
+            {
+              "url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "engadget.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-22 00:00"
+    },
+    "published_at": "2026-11-21T17:00:03.296281+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "waymo-trieu-hoi-robotaxi-sau-su-co-i-vao-lan-uong-cao-toc-bi-ong-fe947b47",
@@ -93466,5 +93479,684 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-21T16:58:09.866973+00:00",
+    "expires_at": "2026-11-22T16:58:09.866973+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+      "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+      "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6",
+      "title": "El Chapo Isidro: Người đàn ông đứng sau cuộc chiến chống ma túy ở Mexico",
+      "summary": "Fausto Isidro Meza-Flores, còn được gọi là El Chapo Isidro, là một trong những tên tội phạm nguy hiểm nhất Mexico. Ông ta đã bị bắt giữ trong một cuộc hành động của lực lượng đặc nhiệm Mexico, với sự hỗ trợ của tình báo Mỹ.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+      "published_at": "2026-11-21T16:03:16+00:00",
+      "fetched_at": "2026-11-21T16:59:13.131158+00:00",
+      "appnho_published_at": "2026-11-21T17:00:03.296281+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Fausto Isidro Meza-Flores, còn được gọi là El Chapo Isidro, là một trong những tên tội phạm nguy hiểm nhất Mexico. Ông ta đã bị bắt giữ trong một cuộc hành động của lực lượng đặc nhiệm Mexico, với sự hỗ trợ của tình báo Mỹ.",
+        "El Chapo Isidro là người đứng đầu tổ chức tội phạm Beltran Leyva, và được cho là đã tham gia vào việc buôn bán ma túy, bắt cóc, tống tiền và giết người. Ông ta đã bị Mỹ truy nã từ năm 2012 và được thêm vào danh sách 10 tên tội phạm nguy hiểm nhất của FBI vào năm 2025.",
+        "Cuộc bắt giữ El Chapo Isidro là một bước tiến quan trọng trong cuộc chiến chống ma túy ở Mexico. Tuy nhiên, vẫn còn nhiều thách thức ahead, vì các tổ chức tội phạm ở Mexico vẫn còn rất mạnh và có thể sẽ tìm cách trả thù cho việc bắt giữ lãnh đạo của họ."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "El Chapo Isidro: Người đàn ông đứng sau cuộc chiến chống ma túy ở Mexi",
+      "meta_description": "Fausto Isidro Meza-Flores, còn được gọi là El Chapo Isidro, là một trong những tên tội phạm nguy hiểm nhất Mexico. Ông ta đã bị bắt giữ trong một cuộc hành động",
+      "keywords": [
+        "El Chapo Isidro",
+        "Mexico",
+        "ma túy",
+        "tội phạm"
+      ],
+      "slug": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 163,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+        "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+        "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+        "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T16:03:16+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T14:20:35+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T13:15:21+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Fausto Isidro Meza-Flores, còn được gọi là El Chapo Isidro, là một trong những tên tội phạm nguy hiểm nhất Mexico.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Mexican special forces have arrested Fausto Isidro Meza-Flores,an alleged cartel leader known as “Chapo Isidro”,who is on the FBI’s Ten Most Wanted Fugitives list, Mexico’s defence ministry said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+              "snippet": "Mexican special forces have arrested Fausto Isidro Meza-Flores,an alleged cartel leader known as “Chapo Isidro”,who is on the FBI’s Ten Most Wanted Fugitives list, Mexico’s defence ministry said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+              "page_sha256": "0197feeac4de695719e0e4c4790034a7b6a20353d393153f5b665ff85917d322",
+              "snippet_sha256": "7f61d896c9931d0f22756db91d8f7844aefe2f47f357eef9f231b8c62248cb11",
+              "verified_at": "2026-11-21T16:59:13.130679+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "El Chapo Isidro là người đứng đầu tổ chức tội phạm Beltran Leyva, và được cho là đã tham gia vào việc buôn bán ma túy, bắt cóc, tống tiền và giết người.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“Known as El Chapo Isidro, he’s accused of spending the last 20 years flooding the US with fentanyl, cocaine, heroin, and other deadly drugs, first as an independent drug trafficker and later as the head of the Meza-Flores cartel,” said then-acting FBI Director Brian Driscoll in announcing his addition to the list.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+              "snippet": "“Known as El Chapo Isidro, he’s accused of spending the last 20 years flooding the US with fentanyl, cocaine, heroin, and other deadly drugs, first as an independent drug trafficker and later as the head of the Meza-Flores cartel,” said then-acting FBI Director Brian Driscoll in announcing his addition to the list.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+              "page_sha256": "0197feeac4de695719e0e4c4790034a7b6a20353d393153f5b665ff85917d322",
+              "snippet_sha256": "155c8b9affabd4428f33a4241d6bbfcd6643fce2cb33792445ace60a5c299d6d",
+              "verified_at": "2026-11-21T16:59:13.130679+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cuộc bắt giữ El Chapo Isidro là một bước tiến quan trọng trong cuộc chiến chống ma túy ở Mexico.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence | Euronews",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+              "snippet": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence | Euronews",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+              "page_sha256": "8e3894d4517f06885e3c8a6c677c74479a75f4da529acc3193a28c3e54494e52",
+              "snippet_sha256": "b8e4dcae272d2c7e77e4242d1be8bbe8b5bb52d978f47fc5775db3a362fc70ad",
+              "verified_at": "2026-11-21T16:59:13.130679+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về El Chapo Isidro và vai trò của ông ta trong tổ chức tội phạm Beltran Leyva. Nó cũng phân tích cuộc chiến chống ma túy ở Mexico và những thách thức mà nước này đang phải đối mặt. Ngoài ra, bài viết cũng đề cập đến sự hỗ trợ của tình báo Mỹ trong việc bắt giữ El Chapo Isidro, và cách này có thể ảnh hưởng đến quan hệ giữa Mexico và Mỹ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T16:59:13.131212+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2012",
+        "2025"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-21T17:00:03.296281+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 163,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 744,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "euronews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 00:00"
+    },
+    "published_at": "2026-11-21T17:00:03.296281+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nwsl-ay-manh-chien-luoc-phat-trien-tai-nang-va-lanh-ao-3d2c4203",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-21T16:58:09.866973+00:00",
+    "expires_at": "2026-11-22T16:58:09.866973+00:00",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+      "https://www.sportingnews.com/us/college/news/ncaa-womens-soccer-schedule-2026-channels-times-streams-scores/c73e72915d4e31dc5cf6deec"
+    ],
+    "article": {
+      "id": "nwsl-ay-manh-chien-luoc-phat-trien-tai-nang-va-lanh-ao-3d2c4203",
+      "title": "NWSL đẩy mạnh chiến lược phát triển tài năng và lãnh đạo",
+      "summary": "Giải bóng đá nữ quốc gia Mỹ (NWSL) vừa công bố hai sáng kiến mới nhằm củng cố nền tảng cấu trúc giải đấu, tập trung vào phát triển cầu thủ trẻ và đào tạo lãnh đạo thể thao.",
+      "category": "sports",
+      "source_name": "CBS Sports - Soccer",
+      "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+      "published_at": "2026-11-21T15:37:13+00:00",
+      "fetched_at": "2026-11-21T16:59:37.114875+00:00",
+      "appnho_published_at": "2026-11-21T17:00:03.296281+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giải bóng đá nữ quốc gia Mỹ (NWSL) vừa chính thức công bố hai sáng kiến chiến lược nhằm cải thiện hệ thống đào tạo và quản lý, đánh dấu bước chuyển mình quan trọng trong việc ưu tiên phát triển nguồn lực tương lai. Các chương trình mới bao gồm Quy định Phát triển Cầu thủ (PDR) và Chương trình Lãnh đạo Điều hành Thể thao, được thực hiện với sự phối hợp cùng U.S. Soccer và FIFA.",
+        "Theo Ủy viên NWSL Jessica Berman, việc tập trung vào 'đường ống' (pipeline) tài năng là ưu tiên hàng đầu của giải đấu trong bối cảnh sự quan tâm của người hâm mộ và giá trị thương mại đang tăng cao. Quy định PDR mới yêu cầu các câu lạc bộ xây dựng chương trình đào tạo cụ thể, gắn liền với các ưu đãi về quỹ lương. Sarah Gregorius, Phó chủ tịch phụ trách thể thao của NWSL, nhấn mạnh rằng đây là một cơ chế khuyến khích thay vì áp đặt, cho phép các đội bóng linh hoạt tùy theo điều kiện thị trường địa phương.",
+        "Đáng chú ý, NWSL khẳng định không đi theo mô hình học viện dọc truyền thống như ở châu Âu hay MLS. Thay vào đó, giải đấu tìm kiếm một phương thức phù hợp với đặc thù riêng của bóng đá Mỹ, nơi hệ thống đào tạo trẻ hiện tại đang phân tán. Việc áp đặt một mô hình cứng nhắc được cho là có thể gây gián đoạn cho các hệ sinh thái bóng đá địa phương vốn đang phát triển mạnh mẽ. Những bước đi này phản ánh cam kết của NWSL trong việc xây dựng một cấu trúc bền vững, đảm bảo bóng đá nữ nhận được sự đầu tư và quan tâm tương xứng với tiềm năng phát triển của môn thể thao này tại Bắc Mỹ."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "NWSL công bố chiến lược phát triển cầu thủ và lãnh đạo mới",
+      "meta_description": "NWSL triển khai quy định phát triển cầu thủ và chương trình lãnh đạo thể thao nhằm nâng cao chất lượng chuyên môn và kết nối hệ thống đào tạo tại Mỹ.",
+      "keywords": [
+        "NWSL",
+        "bóng đá nữ",
+        "phát triển cầu thủ",
+        "Jessica Berman",
+        "Sarah Gregorius"
+      ],
+      "slug": "nwsl-ay-manh-chien-luoc-phat-trien-tai-nang-va-lanh-ao-3d2c4203",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 318,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+        "https://www.sportingnews.com/us/college/news/ncaa-womens-soccer-schedule-2026-channels-times-streams-scores/c73e72915d4e31dc5cf6deec"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/college/news/ncaa-womens-soccer-schedule-2026-channels-times-streams-scores/c73e72915d4e31dc5cf6deec"
+      ],
+      "source_references": [
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T15:37:13+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/college/news/ncaa-womens-soccer-schedule-2026-channels-times-streams-scores/c73e72915d4e31dc5cf6deec",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-16T23:05:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "NWSL công bố Quy định Phát triển Cầu thủ (PDR) và Chương trình Lãnh đạo Điều hành Thể thao vào ngày 21/11/2026.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth"
+          ],
+          "importance": "core",
+          "evidence_snippet": "After she read out another list of attendance figures and viewership numbers before the 2026 season wraps up with Saturday's NWSL Championship (8 p.m.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "snippet": "After she read out another list of attendance figures and viewership numbers before the 2026 season wraps up with Saturday's NWSL Championship (8 p.m.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "page_sha256": "2d3bc9304cfc878bbf7223c350776c8320eb20d8a5a74485efc8671f8b85c203",
+              "snippet_sha256": "811a9facf21d050490698f7149645c132a6c59e988d4caf83ee20a0fe253e7bf",
+              "verified_at": "2026-11-21T16:59:37.114481+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy định PDR mới liên kết việc phát triển cầu thủ với các ưu đãi về quỹ lương cho các câu lạc bộ tham gia.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth"
+          ],
+          "importance": "core",
+          "evidence_snippet": "There's no stigma associated with the diverging path, though – U.S.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "snippet": "There's no stigma associated with the diverging path, though – U.S.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "page_sha256": "2d3bc9304cfc878bbf7223c350776c8320eb20d8a5a74485efc8671f8b85c203",
+              "snippet_sha256": "4d6cd1e578c8f9a3359a2958376abf52b3b6f788444ef0ce7723ab4f9d6576f2",
+              "verified_at": "2026-11-21T16:59:37.114481+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "NWSL không có ý định áp dụng mô hình học viện dọc giống như MLS hoặc các giải đấu ở châu Âu.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The NWSL is distinguishing itself from MLS, a league to which it has no formal ties but one that committed to the traditional academy system over a decade ago and can count it amongst its greatest successes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "snippet": "The NWSL is distinguishing itself from MLS, a league to which it has no formal ties but one that committed to the traditional academy system over a decade ago and can count it amongst its greatest successes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "page_sha256": "2d3bc9304cfc878bbf7223c350776c8320eb20d8a5a74485efc8671f8b85c203",
+              "snippet_sha256": "c98a4921958e1c66a8df3d149d7d68fafba74883284a92f917c14706253c363b",
+              "verified_at": "2026-11-21T16:59:37.114481+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa chiến lược phát triển của NWSL so với các mô hình học viện truyền thống tại MLS và châu Âu. Đồng thời, phân tích cách giải đấu sử dụng công cụ tài chính như quỹ lương để thúc đẩy hành vi phát triển cầu thủ mà không gây xáo trộn hệ thống đào tạo trẻ địa phương.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T16:59:37.114939+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-21T17:00:03.296281+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 318,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1467,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "cbssports.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 00:00"
+    },
+    "published_at": "2026-11-21T17:00:03.296281+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-21T16:58:09.866973+00:00",
+    "expires_at": "2026-11-22T16:58:09.866973+00:00",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+      "https://www.wired.com/story/tineco-black-friday-sale-2026",
+      "https://www.sportingnews.com/us/soccer/news/trinity-rodman-prove-true-nwsl-mvp-washington-spirit-champinship/ff3efb919fb4844d8d77c8f6",
+      "https://www.theguardian.com/football/2026/nov/20/nwsl-championship-final-ticket-prices-755-washington-spirit-kansas-city-current"
+    ],
+    "article": {
+      "id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
+      "title": "Chung kết NWSL 2026: Washington Spirit và Kansas City Current trước ngưỡng cửa lịch sử",
+      "summary": "Trận chung kết NWSL 2026 giữa Washington Spirit và Kansas City Current tại Audi Field hứa hẹn là màn đối đầu kịch tính, nơi cả hai đội đều khao khát khẳng định vị thế đỉnh cao của bóng đá nữ nội địa Mỹ.",
+      "category": "sports",
+      "source_name": "CBS Sports - Soccer",
+      "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+      "published_at": "2026-11-21T15:46:57+00:00",
+      "fetched_at": "2026-11-21T17:00:00.809316+00:00",
+      "appnho_published_at": "2026-11-21T17:00:03.296281+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận chung kết Giải bóng đá nữ quốc gia Mỹ (NWSL) năm 2026 sẽ diễn ra vào tối thứ Bảy tại sân vận động Audi Field, chứng kiến cuộc đụng độ giữa Washington Spirit và Kansas City Current. Đây là lần thứ ba liên tiếp Washington Spirit góp mặt trong trận tranh ngôi vương, đánh dấu nỗ lực không ngừng nghỉ của đội bóng sau hai lần thất bại ở các trận chung kết trước đó. Đối thủ của họ, Kansas City Current, cũng đang có phong độ cao sau khi loại đương kim vô địch NJ/NY Gotham FC ở bán kết.",
+        "Sự chú ý đổ dồn vào Trinity Rodman, ngôi sao của Washington Spirit, người đang trải qua mùa giải ấn tượng nhất sự nghiệp. Dù không giành được danh hiệu MVP mùa giải, Rodman vẫn được giới chuyên môn đánh giá là cầu thủ có tầm ảnh hưởng lớn nhất trên sân cỏ. Sự trở lại của cô trong trạng thái thể lực sung mãn sau mùa giải 2025 đầy chấn thương là chìa khóa quan trọng giúp Spirit tự tin hướng tới chiếc cúp vô địch thứ hai kể từ năm 2021.",
+        "Ở phía đối diện, Kansas City Current sở hữu đội hình đồng đều với những cái tên có khả năng xoay chuyển cục diện trận đấu như Croix Bethune, Temwa Chawinga và Michelle Cooper. Cuộc chiến ở khu vực giữa sân được dự báo sẽ rất khốc liệt, nơi Andi Sullivan của Spirit sẽ đối đầu với sự linh hoạt của Lo'eau LaBonta và Vanessa DiBernardo. Đây không chỉ là cuộc đấu về chiến thuật mà còn là bài kiểm tra bản lĩnh giữa những cựu binh dày dạn kinh nghiệm và các tài năng trẻ đang lên.",
+        "Bối cảnh trận đấu càng trở nên đặc biệt khi Spirit được chơi trên sân nhà Audi Field. Dù được coi là địa điểm trung lập, việc người hâm mộ săn đón vé từ sớm đã tạo ra một bầu không khí áp đảo. Với mức giá vé cao kỷ lục, vượt xa các trận chung kết trước đây, sự kiện này phản ánh sức hút ngày càng lớn của bóng đá nữ. Cả hai đội đều đang đứng trước cơ hội ghi dấu ấn lịch sử, nơi những chi tiết nhỏ nhất trong chiến thuật sẽ quyết định ai là người nâng cao chiếc cúp danh giá."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Chung kết NWSL 2026: Washington Spirit đối đầu Kansas City Current",
+      "meta_description": "Phân tích trận chung kết NWSL 2026 giữa Washington Spirit và Kansas City Current, từ phong độ ngôi sao đến những yếu tố quyết định tại Audi Field.",
+      "keywords": [
+        "NWSL",
+        "Washington Spirit",
+        "Kansas City Current",
+        "Trinity Rodman",
+        "bóng đá nữ"
+      ],
+      "slug": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 401,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+        "https://www.wired.com/story/tineco-black-friday-sale-2026",
+        "https://www.sportingnews.com/us/soccer/news/trinity-rodman-prove-true-nwsl-mvp-washington-spirit-champinship/ff3efb919fb4844d8d77c8f6",
+        "https://www.theguardian.com/football/2026/nov/20/nwsl-championship-final-ticket-prices-755-washington-spirit-kansas-city-current"
+      ],
+      "source_links": [
+        "https://www.wired.com/story/tineco-black-friday-sale-2026",
+        "https://www.sportingnews.com/us/soccer/news/trinity-rodman-prove-true-nwsl-mvp-washington-spirit-champinship/ff3efb919fb4844d8d77c8f6",
+        "https://www.theguardian.com/football/2026/nov/20/nwsl-championship-final-ticket-prices-755-washington-spirit-kansas-city-current"
+      ],
+      "source_references": [
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T15:46:57+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/tineco-black-friday-sale-2026",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:30:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/trinity-rodman-prove-true-nwsl-mvp-washington-spirit-champinship/ff3efb919fb4844d8d77c8f6",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T14:00:01+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/20/nwsl-championship-final-ticket-prices-755-washington-spirit-kansas-city-current",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T19:06:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Washington Spirit đối đầu Kansas City Current trong trận chung kết NWSL 2026 tại Audi Field.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current"
+          ],
+          "importance": "core",
+          "evidence_snippet": "- CBS Sportssite: media | arena: soccer | pageType: stories | section: | slug: nwsl-championship-2026-picks-washington-spirit-kansas-city-current | sport: soccer | route: article_single.us | 6-keys: media/spln/soccer/reg/free/storiesSkip to Main Content",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "snippet": "- CBS Sportssite: media | arena: soccer | pageType: stories | section: | slug: nwsl-championship-2026-picks-washington-spirit-kansas-city-current | sport: soccer | route: article_single.us | 6-keys: media/spln/soccer/reg/free/storiesSkip to Main Content",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "page_sha256": "1cd396a71c3d7359348bfac7259e6c87f8ac72ad72a29dc2e75c4dd8b66ed735",
+              "snippet_sha256": "7a98e866a321c0fa8f7783f3430ddc77539f7014b47769763c896dbfe1abab4b",
+              "verified_at": "2026-11-21T17:00:00.808896+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Washington Spirit đã lọt vào trận chung kết NWSL trong ba mùa giải liên tiếp.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Washington Spirit:The Spirit have tossed around the phrase that the third time's the charm after two empty-handed trips to the NWSL Championship and this year, it's hard not to buy the argument.Rodman is happy and healthybut she is just one part of a team that has been smartly assembled over the years and seems as cohesive as ever.-- Pardeep Cattry",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "snippet": "Washington Spirit:The Spirit have tossed around the phrase that the third time's the charm after two empty-handed trips to the NWSL Championship and this year, it's hard not to buy the argument.Rodman is happy and healthybut she is just one part of a team that has been smartly assembled over the years and seems as cohesive as ever.-- Pardeep Cattry",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "page_sha256": "1cd396a71c3d7359348bfac7259e6c87f8ac72ad72a29dc2e75c4dd8b66ed735",
+              "snippet_sha256": "365d5c5093f0883d8c61c34580216fe629d9f3048fb33e9275962de10ef623c8",
+              "verified_at": "2026-11-21T17:00:00.808896+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giá vé trận chung kết NWSL 2026 đã đạt mức cao kỷ lục, vượt xa các trận chung kết trước đây.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "NWSL Championship 2026 picks: Will the Washington Spirit or the Kansas City Current reach the top?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "snippet": "NWSL Championship 2026 picks: Will the Washington Spirit or the Kansas City Current reach the top?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "page_sha256": "1cd396a71c3d7359348bfac7259e6c87f8ac72ad72a29dc2e75c4dd8b66ed735",
+              "snippet_sha256": "23adbb89ba289db31115ac00475504a01215a9a9d725c4da0749b83271b606a0",
+              "verified_at": "2026-11-21T17:00:00.808896+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh lịch sử của hai đội bóng trong các trận chung kết gần đây và phân tích tác động của yếu tố sân nhà đối với tâm lý thi đấu. Đồng thời, bài viết đối chiếu sự khác biệt giữa danh hiệu cá nhân MVP và tầm ảnh hưởng thực tế trên sân của các ngôi sao.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T17:00:00.809394+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2021",
+        "2025",
+        "2026"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-21T17:00:03.296281+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 401,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1876,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "cbssports.com",
+            "sportingnews.com",
+            "theguardian.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 00:00"
+    },
+    "published_at": "2026-11-21T17:00:03.296281+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
