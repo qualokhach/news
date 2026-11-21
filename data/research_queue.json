@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "3c189e9f32f703a1ff8a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T11:51:12.701331+00:00",
     "expires_at": "2026-11-24T11:48:29.255775+00:00",
     "category_hint": "vietnam",
@@ -841,11 +841,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T11:51:12.701356+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cao-toc-tp-hcm-long-thanh-chuyen-lan-tu-0h-ngay-22-11-tai-xe-can-luu-y-g-63a75767"
   },
   {
     "queue_id": "ba330b9b9403c72563c8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T11:50:43.304732+00:00",
     "expires_at": "2026-11-24T11:48:29.255775+00:00",
     "category_hint": "world",
@@ -1526,11 +1527,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T11:50:43.304756+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081"
   },
   {
     "queue_id": "977f9cc57a77b9418e58",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T11:50:41.622087+00:00",
     "expires_at": "2026-11-24T11:48:29.255775+00:00",
     "category_hint": "world",
@@ -2109,7 +2111,8 @@
       ]
     },
     "research_ready_at": "2026-11-21T11:50:41.622110+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuu-huan-luyen-vien-darren-lehmann-tiep-tuc-bac-bo-cao-buoc-trong-vu-be--33f65f90"
   },
   {
     "queue_id": "5b4530f5f9741ad1da6b",
@@ -93667,6 +93670,617 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "cao-toc-tp-hcm-long-thanh-chuyen-lan-tu-0h-ngay-22-11-tai-xe-can-luu-y-g-63a75767",
+    "status": "READY",
+    "prepared_at": "2026-11-21T11:51:30.980404+00:00",
+    "expires_at": "2026-11-22T11:51:30.980404+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+      "https://dantri.com.vn/kinh-doanh/duoc-xoa-no-mon-bai-va-tien-cham-nop-doanh-nghiep-03-06-can-luu-y-gi-20261121105802742.htm"
+    ],
+    "article": {
+      "id": "cao-toc-tp-hcm-long-thanh-chuyen-lan-tu-0h-ngay-22-11-tai-xe-can-luu-y-g-63a75767",
+      "title": "Cao tốc TP.HCM - Long Thành chuyển làn từ 0h ngày 22-11: Tài xế cần lưu ý gì?",
+      "summary": "Từ 0h ngày 22-11, các phương tiện lưu thông trên cao tốc TP.HCM - Long Thành - Dầu Giây sẽ chuyển sang phần đường mở rộng để phục vụ thi công nâng cấp mặt đường hiện hữu.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+      "published_at": "2026-11-21T10:31:00+00:00",
+      "fetched_at": "2026-11-21T11:51:58.089464+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng công ty Đầu tư phát triển đường cao tốc Việt Nam (VEC) thông báo, kể từ 0h ngày 22-11, các phương tiện lưu thông trên cao tốc TP.HCM - Long Thành - Dầu Giây sẽ được điều tiết chuyển sang phần đường mở rộng vừa hoàn thành. Việc thay đổi phương án tổ chức giao thông này áp dụng cho đoạn từ cầu dẫn Long Thành đến nút giao quốc lộ 51, thuộc địa phận tỉnh Đồng Nai.",
+        "Theo chủ đầu tư, các cơ quan chức năng đã hoàn tất công tác kiểm tra, đánh giá và cho phép đưa phần đường mở rộng vào khai thác. Mục tiêu của việc chuyển làn là tạo mặt bằng sạch để nhà thầu tiếp tục triển khai các hạng mục thi công, cải tạo và nâng cấp phần đường hiện hữu. Đây được xem là bước đi quan trọng nhằm hoàn thiện dự án mở rộng toàn tuyến cao tốc.",
+        "Trong thời gian tổ chức giao thông theo phương án mới, đặc biệt là đoạn từ Km14+000 đến Km23+900, VEC khuyến cáo các tài xế cần đặc biệt chú ý quan sát hệ thống biển báo và vạch sơn tạm được bố trí trên tuyến. Người điều khiển phương tiện cần tuyệt đối tuân thủ tốc độ quy định, giữ khoảng cách an toàn và chấp hành nghiêm hướng dẫn của lực lượng điều tiết giao thông tại hiện trường để đảm bảo an toàn lưu thông trong giai đoạn thi công.",
+        "Dự án mở rộng đoạn cao tốc này có tổng chiều dài khoảng 22km, với tổng mức đầu tư 14.945 tỉ đồng. Tính đến thời điểm hiện tại, tổng sản lượng thi công của dự án đã đạt khoảng 81,5%."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Cao tốc TP.HCM - Long Thành chuyển làn từ 0h ngày 22-11",
+      "meta_description": "Từ 0h ngày 22-11, cao tốc TP.HCM - Long Thành tổ chức chuyển làn xe đoạn từ cầu Long Thành đến nút giao quốc lộ 51 để thi công nâng cấp mặt đường.",
+      "keywords": [
+        "cao tốc TP.HCM - Long Thành",
+        "chuyển làn",
+        "giao thông",
+        "nâng cấp đường"
+      ],
+      "slug": "cao-toc-tp-hcm-long-thanh-chuyen-lan-tu-0h-ngay-22-11-tai-xe-can-luu-y-g-63a75767",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 291,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+        "https://dantri.com.vn/kinh-doanh/duoc-xoa-no-mon-bai-va-tien-cham-nop-doanh-nghiep-03-06-can-luu-y-gi-20261121105802742.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/duoc-xoa-no-mon-bai-va-tien-cham-nop-doanh-nghiep-03-06-can-luu-y-gi-20261121105802742.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T10:31:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/duoc-xoa-no-mon-bai-va-tien-cham-nop-doanh-nghiep-03-06-can-luu-y-gi-20261121105802742.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:00:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Từ 0h ngày 22-11, xe cộ trên cao tốc TP.HCM - Long Thành - Dầu Giây (đoạn từ cầu dẫn Long Thành đến nút giao quốc lộ 51) sẽ chuyển sang phần đường mở rộng.",
+          "source_urls": [
+            "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Từ 0h ngày 22-11, xe cộ đi cao tốc TP.HCM - Long Thành - Dầu Giây (đoạn từ cầu dẫn Long Thành đến nút giao quốc lộ 51) sẽ được chuyển sang phần đường mở rộng vừa hoàn thành, để phục vụ thi công nâng cấp mặt đường hiện hữu.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "snippet": "Từ 0h ngày 22-11, xe cộ đi cao tốc TP.HCM - Long Thành - Dầu Giây (đoạn từ cầu dẫn Long Thành đến nút giao quốc lộ 51) sẽ được chuyển sang phần đường mở rộng vừa hoàn thành, để phục vụ thi công nâng cấp mặt đường hiện hữu.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "page_sha256": "d2a5fa2246ccd12d9f87118e0d90eb25d221f925769ac6bcbb3d959541b88754",
+              "snippet_sha256": "c27c4e7955df4aaf5704a3b057fab3f19b0b1ef04f72bb41af249a0e34560837",
+              "verified_at": "2026-11-21T11:51:58.088462+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "VEC khuyến cáo tài xế khi qua đoạn Km14+000 đến Km23+900 cần chú ý biển báo, vạch sơn tạm và tuân thủ tốc độ.",
+          "source_urls": [
+            "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong thời gian tổ chức giao thông theo phương án mới, Tổng công ty Đầu tư phát triển đường cao tốc Việt Nam khuyến cáo các tài xế khi lưu thông qua đoạn Km14+000 đến Km23+900 cần chú ý hệ thống biển báo, vạch sơn tạm, tuân thủ tốc độ quy định và hướng dẫn của lực lượng điều tiết giao thông trên tuyến.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "snippet": "Trong thời gian tổ chức giao thông theo phương án mới, Tổng công ty Đầu tư phát triển đường cao tốc Việt Nam khuyến cáo các tài xế khi lưu thông qua đoạn Km14+000 đến Km23+900 cần chú ý hệ thống biển báo, vạch sơn tạm, tuân thủ tốc độ quy định và hướng dẫn của lực lượng điều tiết giao thông trên tuyến.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "page_sha256": "d2a5fa2246ccd12d9f87118e0d90eb25d221f925769ac6bcbb3d959541b88754",
+              "snippet_sha256": "ecde82c7b18fc032bf5f0a503eb4a0504d188283e167fca1f2c3cb624633e7d5",
+              "verified_at": "2026-11-21T11:51:58.088462+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dự án mở rộng cao tốc TP.HCM - Long Thành có tổng chiều dài khoảng 22km và tổng mức đầu tư 14.945 tỉ đồng.",
+          "source_urls": [
+            "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Dự án mở rộng đoạn cao tốc TP.HCM - Long Thành từ nút giao Vành đai 2 (Km4+000, phường Long Trường, TP.HCM) đến nút giao với đường cao tốc Biên Hòa - Vũng Tàu (Km25+920, phường Long Thành, TP Đồng Nai) có tổng chiều dài khoảng 22km, tổng mức đầu tư 14.945 tỉ đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "snippet": "Dự án mở rộng đoạn cao tốc TP.HCM - Long Thành từ nút giao Vành đai 2 (Km4+000, phường Long Trường, TP.HCM) đến nút giao với đường cao tốc Biên Hòa - Vũng Tàu (Km25+920, phường Long Thành, TP Đồng Nai) có tổng chiều dài khoảng 22km, tổng mức đầu tư 14.945 tỉ đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "page_sha256": "d2a5fa2246ccd12d9f87118e0d90eb25d221f925769ac6bcbb3d959541b88754",
+              "snippet_sha256": "cffe21caa86d7c774cfd4f7084569011ef931d9bc9d96372929f957c79fa435d",
+              "verified_at": "2026-11-21T11:51:58.088462+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lộ trình chuyển làn cụ thể và các khuyến cáo an toàn cho tài xế khi đi qua khu vực đang thi công. Đồng thời, thông tin này giúp độc giả nắm bắt tiến độ dự án mở rộng cao tốc quan trọng kết nối TP.HCM và Đồng Nai.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T11:51:58.089574+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0",
+        "000",
+        "14",
+        "14.945",
+        "22",
+        "23",
+        "51",
+        "81,5",
+        "900"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T11:51:58.091275+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 291,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1345
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
+    "status": "READY",
+    "prepared_at": "2026-11-21T11:51:30.980404+00:00",
+    "expires_at": "2026-11-21T23:51:30.980404+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "https://www.npr.org/2026/11/20/nx-s1-6045879/young-people-record-their-older-relatives-for-the-great-listen",
+      "https://www.sportingnews.com/us/nba/news/worst-contracts-trae-young-devin-booker-toughest-trade/1ade62139f918ee71c430832"
+    ],
+    "article": {
+      "id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
+      "title": "Cánh cửa tái gia nhập EU của Anh: Thỏa thuận mới và những ngã rẽ tiềm năng",
+      "summary": "Ngoại trưởng Anh Ed Miliband cho biết việc tái gia nhập Liên minh châu Âu (EU) có thể được đưa ra bàn thảo trong các cuộc thảo luận không chính thức, sau khi nước này đạt được các thỏa thuận mới về thương mại và thanh niên.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "published_at": "2026-11-21T11:33:01+00:00",
+      "fetched_at": "2026-11-21T11:52:03.899341+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngoại trưởng Anh Ed Miliband tuyên bố rằng khả năng Anh tái gia nhập Liên minh châu Âu (EU) có thể xuất hiện trong các cuộc thảo luận không chính thức giữa các nhà lãnh đạo châu Âu và phía Anh. Tuyên bố này được đưa ra sau khi chính quyền Luân Đôn công bố các thỏa thuận quan trọng về thương mại và thanh niên với khối này vào thứ Sáu.",
+        "Gói thỏa thuận mới đạt được bao gồm các tiêu chuẩn về thực phẩm và đồ uống, giao dịch phát thải và một chương trình di chuyển dành cho giới trẻ. Theo các kế hoạch này, khoảng 100.000 người trẻ tuổi ở Anh sẽ có quyền sinh sống, làm việc, học tập và du lịch tại các quốc gia EU, đồng thời công dân châu Âu cũng nhận được quyền tiếp cận tương tự tại Anh. Giới chức Anh kỳ vọng những cam kết này sẽ mang lại xung lực mới cho nền kinh tế.",
+        "Mặc dù đảng Lao động cầm quyền vẫn duy trì các lằn ranh đỏ trong nhiệm kỳ hiện tại, không tái gia nhập thị trường chung hay liên minh thuế quan theo đúng cam kết tranh cử, Ngoại trưởng Miliband nhấn mạnh rằng mọi lựa chọn đều sẽ được xem xét trong tương lai khi thế giới và châu Âu đang thay đổi. Các quan chức hai bên sẽ tiếp tục các cuộc trao đổi mang tính định hướng trước thềm hội nghị thượng đỉnh Anh - EU vào năm tới.",
+        "Tuy nhiên, tiến trình này vẫn đối mặt với một số rào cản tiềm ẩn từ các bất đồng chưa được giải quyết, chẳng hạn như vấn đề học phí cho sinh viên EU tại các trường đại học Anh. Dù vậy, các nhà lãnh đạo từ hai phía bày tỏ sự tự tin rằng các giải pháp sẽ được tìm thông qua các cuộc đối thoại tiếp theo nhằm thu hẹp khoảng cách hậu Brexit."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Anh mở rộng khả năng quan hệ với EU sau các thỏa thuận mới",
+      "meta_description": "Khám phá chi tiết các thỏa thuận thương mại và thanh niên giữa Anh và EU, cùng tuyên bố của Ngoại trưởng Ed Miliband về tương lai quan hệ song phương.",
+      "keywords": [
+        "Anh",
+        "EU",
+        "Brexit",
+        "Ed Miliband",
+        "thỏa thuận thương mại",
+        "thanh niên"
+      ],
+      "slug": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 334,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+        "https://www.npr.org/2026/11/20/nx-s1-6045879/young-people-record-their-older-relatives-for-the-great-listen",
+        "https://www.sportingnews.com/us/nba/news/worst-contracts-trae-young-devin-booker-toughest-trade/1ade62139f918ee71c430832"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/20/nx-s1-6045879/young-people-record-their-older-relatives-for-the-great-listen",
+        "https://www.sportingnews.com/us/nba/news/worst-contracts-trae-young-devin-booker-toughest-trade/1ade62139f918ee71c430832"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:33:01+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6045879/young-people-record-their-older-relatives-for-the-great-listen",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T09:41:31+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nba/news/worst-contracts-trae-young-devin-booker-toughest-trade/1ade62139f918ee71c430832",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T20:26:46+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ngoại trưởng Anh Ed Miliband cho biết việc tái gia nhập EU có thể được đưa ra bàn thảo trong các cuộc thảo luận không chính thức.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Miliband told the BBC it was “absolutely clear” the agreements on food exports, energy and youth mobility would apply, even though there has not been a deal on tuition fees.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "snippet": "Miliband told the BBC it was “absolutely clear” the agreements on food exports, energy and youth mobility would apply, even though there has not been a deal on tuition fees.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "page_sha256": "1123fb305210672d77f18425099fc64b0cf829b6fddc692a6ca712b954a79a5b",
+              "snippet_sha256": "1fafd153d16639b353218a58359734520e2bc9f3fb806c49f347c3757461dd26",
+              "verified_at": "2026-11-21T11:52:03.898669+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anh và EU đã đạt được các thỏa thuận về tiêu chuẩn thực phẩm, đồ uống, giao dịch phát thải và chương trình di chuyển dành cho giới trẻ với 100.000 người tham gia.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband"
+          ],
+          "importance": "core",
+          "evidence_snippet": "UK and EU close to post-Brexit deal as they agree 100,000 youth mobility cap",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "snippet": "UK and EU close to post-Brexit deal as they agree 100,000 youth mobility cap",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "page_sha256": "1123fb305210672d77f18425099fc64b0cf829b6fddc692a6ca712b954a79a5b",
+              "snippet_sha256": "808a48aa87e32f713fadb07699c3ab234259a90aac11d97b550b9b1d6399e57d",
+              "verified_at": "2026-11-21T11:52:03.898669+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đảng Lao động Anh từ khi lên nắm quyền năm 2024 vẫn duy trì các lằn ranh đỏ không tái gia nhập thị trường chung hay liên minh thuế quan.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Since entering government in 2024, Labour has stuck to the “red lines” in its manifesto, which stated the party would not rejoin the single market or customs union.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "snippet": "Since entering government in 2024, Labour has stuck to the “red lines” in its manifesto, which stated the party would not rejoin the single market or customs union.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "page_sha256": "1123fb305210672d77f18425099fc64b0cf829b6fddc692a6ca712b954a79a5b",
+              "snippet_sha256": "58011bf27d1c398753018583c1a74746d75dc83458a9fbc6ace9a645f10be54c",
+              "verified_at": "2026-11-21T11:52:03.898669+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh chính trị xoay quanh các thỏa thuận thương mại và thanh niên mới giữa Anh và EU. Đồng thời, phân tích ranh giới giữa các cam kết hiện tại của chính phủ Lao động và triển vọng dài hạn được Ngoại trưởng Ed Miliband hé lộ.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-21T11:52:03.899460+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100.000"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T11:52:03.901069+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 334,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1528
+        },
+        "independent_domains": [
+          "npr.org",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cuu-huan-luyen-vien-darren-lehmann-tiep-tuc-bac-bo-cao-buoc-trong-vu-be--33f65f90",
+    "status": "READY",
+    "prepared_at": "2026-11-21T11:51:30.980404+00:00",
+    "expires_at": "2026-11-22T11:51:30.980404+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/cricket/news/12040/13614628/sandpapergate-former-australia-head-coach-darren-lehmann-denies-knowledge-of-sandpaper-use-after-cameron-bancroft-allegations"
+    ],
+    "article": {
+      "id": "cuu-huan-luyen-vien-darren-lehmann-tiep-tuc-bac-bo-cao-buoc-trong-vu-be--33f65f90",
+      "title": "Cựu huấn luyện viên Darren Lehmann tiếp tục bác bỏ cáo buộc trong vụ bê bối bóng cricket",
+      "summary": "Cựu huấn luyện viên trưởng đội tuyển cricket Australia, Darren Lehmann, vừa lên tiếng phủ nhận việc ông biết về âm mưu dùng giấy nhám làm biến dạng trái bóng trong chuyến du đấu Nam Phi năm 2018, giữa lúc các cựu cầu thủ liên tục đưa ra những cáo buộc mới.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T11:36:24+00:00",
+      "fetched_at": "2026-11-21T11:52:13.121425+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cựu huấn luyện viên trưởng đội tuyển cricket Australia, Darren Lehmann, một lần nữa khẳng định ông hoàn toàn không hay biết về việc các cầu thủ sử dụng giấy nhám để thay đổi tính chất trái bóng trong loạt trận đấu Test với Nam Phi vào năm 2018. Phát biểu mới nhất của ông được đưa ra sau khi cựu cầu thủ Cameron Bancroft công bố một bài viết dài hơn 4.000 từ, đưa ra nhiều chi tiết cáo buộc ban huấn luyện và toàn đội đã nắm rõ kế hoạch gian lận này từ trận đấu thứ hai.",
+        "Trong một cuộc phỏng vấn, Lehmann cho biết ông không nhớ rõ về đoạn hội thoại qua bộ đàm với cầu thủ dự bị Peter Handscomb, thời điểm hình ảnh Cameron Bancroft giấu giấy nhám trong trang phục bị ghi lại trên truyền hình. Dù vậy, ông thừa nhận bản thân với tư cách là huấn luyện viên trưởng tại thời điểm đó phải gánh chịu trách nhiệm chung và gửi lời xin lỗi vì những sự việc đã xảy ra, đồng thời chia sẻ rằng giai đoạn hậu bê bối từng đẩy ông vào khoảng thời gian vô cùng khó khăn.",
+        "Sự việc này diễn ra cùng thời điểm Cricket Australia chính thức bày tỏ sự ủng hộ tuyệt đối đối với đội trưởng hiện tại Pat Cummins, trong bối cảnh nội bộ đội tuyển đang đối mặt với nhiều luồng ý kiến trái chiều từ các cuốn tự truyện và lời khai gần đây của các thành viên từng tham gia chuyến du đấu. Trong khi nhiều cựu cầu thủ khẳng định toàn bộ đội ngũ đều biết về vụ việc, nhóm các vận động viên ném bóng bao gồm cả Cummins vẫn kiên quyết giữ nguyên lập trường không hề hay biết về kế hoạch can thiệp vào trái bóng từ trước."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Darren Lehmann bác bỏ cáo buộc vụ bê bối bóng cricket 2018",
+      "meta_description": "Cựu HLV Darren Lehmann phủ nhận việc biết về âm mưu dùng giấy nhám trong chuyến du đấu Nam Phi năm 2018 sau những tuyên bố mới từ Cameron Bancroft.",
+      "keywords": [
+        "Darren Lehmann",
+        "sandpapergate",
+        "cricket Australia",
+        "Cameron Bancroft",
+        "ball-tampering"
+      ],
+      "slug": "cuu-huan-luyen-vien-darren-lehmann-tiep-tuc-bac-bo-cao-buoc-trong-vu-be--33f65f90",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 315,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/cricket/news/12040/13614628/sandpapergate-former-australia-head-coach-darren-lehmann-denies-knowledge-of-sandpaper-use-after-cameron-bancroft-allegations"
+      ],
+      "source_links": [
+        "https://www.skysports.com/cricket/news/12040/13614628/sandpapergate-former-australia-head-coach-darren-lehmann-denies-knowledge-of-sandpaper-use-after-cameron-bancroft-allegations"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:36:24+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/cricket/news/12040/13614628/sandpapergate-former-australia-head-coach-darren-lehmann-denies-knowledge-of-sandpaper-use-after-cameron-bancroft-allegations",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T07:44:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cựu huấn luyện viên Darren Lehmann một lần nữa phủ nhận mọi hiểu biết về âm mưu dùng giấy nhám trong chuyến du đấu Nam Phi năm 2018.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The debate about the sandpaper plot of 2018 was reopened two weeks ago by allegations in the autobiography of Usman Khawaja, who was part of the Australia team in Cape Town eight years ago.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+              "snippet": "The debate about the sandpaper plot of 2018 was reopened two weeks ago by allegations in the autobiography of Usman Khawaja, who was part of the Australia team in Cape Town eight years ago.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "4dad23ae1c82348a5e0ecc86337f604c00aa2f3660b3b904535721d8e7e052d9",
+              "snippet_sha256": "d914612adaf32731d1510eb74dbb84d776f3cd14a20f4c28a2d7aa46bc118f47",
+              "verified_at": "2026-11-21T11:52:13.120793+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cameron Bancroft đã công bố một bài viết dài hơn 4.000 từ trên tờ West Australian cáo buộc ban huấn luyện và toàn đội đều biết về việc sử dụng giấy nhám.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "In an ongoing row about the cheating scandal that took place in Australia's third Test against South Africa in 2018, Bancroft published a testimony running to more than 4,000 words in the West Australian newspaper on Wednesday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+              "snippet": "In an ongoing row about the cheating scandal that took place in Australia's third Test against South Africa in 2018, Bancroft published a testimony running to more than 4,000 words in the West Australian newspaper on Wednesday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "4dad23ae1c82348a5e0ecc86337f604c00aa2f3660b3b904535721d8e7e052d9",
+              "snippet_sha256": "1e505496596d9ab48f3f94d521aaf325fb77b4e7cd40a1672fdbe886df28bcb6",
+              "verified_at": "2026-11-21T11:52:13.120793+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cricket Australia đã xác nhận sự ủng hộ nhất trí đối với đội trưởng Pat Cummins giữa lúc tranh cãi bùng nổ trở lại.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Lehmann's renewed denial came on the same day Cricket Australia confirmed its \"unanimous support\" for Pat Cummins as Australia captain.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+              "snippet": "Lehmann's renewed denial came on the same day Cricket Australia confirmed its \"unanimous support\" for Pat Cummins as Australia captain.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "4dad23ae1c82348a5e0ecc86337f604c00aa2f3660b3b904535721d8e7e052d9",
+              "snippet_sha256": "f31a6d58ae767080413908c09fafb662d7e398472cd94844d4a5795acb0a393e",
+              "verified_at": "2026-11-21T11:52:13.120793+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phản ứng trực tiếp của cựu huấn luyện viên Darren Lehmann trước các cáo buộc chi tiết từ Cameron Bancroft. Đồng thời, bài báo đặt sự việc vào bối cảnh rộng hơn khi Cricket Australia đưa ra lập trường về đội trưởng Pat Cummins và những chia sẻ từ các cựu thành viên khác trong chuyến du đấu năm 2018.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T11:52:13.121538+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2018",
+        "4.000"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T11:52:13.122802+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 315,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1480
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
