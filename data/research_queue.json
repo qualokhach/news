@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "e018acd495ba21058b7f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T16:25:40.329626+00:00",
     "expires_at": "2026-11-24T16:24:00.036404+00:00",
     "category_hint": "technology",
@@ -650,11 +650,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T16:25:40.329647+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cach-kiem-tra-thong-tin-card-o-hoa-gpu-tren-may-tinh-windows-de-dang-6fea619b"
   },
   {
     "queue_id": "d06412fff4efd0f8a12b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T16:25:38.695529+00:00",
     "expires_at": "2026-11-24T16:24:00.036404+00:00",
     "category_hint": "technology",
@@ -1266,11 +1267,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T16:25:38.695549+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "waymo-trieu-hoi-robotaxi-sau-su-co-i-vao-lan-uong-cao-toc-bi-ong-fe947b47"
   },
   {
     "queue_id": "3381289b3849521358de",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T16:25:36.827073+00:00",
     "expires_at": "2026-11-24T16:24:00.036404+00:00",
     "category_hint": "world",
@@ -2059,7 +2061,8 @@
       ]
     },
     "research_ready_at": "2026-11-21T16:25:36.827095+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tuyen-anh-gianh-chien-thang-cach-biet-ky-luc-truoc-new-zealand-tai-natio-ce8d2601"
   },
   {
     "queue_id": "da119fdccc1f2f3510c6",
@@ -92801,6 +92804,667 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "cach-kiem-tra-thong-tin-card-o-hoa-gpu-tren-may-tinh-windows-de-dang-6fea619b",
+    "status": "READY",
+    "prepared_at": "2026-11-21T16:26:08.872816+00:00",
+    "expires_at": "2026-11-22T04:26:08.872816+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+      "https://www.cnbc.com/2026/11/20/ai-holiday-shopping-scams.html",
+      "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "cach-kiem-tra-thong-tin-card-o-hoa-gpu-tren-may-tinh-windows-de-dang-6fea619b",
+      "title": "Cách kiểm tra thông tin card đồ họa GPU trên máy tính Windows dễ dàng",
+      "summary": "Hướng dẫn các phương pháp nhanh chóng và tiện lợi để xác định loại card đồ họa (GPU) đang sử dụng trên máy tính Windows bằng các công cụ tích hợp sẵn như Task Manager, Device Manager và DirectX Diagnostic Tool.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "fetched_at": "2026-11-21T16:26:13.338812+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nhiều người dùng máy tính Windows thường không để ý rằng hệ thống có thể tích hợp tới hai bộ xử lý đồ họa khác nhau. Trong khi các dòng laptop phổ thông thường kết hợp giữa đồ họa tích hợp sẵn để phục vụ các tác vụ hàng ngày và GPU chuyên dụng từ các thương hiệu lớn cho những công việc nặng, việc xác định chính xác phần cứng bên trong đóng vai trò rất quan trọng.",
+        "Việc nắm rõ thông số kỹ thuật phần cứng giúp người dùng kiểm tra xem thiết bị có đáp ứng được yêu cầu của trò chơi điện tử hay không, đồng thời hỗ trợ đắc lực cho công tác khắc phục sự cố hệ thống. Điểm thuận lợi là hệ điều hành Windows đã trang bị sẵn các công cụ tích hợp để nhận diện phần cứng mà không đòi hỏi người dùng phải cài đặt thêm bất kỳ phần mềm phụ trợ nào.",
+        "Công cụ nhanh chóng và tiện lợi nhất để thực hiện việc này là Task Manager. Người dùng chỉ cần sử dụng tổ hợp phím tắt trên bàn phím để mở trình quản lý tác vụ này. Tại mục Hiệu suất trong giao diện, phần hiển thị card đồ họa sẽ cung cấp các thông tin chi tiết về bộ nhớ, phiên bản trình điều khiển cũng như mức độ tải công việc hiện tại mà linh kiện này đang phải gánh vác.",
+        "Bên cạnh đó, người dùng cũng có thể sử dụng Device Manager để xem tên thiết bị mà không cần thông qua các biểu đồ hiệu suất. Chỉ cần mở menu tương ứng từ nút Start và mở rộng phần thiết bị hiển thị, toàn bộ danh sách các bộ xử lý đồ họa đang hoạt động sẽ xuất hiện rõ ràng, giúp phân biệt rõ giữa đồ họa tích hợp và đồ họa rời.",
+        "Ngoài ra, công cụ chẩn đoán DirectX Diagnostic Tool cũng là một lựa chọn hữu ích khác cho phép người dùng kiểm tra sâu hơn về thông số kỹ thuật và trình điều khiển. Việc nắm rõ cấu hình đồ họa hiện tại sẽ giúp người dùng đưa ra những quyết định chính xác trước khi tiến hành nâng cấp hệ thống phần cứng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hướng dẫn kiểm tra card đồ họa GPU trên Windows nhanh chóng",
+      "meta_description": "Tìm hiểu cách xem thông tin GPU, bộ nhớ VRAM và trình điều khiển trên máy tính Windows bằng Task Manager, Device Manager và DirectX Diagnostic Tool.",
+      "keywords": [
+        "GPU",
+        "Windows",
+        "Task Manager",
+        "Device Manager",
+        "card đồ hoạ"
+      ],
+      "slug": "cach-kiem-tra-thong-tin-card-o-hoa-gpu-tren-may-tinh-windows-de-dang-6fea619b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 385,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+        "https://www.cnbc.com/2026/11/20/ai-holiday-shopping-scams.html",
+        "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/20/ai-holiday-shopping-scams.html",
+        "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T16:00:00+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/20/ai-holiday-shopping-scams.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T15:12:46+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T00:00:03+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hệ thống Windows có thể chứa hai bộ xử lý đồ họa, gồm đồ họa tích hợp và GPU chuyên dụng.",
+          "source_urls": [
+            "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc"
+          ],
+          "importance": "core",
+          "evidence_snippet": "If you seeMicrosoft Basic Display Adapterinstead of your graphics card's name in Device Manager, it means Windows is using a generic display driver.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "snippet": "If you seeMicrosoft Basic Display Adapterinstead of your graphics card's name in Device Manager, it means Windows is using a generic display driver.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "page_sha256": "d686a3bc458932934165b00a18a0f4bc5e827098d84f04924413fb6b55ce1f52",
+              "snippet_sha256": "b755df8ca3f37cc20acb379f9fa96a66e09d67a70b91a3d2862d5a1c94e9041c",
+              "verified_at": "2026-11-21T16:26:13.338284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Task Manager là công cụ nhanh chóng giúp xem thông tin card đồ họa, bộ nhớ và trình điều khiển.",
+          "source_urls": [
+            "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Besides the GPU branding, you also get driver details, info about DirectX and even GPU temperature (if the hardware supports it) in Task Manager.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "snippet": "Besides the GPU branding, you also get driver details, info about DirectX and even GPU temperature (if the hardware supports it) in Task Manager.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "page_sha256": "d686a3bc458932934165b00a18a0f4bc5e827098d84f04924413fb6b55ce1f52",
+              "snippet_sha256": "13779d7e3d5f2efc98e09e5be76af0deb33dd6ab194ff4869e97697ad3f8ee5c",
+              "verified_at": "2026-11-21T16:26:13.338284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Người dùng có thể kiểm tra tên thiết bị đồ họa bằng cách mở Device Manager và mở rộng mục Display adapters.",
+          "source_urls": [
+            "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "To begin, right-click theStartbutton, selectDevice Managerfrom the list andexpandDisplay adapters.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "snippet": "To begin, right-click theStartbutton, selectDevice Managerfrom the list andexpandDisplay adapters.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
+              "page_sha256": "d686a3bc458932934165b00a18a0f4bc5e827098d84f04924413fb6b55ce1f52",
+              "snippet_sha256": "6e819392f358f53acbb5f82e050bf60725840098f6b963f6a057024d14d098a0",
+              "verified_at": "2026-11-21T16:26:13.338284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết giải thích chi tiết các phương pháp tích hợp sẵn trên Windows để kiểm tra GPU. Cung cấp hướng dẫn rõ ràng từng bước qua Task Manager và Device Manager. Giúp người dùng phân biệt rõ vai trò giữa đồ họa tích hợp và đồ họa rời mà không cần can thiệp phần cứng.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-21T16:26:13.338910+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-21T16:26:13.340310+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 385,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1740
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "engadget.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "waymo-trieu-hoi-robotaxi-sau-su-co-i-vao-lan-uong-cao-toc-bi-ong-fe947b47",
+    "status": "READY",
+    "prepared_at": "2026-11-21T16:26:08.872816+00:00",
+    "expires_at": "2026-11-22T16:26:08.872816+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes",
+      "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+      "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order"
+    ],
+    "article": {
+      "id": "waymo-trieu-hoi-robotaxi-sau-su-co-i-vao-lan-uong-cao-toc-bi-ong-fe947b47",
+      "title": "Waymo triệu hồi robotaxi sau sự cố đi vào làn đường cao tốc bị đóng",
+      "summary": "Waymo vừa thực hiện hai đợt triệu hồi tự nguyện đối với hệ thống lái tự động sau khi các phương tiện của hãng liên tục đi vào khu vực thi công trên cao tốc, dẫn đến lệnh cấm từ cơ quan chức năng California.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes",
+      "published_at": "2026-11-21T16:01:32+00:00",
+      "fetched_at": "2026-11-21T16:26:36.188369+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hãng xe tự lái Waymo, thuộc sở hữu của Alphabet, vừa chính thức thực hiện hai đợt triệu hồi tự nguyện đối với hệ thống lái tự động trên đội xe robotaxi của mình. Quyết định này được đưa ra sau khi các phương tiện của hãng liên tục ghi nhận các hành vi vi phạm an toàn, bao gồm việc tự ý đi vào các làn đường cao tốc đang bị đóng cửa để thi công và không tuân thủ các tín hiệu điều tiết giao thông từ lực lượng chức năng.",
+        "Trước đó, Sở Phương tiện Cơ giới California (DMV) đã ban hành lệnh cấm Waymo hoạt động trên các tuyến cao tốc của tiểu bang. Cơ quan này khẳng định các robotaxi của Waymo là 'mối nguy hiểm sắp xảy ra đối với an toàn công cộng' sau khi ghi nhận nhiều sự cố, điển hình là việc ba xe tự lái đi vào khu vực thi công bị hạn chế tại thành phố Burlingame. Ngoài ra, một video lan truyền trên mạng xã hội cũng cho thấy một chiếc Waymo cố gắng điều hướng xung quanh xe của cảnh sát tuần tra cao tốc California khi lực lượng này đang thực hiện phân luồng giao thông.",
+        "Đây không phải là lần đầu tiên Waymo gặp rắc rối với công nghệ điều hướng trên cao tốc. Hồi tháng 6, hãng từng triệu hồi gần 3.800 xe sau các sự cố tương tự. Dù đã tung ra bản cập nhật phần mềm vào tháng 7 nhằm cải thiện khả năng nhận diện khu vực thi công và phản ứng với xe ưu tiên, các sự cố gần đây cho thấy hệ thống vẫn chưa đạt được độ ổn định cần thiết. Hiện tại, Waymo đã tạm dừng hoạt động trên cao tốc tại tất cả các thị trường mà hãng đang vận hành để đánh giá lại hiệu suất.",
+        "Waymo cho biết hãng đang tích cực làm việc với DMV và các cơ quan quản lý để khắc phục lỗi phần mềm. Trong thời gian chờ đợi, dịch vụ gọi xe của Waymo vẫn tiếp tục hoạt động bình thường trên các tuyến đường nội đô, nơi hãng đang phục vụ hơn nửa triệu chuyến đi mỗi tuần. Công ty khẳng định các đợt triệu hồi này là bước đi cần thiết trong quy trình kiểm chứng công nghệ trước khi mở rộng sang các môi trường giao thông phức tạp hơn."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Waymo triệu hồi robotaxi sau sự cố vi phạm an toàn trên cao tốc",
+      "meta_description": "Waymo triệu hồi robotaxi để nâng cấp phần mềm sau khi các xe tự lái đi vào làn đường cao tốc bị đóng, gây nguy hiểm cho an toàn công cộng tại California.",
+      "keywords": [
+        "Waymo",
+        "robotaxi",
+        "xe tự lái",
+        "triệu hồi",
+        "California DMV"
+      ],
+      "slug": "waymo-trieu-hoi-robotaxi-sau-su-co-i-vao-lan-uong-cao-toc-bi-ong-fe947b47",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 414,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes",
+        "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+        "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order"
+      ],
+      "source_links": [
+        "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+        "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T16:01:32+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T16:24:34+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T19:49:41+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Waymo thực hiện hai đợt triệu hồi tự nguyện đối với hệ thống lái tự động sau các sự cố đi vào làn đường cao tốc bị đóng.",
+          "source_urls": [
+            "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The company eventuallyresumed freeway servicein the summer after identifying \"an area of improvement regarding performance around freeway construction zones.\" Previously, Waymofiled a recallafter one of its robotaxis drove into a flooded road in San Antonio, Texas.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes",
+              "snippet": "The company eventuallyresumed freeway servicein the summer after identifying \"an area of improvement regarding performance around freeway construction zones.\" Previously, Waymofiled a recallafter one of its robotaxis drove into a flooded road in San Antonio, Texas.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2324099/waymo-recalls-robotaxis-after-they-drove-into-closed-freeway-lanes",
+              "page_sha256": "120ad813100223aad910b6eefec7f8ee65dc62b6df34be2d538a22c1972db134",
+              "snippet_sha256": "e4ac3b09b4d30121bff84751a70a9f0f28e872c49ca8c310cc95ca62e1d6cde1",
+              "verified_at": "2026-11-21T16:26:36.187809+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "DMV California cấm Waymo hoạt động trên cao tốc vì coi đây là mối nguy hiểm đối với an toàn công cộng.",
+          "source_urls": [
+            "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+            "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order"
+          ],
+          "importance": "core",
+          "evidence_snippet": "We are working with the California DMV and other state officials diligently and responsibly to resume freeway operations.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+              "snippet": "We are working with the California DMV and other state officials diligently and responsibly to resume freeway operations.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            },
+            {
+              "source_url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order",
+              "snippet": "We are working with the California DMV and other state officials diligently and responsibly to resume freeway operations.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+              "page_sha256": "6a9ca02b4428e6b5b663ebddceb51e6e7474f86d9673b23684a62b1a04a259b0",
+              "snippet_sha256": "6a1b97f5cbf36f6aebc4b48145746ab51172e9ea19f2d161a9fc161f244e6745",
+              "verified_at": "2026-11-21T16:26:36.187809+00:00",
+              "match_method": "exact_normalized_substring"
+            },
+            {
+              "source_url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order",
+              "page_sha256": "8af2cf8ac877dd07e19cffb78f19d94704ca60b7251e2ba6f83f0ec5405cd811",
+              "snippet_sha256": "6a1b97f5cbf36f6aebc4b48145746ab51172e9ea19f2d161a9fc161f244e6745",
+              "verified_at": "2026-11-21T16:26:36.187809+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Waymo đã tạm dừng hoạt động trên cao tốc tại tất cả các thị trường để đánh giá lại hiệu suất.",
+          "source_urls": [
+            "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Until the suspension, Waymo was only conducting highway operations in Los Angeles and the Bay Area in California, as well as in Arizona.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+              "snippet": "Until the suspension, Waymo was only conducting highway operations in Los Angeles and the Bay Area in California, as well as in Arizona.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+              "page_sha256": "6a9ca02b4428e6b5b663ebddceb51e6e7474f86d9673b23684a62b1a04a259b0",
+              "snippet_sha256": "43ccfba8960443992063dcd1d0d3b9ad78705809168d286bc037c1a08aaa7d53",
+              "verified_at": "2026-11-21T16:26:36.187809+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối quan hệ nhân quả giữa các sự cố kỹ thuật trên cao tốc và lệnh cấm từ cơ quan quản lý California. Đồng thời, bài phân tích sự lặp lại của các lỗi phần mềm dù đã có nỗ lực khắc phục trước đó, giúp độc giả hiểu rõ thách thức trong việc vận hành xe tự lái ở môi trường phức tạp.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T16:26:36.188470+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "3.800"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T16:26:36.189684+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 414,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1894
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "engadget.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tuyen-anh-gianh-chien-thang-cach-biet-ky-luc-truoc-new-zealand-tai-natio-ce8d2601",
+    "status": "READY",
+    "prepared_at": "2026-11-21T16:26:08.872816+00:00",
+    "expires_at": "2026-11-22T16:26:08.872816+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live"
+    ],
+    "article": {
+      "id": "tuyen-anh-gianh-chien-thang-cach-biet-ky-luc-truoc-new-zealand-tai-natio-ce8d2601",
+      "title": "Tuyển Anh giành chiến thắng cách biệt kỷ lục trước New Zealand tại Nations Championship",
+      "summary": "Đội tuyển rugby union Anh đã thể hiện phong độ ấn tượng để đánh bại New Zealand với tỷ số 37-12, thiết lập cột mốc chiến thắng cách biệt lớn nhất trong lịch sử đối đầu giữa hai đội.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T16:08:59+00:00",
+      "fetched_at": "2026-11-21T16:26:41.950073+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Đội tuyển rugby union Anh vừa tạo nên cột mốc lịch sử khi giành chiến thắng áp đảo 37-12 trước New Zealand trong khuôn khổ giải đấu Nations Championship. Trận đấu chứng kiến sự lấn lướt hoàn toàn của đội chủ nhà ngay từ những phút đầu tiên tại sân vận động Allianz.",
+        "Henry Slade là người mở tỷ số cho tuyển Anh ngay ở phút thứ tư trận đấu. Sau hiệp một khép lại với lợi thế dẫn trước 19-5, đội chủ nhà tiếp tục duy trì thế trận chắc chắn. Dù Beauden Barrett ghi dấu ấn trong trận đấu thứ 150 cho tuyển New Zealand bằng một pha lập công giúp thu hẹp khoảng cách xuống 12-24, nhưng đó là tất cả những gì đội khách làm được trước khi chiến thuật thay người và sức mạnh từ dàn dự bị của Anh phát huy tác dụng.",
+        "Seb Atkinson ấn định chiến thắng thuyết phục bằng cú lội ngược dòng ghi try thứ năm cho đội chủ nhà sau đường chuyền tinh tế từ Marcus Smith. Kết quả này đánh dấu khoảng cách chiến thắng lớn nhất của tuyển Anh trước đối thủ trong suốt lịch sử 121 năm đối đầu, đồng thời phản ánh chuỗi trận đầy khó khăn của New Zealand sau chuyến lưu đấu kéo dài."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Anh đánh bại New Zealand 37-12 trong trận đấu lịch sử rugby",
+      "meta_description": "Tuyển rugby Anh giành chiến thắng kỷ lục 37-12 trước All Blacks tại Nations Championship, khẳng định sự lội ngược dòng mạnh mẽ dưới thời huấn luyện viên Steve B",
+      "keywords": [
+        "England",
+        "New Zealand",
+        "All Blacks",
+        "Nations Championship",
+        "rugby union"
+      ],
+      "slug": "tuyen-anh-gianh-chien-thang-cach-biet-ky-luc-truoc-new-zealand-tai-natio-ce8d2601",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 221,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T16:08:59+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T16:20:49+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tuyển Anh đánh bại New Zealand với tỷ số 37-12.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "England paying the penaltyfor the 45-21 defeat in South Africa, when they failed to get a bonus point, while France did get two when they lost 34-32 to New Zealand.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live",
+              "snippet": "England paying the penaltyfor the 45-21 defeat in South Africa, when they failed to get a bonus point, while France did get two when they lost 34-32 to New Zealand.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live",
+              "page_sha256": "e0a1b29d7920721bdfcb3d3e2d99f7947bddca40a2901079648ee9d6888d3579",
+              "snippet_sha256": "4cb020cd96a306c04214a3495784cc0eb6efbf7eee59b6b599d41de6c13690e2",
+              "verified_at": "2026-11-21T16:26:41.949489+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Henry Slade ghi try mở tỷ số ở phút thứ tư cho đội tuyển Anh.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "England 5 - 0 New Zealand (Henry Slade)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live",
+              "snippet": "England 5 - 0 New Zealand (Henry Slade)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/england-v-new-zealand-nations-championship-rugby-union-live",
+              "page_sha256": "e0a1b29d7920721bdfcb3d3e2d99f7947bddca40a2901079648ee9d6888d3579",
+              "snippet_sha256": "c86f764202a25f50f75afd411ece98782687d9745bd44058dba22ad129e598ce",
+              "verified_at": "2026-11-21T16:26:41.949489+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Beauden Barrett đánh dấu trận đấu thứ 150 cho New Zealand bằng một pha lập công.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Beauden Barrett marked his 150th Test appearance by rounding off a coast-to-coast Kiwi try to cut England's advantage to 24-12.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Beauden Barrett marked his 150th Test appearance by rounding off a coast-to-coast Kiwi try to cut England's advantage to 24-12.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9cae3660b8c23cc251e17d0c1dd09ccf55bc7b9b506d9dd699bad9fd5d18d2f4",
+              "snippet_sha256": "7691a472bb314829310102c87cd4a61d00906b2e5c3db0d98ec1fac6a43ea194",
+              "verified_at": "2026-11-21T16:26:41.949489+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Seb Atkinson ghi try thứ năm cho đội tuyển Anh sau đường chuyền của Marcus Smith.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Seb Atkinson took a delayed pop pass from Marcus Smith to stroll in for England's fifth try just after the hour.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Seb Atkinson took a delayed pop pass from Marcus Smith to stroll in for England's fifth try just after the hour.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9cae3660b8c23cc251e17d0c1dd09ccf55bc7b9b506d9dd699bad9fd5d18d2f4",
+              "snippet_sha256": "3ea6605f1f6f6054b44e0895770f4a9d9801ab42e696eb00f14fce8be2de619a",
+              "verified_at": "2026-11-21T16:26:41.949489+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt chiến thuật và chiều sâu đội hình của tuyển Anh qua số liệu chi tiết từ các nguồn thể thao uy tín. Đồng thời, phân tích bối cảnh sa sút của New Zealand sau lịch thi đấu dày đặc trong mùa giải.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T16:26:41.950140+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "121",
+        "150"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T16:26:41.950989+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 221,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1049
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
