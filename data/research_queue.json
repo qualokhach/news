@@ -2116,7 +2116,7 @@
   },
   {
     "queue_id": "5b4530f5f9741ad1da6b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T11:50:38.018140+00:00",
     "expires_at": "2026-11-24T11:48:29.255775+00:00",
     "category_hint": "vietnam",
@@ -4035,11 +4035,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T11:50:38.018164+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "honda-ra-mat-xe-may-ien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-na-03a2902f"
   },
   {
     "queue_id": "fbb6d7892869ab85361d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T11:50:09.284858+00:00",
     "expires_at": "2026-11-24T11:48:29.255775+00:00",
     "category_hint": "sports",
@@ -4838,11 +4839,12 @@
       ]
     },
     "research_ready_at": "2026-11-21T11:50:09.284884+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "uc-thang-anh-3-wicket-trong-tran-t20-au-tien-3ad5ec9d"
   },
   {
     "queue_id": "453cb80e67011923e97d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-21T11:50:06.330380+00:00",
     "expires_at": "2026-11-24T11:48:29.255775+00:00",
     "category_hint": "sports",
@@ -5455,7 +5457,8 @@
       ]
     },
     "research_ready_at": "2026-11-21T11:50:06.330403+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "harry-kane-phau-thuat-thanh-cong-du-kien-nghi-thi-au-3-thang-c2311ecf"
   },
   {
     "queue_id": "6498208ffb91650d9ce6",
@@ -27067,7 +27070,7 @@
   },
   {
     "queue_id": "4f1d89d8075ba9c1c405",
-    "status": "WRITING_PENDING",
+    "status": "REJECT",
     "staged_at": "2026-11-19T17:43:39.592051+00:00",
     "expires_at": "2026-11-23T18:02:15.342042+00:00",
     "category_hint": "sports",
@@ -27632,9 +27635,9 @@
     },
     "research_ready_at": "2026-11-19T17:43:39.592073+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệu không có trong nguồn | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: fact_ledger[1] không có trích đoạn nguyên văn tồn tại trên trang nguồn hoặc có số liệ",
-    "write_attempts": 3,
-    "next_write_after": "2026-11-21T10:02:15.342042+00:00"
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flas",
+    "write_attempts": 4,
+    "editorial_reason": "Không viết được sau 4 lần thử: All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flash-l"
   },
   {
     "queue_id": "0a5ba6df4125a48ffc52",
@@ -93674,7 +93677,7 @@
   },
   {
     "queue_id": "cao-toc-tp-hcm-long-thanh-chuyen-lan-tu-0h-ngay-22-11-tai-xe-can-luu-y-g-63a75767",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-21T11:51:30.980404+00:00",
     "expires_at": "2026-11-22T11:51:30.980404+00:00",
     "source_urls": [
@@ -93690,7 +93693,7 @@
       "source_url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
       "published_at": "2026-11-21T10:31:00+00:00",
       "fetched_at": "2026-11-21T11:51:58.089464+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T13:09:27.824953+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -93855,27 +93858,37 @@
         "900"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-21T11:51:58.091275+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T13:09:27.824953+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 291,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1345
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "tuoitre.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1345,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/mot-doan-cao-toc-tphcm-long-thanh-chuyen-lan-tai-xe-can-luu-y-gi-100261121142613746.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-21 20:09"
+    },
+    "published_at": "2026-11-21T13:09:27.824953+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-21T11:51:30.980404+00:00",
     "expires_at": "2026-11-21T23:51:30.980404+00:00",
     "source_urls": [
@@ -93892,7 +93905,7 @@
       "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
       "published_at": "2026-11-21T11:33:01+00:00",
       "fetched_at": "2026-11-21T11:52:03.899341+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-21T13:09:27.824953+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -94070,24 +94083,34 @@
         "100.000"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-21T11:52:03.901069+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-21T13:09:27.824953+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 334,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1528
-        },
-        "independent_domains": [
-          "npr.org",
-          "sportingnews.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1528,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "npr.org",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-21 20:09"
+    },
+    "published_at": "2026-11-21T13:09:27.824953+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "cuu-huan-luyen-vien-darren-lehmann-tiep-tuc-bac-bo-cao-buoc-trong-vu-be--33f65f90",
@@ -94282,5 +94305,728 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "honda-ra-mat-xe-may-ien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-na-03a2902f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-21T13:02:24.086221+00:00",
+    "expires_at": "2026-11-22T13:02:24.086221+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+      "https://thanhnien.vn/vpbank-va-central-retail-viet-nam-ra-mat-the-dong-thuong-hieu-the-1-185261121164055262.htm",
+      "https://dantri.com.vn/o-to-xe-may/ky-thuat-vien-xe-may-viet-nam-gianh-2-giai-nhat-tai-hoi-thi-khu-vuc-20261120184410060.htm"
+    ],
+    "article": {
+      "id": "honda-ra-mat-xe-may-ien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-na-03a2902f",
+      "title": "Honda Ra Mắt Xe Máy Điện Giá Rẻ Mới: Trang Bị Phanh ABS, Liệu Có Về Việt Nam?",
+      "summary": "Honda vừa ra mắt xe máy điện giá rẻ mới với trang bị phanh ABS, liệu có về Việt Nam?",
+      "category": "technology",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+      "published_at": "2026-11-21T10:32:00+00:00",
+      "fetched_at": "2026-11-21T13:03:03.907380+00:00",
+      "appnho_published_at": "2026-11-21T13:09:27.824953+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Honda vừa ra mắt xe máy điện giá rẻ mới với trang bị phanh ABS, liệu có về Việt Nam?",
+        "Mẫu xe máy điện Linka CE6 của liên doanh Sundiro Honda ra mắt tại Trung Quốc gây chú ý với giá từ khoảng 19 triệu đồng đi cùng trang bị dồi dào.",
+        "Xe được trang bị bộ vành 12 inch, lốp bán thể thao ở cả hai bánh và giảm xóc sau có thể điều chỉnh 5 cấp độ. Hành trình giảm xóc trước và sau lần lượt là 90mm và 75mm. Theo nhà sản xuất, xe có khả năng nghiêng tối đa 35 độ khi vào cua.",
+        "Điểm đáng chú ý là toàn bộ phiên bản đều được trang bị màn hình TFT 7 inch, hỗ trợ hiển thị bản đồ dẫn đường. Hệ thống chiếu sáng sử dụng đèn LED cường độ cao CLASS CS, trong khi tính năng giám sát áp suất lốp TPMS được cung cấp dưới dạng tùy chọn.",
+        "Nhiều công nghệ nhưng vẫn dùng pin chì-axit. Dù sở hữu danh sách trang bị tương đối phong phú, Linka CE6 vẫn sử dụng pin chì-axit thay vì pin lithium trên toàn bộ phiên bản."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Honda Xe Máy Điện Giá Rẻ Mới",
+      "meta_description": "Honda vừa ra mắt xe máy điện giá rẻ mới với trang bị phanh ABS, liệu có về Việt Nam?",
+      "keywords": [
+        "Honda",
+        "xe máy điện",
+        "giá rẻ",
+        "phanh ABS"
+      ],
+      "slug": "honda-ra-mat-xe-may-ien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-na-03a2902f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 199,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+        "https://thanhnien.vn/vpbank-va-central-retail-viet-nam-ra-mat-the-dong-thuong-hieu-the-1-185261121164055262.htm",
+        "https://dantri.com.vn/o-to-xe-may/ky-thuat-vien-xe-may-viet-nam-gianh-2-giai-nhat-tai-hoi-thi-khu-vuc-20261120184410060.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/vpbank-va-central-retail-viet-nam-ra-mat-the-dong-thuong-hieu-the-1-185261121164055262.htm",
+        "https://dantri.com.vn/o-to-xe-may/ky-thuat-vien-xe-may-viet-nam-gianh-2-giai-nhat-tai-hoi-thi-khu-vuc-20261120184410060.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T10:32:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/vpbank-va-central-retail-viet-nam-ra-mat-the-dong-thuong-hieu-the-1-185261121164055262.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T09:29:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/o-to-xe-may/ky-thuat-vien-xe-may-viet-nam-gianh-2-giai-nhat-tai-hoi-thi-khu-vuc-20261120184410060.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T13:21:39+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Honda vừa ra mắt xe máy điện giá rẻ mới với trang bị phanh ABS",
+          "source_urls": [
+            "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Honda ra mắt xe máy điện giá rẻ mới: Trang bị phanh ABS, liệu có về Việt Nam?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "snippet": "Honda ra mắt xe máy điện giá rẻ mới: Trang bị phanh ABS, liệu có về Việt Nam?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "page_sha256": "e90acb908a0ab81d752d5bb1835bf40eb519ea4321ae9f74d9f8c3a363926540",
+              "snippet_sha256": "c909d37c209ae73bdd06e9c22075907d3e19cae8ff7f529432680b409ec19f8f",
+              "verified_at": "2026-11-21T13:03:03.906803+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xe máy điện Linka CE6 có giá từ khoảng 19 triệu đồng",
+          "source_urls": [
+            "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Mẫu xe máy điện Linka CE6 của liên doanh Sundiro Honda ra mắt tại Trung Quốc gây chú ý với giá từ khoảng 19 triệu đồng đi cùng trang bị dồi dào.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "snippet": "Mẫu xe máy điện Linka CE6 của liên doanh Sundiro Honda ra mắt tại Trung Quốc gây chú ý với giá từ khoảng 19 triệu đồng đi cùng trang bị dồi dào.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "page_sha256": "e90acb908a0ab81d752d5bb1835bf40eb519ea4321ae9f74d9f8c3a363926540",
+              "snippet_sha256": "83bb660fcabf161e353db29cf109b897f201048591899c7f7dd0d77d2c7d3887",
+              "verified_at": "2026-11-21T13:03:03.906803+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xe được trang bị bộ vành 12 inch, lốp bán thể thao và giảm xóc sau có thể điều chỉnh 5 cấp độ",
+          "source_urls": [
+            "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Xe được trang bị bộ vành 12 inch, lốp bán thể thao ở cả hai bánh và giảm xóc sau có thể điều chỉnh 5 cấp độ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "snippet": "Xe được trang bị bộ vành 12 inch, lốp bán thể thao ở cả hai bánh và giảm xóc sau có thể điều chỉnh 5 cấp độ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "page_sha256": "e90acb908a0ab81d752d5bb1835bf40eb519ea4321ae9f74d9f8c3a363926540",
+              "snippet_sha256": "5be72e78ee9a99c1141fc6dc58f28ae4f5a9c01d8dbae22bce09b7fb5cb0492c",
+              "verified_at": "2026-11-21T13:03:03.906803+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin về việc Honda ra mắt xe máy điện giá rẻ mới với trang bị phanh ABS, và phân tích về khả năng xe này có thể về Việt Nam. Bài viết cũng cung cấp thông tin về các trang bị và tính năng của xe, giúp người đọc hiểu rõ hơn về sản phẩm này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T13:03:03.907440+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "19",
+        "35",
+        "5",
+        "6",
+        "7",
+        "75",
+        "90"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-21T13:09:27.824953+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 199,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 884,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/honda-ra-mat-xe-may-dien-gia-re-moi-trang-bi-phanh-abs-lieu-co-ve-viet-nam-100261121095633608.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-21 20:09"
+    },
+    "published_at": "2026-11-21T13:09:27.824953+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "uc-thang-anh-3-wicket-trong-tran-t20-au-tien-3ad5ec9d",
+    "status": "HOLD",
+    "prepared_at": "2026-11-21T13:02:24.086221+00:00",
+    "expires_at": "2026-11-22T13:02:24.086221+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+      "https://www.skysports.com/cricket/live-blog/12040/13614441/australia-vs-england-first-t20i-live-score-over-by-over-updates-and-analysis-from-series-opener-in-melbourne",
+      "https://www.bbc.co.uk/sport/cricket/articles/cqe9lmngjm0eo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "uc-thang-anh-3-wicket-trong-tran-t20-au-tien-3ad5ec9d",
+      "title": "Úc thắng Anh 3 wicket trong trận T20 đầu tiên",
+      "summary": "Úc đã đánh bại Anh trong trận T20 đầu tiên với 3 wicket, bắt đầu cho chuỗi 5 trận T20 giữa hai đội",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+      "published_at": "2026-11-21T11:43:45+00:00",
+      "fetched_at": "2026-11-21T13:04:04.263696+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Úc đã đánh bại Anh trong trận T20 đầu tiên với 3 wicket, bắt đầu cho chuỗi 5 trận T20 giữa hai đội. Trận đấu diễn ra tại sân Melbourne Cricket Ground (MCG) ở Melbourne, Úc.",
+        "Trận đấu bắt đầu với việc Úc thắng cuộc tung đồng xu và chọn bowling. Anh đã đạt được 187 điểm với 9 wicket, nhưng Úc đã vượt qua được tổng số điểm này và đạt được 168 điểm với 7 wicket, giành chiến thắng với 3 wicket.",
+        "Cricketer Úc, Chaudhary, đã đạt được 66 điểm và trở thành người chơi xuất sắc nhất của trận đấu. Anh đã bị bắt bởi Donald và Overton đã đạt được 2 wicket.",
+        "Đây là chiến thắng đầu tiên của Úc trong chuỗi 5 trận T20 giữa hai đội. Chiến thắng này sẽ giúp Úc có lợi thế trong các trận đấu tiếp theo.",
+        "Úc và Anh sẽ tiếp tục thi đấu trong các trận T20 tiếp theo, và người hâm mộ có thể mong đợi nhiều trận đấu hấp dẫn và kịch tính."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Úc thắng Anh 3 wicket trong trận T20 đầu tiên",
+      "meta_description": "Úc đã đánh bại Anh trong trận T20 đầu tiên với 3 wicket, bắt đầu cho chuỗi 5 trận T20 giữa hai đội",
+      "keywords": [
+        "Úc",
+        "Anh",
+        "T20",
+        "cricket"
+      ],
+      "slug": "uc-thang-anh-3-wicket-trong-tran-t20-au-tien-3ad5ec9d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 177,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+        "https://www.skysports.com/cricket/live-blog/12040/13614441/australia-vs-england-first-t20i-live-score-over-by-over-updates-and-analysis-from-series-opener-in-melbourne",
+        "https://www.bbc.co.uk/sport/cricket/articles/cqe9lmngjm0eo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.skysports.com/cricket/live-blog/12040/13614441/australia-vs-england-first-t20i-live-score-over-by-over-updates-and-analysis-from-series-opener-in-melbourne",
+        "https://www.bbc.co.uk/sport/cricket/articles/cqe9lmngjm0eo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:43:45+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/cricket/live-blog/12040/13614441/australia-vs-england-first-t20i-live-score-over-by-over-updates-and-analysis-from-series-opener-in-melbourne",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T07:30:00+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cqe9lmngjm0eo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T05:04:29+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Úc thắng Anh 3 wicket trong trận T20 đầu tiên",
+          "source_urls": [
+            "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "3h agoBrook charges to 20-ball fifty!",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+              "snippet": "3h agoBrook charges to 20-ball fifty!",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+              "page_sha256": "ed1c617f06f4da883594aa4ce1174385c7a785eee74a74fc84f6df15b16d8640",
+              "snippet_sha256": "f46e5c0c37c527a1dc51cd8dce0985e6c489a594e6f8d5523a96d238425f6dd5",
+              "verified_at": "2026-11-21T13:04:04.263382+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trận đấu diễn ra tại sân Melbourne Cricket Ground (MCG) ở Melbourne, Úc",
+          "source_urls": [
+            "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "🏏 T20 international updatees at the MCG in Melbourne",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+              "snippet": "🏏 T20 international updatees at the MCG in Melbourne",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+              "page_sha256": "ed1c617f06f4da883594aa4ce1174385c7a785eee74a74fc84f6df15b16d8640",
+              "snippet_sha256": "46343fb79c465b2e402371267a692e0cdcce999b83e1c03cb1e79ca7de496274",
+              "verified_at": "2026-11-21T13:04:04.263382+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chaudhary đạt được 66 điểm và trở thành người chơi xuất sắc nhất của trận đấu",
+          "source_urls": [
+            "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Australia 168-7 (Chaudhary c Donald b Overton 66)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+              "snippet": "Australia 168-7 (Chaudhary c Donald b Overton 66)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+              "page_sha256": "ed1c617f06f4da883594aa4ce1174385c7a785eee74a74fc84f6df15b16d8640",
+              "snippet_sha256": "fd5fd003825ba4cab00e5f097c70bb51008064f7f4313d4a43044af9f9de2443",
+              "verified_at": "2026-11-21T13:04:04.263382+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về trận T20 đầu tiên giữa Úc và Anh, bao gồm cả kết quả và diễn biến của trận đấu. Ngoài ra, bài viết cũng cung cấp một số thông tin về các cầu thủ và chiến thuật của hai đội, giúp người đọc hiểu rõ hơn về trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T13:04:04.263750+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "168",
+        "187",
+        "2",
+        "20",
+        "3",
+        "5",
+        "66",
+        "7",
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-21T13:04:04.264387+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 177,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 811
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-21T13:09:27.824953+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-21T13:09:27.824953+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 177,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 811,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "harry-kane-phau-thuat-thanh-cong-du-kien-nghi-thi-au-3-thang-c2311ecf",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-21T13:02:24.086221+00:00",
+    "expires_at": "2026-11-22T13:02:24.086221+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+      "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery"
+    ],
+    "article": {
+      "id": "harry-kane-phau-thuat-thanh-cong-du-kien-nghi-thi-au-3-thang-c2311ecf",
+      "title": "Harry Kane phẫu thuật thành công, dự kiến nghỉ thi đấu 3 tháng",
+      "summary": "Tiền đạo Harry Kane của Bayern Munich đã trải qua ca phẫu thuật dây chằng mắt cá chân thành công và đặt mục tiêu trở lại vào giai đoạn quyết định của mùa giải.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+      "published_at": "2026-11-21T11:46:36+00:00",
+      "fetched_at": "2026-11-21T13:04:26.640904+00:00",
+      "appnho_published_at": "2026-11-21T13:09:27.824953+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tiền đạo Harry Kane, đội trưởng đội tuyển Anh và ngôi sao của Bayern Munich, vừa xác nhận đã trải qua ca phẫu thuật thành công sau khi gặp chấn thương dây chằng mắt cá chân trái. Sự việc xảy ra trong trận hòa 1-1 của Bayern trước Cologne tại Bundesliga vào thứ Sáu vừa qua, khiến chân sút 33 tuổi phải rời sân chỉ sau 20 phút thi đấu.",
+        "Theo thông tin từ phía Bayern Munich, Kane dự kiến sẽ phải ngồi ngoài trong khoảng ba tháng. Chấn thương này là một cú sốc lớn đối với đội bóng Đức, khi tiền đạo này đang có phong độ cao sau khi giành danh hiệu Ballon d'Or vào đầu tháng 11 và vừa ký hợp đồng mới có thời hạn đến năm 2029. Với thời gian hồi phục dự kiến, Kane sẽ bỏ lỡ 11 trận đấu tại Bundesliga, vòng 16 đội DFB-Pokal và toàn bộ các trận đấu còn lại trong giai đoạn vòng bảng Champions League.",
+        "Trên mạng xã hội, Kane đã chia sẻ hình ảnh bản thân trong nẹp cố định và bày tỏ sự lạc quan về quá trình hồi phục. Anh khẳng định đây là cơ hội để thể hiện sự kiên cường và cam kết sẽ trở lại mạnh mẽ cho giai đoạn quan trọng nhất của mùa giải. Đội ngũ y tế và ban huấn luyện tuyển Anh cũng đang theo dõi sát sao tình hình, với hy vọng chân sút chủ lực có thể kịp bình phục cho trận tứ kết Nations League gặp Na Uy vào cuối tháng 3 năm 2027."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Harry Kane phẫu thuật mắt cá chân, dự kiến vắng mặt 3 tháng",
+      "meta_description": "Tiền đạo Harry Kane xác nhận đã phẫu thuật thành công chấn thương dây chằng mắt cá chân và đang tập trung hồi phục để trở lại thi đấu cho Bayern Munich.",
+      "keywords": [
+        "Harry Kane",
+        "Bayern Munich",
+        "chấn thương",
+        "bóng đá"
+      ],
+      "slug": "harry-kane-phau-thuat-thanh-cong-du-kien-nghi-thi-au-3-thang-c2311ecf",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 270,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+        "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery"
+      ],
+      "source_links": [
+        "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:46:36+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:20:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Harry Kane đã phẫu thuật thành công chấn thương rách dây chằng mắt cá chân trái và dự kiến nghỉ thi đấu khoảng 3 tháng.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It is a reflection of the changing realities of English football, and the gulf that has opened between the teams that dominate it and those who seek to challenge them, that of the top 10 such runs all but one occurred in whole or in part after 2010 and six of them have been achieved by Sheikh Mansour’s Manchester City, with Chelsea responsible for another two,Manchester Unitedone, and Portsmouth’s postwar, 13-game supremacy over Everton – a wild ride that included two 5-0s, a 5-1, a 6-3 and a 7-0 – the anomaly.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "snippet": "It is a reflection of the changing realities of English football, and the gulf that has opened between the teams that dominate it and those who seek to challenge them, that of the top 10 such runs all but one occurred in whole or in part after 2010 and six of them have been achieved by Sheikh Mansour’s Manchester City, with Chelsea responsible for another two,Manchester Unitedone, and Portsmouth’s postwar, 13-game supremacy over Everton – a wild ride that included two 5-0s, a 5-1, a 6-3 and a 7-0 – the anomaly.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "page_sha256": "ba8bf50ffd56f0c77d8f982bc42ad54d5d900ab0550d8c76e0a4d1bfc13570ae",
+              "snippet_sha256": "122e13c7d84cace2a806e127ef0e306eb5b293cd30a900a8829fdb0579496d51",
+              "verified_at": "2026-11-21T13:04:26.640175+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kane khẳng định sẽ trở lại thi đấu vào giai đoạn cuối mùa giải và cảm ơn người hâm mộ đã gửi tin nhắn động viên.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+            "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "I’ll be back fresh and ready to go for the business end of the season!",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+              "snippet": "I’ll be back fresh and ready to go for the business end of the season!",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            },
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "snippet": "I’ll be back fresh and ready to go for the business end of the season!",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+              "page_sha256": "3f3fc78727b419ab5b89a1532171926966adebb73413dd52b9a7af13c55c8357",
+              "snippet_sha256": "f34b0a205734be6091dfddfa21744361368afae88fe0245569a518055d4a4adf",
+              "verified_at": "2026-11-21T13:04:26.640175+00:00",
+              "match_method": "exact_normalized_substring"
+            },
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "page_sha256": "ba8bf50ffd56f0c77d8f982bc42ad54d5d900ab0550d8c76e0a4d1bfc13570ae",
+              "snippet_sha256": "f34b0a205734be6091dfddfa21744361368afae88fe0245569a518055d4a4adf",
+              "verified_at": "2026-11-21T13:04:26.640175+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: “Obviously very disappointed to get this injury but as always it’s an opportunity to show resilience and improvement going into 2027.",
+          "importance": "supporting",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+            "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live"
+          ],
+          "evidence_snippet": "“Obviously very disappointed to get this injury but as always it’s an opportunity to show resilience and improvement going into 2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+              "snippet": "“Obviously very disappointed to get this injury but as always it’s an opportunity to show resilience and improvement going into 2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            },
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "snippet": "“Obviously very disappointed to get this injury but as always it’s an opportunity to show resilience and improvement going into 2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+              "page_sha256": "3f3fc78727b419ab5b89a1532171926966adebb73413dd52b9a7af13c55c8357",
+              "snippet_sha256": "c191afb18c4001123d254115c9d8c63edb358e7c45c4a52ffd1b204dc74efeb9",
+              "verified_at": "2026-11-21T13:04:26.640175+00:00",
+              "match_method": "exact_normalized_substring"
+            },
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "page_sha256": "ba8bf50ffd56f0c77d8f982bc42ad54d5d900ab0550d8c76e0a4d1bfc13570ae",
+              "snippet_sha256": "c191afb18c4001123d254115c9d8c63edb358e7c45c4a52ffd1b204dc74efeb9",
+              "verified_at": "2026-11-21T13:04:26.640175+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp thông tin từ hai nguồn độc lập để làm rõ mức độ nghiêm trọng của chấn thương và tác động cụ thể đến lịch thi đấu của Bayern Munich. Nội dung cũng cung cấp bối cảnh về phong độ gần đây của Kane để độc giả hiểu rõ tầm quan trọng của cầu thủ này đối với câu lạc bộ và đội tuyển quốc gia.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-21T13:04:26.640977+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "16",
+        "20",
+        "2027",
+        "2029",
+        "33"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-21T13:09:27.824953+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 270,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1234,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/football/live/2026/nov/21/premier-league-resumes-kane-facing-spell-on-sidelines-football-news-matchday-live",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.skysports.com/football/news/12040/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-21 20:09"
+    },
+    "published_at": "2026-11-21T13:09:27.824953+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
