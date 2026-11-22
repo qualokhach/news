@@ -2182,7 +2182,7 @@
   },
   {
     "queue_id": "bff8556446502cabb1e1",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T01:38:45.941473+00:00",
     "expires_at": "2026-11-25T01:36:58.516482+00:00",
     "category_hint": "vietnam",
@@ -3001,11 +3001,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T01:38:45.941494+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "real-madrid-loi-nguoc-dong-thanh-cong-trong-ngay-mbappe-sut-hong-phat-en-001e2576"
   },
   {
     "queue_id": "bb89c601c6e6c2aced02",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T01:38:34.084775+00:00",
     "expires_at": "2026-11-25T01:36:58.516482+00:00",
     "category_hint": "vietnam",
@@ -3569,7 +3570,8 @@
       ]
     },
     "research_ready_at": "2026-11-22T01:38:34.084799+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vivo-v80-va-v80-fe-ra-mat-tai-viet-nam-thiet-ke-ieu-khac-kinh-va-camera--b584e57c"
   },
   {
     "queue_id": "waymo-trieu-hoi-robotaxi-sau-su-co-i-vao-lan-uong-cao-toc-bi-ong-fe947b47",
@@ -90687,7 +90689,7 @@
   },
   {
     "queue_id": "signal-gioi-han-tinh-nang-chup-man-hinh-tren-di-ong-e-oi-pho-voi-ai-594f8500",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-22T01:39:22.611745+00:00",
     "expires_at": "2026-11-23T01:39:22.611745+00:00",
     "source_urls": [
@@ -90703,7 +90705,7 @@
       "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
       "published_at": "2026-11-21T21:37:10+00:00",
       "fetched_at": "2026-11-22T01:39:39.473434+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-22T02:39:42.551174+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -90860,27 +90862,42 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-22T01:39:39.474298+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-22T02:39:42.551174+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 293,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1306
-        },
-        "independent_domains": [
-          "engadget.com",
-          "techcrunch.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1306,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "techcrunch.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-22 09:39"
+    },
+    "published_at": "2026-11-22T02:39:42.551174+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bat-giu-trum-ma-tuy-el-chapo-isidro-tai-mien-bac-mexico-sau-cuoc-o-sung--10cfe10f",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-22T01:39:22.611745+00:00",
     "expires_at": "2026-11-23T01:39:22.611745+00:00",
     "source_urls": [
@@ -90899,7 +90916,7 @@
       "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
       "published_at": "2026-11-21T18:08:55+00:00",
       "fetched_at": "2026-11-22T01:39:45.190474+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-22T02:39:42.551174+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -91118,26 +91135,36 @@
         "8"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-22T01:39:45.191674+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-22T02:39:42.551174+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 374,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1730
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "euronews.com",
-          "npr.org",
-          "skysports.com",
-          "sportingnews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1730,
+          "source_access": [
+            {
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "euronews.com",
+            "npr.org",
+            "skysports.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-22 09:39"
+    },
+    "published_at": "2026-11-22T02:39:42.551174+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "hoi-nghi-khi-hau-cop31-be-mac-muon-do-tranh-cai-ve-nhien-lieu-hoa-thach-ee9905a8",
@@ -91374,5 +91401,597 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "real-madrid-loi-nguoc-dong-thanh-cong-trong-ngay-mbappe-sut-hong-phat-en-001e2576",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-22T02:39:30.384993+00:00",
+    "expires_at": "2026-11-23T02:39:30.384993+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+      "https://vnexpress.net/real-nguoc-dong-trong-ngay-mbappe-sut-hong-phat-den-5147548.html",
+      "https://thanhnien.vn/ronaldo-ghi-ban-thu-986-nhung-sut-hong-phat-den-al-nassr-thua-nguoc-cay-dang-185261121090441121.htm",
+      "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+      "https://www.sportingnews.com/us/soccer/news/watch-real-madrid-vs-celta-vigo-live-stream-tv-channel-time/b706e284b82e2b26d60faa4c"
+    ],
+    "article": {
+      "id": "real-madrid-loi-nguoc-dong-thanh-cong-trong-ngay-mbappe-sut-hong-phat-en-001e2576",
+      "title": "Real Madrid lội ngược dòng thành công trong ngày Mbappe sút hỏng phạt đền",
+      "summary": "Real Madrid giành chiến thắng 2-1 trước Celta Vigo tại vòng 13 La Liga nhờ các pha lập công của Bellingham và Carlos Espi, dẫu Kylian Mbappe bỏ lỡ cơ hội trên chấm 11m.",
+      "category": "sports",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+      "published_at": "2026-11-22T00:03:15+00:00",
+      "fetched_at": "2026-11-22T02:39:35.281409+00:00",
+      "appnho_published_at": "2026-11-22T02:39:42.551174+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trải qua 90 phút thi đấu đầy khó khăn trên sân nhà Bernabeu ở vòng 13 La Liga, Real Madrid đã giành chiến thắng chung cuộc 2-1 trước Celta Vigo. Trận đấu này chứng kiến nhiều diễn biến bất ngờ khi đội khách Celta Vigo là những người vươn lên dẫn trước từ rất sớm và gây ra không ít sóng gió cho hàng phòng ngự chủ nhà.",
+        "Ngay từ phút thứ sáu, sau một pha phối hợp mạch lạc, Pablo Duran dứt điểm cận thành đánh bại thủ môn Thibaut Courtois để mở tỷ số cho Celta Vigo. Bàn thua sớm buộc đoàn quân của HLV Jose Mourinho phải đẩy cao đội hình tìm kiếm bàn gỡ nhưng vấp phải sự kháng cự kiên cố từ phía đội khách cùng màn trình diễn xuất sắc của thủ thành Radu.",
+        "Bước ngoặt đáng chú ý diễn ra ở hiệp một khi Kylian Mbappe bị phạm lỗi trong vòng cấm, mang về quả phạt đền ở phút 35. Tuy nhiên, tiền đạo người Pháp lại bỏ lỡ cơ hội ngon ăn khi sút bóng vọt xà ngang trên chấm 11m ở phút 39, khép lại hiệp đấu đầu tiên với lợi thế tạm nghiêng về Celta Vigo.",
+        "Bước sang hiệp hai, HLV Mourinho thực hiện những điều chỉnh nhân sự quan trọng khi tung Vinicius Junior, Federico Valverde và Marc Cucurella vào sân nhằm gia tăng sức ép. Sự thay đổi này nhanh chóng mang lại hiệu quả rõ rệt trong lối chơi tấn công của đội chủ nhà.",
+        "Phút 66, nhận đường kiến tạo từ Mbappe, Jude Bellingham tung cú sút hiểm hóc đưa trận đấu về vạch xuất phát với tỷ số 1-1. Sức ép tiếp tục được duy trì cho đến phút 85, khi cầu thủ vào sân thay người Carlos Espi tận dụng cơ hội đá bồi cận thành sau pha đánh đầu bị cản phá để ấn định chiến thắng 2-1.",
+        "Ngược dòng thành công trước Celta Vigo, Real Madrid tiếp tục duy trì mạch phong độ ổn định và bám đuổi sát sao đội đầu bảng Barcelona trong cuộc đua vô địch La Liga mùa giải năm nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Real Madrid thắng Celta Vigo 2-1: Mbappe đá hỏng phạt đền, Bellingham ",
+      "meta_description": "Cập nhật kết quả trận Real Madrid gặp Celta Vigo tại vòng 13 La Liga 2026 khi Mbappe đá hỏng phạt đền nhưng đội nhà vẫn lội ngược dòng giành 3 điểm.",
+      "keywords": [
+        "Real Madrid",
+        "Mbappe",
+        "Celta Vigo",
+        "La Liga",
+        "Bellingham"
+      ],
+      "slug": "real-madrid-loi-nguoc-dong-thanh-cong-trong-ngay-mbappe-sut-hong-phat-en-001e2576",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 363,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+        "https://vnexpress.net/real-nguoc-dong-trong-ngay-mbappe-sut-hong-phat-den-5147548.html",
+        "https://thanhnien.vn/ronaldo-ghi-ban-thu-986-nhung-sut-hong-phat-den-al-nassr-thua-nguoc-cay-dang-185261121090441121.htm",
+        "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+        "https://www.sportingnews.com/us/soccer/news/watch-real-madrid-vs-celta-vigo-live-stream-tv-channel-time/b706e284b82e2b26d60faa4c"
+      ],
+      "source_links": [
+        "https://vnexpress.net/real-nguoc-dong-trong-ngay-mbappe-sut-hong-phat-den-5147548.html",
+        "https://thanhnien.vn/ronaldo-ghi-ban-thu-986-nhung-sut-hong-phat-den-al-nassr-thua-nguoc-cay-dang-185261121090441121.htm",
+        "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+        "https://www.sportingnews.com/us/soccer/news/watch-real-madrid-vs-celta-vigo-live-stream-tv-channel-time/b706e284b82e2b26d60faa4c"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T00:03:15+00:00"
+        },
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/real-nguoc-dong-trong-ngay-mbappe-sut-hong-phat-den-5147548.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T23:33:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ronaldo-ghi-ban-thu-986-nhung-sut-hong-phat-den-al-nassr-thua-nguoc-cay-dang-185261121090441121.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T02:20:00+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T12:30:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/watch-real-madrid-vs-celta-vigo-live-stream-tv-channel-time/b706e284b82e2b26d60faa4c",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T10:00:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Real Madrid đánh bại Celta Vigo 2-1 trên sân Bernabeu ở vòng 13 La Liga.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Trải qua 90 phút đầy khó khăn, Real Madrid đánh bại Celta Vigo 2-1 trên sân Bernabeu ở vòng 13 La Liga sáng 22/11, trong ngày Kylian Mbappe đá hỏng phạt đền.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "snippet": "(Dân trí) - Trải qua 90 phút đầy khó khăn, Real Madrid đánh bại Celta Vigo 2-1 trên sân Bernabeu ở vòng 13 La Liga sáng 22/11, trong ngày Kylian Mbappe đá hỏng phạt đền.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "page_sha256": "fff37bb6c0b9052a120f91a777b372ec9d4d41ac97574c583ee599753910f30d",
+              "snippet_sha256": "4a6f01d7a0b282fc5f631ce76f3e18f789c5ec11f13760ad456d60b14476d304",
+              "verified_at": "2026-11-22T02:39:35.280664+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pablo Duran mở tỷ số cho Celta Vigo ở phút thứ 6.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phút thứ 6, Williot Swedberg kiến tạo thông minh để Pablo Duran dứt điểm cận thành, đánh bại Thibaut Courtois, đưa đội khách vượt lên dẫn trước 1-0.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "snippet": "Phút thứ 6, Williot Swedberg kiến tạo thông minh để Pablo Duran dứt điểm cận thành, đánh bại Thibaut Courtois, đưa đội khách vượt lên dẫn trước 1-0.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "page_sha256": "fff37bb6c0b9052a120f91a777b372ec9d4d41ac97574c583ee599753910f30d",
+              "snippet_sha256": "68ef454ea0741146e694918e16c74cfc03dd0be12c8612f8f972d5d284af7c4b",
+              "verified_at": "2026-11-22T02:39:35.280664+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kylian Mbappe sút bóng vọt xà ngang trên chấm 11m ở phút 39.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tuy nhiên, tiền đạo người Pháp lại sút bóng vọt xà ngang trên chấm 11m ở phút 39.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "snippet": "Tuy nhiên, tiền đạo người Pháp lại sút bóng vọt xà ngang trên chấm 11m ở phút 39.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "page_sha256": "fff37bb6c0b9052a120f91a777b372ec9d4d41ac97574c583ee599753910f30d",
+              "snippet_sha256": "6ef96c4d0591f7952aa634edd0a95c994e9abb085ae2410a3466a6802057df12",
+              "verified_at": "2026-11-22T02:39:35.280664+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jude Bellingham ghi bàn gỡ hòa 1-1 ở phút 66 từ đường kiến tạo của Mbappe.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Bàn thắng: Bellingham (66'), Carlos Espi (85').",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "snippet": "Bàn thắng: Bellingham (66'), Carlos Espi (85').",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "page_sha256": "fff37bb6c0b9052a120f91a777b372ec9d4d41ac97574c583ee599753910f30d",
+              "snippet_sha256": "2494dc2913fd18b788e00d7c68d84f106c915fd16ce95eb714b589fda99d6d42",
+              "verified_at": "2026-11-22T02:39:35.280664+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Carlos Espi ấn định chiến thắng 2-1 cho Real Madrid ở phút 85.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đến phút 85, sau đường tạt bóng của Vinicius, Carlos Espi đánh đầu bị Radu cản phá nhưng tiền đạo Real Madrid nhanh chóng lao vào đá bồi cận thành, ấn định chiến thắng 2-1 cho Real Madrid",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "snippet": "Đến phút 85, sau đường tạt bóng của Vinicius, Carlos Espi đánh đầu bị Radu cản phá nhưng tiền đạo Real Madrid nhanh chóng lao vào đá bồi cận thành, ấn định chiến thắng 2-1 cho Real Madrid",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "page_sha256": "fff37bb6c0b9052a120f91a777b372ec9d4d41ac97574c583ee599753910f30d",
+              "snippet_sha256": "423d064e91952541421282e98fbcfc0c5e1f7232e1340b753c58dc50420c8e53",
+              "verified_at": "2026-11-22T02:39:35.280664+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước ngoặt chiến thuật và sự thay đổi nhân sự trong hiệp hai của HLV Jose Mourinho giúp Real Madrid xoay chuyển cục diện. Phân tích tập trung vào cách đội chủ nhà vượt qua áp lực sau tình huống đá hỏng phạt đền của Mbappe.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T02:39:35.281496+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "13",
+        "35",
+        "39",
+        "66",
+        "85",
+        "90"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-22T02:39:42.551174+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 363,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1690,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/the-thao/mbappe-da-hong-phat-den-real-madrid-may-man-gianh-3-diem-20261122064724037.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "skysports.com",
+            "sportingnews.com",
+            "thanhnien.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 09:39"
+    },
+    "published_at": "2026-11-22T02:39:42.551174+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vivo-v80-va-v80-fe-ra-mat-tai-viet-nam-thiet-ke-ieu-khac-kinh-va-camera--b584e57c",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-22T02:39:30.384993+00:00",
+    "expires_at": "2026-11-23T02:39:30.384993+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+      "https://dantri.com.vn/cong-nghe/danh-gia-vivo-v80-co-gi-de-canh-tranh-iphone-17e-galaxy-s26-fe-20261119224843074.htm"
+    ],
+    "article": {
+      "id": "vivo-v80-va-v80-fe-ra-mat-tai-viet-nam-thiet-ke-ieu-khac-kinh-va-camera--b584e57c",
+      "title": "vivo V80 và V80 FE ra mắt tại Việt Nam: Thiết kế điêu khắc kính và camera ZEISS",
+      "summary": "Bộ đôi smartphone mới vivo V80 và V80 FE vừa chính thức trình làng tại thị trường Việt Nam với điểm nhấn về thiết kế mặt lưng kính điêu khắc nguyên khối và hệ thống camera hợp tác cùng ZEISS.",
+      "category": "technology",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+      "published_at": "2026-11-22T00:26:00+00:00",
+      "fetched_at": "2026-11-22T02:39:40.571728+00:00",
+      "appnho_published_at": "2026-11-22T02:39:42.551174+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hãng công nghệ vivo vừa chính thức giới thiệu đến người dùng tại Việt Nam bộ đôi smartphone mới thuộc phân khúc cận cao cấp gồm vivo V80 và V80 FE, hướng đến nhóm khách hàng trẻ tuổi yêu thích thiết kế thời trang kết hợp khả năng chụp ảnh di động.",
+        "Điểm nhấn nổi bật trên dòng sản phẩm này nằm ở phần mặt lưng ứng dụng công nghệ kính điêu khắc lạnh nguyên khối kết hợp cùng khung viền kim loại cứng cáp. Trong đó, phiên bản vivo V80 sở hữu độ mỏng 7,7 mm và trọng lượng 203 g với các góc cạnh bo cong nhẹ nhàng, tạo cảm giác cầm nắm thoải mái cho người sử dụng.",
+        "Hệ thống quang học trên vivo V80 tiếp tục được hợp tác tinh chỉnh cùng hãng máy ảnh danh tiếng ZEISS. Máy trang bị ống kính chính 50 MP tích hợp chống rung quang học OIS, ống kính tele 50 MP hỗ trợ zoom quang 3x cùng các chế độ chân dung chuyên biệt với tiêu cự 85 mm và 100 mm mang lại hiệu ứng bokeh đặc trưng.",
+        "Tại thị trường Việt Nam, vivo V80 có mức giá niêm yết 23,9 triệu đồng cho phiên bản RAM 8 GB kết hợp bộ nhớ trong 128 GB, trong khi phiên bản 256 GB có giá cao hơn 1 triệu đồng. Đối với mẫu vivo V80 FE, mức giá khởi điểm cho bản RAM 8 GB và bộ nhớ trong 128 GB là 18,9 triệu đồng, và phiên bản bộ nhớ trong 256 GB có giá 21,9 triệu đồng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "vivo V80 và V80 FE ra mắt tại Việt Nam: Giá bán và thông tin chi tiết",
+      "meta_description": "Khám phá thông tin ra mắt, thiết kế điêu khắc kính, hệ thống camera ZEISS cùng mức giá của vivo V80 và V80 FE tại thị trường Việt Nam.",
+      "keywords": [
+        "vivo V80",
+        "vivo V80 FE",
+        "điện thoại vivo",
+        "camera ZEISS",
+        "smartphone cận cao cấp"
+      ],
+      "slug": "vivo-v80-va-v80-fe-ra-mat-tai-viet-nam-thiet-ke-ieu-khac-kinh-va-camera--b584e57c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 269,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+        "https://dantri.com.vn/cong-nghe/danh-gia-vivo-v80-co-gi-de-canh-tranh-iphone-17e-galaxy-s26-fe-20261119224843074.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/cong-nghe/danh-gia-vivo-v80-co-gi-de-canh-tranh-iphone-17e-galaxy-s26-fe-20261119224843074.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T00:26:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/danh-gia-vivo-v80-co-gi-de-canh-tranh-iphone-17e-galaxy-s26-fe-20261119224843074.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T00:22:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "vivo vừa giới thiệu đến người dùng Việt Nam hai smartphone mới là V80 và V80 FE.",
+          "source_urls": [
+            "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "vivo vừa giới thiệu đến người dùng Việt Nam hai smartphone mới là V80 và V80 FE.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "snippet": "vivo vừa giới thiệu đến người dùng Việt Nam hai smartphone mới là V80 và V80 FE.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "page_sha256": "61eeea1e7858ce2aab5a8c07a7a0e654068de7a5c02a63c84d564f7692c369f6",
+              "snippet_sha256": "bb87fd9a0fcf79b6a8f747983617a37d78f5bf51ae61a30b411d64fa80ed3c05",
+              "verified_at": "2026-11-22T02:39:40.571091+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Điểm nhấn của máy nằm ở mặt lưng dùng kính điêu khắc lạnh nguyên khối, kết hợp khung viền kim loại.",
+          "source_urls": [
+            "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Điểm nhấn của máy nằm ở mặt lưng dùng kính điêu khắc lạnh nguyên khối, kết hợp khung viền kim loại.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "snippet": "Điểm nhấn của máy nằm ở mặt lưng dùng kính điêu khắc lạnh nguyên khối, kết hợp khung viền kim loại.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "page_sha256": "61eeea1e7858ce2aab5a8c07a7a0e654068de7a5c02a63c84d564f7692c369f6",
+              "snippet_sha256": "6aa1cc89f5a83a6d57747257a745f59d8581d4efd5d2e79eaf3242ed6c34b204",
+              "verified_at": "2026-11-22T02:39:40.571091+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tại Việt Nam, vivo V80 có giá 23,9 triệu đồng cho bản dùng RAM 8 GB, bộ nhớ trong 128 GB, phiên bản 256 GB đắt hơn 1 triệu đồng.",
+          "source_urls": [
+            "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tại Việt Nam, vivo V80 có giá 23,9 triệu đồng cho bản dùng RAM 8 GB, bộ nhớ trong 128 GB, phiên bản 256 GB đắt hơn 1 triệu đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "snippet": "Tại Việt Nam, vivo V80 có giá 23,9 triệu đồng cho bản dùng RAM 8 GB, bộ nhớ trong 128 GB, phiên bản 256 GB đắt hơn 1 triệu đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "page_sha256": "61eeea1e7858ce2aab5a8c07a7a0e654068de7a5c02a63c84d564f7692c369f6",
+              "snippet_sha256": "a9d4f65ce5fcb74ab6111209012b95892897b6f1f881c9946f5edc146b1d7ae1",
+              "verified_at": "2026-11-22T02:39:40.571091+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "V80 FE có giá 18,9 triệu đồng cho bản RAM 8 GB, bộ nhớ trong 128 GB và 21,9 triệu đồng cho bản bộ nhớ trong 256 GB.",
+          "source_urls": [
+            "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong khi đó V80 FE có giá 18,9 triệu đồng cho bản RAM 8 GB, bộ nhớ trong 128 GB và 21,9 triệu đồng cho bản bộ nhớ trong 256 GB.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "snippet": "Trong khi đó V80 FE có giá 18,9 triệu đồng cho bản RAM 8 GB, bộ nhớ trong 128 GB và 21,9 triệu đồng cho bản bộ nhớ trong 256 GB.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "page_sha256": "61eeea1e7858ce2aab5a8c07a7a0e654068de7a5c02a63c84d564f7692c369f6",
+              "snippet_sha256": "8722e8a6f96dc0c101a8f7400a7fa0abab39fe797517daffff09accb484ae5e0",
+              "verified_at": "2026-11-22T02:39:40.571091+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hệ thống camera vivo V80 được đồng chế tác cùng ZEISS, kết hợp các tiêu cự chân dung chuyên biệt.",
+          "source_urls": [
+            "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Hệ thống camera vivo V80 được đồng chế tác cùng ZEISS, kết hợp các tiêu cự chân dung chuyên biệt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "snippet": "Hệ thống camera vivo V80 được đồng chế tác cùng ZEISS, kết hợp các tiêu cự chân dung chuyên biệt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "page_sha256": "61eeea1e7858ce2aab5a8c07a7a0e654068de7a5c02a63c84d564f7692c369f6",
+              "snippet_sha256": "211df5b0154123e46955b0bb430a21851aa3149ea145ddfc69c41aa243baa032",
+              "verified_at": "2026-11-22T02:39:40.571091+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp bức tranh toàn cảnh về sự kiện ra mắt bộ đôi vivo V80 và V80 FE tại thị trường trong nước. Nội dung tập trung làm rõ các thông số kỹ thuật trọng tâm về thiết kế vật liệu, hệ thống camera hợp tác với ZEISS và mức giá bán lẻ chi tiết của từng phiên bản.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T02:39:40.571799+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "100",
+        "128",
+        "18,9",
+        "203",
+        "21,9",
+        "23,9",
+        "256",
+        "3",
+        "50",
+        "7,7",
+        "8",
+        "80",
+        "85"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-22T02:39:42.551174+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 269,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1208,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/vivo-v80-va-v80-fe-ra-mat-voi-thiet-ke-dieu-khac-kinh-doc-dao-185261122071114279.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 09:39"
+    },
+    "published_at": "2026-11-22T02:39:42.551174+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
