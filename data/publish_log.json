@@ -1003,5 +1003,25 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-22 19:53",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-22T12:53:28.088018+00:00",
+    "prepared_candidates": 15,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "ngoai-truong-anh-moi-quan-he-gan-gui-hon-voi-eu-se-mang-lai-tieng-noi-ch-286e40d8",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "antonee-robinson-lot-tam-ngam-cua-manchester-united-duoi-thoi-pochettino-d10e4c4c",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      }
+    ]
   }
 ]

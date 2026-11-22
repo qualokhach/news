@@ -2425,7 +2425,7 @@
   },
   {
     "queue_id": "6df7810fbba57149990c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:42.473053+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "world",
@@ -3074,11 +3074,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:42.473073+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ngoai-truong-anh-moi-quan-he-gan-gui-hon-voi-eu-se-mang-lai-tieng-noi-ch-286e40d8"
   },
   {
     "queue_id": "35f514a265ca8f65a26d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:42.201400+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "world",
@@ -3812,11 +3813,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:42.201417+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cuu-thu-tuong-theresa-may-chi-trich-ke-hoach-eu-cua-andy-burnham-brexit--abc06b99"
   },
   {
     "queue_id": "46de99b771badd7f679e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:41.564937+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "vietnam",
@@ -4706,11 +4708,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:41.564959+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "an-giang-ay-manh-quy-hoach-va-xuc-tien-au-tu-cac-du-an-lan-bien-76af7618"
   },
   {
     "queue_id": "8c11ff437f143083859a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:31.786417+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "vietnam",
@@ -5306,7 +5309,8 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:31.786438+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vai-tro-cua-cong-1022-tp-hcm-trong-viec-ket-noi-xu-ly-su-co-ha-tang-o-th-e23c3936"
   },
   {
     "queue_id": "hoi-nghi-khi-hau-cop31-be-mac-muon-do-tranh-cai-ve-nhien-lieu-hoa-thach-ee9905a8",
@@ -92337,7 +92341,7 @@
   },
   {
     "queue_id": "antonee-robinson-lot-tam-ngam-cua-manchester-united-duoi-thoi-pochettino-d10e4c4c",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-22T12:02:11.942999+00:00",
     "expires_at": "2026-11-23T12:02:11.942999+00:00",
     "source_urls": [
@@ -92528,11 +92532,44 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-22T12:53:28.088018+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-22T12:53:28.088018+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 282,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1370,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+            "ok": false,
+            "reason": "HTTP 202"
+          },
+          {
+            "url": "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "cac-goi-uu-ai-va-tro-choi-nintendo-switch-2-noi-bat-mua-black-friday-202-c5afd141",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-22T12:02:11.942999+00:00",
     "expires_at": "2026-11-23T12:02:11.942999+00:00",
     "source_urls": [
@@ -92551,7 +92588,7 @@
       "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
       "published_at": "2026-11-22T11:30:00+00:00",
       "fetched_at": "2026-11-22T12:02:27.523378+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-22T12:53:28.088018+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -92797,26 +92834,36 @@
         "530"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-22T12:02:27.524709+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-22T12:53:28.088018+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 300,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1431
-        },
-        "independent_domains": [
-          "bbc.com",
-          "theguardian.com",
-          "theverge.com",
-          "tuoitre.vn",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1431,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theguardian.com",
+            "theverge.com",
+            "tuoitre.vn",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-22 19:53"
+    },
+    "published_at": "2026-11-22T12:53:28.088018+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bruno-fernandes-tam-hoan-am-phan-hop-ong-voi-manchester-united-duoi-trie-0c65ee77",
@@ -93096,5 +93143,935 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "ngoai-truong-anh-moi-quan-he-gan-gui-hon-voi-eu-se-mang-lai-tieng-noi-ch-286e40d8",
+    "status": "HOLD",
+    "prepared_at": "2026-11-22T12:52:38.467088+00:00",
+    "expires_at": "2026-11-23T12:52:38.467088+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+      "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/20/brexit-debate-returns-as-uk-pm-seeks-closer-eu-ties?traffic_source=rss"
+    ],
+    "article": {
+      "id": "ngoai-truong-anh-moi-quan-he-gan-gui-hon-voi-eu-se-mang-lai-tieng-noi-ch-286e40d8",
+      "title": "Ngoại trưởng Anh: Mối quan hệ gần gũi hơn với EU sẽ mang lại tiếng nói cho Vương quốc Anh",
+      "summary": "Ngoại trưởng Anh Ed Miliband lập luận rằng việc thiết lập mối quan hệ gắn kết hơn với Liên minh Châu Âu sẽ giúp Vương quốc Anh có tiếng nói trong các quyết định tại Brussels.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+      "published_at": "2026-11-22T11:41:49+00:00",
+      "fetched_at": "2026-11-22T12:52:43.635615+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau thỏa thuận mang tính bước ngoặt đạt được tại hội nghị thượng đỉnh ở Brussels, Ngoại trưởng Anh Ed Miliband đã lên tiếng bảo vệ định hướng hội nhập sâu hơn với Liên minh Châu Âu. Ông lập luận rằng việc thắt chặt các mối liên kết này sẽ trao cho Vương quốc Anh quyền góp tiếng nói vào các quyết định do Brussels đưa ra, thay vì rơi vào thế bị động.",
+        "Phát biểu trên chương trình truyền hình, ông Miliband chỉ ra rằng hiện tại các doanh nghiệp nước này đang ở thế phải tuân thủ quy định khi muốn tiếp cận thị trường châu Âu nhưng lại thiếu sự liên kết trong các lĩnh vực nông sản, dẫn đến việc phải hoàn thành nhiều thủ tục hành chính phức tạp. Theo ông, đây là kịch bản kém hiệu quả nhất và tạo ra nhu cầu bức thiết phải hội nhập chặt chẽ hơn.",
+        "Bên cạnh yếu tố kinh tế, Ngoại trưởng Anh cũng nhấn mạnh bối cảnh địa chính trị đã thay đổi đáng kể kể từ năm 2016, đặc biệt là chiến dịch quân sự của Nga tại Ukraine cùng với việc Mỹ gia tăng khoảng cách với châu Âu dưới thời Donald Trump. Dù từng không ủng hộ kết quả trưng cầu dân ý Brexit, ông cho rằng chính quyền hiện tại cần phải nhìn nhận thực tế và vạch ra các lựa chọn cho tương lai.",
+        "Trong khi đó, thỏa thuận mới đạt được bao gồm các nội dung về xuất khẩu thực phẩm, hệ thống giao dịch khí thải và chương trình di chuyển dành cho giới trẻ, với kỳ vọng mang lại động lực lớn cho nền kinh tế. Tuy nhiên, vấn đề này cũng vấp phải nhiều ý kiến trái chiều từ các nghị sĩ đối lập và các bên liên quan về ranh giới giữa việc hợp tác và việc tiếp tục tiếp nhận các quy định từ Brussels."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mối quan hệ EU và Anh: Ed Miliband lên tiếng về thỏa thuận Brussels",
+      "meta_description": "Ngoại trưởng Anh Ed Miliband cho rằng việc xích lại gần EU mang lại lợi ích và tiếng nói cho Anh trong các quy định chung sau thỏa thuận tại Brussels.",
+      "keywords": [
+        "Ed Miliband",
+        "EU",
+        "Anh",
+        "Brexit",
+        "Brussels"
+      ],
+      "slug": "ngoai-truong-anh-moi-quan-he-gan-gui-hon-voi-eu-se-mang-lai-tieng-noi-ch-286e40d8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 330,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+        "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/20/brexit-debate-returns-as-uk-pm-seeks-closer-eu-ties?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/20/brexit-debate-returns-as-uk-pm-seeks-closer-eu-ties?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:41:49+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T17:49:48+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/brexit-debate-returns-as-uk-pm-seeks-closer-eu-ties?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T12:46:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ngoại trưởng Anh Ed Miliband lập luận rằng mối quan hệ gần gũi hơn với EU sẽ mang lại cho Vương quốc Anh tiếng nói trong các quyết định của Brussels.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Closer links with the EU will mean the UK having a say on decisions made by Brussels, Ed Miliband, the foreign secretary, has argued as ministers faced pressure to move further afterFriday’s landmark dealwith the EU.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+              "snippet": "Closer links with the EU will mean the UK having a say on decisions made by Brussels, Ed Miliband, the foreign secretary, has argued as ministers faced pressure to move further afterFriday’s landmark dealwith the EU.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+              "page_sha256": "fe3c0b6bb1445f7357a8f219de26d5f4be2a7d8084042cb5abf942a893be8e92",
+              "snippet_sha256": "80704cac8975d95597ebfac60cd134ddb3174adf6a804779fd11511177b082d1",
+              "verified_at": "2026-11-22T12:52:43.635154+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ed Miliband chỉ ra tình trạng hiện tại khi các doanh nghiệp phải tuân thủ quy định của EU nhưng lại thiếu sự hội nhập thị trường nông sản, tạo ra tình huống kém hiệu quả.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Speaking to BBC One’s Sunday with Laura Kuenssberg show, Miliband refused to say whether he now supported discussions on potentially rejoining, but said the deal reached at Friday’s summit – on food and drink, emissions trading and a mutual youth mobility scheme – showed the benefits of closer links, including UK input to EU regulations that were being followed anyway.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+              "snippet": "Speaking to BBC One’s Sunday with Laura Kuenssberg show, Miliband refused to say whether he now supported discussions on potentially rejoining, but said the deal reached at Friday’s summit – on food and drink, emissions trading and a mutual youth mobility scheme – showed the benefits of closer links, including UK input to EU regulations that were being followed anyway.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+              "page_sha256": "fe3c0b6bb1445f7357a8f219de26d5f4be2a7d8084042cb5abf942a893be8e92",
+              "snippet_sha256": "fee2e0913881a4403df70d99c29754ab3aeecf77c5986658b8af0f024b88cbf0",
+              "verified_at": "2026-11-22T12:52:43.635154+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Miliband nêu lý do thay đổi trật tự địa chính trị từ năm 2016, bao gồm xung đột tại Ukraine và sự dịch chuyển chính sách của Mỹ dưới thời Donald Trump.",
+          "source_urls": [
+            "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Another reason for even closer ties, he said, was the transformed geopolitical order since 2016, including Russia’s full-scale invasion of Ukraine and the US’s distancing from Europe under Donald Trump.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+              "snippet": "Another reason for even closer ties, he said, was the transformed geopolitical order since 2016, including Russia’s full-scale invasion of Ukraine and the US’s distancing from Europe under Donald Trump.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+              "page_sha256": "fe3c0b6bb1445f7357a8f219de26d5f4be2a7d8084042cb5abf942a893be8e92",
+              "snippet_sha256": "2137eddb92ea05ddb5cde33fb43f89c63eac96fc9c41ef6582ea7eb3d4067337",
+              "verified_at": "2026-11-22T12:52:43.635154+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lập luận của Ngoại trưởng Anh Ed Miliband về việc xích lại gần EU sau thỏa thuận Brussels. Phân tích bối cảnh địa chính trị thay đổi từ năm 2016 và tình thế phải tuân thủ quy định mà các doanh nghiệp Anh đang đối mặt.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T12:52:43.635678+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2016"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T12:52:43.636503+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 330,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1529
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-22T12:53:28.088018+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-22T12:53:28.088018+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 330,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1529,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/nov/22/closer-eu-ties-uk-ed-miliband-brexit",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "cuu-thu-tuong-theresa-may-chi-trich-ke-hoach-eu-cua-andy-burnham-brexit--abc06b99",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-22T12:52:38.467088+00:00",
+    "expires_at": "2026-11-23T00:52:38.467088+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/politics/live/2026/nov/22/andy-burnham-brexit-theresa-may-michael-gove-latest-news-updates",
+      "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
+      "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss"
+    ],
+    "article": {
+      "id": "cuu-thu-tuong-theresa-may-chi-trich-ke-hoach-eu-cua-andy-burnham-brexit--abc06b99",
+      "title": "Cựu Thủ tướng Theresa May chỉ trích kế hoạch EU của Andy Burnham: 'Brexit đã hoàn tất'",
+      "summary": "Cựu Thủ tướng Anh Theresa May bày tỏ sự kinh ngạc và lên tiếng cảnh báo Thủ tướng Andy Burnham nên gác lại vấn đề Brexit, sau khi các thỏa thuận hợp tác mới với Liên minh Châu Âu được công bố tại hội nghị thượng đỉnh Brussels.",
+      "category": "world",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-22T11:50:20+00:00",
+      "fetched_at": "2026-11-22T12:53:01.537472+00:00",
+      "appnho_published_at": "2026-11-22T12:53:28.088018+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cựu Thủ tướng Anh Theresa May vừa đưa ra những cảnh báo mạnh mẽ đối với Thủ tướng Andy Burnham, yêu cầu nhà lãnh đạo hiện tại của chính phủ nên gác lại vấn đề rời khỏi Liên minh Châu Âu (Brexit) thay vì tìm cách mở lại các cuộc đàm phán nhằm xích lại gần hơn với khối này.",
+        "Phát biểu trong một cuộc phỏng vấn được phát sóng trên chương trình của BBC, cựu Thủ tướng May cho biết bà cảm thấy kinh ngạc trước những ý định mà ông Burnham đang xem xét về tương lai quan hệ giữa Anh và khối thương mại lớn nhất này. Bà nhấn mạnh rằng cử tri Anh đã đưa ra quyết định tại cuộc trưng cầu dân ý và tiến trình chính trị đó đã kết thúc.",
+        "Theo bà May, những nỗ lực nhằm tiến hành các cuộc đàm phán mới hay việc cân nhắc khả năng tái gia nhập EU sẽ tiêu tốn rất nhiều thời gian, nguồn lực và sức lực của toàn bộ bộ máy chính phủ, từ cấp thủ tướng, các bộ trưởng nội các cho tới các quan chức cấp cao. Bà cho rằng nhà lãnh đạo Anh nên tập trung giải quyết các thách thức cấp bách hiện nay để đảm bảo quốc gia duy trì được sức mạnh kinh tế và an ninh.",
+        "Những phát biểu này được đưa ra sau khi Thủ tướng Andy Burnham đạt được một thỏa thuận với các quan chức cấp cao của EU tại hội nghị thượng đỉnh ở Brussels. Thỏa thuận này bao gồm các nội dung liên quan đến hoạt động xuất khẩu lương thực của Anh, hệ thống giao dịch khí thải và một chương trình trải nghiệm dành cho giới trẻ.",
+        "Bên cạnh đó, nhà lãnh đạo Anh cũng cho biết hai bên sẽ tiến hành một quá trình trao đổi thông tin không chính thức trong những tháng tới nhằm xem xét các lựa chọn cho mối quan hệ dài hạn trong tương lai. Tuy nhiên, ông Burnham trước đó cũng loại trừ khả năng thực hiện những thay đổi lớn đối với mối quan hệ này trước thời điểm diễn ra cuộc tổng tuyển cử sắp tới, đồng thời khẳng định sẽ tuân thủ cam kết trong văn kiện tranh cử của đảng Lao động không quay trở lại thị trường chung hay liên minh thuế quan."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Theresa May cảnh báo Andy Burnham về kế hoạch EU và Brexit",
+      "meta_description": "Cựu Thủ tướng Anh Theresa May lên tiếng phản đối các bước tiến của Thủ tướng Andy Burnham trong việc nối lại quan hệ với Liên minh Châu Âu.",
+      "keywords": [
+        "Theresa May",
+        "Andy Burnham",
+        "Brexit",
+        "EU",
+        "Anh"
+      ],
+      "slug": "cuu-thu-tuong-theresa-may-chi-trich-ke-hoach-eu-cua-andy-burnham-brexit--abc06b99",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 406,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/politics/live/2026/nov/22/andy-burnham-brexit-theresa-may-michael-gove-latest-news-updates",
+        "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
+        "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/politics/live/2026/nov/22/andy-burnham-brexit-theresa-may-michael-gove-latest-news-updates",
+        "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
+        "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:50:20+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/politics/live/2026/nov/22/andy-burnham-brexit-theresa-may-michael-gove-latest-news-updates",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:46:21+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T10:42:14+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T15:24:51+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cựu Thủ tướng Theresa May cảnh báo Andy Burnham nên move on từ Brexit và tỏ ra aghast trước việc có thể tái gia nhập EU.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Former Prime Minister Theresa May has warned Andy Burnham he should \"move on\" from Brexit, telling the BBC she is \"aghast\" the prime minister could be considering rejoining the EU.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Former Prime Minister Theresa May has warned Andy Burnham he should \"move on\" from Brexit, telling the BBC she is \"aghast\" the prime minister could be considering rejoining the EU.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "401cd2b7aa149a707adb9ac2d61c2195228b3ff8ea7a108bc13d3b0671de21e1",
+              "snippet_sha256": "919d2332c878c58caeaae1023ed999da4e3705c49d2c53eb1114b8496f961ae5",
+              "verified_at": "2026-11-22T12:53:01.537077+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Andy Burnham đạt được thỏa thuận với EU tại Brussels về xuất khẩu thực phẩm, giao dịch khí thải và chương trình trao đổi thanh niên.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "It comes after Burnham struck a deal with the EU in Brussels on Friday, covering British food exports, emissions trading anda youth experience scheme.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "snippet": "It comes after Burnham struck a deal with the EU in Brussels on Friday, covering British food exports, emissions trading anda youth experience scheme.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "401cd2b7aa149a707adb9ac2d61c2195228b3ff8ea7a108bc13d3b0671de21e1",
+              "snippet_sha256": "87c15989d822a8f12eed44476fb9ee1242c0c712dd68f0136d6343dedac96184",
+              "verified_at": "2026-11-22T12:53:01.537077+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Theresa May từng giữ chức Thủ tướng Anh từ năm 2016 đến 2019 và trải qua ba năm đàm phán thỏa thuận rời EU trước khi từ chức.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "May, who was prime minister between 2016 and 2019 urged Burnham to \"just get on with\" today's challenges rather than re-opening the conversation around being in the European Union.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "snippet": "May, who was prime minister between 2016 and 2019 urged Burnham to \"just get on with\" today's challenges rather than re-opening the conversation around being in the European Union.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "401cd2b7aa149a707adb9ac2d61c2195228b3ff8ea7a108bc13d3b0671de21e1",
+              "snippet_sha256": "81488e727ab1b57158b4c5a67fb2148b2b8b8939ee06855894522e40e28cdfb7",
+              "verified_at": "2026-11-22T12:53:01.537077+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phản ứng của cựu Thủ tướng Theresa May đối với các bước đi chính sách mới của Thủ tướng Andy Burnham liên quan đến EU. Phân tích bối cảnh đàm phán phức tạp từ thời kỳ cầm quyền của bà May giúp độc giả hiểu rõ hơn những khó khăn và khối lượng công việc khổng lồ nếu Anh tiếp tục mở lại tiến trình xích lại gần khối Châu Âu.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-22T12:53:01.537555+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-22T12:53:28.088018+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 406,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1863,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "france24.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 19:53"
+    },
+    "published_at": "2026-11-22T12:53:28.088018+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "an-giang-ay-manh-quy-hoach-va-xuc-tien-au-tu-cac-du-an-lan-bien-76af7618",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-22T12:52:38.467088+00:00",
+    "expires_at": "2026-11-23T12:52:38.467088+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+      "https://dantri.com.vn/thoi-su/phat-hien-xe-tai-cho-525kg-xuc-xich-khong-ro-nguon-goc-o-quang-ninh-20261122120241024.htm"
+    ],
+    "article": {
+      "id": "an-giang-ay-manh-quy-hoach-va-xuc-tien-au-tu-cac-du-an-lan-bien-76af7618",
+      "title": "An Giang đẩy mạnh quy hoạch và xúc tiến đầu tư các dự án lấn biển",
+      "summary": "Tỉnh An Giang đang khẩn trương lập và thẩm định nhiều đồ án quy hoạch phân khu lấn biển nhằm mở rộng không gian phát triển kinh tế, du lịch và hạ tầng trong thời gian tới.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+      "published_at": "2026-11-22T10:59:00+00:00",
+      "fetched_at": "2026-11-22T12:53:14.010268+00:00",
+      "appnho_published_at": "2026-11-22T12:53:28.088018+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nằm trong khuôn khổ Festival 'Dòng xanh An Giang' lần thứ I năm 2026, tỉnh An Giang vừa tổ chức hội nghị xúc tiến đầu tư chuyên đề phát triển các dự án lấn biển, công nghiệp, du lịch và dự án PPP về phát triển hạ tầng. Sự kiện tập trung kêu gọi nguồn lực nhằm khai thác hiệu quả tiềm năng từ biển để tạo động lực tăng trưởng mới.",
+        "Theo Sở Xây dựng tỉnh An Giang, địa phương đang tích cực triển khai lập quy hoạch phân khu các khu vực lấn biển. Nhiều đồ án quan trọng đã được tổ chức và thẩm định như khu vực từ Rạch Giá, Vĩnh Thông đến Tây Yên khoảng 854-900ha; khu vực Tây Yên đến Vân Khánh khoảng 150ha; khu vực Hà Tiên - Tiên Hải - Tô Châu và Kiên Lương khoảng 900ha.",
+        "Bên cạnh đó, các cơ quan chức năng còn lập nhiều đồ án tại các khu vực khác như Bãi Thơm khoảng 500ha, đảo Hòn Thơm khoảng 34ha, Rạch Vẹm khoảng 500ha, Hàm Ninh khoảng 800ha, Thổ Châu khoảng 300ha và Kiên Hải khoảng 300ha. Đặc biệt, định hướng 4 khu vực lấn biển tại đặc khu Phú Quốc với diện tích hơn 161ha cũng được triển khai nhằm tạo quỹ đất sạch cho nhà đầu tư.",
+        "Chủ tịch UBND tỉnh An Giang Hồ Văn Mừng nhấn mạnh rằng các dự án lấn biển mang ý nghĩa đột phá trong chiến lược phát triển kinh tế sắp tới. Lãnh đạo tỉnh cho biết ưu điểm lớn của hình thức này là không phải giải phóng mặt bằng, không vướng bồi thường hay hỗ trợ tái định cư, qua đó tạo ra dư địa lớn về diện tích đất sạch phục vụ phát triển hạ tầng và du lịch."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "An Giang định hướng mở rộng không gian lấn biển phát triển kinh tế du ",
+      "meta_description": "An Giang tổ chức hội nghị xúc tiến đầu tư phát triển các dự án lấn biển, công nghiệp và du lịch, đồng thời triển khai lập quy hoạch phân khu nhiều khu vực trên ",
+      "keywords": [
+        "An Giang",
+        "lấn biển",
+        "xúc tiến đầu tư",
+        "quy hoạch phân khu",
+        "phát triển kinh tế"
+      ],
+      "slug": "an-giang-ay-manh-quy-hoach-va-xuc-tien-au-tu-cac-du-an-lan-bien-76af7618",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 303,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+        "https://dantri.com.vn/thoi-su/phat-hien-xe-tai-cho-525kg-xuc-xich-khong-ro-nguon-goc-o-quang-ninh-20261122120241024.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/phat-hien-xe-tai-cho-525kg-xuc-xich-khong-ro-nguon-goc-o-quang-ninh-20261122120241024.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T10:59:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/phat-hien-xe-tai-cho-525kg-xuc-xich-khong-ro-nguon-goc-o-quang-ninh-20261122120241024.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T05:22:24+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chiều 22-11, trong khuôn khổ Festival 'Dòng xanh An Giang' lần thứ I năm 2026, An Giang tổ chức hội nghị xúc tiến đầu tư chuyên đề phát triển các dự án lấn biển, công nghiệp, du lịch, dự án PPP về phát triển hạ tầng của tỉnh.",
+          "source_urls": [
+            "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chiều 22-11, nằm trong khuôn khổ Festival 'Dòng xanh An Giang' lần thứ I năm 2026, An Giang tổ chức hội nghị xúc tiến đầu tư chuyên đề phát triển các dự án lấn biển, công nghiệp, du lịch, dự án PPP về phát triển hạ tầng của tỉnh.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "snippet": "Chiều 22-11, nằm trong khuôn khổ Festival 'Dòng xanh An Giang' lần thứ I năm 2026, An Giang tổ chức hội nghị xúc tiến đầu tư chuyên đề phát triển các dự án lấn biển, công nghiệp, du lịch, dự án PPP về phát triển hạ tầng của tỉnh.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "page_sha256": "60981f5e607c8c57c0b4038034399320995fee0292a1b3439dba325ecd07a64d",
+              "snippet_sha256": "7f0a869868b66a94cb7bbb0dbeeb3208bfa4254619e48b9e8916f0e48e605aae",
+              "verified_at": "2026-11-22T12:53:14.009674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sở Xây dựng tỉnh An Giang thông tin tỉnh đang triển khai lập quy hoạch phân khu các khu vực lấn biển trên địa bàn tỉnh, đã tổ chức và thẩm định các đồ án như khu vực Rạch Giá, Vĩnh Thông đến Tây Yên khoảng 854-900ha, khu vực Tây Yên đến Vân Khánh khoảng 150ha và khu vực Hà Tiên - Tiên Hải - Tô Châu và Kiên Lương khoảng 900ha.",
+          "source_urls": [
+            "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong đó đơn vị đã tổ chức, thẩm định nhiều đồ án, gồm: khu vực từ Rạch Giá, Vĩnh Thông đến Tây Yên khoảng 854-900ha; khu vực Tây Yên đến Vân Khánh khoảng 150ha và khu vực Hà Tiên - Tiên Hải - Tô Châu và Kiên Lương khoảng 900ha.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "snippet": "Trong đó đơn vị đã tổ chức, thẩm định nhiều đồ án, gồm: khu vực từ Rạch Giá, Vĩnh Thông đến Tây Yên khoảng 854-900ha; khu vực Tây Yên đến Vân Khánh khoảng 150ha và khu vực Hà Tiên - Tiên Hải - Tô Châu và Kiên Lương khoảng 900ha.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "page_sha256": "60981f5e607c8c57c0b4038034399320995fee0292a1b3439dba325ecd07a64d",
+              "snippet_sha256": "63d711f431880fc74cd228ef049fc73f839c1f92c6ff8ab15d9d26edfd77ab4a",
+              "verified_at": "2026-11-22T12:53:14.009674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Địa phương còn lập nhiều đồ án lấn biển như Bãi Thơm khoảng 500ha, đảo Hòn Thơm khoảng 34ha, Rạch Vẹm khoảng 500ha, Hàm Ninh khoảng 800ha, Thổ Châu khoảng 300ha, Kiên Hải khoảng 300ha và 4 khu vực lấn biển tại đặc khu Phú Quốc với diện tích hơn 161ha.",
+          "source_urls": [
+            "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ngoài ra, đơn vị liên quan, địa phương còn tổ chức lập nhiều đồ án lấn biển như khu vực Bãi Thơm khoảng 500ha và khu vực đảo Hòn Thơm khoảng 34ha; khu vực Rạch Vẹm khoảng 500ha và khu vực Hàm Ninh khoảng 800ha; khu vực Thổ Châu khoảng 300ha và khu vực Kiên Hải khoảng 300 ha.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "snippet": "Ngoài ra, đơn vị liên quan, địa phương còn tổ chức lập nhiều đồ án lấn biển như khu vực Bãi Thơm khoảng 500ha và khu vực đảo Hòn Thơm khoảng 34ha; khu vực Rạch Vẹm khoảng 500ha và khu vực Hàm Ninh khoảng 800ha; khu vực Thổ Châu khoảng 300ha và khu vực Kiên Hải khoảng 300 ha.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "page_sha256": "60981f5e607c8c57c0b4038034399320995fee0292a1b3439dba325ecd07a64d",
+              "snippet_sha256": "dc5fe2d114cfb4234883b0fe57212bdbbb34cca761593ca4036ee554c3afe281",
+              "verified_at": "2026-11-22T12:53:14.009674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Hồ Văn Mừng - Chủ tịch UBND tỉnh An Giang - cho biết lấn biển là sự đột phá để phát triển kinh tế, không giải phóng mặt bằng, không bồi thường hỗ trợ tái định cư và có nhiều dư địa về việc mở rộng diện tích đất sạch.",
+          "source_urls": [
+            "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Lấn biển không giải phóng mặt bằng, không bồi thường hỗ trợ tái định cư và có nhiều dư địa về việc mở rộng diện tích đất sạch...\", ông Mừng nêu rõ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "snippet": "Lấn biển không giải phóng mặt bằng, không bồi thường hỗ trợ tái định cư và có nhiều dư địa về việc mở rộng diện tích đất sạch...\", ông Mừng nêu rõ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "page_sha256": "60981f5e607c8c57c0b4038034399320995fee0292a1b3439dba325ecd07a64d",
+              "snippet_sha256": "761b759f3d9b5cf216c57d67d0e10004bd056000f004d86734c61406410162da",
+              "verified_at": "2026-11-22T12:53:14.009674+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy mô cụ thể của các đồ án quy hoạch lấn biển tại An Giang dựa trên dữ liệu thẩm định của Sở Xây dựng. Đồng thời, thông tin phản ánh góc nhìn của lãnh đạo địa phương về lợi thế không cần giải phóng mặt bằng của các dự án này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T12:53:14.010332+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "150",
+        "161",
+        "2026",
+        "300",
+        "34",
+        "4",
+        "500",
+        "800",
+        "854",
+        "900"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-22T12:53:28.088018+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 303,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1394,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/mo-rong-khong-gian-lan-bien-de-phat-trien-kinh-te-du-lich-o-an-giang-100261122163812624.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 19:53"
+    },
+    "published_at": "2026-11-22T12:53:28.088018+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vai-tro-cua-cong-1022-tp-hcm-trong-viec-ket-noi-xu-ly-su-co-ha-tang-o-th-e23c3936",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-22T12:52:38.467088+00:00",
+    "expires_at": "2026-11-23T12:52:38.467088+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+      "https://dantri.com.vn/ban-doc/nhung-hang-cay-xanh-o-tphcm-duoc-giai-cuu-sau-phan-anh-cua-dan-tri-20261121114349079.htm"
+    ],
+    "article": {
+      "id": "vai-tro-cua-cong-1022-tp-hcm-trong-viec-ket-noi-xu-ly-su-co-ha-tang-o-th-e23c3936",
+      "title": "Vai trò của Cổng 1022 TP.HCM trong việc kết nối xử lý sự cố hạ tầng đô thị",
+      "summary": "Cổng thông tin 1022 tại TP.HCM đang đóng vai trò là kênh quan trọng giúp cơ quan quản lý tiếp nhận phản ánh từ người dân, qua đó kịp thời kiểm tra và xử lý các bất cập về hạ tầng kỹ thuật.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+      "published_at": "2026-11-22T11:00:00+00:00",
+      "fetched_at": "2026-11-22T12:53:26.354393+00:00",
+      "appnho_published_at": "2026-11-22T12:53:28.088018+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong công tác quản lý và vận hành hạ tầng đô thị tại TP.HCM, bên cạnh các đợt kiểm tra định kỳ của cơ quan chức năng, thông tin phản ánh trực tiếp từ người dân qua Cổng thông tin 1022 đóng vai trò là một kênh hỗ trợ thiết thực để nắm bắt tình hình thực tế tại các địa bàn.",
+        "Theo ông Đỗ Tấn Long, Phó Giám đốc Trung tâm Quản lý Giao thông và Hạ tầng kỹ thuật TP.HCM, dữ liệu từ các phản ánh không chỉ giúp ghi nhận một sự cố riêng lẻ mà còn là cơ sở để cơ quan quản lý tổng hợp tần suất xuất hiện bất cập theo khu vực, từ đó chủ động kiểm tra, bảo trì và đề xuất phương án xử lý.",
+        "Để hệ thống phát huy hiệu quả, người dân khi di chuyển và sinh hoạt hằng ngày có thể quan sát, thông tin kịp thời các dấu hiệu bất thường liên quan đến hệ thống thoát nước như nắp hố ga nứt vỡ, cây xanh có nguy cơ gãy đổ, sự cố chiếu sáng hoặc hư hỏng mặt đường.",
+        "Khi gửi thông tin, cơ quan chức năng khuyến cáo người dân cần cung cấp chính xác vị trí gồm tên đường và phường xã, mô tả đúng hiện trạng quan sát được kèm hình ảnh minh họa nếu có, đồng thời tuân thủ các quy tắc bảo đảm an toàn tại khu vực xảy ra sự cố."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cổng 1022 TP.HCM kết nối xử lý sự cố hạ tầng đô thị",
+      "meta_description": "Tìm hiểu cách Cổng 1022 TP.HCM tiếp nhận phản ánh từ người dân để phối hợp cùng các đơn vị chức năng xử lý kịp thời các sự cố hạ tầng kỹ thuật.",
+      "keywords": [
+        "Cổng 1022 TP.HCM",
+        "xử lý sự cố hạ tầng",
+        "quản lý đô thị",
+        "phản ánh của người dân"
+      ],
+      "slug": "vai-tro-cua-cong-1022-tp-hcm-trong-viec-ket-noi-xu-ly-su-co-ha-tang-o-th-e23c3936",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 251,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+        "https://dantri.com.vn/ban-doc/nhung-hang-cay-xanh-o-tphcm-duoc-giai-cuu-sau-phan-anh-cua-dan-tri-20261121114349079.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/ban-doc/nhung-hang-cay-xanh-o-tphcm-duoc-giai-cuu-sau-phan-anh-cua-dan-tri-20261121114349079.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/ban-doc/nhung-hang-cay-xanh-o-tphcm-duoc-giai-cuu-sau-phan-anh-cua-dan-tri-20261121114349079.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T04:55:56+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Thông qua Cổng thông tin 1022, người dân có thể gửi phản ánh trực tiếp đến cơ quan quản lý để phân loại và xử lý.",
+          "source_urls": [
+            "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thông qua Cổng thông tin 1022, người dân có thể gửi phản ánh trực tiếp đến cơ quan quản lý.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "snippet": "Thông qua Cổng thông tin 1022, người dân có thể gửi phản ánh trực tiếp đến cơ quan quản lý.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "page_sha256": "fa42b8b1ce63af490ef1992e53d980616cbe286c7476365b5e1ea50a3fe88ec8",
+              "snippet_sha256": "c2a1d333b85a8971049f33192754ad03d1e12488605aaef8e453a703f51e6831",
+              "verified_at": "2026-11-22T12:53:26.353993+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Đỗ Tấn Long là Phó Giám đốc Trung tâm Quản lý Giao thông và Hạ tầng kỹ thuật TP.HCM.",
+          "source_urls": [
+            "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo ông Đỗ Tấn Long, Phó Giám đốc Trung tâm Quản lý Giao thông và Hạ tầng kỹ thuật TP.HCM (gọi tắt là Trung tâm), phản ánh của người dân qua Cổng 1022 không chỉ dừng lại ở việc thông tin về một sự cố cụ thể mà còn là nguồn dữ liệu thực tế có giá trị đối với công tác quản lý hạ tầng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "snippet": "Theo ông Đỗ Tấn Long, Phó Giám đốc Trung tâm Quản lý Giao thông và Hạ tầng kỹ thuật TP.HCM (gọi tắt là Trung tâm), phản ánh của người dân qua Cổng 1022 không chỉ dừng lại ở việc thông tin về một sự cố cụ thể mà còn là nguồn dữ liệu thực tế có giá trị đối với công tác quản lý hạ tầng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "page_sha256": "fa42b8b1ce63af490ef1992e53d980616cbe286c7476365b5e1ea50a3fe88ec8",
+              "snippet_sha256": "ec59e2b870d718699e6e3b11430ed659d0805d0fb3636aba3912bd7a3cbe3757",
+              "verified_at": "2026-11-22T12:53:26.353993+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Người dân cần cung cấp vị trí rõ ràng, mô tả đúng tình trạng và gửi kèm hình ảnh bảo đảm an toàn khi phản ánh sự cố hạ tầng.",
+          "source_urls": [
+            "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nội dung phản ánh nên mô tả đúng tình trạng quan sát được, thời điểm phát hiện và mức độ ảnh hưởng nếu có; tránh suy đoán nguyên nhân khi chưa có căn cứ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "snippet": "Nội dung phản ánh nên mô tả đúng tình trạng quan sát được, thời điểm phát hiện và mức độ ảnh hưởng nếu có; tránh suy đoán nguyên nhân khi chưa có căn cứ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "page_sha256": "fa42b8b1ce63af490ef1992e53d980616cbe286c7476365b5e1ea50a3fe88ec8",
+              "snippet_sha256": "822f5aaf853fe3342edd7cfdf85d9de0c099f622a1493ee5adc0d0ea9540503a",
+              "verified_at": "2026-11-22T12:53:26.353993+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ cơ chế phối hợp giữa người dân và cơ quan quản lý đô thị thông qua Cổng 1022. Đồng thời, nội dung cung cấp hướng dẫn chi tiết về cách nhận diện và thông tin các sự cố hạ tầng kỹ thuật một cách an toàn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T12:53:26.354446+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1022"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-22T12:53:28.088018+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 251,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1093,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/cong-1022-tphcm-tu-phan-anh-cua-nguoi-dan-den-xu-ly-su-co-ha-tang-100261120110934021.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-22 19:53"
+    },
+    "published_at": "2026-11-22T12:53:28.088018+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
