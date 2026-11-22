@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "f001e098675143906229",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T16:41:28.898761+00:00",
     "expires_at": "2026-11-25T16:39:45.516806+00:00",
     "category_hint": "technology",
@@ -680,11 +680,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T16:41:28.898782+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-ung-dung-bat-ngo-co-the-hoat-ong-tren-android-auto-d3ef1654"
   },
   {
     "queue_id": "b8e9adb46d394eeb170d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T16:41:27.540627+00:00",
     "expires_at": "2026-11-25T16:39:45.516806+00:00",
     "category_hint": "sports",
@@ -1773,11 +1774,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T16:41:27.540650+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "mauricio-pochettino-ra-mat-manchester-united-trong-chuyen-lam-khach-ay-t-92a95c83"
   },
   {
     "queue_id": "c1e2b4e02a956b604f90",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T16:41:20.877991+00:00",
     "expires_at": "2026-11-25T16:39:45.516806+00:00",
     "category_hint": "sports",
@@ -2396,7 +2398,8 @@
       ]
     },
     "research_ready_at": "2026-11-22T16:41:20.878014+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tom-jackson-huyen-thoai-nfl-va-guong-mat-bieu-tuong-cua-espn-qua-oi-o-tu-730902a3"
   },
   {
     "queue_id": "d77dba2995d2de93aa94",
@@ -92893,5 +92896,720 @@
     },
     "published_at": "2026-11-20T03:47:06.942194+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nhung-ung-dung-bat-ngo-co-the-hoat-ong-tren-android-auto-d3ef1654",
+    "status": "READY",
+    "prepared_at": "2026-11-22T16:41:46.673353+00:00",
+    "expires_at": "2026-11-23T16:41:46.673353+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+      "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
+      "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "nhung-ung-dung-bat-ngo-co-the-hoat-ong-tren-android-auto-d3ef1654",
+      "title": "Những ứng dụng bất ngờ có thể hoạt động trên Android Auto",
+      "summary": "Khám phá các ứng dụng liên lạc, họp trực tuyến, theo dõi nhiên liệu và bản đồ sạc điện vốn không được nhiều người chú ý nhưng hoàn toàn tương thích với hệ thống Android Auto.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+      "published_at": "2026-11-22T16:15:00+00:00",
+      "fetched_at": "2026-11-22T16:41:50.444542+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Khi sử dụng Android Auto, người lái xe thường chỉ quen thuộc với một số ứng dụng cơ bản như bản đồ để chỉ đường hay các dịch vụ nghe nhạc trực tuyến. Trên thực tế, hệ sinh thái ứng dụng tương thích với nền tảng này còn mở rộng sang nhiều lĩnh vực khác, mang lại thêm tiện ích cho người dùng trong những chuyến đi.",
+        "Một điểm đáng chú ý là Android Auto hỗ trợ hàng loạt công cụ liên lạc và họp trực tuyến phục vụ công việc. Các ứng dụng phổ biến như Google Meet, Zoom, Webex và Microsoft Teams đều hoạt động trên màn hình ô tô ở chế độ chỉ có âm thanh, giúp người dùng theo dõi lịch họp và tham gia cuộc gọi an toàn. Tuy nhiên, một số cơ quan hoặc doanh nghiệp yêu cầu ứng dụng doanh nghiệp chạy trong Hồ sơ công việc Android riêng biệt, điều này có thể khiến Android Auto tạm thời chặn đồng bộ lịch hoặc ẩn ứng dụng.",
+        "Bên cạnh các công cụ làm việc, nền tảng này còn hỗ trợ nhiều ứng dụng giúp quản lý chi phí di chuyển hiệu quả hơn. Đơn cử như ứng dụng Fuelio cho phép người dùng theo dõi lịch sử đổ xăng, số km và tính toán chi phí trung bình cho mỗi dặm. Trong khi đó, đối với người lái xe ô tô điện, ứng dụng PlugShare cung cấp bản đồ trạm sạc dựa trên đóng góp cộng đồng, giúp người dùng dễ dàng tìm kiếm trạm sạc, lọc theo loại phích cắm hoặc tốc độ sạc và giảm bớt lo lắng về quãng đường di chuyển."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Các ứng dụng ít biết hỗ trợ Android Auto",
+      "meta_description": "Tìm hiểu những ứng dụng họp trực tuyến, theo dõi nhiên liệu và trạm sạc xe điện hỗ trợ Android Auto mà bạn có thể chưa biết.",
+      "keywords": [
+        "Android Auto",
+        "Google Meet",
+        "Fuelio",
+        "PlugShare",
+        "ứng dụng ô tô"
+      ],
+      "slug": "nhung-ung-dung-bat-ngo-co-the-hoat-ong-tren-android-auto-d3ef1654",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 282,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+        "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
+        "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
+        "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T16:15:00+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T20:07:23+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T00:12:57+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Android Auto hỗ trợ các ứng dụng họp và liên lạc như Google Meet, Zoom, Webex và Microsoft Teams ở chế độ chỉ âm thanh.",
+          "source_urls": [
+            "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Zoom, Webex by Cisco and Microsoft Teams all work on Android Auto, offering users the opportunity to join video conferences with audio only.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "snippet": "Zoom, Webex by Cisco and Microsoft Teams all work on Android Auto, offering users the opportunity to join video conferences with audio only.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "page_sha256": "69708339502e7ee3efbebe6fa935e44fce6dcf7297975a1e2b570fb8d6f3b93e",
+              "snippet_sha256": "edf73e57631d1b42c28d1ccbaeba9d963ca7621c7cf5d8b439c9ca01ef05ad02",
+              "verified_at": "2026-11-22T16:41:50.443714+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Một số công ty yêu cầu ứng dụng công việc chạy trong Hồ sơ công việc Android, có thể khiến Android Auto chặn đồng bộ lịch hoặc ẩn ứng dụng.",
+          "source_urls": [
+            "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto"
+          ],
+          "importance": "core",
+          "evidence_snippet": "If you're driving an EV, then the app you absolutely must use through Android Auto isPlugShare.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "snippet": "If you're driving an EV, then the app you absolutely must use through Android Auto isPlugShare.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "page_sha256": "69708339502e7ee3efbebe6fa935e44fce6dcf7297975a1e2b570fb8d6f3b93e",
+              "snippet_sha256": "fea23876c246ffd35ee0885d054e8fbdbb64741f60dab76753791abb35aaeefa",
+              "verified_at": "2026-11-22T16:41:50.443714+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Fuelio giúp theo dõi số lần đổ xăng, số đọc đồng hồ quãng đường và tính toán chi phí nhiên liệu trung bình.",
+          "source_urls": [
+            "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "While Fuelio is free to use with Android Auto, there is a premium version available that costs money.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "snippet": "While Fuelio is free to use with Android Auto, there is a premium version available that costs money.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "page_sha256": "69708339502e7ee3efbebe6fa935e44fce6dcf7297975a1e2b570fb8d6f3b93e",
+              "snippet_sha256": "a602a607f050be228e8e577e48e9a11e11a7d38a779817f132963079b3cf45bd",
+              "verified_at": "2026-11-22T16:41:50.443714+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "PlugShare cung cấp bản đồ trạm sạc dựa trên đóng cộng đồng, cho phép lọc theo loại phích cắm, tốc độ sạc và mạng lưới.",
+          "source_urls": [
+            "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Go offline without losing your way with HERE WeGo",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "snippet": "Go offline without losing your way with HERE WeGo",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto",
+              "page_sha256": "69708339502e7ee3efbebe6fa935e44fce6dcf7297975a1e2b570fb8d6f3b93e",
+              "snippet_sha256": "6249fafadd2a53c2eff554809909fb9eb33b064f8bfb1f5d0dc75ac5d20c5f47",
+              "verified_at": "2026-11-22T16:41:50.443714+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ các ứng dụng ít được chú ý trên Android Auto bao gồm công cụ họp trực tuyến và phần mềm hỗ trợ xe điện. Nội dung cũng phân tích những giới hạn kỹ thuật liên quan đến hồ sơ công việc của doanh nghiệp khi kết nối.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T16:41:50.444639+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-22T16:41:50.446003+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 282,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1299
+        },
+        "independent_domains": [
+          "bbc.com",
+          "engadget.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "mauricio-pochettino-ra-mat-manchester-united-trong-chuyen-lam-khach-ay-t-92a95c83",
+    "status": "READY",
+    "prepared_at": "2026-11-22T16:41:46.673353+00:00",
+    "expires_at": "2026-11-23T16:41:46.673353+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+      "https://www.espn.com/soccer/story/_/id/50533932/live-updates-pochettino-manchester-united-liverpool",
+      "https://www.theguardian.com/football/2026/nov/22/mark-robins-stoke-birmingham-championship-premier-league-promotion",
+      "https://www.skysports.com/football/news/12040/13614363/mauricio-pochettino-manchester-united-head-coach-discusses-drone-footage-his-approach-to-data-and-bruno-fernandes-ahead-of-first-game",
+      "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "mauricio-pochettino-ra-mat-manchester-united-trong-chuyen-lam-khach-ay-t-92a95c83",
+      "title": "Mauricio Pochettino ra mắt Manchester United trong chuyến làm khách đầy thử thách tại Anfield",
+      "summary": "Mauricio Pochettino chính thức bắt đầu hành trình dẫn dắt Manchester United bằng trận đấu quan trọng với đối thủ truyền kiếp Liverpool tại Anfield, trong bối cảnh đội bóng đang gặp nhiều khó khăn tại Premier League.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+      "published_at": "2026-11-22T16:30:01+00:00",
+      "fetched_at": "2026-11-22T16:42:09.146412+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mauricio Pochettino đã chính thức bắt đầu nhiệm kỳ huấn luyện viên trưởng tại Manchester United bằng một thử thách lớn: chuyến làm khách đến sân Anfield để đối đầu với đối thủ truyền kiếp Liverpool. Đây là trận đấu đánh dấu sự trở lại của chiến lược gia người Argentina tại Premier League, sau khi ông rời vị trí dẫn dắt đội tuyển quốc gia Mỹ. Pochettino tiếp quản 'Quỷ đỏ' trong bối cảnh đội bóng đang trải qua giai đoạn khủng hoảng phong độ, hiện xếp thứ 19 trên bảng xếp hạng với chỉ 8 điểm sau 10 vòng đấu đầu tiên.",
+        "Trước trận đấu này, Manchester United đã trải qua sự thay đổi nhân sự trên băng ghế huấn luyện sau khi Michael Carrick rời đi. Pochettino bắt đầu công việc mới từ thứ Năm, đồng nghĩa với việc ông có rất ít thời gian để chuẩn bị cho cuộc đối đầu tại Anfield. Trong khi đó, Liverpool đang đứng thứ năm và đặt mục tiêu giành chiến thắng để thu hẹp khoảng cách với đội đầu bảng Arsenal, sau khi đối thủ này bị Newcastle cầm hòa 2-2 vào thứ Bảy.",
+        "Sự kiện này cũng thu hút sự chú ý lớn từ dư luận sau khi những hình ảnh về buổi tập đầu tiên của Pochettino bị rò rỉ qua thiết bị bay không người lái (drone). Pochettino đã lên tiếng bày tỏ sự không hài lòng về hành động này, cho rằng việc quay lén các buổi tập kín là không phù hợp và tiềm ẩn nhiều rủi ro. Dù câu lạc bộ chưa có kế hoạch khởi kiện, vấn đề an ninh tại trung tâm huấn luyện Carrington đã trở thành chủ đề được quan tâm trước thềm trận đấu.",
+        "Bên cạnh áp lực từ kết quả thi đấu, tương lai của đội trưởng Bruno Fernandes cũng là tâm điểm. Tiền vệ người Bồ Đào Nha xác nhận rằng các cuộc đàm phán gia hạn hợp đồng hiện đang bị tạm hoãn để tập trung giải quyết những khó khăn của đội bóng trên sân cỏ. Với việc Pochettino khẳng định sẽ trực tiếp đưa ra các quyết định về đội hình, người hâm mộ đang chờ đợi sự thay đổi trong cách vận hành chiến thuật của Manchester United dưới thời tân huấn luyện viên."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Mauricio Pochettino ra mắt Manchester United tại Anfield",
+      "meta_description": "Mauricio Pochettino có trận đấu đầu tiên dẫn dắt Manchester United trong chuyến làm khách trước Liverpool tại Premier League. Cập nhật bối cảnh và tình hình đội",
+      "keywords": [
+        "Mauricio Pochettino",
+        "Manchester United",
+        "Liverpool",
+        "Premier League",
+        "Anfield"
+      ],
+      "slug": "mauricio-pochettino-ra-mat-manchester-united-trong-chuyen-lam-khach-ay-t-92a95c83",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 392,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+        "https://www.espn.com/soccer/story/_/id/50533932/live-updates-pochettino-manchester-united-liverpool",
+        "https://www.theguardian.com/football/2026/nov/22/mark-robins-stoke-birmingham-championship-premier-league-promotion",
+        "https://www.skysports.com/football/news/12040/13614363/mauricio-pochettino-manchester-united-head-coach-discusses-drone-footage-his-approach-to-data-and-bruno-fernandes-ahead-of-first-game",
+        "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.espn.com/soccer/story/_/id/50533932/live-updates-pochettino-manchester-united-liverpool",
+        "https://www.theguardian.com/football/2026/nov/22/mark-robins-stoke-birmingham-championship-premier-league-promotion",
+        "https://www.skysports.com/football/news/12040/13614363/mauricio-pochettino-manchester-united-head-coach-discusses-drone-footage-his-approach-to-data-and-bruno-fernandes-ahead-of-first-game",
+        "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T16:30:01+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/story/_/id/50533932/live-updates-pochettino-manchester-united-liverpool",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T16:25:32+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/22/mark-robins-stoke-birmingham-championship-premier-league-promotion",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T08:00:22+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13614363/mauricio-pochettino-manchester-united-head-coach-discusses-drone-footage-his-approach-to-data-and-bruno-fernandes-ahead-of-first-game",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T20:00:00+00:00"
+        },
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T18:41:33+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mauricio Pochettino chính thức dẫn dắt Manchester United trong trận đấu với Liverpool tại Anfield.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ANFIELD, LIVERPOOL — Mauricio Pochettino begins life asManchester Unitedhead coach with a daunting trip to face bitter rivalsLiverpool.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+              "snippet": "ANFIELD, LIVERPOOL — Mauricio Pochettino begins life asManchester Unitedhead coach with a daunting trip to face bitter rivalsLiverpool.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+              "page_sha256": "30f8f80d05d817bfef1573f44c0fbd54d6a201fbb82125be1160dcfe05b1638b",
+              "snippet_sha256": "3929cb3d6564340df2ea2a2e76618fe27da6b521bf8040e3b3f8d7ef2b61435e",
+              "verified_at": "2026-11-22T16:42:09.145743+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Manchester United đang đứng thứ 19 tại Premier League với 8 điểm sau 10 trận.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He takes charge of a United side marooned 19th in the Premier League, after winning just one game and taking eight points from their opening 10 games.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+              "snippet": "He takes charge of a United side marooned 19th in the Premier League, after winning just one game and taking eight points from their opening 10 games.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+              "page_sha256": "30f8f80d05d817bfef1573f44c0fbd54d6a201fbb82125be1160dcfe05b1638b",
+              "snippet_sha256": "714a9d8783212edc98be86e87c95b1490c973c295d31576a5962fcbc7fc7df93",
+              "verified_at": "2026-11-22T16:42:09.145743+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pochettino xác nhận các cuộc đàm phán hợp đồng của Bruno Fernandes đang bị tạm hoãn.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "10:50 a.m.- As seems to be the case most times Manchester United change managers, club captain Bruno Fernandes is under the spotlight.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+              "snippet": "10:50 a.m.- As seems to be the case most times Manchester United change managers, club captain Bruno Fernandes is under the spotlight.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/liverpool-vs-man-united-live-score-result-stats-premier-league/d041cd2c76ee5c0451e143f2",
+              "page_sha256": "30f8f80d05d817bfef1573f44c0fbd54d6a201fbb82125be1160dcfe05b1638b",
+              "snippet_sha256": "5caf9cc1c82378461c5bb5d306e5a141a6f8af7b2e5b6478fa5e8032921de81b",
+              "verified_at": "2026-11-22T16:42:09.145743+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh khó khăn của Manchester United khi Pochettino tiếp quản, bao gồm vị trí trên bảng xếp hạng và áp lực từ các sự kiện bên lề như vụ rò rỉ hình ảnh tập luyện. Đồng thời, bài viết cung cấp cái nhìn tổng quan về tình hình nhân sự và tâm thế của đội bóng trước trận derby nước Anh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T16:42:09.146546+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "19",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T16:42:09.148236+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 392,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1871
+        },
+        "independent_domains": [
+          "bbc.com",
+          "espn.com",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tom-jackson-huyen-thoai-nfl-va-guong-mat-bieu-tuong-cua-espn-qua-oi-o-tu-730902a3",
+    "status": "READY",
+    "prepared_at": "2026-11-22T16:41:46.673353+00:00",
+    "expires_at": "2026-11-23T16:41:46.673353+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+      "https://www.espn.com/nfl/story/_/id/50561778/tom-jackson-broncos-star-espn-legend-dies-75",
+      "https://www.bbc.co.uk/sport/articles/c63eg4x112wqo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "tom-jackson-huyen-thoai-nfl-va-guong-mat-bieu-tuong-cua-espn-qua-oi-o-tu-730902a3",
+      "title": "Tom Jackson, huyền thoại NFL và gương mặt biểu tượng của ESPN, qua đời ở tuổi 75",
+      "summary": "Tom Jackson, cựu hậu vệ xuất sắc của Denver Broncos và nhà phân tích thể thao kỳ cựu tại ESPN, đã qua đời ở tuổi 75, để lại niềm tiếc thương sâu sắc trong cộng đồng bóng bầu dục Mỹ.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+      "published_at": "2026-11-22T16:32:22+00:00",
+      "fetched_at": "2026-11-22T16:42:28.193424+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thế giới bóng bầu dục Mỹ vừa đón nhận tin buồn khi Tom Jackson, cựu hậu vệ huyền thoại của đội Denver Broncos và gương mặt quen thuộc trên sóng ESPN, đã qua đời ở tuổi 75. Sự ra đi của ông được chính nhà đài ESPN xác nhận, để lại niềm tiếc thương vô hạn cho đồng nghiệp, người hâm mộ và các thế hệ cầu thủ.",
+        "Trước khi trở thành một nhà phân tích truyền hình nổi tiếng, Tom Jackson đã có một sự nghiệp thi đấu lẫy lừng. Được Denver Broncos lựa chọn ở vòng bốn của kỳ tuyển chọn NFL Draft năm 1973 từ Đại học Louisville, ông đã cống hiến trọn vẹn 13 năm thi đấu chuyên nghiệp cho đội bóng này. Jackson là trụ cột không thể thay thế trong hàng phòng ngự \"Orange Crush\" trứ danh, từng ba lần góp mặt trong trận đấu Pro Bowl và được vinh danh tại Ring of Fame của câu lạc bộ.",
+        "Sau khi giải nghệ vào năm 1987, Jackson bắt đầu chương hai đầy rực rỡ trong sự nghiệp tại ESPN. Ông trở thành mảnh ghép hoàn hảo bên cạnh Chris Berman trong các chương trình ăn khách như \"NFL Primetime\" và \"Sunday NFL Countdown\" suốt gần ba thập kỷ. Sự kết hợp giữa Jackson và Berman không chỉ mang lại kiến thức chuyên môn sâu sắc mà còn tạo nên sự gắn kết, hài hước, giúp nâng tầm các chương trình studio về bóng bầu dục trở thành biểu tượng văn hóa thể thao.",
+        "Sự kính trọng dành cho Tom Jackson được thể hiện rõ qua những lời tri ân từ khắp nơi. Chris Berman, người bạn đồng hành lâu năm, đã gọi ông là \"một trong những con người tuyệt vời nhất từng bước đi trên hành tinh này\". Trong khi đó, Ủy viên NFL Roger Goodell ca ngợi Jackson là người đã mang đến sự uy tín, niềm đam mê và sự chân thành vào mọi công việc ông làm. Để ghi nhận những đóng góp to lớn, ESPN thậm chí đã đặt tên studio bóng bầu dục của mình theo tên của bộ đôi Chris Berman và Tom Jackson.",
+        "Sự ra đi của Tom Jackson không chỉ là mất mát của một cựu cầu thủ hay một bình luận viên, mà là sự chia tay với một nhân vật đã kết nối nhiều thế hệ người hâm mộ với môn thể thao này. Di sản của ông, từ những pha cản phá trên sân cỏ đến những phân tích sắc sảo trên truyền hình, sẽ còn được ghi nhớ mãi."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tom Jackson qua đời: Nhìn lại sự nghiệp huyền thoại của cựu sao NFL và",
+      "meta_description": "Cựu cầu thủ Denver Broncos và nhà phân tích ESPN Tom Jackson vừa qua đời ở tuổi 75. Cùng nhìn lại di sản của ông trong sự nghiệp bóng bầu dục và truyền hình.",
+      "keywords": [
+        "Tom Jackson",
+        "NFL",
+        "ESPN",
+        "Denver Broncos",
+        "Chris Berman"
+      ],
+      "slug": "tom-jackson-huyen-thoai-nfl-va-guong-mat-bieu-tuong-cua-espn-qua-oi-o-tu-730902a3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 438,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+        "https://www.espn.com/nfl/story/_/id/50561778/tom-jackson-broncos-star-espn-legend-dies-75",
+        "https://www.bbc.co.uk/sport/articles/c63eg4x112wqo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.espn.com/nfl/story/_/id/50561778/tom-jackson-broncos-star-espn-legend-dies-75",
+        "https://www.bbc.co.uk/sport/articles/c63eg4x112wqo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T16:32:22+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50561778/tom-jackson-broncos-star-espn-legend-dies-75",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T16:15:52+00:00"
+        },
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/articles/c63eg4x112wqo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T13:52:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tom Jackson qua đời ở tuổi 75.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tom Jackson, the formerDenver Broncoslinebacker who spent almost three decades at ESPN, died at the age of 75, the network announced.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+              "snippet": "Tom Jackson, the formerDenver Broncoslinebacker who spent almost three decades at ESPN, died at the age of 75, the network announced.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+              "page_sha256": "eba0d73ff1efec9e97dddec17d890aa2d1045d79332446dd7822554b21b01272",
+              "snippet_sha256": "832edfebddaa8ad4426c20c736462529ba6aac033f6e0f32327c8bc470a880b8",
+              "verified_at": "2026-11-22T16:42:28.192826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tom Jackson từng thi đấu 13 năm cho Denver Broncos và là thành viên của hàng phòng ngự Orange Crush.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Jackson played 13 years in the NFL, all with Denver, making the Pro Bowl three times and eventually earning a spot in the Broncos Ring of Fame.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+              "snippet": "Jackson played 13 years in the NFL, all with Denver, making the Pro Bowl three times and eventually earning a spot in the Broncos Ring of Fame.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+              "page_sha256": "eba0d73ff1efec9e97dddec17d890aa2d1045d79332446dd7822554b21b01272",
+              "snippet_sha256": "e4d254946f68947a2f34245c72932880bb27f4ac16b9cb2da37fc45e61b2c5cf",
+              "verified_at": "2026-11-22T16:42:28.192826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tom Jackson làm việc tại ESPN từ năm 1987 đến 2016, nổi tiếng với vai trò đồng dẫn chương trình NFL Primetime cùng Chris Berman.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jackson joined ESPN in 1987 immediately after retiring, where he paired up with Chris Berman on \"NFL Primetime\" and \"Sunday NFL Countdown\" until 2016.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+              "snippet": "Jackson joined ESPN in 1987 immediately after retiring, where he paired up with Chris Berman on \"NFL Primetime\" and \"Sunday NFL Countdown\" until 2016.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/denver-broncos/news/tom-jackson-dies-75-sports-world-mourns-loss-espn-analyst/5b0596f929ee999303bdde1f",
+              "page_sha256": "eba0d73ff1efec9e97dddec17d890aa2d1045d79332446dd7822554b21b01272",
+              "snippet_sha256": "bb798e6877b89759665e592c3032535b3e29472ab7eb0148a8e2da1b9e14fbf6",
+              "verified_at": "2026-11-22T16:42:28.192826+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự chuyển dịch thành công của Tom Jackson từ một vận động viên chuyên nghiệp sang vai trò bình luận viên truyền hình có tầm ảnh hưởng lớn. Đồng thời, bài báo phân tích tác động của ông đối với văn hóa xem bóng bầu dục thông qua sự hợp tác mang tính biểu tượng với Chris Berman tại ESPN.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T16:42:28.193563+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "13",
+        "1973",
+        "1987",
+        "75"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T16:42:28.195141+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 438,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2032
+        },
+        "independent_domains": [
+          "bbc.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
