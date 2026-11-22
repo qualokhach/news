@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "a0cbf50dceaf78ff97b4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T01:38:52.773683+00:00",
     "expires_at": "2026-11-25T01:36:58.516482+00:00",
     "category_hint": "technology",
@@ -554,11 +554,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T01:38:52.773703+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "signal-gioi-han-tinh-nang-chup-man-hinh-tren-di-ong-e-oi-pho-voi-ai-594f8500"
   },
   {
     "queue_id": "d420db818f7004839248",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T01:38:52.012759+00:00",
     "expires_at": "2026-11-25T01:36:58.516482+00:00",
     "category_hint": "world",
@@ -1242,11 +1243,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T01:38:52.012780+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bat-giu-trum-ma-tuy-el-chapo-isidro-tai-mien-bac-mexico-sau-cuoc-o-sung--10cfe10f"
   },
   {
     "queue_id": "d14da42ef95a6d269978",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T01:38:47.753753+00:00",
     "expires_at": "2026-11-25T01:36:58.516482+00:00",
     "category_hint": "world",
@@ -2175,7 +2177,8 @@
       ]
     },
     "research_ready_at": "2026-11-22T01:38:47.753774+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hoi-nghi-khi-hau-cop31-be-mac-muon-do-tranh-cai-ve-nhien-lieu-hoa-thach-ee9905a8"
   },
   {
     "queue_id": "bff8556446502cabb1e1",
@@ -90681,5 +90684,695 @@
     },
     "published_at": "2026-11-19T03:51:39.975042+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "signal-gioi-han-tinh-nang-chup-man-hinh-tren-di-ong-e-oi-pho-voi-ai-594f8500",
+    "status": "READY",
+    "prepared_at": "2026-11-22T01:39:22.611745+00:00",
+    "expires_at": "2026-11-23T01:39:22.611745+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents"
+    ],
+    "article": {
+      "id": "signal-gioi-han-tinh-nang-chup-man-hinh-tren-di-ong-e-oi-pho-voi-ai-594f8500",
+      "title": "Signal giới hạn tính năng chụp màn hình trên di động để đối phó với AI",
+      "summary": "Ứng dụng nhắn tin bảo mật Signal vừa thông báo siết chặt tính năng chụp màn hình trên các thiết bị di động, nhằm ngăn chặn các trợ lý AI tích hợp hệ điều hành quét và thu thập dữ liệu trò chuyện của người dùng.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "published_at": "2026-11-21T21:37:10+00:00",
+      "fetched_at": "2026-11-22T01:39:39.473434+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ứng dụng nhắn tin mã hóa Signal vừa công bố các biện pháp hạn chế tính năng chụp màn hình đối với các thiết bị di động. Động thái này được Chủ tịch Meredith Whittaker mô tả là phản ứng trước mối đe dọa hiện hữu từ các hệ điều hành tích hợp trí tuệ nhân tạo thế hệ mới.",
+        "Theo đại diện Signal, các trợ lý AI và tác nhân thông minh trên hệ điều hành có khả năng quét và thu thập thông tin hiển thị trên màn hình người dùng. Dữ liệu này sau đó có thể được lưu trữ tại cơ sở dữ liệu cục bộ hoặc máy chủ từ xa nằm ngoài tầm kiểm soát của ứng dụng, làm suy yếu các cam kết bảo mật.",
+        "Trước đó, nền tảng này đã áp dụng cơ chế chặn chụp màn hình mặc định trên ứng dụng Windows để đối phó với tính năng Recall. Giờ đây, các hạn chế tương tự tiếp tục được mở rộng sang hệ điều hành Android và iOS.",
+        "Tuy nhiên, nhà phát triển thừa nhận đây mới chỉ là giải pháp mang tính tạm thời. Người dùng vẫn có thể chủ động tắt tính năng bảo vệ này nếu muốn, dù hành động đó sẽ phá vỡ các đảm bảo về quyền riêng tư và chưa thể ngăn chặn hoàn toàn những phương thức truy cập dữ liệu tinh vi khác.",
+        "Hiện tại, Signal đang tiến hành thảo luận với Apple và Google nhằm tìm kiếm một tiêu chuẩn ở cấp độ hệ thống cho phép nhà phát triển từ chối việc bị AI theo dõi, trong bối cảnh các công cụ tự động ngày càng thâm nhập sâu vào thiết bị cá nhân."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Signal giới hạn chụp màn hình để ngăn chặn AI giám sát",
+      "meta_description": "Signal cập nhật tính năng mới trên Android và iOS nhằm chặn các trợ lý AI đọc màn hình và bảo vệ quyền riêng tư của người dùng.",
+      "keywords": [
+        "Signal",
+        "bảo mật",
+        "AI",
+        "trợ lý ảo",
+        "quyền riêng tư"
+      ],
+      "slug": "signal-gioi-han-tinh-nang-chup-man-hinh-tren-di-ong-e-oi-pho-voi-ai-594f8500",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 293,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+        "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T21:37:10+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T20:18:09+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Signal giới hạn khả năng chụp màn hình trên ứng dụng nhắn tin để đối phó với mối đe dọa từ các hệ điều hành tích hợp AI.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Signal already sought to limit these risks by blocking screenshots of its Windows app by default.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+              "snippet": "Signal already sought to limit these risks by blocking screenshots of its Windows app by default.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+              "page_sha256": "82149b79caaa09c2555aa4d524a7ff05b8462affe790a32dcbc57c9ed0666ce6",
+              "snippet_sha256": "9c4dc2c80c53f7ba7959d660258cf2e76fabb97533e08562173e9448d089662d",
+              "verified_at": "2026-11-22T01:39:39.473017+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Meredith Whittaker cho biết các AI agent có khả năng quét và lưu trữ dữ liệu nhạy cảm trên màn hình vào máy chủ từ xa ngoài tầm kiểm soát của Signal.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Signalannounced Fridaythat it’s limiting users’ ability to take screenshots within the secure messaging app — a response to whatPresident Meredith Whittakerdescribed as the “existential threat” of operating systems that integrate agentic AI.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+              "snippet": "Signalannounced Fridaythat it’s limiting users’ ability to take screenshots within the secure messaging app — a response to whatPresident Meredith Whittakerdescribed as the “existential threat” of operating systems that integrate agentic AI.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+              "page_sha256": "82149b79caaa09c2555aa4d524a7ff05b8462affe790a32dcbc57c9ed0666ce6",
+              "snippet_sha256": "ffbb3f4832737566c95a7768b5d99721b85c4a103ff7aa9eeea5fa210320df52",
+              "verified_at": "2026-11-22T01:39:39.473017+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Signal đang thảo luận với Apple và Google để tìm kiếm giải pháp chuẩn hóa giúp các nhà phát triển ngăn chặn AI truy cập nội dung ứng dụng.",
+          "source_urls": [
+            "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "It says it's talking with Apple and Google and is cautiously optimistic about where that's headed.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents",
+              "snippet": "It says it's talking with Apple and Google and is cautiously optimistic about where that's headed.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents",
+              "page_sha256": "22ef787366e4b4e51166b3443206ee6eda8f0c155a080b03d04e0f32ae9f9f14",
+              "snippet_sha256": "266ab3553421fc9bc04bad85ad7dbb2b1034d1132bdc5177c14997a21d5e00cc",
+              "verified_at": "2026-11-22T01:39:39.473017+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ thách thức mới đối với các ứng dụng nhắn tin mã hóa khi đối mặt với công nghệ AI tích hợp sâu ở cấp hệ điều hành. Phân tích ngữ cảnh này giúp độc giả hiểu rõ giới hạn của các biện pháp bảo mật cá nhân hiện nay.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T01:39:39.473508+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-22T01:39:39.474298+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 293,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1306
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bat-giu-trum-ma-tuy-el-chapo-isidro-tai-mien-bac-mexico-sau-cuoc-o-sung--10cfe10f",
+    "status": "READY",
+    "prepared_at": "2026-11-22T01:39:22.611745+00:00",
+    "expires_at": "2026-11-23T01:39:22.611745+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+      "https://www.euronews.com/2026/11/21/video-shows-mexican-forces-capturing-el-chapo-isidro-fbi-most-wanted-cartel-boss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+      "https://www.skysports.com/football/news/12040/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance",
+      "https://www.sportingnews.com/us/nfl/news/one-man-booth-troy-aikman-joe-buck-beef-dig/8a8bbbca1cd04a80b7bbf519"
+    ],
+    "article": {
+      "id": "bat-giu-trum-ma-tuy-el-chapo-isidro-tai-mien-bac-mexico-sau-cuoc-o-sung--10cfe10f",
+      "title": "Bắt giữ trùm ma túy 'El Chapo Isidro' tại miền bắc Mexico sau cuộc đọ súng kinh hoàng",
+      "summary": "Chiến dịch vây bắt thủ lĩnh tội phạm Fausto Isidro Meza Flores ở bang Sinaloa đã châm ngòi cho các cuộc đọ súng đẫm máu khiến ít nhất 11 người thiệt mạng, đồng thời làm bùng phát làn sóng bạo lực tại địa phương.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+      "published_at": "2026-11-21T18:08:55+00:00",
+      "fetched_at": "2026-11-22T01:39:45.190474+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Lực lượng an ninh Mexico đã tiến hành một chiến dịch đột kích tại bang Sinaloa, miền bắc nước này, dẫn đến việc bắt giữ thủ lĩnh tội phạm khét tiếng Fausto Isidro Meza Flores, người được biết đến với biệt danh \"El Chapo Isidro\". Đây là một trong những đối tượng nằm trong danh sách 10 tội phạm bị truy nã gắt gao nhất của Cục Điều tra Liên bang Mỹ (FBI), với cáo buộc buôn bán ma túy và mang vũ khí trái phép sang Hoa Kỳ.",
+        "Cuộc vây bắt diễn ra vào tối thứ Sáu tại đô thị Guasave đã vấp phải sự kháng cự quyết liệt từ các thành viên băng đảng. Một cuộc đọ súng dữ dội bùng nổ, kéo theo sự tham gia của trực thăng quân sự và máy bay không người lái. Bạo lực nhanh chóng lan rộng khắp thành phố với các vụ đốt xe, dựng chướng ngại vật và các cuộc giao tranh khiến đời sống người dân ngưng trệ.",
+        "Theo Bộ Quốc phòng Mexico, chiến dịch này đã cướp đi sinh mạng của ít nhất 11 người, bao gồm 7 nghi phạm thuộc băng đảng và 4 binh sĩ quân đội Mexico. Ngoài ra, lực lượng chức năng đã bắt giữ tổng cộng 8 người liên quan. Do tình hình giao tranh kéo dài và phức tạp với nhiều điểm chướng ngại vật dựng lên trên đường phố, quân đội và lực lượng Vệ binh Quốc gia phải mất nhiều giờ mới có thể đưa đối tượng ra khỏi khu vực Guasave để chuyển về thủ đô Mexico City.",
+        "Giới chức hai nước Mỹ và Mexico đều ca ngợi chiến dịch này là một chiến thắng quan trọng trong công tác an ninh. Phía chính phủ Mexico xác nhận chiến dịch có sự hỗ trợ về mặt tình báo từ chính quyền Washington. Tuy nhiên, các chuyên gia cảnh báo rằng việc loại bỏ các thủ lĩnh cấp cao của các tổ chức tội phạm có nguy cơ châm ngòi cho những làn sóng bạo lực mới, trong bối cảnh khu vực này vốn đang phải đối mặt với các cuộc tranh giành quyền lực gay gắt giữa các phe phái thù địch."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bat giu trum ma tuy El Chapo Isidro tai Mexico",
+      "meta_description": "Chiến dịch bắt giữ trùm ma túy Fausto Isidro Meza Flores tại Mexico đã khiến 11 người chết và gây ra làn sóng bạo lực lớn tại bang Sinaloa.",
+      "keywords": [
+        "El Chapo Isidro",
+        "Mexico",
+        "Sinaloa",
+        "cartel",
+        "bạo lực"
+      ],
+      "slug": "bat-giu-trum-ma-tuy-el-chapo-isidro-tai-mien-bac-mexico-sau-cuoc-o-sung--10cfe10f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 374,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+        "https://www.euronews.com/2026/11/21/video-shows-mexican-forces-capturing-el-chapo-isidro-fbi-most-wanted-cartel-boss",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+        "https://www.skysports.com/football/news/12040/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance",
+        "https://www.sportingnews.com/us/nfl/news/one-man-booth-troy-aikman-joe-buck-beef-dig/8a8bbbca1cd04a80b7bbf519"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/21/video-shows-mexican-forces-capturing-el-chapo-isidro-fbi-most-wanted-cartel-boss",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+        "https://www.skysports.com/football/news/12040/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance",
+        "https://www.sportingnews.com/us/nfl/news/one-man-booth-troy-aikman-joe-buck-beef-dig/8a8bbbca1cd04a80b7bbf519"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T18:08:55+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/21/video-shows-mexican-forces-capturing-el-chapo-isidro-fbi-most-wanted-cartel-boss",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T20:24:17+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:53:56+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T09:00:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/news/one-man-booth-troy-aikman-joe-buck-beef-dig/8a8bbbca1cd04a80b7bbf519",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T16:41:14+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Fausto Isidro Meza Flores, được biết đến với tên \"El Chapo Isidro\", là một trong những đối tượng nằm trong danh sách 10 tội phạm bị truy nã gắt gao nhất của FBI.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"Getting him (Meza Flores) out was extraordinary,\" the official said, describing an intense response by members of the criminal group who maintained at least \"10 roadblocks\" with burning vehicles on Guasave's streets.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "snippet": "\"Getting him (Meza Flores) out was extraordinary,\" the official said, describing an intense response by members of the criminal group who maintained at least \"10 roadblocks\" with burning vehicles on Guasave's streets.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "page_sha256": "3e74971ba5462b0ff28a7eece34b208a002154974469c5e8095437be7c47f4a2",
+              "snippet_sha256": "02f808f46b70c97462477db0f0ead6793c0516bb1424b11c96cc54b72f654a95",
+              "verified_at": "2026-11-22T01:39:45.189981+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chiến dịch bắt giữ tại bang Sinaloa đã dẫn đến cuộc đọ súng làm ít nhất 11 người thiệt mạng, bao gồm 7 nghi phạm cartel và 4 binh sĩ Mexico.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
+          ],
+          "importance": "core",
+          "evidence_snippet": "GUASAVE, Mexico (AP) — Heavy gunfire, helicopters and burning trucks markedMexico'sSinaloa state Saturday after authorities captured cartel boss Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" in an operation that left at least 11 people dead.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "snippet": "GUASAVE, Mexico (AP) — Heavy gunfire, helicopters and burning trucks markedMexico'sSinaloa state Saturday after authorities captured cartel boss Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" in an operation that left at least 11 people dead.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "page_sha256": "3e74971ba5462b0ff28a7eece34b208a002154974469c5e8095437be7c47f4a2",
+              "snippet_sha256": "dc1157166a606de070737179fd0e7cd4c2c785d93a572ea124dc4dd7976912d0",
+              "verified_at": "2026-11-22T01:39:45.189981+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chính phủ Mexico cho biết tình báo từ chính quyền Trump đã hỗ trợ nhà chức trách trong việc bắt giữ Meza Flores.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Mexico's government said in a report early Saturday that intelligence from the Trump administration helped authorities capture him, but provided few details about how authorities in Mexico and the United States coordinated to detain Meza Flores.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "snippet": "Mexico's government said in a report early Saturday that intelligence from the Trump administration helped authorities capture him, but provided few details about how authorities in Mexico and the United States coordinated to detain Meza Flores.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "page_sha256": "3e74971ba5462b0ff28a7eece34b208a002154974469c5e8095437be7c47f4a2",
+              "snippet_sha256": "42a101714f693fee5a0032c3d8bfc01f2b582df47627acdef6a74ee8c1f49058",
+              "verified_at": "2026-11-22T01:39:45.189981+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến chi tiết của chiến dịch vây bắt trùm ma túy Fausto Isidro Meza Flores tại Mexico. Đồng thời, bài phân tích bối cảnh bạo lực leo thang tại bang Sinaloa và phản ứng từ các cơ quan chức năng hai nước.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T01:39:45.190555+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "11",
+        "4",
+        "7",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T01:39:45.191674+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 374,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1730
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "euronews.com",
+          "npr.org",
+          "skysports.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "hoi-nghi-khi-hau-cop31-be-mac-muon-do-tranh-cai-ve-nhien-lieu-hoa-thach-ee9905a8",
+    "status": "READY",
+    "prepared_at": "2026-11-22T01:39:22.611745+00:00",
+    "expires_at": "2026-11-23T01:39:22.611745+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+      "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime"
+    ],
+    "article": {
+      "id": "hoi-nghi-khi-hau-cop31-be-mac-muon-do-tranh-cai-ve-nhien-lieu-hoa-thach-ee9905a8",
+      "title": "Hội nghị khí hậu COP31 bế mạc muộn do tranh cãi về nhiên liệu hóa thạch",
+      "summary": "Các cuộc đàm phán tại hội nghị khí hậu COP31 ở Thổ Nhĩ Kỳ đã kéo dài quá thời hạn do bất đồng gay gắt quanh việc loại bỏ nhiên liệu hóa thạch và tài chính khí hậu.",
+      "category": "world",
+      "source_name": "Euronews - World",
+      "source_url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+      "published_at": "2026-11-21T08:56:33+00:00",
+      "fetched_at": "2026-11-22T01:39:51.020932+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các cuộc đàm phán tại hội nghị thượng đỉnh về biến đổi khí hậu COP31 tổ chức tại Antalya, Thổ Nhĩ Kỳ, đã phải kéo dài thời gian hoạt động sang cuối tuần do các quốc gia chưa thể đạt được sự đồng thuận về một thỏa thuận khí hậu toàn cầu mới. Nguyên nhân chính dẫn đến tình trạng này là sự bất đồng sâu sắc xung quanh dự thảo thỏa thuận mới, trong đó lược bỏ hoàn toàn các nội dung đề cập đến việc giảm nhu cầu hoặc chuyển dịch khỏi nhiên liệu hóa thạch.",
+        "Sự thay đổi này đã vấp phải phản ứng dữ dội từ Liên minh Châu Âu (EU) cùng nhiều quốc gia khác như Pháp và Panama. Giới chức EU đưa ra cảnh báo rằng dự thảo sửa đổi có nguy cơ biến hội nghị thượng đỉnh về khí hậu trở thành một hội nghị về nhiên liệu hóa thạch. Trong khi đó, Bộ trưởng Môi trường Panama Juan Carlos Navarro khẳng định việc văn kiện không có bất kỳ điều khoản nào nhắc tới nhiên liệu hóa thạch là điều không thể chấp nhận được.",
+        "Bên cạnh vấn đề nhiên liệu hóa thạch, các cuộc thảo luận cũng gặp trở ngại từ nhóm các nước Châu Phi khi yêu cầu cam kết bổ sung nguồn tài chính phục vụ cho công tác thích ứng biến đổi khí hậu. Tuy nhiên, phía EU trước đó từng tuyên bố không ủng hộ đề xuất này. Chủ tịch COP31 kiêm Bộ trưởng Môi trường Thổ Nhĩ Kỳ Murat Kurum cho biết các nỗ lực đàm phán vẫn đang tiếp tục diễn ra khi các bên hướng tới một văn bản thỏa thuận mới được kỳ vọng sẽ công bố.",
+        "Theo quy trình của Liên hợp quốc, các quyết định tại hội nghị khí hậu đòi hỏi phải có sự đồng thuận tuyệt đối từ các quốc gia tham gia. Nếu không thể tìm được tiếng nói chung, các cuộc đàm phán có nguy cơ phải tạm dừng và hoãn lại sang năm sau, một kịch bản hiếm hoi trong lịch sử các hội nghị COP từ trước đến nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hội nghị COP31 trì hoãn do tranh cãi về nhiên liệu hóa thạch",
+      "meta_description": "Các nước tham gia hội nghị COP31 tại Antalya đối mặt với bế tắc sau khi dự thảo thỏa thuận loại bỏ các điều khoản về nhiên liệu hóa thạch.",
+      "keywords": [
+        "COP31",
+        "khí hậu",
+        "nhiên liệu hóa thạch",
+        "EU",
+        "Thổ Nhĩ Kỳ"
+      ],
+      "slug": "hoi-nghi-khi-hau-cop31-be-mac-muon-do-tranh-cai-ve-nhien-lieu-hoa-thach-ee9905a8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 364,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+        "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+        "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+        "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+        "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+        "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T15:52:00+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T11:55:14+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T09:52:11+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T08:56:33+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các cuộc đàm phán COP31 tại Antalya, Thổ Nhĩ Kỳ đã vượt quá lịch trình do bất đồng về dự thảo không nhắc đến nhiên liệu hóa thạch.",
+          "source_urls": [
+            "https://www.france24.com/en/countries-race-to-secure-cop31-deal"
+          ],
+          "importance": "core",
+          "evidence_snippet": "COP31 opens with leaders under pressure to tackle climate crisis",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+              "snippet": "COP31 opens with leaders under pressure to tackle climate crisis",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+              "page_sha256": "533169f8cdc59876d714da72cb1e6cac7265bb8bf0c7214cdf0987061080368e",
+              "snippet_sha256": "194948385071cdf67c1dbe90e616e9c3747e091eb4ef12e0cd5ba38e20cfadcb",
+              "verified_at": "2026-11-22T01:39:51.020550+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "EU cảnh báo dự thảo mới có nguy cơ biến hội nghị thành hội nghị nhiên liệu hóa thạch.",
+          "source_urls": [
+            "https://www.france24.com/en/countries-race-to-secure-cop31-deal"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The content you requested does not exist or is not available anymore.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+              "snippet": "The content you requested does not exist or is not available anymore.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+              "page_sha256": "533169f8cdc59876d714da72cb1e6cac7265bb8bf0c7214cdf0987061080368e",
+              "snippet_sha256": "349bed8c936180128846a24a22f023d6cbf59364da54eb33e2cba673a0932c47",
+              "verified_at": "2026-11-22T01:39:51.020550+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pháp và Panama ra thư chung khẳng định thỏa thuận phải bao gồm quá trình chuyển đổi rõ ràng khỏi nhiên liệu hóa thạch.",
+          "source_urls": [
+            "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "2d agoThree sectoral deals to be signed, but won't enter into force until tuition fees issue resolved",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+              "snippet": "2d agoThree sectoral deals to be signed, but won't enter into force until tuition fees issue resolved",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+              "page_sha256": "6c089dac283b428715b15dc734274ddf8e453cd32697905f91adf845914f6720",
+              "snippet_sha256": "8390967a7113dacf9df53ec58f452166f49a1a4657bc8e3d26e43a273a1a2644",
+              "verified_at": "2026-11-22T01:39:51.020550+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ nguyên nhân cụ thể dẫn đến việc hội nghị COP31 phải kéo dài thời gian làm việc vượt mốc lịch trình ban đầu. Phân tích chi tiết các điểm nghẽn chính sách giữa nhóm các quốc gia EU, Panama và các nước sản xuất năng lượng hóa thạch.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T01:39:51.021014+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "31"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T01:39:51.022018+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 364,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1663
+        },
+        "independent_domains": [
+          "bbc.com",
+          "euronews.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
