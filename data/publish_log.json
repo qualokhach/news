@@ -1023,5 +1023,20 @@
         "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-23 00:26",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-22T17:26:22.782621+00:00",
+    "prepared_candidates": 16,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "vu-no-tau-nga-tai-cang-libya-nghi-van-tan-cong-bang-thiet-bi-bay-khong-n-d5976da0",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
