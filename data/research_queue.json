@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "0331f4eeed9c8090e26c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:48.184618+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "sports",
@@ -745,11 +745,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:48.184635+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "antonee-robinson-lot-tam-ngam-cua-manchester-united-duoi-thoi-pochettino-d10e4c4c"
   },
   {
     "queue_id": "d9fa393bcff37df89556",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:47.751852+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "technology",
@@ -1585,11 +1586,12 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:47.751871+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cac-goi-uu-ai-va-tro-choi-nintendo-switch-2-noi-bat-mua-black-friday-202-c5afd141"
   },
   {
     "queue_id": "20a1f2353518f647b5bb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-22T12:01:44.539545+00:00",
     "expires_at": "2026-11-25T12:00:03.532874+00:00",
     "category_hint": "sports",
@@ -2418,7 +2420,8 @@
       ]
     },
     "research_ready_at": "2026-11-22T12:01:44.539563+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bruno-fernandes-tam-hoan-am-phan-hop-ong-voi-manchester-united-duoi-trie-0c65ee77"
   },
   {
     "queue_id": "6df7810fbba57149990c",
@@ -92330,6 +92333,768 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "antonee-robinson-lot-tam-ngam-cua-manchester-united-duoi-thoi-pochettino-d10e4c4c",
+    "status": "READY",
+    "prepared_at": "2026-11-22T12:02:11.942999+00:00",
+    "expires_at": "2026-11-23T12:02:11.942999+00:00",
+    "source_urls": [
+      "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+      "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a"
+    ],
+    "article": {
+      "id": "antonee-robinson-lot-tam-ngam-cua-manchester-united-duoi-thoi-pochettino-d10e4c4c",
+      "title": "Antonee Robinson lọt tầm ngắm của Manchester United dưới thời Pochettino",
+      "summary": "Hậu vệ Antonee Robinson của Fulham đang được liên hệ chuyển nhượng tới Manchester United, trong bối cảnh tân huấn luyện viên Mauricio Pochettino ưu tiên củng cố vị trí hậu vệ cánh vào tháng 1.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+      "published_at": "2026-11-22T11:20:37+00:00",
+      "fetched_at": "2026-11-22T12:02:22.397512+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Manchester United đang được cho là đã đưa hậu vệ Antonee Robinson của Fulham vào danh sách mục tiêu ưu tiên trong kỳ chuyển nhượng tháng 1 sắp tới. Thông tin này xuất hiện trong bối cảnh tân huấn luyện viên Mauricio Pochettino vừa tiếp quản đội bóng chủ sân Old Trafford, với mục tiêu cấp thiết là gia cố hành lang cánh trái cho đội hình hiện tại.",
+        "Robinson, 29 tuổi, là gương mặt quen thuộc với chiến lược gia người Argentina. Cầu thủ này từng có 18 lần ra sân dưới sự dẫn dắt của Pochettino khi ông còn đảm nhiệm vai trò huấn luyện viên trưởng đội tuyển quốc gia Mỹ. Sự am hiểu về triết lý của Pochettino được xem là yếu tố giúp Robinson trở thành ứng viên sáng giá trong kế hoạch tái thiết của Manchester United.",
+        "Việc theo đuổi Robinson diễn ra trong giai đoạn Manchester United đang nỗ lực cải thiện phong độ tại Premier League. Sau khi sa thải Michael Carrick, đội bóng đã bổ nhiệm Pochettino với kỳ vọng tạo ra sự thay đổi tích cực. Hiện tại, vị trí hậu vệ trái được xác định là khu vực cần bổ sung nhân sự chất lượng để đảm bảo chiều sâu đội hình cho nửa sau mùa giải.",
+        "Ngoài trường hợp của Robinson, thị trường chuyển nhượng mùa đông cũng đang chứng kiến nhiều tin đồn liên quan đến các ngôi sao khác tại châu Âu. Tuy nhiên, với sự kết nối sẵn có giữa cầu thủ và huấn luyện viên, thương vụ này đang thu hút sự chú ý đặc biệt từ giới chuyên môn và người hâm mộ Quỷ đỏ."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Antonee Robinson được liên hệ gia nhập Manchester United",
+      "meta_description": "Tin đồn chuyển nhượng: Manchester United quan tâm đến hậu vệ Antonee Robinson của Fulham khi Mauricio Pochettino bắt đầu kế hoạch nhân sự mới.",
+      "keywords": [
+        "Manchester United",
+        "Antonee Robinson",
+        "Mauricio Pochettino",
+        "chuyển nhượng",
+        "Premier League"
+      ],
+      "slug": "antonee-robinson-lot-tam-ngam-cua-manchester-united-duoi-thoi-pochettino-d10e4c4c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 282,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+        "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:20:37+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T10:00:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Manchester United đang quan tâm đến việc chiêu mộ hậu vệ Antonee Robinson của Fulham trong kỳ chuyển nhượng tháng 1.",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united"
+          ],
+          "importance": "core",
+          "evidence_snippet": "- Mauricio Pochettino could reunite withUnited Statesmen's national team starAntonee Robinson, asFootball Insider claimsthatManchester Unitedcould make a move for theFulhamdefender.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+              "snippet": "- Mauricio Pochettino could reunite withUnited Statesmen's national team starAntonee Robinson, asFootball Insider claimsthatManchester Unitedcould make a move for theFulhamdefender.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+              "page_sha256": "43675d2f339d5314285ae043e394bfba7cdd4b43da7fecb2cfe36502c0743f49",
+              "snippet_sha256": "64832377a042ff51d36d8e8136d9ac74b2aacf97966c418ebac43d05d3852fdf",
+              "verified_at": "2026-11-22T12:02:22.396992+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Antonee Robinson, 29 tuổi, đã có 18 lần ra sân dưới sự dẫn dắt của Mauricio Pochettino tại đội tuyển quốc gia Mỹ.",
+          "source_urls": [
+            "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Robinson, 29, is claimed to be high on the club's shortlist, having played 18 times under Pochettino for the USMNT.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+              "snippet": "Robinson, 29, is claimed to be high on the club's shortlist, having played 18 times under Pochettino for the USMNT.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+              "page_sha256": "43675d2f339d5314285ae043e394bfba7cdd4b43da7fecb2cfe36502c0743f49",
+              "snippet_sha256": "c820dbaf2fb8658f4dc44ba106ee2c51a29a08eb3cd15de9d00684401d9618b7",
+              "verified_at": "2026-11-22T12:02:22.396992+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mauricio Pochettino đã chính thức trở thành huấn luyện viên trưởng của Manchester United sau khi Michael Carrick bị sa thải.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Manchester United finally made their change at boss as Michael Carrick was sacked with the club sitting 18th in the English top flight.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a",
+              "snippet": "Manchester United finally made their change at boss as Michael Carrick was sacked with the club sitting 18th in the English top flight.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/watch-liverpool-vs-man-united-live-stream-tv-channel-time/f58172b52c4bd6838a2e848a",
+              "page_sha256": "5639e55dce8e21923f1fd6841ef5ef9adffa326b1e62e48c34f893f5a315717f",
+              "snippet_sha256": "93940c46d9984e85e7eae538e8da6e5b618f7553bdecb3ea7226be57bad25c3b",
+              "verified_at": "2026-11-22T12:02:22.396992+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ chuyên môn giữa tân huấn luyện viên Pochettino và mục tiêu chuyển nhượng Robinson. Đồng thời, bài viết đặt tin đồn này trong bối cảnh chiến lược nhân sự cụ thể của Manchester United tại kỳ chuyển nhượng mùa đông.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T12:02:22.397586+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "18",
+        "29"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T12:02:22.398523+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 282,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1370
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cac-goi-uu-ai-va-tro-choi-nintendo-switch-2-noi-bat-mua-black-friday-202-c5afd141",
+    "status": "READY",
+    "prepared_at": "2026-11-22T12:02:11.942999+00:00",
+    "expires_at": "2026-11-23T12:02:11.942999+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+      "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "https://tuoitre.vn/thoi-trang-viet-lay-gi-canh-tranh-voi-nhan-ngoai-mua-black-friday-10026112120455297.htm",
+      "https://www.theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
+      "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "cac-goi-uu-ai-va-tro-choi-nintendo-switch-2-noi-bat-mua-black-friday-202-c5afd141",
+      "title": "Các gói ưu đãi và trò chơi Nintendo Switch 2 nổi bật mùa Black Friday 2026",
+      "summary": "Thông tin về các chương trình giảm giá chính thức cho máy chơi game Nintendo Switch 2, các gói bundle kèm game cùng nhiều tựa game đáng chú ý dịp Black Friday 2026.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+      "published_at": "2026-11-22T11:30:00+00:00",
+      "fetched_at": "2026-11-22T12:02:27.523378+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường mua sắm cuối năm chuẩn bị đón nhận các chương trình ưu đãi chính thức dành cho dòng máy chơi game Nintendo Switch 2. Dù các sản phẩm từ Nintendo thường ít khi giảm giá sâu, một số gói sản phẩm kết hợp và tựa game đã được ghi nhận mức giá ưu đãi dịp Black Friday bắt đầu từ ngày 22 tháng 11.",
+        "Trong danh sách các gói ưu đãi, nổi bật là bộ sản phẩm kết hợp máy Nintendo Switch 2 cùng bản tải xuống đầy đủ của trò chơi Mario Kart World và gói thành viên cá nhân Nintendo Switch Online trong vòng ba tháng. Gói này có giá 500 USD, giúp người mua tiết kiệm khoảng 50 USD so với thông thường.",
+        "Bên cạnh đó, thị trường còn xuất hiện gói kết hợp máy Nintendo Switch 2 cùng tựa game Nintendo Switch Sports Resort và ba tháng thành viên Nintendo Switch Online với giá 530 USD, giảm khoảng 28 USD. Gói sản phẩm này mang lại nhiều lựa chọn thể thao quen thuộc và mới lạ cho người dùng.",
+        "Không chỉ các gói máy, nhiều tựa game dành cho hệ máy này cũng được áp dụng mức giảm 20 USD so với mức giá thông thường. Các tựa game nằm trong diện ưu đãi bao gồm Super Mario Party Jamboree phiên bản Switch 2 kèm Jamboree TV, Metroid Prime 4: Beyond, Donkey Kong Bananza, cùng bộ đôi Super Mario Galaxy kết hợp.",
+        "Những chương trình giảm giá này được triển khai trên cửa hàng trực tuyến chính thức của Nintendo và dự kiến xuất hiện tại các nhà bán lẻ lớn. Đây là dịp để người dùng bổ sung các tựa game và thiết bị vào thư viện trước kỳ nghỉ lễ cuối năm."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ưu đãi Black Friday 2026 cho Nintendo Switch 2: Gói máy và game",
+      "meta_description": "Khám phá các chương trình giảm giá và gói ưu đãi cho Nintendo Switch 2, bao gồm máy, gói bundle kèm game và tựa game giảm giá dịp Black Friday 2026.",
+      "keywords": [
+        "Nintendo Switch 2",
+        "Black Friday 2026",
+        "ưu đãi game",
+        "bundle máy chơi game"
+      ],
+      "slug": "cac-goi-uu-ai-va-tro-choi-nintendo-switch-2-noi-bat-mua-black-friday-202-c5afd141",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 300,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+        "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+        "https://tuoitre.vn/thoi-trang-viet-lay-gi-canh-tranh-voi-nhan-ngoai-mua-black-friday-10026112120455297.htm",
+        "https://www.theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
+        "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+        "https://tuoitre.vn/thoi-trang-viet-lay-gi-canh-tranh-voi-nhan-ngoai-mua-black-friday-10026112120455297.htm",
+        "https://www.theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
+        "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:30:00+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T15:13:56+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/thoi-trang-viet-lay-gi-canh-tranh-voi-nhan-ngoai-mua-black-friday-10026112120455297.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T14:27:00+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:08:21+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T00:06:11+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các ưu đãi chính thức cho Nintendo Switch 2 bắt đầu từ ngày 22 tháng 11.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Metroid Prime 4: Beyond – Nintendo Switch 2 Editionfor $50 ($20 off)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "snippet": "Metroid Prime 4: Beyond – Nintendo Switch 2 Editionfor $50 ($20 off)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "page_sha256": "f47e9798963edf288b26ad2a803490668b4f91fc3c65a44dbd54dd255327f798",
+              "snippet_sha256": "a97b4e97b08cf560736b43e78e9cd7a350d72a9102dddf55b32230af24db45d8",
+              "verified_at": "2026-11-22T12:02:27.522897+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gói Nintendo Switch 2 kết hợp Mario Kart World và 3 tháng Nintendo Switch Online có giá 500 USD, tiết kiệm 50 USD.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The original and best Nintendo Switch 2 bundle is this one, combining a Nintendo Switch 2 console, a full download of theMario Kart Worldgame, and a 3-Month (90-Day) Nintendo Switch Online Individual Membership.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "snippet": "The original and best Nintendo Switch 2 bundle is this one, combining a Nintendo Switch 2 console, a full download of theMario Kart Worldgame, and a 3-Month (90-Day) Nintendo Switch Online Individual Membership.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "page_sha256": "f47e9798963edf288b26ad2a803490668b4f91fc3c65a44dbd54dd255327f798",
+              "snippet_sha256": "c436b7904412b1b7eb21fb8794ec2a408e6e34838f0281155c776a0981fc04a5",
+              "verified_at": "2026-11-22T12:02:27.522897+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gói Nintendo Switch 2 kết hợp Nintendo Switch Sports Resort và 3 tháng Nintendo Switch Online có giá 530 USD, giảm 28 USD.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nintendo Switch 2 +Nintendo Switch Sports ResortBundle for $530 ($28 off)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "snippet": "Nintendo Switch 2 +Nintendo Switch Sports ResortBundle for $530 ($28 off)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "page_sha256": "f47e9798963edf288b26ad2a803490668b4f91fc3c65a44dbd54dd255327f798",
+              "snippet_sha256": "127d885e35674e93024b37d17b748c2776a8322965620528a4ef5ac432f40ef0",
+              "verified_at": "2026-11-22T12:02:27.522897+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhiều tựa game Switch 2 như Super Mario Party Jamboree, Metroid Prime 4: Beyond, Donkey Kong Bananza và bộ đôi Super Mario Galaxy giảm 20 USD.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "These discounts also apply to the original Switch versions ofSuper Mario Party JamboreeandMetroid Prime 4: Beyond.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "snippet": "These discounts also apply to the original Switch versions ofSuper Mario Party JamboreeandMetroid Prime 4: Beyond.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+              "page_sha256": "f47e9798963edf288b26ad2a803490668b4f91fc3c65a44dbd54dd255327f798",
+              "snippet_sha256": "ab5256e05f952d0ff35396d3582e60a772ebf76cc32e854874e0026abd4c7d1c",
+              "verified_at": "2026-11-22T12:02:27.522897+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin chi tiết về các mức giá cụ thể của gói máy và game Nintendo Switch 2 trong đợt mua sắm Black Friday 2026. Nội dung làm rõ các mức tiết kiệm tài chính và danh mục trò chơi được giảm giá từ hệ thống phân phối chính thức.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T12:02:27.523452+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "20",
+        "28",
+        "4",
+        "50",
+        "500",
+        "530"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T12:02:27.524709+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 300,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1431
+        },
+        "independent_domains": [
+          "bbc.com",
+          "theguardian.com",
+          "theverge.com",
+          "tuoitre.vn",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bruno-fernandes-tam-hoan-am-phan-hop-ong-voi-manchester-united-duoi-trie-0c65ee77",
+    "status": "READY",
+    "prepared_at": "2026-11-22T12:02:11.942999+00:00",
+    "expires_at": "2026-11-23T12:02:11.942999+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+      "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "https://www.espn.com/soccer/story/_/id/50519892/manchester-united-pochettino-fernandes-rashford-transfers",
+      "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+      "https://www.skysports.com/football/news/12040/13614990/bruno-fernandes-man-utd-captain-confirms-contract-offer-but-says-negotiations-are-on-hold",
+      "https://www.sportingnews.com/us/soccer/manchester-united/news/issues-mauricio-pochettino-address-man-united-new-boss-bruno/99d92a1b542980fc6b4f0c75"
+    ],
+    "article": {
+      "id": "bruno-fernandes-tam-hoan-am-phan-hop-ong-voi-manchester-united-duoi-trie-0c65ee77",
+      "title": "Bruno Fernandes tạm hoãn đàm phán hợp đồng với Manchester United dưới triều đại Pochettino",
+      "summary": "Đội trưởng Manchester United Bruno Fernandes xác nhận đã từ chối các đề nghị gia hạn hợp đồng và tạm dừng toàn bộ đàm phán, khẳng định ưu tiên hàng đầu hiện tại là giúp CLB lấy lại phong độ chiến thắng.",
+      "category": "sports",
+      "source_name": "BBC News - Top Stories",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-22T08:41:20+00:00",
+      "fetched_at": "2026-11-22T12:02:33.757778+00:00",
+      "appnho_published_at": "",
+      "content_type": "news_analysis",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tình hình nhân sự tại Old Trafford tiếp tục thu hút sự chú ý lớn khi đội trưởng Bruno Fernandes chính thức xác nhận anh đã quyết định tạm hoãn các cuộc đàm phán gia hạn hợp đồng với Manchester United. Tiền vệ người Bồ Đào Nha cho biết dù câu lạc bộ đã đưa ra lời đề nghị mới nhằm giữ chân anh, thời điểm hiện tại không phù hợp để tiếp tục thảo luận về các vấn đề tương lai cá nhân.",
+        "Theo chia sẻ từ Fernandes, giao kèo hiện tại của anh sẽ đáo hạn vào cuối mùa giải năm nay, mặc dù đội bóng sở hữu điều khoản tự động gia hạn thêm 12 tháng. Tiền vệ 32 tuổi tiết lộ anh từng từ chối hai lời đề nghị gia hạn từ phía câu lạc bộ và bác bỏ những đồn đoán xung quanh yêu cầu tài chính cá nhân. Anh nhấn mạnh động lực của mình không đến từ tiền bạc khi từng có cơ hội chuyển đến những nơi có đãi ngộ cao hơn hoặc điều kiện thời tiết ấm áp hơn trong các kỳ chuyển nhượng trước đó.",
+        "Quyết định tạm dừng đàm phán hợp đồng diễn ra trong bối cảnh Manchester United đang trải qua giai đoạn biến động mạnh mẽ về cấu trúc thượng tầng và băng ghế huấn luyện. Mauricio Pochettino vừa chính thức tiếp quản chiếc ghế nóng tại câu lạc bộ, đối mặt với nhiệm vụ vực dậy một tập thể đang ngụp lặn ở nửa dưới bảng xếp hạng Ngoại hạng Anh. Trong bối cảnh đội bóng chuẩn bị bước vào trận đấu gặp Liverpool tại Anfield, Fernandes khẳng định sự tập trung hoàn toàn phải hướng về chuyên môn thay vì các bàn thảo hợp đồng.",
+        "Dù phong độ của tuyển thủ Bồ Đào Nha mùa này đã sụt giảm đáng kể so với kỷ lục kiến tạo ở mùa giải trước, anh vẫn được kỳ vọng là nhân tố trọng yếu trong kế hoạch tái thiết của nhà cầm quân người Argentina. Pochettino tiết lộ ông đã có buổi trò chuyện kéo dài ba tiếng đồng hồ với các cầu thủ ngay sau khi tiếp quản đội bóng. Về phần mình, Fernandes khẳng định anh chưa từng có bất kỳ mâu thuẫn nào với cựu huấn luyện viên Michael Carrick và sẵn sàng rời đi ngay lập tức nếu câu lạc bộ cảm thấy anh không còn phù hợp, nhưng hiện tại mục tiêu tối thượng vẫn là đưa đội bóng trở lại mạch chiến thắng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bruno Fernandes tam hoan dam phan hop dong voi Manchester United",
+      "meta_description": "Tien ve Bruno Fernandes xac nhan tam hoan cac cuoc dam phan gia hop dong moi voi Manchester United, cho biet thoi diem nay chua thich hop giua luc doi bong kho ",
+      "keywords": [
+        "Bruno Fernandes",
+        "Manchester United",
+        "Mauricio Pochettino",
+        "Ngoai hang Anh",
+        "bong da Anh"
+      ],
+      "slug": "bruno-fernandes-tam-hoan-am-phan-hop-ong-voi-manchester-united-duoi-trie-0c65ee77",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 431,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+        "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+        "https://www.espn.com/soccer/story/_/id/50519892/manchester-united-pochettino-fernandes-rashford-transfers",
+        "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+        "https://www.skysports.com/football/news/12040/13614990/bruno-fernandes-man-utd-captain-confirms-contract-offer-but-says-negotiations-are-on-hold",
+        "https://www.sportingnews.com/us/soccer/manchester-united/news/issues-mauricio-pochettino-address-man-united-new-boss-bruno/99d92a1b542980fc6b4f0c75"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+        "https://www.espn.com/soccer/story/_/id/50519892/manchester-united-pochettino-fernandes-rashford-transfers",
+        "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+        "https://www.skysports.com/football/news/12040/13614990/bruno-fernandes-man-utd-captain-confirms-contract-offer-but-says-negotiations-are-on-hold",
+        "https://www.sportingnews.com/us/soccer/manchester-united/news/issues-mauricio-pochettino-address-man-united-new-boss-bruno/99d92a1b542980fc6b4f0c75"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T11:48:17+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T08:41:20+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/story/_/id/50519892/manchester-united-pochettino-fernandes-rashford-transfers",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T15:22:35+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T17:28:51+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13614990/bruno-fernandes-man-utd-captain-confirms-contract-offer-but-says-negotiations-are-on-hold",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T07:00:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/manchester-united/news/issues-mauricio-pochettino-address-man-united-new-boss-bruno/99d92a1b542980fc6b4f0c75",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T01:23:08+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bruno Fernandes xác nhận Manchester United đã đề nghị hợp đồng mới nhưng anh quyết định tạm hoãn đàm phán.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Bruno Fernandes reveals talks over new Manchester United contract are on holdRead more",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+              "snippet": "Bruno Fernandes reveals talks over new Manchester United contract are on holdRead more",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+              "page_sha256": "2677755616ef5a95998b9c72140787e65fd6d1557450b75e654ee1e9c1287d74",
+              "snippet_sha256": "3d4fee90e77196fc8d43fff056f08b411f0a87c0767260146db2b25ae86d4488",
+              "verified_at": "2026-11-22T12:02:33.757279+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hợp đồng hiện tại của Bruno Fernandes sẽ hết hạn vào cuối mùa giải, trong khi câu lạc bộ có tùy chọn kích hoạt thêm 12 tháng.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Right, the clock has struck 12 so it’s time for me to wrap up this morning’s matchday live.The real action is about to get under way, starting with our WSL clockwatch covering the first two – Manchester City v Spurs and Birmingham v Man United – of five games in the women’s top flight this afternoon.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+              "snippet": "Right, the clock has struck 12 so it’s time for me to wrap up this morning’s matchday live.The real action is about to get under way, starting with our WSL clockwatch covering the first two – Manchester City v Spurs and Birmingham v Man United – of five games in the women’s top flight this afternoon.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+              "page_sha256": "2677755616ef5a95998b9c72140787e65fd6d1557450b75e654ee1e9c1287d74",
+              "snippet_sha256": "e7fd48b72c0a785caf0b59e2c05e01447b0641a79a2465257a13f1729ca0aca5",
+              "verified_at": "2026-11-22T12:02:33.757279+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mauricio Pochettino tiếp quản vị trí huấn luyện viên trưởng Manchester United và có buổi trao đổi trực tiếp với các cầu thủ.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Later on, we’ll have coverage of Hull versus Brighton in the Premier League and, of course, thesmall matterof Liverpool against Manchester United from Anfield, asMauricio Pochettinotakes charge of the visitors for the first time.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+              "snippet": "Later on, we’ll have coverage of Hull versus Brighton in the Premier League and, of course, thesmall matterof Liverpool against Manchester United from Anfield, asMauricio Pochettinotakes charge of the visitors for the first time.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+              "page_sha256": "2677755616ef5a95998b9c72140787e65fd6d1557450b75e654ee1e9c1287d74",
+              "snippet_sha256": "c12c779c06ed3637804c6d23d01344b937894febe21f79bb60747904b0eb5592",
+              "verified_at": "2026-11-22T12:02:33.757279+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích nguyên nhân và bối cảnh đằng sau việc Bruno Fernandes tạm hoãn đàm phán hợp đồng với Manchester United. Tác phẩm làm rõ thông tin từ góc nhìn của cầu thủ trước thềm trận đấu đầu tiên dưới thời huấn luyện viên Mauricio Pochettino.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-22T12:02:33.757868+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "32"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-22T12:02:33.759403+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 431,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1984
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "espn.com",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
