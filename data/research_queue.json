@@ -2519,7 +2519,7 @@
   },
   {
     "queue_id": "65485a30760240c7ed13",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:36.680857+00:00",
     "expires_at": "2026-11-26T20:36:09.827546+00:00",
     "category_hint": "technology",
@@ -3353,11 +3353,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:36.680884+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "grand-theft-auto-6-cai-chet-cua-giac-mo-my-7e59017f"
   },
   {
     "queue_id": "a87fb772546d43effaee",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:35.669738+00:00",
     "expires_at": "2026-11-26T20:36:09.827546+00:00",
     "category_hint": "world",
@@ -3946,13 +3947,14 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:35.669761+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "istanbul-cuoc-truy-tim-su-tu-cai-xuat-hien-o-ngoai-o-3c4ab388"
   },
   {
     "queue_id": "9b685e45307192e7120a",
     "status": "WRITING_PENDING",
     "staged_at": "2026-11-23T20:37:35.429307+00:00",
-    "expires_at": "2026-11-26T20:36:09.827546+00:00",
+    "expires_at": "2026-11-26T21:42:01.937866+00:00",
     "category_hint": "world",
     "lead_title": "Iran hits US bases and civilian sites in the Gulf after a lull",
     "source_urls": [
@@ -4629,11 +4631,14 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:35.429331+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flas",
+    "write_attempts": 1,
+    "next_write_after": "2026-11-24T01:42:01.937866+00:00"
   },
   {
     "queue_id": "4d882dc5e2394fa2f312",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:34.119420+00:00",
     "expires_at": "2026-11-26T20:36:09.827546+00:00",
     "category_hint": "sports",
@@ -5252,7 +5257,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:34.119442+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "washington-spirit-chia-tay-huan-luyen-vien-adrian-gonzalez-sau-that-bai--0246a8c1"
   },
   {
     "queue_id": "cac-quan-chuc-len-an-vu-bat-giu-cua-ice-tai-san-bay-seattle-d98d2693",
@@ -90998,7 +91004,7 @@
   },
   {
     "queue_id": "toi-23-11-gia-vang-va-bac-quoc-te-cung-bat-tang-manh-sau-nhip-giam-sau-8a44e5e4",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-23T20:38:20.850557+00:00",
     "expires_at": "2026-11-24T08:38:20.850557+00:00",
     "source_urls": [
@@ -91014,7 +91020,7 @@
       "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
       "published_at": "2026-11-23T16:08:24+00:00",
       "fetched_at": "2026-11-23T20:38:27.504850+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-23T21:46:44.279512+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -91210,23 +91216,33 @@
         "9"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-23T20:38:27.506053+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-23T21:46:44.279512+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 325,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1526
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn"
-        ],
-        "primary_source_present": false
+          "body_chars": 1526,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-24 04:46"
+    },
+    "published_at": "2026-11-23T21:46:44.279512+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "wake-forest-se-uoi-theo-vong-chung-ket-cfp-khong-co-chay-au-clark-09ffcbdb",
@@ -91615,5 +91631,733 @@
       "origin": "auto",
       "content_image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     }
+  },
+  {
+    "queue_id": "grand-theft-auto-6-cai-chet-cua-giac-mo-my-7e59017f",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T21:42:01.937866+00:00",
+    "expires_at": "2026-11-24T21:42:01.937866+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2325713/grand-theft-auto",
+      "https://www.theguardian.com/sport/2026/nov/23/game-over-how-playing-grand-theft-auto-vi-is-affecting-elite-athletes-performances",
+      "https://www.bbc.co.uk/news/articles/cw7829pl3xklo?at_medium=RSS&at_campaign=rss",
+      "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi",
+      "https://www.cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html"
+    ],
+    "article": {
+      "id": "grand-theft-auto-6-cai-chet-cua-giac-mo-my-7e59017f",
+      "title": "Grand Theft Auto 6: Cái chết của Giấc mơ Mỹ",
+      "summary": "Grand Theft Auto 6 là một trò chơi điện tử mới nhất trong loạt game nổi tiếng, và nó đang thu hút sự chú ý của nhiều người chơi. Tuy nhiên, đằng sau sự hấp dẫn của trò chơi, có một thông điệp sâu sắc về cái chết của Giấc mơ Mỹ.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+      "published_at": "2026-11-23T20:16:10+00:00",
+      "fetched_at": "2026-11-23T21:42:41.104077+00:00",
+      "appnho_published_at": "2026-11-23T21:46:44.279512+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Grand Theft Auto 6 là một trò chơi điện tử mới nhất trong loạt game nổi tiếng, và nó đang thu hút sự chú ý của nhiều người chơi. Tuy nhiên, đằng sau sự hấp dẫn của trò chơi, có một thông điệp sâu sắc về cái chết của Giấc mơ Mỹ.",
+        "Trò chơi này tập trung vào vấn đề hệ thống và khó khăn mà những người sống ở rìa xã hội phải đối mặt. Lucia Caminos, một nhân vật chính trong trò chơi, đã thực hiện một vụ cướp và phải đối mặt với hậu quả. Cô phải chiến đấu để sống sót và xây dựng lại cuộc sống của mình.",
+        "Jason Duval, một nhân vật khác, đã tham gia vào quân đội để thoát khỏi tuổi thơ khó khăn, nhưng cuối cùng lại trở thành một phần của thế giới tội phạm. Cả hai nhân vật này đều phải đối mặt với khó khăn và thách thức trong cuộc sống, và họ phải tìm cách để vượt qua và xây dựng lại cuộc sống của mình.",
+        "Trò chơi này cũng đề cập đến vấn đề về sự bất công và sự phân biệt đối xử trong xã hội. Những người chơi sẽ phải đối mặt với những tình huống khó khăn và phải đưa ra quyết định để giúp nhân vật của mình vượt qua.",
+        "Tóm lại, Grand Theft Auto 6 là một trò chơi điện tử mới nhất trong loạt game nổi tiếng, và nó đang thu hút sự chú ý của nhiều người chơi. Tuy nhiên, đằng sau sự hấp dẫn của trò chơi, có một thông điệp sâu sắc về cái chết của Giấc mơ Mỹ."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Grand Theft Auto 6: Cái chết của Giấc mơ Mỹ",
+      "meta_description": "Grand Theft Auto 6 là một trò chơi điện tử mới nhất trong loạt game nổi tiếng, và nó đang thu hút sự chú ý của nhiều người chơi. Tuy nhiên, đằng sau sự hấp dẫn ",
+      "keywords": [
+        "Grand Theft Auto 6",
+        "Giấc mơ Mỹ",
+        "trò chơi điện tử",
+        "Công nghệ",
+        "tin tức công nghệ"
+      ],
+      "slug": "grand-theft-auto-6-cai-chet-cua-giac-mo-my-7e59017f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 282,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2325713/grand-theft-auto",
+        "https://www.theguardian.com/sport/2026/nov/23/game-over-how-playing-grand-theft-auto-vi-is-affecting-elite-athletes-performances",
+        "https://www.bbc.co.uk/news/articles/cw7829pl3xklo?at_medium=RSS&at_campaign=rss",
+        "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi",
+        "https://www.cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/23/game-over-how-playing-grand-theft-auto-vi-is-affecting-elite-athletes-performances",
+        "https://www.bbc.co.uk/news/articles/cw7829pl3xklo?at_medium=RSS&at_campaign=rss",
+        "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi",
+        "https://www.cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2325713/grand-theft-auto",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T20:16:10+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/23/game-over-how-playing-grand-theft-auto-vi-is-affecting-elite-athletes-performances",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T18:14:03+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/cw7829pl3xklo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T01:07:01+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T23:24:02+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T15:00:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Grand Theft Auto 6 là một trò chơi điện tử mới nhất trong loạt game nổi tiếng",
+          "source_urls": [
+            "https://www.engadget.com/2325713/grand-theft-auto"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ButGrand Theft Auto 6specifically focuses on the systemic issues that make any version of the American Dream — saving money, buying a home and supporting a family with a fulfilling job — incredibly difficult for people living on the margins of society.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "snippet": "ButGrand Theft Auto 6specifically focuses on the systemic issues that make any version of the American Dream — saving money, buying a home and supporting a family with a fulfilling job — incredibly difficult for people living on the margins of society.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "page_sha256": "2b03b6eb8c016c0accba0e3f86e2514ef624afe4f362b12a8dde74c160b430ac",
+              "snippet_sha256": "dbedcf9f08659cf2f813388c329ad570b68439f264b6099e99d3480467dfd92a",
+              "verified_at": "2026-11-23T21:42:41.103535+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trò chơi này tập trung vào vấn đề hệ thống và khó khăn mà những người sống ở rìa xã hội phải đối mặt",
+          "source_urls": [
+            "https://www.engadget.com/2325713/grand-theft-auto"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Everybody hurts, even the people who seem to have it all.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "snippet": "Everybody hurts, even the people who seem to have it all.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "page_sha256": "2b03b6eb8c016c0accba0e3f86e2514ef624afe4f362b12a8dde74c160b430ac",
+              "snippet_sha256": "50734b6633f6500ef348b02cb6c8056b6c1df30aa1525d4513f7e0de510ae1ef",
+              "verified_at": "2026-11-23T21:42:41.103535+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lucia Caminos, một nhân vật chính trong trò chơi, đã thực hiện một vụ cướp và phải đối mặt với hậu quả",
+          "source_urls": [
+            "https://www.engadget.com/2325713/grand-theft-auto"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Lucia Caminos committed an ill-conceived robbery, is subsequently sent to jail and is forced to claw her way back into civilian life with little support.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "snippet": "Lucia Caminos committed an ill-conceived robbery, is subsequently sent to jail and is forced to claw her way back into civilian life with little support.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "page_sha256": "2b03b6eb8c016c0accba0e3f86e2514ef624afe4f362b12a8dde74c160b430ac",
+              "snippet_sha256": "5bbf9330604f960c80c4d7923d7aceecf4ca03a9dbd4a1efe91d52f4fd1a9108",
+              "verified_at": "2026-11-23T21:42:41.103535+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp một cái nhìn sâu sắc về thông điệp của Grand Theft Auto 6, và giúp người đọc hiểu rõ hơn về vấn đề hệ thống và khó khăn mà những người sống ở rìa xã hội phải đối mặt. Bài viết cũng đề cập đến vấn đề về sự bất công và sự phân biệt đối xử trong xã hội, và giúp người đọc nhận thức được tầm quan trọng của việc xây dựng một xã hội công bằng và nhân đạo.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T21:42:41.104159+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "6"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T21:46:44.279512+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 282,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1246,
+          "source_access": [
+            {
+              "url": "https://www.engadget.com/2325713/grand-theft-auto",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "engadget.com",
+            "theguardian.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 04:46"
+    },
+    "published_at": "2026-11-23T21:46:44.279512+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "istanbul-cuoc-truy-tim-su-tu-cai-xuat-hien-o-ngoai-o-3c4ab388",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T21:42:01.937866+00:00",
+    "expires_at": "2026-11-24T21:42:01.937866+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+      "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+      "https://www.france24.com/en/video/20261118-turkish-pro-opposition-broadcaster-taken-off-air-after-police-raid"
+    ],
+    "article": {
+      "id": "istanbul-cuoc-truy-tim-su-tu-cai-xuat-hien-o-ngoai-o-3c4ab388",
+      "title": "Istanbul: Cuộc truy tìm sư tử cái xuất hiện ở ngoại ô",
+      "summary": "Chính quyền Istanbul đang huy động lực lượng lớn để truy bắt một con sư tử cái được phát hiện đi lại tại khu vực ngoại ô phía bắc thành phố, làm dấy lên lo ngại về an ninh và vấn đề buôn bán động vật hoang dã trái phép.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+      "published_at": "2026-11-23T20:22:28+00:00",
+      "fetched_at": "2026-11-23T21:43:04.101355+00:00",
+      "appnho_published_at": "2026-11-23T21:46:44.279512+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cảnh sát và các đội cứu hộ động vật tại Istanbul, Thổ Nhĩ Kỳ, đang tiến hành chiến dịch truy tìm một con sư tử cái sau khi nó được phát hiện đi lại tại khu vực ngoại ô phía bắc thành phố. Sự việc bắt đầu từ những báo cáo của người dân tại khu phố Zekeriyakoy và Uskumruköy thuộc quận Sariyer vào tối Chủ nhật. Hình ảnh từ camera an ninh sau đó đã xác nhận sự hiện diện của một con vật có ngoại hình giống sư tử đang di chuyển qua các khu vực đất trống.",
+        "Để đảm bảo an toàn, chính quyền địa phương đã phong tỏa một khu vực rừng gần đó và triển khai hơn 70 nhân viên cùng máy bay không người lái (drone) hỗ trợ tìm kiếm. Các chuyên gia thú y cũng được huy động với thiết bị camera tầm nhiệt để xác định vị trí chính xác của con vật. Văn phòng Thống đốc Istanbul khẳng định mục tiêu ưu tiên là bắt giữ con sư tử còn sống để đảm bảo an toàn cho cả cộng đồng lẫn con vật.",
+        "Thị trưởng quận Sariyer, ông Mustafa Oktay Aksu, đã đưa ra cảnh báo yêu cầu cư dân hạn chế ra ngoài để tránh rủi ro. Ông cho biết con vật có thể đã được nuôi dưỡng bởi một cá nhân nào đó, dựa trên quan sát về hành vi của nó khi đi ngang qua khu vực có gia cầm mà không gây hại. Tuy nhiên, giới chức nhấn mạnh rằng đây vẫn là một loài động vật nguy hiểm và người dân cần hết sức thận trọng.",
+        "Sự việc lần này đã làm dấy lên làn sóng tranh luận gay gắt từ các nhà hoạt động và giới học thuật tại Thổ Nhĩ Kỳ về lỗ hổng trong quản lý động vật hoang dã. Giáo sư Doganay Tolunay từ Đại học Istanbul-Cerrahpasa đặt ra những câu hỏi cấp thiết về việc làm thế nào một loài động vật bị đe dọa toàn cầu lại có thể lọt qua cửa khẩu hải quan để vào nước này. Thổ Nhĩ Kỳ hiện được xem là một điểm trung chuyển trong mạng lưới buôn bán động vật hoang dã trái phép, tận dụng các đường bay kết nối đến châu Phi và châu Á. Trước đó, vào tháng 12 năm 2024, một con khỉ đột non cũng đã được giải cứu tại sân bay Istanbul khi đang trên đường vận chuyển trái phép."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Istanbul truy tìm sư tử cái xuất hiện ở khu dân cư",
+      "meta_description": "Cảnh sát và chuyên gia động vật hoang dã tại Istanbul đang nỗ lực bắt giữ một con sư tử cái sau khi nó được camera an ninh ghi lại tại quận Sariyer.",
+      "keywords": [
+        "Istanbul",
+        "sư tử",
+        "động vật hoang dã",
+        "Thổ Nhĩ Kỳ",
+        "Sariyer"
+      ],
+      "slug": "istanbul-cuoc-truy-tim-su-tu-cai-xuat-hien-o-ngoai-o-3c4ab388",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 423,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+        "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+        "https://www.france24.com/en/video/20261118-turkish-pro-opposition-broadcaster-taken-off-air-after-police-raid"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+        "https://www.france24.com/en/video/20261118-turkish-pro-opposition-broadcaster-taken-off-air-after-police-raid"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T20:22:28+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T07:48:49+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261118-turkish-pro-opposition-broadcaster-taken-off-air-after-police-raid",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T10:51:55+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cảnh sát và đội cứu hộ đang truy tìm một con sư tử cái tại khu vực ngoại ô phía bắc Istanbul sau khi nó được camera an ninh ghi lại.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Turkiye’s National Parks Directorate said on Sunday that police officers in Zekeriyakoy, north of Istanbul’s European side, had reported spotting “an animal resembling a lion” on surveillance cameras.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+              "snippet": "Turkiye’s National Parks Directorate said on Sunday that police officers in Zekeriyakoy, north of Istanbul’s European side, had reported spotting “an animal resembling a lion” on surveillance cameras.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+              "page_sha256": "60d54f7012d4ef7d94b8cf145eeaa79c8cb8e6c74a29c8308dd28eff80e94540",
+              "snippet_sha256": "124b4d8164e8d28aadc98187f3e42a7e125625671b424834a9d634551b3e6e76",
+              "verified_at": "2026-11-23T21:43:04.100987+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hơn 70 nhân viên cùng máy bay không người lái đang tham gia tìm kiếm tại khu vực rừng Belgrade gần quận Sariyer.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "More than 70 personnel, supported by drones, were searching in and around the nearby Belgrade Forest, which covers 54 square kilometres (21 square miles) north of Istanbul.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+              "snippet": "More than 70 personnel, supported by drones, were searching in and around the nearby Belgrade Forest, which covers 54 square kilometres (21 square miles) north of Istanbul.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+              "page_sha256": "60d54f7012d4ef7d94b8cf145eeaa79c8cb8e6c74a29c8308dd28eff80e94540",
+              "snippet_sha256": "7661006b9712d3bee63efc17af3fc29cae59a8ffeb5c2ea6a102029121d07a2b",
+              "verified_at": "2026-11-23T21:43:04.100987+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật pháp Thổ Nhĩ Kỳ không cho phép cá nhân nuôi nhốt các loài động vật hoang dã nguy hiểm như sư tử làm thú cưng.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Turkish court blocks jailed Istanbul mayor from 2028 presidential race",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+              "snippet": "Turkish court blocks jailed Istanbul mayor from 2028 presidential race",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+              "page_sha256": "a15fc195098115ec1e1c5c42c35fa4960f461cc5d06a845ddd27462e88e4beba",
+              "snippet_sha256": "3c6c1d91110ac20cb3daeb16eb6b17d0ad51eed024eaaadf5410d0e88421ad07",
+              "verified_at": "2026-11-23T21:43:04.100987+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh pháp lý về việc cấm nuôi nhốt động vật hoang dã tại Thổ Nhĩ Kỳ và đặt sự kiện này trong bức tranh lớn hơn về vấn nạn buôn bán động vật xuyên quốc gia. Đồng thời, bài phân tích sự khác biệt giữa các báo cáo hiện trường và những lo ngại về an ninh công cộng tại khu vực ngoại ô Istanbul.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T21:43:04.101450+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2024",
+        "70"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T21:46:44.279512+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 423,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1903,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "euronews.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 04:46"
+    },
+    "published_at": "2026-11-23T21:46:44.279512+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "washington-spirit-chia-tay-huan-luyen-vien-adrian-gonzalez-sau-that-bai--0246a8c1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T21:42:01.937866+00:00",
+    "expires_at": "2026-11-24T21:42:01.937866+00:00",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+      "https://www.aljazeera.com/sports/2026/11/22/heartbreak-in-us-capital-as-washington-spirit-lose-womens-football-final?traffic_source=rss",
+      "https://www.espn.com/soccer/match/_/gameId/401934232/kansas-city-current-washington-spirit"
+    ],
+    "article": {
+      "id": "washington-spirit-chia-tay-huan-luyen-vien-adrian-gonzalez-sau-that-bai--0246a8c1",
+      "title": "Washington Spirit chia tay huấn luyện viên Adrian Gonzalez sau thất bại ở chung kết NWSL",
+      "summary": "Câu lạc bộ bóng đá Washington Spirit đã chính thức chấm dứt hợp đồng với huấn luyện viên trưởng Adrian Gonzalez sau trận thua 1-2 trước Kansas City Current ở trận chung kết NWSL.",
+      "category": "sports",
+      "source_name": "CBS Sports - Soccer",
+      "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+      "published_at": "2026-11-23T20:35:16+00:00",
+      "fetched_at": "2026-11-23T21:46:42.078766+00:00",
+      "appnho_published_at": "2026-11-23T21:46:44.279512+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Câu lạc bộ bóng đá Washington Spirit đã chính thức thông báo chia tay huấn luyện viên trưởng Adrian Gonzalez vào ngày thứ Hai, chỉ chưa đầy 48 hours sau trận thua 1-2 trước Kansas City Current trong trận chung kết Giải bóng đá nữ Vô địch Quốc gia Mỹ (NWSL). Thất bại này đánh dấu năm thứ ba liên tiếp đội bóng thủ đô để thua ở trận tranh ngôi vương giải đấu, khép lại một mùa giải nhiều kỳ vọng nhưng lại hụt bước ở thời khắc quyết định trên sân nhà Audi Field.",
+        "Dưới thời Gonzalez, đội bóng duy trì được sự ổn định đáng kể và ông từng là ứng cử viên cho danh hiệu huấn luyện viên xuất sắc nhất mùa trước. Ông để lại bảng thành tích 32 trận thắng sau 58 trận dẫn dắt cùng tỷ lệ 1,84 điểm mỗi trận. Tuy nhiên, áp lực thành tích từ phía ban lãnh đạo và chủ sở hữu Michele Kang đặt ra những tiêu chuẩn rất cao cho vị trí ghế nóng. Chủ tịch phụ trách vận hành bóng đá Haley Carter cho biết việc thay đổi ban huấn luyện là bước đi cần thiết để đội bóng hướng tới các mục tiêu dài hạn.",
+        "Quá trình tìm kiếm người kế nhiệm Gonzalez hiện đã bắt đầu trong bối cảnh đội hình sở hữu nhiều ngôi sao lớn như tiền đạo Trinity Rodman. Dù được đầu tư mạnh mẽ và đặt nhiều kỳ vọng từ khi chủ sở hữu Michele Kang tiếp quản câu lạc bộ vào năm 2022, đội bóng vẫn thiếu đi các danh hiệu lớn ngoài chiếc cúp Challenge Cup năm 2025. Thách thức lớn nhất đặt ra cho huấn luyện viên mới sẽ là việc chuyển hóa tiềm lực mạnh mẽ của đội bóng thành những chức vô địch thực thụ trong các mùa giải tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Washington Spirit chia tay HLV Adrian Gonzalez sau chung kết NWSL",
+      "meta_description": "Washington Spirit thông báo chia tay HLV trưởng Adrian Gonzalez sau trận thua Kansas City Current tại chung kết NWSL 2026.",
+      "keywords": [
+        "Washington Spirit",
+        "Adrian Gonzalez",
+        "NWSL Championship",
+        "Kansas City Current",
+        "bóng đá nữ Mỹ"
+      ],
+      "slug": "washington-spirit-chia-tay-huan-luyen-vien-adrian-gonzalez-sau-that-bai--0246a8c1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 315,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+        "https://www.aljazeera.com/sports/2026/11/22/heartbreak-in-us-capital-as-washington-spirit-lose-womens-football-final?traffic_source=rss",
+        "https://www.espn.com/soccer/match/_/gameId/401934232/kansas-city-current-washington-spirit"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/sports/2026/11/22/heartbreak-in-us-capital-as-washington-spirit-lose-womens-football-final?traffic_source=rss",
+        "https://www.espn.com/soccer/match/_/gameId/401934232/kansas-city-current-washington-spirit"
+      ],
+      "source_references": [
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T20:35:16+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/22/heartbreak-in-us-capital-as-washington-spirit-lose-womens-football-final?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T21:26:12+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401934232/kansas-city-current-washington-spirit",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T01:34:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Washington Spirit chia tay HLV Adrian Gonzalez vào ngày thứ Hai, chưa đầy 48 giờ sau trận thua 1-2 trước Kansas City Current ở chung kết NWSL.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Washington Spirit parted ways with head coach Adrian Gonzalez on Monday, less than 48 hours after a2-1 lossto the Kansas City Current that marked the team's third successive defeat in the NWSL Championship.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "snippet": "The Washington Spirit parted ways with head coach Adrian Gonzalez on Monday, less than 48 hours after a2-1 lossto the Kansas City Current that marked the team's third successive defeat in the NWSL Championship.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "page_sha256": "b4e4ced6ee53dc5f4a36a67f4a77d1c672b400f1f964957a57ea1ef487e2fb01",
+              "snippet_sha256": "4527a9c9ffbee3d4d1b7f3b8c8c41188e9e1aa87b2e91e72bc1123c26a771292",
+              "verified_at": "2026-11-23T21:46:42.078291+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Adrian Gonzalez đạt thành tích 32 trận thắng trong tổng số 58 trận với tỷ lệ 1,84 điểm mỗi trận.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He actually leaves the Spirit with 32 wins from 58 and a1.84 points-per-game record, the best tally from a coach in the history of the NWSL.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "snippet": "He actually leaves the Spirit with 32 wins from 58 and a1.84 points-per-game record, the best tally from a coach in the history of the NWSL.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "page_sha256": "b4e4ced6ee53dc5f4a36a67f4a77d1c672b400f1f964957a57ea1ef487e2fb01",
+              "snippet_sha256": "ad27733f4bcf0562d4b3d6c6af6343c1f4252701b7a506edfabc2ea0b946adb2",
+              "verified_at": "2026-11-23T21:46:42.078291+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch phụ trách vận hành bóng đá Haley Carter xác nhận ban lãnh đạo tin rằng việc thay đổi lãnh đạo là cần thiết để đạt mục tiêu dài hạn.",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Gonzalez's departure also comes after Haley Carter became the president of soccer operations in the build-up to the 2026 season.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "snippet": "Gonzalez's departure also comes after Haley Carter became the president of soccer operations in the build-up to the 2026 season.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "page_sha256": "b4e4ced6ee53dc5f4a36a67f4a77d1c672b400f1f964957a57ea1ef487e2fb01",
+              "snippet_sha256": "b2033b6701ebfd2fbe090637872220713ad2674456c7a41dcd2539667e33dff2",
+              "verified_at": "2026-11-23T21:46:42.078291+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh sa thải huấn luyện viên Adrian Gonzalez gắn liền với chuỗi thất bại liên tiếp của Washington Spirit ở chung kết NWSL. Đồng thời, bài phân tích áp lực từ tham vọng của ban lãnh đạo dưới thời chủ sở hữu Michele Kang trong việc tìm kiếm các danh hiệu lớn.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T21:46:42.078843+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,84",
+        "2022",
+        "2025",
+        "32",
+        "48",
+        "58"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T21:46:44.279512+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 315,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1465,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/washington-spirit-adrian-gonzalez-nwsl-championship",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cbssports.com",
+            "espn.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 04:46"
+    },
+    "published_at": "2026-11-23T21:46:44.279512+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
