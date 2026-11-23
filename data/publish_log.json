@@ -1058,5 +1058,14 @@
         "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-23 22:27",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-23T15:27:00.070431+00:00",
+    "prepared_candidates": 19,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]

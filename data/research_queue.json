@@ -2063,7 +2063,7 @@
   },
   {
     "queue_id": "23a76806d36f5ede1a6f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T13:43:54.368811+00:00",
     "expires_at": "2026-11-26T13:41:09.067634+00:00",
     "category_hint": "sports",
@@ -3092,11 +3092,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T13:43:54.368834+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "du-oan-va-ty-le-commanders-vs-bengals-ma-khuyen-mai-40-mien-phi-voi-prop-b8ba0be7"
   },
   {
     "queue_id": "199e7ed31267fdd80b27",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T13:43:53.642303+00:00",
     "expires_at": "2026-11-26T13:41:09.067634+00:00",
     "category_hint": "vietnam",
@@ -3882,11 +3883,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T13:43:53.642327+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hon-400-tac-pham-cay-canh-oc-la-hoi-tu-tai-trien-lam-o-hung-yen-7896ba10"
   },
   {
     "queue_id": "ea8f16779e3c9293d441",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T13:43:38.107275+00:00",
     "expires_at": "2026-11-26T13:41:09.067634+00:00",
     "category_hint": "vietnam",
@@ -4570,7 +4572,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T13:43:38.107298+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tai-en-chem-oi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-8e23293a"
   },
   {
     "queue_id": "hiem-hoa-tu-nhung-vat-dung-tuong-vo-hai-trong-chuong-thu-c2072366",
@@ -11281,7 +11284,7 @@
   },
   {
     "queue_id": "e4afccaa6b574da5fce8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:00:38.063621+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "vietnam",
@@ -13360,7 +13363,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:00:38.063646+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hoi-nhiep-anh-tp-hcm-ky-niem-45-nam-thanh-lap-va-trao-99-giai-anh-quoc-t-c09f1de0"
   },
   {
     "queue_id": "mauricio-pochettino-ra-mat-manchester-united-trong-chuyen-lam-khach-ay-t-92a95c83",
@@ -92348,5 +92352,851 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "du-oan-va-ty-le-commanders-vs-bengals-ma-khuyen-mai-40-mien-phi-voi-prop-b8ba0be7",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T15:24:39.603842+00:00",
+    "expires_at": "2026-11-24T15:24:39.603842+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+      "https://www.bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "du-oan-va-ty-le-commanders-vs-bengals-ma-khuyen-mai-40-mien-phi-voi-prop-b8ba0be7",
+      "title": "Dự đoán và tỷ lệ Commanders vs Bengals: Mã khuyến mãi $40 miễn phí với ProphetX cho Tuần 11 NFL",
+      "summary": "Trận đấu giữa Commanders và Bengals trong Tuần 11 NFL đang được chú ý với nhiều dự đoán và tỷ lệ hấp dẫn. Người hâm mộ có thể tận dụng mã khuyến mãi $40 miễn phí với ProphetX để tham gia dự đoán.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+      "published_at": "2026-11-23T13:20:02+00:00",
+      "fetched_at": "2026-11-23T15:25:22.619144+00:00",
+      "appnho_published_at": "2026-11-23T15:27:00.070431+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu giữa Commanders và Bengals trong Tuần 11 NFL đang được chú ý với nhiều dự đoán và tỷ lệ hấp dẫn. Người hâm mộ có thể tận dụng mã khuyến mãi $40 miễn phí với ProphetX để tham gia dự đoán.",
+        "Bengals đang có phong độ tốt với 5 trận thắng liên tiếp, trong khi Commanders đang cố gắng cải thiện thành tích của mình. Tỷ lệ hiện tại là Bengals -6.5 điểm, nhưng người hâm mộ có thể tìm thấy nhiều lựa chọn dự đoán khác nhau trên ProphetX.",
+        "ProphetX cung cấp nhiều lựa chọn dự đoán cho trận đấu này, bao gồm cả dự đoán về số điểm, số yard và số lần chạm bóng. Người hâm mộ có thể sử dụng mã khuyến mãi $40 miễn phí để tham gia dự đoán và có cơ hội giành được giải thưởng."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Dự đoán Commanders vs Bengals: Mã khuyến mãi $40 miễn phí với ProphetX",
+      "meta_description": "Trận đấu giữa Commanders và Bengals trong Tuần 11 NFL đang được chú ý với nhiều dự đoán và tỷ lệ hấp dẫn. Người hâm mộ có thể tận dụng mã khuyến mãi $40 miễn ph",
+      "keywords": [
+        "Commanders vs Bengals",
+        "Tuần 11 NFL",
+        "ProphetX",
+        "mã khuyến mãi"
+      ],
+      "slug": "du-oan-va-ty-le-commanders-vs-bengals-ma-khuyen-mai-40-mien-phi-voi-prop-b8ba0be7",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 145,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+        "https://www.bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T13:20:02+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T07:48:33+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Bengals đang có phong độ tốt với 5 trận thắng liên tiếp",
+          "source_urls": [
+            "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Bengals (7-2) are 6.5-point road favorites over the Washington Commanders (3-5-1) at Northwest Stadium, a line that opened at Cincinnati -3.5 and has climbed steadily since.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "snippet": "The Bengals (7-2) are 6.5-point road favorites over the Washington Commanders (3-5-1) at Northwest Stadium, a line that opened at Cincinnati -3.5 and has climbed steadily since.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "page_sha256": "eeef4241e0b3c4377d396251a7492e812bedcfbe1679680148775fa6e3975f29",
+              "snippet_sha256": "79506acb9038a8b65dd4fe63a9f711b38f5ea44997d1282a27912622bc3c8e04",
+              "verified_at": "2026-11-23T15:25:22.618288+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tỷ lệ hiện tại là Bengals -6.5 điểm",
+          "source_urls": [
+            "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e"
+          ],
+          "importance": "core",
+          "evidence_snippet": "That's attractive for a home underdog getting 5.5 points, although I'd prefer the +6.5 available at some sportsbooks.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "snippet": "That's attractive for a home underdog getting 5.5 points, although I'd prefer the +6.5 available at some sportsbooks.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "page_sha256": "eeef4241e0b3c4377d396251a7492e812bedcfbe1679680148775fa6e3975f29",
+              "snippet_sha256": "fb15aa834e67fb28a6b289bb4a580f2b39a760503fdf7ca158f82e18067cb6d4",
+              "verified_at": "2026-11-23T15:25:22.618288+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "ProphetX cung cấp nhiều lựa chọn dự đoán cho trận đấu này",
+          "source_urls": [
+            "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "At 52.15% on ProphetX, I like the price for a quarterback who can pick up 15 yards on a single play.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "snippet": "At 52.15% on ProphetX, I like the price for a quarterback who can pick up 15 yards on a single play.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "page_sha256": "eeef4241e0b3c4377d396251a7492e812bedcfbe1679680148775fa6e3975f29",
+              "snippet_sha256": "66106d14197ca0991a9542b43cdecf90e82afd87d76e605efcd86e7f4741dce7",
+              "verified_at": "2026-11-23T15:25:22.618288+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về trận đấu giữa Commanders và Bengals trong Tuần 11 NFL, bao gồm cả dự đoán và tỷ lệ. Người hâm mộ có thể tìm thấy nhiều lựa chọn dự đoán khác nhau trên ProphetX và sử dụng mã khuyến mãi $40 miễn phí để tham gia dự đoán. Bài viết cũng cung cấp thông tin về phong độ của hai đội và các lựa chọn dự đoán khác nhau.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T15:25:22.619246+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "40",
+        "5",
+        "6.5"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T15:27:00.070431+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 145,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 666,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/predictions-markets/news/commanders-vs-bengals-predictions-odds-promo-code-prophetx-mnf/4e04fde08faebfe16a7a873e",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-23 22:27"
+    },
+    "published_at": "2026-11-23T15:27:00.070431+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "hon-400-tac-pham-cay-canh-oc-la-hoi-tu-tai-trien-lam-o-hung-yen-7896ba10",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T15:24:39.603842+00:00",
+    "expires_at": "2026-11-24T15:24:39.603842+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+      "https://thanhnien.vn/toan-canh-17h-duoi-chem-nguoi-tai-cay-xang-nam-bo-nang-nong-bat-thuong-nhat-35-nam-185261123161013773.htm",
+      "https://tuoitre.vn/doc-dao-hoi-thi-cau-tom-cang-xanh-o-ca-mau-thuong-tom-tuoi-mang-ve-100261122212600147.htm"
+    ],
+    "article": {
+      "id": "hon-400-tac-pham-cay-canh-oc-la-hoi-tu-tai-trien-lam-o-hung-yen-7896ba10",
+      "title": "Hơn 400 tác phẩm cây cảnh độc lạ hội tụ tại triển lãm ở Hưng Yên",
+      "summary": "Triển lãm cây cảnh nghệ thuật lần thứ nhất của Câu lạc bộ hoa cây cảnh Như Quỳnh quy tụ hơn 400 tác phẩm, thu hút đông đảo người yêu cây đến tham quan.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+      "published_at": "2026-11-23T13:11:51+00:00",
+      "fetched_at": "2026-11-23T15:26:08.891229+00:00",
+      "appnho_published_at": "2026-11-23T15:27:00.070431+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Triển lãm cây cảnh nghệ thuật lần thứ nhất của Câu lạc bộ hoa cây cảnh Như Quỳnh quy tụ hơn 400 tác phẩm, thu hút đông đảo người yêu cây đến tham quan. Sự kiện này diễn ra từ ngày 22 đến 29/11 tại khu vực Cụm công nghiệp làng nghề Minh Khai, xã Như Quỳnh, Hưng Yên.",
+        "Các tác phẩm được trưng bày trên diện tích 6.000m2, bao gồm nhiều chủng loại cây cảnh nghệ thuật như sanh, si, tùng la hán, cần thăng, mai chiếu thủy cùng các loại cây hoa, cây ăn quả. Nhiều tác phẩm có tuổi đời từ vài chục năm đến hàng trăm năm, được các nghệ nhân tạo dáng, chăm sóc công phu.",
+        "Theo ông Nguyễn Viết Tùng, Trưởng ban tổ chức, đây là lần đầu tiên triển lãm được tổ chức với quy mô lớn, quy tụ hơn 200 nhà vườn, chủ yếu đến từ các tỉnh, thành phố khu vực phía Bắc và miền Trung, từ Nghệ An trở ra. Các tác phẩm được đưa đến triển lãm chủ yếu nhằm trưng bày, giới thiệu, tuy nhiên, khách tham quan có nhu cầu vẫn có thể trao đổi, giao dịch trực tiếp với chủ nhân nếu hai bên thống nhất được mức giá phù hợp."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Triển lãm cây cảnh độc lạ tại Hưng Yên",
+      "meta_description": "Hơn 400 tác phẩm cây cảnh độc lạ được trưng bày tại triển lãm ở Hưng Yên",
+      "keywords": [
+        "cây cảnh",
+        "triển lãm",
+        "Hưng Yên",
+        "Hơn 400 tác phẩm cây cảnh độc lạ hội tụ tại triển lãm ở Hưng Yên",
+        "Việt Nam"
+      ],
+      "slug": "hon-400-tac-pham-cay-canh-oc-la-hoi-tu-tai-trien-lam-o-hung-yen-7896ba10",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 215,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+        "https://thanhnien.vn/toan-canh-17h-duoi-chem-nguoi-tai-cay-xang-nam-bo-nang-nong-bat-thuong-nhat-35-nam-185261123161013773.htm",
+        "https://tuoitre.vn/doc-dao-hoi-thi-cau-tom-cang-xanh-o-ca-mau-thuong-tom-tuoi-mang-ve-100261122212600147.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/toan-canh-17h-duoi-chem-nguoi-tai-cay-xang-nam-bo-nang-nong-bat-thuong-nhat-35-nam-185261123161013773.htm",
+        "https://tuoitre.vn/doc-dao-hoi-thi-cau-tom-cang-xanh-o-ca-mau-thuong-tom-tuoi-mang-ve-100261122212600147.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T13:11:51+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/toan-canh-17h-duoi-chem-nguoi-tai-cay-xang-nam-bo-nang-nong-bat-thuong-nhat-35-nam-185261123161013773.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T10:00:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/doc-dao-hoi-thi-cau-tom-cang-xanh-o-ca-mau-thuong-tom-tuoi-mang-ve-100261122212600147.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T14:47:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hơn 400 tác phẩm cây cảnh độc lạ được trưng bày tại triển lãm ở Hưng Yên",
+          "source_urls": [
+            "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nhân Ngày Văn hóa Việt Nam 24/11, Hội Hoa cây cảnh xã Như Quỳnh (Hưng Yên) tổ chức triển lãm cây cảnh nghệ thuật lần thứ nhất, quy tụ hơn 400 tác phẩm độc đáo của các nhà vườn, nghệ nhân đến từ nhiều tỉnh, thành.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "snippet": "Nhân Ngày Văn hóa Việt Nam 24/11, Hội Hoa cây cảnh xã Như Quỳnh (Hưng Yên) tổ chức triển lãm cây cảnh nghệ thuật lần thứ nhất, quy tụ hơn 400 tác phẩm độc đáo của các nhà vườn, nghệ nhân đến từ nhiều tỉnh, thành.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "page_sha256": "399f10ab7a58671717936585e7929710ca213b5c5a679a2fa71155cfe580f9ea",
+              "snippet_sha256": "bfc541184899cdd483299f34878ff00848b60c9b8f71d540b33f02b63e6b40c7",
+              "verified_at": "2026-11-23T15:26:08.890622+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Triển lãm diễn ra từ ngày 22 đến 29/11 tại khu vực Cụm công nghiệp làng nghề Minh Khai, xã Như Quỳnh, Hưng Yên",
+          "source_urls": [
+            "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Triển lãm diễn ra từ ngày 22 đến 29/11 tại khu vực Cụm công nghiệp làng nghề Minh Khai, xã Như Quỳnh, Hưng Yên.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "snippet": "Triển lãm diễn ra từ ngày 22 đến 29/11 tại khu vực Cụm công nghiệp làng nghề Minh Khai, xã Như Quỳnh, Hưng Yên.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "page_sha256": "399f10ab7a58671717936585e7929710ca213b5c5a679a2fa71155cfe580f9ea",
+              "snippet_sha256": "3d8b6276b60fe0ac63089cc97ca723975d8c8e46b17c8f1f628ea1a2f2ff1d8f",
+              "verified_at": "2026-11-23T15:26:08.890622+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các tác phẩm được trưng bày trên diện tích 6.000m2",
+          "source_urls": [
+            "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Các tác phẩm được bố trí trên diện tích khoảng 6.000m2.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "snippet": "Các tác phẩm được bố trí trên diện tích khoảng 6.000m2.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "page_sha256": "399f10ab7a58671717936585e7929710ca213b5c5a679a2fa71155cfe580f9ea",
+              "snippet_sha256": "9419901c7e0298c00f84482ef9cd3a92022ad93d44933548d04a636a46e74614",
+              "verified_at": "2026-11-23T15:26:08.890622+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin về sự kiện triển lãm cây cảnh độc lạ tại Hưng Yên, giúp người đọc hiểu rõ hơn về sự kiện này. Đồng thời, bài viết cũng cung cấp thông tin về các tác phẩm được trưng bày, giúp người đọc có cái nhìn tổng quan về sự đa dạng và phong phú của cây cảnh Việt Nam.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T15:26:08.891311+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "200",
+        "400",
+        "6.000"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T15:27:00.070431+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 215,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 984,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/doi-song/hon-400-tac-pham-cay-canh-doc-la-hoi-tu-tai-trien-lam-o-hung-yen-20261123195255276.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-23 22:27"
+    },
+    "published_at": "2026-11-23T15:27:00.070431+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tai-en-chem-oi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-8e23293a",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T15:24:39.603842+00:00",
+    "expires_at": "2026-11-24T15:24:39.603842+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+      "https://thanhnien.vn/sinh-vien-dang-confession-nha-truong-nen-cam-hay-doi-thoai-185261121160440887.htm"
+    ],
+    "article": {
+      "id": "tai-en-chem-oi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-8e23293a",
+      "title": "Tài \"Đen\" chém đối thủ, dằn mặt giành quyền bảo kê tiếp viên karaoke",
+      "summary": "Phạm Anh Tài, tức Tài \"Đen\", đã chỉ đạo đàn em chém nhiều người trọng thương để tranh giành địa bàn bảo kê tại Quảng Ngãi và Gia Lai.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+      "published_at": "2026-11-23T01:00:00+00:00",
+      "fetched_at": "2026-11-23T15:26:52.187686+00:00",
+      "appnho_published_at": "2026-11-23T15:27:00.070431+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Phạm Anh Tài, tức Tài \"Đen\", đã chỉ đạo đàn em chém nhiều người trọng thương để tranh giành địa bàn bảo kê tại Quảng Ngãi và Gia Lai. Theo kết luận điều tra của Cục Cảnh sát hình sự (C02, Bộ Công an), Tài không chỉ liên quan đến các vụ án giết người mà còn bị xác định cầm đầu nhóm đối tượng chuyên thực hiện hoạt động bảo kê, cưỡng đoạt tài sản tại Quảng Ngãi và Gia Lai.",
+        "Tài còn chỉ đạo đàn em thu tiền của những nữ tiếp viên làm việc tại các quán karaoke, quán nhậu với mức 80.000 đồng/người/ca. Những tiếp viên không đóng tiền sẽ không được đi làm. Nếu tự ý đi làm mà không báo cho nhóm bảo kê, họ có thể bị đánh đập.",
+        "Ngoài bảo kê tiếp viên, nhóm của Tài còn bị cáo buộc cưỡng đoạt số tiền lớn của một người làm nghề xây mộ. Theo kết luận điều tra, ngày 28/7/2023, Tài cùng Lê Văn Ân và Ngô Tấn Long gặp ông Nguyễn Văn Anh, đe dọa, buộc người này phải nộp 90 triệu đồng mỗi tháng để được hoạt động xây mộ."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Tài \"Đen\" chém đối thủ, dằn mặt giành quyền bảo kê tiếp viên karaoke",
+      "meta_description": "Phạm Anh Tài, tức Tài \"Đen\", đã chỉ đạo đàn em chém nhiều người trọng thương để tranh giành địa bàn bảo kê tại Quảng Ngãi và Gia Lai.",
+      "keywords": [
+        "Tài \"Đen\"",
+        "bảo kê",
+        "tiếp viên karaoke",
+        "Tài \"Đen\" chém đối thủ, dằn mặt giành quyền bảo kê tiếp viên karaoke",
+        "Việt Nam"
+      ],
+      "slug": "tai-en-chem-oi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-8e23293a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 199,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+        "https://thanhnien.vn/sinh-vien-dang-confession-nha-truong-nen-cam-hay-doi-thoai-185261121160440887.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/sinh-vien-dang-confession-nha-truong-nen-cam-hay-doi-thoai-185261121160440887.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T01:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/sinh-vien-dang-confession-nha-truong-nen-cam-hay-doi-thoai-185261121160440887.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T09:44:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Phạm Anh Tài, tức Tài \"Đen\", đã chỉ đạo đàn em chém nhiều người trọng thương để tranh giành địa bàn bảo kê tại Quảng Ngãi và Gia Lai.",
+          "source_urls": [
+            "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Để tranh giành địa bàn bảo kê, Phạm Anh Tài (Tài \"Đen), chỉ đạo đàn em chém nhiều người trọng thương, thu tiền của các nữ tiếp viên rót bia và cưỡng đoạt hơn 1,8 tỷ đồng từ một người làm nghề xây mộ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "snippet": "(Dân trí) - Để tranh giành địa bàn bảo kê, Phạm Anh Tài (Tài \"Đen), chỉ đạo đàn em chém nhiều người trọng thương, thu tiền của các nữ tiếp viên rót bia và cưỡng đoạt hơn 1,8 tỷ đồng từ một người làm nghề xây mộ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "page_sha256": "b532828d92dbf06402d4679b5b6fc85493dc44d8232e346781a7b62b67ed4568",
+              "snippet_sha256": "1ddb9f6111cdee6363311bfa63d29777f31b9aed7fdaeea808ada3fa49cd50c2",
+              "verified_at": "2026-11-23T15:26:52.186829+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tài không chỉ liên quan đến các vụ án giết người mà còn bị xác định cầm đầu nhóm đối tượng chuyên thực hiện hoạt động bảo kê, cưỡng đoạt tài sản tại Quảng Ngãi và Gia Lai.",
+          "source_urls": [
+            "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo kết luận điều tra của Cục Cảnh sát hình sự (C02, Bộ Công an), Phạm Anh Tài (tức Tài \"Đen\", 36 tuổi, trú tại phường Kon Tum, tỉnh Quảng Ngãi) không chỉ liên quan đến các vụ án giết người mà còn bị xác định cầm đầu nhóm đối tượng chuyên thực hiện hoạt động bảo kê, cưỡng đoạt tài sản tại Quảng Ngãi và Gia Lai.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "snippet": "Theo kết luận điều tra của Cục Cảnh sát hình sự (C02, Bộ Công an), Phạm Anh Tài (tức Tài \"Đen\", 36 tuổi, trú tại phường Kon Tum, tỉnh Quảng Ngãi) không chỉ liên quan đến các vụ án giết người mà còn bị xác định cầm đầu nhóm đối tượng chuyên thực hiện hoạt động bảo kê, cưỡng đoạt tài sản tại Quảng Ngãi và Gia Lai.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "page_sha256": "b532828d92dbf06402d4679b5b6fc85493dc44d8232e346781a7b62b67ed4568",
+              "snippet_sha256": "fef363972cf86e4f06d7c8d17b02531cdc3be9e0dc21aaf6647130e673849ca7",
+              "verified_at": "2026-11-23T15:26:52.186829+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tài còn chỉ đạo đàn em thu tiền của những nữ tiếp viên làm việc tại các quán karaoke, quán nhậu với mức 80.000 đồng/người/ca.",
+          "source_urls": [
+            "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Từ cuối năm 2023 đến cuối năm 2025, Tài chỉ đạo đàn em thu tiền của những nữ tiếp viên làm việc tại các quán karaoke, quán nhậu với mức 80.000 đồng/người/ca.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "snippet": "Từ cuối năm 2023 đến cuối năm 2025, Tài chỉ đạo đàn em thu tiền của những nữ tiếp viên làm việc tại các quán karaoke, quán nhậu với mức 80.000 đồng/người/ca.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "page_sha256": "b532828d92dbf06402d4679b5b6fc85493dc44d8232e346781a7b62b67ed4568",
+              "snippet_sha256": "c68b2efd79474babaef34bfd70a8734e16573d83f01be8e90303f20cce468126",
+              "verified_at": "2026-11-23T15:26:52.186829+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về vụ việc Tài \"Đen\" chém đối thủ, dằn mặt giành quyền bảo kê tiếp viên karaoke. Thông tin này giúp độc giả hiểu rõ hơn về tình hình bảo kê tại Quảng Ngãi và Gia Lai, cũng như các hoạt động bất hợp pháp của nhóm đối tượng này. Đồng thời, bài viết cũng nêu lên vấn đề về sự cần thiết của việc tăng cường quản lý và giám sát đối với các hoạt động bảo kê tại các địa bàn này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T15:26:52.187780+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "02",
+        "80.000",
+        "90"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T15:27:00.070431+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 199,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 907,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/phap-luat/tai-den-chem-doi-thu-dan-mat-gianh-quyen-bao-ke-tiep-vien-karaoke-20261123003352808.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-23 22:27"
+    },
+    "published_at": "2026-11-23T15:27:00.070431+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "hoi-nhiep-anh-tp-hcm-ky-niem-45-nam-thanh-lap-va-trao-99-giai-anh-quoc-t-c09f1de0",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T15:24:39.603842+00:00",
+    "expires_at": "2026-11-24T15:24:39.603842+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+      "https://vnexpress.net/anh-vien-thua-o-chung-ket-boi-dai-hoi-the-thao-toan-quoc-5147719.html"
+    ],
+    "article": {
+      "id": "hoi-nhiep-anh-tp-hcm-ky-niem-45-nam-thanh-lap-va-trao-99-giai-anh-quoc-t-c09f1de0",
+      "title": "Hội Nhiếp ảnh TP.HCM kỷ niệm 45 năm thành lập và trao 99 giải ảnh quốc tế",
+      "summary": "Tối 22-11, Hội Nhiếp ảnh TP.HCM tổ chức lễ kỷ niệm 45 năm thành lập, đồng thời trao giải Cuộc thi ảnh nghệ thuật quốc tế TP.HCM lần thứ 4 và Liên hoan Ảnh nghệ thuật truyền thống lần thứ 51.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+      "published_at": "2026-11-23T00:26:00+00:00",
+      "fetched_at": "2026-11-23T15:26:57.934028+00:00",
+      "appnho_published_at": "2026-11-23T15:27:00.070431+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 22-11, Hội Nhiếp ảnh TP.HCM đã tổ chức lễ kỷ niệm 45 năm thành lập tại công viên Lê Văn Tám (phường Tân Định, TP.HCM). Sự kiện là dịp để nhìn lại chặng đường phát triển của hội và tôn vinh những đóng góp của các thế hệ hội viên đối với phong trào nhiếp ảnh thành phố.",
+        "Trong khuôn khổ chương trình, ban tổ chức đã trao giải cho Cuộc thi ảnh nghệ thuật quốc tế TP.HCM lần thứ 4 và Liên hoan Ảnh nghệ thuật truyền thống lần thứ 51. Cuộc thi ảnh quốc tế năm nay thu hút 4.310 tác phẩm của 411 tác giả từ 38 quốc gia và vùng lãnh thổ tham gia tranh tài ở nhiều thể loại khác nhau.",
+        "Qua quá trình chấm chọn của hội đồng giám khảo, ban tổ chức đã trao 99 tác phẩm đoạt giải cùng một giải Huy chương xanh FIAP. Hoạt động này nằm trong chuỗi sự kiện của Lễ hội Nhiếp ảnh Quốc tế TP.HCM 2026, góp phần kết nối cộng đồng nhiếp ảnh trong nước và quốc tế."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hội Nhiếp ảnh TP.HCM kỷ niệm 45 năm thành lập trao 99 giải ảnh quốc tế",
+      "meta_description": "Hội Nhiếp ảnh TP.HCM tổ chức kỷ niệm 45 năm thành lập tại công viên Lê Văn Tám và trao 99 giải thưởng cho các tác phẩm xuất sắc tại cuộc thi ảnh quốc tế.",
+      "keywords": [
+        "Hội Nhiếp ảnh TP.HCM",
+        "kỷ niệm 45 năm",
+        "ảnh nghệ thuật quốc tế",
+        "Lê Văn Tám"
+      ],
+      "slug": "hoi-nhiep-anh-tp-hcm-ky-niem-45-nam-thanh-lap-va-trao-99-giai-anh-quoc-t-c09f1de0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 184,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+        "https://vnexpress.net/anh-vien-thua-o-chung-ket-boi-dai-hoi-the-thao-toan-quoc-5147719.html"
+      ],
+      "source_links": [
+        "https://vnexpress.net/anh-vien-thua-o-chung-ket-boi-dai-hoi-the-thao-toan-quoc-5147719.html"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T00:26:00+00:00"
+        },
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/anh-vien-thua-o-chung-ket-boi-dai-hoi-the-thao-toan-quoc-5147719.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T13:29:47+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tối 22-11, Hội Nhiếp ảnh TP.HCM tổ chức lễ kỷ niệm 45 năm thành lập tại công viên Lê Văn Tám (phường Tân Định, TP.HCM).",
+          "source_urls": [
+            "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tối 22-11,Hội Nhiếp ảnh TP.HCMtổ chức lễ kỷ niệm 45 năm thành lập, tại công viên Lê Văn Tám (phường Tân Định, TP.HCM).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "snippet": "Tối 22-11,Hội Nhiếp ảnh TP.HCMtổ chức lễ kỷ niệm 45 năm thành lập, tại công viên Lê Văn Tám (phường Tân Định, TP.HCM).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "page_sha256": "fa3085089ea037ebc32f7969aaf1fac7946e8f5ab7f5734a56895719415b78c3",
+              "snippet_sha256": "aef59bc50caa337f70c8e731d61707ad45eb01efdf9c0501d85edd1e84a962e7",
+              "verified_at": "2026-11-23T15:26:57.933233+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ban tổ chức nhận được 4.310 ảnh của 411 tác giả đến từ 38 quốc gia, vùng lãnh thổ tại Cuộc thi ảnh nghệ thuật quốc tế TP.HCM lần thứ 4.",
+          "source_urls": [
+            "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ban tổ chức nhận được 4.310 ảnh của 411 tác giả đến từ 38 quốc gia, vùng lãnh thổ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "snippet": "Ban tổ chức nhận được 4.310 ảnh của 411 tác giả đến từ 38 quốc gia, vùng lãnh thổ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "page_sha256": "fa3085089ea037ebc32f7969aaf1fac7946e8f5ab7f5734a56895719415b78c3",
+              "snippet_sha256": "2a222716ab1a4278163cde60005040d1d2522754d8e542c5eb5f35dd8bfb8974",
+              "verified_at": "2026-11-23T15:26:57.933233+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cuộc thi có 99 tác phẩm đoạt giải và một giải Huy chương xanh FIAP.",
+          "source_urls": [
+            "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cuộc thi có 99 tác phẩm đoạt giải và một giải Huy chương xanh FIAP.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "snippet": "Cuộc thi có 99 tác phẩm đoạt giải và một giải Huy chương xanh FIAP.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "page_sha256": "fa3085089ea037ebc32f7969aaf1fac7946e8f5ab7f5734a56895719415b78c3",
+              "snippet_sha256": "181d91e7b5a63ca10b4fd96b4e42e4809c835210c306e1c5c3689d79e29314b3",
+              "verified_at": "2026-11-23T15:26:57.933233+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin chi tiết về lễ kỷ niệm 45 năm thành lập Hội Nhiếp ảnh TP.HCM cùng quy mô của cuộc thi ảnh quốc tế lần thứ 4. Nội dung làm rõ các con số về tác phẩm dự thi, số lượng giải thưởng trao và bối cảnh tổ chức trong khuôn khổ lễ hội nhiếp ảnh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T15:26:57.934111+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "38",
+        "4",
+        "4.310",
+        "411",
+        "45",
+        "51",
+        "99"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T15:27:00.070431+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 184,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 843,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/hoi-nhiep-anh-tphcm-ky-niem-45-nam-thanh-lap-trao-99-giai-anh-quoc-te-100261123071256398.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-23 22:27"
+    },
+    "published_at": "2026-11-23T15:27:00.070431+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
