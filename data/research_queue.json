@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "8f3c233f4c7c014fae51",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T13:43:57.045187+00:00",
     "expires_at": "2026-11-26T13:41:09.067634+00:00",
     "category_hint": "world",
@@ -610,11 +610,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T13:43:57.045212+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cac-quan-chuc-len-an-vu-bat-giu-cua-ice-tai-san-bay-seattle-d98d2693"
   },
   {
     "queue_id": "b80b6df8c873be66f20b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T13:43:56.508742+00:00",
     "expires_at": "2026-11-26T13:41:09.067634+00:00",
     "category_hint": "world",
@@ -1473,11 +1474,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T13:43:56.508774+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tau-chien-nga-bi-tan-cong-chim-tai-can-cu-hai-quan-libya-85aa427c"
   },
   {
     "queue_id": "305648b956b984b1eb33",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T13:43:55.679741+00:00",
     "expires_at": "2026-11-26T13:41:09.067634+00:00",
     "category_hint": "sports",
@@ -2056,7 +2058,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T13:43:55.679765+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "huan-luyen-vien-diego-simeone-pha-ky-luc-la-liga-80c2635e"
   },
   {
     "queue_id": "23a76806d36f5ede1a6f",
@@ -91743,6 +91746,607 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "cac-quan-chuc-len-an-vu-bat-giu-cua-ice-tai-san-bay-seattle-d98d2693",
+    "status": "READY",
+    "prepared_at": "2026-11-23T13:44:28.484039+00:00",
+    "expires_at": "2026-11-24T13:44:28.484039+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+      "https://www.france24.com/en/video/20261123-out-of-control-ice-agents-make-arrests-at-seattle-airport-in-horrific-scene"
+    ],
+    "article": {
+      "id": "cac-quan-chuc-len-an-vu-bat-giu-cua-ice-tai-san-bay-seattle-d98d2693",
+      "title": "Các quan chức lên án vụ bắt giữ của ICE tại sân bay Seattle",
+      "summary": "Các quan chức đã lên án vụ bắt giữ của Cơ quan Di trú và Hải quan Hoa Kỳ (ICE) tại sân bay Seattle, mô tả hành động này là 'kinh hoàng' và 'làm lạnh máu'.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+      "published_at": "2026-11-22T19:10:00+00:00",
+      "fetched_at": "2026-11-23T13:45:08.830959+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các quan chức đã lên án vụ bắt giữ của Cơ quan Di trú và Hải quan Hoa Kỳ (ICE) tại sân bay Seattle, mô tả hành động này là 'kinh hoàng' và 'làm lạnh máu'. Vụ bắt giữ diễn ra vào sáng thứ Bảy tại sân bay quốc tế Seattle-Tacoma, khi hành khách đang lên máy bay đi Los Angeles.",
+        "Thống đốc bang Washington, Bob Ferguson, đã gọi ICE là 'hoàn toàn và tuyệt đối mất kiểm soát' và mô tả video về vụ bắt giữ là 'kinh hoàng' và 'làm lạnh máu'. Ông cũng đặt câu hỏi về việc liệu các đặc vụ có vi phạm luật của bang Washington, mà ông đã ký vào tháng 3, cấm các sĩ quan thực thi pháp luật mặc mặt nạ.",
+        "Các quan chức khác, bao gồm Thị trưởng Seattle Katie Wilson, cũng đã lên án vụ bắt giữ, mô tả hành động của các đặc vụ là 'không thể chấp nhận được và không phải là người Mỹ'.",
+        "Vụ bắt giữ đã gây ra sự phản đối từ công chúng, với nhiều người biểu tình tập trung tại sân bay vào chiều thứ Bảy để lên án vụ bắt giữ và yêu cầu trách nhiệm từ các cơ quan liên bang."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Vụ bắt giữ của ICE tại sân bay Seattle: Các quan chức lên án",
+      "meta_description": "Các quan chức đã lên án vụ bắt giữ của ICE tại sân bay Seattle, mô tả hành động này là 'kinh hoàng' và 'làm lạnh máu'.",
+      "keywords": [
+        "ICE",
+        "sân bay Seattle",
+        "bắt giữ",
+        "quan chức lên án"
+      ],
+      "slug": "cac-quan-chuc-len-an-vu-bat-giu-cua-ice-tai-san-bay-seattle-d98d2693",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 211,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+        "https://www.france24.com/en/video/20261123-out-of-control-ice-agents-make-arrests-at-seattle-airport-in-horrific-scene"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/video/20261123-out-of-control-ice-agents-make-arrests-at-seattle-airport-in-horrific-scene"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T19:10:00+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261123-out-of-control-ice-agents-make-arrests-at-seattle-airport-in-horrific-scene",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T12:11:43+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vụ bắt giữ của ICE tại sân bay Seattle đã gây ra sự phản đối từ công chúng",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A protester argues with a police officer during a demonstration at the Seattle-Tacoma international airport on November 21, 2026 [David Ryder/Reuters]",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+              "snippet": "A protester argues with a police officer during a demonstration at the Seattle-Tacoma international airport on November 21, 2026 [David Ryder/Reuters]",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+              "page_sha256": "97f7e3e2f7f5027d3abaa3244778c2e268d1961827c032090dd0c91a32cacb57",
+              "snippet_sha256": "dd88f7cf486f2991928f33935bc909fe25c91f27fe8e95e63cd2d3b308560d4a",
+              "verified_at": "2026-11-23T13:45:08.830439+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thống đốc bang Washington, Bob Ferguson, đã gọi ICE là 'hoàn toàn và tuyệt đối mất kiểm soát'",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ferguson also questioned whether the agents violated a Washington state law he signed in March that restricts law enforcement officers from wearing facial coverings.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+              "snippet": "Ferguson also questioned whether the agents violated a Washington state law he signed in March that restricts law enforcement officers from wearing facial coverings.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+              "page_sha256": "97f7e3e2f7f5027d3abaa3244778c2e268d1961827c032090dd0c91a32cacb57",
+              "snippet_sha256": "5aca88d1a3d0e161b1d88b43b9f68b0ed22aa99b7bef81fe984076db59bbe359",
+              "verified_at": "2026-11-23T13:45:08.830439+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Vụ bắt giữ đã diễn ra vào sáng thứ Bảy tại sân bay quốc tế Seattle-Tacoma",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The two arrests unfolded on Saturday morning at Seattle-Tacoma international airport, as passengers boarded Alaska Airlines Flight 1306.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+              "snippet": "The two arrests unfolded on Saturday morning at Seattle-Tacoma international airport, as passengers boarded Alaska Airlines Flight 1306.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss",
+              "page_sha256": "97f7e3e2f7f5027d3abaa3244778c2e268d1961827c032090dd0c91a32cacb57",
+              "snippet_sha256": "b0abfe05ce67cfcc0f32ac8c1c4066aeb7f01df142010dbe302181b195b199a4",
+              "verified_at": "2026-11-23T13:45:08.830439+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về vụ bắt giữ của ICE tại sân bay Seattle, cũng như phản ứng của các quan chức và công chúng. Nó giúp làm rõ bối cảnh và hệ quả của vụ việc, cũng như đặt ra câu hỏi về tính hợp pháp và đạo đức của hành động này. Ngoài ra, bài viết cũng cung cấp thông tin về phản ứng của các quan chức và công chúng, giúp độc giả hiểu rõ hơn về quan điểm và thái độ của các bên liên quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T13:45:08.831035+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-23T13:45:08.831819+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 211,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 944
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tau-chien-nga-bi-tan-cong-chim-tai-can-cu-hai-quan-libya-85aa427c",
+    "status": "READY",
+    "prepared_at": "2026-11-23T13:44:28.484039+00:00",
+    "expires_at": "2026-11-24T13:44:28.484039+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+      "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+      "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st"
+    ],
+    "article": {
+      "id": "tau-chien-nga-bi-tan-cong-chim-tai-can-cu-hai-quan-libya-85aa427c",
+      "title": "Tàu chiến Nga bị tấn công chìm tại căn cứ hải quân Libya",
+      "summary": "Tổng thống Ukraine Volodymyr Zelenskyy xác nhận quân đội nước này đứng sau vụ tập kích bằng xuồng không người lái nhằm vào tàu chiến và tàu hàng của Nga ngoài khơi Libya.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+      "published_at": "2026-11-22T19:41:23+00:00",
+      "fetched_at": "2026-11-23T13:45:27.734044+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vụ tấn công xảy ra vào chủ nhật tại căn cứ hải quân Benghazi ở miền đông Libya, khiến tàu hộ vệ Merkury của Hải quân Nga hứng chịu hư hại nặng nề, bốc cháy và sau đó chìm một phần. Hình ảnh vệ tinh và thông tin từ các quan chức địa phương xác nhận vụ việc diễn ra khi chiến hạm này ghé cảng để tiếp tế nhiên liệu theo thỏa thuận hợp tác giữa Nga và chính quyền miền đông Libya.",
+        "Đến ngày thứ hai, Tổng thống Ukraine Volodymyr Zelenskyy chính thức xác nhận lực lượng vũ trang nước này đã tiến hành các cuộc tập kích bằng xuồng không người lái trên vùng biển Libya. Ngoài tàu hộ vệ Merkury, phía Ukraine còn cho biết đã nhắm mục tiêu vào tàu chở hàng khô MV Angara được cho là dùng để vận chuyển vũ khí, trong chiến dịch nhằm vào các tài sản hải quân và đội tàu ngầm của Nga.",
+        "Sự việc lập tức dấy lên lo ngại quốc tế về nguy cơ xung đột Nga - Ukraine lan rộng sang khu vực Bắc Phi. Chính quyền miền đông Libya thông báo đã khởi động một cuộc điều tra chung với Nga để làm rõ nguyên nhân, đồng thời lên án hành vi biến lãnh thổ và cảng biển nước này thành nơi giải quyết mâu thuẫn quốc tế. Trong khi đó, chính quyền miền tây Libya và Phái bộ Hỗ trợ của Liên hợp quốc tại Libya (UNSMIL) cũng bày tỏ quan ngại sâu sắc, kêu gọi mở một cuộc điều tra độc lập và minh bạch.",
+        "Phía Kremlin chỉ trích các cuộc tấn công này là xu hướng rất nguy hiểm và cảnh báo sẽ có biện pháp đáp trả. Sự việc tại Benghazi phản ánh rõ nét những rủi ro khi các cơ sở hạ tầng dân sự và cảng biển tại một quốc gia vẫn đang chia rẽ chính trị như Libya bị kéo vào vòng xoáy của các cuộc đối đầu ngoại giao và quân sự giữa các cường quốc bên ngoài."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tàu chiến Nga bị tấn công bằng xuồng không người lái tại Libya",
+      "meta_description": "Chi tiết vụ tàu hộ vệ Nga Merkury bị tập kích chìm tại căn cứ hải quân Benghazi ở Libya và phản ứng từ các bên liên quan.",
+      "keywords": [
+        "Libya",
+        "Nga",
+        "Ukraine",
+        "Benghazi",
+        "Merkury"
+      ],
+      "slug": "tau-chien-nga-bi-tan-cong-chim-tai-can-cu-hai-quan-libya-85aa427c",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 352,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+        "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+        "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+        "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T19:41:23+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T11:10:12+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T07:00:06+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tàu hộ vệ Merkury của Nga bị tấn công tại căn cứ hải quân Benghazi ở miền đông Libya vào ngày chủ nhật.",
+          "source_urls": [
+            "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The strike at the Benghazi Naval Base in eastern Libya severely damaged the Merkury, a Russian navy corvette, and ignited a fire at the facility, two Libyan military officials told the Associated Press.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+              "snippet": "The strike at the Benghazi Naval Base in eastern Libya severely damaged the Merkury, a Russian navy corvette, and ignited a fire at the facility, two Libyan military officials told the Associated Press.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+              "page_sha256": "105d158e495470004765fbee96035ffcb6393c9006b97b4201ccf699756646e2",
+              "snippet_sha256": "8c5c2fb739792682eb5511fe30f28b8d4c8b0c9ad42091bdd508bcaae922c56f",
+              "verified_at": "2026-11-23T13:45:27.733618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Ukraine Volodymyr Zelenskyy xác nhận quân đội Ukraine đứng sau các cuộc tấn công bằng xuồng không người lái nhằm vào tàu chiến và tàu hàng Nga ngoài khơi Libya.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Share Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+              "snippet": "Share Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+              "page_sha256": "1d5aa8501c9ec5686e05ae14efb1b36c5832fc83f39bcee3f4b8f7dcb7ab57f3",
+              "snippet_sha256": "9adf1baa841afd6f91915bba65f5199ab072c104f455c9ef9a8e346dc0c38d72",
+              "verified_at": "2026-11-23T13:45:27.733618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Liên hợp quốc và chính quyền các phe phái tại Libya bày tỏ quan ngại sâu sắc và kêu gọi điều tra vụ việc.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+              "snippet": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+              "page_sha256": "1d5aa8501c9ec5686e05ae14efb1b36c5832fc83f39bcee3f4b8f7dcb7ab57f3",
+              "snippet_sha256": "d71c888fc1e44ce2b28b7698ad14d725e052406d6d345458fdfcde4b0a585f49",
+              "verified_at": "2026-11-23T13:45:27.733618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến vụ tấn công tàu chiến Nga tại Libya dựa trên dữ liệu vệ tinh và xác nhận từ phía Ukraine. Đồng thời, bài phân tích phản ứng đa chiều từ các chính quyền chia rẽ tại Libya và Liên hợp quốc trước nguy cơ xung đột lan rộng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T13:45:27.734127+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-23T13:45:27.735078+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 352,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1608
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "euronews.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "huan-luyen-vien-diego-simeone-pha-ky-luc-la-liga-80c2635e",
+    "status": "READY",
+    "prepared_at": "2026-11-23T13:44:28.484039+00:00",
+    "expires_at": "2026-11-24T13:44:28.484039+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/golf/news/12040/13615324/lpga-tour-jeeno-thitikul-wins-cme-group-tour-championship-again-and-overtakes-annika-sorenstams-career-money-record"
+    ],
+    "article": {
+      "id": "huan-luyen-vien-diego-simeone-pha-ky-luc-la-liga-80c2635e",
+      "title": "Huấn luyện viên Diego Simeone phá kỷ lục La Liga",
+      "summary": "Huấn luyện viên Diego Simeone của Atletico Madrid đã phá kỷ lục La Liga với 345 trận thắng",
+      "category": "sports",
+      "source_name": "BBC Sport - Football",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-23T13:07:12+00:00",
+      "fetched_at": "2026-11-23T13:46:05.567017+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Huấn luyện viên Diego Simeone của Atletico Madrid đã phá kỷ lục La Liga với 345 trận thắng. Ông đã vượt qua kỷ lục của huấn luyện viên Luis Aragones, người đã giành 344 trận thắng trong sự nghiệp của mình.",
+        "Simeone đã đạt được thành tích này sau khi Atletico Madrid giành chiến thắng 3-0 trước Getafe. Chiến thắng này đã giúp Atletico Madrid đứng thứ 3 trên bảng xếp hạng sau 10 trận thắng trong 13 trận đấu.",
+        "Simeone đã phản hồi về việc bị coi là một huấn luyện viên phòng ngự, ông cho rằng: \"Bạn không thể thắng 345 trận chỉ bằng cách phòng ngự.\" Ông cũng cho biết rằng có một lượng công việc khổng lồ đằng sau thành tích này."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Diego Simeone phá kỷ lục La Liga",
+      "meta_description": "Huấn luyện viên Diego Simeone của Atletico Madrid đã phá kỷ lục La Liga với 345 trận thắng",
+      "keywords": [
+        "Diego Simeone",
+        "Atletico Madrid",
+        "La Liga",
+        "Huấn luyện viên Diego Simeone phá kỷ lục La Liga",
+        "Thể thao"
+      ],
+      "slug": "huan-luyen-vien-diego-simeone-pha-ky-luc-la-liga-80c2635e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 126,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/golf/news/12040/13615324/lpga-tour-jeeno-thitikul-wins-cme-group-tour-championship-again-and-overtakes-annika-sorenstams-career-money-record"
+      ],
+      "source_links": [
+        "https://www.skysports.com/golf/news/12040/13615324/lpga-tour-jeeno-thitikul-wins-cme-group-tour-championship-again-and-overtakes-annika-sorenstams-career-money-record"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T13:07:12+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/golf/news/12040/13615324/lpga-tour-jeeno-thitikul-wins-cme-group-tour-championship-again-and-overtakes-annika-sorenstams-career-money-record",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T20:40:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Diego Simeone đã phá kỷ lục La Liga với 345 trận thắng",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sunday'striumph at Estadio Coliseumwas the Argentine's 345th La Liga win in his 567th match, surpassing the record for the most victories in the Spanish top flight.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Sunday'striumph at Estadio Coliseumwas the Argentine's 345th La Liga win in his 567th match, surpassing the record for the most victories in the Spanish top flight.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "778eef065be43094709d7f26c7a371cf5fe15f0a7a0ccee5fbb3ea226154b52d",
+              "snippet_sha256": "64fd730aa927bfdc411aa46b00150b88abe213999129e777d8023e93416eebbe",
+              "verified_at": "2026-11-23T13:46:05.566673+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Simeone đã vượt qua kỷ lục của huấn luyện viên Luis Aragones",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Simeone beat the mark of legendary former Atletico and Spain manager Luis Aragones, who won 344 matches but needed 189 more games to reach that total.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Simeone beat the mark of legendary former Atletico and Spain manager Luis Aragones, who won 344 matches but needed 189 more games to reach that total.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "778eef065be43094709d7f26c7a371cf5fe15f0a7a0ccee5fbb3ea226154b52d",
+              "snippet_sha256": "cae07d7c70b7090627f51c8340a5c5758b1342e67f87f76cdc6385ca76476fa1",
+              "verified_at": "2026-11-23T13:46:05.566673+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Atletico Madrid đã giành chiến thắng 3-0 trước Getafe",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Atletico Madrid's 3-0 victory over Getafe may have been routine, but the win was another landmark in manager Diego Simeone's lengthy tenure at the club.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Atletico Madrid's 3-0 victory over Getafe may have been routine, but the win was another landmark in manager Diego Simeone's lengthy tenure at the club.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/football/articles/c5pv9kkwn3y3o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "778eef065be43094709d7f26c7a371cf5fe15f0a7a0ccee5fbb3ea226154b52d",
+              "snippet_sha256": "ad2ff3f70f81888541aa384c195c58c80c5b54fc4b58665693054eed4257e3de",
+              "verified_at": "2026-11-23T13:46:05.566673+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về thành tích của huấn luyện viên Diego Simeone và sự phản hồi của ông về việc bị coi là một huấn luyện viên phòng ngự. Đồng thời, bài viết cũng cung cấp bối cảnh về sự nghiệp của Simeone và thành tích của Atletico Madrid dưới sự dẫn dắt của ông.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T13:46:05.567067+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "13",
+        "3",
+        "344",
+        "345"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T13:46:05.567609+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 126,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 624
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
