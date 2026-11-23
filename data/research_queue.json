@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "b5a3693fb76fa9e23bfa",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:50.347558+00:00",
     "expires_at": "2026-11-26T20:36:09.827546+00:00",
     "category_hint": "vietnam",
@@ -1311,11 +1311,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:50.347582+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toi-23-11-gia-vang-va-bac-quoc-te-cung-bat-tang-manh-sau-nhip-giam-sau-8a44e5e4"
   },
   {
     "queue_id": "f9591e9d9e6b1836cd78",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:37.685432+00:00",
     "expires_at": "2026-11-26T20:36:09.827546+00:00",
     "category_hint": "sports",
@@ -1929,11 +1930,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:37.685457+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "wake-forest-se-uoi-theo-vong-chung-ket-cfp-khong-co-chay-au-clark-09ffcbdb"
   },
   {
     "queue_id": "367883d40ed728e42c8d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:37.315879+00:00",
     "expires_at": "2026-11-26T20:36:09.827546+00:00",
     "category_hint": "technology",
@@ -2512,7 +2514,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T20:37:37.315907+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gia-ca-theo-doi-su-dung-du-lieu-ca-nhan-e-tang-gia-ff1af235"
   },
   {
     "queue_id": "65485a30760240c7ed13",
@@ -90992,5 +90995,625 @@
     },
     "published_at": "2026-11-21T03:29:11.465295+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "toi-23-11-gia-vang-va-bac-quoc-te-cung-bat-tang-manh-sau-nhip-giam-sau-8a44e5e4",
+    "status": "READY",
+    "prepared_at": "2026-11-23T20:38:20.850557+00:00",
+    "expires_at": "2026-11-24T08:38:20.850557+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+      "https://thanhnien.vn/xem-nhanh-20h-ngay-2311-chua-tang-tran-gia-ve-may-bay-noi-dia-de-xuat-thu-tuc-giai-the-rut-gon-cho-doanh-nghiep-185261123183254986.htm"
+    ],
+    "article": {
+      "id": "toi-23-11-gia-vang-va-bac-quoc-te-cung-bat-tang-manh-sau-nhip-giam-sau-8a44e5e4",
+      "title": "Tối 23/11: Giá vàng và bạc quốc tế cùng bật tăng mạnh sau nhịp giảm sâu",
+      "summary": "Trong phiên giao dịch tối 23/11, giá vàng và bạc trên thị trường quốc tế ghi nhận đà hồi phục mạnh mẽ khi lực cầu bắt đáy xuất hiện, kéo giá vàng vượt mốc 3.670 USD/ounce và bạc xấp xỉ 44 USD/ounce.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+      "published_at": "2026-11-23T16:08:24+00:00",
+      "fetched_at": "2026-11-23T20:38:27.504850+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 23/11 (giờ Việt Nam), thị trường kim loại quý ghi nhận sự đảo chiều rõ rệt khi giá vàng và bạc quốc tế đồng loạt tăng mạnh. Cụ thể, giá vàng thế giới được giao dịch ở mức 3.674 USD/ounce, ghi nhận mức tăng hơn 134 USD/ounce tương đương 3,68% so với phiên trước đó. Lực cầu bắt đáy từ nhà đầu tư đã xuất hiện mạnh mẽ, giúp kim loại quý này thoát khỏi vùng đáy thấp nhất trong hơn một năm qua.",
+        "Cùng chiều với vàng, giá bạc trong phiên giao dịch này cũng phục hồi ấn tượng với mức tăng hơn 6,2%, đẩy giá trị lên xấp xỉ 44 USD/ounce. Giới phân tích tại Mỹ nhận định rằng đà tăng được hỗ trợ bởi hoạt động mua gom săn hàng giá rẻ, động thái đóng các vị thế bán khống cũng như việc thị trường hạ bớt kỳ vọng về khả năng Cục Dự trữ Liên bang Mỹ (Fed) sẽ thắt chặt chính sách tiền tệ quá quyết liệt trong thời gian tới.",
+        "Sự hồi phục của kim loại quý diễn ra trong bối cảnh đồng USD duy trì sức mạnh với chỉ số DXY Index đạt 104,25 điểm, tăng 0,43% và chạm vùng cao nhất kể từ tháng 2/2025. Trước đó, thị trường đã trải qua một tuần đầy biến động khi vàng sụt giảm khoảng 9% và chịu áp lực từ làn sóng thanh lý tài sản để đáp ứng yêu cầu ký quỹ của nhóm cổ phiếu công nghệ.",
+        "Tại thị trường trong nước vào cuối ngày 23/11, giá vàng miếng SJC và vàng nhẫn được các doanh nghiệp niêm yết quanh mức 130 triệu đồng/lượng mua vào và 135 triệu đồng/lượng bán ra, tăng 800.000 đồng/lượng so với ngày hôm trước. Trong khi đó, các loại bạc miếng và bạc thỏi được giao dịch ở mức 1,33 triệu đồng/lượng chiều mua và 1,37 triệu đồng/lượng chiều bán."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Giá vàng và bạc quốc tế tối 23/11 tăng mạnh nhờ lực cầu bắt đáy",
+      "meta_description": "Cập nhật thị trường tối 23/11, giá vàng và bạc quốc tế cùng bật tăng mạnh. Vàng vượt 3.670 USD/ounce còn bạc xấp xỉ 44 USD/ounce sau đợt sụt giảm sâu.",
+      "keywords": [
+        "giá vàng",
+        "giá bạc",
+        "thị trường quốc tế",
+        "bắt đáy",
+        "dự trữ liên bang mỹ"
+      ],
+      "slug": "toi-23-11-gia-vang-va-bac-quoc-te-cung-bat-tang-manh-sau-nhip-giam-sau-8a44e5e4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 325,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+        "https://thanhnien.vn/xem-nhanh-20h-ngay-2311-chua-tang-tran-gia-ve-may-bay-noi-dia-de-xuat-thu-tuc-giai-the-rut-gon-cho-doanh-nghiep-185261123183254986.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/xem-nhanh-20h-ngay-2311-chua-tang-tran-gia-ve-may-bay-noi-dia-de-xuat-thu-tuc-giai-the-rut-gon-cho-doanh-nghiep-185261123183254986.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T16:08:24+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/xem-nhanh-20h-ngay-2311-chua-tang-tran-gia-ve-may-bay-noi-dia-de-xuat-thu-tuc-giai-the-rut-gon-cho-doanh-nghiep-185261123183254986.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T13:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tối 23/11, giá vàng thế giới giao dịch ở mức 3.674 USD/ounce, tăng hơn 134 USD/ounce (3,68%).",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tối 23/11 (giờ Việt Nam)giá vàngthế giới được giao dịch ở mức 3.674 USD/ounce, tăng hơn 134 USD/ounce (3,68%) so với phiên trước.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "snippet": "Tối 23/11 (giờ Việt Nam)giá vàngthế giới được giao dịch ở mức 3.674 USD/ounce, tăng hơn 134 USD/ounce (3,68%) so với phiên trước.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "page_sha256": "3945d11501fda3ec42eb3b248b844a71b16b1bdb1fd271d4f068bff5340212df",
+              "snippet_sha256": "d1de86edae79988134b068b6bfbbe128f5364438e5fa477f8a237b185cc5b1fb",
+              "verified_at": "2026-11-23T20:38:27.504188+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bạc phục hồi mạnh khi tăng hơn 6,2%, lên xấp xỉ 44 USD/ounce.",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tương tự, bạc cũng có phiên phục hồi mạnh khi tăng hơn 6,2%, lên xấp xỉ 44 USD/ounce.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "snippet": "Tương tự, bạc cũng có phiên phục hồi mạnh khi tăng hơn 6,2%, lên xấp xỉ 44 USD/ounce.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "page_sha256": "3945d11501fda3ec42eb3b248b844a71b16b1bdb1fd271d4f068bff5340212df",
+              "snippet_sha256": "a9566bd98c02b32d09135efe59489ea911247f03bc59bf1e2cf193196edf49a5",
+              "verified_at": "2026-11-23T20:38:27.504188+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chỉ số đồng USD (DXY Index) giao dịch ở mức 104,25 điểm, tăng 0,43%.",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Chỉ số đồng USD (DXY Index) trên thị trường quốc tế đang được giao dịch lên tới 104,25 điểm, tăng 0,43% so với phiên trước và đang ở vùng cao nhất từ tháng 2/2025.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "snippet": "Chỉ số đồng USD (DXY Index) trên thị trường quốc tế đang được giao dịch lên tới 104,25 điểm, tăng 0,43% so với phiên trước và đang ở vùng cao nhất từ tháng 2/2025.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "page_sha256": "3945d11501fda3ec42eb3b248b844a71b16b1bdb1fd271d4f068bff5340212df",
+              "snippet_sha256": "562f2822f1b4d849d05c6fc6f7d292ec15e113e41523da75fe70f6d88d006d56",
+              "verified_at": "2026-11-23T20:38:27.504188+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giá vàng miếng SJC và vàng nhẫn trong nước niêm yết ở mức 130 triệu đồng/lượng mua vào và 135 triệu đồng/lượng bán ra, tăng 800.000 đồng/lượng.",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ở thị trường trong nước, tính tới cuối ngày hôm nay, giá vàng miếng SJC, vàng nhẫn được cácdoanh nghiệpniêm yết ở mức 130 triệu đồng/lượng mua vào, 135 triệu đồng/lượng bán ra, tăng 800.000 đồng/lượng so với hôm qua.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "snippet": "Ở thị trường trong nước, tính tới cuối ngày hôm nay, giá vàng miếng SJC, vàng nhẫn được cácdoanh nghiệpniêm yết ở mức 130 triệu đồng/lượng mua vào, 135 triệu đồng/lượng bán ra, tăng 800.000 đồng/lượng so với hôm qua.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/toi-2311-gia-vang-bac-cung-tang-manh-20261123230603104.htm",
+              "page_sha256": "3945d11501fda3ec42eb3b248b844a71b16b1bdb1fd271d4f068bff5340212df",
+              "snippet_sha256": "56495bed83e855309fc07f2fc7d9458fea80c2953f151cc41291d3afeb63ec11",
+              "verified_at": "2026-11-23T20:38:27.504188+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa đà phục hồi của kim loại quý và diễn biến của thị trường chứng khoán quốc tế cùng chỉ số USD. Đồng thời, văn bản cung cấp bức tranh toàn cảnh về sự chênh lệch giữa thị trường trong nước và quốc tế trong cùng ngày.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-23T20:38:27.504937+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0,43",
+        "1,33",
+        "1,37",
+        "104,25",
+        "130",
+        "134",
+        "135",
+        "2025",
+        "3,68",
+        "3.674",
+        "44",
+        "6,2",
+        "800.000",
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T20:38:27.506053+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 325,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1526
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "wake-forest-se-uoi-theo-vong-chung-ket-cfp-khong-co-chay-au-clark-09ffcbdb",
+    "status": "READY",
+    "prepared_at": "2026-11-23T20:38:20.850557+00:00",
+    "expires_at": "2026-11-24T20:38:20.850557+00:00",
+    "source_urls": [
+      "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+      "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756"
+    ],
+    "article": {
+      "id": "wake-forest-se-uoi-theo-vong-chung-ket-cfp-khong-co-chay-au-clark-09ffcbdb",
+      "title": "Wake Forest Sẽ Đuổi Theo Vòng Chung Kết CFP Không Có Chạy Đầu Clark",
+      "summary": "Wake Forest sẽ không có chạy đầu Ty Clark trong phần còn lại của mùa giải do chấn thương phần trên cơ thể. Điều này ảnh hưởng đến cơ hội của họ trong việc giành vé vào vòng chung kết CFP.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+      "published_at": "2026-11-23T20:01:37+00:00",
+      "fetched_at": "2026-11-23T20:40:35.105016+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Wake Forest sẽ không có chạy đầu Ty Clark trong phần còn lại của mùa giải do chấn thương phần trên cơ thể. Clark đã dẫn đầu đội với 591 yard chạy và 11 lần ghi bàn, và đã ghi hai bàn trong trận thắng 50-29 trước Georgia Tech.",
+        "Huấn luyện viên Jake Dickert cho biết Clark sẽ tiếp tục là một lãnh đạo cho đội, mặc dù anh sẽ không thể tham gia thi đấu. Wake Forest có độ sâu ở vị trí chạy lùi, nhưng Clark là cầu thủ có kinh nghiệm nhất trong nhóm.",
+        "Wake Forest đang chuẩn bị kết thúc mùa giải thường với trận đấu chống lại Duke và sau đó là trận đấu với Miami trong trận chung kết ACC. Họ hy vọng sẽ lọt vào vòng chung kết CFP 12 đội."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Wake Forest Mất Chạy Đầu Ty Clark Do Chấn Thương",
+      "meta_description": "Wake Forest sẽ phải đối mặt với việc không có chạy đầu Ty Clark trong phần còn lại của mùa giải. Điều này có thể ảnh hưởng đến cơ hội của họ trong việc giành vé",
+      "keywords": [
+        "Wake Forest",
+        "CFP",
+        "Ty Clark",
+        "chấn thương"
+      ],
+      "slug": "wake-forest-se-uoi-theo-vong-chung-ket-cfp-khong-co-chay-au-clark-09ffcbdb",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 138,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+        "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T20:01:37+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T11:10:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Wake Forest sẽ không có chạy đầu Ty Clark trong phần còn lại của mùa giải do chấn thương phần trên cơ thể.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Wake Forest does have depth at running back, but Clark is a third-year player with the most experience in the position group.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+              "snippet": "Wake Forest does have depth at running back, but Clark is a third-year player with the most experience in the position group.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+              "page_sha256": "418aee74e4b481382ed0edec4842b78683c0f0c4c75192eef7243518a83ac86e",
+              "snippet_sha256": "ec9830f463115dbd85660134e53b124682ecaa2f4dc8927f446e37782a130472",
+              "verified_at": "2026-11-23T20:40:35.104637+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Clark đã dẫn đầu đội với 591 yard chạy và 11 lần ghi bàn.",
+          "source_urls": [
+            "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Clark leads the team with 591 yards rushing and 11 touchdowns, and scored twice against Georgia Tech.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+              "snippet": "Clark leads the team with 591 yards rushing and 11 touchdowns, and scored twice against Georgia Tech.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/college-football/story/_/id/50575731/wake-forest-leading-rusher-ry-clark-ruled-season",
+              "page_sha256": "418aee74e4b481382ed0edec4842b78683c0f0c4c75192eef7243518a83ac86e",
+              "snippet_sha256": "5cba51b34dcacf97326045195da22a4cd17116919d3dd04727beca0c9921f0fb",
+              "verified_at": "2026-11-23T20:40:35.104637+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Wake Forest đang chuẩn bị kết thúc mùa giải thường với trận đấu chống lại Duke và sau đó là trận đấu với Miami trong trận chung kết ACC.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ACC standings, explained: Updated 2026 tiebreakers for Miami, Wake Forest, Louisville, Duke",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756",
+              "snippet": "ACC standings, explained: Updated 2026 tiebreakers for Miami, Wake Forest, Louisville, Duke",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/news/acc-standings-2026-tiebreakers-explained/a701a644e3572b20b5b89756",
+              "page_sha256": "e299376f67121ed55053dde5ba5fd8faaf28706184e2455ae90bb685be329f31",
+              "snippet_sha256": "37c287a2ccd9aebe078746f431d1b80d8459e55ea79c99cb81b96b8484a2b35c",
+              "verified_at": "2026-11-23T20:40:35.104637+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin cập nhật về tình hình của Wake Forest và ảnh hưởng của chấn thương Ty Clark đến cơ hội của họ trong việc giành vé vào vòng chung kết CFP. Bài viết cũng phân tích độ sâu của đội ở vị trí chạy lùi và khả năng của họ trong việc thích nghi với sự thiếu vắng của Clark.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T20:40:35.105074+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "12",
+        "591"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T20:40:35.105594+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 138,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 628
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "gia-ca-theo-doi-su-dung-du-lieu-ca-nhan-e-tang-gia-ff1af235",
+    "status": "READY",
+    "prepared_at": "2026-11-23T20:38:20.850557+00:00",
+    "expires_at": "2026-11-24T08:38:20.850557+00:00",
+    "source_urls": [
+      "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+      "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html"
+    ],
+    "article": {
+      "id": "gia-ca-theo-doi-su-dung-du-lieu-ca-nhan-e-tang-gia-ff1af235",
+      "title": "Giá cả theo dõi sử dụng dữ liệu cá nhân để tăng giá",
+      "summary": "Giá cả theo dõi là một hình thức định giá sử dụng dữ liệu cá nhân để tăng giá cho người tiêu dùng. Điều này có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho cùng một sản phẩm hoặc dịch vụ",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+      "published_at": "2026-11-23T20:11:43+00:00",
+      "fetched_at": "2026-11-23T20:41:31.397303+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giá cả theo dõi là một hình thức định giá sử dụng dữ liệu cá nhân để tăng giá cho người tiêu dùng. Điều này có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho cùng một sản phẩm hoặc dịch vụ",
+        "Theo một báo cáo của Ars Technica, giá cả theo dõi sử dụng dữ liệu cá nhân như lịch sử duyệt web, thiết bị thông minh và ứng dụng để tăng giá cho người tiêu dùng. Điều này có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho cùng một sản phẩm hoặc dịch vụ",
+        "Ví dụ, một người tiêu dùng có thể phải trả nhiều hơn cho một chiếc TV vì họ đang ở trong một khu vực nhất định hoặc vì họ đã truy cập vào một trang web nhất định. Điều này có thể dẫn đến việc người tiêu dùng cảm thấy không công bằng và khó khăn trong việc so sánh giá cả",
+        "Giá cả theo dõi cũng có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho các dịch vụ như vận chuyển thực phẩm hoặc dịch vụ chia sẻ xe. Điều này có thể dẫn đến việc người tiêu dùng cảm thấy không công bằng và khó khăn trong việc lựa chọn dịch vụ phù hợp",
+        "Để tránh giá cả theo dõi, người tiêu dùng cần phải cẩn thận khi cung cấp dữ liệu cá nhân và cần phải kiểm tra giá cả trước khi mua hàng. Điều này có thể giúp người tiêu dùng tránh phải trả nhiều hơn cho cùng một sản phẩm hoặc dịch vụ"
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Giá cả theo dõi và dữ liệu cá nhân",
+      "meta_description": "Giá cả theo dõi sử dụng dữ liệu cá nhân để tăng giá cho người tiêu dùng. Điều này có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho cùng một sản phẩm h",
+      "keywords": [
+        "giá cả theo dõi",
+        "dữ liệu cá nhân",
+        "tăng giá",
+        "Giá cả theo dõi sử dụng dữ liệu cá nhân để tăng giá",
+        "Công nghệ"
+      ],
+      "slug": "gia-ca-theo-doi-su-dung-du-lieu-ca-nhan-e-tang-gia-ff1af235",
+      "images": [],
+      "content_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/C%C3%A1c_y%E1%BA%BFu_t%E1%BB%91_%E1%BA%A3nh_h%C6%B0%E1%BB%9Fng_t%E1%BB%9Bi_s%E1%BB%B1_ph%C3%A1t_tri%E1%BB%83n_n%C4%83ng_l%C6%B0%E1%BB%A3ng_h%E1%BA%A1t_nh%C3%A2n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam.pdf/page1-960px-C%C3%A1c_y%E1%BA%BFu_t%E1%BB%91_%E1%BA%A3nh_h%C6%B0%E1%BB%9Fng_t%E1%BB%9Bi_s%E1%BB%B1_ph%C3%A1t_tri%E1%BB%83n_n%C4%83ng_l%C6%B0%E1%BB%A3ng_h%E1%BA%A1t_nh%C3%A2n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "content_image_alt": "Giá cả theo dõi sử dụng dữ liệu cá nhân để tăng giá",
+      "content_image_credit": "Nguyen The Gia Hung (CC0)",
+      "content_image_credit_url": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_y%E1%BA%BFu_t%E1%BB%91_%E1%BA%A3nh_h%C6%B0%E1%BB%9Fng_t%E1%BB%9Bi_s%E1%BB%B1_ph%C3%A1t_tri%E1%BB%83n_n%C4%83ng_l%C6%B0%E1%BB%A3ng_h%E1%BA%A1t_nh%C3%A2n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam.pdf",
+      "word_count": 275,
+      "display_source": true,
+      "source_urls": [
+        "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+        "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html"
+      ],
+      "source_references": [
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T20:11:43+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/23/net-investment-income-tax-niit.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T13:15:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Giá cả theo dõi sử dụng dữ liệu cá nhân để tăng giá cho người tiêu dùng",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Some critics of surveillance pricing argue for legislation that bans the practice or sets parameters about how and when it’s used.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+              "snippet": "Some critics of surveillance pricing argue for legislation that bans the practice or sets parameters about how and when it’s used.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+              "page_sha256": "49638a090a659a1d4db295db397189fca6a4834d7082ae9157a519a6b9028ae8",
+              "snippet_sha256": "aa5460a082859f2887e6e18cde1a4d8a12a5f5b57df996a024429556d286bd81",
+              "verified_at": "2026-11-23T20:41:31.396865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giá cả theo dõi có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho cùng một sản phẩm hoặc dịch vụ",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Such personal data collected for commercial purposes also often ends up in the hands of third parties, including law enforcement agencies, and is used for unrelated purposes.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+              "snippet": "Such personal data collected for commercial purposes also often ends up in the hands of third parties, including law enforcement agencies, and is used for unrelated purposes.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+              "page_sha256": "49638a090a659a1d4db295db397189fca6a4834d7082ae9157a519a6b9028ae8",
+              "snippet_sha256": "39d7a3011506e48244c8af597dec265186a2eb23ccd67c584d0a1ed87bb6ccbc",
+              "verified_at": "2026-11-23T20:41:31.396865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Người tiêu dùng cần phải cẩn thận khi cung cấp dữ liệu cá nhân và cần phải kiểm tra giá cả trước khi mua hàng",
+          "source_urls": [
+            "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "AsEPIC states: “Consumers are categorized by data brokers that identify or infer characteristics such as age, demographics, shopping habits, lifestyle, or economic status.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+              "snippet": "AsEPIC states: “Consumers are categorized by data brokers that identify or infer characteristics such as age, demographics, shopping habits, lifestyle, or economic status.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+              "page_sha256": "49638a090a659a1d4db295db397189fca6a4834d7082ae9157a519a6b9028ae8",
+              "snippet_sha256": "930f6de828cccc5e61b91f6e4e497653f7d1987d1c08004518c3470a25dca7e3",
+              "verified_at": "2026-11-23T20:41:31.396865+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về giá cả theo dõi và cách nó sử dụng dữ liệu cá nhân để tăng giá cho người tiêu dùng. Bài viết cũng cung cấp ví dụ về cách giá cả theo dõi có thể dẫn đến việc người tiêu dùng phải trả nhiều hơn cho cùng một sản phẩm hoặc dịch vụ. Điều này có thể giúp người tiêu dùng hiểu rõ hơn về giá cả theo dõi và cách tránh nó",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-23T20:41:31.397378+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-23T20:41:31.398185+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 275,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1220
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto",
+      "content_image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
   }
 ]
