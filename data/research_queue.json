@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "4574f2fcc0322b03c41e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:01:15.341421+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "technology",
@@ -645,11 +645,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:01:15.341445+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "su-co-cong-nghe-va-thach-thuc-nang-cap-he-thong-ha-tang-aefe7345"
   },
   {
     "queue_id": "ffadaf710f048dd3092e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:01:14.051707+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "technology",
@@ -1398,11 +1399,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:01:14.051731+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bi-quyet-ang-sau-nhung-khoan-au-tu-lon-vao-anthropic-truoc-them-ipo-0419a5cc"
   },
   {
     "queue_id": "42c05f5cf4d55dab4c9e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:01:11.755863+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "world",
@@ -2021,7 +2023,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:01:11.755886+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hiem-hoa-tu-nhung-vat-dung-tuong-vo-hai-trong-chuong-thu-c2072366"
   },
   {
     "queue_id": "33857386526062b8dd02",
@@ -97039,5 +97042,723 @@
     },
     "published_at": "2026-11-20T18:06:56.278274+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "su-co-cong-nghe-va-thach-thuc-nang-cap-he-thong-ha-tang-aefe7345",
+    "status": "READY",
+    "prepared_at": "2026-11-23T02:01:35.226752+00:00",
+    "expires_at": "2026-11-23T14:01:35.226752+00:00",
+    "source_urls": [
+      "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+      "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack"
+    ],
+    "article": {
+      "id": "su-co-cong-nghe-va-thach-thuc-nang-cap-he-thong-ha-tang-aefe7345",
+      "title": "Sự cố công nghệ và thách thức nâng cấp hệ thống hạ tầng",
+      "summary": "Giới chức Mỹ cảnh báo các sự cố công nghệ và gián đoạn hệ thống có thể tiếp tục diễn ra trong bối cảnh hạ tầng thông tin toàn cầu được nâng cấp để thích ứng với kỷ nguyên trí tuệ nhân tạo.",
+      "category": "technology",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+      "published_at": "2026-11-22T16:18:09+00:00",
+      "fetched_at": "2026-11-23T02:01:39.072402+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thời gian qua, hàng loạt sự cố công nghệ lớn đã xảy ra tại Mỹ, bao gồm lệnh dừng bay trên toàn quốc của Cơ quan Hàng không Liên bang (FAA), sự cố kéo dài nhiều ngày trên hệ thống Outlook của Microsoft và sự gián đoạn giao dịch ngân hàng tại JPMorgan Chase. Những vụ việc này đã làm dấy lên nhiều lo ngại về độ ổn định của các hệ thống hạ tầng thiết yếu trong đời sống kinh tế và xã hội.",
+        "Trước tình hình đó, Giám đốc Tình báo Quốc gia Mỹ Jay Clayton đã lên tiếng cảnh báo người dân cần chuẩn bị tâm lý đối với các sự cố gián đoạn có thể tiếp tục xảy ra trong thời gian tới. Theo quan chức này, việc đầu tư nâng cấp hệ thống và tăng cường an ninh mạng là điều tất yếu, nhưng bất kỳ bước chuyển đổi lớn nào về công nghệ và ứng dụng cũng đều đi kèm với những gián đoạn ngoài mong muốn.",
+        "Bên cạnh các sự cố kỹ thuật do nâng cấp hạ tầng, giới chức và các chuyên gia còn đối mặt với áp lực từ các vụ tấn công mạng nhằm vào nhiều cơ quan chính phủ và doanh nghiệp. Trong đó, các hệ thống của Bộ Nông nghiệp Mỹ (USDA) và Cục Điều tra Liên bang (FBI) cũng đã rơi vào tầm ngắm của các vụ xâm nhập do tin tặc thực hiện, làm gia tăng sự chú ý đối với vấn đề bảo mật.",
+        "Các nhà quản lý cho biết những sự cố kỹ thuật như trục trặc mạng của FAA hay Microsoft có nguyên nhân khác biệt so với các vụ tấn công mạng, phần lớn xuất phát từ quá trình nâng cấp hệ thống hoặc lỗi vận hành. Dù vậy, việc nhiều sự cố xảy ra liên tiếp trong thời gian ngắn cho thấy quá trình hiện đại hóa hạ tầng công nghệ thông tin toàn cầu đang đặt ra không ít thách thức lớn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Sự cố công nghệ và cảnh báo về gián đoạn hệ thống tại Mỹ",
+      "meta_description": "Tìm hiểu nguyên nhân và cảnh báo từ các quan chức Mỹ về chuỗi sự cố công nghệ, gián đoạn hệ thống hàng không và ngân hàng trong thời gian qua.",
+      "keywords": [
+        "sự cố công nghệ",
+        "hạ tầng thông tin",
+        "an ninh mạng",
+        "Mỹ"
+      ],
+      "slug": "su-co-cong-nghe-va-thach-thuc-nang-cap-he-thong-ha-tang-aefe7345",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 342,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/tech/1039851/major-tech-outages",
+        "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+        "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack"
+      ],
+      "source_links": [
+        "https://www.theverge.com/tech/1039851/major-tech-outages",
+        "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T01:05:58+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T16:18:09+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T09:37:59+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T14:09:02+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hàng loạt sự cố công nghệ gồm lệnh dừng bay của FAA, sự cố Outlook của Microsoft và gián đoạn ngân hàng tại JPMorgan Chase đã xảy ra.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1039851/major-tech-outages"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage atJPMorgan Chase.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+              "snippet": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage atJPMorgan Chase.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+              "page_sha256": "dddf63a103a8c5497e5c29b383d3e60a7ba482ab9fa5ae78dcc7747860e79057",
+              "snippet_sha256": "14da080da692274f0f56e011d5d6ab464366500559d19708d2b17bd4d60dcb9b",
+              "verified_at": "2026-11-23T02:01:39.071892+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giám đốc Tình báo Quốc gia Jay Clayton cảnh báo người dân chuẩn bị cho các gián đoạn khi hệ thống được nâng cấp.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "\"The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity, and they should be prepared that any time there is a step change in technology, a step change in both compute and applications, there will be bumps in the road,\" Clayton said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+              "snippet": "\"The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity, and they should be prepared that any time there is a step change in technology, a step change in both compute and applications, there will be bumps in the road,\" Clayton said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+              "page_sha256": "82100985789252055db6f910d2f190380794e5a93be33c23298bfbfa5a47b767",
+              "snippet_sha256": "3e489464872b7cd11d89e0984783ce8bf8fb37df63b8c50a969546bbbba40e02",
+              "verified_at": "2026-11-23T02:01:39.071892+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các vụ tấn công mạng và xâm nhập cũng nhắm vào Bộ Nông nghiệp Mỹ và FBI trong giai đoạn này.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "\"You prepare by knowing that systems are going to be upgraded; they may be interrupted for a period of time and that companies and government are dealing with this on the front foot,\" he said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+              "snippet": "\"You prepare by knowing that systems are going to be upgraded; they may be interrupted for a period of time and that companies and government are dealing with this on the front foot,\" he said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+              "page_sha256": "82100985789252055db6f910d2f190380794e5a93be33c23298bfbfa5a47b767",
+              "snippet_sha256": "2282bb0ad42972119b62865b4c41e69c51c362b86b799fc67187c487209ae238",
+              "verified_at": "2026-11-23T02:01:39.071892+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh kỹ thuật và phản ứng của giới chức Mỹ trước chuỗi sự cố công nghệ gần đây. Phân tích này kết nối các thông tin từ nhiều cơ quan để giải thích nguyên nhân và hệ quả của việc nâng cấp hạ tầng thông tin.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-23T02:01:39.072501+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-23T02:01:39.073761+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 342,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1528
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "theguardian.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bi-quyet-ang-sau-nhung-khoan-au-tu-lon-vao-anthropic-truoc-them-ipo-0419a5cc",
+    "status": "READY",
+    "prepared_at": "2026-11-23T02:01:35.226752+00:00",
+    "expires_at": "2026-11-24T02:01:35.226752+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+      "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+      "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
+    ],
+    "article": {
+      "id": "bi-quyet-ang-sau-nhung-khoan-au-tu-lon-vao-anthropic-truoc-them-ipo-0419a5cc",
+      "title": "Bí quyết đằng sau những khoản đầu tư lớn vào Anthropic trước thềm IPO",
+      "summary": "Các quỹ Notable Capital, GIC và Baillie Gifford đã rót vốn quy mô lớn vào Anthropic trước khi công ty này thực hiện đợt phát hành cổ phiếu công khai (IPO) kỷ lục.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+      "published_at": "2026-11-23T01:25:53+00:00",
+      "fetched_at": "2026-11-23T02:01:44.742778+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trước khi Anthropic thực hiện đợt phát hành cổ phiếu lần ra công chúng (IPO) lớn nhất lịch sử, huy động 81,3 tỷ USD và đạt mức định giá pha loãng hoàn toàn khoảng 1,5 nghìn tỷ USD, một số quỹ đầu tư lớn đã mạo hiểm rót những khoản vốn khổng lồ vào công ty phát triển mô hình trí tuệ nhân tạo Claude này.",
+        "Notable Capital, quỹ đầu tư mạo hiểm vốn được biết đến trước đó với tên gọi GGV Capital, đã chi khoảng 10% phần quỹ tại Mỹ trị giá hơn 1 tỷ USD để tham gia vòng gọi vốn Series E của Anthropic. Quyết định này từng khiến nhiều nhà đầu tư hạn chế (LP) ngạc nhiên, bởi khi đó Anthropic vẫn đứng sau đối thủ OpenAI và thị trường vừa chứng kiến sự xuất hiện của mô hình R1 từ DeepSeek. Tuy nhiên, đội ngũ của Notable Capital đã phân tích dữ liệu và nhận thấy sự gia tăng mạnh mẽ trong việc lập trình viên ưu tiên sử dụng Claude thay vì ChatGPT, cùng niềm tin rằng các mô hình đóng, đặt trụ sở tại Mỹ sẽ đóng vai trò thiết yếu cho công việc cốt lõi.",
+        "Trong khi đó, quỹ đầu tư quốc gia Singapore GIC đã tiến hành nghiên cứu Anthropic trong suốt năm 2024 trước khi thực hiện khoản đầu tư đầu tiên vào vòng Series F được công bố vào tháng 9/2025 với mức định giá 183 tỷ USD. Sau khi gặp gỡ đại diện Anthropic và ghi nhận mức độ áp dụng ngày càng tăng của doanh nghiệp, GIC tiếp tục dẫn dắt vòng Series G và tham gia vòng tiền IPO, tổng mức đầu tư vượt mốc 4,5 tỷ USD qua ba vòng gọi vốn.",
+        "Tương tự, công ty quản lý đầu tư Baillie Gifford cũng dành gần hai năm nghiên cứu và trao đổi với đội ngũ Anthropic trước khi chính thức rót vốn vào vòng Series F. Theo đại diện của Baillie Gifford, quyết định đầu tư tổng cộng 1,5 tỷ USD qua ba vòng được đưa ra sau khi nhận thấy sự nhất quán trong chiến lược phát triển, doanh thu mạnh mẽ và biên lợi nhuận gộp hấp dẫn của công ty, mở ra khoản lợi nhuận lớn trên giấy tờ sau đợt IPO lịch sử."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Các quỹ đầu tư lớn rót vốn vào Anthropic trước IPO",
+      "meta_description": "Tìm hiểu cách Notable Capital, GIC và Baillie Gifford thực hiện các khoản đầu tư lớn vào công ty trí tuệ nhân tạo Anthropic trước thương vụ IPO kỷ lục.",
+      "keywords": [
+        "Anthropic",
+        "IPO",
+        "Notable Capital",
+        "GIC",
+        "Baillie Gifford",
+        "đầu tư công nghệ"
+      ],
+      "slug": "bi-quyet-ang-sau-nhung-khoan-au-tu-lon-vao-anthropic-truoc-them-ipo-0419a5cc",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 393,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+        "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+        "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+        "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
+      ],
+      "source_links": [
+        "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+        "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+        "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T01:25:53+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T10:00:00+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T05:30:09+00:00"
+        },
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T22:09:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Notable Capital đã đầu tư khoảng 10% phần quỹ tại Mỹ trị giá hơn 1 tỷ USD vào vòng Series E của Anthropic khi định giá ở mức 61,5 tỷ USD.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "snippet": "portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "page_sha256": "e4a9559cd73191d89e8a3e7a397a4d3768017165efd88cf5061284501e35e9fd",
+              "snippet_sha256": "678d479e9c95336b15230732992673b1da6b74039daf87266a3cc141168693c5",
+              "verified_at": "2026-11-23T02:01:44.742047+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "GIC của Singapore đã đầu tư hơn 4,5 tỷ USD qua ba vòng gọi vốn vào Anthropic, bao gồm Series F, Series G và vòng tiền IPO.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Across the three rounds, GIC invested more than $4.5 billion in Anthropic, amassing a stake equal to about 1% of the company after its IPO, according to a person familiar with GIC’s financials.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "snippet": "Across the three rounds, GIC invested more than $4.5 billion in Anthropic, amassing a stake equal to about 1% of the company after its IPO, according to a person familiar with GIC’s financials.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "page_sha256": "e4a9559cd73191d89e8a3e7a397a4d3768017165efd88cf5061284501e35e9fd",
+              "snippet_sha256": "7666dacf57f625dbdf8abbefa9a7cd9d4d3e383daa7f5be129169cb8fa8e46e5",
+              "verified_at": "2026-11-23T02:01:44.742047+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Baillie Gifford đã đầu tư tổng cộng 1,5 tỷ USD qua ba vòng gọi vốn vào Anthropic sau khi theo dõi và đánh giá sự tăng trưởng doanh thu cùng biên lợi nhuận của công ty.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Baillie Gifford went on to invest a total of $1.5 billion across three funding rounds, a bet that has generated substantial paper gains for the investment manager, as well as for dozens of other backers who invested at what once seemed like astronomical valuations.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "snippet": "Baillie Gifford went on to invest a total of $1.5 billion across three funding rounds, a bet that has generated substantial paper gains for the investment manager, as well as for dozens of other backers who invested at what once seemed like astronomical valuations.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "page_sha256": "e4a9559cd73191d89e8a3e7a397a4d3768017165efd88cf5061284501e35e9fd",
+              "snippet_sha256": "aed77cb1ef74f8d61b288fdb475ef6bc9b1a13a19e10220b46ef63859bc6ed2d",
+              "verified_at": "2026-11-23T02:01:44.742047+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anthropic huy động được 81,3 tỷ USD trong đợt IPO và đạt mức định giá pha loãng hoàn toàn khoảng 1,5 nghìn tỷ USD trước khi cổ phiếu chính thức giao dịch.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"
+          ],
+          "importance": "core",
+          "evidence_snippet": "On Wednesday, Anthropic raised$81.3 billionin the largest IPO in history, reaching a fully diluted valuation of about $1.5 trillion before its shares began trading the next day, a paper return of roughly 15 times.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "snippet": "On Wednesday, Anthropic raised$81.3 billionin the largest IPO in history, reaching a fully diluted valuation of about $1.5 trillion before its shares began trading the next day, a paper return of roughly 15 times.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "page_sha256": "e4a9559cd73191d89e8a3e7a397a4d3768017165efd88cf5061284501e35e9fd",
+              "snippet_sha256": "c4d3d9ced96dea00a0affe1c9c579f6d5d7d2839d6803dc98a002e37c9fa5824",
+              "verified_at": "2026-11-23T02:01:44.742047+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chiến lược và cơ sở phân tích của ba quỹ đầu tư lớn gồm Notable Capital, GIC và Baillie Gifford khi quyết định rót vốn mạnh mẽ vào Anthropic trước thềm IPO lịch sử. Nội dung kết nối các dữ liệu về mốc thời gian, mức định giá và góc nhìn thực tế của nhà đầu tư mà các bản tin ngắn chưa phản ánh hết.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T02:01:44.742874+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "1,5",
+        "10",
+        "183",
+        "2024",
+        "2025",
+        "4,5",
+        "81,3"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T02:01:44.744518+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 393,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1820
+        },
+        "independent_domains": [
+          "cnbc.com",
+          "npr.org",
+          "techcrunch.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "hiem-hoa-tu-nhung-vat-dung-tuong-vo-hai-trong-chuong-thu-c2072366",
+    "status": "READY",
+    "prepared_at": "2026-11-23T02:01:35.226752+00:00",
+    "expires_at": "2026-11-24T02:01:35.226752+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+      "https://www.wired.com/story/shiftkey-gig-nursing",
+      "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal"
+    ],
+    "article": {
+      "id": "hiem-hoa-tu-nhung-vat-dung-tuong-vo-hai-trong-chuong-thu-c2072366",
+      "title": "Hiểm họa từ những vật dụng tưởng vô hại trong chuồng thú",
+      "summary": "Cái chết của hà mã Fiona tại sở thú Cincinnati do nuốt phải mũ đã gióng lên hồi chuông cảnh báo về nguy cơ tử vong ở động vật khi nuốt các dị vật như mũ, tiền xu hay giày dép.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+      "published_at": "2026-11-23T01:53:48+00:00",
+      "fetched_at": "2026-11-23T02:01:49.858353+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cái chết của hà mã Fiona tại Sở thú Cincinnati đã thúc đẩy các chuyên gia đưa ra cảnh báo về nguy cơ động vật nuốt phải các dị vật do khách tham quan vô tình hoặc cố ý làm rơi vào chuồng trại.",
+        "Fiona, 9 tuổi, đã chết sau khi nuốt một chiếc mũ vô tình lọt vào môi trường sống của mình. Phía sở thú cho biết chiếc mũ kẹt ở ruột non và việc phẫu thuật là không khả thi do cấu trúc cơ thể.",
+        "Theo các bác sĩ thú y, những sự cố tương tự dù hiếm khi xảy ra nhưng các vật dụng như tiền xu, giày dép hay kính râm thường xuyên rơi hoặc bị ném vào khu vực nuôi nhốt động vật, đe dọa trực tiếp tính mạng của chúng.",
+        "Việc lấy dị vật ra khỏi cơ thể động vật không phải lúc nào cũng dễ dàng. Tùy thuộc vào loài và đặc điểm giải phẫu như dạ dày nhiều ngăn ở hà mã hay cấu trúc ruột phức tạp, việc can thiệp bằng nội soi hoặc phẫu thuật có thể gặp nhiều khó khăn.",
+        "Các chuyên gia khuyến cáo khách tham quan cần tuân thủ nghiêm ngặt quy định tại các vườn thú, tránh ném đồ vật hoặc làm rơi rớt trang thiết bị cá nhân vào khu vực nuôi nhốt để bảo vệ sự an toàn cho các loài động vật."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hiểm họa từ các dị vật như mũ, giày dép đối với động vật tại sở thú",
+      "meta_description": "Các chuyên gia thú y giải thích lý do vì sao những vật dụng rơi vào chuồng như mũ, xu hay giày dép có thể gây tử vong cho động vật.",
+      "keywords": [
+        "động vật",
+        "sở thú",
+        "thú y",
+        "dị vật",
+        "hà mã Fiona"
+      ],
+      "slug": "hiem-hoa-tu-nhung-vat-dung-tuong-vo-hai-trong-chuong-thu-c2072366",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 240,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+        "https://www.wired.com/story/shiftkey-gig-nursing",
+        "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal"
+      ],
+      "source_links": [
+        "https://www.wired.com/story/shiftkey-gig-nursing",
+        "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T01:53:48+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/shiftkey-gig-nursing",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T10:00:00+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-17T14:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Fiona, hà mã 9 tuổi tại Sở thú Cincinnati, đã chết sau khi nuốt phải một chiếc mũ lọt vào môi trường sống.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Fiona, 9 years old, died Thursday after ingesting a hat that accidentally ended up in her habitat at the Cincinnati Zoo.The zoo saidthat the hat was lodged in the hippo's small intestine and surgery was not possible.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+              "snippet": "Fiona, 9 years old, died Thursday after ingesting a hat that accidentally ended up in her habitat at the Cincinnati Zoo.The zoo saidthat the hat was lodged in the hippo's small intestine and surgery was not possible.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+              "page_sha256": "35093598ddc18c6a1aa16094b59839cf1a69a731cc79d52a6ac944add98328a4",
+              "snippet_sha256": "5e0f51c49f812939af30da5ed259c749febee1b3b380f76abc0687646357c703",
+              "verified_at": "2026-11-23T02:01:49.857906+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các vật dụng như tiền xu, giày dép và kính râm thường xuyên rơi hoặc bị ném vào các khu vực nuôi nhốt động vật.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anyone who makes such an offer or request is not an NPR employee and does not represent NPR.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+              "snippet": "Anyone who makes such an offer or request is not an NPR employee and does not represent NPR.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+              "page_sha256": "35093598ddc18c6a1aa16094b59839cf1a69a731cc79d52a6ac944add98328a4",
+              "snippet_sha256": "19e21e96241ec6e7afa17830747180996a90764d51daa2694fe09194d2ba7eee",
+              "verified_at": "2026-11-23T02:01:49.857906+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hà mã có dạ dày nhiều ngăn, khiến việc lấy dị vật như mũ ra khỏi cơ thể trở nên khó khăn hơn so với các loài khác.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly"
+          ],
+          "importance": "core",
+          "evidence_snippet": "NPR does not offer or accept money for coverage or interviews.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+              "snippet": "NPR does not offer or accept money for coverage or interviews.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+              "page_sha256": "35093598ddc18c6a1aa16094b59839cf1a69a731cc79d52a6ac944add98328a4",
+              "snippet_sha256": "cff729a0e968d9ccffa74ad9e331ff329f7db9d15ee24bad6745c435124aca59",
+              "verified_at": "2026-11-23T02:01:49.857906+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ nguyên nhân sinh học và rủi ro thực tế khi động vật nuốt phải dị vật tại các cơ sở bảo tồn. Cung cấp góc nhìn chuyên môn từ các hiệp hội thú y về giới hạn của y học hiện đại đối với từng loài.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T02:01:49.858434+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T02:01:49.859459+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 240,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1056
+        },
+        "independent_domains": [
+          "npr.org",
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
