@@ -1038,5 +1038,25 @@
         "reason": "fact_ledger[1] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ bbc.co.uk không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-23 10:07",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-23T03:07:32.165067+00:00",
+    "prepared_candidates": 18,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "carlos-alcaraz-lan-dau-vo-dich-atp-finals-c555c1de",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "mauricio-pochettino-trai-ra-mat-tham-hoa-tai-man-utd-f929d037",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      }
+    ]
   }
 ]

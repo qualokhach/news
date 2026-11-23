@@ -2028,7 +2028,7 @@
   },
   {
     "queue_id": "33857386526062b8dd02",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:01:10.011770+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "world",
@@ -2731,11 +2731,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:01:10.011791+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "s-p-500-roi-vao-vung-ieu-chinh-nam-luc-luong-ang-sau-lan-song-ban-thao-t-6b48a858"
   },
   {
     "queue_id": "eaea49645bb9b81d8011",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:01:08.794790+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "sports",
@@ -3605,11 +3606,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:01:08.794813+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "carlos-alcaraz-lan-dau-vo-dich-atp-finals-c555c1de"
   },
   {
     "queue_id": "4db2c9c332d062c6abe4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:01:03.481231+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "sports",
@@ -4809,11 +4811,12 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:01:03.481254+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "mauricio-pochettino-trai-ra-mat-tham-hoa-tai-man-utd-f929d037"
   },
   {
     "queue_id": "f81758e4ce91eb8c30a2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T02:00:57.694790+00:00",
     "expires_at": "2026-11-26T01:59:11.934090+00:00",
     "category_hint": "vietnam",
@@ -6484,7 +6487,8 @@
       ]
     },
     "research_ready_at": "2026-11-23T02:00:57.694813+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ang-dan-chu-gianh-the-a-so-lon-nhat-tai-ha-vien-my-trong-hon-30-nam-c3218591"
   },
   {
     "queue_id": "e4afccaa6b574da5fce8",
@@ -97045,7 +97049,7 @@
   },
   {
     "queue_id": "su-co-cong-nghe-va-thach-thuc-nang-cap-he-thong-ha-tang-aefe7345",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-23T02:01:35.226752+00:00",
     "expires_at": "2026-11-23T14:01:35.226752+00:00",
     "source_urls": [
@@ -97063,7 +97067,7 @@
       "source_url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
       "published_at": "2026-11-22T16:18:09+00:00",
       "fetched_at": "2026-11-23T02:01:39.072402+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-23T03:07:32.165067+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -97256,29 +97260,44 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-23T02:01:39.073761+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-23T03:07:32.165067+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 342,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1528
-        },
-        "independent_domains": [
-          "bbc.com",
-          "cnbc.com",
-          "theguardian.com",
-          "theverge.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1528,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "theguardian.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-23 10:07"
+    },
+    "published_at": "2026-11-23T03:07:32.165067+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bi-quyet-ang-sau-nhung-khoan-au-tu-lon-vao-anthropic-truoc-them-ipo-0419a5cc",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-23T02:01:35.226752+00:00",
     "expires_at": "2026-11-24T02:01:35.226752+00:00",
     "source_urls": [
@@ -97296,7 +97315,7 @@
       "source_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
       "published_at": "2026-11-23T01:25:53+00:00",
       "fetched_at": "2026-11-23T02:01:44.742778+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-23T03:07:32.165067+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -97525,25 +97544,35 @@
         "81,3"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-23T02:01:44.744518+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-23T03:07:32.165067+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 393,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1820
-        },
-        "independent_domains": [
-          "cnbc.com",
-          "npr.org",
-          "techcrunch.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1820,
+          "source_access": [
+            {
+              "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "npr.org",
+            "techcrunch.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-23 10:07"
+    },
+    "published_at": "2026-11-23T03:07:32.165067+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "hiem-hoa-tu-nhung-vat-dung-tuong-vo-hai-trong-chuong-thu-c2072366",
@@ -97760,5 +97789,1063 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "s-p-500-roi-vao-vung-ieu-chinh-nam-luc-luong-ang-sau-lan-song-ban-thao-t-6b48a858",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T03:07:07.866150+00:00",
+    "expires_at": "2026-11-23T15:07:07.866150+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+      "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news"
+    ],
+    "article": {
+      "id": "s-p-500-roi-vao-vung-ieu-chinh-nam-luc-luong-ang-sau-lan-song-ban-thao-t-6b48a858",
+      "title": "S&P 500 rơi vào vùng điều chỉnh: Năm lực lượng đằng sau làn sóng bán tháo thị trường",
+      "summary": "Chỉ số S&P 500 và Dow Jones chính thức khép lại phiên giao dịch trong vùng điều chỉnh, sụt giảm hơn 10% so với mức đỉnh kỷ lục do áp lực từ đợt IPO của Anthropic, rắc rối tại Nvidia và lạm phát gia tăng.",
+      "category": "world",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+      "published_at": "2026-11-21T11:29:25+00:00",
+      "fetched_at": "2026-11-23T03:07:12.045175+00:00",
+      "appnho_published_at": "2026-11-23T03:07:32.165067+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường chứng khoán Mỹ chứng kiến một tuần giao dịch đầy sóng gió khi S&P 500 và Dow Jones Industrial Average chính thức đóng cửa trong vùng điều chỉnh, giảm hơn 10% so với các mức đỉnh lịch sử từng thiết lập. Trong khi đó, chỉ số Nasdaq Composite ghi nhận mức giảm tồi tệ nhất kể từ đợt lao dốc do đại dịch Covid-19 vào tháng 3 năm 2020.",
+        "Theo các phân tích từ giới chuyên gia tài chính, đợt bán tháo diện rộng này xuất phát từ năm nguyên nhân chủ chốt. Điểm nhấn đầu tiên là thương vụ phát hành cổ phiếu lần đầu ra công chúng (IPO) của doanh nghiệp trí tuệ nhân tạo Anthropic. Dù được kỳ vọng lớn, thương vụ này lại tạo ra tâm lý chốt lời ồ ạt sau khi cổ phiếu trải qua những biến động mạnh từ mức giá IPO 83 USD lên vượt mốc 115 USD trước khi quay đầu sụt giảm.",
+        "Bên cạnh đó, áp lực đè nặng lên cổ phiếu Nvidia khi vướng vào các vấn đề kiểm soát và rắc rối liên quan đến quy định chip xuất khẩu cũng làm gia tăng đà tháo chạy khỏi nhóm công nghệ. Giáo sư tài chính Jeremy Siegel từ Wharton nhận định đợt điều chỉnh này là một quá trình thiết lập lại kỳ vọng của nhà đầu tư sau ba năm liên tiếp cổ phiếu mang lại lợi nhuận hai con số.",
+        "Yếu tố thứ ba là việc S&P 500 phá vỡ đường trung bình động 200 ngày, kích hoạt hoạt động bán tự động từ các cố vấn giao dịch hàng hóa. Cuối cùng, áp lực từ lạm phát vẫn duy trì cách xa mục tiêu 2% của Cục Dự trữ Liên bang Mỹ (Fed), kết hợp với căng thẳng địa chính trị đẩy giá dầu neo cao, khiến các quan chức ngân hàng trung ương cân nhắc khả năng tiếp tục siết chặt chính sách tiền tệ trong thời gian tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "S&P 500 điều chỉnh sâu: Năm nguyên nhân chính gây bán tháo thị trường",
+      "meta_description": "Khám phá năm yếu tố chính dẫn đến đợt sụt giảm mạnh của S&P 500 và thị trường chứng khoán Mỹ, từ thương vụ Anthropic đến áp lực lạm phát và chính sách lãi suất.",
+      "keywords": [
+        "S&P 500",
+        "thị trường chứng khoán",
+        "Anthropic",
+        "Nvidia",
+        "Cục Dự trữ Liên bang Mỹ"
+      ],
+      "slug": "s-p-500-roi-vao-vung-ieu-chinh-nam-luc-luong-ang-sau-lan-song-ban-thao-t-6b48a858",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 337,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+        "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T11:29:25+00:00"
+        },
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T15:25:09+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "S&P 500 và Dow Jones Industrial Average đóng cửa trong vùng điều chỉnh, giảm hơn 10% so với mức kỷ lục.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "TheS&P 500andDow Jones Industrial Averageclosed in correction territory, off more than 10% from their records.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "snippet": "TheS&P 500andDow Jones Industrial Averageclosed in correction territory, off more than 10% from their records.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "page_sha256": "c9ae845cfae95889d2d0926da4809de56f9315ba4e7fc737ad016353695a55b7",
+              "snippet_sha256": "b065af86718de37e71e58d8a60c75cb66c2257b3679bddbbe2c9348baa59634d",
+              "verified_at": "2026-11-23T03:07:12.044611+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Năm lý do chính đằng sau đợt bán tháo bao gồm thương vụ IPO của Anthropic, rắc rối tại Nvidia và việc Fed đối mặt với lạm phát.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The breaking point came this week in the form of the initial public offering of artificial intelligence leaderAnthropicand a pick-up in the selling intensity for one-time AI chip leader Nvidia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "snippet": "The breaking point came this week in the form of the initial public offering of artificial intelligence leaderAnthropicand a pick-up in the selling intensity for one-time AI chip leader Nvidia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "page_sha256": "c9ae845cfae95889d2d0926da4809de56f9315ba4e7fc737ad016353695a55b7",
+              "snippet_sha256": "6445e70cc822b1b27c123b8e1d6196918fe3a9e21eb607dcfcaf6bca47ed01aa",
+              "verified_at": "2026-11-23T03:07:12.044611+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giáo sư tài chính Jeremy Siegel tại Wharton tin rằng đợt điều chỉnh này là sự thiết lập lại kỳ vọng sau ba năm lợi nhuận hai con số.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Esteemed Wharton professor Jeremy Siegel was more animated than usual on Friday afternoon...",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "snippet": "Esteemed Wharton professor Jeremy Siegel was more animated than usual on Friday afternoon...",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "page_sha256": "c9ae845cfae95889d2d0926da4809de56f9315ba4e7fc737ad016353695a55b7",
+              "snippet_sha256": "dfeb69ca3040c4e2d9ea153a97826b78be07a8697b64128114ba26ddb4614e84",
+              "verified_at": "2026-11-23T03:07:12.044611+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết năm nguyên nhân cốt lõi dẫn đến đợt sụt giảm lịch sử của S&P 500 và thị trường chứng khoán Mỹ. Đồng thời, bài phân tích góc nhìn chuyên gia từ Wharton để giải thích bối cảnh thiết lập lại kỳ vọng của nhà đầu tư sau chuỗi tăng trưởng dài.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-23T03:07:12.045261+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "115",
+        "19",
+        "2",
+        "200",
+        "2020",
+        "500",
+        "83"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T03:07:32.165067+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 337,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1542,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "cnbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-23 10:07"
+    },
+    "published_at": "2026-11-23T03:07:32.165067+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "carlos-alcaraz-lan-dau-vo-dich-atp-finals-c555c1de",
+    "status": "HOLD",
+    "prepared_at": "2026-11-23T03:07:07.866150+00:00",
+    "expires_at": "2026-11-24T03:07:07.866150+00:00",
+    "source_urls": [
+      "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+      "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis",
+      "https://www.skysports.com/watch/video/13615412/alexander-zverev-vs-carlos-alcaraz-atp-finals-highlights",
+      "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "carlos-alcaraz-lan-dau-vo-dich-atp-finals-c555c1de",
+      "title": "Carlos Alcaraz lan dau vo dich ATP Finals",
+      "summary": "Carlos Alcaraz danh bai tay vợt so mot the gioi Alexander Zverev de giành danh hiệu ATP Finals dau tien trong su nghiep, kheo lai mua giai 2026 voi chuoi thang an tuong.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+      "published_at": "2026-11-22T21:45:56+00:00",
+      "fetched_at": "2026-11-23T03:07:17.823993+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tay vợt nguoi Tay Ban Nha Carlos Alcaraz đã khép lại mùa giải 2026 với một dấu mốc lịch sử khi đánh bại tay vợt số một thế giới Alexander Zverev với tỷ số 6-2, 7-6(7) trong trận chung kết tại Turin, Italy. Chiến thắng này giúp anh lần đầu tiên chạm tay vào chiếc cúp vô địch ATP Finals, giải đấu danh giá quy tụ tám tay vợt xuất sắc nhất trong năm.",
+        "Du buoc vao tran dau chung ket khi the trang khong o muc hoan hao do van de o gan kheo gap phai trong tuan thi dau, Alcaraz van the hien su vuot troi. Anh chu dong thay doi chien thuat, su dung nhung pha bo nho va tan dung kha nang chuyen doi linh hoat tu phong ngu sang tan cong de pha vo the phong ngự cua Zverev, nguoi truoc do chua he thua mot set nao tren duong vao chung ket.",
+        "Trong set dau, Alcaraz nhanh chong ap dao va thang 2-6 nho loi choi bien hoa. Sang set hai, Zverev no luc vung len va dua set dau vao loat tie-break căng thẳng sau khi gianh lai break quan trong. Du Zverev tao ra ba set-point, Alcaraz da the hien ban linh vung vang đe cứu ca ba diem so nay truoc khi an dinh chien thang 9-7 trong loat tie-break.",
+        "Thanh tich nay giup Alcaraz, o tuoi 23, tro thanh tay vợt tre nhat lich su so huu ca bon danh hieu Grand Slam va ATP Finals. Day cung la cai ket tron ven cho man tro lai an tuong cua anh sau quang thoi gian dai nghi thi đấu vi chan thuong trong nam, dong thoi khang dinh vi the hang dau cua tay vợt nguoi Tay Ban Nha trong lang quan vot the gioi."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Carlos Alcaraz lan dau vo dich ATP Finals 2026",
+      "meta_description": "Carlos Alcaraz danh bai Alexander Zverev o chung ket ATP Finals 2026 de chinh thuc co chuc vo dich danh gia nay.",
+      "keywords": [
+        "Carlos Alcaraz",
+        "Alexander Zverev",
+        "ATP Finals",
+        "quan vợt"
+      ],
+      "slug": "carlos-alcaraz-lan-dau-vo-dich-atp-finals-c555c1de",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 305,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+        "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis",
+        "https://www.skysports.com/watch/video/13615412/alexander-zverev-vs-carlos-alcaraz-atp-finals-highlights",
+        "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis",
+        "https://www.skysports.com/watch/video/13615412/alexander-zverev-vs-carlos-alcaraz-atp-finals-highlights",
+        "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T21:45:56+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T20:43:11+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/watch/video/13615412/alexander-zverev-vs-carlos-alcaraz-atp-finals-highlights",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T19:31:00+00:00"
+        },
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T22:50:19+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Alcaraz đánh bại Alexander Zverev 6-2, 7-6(7) ở chung kết ATP Finals để lần đầu vô địch giải đấu này.",
+          "source_urls": [
+            "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ItalyCarlos Alcaraz đánh bại tay vợt số một thế giới Alexander Zverev 6-2, 7-6(7) ở chung kết ATP Finals, để khép lại năm 2026 bằng ba danh hiệu liên tiếp.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+              "snippet": "ItalyCarlos Alcaraz đánh bại tay vợt số một thế giới Alexander Zverev 6-2, 7-6(7) ở chung kết ATP Finals, để khép lại năm 2026 bằng ba danh hiệu liên tiếp.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+              "page_sha256": "371d93ee6f24f72e45766c22aedbbeeb289297df4be7c5bf6ea0d95047646f3b",
+              "snippet_sha256": "98be0cb00fdc0a8775a5774264e4c0991b1aa15b7a08b12721fe521e4ea9e0df",
+              "verified_at": "2026-11-23T03:07:17.823533+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ở tuổi 23, Alcaraz trở thành tay vợt trẻ nhất lịch sử giành đủ bốn danh hiệu Grand Slam và ATP Finals.",
+          "source_urls": [
+            "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ở tuổi 23, Alcaraz trở thành tay vợt trẻ nhất lịch sử giành đủ bốn danh hiệu Grand Slam vàATP Finals, đồng thời là người thứ tư đạt thành tích này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+              "snippet": "Ở tuổi 23, Alcaraz trở thành tay vợt trẻ nhất lịch sử giành đủ bốn danh hiệu Grand Slam vàATP Finals, đồng thời là người thứ tư đạt thành tích này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+              "page_sha256": "371d93ee6f24f72e45766c22aedbbeeb289297df4be7c5bf6ea0d95047646f3b",
+              "snippet_sha256": "063f397392b13662413dabb181189c8f04914ff748ddd2593aa3d08d7cea3558",
+              "verified_at": "2026-11-23T03:07:17.823533+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Alcaraz gặp vấn đề ở gân kheo trong tuần thi đấu tại Turin và phải quấn băng hỗ trợ phần trên đùi trái.",
+          "source_urls": [
+            "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Anh vẫn phải quấn băng hỗ trợ phần trên đùi trái sau khi gặp vấn đề ở gân kheo trong tuần thi đấu tại Turin.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+              "snippet": "Anh vẫn phải quấn băng hỗ trợ phần trên đùi trái sau khi gặp vấn đề ở gân kheo trong tuần thi đấu tại Turin.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+              "page_sha256": "371d93ee6f24f72e45766c22aedbbeeb289297df4be7c5bf6ea0d95047646f3b",
+              "snippet_sha256": "a793a5a0691410fd5f6ec56b69d883ccdbcdcb258b3aca8981707229dce6096a",
+              "verified_at": "2026-11-23T03:07:17.823533+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet phan tich dien bien chi tiet cua tran chung ket ATP Finals giua Carlos Alcaraz va Alexander Zverev. Tac pham lam ro cach Alcaraz vuot qua kho khan ve the trang de tao buoc ngoặt chien thuat.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T03:07:17.824059+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "23",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T03:07:17.824999+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 305,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1421
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-23T03:07:32.165067+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-23T03:07:32.165067+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 305,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1421,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/alcaraz-lan-dau-vo-dich-atp-finals-5147764.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "mauricio-pochettino-trai-ra-mat-tham-hoa-tai-man-utd-f929d037",
+    "status": "HOLD",
+    "prepared_at": "2026-11-23T03:07:07.866150+00:00",
+    "expires_at": "2026-11-24T03:07:07.866150+00:00",
+    "source_urls": [
+      "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+      "https://tuoitre.vn/pochettino-co-man-ra-mat-te-hai-nhat-man-united-trong-mot-the-ky-100261123064319262.htm",
+      "https://www.skysports.com/football/news/12040/13615413/liverpool-4-0-man-utd-gary-neville-on-matthijs-de-ligt-selection-and-negligent-red-devils"
+    ],
+    "article": {
+      "id": "mauricio-pochettino-trai-ra-mat-tham-hoa-tai-man-utd-f929d037",
+      "title": "Mauricio Pochettino trải ra mắt thảm họa tại Man Utd",
+      "summary": "Thất bại 0-4 trước Liverpool trong ngày ra mắt khiến HLV Mauricio Pochettino đi vào lịch sử Man Utd với cột mốc không mong muốn sau một thế kỷ.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+      "published_at": "2026-11-23T00:13:47+00:00",
+      "fetched_at": "2026-11-23T03:07:24.323062+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận ra mắt của HLV Mauricio Pochettino trên cương vị thuyền trưởng Manchester United đã diễn ra theo kịch bản tồi tệ nhất. Làm khách trên sân Anfield của Liverpool ở vòng 11 Ngoại hạng Anh, đội bóng dưới sự dẫn dắt của chiến lược gia người Argentina nhận thất bại nặng nề 0-4.",
+        "Bước ngoặt của trận đấu đến từ rất sớm khi đồng hồ mới chỉ sang phút thứ 8. Sau tình huống Matthijs de Ligt phán đoán sai đường bóng dài, trung vệ trẻ Leny Yoro buộc phải phạm lỗi với Alexander Isak để ngăn cản cơ hội rõ rệt. Trọng tài lập tức rút thẻ đỏ trực tiếp truất quyền thi đấu của Yoro, biến đây thành tấm thẻ đỏ sớm nhất của một cầu thủ Man Utd trong lịch sử Ngoại hạng Anh.",
+        "Chỉ trong vòng ít phút sau đó, lợi thế hơn người nhanh chóng được Liverpool chuyển hóa thành bàn thắng. Dominik Szoboszlai sút phạt mở tỷ số ở phút thứ 10, trước khi Florian Wirtz nhân đôi cách biệt ngay ở phút 13. Dù HLV Pochettino sớm có sự điều chỉnh nhân sự khi đưa Harry Maguire vào thay Bryan Mbeumo để gia cố hệ thống phòng ngự, Man Utd vẫn hoàn toàn lép vế trước sức ép lớn từ đội chủ nhà.",
+        "Trong phần còn lại của trận đấu, Rio Ngumoha và Victor Munoz tiếp tục lập công trong hiệp hai ấn định chiến thắng 4-0 cho Liverpool. Thống kê trận đấu chỉ ra sự chênh lệch toàn diện khi Man Utd không tạo nổi một cơ hội rõ rệt nào, trong khi đội chủ nhà tung ra tới 28 pha dứt điểm.",
+        "Kết quả này đưa Pochettino vướng vào cột mốc lịch sử buồn, cân bằng kỷ lục trận thua đậm nhất trong ngày ra mắt của một huấn luyện viên Man Utd tồn tại suốt từ tháng 10 năm 1926, khi cựu tiền vệ Lal Hilditch dẫn dắt đội bóng thua Bolton cũng với tỷ số 0-4.",
+        "Phát biểu sau trận đấu, dù nhận trách nhiệm về kết quả chung cuộc, HLV Pochettino cho rằng hoàn cảnh phải chơi thiếu người trong suốt hơn 80 phút tại Anfield đã ảnh hưởng lớn đến kế hoạch chiến thuật của đội bóng và tỏσ không đồng tình với quyết định rút thẻ đỏ đối với Yoro.",
+        "Thất bại đậm này khiến Man Utd tiếp tục ngụp lặn ở vị trí thứ 19 trên bảng xếp hạng Ngoại hạng Anh với vỏn vẹn 8 điểm sau 11 vòng đấu, đánh dấu khởi đầu mùa giải ngoại hạng ở cùng giai đoạn tồi tệ nhất của câu lạc bộ trong nhiều thập kỷ qua."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Pochettino và ngày ra mắt thảm họa tại Man Utd",
+      "meta_description": "Phân tích trận ra mắt của HLV Mauricio Pochettino khi Man Utd thua Liverpool 0-4 tại vòng 11 Ngoại hạng Anh.",
+      "keywords": [
+        "Pochettino",
+        "Man Utd",
+        "Liverpool",
+        "Ngoại hạng Anh",
+        "Leny Yoro"
+      ],
+      "slug": "mauricio-pochettino-trai-ra-mat-tham-hoa-tai-man-utd-f929d037",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 451,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+        "https://tuoitre.vn/pochettino-co-man-ra-mat-te-hai-nhat-man-united-trong-mot-the-ky-100261123064319262.htm",
+        "https://www.skysports.com/football/news/12040/13615413/liverpool-4-0-man-utd-gary-neville-on-matthijs-de-ligt-selection-and-negligent-red-devils"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/pochettino-co-man-ra-mat-te-hai-nhat-man-united-trong-mot-the-ky-100261123064319262.htm",
+        "https://www.skysports.com/football/news/12040/13615413/liverpool-4-0-man-utd-gary-neville-on-matthijs-de-ligt-selection-and-negligent-red-devils"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T00:13:47+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/pochettino-co-man-ra-mat-te-hai-nhat-man-united-trong-mot-the-ky-100261123064319262.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T23:54:00+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13615413/liverpool-4-0-man-utd-gary-neville-on-matthijs-de-ligt-selection-and-negligent-red-devils",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T20:25:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Thất bại 0-4 trước Liverpool khiến Mauricio Pochettino cân bằng kỷ lục về trận thua nặng nhất của một HLV Man Utd trong ngày ra mắt, tồn tại từ năm 1926.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "AnhThất bại 0-4 trước Liverpool khiến Mauricio Pochettino cân bằng kỷ lục về trận thua nặng nhất của một HLV Man Utd trong ngày ra mắt, tồn tại từ năm 1926.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "AnhThất bại 0-4 trước Liverpool khiến Mauricio Pochettino cân bằng kỷ lục về trận thua nặng nhất của một HLV Man Utd trong ngày ra mắt, tồn tại từ năm 1926.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "3a4acff0f8859d774d22c36bd306a6375ff8e1035b513637b53db5a912a33112",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tháng 10/1926, Lal Hilditch vừa đá vừa dẫn dắt Man Utd thua Bolton 0-4 tại giải VĐQG.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tháng 10/1926, cựu tiền vệ người Anh vừa đá vừa dẫn dắt đội bóng, khi họ thua Bolton 0-4 tại giải VĐQG.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "Tháng 10/1926, cựu tiền vệ người Anh vừa đá vừa dẫn dắt đội bóng, khi họ thua Bolton 0-4 tại giải VĐQG.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "2e83ae8e4c84cd13f194c2248b9d4de71ec672c37282be582719863a7f06daee",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Man Utd thua Liverpool 0-4 ở vòng 11 Ngoại hạng Anh tại sân Anfield.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hậu vệ Man Utd Leny Yoro (15) lĩnh thẻ đỏ trực tiếp vì phạm lỗi với Isak trong trận thua Liverpool 0-4 ở vòng 11 Ngoại hạng Anh trên sân Anfield ngày 22/11/2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "Hậu vệ Man Utd Leny Yoro (15) lĩnh thẻ đỏ trực tiếp vì phạm lỗi với Isak trong trận thua Liverpool 0-4 ở vòng 11 Ngoại hạng Anh trên sân Anfield ngày 22/11/2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "f3808eed0815473849e02610abc112f822c678421fb23788fa979a45504e2155",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Leny Yoro nhận thẻ đỏ trực tiếp ở phút thứ 8 sau khi phạm lỗi với Alexander Isak.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phút 8, Matthijs de Ligt phán đoán sai đường bóng dài, để Alexander Isak thoát xuống.Leny Yorophạm lỗi với tiền đạo Liverpool và bị phạt thẻ đỏ trực tiếp vì ngăn cản cơ hội ghi bàn rõ rệt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "Phút 8, Matthijs de Ligt phán đoán sai đường bóng dài, để Alexander Isak thoát xuống.Leny Yorophạm lỗi với tiền đạo Liverpool và bị phạt thẻ đỏ trực tiếp vì ngăn cản cơ hội ghi bàn rõ rệt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "0c3c1004f7f78a58da0bb24094351426889fe527633e0e55d77caabdedbc0aa1",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dominik Szoboszlai ghi bàn mở tỷ số từ đá phạt, sau đó Florian Wirtz nhân đôi cách biệt ở phút 13.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TheoOpta, đây là thẻ đỏ sớm nhất của một cầu thủ Man Utd trong lịch sử Ngoại hạng Anh.Dominik Szoboszlaisau đó sút phạt mở tỷ số, trước khi Florian Wirtz nhân đôi cách biệt ở phút 13.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "TheoOpta, đây là thẻ đỏ sớm nhất của một cầu thủ Man Utd trong lịch sử Ngoại hạng Anh.Dominik Szoboszlaisau đó sút phạt mở tỷ số, trước khi Florian Wirtz nhân đôi cách biệt ở phút 13.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "9b903ff691b75796a9b3e6507f4a76c32f66bf1dd5a127eac0b3a320a33062e5",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Rio Ngumoha và Victor Munoz ghi thêm hai bàn trong hiệp hai ấn định chiến thắng 4-0 cho Liverpool.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Rio Ngumoha và Victor Munoz lần lượt ghi thêm hai bàn trong hiệp hai, ấn định chiến thắng 4-0 cho chủ nhà.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "Rio Ngumoha và Victor Munoz lần lượt ghi thêm hai bàn trong hiệp hai, ấn định chiến thắng 4-0 cho chủ nhà.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "dd59d95047bd085e14e4c30b51440c055a319b64d556b924370585b6f30235c8",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Man Utd đứng ở vị trí thứ 19 với 8 điểm sau 11 vòng đấu tại Ngoại hạng Anh.",
+          "source_urls": [
+            "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Thất bại khiếnMan Utdchôn chân ở vị trí thứ 19, với chỉ 8 điểm sau 11 vòng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "snippet": "Thất bại khiếnMan Utdchôn chân ở vị trí thứ 19, với chỉ 8 điểm sau 11 vòng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+              "page_sha256": "fa75835b7c86b4acd566c4c22bada6eac120c74d71bfc93c9a67c2ed81c74495",
+              "snippet_sha256": "72c504d89f85405dbb84a51117e209157299714668645060cc33e4aeed09ea1a",
+              "verified_at": "2026-11-23T03:07:24.322249+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh lịch sử và các thống kê chuyên môn trong ngày ra mắt của HLV Pochettino. Đồng thời, bài phân tích tác động trực tiếp từ tấm thẻ đỏ sớm của Leny Yoro đến cấu trúc chiến thuật và kết quả trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T03:07:24.323150+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "11",
+        "13",
+        "19",
+        "1926",
+        "28",
+        "8",
+        "80"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-23T03:07:24.324359+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 7,
+          "words": 451,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2110
+        },
+        "independent_domains": [
+          "skysports.com",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-23T03:07:32.165067+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-23T03:07:32.165067+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 7,
+        "words": 451,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 2110,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/pochettino-la-hlv-ra-mat-te-nhat-tai-man-utd-sau-100-nam-5147780.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "skysports.com",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "ang-dan-chu-gianh-the-a-so-lon-nhat-tai-ha-vien-my-trong-hon-30-nam-c3218591",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-23T03:07:07.866150+00:00",
+    "expires_at": "2026-11-24T03:07:07.866150+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+      "https://thanhnien.vn/dang-dan-chu-gianh-the-da-so-lon-nhat-tai-ha-vien-trong-hon-30-nam-18526112306463468.htm",
+      "https://vnexpress.net/benh-vien-xa-hoi-chu-nghia-tai-quang-ninh-khac-gi-benh-vien-cong-5147211.html"
+    ],
+    "article": {
+      "id": "ang-dan-chu-gianh-the-a-so-lon-nhat-tai-ha-vien-my-trong-hon-30-nam-c3218591",
+      "title": "Đảng Dân chủ giành thế đa số lớn nhất tại Hạ viện Mỹ trong hơn 30 năm",
+      "summary": "Với việc giành thêm hàng loạt ghế trong cuộc bầu cử giữa kỳ, Đảng Dân chủ đã thiết lập cột mốc đa số lớn nhất tại Hạ viện Mỹ kể từ năm 1992, mở ra cục diện mới trong quan hệ quyền lực với tổng thống.",
+      "category": "world",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+      "published_at": "2026-11-23T00:25:00+00:00",
+      "fetched_at": "2026-11-23T03:07:29.919366+00:00",
+      "appnho_published_at": "2026-11-23T03:07:32.165067+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau cuộc bầu cử giữa kỳ, Đảng Dân chủ đã chính thức xác lập cột mốc đáng chú ý khi giành được thế đa số lớn nhất tại Hạ viện Mỹ trong hơn ba thập niên qua. Theo cập nhật từ các cơ quan báo chí quốc tế và trong nước vào cuối tháng 11, bước ngoặt này được củng cố sau khi các ứng viên của đảng này liên tiếp giành chiến thắng tại nhiều khu vực bầu cử then chốt, bao gồm cả những bang từng có truyền thống ủng hộ Đảng Cộng hòa.",
+        "Tính đến thời điểm hiện tại, Đảng Dân chủ đã nắm giữ ít nhất 258 ghế tại Hạ viện, vượt qua các mức từng đạt được trong các chu kỳ bầu cử lớn kể từ năm 1992 dưới thời Tổng thống Bill Clinton hay năm 2008 dưới thời Tổng thống Barack Obama. Quy mô chiến thắng này phản ánh sự dịch chuyển đáng kể trong sự ủng hộ của cử tri tại nhiều khu vực từ Trung Tây đến bờ Đông nước Mỹ.",
+        "Kết quả bầu cử này mang lại cho Đảng Dân chủ quyền lực lập pháp lớn hơn để triển khai chương trình nghị sự trong giai đoạn tới, bao gồm các kế hoạch đối phó với chi phí sinh hoạt và thúc đẩy các mục tiêu y tế công cộng. Đồng thời, thế đa số áp đảo cũng trao cho đảng này công cụ kiểm soát mạnh mẽ hơn thông qua các cuộc điều tra và quyền yêu cầu cung cấp tài liệu từ cơ quan hành pháp."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Đảng Dân chủ thêm ghế ở Hạ viện Mỹ, thắng lớn nhất hơn 30 năm",
+      "meta_description": "Đảng Dân chủ giành ít nhất 258 ghế tại Hạ viện Mỹ, ghi nhận chiến thắng lớn nhất trong hơn ba thập niên sau cuộc bầu cử giữa kỳ.",
+      "keywords": [
+        "Đảng Dân chủ",
+        "Hạ viện Mỹ",
+        "bầu cử giữa kỳ",
+        "Mỹ",
+        "chính trị"
+      ],
+      "slug": "ang-dan-chu-gianh-the-a-so-lon-nhat-tai-ha-vien-my-trong-hon-30-nam-c3218591",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 267,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+        "https://thanhnien.vn/dang-dan-chu-gianh-the-da-so-lon-nhat-tai-ha-vien-trong-hon-30-nam-18526112306463468.htm",
+        "https://vnexpress.net/benh-vien-xa-hoi-chu-nghia-tai-quang-ninh-khac-gi-benh-vien-cong-5147211.html"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/dang-dan-chu-gianh-the-da-so-lon-nhat-tai-ha-vien-trong-hon-30-nam-18526112306463468.htm",
+        "https://vnexpress.net/benh-vien-xa-hoi-chu-nghia-tai-quang-ninh-khac-gi-benh-vien-cong-5147211.html"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T00:25:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/dang-dan-chu-gianh-the-da-so-lon-nhat-tai-ha-vien-trong-hon-30-nam-18526112306463468.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T00:26:00+00:00"
+        },
+        {
+          "name": "VnExpress - Thời sự",
+          "url": "https://vnexpress.net/benh-vien-xa-hoi-chu-nghia-tai-quang-ninh-khac-gi-benh-vien-cong-5147211.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T23:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đảng Dân chủ đã giành được thế đa số ghế lớn nhất tại Hạ viện Mỹ trong hơn ba thập niên, với ít nhất 258 ghế.",
+          "source_urls": [
+            "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "BáoThe Guardiancập nhậtĐảng Dân chủđã giành được ít nhất 258 ghế Hạ viện, thắng lớn nhất từ năm 1992.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "snippet": "BáoThe Guardiancập nhậtĐảng Dân chủđã giành được ít nhất 258 ghế Hạ viện, thắng lớn nhất từ năm 1992.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "page_sha256": "91d6f92f8b1eb74f37f2a5042a3d4fedc8253061f32a5531289116942964c7a9",
+              "snippet_sha256": "b18ce282aa7dbb1c5095c1d3d0ede6103b99ce75daf94a6bed9f72e415e3dea6",
+              "verified_at": "2026-11-23T03:07:29.918876+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cột mốc 258 ghế đánh dấu kết quả lớn nhất của Đảng Dân chủ kể từ năm 1992.",
+          "source_urls": [
+            "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thế đa số của Đảng Dân chủ sẽ lớn hơn bất kỳ kết quả nào mà đảng này đạt được trong các cuộc bầu cử kể từ khi ông Bill Clinton lần đầu được bầu làm tổng thống năm 1992 (258 ghế) hoặc khi ông Barack Obama đắc cử năm 2008 (257 ghế).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "snippet": "Thế đa số của Đảng Dân chủ sẽ lớn hơn bất kỳ kết quả nào mà đảng này đạt được trong các cuộc bầu cử kể từ khi ông Bill Clinton lần đầu được bầu làm tổng thống năm 1992 (258 ghế) hoặc khi ông Barack Obama đắc cử năm 2008 (257 ghế).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "page_sha256": "91d6f92f8b1eb74f37f2a5042a3d4fedc8253061f32a5531289116942964c7a9",
+              "snippet_sha256": "c95e3cbf83f9662b8b6d3727fc624fbf2587d7bfa7c3737f06fe2827e2753a4b",
+              "verified_at": "2026-11-23T03:07:29.918876+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đảng Dân chủ dự kiến triển khai chương trình nghị sự 100 ngày và sử dụng quyền điều tra của Quốc hội.",
+          "source_urls": [
+            "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong khuôn khổ chương trình nghị sự 100 ngày, Đảng Dân chủ dự kiến nhanh chóng tổ chức các cuộc bỏ phiếu nhằm đảo ngược những biện pháp cắt giảm chương trình bảo hiểm y tế Medicaid của Đảng Cộng hòa và khôi phục các khoản tín dụng thuế theo Đạo luật Chăm sóc sức khỏe hợp túi tiền (ACA) mà Đảng Cộng hòa đã để hết hiệu lực.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "snippet": "Trong khuôn khổ chương trình nghị sự 100 ngày, Đảng Dân chủ dự kiến nhanh chóng tổ chức các cuộc bỏ phiếu nhằm đảo ngược những biện pháp cắt giảm chương trình bảo hiểm y tế Medicaid của Đảng Cộng hòa và khôi phục các khoản tín dụng thuế theo Đạo luật Chăm sóc sức khỏe hợp túi tiền (ACA) mà Đảng Cộng hòa đã để hết hiệu lực.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "page_sha256": "91d6f92f8b1eb74f37f2a5042a3d4fedc8253061f32a5531289116942964c7a9",
+              "snippet_sha256": "75adfcf170a44e6d52136cf5f04f68a8cc5707454fafb1f66cabfcbc54385f7e",
+              "verified_at": "2026-11-23T03:07:29.918876+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy mô chiến thắng lịch sử của Đảng Dân chủ tại Hạ viện Mỹ sau hơn ba thập niên. Đồng thời, văn bản phân tích các dữ kiện về số ghế cụ thể và ý nghĩa chính trị của kết quả này đối với cục diện quyền lực tại Washington.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-23T03:07:29.919432+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1992",
+        "2008",
+        "258"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-23T03:07:32.165067+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 267,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1180,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/dang-dan-chu-them-ghe-o-ha-vien-my-thang-lon-nhat-trong-hon-30-nam-qua-100261123072000405.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-23 10:07"
+    },
+    "published_at": "2026-11-23T03:07:32.165067+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
