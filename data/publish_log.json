@@ -1076,5 +1076,25 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-24 13:24",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-24T06:24:42.380673+00:00",
+    "prepared_candidates": 24,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      }
+    ]
   }
 ]

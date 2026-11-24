@@ -2520,7 +2520,7 @@
   },
   {
     "queue_id": "6eb3830bc4646bb376c9",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:35:49.922447+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "world",
@@ -4899,11 +4899,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:35:49.922470+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662"
   },
   {
     "queue_id": "00964d58e170ad130a4f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:35:47.149806+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "sports",
@@ -7315,11 +7316,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:35:47.149828+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b"
   },
   {
     "queue_id": "a1470486c6d5eaaeb7e8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:35:42.829378+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "vietnam",
@@ -8635,11 +8637,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:35:42.829401+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee"
   },
   {
     "queue_id": "8e222cf80b19de09fa3b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:35:31.345965+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "sports",
@@ -9298,7 +9301,8 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:35:31.345986+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8"
   },
   {
     "queue_id": "wake-forest-se-uoi-theo-vong-chung-ket-cfp-khong-co-chay-au-clark-09ffcbdb",
@@ -94423,7 +94427,7 @@
   },
   {
     "queue_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-24T05:36:25.475615+00:00",
     "expires_at": "2026-11-25T05:36:25.475615+00:00",
     "source_urls": [
@@ -94439,7 +94443,7 @@
       "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
       "published_at": "2026-11-23T23:30:00+00:00",
       "fetched_at": "2026-11-24T05:36:29.408554+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-24T06:24:42.380673+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -94600,27 +94604,37 @@
         "5.999"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-24T05:36:29.409885+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-24T06:24:42.380673+00:00",
         "stats": {
           "paragraphs": 3,
           "words": 269,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1213
-        },
-        "independent_domains": [
-          "engadget.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1213,
+          "source_access": [
+            {
+              "url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-24 13:24"
+    },
+    "published_at": "2026-11-24T06:24:42.380673+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-24T05:36:25.475615+00:00",
     "expires_at": "2026-11-25T05:36:25.475615+00:00",
     "source_urls": [
@@ -94638,7 +94652,7 @@
       "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
       "published_at": "2026-11-24T04:54:00+00:00",
       "fetched_at": "2026-11-24T05:36:35.221975+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-24T06:24:42.380673+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -94865,25 +94879,35 @@
         "51"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-24T05:36:35.223482+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-24T06:24:42.380673+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 302,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1420
-        },
-        "independent_domains": [
-          "dantri.com.vn",
-          "thanhnien.vn",
-          "tuoitre.vn",
-          "vnexpress.net"
-        ],
-        "primary_source_present": false
+          "body_chars": 1420,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-24 13:24"
+    },
+    "published_at": "2026-11-24T06:24:42.380673+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "phat-hien-khao-co-moi-nha-cai-tri-thoi-ky-o-sat-verica-co-the-la-nu-gioi-5354f651",
@@ -95079,6 +95103,1001 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T06:24:14.404079+00:00",
+    "expires_at": "2026-11-25T06:24:14.404079+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "https://vnexpress.net/sai-lam-tri-gia-1-500-ty-usd-cua-hdqt-nvidia-gop-phan-dua-jensen-huang-tro-lai-5148316.html",
+      "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+    ],
+    "article": {
+      "id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "title": "Sự trở lại của CEO Nvidia Jensen Huang dưới áp lực chính trị và làn sóng chỉ trích",
+      "summary": "Việc Tổng thống Mỹ Donald Trump tuyên bố 'thuyết phục' HĐQT Nvidia đưa Jensen Huang trở lại ghế CEO sau bê bối đang vấp phải làn sóng chỉ trích từ cả hai đảng và chuẩn bị đối mặt các cuộc điều tra từ Quốc hội.",
+      "category": "technology",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T04:36:31+00:00",
+      "fetched_at": "2026-11-24T06:24:19.094176+00:00",
+      "appnho_published_at": "2026-11-24T06:24:42.380673+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hãng sản xuất chip trí tuệ nhân tạo Nvidia vừa chính thức đưa ông Jensen Huang trở lại vị trí giám đốc điều hành (CEO) kiêm chủ tịch, chỉ chưa đầy hai tuần sau khi ông từ chức giữa lúc rộ lên các báo cáo về bê bối cá nhân liên quan đến một người bị nghi ngờ là tình báo Trung Quốc. Quyết định đảo chiều đột ngột này diễn ra sau khi công ty đối mặt với áp lực từ Tổng thống Mỹ Donald Trump.",
+        "Trong một cuộc phỏng vấn, ông Trump cho biết ông đã trực tiếp liên lạc với ban quản trị và khẳng định đã 'thuyết phục' họ đưa nhà sáng lập Nvidia quay lại vị trí lãnh đạo. Tổng thống Mỹ bảo vệ quyết định này khi cho rằng việc giữ chân một nhân sự quan trọng là cần thiết đối với nền kinh tế và cuộc đua công nghệ, đồng thời tuyên bố chính phủ đã đưa ra các đảm bảo về an ninh quốc gia cho hội đồng quản trị.",
+        "Tuy nhiên, động thái can thiệp này ngay lập tức châm ngòi cho một làn sóng phản ứng mạnh mẽ từ các nhà lập pháp thuộc cả hai đảng tại Mỹ. Nhiều nghị sĩ chỉ trích quyết định tái bổ nhiệm là thiếu trách nhiệm và đe dọa an ninh quốc gia. Các ủy ban của Quốc hội Mỹ đã lên lịch để tiến hành các phiên điều trần kín đối với ông Huang ngay trong thời gian tới nhằm làm rõ vai trò của chính quyền và các vấn đề tuân thủ kiểm soát xuất khẩu.",
+        "Trước đó, sự ra đi đột ngột của ông Huang từng khiến cổ phiếu Nvidia lao dốc mạnh và thổi bay một phần lớn giá trị vốn hóa thị trường, trước khi tăng vọt trở lại nhờ thông tin ông tái đắc cử. Dù sự trở lại giúp xoa dịu thị trường tài chính ngắn hạn, các chuyên gia quản trị doanh nghiệp vẫn đặt dấu hỏi lớn về năng lực giám sát của hội đồng quản trị Nvidia trước sức ép chính trị và sự thiếu vắng phương án kế nhiệm."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Jensen Huang trở lại CEO Nvidia: Sức ép từ Nhà Trắng và phản ứng Quốc ",
+      "meta_description": "Phân tích nguyên nhân và hệ quả xung quanh quyết định đưa Jensen Huang trở lại vị trí CEO Nvidia sau sự can thiệp của Tổng thống Trump và các rủi ro pháp lý.",
+      "keywords": [
+        "Jensen Huang",
+        "Nvidia",
+        "Donald Trump",
+        "HĐQT Nvidia",
+        "Quốc hội Mỹ"
+      ],
+      "slug": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 367,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+        "https://vnexpress.net/sai-lam-tri-gia-1-500-ty-usd-cua-hdqt-nvidia-gop-phan-dua-jensen-huang-tro-lai-5148316.html",
+        "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+      ],
+      "source_links": [
+        "https://vnexpress.net/sai-lam-tri-gia-1-500-ty-usd-cua-hdqt-nvidia-gop-phan-dua-jensen-huang-tro-lai-5148316.html",
+        "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T04:36:31+00:00"
+        },
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/sai-lam-tri-gia-1-500-ty-usd-cua-hdqt-nvidia-gop-phan-dua-jensen-huang-tro-lai-5148316.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T03:28:05+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T22:34:20+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nvidia đã tái bổ nhiệm Jensen Huang làm CEO chỉ vài ngày sau khi từ chối và chưa đầy hai tuần sau khi ông từ chức.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "How important are Nvidia and Jensen Huang to the US economy?",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "snippet": "How important are Nvidia and Jensen Huang to the US economy?",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "31d5319c092ab13fe2910a2ee2e167924d42ed9261015c95f4f11ecb34f86d57",
+              "snippet_sha256": "20949d18949820caeb767c70c5a65499b9dfa8c0a2c669e67d9a21a21811ebdb",
+              "verified_at": "2026-11-24T06:24:19.093054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng thống Donald Trump cho biết ông đã 'thuyết phục' ban điều hành Nvidia để đưa Jensen Huang quay lại.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trump faces backlash after he 'convinced' Nvidia to reinstate Jensen Huang - BBC News",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Trump faces backlash after he 'convinced' Nvidia to reinstate Jensen Huang - BBC News",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "31d5319c092ab13fe2910a2ee2e167924d42ed9261015c95f4f11ecb34f86d57",
+              "snippet_sha256": "9ec2df2676e9f4951c0d06b72689a701a67a8a910e5b1500fd8af86149116ed2",
+              "verified_at": "2026-11-24T06:24:19.093054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cả ông Trump và Nvidia đang đối mặt với sự chỉ trích từ các nhà lập pháp thuộc cả hai đảng khi Huang sắp phải điều trần trước Quốc hội.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trump's vocal backing of Huang comes despite the concerns of US lawmakers, including some Republicans, over the CEO's affair and Nvidia's compliance with US export controls.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Trump's vocal backing of Huang comes despite the concerns of US lawmakers, including some Republicans, over the CEO's affair and Nvidia's compliance with US export controls.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "31d5319c092ab13fe2910a2ee2e167924d42ed9261015c95f4f11ecb34f86d57",
+              "snippet_sha256": "adcb3ab8444eacafc03e1cd1266cdcc01a40930f50f1ce0c8ff923d25b3d53b4",
+              "verified_at": "2026-11-24T06:24:19.093054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jensen Huang từ chức vào ngày 12 tháng 11 sau các báo cáo về mối quan hệ ngoài hôn nhân với một người bị cáo buộc có liên hệ với tình báo Trung Quốc.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The rise and fall and rise again of Jensen Huang",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "snippet": "The rise and fall and rise again of Jensen Huang",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "31d5319c092ab13fe2910a2ee2e167924d42ed9261015c95f4f11ecb34f86d57",
+              "snippet_sha256": "b52d38c4ae9cd94c794433e7493d6f0a07594c2d346c2baba2219b2786ae094e",
+              "verified_at": "2026-11-24T06:24:19.093054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cổ phiếu Nvidia đã tăng 31% sau khi ông được bổ nhiệm lại, giúp tăng giá trị thị trường của công ty thêm khoảng 1 nghìn tỷ USD.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Stock prices for Nvidia fell sharply after Huang stepped down, but jumped by 31% after he was reappointed on Monday -adding about $1tn to the company's marketvalue.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Stock prices for Nvidia fell sharply after Huang stepped down, but jumped by 31% after he was reappointed on Monday -adding about $1tn to the company's marketvalue.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "31d5319c092ab13fe2910a2ee2e167924d42ed9261015c95f4f11ecb34f86d57",
+              "snippet_sha256": "b6b85c9b12e00b3a244cf515c9c21d6a695266d426aecc5bf147b56f4edb1158",
+              "verified_at": "2026-11-24T06:24:19.093054+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ vai trò can thiệp của Nhà Trắng trong quyết định tái bổ nhiệm CEO Nvidia Jensen Huang. Phân tích đối chiếu giữa áp lực thị trường tài chính và phản ứng phản đối mang tính lưỡng đảng tại Quốc hội Mỹ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T06:24:19.094316+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T06:24:42.380673+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 367,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1645,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "theverge.com",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 13:24"
+    },
+    "published_at": "2026-11-24T06:24:42.380673+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b",
+    "status": "HOLD",
+    "prepared_at": "2026-11-24T06:24:14.404079+00:00",
+    "expires_at": "2026-11-25T06:24:14.404079+00:00",
+    "source_urls": [
+      "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+      "https://tuoitre.vn/lien-doan-co-viet-nam-chung-tay-thap-sang-uoc-mo-cho-tre-em-ngheo-100261123164334842.htm"
+    ],
+    "article": {
+      "id": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b",
+      "title": "U17 Việt Nam giành trận hòa lịch sử trước New Zealand tại World Cup",
+      "summary": "U17 Việt Nam hòa New Zealand 3-3 sau trận đấu kịch tính thuộc lượt thứ hai bảng G U17 World Cup 2026, qua đó giành điểm số đầu tiên tại giải.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+      "published_at": "2026-11-23T14:45:41+00:00",
+      "fetched_at": "2026-11-24T06:24:24.393026+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại lượt trận thứ hai bảng G U17 World Cup 2026 diễn ra trên sân thuộc Học viện Aspire, Doha, Qatar, đội tuyển U17 Việt Nam đã cầm hòa New Zealand với tỷ số 3-3 trong một trận cầu rượt đuổi tỷ số đầy kịch tính.",
+        "Trong suốt trận đấu, thầy trò HLV Cristiano Roland ba lần bị đối thủ dẫn trước nhưng đều kiên cường gỡ hòa thành công. Các bàn thắng của U17 Việt Nam được ghi nhờ công của Đại Nhân và pha lập công ấn định tỷ số 3-3 của Duy Khang ở những phút bù giờ hiệp hai.",
+        "Kết quả này mang ý nghĩa quan trọng, giúp đại diện Đông Nam Á giành điểm số đầu tiên tại đấu trường U17 World Cup. Trước đó, U17 Việt Nam từng để thua Bỉ 2-3 trong trận ra quân dù để lại dấu ấn với các pha lập công của Lê Sỹ Bách và Chu Ngọc Nguyễn Lực."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "U17 Việt Nam giành điểm số lịch sử tại U17 World Cup 2026",
+      "meta_description": "Cập nhật kết quả trận đấu U17 Việt Nam vs New Zealand tại U17 World Cup 2026 với tỷ số hòa 3-3 đầy kịch tính.",
+      "keywords": [
+        "U17 World Cup 2026",
+        "U17 Việt Nam",
+        "U17 New Zealand",
+        "bóng đá Việt Nam"
+      ],
+      "slug": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 161,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+        "https://tuoitre.vn/lien-doan-co-viet-nam-chung-tay-thap-sang-uoc-mo-cho-tre-em-ngheo-100261123164334842.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/lien-doan-co-viet-nam-chung-tay-thap-sang-uoc-mo-cho-tre-em-ngheo-100261123164334842.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T14:45:41+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/lien-doan-co-viet-nam-chung-tay-thap-sang-uoc-mo-cho-tre-em-ngheo-100261123164334842.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T12:12:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "U17 Việt Nam hòa New Zealand 3-3 tại lượt trận thứ hai bảng G U17 World Cup 2026.",
+          "source_urls": [
+            "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Các thành viên Việt Nam mừng bàn gỡ hòa 2-2 trong trận gặp New Zealand ở lượt hai bảng G U17 World Cup 2026, trên sân thuộc Học viện Aspire, Doha, Qatar, ngày 23/11/2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+              "snippet": "Các thành viên Việt Nam mừng bàn gỡ hòa 2-2 trong trận gặp New Zealand ở lượt hai bảng G U17 World Cup 2026, trên sân thuộc Học viện Aspire, Doha, Qatar, ngày 23/11/2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+              "page_sha256": "c5c612ddb3bc3c3b69198aabeaeda9d7ee5666601b82e985265cdeaeafe31bac",
+              "snippet_sha256": "17a456534a21378868cc479dcc603588b2a360e1ae8239a65bd9509c5e87b952",
+              "verified_at": "2026-11-24T06:24:24.392313+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "U17 Việt Nam ba lần bị dẫn trước nhưng đều gỡ hòa, trong đó Duy Khang ghi bàn ở phút bù giờ thứ hai.",
+          "source_urls": [
+            "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "U17 Việt Nam ba lần bị dẫn trước nhưng đều gỡ hòa, trong đó có bàn thắng của Duy Khang ở phút bù thứ hai.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+              "snippet": "U17 Việt Nam ba lần bị dẫn trước nhưng đều gỡ hòa, trong đó có bàn thắng của Duy Khang ở phút bù thứ hai.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+              "page_sha256": "c5c612ddb3bc3c3b69198aabeaeda9d7ee5666601b82e985265cdeaeafe31bac",
+              "snippet_sha256": "26fa39e2534d1f113d203d2ac847123ab4581b5ec277427f6144a153481774cf",
+              "verified_at": "2026-11-24T06:24:24.392313+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trận hòa mang lại điểm số đầu tiên cho U17 Việt Nam tại U17 World Cup 2026.",
+          "source_urls": [
+            "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trận hòa kịch tính giúp thầy trò Cristiano Roland giành điểm số đầu tiên tại U17 World Cup 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+              "snippet": "Trận hòa kịch tính giúp thầy trò Cristiano Roland giành điểm số đầu tiên tại U17 World Cup 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+              "page_sha256": "c5c612ddb3bc3c3b69198aabeaeda9d7ee5666601b82e985265cdeaeafe31bac",
+              "snippet_sha256": "677f70764a1fd7c394e911102805fe881f4684dc567a661cd4edeb000897ca64",
+              "verified_at": "2026-11-24T06:24:24.392313+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến chi tiết của trận hòa 3-3 giữa U17 Việt Nam và New Zealand tại bảng G U17 World Cup 2026. Đồng thời, văn bản kết nối kết quả này với bối cảnh thi đấu và hành trình của đội bóng tại giải đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T06:24:24.393106+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "17",
+        "2026"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T06:24:24.394140+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 161,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 721
+        },
+        "independent_domains": [
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-24T06:24:42.380673+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-24T06:24:42.380673+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 3,
+        "words": 161,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 721,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/truc-tiep-viet-nam-vs-new-zealand-5148242.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T06:24:14.404079+00:00",
+    "expires_at": "2026-11-25T06:24:14.404079+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+      "https://vnexpress.net/kinh-ngu-17-tuoi-pha-5-ky-luc-dai-hoi-the-thao-toan-quoc-5148238.html",
+      "https://thanhnien.vn/concert-cua-my-tam-dan-dau-dai-hoi-the-thao-toan-quoc-bat-ngo-gay-sot-185261124114021123.htm",
+      "https://dantri.com.vn/the-thao/anh-vien-co-hcv-nu-kinh-ngu-17-tuoi-toa-sang-o-dai-hoi-the-thao-toan-quoc-20261123231601673.htm"
+    ],
+    "article": {
+      "id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "title": "Vận động viên 15 tuổi Nguyễn Thị Thu Huyền giành huy chương cầu lông tại Đại hội Thể thao toàn quốc 2026",
+      "summary": "Mới 15 tuổi và lần đầu tham dự Đại hội Thể thao toàn quốc 2026, tài năng trẻ Nguyễn Thị Thu Huyền của đoàn Đồng Nai đã xuất sắc giành quyền vào bán kết đơn nữ môn cầu lông, qua đó chắc chắn sở hữu ít nhất một huy chương.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+      "published_at": "2026-11-23T16:06:00+00:00",
+      "fetched_at": "2026-11-24T06:24:30.029806+00:00",
+      "appnho_published_at": "2026-11-24T06:24:42.380673+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại môn cầu lông thuộc Đại hội Thể thao toàn quốc 2026, tài năng trẻ Nguyễn Thị Thu Huyền của đoàn Đồng Nai đã để lại dấu ấn đậm nét khi giành quyền vào bán kết nội dung đơn nữ. Sinh năm 2011 và mới 15 tuổi, tay vợt này lần đầu góp mặt tại sân chơi thể thao lớn nhất Việt Nam được tổ chức bốn năm một lần.",
+        "Trong trận tứ kết diễn ra vào tối 23-11, Thu Huyền đối đầu với Lê Nguyễn Ngọc Nga đến từ TP.HCM. Đại diện của đoàn Đồng Nai thể hiện sự tự tin, khả năng điều cầu linh hoạt cùng lối chơi phòng thủ chắc chắn để giành chiến thắng sau hai ván đấu, qua đó chính thức tiến vào nhóm bốn tay vợt mạnh nhất và chắc chắn có ít nhất tấm huy chương đồng.",
+        "Trước đó, tay vợt trẻ được giới chuyên môn gọi bằng biệt danh tiểu Thùy Linh này cũng đã có một huy chương đồng ở nội dung đồng đội nữ cùng đội Đồng Nai do đội được vào thẳng bán kết. Tuy nhiên, tấm huy chương cá nhân ở nội dung đơn nữ lần này mang ý nghĩa đặc biệt hơn khi cô phải tự mình vượt qua các đối thủ qua các vòng đấu loại trực tiếp.",
+        "Quá trình phát triển của Thu Huyền trong những năm gần đây ghi nhận nhiều dấu mốc quan trọng. Năm 2024, cô từng giành huy chương bạc Giải cầu lông trẻ châu Á. Đến năm 2026, tay vợt này tiếp tục giành 2 huy chương bạc tại Giải cầu lông trẻ Philippines Junior International Series và là đại diện duy nhất của cầu lông Việt Nam tham dự Olympic trẻ tại Ai Cập.",
+        "Bước vào vòng bán kết của đại hội, Thu Huyền sẽ chạm trán với tay vợt kỳ cựu Vũ Thị Trang. Việc được tập luyện và thi đấu cùng các đàn chị tên tuổi như Nguyễn Thùy Linh và Vũ Thị Trang trong màu áo Đồng Nai mang đến cho tay vợt 15 tuổi những trải nghiệm quý báu để tiếp tục tích lũy kinh nghiệm và hoàn thiện bản lĩnh thi đấu trong chặng đường sắp tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "VĐV 15 tuổi Nguyễn Thị Thu Huyền giành huy chương cầu lông Đại hội Thể",
+      "meta_description": "Tài năng trẻ cầu lông Nguyễn Thị Thu Huyền, sinh năm 2011, đã giành vé vào bán kết đơn nữ tại Đại hội Thể thao toàn quốc 2026 và chắc chắn có huy chương.",
+      "keywords": [
+        "Nguyễn Thị Thu Huyền",
+        "cầu lông",
+        "Đại hội Thể thao toàn quốc 2026",
+        "tiểu Thùy Linh",
+        "Đồng Nai"
+      ],
+      "slug": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 374,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+        "https://vnexpress.net/kinh-ngu-17-tuoi-pha-5-ky-luc-dai-hoi-the-thao-toan-quoc-5148238.html",
+        "https://thanhnien.vn/concert-cua-my-tam-dan-dau-dai-hoi-the-thao-toan-quoc-bat-ngo-gay-sot-185261124114021123.htm",
+        "https://dantri.com.vn/the-thao/anh-vien-co-hcv-nu-kinh-ngu-17-tuoi-toa-sang-o-dai-hoi-the-thao-toan-quoc-20261123231601673.htm"
+      ],
+      "source_links": [
+        "https://vnexpress.net/kinh-ngu-17-tuoi-pha-5-ky-luc-dai-hoi-the-thao-toan-quoc-5148238.html",
+        "https://thanhnien.vn/concert-cua-my-tam-dan-dau-dai-hoi-the-thao-toan-quoc-bat-ngo-gay-sot-185261124114021123.htm",
+        "https://dantri.com.vn/the-thao/anh-vien-co-hcv-nu-kinh-ngu-17-tuoi-toa-sang-o-dai-hoi-the-thao-toan-quoc-20261123231601673.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T16:06:00+00:00"
+        },
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/kinh-ngu-17-tuoi-pha-5-ky-luc-dai-hoi-the-thao-toan-quoc-5148238.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T15:46:54+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/concert-cua-my-tam-dan-dau-dai-hoi-the-thao-toan-quoc-bat-ngo-gay-sot-185261124114021123.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T05:15:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/anh-vien-co-hcv-nu-kinh-ngu-17-tuoi-toa-sang-o-dai-hoi-the-thao-toan-quoc-20261123231601673.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T23:33:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nguyễn Thị Thu Huyền sinh năm 2011, mới 15 tuổi và lần đầu tham dự Đại hội Thể thao toàn quốc.",
+          "source_urls": [
+            "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Sinh năm 2011, Thu Huyền mới 15 tuổi và được giới cầu lông gọi bằng biệt danh \"tiểu Thùy Linh\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "snippet": "Sinh năm 2011, Thu Huyền mới 15 tuổi và được giới cầu lông gọi bằng biệt danh \"tiểu Thùy Linh\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "page_sha256": "2856e382b0b247e383a54d72992070ec61c167ede6379adc2d99416c82eba8b5",
+              "snippet_sha256": "5633bf3a727e08b180fec29415b166dce79f59bf662dca12a52cdcee1cc022fc",
+              "verified_at": "2026-11-24T06:24:30.029019+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thu Huyền đánh bại Lê Nguyễn Ngọc Nga của TP.HCM sau 2 ván ở tứ kết đơn nữ tối 23-11 để vào bán kết và chắc chắn có huy chương đồng.",
+          "source_urls": [
+            "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Đại diện Đồng Nai thể hiện sự tự tin, khả năng điều cầu linh hoạt cùng lối chơi phòng thủ chắc chắn để giành chiến thắng sau 2 ván.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "snippet": "Đại diện Đồng Nai thể hiện sự tự tin, khả năng điều cầu linh hoạt cùng lối chơi phòng thủ chắc chắn để giành chiến thắng sau 2 ván.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "page_sha256": "2856e382b0b247e383a54d72992070ec61c167ede6379adc2d99416c82eba8b5",
+              "snippet_sha256": "f7db0cc58c5bdade097fc93598791b90e0f8a62bcb278642f791aaba0729a2ce",
+              "verified_at": "2026-11-24T06:24:30.029019+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thu Huyền từng giành huy chương bạc Giải cầu lông trẻ châu Á năm 2024 và 2 huy chương bạc tại Giải cầu lông trẻ Philippines Junior International Series năm 2026.",
+          "source_urls": [
+            "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tay vợt Đồng Nai giành 2 huy chương bạc tại Giải cầu lông trẻ Philippines Junior International Series, đồng thời là đại diện duy nhất của cầu lông Việt Nam tham dự Olympic trẻ tại Ai Cập.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "snippet": "Tay vợt Đồng Nai giành 2 huy chương bạc tại Giải cầu lông trẻ Philippines Junior International Series, đồng thời là đại diện duy nhất của cầu lông Việt Nam tham dự Olympic trẻ tại Ai Cập.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "page_sha256": "2856e382b0b247e383a54d72992070ec61c167ede6379adc2d99416c82eba8b5",
+              "snippet_sha256": "cb5e3b031a8b1a20201051489c1615e6b753f22f2a595bfb23ed64774e1e2ba0",
+              "verified_at": "2026-11-24T06:24:30.029019+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ cột mốc đáng chú ý của tài năng trẻ Nguyễn Thị Thu Huyền tại Đại hội Thể thao toàn quốc 2026. Bối cảnh chuyên môn và hành trình tích lũy kinh nghiệm quốc tế của vận động viên 15 tuổi được đặt cạnh các đối thủ lớn như Vũ Thị Trang và Nguyễn Thùy Linh.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T06:24:30.029926+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "15",
+        "2",
+        "2011",
+        "2024",
+        "2026"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T06:24:42.380673+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 374,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1698,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 13:24"
+    },
+    "published_at": "2026-11-24T06:24:42.380673+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8",
+    "status": "HOLD",
+    "prepared_at": "2026-11-24T06:24:14.404079+00:00",
+    "expires_at": "2026-11-25T06:24:14.404079+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+      "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says"
+    ],
+    "article": {
+      "id": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8",
+      "title": "SEC chuẩn bị họp bàn về tư cách thành viên của LSU trong bối cảnh tranh chấp pháp lý leo thang",
+      "summary": "Liên đoàn Thể thao Đông Nam Bộ (SEC) lên kế hoạch họp vào ngày 3 tháng 12 để xem xét tư cách thành viên của Đại học Louisiana State (LSU), sau những căng thẳng pháp lý liên quan đến quyền lực quản lý và tư cách thi đấu của cầu thủ.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+      "published_at": "2026-11-24T01:28:54+00:00",
+      "fetched_at": "2026-11-24T06:24:39.614585+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Liên đoàn Thể thao Đông Nam Bộ (SEC) thông báo các hiệu trưởng và chủ tịch trường thành viên sẽ tổ chức cuộc họp vào thứ Năm, ngày 3 tháng 12, để thảo luận về tư cách tiếp tục tham gia liên đoàn của Đại học Louisiana State (LSU). Động thái này diễn ra trong bối cảnh tranh chấp pháp lý giữa liên đoàn và nhà trường đang ngày càng gia tăng liên quan đến các chính sách quản lý thể thao.",
+        "Căng thẳng bùng phát sau khi LSU quyết định cho cầu thủ RJ Luis ra sân dựa trên lệnh của tòa án tiểu bang. Trước đó, SEC đã ban hành các quy định mới vào tháng 8, cho phép đình chỉ huấn luyện viên và áp dụng các hình phạt tài chính đáng kể đối với những chương trình thể thao sử dụng cựu vận động viên chuyên nghiệp.",
+        "Bên cạnh động thái của liên đoàn, luật sư đại diện cho RJ Luis tuyên bố cầu thủ này sẽ kiện SEC và ủy viên liên đoàn Greg Sankey đòi bồi thường thiệt hại. Phía luật sư cáo buộc liên đoàn đã phớt lờ lệnh của tòa án và tổ chức tẩy chay diện rộng đối với nhà trường.",
+        "Trong khi đó, phía Tổng chưởng lý bang Georgia Christopher Carr cũng từng thúc giục ủy viên Greg Sankey cân nhắc các biện pháp kỷ luật đối với LSU, bao gồm khả năng trục xuất khỏi liên đoàn. Cuộc họp sắp tới được giới quan sát đánh giá là bước ngoặt quan trọng trong mối quan hệ giữa nhà trường và SEC."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "SEC xem xét tư cách thành viên của LSU sau tranh chấp pháp lý",
+      "meta_description": "SEC thông báo họp bàn về tư cách thành viên của LSU sau các tranh chấp pháp lý xoay quanh quy định thể thao và cầu thủ RJ Luis.",
+      "keywords": [
+        "SEC",
+        "LSU",
+        "RJ Luis",
+        "Greg Sankey",
+        "bong ro NCAA"
+      ],
+      "slug": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 272,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+        "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says"
+      ],
+      "source_links": [
+        "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T01:28:54+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T05:05:09+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "SEC thông báo hội đồng các chủ tịch và hiệu trưởng sẽ họp vào ngày 3 tháng 12 để thảo luận về tư cách thành viên của LSU.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d"
+          ],
+          "importance": "core",
+          "evidence_snippet": "He previously wrote for Sports Illustrated, SB Nation and Athlon Sports.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+              "snippet": "He previously wrote for Sports Illustrated, SB Nation and Athlon Sports.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+              "page_sha256": "390b4af802b85a84014356159bf76e31b426aa407140ef24accad378a0a754fc",
+              "snippet_sha256": "2e54c25f032ad5cbeeaf30526b283a59d7c48d931c4d095c9a6842d0c0350c2d",
+              "verified_at": "2026-11-24T06:24:39.613932+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tranh chấp bắt nguồn từ quyết định của LSU khi cho cầu thủ RJ Luis ra sân thi đấu dựa theo lệnh của tòa án tiểu bang.",
+          "source_urls": [
+            "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says"
+          ],
+          "importance": "core",
+          "evidence_snippet": "13, Luis -- the 2025 Big East Player of the Year who starred atSt.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says",
+              "snippet": "13, Luis -- the 2025 Big East Player of the Year who starred atSt.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says",
+              "page_sha256": "6cc554ac287953d14074600a295f38cb0720fe35a25b8f7567de55c864f1230d",
+              "snippet_sha256": "d875ec661a9ce21b0d3688ad0b518cdac6a673a5eb4854e0a4e7e8c7a3554411",
+              "verified_at": "2026-11-24T06:24:39.613932+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Luật sư đại diện cho RJ Luis cho biết sẽ kiện SEC và ủy viên Greg Sankey đòi bồi thường thiệt hại.",
+          "source_urls": [
+            "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "RJ Luis Jr.will sue the SEC and commissioner Greg Sankey for damages in the days ahead, his attorney, Tony Clayton, told ESPN on Monday, for violating a judge's order that had given the former All-American the green light to play another season before the league threatened potential expulsion following his first and only appearance forLSUlast week.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says",
+              "snippet": "RJ Luis Jr.will sue the SEC and commissioner Greg Sankey for damages in the days ahead, his attorney, Tony Clayton, told ESPN on Monday, for violating a judge's order that had given the former All-American the green light to play another season before the league threatened potential expulsion following his first and only appearance forLSUlast week.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says",
+              "page_sha256": "6cc554ac287953d14074600a295f38cb0720fe35a25b8f7567de55c864f1230d",
+              "snippet_sha256": "0420f44e5e3b90f60a121ec7310c1003cc69d34e4369d9c5cf695c61be2df9cd",
+              "verified_at": "2026-11-24T06:24:39.613932+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng chưởng lý bang Georgia Christopher Carr từng hối thúc ủy viên Greg Sankey xem xét hình thức kỷ luật LSU, gồm cả khả năng trục xuất.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Georgia Attorney General Christopher Carr also urged SEC Commissioner Greg Sankey to consider disciplinary action against LSU, including possible expulsion from the conference.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+              "snippet": "Georgia Attorney General Christopher Carr also urged SEC Commissioner Greg Sankey to consider disciplinary action against LSU, including possible expulsion from the conference.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+              "page_sha256": "390b4af802b85a84014356159bf76e31b426aa407140ef24accad378a0a754fc",
+              "snippet_sha256": "6868ee5fbdb4b94d7a963a66eae6ae7f1cb2b9e197d508e79e62a7ce491fe288",
+              "verified_at": "2026-11-24T06:24:39.613932+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lịch trình cuộc họp quan trọng của hội đồng SEC vào ngày 3 tháng 12 và xâu chuỗi các diễn biến pháp lý giữa nhà trường, liên đoàn cùng phía cầu thủ RJ Luis. Qua đó, phân tích tác động từ các quy định mới của SEC đối với quyền tự trị và nguy cơ bị trục xuất của LSU.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T06:24:39.614689+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-24T06:24:39.615766+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 272,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1266
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-24T06:24:42.380673+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-24T06:24:42.380673+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 272,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1266,
+        "source_access": [
+          {
+            "url": "https://www.sportingnews.com/us/ncaa-football/lsu/news/sec-officials-set-deliberate-lsus-membership-conference/9b9ec25acef8ca775e721d0d",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.espn.com/mens-college-basketball/story/_/id/50578772/rj-luis-plans-sue-sec-greg-sankey-damages-lsu-eligibility-saga-attorney-says",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]

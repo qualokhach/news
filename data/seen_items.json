@@ -115,7 +115,8 @@
       "source_name": "Sporting News - Soccer",
       "category": "sports",
       "first_seen_at": "2026-11-24T05:35:09.594814+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8"
     },
     "https://www.sportingnews.com/us/culture/trending/news/brittany-mahomes-has-touching-moment-trinity-rodman-after-kc-current-win/0fd5041d538404b828ea173a": {
       "id": "f476a24f0b1dbc9bf801",
@@ -259,7 +260,8 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-24T05:35:09.594765+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "sec-chuan-bi-hop-ban-ve-tu-cach-thanh-vien-cua-lsu-trong-boi-canh-tranh--d3992eb8"
     },
     "https://www.espn.com/mens-college-basketball/story/_/id/50577602/sec-consider-termination-lsu-membership": {
       "id": "7c58782bc2472d611d53",
@@ -529,7 +531,8 @@
       "source_name": "VnExpress - Thể thao",
       "category": "sports",
       "first_seen_at": "2026-11-24T05:35:09.594655+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b"
     },
     "https://vnexpress.net/kinh-ngu-17-tuoi-pha-5-ky-luc-dai-hoi-the-thao-toan-quoc-5148238.html": {
       "id": "712a3acb5028c88024fd",
@@ -538,7 +541,9 @@
       "source_name": "VnExpress - Thể thao",
       "category": "sports",
       "first_seen_at": "2026-11-24T05:35:09.594652+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://vnexpress.net/vo-cu-ryan-lochte-dau-gia-nhan-cuoi-de-tra-no-5147728.html": {
       "id": "a19eec23a62f9bbf0ee4",
@@ -646,8 +651,9 @@
       "source_name": "Engadget - All",
       "category": "technology",
       "first_seen_at": "2026-11-24T05:35:09.594616+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287"
+      "status": "published",
+      "article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://www.engadget.com/2320294/reasons-android-phone-icons-wont-move-fix": {
       "id": "d2811d8c4f4778cf64ec",
@@ -836,7 +842,9 @@
       "source_name": "The Verge - All",
       "category": "technology",
       "first_seen_at": "2026-11-24T05:35:09.594556+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing": {
       "id": "179fd3db322f1a8d4c11",
@@ -1367,8 +1375,9 @@
       "source_name": "VnExpress - Kinh doanh",
       "category": "vietnam",
       "first_seen_at": "2026-11-24T05:35:09.594373+00:00",
-      "status": "ready_for_publish",
-      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92"
+      "status": "published",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://vnexpress.net/hanwha-life-khai-truong-van-phong-moi-tai-ifc-hanoi-5148058.html": {
       "id": "b1f5392a3958bb762100",
@@ -1620,7 +1629,9 @@
       "source_name": "VnExpress - Kinh doanh",
       "category": "vietnam",
       "first_seen_at": "2026-11-24T05:35:09.594289+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://www.bbc.co.uk/sport/football/articles/cxq6e9vlp39jo?at_medium=RSS&at_campaign=rss": {
       "id": "cd84034b13273cd2e643",
@@ -2412,7 +2423,9 @@
       "source_name": "BBC News - World",
       "category": "world",
       "first_seen_at": "2026-11-24T05:35:09.594002+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://dantri.com.vn/lao-dong-viec-lam/hieu-qua-tu-hoat-dong-dua-nguoi-viet-nam-di-lam-viec-o-nuoc-ngoai-20261123175554727.htm": {
       "id": "f1c498575b0c370c9d54",
@@ -2520,7 +2533,9 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-24T05:35:09.593962+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://dantri.com.vn/dt360/nvidia-bat-ngo-dua-ty-phu-jensen-huang-tro-lai-ghe-ceo-20261124061406479.htm": {
       "id": "2c73893aaf5b7465b576",
@@ -3834,7 +3849,9 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-24T05:35:09.593465+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://thanhnien.vn/nguoi-hue-mac-ao-dai-dap-xe-dieu-hanh-lan-toa-tinh-yeu-van-hoa-185261124094056916.htm": {
       "id": "a5ddc56665cdefa07aec",
@@ -3924,8 +3941,9 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-24T05:35:09.593435+00:00",
-      "status": "ready_for_publish",
-      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92"
+      "status": "published",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://vnexpress.net/kinh-te-bac-co-hoi-tu-16-5-trieu-nguoi-cao-tuoi-5147144.html": {
       "id": "bca43221781f299125fe",
@@ -5101,8 +5119,9 @@
       "source_name": "The Guardian - Sport",
       "category": "sports",
       "first_seen_at": "2026-11-23T20:37:12.608912+00:00",
-      "status": "ready_for_publish",
-      "article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287"
+      "status": "published",
+      "article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://www.theguardian.com/sport/2026/nov/23/game-over-how-playing-grand-theft-auto-vi-is-affecting-elite-athletes-performances": {
       "id": "a979d97b05852d6fac7e",
@@ -7343,8 +7362,9 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-23T20:37:12.608073+00:00",
-      "status": "ready_for_publish",
-      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92"
+      "status": "published",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://thanhnien.vn/nguyen-luc-lai-lap-sieu-pham-u17-viet-nam-hoa-nghet-tho-new-zealand-diem-so-lich-su-tai-world-cup-185261124001446354.htm": {
       "id": "6b8e750e465e60eab575",
@@ -7587,7 +7607,9 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-23T20:37:12.607986+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://tuoitre.vn/vi-sao-ong-jensen-huang-duoc-nvidia-phuc-chuc-100261123221101465.htm": {
       "id": "fdc4410df3df40475f5a",
@@ -11180,8 +11202,9 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-23T13:42:40.216982+00:00",
-      "status": "ready_for_publish",
-      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92"
+      "status": "published",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00"
     },
     "https://dantri.com.vn/thoi-su/nhieu-nguyen-lanh-dao-dang-nha-nuoc-nhan-quyet-dinh-nghi-huu-tu-112-20261123184535835.htm": {
       "id": "d86fa4e4042aae80c2b3",
@@ -11817,7 +11840,8 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-23T13:42:40.216467+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "u17-viet-nam-gianh-tran-hoa-lich-su-truoc-new-zealand-tai-world-cup-48c2ff3b"
     },
     "https://tuoitre.vn/them-ba-sep-trong-hdqt-pnj-xin-tu-nhiem-giam-doc-cao-cap-marketing-cung-nghi-100261123184618245.htm": {
       "id": "e37778b96f9611f6c290",
@@ -179490,110 +179514,6 @@
   },
   "source_usage": [
     {
-      "source_name": "Sporting News - Soccer",
-      "source_url": "https://www.sportingnews.com/us/ncaa-basketball/news/andrej-stojakovic-breaks-69-year-old-record-historic-performance-against-duke/fdf8870cb18929027a22a365",
-      "category": "sports",
-      "article_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "The Guardian - Sport",
-      "source_url": "https://www.theguardian.com/sport/2026/nov/18/ten-is-the-minimum-14-year-old-surfing-champion-leihani-zoric-aims-for-record-world-title-haul",
-      "category": "sports",
-      "article_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "CBS Sports - Soccer",
-      "source_url": "https://www.cbssports.com/soccer/news/ronaldinho-46-year-old-return-soccer-italian-third-division-ravenna",
-      "category": "sports",
-      "article_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "CNBC - Top News",
-      "source_url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
-      "category": "sports",
-      "article_id": "andrej-stojakovic-pha-ky-luc-ton-tai-69-nam-voi-man-trinh-dien-lich-su-t-bb744f75",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "Sporting News - Soccer",
-      "source_url": "https://www.sportingnews.com/us/ncaa-basketball/duke/news/duke-basketball-suffers-its-worst-home-loss-more-four-decades/fbfb2c58363dc348bf84eac3",
-      "category": "sports",
-      "article_id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "CNBC - Top News",
-      "source_url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
-      "category": "sports",
-      "article_id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "The Guardian - World",
-      "source_url": "https://www.theguardian.com/technology/2026/nov/15/ethnic-minorities-wales-police-facial-scans-data",
-      "category": "sports",
-      "article_id": "tran-thua-lich-su-tren-san-nha-cua-oi-bong-ro-duke-81ab7d59",
-      "published_at": "2026-11-18T13:28:53.069022+00:00",
-      "recorded_at": "2026-11-18T13:28:53.069022+00:00"
-    },
-    {
-      "source_name": "ESPN - Top News",
-      "source_url": "https://www.espn.com/college-football/story/_/id/50519786/bottom-10-week-11-clemson-steve-harvey",
-      "category": "sports",
-      "article_id": "steve-harvey-nguoi-khai-sinh-bang-xep-hang-bong-da-bottom-10-qua-doi-o-t-342a0cb1",
-      "published_at": "2026-11-18T18:26:46.828372+00:00",
-      "recorded_at": "2026-11-18T18:26:46.828372+00:00"
-    },
-    {
-      "source_name": "Sporting News - Soccer",
-      "source_url": "https://www.sportingnews.com/us/womens-college-basketball/news/watch-south-carolina-usc-womens-basketball-channel-time-schedule-stream/3e3cd2436fe7545d07f23a90",
-      "category": "sports",
-      "article_id": "steve-harvey-nguoi-khai-sinh-bang-xep-hang-bong-da-bottom-10-qua-doi-o-t-342a0cb1",
-      "published_at": "2026-11-18T18:26:46.828372+00:00",
-      "recorded_at": "2026-11-18T18:26:46.828372+00:00"
-    },
-    {
-      "source_name": "TechCrunch - All",
-      "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
-      "category": "technology",
-      "article_id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
-      "published_at": "2026-11-18T18:26:46.828372+00:00",
-      "recorded_at": "2026-11-18T18:26:46.828372+00:00"
-    },
-    {
-      "source_name": "The Verge - All",
-      "source_url": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
-      "category": "technology",
-      "article_id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
-      "published_at": "2026-11-18T18:26:46.828372+00:00",
-      "recorded_at": "2026-11-18T18:26:46.828372+00:00"
-    },
-    {
-      "source_name": "NPR - News",
-      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
-      "category": "technology",
-      "article_id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
-      "published_at": "2026-11-18T18:26:46.828372+00:00",
-      "recorded_at": "2026-11-18T18:26:46.828372+00:00"
-    },
-    {
-      "source_name": "Wired - All",
-      "source_url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue",
-      "category": "technology",
-      "article_id": "nhieu-ngan-hang-lon-tai-my-tu-choi-chiu-trach-nhiem-khi-khach-hang-dung--f1437a98",
-      "published_at": "2026-11-18T18:26:46.828372+00:00",
-      "recorded_at": "2026-11-18T18:26:46.828372+00:00"
-    },
-    {
       "source_name": "BBC - Business",
       "source_url": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
       "category": "technology",
@@ -181088,6 +181008,110 @@
       "article_id": "toi-23-11-gia-vang-va-bac-quoc-te-cung-bat-tang-manh-sau-nhip-giam-sau-8a44e5e4",
       "published_at": "2026-11-23T21:46:44.279512+00:00",
       "recorded_at": "2026-11-23T21:46:44.279512+00:00"
+    },
+    {
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "category": "technology",
+      "article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/sai-lam-tri-gia-1-500-ty-usd-cua-hdqt-nvidia-gop-phan-dua-jensen-huang-tro-lai-5148316.html",
+      "category": "technology",
+      "article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "category": "technology",
+      "article_id": "su-tro-lai-cua-ceo-nvidia-jensen-huang-duoi-ap-luc-chinh-tri-va-lan-song-a310c662",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/15-tuoi-tieu-thuy-linh-gianh-huy-chuong-cau-long-dai-hoi-the-thao-toan-quoc-100261123224140821.htm",
+      "category": "sports",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/kinh-ngu-17-tuoi-pha-5-ky-luc-dai-hoi-the-thao-toan-quoc-5148238.html",
+      "category": "sports",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/concert-cua-my-tam-dan-dau-dai-hoi-the-thao-toan-quoc-bat-ngo-gay-sot-185261124114021123.htm",
+      "category": "sports",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-thao/anh-vien-co-hcv-nu-kinh-ngu-17-tuoi-toa-sang-o-dai-hoi-the-thao-toan-quoc-20261123231601673.htm",
+      "category": "sports",
+      "article_id": "van-ong-vien-15-tuoi-nguyen-thi-thu-huyen-gianh-huy-chuong-cau-long-tai--4d7565ee",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+      "category": "technology",
+      "article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile",
+      "category": "technology",
+      "article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+      "category": "world",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/san-bay-gia-binh-xuc-tien-hop-tac-65-hang-hang-khong-quoc-te-5148047.html",
+      "category": "world",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-hut-3-diem-tay-ban-nha-thang-fiji-15-0-185261124002203999.htm",
+      "category": "world",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-gioi/nguoi-tre-trung-quoc-thu-suc-nghe-dac-biet-de-du-lich-the-gioi-mien-phi-20261123174602792.htm",
+      "category": "world",
+      "article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "published_at": "2026-11-24T06:24:42.380673+00:00",
+      "recorded_at": "2026-11-24T06:24:42.380673+00:00"
     }
   ],
   "last_run_window_end": "2026-11-24T05:34:03.692556+00:00"
