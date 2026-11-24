@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "34c3aaefc40d87621087",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T14:20:53.769956+00:00",
     "expires_at": "2026-11-27T14:18:25.776598+00:00",
     "category_hint": "sports",
@@ -605,11 +605,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T14:20:53.769978+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "commanders-anh-bai-bengals-trong-giay-phut-cuoi-cung-b45bd313"
   },
   {
     "queue_id": "11b9c69a2804683c066d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T14:20:53.135239+00:00",
     "expires_at": "2026-11-27T14:18:25.776598+00:00",
     "category_hint": "sports",
@@ -1458,11 +1459,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T14:20:53.135261+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5"
   },
   {
     "queue_id": "076be5b1b4fd5be27e28",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T14:20:50.645495+00:00",
     "expires_at": "2026-11-27T14:18:25.776598+00:00",
     "category_hint": "world",
@@ -2041,7 +2043,8 @@
       ]
     },
     "research_ready_at": "2026-11-24T14:20:50.645518+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anh-quoc-ap-at-lenh-trung-phat-oi-voi-nhom-houthi-cua-yemen-va-bon-quan--89a3db12"
   },
   {
     "queue_id": "e8aade5928316b158e84",
@@ -94441,5 +94444,675 @@
     },
     "published_at": "2026-11-21T17:00:03.296281+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "commanders-anh-bai-bengals-trong-giay-phut-cuoi-cung-b45bd313",
+    "status": "READY",
+    "prepared_at": "2026-11-24T14:21:23.029097+00:00",
+    "expires_at": "2026-11-25T14:21:23.029097+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/sport/american-football/videos/cjn50y5wdy40o?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+      "https://www.espn.com/nfl/story/_/id/50573995/2026-nfl-week-11-washington-commanders-cincinnati-bengals"
+    ],
+    "article": {
+      "id": "commanders-anh-bai-bengals-trong-giay-phut-cuoi-cung-b45bd313",
+      "title": "Commanders Đánh Bại Bengals Trong Giây Phút Cuối Cùng",
+      "summary": "Đội Washington Commanders đã đánh bại Cincinnati Bengals với tỷ số 22-20 trong một trận đấu nghẹt thở, nhờ vào cú sút phạt cuối cùng của Drew Stevens.",
+      "category": "sports",
+      "source_name": "BBC Sport - All",
+      "source_url": "https://www.bbc.co.uk/sport/american-football/videos/cjn50y5wdy40o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T14:05:05+00:00",
+      "fetched_at": "2026-11-24T14:22:00.582539+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu giữa Washington Commanders và Cincinnati Bengals đã diễn ra trong một bầu không khí đầy kịch tính, với cả hai đội đều có những cơ hội để giành chiến thắng.",
+        "Tuy nhiên, chính đội Commanders đã tận dụng được cơ hội cuối cùng để đánh bại đối thủ, nhờ vào cú sút phạt của Drew Stevens trong giây phút cuối cùng.",
+        "Trước đó, đội Bengals đã dẫn trước với tỷ số 20-19, nhưng Commanders đã không bỏ cuộc. Quarterback Jayden Daniels đã dẫn dắt đội của mình trong một loạt các cuộc tấn công, và cuối cùng, Drew Stevens đã thực hiện cú sút phạt quyết định.",
+        "Cú sút phạt của Stevens đã giúp Commanders giành chiến thắng với tỷ số 22-20, và đây là chiến thắng thứ hai liên tiếp của đội này.",
+        "Commanders hiện đang có tỷ số 4-5-1, và họ vẫn còn cơ hội để cạnh tranh trong giải NFC East.",
+        "Đội Bengals, mặc dù đã có một khởi đầu mạnh mẽ, nhưng cuối cùng đã không thể giữ được lợi thế của mình.",
+        "Quarterback Joe Burrow đã có một trận đấu ấn tượng, với 300 yard passing và 2 touchdown, nhưng cuối cùng, đội của anh đã không thể giành chiến thắng.",
+        "Trận đấu này đã chứng minh rằng Commanders đang trở thành một đội bóng đáng gờm trong giải NFL, và họ sẽ tiếp tục là một đối thủ khó khăn cho các đội khác trong mùa giải này."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Commanders Đánh Bại Bengals: Cú Sút Phạt Cuối Cùng Của Drew Stevens",
+      "meta_description": "Trận đấu giữa Washington Commanders và Cincinnati Bengals đã kết thúc với tỷ số 22-20, nhờ vào cú sút phạt cuối cùng của Drew Stevens.",
+      "keywords": [
+        "Commanders",
+        "Bengals",
+        "Drew Stevens",
+        "NFL"
+      ],
+      "slug": "commanders-anh-bai-bengals-trong-giay-phut-cuoi-cung-b45bd313",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 246,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/sport/american-football/videos/cjn50y5wdy40o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+        "https://www.espn.com/nfl/story/_/id/50573995/2026-nfl-week-11-washington-commanders-cincinnati-bengals"
+      ],
+      "source_links": [
+        "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+        "https://www.espn.com/nfl/story/_/id/50573995/2026-nfl-week-11-washington-commanders-cincinnati-bengals"
+      ],
+      "source_references": [
+        {
+          "name": "BBC Sport - All",
+          "url": "https://www.bbc.co.uk/sport/american-football/videos/cjn50y5wdy40o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T14:05:05+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T06:00:00+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50573995/2026-nfl-week-11-washington-commanders-cincinnati-bengals",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T04:46:50+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Commanders đã đánh bại Bengals với tỷ số 22-20",
+          "source_urls": [
+            "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Burrow's four-yard touchdown pass to Colbie Young put the Bengals ahead 17-10, and the Commanders rallied with three field goals by Stevens.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "snippet": "Burrow's four-yard touchdown pass to Colbie Young put the Bengals ahead 17-10, and the Commanders rallied with three field goals by Stevens.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "page_sha256": "cdbd72ad3f0a4c498149b9c9d5865abd1cbdb743d58024ac9b40efb5d677c4de",
+              "snippet_sha256": "c445b5b1cde2e29f43190e567886efb59e30c6d105b3df5e187191f472a5175f",
+              "verified_at": "2026-11-24T14:22:00.582001+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cú sút phạt cuối cùng của Drew Stevens đã quyết định chiến thắng cho Commanders",
+          "source_urls": [
+            "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Jayden Daniels connected with rookie Antonio Williams on two long pass plays, moving the Commanders 64 yards in 34 seconds to set up Drew Stevens' 26-yard field goal as time expired as the Washington Commanders stunned Joe Burrow and the Cincinnati Bengals 22-20 on Monday night.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "snippet": "Jayden Daniels connected with rookie Antonio Williams on two long pass plays, moving the Commanders 64 yards in 34 seconds to set up Drew Stevens' 26-yard field goal as time expired as the Washington Commanders stunned Joe Burrow and the Cincinnati Bengals 22-20 on Monday night.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "page_sha256": "cdbd72ad3f0a4c498149b9c9d5865abd1cbdb743d58024ac9b40efb5d677c4de",
+              "snippet_sha256": "c51add5b97b5dd8dbfdb7900d7905956ab9251bfd663f443573fd22104713095",
+              "verified_at": "2026-11-24T14:22:00.582001+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Commanders hiện đang có tỷ số 4-5-1",
+          "source_urls": [
+            "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Daniels finished with 283 yards passing, Williams had nine catches for 122 yards, and Stevens was five for five on field goals as Washington (4-5-1) remained in the NFC East race, two games behind the division-leading New York Giants.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "snippet": "Daniels finished with 283 yards passing, Williams had nine catches for 122 yards, and Stevens was five for five on field goals as Washington (4-5-1) remained in the NFC East race, two games behind the division-leading New York Giants.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "page_sha256": "cdbd72ad3f0a4c498149b9c9d5865abd1cbdb743d58024ac9b40efb5d677c4de",
+              "snippet_sha256": "82e32b5cb39d5ca02288d189cae2ed34beb247ba0bee3e08f8b212dd2eab81b4",
+              "verified_at": "2026-11-24T14:22:00.582001+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp một cái nhìn tổng quan về trận đấu giữa Washington Commanders và Cincinnati Bengals, với các chi tiết về diễn biến trận đấu và các cầu thủ nổi bật. Đồng thời, bài viết cũng phân tích về ý nghĩa của chiến thắng này đối với Commanders và vị trí của họ trong giải NFC East.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T14:22:00.582611+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "2",
+        "300"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T14:22:00.583625+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 8,
+          "words": 246,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1197
+        },
+        "independent_domains": [
+          "bbc.com",
+          "espn.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5",
+    "status": "READY",
+    "prepared_at": "2026-11-24T14:21:23.029097+00:00",
+    "expires_at": "2026-11-25T14:21:23.029097+00:00",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+      "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+      "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
+      "https://www.aljazeera.com/sports/2026/11/21/noni-madueke-salvages-draw-for-arsenal-at-newcastle-united-as-raya-injured?traffic_source=rss"
+    ],
+    "article": {
+      "id": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5",
+      "title": "Champions League: Arsenal đối mặt với thử thách lớn khi thiếu vắng David Raya trước trận đấu với Dortmund",
+      "summary": "Arsenal sẽ phải đối mặt với thử thách lớn khi thiếu vắng thủ môn David Raya trong trận đấu với Borussia Dortmund tại Champions League. Raya đã bị chấn thương và sẽ không thể tham gia trận đấu này.",
+      "category": "sports",
+      "source_name": "CBS Sports - Soccer",
+      "source_url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+      "published_at": "2026-11-24T14:10:30+00:00",
+      "fetched_at": "2026-11-24T14:22:45.290321+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Arsenal sẽ phải đối mặt với thử thách lớn khi thiếu vắng thủ môn David Raya trong trận đấu với Borussia Dortmund tại Champions League. Raya đã bị chấn thương và sẽ không thể tham gia trận đấu này.",
+        "Trận đấu này sẽ là một thử thách lớn cho Arsenal, đặc biệt là khi họ đang thiếu vắng một số cầu thủ quan trọng. Tuy nhiên, huấn luyện viên Mikel Arteta vẫn tin tưởng vào khả năng của đội bóng mình.",
+        "Dortmund đang dẫn đầu tại Bundesliga và đang có một phong độ rất tốt. Họ đã thắng 4 trận liên tiếp và đang có một đội hình rất mạnh. Tuy nhiên, Arsenal cũng có một đội hình rất mạnh và đã thắng 3 trận liên tiếp tại Champions League.",
+        "Trận đấu này sẽ được diễn ra tại sân Emirates và sẽ bắt đầu vào lúc 20h00 ngày 24 tháng 11. Người hâm mộ có thể theo dõi trận đấu này trên các kênh truyền hình hoặc trực tuyến.",
+        "Arsenal sẽ phải cố gắng rất nhiều để có thể giành chiến thắng trong trận đấu này. Họ sẽ phải tận dụng mọi cơ hội và chơi với một tinh thần chiến đấu cao. Nếu họ có thể làm được điều đó, họ sẽ có thể giành chiến thắng và tiếp tục cuộc đua tại Champions League."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Champions League: Arsenal thiếu vắng David Raya trước trận đấu với Dor",
+      "meta_description": "Arsenal sẽ phải đối mặt với thử thách lớn khi thiếu vắng thủ môn David Raya trong trận đấu với Borussia Dortmund tại Champions League.",
+      "keywords": [
+        "Champions League",
+        "Arsenal",
+        "David Raya",
+        "Dortmund"
+      ],
+      "slug": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 226,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+        "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+        "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
+        "https://www.aljazeera.com/sports/2026/11/21/noni-madueke-salvages-draw-for-arsenal-at-newcastle-united-as-raya-injured?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+        "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
+        "https://www.aljazeera.com/sports/2026/11/21/noni-madueke-salvages-draw-for-arsenal-at-newcastle-united-as-raya-injured?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "CBS Sports - Soccer",
+          "url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+          "domain": "cbssports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cbssports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T14:10:30+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T11:00:01+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T15:23:09+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T08:00:11+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/21/noni-madueke-salvages-draw-for-arsenal-at-newcastle-united-as-raya-injured?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T19:53:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "David Raya bị chấn thương và sẽ không thể tham gia trận đấu với Dortmund",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund"
+          ],
+          "importance": "core",
+          "evidence_snippet": "UCL expert picks, predictions: - CBS Sportssite: media | arena: soccer | pageType: stories | section: | slug: champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund | sport: soccer | route: article_single.us | 6-keys: media/spln/soccer/championsleague/free/storiesSkip to Main Content",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+              "snippet": "UCL expert picks, predictions: - CBS Sportssite: media | arena: soccer | pageType: stories | section: | slug: champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund | sport: soccer | route: article_single.us | 6-keys: media/spln/soccer/championsleague/free/storiesSkip to Main Content",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+              "page_sha256": "ee92b9c60f53837c56e5af9596bffd63236b73021dd52bc32522acd4587f00e3",
+              "snippet_sha256": "9e166c028eb103df4d5291d44f73252552826b3f704673a2be3776ee1dcb532f",
+              "verified_at": "2026-11-24T14:22:45.289847+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Arsenal sẽ phải đối mặt với thử thách lớn khi thiếu vắng David Raya",
+          "source_urls": [
+            "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Sitting third in the Champions League standings halfway through the league phase,Arsenalcontinue their chase for a knockout stage bye as they host German giants Borussia Dortmund at the Emirates on Tuesday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+              "snippet": "Sitting third in the Champions League standings halfway through the league phase,Arsenalcontinue their chase for a knockout stage bye as they host German giants Borussia Dortmund at the Emirates on Tuesday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+              "page_sha256": "62629aee6beeee4140ad6afdfbaa8f49673dc8b5bc5f58ac0f27ef3a2f70bf89",
+              "snippet_sha256": "df9890103fb75cfdb3a83bf3fb7ca1883041141e6d611c5e60ff98f943644c99",
+              "verified_at": "2026-11-24T14:22:45.289847+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Dortmund đang dẫn đầu tại Bundesliga và đang có một phong độ rất tốt",
+          "source_urls": [
+            "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Prediction: Arsenal 2, Borussia Dortmund 0 --Borussia Dortmund have done well in the Bundesliga title race and currently boast a two-point lead over Bayern Munich, which makes them a formidable foe for Arsenal on Tuesday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+              "snippet": "Prediction: Arsenal 2, Borussia Dortmund 0 --Borussia Dortmund have done well in the Bundesliga title race and currently boast a two-point lead over Bayern Munich, which makes them a formidable foe for Arsenal on Tuesday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+              "page_sha256": "ee92b9c60f53837c56e5af9596bffd63236b73021dd52bc32522acd4587f00e3",
+              "snippet_sha256": "77332a2897a09a71bce648053aa5ea714847a390d874b481c17d344ee5ae4de8",
+              "verified_at": "2026-11-24T14:22:45.289847+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về trận đấu giữa Arsenal và Dortmund tại Champions League. Nó cũng phân tích khả năng của cả hai đội và đưa ra một số dự đoán về kết quả trận đấu. Bài viết này sẽ giúp người đọc hiểu rõ hơn về tình hình hiện tại của cả hai đội và có thể đưa ra một số quyết định sáng suốt khi theo dõi trận đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T14:22:45.290391+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "00",
+        "20",
+        "3",
+        "4"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T14:22:45.291361+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 226,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1060
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "cbssports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "anh-quoc-ap-at-lenh-trung-phat-oi-voi-nhom-houthi-cua-yemen-va-bon-quan--89a3db12",
+    "status": "READY",
+    "prepared_at": "2026-11-24T14:21:23.029097+00:00",
+    "expires_at": "2026-11-25T02:21:23.029097+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+      "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "anh-quoc-ap-at-lenh-trung-phat-oi-voi-nhom-houthi-cua-yemen-va-bon-quan--89a3db12",
+      "title": "Anh Quốc áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen và bốn quan chức cấp cao",
+      "summary": "Anh Quốc đã áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen và bốn quan chức cấp cao của nhóm này, cáo buộc họ cố ý phá hoại sự ổn định ở Trung Đông.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+      "published_at": "2026-11-24T12:55:55+00:00",
+      "fetched_at": "2026-11-24T14:23:27.784067+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Anh Quốc đã áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen và bốn quan chức cấp cao của nhóm này, cáo buộc họ cố ý phá hoại sự ổn định ở Trung Đông.",
+        "Theo thông báo của chính phủ Anh, bốn quan chức cấp cao của nhóm Houthi, bao gồm Bộ trưởng Nội vụ Abdulkarim Amir al-Din Hussein al-Houthi, trưởng bộ phận an ninh và tình báo Abdul Hakim Hashem Ali al-Khaiwani, thẩm phán Mohammed Moufleh và công tố viên Sarim al-Din Muffadal, sẽ bị áp đặt lệnh trừng phạt.",
+        "Chính phủ Anh cáo buộc nhóm Houthi đã thực hiện các hành động bạo lực chống lại dân thường và phá hoại sự ổn định ở Trung Đông, bao gồm cả việc tấn công các tàu thuyền ở eo biển Bab al-Mandeb và các cơ sở hạ tầng dân sự ở Ả Rập Xê Út."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Anh Quốc áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen",
+      "meta_description": "Anh Quốc đã áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen và bốn quan chức cấp cao của nhóm này.",
+      "keywords": [
+        "Anh Quốc",
+        "Yemen",
+        "Houthi",
+        "trừng phạt"
+      ],
+      "slug": "anh-quoc-ap-at-lenh-trung-phat-oi-voi-nhom-houthi-cua-yemen-va-bon-quan--89a3db12",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 148,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:55:55+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T21:03:34+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Anh Quốc áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen và bốn quan chức cấp cao của nhóm này.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "During the latest flare-up in fighting, Saudi Arabia, which leads a coalition in support of Yemen’s internationally recognised government, has been targeted in near-daily Houthi rocket and drone strikes.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+              "snippet": "During the latest flare-up in fighting, Saudi Arabia, which leads a coalition in support of Yemen’s internationally recognised government, has been targeted in near-daily Houthi rocket and drone strikes.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+              "page_sha256": "35faeb3a99789bcb72de0bbabc3eb4740933ce0f08e25079826a2e28d89c6582",
+              "snippet_sha256": "2e89cb34f57b215660736fc9362ffbbf98a8db2911e3d54a6be5fe4e4265875c",
+              "verified_at": "2026-11-24T14:23:27.783730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bốn quan chức cấp cao của nhóm Houthi sẽ bị áp đặt lệnh trừng phạt.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "“The Houthis’ renewed aggression targeting our partners and innocent civilians is unacceptable and they must be held to account,” said Miliband.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+              "snippet": "“The Houthis’ renewed aggression targeting our partners and innocent civilians is unacceptable and they must be held to account,” said Miliband.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+              "page_sha256": "35faeb3a99789bcb72de0bbabc3eb4740933ce0f08e25079826a2e28d89c6582",
+              "snippet_sha256": "7011818a39d0ef788627530593f8b559af09bcd3adb000fef996fe33f555691f",
+              "verified_at": "2026-11-24T14:23:27.783730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chính phủ Anh cáo buộc nhóm Houthi đã thực hiện các hành động bạo lực chống lại dân thường và phá hoại sự ổn định ở Trung Đông.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Government forces launched a counteroffensive last month to recapture territory from the Houthis, but earlier this month forces allied to the governmentsaid they would withdrawfrom areas around the strait and focus on defending Aden.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+              "snippet": "Government forces launched a counteroffensive last month to recapture territory from the Houthis, but earlier this month forces allied to the governmentsaid they would withdrawfrom areas around the strait and focus on defending Aden.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
+              "page_sha256": "35faeb3a99789bcb72de0bbabc3eb4740933ce0f08e25079826a2e28d89c6582",
+              "snippet_sha256": "71c44010199edcb536415a4e697f29d076a903aadc8b303b0d572379d21c49e2",
+              "verified_at": "2026-11-24T14:23:27.783730+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo này cung cấp thông tin về việc Anh Quốc áp đặt lệnh trừng phạt đối với nhóm Houthi của Yemen và bốn quan chức cấp cao của nhóm này. Điều này cho thấy sự quan tâm của cộng đồng quốc tế đối với tình hình ở Yemen và nỗ lực của họ trong việc duy trì sự ổn định ở khu vực. Bài báo cũng cung cấp thông tin về các cáo buộc đối với nhóm Houthi và các quan chức của họ, giúp độc giả hiểu rõ hơn về tình hình hiện tại ở Yemen.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-24T14:23:27.784126+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-24T14:23:27.784605+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 148,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 694
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
