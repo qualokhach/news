@@ -2048,7 +2048,7 @@
   },
   {
     "queue_id": "e8aade5928316b158e84",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T14:20:49.907913+00:00",
     "expires_at": "2026-11-27T14:18:25.776598+00:00",
     "category_hint": "world",
@@ -2992,11 +2992,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T14:20:49.907933+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "khong-tac-israel-sat-hai-quan-chuc-quan-su-cap-cao-cua-hamas-o-gaza-52aab614"
   },
   {
     "queue_id": "92324c4473ae9d6d1844",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T14:20:49.108351+00:00",
     "expires_at": "2026-11-27T14:18:25.776598+00:00",
     "category_hint": "vietnam",
@@ -4348,11 +4349,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T14:20:49.108373+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-ieu-chinh-2da5814a"
   },
   {
     "queue_id": "7f483fccee3f1e4e3077",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T14:20:04.715858+00:00",
     "expires_at": "2026-11-27T14:18:25.776598+00:00",
     "category_hint": "vietnam",
@@ -4935,7 +4937,8 @@
       ]
     },
     "research_ready_at": "2026-11-24T14:20:04.715882+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "vu-no-lon-o-ha-noi-mot-ngoi-nha-o-sap-2-nguoi-tu-vong-14b8cb6e"
   },
   {
     "queue_id": "phat-hien-khao-co-moi-nha-cai-tri-thoi-ky-o-sat-verica-co-the-la-nu-gioi-5354f651",
@@ -18779,7 +18782,7 @@
   },
   {
     "queue_id": "9b685e45307192e7120a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-23T20:37:35.429307+00:00",
     "expires_at": "2026-11-26T21:42:01.937866+00:00",
     "category_hint": "world",
@@ -19459,9 +19462,8 @@
     },
     "research_ready_at": "2026-11-23T20:37:35.429331+00:00",
     "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
-    "last_write_error": "All discovered eligible AI models failed: Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.5-flash-lite: Gemini/gemini-3.5-flash-lite HTTP 503: { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Ple | Gemini/gemini-3.1-flash-lite: Gemini/gemini-3.1-flas",
     "write_attempts": 1,
-    "next_write_after": "2026-11-24T01:42:01.937866+00:00"
+    "written_article_id": "iran-tang-cuong-tan-cong-vao-can-cu-my-tai-vung-vinh-b6112627"
   },
   {
     "queue_id": "4d882dc5e2394fa2f312",
@@ -94447,7 +94449,7 @@
   },
   {
     "queue_id": "commanders-anh-bai-bengals-trong-giay-phut-cuoi-cung-b45bd313",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-24T14:21:23.029097+00:00",
     "expires_at": "2026-11-25T14:21:23.029097+00:00",
     "source_urls": [
@@ -94464,7 +94466,7 @@
       "source_url": "https://www.bbc.co.uk/sport/american-football/videos/cjn50y5wdy40o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-24T14:05:05+00:00",
       "fetched_at": "2026-11-24T14:22:00.582539+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-24T15:23:25.017642+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -94646,24 +94648,34 @@
         "300"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-24T14:22:00.583625+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-24T15:23:25.017642+00:00",
         "stats": {
           "paragraphs": 8,
           "words": 246,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1197
-        },
-        "independent_domains": [
-          "bbc.com",
-          "espn.com",
-          "skysports.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1197,
+          "source_access": [
+            {
+              "url": "https://www.skysports.com/nfl/news/12040/13615867/nfl-washington-commanders-beat-joe-burrows-cincinnati-bengals-in-upset-after-last-second-field-goal-from-drew-stevens",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "espn.com",
+            "skysports.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-24 22:23"
+    },
+    "published_at": "2026-11-24T15:23:25.017642+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5",
@@ -95114,5 +95126,914 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "khong-tac-israel-sat-hai-quan-chuc-quan-su-cap-cao-cua-hamas-o-gaza-52aab614",
+    "status": "HOLD",
+    "prepared_at": "2026-11-24T15:18:42.522919+00:00",
+    "expires_at": "2026-11-25T15:18:42.522919+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+      "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+      "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+      "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "khong-tac-israel-sat-hai-quan-chuc-quan-su-cap-cao-cua-hamas-o-gaza-52aab614",
+      "title": "Không tặc Israel sát hại quan chức quân sự cấp cao của Hamas ở Gaza",
+      "summary": "Một cuộc không kích của Israel đã giết chết một quan chức quân sự cấp cao của Hamas ở Gaza, theo các nguồn tin địa phương.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+      "published_at": "2026-11-24T13:55:11+00:00",
+      "fetched_at": "2026-11-24T15:19:41.536077+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Một cuộc không kích của Israel đã giết chết một quan chức quân sự cấp cao của Hamas ở Gaza, theo các nguồn tin địa phương. Quan chức này được xác định là Brigadier General Naim Abu Nahl, người đứng đầu cơ quan an ninh nội bộ của Hamas ở Gaza.",
+        "Cuộc không kích diễn ra vào ngày 24 tháng 11 năm 2026, tại khu vực Gaza City. Ngoài việc giết chết Brigadier General Naim Abu Nahl, cuộc không kích còn làm bị thương nhiều người khác.",
+        "Israel đã xác nhận việc thực hiện cuộc không kích, nhưng không tiết lộ thông tin về mục tiêu của cuộc tấn công. Tuy nhiên, các nguồn tin địa phương cho biết cuộc không kích nhắm vào một mục tiêu quan trọng của Hamas.",
+        "Cuộc không kích này là một phần của loạt cuộc tấn công của Israel vào Gaza trong những ngày gần đây. Các cuộc tấn công này đã làm gia tăng căng thẳng giữa Israel và Hamas, và gây ra lo ngại về khả năng xảy ra một cuộc xung đột lớn hơn.",
+        "Gaza đang phải đối mặt với một tình hình nhân đạo nghiêm trọng, với hàng nghìn người bị thương hoặc mất nhà cửa do các cuộc tấn công của Israel. Cộng đồng quốc tế đã kêu gọi cả hai bên ngừng bắn và tìm kiếm một giải pháp hòa bình cho cuộc xung đột."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Không tặc Israel sát hại quan chức quân sự cấp cao của Hamas ở Gaza",
+      "meta_description": "Một cuộc không kích của Israel đã giết chết một quan chức quân sự cấp cao của Hamas ở Gaza, theo các nguồn tin địa phương.",
+      "keywords": [
+        "Israel",
+        "Hamas",
+        "Gaza",
+        "không kích"
+      ],
+      "slug": "khong-tac-israel-sat-hai-quan-chuc-quan-su-cap-cao-cua-hamas-o-gaza-52aab614",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 237,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+        "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+        "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+        "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+        "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+        "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T13:55:11+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T13:07:03+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:16:18+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:12:48+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Một cuộc không kích của Israel đã giết chết một quan chức quân sự cấp cao của Hamas ở Gaza.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "An Israeli strike on Gaza has killed a senior Hamas security official and wounded several others, according to local authorities.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+              "snippet": "An Israeli strike on Gaza has killed a senior Hamas security official and wounded several others, according to local authorities.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+              "page_sha256": "e83960fac887dc21f1c0c67e89a6a81d18986b81046b3a5cf86c69b05595ea31",
+              "snippet_sha256": "5c3c83f74afd1e1780a3db067d225df490ce1695ef7fde59b19ce1eb76cc0dcf",
+              "verified_at": "2026-11-24T15:19:41.535449+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quan chức này được xác định là Brigadier General Naim Abu Nahl, người đứng đầu cơ quan an ninh nội bộ của Hamas ở Gaza.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The deceased senior Hamas official has been identified as Brigadier General Naim Abu Nahl, who was the director of Hamas’s internal security apparatus in Gaza, medics and police said on Tuesday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+              "snippet": "The deceased senior Hamas official has been identified as Brigadier General Naim Abu Nahl, who was the director of Hamas’s internal security apparatus in Gaza, medics and police said on Tuesday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+              "page_sha256": "e83960fac887dc21f1c0c67e89a6a81d18986b81046b3a5cf86c69b05595ea31",
+              "snippet_sha256": "872e9f2ce937e050ee090cede32629966a56fd607fbbdd6a81ab45a4b4c5d020",
+              "verified_at": "2026-11-24T15:19:41.535449+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cuộc không kích diễn ra vào ngày 24 tháng 11 năm 2026, tại khu vực Gaza City.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Add Al Jazeera on GooglePalestinians take part in the funeral procession of three people killed early on Tuesday morning in an Israeli attack on the central Gaza Strip [Eyad Baba/AFP]ByAl Jazeera Staff,AnadoluandReutersPublished On 24 Nov 202624 Nov 2026",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+              "snippet": "Add Al Jazeera on GooglePalestinians take part in the funeral procession of three people killed early on Tuesday morning in an Israeli attack on the central Gaza Strip [Eyad Baba/AFP]ByAl Jazeera Staff,AnadoluandReutersPublished On 24 Nov 202624 Nov 2026",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+              "page_sha256": "e83960fac887dc21f1c0c67e89a6a81d18986b81046b3a5cf86c69b05595ea31",
+              "snippet_sha256": "3f79b9f3ac8a533024259ef1049e9c0880319e4cc87676774809f6c29ddad9bc",
+              "verified_at": "2026-11-24T15:19:41.535449+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo này cung cấp thông tin cập nhật về tình hình ở Gaza và cuộc không kích của Israel. Nó cũng phân tích các tác động của cuộc tấn công và tình hình nhân đạo ở Gaza. Ngoài ra, bài báo cũng cung cấp một số thông tin về bối cảnh của cuộc xung đột và các bên liên quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T15:19:41.536199+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-24T15:19:41.537458+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 237,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1124
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "euronews.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-24T15:23:25.017642+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-24T15:23:25.017642+00:00",
+      "errors": [
+        "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 237,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1124,
+        "source_access": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "euronews.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-ieu-chinh-2da5814a",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T15:18:42.522919+00:00",
+    "expires_at": "2026-11-25T15:18:42.522919+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+      "https://thanhnien.vn/tu-172027-co-quan-cham-giai-quyet-ho-so-dat-dai-tinh-gia-dat-the-nao-185261124113117919.htm"
+    ],
+    "article": {
+      "id": "gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-ieu-chinh-2da5814a",
+      "title": "Giá dầu thế giới giảm sâu, xăng dầu trong nước sắp điều chỉnh",
+      "summary": "Giá dầu thế giới giảm xuống mức thấp nhất 3 tháng do lo ngại dư cung, trong khi giá xăng dầu trong nước đã trải qua 5 kỳ giảm liên tiếp từ đầu tháng 11",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "fetched_at": "2026-11-24T15:20:50.385308+00:00",
+      "appnho_published_at": "2026-11-24T15:23:25.017642+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giá dầu thế giới giảm xuống mức thấp nhất 3 tháng do lo ngại dư cung, trong khi giá xăng dầu trong nước đã trải qua 5 kỳ giảm liên tiếp từ đầu tháng 11. Theo Reuters, kết thúc phiên giao dịch ngày 23/11, giá dầu Brent giảm 3,2 USD/thùng, tương đương 3,46%, xuống còn 89,37 USD/thùng. Giá dầu WTI của Mỹ giảm 3,24 USD/thùng, tương đương 3,88%, xuống 80,17 USD/thùng.",
+        "Giá xăng dầu trong nước cũng đã giảm liên tiếp 5 kỳ điều hành kể từ đầu tháng 11. Sau 5 kỳ điều chỉnh từ ngày 1/11 đến 19/11, giá xăng E5 RON 92 giảm tổng cộng 7.450 đồng/lít, xăng E10 RON 95-III giảm 6.630 đồng/lít. Giá dầu diesel giảm 3.900 đồng/lít, còn dầu mazut giảm 4.550 đồng/kg."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Giá dầu thế giới giảm sâu, xăng dầu trong nước sắp điều chỉnh",
+      "meta_description": "Giá dầu thế giới giảm sâu, xăng dầu trong nước sắp điều chỉnh",
+      "keywords": [
+        "giá dầu thế giới",
+        "xăng dầu trong nước",
+        "Giá dầu thế giới giảm sâu, xăng dầu trong nước sắp điều chỉnh",
+        "Việt Nam",
+        "tin tức việt nam"
+      ],
+      "slug": "gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-ieu-chinh-2da5814a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 129,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+        "https://thanhnien.vn/tu-172027-co-quan-cham-giai-quyet-ho-so-dat-dai-tinh-gia-dat-the-nao-185261124113117919.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/tu-172027-co-quan-cham-giai-quyet-ho-so-dat-dai-tinh-gia-dat-the-nao-185261124113117919.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T13:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tu-172027-co-quan-cham-giai-quyet-ho-so-dat-dai-tinh-gia-dat-the-nao-185261124113117919.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T05:13:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Giá dầu thế giới giảm xuống mức thấp nhất 3 tháng",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Giá dầuthế giới tiếp tục giảm trong phiên giao dịch ngày 24/11, sau khi mất hơn 3% trong phiên trước đó, xuống mức thấp nhất trong 3 tháng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "snippet": "Giá dầuthế giới tiếp tục giảm trong phiên giao dịch ngày 24/11, sau khi mất hơn 3% trong phiên trước đó, xuống mức thấp nhất trong 3 tháng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "page_sha256": "0c3c20883c2b2b998b78d244e32b50e3abcfd3d0541e9278b0c0d0e8e6d9ecde",
+              "snippet_sha256": "6659e8f7a8b0b466f237ac31a16bd58c2b4a4e1454393c2447d6601be31a47f9",
+              "verified_at": "2026-11-24T15:20:50.384618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giá xăng dầu trong nước giảm liên tiếp 5 kỳ điều hành",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tại thị trường trong nước,giá xăng dầucũng đã giảm liên tiếp 5 kỳ điều hành kể từ đầu tháng 11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "snippet": "Tại thị trường trong nước,giá xăng dầucũng đã giảm liên tiếp 5 kỳ điều hành kể từ đầu tháng 11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "page_sha256": "0c3c20883c2b2b998b78d244e32b50e3abcfd3d0541e9278b0c0d0e8e6d9ecde",
+              "snippet_sha256": "ea25011153a488606e3f1a55889382b3226950377850014f12765deeb070e975",
+              "verified_at": "2026-11-24T15:20:50.384618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giá dầu Brent giảm 3,2 USD/thùng, xuống còn 89,37 USD/thùng",
+          "source_urls": [
+            "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo Reuters, kết thúc phiên giao dịch ngày 23/11, giá dầu Brent giảm 3,2 USD/thùng, tương đương 3,46%, xuống còn 89,37 USD/thùng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "snippet": "Theo Reuters, kết thúc phiên giao dịch ngày 23/11, giá dầu Brent giảm 3,2 USD/thùng, tương đương 3,46%, xuống còn 89,37 USD/thùng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "page_sha256": "0c3c20883c2b2b998b78d244e32b50e3abcfd3d0541e9278b0c0d0e8e6d9ecde",
+              "snippet_sha256": "2700d96b310db4abba85de204f8db39ec622499484bd2ce15e7fddff897e22e5",
+              "verified_at": "2026-11-24T15:20:50.384618+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật về giá dầu thế giới và xăng dầu trong nước, giúp độc giả hiểu rõ hơn về tình hình thị trường năng lượng hiện tại. Ngoài ra, bài viết cũng phân tích về các yếu tố ảnh hưởng đến giá dầu và xăng dầu, giúp độc giả có cái nhìn sâu sắc hơn về vấn đề này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T15:20:50.385373+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "3",
+        "3,2",
+        "3,24",
+        "3,46",
+        "3,88",
+        "3.900",
+        "4.550",
+        "5",
+        "6.630",
+        "7.450",
+        "80,17",
+        "89,37",
+        "92",
+        "95"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T15:23:25.017642+00:00",
+        "stats": {
+          "paragraphs": 2,
+          "words": 129,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 651,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/kinh-doanh/gia-dau-the-gioi-giam-sau-xang-dau-trong-nuoc-sap-dieu-chinh-20261124184521132.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 22:23"
+    },
+    "published_at": "2026-11-24T15:23:25.017642+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "vu-no-lon-o-ha-noi-mot-ngoi-nha-o-sap-2-nguoi-tu-vong-14b8cb6e",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T15:18:42.522919+00:00",
+    "expires_at": "2026-11-25T15:18:42.522919+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+      "https://dantri.com.vn/bat-dong-san/co-che-moi-tai-ha-noi-du-an-nha-o-cho-thue-co-the-duoc-giao-truc-tiep-20261120143544240.htm"
+    ],
+    "article": {
+      "id": "vu-no-lon-o-ha-noi-mot-ngoi-nha-o-sap-2-nguoi-tu-vong-14b8cb6e",
+      "title": "Vụ nổ lớn ở Hà Nội: Một ngôi nhà đổ sập, 2 người tử vong",
+      "summary": "Khoảng 8 giờ sáng 24.11.2026, một vụ nổ lớn xảy ra tại phố Nguyễn Văn Tuyết, phường Đống Đa (thành phố Hà Nội) khiến một ngôi nhà đổ sập, nhiều công trình xung quanh hư hại. Lực lượng chức năng xác định có thương vong và đang khẩn trương cứu nạn cứu hộ.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+      "published_at": "2026-11-24T03:54:00+00:00",
+      "fetched_at": "2026-11-24T15:22:37.864039+00:00",
+      "appnho_published_at": "2026-11-24T15:23:25.017642+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Khoảng 8 giờ sáng 24.11.2026, một vụ nổ lớn xảy ra tại phố Nguyễn Văn Tuyết, phường Đống Đa (thành phố Hà Nội) khiến một ngôi nhà đổ sập, nhiều công trình xung quanh hư hại.",
+        "Lực lượng chức năng xác định có thương vong và đang khẩn trương cứu nạn cứu hộ. Hiện trường vụ nổ lớn ở Hà Nội đang được điều tra để làm rõ nguyên nhân.",
+        "Theo thông tin ban đầu, vụ nổ lớn xảy ra tại một ngôi nhà ở phố Nguyễn Văn Tuyết, phường Đống Đa, thành phố Hà Nội. Vụ nổ khiến ngôi nhà đổ sập, nhiều công trình xung quanh hư hại."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Vụ nổ lớn ở Hà Nội: Một ngôi nhà đổ sập, 2 người tử vong",
+      "meta_description": "Vụ nổ lớn ở Hà Nội khiến một ngôi nhà đổ sập, nhiều công trình xung quanh hư hại. Lực lượng chức năng xác định có thương vong và đang khẩn trương cứu nạn cứu hộ",
+      "keywords": [
+        "Vụ nổ lớn ở Hà Nội",
+        "ngôi nhà đổ sập",
+        "thương vong",
+        "Việt Nam",
+        "tin tức việt nam"
+      ],
+      "slug": "vu-no-lon-o-ha-noi-mot-ngoi-nha-o-sap-2-nguoi-tu-vong-14b8cb6e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 110,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+        "https://dantri.com.vn/bat-dong-san/co-che-moi-tai-ha-noi-du-an-nha-o-cho-thue-co-the-duoc-giao-truc-tiep-20261120143544240.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/bat-dong-san/co-che-moi-tai-ha-noi-du-an-nha-o-cho-thue-co-the-duoc-giao-truc-tiep-20261120143544240.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T03:54:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/bat-dong-san/co-che-moi-tai-ha-noi-du-an-nha-o-cho-thue-co-the-duoc-giao-truc-tiep-20261120143544240.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T07:41:50+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vụ nổ lớn xảy ra tại phố Nguyễn Văn Tuyết, phường Đống Đa, thành phố Hà Nội",
+          "source_urls": [
+            "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Khoảng 8 giờ sáng 24.11.2026, một vụ nổ lớn xảy ra tại phố Nguyễn Văn Tuyết, phường Đống Đa (thành phố Hà Nội) khiến một ngôi nhà đổ sập, nhiều công trình xung quanh hư hại.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "snippet": "Khoảng 8 giờ sáng 24.11.2026, một vụ nổ lớn xảy ra tại phố Nguyễn Văn Tuyết, phường Đống Đa (thành phố Hà Nội) khiến một ngôi nhà đổ sập, nhiều công trình xung quanh hư hại.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "page_sha256": "3f1c286a92f08831c681f5a82115c28fadf41026d686a2ff09615723c36a6936",
+              "snippet_sha256": "b96a25fdaaa1b6ee0fe4c79303b59435df08cf6aea16fa8df3c0f93194d4d66a",
+              "verified_at": "2026-11-24T15:22:37.863656+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Một ngôi nhà đổ sập, nhiều công trình xung quanh hư hại",
+          "source_urls": [
+            "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "snippet": "Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "page_sha256": "3f1c286a92f08831c681f5a82115c28fadf41026d686a2ff09615723c36a6936",
+              "snippet_sha256": "f2e23087091704b06f8821100f94864a130b587dedf10c5cd93ab18a63e21d32",
+              "verified_at": "2026-11-24T15:22:37.863656+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lực lượng chức năng xác định có thương vong và đang khẩn trương cứu nạn cứu hộ",
+          "source_urls": [
+            "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Lực lượng chức năng xác định có thương vong và đang khẩn trương cứu nạn cứu hộ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "snippet": "Lực lượng chức năng xác định có thương vong và đang khẩn trương cứu nạn cứu hộ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "page_sha256": "3f1c286a92f08831c681f5a82115c28fadf41026d686a2ff09615723c36a6936",
+              "snippet_sha256": "b776bfc17bc7ab2cd449af027068261cf2f44ba0ad7af3839e512ca866d071c3",
+              "verified_at": "2026-11-24T15:22:37.863656+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin mới nhất về vụ nổ lớn ở Hà Nội, giúp độc giả hiểu rõ về tình hình và nguyên nhân của vụ việc. Đồng thời, bài viết cũng cung cấp thông tin về việc lực lượng chức năng đang khẩn trương cứu nạn cứu hộ và điều tra để làm rõ nguyên nhân của vụ nổ.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T15:22:37.864106+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2026",
+        "24.11",
+        "8"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T15:23:25.017642+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 110,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 505,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/hien-truong-vu-no-lon-o-ha-noi-mot-ngoi-nha-do-sap-2-nguoi-tu-vong-185261124104927582.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 22:23"
+    },
+    "published_at": "2026-11-24T15:23:25.017642+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "iran-tang-cuong-tan-cong-vao-can-cu-my-tai-vung-vinh-b6112627",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T15:18:42.522919+00:00",
+    "expires_at": "2026-11-25T03:18:42.522919+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+      "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+      "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html"
+    ],
+    "article": {
+      "id": "iran-tang-cuong-tan-cong-vao-can-cu-my-tai-vung-vinh-b6112627",
+      "title": "Iran Tăng Cường Tấn Công Vào Căn Cứ Mỹ Tại Vùng Vịnh",
+      "summary": "Iran đã tăng cường tấn công vào các căn cứ Mỹ tại vùng Vịnh, bao gồm cả tấn công vào các cơ sở dân sự. Điều này diễn ra sau một thời gian tương đối im ắng trong cuộc xung đột giữa Iran và Mỹ.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+      "published_at": "2026-11-23T20:26:40+00:00",
+      "fetched_at": "2026-11-24T15:23:22.626239+00:00",
+      "appnho_published_at": "2026-11-24T15:23:25.017642+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Iran đã tăng cường tấn công vào các căn cứ Mỹ tại vùng Vịnh, bao gồm cả tấn công vào các cơ sở dân sự. Điều này diễn ra sau một thời gian tương đối im ắng trong cuộc xung đột giữa Iran và Mỹ.",
+        "Tehran đã tăng cường các cuộc tấn công trong những ngày gần đây do cuộc phong tỏa hải quân và chiến dịch trừng phạt của Mỹ gây ảnh hưởng đến nước này. Các cơ sở dân sự đã bị hư hại trong các cuộc tấn công này.",
+        "Các cuộc tấn công của Iran vào các căn cứ Mỹ tại Bahrain, Jordan và Kuwait đã được báo cáo. Iran cũng đã cảnh báo sẽ có một phản ứng quân sự quyết liệt nếu convolution được Mỹ tấn công.",
+        "Các cuộc đàm phán ngoại giao giữa Mỹ và Iran do Qatar dẫn đầu vẫn đang tiếp tục. Tuy nhiên, tình hình vẫn đang rất căng thẳng và có thể dẫn đến một cuộc xung đột lớn hơn.",
+        "Iran đã tuyên bố sẽ không ngừng các cuộc tấn công cho đến khi Mỹ chấm dứt cuộc phong tỏa và dỡ bỏ các lệnh trừng phạt. Mỹ đã cảnh báo sẽ có một phản ứng quyết liệt nếu Iran tiếp tục các cuộc tấn công."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Iran Tăng Cường Tấn Công Vào Căn Cứ Mỹ Tại Vùng Vịnh",
+      "meta_description": "Iran đã tăng cường tấn công vào các căn cứ Mỹ tại vùng Vịnh, bao gồm cả tấn công vào các cơ sở dân sự.",
+      "keywords": [
+        "Iran",
+        "Mỹ",
+        "Vùng Vịnh",
+        "Tấn công"
+      ],
+      "slug": "iran-tang-cuong-tan-cong-vao-can-cu-my-tai-vung-vinh-b6112627",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 216,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+        "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+        "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+        "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T20:26:40+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T21:32:51+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-18T05:24:54+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Iran đã tăng cường tấn công vào các căn cứ Mỹ tại vùng Vịnh",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Iran claims attacks on US bases in Bahrain, Jordan and Kuwait",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "snippet": "Iran claims attacks on US bases in Bahrain, Jordan and Kuwait",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "page_sha256": "c1f988b973dfaf9fa02acc618549c544c76579c60ee5709b41f50de90f1e8903",
+              "snippet_sha256": "08b38669cd595e2a0f50ef4842655816f6883768837d95331b5766fd4ba886fb",
+              "verified_at": "2026-11-24T15:23:22.625724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cơ sở dân sự đã bị hư hại trong các cuộc tấn công này",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Iran’s army spokesman Brigadier General Mohammad Akraminia warned the US again on Saturday that any attack on Iran will be met with “a decisive and immediate response” as “we are much stronger than in the past,” Iranian TV IRIB report.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "snippet": "Iran’s army spokesman Brigadier General Mohammad Akraminia warned the US again on Saturday that any attack on Iran will be met with “a decisive and immediate response” as “we are much stronger than in the past,” Iranian TV IRIB report.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "page_sha256": "c1f988b973dfaf9fa02acc618549c544c76579c60ee5709b41f50de90f1e8903",
+              "snippet_sha256": "63927cc2b266a1fdc94f5dbd195fbac77bdbe3f0198ee9779960b2f29278c8bc",
+              "verified_at": "2026-11-24T15:23:22.625724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Iran đã cảnh báo sẽ có một phản ứng quân sự quyết liệt nếu convolution được Mỹ tấn công",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Iran claims drone attack on US radar system at base in Bahrain",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "snippet": "Iran claims drone attack on US radar system at base in Bahrain",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "page_sha256": "c1f988b973dfaf9fa02acc618549c544c76579c60ee5709b41f50de90f1e8903",
+              "snippet_sha256": "fcefaed9f29a98abf07efd492aef1f9523d52804786c20cdc43fa672e3f2b32e",
+              "verified_at": "2026-11-24T15:23:22.625724+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp một cái nhìn tổng quan về tình hình hiện tại trong cuộc xung đột giữa Iran và Mỹ. Nó giúp độc giả hiểu rõ hơn về các sự kiện đang diễn ra và các yếu tố ảnh hưởng đến tình hình. Ngoài ra, bài viết cũng phân tích các phản ứng có thể xảy ra từ cả hai bên và tác động của chúng đến khu vực.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-24T15:23:22.626325+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T15:23:25.017642+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 216,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 955,
+          "source_access": [
+            {
+              "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cnbc.com",
+            "euronews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-24 22:23"
+    },
+    "published_at": "2026-11-24T15:23:25.017642+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

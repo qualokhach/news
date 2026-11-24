@@ -1096,5 +1096,20 @@
         "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-24 22:23",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-24T15:23:25.017642+00:00",
+    "prepared_candidates": 25,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "khong-tac-israel-sat-hai-quan-chuc-quan-su-cap-cao-cua-hamas-o-gaza-52aab614",
+        "status": "HOLD",
+        "reason": "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
