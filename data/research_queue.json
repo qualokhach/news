@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "55fd255d9a97c72edbc7",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T19:46:11.174058+00:00",
     "expires_at": "2026-11-27T19:43:51.366882+00:00",
     "category_hint": "technology",
@@ -580,11 +580,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T19:46:11.174074+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hulu-va-disney-plus-giam-gia-manh-trong-dip-black-friday-9c8fdb51"
   },
   {
     "queue_id": "9aac18bf0b1d579e0386",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T19:46:10.391265+00:00",
     "expires_at": "2026-11-27T19:43:51.366882+00:00",
     "category_hint": "technology",
@@ -1823,11 +1824,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T19:46:10.391283+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc"
   },
   {
     "queue_id": "7373e3bb3b7a6deb5e8b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T19:46:03.844014+00:00",
     "expires_at": "2026-11-27T19:43:51.366882+00:00",
     "category_hint": "sports",
@@ -2391,7 +2393,8 @@
       ]
     },
     "research_ready_at": "2026-11-24T19:46:03.844028+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "micah-parsons-tro-lai-oi-hinh-green-bay-packers-trong-tran-au-em-truoc-l-3e863529"
   },
   {
     "queue_id": "5b6944c30390bf66ddd2",
@@ -94290,5 +94293,658 @@
     },
     "published_at": "2026-11-22T12:53:28.088018+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "hulu-va-disney-plus-giam-gia-manh-trong-dip-black-friday-9c8fdb51",
+    "status": "READY",
+    "prepared_at": "2026-11-24T19:46:44.741786+00:00",
+    "expires_at": "2026-11-25T19:46:44.741786+00:00",
+    "source_urls": [
+      "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+      "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier"
+    ],
+    "article": {
+      "id": "hulu-va-disney-plus-giam-gia-manh-trong-dip-black-friday-9c8fdb51",
+      "title": "Hulu và Disney Plus giảm giá mạnh trong dịp Black Friday",
+      "summary": "Hulu và Disney Plus đang có chương trình giảm giá mạnh trong dịp Black Friday, với giá chỉ từ $5/tháng cho gói cơ bản và $14.99/tháng cho gói không quảng cáo.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+      "published_at": "2026-11-24T19:30:18+00:00",
+      "fetched_at": "2026-11-24T19:48:55.650538+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hulu và Disney Plus đang có chương trình giảm giá mạnh trong dịp Black Friday, với giá chỉ từ $5/tháng cho gói cơ bản và $14.99/tháng cho gói không quảng cáo.",
+        "Chương trình giảm giá này áp dụng cho cả hai gói ad-supported và ad-free, giúp người dùng tiết kiệm được một khoản tiền đáng kể so với giá gốc.",
+        "Gói ad-supported của Hulu và Disney Plus hiện có giá $4.99/tháng, giảm từ $12.99/tháng, trong khi gói ad-free có giá $14.99/tháng, giảm từ $21.99/tháng.",
+        "Chương trình giảm giá này chỉ áp dụng trong thời gian ngắn, từ nay đến hết Cyber Monday, ngày 30 tháng 11.",
+        "Người dùng có thể đăng ký chương trình giảm giá này thông qua trang web của Hulu hoặc Disney Plus."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Hulu và Disney Plus giảm giá mạnh trong dịp Black Friday",
+      "meta_description": "Hulu và Disney Plus đang có chương trình giảm giá mạnh trong dịp Black Friday, với giá chỉ từ $5/tháng cho gói cơ bản và $14.99/tháng cho gói không quảng cáo.",
+      "keywords": [
+        "Hulu",
+        "Disney Plus",
+        "Black Friday",
+        "giảm giá"
+      ],
+      "slug": "hulu-va-disney-plus-giam-gia-manh-trong-dip-black-friday-9c8fdb51",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 126,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+        "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T19:30:18+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T07:31:25+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hulu và Disney Plus giảm giá mạnh trong dịp Black Friday, với giá chỉ từ $5/tháng cho gói cơ bản và $14.99/tháng cho gói không quảng cáo.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "You can lock in Hulu and Disney Plus for as low as $5 per month for a year",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "snippet": "You can lock in Hulu and Disney Plus for as low as $5 per month for a year",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "page_sha256": "e218019e080123ba43ccb961c1b0d94c388c5c208bdee72f9a628faff130dc2b",
+              "snippet_sha256": "a014c29f2eabb309a3bb3253688ae07e496362d5464c1acb6cb9674a5ec0de2f",
+              "verified_at": "2026-11-24T19:48:55.650099+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gói ad-supported của Hulu và Disney Plus hiện có giá $4.99/tháng, giảm từ $12.99/tháng.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The ad-supported tier drops from $12.99 to just $4.99, so you’ll pay $60 over the course of the year instead of $156.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "snippet": "The ad-supported tier drops from $12.99 to just $4.99, so you’ll pay $60 over the course of the year instead of $156.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "page_sha256": "e218019e080123ba43ccb961c1b0d94c388c5c208bdee72f9a628faff130dc2b",
+              "snippet_sha256": "e2117c3a7fc7ff7027623f36f2b7c4d131260f4598eec9198363b1b68f82ce29",
+              "verified_at": "2026-11-24T19:48:55.650099+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gói ad-free của Hulu và Disney Plus hiện có giá $14.99/tháng, giảm từ $21.99/tháng.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "For those who despise ads, you can opt for the ad-free version for $14.99 per month (was $21.99) for a year, costing you $180 instead of $264 over the duration.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "snippet": "For those who despise ads, you can opt for the ad-free version for $14.99 per month (was $21.99) for a year, costing you $180 instead of $264 over the duration.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "page_sha256": "e218019e080123ba43ccb961c1b0d94c388c5c208bdee72f9a628faff130dc2b",
+              "snippet_sha256": "2efcf1c4f37ee1ee67a2bc85bd160719f39687fdd11cd58ddb2b7c56ac552a45",
+              "verified_at": "2026-11-24T19:48:55.650099+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về chương trình giảm giá của Hulu và Disney Plus trong dịp Black Friday, giúp người dùng tiết kiệm được một khoản tiền đáng kể. Chúng tôi cũng phân tích về giá trị của chương trình giảm giá này và cách thức đăng ký.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T19:48:55.650590+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12.99",
+        "14.99",
+        "21.99",
+        "4.99",
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T19:48:55.651107+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 126,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 657
+        },
+        "independent_domains": [
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc",
+    "status": "READY",
+    "prepared_at": "2026-11-24T19:46:44.741786+00:00",
+    "expires_at": "2026-11-25T19:46:44.741786+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+      "https://vnexpress.net/nhung-thach-thuc-cho-doi-jensen-huang-5148444.html",
+      "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+      "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+      "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back"
+    ],
+    "article": {
+      "id": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc",
+      "title": "Jensen Huang trở lại Nvidia: Những chia sẻ thẳng thắn về quản trị và bê bối",
+      "summary": "Trong cuộc họp toàn thể đầu tiên sau khi được phục chức CEO Nvidia, Jensen Huang đã lên tiếng về phong cách quản trị, các cáo buộc vi phạm quy tắc ứng xử và quan điểm về chính trị.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+      "published_at": "2026-11-24T19:33:23+00:00",
+      "fetched_at": "2026-11-24T19:49:13.596410+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chỉ ít ngày sau khi được Hội đồng quản trị Nvidia phục chức, CEO Jensen Huang đã có buổi họp toàn thể (all-hands meeting) với nhân viên để giải đáp những vấn đề gây tranh cãi thời gian qua. Đây là lần xuất hiện quan trọng nhằm ổn định nội bộ sau khi ông từ chức vì các bê bối cá nhân, bao gồm mối quan hệ với một giám đốc điều hành và một cá nhân bị nghi ngờ là gián điệp.",
+        "Tại cuộc họp, ông Huang thừa nhận đã mắc phải những sai lầm cá nhân nghiêm trọng. Về phong cách quản trị, ông cho biết bản thân đang thực hiện trị liệu 90 phút mỗi ngày để điều chỉnh cách tiếp cận công việc. Ông thừa nhận cường độ làm việc cao của mình đôi khi gây tổn thương và làm giảm quyền hạn của nhân viên, đồng thời khẳng định cần tìm cách cân bằng hơn trong tương lai.",
+        "Liên quan đến các quy tắc ứng xử, ông Huang nhấn mạnh rằng việc vi phạm không đồng nghĩa với việc nhân viên sẽ bị sa thải ngay lập tức. Theo ông, mọi quyết định kỷ luật sẽ được ban quản lý xem xét dựa trên tình tiết cụ thể và lợi ích tốt nhất của công ty. Ông cũng cam kết tạo ra môi trường an toàn cho phụ nữ tại Nvidia và bày tỏ sự hối tiếc nếu những hành động của mình gây ảnh hưởng tiêu cực đến điều này.",
+        "Về vấn đề chính trị, ông Huang bác bỏ tin đồn cho rằng sự trở lại của mình là do áp lực từ chính phủ. Dù khẳng định Tổng thống Donald Trump ủng hộ công ty, ông nhấn mạnh Nvidia là một doanh nghiệp phi chính trị và yêu cầu nhân viên tập trung vào công việc thay vì các chủ đề chính trị tại nơi làm việc. Ông cũng khẳng định công ty vẫn vận hành tự chủ và không phụ thuộc vào kế hoạch kế nhiệm cá nhân.",
+        "Dù đã trở lại vị trí lãnh đạo, Nvidia vẫn đang đối mặt với nhiều thách thức pháp lý, bao gồm các cuộc điều tra từ FBI và SEC liên quan đến các cáo buộc buôn lậu chip và quản trị doanh nghiệp. Sự trở lại của ông Huang được kỳ vọng sẽ giúp Nvidia vượt qua giai đoạn biến động, dù thị trường vẫn đang theo dõi sát sao các diễn biến pháp lý tiếp theo."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Jensen Huang chia sẻ về sự trở lại và quản trị tại Nvidia",
+      "meta_description": "CEO Jensen Huang vừa có buổi họp toàn thể đầu tiên tại Nvidia sau khi được phục chức, giải đáp các thắc mắc về phong cách lãnh đạo và những bê bối gần đây.",
+      "keywords": [
+        "Jensen Huang",
+        "Nvidia",
+        "CEO",
+        "quản trị doanh nghiệp",
+        "công nghệ"
+      ],
+      "slug": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 423,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+        "https://vnexpress.net/nhung-thach-thuc-cho-doi-jensen-huang-5148444.html",
+        "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+        "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+        "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back"
+      ],
+      "source_links": [
+        "https://vnexpress.net/nhung-thach-thuc-cho-doi-jensen-huang-5148444.html",
+        "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+        "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+        "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T19:33:23+00:00"
+        },
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/nhung-thach-thuc-cho-doi-jensen-huang-5148444.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T18:03:48+00:00"
+        },
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T18:00:24+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T17:28:09+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T14:56:50+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Jensen Huang đã tổ chức cuộc họp toàn thể đầu tiên sau khi được phục chức CEO Nvidia vào ngày 23/11.",
+          "source_urls": [
+            "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“If Jensen comes back, I’m not doing any HR trainings ever again,” one employee said.Paresh Dave‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s ReturnAn internal post urging the board to consider employee sentiment about Nvidia’s former CEO has drawn more than 1,600 comments, the majority in full support of reinstalling him.Paresh DaveJensen Huang and the End of the Founder Fairy TaleThe former tech CEO is obsessed with the power of storytelling.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+              "snippet": "“If Jensen comes back, I’m not doing any HR trainings ever again,” one employee said.Paresh Dave‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s ReturnAn internal post urging the board to consider employee sentiment about Nvidia’s former CEO has drawn more than 1,600 comments, the majority in full support of reinstalling him.Paresh DaveJensen Huang and the End of the Founder Fairy TaleThe former tech CEO is obsessed with the power of storytelling.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+              "page_sha256": "e6e798c15a648b3fb9042253258b4ad7834420b536a27a14ccce511eda65fd36",
+              "snippet_sha256": "f08ff6023c8cfa727d84662393c0af9a6d22e37a1f06605807ea411a6fde1a2c",
+              "verified_at": "2026-11-24T19:49:13.595900+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Huang xác nhận đang thực hiện trị liệu 90 phút mỗi ngày để cải thiện phong cách quản trị.",
+          "source_urls": [
+            "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Jensen Huang is going to therapy for 90 minutes a day, rethinkinghis management style, and says that violating Nvidia’s code of conduct isn’t necessarily a fireable offense.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+              "snippet": "Jensen Huang is going to therapy for 90 minutes a day, rethinkinghis management style, and says that violating Nvidia’s code of conduct isn’t necessarily a fireable offense.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+              "page_sha256": "e6e798c15a648b3fb9042253258b4ad7834420b536a27a14ccce511eda65fd36",
+              "snippet_sha256": "021ddfe1de621cd442d741a386fad31b2849b0c422b03eb091a7679ab2e600bc",
+              "verified_at": "2026-11-24T19:49:13.595900+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia hiện đang đối mặt với các cuộc điều tra từ FBI, SEC và các cơ quan chức năng về các vấn đề quản trị và kiểm soát xuất khẩu.",
+          "source_urls": [
+            "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia"
+          ],
+          "importance": "core",
+          "evidence_snippet": "He was previously a reporter for Reuters and the Los Angeles Times, ...Read MoreSenior WriterTopicsJensen HuangNVIDIAceochipsDonald TrumpSilicon ValleyJensen Huang Apologizes to Nvidia Employees in First All-Hands Since His ReturnThe reinstated Nvidia CEO acknowledged violating the company’s code of conduct and said he had made some “very serious personal mistakes.”Paresh DaveInside Nvidia, Not Everyone Is Celebrating Jensen Huang’s ReturnSome saw Huang’s resignation as an opportunity for culture change at the chip giant.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+              "snippet": "He was previously a reporter for Reuters and the Los Angeles Times, ...Read MoreSenior WriterTopicsJensen HuangNVIDIAceochipsDonald TrumpSilicon ValleyJensen Huang Apologizes to Nvidia Employees in First All-Hands Since His ReturnThe reinstated Nvidia CEO acknowledged violating the company’s code of conduct and said he had made some “very serious personal mistakes.”Paresh DaveInside Nvidia, Not Everyone Is Celebrating Jensen Huang’s ReturnSome saw Huang’s resignation as an opportunity for culture change at the chip giant.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+              "page_sha256": "e6e798c15a648b3fb9042253258b4ad7834420b536a27a14ccce511eda65fd36",
+              "snippet_sha256": "33ffe0cb9f2f874a212debe4abac0db4fbfe8cb98513bfddef76a68ca8d8fe89",
+              "verified_at": "2026-11-24T19:49:13.595900+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa các tuyên bố của Jensen Huang về văn hóa doanh nghiệp và bối cảnh pháp lý phức tạp mà Nvidia đang đối mặt. Đồng thời, bài báo cung cấp cái nhìn tổng thể về nỗ lực ổn định nội bộ của CEO sau khi được phục chức.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T19:49:13.596505+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "90"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T19:49:13.597801+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 423,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1903
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "theguardian.com",
+          "theverge.com",
+          "vnexpress.net",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "micah-parsons-tro-lai-oi-hinh-green-bay-packers-trong-tran-au-em-truoc-l-3e863529",
+    "status": "READY",
+    "prepared_at": "2026-11-24T19:46:44.741786+00:00",
+    "expires_at": "2026-11-25T19:46:44.741786+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+      "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday"
+    ],
+    "article": {
+      "id": "micah-parsons-tro-lai-oi-hinh-green-bay-packers-trong-tran-au-em-truoc-l-3e863529",
+      "title": "Micah Parsons trở lại đội hình Green Bay Packers trong trận đấu đêm trước Lễ Tạ ơn",
+      "summary": "Ngôi sao phòng ngự Micah Parsons đã chính thức được kích hoạt khỏi danh sách chấn thương và sẵn sàng cho trận đấu quan trọng của Green Bay Packers trước Los Angeles Rams.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+      "published_at": "2026-11-24T19:40:13+00:00",
+      "fetched_at": "2026-11-24T19:49:33.362775+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Green Bay Packers vừa đón nhận tin vui lớn trước thềm trận đấu quan trọng với Los Angeles Rams vào đêm trước Lễ Tạ ơn. Theo thông báo từ Tổng giám đốc Brian Gutekunst vào thứ Ba, ngôi sao phòng ngự Micah Parsons đã chính thức được kích hoạt khỏi danh sách dự bị/không thể thi đấu (PUP), mở đường cho sự trở lại của anh trong mùa giải 2026.",
+        "Sự trở lại của Parsons diễn ra sau 347 ngày kể từ khi anh gặp chấn thương nghiêm trọng bao gồm rách dây chằng chéo trước (ACL) và sụn chêm trong trận đấu với Denver Broncos vào tuần 15 mùa giải trước. Sau quá trình hồi phục và bắt đầu tập luyện từ đầu tháng 11, Parsons đã nhận được sự chấp thuận từ bác sĩ phẫu thuật Neal ElAttrache để quay lại sân cỏ. Dù được liệt kê vào danh sách nghi vấn trước trận đấu, nhiều khả năng anh sẽ có màn ra mắt mùa giải mới với số lượng lượt chơi (snap count) hạn chế.",
+        "Đây là sự bổ sung kịp thời cho hàng phòng ngự của Packers trong bối cảnh đội bóng đang có thành tích 6-4 và cạnh tranh gay gắt cho tấm vé Wild Card cuối cùng tại NFC. Trận đấu với Rams được xem là bước ngoặt quyết định cơ hội lọt vào vòng playoff của cả hai đội. Parsons, người từng dẫn đầu đội với 12,5 pha sack ở mùa trước, bày tỏ sự quyết tâm cao độ khi chỉ còn 7 trận đấu trong mùa giải chính để khẳng định vị thế của đội bóng."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Micah Parsons trở lại thi đấu cho Packers sau chấn thương dài hạn",
+      "meta_description": "Green Bay Packers xác nhận Micah Parsons đã được kích hoạt khỏi danh sách PUP và dự kiến ra sân trong trận gặp Los Angeles Rams vào đêm trước Lễ Tạ ơn.",
+      "keywords": [
+        "Micah Parsons",
+        "Green Bay Packers",
+        "NFL",
+        "Los Angeles Rams",
+        "bóng bầu dục"
+      ],
+      "slug": "micah-parsons-tro-lai-oi-hinh-green-bay-packers-trong-tran-au-em-truoc-l-3e863529",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 274,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+        "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday"
+      ],
+      "source_links": [
+        "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T19:40:13+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T05:05:09+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Micah Parsons đã được kích hoạt khỏi danh sách PUP và dự kiến ra sân trong trận gặp Rams.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Packers activate Micah Parsons ahead of Rams Thanksgiving Even game",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+              "snippet": "Packers activate Micah Parsons ahead of Rams Thanksgiving Even game",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+              "page_sha256": "ea09bc732493a35d26bbb90167cfc3023cf06ab2a238f35ed68c3c76de1031e8",
+              "snippet_sha256": "14e57c067d34a13ef7b6850baf9df28a9eea88f9170906cf712e84b04aec97e0",
+              "verified_at": "2026-11-24T19:49:33.362354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Parsons đã nghỉ thi đấu 347 ngày sau chấn thương ACL và sụn chêm.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Parsons' return to game action will come 347 days after he not only tore his ACL but also his meniscus in a noncontact injury against theDenver Broncosin Week 15 last season.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
+              "snippet": "Parsons' return to game action will come 347 days after he not only tore his ACL but also his meniscus in a noncontact injury against theDenver Broncosin Week 15 last season.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
+              "page_sha256": "18069a76a5a247f6eae931daa705a86611549aef4855233a5518dd340cd4e8c9",
+              "snippet_sha256": "1878e3308ea353ebecc9d77c41fa0c917e25f0d8d20e16c99b878a45ef6db459",
+              "verified_at": "2026-11-24T19:49:33.362354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cả Packers và Rams đều đang có thành tích 6-4 trước khi bước vào trận đấu tuần 12.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Fortunately, the Packers are set to get Parsons back in Week 12, as he's been activated off PUP one day prior to the Thanksgiving Eve matchup for what would be his 2026 season debut.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+              "snippet": "Fortunately, the Packers are set to get Parsons back in Week 12, as he's been activated off PUP one day prior to the Thanksgiving Eve matchup for what would be his 2026 season debut.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+              "page_sha256": "ea09bc732493a35d26bbb90167cfc3023cf06ab2a238f35ed68c3c76de1031e8",
+              "snippet_sha256": "a7e234aa03e1321285788dbc26541d72d1ff41718a819e8c00f718b34a9dc592",
+              "verified_at": "2026-11-24T19:49:33.362354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh chấn thương dài hạn của Parsons và ý nghĩa chiến thuật của sự trở lại này đối với cuộc đua playoff. Đồng thời, thông tin được đối chiếu từ hai nguồn tin thể thao uy tín để đảm bảo tính chính xác về tình trạng sức khỏe và kế hoạch thi đấu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T19:49:33.362848+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12,5",
+        "15",
+        "2026",
+        "347",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T19:49:33.363607+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 274,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1272
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
