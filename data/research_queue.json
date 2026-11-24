@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "c1d47741c4f52913c8fb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:36:01.601009+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "technology",
@@ -580,11 +580,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:36:01.601030+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287"
   },
   {
     "queue_id": "3be0412471e3a09e1d95",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:36:00.997479+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "vietnam",
@@ -1705,11 +1706,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:36:00.997500+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92"
   },
   {
     "queue_id": "961fa04ed9568abf131c",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T05:35:51.904453+00:00",
     "expires_at": "2026-11-27T05:34:03.692556+00:00",
     "category_hint": "world",
@@ -2513,7 +2515,8 @@
       ]
     },
     "research_ready_at": "2026-11-24T05:35:51.904476+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "phat-hien-khao-co-moi-nha-cai-tri-thoi-ky-o-sat-verica-co-the-la-nu-gioi-5354f651"
   },
   {
     "queue_id": "6eb3830bc4646bb376c9",
@@ -94417,5 +94420,665 @@
     },
     "published_at": "2026-11-21T13:09:27.824953+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+    "status": "READY",
+    "prepared_at": "2026-11-24T05:36:25.475615+00:00",
+    "expires_at": "2026-11-25T05:36:25.475615+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+      "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile"
+    ],
+    "article": {
+      "id": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+      "title": "Tương lai nào cho những chiếc máy trạm Mac Pro đã dừng sản xuất?",
+      "summary": "Việc Apple ngừng dòng máy Mac Pro để ưu tiên Mac Studio đặt ra bài toán tận dụng thiết bị cũ, từ việc chạy hệ điều hành thay thế, chuyển nhượng lại đến tận dụng linh kiện.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+      "published_at": "2026-11-23T23:30:00+00:00",
+      "fetched_at": "2026-11-24T05:36:29.408554+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Việc Apple chính thức ngừng sản xuất dòng máy trạm Mac Pro vào tháng 3/2026 nhằm tập trung cho dòng sản phẩm Mac Studio đã khép lại chuỗi thiết bị gắn bó lâu năm với người dùng chuyên nghiệp. Với mức giá khởi điểm từ 5.999 USD cho phiên bản 2019 và có thể lên tới hàng chục nghìn USD khi trang bị đầy đủ, đây là khoản đầu tư lớn. Tuy nhiên, người dùng sở hữu các thiết bị này vẫn có nhiều lựa chọn để khai thác giá trị còn lại.",
+        "Do chuyển đổi sang kiến trúc Apple silicon với bộ nhớ hợp nhất, các dòng chip M-series không hỗ trợ card đồ họa rời và linh kiện bên thứ ba như mẫu Mac Pro 2019. Phiên bản Mac Pro 2023 sử dụng chip M2 Ultra cũng thiếu tính mô-đun. Dù vậy, thị trường đồ cũ cho dòng máy này vẫn duy trì sức hút nhờ nhu cầu cao về bộ nhớ và ổ cứng lưu trữ dung lượng lớn từ các tác vụ dựng phim hay chạy máy chủ.",
+        "Bên cạnh đó, người dùng có thể kéo dài vòng đời thiết bị bằng cách cài đặt hệ điều hành mới thông qua máy ảo hoặc cài đặt trực tiếp, dù phương pháp sau đòi hỏi kỹ thuật cao và ẩn chứa rủi ro. Trước khi chuyển nhượng hoặc thanh lý thiết bị trên các chợ trực tuyến, việc sao lưu dữ liệu và thực hiện khôi phục cài đặt gốc theo hướng dẫn của Apple là bước quan trọng để bảo mật thông tin cá nhân."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Làm gì với chiếc máy trạm Mac Pro đã ngừng sản xuất?",
+      "meta_description": "Khám phá các phương án tận dụng, nâng cấp phần mềm hoặc bán lại dòng máy trạm Mac Pro sau khi Apple chính thức dừng sản xuất.",
+      "keywords": [
+        "Mac Pro",
+        "Apple",
+        "Mac Studio",
+        "máy trạm",
+        "công nghệ"
+      ],
+      "slug": "tuong-lai-nao-cho-nhung-chiec-may-tram-mac-pro-a-dung-san-xuat-a2f15287",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 269,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+        "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T23:30:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T17:00:51+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Apple đã ngừng sản xuất dòng máy trạm Mac Pro vào tháng 3 năm 2026 để ưu tiên dòng sản phẩm Mac Studio.",
+          "source_urls": [
+            "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Apple discontinued the Mac Pro in March 2026 in orderto prioritize the new Mac Studio line of workstations.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "snippet": "Apple discontinued the Mac Pro in March 2026 in orderto prioritize the new Mac Studio line of workstations.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "page_sha256": "b210671ca24097155eaef6ddf8ea4ed48bd76ef786f09eb58160a72239bf1cfd",
+              "snippet_sha256": "8a275f5bc04ad4db8ce93dd343415b6d0634cb9664ae18bf8f887ad7cbf8ded2",
+              "verified_at": "2026-11-24T05:36:29.407914+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phiên bản Mac Pro 2019 có giá khởi điểm từ 5.999 USD cho bản tiêu chuẩn và có thể lên đến hàng chục nghìn USD.",
+          "source_urls": [
+            "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Starting at $5,999 for the entry-level 2019 model and costing tens of thousands of dollars when fully equipped, theMac Prowas (and still is) a serious investment for most people and companies.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "snippet": "Starting at $5,999 for the entry-level 2019 model and costing tens of thousands of dollars when fully equipped, theMac Prowas (and still is) a serious investment for most people and companies.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "page_sha256": "b210671ca24097155eaef6ddf8ea4ed48bd76ef786f09eb58160a72239bf1cfd",
+              "snippet_sha256": "0a6728f722aa22e092c813763089e9f8120201e95c273a64ab618a9b4e46c55b",
+              "verified_at": "2026-11-24T05:36:29.407914+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mac Pro 2023 sử dụng chip M2 Ultra và thiếu tính mô-đun giống như phiên bản 2019.",
+          "source_urls": [
+            "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The 2023 Mac Pro, meanwhile, uses theApple M2 UltraSoC and lacks the modularity of the 2019 model, so it's essentially a Mac Studio in a Mac Pro shell.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "snippet": "The 2023 Mac Pro, meanwhile, uses theApple M2 UltraSoC and lacks the modularity of the 2019 model, so it's essentially a Mac Studio in a Mac Pro shell.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro",
+              "page_sha256": "b210671ca24097155eaef6ddf8ea4ed48bd76ef786f09eb58160a72239bf1cfd",
+              "snippet_sha256": "f9dab48f788ab67c352341b492610e889354b023c4997b802010b69bdf403990",
+              "verified_at": "2026-11-24T05:36:29.407914+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ các lựa chọn kỹ thuật và thương mại đối với dòng Mac Pro sau khi bị khai tử. Phân tích đồng thời giới hạn của phần cứng Intel cũ và tiềm năng của thị trường linh kiện rời giúp người dùng tối ưu hóa tài sản.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T05:36:29.408646+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "2019",
+        "2023",
+        "2026",
+        "5.999"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T05:36:29.409885+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 269,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1213
+        },
+        "independent_domains": [
+          "engadget.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+    "status": "READY",
+    "prepared_at": "2026-11-24T05:36:25.475615+00:00",
+    "expires_at": "2026-11-25T05:36:25.475615+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+      "https://vnexpress.net/san-bay-gia-binh-xuc-tien-hop-tac-65-hang-hang-khong-quoc-te-5148047.html",
+      "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-hut-3-diem-tay-ban-nha-thang-fiji-15-0-185261124002203999.htm",
+      "https://dantri.com.vn/the-gioi/nguoi-tre-trung-quoc-thu-suc-nghe-dac-biet-de-du-lich-the-gioi-mien-phi-20261123174602792.htm"
+    ],
+    "article": {
+      "id": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "title": "Lần đầu tiên phi hành gia nước ngoài chuẩn bị lên trạm vũ trụ Trung Quốc",
+      "summary": "Trung Quốc công bố danh sách phi hành gia tham gia sứ mệnh Thần Châu 24, trong đó có một phi hành gia người Pakistan, đánh dấu lần đầu tiên một người nước ngoài góp mặt trên trạm vũ trụ Thiên Cung.",
+      "category": "world",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+      "published_at": "2026-11-24T04:54:00+00:00",
+      "fetched_at": "2026-11-24T05:36:35.221975+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trung Quốc chuẩn bị thực hiện bước tiến mới trong chương trình không gian có người lái khi đưa một phi hành gia người nước ngoài lên trạm vũ trụ Thiên Cung. Sứ mệnh mang tên Thần Châu 24 này đánh dấu lần đầu tiên một nhà du hành không phải công dân Trung Quốc tham gia chuyến bay chính thức lên trạm vũ trụ của quốc gia này.",
+        "Theo thông tin được công bố vào cuối tháng 11-2026, danh sách phi hành đoàn gồm ba thành viên. Trong đó, phi hành gia người Pakistan Muhammad Zeeshan Ali, 40 tuổi, sẽ đồng hành cùng hai phi hành gia trong nước là Tang Hongbo, 51 tuổi và Wu Yi, 39 tuổi. Tàu vũ trụ dự kiến được phóng từ Trung tâm phóng vệ tinh Tửu Tuyền, khu vực tây bắc Trung Quốc.",
+        "Theo Đài Truyền hình Trung ương Trung Quốc (CCTV), ông Ali sẽ làm việc trên trạm vũ trụ trong một khoảng thời gian ngắn để thực hiện các thí nghiệm khoa học và công việc thường nhật. Cụ thể, phi hành gia này sẽ triển khai bốn dự án nghiên cứu thuộc lĩnh vực công nghệ sinh học và vật liệu, bao gồm thí nghiệm trên quỹ đạo với các vi sinh vật quang hợp. Sau khi hoàn thành nhiệm vụ, ông sẽ trở về Trái đất bằng tàu Thần Châu 23.",
+        "Sứ mệnh này là bước triển khai cụ thể của thỏa thuận hợp tác không gian được Trung Quốc và Pakistan ký kết vào tháng 2-2025. Về phía phi hành đoàn, ông Tang Hongbo là thành viên duy nhất từng bay vào không gian trước đó, và chuyến đi này sẽ đưa ông trở thành người đầu tiên đặt chân lên trạm vũ trụ Thiên Cung lần thứ ba."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Phi hành gia nước ngoài lần đầu lên trạm vũ trụ Trung Quốc trong sứ mệ",
+      "meta_description": "Trung Quốc chuẩn bị đưa phi hành gia người Pakistan Muhammad Zeeshan Ali lên trạm vũ trụ Thiên Cung cùng hai đồng nghiệp trong sứ mệnh Thần Châu 24.",
+      "keywords": [
+        "trạm vũ trụ Thiên Cung",
+        "Thần Châu 24",
+        "phi hành gia nước ngoài",
+        "Trung Quốc",
+        "Pakistan"
+      ],
+      "slug": "lan-au-tien-phi-hanh-gia-nuoc-ngoai-chuan-bi-len-tram-vu-tru-trung-quoc-e3f6ea92",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 302,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+        "https://vnexpress.net/san-bay-gia-binh-xuc-tien-hop-tac-65-hang-hang-khong-quoc-te-5148047.html",
+        "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-hut-3-diem-tay-ban-nha-thang-fiji-15-0-185261124002203999.htm",
+        "https://dantri.com.vn/the-gioi/nguoi-tre-trung-quoc-thu-suc-nghe-dac-biet-de-du-lich-the-gioi-mien-phi-20261123174602792.htm"
+      ],
+      "source_links": [
+        "https://vnexpress.net/san-bay-gia-binh-xuc-tien-hop-tac-65-hang-hang-khong-quoc-te-5148047.html",
+        "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-hut-3-diem-tay-ban-nha-thang-fiji-15-0-185261124002203999.htm",
+        "https://dantri.com.vn/the-gioi/nguoi-tre-trung-quoc-thu-suc-nghe-dac-biet-de-du-lich-the-gioi-mien-phi-20261123174602792.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T04:54:00+00:00"
+        },
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/san-bay-gia-binh-xuc-tien-hop-tac-65-hang-hang-khong-quoc-te-5148047.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T07:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ket-qua-u17-world-cup-moi-nhat-trung-quoc-hut-3-diem-tay-ban-nha-thang-fiji-15-0-185261124002203999.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T17:25:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/nguoi-tre-trung-quoc-thu-suc-nghe-dac-biet-de-du-lich-the-gioi-mien-phi-20261123174602792.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T12:47:04+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trung Quốc chuẩn bị đưa phi hành gia người Pakistan lên trạm vũ trụ Thiên Cung trong sứ mệnh Thần Châu 24, đánh dấu lần đầu tiên một phi hành gia nước ngoài tham gia chuyến bay có người lái lên trạm vũ trụ của nước này.",
+          "source_urls": [
+            "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trung Quốc chuẩn bị đưa phi hành gia người Pakistan lên trạm vũ trụ Thiên Cung trong sứ mệnh Thần Châu 24, đánh dấu lần đầu tiên một phi hành gia nước ngoài tham gia chuyến bay có người lái lên trạm vũ trụ của nước này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "snippet": "Trung Quốc chuẩn bị đưa phi hành gia người Pakistan lên trạm vũ trụ Thiên Cung trong sứ mệnh Thần Châu 24, đánh dấu lần đầu tiên một phi hành gia nước ngoài tham gia chuyến bay có người lái lên trạm vũ trụ của nước này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "page_sha256": "2064aab11d23102b99978682a64df20c560764a023e7b4f12e28152603662219",
+              "snippet_sha256": "39b8af4aff487d1ac51d74d7d514d780ceab27f21cfa666167ef182755972eff",
+              "verified_at": "2026-11-24T05:36:35.221125+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Danh sách phi hành gia tham gia sứ mệnh Thần Châu 24 gồm phi hành gia Pakistan Muhammad Zeeshan Ali (40 tuổi) và hai phi hành gia Trung Quốc là Tang Hongbo (51 tuổi), Wu Yi (39 tuổi).",
+          "source_urls": [
+            "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo Hãng tin AP ngày 24-11, Trung Quốc công bố danh sách ba phi hành gia tham gia sứ mệnh Thần Châu 24, gồm phi hành gia Pakistan Muhammad Zeeshan Ali (40 tuổi) và hai phi hành gia Trung Quốc là Tang Hongbo (51 tuổi), Wu Yi (39 tuổi).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "snippet": "Theo Hãng tin AP ngày 24-11, Trung Quốc công bố danh sách ba phi hành gia tham gia sứ mệnh Thần Châu 24, gồm phi hành gia Pakistan Muhammad Zeeshan Ali (40 tuổi) và hai phi hành gia Trung Quốc là Tang Hongbo (51 tuổi), Wu Yi (39 tuổi).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "page_sha256": "2064aab11d23102b99978682a64df20c560764a023e7b4f12e28152603662219",
+              "snippet_sha256": "8c881e7977c0b2b00f1c8f7d6a8f575feac24fcebce242ea7c9d640a1b166f94",
+              "verified_at": "2026-11-24T05:36:35.221125+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phi hành gia Pakistan sẽ thực hiện 4 dự án nghiên cứu khoa học trong lĩnh vực công nghệ sinh học và vật liệu, trong đó có thí nghiệm trên quỹ đạo với các vi sinh vật quang hợp.",
+          "source_urls": [
+            "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cụ thể, phi hành gia Pakistan sẽ thực hiện 4 dự án nghiên cứu khoa học trong lĩnh vực công nghệ sinh học và vật liệu, trong đó có thí nghiệm trên quỹ đạo với các vi sinh vật quang hợp.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "snippet": "Cụ thể, phi hành gia Pakistan sẽ thực hiện 4 dự án nghiên cứu khoa học trong lĩnh vực công nghệ sinh học và vật liệu, trong đó có thí nghiệm trên quỹ đạo với các vi sinh vật quang hợp.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "page_sha256": "2064aab11d23102b99978682a64df20c560764a023e7b4f12e28152603662219",
+              "snippet_sha256": "8ea145f85288ccc0882569c65d728886fec948ba8f50ef59e271c2fc33d49482",
+              "verified_at": "2026-11-24T05:36:35.221125+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sứ mệnh đánh dấu bước triển khai cụ thể thỏa thuận hợp tác về lĩnh vực không gian được Trung Quốc và Pakistan ký kết vào tháng 2-2025.",
+          "source_urls": [
+            "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Sứ mệnh đánh dấu bước triển khai cụ thể thỏa thuận hợp tác về lĩnh vực không gian được Trung Quốc và Pakistan ký kết vào tháng 2-2025, trong đó hai bên nhất trí tăng cường hợp tác trong các hoạt động nghiên cứu và thám hiểm vũ trụ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "snippet": "Sứ mệnh đánh dấu bước triển khai cụ thể thỏa thuận hợp tác về lĩnh vực không gian được Trung Quốc và Pakistan ký kết vào tháng 2-2025, trong đó hai bên nhất trí tăng cường hợp tác trong các hoạt động nghiên cứu và thám hiểm vũ trụ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/lan-dau-tien-se-co-phi-hanh-gia-nuoc-ngoai-len-tram-vu-tru-cua-trung-quoc-100261124111320519.htm",
+              "page_sha256": "2064aab11d23102b99978682a64df20c560764a023e7b4f12e28152603662219",
+              "snippet_sha256": "95a97d12fce5d397ed9c369ac6165f30594afc9c38a51415852707e94d8f98ff",
+              "verified_at": "2026-11-24T05:36:35.221125+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết về thành phần phi hành đoàn trong sứ mệnh Thần Châu 24 và các thí nghiệm khoa học cụ thể mà phi hành gia nước ngoài sẽ thực hiện. Bối cảnh thỏa thuận hợp tác ký kết từ tháng 2-2025 cũng được bổ sung để giải thích cơ sở hình thành chuyến bay.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T05:36:35.222076+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2025",
+        "2026",
+        "23",
+        "24",
+        "39",
+        "40",
+        "51"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T05:36:35.223482+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 302,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1420
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "phat-hien-khao-co-moi-nha-cai-tri-thoi-ky-o-sat-verica-co-the-la-nu-gioi-5354f651",
+    "status": "READY",
+    "prepared_at": "2026-11-24T05:36:25.475615+00:00",
+    "expires_at": "2026-11-25T05:36:25.475615+00:00",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss"
+    ],
+    "article": {
+      "id": "phat-hien-khao-co-moi-nha-cai-tri-thoi-ky-o-sat-verica-co-the-la-nu-gioi-5354f651",
+      "title": "Phát hiện khảo cổ mới: Nhà cai trị thời kỳ đồ sắt Verica có thể là nữ giới",
+      "summary": "Nghiên cứu mới từ Đại học Bournemouth chỉ ra rằng Verica, nhà cai trị thời kỳ Đồ sắt từng bị gán cho giới tính nam, thực chất là một phụ nữ có tầm ảnh hưởng lớn trước thềm cuộc xâm lược của La Mã.",
+      "category": "world",
+      "source_name": "ScienceDaily - All",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+      "published_at": "2026-11-23T05:30:23+00:00",
+      "fetched_at": "2026-11-24T05:36:41.172465+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các nhà nghiên cứu tại Đại học Bournemouth vừa công bố những phát hiện mới thách thức quan niệm lịch sử lâu đời về Verica, một nhà cai trị quyền lực từng thống trị bộ lạc Atrebates tại khu vực Hampshire và West Sussex ngày nay. Theo phân tích mới, nhân vật này thực tế là nữ giới thay vì nam giới như các nhà sử học thế kỷ 19 từng mặc định.",
+        "Vào khoảng năm 40 sau Công nguyên, Verica bị lật đổ và phải trốn sang La Mã để tìm kiếm sự hỗ trợ từ Hoàng đế Claudius. Theo ghi chép của sử gia La Mã Cassius Dio, lời thỉnh cầu này là nhân tố thúc đẩy La Mã tiến hành cuộc xâm lược Anh năm 43 sau Công nguyên. Tuy nhiên, góc nhìn lịch sử truyền thống phần lớn bị chi phối bởi lăng kính phụ quyền.",
+        "Tiến sĩ Miles Russell, Giám đốc Khảo cổ thực địa tại Đại học Bournemouth, chỉ ra rằng tên của nhà cai trị này kết thúc bằng chữ \"a\" - đặc điểm phổ biến của tên nữ thời đó như Boudica hay Cartimandua. Ngoài ra, danh hiệu \"rex\" trên tiền xu không phân biệt giới tính, kết hợp với hình chạm khắc mang đặc điểm nữ tính, củng cố giả thuyết đây là một nữ vương.",
+        "Nhóm nghiên cứu nhận định vai trò của Verica không chỉ dừng lại ở một nguyên nhân ngoại giao đơn thuần dẫn đến chiến tranh, mà vị nữ vương này còn đóng vai trò là đồng minh cung cấp thông tin tình báo và hỗ trợ thực tế quan trọng cho chiến dịch của người La Mã."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Nghiên cứu mới: Nhà cai trị thời Đồ sắt Verica là phụ nữ",
+      "meta_description": "Các nhà khảo cổ học công bố bằng chứng cho thấy Verica, nhân vật chủ chốt dẫn đến cuộc xâm lược Anh của La Mã năm 43 sau Công nguyên, thực tế là một nữ nhà cai ",
+      "keywords": [
+        "Verica",
+        "khảo cổ học",
+        "thời kỳ Đồ sắt",
+        "La Mã",
+        "Đại học Bournemouth"
+      ],
+      "slug": "phat-hien-khao-co-moi-nha-cai-tri-thoi-ky-o-sat-verica-co-the-la-nu-gioi-5354f651",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 282,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "ScienceDaily - All",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+          "domain": "sciencedaily.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sciencedaily.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T05:30:23+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T09:06:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nghiên cứu mới từ Đại học Bournemouth cho thấy Verica, nhà cai trị thời kỳ Đồ sắt của bộ lạc Atrebates, thực chất là một phụ nữ.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261122060338.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Miles Russell, Director of Archaeological Fieldwork at Bournemouth University, led the research and argues that earlier historians incorrectly identified Verica as male.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+              "snippet": "Miles Russell, Director of Archaeological Fieldwork at Bournemouth University, led the research and argues that earlier historians incorrectly identified Verica as male.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+              "page_sha256": "297dfb0433f42c3942c2564f0e575915fdc5a407096a3395228b13ff78ed4a6d",
+              "snippet_sha256": "1e15a25fd2fe29542dd14f732a3f989b91487cca6a1da9fa11b539abfd3d957a",
+              "verified_at": "2026-11-24T05:36:41.171903+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Khoảng năm 40 sau Công nguyên, Verica bị lật đổ và trốn sang La Mã để cầu cứu Hoàng đế Claudius, sự kiện góp phần châm ngòi cho cuộc xâm lược Anh năm 43 sau Công nguyên.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261122060338.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Around AD 40, Verica was forced from power and escaped to Rome, where the exiled ruler sought assistance from Emperor Claudius.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+              "snippet": "Around AD 40, Verica was forced from power and escaped to Rome, where the exiled ruler sought assistance from Emperor Claudius.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+              "page_sha256": "297dfb0433f42c3942c2564f0e575915fdc5a407096a3395228b13ff78ed4a6d",
+              "snippet_sha256": "e438aed7775425d4a4e6f28e77c8412f87206533d77b14978f136a1a86d2cb06",
+              "verified_at": "2026-11-24T05:36:41.171903+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tiến sĩ Miles Russell dẫn đầu nghiên cứu, chỉ ra các bằng chứng gồm tên kết thúc bằng chữ a, danh hiệu rex không phân biệt giới tính và hình khắc nữ tính trên tiền xu.",
+          "source_urls": [
+            "https://www.sciencedaily.com/releases/2026/11/261122060338.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Credit: Miles Russell and Macsen Russell Right: Gold coin of Verica with a naked horse-riding female warrior with a spear and VIR (for Verica) and REX.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+              "snippet": "Credit: Miles Russell and Macsen Russell Right: Gold coin of Verica with a naked horse-riding female warrior with a spear and VIR (for Verica) and REX.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060338.htm",
+              "page_sha256": "297dfb0433f42c3942c2564f0e575915fdc5a407096a3395228b13ff78ed4a6d",
+              "snippet_sha256": "3f1c7400bd3f30d59fa6e0824b7e30bc99e879131c39bf0a3185d1dbac177485",
+              "verified_at": "2026-11-24T05:36:41.171903+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bước chuyển trong nhận thức lịch sử về nhân vật Verica thông qua các bằng chứng từ tên gọi, tiền xu và bối cảnh chính trị thời La Mã. Phân tích này giải thích nguyên nhân các sử gia trước đây nhầm lẫn giới tính và đánh giá lại vai trò của bà trong chiến dịch xâm lược của Hoàng đế Claudius.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T05:36:41.172565+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "19",
+        "40",
+        "43"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-24T05:36:41.173431+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 282,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1302
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "sciencedaily.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
