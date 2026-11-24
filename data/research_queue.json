@@ -2398,7 +2398,7 @@
   },
   {
     "queue_id": "5b6944c30390bf66ddd2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T19:45:41.607299+00:00",
     "expires_at": "2026-11-27T19:43:51.366882+00:00",
     "category_hint": "sports",
@@ -3215,11 +3215,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T19:45:41.607321+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anh-vien-toa-sang-tai-ai-hoi-the-thao-toan-quoc-2026-voi-hai-ky-luc-moi-40f44be1"
   },
   {
     "queue_id": "452b81dd33622c1523fd",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T19:45:30.340743+00:00",
     "expires_at": "2026-11-27T19:43:51.366882+00:00",
     "category_hint": "vietnam",
@@ -3895,11 +3896,12 @@
       ]
     },
     "research_ready_at": "2026-11-24T19:45:30.340777+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toa-an-the-thao-ra-quyet-inh-soc-tuoc-chuc-vo-ich-chau-phi-cua-morocco-t-e1378e98"
   },
   {
     "queue_id": "2abf5f195c9a171aa67f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-24T19:45:20.445649+00:00",
     "expires_at": "2026-11-27T19:43:51.366882+00:00",
     "category_hint": "world",
@@ -4553,7 +4555,8 @@
       ]
     },
     "research_ready_at": "2026-11-24T19:45:20.445670+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toa-thap-bieu-tuong-tai-riyadh-bi-hu-hai-sau-ot-tan-cong-bang-ten-lua-7548fa46"
   },
   {
     "queue_id": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5",
@@ -94296,7 +94299,7 @@
   },
   {
     "queue_id": "hulu-va-disney-plus-giam-gia-manh-trong-dip-black-friday-9c8fdb51",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-24T19:46:44.741786+00:00",
     "expires_at": "2026-11-25T19:46:44.741786+00:00",
     "source_urls": [
@@ -94312,7 +94315,7 @@
       "source_url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
       "published_at": "2026-11-24T19:30:18+00:00",
       "fetched_at": "2026-11-24T19:48:55.650538+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-24T20:24:06.321531+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -94474,23 +94477,33 @@
         "5"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-24T19:48:55.651107+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-24T20:24:06.321531+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 126,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 657
-        },
-        "independent_domains": [
-          "engadget.com",
-          "theverge.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 657,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-25 03:24"
+    },
+    "published_at": "2026-11-24T20:24:06.321531+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc",
@@ -94946,5 +94959,702 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "anh-vien-toa-sang-tai-ai-hoi-the-thao-toan-quoc-2026-voi-hai-ky-luc-moi-40f44be1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T20:22:23.773240+00:00",
+    "expires_at": "2026-11-25T20:22:23.773240+00:00",
+    "source_urls": [
+      "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+      "https://tuoitre.vn/dai-chien-nguyen-thuy-linh-vu-thi-trang-tai-chung-ket-cau-long-dai-hoi-the-thao-toan-quoc-100261124221645457.htm",
+      "https://thanhnien.vn/anh-vien-day-song-duong-dua-xanh-doat-them-2-hcv-dai-hoi-the-thao-toan-quoc-185261124185004661.htm"
+    ],
+    "article": {
+      "id": "anh-vien-toa-sang-tai-ai-hoi-the-thao-toan-quoc-2026-voi-hai-ky-luc-moi-40f44be1",
+      "title": "Ánh Viên tỏa sáng tại Đại hội Thể thao toàn quốc 2026 với hai kỷ lục mới",
+      "summary": "Sau 8 năm, kình ngư Nguyễn Thị Ánh Viên tiếp tục khẳng định đẳng cấp khi giành thêm hai huy chương vàng và thiết lập hai kỷ lục mới tại Đại hội Thể thao toàn quốc 2026.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+      "published_at": "2026-11-24T12:52:52+00:00",
+      "fetched_at": "2026-11-24T20:22:42.916475+00:00",
+      "appnho_published_at": "2026-11-24T20:24:06.321531+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại Đại hội Thể thao toàn quốc lần thứ 10 năm 2026 đang diễn ra ở TP HCM, kình ngư Nguyễn Thị Ánh Viên đã tạo nên dấu ấn mạnh mẽ trong ngày thi đấu 24/11. Dù đã tuyên bố giải nghệ cách đây 4 năm, vận động viên 30 tuổi này vẫn duy trì phong độ đỉnh cao khi giành thêm hai huy chương vàng (HCV) và thiết lập hai kỷ lục mới tại đại hội.",
+        "Ở nội dung 100m ngửa nữ, Ánh Viên đã có màn trình diễn thuyết phục. Sau 50m đầu tiên bám đuổi, cô bứt tốc mạnh mẽ để cán đích với thời gian 1 phút 02 giây 75. Thành tích này không chỉ mang về tấm HCV cá nhân đầu tiên cho cô tại kỳ đại hội năm nay mà còn giúp cô xô đổ kỷ lục cũ (1 phút 03 giây 71) do chính mình thiết lập vào năm 2018. Đây là cột mốc đáng chú ý khi cô vượt qua thành tích của chính mình sau 8 năm.",
+        "Không dừng lại ở đó, Ánh Viên tiếp tục cùng các đồng đội gồm Nguyễn Quang Thuấn, Nguyễn Thúy Hiền và Trần Hưng Nguyên giành HCV nội dung tiếp sức 4x100m hỗn hợp nam nữ. Với thời gian 3 phút 58 giây 95, đội tuyển Quân đội đã phá sâu kỷ lục đại hội cũ là 4 phút 02 giây 13. Chiến thắng này khép lại ngày thi đấu thành công rực rỡ của kình ngư quê Cần Thơ.",
+        "Chia sẻ về sự trở lại của mình, Ánh Viên cho biết cô không chịu áp lực về thành tích mà muốn tận hưởng việc thi đấu. Mục tiêu lớn hơn của cô là truyền cảm hứng cho các vận động viên trẻ, góp phần thúc đẩy bơi lội Việt Nam vươn tầm quốc tế. Trước đó, trong khuôn khổ đại hội, cô cũng đã giành được một huy chương bạc ở nội dung 200m hỗn hợp và một HCV ở nội dung tiếp sức 4x200m tự do nữ. Sự hiện diện của Ánh Viên tại hồ bơi CLB Phú Thọ không chỉ là điểm nhấn về chuyên môn mà còn là nguồn động lực lớn cho các tay đua trẻ đang tranh tài tại giải đấu năm nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Ánh Viên giành 2 HCV, phá 2 kỷ lục tại Đại hội Thể thao toàn quốc 2026",
+      "meta_description": "Kình ngư Nguyễn Thị Ánh Viên giành hai huy chương vàng và phá hai kỷ lục tại Đại hội Thể thao toàn quốc 2026, đánh dấu sự trở lại ấn tượng sau thời gian giải ng",
+      "keywords": [
+        "Ánh Viên",
+        "Đại hội Thể thao toàn quốc 2026",
+        "bơi lội",
+        "kỷ lục quốc gia"
+      ],
+      "slug": "anh-vien-toa-sang-tai-ai-hoi-the-thao-toan-quoc-2026-voi-hai-ky-luc-moi-40f44be1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 384,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+        "https://tuoitre.vn/dai-chien-nguyen-thuy-linh-vu-thi-trang-tai-chung-ket-cau-long-dai-hoi-the-thao-toan-quoc-100261124221645457.htm",
+        "https://thanhnien.vn/anh-vien-day-song-duong-dua-xanh-doat-them-2-hcv-dai-hoi-the-thao-toan-quoc-185261124185004661.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/dai-chien-nguyen-thuy-linh-vu-thi-trang-tai-chung-ket-cau-long-dai-hoi-the-thao-toan-quoc-100261124221645457.htm",
+        "https://thanhnien.vn/anh-vien-day-song-duong-dua-xanh-doat-them-2-hcv-dai-hoi-the-thao-toan-quoc-185261124185004661.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:52:52+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/dai-chien-nguyen-thuy-linh-vu-thi-trang-tai-chung-ket-cau-long-dai-hoi-the-thao-toan-quoc-100261124221645457.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T16:24:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/anh-vien-day-song-duong-dua-xanh-doat-them-2-hcv-dai-hoi-the-thao-toan-quoc-185261124185004661.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:40:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nguyễn Thị Ánh Viên giành HCV nội dung 100m ngửa nữ với thành tích 1 phút 02 giây 75, phá kỷ lục đại hội cũ 1 phút 03 giây 71 thiết lập năm 2018.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thành tích này cũng giúp Ánh Viên xô đổ kỷ lục cũ chính mình thiết lập ở Đại hội năm 2018 (1 phút 03 giây 71).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "snippet": "Thành tích này cũng giúp Ánh Viên xô đổ kỷ lục cũ chính mình thiết lập ở Đại hội năm 2018 (1 phút 03 giây 71).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "page_sha256": "352615c39a66f9bcd7986528c94b071a12f31a477e1143347f4cf88ee5c4a929",
+              "snippet_sha256": "5732a80a08f8741781c8c4f8aea42d06979fed684fff0a61c72251755ab7e755",
+              "verified_at": "2026-11-24T20:22:42.915953+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ánh Viên cùng đồng đội giành HCV nội dung tiếp sức 4x100m hỗn hợp nam nữ với thời gian 3 phút 58 giây 95, phá kỷ lục đại hội cũ 4 phút 02 giây 13.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cô cùng em trai Nguyễn Quang Thuấn, Nguyễn Thúy Hiền và Trần Hưng Nguyên không có đối thủ khi về nhất với thời gian 3 phút 58 giây 95, giành HC vàng cho đoàn Quân đội.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "snippet": "Cô cùng em trai Nguyễn Quang Thuấn, Nguyễn Thúy Hiền và Trần Hưng Nguyên không có đối thủ khi về nhất với thời gian 3 phút 58 giây 95, giành HC vàng cho đoàn Quân đội.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "page_sha256": "352615c39a66f9bcd7986528c94b071a12f31a477e1143347f4cf88ee5c4a929",
+              "snippet_sha256": "92162a6c8a95e9e8a223df4153da2ceea1723bd98373fc1a31c6c3121a575e91",
+              "verified_at": "2026-11-24T20:22:42.915953+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đại hội Thể thao toàn quốc lần thứ 10 năm 2026 diễn ra từ ngày 22 đến 27/11 tại hồ bơi CLB Phú Thọ, TP HCM.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Đại hội Thể thao toàn quốc lần thứ 10 năm 2026 diễn ra từ ngày 22 đến 27/11 tại hồ bơi CLB Phú Thọ, TP HCM.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "snippet": "Đại hội Thể thao toàn quốc lần thứ 10 năm 2026 diễn ra từ ngày 22 đến 27/11 tại hồ bơi CLB Phú Thọ, TP HCM.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "page_sha256": "352615c39a66f9bcd7986528c94b071a12f31a477e1143347f4cf88ee5c4a929",
+              "snippet_sha256": "3abd0d9f995fab629502ea31975c9750eaf0aebae48841e35fe66501289cea2d",
+              "verified_at": "2026-11-24T20:22:42.915953+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt giữa phong độ hiện tại của Ánh Viên so với kỷ lục cũ của chính cô từ năm 2018. Đồng thời, bài phân tích ý nghĩa của việc một vận động viên kỳ cựu trở lại thi đấu đối với sự phát triển của thế hệ trẻ trong bối cảnh Đại hội Thể thao toàn quốc 2026.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T20:22:42.916557+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "02",
+        "03",
+        "1",
+        "10",
+        "100",
+        "13",
+        "200",
+        "2018",
+        "2026",
+        "3",
+        "30",
+        "4",
+        "50",
+        "58",
+        "71",
+        "75",
+        "8",
+        "95"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T20:24:06.321531+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 384,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1659,
+          "source_access": [
+            {
+              "url": "https://vnexpress.net/anh-vien-gianh-hai-hc-vang-pha-hai-ky-luc-dai-hoi-sau-8-nam-5148470.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 03:24"
+    },
+    "published_at": "2026-11-24T20:24:06.321531+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "toa-an-the-thao-ra-quyet-inh-soc-tuoc-chuc-vo-ich-chau-phi-cua-morocco-t-e1378e98",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T20:22:23.773240+00:00",
+    "expires_at": "2026-11-25T20:22:23.773240+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+      "https://thanhnien.vn/highlight-u17-nhat-ban-0-1-u17-serbia-nha-vo-dich-chau-a-tiep-tuc-gay-that-vong-185261124224130631.htm",
+      "https://vnexpress.net/cau-thu-duoi-danh-trong-tai-o-vong-loai-u23-chau-phi-5146452.html",
+      "https://dantri.com.vn/the-gioi/quan-chuc-chau-au-neu-dieu-kien-den-moscow-dam-phan-20261121055008108.htm"
+    ],
+    "article": {
+      "id": "toa-an-the-thao-ra-quyet-inh-soc-tuoc-chuc-vo-ich-chau-phi-cua-morocco-t-e1378e98",
+      "title": "Tòa án thể thao ra quyết định sốc: tước chức vô địch châu Phi của Morocco, trao cho Senegal",
+      "summary": "Tòa án Trọng tài thể thao quốc tế (CAS) đã ra quyết định sốc khi tước chức vô địch châu Phi của Morocco và trao cho Senegal. Quyết định này được đưa ra sau khi CAS xem xét đơn kháng cáo của Liên đoàn Bóng đá Senegal.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+      "published_at": "2026-11-24T16:16:00+00:00",
+      "fetched_at": "2026-11-24T20:23:31.382857+00:00",
+      "appnho_published_at": "2026-11-24T20:24:06.321531+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tòa án Trọng tài thể thao quốc tế (CAS) đã gây chấn động làng bóng đá thế giới khi tuyên bố khôi phục chức vô địch Cúp bóng đá châu Phi (AFCON) 2025 cho Senegal, đồng thời tước danh hiệu của Morocco.",
+        "Phán quyết được đưa ra hơn 10 tháng sau trận chung kết ồn ào giữa hai đội Senegal và Morocco, đánh dấu bước ngoặt mới trong một trong những cuộc tranh chấp gay gắt nhất lịch sử bóng đá thế giới.",
+        "Theo Reuters, hội đồng gồm 3 thành viên của CAS đã thống nhất chấp thuận đơn kháng cáo của Liên đoàn Bóng đá Senegal, hủy bỏ quyết định của Liên đoàn Bóng đá châu Phi (CAF) ban hành hồi tháng 3.",
+        "Như vậy, chiến thắng 1-0 của Senegal trước Morocco trong trận chung kết AFCON 2025 chính thức được khôi phục.",
+        "Cả Senegal lẫn Morocco đều có những lý do để phản đối quyết định của CAS, nhưng cuối cùng, Tòa án thể thao đã đưa ra quyết định cuối cùng.",
+        "Phán quyết của CAS đã gây ra làn sóng tranh cãi dữ dội trong giới bóng đá quốc tế, với nhiều ý kiến đặt câu hỏi về việc thay đổi kết quả của một trận đấu đã hoàn tất từ gần 2 tháng trước."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Tòa án thể thao tước chức vô địch châu Phi của Morocco",
+      "meta_description": "Tòa án Trọng tài thể thao quốc tế (CAS) đã ra quyết định sốc khi tước chức vô địch châu Phi của Morocco và trao cho Senegal.",
+      "keywords": [
+        "Tòa án thể thao",
+        "Morocco",
+        "Senegal",
+        "vô địch châu Phi"
+      ],
+      "slug": "toa-an-the-thao-ra-quyet-inh-soc-tuoc-chuc-vo-ich-chau-phi-cua-morocco-t-e1378e98",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 218,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+        "https://thanhnien.vn/highlight-u17-nhat-ban-0-1-u17-serbia-nha-vo-dich-chau-a-tiep-tuc-gay-that-vong-185261124224130631.htm",
+        "https://vnexpress.net/cau-thu-duoi-danh-trong-tai-o-vong-loai-u23-chau-phi-5146452.html",
+        "https://dantri.com.vn/the-gioi/quan-chuc-chau-au-neu-dieu-kien-den-moscow-dam-phan-20261121055008108.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/highlight-u17-nhat-ban-0-1-u17-serbia-nha-vo-dich-chau-a-tiep-tuc-gay-that-vong-185261124224130631.htm",
+        "https://vnexpress.net/cau-thu-duoi-danh-trong-tai-o-vong-loai-u23-chau-phi-5146452.html",
+        "https://dantri.com.vn/the-gioi/quan-chuc-chau-au-neu-dieu-kien-den-moscow-dam-phan-20261121055008108.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T16:16:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/highlight-u17-nhat-ban-0-1-u17-serbia-nha-vo-dich-chau-a-tiep-tuc-gay-that-vong-185261124224130631.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T15:41:00+00:00"
+        },
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/cau-thu-duoi-danh-trong-tai-o-vong-loai-u23-chau-phi-5146452.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T03:11:53+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-gioi/quan-chuc-chau-au-neu-dieu-kien-den-moscow-dam-phan-20261121055008108.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T22:55:56+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tòa án Trọng tài thể thao quốc tế (CAS) đã tước chức vô địch châu Phi của Morocco và trao cho Senegal.",
+          "source_urls": [
+            "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tối 24-11, Tòa án Trọng tài thể thao quốc tế (CAS) gây chấn động làng bóng đá thế giới khi tuyên bố khôi phục chức vô địch Cúp bóng đá châu Phi (AFCON) 2025 cho Senegal, đồng thời tước danh hiệu của Morocco.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "snippet": "Tối 24-11, Tòa án Trọng tài thể thao quốc tế (CAS) gây chấn động làng bóng đá thế giới khi tuyên bố khôi phục chức vô địch Cúp bóng đá châu Phi (AFCON) 2025 cho Senegal, đồng thời tước danh hiệu của Morocco.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "page_sha256": "884b5f6715e58bb88abf844de82ca85748f8acfa307a205af69cbf56008e7352",
+              "snippet_sha256": "76cc2ef04e0fc3b175150a53a99108dc015795459f5ef28d1246e7e0447cee54",
+              "verified_at": "2026-11-24T20:23:31.382359+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quyết định được đưa ra sau khi CAS xem xét đơn kháng cáo của Liên đoàn Bóng đá Senegal.",
+          "source_urls": [
+            "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo Reuters, hội đồng gồm 3 thành viên của CAS đã thống nhất chấp thuận đơn kháng cáo của Liên đoàn Bóng đá Senegal, hủy bỏquyết địnhdo Liên đoàn Bóng đá châu Phi (CAF) ban hành hồi tháng 3.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "snippet": "Theo Reuters, hội đồng gồm 3 thành viên của CAS đã thống nhất chấp thuận đơn kháng cáo của Liên đoàn Bóng đá Senegal, hủy bỏquyết địnhdo Liên đoàn Bóng đá châu Phi (CAF) ban hành hồi tháng 3.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "page_sha256": "884b5f6715e58bb88abf844de82ca85748f8acfa307a205af69cbf56008e7352",
+              "snippet_sha256": "ad01c413dad350d1e55ac3b68be9349acfbeef3d7ca0d3607e4dfe660d97a045",
+              "verified_at": "2026-11-24T20:23:31.382359+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phán quyết của CAS đã gây ra làn sóng tranh cãi dữ dội trong giới bóng đá quốc tế.",
+          "source_urls": [
+            "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Phán quyết gây ra làn sóng tranh cãi dữ dội trong giới bóng đá quốc tế.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "snippet": "Phán quyết gây ra làn sóng tranh cãi dữ dội trong giới bóng đá quốc tế.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "page_sha256": "884b5f6715e58bb88abf844de82ca85748f8acfa307a205af69cbf56008e7352",
+              "snippet_sha256": "2b30da106eb1998651c2a59961582b9bd2ce28c54fabadd9ff89a113bad03eee",
+              "verified_at": "2026-11-24T20:23:31.382359+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về quyết định của Tòa án thể thao và tác động của nó đến làng bóng đá thế giới. Chúng tôi đã phân tích các lý do dẫn đến quyết định này và cung cấp bối cảnh về cuộc tranh chấp giữa Senegal và Morocco.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T20:23:31.382919+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2",
+        "2025",
+        "3"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T20:24:06.321531+00:00",
+        "stats": {
+          "paragraphs": 6,
+          "words": 218,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1021,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/toa-an-the-thao-ra-quyet-dinh-soc-tuoc-chuc-vo-dich-chau-phi-cua-morocco-trao-cho-senegal-100261124225339285.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 03:24"
+    },
+    "published_at": "2026-11-24T20:24:06.321531+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "toa-thap-bieu-tuong-tai-riyadh-bi-hu-hai-sau-ot-tan-cong-bang-ten-lua-7548fa46",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-24T20:22:23.773240+00:00",
+    "expires_at": "2026-11-25T20:22:23.773240+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+      "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss"
+    ],
+    "article": {
+      "id": "toa-thap-bieu-tuong-tai-riyadh-bi-hu-hai-sau-ot-tan-cong-bang-ten-lua-7548fa46",
+      "title": "Tòa tháp biểu tượng tại Riyadh bị hư hại sau đợt tấn công bằng tên lửa",
+      "summary": "Một tòa nhà chọc trời tại trung tâm tài chính Riyadh đã bị hư hại sau khi lực lượng Houthi thực hiện các cuộc tấn công bằng tên lửa vào thủ đô Saudi Arabia.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+      "published_at": "2026-11-19T07:58:16+00:00",
+      "fetched_at": "2026-11-24T20:24:03.999308+00:00",
+      "appnho_published_at": "2026-11-24T20:24:06.321531+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vào sáng thứ Năm, ngày 19/11/2026, một tòa nhà chọc trời tại thủ đô Riyadh, Saudi Arabia đã bị hư hại sau một đợt tấn công bằng tên lửa. Theo ghi nhận từ hiện trường, tòa tháp Public Investment Fund (PIF) – trụ sở của quỹ đầu tư quốc gia Saudi Arabia và là tòa nhà cao nhất trong khu tài chính King Abdullah – đã bị vỡ cửa kính và hư hỏng mặt tiền ở nhiều tầng.",
+        "Liên minh quân sự do Saudi Arabia dẫn đầu xác nhận đã đối phó với một mối đe dọa tên lửa nhắm vào Riyadh. Người phát ngôn của liên minh, Turki al-Malki, cho biết đánh giá ban đầu cho thấy thiệt hại về vật chất là do các mảnh vỡ từ tên lửa gây ra. Ngoài vụ việc tại Riyadh, liên minh cũng thông báo đã đánh chặn thành công năm tên lửa đạn đạo khác nhắm vào khu vực miền nam nước này, giáp biên giới với Yemen.",
+        "Các cuộc tấn công này đánh dấu sự leo thang trong chiến dịch quân sự của lực lượng Houthi, nhóm vũ trang được Iran hậu thuẫn, nhằm vào các cơ sở hạ tầng quan trọng của Saudi Arabia. Trong những tuần gần đây, các mục tiêu bao gồm sân bay, cơ sở năng lượng và các khu vực tài chính đã liên tục bị nhắm tới. Đáp trả lại, liên minh do Saudi Arabia dẫn đầu đã thực hiện các cuộc không kích vào các vị trí của Houthi tại Yemen, bao gồm việc phá hủy một bệ phóng tên lửa tại Dhamar. Hiện chưa có báo cáo về thương vong trong vụ tấn công vào tòa tháp PIF, trong khi các cơ quan chức năng vẫn đang tiếp tục đánh giá mức độ thiệt hại."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Tòa tháp PIF tại Riyadh bị hư hại do tên lửa Houthi",
+      "meta_description": "Tòa tháp Public Investment Fund tại Riyadh, Saudi Arabia đã bị hư hại sau đợt tấn công bằng tên lửa từ lực lượng Houthi vào ngày 19/11/2026.",
+      "keywords": [
+        "Saudi Arabia",
+        "Riyadh",
+        "Houthi",
+        "tấn công tên lửa",
+        "Public Investment Fund"
+      ],
+      "slug": "toa-thap-bieu-tuong-tai-riyadh-bi-hu-hai-sau-ot-tan-cong-bang-ten-lua-7548fa46",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 303,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+        "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T07:58:16+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T08:19:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tòa tháp Public Investment Fund (PIF) tại Riyadh bị hư hại mặt tiền và vỡ cửa kính sau cuộc tấn công tên lửa ngày 19/11/2026.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Images distributed by state media identified the building as the Public Investment Fund (PIF) tower, the headquarters of Saudi Arabia’s sovereign wealth fund and Riyadh’s tallest skyscraper.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+              "snippet": "Images distributed by state media identified the building as the Public Investment Fund (PIF) tower, the headquarters of Saudi Arabia’s sovereign wealth fund and Riyadh’s tallest skyscraper.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+              "page_sha256": "c553f98d38443303806c5767a73b8c4e4506f834bfbbda9236bf596857f62abe",
+              "snippet_sha256": "bcd62ceb089312a86fe6a5554023a53095e5c8e3aa41fabcb9d964b3cacaafc5",
+              "verified_at": "2026-11-24T20:24:03.998894+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Liên minh do Saudi Arabia dẫn đầu xác nhận đã đánh chặn tên lửa nhắm vào Riyadh và phá hủy bệ phóng tên lửa tại Dhamar, Yemen.",
+          "source_urls": [
+            "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Saudi Arabia has been battling a surge in attacks since fighting reignited over the summer in neighbouring Yemen'scivil war, where Riyadh backs the internationally recognised government against the Houthis.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+              "snippet": "Saudi Arabia has been battling a surge in attacks since fighting reignited over the summer in neighbouring Yemen'scivil war, where Riyadh backs the internationally recognised government against the Houthis.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+              "page_sha256": "503ac4cf50c74e1dbe662f5127d85ffb78241416698483b99083399c522f8558",
+              "snippet_sha256": "21ab558def4742e5d9424a8f29f75115dfe3edbbd15bce0e4dfcda0e89b59309",
+              "verified_at": "2026-11-24T20:24:03.998894+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Không có báo cáo về thương vong trong vụ tấn công vào tòa tháp PIF tại Riyadh.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Saudi-led coalition had said earlier that it intercepted missiles fired towards Riyadh and the south after a loud boom was heard in the capital.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+              "snippet": "The Saudi-led coalition had said earlier that it intercepted missiles fired towards Riyadh and the south after a loud boom was heard in the capital.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+              "page_sha256": "c553f98d38443303806c5767a73b8c4e4506f834bfbbda9236bf596857f62abe",
+              "snippet_sha256": "fd8eee4ef6c99aed7d084c4e004c79d825ac04622b3dcba93c28262a494c2252",
+              "verified_at": "2026-11-24T20:24:03.998894+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự kiện tòa tháp PIF bị hư hại trong bối cảnh xung đột leo thang giữa Saudi Arabia và lực lượng Houthi. Nội dung cung cấp cái nhìn tổng thể về diễn biến quân sự tại cả Riyadh và Yemen, đồng thời xác định rõ vai trò của tòa tháp trong chiến lược kinh tế của Saudi Arabia.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-24T20:24:03.999383+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-24T20:24:06.321531+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 303,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1393,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 03:24"
+    },
+    "published_at": "2026-11-24T20:24:06.321531+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

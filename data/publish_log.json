@@ -1111,5 +1111,14 @@
         "reason": "fact_ledger[2] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ aljazeera.com không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-25 03:24",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-24T20:24:06.321531+00:00",
+    "prepared_candidates": 26,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": []
   }
 ]
