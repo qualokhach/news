@@ -1150,5 +1150,20 @@
         "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
       }
     ]
+  },
+  {
+    "slot": "2026-11-25 22:03",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-25T15:03:00.338895+00:00",
+    "prepared_candidates": 25,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "pittsburgh-steelers-thay-the-aaron-rodgers-bang-mason-rudolph-5da6bb7b",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]

@@ -1965,7 +1965,7 @@
   },
   {
     "queue_id": "4790d00dbb3f9f3387c3",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T13:33:46.573346+00:00",
     "expires_at": "2026-11-28T13:32:02.658534+00:00",
     "category_hint": "world",
@@ -2929,11 +2929,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T13:33:46.573369+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hai-quan-nhan-libya-thiet-mang-trong-cuoc-tan-cong-cua-ukraine-vao-tau-n-57122152"
   },
   {
     "queue_id": "c329e91ca4504c068ff3",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T13:33:45.750911+00:00",
     "expires_at": "2026-11-28T13:32:02.658534+00:00",
     "category_hint": "vietnam",
@@ -3664,11 +3665,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T13:33:45.750935+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ket-qua-xo-so-vietlott-mega-6-45-toi-25-11-giai-oc-ac-cong-don-22-ti-ong-70083805"
   },
   {
     "queue_id": "35a2a355b8f4c5f79cdc",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T13:33:40.324046+00:00",
     "expires_at": "2026-11-28T13:32:02.658534+00:00",
     "category_hint": "vietnam",
@@ -4397,7 +4399,8 @@
       ]
     },
     "research_ready_at": "2026-11-25T13:33:40.324068+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-f19332e1"
   },
   {
     "queue_id": "8a5336d6768a0c4ac398",
@@ -92332,7 +92335,7 @@
   },
   {
     "queue_id": "pittsburgh-steelers-thay-the-aaron-rodgers-bang-mason-rudolph-5da6bb7b",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-25T13:34:22.145927+00:00",
     "expires_at": "2026-11-26T13:34:22.145927+00:00",
     "source_urls": [
@@ -92572,11 +92575,41 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-25T15:03:00.338895+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-25T15:03:00.338895+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 376,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1779,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "geno-auriemma-that-vong-tot-cung-sau-tran-thua-south-carolina-cua-uconn-3cb05781",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-25T13:34:22.145927+00:00",
     "expires_at": "2026-11-26T13:34:22.145927+00:00",
     "source_urls": [
@@ -92592,7 +92625,7 @@
       "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
       "published_at": "2026-11-25T13:07:02+00:00",
       "fetched_at": "2026-11-25T13:34:53.474301+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-25T15:03:00.338895+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -92804,23 +92837,33 @@
         "7"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-25T13:34:53.475467+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-25T15:03:00.338895+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 295,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1341
-        },
-        "independent_domains": [
-          "espn.com",
-          "sportingnews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1341,
+          "source_access": [
+            {
+              "url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "espn.com",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-25 22:03"
+    },
+    "published_at": "2026-11-25T15:03:00.338895+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "tang-gia-nang-luong-mot-sinh-vien-noi-len-noi-lo-4325f10c",
@@ -93037,5 +93080,655 @@
       "origin": "auto",
       "content_image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     }
+  },
+  {
+    "queue_id": "hai-quan-nhan-libya-thiet-mang-trong-cuoc-tan-cong-cua-ukraine-vao-tau-n-57122152",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-25T14:59:07.932189+00:00",
+    "expires_at": "2026-11-26T14:59:07.932189+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+      "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
+      "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation"
+    ],
+    "article": {
+      "id": "hai-quan-nhan-libya-thiet-mang-trong-cuoc-tan-cong-cua-ukraine-vao-tau-n-57122152",
+      "title": "Hai quân nhân Libya thiệt mạng trong cuộc tấn công của Ukraine vào tàu Nga ở Benghazi",
+      "summary": "Hai quân nhân Libya đã thiệt mạng trong một cuộc tấn công được cho là của Ukraine vào các tàu Nga ở Benghazi, Libya. Cuộc tấn công này là một phần của cuộc xung đột đang diễn ra giữa Ukraine và Nga.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+      "published_at": "2026-11-25T03:46:51+00:00",
+      "fetched_at": "2026-11-25T15:00:01.654396+00:00",
+      "appnho_published_at": "2026-11-25T15:03:00.338895+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hai quân nhân Libya đã thiệt mạng trong một cuộc tấn công được cho là của Ukraine vào các tàu Nga ở Benghazi, Libya. Cuộc tấn công này là một phần của cuộc xung đột đang diễn ra giữa Ukraine và Nga.",
+        "Cuộc tấn công được báo cáo là đã xảy ra vào ngày 22 tháng 11 năm 2026, và nó đã gây ra sự chú ý của cộng đồng quốc tế. Ukraine đã không chính thức xác nhận cuộc tấn công, nhưng các nguồn tin cho biết rằng nước này đã sử dụng các máy bay không người lái để tấn công các tàu Nga ở Benghazi.",
+        "Cuộc tấn công này là một phần của cuộc xung đột đang diễn ra giữa Ukraine và Nga, và nó đã gây ra sự quan ngại về an ninh khu vực. Libya đang trải qua một giai đoạn bất ổn chính trị và quân sự, và cuộc tấn công này có thể làm tình hình trở nên phức tạp hơn.",
+        "Các quốc gia khác, bao gồm cả Liên minh Châu Âu, đã lên án cuộc tấn công này và kêu gọi các bên liên quan tìm kiếm một giải pháp hòa bình. Tuy nhiên, cuộc xung đột giữa Ukraine và Nga vẫn đang tiếp diễn, và nó có thể gây ra những hậu quả nghiêm trọng cho khu vực và thế giới."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Hai quân nhân Libya thiệt mạng trong cuộc tấn công của Ukraine vào tàu",
+      "meta_description": "Hai quân nhân Libya đã thiệt mạng trong một cuộc tấn công được cho là của Ukraine vào các tàu Nga ở Benghazi, Libya.",
+      "keywords": [
+        "Ukraine",
+        "Nga",
+        "Libya",
+        "Benghazi",
+        "tấn công",
+        "tàu chiến"
+      ],
+      "slug": "hai-quan-nhan-libya-thiet-mang-trong-cuoc-tan-cong-cua-ukraine-vao-tau-n-57122152",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 230,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+        "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
+        "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
+        "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T03:46:51+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T14:25:03+00:00"
+        },
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:00:57+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hai quân nhân Libya đã thiệt mạng trong một cuộc tấn công được cho là của Ukraine vào các tàu Nga ở Benghazi, Libya.",
+          "source_urls": [
+            "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Two Libyan soldiers have died from injuries sustained in an attack, claimed by Ukraine, on Russian ships near Benghazi, a senior figure in the administration in eastern Libya said late on Tuesday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "snippet": "Two Libyan soldiers have died from injuries sustained in an attack, claimed by Ukraine, on Russian ships near Benghazi, a senior figure in the administration in eastern Libya said late on Tuesday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "page_sha256": "b587a189dd898fa347152f80743379c0edc98c8bfd7d611d651d5fbed53beccd",
+              "snippet_sha256": "ea8fe57508826054807fe717dea86de63055421b309f4a4fe0d6934db5f8ce48",
+              "verified_at": "2026-11-25T15:00:01.653828+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cuộc tấn công được báo cáo là đã xảy ra vào ngày 22 tháng 11 năm 2026.",
+          "source_urls": [
+            "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Governor of Murmansk Region Andrei Chibis attends a court hearing in Moscow, on November 25, 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "snippet": "Governor of Murmansk Region Andrei Chibis attends a court hearing in Moscow, on November 25, 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "page_sha256": "b587a189dd898fa347152f80743379c0edc98c8bfd7d611d651d5fbed53beccd",
+              "snippet_sha256": "3eb2f0fc703dfb7db04d66b4b744b6384da9e22b086b4d55d18410011b1eec4c",
+              "verified_at": "2026-11-25T15:00:01.653828+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ukraine đã không chính thức xác nhận cuộc tấn công, nhưng các nguồn tin cho biết rằng nước này đã sử dụng các máy bay không người lái để tấn công các tàu Nga ở Benghazi.",
+          "source_urls": [
+            "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Kommersant newspaper reported that during questioning Chibis denied guilt and said he intended to step down voluntarily and join Moscow's forces in Ukraine.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "snippet": "The Kommersant newspaper reported that during questioning Chibis denied guilt and said he intended to step down voluntarily and join Moscow's forces in Ukraine.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "page_sha256": "b587a189dd898fa347152f80743379c0edc98c8bfd7d611d651d5fbed53beccd",
+              "snippet_sha256": "b54b187fb42be64b2e764e4cf5f289077244801700562a7c7aa4abb7a2139864",
+              "verified_at": "2026-11-25T15:00:01.653828+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về cuộc tấn công của Ukraine vào tàu Nga ở Benghazi, Libya, và nó giúp người đọc hiểu rõ hơn về cuộc xung đột đang diễn ra giữa Ukraine và Nga. Bài viết cũng cung cấp bối cảnh về tình hình chính trị và quân sự ở Libya, và nó giúp người đọc thấy được sự quan ngại về an ninh khu vực. Ngoài ra, bài viết cũng cung cấp thông tin về phản ứng của các quốc gia khác đối với cuộc tấn công này, và nó giúp người đọc hiểu rõ hơn về quan điểm của các bên liên quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T15:00:01.654474+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-25T15:03:00.338895+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 230,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1018,
+          "source_access": [
+            {
+              "url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "euronews.com",
+            "france24.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 22:03"
+    },
+    "published_at": "2026-11-25T15:03:00.338895+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ket-qua-xo-so-vietlott-mega-6-45-toi-25-11-giai-oc-ac-cong-don-22-ti-ong-70083805",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-25T14:59:07.932189+00:00",
+    "expires_at": "2026-11-26T14:59:07.932189+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+      "https://dantri.com.vn/bat-dong-san/norton-park-va-dinh-huong-phat-trien-khong-gian-song-danh-cho-cong-dong-chuyen-gia-20261125191508424.htm"
+    ],
+    "article": {
+      "id": "ket-qua-xo-so-vietlott-mega-6-45-toi-25-11-giai-oc-ac-cong-don-22-ti-ong-70083805",
+      "title": "Kết quả xổ số Vietlott Mega 6/45 tối 25.11: Giải độc đắc cộng dồn 22 tỉ đồng",
+      "summary": "Tối 25.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 22 tỉ đồng.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+      "published_at": "2026-11-25T13:00:00+00:00",
+      "fetched_at": "2026-11-25T15:00:56.330351+00:00",
+      "appnho_published_at": "2026-11-25T15:03:00.338895+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tối 25.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 22 tỉ đồng.",
+        "Bộ số may mắn trúng thưởng trong lần quay tối nay là: 01–13–16–23–24–38. Sau khi quay thưởng, loại hình xổ số này ghi nhận có không có người trúng giải độc đắc nên số tiền cộng dồn là 22.004.635.500 đồng.",
+        "Trong khi đó, hệ thống ghi nhận có 13 người trúng giải nhất trị giá 10 triệu đồng; có 1.069 người trúng giải nhì trị giá 300.000 đồng; có 19.163 người trúng giải ba với số tiền là 30.000 đồng."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Kết quả xổ số Vietlott Mega 6/45 tối 25.11",
+      "meta_description": "Tối 25.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45",
+      "keywords": [
+        "xổ số",
+        "Vietlott",
+        "Mega 6/45",
+        "Kết quả xổ số Vietlott Mega 6/45 tối 25.11",
+        "Việt Nam"
+      ],
+      "slug": "ket-qua-xo-so-vietlott-mega-6-45-toi-25-11-giai-oc-ac-cong-don-22-ti-ong-70083805",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 116,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+        "https://dantri.com.vn/bat-dong-san/norton-park-va-dinh-huong-phat-trien-khong-gian-song-danh-cho-cong-dong-chuyen-gia-20261125191508424.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/bat-dong-san/norton-park-va-dinh-huong-phat-trien-khong-gian-song-danh-cho-cong-dong-chuyen-gia-20261125191508424.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:00:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/bat-dong-san/norton-park-va-dinh-huong-phat-trien-khong-gian-song-danh-cho-cong-dong-chuyen-gia-20261125191508424.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T12:39:35+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Kết quả xổ số Vietlott Mega 6/45 tối 25.11, giải độc đắc cộng dồn 22 tỉ đồng",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Phạm Hữu- phamhauhuu@gmail.com25/11/2026 20:00 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Tối 25.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 22 tỉ đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "snippet": "Phạm Hữu- phamhauhuu@gmail.com25/11/2026 20:00 GMT+7Chia sẻChọn BáoThanh Niênlàmnguồn ưu tiêntrên Google tìm kiếm.Xem hướng dẫn.BƯỚC1Nhấp vào nút\"ThêmThanh Niêntrên Google\"hoặc mở trực tiếp đường dẫn này:https://www.google.com/preferences/source?q=thanhnien.vnBƯỚC2Tại trang vừa mở, tìm dòng\"BáoThanh Niên\"và bấm vào ô vuông bên phải.Khi ô vuông chuyển thành dấu tích xanh là bạn đã thành công rồi!LƯU Ý NHỎ:Nếu muốn kiểm tra xem cài đặt còn hiệu lực không, bạn chỉ cầnmở lại link trênlà thấy ngaydấu tích xanhvẫn đang hiển thị.Chúc bạn đọc báo vui vẻ!Tối 25.11, Vietlott thông báo kết quả quay số mở thưởng loại hình xổ số Mega 6/45 và ghi nhận không có người trúng giải độc đắc nên số tiền cộng dồn là 22 tỉ đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "page_sha256": "3f7b1f87ff9bb87e836f506eb7a46d85144f26937250f5ffc12cd66c7cc94bee",
+              "snippet_sha256": "c2d3a427dcbbcde9c0d975d26e63bd74dbe082e024e77e417d3ac21560f6d4c7",
+              "verified_at": "2026-11-25T15:00:56.329879+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ số may mắn trúng thưởng trong lần quay tối nay là: 01–13–16–23–24–38",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Bộ số may mắn trúng thưởng trong lần quay tối nay là:01–13–16–23–24–38.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "snippet": "Bộ số may mắn trúng thưởng trong lần quay tối nay là:01–13–16–23–24–38.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "page_sha256": "3f7b1f87ff9bb87e836f506eb7a46d85144f26937250f5ffc12cd66c7cc94bee",
+              "snippet_sha256": "c5008febe6c6a6a4e56dedb756a166ae51ef3afab5fcc3116591d1476459845a",
+              "verified_at": "2026-11-25T15:00:56.329879+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Có 13 người trúng giải nhất trị giá 10 triệu đồng; có 1.069 người trúng giải nhì trị giá 300.000 đồng; có 19.163 người trúng giải ba với số tiền là 30.000 đồng",
+          "source_urls": [
+            "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong khi đó, hệ thống ghi nhận có 13 người trúng giải nhất trị giá 10 triệu đồng; có 1.069 người trúng giải nhì trị giá 300.000 đồng; có 19.163 người trúng giải ba với số tiền là 30.000 đồng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "snippet": "Trong khi đó, hệ thống ghi nhận có 13 người trúng giải nhất trị giá 10 triệu đồng; có 1.069 người trúng giải nhì trị giá 300.000 đồng; có 19.163 người trúng giải ba với số tiền là 30.000 đồng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "page_sha256": "3f7b1f87ff9bb87e836f506eb7a46d85144f26937250f5ffc12cd66c7cc94bee",
+              "snippet_sha256": "e5633bb69665f0edd771a672a4eb1974a54e7e21f98c2e1b3d29163d06fb8b2d",
+              "verified_at": "2026-11-25T15:00:56.329879+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết cung cấp thông tin cập nhật về kết quả xổ số Vietlott Mega 6/45 tối 25.11, giúp độc giả nắm bắt được thông tin mới nhất về giải độc đắc và các giải phụ. Đồng thời, bài viết cũng cung cấp thông tin về số tiền cộng dồn và các người trúng giải, giúp độc giả hiểu rõ hơn về kết quả xổ số.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T15:00:56.330399+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "01",
+        "1.069",
+        "10",
+        "13",
+        "16",
+        "19.163",
+        "22",
+        "22.004",
+        "23",
+        "24",
+        "25.11",
+        "30.000",
+        "300.000",
+        "38",
+        "635.500"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-25T15:03:00.338895+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 116,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 559,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-mega-6-45-toi-2511-giai-doc-dac-cong-don-22-ti-dong-185261125185226979.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 22:03"
+    },
+    "published_at": "2026-11-25T15:03:00.338895+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-f19332e1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-25T14:59:07.932189+00:00",
+    "expires_at": "2026-11-26T14:59:07.932189+00:00",
+    "source_urls": [
+      "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+      "https://dantri.com.vn/the-thao/anh-vien-gianh-them-hai-hcv-pha-ky-luc-dai-hoi-the-thao-toan-quoc-20261124233435440.htm"
+    ],
+    "article": {
+      "id": "le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-f19332e1",
+      "title": "Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế",
+      "summary": "Lê Phương Khánh Như đã giành được danh hiệu á hậu 4 tại cuộc thi Hoa hậu Quốc tế - Miss International 2026 diễn ra ở Nhật Bản.",
+      "category": "vietnam",
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+      "published_at": "2026-11-25T13:09:00+00:00",
+      "fetched_at": "2026-11-25T15:02:58.420563+00:00",
+      "appnho_published_at": "2026-11-25T15:03:00.338895+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Lê Phương Khánh Như đã giành được danh hiệu á hậu 4 tại cuộc thi Hoa hậu Quốc tế - Miss International 2026 diễn ra ở Nhật Bản. Cô là người đẹp Việt dự thi đấu trường nhan sắc này và đã gây ấn tượng bởi nhan sắc ngọt ngào, khả năng ăn nói lưu loát.",
+        "Cô sinh năm 2004, quê Khánh Hòa, là sinh viên Đại học Kinh tế TP.HCM và hoạt động ở vai trò MC song ngữ. Trước khi đến với đấu trường Hoa hậu Quốc tế, người đẹp 22 tuổi từng giành danh hiệu á hậu 1 tại cuộc thi Miss World Vietnam 2025.",
+        "Lê Phương Khánh Như đã thể hiện tự tin trên sân khấu và đã ghi tên mình vào top 10 chung cuộc cùng với các ứng viên đến từ Indonesia, Moldova, Vương quốc Anh, Cộng hòa Czech, Cộng hòa Dominica, Ấn Độ, Campuchia, Venezuela và Quần đảo Virgin thuộc Mỹ."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế",
+      "meta_description": "Lê Phương Khánh Như đã giành được danh hiệu á hậu 4 tại cuộc thi Hoa hậu Quốc tế - Miss International 2026 diễn ra ở Nhật Bản.",
+      "keywords": [
+        "Lê Phương Khánh Như",
+        "Hoa hậu Quốc tế",
+        "Miss International 2026",
+        "Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế",
+        "Việt Nam"
+      ],
+      "slug": "le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-f19332e1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 158,
+      "display_source": true,
+      "source_urls": [
+        "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+        "https://dantri.com.vn/the-thao/anh-vien-gianh-them-hai-hcv-pha-ky-luc-dai-hoi-the-thao-toan-quoc-20261124233435440.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/the-thao/anh-vien-gianh-them-hai-hcv-pha-ky-luc-dai-hoi-the-thao-toan-quoc-20261124233435440.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:09:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/anh-vien-gianh-them-hai-hcv-pha-ky-luc-dai-hoi-the-thao-toan-quoc-20261124233435440.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T02:59:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế",
+          "source_urls": [
+            "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "snippet": "Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "page_sha256": "002918890e3aea70644cd0d8ed4c2d833867d952902c2672461dc43cbb6b14e8",
+              "snippet_sha256": "f80173819a1f1f3b39c55458d9efa675f1dcc8266ee87e29eba087ae94ed2fb8",
+              "verified_at": "2026-11-25T15:02:58.420155+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cô là người đẹp Việt dự thi đấu trường nhan sắc này",
+          "source_urls": [
+            "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Lê Phương Khánh Như là người đẹp Việt dự thi đấu trường nhan sắc này.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "snippet": "Lê Phương Khánh Như là người đẹp Việt dự thi đấu trường nhan sắc này.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "page_sha256": "002918890e3aea70644cd0d8ed4c2d833867d952902c2672461dc43cbb6b14e8",
+              "snippet_sha256": "89e9687203b4464517283b7e9e7b96d006c90e4821706e31cc7726bd35858918",
+              "verified_at": "2026-11-25T15:02:58.420155+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Lê Phương Khánh Như đã thể hiện tự tin trên sân khấu",
+          "source_urls": [
+            "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Với phần thể hiện tự tin trên sân khấu, Lê Phương Khánh Như được gọi tên cho danh hiệu á hậu 4 chung cuộc.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "snippet": "Với phần thể hiện tự tin trên sân khấu, Lê Phương Khánh Như được gọi tên cho danh hiệu á hậu 4 chung cuộc.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "page_sha256": "002918890e3aea70644cd0d8ed4c2d833867d952902c2672461dc43cbb6b14e8",
+              "snippet_sha256": "7d59f9242743550404d3b53c6ee085b588117496ec584dd85fe8b82f9346dc43",
+              "verified_at": "2026-11-25T15:02:58.420155+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về việc Lê Phương Khánh Như giành á hậu 4 tại Hoa hậu Quốc tế. Thông tin này giúp độc giả hiểu rõ hơn về thành tích của người đẹp Việt tại đấu trường quốc tế. Bài viết cũng cung cấp bối cảnh về cuộc thi Hoa hậu Quốc tế và các thí sinh tham gia.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T15:02:58.420617+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "2004",
+        "2025",
+        "2026",
+        "22",
+        "4"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-25T15:03:00.338895+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 158,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 732,
+          "source_access": [
+            {
+              "url": "https://thanhnien.vn/le-phuong-khanh-nhu-gianh-a-hau-4-tai-hoa-hau-quoc-te-1852611251927311.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 22:03"
+    },
+    "published_at": "2026-11-25T15:03:00.338895+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
