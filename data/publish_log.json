@@ -1120,5 +1120,35 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-25 12:02",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-25T05:02:27.539230+00:00",
+    "prepared_candidates": 27,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "chuyen-gia-ssi-chi-ra-4-ong-luc-dan-dat-thi-truong-chung-khoan-nam-2027-6f5f5fbf",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "truong-lao-hoa-thuong-thich-uc-nghiep-pho-phap-chu-giao-hoi-phat-giao-vi-f1d53f7a",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      },
+      {
+        "id": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản"
+      },
+      {
+        "id": "micah-parsons-tro-lai-oi-hinh-green-bay-packers-trong-tran-au-em-truoc-l-3e863529",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202)"
+      }
+    ]
   }
 ]

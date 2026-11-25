@@ -2060,7 +2060,7 @@
   },
   {
     "queue_id": "cb279de1445e418fb6e8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T04:38:18.572916+00:00",
     "expires_at": "2026-11-28T04:36:31.300252+00:00",
     "category_hint": "vietnam",
@@ -2679,11 +2679,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T04:38:18.572940+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "chuyen-gia-ssi-chi-ra-4-ong-luc-dan-dat-thi-truong-chung-khoan-nam-2027-6f5f5fbf"
   },
   {
     "queue_id": "7a5c1ffc7e8b8da17c05",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T04:38:11.190412+00:00",
     "expires_at": "2026-11-28T04:36:31.300252+00:00",
     "category_hint": "vietnam",
@@ -3547,11 +3548,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T04:38:11.190433+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "truong-lao-hoa-thuong-thich-uc-nghiep-pho-phap-chu-giao-hoi-phat-giao-vi-f1d53f7a"
   },
   {
     "queue_id": "jensen-huang-tro-lai-nvidia-nhung-chia-se-thang-than-ve-quan-tri-va-be-b-503c41fc",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-24T19:46:44.741786+00:00",
     "expires_at": "2026-11-25T19:46:44.741786+00:00",
     "source_urls": [
@@ -3805,11 +3807,44 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "fact_ledger[1] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[2] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-25T05:02:27.539230+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-25T05:02:27.539230+00:00",
+      "errors": [
+        "fact_ledger[1] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[2] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ wired.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 423,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1903,
+        "source_access": [
+          {
+            "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "arstechnica.com",
+          "theguardian.com",
+          "theverge.com",
+          "vnexpress.net",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
     "queue_id": "micah-parsons-tro-lai-oi-hinh-green-bay-packers-trong-tran-au-em-truoc-l-3e863529",
-    "status": "READY",
+    "status": "HOLD",
     "prepared_at": "2026-11-24T19:46:44.741786+00:00",
     "expires_at": "2026-11-25T19:46:44.741786+00:00",
     "source_urls": [
@@ -4002,6 +4037,39 @@
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202)",
+    "checked_at": "2026-11-25T05:02:27.539230+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-25T05:02:27.539230+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)"
+      ],
+      "stats": {
+        "paragraphs": 3,
+        "words": 274,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1272,
+        "source_access": [
+          {
+            "url": "https://www.sportingnews.com/us/nfl/green-bay-packers/news/packers-announce-micah-parsons-thanksgiving-eve-game-vs-rams/46fdd6442bd1e7b327f3fd22",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50577301/sources-packers-micah-parsons-cleared-return-wednesday",
+            "ok": false,
+            "reason": "HTTP 202"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
     }
   },
   {
@@ -8565,7 +8633,7 @@
   },
   {
     "queue_id": "champions-league-arsenal-oi-mat-voi-thu-thach-lon-khi-thieu-vang-david-r-017347f5",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-24T14:21:23.029097+00:00",
     "expires_at": "2026-11-25T14:21:23.029097+00:00",
     "source_urls": [
@@ -8584,7 +8652,7 @@
       "source_url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
       "published_at": "2026-11-24T14:10:30+00:00",
       "fetched_at": "2026-11-24T14:22:45.290321+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-25T05:02:27.539230+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -8802,26 +8870,41 @@
         "4"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-24T14:22:45.291361+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-25T05:02:27.539230+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 226,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1060
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "bbc.com",
-          "cbssports.com",
-          "sportingnews.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1060,
+          "source_access": [
+            {
+              "url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-arsenal-david-raya-dortmund",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.sportingnews.com/us/soccer/news/watch-arsenal-vs-dortmund-live-stream-tv-channel-time-champions/17a61f7faf35fae40655cf0f",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "cbssports.com",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-25 12:02"
+    },
+    "published_at": "2026-11-25T05:02:27.539230+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "anh-quoc-ap-at-lenh-trung-phat-oi-voi-nhom-houthi-cua-yemen-va-bon-quan--89a3db12",
@@ -92778,7 +92861,7 @@
   },
   {
     "queue_id": "thi-truong-tai-nghe-soi-ong-voi-loat-uu-ai-giam-gia-sau-trong-mua-mua-sa-77b74b70",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-25T04:38:52.723613+00:00",
     "expires_at": "2026-11-26T04:38:52.723613+00:00",
     "source_urls": [
@@ -92794,7 +92877,7 @@
       "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
       "published_at": "2026-11-24T22:22:20+00:00",
       "fetched_at": "2026-11-25T04:39:06.069245+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-25T05:02:27.539230+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -92950,27 +93033,37 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-25T04:39:06.070714+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-25T05:02:27.539230+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 273,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1198
-        },
-        "independent_domains": [
-          "techcrunch.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1198,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "techcrunch.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-25 12:02"
+    },
+    "published_at": "2026-11-25T05:02:27.539230+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "california-ieu-tra-nvidia-ve-nghi-van-xuat-khau-chip-sang-trung-quoc-e438bf7b",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-25T04:38:52.723613+00:00",
     "expires_at": "2026-11-26T04:38:52.723613+00:00",
     "source_urls": [
@@ -92987,7 +93080,7 @@
       "source_url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
       "published_at": "2026-11-20T09:18:30+00:00",
       "fetched_at": "2026-11-25T04:39:12.341144+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-25T05:02:27.539230+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -93189,28 +93282,43 @@
         "5"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-25T04:39:12.342603+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-25T05:02:27.539230+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 353,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1619
-        },
-        "independent_domains": [
-          "bbc.com",
-          "cnbc.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1619,
+          "source_access": [
+            {
+              "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-25 12:02"
+    },
+    "published_at": "2026-11-25T05:02:27.539230+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "kilmar-abrego-garcia-roi-my-sang-tay-ban-nha-khep-lai-cuoc-chien-phap-ly-d0382464",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-25T04:38:52.723613+00:00",
     "expires_at": "2026-11-26T04:38:52.723613+00:00",
     "source_urls": [
@@ -93227,7 +93335,7 @@
       "source_url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-25T03:54:43+00:00",
       "fetched_at": "2026-11-25T04:39:28.637384+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-25T05:02:27.539230+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -93406,23 +93514,590 @@
         "2025"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-25T04:39:28.638696+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-25T05:02:27.539230+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 309,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1404
+          "body_chars": 1404,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-25 12:02"
+    },
+    "published_at": "2026-11-25T05:02:27.539230+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "chuyen-gia-ssi-chi-ra-4-ong-luc-dan-dat-thi-truong-chung-khoan-nam-2027-6f5f5fbf",
+    "status": "HOLD",
+    "prepared_at": "2026-11-25T05:01:54.513752+00:00",
+    "expires_at": "2026-11-25T17:01:54.513752+00:00",
+    "source_urls": [
+      "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+      "https://dantri.com.vn/kinh-doanh/cop31-bu-gio-2-ngay-van-be-tac-tuong-lai-cua-dong-von-2200-ty-usd-ra-sao-20261125054520585.htm",
+      "https://thanhnien.vn/vi-sao-mieng-lai-co-vi-dang-vao-buoi-sang-chuyen-gia-giai-dap-185261123153513417.htm"
+    ],
+    "article": {
+      "id": "chuyen-gia-ssi-chi-ra-4-ong-luc-dan-dat-thi-truong-chung-khoan-nam-2027-6f5f5fbf",
+      "title": "Chuyên gia SSI chỉ ra 4 động lực dẫn dắt thị trường chứng khoán năm 2027",
+      "summary": "Tại sự kiện tài chính, đại diện SSI đã phân tích bốn yếu tố chủ chốt có khả năng định hình và thúc đẩy dòng vốn ngoại cùng triển vọng thị trường chứng khoán Việt Nam trong năm 2027.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Kinh doanh",
+      "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+      "published_at": "2026-11-25T02:30:00+00:00",
+      "fetched_at": "2026-11-25T05:02:08.262700+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường chứng khoán Việt Nam bước vào giai đoạn 2026 với tư cách là một năm chuyển tiếp, tạo nền tảng cho sự bứt phá vào năm 2027. Nhìn lại giai đoạn trước, thị trường từng ghi nhận mức tăng trưởng hơn 40% vào năm 2025 và vươn lên nhóm có hiệu suất tốt trên phạm vi toàn cầu. Đánh giá về triển vọng sắp tới, đại diện SSI đã chỉ ra bốn nhóm yếu tố then chốt sẽ đóng vai trò dẫn dắt dòng tiền và xu hướng vận động của thị trường trong năm 2027.",
+        "Yếu tố đầu tiên là sự gia tăng mạnh mẽ của dòng vốn ngoại từ các quỹ đầu tư bám sát chỉ số FTSE. Trong đợt khảo sát đầu tiên vào tháng 9 với tỷ trọng phân bổ ở mức 10%, quy mô dòng vốn từ Vanguard đạt khoảng 230 triệu USD. Con số này được kỳ vọng tiến sát mốc 500 triệu USD vào tháng 3 tới, trước khi mở rộng lên tới 1 tỷ USD trong mỗi đợt phân bổ tiếp theo vào tháng 6 và tháng 9. Quy mô thanh khoản gia tăng được xem là lực hút quan trọng đối với các nhà quản lý quỹ chủ động.",
+        "Bên cạnh đó, triển vọng nâng hạng theo chuẩn MSCI tiếp tục là một tâm điểm chú ý. Dù việc chưa có tên trong danh sách theo dõi năm nay từng khiến một bộ phận nhà đầu tư hụt hẫng, giới chuyên gia đánh giá đây là khoảng lặng cần thiết để củng cố nội lực. Điểm tựa quan trọng cho kỳ vọng này là hệ thống đối tác bù trừ trung tâm (CCP) dự kiến hoàn thành vào cuối quý I/2027. Nếu đáp ứng các tiêu chuẩn quốc tế, thị trường có cơ sở đón nhận đánh giá tích cực từ MSCI.",
+        "Xu hướng biến động của dòng vốn toàn cầu và lãi suất trong nước cũng tạo ra những chuyển dịch đáng kể. Khi làn sóng đầu tư vào trí tuệ nhân tạo trên thế giới hạ nhiệt, Việt Nam với nền tảng tăng trưởng kinh tế ổn định có thể trở thành điểm đến ưu tiên của các dòng vốn tìm kiếm sự bền vững. Song song với đó, kỳ vọng hạ nhiệt mặt bằng lãi suất vào cuối quý I/2027 khi thanh khoản hệ thống cải thiện sẽ tạo động lực để dòng tiền từ nhà đầu tư cá nhân quay trở lại định giá hấp dẫn của thị trường."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bốn động lực lớn dẫn dắt thị trường chứng khoán Việt Nam năm 2027",
+      "meta_description": "Khám phá các yếu tố tác động và cơ hội hút dòng vốn ngoại vào thị trường chứng khoán Việt Nam năm 2027 qua góc nhìn chuyên gia SSI.",
+      "keywords": [
+        "chứng khoán Việt Nam",
+        "động lực 2027",
+        "SSI",
+        "dòng vốn ngoại",
+        "nâng hạng thị trường"
+      ],
+      "slug": "chuyen-gia-ssi-chi-ra-4-ong-luc-dan-dat-thi-truong-chung-khoan-nam-2027-6f5f5fbf",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 424,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+        "https://dantri.com.vn/kinh-doanh/cop31-bu-gio-2-ngay-van-be-tac-tuong-lai-cua-dong-von-2200-ty-usd-ra-sao-20261125054520585.htm",
+        "https://thanhnien.vn/vi-sao-mieng-lai-co-vi-dang-vao-buoi-sang-chuyen-gia-giai-dap-185261123153513417.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/cop31-bu-gio-2-ngay-van-be-tac-tuong-lai-cua-dong-von-2200-ty-usd-ra-sao-20261125054520585.htm",
+        "https://thanhnien.vn/vi-sao-mieng-lai-co-vi-dang-vao-buoi-sang-chuyen-gia-giai-dap-185261123153513417.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T02:30:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/cop31-bu-gio-2-ngay-van-be-tac-tuong-lai-cua-dong-von-2200-ty-usd-ra-sao-20261125054520585.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T00:59:40+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/vi-sao-mieng-lai-co-vi-dang-vao-buoi-sang-chuyen-gia-giai-dap-185261123153513417.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T09:15:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vào năm 2025, thị trường chứng khoán Việt Nam từng tăng trưởng hơn 40% và trở thành một trong những thị trường tăng trưởng tốt nhất thế giới.",
+          "source_urls": [
+            "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Quay lại về bức tranh thị trường, ông Thomas Nguyễn cho biếtvào 2025, thị trường chứng khoán Việt Nam từng tăng trưởng hơn 40%, trở thành một trong những thị trường có mức tăng trưởng tốt nhất thế giới.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "snippet": "Quay lại về bức tranh thị trường, ông Thomas Nguyễn cho biếtvào 2025, thị trường chứng khoán Việt Nam từng tăng trưởng hơn 40%, trở thành một trong những thị trường có mức tăng trưởng tốt nhất thế giới.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "page_sha256": "0a39ee5dafb218699bed70153d9eaaeb6fab0f4e020a3e348a07e2765ab1138f",
+              "snippet_sha256": "9cc7865070a659e1f9c959286d8fdbb45fef2eac6434c93349f2643ae1b8d275",
+              "verified_at": "2026-11-25T05:02:08.261681+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy mô dòng vốn từ Vanguard trong đợt đầu tiên vào tháng 9 đạt khoảng 230 triệu USD với tỷ trọng phân bổ 10%, và kỳ vọng tiến gần 500 triệu USD vào tháng 3 năm tới.",
+          "source_urls": [
+            "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Dòng vốn từ các quỹ đầu tư theo chỉ số FTSE sẽ gia tăng mạnh mẽ hơn:Trong đợt đầu tiên vào tháng 9 vừa qua, tỷ trọng phân bổ mới chỉ đạt 10%.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "snippet": "Dòng vốn từ các quỹ đầu tư theo chỉ số FTSE sẽ gia tăng mạnh mẽ hơn:Trong đợt đầu tiên vào tháng 9 vừa qua, tỷ trọng phân bổ mới chỉ đạt 10%.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "page_sha256": "0a39ee5dafb218699bed70153d9eaaeb6fab0f4e020a3e348a07e2765ab1138f",
+              "snippet_sha256": "faf5247ab9a01f9749acbc1d9ae32151d6a856d7829a85af53cac8fa99a4c246",
+              "verified_at": "2026-11-25T05:02:08.261681+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong các đợt tiếp theo vào tháng 6 và tháng 9, quy mô dòng vốn từ các quỹ đầu tư theo chỉ số FTSE ở mỗi đợt có thể đạt tới 1 tỷ USD.",
+          "source_urls": [
+            "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Trong các đợt tiếp theo vào tháng 6 và tháng 9, quy mô dòng vốn ở mỗi đợt có thể đạt tới 1 tỷ USD.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "snippet": "Trong các đợt tiếp theo vào tháng 6 và tháng 9, quy mô dòng vốn ở mỗi đợt có thể đạt tới 1 tỷ USD.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "page_sha256": "0a39ee5dafb218699bed70153d9eaaeb6fab0f4e020a3e348a07e2765ab1138f",
+              "snippet_sha256": "f9fe19b32b9f6bab741fe2159d373a21d887fdcadf203f131030e0db19acb982",
+              "verified_at": "2026-11-25T05:02:08.261681+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hệ thống đối tác bù trừ trung tâm (CCP) dự kiến hoàn thành vào cuối quý I/2027.",
+          "source_urls": [
+            "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Một trong những bước tiến quan trọng tiếp theo là triển khai hệ thống đối tác bù trừ trung tâm (Central Counterparty - CCP), dự kiến hoàn thành vào cuối quý I/2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "snippet": "Một trong những bước tiến quan trọng tiếp theo là triển khai hệ thống đối tác bù trừ trung tâm (Central Counterparty - CCP), dự kiến hoàn thành vào cuối quý I/2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "page_sha256": "0a39ee5dafb218699bed70153d9eaaeb6fab0f4e020a3e348a07e2765ab1138f",
+              "snippet_sha256": "34f014041beea2f8f5aac899b041077c62c1c1d107825a0400615fee9cc62969",
+              "verified_at": "2026-11-25T05:02:08.261681+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "SSI kỳ vọng mặt bằng lãi suất tiền gửi sẽ dần hạ nhiệt vào cuối quý I/2027.",
+          "source_urls": [
+            "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "SSI kỳ vọng mặt bằng lãi suất sẽ dần hạ nhiệt vào cuối quý I/2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "snippet": "SSI kỳ vọng mặt bằng lãi suất sẽ dần hạ nhiệt vào cuối quý I/2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+              "page_sha256": "0a39ee5dafb218699bed70153d9eaaeb6fab0f4e020a3e348a07e2765ab1138f",
+              "snippet_sha256": "5832395b0a74bbfb4c77d41814c29ad5ea27bfee355a8e96119a8f73323723cb",
+              "verified_at": "2026-11-25T05:02:08.261681+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết bóc tách chi tiết bốn động lực chiến lược định hình thị trường chứng khoán năm 2027 từ góc nhìn chuyên gia tài chính. Qua đó, phân tích làm rõ mối liên hệ giữa các mốc kỹ thuật như hệ thống CCP, lộ trình dòng vốn FTSE và sự dịch chuyển của lãi suất nội địa.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-25T05:02:08.262802+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1",
+        "10",
+        "2025",
+        "2027",
+        "230",
+        "40",
+        "500"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T05:02:08.264430+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 424,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1881
         },
         "independent_domains": [
-          "aljazeera.com",
-          "bbc.com",
-          "theguardian.com"
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
         ],
         "primary_source_present": false
       },
       "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-25T05:02:27.539230+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-25T05:02:27.539230+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 424,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1881,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/chuyen-gia-ban-co-hoi-hut-dong-von-ngoai-tai-hdbank-global-capital-summit-2026-5148466.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "truong-lao-hoa-thuong-thich-uc-nghiep-pho-phap-chu-giao-hoi-phat-giao-vi-f1d53f7a",
+    "status": "HOLD",
+    "prepared_at": "2026-11-25T05:01:54.513752+00:00",
+    "expires_at": "2026-11-26T05:01:54.513752+00:00",
+    "source_urls": [
+      "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+      "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+      "https://thanhnien.vn/to-chuc-le-tang-truong-lao-hoa-thuong-thich-duc-nghiep-theo-nghi-thuc-cap-cao-cua-ghpgvn-185261125111828797.htm"
+    ],
+    "article": {
+      "id": "truong-lao-hoa-thuong-thich-uc-nghiep-pho-phap-chu-giao-hoi-phat-giao-vi-f1d53f7a",
+      "title": "Trưởng lão Hòa thượng Thích Đức Nghiệp, Phó Pháp chủ Giáo hội Phật giáo Việt Nam, viên tịch",
+      "summary": "Trưởng lão Hòa thượng Thích Đức Nghiệp, Phó Pháp chủ kiêm Giám luật Hội đồng Chứng minh Giáo hội Phật giáo Việt Nam, đã viên tịch ở tuổi 98. Tang lễ của ngài được tổ chức theo nghi thức cấp cao của Giáo hội.",
+      "category": "vietnam",
+      "source_name": "VnExpress - Thời sự",
+      "source_url": "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+      "published_at": "2026-11-25T02:47:19+00:00",
+      "fetched_at": "2026-11-25T05:02:25.015561+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trưởng lão Hòa thượng Thích Đức Nghiệp, Phó Pháp chủ kiêm Giám luật Hội đồng Chứng minh Giáo hội Phật giáo Việt Nam, đã viên tịch vào tối 24/11/2026 tại tổ đình Vĩnh Nghiêm, TP.HCM, hưởng thọ 98 tuổi với 74 hạ lạp. Sự ra đi của ngài để lại niềm tiếc thương lớn trong cộng đồng Phật giáo, khi ngài được biết đến là một bậc tôn túc có nhiều đóng góp quan trọng cho đạo pháp và dân tộc.",
+        "Sinh thời, Trưởng lão Hòa thượng Thích Đức Nghiệp (thế danh Vũ Đức Nghiệp, sinh năm 1929 tại Ninh Bình) là một nhà sư uyên bác với học vị Thạc sĩ Đại học Yale và Tiến sĩ Triết học tại Đại học Columbia (Hoa Kỳ). Trước năm 1975, ngài từng đảm nhiệm các cương vị quan trọng như Hiệu trưởng Trường Trung học Miền Nam và Giám đốc Trường Trung học Vạn Hạnh. Ngài cũng là nhân chứng lịch sử trong phong trào đấu tranh của Phật giáo năm 1963 và sự kiện Bồ tát Thích Quảng Đức vị pháp thiêu thân.",
+        "Trong cơ cấu của Giáo hội Phật giáo Việt Nam, với vai trò Phó Pháp chủ kiêm Giám luật, ngài chịu trách nhiệm giám sát, giữ gìn giới luật và kỷ cương tu học cho toàn Giáo hội. Ngài cũng tham gia chứng minh Hội đồng Phiên dịch và ấn hành Đại tạng kinh Việt Nam, đồng thời là viện chủ tổ đình Vĩnh Nghiêm.",
+        "Để tưởng nhớ công lao của ngài, Đức Pháp chủ Giáo hội Phật giáo Việt Nam đã ấn ký thông cáo đặc biệt về việc tổ chức tang lễ theo nghi thức cấp cao. Lễ nhập kim quan đã diễn ra vào ngày 25/11 tại tổ đình Vĩnh Nghiêm. Lễ viếng chính thức kéo dài đến ngày 28/11. Sau lễ truy niệm vào sáng 29/11, kim quan sẽ được cung thỉnh đến Công viên nghĩa trang Hoa viên Bình An tại Đồng Nai để thực hiện nghi thức trà-tỳ."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Trưởng lão Hòa thượng Thích Đức Nghiệp viên tịch ở tuổi 98",
+      "meta_description": "Thông tin về sự viên tịch của Trưởng lão Hòa thượng Thích Đức Nghiệp, Phó Pháp chủ Giáo hội Phật giáo Việt Nam và các thông tin về tang lễ tại chùa Vĩnh Nghiêm.",
+      "keywords": [
+        "Thích Đức Nghiệp",
+        "Giáo hội Phật giáo Việt Nam",
+        "viên tịch",
+        "chùa Vĩnh Nghiêm"
+      ],
+      "slug": "truong-lao-hoa-thuong-thich-uc-nghiep-pho-phap-chu-giao-hoi-phat-giao-vi-f1d53f7a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 337,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+        "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+        "https://thanhnien.vn/to-chuc-le-tang-truong-lao-hoa-thuong-thich-duc-nghiep-theo-nghi-thuc-cap-cao-cua-ghpgvn-185261125111828797.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+        "https://thanhnien.vn/to-chuc-le-tang-truong-lao-hoa-thuong-thich-duc-nghiep-theo-nghi-thuc-cap-cao-cua-ghpgvn-185261125111828797.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thời sự",
+          "url": "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T02:47:19+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T02:03:21+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/to-chuc-le-tang-truong-lao-hoa-thuong-thich-duc-nghiep-theo-nghi-thuc-cap-cao-cua-ghpgvn-185261125111828797.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T04:27:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trưởng lão Hòa thượng Thích Đức Nghiệp, Phó Pháp chủ kiêm Giám luật Hội đồng Chứng minh GHPGVN, viên tịch ở tuổi 98 vào tối 24/11/2026.",
+          "source_urls": [
+            "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "TP HCMTrưởng lão hòa thượng Thích Đức Nghiệp, Phó pháp chủ Hội đồng Chứng minh Giáo hội Phật giáo Việt Nam, viên tịch, hưởng thọ 98 tuổi.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+              "snippet": "TP HCMTrưởng lão hòa thượng Thích Đức Nghiệp, Phó pháp chủ Hội đồng Chứng minh Giáo hội Phật giáo Việt Nam, viên tịch, hưởng thọ 98 tuổi.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+              "page_sha256": "1e78c6bf9c7c1e4d3f7b704fd362cb1e82298ac4700d5405ff47ea8aba302564",
+              "snippet_sha256": "009ae245e477d326dbf6f422ae1a24d9eaf66f5745f825c084738c5123e3c1b4",
+              "verified_at": "2026-11-25T05:02:25.015074+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tang lễ được tổ chức theo nghi thức cấp cao của Giáo hội Phật giáo Việt Nam tại tổ đình Vĩnh Nghiêm, lễ truy niệm diễn ra vào ngày 29/11/2026.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Với Giáo hội Phật giáo Việt Nam, ngài là một trong những vị giáo phẩm được thỉnh tham gia chứng minh cho Hội đồng Phiên dịch và ấn hành Đại tạng kinh Việt Nam, làm giới sư tại nhiều Đại giới đàn, Viện chủ và Trưởng tông môn tổ đình Vĩnh Nghiêm (TPHCM), Phó Pháp chủ kiêm Giám luật, Trưởng Ban Giám luật thuộc Hội đồng Chứng minh…",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+              "snippet": "Với Giáo hội Phật giáo Việt Nam, ngài là một trong những vị giáo phẩm được thỉnh tham gia chứng minh cho Hội đồng Phiên dịch và ấn hành Đại tạng kinh Việt Nam, làm giới sư tại nhiều Đại giới đàn, Viện chủ và Trưởng tông môn tổ đình Vĩnh Nghiêm (TPHCM), Phó Pháp chủ kiêm Giám luật, Trưởng Ban Giám luật thuộc Hội đồng Chứng minh…",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+              "page_sha256": "0de5940e589dc6703dbeed4e6dc870ad985d1e7a7e4303a96d993214cc2370dd",
+              "snippet_sha256": "a6ccf846a953c5c602ff8112d59139e7bce648cbf2b26c1c7fad3a3eec86eaaa",
+              "verified_at": "2026-11-25T05:02:25.015074+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trưởng lão Hòa thượng Thích Đức Nghiệp từng du học tại Mỹ, tốt nghiệp Thạc sĩ Đại học Yale và Tiến sĩ Triết học tại Đại học Columbia.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Trong quá trình học tập, Trưởng lão Hòa thượng Thích Đức Nghiệp sang Hoa Kỳ nghiên cứu và đạt học vị Thạc sĩ tại Đại học Yale, Tiến sĩ Triết học tại Đại học Columbia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+              "snippet": "Trong quá trình học tập, Trưởng lão Hòa thượng Thích Đức Nghiệp sang Hoa Kỳ nghiên cứu và đạt học vị Thạc sĩ tại Đại học Yale, Tiến sĩ Triết học tại Đại học Columbia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+              "page_sha256": "0de5940e589dc6703dbeed4e6dc870ad985d1e7a7e4303a96d993214cc2370dd",
+              "snippet_sha256": "2ab256fd41472a881939c695931b8c559c69053647ef7502df322ff635429192",
+              "verified_at": "2026-11-25T05:02:25.015074+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp thông tin về sự viên tịch của một vị giáo phẩm cấp cao, đồng thời làm rõ bối cảnh lịch sử và đóng góp của ngài đối với Giáo hội Phật giáo Việt Nam. Nội dung cung cấp cái nhìn toàn diện về tiểu sử và các nghi thức tang lễ chính thức, giúp độc giả nắm bắt đầy đủ sự kiện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T05:02:25.015648+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1929",
+        "1963",
+        "1975",
+        "74",
+        "98"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T05:02:25.016756+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 337,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1580
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-25T05:02:27.539230+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-25T05:02:27.539230+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 4,
+        "words": 337,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1580,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-5148571.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          },
+          {
+            "url": "https://dantri.com.vn/thoi-su/pho-phap-chu-giao-hoi-phat-giao-viet-nam-thich-duc-nghiep-vien-tich-20261125085457530.htm",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
     }
   }
 ]
