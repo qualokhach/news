@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "468319f91b7bd00e1f4d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T18:53:34.903396+00:00",
     "expires_at": "2026-11-28T18:51:26.324897+00:00",
     "category_hint": "vietnam",
@@ -817,11 +817,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T18:53:34.903422+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-558da248"
   },
   {
     "queue_id": "eb74c1f7b087dddc6f5d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T18:53:23.334889+00:00",
     "expires_at": "2026-11-28T18:51:26.324897+00:00",
     "category_hint": "sports",
@@ -1515,11 +1516,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T18:53:23.334913+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "liverpool-oi-au-club-brugge-tai-champions-league-thu-thach-phong-o-e21de127"
   },
   {
     "queue_id": "38ef40c37985037c8ef5",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T18:53:20.384428+00:00",
     "expires_at": "2026-11-28T18:51:26.324897+00:00",
     "category_hint": "technology",
@@ -2113,7 +2115,8 @@
       ]
     },
     "research_ready_at": "2026-11-25T18:53:20.384452+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "new-york-cam-ai-chatbot-toy-cho-tre-trong-mua-le-c5f5840e"
   },
   {
     "queue_id": "b1be34670fac565f9977",
@@ -92437,5 +92440,640 @@
     },
     "published_at": "2026-11-23T15:27:00.070431+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-558da248",
+    "status": "READY",
+    "prepared_at": "2026-11-25T18:53:54.482014+00:00",
+    "expires_at": "2026-11-26T06:53:54.482014+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+      "https://dantri.com.vn/kinh-doanh/toi-2511-gia-vang-bac-quay-dau-giam-nhanh-sau-tin-hieu-tu-my-20261125220731904.htm",
+      "https://thanhnien.vn/gia-vang-tang-sau-ca-tuan-lien-tuc-giam-185261125104558499.htm"
+    ],
+    "article": {
+      "id": "gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-558da248",
+      "title": "Giá vàng giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế",
+      "summary": "Giá vàng thế giới giảm mạnh sau thông tin Mỹ sắp áp thuế lên hàng chục đối tác thương mại, mức cao nhất lên tới 20%",
+      "category": "world",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+      "published_at": "2026-11-25T16:59:00+00:00",
+      "fetched_at": "2026-11-25T18:54:41.405510+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giá vàng thế giới đã giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế lên hàng chục đối tác thương mại, mức cao nhất lên tới 20%. Giá vàng giảm mạnh sau thông tin này, chỉ trong vòng hơn 24h qua, giá vàng thế giới đã giảm 237,4 USD/ounce, tương đương 7,45 triệu đồng/lượng và rơi khỏi ngưỡng 3.500 USD/ounce.",
+        "Giá vàng trong nước đang cao hơn thế giới 26,3 triệu đồng/lượng, đây là mức chênh kỷ lục từ trước đến nay. Công ty SJC niêm yết giá bán ra cuối ngày hôm nay ở mức 134,1 triệu đồng/lượng, mua vào 129,1 triệu đồng/lượng. Trong khi đó Mi Hồng niêm yết giá bán ra là 134 triệu đồng/lượng, mua vào 132 triệu đồng/lượng, giảm 1,5 triệu đồng/lượng ở chiều mua vào và 1 triệu đồng/lượng ở chiều bán ra.",
+        "Thị trường lãi suất tương lai hiện vẫn đặt cược gần như chắc chắn rằng Cục Dự trữ Liên bang Mỹ (Fed) sẽ tăng lãi suất 0,25% trong cuộc họp tháng 12. Dữ liệu này sẽ là một căn cứ quan trọng để nhà đầu tư đoán định về lãi suất. Theo phân tích, hiện nhà đầu tư đang chuẩn bị bước vào kỳ nghỉ lễ Tạ ơn. Thêm vào đó xu hướng tăng của USD sẽ tiếp tục là một trở ngại đối với triển vọng phục hồi của giá vàng."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Giá vàng giảm mạnh sau tin Mỹ áp thuế",
+      "meta_description": "Giá vàng giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế lên hàng chục đối tác thương mại",
+      "keywords": [
+        "giá vàng",
+        "Mỹ áp thuế",
+        "Giá vàng giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế",
+        "Thế giới",
+        "tin tức thế giới"
+      ],
+      "slug": "gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-558da248",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 232,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+        "https://dantri.com.vn/kinh-doanh/toi-2511-gia-vang-bac-quay-dau-giam-nhanh-sau-tin-hieu-tu-my-20261125220731904.htm",
+        "https://thanhnien.vn/gia-vang-tang-sau-ca-tuan-lien-tuc-giam-185261125104558499.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/kinh-doanh/toi-2511-gia-vang-bac-quay-dau-giam-nhanh-sau-tin-hieu-tu-my-20261125220731904.htm",
+        "https://thanhnien.vn/gia-vang-tang-sau-ca-tuan-lien-tuc-giam-185261125104558499.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T16:59:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/toi-2511-gia-vang-bac-quay-dau-giam-nhanh-sau-tin-hieu-tu-my-20261125220731904.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T15:19:01+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/gia-vang-tang-sau-ca-tuan-lien-tuc-giam-185261125104558499.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T04:04:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Giá vàng giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế",
+          "source_urls": [
+            "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Giá vàng giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế tối nay, 25-11 - Ảnh chụp màn hình",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+              "snippet": "Giá vàng giảm hơn 120 USD/ounce sau tin Mỹ sắp áp thuế tối nay, 25-11 - Ảnh chụp màn hình",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+              "page_sha256": "5e04ca9bb4632e4c2fff2bb92a7cdcef81029a0943ecc7b3774f1c74ddf60e99",
+              "snippet_sha256": "52a1089c48c720a4666263d2eff2b88a8290721170b5fdd4a4906df02228f8e6",
+              "verified_at": "2026-11-25T18:54:41.404908+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Giá vàng trong nước đang cao hơn thế giới 26,3 triệu đồng/lượng",
+          "source_urls": [
+            "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "So với giá vàng thế giới quy đổi, giá vàng trong nước đang cao hơn 26,3 triệu đồng/lượng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+              "snippet": "So với giá vàng thế giới quy đổi, giá vàng trong nước đang cao hơn 26,3 triệu đồng/lượng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+              "page_sha256": "5e04ca9bb4632e4c2fff2bb92a7cdcef81029a0943ecc7b3774f1c74ddf60e99",
+              "snippet_sha256": "dcae0850815d52d20125c495971c08e1f1be9aaa5c1d86c4800fa70609b073a5",
+              "verified_at": "2026-11-25T18:54:41.404908+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thị trường lãi suất tương lai hiện vẫn đặt cược gần như chắc chắn rằng Cục Dự trữ Liên bang Mỹ (Fed) sẽ tăng lãi suất 0,25% trong cuộc họp tháng 12",
+          "source_urls": [
+            "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Thị trường lãi suất tương lai hiện vẫn đặt cược gần như chắc chắn rằng Cục Dự trữ Liên bang Mỹ (Fed) sẽ tăng lãi suất 0,25% trong cuộc họp tháng 12.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+              "snippet": "Thị trường lãi suất tương lai hiện vẫn đặt cược gần như chắc chắn rằng Cục Dự trữ Liên bang Mỹ (Fed) sẽ tăng lãi suất 0,25% trong cuộc họp tháng 12.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/gia-vang-giam-hon-120-usd-ounce-sau-tin-my-sap-ap-thue-100261125235032733.htm",
+              "page_sha256": "5e04ca9bb4632e4c2fff2bb92a7cdcef81029a0943ecc7b3774f1c74ddf60e99",
+              "snippet_sha256": "ff284e32c1cc4b8b8ead00dcc3cb1f055fe159e1ddd97bbb1754313587353c0d",
+              "verified_at": "2026-11-25T18:54:41.404908+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về sự giảm giá vàng sau tin Mỹ áp thuế, cũng như tác động của việc này đến thị trường vàng trong nước. Đồng thời, bài viết cũng phân tích về triển vọng phục hồi của giá vàng và tác động của lãi suất đến thị trường này. Bài viết này giúp độc giả hiểu rõ hơn về tình hình thị trường vàng hiện tại và các yếu tố ảnh hưởng đến nó.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-25T18:54:41.405568+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "0,25",
+        "1",
+        "1,5",
+        "120",
+        "129,1",
+        "132",
+        "134",
+        "134,1",
+        "20",
+        "237,4",
+        "24",
+        "26,3",
+        "3.500",
+        "7,45"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T18:54:41.406575+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 232,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1101
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "liverpool-oi-au-club-brugge-tai-champions-league-thu-thach-phong-o-e21de127",
+    "status": "READY",
+    "prepared_at": "2026-11-25T18:53:54.482014+00:00",
+    "expires_at": "2026-11-26T18:53:54.482014+00:00",
+    "source_urls": [
+      "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+      "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3"
+    ],
+    "article": {
+      "id": "liverpool-oi-au-club-brugge-tai-champions-league-thu-thach-phong-o-e21de127",
+      "title": "Liverpool đối đầu Club Brugge tại Champions League: Thử thách phong độ",
+      "summary": "Liverpool hành quân đến Bỉ để chạm trán Club Brugge trong khuôn khổ lượt trận thứ năm vòng bảng UEFA Champions League, với mục tiêu duy trì vị thế tại bảng xếp hạng.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+      "published_at": "2026-11-25T18:42:35+00:00",
+      "fetched_at": "2026-11-25T18:56:03.392632+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vào tối ngày 25 tháng 11 năm 2026, Liverpool có chuyến làm khách đầy thử thách trước Club Brugge trong khuôn khổ lượt trận thứ năm của vòng bảng UEFA Champions League. Đây là cuộc đối đầu được giới chuyên môn đánh giá cao khi cả hai đội bóng đều đang có phong độ ổn định tại đấu trường châu Âu mùa giải năm nay.",
+        "Trước khi bước vào trận đấu này, Liverpool dưới sự dẫn dắt của huấn luyện viên Andoni Iraola đang duy trì sự tự tin cao độ sau chiến thắng thuyết phục 4-0 trước đối thủ truyền kiếp Manchester United tại giải quốc nội vào cuối tuần qua. Trong khi đó, Club Brugge đã trở thành một trong những bất ngờ thú vị nhất của giải đấu. Đại diện của bóng đá Bỉ hiện đang sở hữu 9 điểm sau ba chiến thắng, bằng điểm với chính Liverpool, cho thấy sự cân bằng đáng kể giữa hai đội trước giờ bóng lăn.",
+        "Phát biểu trong buổi họp báo trước trận, huấn luyện viên Andoni Iraola dành nhiều lời khen ngợi cho đối thủ. Ông nhấn mạnh rằng Club Brugge là một đội bóng đầy năng lượng, có lối chơi pressing quyết liệt và luôn duy trì được sự nguy hiểm trong khâu tấn công. Thống kê cho thấy đội chủ nhà đã ghi bàn trong mọi trận đấu kể từ ngày 4 tháng 9, một minh chứng rõ nét cho sức mạnh hàng công của họ.",
+        "Đối với người hâm mộ tại Hoa Kỳ, trận đấu này được phát sóng độc quyền trên nền tảng Paramount+. Cuộc chạm trán tại sân Jan Breydel Stadion không chỉ là bài kiểm tra về chiến thuật cho Liverpool sau thất bại 2-3 trước Fenerbahce ở lượt trận châu Âu trước đó, mà còn là cơ hội để cả hai đội khẳng định tham vọng tiến sâu tại Champions League mùa này. Sự chuẩn bị kỹ lưỡng về nhân sự và chiến thuật của cả hai bên hứa hẹn sẽ mang đến một màn trình diễn hấp dẫn cho khán giả theo dõi trực tiếp."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Liverpool làm khách trước Club Brugge tại Champions League",
+      "meta_description": "Cập nhật thông tin trận đấu giữa Club Brugge và Liverpool tại UEFA Champions League diễn ra vào ngày 25/11/2026.",
+      "keywords": [
+        "Liverpool",
+        "Club Brugge",
+        "Champions League",
+        "Andoni Iraola"
+      ],
+      "slug": "liverpool-oi-au-club-brugge-tai-champions-league-thu-thach-phong-o-e21de127",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 355,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+        "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+        "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3"
+      ],
+      "source_links": [
+        "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+        "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T17:58:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T18:42:35+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T11:00:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Trận đấu giữa Club Brugge và Liverpool diễn ra vào ngày 25/11/2026 trong khuôn khổ UEFA Champions League.",
+          "source_urls": [
+            "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Club Brugge vs Liverpool; UEFA Champions League Round 1",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+              "snippet": "Club Brugge vs Liverpool; UEFA Champions League Round 1",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/club-brugge-vs-liverpool/live/577679",
+              "page_sha256": "6a1eff361ec58b7d4009fa77a1eb0628312ece7dd02fb34bf77c7748246bd72d",
+              "snippet_sha256": "a98a91c699fe090eb4fdbf8992a06850c099b348d2fafe411357d6710706084b",
+              "verified_at": "2026-11-25T18:56:03.392354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cả Club Brugge và Liverpool đều đang có 9 điểm sau 3 trận thắng tại vòng bảng Champions League mùa này.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Liverpoolare back in Champions League action as they travel to Club Brugge in matchday five of European play.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3",
+              "snippet": "Liverpoolare back in Champions League action as they travel to Club Brugge in matchday five of European play.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/soccer/news/watch-club-brugge-vs-liverpool-live-stream-tv-channel-champions-league/5c9c6aa7b3a628d3160d1fc3",
+              "page_sha256": "35e4a2ce6af0580144c3bc359d9e99df43c9b4701feafc5dd6d4810a2c1e36f1",
+              "snippet_sha256": "7ec9fc76ba10a6714f1f79fe4bd44f8f86cf03ea4854d6a364d88211e51541d3",
+              "verified_at": "2026-11-25T18:56:03.392354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Huấn luyện viên Andoni Iraola dẫn dắt Liverpool trong trận đấu này.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Hello world!Well I for one enjoyed Andoni Iraola’s pre-match briefing yesterday, in which he gushed over the team Liverpool will be playing this evening.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+              "snippet": "Hello world!Well I for one enjoyed Andoni Iraola’s pre-match briefing yesterday, in which he gushed over the team Liverpool will be playing this evening.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+              "page_sha256": "2e19373d9b76e845a60a442329242c79c1b63607c5965734713bee21420f15a4",
+              "snippet_sha256": "2659bda3fa755476f7180fcd71251ef868f4db40b17c257084c9a0fa33896a2f",
+              "verified_at": "2026-11-25T18:56:03.392354+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh phong độ của hai đội trước trận đấu thông qua dữ liệu đối đầu trực tiếp và phát biểu của huấn luyện viên. Đồng thời, bài viết cung cấp thông tin hữu ích về cách thức theo dõi trận đấu cho độc giả quốc tế.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T18:56:03.392710+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T18:56:03.393372+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 355,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1680
+        },
+        "independent_domains": [
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "new-york-cam-ai-chatbot-toy-cho-tre-trong-mua-le-c5f5840e",
+    "status": "READY",
+    "prepared_at": "2026-11-25T18:53:54.482014+00:00",
+    "expires_at": "2026-11-26T18:53:54.482014+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+    ],
+    "article": {
+      "id": "new-york-cam-ai-chatbot-toy-cho-tre-trong-mua-le-c5f5840e",
+      "title": "New York cấm AI chatbot toy cho trẻ trong mùa lễ",
+      "summary": "New York sẽ không giao AI chatbot toy cho trẻ trong mùa lễ sau khi Thống đốc Kathy Hochul ký luật cấm. Chính quyền địa phương nói sẽ thực thi lệnh cấm.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "published_at": "2026-11-25T18:11:46+00:00",
+      "fetched_at": "2026-11-25T19:00:34.282864+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Với kỳ lễ tới, New York sẽ không giao trẻ em những AI chatbot toy như quà. Thống đốc Kathy Hochul đã ký luật cấm chế tạo, phân phối và bán các sản phẩm như vậy tại bang trong năm năm tới. Luật này nhắm tới trò chơi có trí tuệ nhân tạo chatbot tích hợp, từ con thú bông nói đến robot dùng internet.",
+        "New York được xem là tiểu bang thứ hai sau California thực hiện lệnh cấm AI toy. Hành vi mới có hiệu lực sau 90 ngày ký ban hành, nhưng Thống đốc vẫn khuyến cáo các bậc phụ huynh không nên dùng những đồ chơi nguy hiểm cho con trong mùa lễ.",
+        "Theo Common Sense Media, trong tuần gần đây có một nghiên cứu cho thấy khoảng một phần tư phụ huynh Mỹ có trẻ dưới tám tuổi đã sở hữu AI toy hoặc định mua cho con trong mùa lễ. Các nhà nghiên cứu kiểm thử năm AI toy được quảng bá vì học hỏi và động viên, và phát hiện nhiều rủi ro về an toàn.",
+        "Nghiên cứu ghi nhận các sản phẩm có thể tạo mối quan hệ thay thế, lộ nội dung phù hợp cho trẻ hoặc thiếu cơ chế theo dõi. Một số trò chơi còn đối thoại hoặc xử lý tình huống gây lo ngại. Đồng thời, chính quyền New York cho biết sẽ phối hợp với công tố để thực thi lệnh cấm, với mức phí rất cao."
+      ],
+      "generation_provider": "OpenRouter:recursive/flint-v1.0:free",
+      "seo_title": "New York cấm AI chatbot toy cho trẻ trong mùa lễ",
+      "meta_description": "Thống đốc New York Kathy Hochul ký luật cấm chế tạo, phân phối và bán AI chatbot toy cho trẻ trong năm năm. Bài viết nhanh cập nhật sự kiện.",
+      "keywords": [
+        "AI toy",
+        "New York",
+        "Kathy Hochul",
+        "AI chatbot",
+        "an toàn trẻ em"
+      ],
+      "slug": "new-york-cam-ai-chatbot-toy-cho-tre-trong-mua-le-c5f5840e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 250,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+        "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+      ],
+      "source_links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T18:11:46+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T16:52:41+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "New York sẽ không giao AI chatbot toy cho trẻ em trong mùa lễ này.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+          ],
+          "evidence_snippet": "Santa won’t be delivering any AI chatbot toys to New York kids this Christmas.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+              "snippet": "Santa won’t be delivering any AI chatbot toys to New York kids this Christmas.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "importance": "supporting",
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+              "page_sha256": "840c9fdd8ed30abef5b2a8bc9e10e50ceb5496f3010a88b36196b9608935281f",
+              "snippet_sha256": "41c4117aea6239e37019694cb1e40b14d592792d324750ea9abeeca23c3a79ac",
+              "verified_at": "2026-11-25T19:00:34.282500+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: Rebecca Bellan10:11 AM PST · November 25, 2026",
+          "importance": "supporting",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+          ],
+          "evidence_snippet": "Rebecca Bellan10:11 AM PST · November 25, 2026",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+              "snippet": "Rebecca Bellan10:11 AM PST · November 25, 2026",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+              "page_sha256": "840c9fdd8ed30abef5b2a8bc9e10e50ceb5496f3010a88b36196b9608935281f",
+              "snippet_sha256": "13fb298d2e717bf7554aa0aa811996ab65728ff364c11f58622ddcc4948a9dfb",
+              "verified_at": "2026-11-25T19:00:34.282500+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguồn ghi nhận: Technically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks.",
+          "importance": "supporting",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+          ],
+          "evidence_snippet": "Technically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+              "snippet": "Technically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+              "page_sha256": "840c9fdd8ed30abef5b2a8bc9e10e50ceb5496f3010a88b36196b9608935281f",
+              "snippet_sha256": "4971bf2716cf5492b1f5c4dea7c9cae792b2a9b41a8a7cbb5d2d452237b0d9d0",
+              "verified_at": "2026-11-25T19:00:34.282500+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết nêu rõ lệnh cấm AI chatbot toy tại New York và bối cảnh mùa mua sắm dành cho trẻ. Nó đặt quy định của chính quyền cạnh những lo ngại an toàn từ nghiên cứu. Một điểm cần làm rõ là cơ chế thực thi và hậu quả với các nhà bán hàng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T19:00:34.282917+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "90"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T19:00:34.283498+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 250,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1122
+        },
+        "independent_domains": [
+          "techcrunch.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
