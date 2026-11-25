@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "0ce5efe51585767a66e4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T13:33:56.259308+00:00",
     "expires_at": "2026-11-28T13:32:02.658534+00:00",
     "category_hint": "sports",
@@ -677,11 +677,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T13:33:56.259339+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "pittsburgh-steelers-thay-the-aaron-rodgers-bang-mason-rudolph-5da6bb7b"
   },
   {
     "queue_id": "e8c19935336e4a16e527",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T13:33:55.232823+00:00",
     "expires_at": "2026-11-28T13:32:02.658534+00:00",
     "category_hint": "sports",
@@ -1305,11 +1306,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T13:33:55.232847+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "geno-auriemma-that-vong-tot-cung-sau-tran-thua-south-carolina-cua-uconn-3cb05781"
   },
   {
     "queue_id": "29ea2bf16ce573cab9e9",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T13:33:48.076570+00:00",
     "expires_at": "2026-11-28T13:32:02.658534+00:00",
     "category_hint": "world",
@@ -1958,7 +1960,8 @@
       ]
     },
     "research_ready_at": "2026-11-25T13:33:48.076592+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tang-gia-nang-luong-mot-sinh-vien-noi-len-noi-lo-4325f10c"
   },
   {
     "queue_id": "4790d00dbb3f9f3387c3",
@@ -92326,5 +92329,713 @@
     },
     "published_at": "2026-11-23T03:07:32.165067+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "pittsburgh-steelers-thay-the-aaron-rodgers-bang-mason-rudolph-5da6bb7b",
+    "status": "READY",
+    "prepared_at": "2026-11-25T13:34:22.145927+00:00",
+    "expires_at": "2026-11-26T13:34:22.145927+00:00",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+      "https://www.skysports.com/nfl/news/12040/13616287/aaron-rodgers-benched-by-pittsburgh-steelers-for-game-with-denver-broncos-as-mason-rudolph-starts-at-quarterback",
+      "https://www.theguardian.com/sport/2026/nov/25/steelers-bench-aaron-rodgers-mason-rudolph-broncos-nfl",
+      "https://www.sportingnews.com/us/nfl/pittsburgh-steelers/news/steelers-benching-aaron-rodgers/b331810bc231b33146b6ad47"
+    ],
+    "article": {
+      "id": "pittsburgh-steelers-thay-the-aaron-rodgers-bang-mason-rudolph-5da6bb7b",
+      "title": "Pittsburgh Steelers thay thế Aaron Rodgers bằng Mason Rudolph",
+      "summary": "Đội bóng bầu dục Pittsburgh Steelers quyết định để quarterback kỳ cựu Aaron Rodgers dự bị và đưa Mason Rudolph vào đội hình xuất phát trong trận đấu sắp tới với Denver Broncos.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+      "published_at": "2026-11-25T13:07:02+00:00",
+      "fetched_at": "2026-11-25T13:34:46.967123+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong một động thái bất ngờ, Pittsburgh Steelers đã quyết định thay đổi nhân sự ở vị trí quarterback trước thềm trận đấu với Denver Broncos vào thứ Sáu tới. Theo thông báo từ đội bóng, cầu thủ kỳ cựu Aaron Rodgers sẽ không thi đấu (inactive), nhường vị trí xuất phát cho Mason Rudolph. Quyết định này được đưa ra bởi ban huấn luyện, bất chấp việc chỉ một ngày trước đó, huấn luyện viên trưởng Mike McCarthy vẫn khẳng định Rodgers là quarterback chính thức của đội.",
+        "Sự thay đổi này diễn ra trong bối cảnh Steelers đang tìm kiếm một cú hích cho hàng công sau chuỗi hai trận thua liên tiếp. Rodgers, người sẽ bước sang tuổi 43 vào tuần tới, đang trải qua một trong những mùa giải khó khăn nhất trong sự nghiệp 22 năm của mình. Số liệu thống kê cho thấy anh đã bị sack 31 lần trong mùa giải này, dẫn đầu giải đấu về số yard bị mất do các pha sack (257 yard). Tỷ lệ chuyền bóng chính xác của anh đạt 60,9%, thấp hơn nhiều so với kỳ vọng, cùng với đó là tỷ lệ chuyền bóng chệch mục tiêu lên tới 18,9%.",
+        "Đối với Mason Rudolph, đây là cơ hội để anh chứng minh khả năng dẫn dắt đội bóng. Rudolph, người được Steelers chọn ở vòng ba năm 2018, đã có kinh nghiệm thay thế trong quá khứ và từng giúp đội giành quyền vào vòng playoff vào cuối mùa giải 2023. Ban huấn luyện hy vọng sự thay đổi này sẽ giúp cải thiện hiệu suất tấn công của Steelers khi đội bóng đang nỗ lực duy trì vị thế trong cuộc đua tại AFC North.",
+        "Việc Rodgers bị đẩy lên ghế dự bị đặt ra dấu hỏi lớn về tương lai của anh tại NFL. Trước đó, ngôi sao bốn lần giành danh hiệu MVP đã tuyên bố mùa giải 2026 sẽ là mùa giải cuối cùng trong sự nghiệp. Với việc không có tên trong danh sách thi đấu, nhiều người hâm mộ và giới chuyên môn đặt ra giả thiết rằng trận đấu gần nhất có thể đã là lần cuối cùng Rodgers xuất hiện trên sân cỏ."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Pittsburgh Steelers thay Aaron Rodgers bằng Mason Rudolph",
+      "meta_description": "Pittsburgh Steelers thông báo Mason Rudolph sẽ thay thế Aaron Rodgers ở vị trí quarterback trong trận gặp Denver Broncos sau chuỗi thành tích không tốt.",
+      "keywords": [
+        "Pittsburgh Steelers",
+        "Aaron Rodgers",
+        "Mason Rudolph",
+        "NFL",
+        "Mike McCarthy"
+      ],
+      "slug": "pittsburgh-steelers-thay-the-aaron-rodgers-bang-mason-rudolph-5da6bb7b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 376,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+        "https://www.skysports.com/nfl/news/12040/13616287/aaron-rodgers-benched-by-pittsburgh-steelers-for-game-with-denver-broncos-as-mason-rudolph-starts-at-quarterback",
+        "https://www.theguardian.com/sport/2026/nov/25/steelers-bench-aaron-rodgers-mason-rudolph-broncos-nfl",
+        "https://www.sportingnews.com/us/nfl/pittsburgh-steelers/news/steelers-benching-aaron-rodgers/b331810bc231b33146b6ad47"
+      ],
+      "source_links": [
+        "https://www.skysports.com/nfl/news/12040/13616287/aaron-rodgers-benched-by-pittsburgh-steelers-for-game-with-denver-broncos-as-mason-rudolph-starts-at-quarterback",
+        "https://www.theguardian.com/sport/2026/nov/25/steelers-bench-aaron-rodgers-mason-rudolph-broncos-nfl",
+        "https://www.sportingnews.com/us/nfl/pittsburgh-steelers/news/steelers-benching-aaron-rodgers/b331810bc231b33146b6ad47"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:07:02+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/nfl/news/12040/13616287/aaron-rodgers-benched-by-pittsburgh-steelers-for-game-with-denver-broncos-as-mason-rudolph-starts-at-quarterback",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T07:55:00+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/25/steelers-bench-aaron-rodgers-mason-rudolph-broncos-nfl",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T12:23:53+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/pittsburgh-steelers/news/steelers-benching-aaron-rodgers/b331810bc231b33146b6ad47",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T04:35:28+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Pittsburgh Steelers thay thế Aaron Rodgers bằng Mason Rudolph trong trận gặp Denver Broncos.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph"
+          ],
+          "importance": "core",
+          "evidence_snippet": "PITTSBURGH -- A day after coach Mike McCarthy unequivocally told reporters that \"Aaron Rodgersis our quarterback,\" thePittsburgh Steelerswill start longtime backupMason Rudolphon Friday against theDenver Broncos.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+              "snippet": "PITTSBURGH -- A day after coach Mike McCarthy unequivocally told reporters that \"Aaron Rodgersis our quarterback,\" thePittsburgh Steelerswill start longtime backupMason Rudolphon Friday against theDenver Broncos.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+              "page_sha256": "ea99ae6f008a4db7a2fbe95eb93bb401182248787b02e6a933262822b6c76ee1",
+              "snippet_sha256": "88d47528f5d83e2106ac60281e450ebeabaa05617cf47291a4439d761ed0d81c",
+              "verified_at": "2026-11-25T13:34:46.966308+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Aaron Rodgers đã bị sack 31 lần trong mùa giải 2026 và dẫn đầu NFL về số yard bị mất do sack với 257 yard.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He has been sacked 31 times this season, surpassing last season's total of 29, and leads the NFL with 257 yards lost on sacks.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+              "snippet": "He has been sacked 31 times this season, surpassing last season's total of 29, and leads the NFL with 257 yards lost on sacks.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+              "page_sha256": "ea99ae6f008a4db7a2fbe95eb93bb401182248787b02e6a933262822b6c76ee1",
+              "snippet_sha256": "3ec3a1912b0e07c1d757e9d7fabbc0f7194c9ec857a1d8accbd94adea2693c8c",
+              "verified_at": "2026-11-25T13:34:46.966308+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Aaron Rodgers đã tuyên bố mùa giải 2026 là mùa giải cuối cùng trong sự nghiệp 22 năm của mình.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "That means Rodgers, who previously announced this would be his last season after a 22-year career, might have played his final snap.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+              "snippet": "That means Rodgers, who previously announced this would be his last season after a 22-year career, might have played his final snap.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph",
+              "page_sha256": "ea99ae6f008a4db7a2fbe95eb93bb401182248787b02e6a933262822b6c76ee1",
+              "snippet_sha256": "7f6e71627659ba38686d052948b359ce60ae4e5782cdc126ba51b0453ee57907",
+              "verified_at": "2026-11-25T13:34:46.966308+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự tương phản giữa tuyên bố của huấn luyện viên và quyết định nhân sự thực tế của đội bóng. Đồng thời, phân tích các chỉ số chuyên môn để giải thích lý do dẫn đến sự thay đổi vị trí quarterback quan trọng này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T13:34:46.967239+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "18,9",
+        "2018",
+        "2023",
+        "2026",
+        "22",
+        "257",
+        "31",
+        "43",
+        "60,9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T13:34:46.968911+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 376,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1779
+        },
+        "independent_domains": [
+          "espn.com",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "geno-auriemma-that-vong-tot-cung-sau-tran-thua-south-carolina-cua-uconn-3cb05781",
+    "status": "READY",
+    "prepared_at": "2026-11-25T13:34:22.145927+00:00",
+    "expires_at": "2026-11-26T13:34:22.145927+00:00",
+    "source_urls": [
+      "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+      "https://www.sportingnews.com/us/ncaa-football/news/watch-south-carolina-georgia-channel-stream-time-schedule/f99114c19abec8cdcf07091e"
+    ],
+    "article": {
+      "id": "geno-auriemma-that-vong-tot-cung-sau-tran-thua-south-carolina-cua-uconn-3cb05781",
+      "title": "Geno Auriemma thất vọng tột cùng sau trận thua South Carolina của UConn",
+      "summary": "HLV Geno Auriemma bày tỏ sự thất vọng và cho biết không còn nhận ra đội bóng UConn sau thất bại 56-65 trước South Carolina tại Basketball Hall of Fame Women's Showcase.",
+      "category": "sports",
+      "source_name": "ESPN - Top News",
+      "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+      "published_at": "2026-11-25T13:07:02+00:00",
+      "fetched_at": "2026-11-25T13:34:53.474301+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "HLV trưởng Geno Auriemma không giấu được sự bất ngờ và thất vọng khi đội bóng rổ nữ UConn để thua South Carolina với tỷ số 56-65 tại sự kiện Basketball Hall of Fame Women's Showcase diễn ra vào tối thứ Ba.",
+        "Chia sẻ sau trận đấu, chiến lược gia kỳ cựu thừa nhận ông đang gặp rất nhiều khó khăn trong việc dẫn dắt đội hình hiện tại và cảm thấy mọi thứ hoàn toàn khác lạ so với tiêu chuẩn quen thuộc trong suốt hơn ba thập kỷ qua của chương trình.",
+        "Trận thua này đẩy UConn xuống thành tích 4-3 từ đầu mùa giải. Đây mới là lần thứ ba trong sự nghiệp huấn luyện lâu năm của Auriemma mà đội bóng khởi đầu với ba trận thua, đồng thời đánh dấu cột mốc lịch sử khi đội bóng lần đầu tiên để thua ba trận ngay trong tháng 11.",
+        "Trong cuộc đối đầu này, đội xếp hạng 7 toàn quốc UConn gặp nhiều khó khăn khi chỉ đạt hiệu suất ném bóng 27%, để mất bóng tới 18 lần và liên tục phạm lỗi do thiếu kỷ luật. Phía South Carolina, dẫu vắng mặt cây ghi điểm chủ lực Joyce Edwards do ốm, đã tận dụng tốt lợi thế để kiểm soát thế trận nhờ màn trình diễn ấn tượng của Tessa Johnson với 32 điểm cá nhân.",
+        "Dù đội bóng vẫn thể hiện tinh thần thi đấu kiên cường ở một số thời điểm và áp đảo về số lần bắt bóng bật bảng, HLV Auriemma vẫn nhấn mạnh rằng sự thiếu ổn định và non kém về kinh nghiệm thi đấu đang là rào cản lớn nhất mà các cầu thủ cần phải tự chấn chỉnh ngay lập tức."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Geno Auriemma chê bai đội hình UConn sau trận thua South Carolina",
+      "meta_description": "HLV Geno Auriemma không giấu được sự thất vọng khi UConn rơi xuống thành tích 4-3 sau trận thua South Carolina 56-65 vào tối thứ Ba.",
+      "keywords": [
+        "Geno Auriemma",
+        "UConn",
+        "South Carolina",
+        "bong ro nu NCAA",
+        "Tessa Johnson"
+      ],
+      "slug": "geno-auriemma-that-vong-tot-cung-sau-tran-thua-south-carolina-cua-uconn-3cb05781",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 295,
+      "display_source": true,
+      "source_urls": [
+        "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+        "https://www.sportingnews.com/us/ncaa-football/news/watch-south-carolina-georgia-channel-stream-time-schedule/f99114c19abec8cdcf07091e"
+      ],
+      "source_links": [
+        "https://www.sportingnews.com/us/ncaa-football/news/watch-south-carolina-georgia-channel-stream-time-schedule/f99114c19abec8cdcf07091e"
+      ],
+      "source_references": [
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:07:02+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/watch-south-carolina-georgia-channel-stream-time-schedule/f99114c19abec8cdcf07091e",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T09:30:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "UConn thua South Carolina với tỷ số 65-56 tại Basketball Hall of Fame Women's Showcase",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina"
+          ],
+          "importance": "core",
+          "evidence_snippet": "--UConnlost by only nine points to top-rankedSouth Carolina, but Huskies coach Geno Auriemma oozed with exasperation and said he was searching for answers following the team's65-56 defeatTuesday evening at the Basketball Hall of Fame Women's Showcase.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "snippet": "--UConnlost by only nine points to top-rankedSouth Carolina, but Huskies coach Geno Auriemma oozed with exasperation and said he was searching for answers following the team's65-56 defeatTuesday evening at the Basketball Hall of Fame Women's Showcase.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "page_sha256": "2080dcd626d0767dd6922dd4562186b5bbfc655d384af391339227db8ba31731",
+              "snippet_sha256": "dec354694e9030ffe55fcea7eef1f43f475938f4758a0e6d0cc883212dc5b384",
+              "verified_at": "2026-11-25T13:34:53.473380+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "HLV Geno Auriemma phát biểu rằng ông gặp khó khăn khi huấn luyện đội bóng và không nhận ra UConn",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Geno Auriemma blasts UConn after loss to South Carolina - ESPNSkip to main contentSkip to navigation",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "snippet": "Geno Auriemma blasts UConn after loss to South Carolina - ESPNSkip to main contentSkip to navigation",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "page_sha256": "2080dcd626d0767dd6922dd4562186b5bbfc655d384af391339227db8ba31731",
+              "snippet_sha256": "a5ee68a3166b8cd5e72b30413ba3ae0d2513b08fc0afdff614051f160f2fb9c9",
+              "verified_at": "2026-11-25T13:34:53.473380+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "UConn rơi xuống thành tích 4-3 và đây là lần đầu tiên trong lịch sử chương trình thua ba trận trong tháng 11",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Added Strong: \"I just don't think we listen to him all the time, and that we don't trust him when we need to.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "snippet": "Added Strong: \"I just don't think we listen to him all the time, and that we don't trust him when we need to.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "page_sha256": "2080dcd626d0767dd6922dd4562186b5bbfc655d384af391339227db8ba31731",
+              "snippet_sha256": "5e1b1217d29b3e1a8fe0b6699e3cb893ffa205f3e045a6fdf0c26157053a4a48",
+              "verified_at": "2026-11-25T13:34:53.473380+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "UConn chỉ đạt tỷ lệ ném bóng 27% và có 18 lần mất bóng trong trận đấu",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "7 Huskies shot just 27% from the field, turned the ball over 18 times and struggled with fouling, which Auriemma attributed to a lack of discipline and an \"unbelievably poor response to adversity all the time.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "snippet": "7 Huskies shot just 27% from the field, turned the ball over 18 times and struggled with fouling, which Auriemma attributed to a lack of discipline and an \"unbelievably poor response to adversity all the time.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "page_sha256": "2080dcd626d0767dd6922dd4562186b5bbfc655d384af391339227db8ba31731",
+              "snippet_sha256": "e71bacb684df9b966acac9a810b9e3edd27f2f26ad9637417718ffe451c4b076",
+              "verified_at": "2026-11-25T13:34:53.473380+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tessa Johnson ghi 32 điểm giúp South Carolina giành chiến thắng dù vắng Joyce Edwards",
+          "source_urls": [
+            "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "South Carolina senior guardTessa Johnsonestablished herself as the most dominant player on the court, finishing with a career-high 32 points.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "snippet": "South Carolina senior guardTessa Johnsonestablished herself as the most dominant player on the court, finishing with a career-high 32 points.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/womens-college-basketball/story/_/id/50590739/geno-auriemma-blasts-uconn-loss-south-carolina",
+              "page_sha256": "2080dcd626d0767dd6922dd4562186b5bbfc655d384af391339227db8ba31731",
+              "snippet_sha256": "794ea769b305b50ad789e870267627851b9b9d23484835976ff2270f8e4a347c",
+              "verified_at": "2026-11-25T13:34:53.473380+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh sa sút bất thường của UConn trong giai đoạn đầu mùa giải tháng 11 và phản ứng khắt khe từ ban huấn luyện. Đồng thời, văn bản đối chiếu số liệu chuyên môn như tỷ lệ ném rổ và số lần mất bóng để phân tích nguyên nhân thất bại.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T13:34:53.474411+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "18",
+        "27",
+        "32",
+        "7"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T13:34:53.475467+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 295,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1341
+        },
+        "independent_domains": [
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tang-gia-nang-luong-mot-sinh-vien-noi-len-noi-lo-4325f10c",
+    "status": "READY",
+    "prepared_at": "2026-11-25T13:34:22.145927+00:00",
+    "expires_at": "2026-11-26T13:34:22.145927+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/darts/news/12040/13615450/gerwyn-price-looking-to-continue-trend-of-grand-slam-victors-tasting-world-darts-championship-glory",
+      "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html"
+    ],
+    "article": {
+      "id": "tang-gia-nang-luong-mot-sinh-vien-noi-len-noi-lo-4325f10c",
+      "title": "Tăng giá năng lượng: Một sinh viên nói lên nỗi lo",
+      "summary": "Giá năng lượng dự kiến sẽ tăng 26% vào tháng 1, khiến nhiều hộ gia đình lo lắng về chi phí",
+      "category": "world",
+      "source_name": "BBC - Business",
+      "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T13:24:29+00:00",
+      "fetched_at": "2026-11-25T13:37:17.778107+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Giá năng lượng dự kiến sẽ tăng 26% vào tháng 1, khiến nhiều hộ gia đình lo lắng về chi phí. Một sinh viên tại Đại học Durham cho biết anh không có lựa chọn nào khác ngoài việc giữ cho hệ thống sưởi trong nhà của mình luôn hoạt động do cách nhiệt kém, và anh không mong muốn giá tăng.",
+        "Tình hình này được cho là do sự tăng giá của khí đốt sau cuộc chiến ở Iran. Chính phủ đã宣 bố một khoản thanh toán một lần là 100 bảng Anh cho các hộ gia đình trong các khu vực A đến D, nhưng điều này có thể không đủ để giúp nhiều người.",
+        "Gerwyn Price, một vận động viên darts, cũng vừa giành được danh hiệu Grand Slam của Darts và hy vọng sẽ tiếp tục xu hướng của các nhà vô địch Grand Slam trong việc giành được danh hiệu vô địch thế giới."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Tăng giá năng lượng: Nỗi lo của sinh viên",
+      "meta_description": "Giá năng lượng tăng 26% vào tháng 1: Một sinh viên nói lên nỗi lo",
+      "keywords": [
+        "tăng giá năng lượng",
+        "sinh viên",
+        "chi phí",
+        "Tăng giá năng lượng",
+        "Thế giới"
+      ],
+      "slug": "tang-gia-nang-luong-mot-sinh-vien-noi-len-noi-lo-4325f10c",
+      "images": [],
+      "content_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/C%C3%A1c_y%E1%BA%BFu_t%E1%BB%91_%E1%BA%A3nh_h%C6%B0%E1%BB%9Fng_t%E1%BB%9Bi_s%E1%BB%B1_ph%C3%A1t_tri%E1%BB%83n_n%C4%83ng_l%C6%B0%E1%BB%A3ng_h%E1%BA%A1t_nh%C3%A2n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam.pdf/page1-960px-C%C3%A1c_y%E1%BA%BFu_t%E1%BB%91_%E1%BA%A3nh_h%C6%B0%E1%BB%9Fng_t%E1%BB%9Bi_s%E1%BB%B1_ph%C3%A1t_tri%E1%BB%83n_n%C4%83ng_l%C6%B0%E1%BB%A3ng_h%E1%BA%A1t_nh%C3%A2n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "content_image_alt": "Tăng giá năng lượng: Một sinh viên nói lên nỗi lo",
+      "content_image_credit": "Nguyen The Gia Hung (CC0)",
+      "content_image_credit_url": "https://commons.wikimedia.org/wiki/File:C%C3%A1c_y%E1%BA%BFu_t%E1%BB%91_%E1%BA%A3nh_h%C6%B0%E1%BB%9Fng_t%E1%BB%9Bi_s%E1%BB%B1_ph%C3%A1t_tri%E1%BB%83n_n%C4%83ng_l%C6%B0%E1%BB%A3ng_h%E1%BA%A1t_nh%C3%A2n_t%E1%BA%A1i_Vi%E1%BB%87t_Nam.pdf",
+      "word_count": 159,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/darts/news/12040/13615450/gerwyn-price-looking-to-continue-trend-of-grand-slam-victors-tasting-world-darts-championship-glory",
+        "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html"
+      ],
+      "source_links": [
+        "https://www.skysports.com/darts/news/12040/13615450/gerwyn-price-looking-to-continue-trend-of-grand-slam-victors-tasting-world-darts-championship-glory",
+        "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html"
+      ],
+      "source_references": [
+        {
+          "name": "BBC - Business",
+          "url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:24:29+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/darts/news/12040/13615450/gerwyn-price-looking-to-continue-trend-of-grand-slam-victors-tasting-world-darts-championship-glory",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T21:43:00+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T06:00:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Giá năng lượng dự kiến sẽ tăng 26% vào tháng 1",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Energy bills will rise by 26% for millions of households in January, the highest rate in nearly four years, after a surge in gas prices sparked by the Iran war.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+              "snippet": "Energy bills will rise by 26% for millions of households in January, the highest rate in nearly four years, after a surge in gas prices sparked by the Iran war.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9e6f2f940da0f642ee370a85cdcd86d8338de0c10e62bff627eeaade7728e2cb",
+              "snippet_sha256": "4a5265efd0bf18e0f3ddbb7048220e9490e6a7e98e0d08f81c2727a55233466c",
+              "verified_at": "2026-11-25T13:37:17.777784+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Một sinh viên tại Đại học Durham cho biết anh không có lựa chọn nào khác ngoài việc giữ cho hệ thống sưởi trong nhà của mình luôn hoạt động do cách nhiệt kém",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Isaac, a student at Durham University, said he had no choice but to keep the heating in his student house on 'constantly' due to poor insulation, and he was not looking forward to the price increase.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+              "snippet": "Isaac, a student at Durham University, said he had no choice but to keep the heating in his student house on 'constantly' due to poor insulation, and he was not looking forward to the price increase.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9e6f2f940da0f642ee370a85cdcd86d8338de0c10e62bff627eeaade7728e2cb",
+              "snippet_sha256": "a3e3dcc5bb16730bab1b5b0e44bdb0cf6a29156608415f05c4f44d63a9a49ce2",
+              "verified_at": "2026-11-25T13:37:17.777784+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chính phủ đã tuyên bố một khoản thanh toán một lần là 100 bảng Anh cho các hộ gia đình trong các khu vực A đến D",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In the Autumn budget, the government announced a one-off payment of £100 for households in council bands A to D, 'half a weekly shop' according to Isaac.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+              "snippet": "In the Autumn budget, the government announced a one-off payment of £100 for households in council bands A to D, 'half a weekly shop' according to Isaac.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "9e6f2f940da0f642ee370a85cdcd86d8338de0c10e62bff627eeaade7728e2cb",
+              "snippet_sha256": "55d3c5a1ff8e94ad906aea2f78928fb95602d742cb30637c8e041d979582dfbc",
+              "verified_at": "2026-11-25T13:37:17.777784+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin về tình hình tăng giá năng lượng và ảnh hưởng của nó đến các hộ gia đình. Đồng thời, nó cũng đề cập đến một số thông tin khác về vận động viên darts Gerwyn Price. Tuy nhiên, cần lưu ý rằng thông tin về Gerwyn Price không liên quan trực tiếp đến chủ đề tăng giá năng lượng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T13:37:17.778181+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "26"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T13:37:17.778934+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 159,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 721
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "skysports.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto",
+      "content_image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
   }
 ]
