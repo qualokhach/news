@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "8a5336d6768a0c4ac398",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T04:38:26.536054+00:00",
     "expires_at": "2026-11-28T04:36:31.300252+00:00",
     "category_hint": "technology",
@@ -822,11 +822,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T04:38:26.536074+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "thi-truong-tai-nghe-soi-ong-voi-loat-uu-ai-giam-gia-sau-trong-mua-mua-sa-77b74b70"
   },
   {
     "queue_id": "d22a07b7faa4a7db479e",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T04:38:23.423813+00:00",
     "expires_at": "2026-11-28T04:36:31.300252+00:00",
     "category_hint": "world",
@@ -1445,11 +1446,12 @@
       ]
     },
     "research_ready_at": "2026-11-25T04:38:23.423834+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "california-ieu-tra-nvidia-ve-nghi-van-xuat-khau-chip-sang-trung-quoc-e438bf7b"
   },
   {
     "queue_id": "b76c1615cf9da801c0c0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-25T04:38:21.439795+00:00",
     "expires_at": "2026-11-28T04:36:31.300252+00:00",
     "category_hint": "world",
@@ -2053,7 +2055,8 @@
       ]
     },
     "research_ready_at": "2026-11-25T04:38:21.439817+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "kilmar-abrego-garcia-roi-my-sang-tay-ban-nha-khep-lai-cuoc-chien-phap-ly-d0382464"
   },
   {
     "queue_id": "cb279de1445e418fb6e8",
@@ -92771,6 +92774,655 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "thi-truong-tai-nghe-soi-ong-voi-loat-uu-ai-giam-gia-sau-trong-mua-mua-sa-77b74b70",
+    "status": "READY",
+    "prepared_at": "2026-11-25T04:38:52.723613+00:00",
+    "expires_at": "2026-11-26T04:38:52.723613+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+      "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse"
+    ],
+    "article": {
+      "id": "thi-truong-tai-nghe-soi-ong-voi-loat-uu-ai-giam-gia-sau-trong-mua-mua-sa-77b74b70",
+      "title": "Thị trường tai nghe sôi động với loạt ưu đãi giảm giá sâu trong mùa mua sắm Black Friday 2026",
+      "summary": "Mùa mua sắm Black Friday 2026 ghi nhận nhiều dòng tai nghe và thiết bị âm thanh từ các thương hiệu lớn giảm giá sâu, đồng thời công nghệ mua sắm tích hợp AI cũng bắt đầu tham gia hỗ trợ người tiêu dùng.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+      "published_at": "2026-11-24T22:22:20+00:00",
+      "fetched_at": "2026-11-25T04:39:06.069245+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường thiết bị âm thanh bước vào giai đoạn nhộn nhịp khi các thương hiệu lớn đã hoàn tất việc ra mắt các dòng sản phẩm mới cho cả năm. Nhiều mẫu tai nghe không dây và chụp tai từ các tên tuổi quen thuộc đang ghi nhận mức giá ưu đãi hấp dẫn trong dịp mua sắm lớn nhất năm.",
+        "Theo đánh giá từ các chuyên trang công nghệ, các sản phẩm từ những thương hiệu như Sony, Bose hay Apple thu hút sự chú ý nhờ mức giảm đáng kể so với giá gốc. Người dùng có nhiều lựa chọn từ các dòng tai nghe chống ồn chủ động cao cấp cho đến các mẫu thiết bị phục vụ nhu cầu thể thao hoặc giải trí cơ bản.",
+        "Bên cạnh các chương trình giảm giá trực tiếp từ nhà sản xuất, bức tranh mua sắm mùa lễ hội năm nay còn ghi nhận sự xuất hiện của các giải pháp công nghệ mới. Một số nhà bán lẻ lớn đã bắt đầu tích hợp các tính năng trợ lý trí tuệ nhân tạo, cho phép người tiêu dùng tìm kiếm thông tin sản phẩm và so sánh giá thông qua các nền tảng trợ lý số.",
+        "Sự kết hợp giữa các đợt giảm giá phần cứng quy mô lớn và công cụ hỗ trợ mua sắm tự động mang lại nhiều kênh tiếp cận hơn cho khách hàng. Dù vậy, người mua vẫn cần cân nhắc kỹ nhu cầu thực tế và mức ngân sách trước khi quyết định chốt đơn các thiết bị âm thanh trong đợt ưu đãi."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ưu đãi tai nghe Black Friday 2026 và xu hướng mua sắm tích hợp AI",
+      "meta_description": "Cập nhật các chương trình giảm giá tai nghe nổi bật trong dịp Black Friday 2026 cùng xu hướng ứng dụng trợ lý AI vào trải nghiệm mua sắm.",
+      "keywords": [
+        "Black Friday 2026",
+        "tai nghe giảm giá",
+        "Wired",
+        "Walmart",
+        "Meta Muse"
+      ],
+      "slug": "thi-truong-tai-nghe-soi-ong-voi-loat-uu-ai-giam-gia-sau-trong-mua-mua-sa-77b74b70",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 273,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+        "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T22:22:20+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T21:32:38+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các thương hiệu đã hoàn tất việc ra mắt mẫu mới và xuất hiện nhiều ưu đãi Black Friday cho cả tai nghe mới lẫn cũ.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26"
+          ],
+          "importance": "core",
+          "evidence_snippet": "TheNothing Headphone (1)are a home run in looks and sound, and they are at their lowest price ever ahead of Black Friday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "snippet": "TheNothing Headphone (1)are a home run in looks and sound, and they are at their lowest price ever ahead of Black Friday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "page_sha256": "7ccc875650934853e5c0e4b5b7b511cca8da95c0d1fd5e16762dd50e5ada8082",
+              "snippet_sha256": "95ed14233112974ecbaba26111d4e1412c218bac7cafcc9652f5ec3135945d98",
+              "verified_at": "2026-11-25T04:39:06.068392+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Walmart hợp tác với Meta để mang các ưu đãi Black Friday lên trợ lý AI Muse, cho phép người dùng tìm kiếm sản phẩm và tạo giỏ hàng.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "This is the first time they are on sale, and at $200, are one of the best deals this Black Friday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "snippet": "This is the first time they are on sale, and at $200, are one of the best deals this Black Friday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "page_sha256": "7ccc875650934853e5c0e4b5b7b511cca8da95c0d1fd5e16762dd50e5ada8082",
+              "snippet_sha256": "2f2bc54f917b6f572818e497ceafbf536595934c0f914e6ac1280070df4a04ff",
+              "verified_at": "2026-11-25T04:39:06.068392+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhiều dòng tai nghe từ Sony, Bose, Apple và các hãng khác ghi nhận mức giảm giá sâu trong dịp mua sắm này.",
+          "source_urls": [
+            "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Updated November 24: I added new products on sale from Bose, Samsung, Sony, and Soundcore.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "snippet": "Updated November 24: I added new products on sale from Bose, Samsung, Sony, and Soundcore.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26",
+              "page_sha256": "7ccc875650934853e5c0e4b5b7b511cca8da95c0d1fd5e16762dd50e5ada8082",
+              "snippet_sha256": "bdbacc7ba9fbbaa7385cb57629664185b0e221a2e84aa07969eabe7d971b3241",
+              "verified_at": "2026-11-25T04:39:06.068392+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp diễn biến thị trường thiết bị âm thanh dịp Black Friday 2026 dựa trên dữ liệu từ các nguồn chuyên ngành. Nội dung làm rõ các mức ưu đãi đáng chú ý của từng dòng sản phẩm và đặt trong bối cảnh ứng dụng công nghệ mua sắm qua trợ lý AI.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T04:39:06.069343+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-25T04:39:06.070714+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 273,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1198
+        },
+        "independent_domains": [
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "california-ieu-tra-nvidia-ve-nghi-van-xuat-khau-chip-sang-trung-quoc-e438bf7b",
+    "status": "READY",
+    "prepared_at": "2026-11-25T04:38:52.723613+00:00",
+    "expires_at": "2026-11-26T04:38:52.723613+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+      "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+      "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "california-ieu-tra-nvidia-ve-nghi-van-xuat-khau-chip-sang-trung-quoc-e438bf7b",
+      "title": "California điều tra Nvidia về nghi vấn xuất khẩu chip sang Trung Quốc",
+      "summary": "Tổng chưởng lý bang California đã ban hành trát điều tra đối với Nvidia nhằm làm rõ việc các dòng chip bán dẫn tiên tiến có bị chuyển hướng sang Trung Quốc hay không, đồng thời xem xét khả năng công ty đã che giấu rủi ro với nhà đầu tư.",
+      "category": "technology",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+      "published_at": "2026-11-20T09:18:30+00:00",
+      "fetched_at": "2026-11-25T04:39:12.341144+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cơ quan tư pháp bang California vừa tiến hành động thái pháp lý mạnh mẽ đối với Nvidia bằng việc ban hành trát điều tra chính thức. Trát đòi hầu tòa và cung cấp tài liệu này nhằm làm rõ liệu các dòng chip bán dẫn cao cấp của hãng có bị chuyển hướng sang Trung Quốc hay không, bất chấp các lệnh cấm vận và quy định hạn chế xuất khẩu của Mỹ.",
+        "Cuộc điều tra diễn ra trong bối cảnh Nvidia đang đối mặt với nhiều xáo trộn nội bộ nghiêm trọng sau sự ra đi của cựu giám đốc điều hành kiêm đồng sáng lập Jensen Huang. Ông Huang đã từ chức sau khi thừa nhận có mối quan hệ tình cảm ngoài luồng với Alice Huang, một cá nhân bị nghi ngờ là gián điệp Trung Quốc từng làm việc tại công ty Megaspeed có trụ sở ở Singapore. Megaspeed trước đó từng mua lượng lớn phần cứng và chip của Nvidia trị giá gần 5 tỷ USD.",
+        "Phát biểu về quyết định trên, Tổng chưởng lý bang California Rob Bonta nhấn mạnh rằng những diễn biến gần đây tại Nvidia đã làm dấy lên nhiều nghi vấn lớn về việc công ty có thể đã che giấu thông tin hoặc cung cấp dữ liệu không chính xác cho các nhà đầu tư. Cơ quan chức năng sẽ tập trung xem xét liệu các hành động của cựu lãnh đạo Nvidia có khiến thông tin mật hoặc các bộ vi xử lý tiên tiến rơi vào tay Trung Quốc hay không.",
+        "Bên cạnh áp lực từ phía cơ quan quản lý bang, Nvidia cũng đang chịu ảnh hưởng nặng nề trên thị trường tài chính khi giá cổ phiếu sụt giảm đáng kể trong thời gian gần đây. Hội đồng quản trị của hãng công nghệ này cũng khẳng định chưa có ý định tái bổ nhiệm ông Jensen Huang vào vị trí lãnh đạo, dẫu cho một số nhân vật nổi bật trong ngành công nghệ từng lên tiếng kêu gọi đưa ông trở lại vị trí cũ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "California điều tra Nvidia liên quan đến nghi vấn chip xuất khẩu sang ",
+      "meta_description": "Bang California tiến hành điều tra Nvidia sau bê bối cựu CEO Jensen Huang từ chức, làm rõ nghi vấn chip bán dẫn cao cấp bị chuyển đến Trung Quốc trái quy định.",
+      "keywords": [
+        "Nvidia",
+        "California",
+        "Jensen Huang",
+        "chip Trung Quốc",
+        "Rob Bonta"
+      ],
+      "slug": "california-ieu-tra-nvidia-ve-nghi-van-xuat-khau-chip-sang-trung-quoc-e438bf7b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 353,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+        "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+        "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+        "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-20T09:18:30+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T23:21:23+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-19T23:04:30+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "California đã ban hành trát điều tra đối với Nvidia để làm rõ việc chip tiên tiến có bị chuyển sang Trung Quốc hay không.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "California Attorney General Rob Bonta has issued an investigative subpoena to Nvidia as part of a probe of whether the company's advanced semiconductor chips ended up in China in contravention of U.S.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "snippet": "California Attorney General Rob Bonta has issued an investigative subpoena to Nvidia as part of a probe of whether the company's advanced semiconductor chips ended up in China in contravention of U.S.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "page_sha256": "1b45da2b6659fb1275c82cf9d41dc7973ca1c5acbcac8cb0161ba856c3e0b6bd",
+              "snippet_sha256": "d8580875f82aa2c133233cf779429057fb31b11e5ba70634884fd71e64b39e8d",
+              "verified_at": "2026-11-25T04:39:12.340499+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tổng chưởng lý bang California Rob Bonta cho biết hành vi của Nvidia và cựu CEO gây lo ngại về việc công ty có thể đã làm sai lệch thông tin với nhà đầu tư.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Nvidia gets subpoena from California AG in China chip probeSkip Navigation",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "snippet": "Nvidia gets subpoena from California AG in China chip probeSkip Navigation",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "page_sha256": "1b45da2b6659fb1275c82cf9d41dc7973ca1c5acbcac8cb0161ba856c3e0b6bd",
+              "snippet_sha256": "5926eb4a543945becfb2c1fae3085efd07c73729146708fe388d23929040ae7b",
+              "verified_at": "2026-11-25T04:39:12.340499+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Jensen Huang đã từ chức CEO Nvidia sau khi lộ thông tin về mối quan hệ với Alice Huang, một cá nhân liên quan đến công ty Megaspeed ở Singapore chuyên mua chip Nvidia.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The probe comes a week after former Nvidia CEO Jensen Huang resigned after allegations he had an affair with a suspected Chinese spy who worked for Megaspeed, a Singapore-based company that is being investigation for potentially diverting restricted Nvidia chips to China.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "snippet": "The probe comes a week after former Nvidia CEO Jensen Huang resigned after allegations he had an affair with a suspected Chinese spy who worked for Megaspeed, a Singapore-based company that is being investigation for potentially diverting restricted Nvidia chips to China.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+              "page_sha256": "1b45da2b6659fb1275c82cf9d41dc7973ca1c5acbcac8cb0161ba856c3e0b6bd",
+              "snippet_sha256": "8a80e0df87dccde2abf34ded90b3a59884e40a5a04423e683474a74022bf7e9a",
+              "verified_at": "2026-11-25T04:39:12.340499+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Nvidia Harvey Jones cho biết công ty không có ý định tái bổ nhiệm Jensen Huang.",
+          "source_urls": [
+            "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Earlier this week, Harvey Jones, Nvidia’s chair, said the company hadno intention of reinstating Huangafter the former CEO said he would be “honoured” to return.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+              "snippet": "Earlier this week, Harvey Jones, Nvidia’s chair, said the company hadno intention of reinstating Huangafter the former CEO said he would be “honoured” to return.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+              "page_sha256": "6443ad195a28267cd09d27e716da9a71ea01d5f9465a1472c11c6bcdbe17759f",
+              "snippet_sha256": "b67e3480be47b395841d65353daa047da3f337367df8116b23e3510e116bd130",
+              "verified_at": "2026-11-25T04:39:12.340499+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh pháp lý và các cáo buộc xoay quanh trát điều tra của bang California đối với Nvidia. Đồng thời, bài phân tích liên kết sự kiện này với những biến động thượng tầng tại hãng chip và hệ lụy đối với nhà đầu tư.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T04:39:12.341265+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T04:39:12.342603+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 353,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1619
+        },
+        "independent_domains": [
+          "bbc.com",
+          "cnbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "kilmar-abrego-garcia-roi-my-sang-tay-ban-nha-khep-lai-cuoc-chien-phap-ly-d0382464",
+    "status": "READY",
+    "prepared_at": "2026-11-25T04:38:52.723613+00:00",
+    "expires_at": "2026-11-26T04:38:52.723613+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+      "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss"
+    ],
+    "article": {
+      "id": "kilmar-abrego-garcia-roi-my-sang-tay-ban-nha-khep-lai-cuoc-chien-phap-ly-d0382464",
+      "title": "Kilmar Ábrego García rời Mỹ sang Tây Ban Nha, khép lại cuộc chiến pháp lý về trục xuất",
+      "summary": "Kilmar Ábrego García, nhân vật trung tâm trong cuộc tranh cãi về chính sách nhập cư của chính quyền Tổng thống Donald Trump, đã tự nguyện rời Mỹ để đến Tây Ban Nha, chính thức khép lại nhiều tháng tranh chấp pháp lý phức tạp.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T03:54:43+00:00",
+      "fetched_at": "2026-11-25T04:39:28.637384+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Kilmar Ábrego García, người từng trở thành tâm điểm trong các cuộc tranh luận về chương trình nghị sự nhập cư của chính quyền Tổng thống Donald Trump, đã rời khỏi Hoa Kỳ để đến Tây Ban Nha. Việc di chuyển này diễn ra theo hình thức tự nguyện sau một thỏa thuận đạt được với các cơ quan liên bang nhằm tránh bị trục xuất cưỡng bức.",
+        "Sự việc đánh dấu hồi kết cho chuỗi diễn biến pháp lý kéo dài từ tháng 3 năm 2025, thời điểm Ábrego García bị trục xuất nhầm sang El Salvador và phải giam giữ tại nhà tù nghiêm ngặt Cecot. Sau phán quyết của Tòa án Tối cao và áp lực dư luận, chính phủ Mỹ đã đưa anh trở lại nước này, dù sau đó tiếp tục đối mặt với các cáo buộc hình sự và kế hoạch đưa anh đến một số quốc gia châu Á hoặc châu Phi.",
+        "Trong suốt quá trình này, các luật sư và nhà lập pháp đã liên tục phản đối những nỗ lực trục xuất của Bộ An ninh Nội địa. Thượng nghị sĩ bang Maryland Chris Van Hollen, người từng trực tiếp đến thăm Ábrego García tại nhà tù ở El Salvador, xác nhận anh hiện đã tự do đi đến quốc gia tự chọn mà không bị tổn hại.",
+        "Ábrego García nhập cư bất hợp pháp vào Mỹ từ khi còn là thiếu niên và sinh sống tại Maryland cùng vợ con mang quốc tịch Mỹ. Năm 2019, một thẩm phán di trú từng ban hành lệnh bảo vệ anh khỏi việc bị trục xuất về El Salvador do nguy cơ bị băng đảng trả thù, cho phép anh sinh sống dưới sự giám sát của lực lượng quản lý di trú trước khi chuỗi sự kiện tranh chấp bùng nổ."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Kilmar Ábrego García rời Mỹ sang Tây Ban Nha khép lại tranh chấp trục ",
+      "meta_description": "Kilmar Ábrego García tự nguyện rời Mỹ sang Tây Ban Nha, chấm dứt cuộc chiến pháp lý kéo dài liên quan đến chính sách nhập cư của chính quyền Trump.",
+      "keywords": [
+        "Kilmar Ábrego García",
+        "trục xuất",
+        "Tây Ban Nha",
+        "Mỹ",
+        "chính sách nhập cư",
+        "Donald Trump"
+      ],
+      "slug": "kilmar-abrego-garcia-roi-my-sang-tay-ban-nha-khep-lai-cuoc-chien-phap-ly-d0382464",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 309,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+        "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+        "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T03:54:43+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T23:50:31+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T02:40:59+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Kilmar Ábrego García rời Mỹ sang Tây Ban Nha sau thỏa thuận với nhà chức trách liên bang.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Kilmar Ábrego García has left the United States of his own volition, his lawyers confirmed on Tuesday, with the Department of Homeland Security confirming that he was travelling to Spain.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+              "snippet": "Kilmar Ábrego García has left the United States of his own volition, his lawyers confirmed on Tuesday, with the Department of Homeland Security confirming that he was travelling to Spain.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+              "page_sha256": "268ae0f4b25a98512f2b35d1244e05ff46c00f39916b19ac027d881759e0210c",
+              "snippet_sha256": "db6f88ecf0bd7b3b9bb6d8ff3aac7aa87b9fdff79e420e15948fecd8100e6b14",
+              "verified_at": "2026-11-25T04:39:28.636878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Anh từng bị trục xuất sang El Salvador vào tháng 3 năm 2025 và được đưa trở lại Mỹ sau phán quyết của Tòa án Tối cao.",
+          "source_urls": [
+            "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us"
+          ],
+          "importance": "core",
+          "evidence_snippet": "He was arrested in Baltimore in March 2025 and deported to a Salvadorian prison in what an official later called an “administrative error”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+              "snippet": "He was arrested in Baltimore in March 2025 and deported to a Salvadorian prison in what an official later called an “administrative error”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+              "page_sha256": "268ae0f4b25a98512f2b35d1244e05ff46c00f39916b19ac027d881759e0210c",
+              "snippet_sha256": "211e6527af8efbcb390740cd310152ad8c74a84a253edb30d6b5602a9e071d3b",
+              "verified_at": "2026-11-25T04:39:28.636878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thượng nghị sĩ Chris Van Hollen xác nhận Ábrego García đã đến quốc gia tự chọn với tư cách là một người tự do.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Senator Chris Van Hollen, a Democrat from Maryland, visited Ábrego García while he was in the notorious Cecot prison in El Salvador in 2025 and advocated for his release.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Senator Chris Van Hollen, a Democrat from Maryland, visited Ábrego García while he was in the notorious Cecot prison in El Salvador in 2025 and advocated for his release.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "74dc4403d662c35bd9aaa27af394a96b7076931145a503fe1a4717667fce2a72",
+              "snippet_sha256": "b6e7212baa50a8771ae18071562f4cbc8bf97a8eb539e06571f508608d9a4332",
+              "verified_at": "2026-11-25T04:39:28.636878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ toàn bộ chuỗi diễn biến pháp lý từ sự cố trục xuất nhầm đến các thỏa thuận tự nguyện rời đi của nhân vật. Đồng thời, ngữ cảnh về các phán quyết của tòa án và phản ứng từ giới lập pháp Mỹ được xâu chuỗi nhằm cung cấp bức tranh toàn diện cho độc giả.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-25T04:39:28.637494+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2019",
+        "2025"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-25T04:39:28.638696+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 309,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1404
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
