@@ -2120,7 +2120,7 @@
   },
   {
     "queue_id": "e19735090565cab5dbfb",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T18:41:22.085015+00:00",
     "expires_at": "2026-11-29T18:39:54.497380+00:00",
     "category_hint": "world",
@@ -2889,7 +2889,8 @@
       ]
     },
     "research_ready_at": "2026-11-26T18:41:22.085038+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "hai-cong-dan-italy-tu-vong-trong-vu-tap-kich-uav-tai-kuwait-e0388962"
   },
   {
     "queue_id": "cac-cuoc-khong-kich-cua-israel-tai-dai-gaza-khien-nhieu-nguoi-thiet-mang-42c05d59",
@@ -92743,7 +92744,7 @@
   },
   {
     "queue_id": "google-yeu-cau-lap-trinh-vien-android-cong-khai-ia-chi-e-tuan-thu-quy-in-6f4fd08b",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-26T18:42:02.887822+00:00",
     "expires_at": "2026-11-27T18:42:02.887822+00:00",
     "source_urls": [
@@ -92760,7 +92761,7 @@
       "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
       "published_at": "2026-11-26T18:19:32+00:00",
       "fetched_at": "2026-11-26T18:42:15.613504+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-26T19:18:29.658456+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -92961,28 +92962,38 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-26T18:42:15.614748+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-26T19:18:29.658456+00:00",
         "stats": {
           "paragraphs": 5,
           "words": 436,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1949
-        },
-        "independent_domains": [
-          "engadget.com",
-          "skysports.com",
-          "theverge.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1949,
+          "source_access": [
+            {
+              "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "engadget.com",
+            "skysports.com",
+            "theverge.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-27 02:18"
+    },
+    "published_at": "2026-11-26T19:18:29.658456+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "george-russell-ha-nhiet-mau-thuan-voi-max-verstappen-fda64351",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-26T18:42:02.887822+00:00",
     "expires_at": "2026-11-27T18:42:02.887822+00:00",
     "source_urls": [
@@ -92999,7 +93010,7 @@
       "source_url": "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
       "published_at": "2026-11-26T18:32:25+00:00",
       "fetched_at": "2026-11-26T18:42:25.319611+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-26T19:18:29.658456+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -93176,28 +93187,43 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-26T18:42:25.320587+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-26T19:18:29.658456+00:00",
         "stats": {
           "paragraphs": 6,
           "words": 349,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1652
-        },
-        "independent_domains": [
-          "bbc.com",
-          "skysports.com",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1652,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            },
+            {
+              "url": "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "skysports.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-27 02:18"
+    },
+    "published_at": "2026-11-26T19:18:29.658456+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "toa-an-toi-cao-puerto-rico-mo-uong-cho-viec-thay-the-nha-van-hanh-luoi-i-272f89d9",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-26T18:42:02.887822+00:00",
     "expires_at": "2026-11-27T18:42:02.887822+00:00",
     "source_urls": [
@@ -93213,7 +93239,7 @@
       "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
       "published_at": "2026-11-26T09:44:20+00:00",
       "fetched_at": "2026-11-26T18:42:31.764266+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-26T19:18:29.658456+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -93372,22 +93398,260 @@
         "5"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-26T18:42:31.765150+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-26T19:18:29.658456+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 312,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1434
-        },
-        "independent_domains": [
-          "npr.org",
-          "theguardian.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1434,
+          "source_access": [
+            {
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "npr.org",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-27 02:18"
+    },
+    "published_at": "2026-11-26T19:18:29.658456+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "hai-cong-dan-italy-tu-vong-trong-vu-tap-kich-uav-tai-kuwait-e0388962",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-26T19:18:22.184350+00:00",
+    "expires_at": "2026-11-27T19:18:22.184350+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+      "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack"
+    ],
+    "article": {
+      "id": "hai-cong-dan-italy-tu-vong-trong-vu-tap-kich-uav-tai-kuwait-e0388962",
+      "title": "Hai công dân Italy tử vong trong vụ tập kích UAV tại Kuwait",
+      "summary": "Hai kỹ thuật viên người Italy làm việc cho tập đoàn quốc phòng Đức Rheinmetall đã thiệt mạng tại Kuwait do mảnh vỡ từ các máy bay không người lái bị đánh chặn. Kuwait và Italy cáo buộc Iran đứng sau vụ việc, trong khi Tehran bác bỏ.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T17:54:22+00:00",
+      "fetched_at": "2026-11-26T19:18:27.695139+00:00",
+      "appnho_published_at": "2026-11-26T19:18:29.658456+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hai công dân Italy đã thiệt mạng tại Kuwait sau khi bị trúng mảnh vỡ trong một cuộc tấn công bằng máy bay không người lái nhằm vào một cơ sở trọng yếu ở quốc gia này. Bộ Ngoại giao Italy xác định hai nạn nhân là kỹ thuật viên làm việc cho công ty quốc phòng Đức Rheinmetall, thực hiện nhiệm vụ bảo dưỡng hệ thống tại một trạm phát hiện phòng không thuộc Các lực lượng vũ trang Kuwait.",
+        "Bộ Quốc phòng Kuwait cho biết sự cố xảy ra khi các lực lượng nước này phát hiện và đánh chặn một số thiết bị bay không người lái. Ngoài hai nạn nhân người Italy tử vong do vết thương quá nặng, vụ việc còn khiến hai người khác là công dân Kuwait và Pakistan bị thương do mảnh vỡ rơi xuống, đồng thời gây ra một số thiệt hại về vật chất.",
+        "Giới chức Kuwait và Italy đã lên tiếng quy trách nhiệm cho Iran về vụ tập kích. Trong khi đó, phía Iran đã bác bỏ mọi liên quan. Người phát ngôn lực lượng vũ trang nước này, ông Abolfazl Shekarchi, khẳng định không có hoạt động quân sự hay tấn công nào được thực hiện bởi lực lượng quân đội nước này, đồng thời đưa ra những chỉ trích nhắm vào các hành động trước đó trong khu vực.",
+        "Vụ việc xảy ra trong bối cảnh khu vực Vùng Vịnh đang đối mặt với nhiều căng thẳng và các cuộc giao tranh kể từ khi xung đột bùng nổ vào cuối tháng 2. Nhiều bên quốc tế đã lên tiếng bày tỏ sự chia buồn sâu sắc trước cái chết của hai kỹ thuật viên Italy, đồng thời cảnh báo về nguy cơ leo thang an ninh tại khu vực trọng điểm này."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hai kỹ thuật viên Italy thiệt mạng trong vụ tấn công UAV tại Kuwait",
+      "meta_description": "Vụ tập kích máy bay không người lái tại Kuwait khiến hai kỹ thuật viên người Italy tử vong, làm gia tăng căng thẳng tại khu vực Vùng Vịnh.",
+      "keywords": [
+        "Kuwait",
+        "Italy",
+        "Iran",
+        "Rheinmetall",
+        "tấn công UAV"
+      ],
+      "slug": "hai-cong-dan-italy-tu-vong-trong-vu-tap-kich-uav-tai-kuwait-e0388962",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 307,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+        "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+        "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T17:54:22+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T16:32:31+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T13:19:28+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hai công dân Italy là kỹ thuật viên của Rheinmetall đã tử vong tại Kuwait do ảnh hưởng từ cuộc tấn công UAV.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Italy’s Ministry of Foreign Affairs and International Cooperation confirmed its citizens’ deaths, saying, “an explosion caused by a drone attack … occurred at a site where two Italian technicians from the company Rheinmetall Italia were working,” with Foreign Minister Antonio Tajani confirming the victims were technicians working at an air-defence surveillance station.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+              "snippet": "Italy’s Ministry of Foreign Affairs and International Cooperation confirmed its citizens’ deaths, saying, “an explosion caused by a drone attack … occurred at a site where two Italian technicians from the company Rheinmetall Italia were working,” with Foreign Minister Antonio Tajani confirming the victims were technicians working at an air-defence surveillance station.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+              "page_sha256": "e58dc28299cee0cb4cefb6eb7383374d95742d9f8d377a6c46ab9d67a682a60e",
+              "snippet_sha256": "629d3ea1d09f221aa9a1dd7917f01e27e28463c1d598bf8b14978a644f2d88c7",
+              "verified_at": "2026-11-26T19:18:27.694703+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Bộ Quốc phòng Kuwait xác định bốn người bị thương do mảnh vỡ rơi xuống sau khi đánh chặn UAV, gồm hai người Italy, một người Kuwait và một người Pakistan.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The two Italian nationals were working at an air defence detection station and performing maintenance work on systems used by the Kuwaiti Armed Forces, according to Italian press agency Ansa, citing Italy's foreign ministry.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+              "snippet": "The two Italian nationals were working at an air defence detection station and performing maintenance work on systems used by the Kuwaiti Armed Forces, according to Italian press agency Ansa, citing Italy's foreign ministry.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "f751d9664b062ea68b5011f5e2f3e50d698950d35aa459ef5bad2a5098f76949",
+              "snippet_sha256": "1d0b35af290831e0af8d434f58dda32d3be88aebb5a3fe13dad49fb9b3e61e63",
+              "verified_at": "2026-11-26T19:18:27.694703+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Iran bác bỏ trách nhiệm liên quan đến vụ tấn công thông qua phát biểu của người phát ngôn quân đội Abolfazl Shekarchi.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Iran has denied responsibility for the attack, with armed forces spokesperson Abolfazl Shekarchi saying \"no military or offensive operations have been conducted\" by its military.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Iran has denied responsibility for the attack, with armed forces spokesperson Abolfazl Shekarchi saying \"no military or offensive operations have been conducted\" by its military.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "f751d9664b062ea68b5011f5e2f3e50d698950d35aa459ef5bad2a5098f76949",
+              "snippet_sha256": "05fbf20df3b0c1a38e416f5b09268c22cf710e88e4b3175a106bf49c3eefaf8c",
+              "verified_at": "2026-11-26T19:18:27.694703+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết về thân phận nạn nhân và bối cảnh sự việc tại cơ sở phòng không Kuwait dựa trên đối chiếu từ các nguồn tin quốc tế. Đồng thời, văn bản tổng hợp phản ứng ngoại giao từ các bên liên quan mà không đưa ra dự báo hay suy diễn chủ quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T19:18:27.695214+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-26T19:18:29.658456+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 307,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1427,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "bbc.com",
+            "euronews.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-27 02:18"
+    },
+    "published_at": "2026-11-26T19:18:29.658456+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
