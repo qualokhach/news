@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "2104f3c58dbf8963919d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T03:49:23.391563+00:00",
     "expires_at": "2026-11-29T03:47:11.427980+00:00",
     "category_hint": "sports",
@@ -785,11 +785,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T03:49:23.391580+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "phan-ung-trai-chieu-quanh-man-bieu-dien-giua-tran-cua-u2-trong-tran-au-e-17be5de3"
   },
   {
     "queue_id": "f6bb29677ae027c1d9f8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T03:49:22.875347+00:00",
     "expires_at": "2026-11-29T03:47:11.427980+00:00",
     "category_hint": "vietnam",
@@ -3762,11 +3763,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T03:49:22.875369+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "mitsubishi-outlander-the-he-moi-chot-lich-ra-mat-tai-viet-nam-vao-thang--54aec05d"
   },
   {
     "queue_id": "db148e67fb28392bc613",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T03:49:06.538491+00:00",
     "expires_at": "2026-11-29T03:47:11.427980+00:00",
     "category_hint": "vietnam",
@@ -4462,7 +4464,8 @@
       ]
     },
     "research_ready_at": "2026-11-26T03:49:06.538514+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "xac-inh-18-oi-bong-gianh-quyen-i-tiep-o-u17-world-cup-2026-8da2d252"
   },
   {
     "queue_id": "7bf0dc029fb06808529e",
@@ -93844,5 +93847,693 @@
     },
     "published_at": "2026-11-24T06:24:42.380673+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "phan-ung-trai-chieu-quanh-man-bieu-dien-giua-tran-cua-u2-trong-tran-au-e-17be5de3",
+    "status": "READY",
+    "prepared_at": "2026-11-26T03:49:44.917112+00:00",
+    "expires_at": "2026-11-27T03:49:44.917112+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+      "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+      "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming"
+    ],
+    "article": {
+      "id": "phan-ung-trai-chieu-quanh-man-bieu-dien-giua-tran-cua-u2-trong-tran-au-e-17be5de3",
+      "title": "Phản ứng trái chiều quanh màn biểu diễn giữa trận của U2 trong trận đấu đêm trước Lễ Tạ ơn của NFL",
+      "summary": "Ban nhạc rock huyền thoại U2 đã có màn biểu diễn giải trí giữa trận trong trận đấu đêm trước Lễ Tạ ơn đầu tiên của NFL giữa Green Bay Packers và Los Angeles Rams tại Sân vận động SoFi, thu hút nhiều ý kiến khen chê khác nhau từ người hâm mộ.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+      "published_at": "2026-11-26T03:16:00+00:00",
+      "fetched_at": "2026-11-26T03:49:50.546551+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu đêm trước Lễ Tạ ơn đầu tiên trong lịch sử NFL giữa Green Bay Packers và Los Angeles Rams tại Sân vận động SoFi không chỉ thu hút sự chú ý bởi cục diện trên sân mà còn bởi sự xuất hiện của ban nhạc rock huyền thoại U2 trong phần giải trí giữa trận. Ban tổ chức đã kéo dài thời gian nghỉ giữa hai hiệp thêm sáu phút so với thông thường để phục vụ cho màn trình diễn đặc biệt này.",
+        "Trong thời lượng ngắn ngủi trên sân, ban nhạc đã mở màn với ca khúc \"Sunday Bloody Sunday\", tiếp tục mang đến các nhạc phẩm như \"Pride (In the Name of Love)\" với sự góp mặt của nhóm khách mời The Womack Sisters. Họ cũng biểu diễn bài hát \"Torn\" hợp tác cùng cố nghệ sĩ Dolly Parton, kèm theo đoạn ghi âm phần thể hiện của bà để tưởng nhớ nữ danh ca.",
+        "Màn trình diễn nhanh chóng vấp phải những luồng ý kiến trái chiều trên các nền tảng mạng xã hội. Một bộ phận khán giả bày tỏ sự thích thú, ca ngợi đây là một trong những màn giải trí giữa trận hấp dẫn nhất của mùa giải thông thường và đánh giá cao bầu không khí do ban nhạc mang lại tại sân vận động.",
+        "Ngược lại, một số người xem khác lại tỏ ra hoài nghi về sự cần thiết của một buổi hòa nhạc quy mô lớn trong một trận đấu mùa giải thông thường diễn ra vào tối thứ Tư, hoặc phàn nàn rằng chương trình có phần tẻ nhạt. Khi chương trình khép lại vào lúc 10 giờ tối, một số ca khúc quen thuộc như \"Beautiful Day\" hay \"With or Without You\" đã không xuất hiện trong danh sách biểu diễn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Phản ứng về màn trình diễn giữa trận của U2 tại NFL Thanksgiving Eve",
+      "meta_description": "Khám phá các đánh giá tốt và xấu về màn biểu diễn giữa trận của ban nhạc U2 trong trận đấu đêm trước Lễ Tạ ơn đầu tiên trong lịch sử NFL.",
+      "keywords": [
+        "U2",
+        "NFL",
+        "Thanksgiving Eve",
+        "SoFi Stadium",
+        "halftime show"
+      ],
+      "slug": "phan-ung-trai-chieu-quanh-man-bieu-dien-giua-tran-cua-u2-trong-tran-au-e-17be5de3",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 307,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+        "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+        "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming"
+      ],
+      "source_links": [
+        "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+        "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T03:16:00+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:03:22+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T10:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ban nhạc U2 biểu diễn giải trí giữa trận trong trận đấu đêm trước Lễ Tạ ơn giữa Green Bay Packers và Los Angeles Rams tại Sân vận động SoFi.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Sporting News tracked live updates and reviews from U2's halftime performance at the NFL's Thanksgiving Eve game between the Rams and Packers.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+              "snippet": "The Sporting News tracked live updates and reviews from U2's halftime performance at the NFL's Thanksgiving Eve game between the Rams and Packers.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+              "page_sha256": "faa5bb93fa27d30536679d102e890d4cff5d1579eea2295987dd54d5841806d3",
+              "snippet_sha256": "fe032088c976a785deb13c5e5fca9c822a44ed0b9bf9a491a3e3d0becbfd9d20",
+              "verified_at": "2026-11-26T03:49:50.545878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thời gian nghỉ giữa hai hiệp dài hơn sáu phút so với bình thường để phục vụ sân khấu của U2.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "9:52 p.m.— It's Wednesday, but U2 opens with \"Sunday Bloody Sunday.\"",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+              "snippet": "9:52 p.m.— It's Wednesday, but U2 opens with \"Sunday Bloody Sunday.\"",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+              "page_sha256": "faa5bb93fa27d30536679d102e890d4cff5d1579eea2295987dd54d5841806d3",
+              "snippet_sha256": "438b6e09ae7c3904cfa95752426f5090c7cb2eff20493f60383e60084ecb2564",
+              "verified_at": "2026-11-26T03:49:50.545878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "U2 biểu diễn các bài hát gồm Sunday Bloody Sunday, Pride (In the Name of Love) với The Womack Sisters, và Torn tưởng nhớ Dolly Parton.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862"
+          ],
+          "importance": "core",
+          "evidence_snippet": "9:53 p.m.— U2 brings out The Womack Sisters as a guest, weaving in their song \"Pride (In the Name of Love).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+              "snippet": "9:53 p.m.— U2 brings out The Womack Sisters as a guest, weaving in their song \"Pride (In the Name of Love).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+              "page_sha256": "faa5bb93fa27d30536679d102e890d4cff5d1579eea2295987dd54d5841806d3",
+              "snippet_sha256": "d563d9ec83fa97c6c4311c5a6beb4d37b513e5a25297036e36c4ac2b10c1193b",
+              "verified_at": "2026-11-26T03:49:50.545878+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ các phản ứng trái chiều của công chúng đối với màn trình diễn của U2. Đồng thời, văn bản cung cấp chi tiết về thời lượng chương trình và danh sách bài hát.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T03:49:50.546632+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "2"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-26T03:49:50.547979+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 307,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1414
+        },
+        "independent_domains": [
+          "engadget.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "mitsubishi-outlander-the-he-moi-chot-lich-ra-mat-tai-viet-nam-vao-thang--54aec05d",
+    "status": "READY",
+    "prepared_at": "2026-11-26T03:49:44.917112+00:00",
+    "expires_at": "2026-11-27T03:49:44.917112+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+      "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm",
+      "https://thanhnien.vn/tien-si-bui-tran-phuong-giat-minh-khi-duoc-hoi-ve-dinh-nghia-van-hoa-viet-nam-185261125234244869.htm"
+    ],
+    "article": {
+      "id": "mitsubishi-outlander-the-he-moi-chot-lich-ra-mat-tai-viet-nam-vao-thang--54aec05d",
+      "title": "Mitsubishi Outlander thế hệ mới chốt lịch ra mắt tại Việt Nam vào tháng 12",
+      "summary": "Mitsubishi Motors Việt Nam xác nhận mẫu SUV cỡ C Outlander thế hệ mới sẽ chính thức ra mắt vào ngày 11-12-2026. Xe được nhập khẩu nguyên chiếc từ Nhật Bản và trang bị hệ truyền động hybrid nhẹ.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+      "published_at": "2026-11-26T01:36:16+00:00",
+      "fetched_at": "2026-11-26T03:49:58.677992+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mitsubishi Motors Việt Nam chính thức xác nhận mẫu xe Outlander thế hệ mới sẽ ra mắt thị trường trong nước vào ngày 11-12 tới đây. Thông tin này được đưa ra sau khi những lô xe đầu tiên của dòng SUV cỡ C này cập cảng và hoàn tất các thủ tục đăng kiểm cần thiết tại Việt Nam.",
+        "Khác với một số dòng xe hiện do hãng phân phối từ các thị trường trong khu vực Đông Nam Á, Outlander thế hệ mới được nhập khẩu nguyên chiếc trực tiếp từ Nhật Bản. Xe sở hữu kích thước tổng thể với chiều dài 4.710mm, rộng 1.862mm và cao 1.750mm, cùng cấu hình không gian nội thất 5+2 chỗ ngồi phục vụ nhu cầu đa dạng của gia đình.",
+        "Về khả năng vận hành, mẫu SUV này trang bị động cơ xăng tăng áp dung tích 1.5L kết hợp cùng hệ thống hybrid nhẹ 48V. Dữ liệu từ Cục Đăng kiểm Việt Nam ghi nhận mức tiêu thụ nhiên liệu trong điều kiện đường hỗn hợp của hai phiên bản sắp mở bán lần lượt đạt 6,71 lít và 7,15 lít trên mỗi 100km.",
+        "Bên cạnh hệ truyền động mới, xe còn tích hợp hệ thống dẫn động bốn bánh Super All-Wheel Control cùng nhiều trang bị tiện ích cao cấp như da semi-aniline và dàn âm thanh 12 loa tùy theo cấu hình quốc tế. Hiện tại, hãng sản xuất chưa công bố mức giá bán chi tiết cũng như danh mục trang bị cụ thể cho từng phiên bản thương mại tại thị trường trong nước."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mitsubishi Outlander thế hệ mới ra mắt Việt Nam ngày 11/12",
+      "meta_description": "Mitsubishi Outlander thế hệ mới chốt lịch ra mắt tại Việt Nam vào ngày 11-12-2026, nhập khẩu từ Nhật Bản và dùng động cơ hybrid nhẹ 48V.",
+      "keywords": [
+        "Mitsubishi Outlander",
+        "Outlander thế hệ mới",
+        "Mitsubishi Motors Việt Nam",
+        "SUV cỡ C",
+        "động cơ hybrid"
+      ],
+      "slug": "mitsubishi-outlander-the-he-moi-chot-lich-ra-mat-tai-viet-nam-vao-thang--54aec05d",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 269,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+        "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm",
+        "https://thanhnien.vn/tien-si-bui-tran-phuong-giat-minh-khi-duoc-hoi-ve-dinh-nghia-van-hoa-viet-nam-185261125234244869.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm",
+        "https://thanhnien.vn/tien-si-bui-tran-phuong-giat-minh-khi-duoc-hoi-ve-dinh-nghia-van-hoa-viet-nam-185261125234244869.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T01:36:16+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T01:36:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/tien-si-bui-tran-phuong-giat-minh-khi-duoc-hoi-ve-dinh-nghia-van-hoa-viet-nam-185261125234244869.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T03:19:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mitsubishi Motors Việt Nam xác nhận Outlander thế hệ mới sẽ ra mắt ngày 11/12 sau khi những lô xe đầu tiên cập cảng.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Mitsubishi Motors Việt Nam xác nhận Outlander thế hệ mới sẽ ra mắt ngày 11/12, sau khi những lô xe đầu tiên cập cảng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+              "snippet": "(Dân trí) - Mitsubishi Motors Việt Nam xác nhận Outlander thế hệ mới sẽ ra mắt ngày 11/12, sau khi những lô xe đầu tiên cập cảng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+              "page_sha256": "d609cae0a70ec9d2e979285099c79f20fe4ba1e4ec8d7e15ae4263f92b2eeeb8",
+              "snippet_sha256": "e7766ea4c878e44b6f9e18a893eaf12a6c75ebeed3ef89fd0e8e7e755260afc4",
+              "verified_at": "2026-11-26T03:49:58.677264+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mẫu SUV cỡ C được nhập khẩu nguyên chiếc từ Nhật Bản, sử dụng động cơ xăng tăng áp 1.5L kết hợp hệ thống hybrid nhẹ 48V.",
+          "source_urls": [
+            "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Mẫu SUV nhập khẩu từ Nhật Bản sử dụng động cơ xăng tăng áp 1.5L kết hợp hệ thống hybrid nhẹ 48V, với cấu hình 5+2 chỗ ngồi.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm",
+              "snippet": "Mẫu SUV nhập khẩu từ Nhật Bản sử dụng động cơ xăng tăng áp 1.5L kết hợp hệ thống hybrid nhẹ 48V, với cấu hình 5+2 chỗ ngồi.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/mitsubishi-outlander-doi-moi-chot-lich-ra-mat-viet-nam-nhap-nhat-dong-co-hybrid-100261126075944883.htm",
+              "page_sha256": "c553995a7815c99ff522422f881aeb312f295ef692b41144908730ec390387fc",
+              "snippet_sha256": "6b372a1fc052959441fb299ad2d526ccfaddabe4ac576bba5dc499303ee14c07",
+              "verified_at": "2026-11-26T03:49:58.677264+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xe có kích thước dài 4.710mm, rộng 1.862mm, cao 1.750mm và có cấu hình 5+2 chỗ ngồi.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Xe có kích thước dài 4.710mm, rộng 1.862mm và cao 1.750mm, thuộc phân khúc SUV cỡ C.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+              "snippet": "Xe có kích thước dài 4.710mm, rộng 1.862mm và cao 1.750mm, thuộc phân khúc SUV cỡ C.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+              "page_sha256": "d609cae0a70ec9d2e979285099c79f20fe4ba1e4ec8d7e15ae4263f92b2eeeb8",
+              "snippet_sha256": "d6c28b4adda88761cead22ce30c1428e9a77532b813744677bd423cbcf2877b7",
+              "verified_at": "2026-11-26T03:49:58.677264+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hai phiên bản xe sắp mở bán có mức tiêu thụ nhiên liệu đường hỗn hợp lần lượt là 6,71 lít/100km và 7,15 lít/100km theo dữ liệu Cục Đăng kiểm.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo dữ liệu trên trang thông tin của Cục Đăng kiểm Việt Nam, hai phiên bản xe sắp mở bán có mức tiêu thụ nhiên liệu trong điều kiện đường hỗn hợp lần lượt là 6,71 lít/100km và 7,15 lít/100km.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+              "snippet": "Theo dữ liệu trên trang thông tin của Cục Đăng kiểm Việt Nam, hai phiên bản xe sắp mở bán có mức tiêu thụ nhiên liệu trong điều kiện đường hỗn hợp lần lượt là 6,71 lít/100km và 7,15 lít/100km.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/mitsubishi-outlander-the-he-moi-chot-ngay-ra-mat-tai-viet-nam-20261125125922653.htm",
+              "page_sha256": "d609cae0a70ec9d2e979285099c79f20fe4ba1e4ec8d7e15ae4263f92b2eeeb8",
+              "snippet_sha256": "c42a062f3d6931968d6b722bb7ca874fb056f74e587b7568091011365bc169ec",
+              "verified_at": "2026-11-26T03:49:58.677264+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ lịch trình ra mắt chính thức của Mitsubishi Outlander thế hệ mới tại thị trường Việt Nam cùng các thông số kỹ thuật đã được đăng kiểm. Nội dung tập trung phân tích nguồn gốc nhập khẩu nguyên chiếc từ Nhật Bản và hệ thống động cơ hybrid nhẹ 48V mà không đưa ra các dự báo giá bán hay nhận định chủ quan.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T03:49:58.678073+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.5",
+        "1.750",
+        "1.862",
+        "100",
+        "12",
+        "2",
+        "4.710",
+        "48",
+        "5",
+        "6,71",
+        "7,15"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-26T03:49:58.679207+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 269,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1246
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "xac-inh-18-oi-bong-gianh-quyen-i-tiep-o-u17-world-cup-2026-8da2d252",
+    "status": "READY",
+    "prepared_at": "2026-11-26T03:49:44.917112+00:00",
+    "expires_at": "2026-11-27T03:49:44.917112+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+      "https://thanhnien.vn/dien-vien-dinh-hieu-chung-doi-ca-si-chau-gia-kiet-vo-dich-giai-pickleball-sasa-2026-185261125203649661.htm",
+      "https://tuoitre.vn/bep-an-dac-biet-tiep-suc-doi-ghe-ngo-ben-song-maspero-100261124193634511.htm"
+    ],
+    "article": {
+      "id": "xac-inh-18-oi-bong-gianh-quyen-i-tiep-o-u17-world-cup-2026-8da2d252",
+      "title": "Xác định 18 đội bóng giành quyền đi tiếp ở U17 World Cup 2026",
+      "summary": "Sau các lượt trận cuối vòng bảng, FIFA đã xác định danh sách 18 đội bóng chính thức giành quyền vượt qua vòng bảng giải U17 World Cup 2026.",
+      "category": "sports",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+      "published_at": "2026-11-26T01:52:00+00:00",
+      "fetched_at": "2026-11-26T03:50:04.202360+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau khi loạt trận cuối của các bảng đấu khép lại, Liên đoàn Bóng đá thế giới (FIFA) đã chính thức xác định danh sách 18 đội bóng giành quyền vượt qua vòng bảng tại giải U17 World Cup 2026.",
+        "Theo quy định của ban tổ chức, hai đội đứng đầu mỗi bảng đấu cùng với 8 trong tổng số 12 đội xếp thứ ba có thành tích tốt nhất sẽ sở hữu vé đi tiếp vào vòng đấu loại trực tiếp của giải đấu năm nay.",
+        "Tại bảng A, U17 Hy Lạp giữ vững ngôi đầu với 9 điểm tuyệt đối sau các trận đấu, trong khi U17 Ai Cập giành vị trí nhì bảng với 6 điểm. Ở bảng B, U17 Hàn Quốc đứng đầu với 9 điểm và U17 Uganda giành vé đi tiếp khi xếp thứ hai với 4 điểm.",
+        "Cục diện tại bảng C diễn ra vô cùng kịch tính với kết quả các trận đấu cuối giúp cả ba đại diện gồm U17 Australia, U17 Argentina và U17 Mozambique đều nắm tay nhau đi tiếp. Trong khi đó, tại bảng D, ba đội bóng dẫn đầu gồm U17 Pháp, U17 Saudi Arabia và U17 Uruguay đều có được 6 điểm để ghi danh vào vòng sau.",
+        "Danh sách các đội bóng đi tiếp còn có sự góp mặt của đại diện các bảng đấu khác như U17 Italy, U17 Mali, U17 Tây Ban Nha, U17 Brazil, U17 Mexico, U17 Venezuela, U17 Colombia và U17 Serbia. Các đội bóng xếp thứ ba chưa có vé trực tiếp sẽ phải chờ đợi kết quả phân định từ những bảng đấu còn lại để hy vọng lọt vào nhóm có thành tích tốt nhất."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Xác định 18 đội bóng giành quyền đi tiếp ở U17 World Cup 2026",
+      "meta_description": "Cập nhật danh sách 18 đội bóng giành quyền đi tiếp tại giải U17 World Cup 2026 theo thông báo từ FIFA sau khi khép lại các lượt trận vòng bảng.",
+      "keywords": [
+        "U17 World Cup 2026",
+        "bong da tre",
+        "FIFA",
+        "vong bang"
+      ],
+      "slug": "xac-inh-18-oi-bong-gianh-quyen-i-tiep-o-u17-world-cup-2026-8da2d252",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 287,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+        "https://thanhnien.vn/dien-vien-dinh-hieu-chung-doi-ca-si-chau-gia-kiet-vo-dich-giai-pickleball-sasa-2026-185261125203649661.htm",
+        "https://tuoitre.vn/bep-an-dac-biet-tiep-suc-doi-ghe-ngo-ben-song-maspero-100261124193634511.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/dien-vien-dinh-hieu-chung-doi-ca-si-chau-gia-kiet-vo-dich-giai-pickleball-sasa-2026-185261125203649661.htm",
+        "https://tuoitre.vn/bep-an-dac-biet-tiep-suc-doi-ghe-ngo-ben-song-maspero-100261124193634511.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T01:52:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/dien-vien-dinh-hieu-chung-doi-ca-si-chau-gia-kiet-vo-dich-giai-pickleball-sasa-2026-185261125203649661.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T14:12:00+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/bep-an-dac-biet-tiep-suc-doi-ghe-ngo-ben-song-maspero-100261124193634511.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T15:50:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "FIFA đã xác định 18 đội bóng giành quyền vượt qua vòng bảng giải U17 World Cup 2026 sau loạt trận cuối.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Sau lượt trận cuối bảng A, B, C, D diễn ra vào hôm qua (25/11), FIFA đã xác định 18 đội bóng giành quyền vượt qua vòng bảng giải U17 World Cup 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+              "snippet": "(Dân trí) - Sau lượt trận cuối bảng A, B, C, D diễn ra vào hôm qua (25/11), FIFA đã xác định 18 đội bóng giành quyền vượt qua vòng bảng giải U17 World Cup 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+              "page_sha256": "d110c7aec02acf29c3795992a236eb9e8e114a02cc01b8e48f1b519f557818cc",
+              "snippet_sha256": "623dd58ec11dc9bc85e88a6f6e8a4684874d263b4d2b19f7e03e340e0c8a5f6d",
+              "verified_at": "2026-11-26T03:50:04.201670+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy định của FIFA là hai đội đứng đầu mỗi bảng và 8/12 đội xếp thứ ba có thành tích tốt nhất sẽ đi tiếp.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Theo quy định của FIFA, hai đội đứng đầu mỗi bảng và 8/12 đội xếp thứ ba có thành tích tốt nhất sẽ giành quyền vượt qua vòng bảng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+              "snippet": "Theo quy định của FIFA, hai đội đứng đầu mỗi bảng và 8/12 đội xếp thứ ba có thành tích tốt nhất sẽ giành quyền vượt qua vòng bảng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+              "page_sha256": "d110c7aec02acf29c3795992a236eb9e8e114a02cc01b8e48f1b519f557818cc",
+              "snippet_sha256": "f0902e609eaa90219555da7c033dfbae3851a09d7726f72b08b1939068835d2d",
+              "verified_at": "2026-11-26T03:50:04.201670+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Danh sách 18 đội đi tiếp gồm U17 Hy Lạp, U17 Ai Cập, U17 Hàn Quốc, U17 Uganda, U17 Australia, U17 Argentina, U17 Mozambique, U17 Pháp, U17 Saudi Arabia, U17 Uruguay, U17 Italy, U17 Mali, U17 Tây Ban Nha, U17 Brazil, U17 Mexico, U17 Venezuela, U17 Colombia và U17 Serbia.",
+          "source_urls": [
+            "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tính đến sáng 26/11, FIFA đã xác định 18 đội bóng giành vé đi tiếp ở giải U17World Cuplà U17 Hy Lạp, U17 Ai Cập (bảng A), U17 Hàn Quốc, U17 Uganda (bảng B), U17 Australia, U17 Argentina, U17 Mozambique (bảng C), U17 Pháp, U17 Saudi Arabia, U17 Uruguay (bảng D), U17 Italy (bảng E), U17 Mali (bảng G), U17 Tây Ban Nha (bảng H), U17 Brazil (bảng I), U17 Mexico, U17 Venezuela (bảng K) U17 Colombia, U17 Serbia (bảng L).",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+              "snippet": "Tính đến sáng 26/11, FIFA đã xác định 18 đội bóng giành vé đi tiếp ở giải U17World Cuplà U17 Hy Lạp, U17 Ai Cập (bảng A), U17 Hàn Quốc, U17 Uganda (bảng B), U17 Australia, U17 Argentina, U17 Mozambique (bảng C), U17 Pháp, U17 Saudi Arabia, U17 Uruguay (bảng D), U17 Italy (bảng E), U17 Mali (bảng G), U17 Tây Ban Nha (bảng H), U17 Brazil (bảng I), U17 Mexico, U17 Venezuela (bảng K) U17 Colombia, U17 Serbia (bảng L).",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm",
+              "page_sha256": "d110c7aec02acf29c3795992a236eb9e8e114a02cc01b8e48f1b519f557818cc",
+              "snippet_sha256": "b64b7dd679cbf25383ec307d685424590f192e08bea80ca02c1d16019eaa6e54",
+              "verified_at": "2026-11-26T03:50:04.201670+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ danh sách 18 đội bóng đã giành quyền đi tiếp và thể thức vượt qua vòng bảng tại U17 World Cup 2026. Cung cấp góc nhìn chi tiết về cục diện và điểm số của từng bảng đấu dựa trên dữ liệu chính thức từ FIFA.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T03:50:04.202438+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "17",
+        "18",
+        "2026",
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-26T03:50:04.203704+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 287,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1271
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
