@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "594f70a2ea92d0ca33d6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T13:14:43.253027+00:00",
     "expires_at": "2026-11-29T13:12:09.328092+00:00",
     "category_hint": "world",
@@ -640,11 +640,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T13:14:43.253050+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cac-cuoc-khong-kich-tai-gaza-va-ukraine-gay-nhieu-thuong-vong-c73247c4"
   },
   {
     "queue_id": "75b0c4b4e2691f228017",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T13:14:42.467600+00:00",
     "expires_at": "2026-11-29T13:12:09.328092+00:00",
     "category_hint": "world",
@@ -1791,11 +1792,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T13:14:42.467623+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cac-cuoc-khong-kich-cua-israel-tai-dai-gaza-khien-nhieu-nguoi-thiet-mang-42c05d59"
   },
   {
     "queue_id": "ea0a885bc585781a1cb4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T13:14:20.820339+00:00",
     "expires_at": "2026-11-29T13:12:09.328092+00:00",
     "category_hint": "technology",
@@ -2484,7 +2486,8 @@
       ]
     },
     "research_ready_at": "2026-11-26T13:14:20.820361+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-tinh-nang-moi-cua-gemini-ai-tren-android-auto-9d714851"
   },
   {
     "queue_id": "c055624e7b60563f1dc6",
@@ -93506,5 +93509,671 @@
     },
     "published_at": "2026-11-24T15:23:25.017642+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "cac-cuoc-khong-kich-tai-gaza-va-ukraine-gay-nhieu-thuong-vong-c73247c4",
+    "status": "READY",
+    "prepared_at": "2026-11-26T13:15:14.041919+00:00",
+    "expires_at": "2026-11-27T13:15:14.041919+00:00",
+    "source_urls": [
+      "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+      "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+    ],
+    "article": {
+      "id": "cac-cuoc-khong-kich-tai-gaza-va-ukraine-gay-nhieu-thuong-vong-c73247c4",
+      "title": "Các cuộc không kích tại Gaza và Ukraine gây nhiều thương vong",
+      "summary": "Các cuộc tấn công mới đây tại Dải Gaza và Ukraine đã khiến nhiều người thiệt mạng, trong đó có quan chức giáo dục cấp cao tại Gaza và các nạn nhân trong loạt cuộc không kích nhằm vào hạ tầng năng lượng tại Ukraine.",
+      "category": "world",
+      "source_name": "Al Jazeera - All",
+      "source_url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+      "published_at": "2026-11-26T09:00:06+00:00",
+      "fetched_at": "2026-11-26T13:15:21.682868+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các cuộc không kích của lực lượng Israel tại Dải Gaza đã làm ít nhất tám người thiệt mạng, bao gồm một quan chức giáo dục cấp cao và vợ ông, theo thông tin từ giới chức y tế địa phương. Khaled Abu Nada, phó thư ký Bộ Giáo dục Gaza, đã thiệt mạng trong một cuộc không kích ở phía tây Deir el-Balah. Giới chức y tế cho biết thêm rằng sáu người khác đã bị thương trong vụ việc này, với một số trường hợp ở trạng thái nguy kịch.",
+        "Thủ tướng Israel Benjamin Netanyahu và Bộ trưởng Quốc phòng Israel Katz đưa ra tuyên bố cho rằng cuộc tấn công đã tiêu diệt Abu Nada, người mà họ mô tả là một nhân vật thuộc Hamas có liên quan đến các danh mục kinh tế và giáo dục của tổ chức này. Trong khi đó, tại miền bắc Gaza, các cuộc tấn công bằng máy bay không người lái tại trại tị nạn Shati và khu phố Tuffah cũng ghi nhận thêm các trường hợp thiệt mạng và bị thương.",
+        "Ở một diễn biến khác tại Đông Âu, các cuộc tấn công bằng máy bay không người lái của Nga tại Ukraine đã làm ít nhất bảy người thiệt mạng ở sáu khu vực khác nhau. Giới chức Ukraine cho biết các cuộc tấn công này nhắm vào hạ tầng năng lượng và dân sự, gây hư hại cho cơ sở sản xuất khí đốt của Naftogaz ở vùng Poltava và nhà máy nhiệt điện của DTEK, dẫn đến tình trạng cắt điện khẩn cấp ở nhiều khu vực.",
+        "Ngược lại, lực lượng Ukraine cũng thực hiện các cuộc tấn công nhắm vào các nhà máy lọc dầu tại Nga, bao gồm các cơ sở ở vùng Samara và Rostov, cũng như một căn cứ không quân ở vùng Nizhny Novgorod. Giới chức các bên tiếp tục ghi nhận thiệt hại nặng nề về hạ tầng và dân thường trong bối cảnh các cuộc giao tranh không có dấu hiệu hạ nhiệt."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Các cuộc không kích tại Gaza và Ukraine gây nhiều thương vong",
+      "meta_description": "Cập nhật thông tin về các cuộc không kích mới tại Dải Gaza và Ukraine, gây thiệt hại nhân mạng và ảnh hưởng nghiêm trọng đến cơ sở hạ tầng.",
+      "keywords": [
+        "Gaza",
+        "Ukraine",
+        "không kích",
+        "thương vong"
+      ],
+      "slug": "cac-cuoc-khong-kich-tai-gaza-va-ukraine-gay-nhieu-thuong-vong-c73247c4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 345,
+      "display_source": true,
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+        "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+      ],
+      "source_links": [
+        "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+      ],
+      "source_references": [
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T09:00:06+00:00"
+        },
+        {
+          "name": "Euronews - World",
+          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+          "domain": "euronews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "euronews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T14:06:14+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Các cuộc tấn công của Israel tại Gaza làm ít nhất tám người thiệt mạng, gồm quan chức giáo dục Khaled Abu Nada và vợ ông.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Khaled Abu Nada, undersecretary of Gaza’s Ministry of Education, and his wife were killed in an air strike in western Deir el-Balah, medics at Al-Aqsa Martyrs Hospital said on Thursday.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+              "snippet": "Khaled Abu Nada, undersecretary of Gaza’s Ministry of Education, and his wife were killed in an air strike in western Deir el-Balah, medics at Al-Aqsa Martyrs Hospital said on Thursday.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+              "page_sha256": "6fd551ac75553a310ead3d69204ccf45f944a5ad7a09ec821c6017c91ca9eda1",
+              "snippet_sha256": "eb8747bc740caeb16f9cb87c8ff7f1eb78fff9eb28e1d20624235db6db3a8adb",
+              "verified_at": "2026-11-26T13:15:21.682284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Israel Benjamin Netanyahu và Bộ trưởng Quốc phòng Israel Katz xác nhận Abu Nada là người phụ trách danh mục kinh tế và giáo dục của Hamas.",
+          "source_urls": [
+            "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Israeli Prime Minister Benjamin Netanyahu and Defence Minister Israel Katz said the attack killed Abu Nada, whom they said was “a Hamas figure responsible for the group’s economy and education portfolios”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+              "snippet": "Israeli Prime Minister Benjamin Netanyahu and Defence Minister Israel Katz said the attack killed Abu Nada, whom they said was “a Hamas figure responsible for the group’s economy and education portfolios”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+              "page_sha256": "6fd551ac75553a310ead3d69204ccf45f944a5ad7a09ec821c6017c91ca9eda1",
+              "snippet_sha256": "c7129f5c976b07c46076623e812a3fd3213397cdc5ddd8fcfc3c9b461bbb6cce",
+              "verified_at": "2026-11-26T13:15:21.682284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cuộc tấn công bằng drone của Nga tại Ukraine làm ít nhất bảy người thiệt mạng ở sáu vùng và nhắm vào hạ tầng năng lượng.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The attack involved 112 Shahed, Gerbera and Parodiya decoy drones, of which 88 were shot down or neutralised, Ukraine's air force said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+              "snippet": "The attack involved 112 Shahed, Gerbera and Parodiya decoy drones, of which 88 were shot down or neutralised, Ukraine's air force said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+              "page_sha256": "b052c9452a06d9c75c287868119f5e41f8fa5c620181abc3c45047bb881ba3ad",
+              "snippet_sha256": "581171488edadb03bdbbb7040fb4a9e301e17ee9fc941d0dba2397ad2d96e8eb",
+              "verified_at": "2026-11-26T13:15:21.682284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Drone của Ukraine tấn công các nhà máy lọc dầu tại Nga ở vùng Samara và Rostov cùng căn cứ không quân ở Nizhny Novgorod.",
+          "source_urls": [
+            "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ukrainian drones struck Russian refineries in Samara and Rostov regions and an airbase in Nizhny Novgorod region.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+              "snippet": "Ukrainian drones struck Russian refineries in Samara and Rostov regions and an airbase in Nizhny Novgorod region.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+              "page_sha256": "b052c9452a06d9c75c287868119f5e41f8fa5c620181abc3c45047bb881ba3ad",
+              "snippet_sha256": "1369173f991887ae6a71647c1e29252340846415997a9fac2c18880c86e88dfb",
+              "verified_at": "2026-11-26T13:15:21.682284+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp và cập nhật diễn biến mới nhất từ hai điểm nóng xung đột lớn tại Gaza và Ukraine. Nội dung đối chiếu các nguồn tin chính thức để làm rõ số liệu thương vong và tác động đối với cơ sở hạ tầng năng lượng cũng như dân sự.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T13:15:21.682946+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-26T13:15:21.683949+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 345,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1589
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "euronews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "cac-cuoc-khong-kich-cua-israel-tai-dai-gaza-khien-nhieu-nguoi-thiet-mang-42c05d59",
+    "status": "READY",
+    "prepared_at": "2026-11-26T13:15:14.041919+00:00",
+    "expires_at": "2026-11-27T13:15:14.041919+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+      "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
+    ],
+    "article": {
+      "id": "cac-cuoc-khong-kich-cua-israel-tai-dai-gaza-khien-nhieu-nguoi-thiet-mang-42c05d59",
+      "title": "Các cuộc không kích của Israel tại Dải Gaza khiến nhiều người thiệt mạng, bao gồm quan chức Hamas",
+      "summary": "Các đợt không kích mới đây của Israel tại Dải Gaza đã làm ít nhất tám người thiệt mạng, trong đó có một quan chức chính trị của Hamas và vợ ông, giữa lúc bạo lực tiếp diễn ở khu vực này.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T10:14:08+00:00",
+      "fetched_at": "2026-11-26T13:15:39.550324+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Các cuộc không kích mới do Israel thực hiện tại Dải Gaza đã khiến ít nhất tám người thiệt mạng, bao gồm một quan chức chính trị cấp cao của Hamas cùng vợ của ông, theo các nguồn tin từ y tế và quan chức địa phương.",
+        "Vụ tấn công nhắm vào một căn hộ dân cư tại Deir al-Balah ở miền trung Gaza vào thời điểm rạng sáng đã cướp đi sinh mạng của Khaled Abu Nada, người giữ vai trò phó bộ trưởng giáo dục của Hamas, và người vợ Abeer Mohammed Ismail Abu Nada. Các đội cứu hộ và nhân viên y tế đã chuyển các thi thể đến Bệnh viện Al-Aqsa ở miền trung Gaza và Bệnh viện Al-Shifa ở thành phố Gaza.",
+        "Trong một tuyên bố chung, Thủ tướng và Bộ trưởng Quốc phòng Israel xác nhận chiến dịch này nằm trong chuỗi các cuộc nhắm mục tiêu vào giới chức Hamas. Thủ tướng Israel Benjamin Netanyahu cho biết khoảng 80 quan chức Hamas đã bị tiêu diệt trong tháng qua. Đồng thời, quân đội Israel tuyên bố sẽ tiếp tục theo đuổi các mục tiêu này nhằm bảo vệ an ninh.",
+        "Bên cạnh đó, các cuộc không kích khác tại khu vực phía đông Thành phố Gaza và trại tị nạn Shati cũng ghi nhận thêm nhiều thương vong. Các nguồn tin cho hay một số người làm việc cho lực lượng an ninh của Hamas đã thiệt mạng trong các đợt oanh tạc này. Những diễn biến quân sự này diễn ra trong bối cảnh bạo lực vẫn tiếp diễn tại Dải Gaza, nơi có khoảng 2,1 triệu người sinh sống, phần lớn là người phải di tản sau thời gian dài xung đột."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Israel không kích Gaza tiêu diệt quan chức chính trị Hamas",
+      "meta_description": "Cập nhật tình hình xung đột tại Gaza khi các cuộc không kích mới của Israel khiến quan chức Hamas và nhiều người thiệt mạng.",
+      "keywords": [
+        "Gaza",
+        "Hamas",
+        "Israel",
+        "không kích",
+        "Khaled Abu Nada"
+      ],
+      "slug": "cac-cuoc-khong-kich-cua-israel-tai-dai-gaza-khien-nhieu-nguoi-thiet-mang-42c05d59",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 291,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+        "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+        "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T10:14:08+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T12:28:31+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T23:06:06+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Một quan chức chính trị của Hamas và vợ ông nằm trong số tám người Palestine thiệt mạng trong ba cuộc không kích của Israel tại Dải Gaza vào ngày thứ Năm.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Israeli air strike kills Hamas internal security chief in Gaza",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "15116a182f33ff103c19136662a641033651548e3922e4c31257b0c5c78a56bc",
+              "snippet_sha256": "a4968d04695a382fb5406a5a4c97e05b6e352fa291fe712047cfe1b856eb1a45",
+              "verified_at": "2026-11-26T13:15:39.549946+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Khaled Abu Nada - phó bộ trưởng giáo dục của Hamas - và vợ là Abeer Mohammed Ismail Abu Nada đã thiệt mạng trong một căn hộ dân cư ở Deir al-Balah.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Local sources told the BBC a residential apartment in Deir al-Balah was targeted at dawn, killing Khaled Abu Nada - the deputy education minister - and his wife, Abeer Mohammed Ismail Abu Nada.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Local sources told the BBC a residential apartment in Deir al-Balah was targeted at dawn, killing Khaled Abu Nada - the deputy education minister - and his wife, Abeer Mohammed Ismail Abu Nada.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "15116a182f33ff103c19136662a641033651548e3922e4c31257b0c5c78a56bc",
+              "snippet_sha256": "daf6ebe29b586212bdf407f7015f2cb456b83690b316671b49a9cbbb67c4eaf5",
+              "verified_at": "2026-11-26T13:15:39.549946+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Israel Benjamin Netanyahu xác nhận cái chết của Khaled Abu Nada và cho biết khoảng 80 quan chức Hamas đã bị tiêu diệt trong tháng qua.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "In a post X, Israeli Prime Minister Benjamin Netanyahu confirmed the death of Khaled Abu Nada and said about 80 Hamas officials have been killed in the last month.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+              "snippet": "In a post X, Israeli Prime Minister Benjamin Netanyahu confirmed the death of Khaled Abu Nada and said about 80 Hamas officials have been killed in the last month.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "15116a182f33ff103c19136662a641033651548e3922e4c31257b0c5c78a56bc",
+              "snippet_sha256": "ac1ca34faee59eb88c1311ce64216e24987e4f5a247bbf532914fbba6c3c64c1",
+              "verified_at": "2026-11-26T13:15:39.549946+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh chi tiết của các cuộc không kích mới nhất tại Dải Gaza, tập trung vào thương vong của các nhân vật lãnh đạo và an ninh thuộc Hamas. Đồng thời, văn bản kết nối các sự kiện này với tuyên bố chính thức từ giới chức Israel nhằm cung cấp bức tranh toàn diện về chiến dịch hiện tại.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T13:15:39.550401+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2,1",
+        "80"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-26T13:15:39.551155+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 291,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1372
+        },
+        "independent_domains": [
+          "bbc.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "nhung-tinh-nang-moi-cua-gemini-ai-tren-android-auto-9d714851",
+    "status": "READY",
+    "prepared_at": "2026-11-26T13:15:14.041919+00:00",
+    "expires_at": "2026-11-27T13:15:14.041919+00:00",
+    "source_urls": [
+      "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+      "https://www.engadget.com/2320821/wireless-android-auto-battery-drain-fix",
+      "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide"
+    ],
+    "article": {
+      "id": "nhung-tinh-nang-moi-cua-gemini-ai-tren-android-auto-9d714851",
+      "title": "Những tính năng mới của Gemini AI trên Android Auto",
+      "summary": "Google Assistant đang được thay thế bằng Gemini AI trên Android Auto, mang đến khả năng trò chuyện tự nhiên, tìm kiếm địa điểm thông minh, quản lý tin nhắn và điều khiển âm thanh nâng cao.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+      "published_at": "2026-11-26T12:00:00+00:00",
+      "fetched_at": "2026-11-26T13:15:58.017829+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Google đang tiến hành thay thế trợ lý Google Assistant bằng hệ thống Gemini AI tiên tiến trên mọi nền tảng, bao gồm cả hệ thống điều khiển Android Auto trên ô tô. Khi tính năng này được kích hoạt trên màn hình xe, người dùng sẽ nhận biết thông qua biểu tượng ngôi sao nhỏ kèm theo hình sóng âm quen thuộc thay cho biểu tượng micro truyền thống.",
+        "Khác với phiên bản cũ, Gemini AI hoạt động như một đối tác hội thoại tự nhiên, có khả năng xử lý các truy vấn phức tạp và đa tầng từ người lái. Ví dụ, thay vì các lệnh đơn giản, người dùng có thể yêu cầu tìm kiếm các quán cà phê theo nhiều tiêu chí cụ thể cùng lúc và đặt các câu hỏi tiếp nối dựa trên ngữ cảnh xung quanh chuyến đi.",
+        "Trong quá trình di chuyển, hệ thống mới giúp tài xế xử lý tin nhắn và các tác vụ âm thanh mà không cần rời mắt khỏi mặt đường. Người dùng có thể yêu cầu đọc tin nhắn gần nhất từ các ứng dụng được hỗ trợ như Google Messages, WhatsApp hoặc yêu cầu tóm tắt các cuộc trò chuyện nhóm dài để nắm bắt nội dung nhanh chóng.",
+        "Bên cạnh các lệnh điều khiển nhạc, podcast hay sách nói quen thuộc, người dùng còn có thể hỏi trực tiếp về nghệ sĩ hoặc bài hát đang phát để tìm hiểu thêm thông tin chi tiết. Gemini cũng hỗ trợ cung cấp dự báo thời tiết chi tiết cho các điểm đến và giúp người dùng chuẩn bị ý tưởng hoặc tra cứu thông tin ngay trong lúc lái xe."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Các tính năng của Gemini AI trên Android Auto",
+      "meta_description": "Khám phá những điểm mới khi Gemini AI thay thế Google Assistant trên Android Auto, từ tìm kiếm địa điểm, tóm tắt tin nhắn đến hỗ trợ điều hướng.",
+      "keywords": [
+        "Gemini AI",
+        "Android Auto",
+        "Google Assistant",
+        "công nghệ ô tô",
+        "trợ lý ảo"
+      ],
+      "slug": "nhung-tinh-nang-moi-cua-gemini-ai-tren-android-auto-9d714851",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 286,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+        "https://www.engadget.com/2320821/wireless-android-auto-battery-drain-fix",
+        "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+        "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2320821/wireless-android-auto-battery-drain-fix",
+        "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+        "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T12:00:00+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2320821/wireless-android-auto-battery-drain-fix",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T16:45:00+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T01:05:07+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T21:42:48+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Google đang thay thế Google Assistant bằng Gemini AI trên Android Auto, được nhận diện qua biểu tượng hình sao nhỏ kèm sóng âm.",
+          "source_urls": [
+            "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Google Assistant isbeing replaced by Google’s more advancedGemini AIacross all platforms, and that includes Android Auto.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+              "snippet": "Google Assistant isbeing replaced by Google’s more advancedGemini AIacross all platforms, and that includes Android Auto.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+              "page_sha256": "1c00c586b89e0c0647adc154e1ea5240bfcb8afbe08e5c8fd7e5156a9afa7b33",
+              "snippet_sha256": "b8ffc63390a254712c63e38d0fc9a94df7b64d710ec1f5af9e7b264ae18fbabc",
+              "verified_at": "2026-11-26T13:15:58.017401+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Gemini AI hỗ trợ tìm kiếm địa điểm với các tiêu chí phức tạp, cho phép đặt câu hỏi tiếp nối theo ngữ cảnh và truy xuất dữ liệu từ Google Maps.",
+          "source_urls": [
+            "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto"
+          ],
+          "importance": "core",
+          "evidence_snippet": "You can ask more general questions too, such as \"tell me more about the place I'm heading to\" or \"Is there outdoor seating?” But bear in mind that Gemini will be limited to scouring the data on Google Maps for its information.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+              "snippet": "You can ask more general questions too, such as \"tell me more about the place I'm heading to\" or \"Is there outdoor seating?” But bear in mind that Gemini will be limited to scouring the data on Google Maps for its information.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+              "page_sha256": "1c00c586b89e0c0647adc154e1ea5240bfcb8afbe08e5c8fd7e5156a9afa7b33",
+              "snippet_sha256": "538e24fe7a9419c91444b19074602206b6a5df4c0cc866c0ac490db7d14f036d",
+              "verified_at": "2026-11-26T13:15:58.017401+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hệ thống hỗ trợ đọc tin nhắn, tóm tắt tin nhắn nhóm từ các ứng dụng như Google Messages, Google Chat và WhatsApp, cùng các lệnh điều khiển âm thanh trên YouTube Music và Spotify.",
+          "source_urls": [
+            "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "You can also specify the app, otherwise Google Messages will be used by default—Google Chat and WhatsApp are among the others that are supported.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+              "snippet": "You can also specify the app, otherwise Google Messages will be used by default—Google Chat and WhatsApp are among the others that are supported.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+              "page_sha256": "1c00c586b89e0c0647adc154e1ea5240bfcb8afbe08e5c8fd7e5156a9afa7b33",
+              "snippet_sha256": "f18793c9931de6e527bb19dd9727804eef0721d1de7c3585526e108ebf9e89ee",
+              "verified_at": "2026-11-26T13:15:58.017401+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những điểm cải tiến cốt lõi của Gemini AI so với Google Assistant cũ trên Android Auto. Đồng thời, văn bản phân tích cách thức hoạt động của các tính năng tìm kiếm, nhắn tin và giải trí giúp tài xế tương tác an toàn hơn khi đang điều khiển phương tiện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T13:15:58.017903+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-26T13:15:58.018798+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 286,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1318
+        },
+        "independent_domains": [
+          "bbc.com",
+          "engadget.com",
+          "techcrunch.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
