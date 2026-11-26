@@ -52066,5 +52066,838 @@
     },
     "origin": "auto",
     "publication_slot": "2026-11-26 02:40"
+  },
+  {
+    "id": "tinh-nang-nhan-dien-khuon-mat-cua-google-home-ho-tro-camera-an-ninh-gia--0c54c7b6",
+    "title": "Tính năng nhận diện khuôn mặt của Google Home hỗ trợ camera an ninh giá rẻ của Walmart",
+    "summary": "Bản cập nhật mới từ Google Home mang tính năng nhận diện khuôn mặt Familiar Faces lên dòng camera an ninh giá rẻ của Walmart, đồng thời bổ sung điều khiển còi báo động trực tiếp trên ứng dụng.",
+    "category": "technology",
+    "source_name": "The Verge - All",
+    "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+    "published_at": "2026-11-26T00:04:34+00:00",
+    "fetched_at": "2026-11-26T04:22:41.023202+00:00",
+    "appnho_published_at": "2026-11-26T04:23:54.537991+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Hệ sinh thái nhà thông minh của Google vừa ghi nhận một bước mở rộng đáng chú ý khi tính năng nhận diện khuôn mặt Familiar Faces chính thức hỗ trợ các dòng camera an ninh giá rẻ phân phối bởi hệ thống bán lẻ Walmart. Bản cập nhật mới từ ứng dụng Google Home mang công nghệ nhận diện này đến hai mẫu thiết bị phổ biến gồm Onn Outdoor Camera Plug-In có giá 35 USD và Onn Floodlight Camera Hardwired có giá 77 USD.",
+      "Việc tích hợp tính năng này giúp người dùng các thiết bị giá rẻ có thêm lựa chọn cảnh báo thông minh tương tự như các dòng sản phẩm đắt tiền hơn. Tuy nhiên, theo thông tin từ nhà phát triển, để sử dụng được chức năng nhận diện Familiar Faces trên các camera Onn này, người dùng vẫn phải đăng ký gói dịch vụ trả phí Google Home Premium nhằm đáp ứng yêu cầu cấu hình tài khoản.",
+      "Bên cạnh tính năng nhận diện khuôn mặt, bản cập nhật phần mềm này cũng mang đến một tiện ích điều khiển mới trong giao diện ứng dụng Google Home. Cụ thể, người dùng các dòng camera Onn nêu trên cùng thiết bị Nest Cam Outdoor phiên bản có dây thế hệ thứ hai có thể kích hoạt hoặc tắt còi báo động an ninh trong thời gian 30 giây trực tiếp khi đang theo dõi luồng video trực tiếp từ thiết bị.",
+      "Việc bổ sung các tính năng điều khiển nâng cao và khả năng nhận diện thông minh cho các dòng phần cứng phân khúc phổ thông phản ánh nỗ lực mở rộng tiện ích của nền tảng nhà thông minh Google. Dù vậy, việc phụ thuộc vào các gói thuê bao dịch vụ trả phí để kích hoạt đầy đủ tính năng vẫn là yếu tố người dùng cần cân nhắc khi xây dựng hệ thống giám sát an ninh gia đình tiết kiệm chi phí."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Google Home cập nhật tính năng nhận diện khuôn mặt cho camera Walmart",
+    "meta_description": "Google Home mở rộng tính năng nhận diện khuôn mặt Familiar Faces cho camera an ninh giá rẻ của Walmart với mức giá từ 35 USD.",
+    "keywords": [
+      "Google Home",
+      "Familiar Faces",
+      "camera Walmart",
+      "Onn",
+      "nhận diện khuôn mặt"
+    ],
+    "slug": "tinh-nang-nhan-dien-khuon-mat-cua-google-home-ho-tro-camera-an-ninh-gia--0c54c7b6",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 334,
+    "display_source": true,
+    "source_urls": [
+      "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+      "https://www.bbc.co.uk/sport/football/articles/cm4gn898zl80o?at_medium=RSS&at_campaign=rss",
+      "https://www.engadget.com/2320283/important-home-security-camera-features"
+    ],
+    "source_links": [
+      "https://www.bbc.co.uk/sport/football/articles/cm4gn898zl80o?at_medium=RSS&at_campaign=rss",
+      "https://www.engadget.com/2320283/important-home-security-camera-features"
+    ],
+    "source_references": [
+      {
+        "name": "The Verge - All",
+        "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+        "domain": "theverge.com",
+        "source_type": "Báo chuyên ngành",
+        "source_family": "theverge.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-26T00:04:34+00:00"
+      },
+      {
+        "name": "BBC Sport - Football",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cm4gn898zl80o?at_medium=RSS&at_campaign=rss",
+        "domain": "bbc.co.uk",
+        "source_type": "Báo/đài",
+        "source_family": "bbc.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-25T09:04:27+00:00"
+      },
+      {
+        "name": "Engadget - All",
+        "url": "https://www.engadget.com/2320283/important-home-security-camera-features",
+        "domain": "engadget.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "engadget.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-23T17:15:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Bản cập nhật Google Home mang tính năng Familiar Faces đến Onn Outdoor Camera Plug-In giá 35 USD và Onn Floodlight Camera Hardwired giá 77 USD của Walmart.",
+        "source_urls": [
+          "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras"
+        ],
+        "importance": "core",
+        "evidence_snippet": "A newGoogle Home updatebrings Familiar Faces support to the $35Onn Outdoor Camera Plug-Inand $77 Onn Floodlight Camera Hardwired.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "snippet": "A newGoogle Home updatebrings Familiar Faces support to the $35Onn Outdoor Camera Plug-Inand $77 Onn Floodlight Camera Hardwired.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "page_sha256": "d92592efc5172cad4a8d58750391a8f85269cbd104e2b4c14a154e819130aaa0",
+            "snippet_sha256": "bbb40252859b7989444ac07ecc80ca528fd0993b275529f52582481f58815fbb",
+            "verified_at": "2026-11-26T04:22:41.022729+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Yêu cầu sử dụng gói Google Home Premium vẫn được giữ nguyên để truy cập vào tính năng nhận diện khuôn mặt.",
+        "source_urls": [
+          "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras"
+        ],
+        "importance": "core",
+        "evidence_snippet": "However, a Google Home Premium subscription is still required to access the feature.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "snippet": "However, a Google Home Premium subscription is still required to access the feature.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "page_sha256": "d92592efc5172cad4a8d58750391a8f85269cbd104e2b4c14a154e819130aaa0",
+            "snippet_sha256": "33aececffba2879458a30c22e83b860751c5ff8a303fdd674346c479fec7ac20",
+            "verified_at": "2026-11-26T04:22:41.022729+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Cả hai dòng camera Onn và Google Nest Cam Outdoor có dây thế hệ thứ hai đều có thêm điều khiển còi báo động 30 giây trong ứng dụng Google Home.",
+        "source_urls": [
+          "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Both cameras and Google’s Nest Cam Outdoor (wired, 2nd gen) also have a new remote control in the Google Home app you can use to start or stop a 30-second security siren while watching the camera’s live video feed.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "snippet": "Both cameras and Google’s Nest Cam Outdoor (wired, 2nd gen) also have a new remote control in the Google Home app you can use to start or stop a 30-second security siren while watching the camera’s live video feed.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "page_sha256": "d92592efc5172cad4a8d58750391a8f85269cbd104e2b4c14a154e819130aaa0",
+            "snippet_sha256": "dd3b58add6552a2117a53018a2ee43f55280ead63f00da5cd0e683529ad1e084",
+            "verified_at": "2026-11-26T04:22:41.022729+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ phạm vi áp dụng của bản cập nhật Google Home đối với các dòng thiết bị phần cứng giá rẻ trên thị trường. Đồng thời, văn bản phân tích rõ các điều kiện đi kèm như yêu cầu về gói thuê bao trả phí để giúp người đọc có cái nhìn khách quan về chi phí sử dụng thực tế.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-26T04:22:41.023284+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "30",
+      "35",
+      "77"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-26T04:23:54.537991+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 334,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1562,
+        "source_access": [
+          {
+            "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "bbc.com",
+          "engadget.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-26 11:23"
+  },
+  {
+    "id": "phat-hien-vat-the-bi-an-co-the-la-ho-en-nguyen-thuy-d0e55a0d",
+    "title": "Phát hiện vật thể bí ẩn có thể là hố đen nguyên thủy",
+    "summary": "Các nhà thiên văn học vừa ghi nhận một tín hiệu vi thấu kính hấp dẫn từ một vật thể mang tên Phoebe, mở ra khả năng đây là hố đen nguyên thủy hình thành ngay sau Vụ Nổ Lớn.",
+    "category": "technology",
+    "source_name": "ScienceDaily - All",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+    "published_at": "2026-11-26T02:00:33+00:00",
+    "fetched_at": "2026-11-26T04:23:38.736931+00:00",
+    "appnho_published_at": "2026-11-26T04:23:54.537991+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Các nhà thiên văn học tại Đại học Swinburne ở Melbourne vừa phân tích một tín hiệu bất thường ghi nhận vào ngày 18 tháng 12 năm 2019 từ một ngôi sao thuộc Đám mây Magellan Lớn. Tín hiệu này kéo dài khoảng một giờ, trong đó ngôi sao sáng dần lên trước khi trở lại trạng thái bình thường mà không hề xảy ra các vụ nổ hay lóe sáng đột ngột. Hiện tượng này được xác định là kết quả của vi thấu kính hấp dẫn, khi một vật thể vô hình di chuyển cắt ngang tầm nhìn từ Trái Đất và bẻ cong ánh sáng ngôi sao.",
+      "Vật thể bí ẩn này được đặt tên là Phoebe, nhưng bản chất thực sự của nó vẫn chưa được khẳng định chắc chắn. Các nhà nghiên cứu đã đưa ra ba giả thuyết chính, bao gồm một hành tinh lang thang bị đẩy khỏi hệ mặt trời nguyên gốc, một hành tinh tương tự nằm bên trong Đám mây Magellan Lớn, hoặc một hố đen nguyên thủy hình thành từ những khoảnh khắc đầu tiên của vũ trụ. Với thời gian sáng ngắn, các mô hình ước tính khối lượng của Phoebe chỉ nặng bằng khoảng ba lần Mặt Trăng, nhỏ hơn rất nhiều so với hố đen thông thường do sao sụp đổ.",
+      "Bên cạnh đó, qua quá trình so sánh quần thể, nhóm nghiên cứu tính toán rằng Phoebe có khả năng thuộc về quầng vật chất tối bao quanh cao gấp 100.000 lần so với các vật thể thuộc vật chất sao thông thường. Mặc dù điều này chưa thể khẳng định chắc chắn đây là một hố đen nguyên thủy, nhưng nếu giả thuyết này chính xác, Phoebe có thể là một trong những cổ vật 13 tỷ năm tuổi tồn tại từ trước khi các ngôi sao đầu tiên hình thành."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Phát hiện vật thể bí ẩn Phoebe: Hố đen nguyên thủy hay hành tinh",
+    "meta_description": "Tín hiệu vi thấu kính hấp dẫn kéo dài khoảng 60 phút từ một vật thể mang tên Phoebe đang thu hút sự chú ý của giới thiên văn học quốc tế.",
+    "keywords": [
+      "hố đen nguyên thủy",
+      "Phoebe",
+      "thiên văn học",
+      "vật chất tối",
+      "vi thấu kính hấp dẫn"
+    ],
+    "slug": "phat-hien-vat-the-bi-an-co-the-la-ho-en-nguyen-thuy-d0e55a0d",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 317,
+    "display_source": true,
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+      "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb"
+    ],
+    "source_links": [
+      "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb"
+    ],
+    "source_references": [
+      {
+        "name": "ScienceDaily - All",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+        "domain": "sciencedaily.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "sciencedaily.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-26T02:00:33+00:00"
+      },
+      {
+        "name": "The Guardian - World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
+        "domain": "theguardian.com",
+        "source_type": "Báo",
+        "source_family": "theguardian.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-20T06:51:54+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Vật thể Phoebe được phát hiện khi làm sáng một ngôi sao ở Đám mây Magellan Lớn vào ngày 18 tháng 12 năm 2019 trong khoảng một giờ.",
+        "source_urls": [
+          "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "On December 18, 2019, astronomers recorded something unusual happening to a star in the Large Magellanic Cloud, a satellite galaxy of the Milky Way.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "snippet": "On December 18, 2019, astronomers recorded something unusual happening to a star in the Large Magellanic Cloud, a satellite galaxy of the Milky Way.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "page_sha256": "4254aa429e7fb0fcc3380accfb1ed368da0a7f9169595ad7203dc849a8fce1c1",
+            "snippet_sha256": "43018166260cebab2da76d1bde674e738e0c74c664d3a8329dba8bcc5473be31",
+            "verified_at": "2026-11-26T04:23:38.736456+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Ước tính khối lượng của Phoebe chỉ khoảng ba lần so với Mặt Trăng.",
+        "source_urls": [
+          "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "If the primordial black hole interpretation is correct, Phoebe could be among the oldest objects ever detected.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "snippet": "If the primordial black hole interpretation is correct, Phoebe could be among the oldest objects ever detected.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "page_sha256": "4254aa429e7fb0fcc3380accfb1ed368da0a7f9169595ad7203dc849a8fce1c1",
+            "snippet_sha256": "afde8334c9de632143c2f69d6173db0f1705b0430206e44a208545d538a65458",
+            "verified_at": "2026-11-26T04:23:38.736456+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Kết quả tính toán cho thấy Phoebe có xác suất cao gấp khoảng 100.000 lần thuộc về quầng vật chất tối so với vật chất sao thông thường.",
+        "source_urls": [
+          "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "According to the team's calculations, Phoebe is approximately 100,000 times more likely to belong to this population than to one associated with ordinary stellar matter.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "snippet": "According to the team's calculations, Phoebe is approximately 100,000 times more likely to belong to this population than to one associated with ordinary stellar matter.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "page_sha256": "4254aa429e7fb0fcc3380accfb1ed368da0a7f9169595ad7203dc849a8fce1c1",
+            "snippet_sha256": "9395361eaf219398a469ca7213ec47eecf1088e6335ed1934621e538eff8b918",
+            "verified_at": "2026-11-26T04:23:38.736456+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết phân tích chi tiết dữ liệu tín hiệu vi thấu kính hấp dẫn kéo dài 60 phút từ vật thể Phoebe. Đồng thời, văn bản làm rõ ba giả thuyết khoa học và so sánh tỷ lệ thuộc về quầng vật chất tối theo công bố nghiên cứu.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-26T04:23:38.737009+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "100.000",
+      "13"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-26T04:23:54.537991+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 317,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1460,
+        "source_access": [
+          {
+            "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "sciencedaily.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-26 11:23"
+  },
+  {
+    "id": "nguyen-thuy-linh-lap-hat-trick-vo-ich-cau-long-tai-ai-hoi-the-thao-toan--d78250ee",
+    "title": "Nguyễn Thùy Linh lập hat-trick vô địch cầu lông tại Đại hội Thể thao toàn quốc",
+    "summary": "Tay vợt Nguyễn Thùy Linh vừa bảo vệ thành công tấm huy chương vàng đơn nữ tại Đại hội Thể thao toàn quốc 2026, đánh dấu lần thứ ba liên tiếp cô lên ngôi vô địch ở đấu trường này.",
+    "category": "sports",
+    "source_name": "Tuổi Trẻ - Tin mới",
+    "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+    "published_at": "2026-11-25T16:12:00+00:00",
+    "fetched_at": "2026-11-26T04:23:52.256166+00:00",
+    "appnho_published_at": "2026-11-26T04:23:54.537991+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Tối 25/11, tại nhà thi đấu Hồ Xuân Hương (TP.HCM), tay vợt Nguyễn Thùy Linh (Đồng Nai) đã xuất sắc giành huy chương vàng nội dung đơn nữ môn cầu lông trong khuôn khổ Đại hội Thể thao toàn quốc 2026. Chiến thắng này giúp cô hoàn tất cú hat-trick vô địch tại ba kỳ đại hội liên tiếp, khẳng định vị thế tay vợt số một Việt Nam hiện nay.",
+      "Trong trận chung kết được chờ đợi, Thùy Linh đối đầu với người đàn chị kỳ cựu Vũ Thị Trang (TP.HCM). Dù Vũ Thị Trang khởi đầu trận đấu đầy nỗ lực, Thùy Linh đã nhanh chóng lấy lại thế trận nhờ khả năng điều cầu khéo léo và chiến thuật hợp lý. Sau khi vượt lên dẫn trước ở set đầu, tay vợt 29 tuổi tiếp tục duy trì sự áp đảo trong set hai, khép lại trận đấu với tỉ số thuyết phục 2-0 (21-9, 21-10).",
+      "Chia sẻ sau khi bảo vệ thành công ngôi vương, Thùy Linh bày tỏ niềm hạnh phúc khi tiếp tục giữ vững phong độ tại đấu trường quốc nội. Về phía Vũ Thị Trang, tay vợt 34 tuổi cho biết cô cảm thấy tiếc nuối khi không thể giành huy chương vàng trên sân nhà. Cô cũng tiết lộ bản thân gặp chấn thương nhẹ ở chân từ sau nội dung thi đấu đồng đội diễn ra một tuần trước đó.",
+      "Cùng trong tối 25/11, bộ môn cầu lông tại Đại hội Thể thao toàn quốc 2026 cũng chứng kiến màn lội ngược dòng ấn tượng của Nguyễn Hải Đăng (TP.HCM). Đối đầu với đồng đội Phan Phúc Thịnh, Hải Đăng đã giành chiến thắng 2-1 (16-21, 21-12, 21-12) để bảo vệ thành công tấm huy chương vàng đơn nam. Kết quả này khép lại một ngày thi đấu thành công của các tay vợt hàng đầu Việt Nam tại kỳ đại hội năm nay."
+    ],
+    "generation_provider": "Gemini:gemini-3.1-flash-lite",
+    "seo_title": "Nguyễn Thùy Linh vô địch cầu lông Đại hội Thể thao toàn quốc 2026",
+    "meta_description": "Nguyễn Thùy Linh giành huy chương vàng đơn nữ môn cầu lông tại Đại hội Thể thao toàn quốc 2026 sau khi đánh bại Vũ Thị Trang trong trận chung kết.",
+    "keywords": [
+      "Nguyễn Thùy Linh",
+      "cầu lông",
+      "Đại hội Thể thao toàn quốc 2026",
+      "Vũ Thị Trang",
+      "huy chương vàng"
+    ],
+    "slug": "nguyen-thuy-linh-lap-hat-trick-vo-ich-cau-long-tai-ai-hoi-the-thao-toan--d78250ee",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 324,
+    "display_source": true,
+    "source_urls": [
+      "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+      "https://thanhnien.vn/nguyen-thuy-linh-danh-bai-vu-thi-trang-lan-thu-3-lien-tiep-vo-dich-don-nu-cau-long-dai-hoi-18526112522143781.htm",
+      "https://dantri.com.vn/thoi-su/ha-noi-tam-cam-nhieu-tuyen-duong-phuc-vu-hoi-nghi-cap-cao-quoc-te-20261125221031848.htm"
+    ],
+    "source_links": [
+      "https://thanhnien.vn/nguyen-thuy-linh-danh-bai-vu-thi-trang-lan-thu-3-lien-tiep-vo-dich-don-nu-cau-long-dai-hoi-18526112522143781.htm",
+      "https://dantri.com.vn/thoi-su/ha-noi-tam-cam-nhieu-tuyen-duong-phuc-vu-hoi-nghi-cap-cao-quoc-te-20261125221031848.htm"
+    ],
+    "source_references": [
+      {
+        "name": "Tuổi Trẻ - Tin mới",
+        "url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+        "domain": "tuoitre.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "tuoitre.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-25T16:12:00+00:00"
+      },
+      {
+        "name": "Thanh Niên - Tin mới",
+        "url": "https://thanhnien.vn/nguyen-thuy-linh-danh-bai-vu-thi-trang-lan-thu-3-lien-tiep-vo-dich-don-nu-cau-long-dai-hoi-18526112522143781.htm",
+        "domain": "thanhnien.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "thanhnien.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-25T15:17:00+00:00"
+      },
+      {
+        "name": "Dân Trí - Tin mới",
+        "url": "https://dantri.com.vn/thoi-su/ha-noi-tam-cam-nhieu-tuyen-duong-phuc-vu-hoi-nghi-cap-cao-quoc-te-20261125221031848.htm",
+        "domain": "dantri.com.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "dantri.com.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-25T15:17:11+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Nguyễn Thùy Linh giành huy chương vàng đơn nữ tại Đại hội Thể thao toàn quốc 2026 sau khi thắng Vũ Thị Trang 2-0.",
+        "source_urls": [
+          "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Tối 25-11, tại chung kết đơn nữ môn cầu lông Đại hội Thể thao toàn quốc 2026, Nguyễn Thùy Linh vượt qua người đàn chị kỳ cựu Vũ Thị Trang để giành huy chương vàng.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "snippet": "Tối 25-11, tại chung kết đơn nữ môn cầu lông Đại hội Thể thao toàn quốc 2026, Nguyễn Thùy Linh vượt qua người đàn chị kỳ cựu Vũ Thị Trang để giành huy chương vàng.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "page_sha256": "dc1388357b038efd23611c133fa0a69397a3058034d39295479c0abf59eb11f8",
+            "snippet_sha256": "d0868d6edbeba93ae58e3c98138ca81f9f9452c75943eeb620a8b3a26c6640c8",
+            "verified_at": "2026-11-26T04:23:52.255703+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Đây là lần thứ 3 liên tiếp Nguyễn Thùy Linh vô địch nội dung đơn nữ tại Đại hội Thể thao toàn quốc.",
+        "source_urls": [
+          "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Kết quả này giúp Thùy Linh có lần thứ 3 liên tiếp vô địch nội dung đơn nữ môn cầu lông tại Đại hội Thể thao toàn quốc.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "snippet": "Kết quả này giúp Thùy Linh có lần thứ 3 liên tiếp vô địch nội dung đơn nữ môn cầu lông tại Đại hội Thể thao toàn quốc.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "page_sha256": "dc1388357b038efd23611c133fa0a69397a3058034d39295479c0abf59eb11f8",
+            "snippet_sha256": "0ac2f8a8783587070208e5bed9e4e3a3ec9441758973281cb2c893a65841b2d4",
+            "verified_at": "2026-11-26T04:23:52.255703+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Nguyễn Hải Đăng giành huy chương vàng đơn nam sau khi thắng Phan Phúc Thịnh với tỉ số 2-1.",
+        "source_urls": [
+          "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Tại đây, tay vợt số 1 Việt Nam là Nguyễn Hải Đăng lội ngược dòng kịch tính trước Phan Phúc Thịnh với tỉ số 2-1 (16-21, 21-12, 21-12) để bảo vệ tấm huy chương vàngĐại hội Thể thao toàn quốc.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "snippet": "Tại đây, tay vợt số 1 Việt Nam là Nguyễn Hải Đăng lội ngược dòng kịch tính trước Phan Phúc Thịnh với tỉ số 2-1 (16-21, 21-12, 21-12) để bảo vệ tấm huy chương vàngĐại hội Thể thao toàn quốc.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "page_sha256": "dc1388357b038efd23611c133fa0a69397a3058034d39295479c0abf59eb11f8",
+            "snippet_sha256": "81a76164a9202b753095cf3a81adedb2fb649baae7994341626a0a724818f6ba",
+            "verified_at": "2026-11-26T04:23:52.255703+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ cột mốc hat-trick vô địch của Nguyễn Thùy Linh trong bối cảnh đối đầu với tay vợt kỳ cựu Vũ Thị Trang. Đồng thời, bài cung cấp thông tin bổ trợ về diễn biến trận chung kết đơn nam để độc giả có cái nhìn toàn diện về kết quả môn cầu lông tại đại hội.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-26T04:23:52.256243+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "2026",
+      "29",
+      "34"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-26T04:23:54.537991+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 324,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1492,
+        "source_access": [
+          {
+            "url": "https://tuoitre.vn/thuy-linh-lap-hat-trick-vo-dich-cau-long-dai-hoi-the-thao-toan-quoc-100261125230043942.htm",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "tuoitre.vn"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-26 11:23"
+  },
+  {
+    "id": "phan-ung-trai-chieu-quanh-man-bieu-dien-giua-tran-cua-u2-trong-tran-au-e-17be5de3",
+    "title": "Phản ứng trái chiều quanh màn biểu diễn giữa trận của U2 trong trận đấu đêm trước Lễ Tạ ơn của NFL",
+    "summary": "Ban nhạc rock huyền thoại U2 đã có màn biểu diễn giải trí giữa trận trong trận đấu đêm trước Lễ Tạ ơn đầu tiên của NFL giữa Green Bay Packers và Los Angeles Rams tại Sân vận động SoFi, thu hút nhiều ý kiến khen chê khác nhau từ người hâm mộ.",
+    "category": "sports",
+    "source_name": "Sporting News - Soccer",
+    "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+    "published_at": "2026-11-26T03:16:00+00:00",
+    "fetched_at": "2026-11-26T03:49:50.546551+00:00",
+    "appnho_published_at": "2026-11-26T04:23:54.537991+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Trận đấu đêm trước Lễ Tạ ơn đầu tiên trong lịch sử NFL giữa Green Bay Packers và Los Angeles Rams tại Sân vận động SoFi không chỉ thu hút sự chú ý bởi cục diện trên sân mà còn bởi sự xuất hiện của ban nhạc rock huyền thoại U2 trong phần giải trí giữa trận. Ban tổ chức đã kéo dài thời gian nghỉ giữa hai hiệp thêm sáu phút so với thông thường để phục vụ cho màn trình diễn đặc biệt này.",
+      "Trong thời lượng ngắn ngủi trên sân, ban nhạc đã mở màn với ca khúc \"Sunday Bloody Sunday\", tiếp tục mang đến các nhạc phẩm như \"Pride (In the Name of Love)\" với sự góp mặt của nhóm khách mời The Womack Sisters. Họ cũng biểu diễn bài hát \"Torn\" hợp tác cùng cố nghệ sĩ Dolly Parton, kèm theo đoạn ghi âm phần thể hiện của bà để tưởng nhớ nữ danh ca.",
+      "Màn trình diễn nhanh chóng vấp phải những luồng ý kiến trái chiều trên các nền tảng mạng xã hội. Một bộ phận khán giả bày tỏ sự thích thú, ca ngợi đây là một trong những màn giải trí giữa trận hấp dẫn nhất của mùa giải thông thường và đánh giá cao bầu không khí do ban nhạc mang lại tại sân vận động.",
+      "Ngược lại, một số người xem khác lại tỏ ra hoài nghi về sự cần thiết của một buổi hòa nhạc quy mô lớn trong một trận đấu mùa giải thông thường diễn ra vào tối thứ Tư, hoặc phàn nàn rằng chương trình có phần tẻ nhạt. Khi chương trình khép lại vào lúc 10 giờ tối, một số ca khúc quen thuộc như \"Beautiful Day\" hay \"With or Without You\" đã không xuất hiện trong danh sách biểu diễn."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Phản ứng về màn trình diễn giữa trận của U2 tại NFL Thanksgiving Eve",
+    "meta_description": "Khám phá các đánh giá tốt và xấu về màn biểu diễn giữa trận của ban nhạc U2 trong trận đấu đêm trước Lễ Tạ ơn đầu tiên trong lịch sử NFL.",
+    "keywords": [
+      "U2",
+      "NFL",
+      "Thanksgiving Eve",
+      "SoFi Stadium",
+      "halftime show"
+    ],
+    "slug": "phan-ung-trai-chieu-quanh-man-bieu-dien-giua-tran-cua-u2-trong-tran-au-e-17be5de3",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 307,
+    "display_source": true,
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+      "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+      "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming"
+    ],
+    "source_links": [
+      "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+      "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming"
+    ],
+    "source_references": [
+      {
+        "name": "Sporting News - Soccer",
+        "url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+        "domain": "sportingnews.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "sportingnews.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-26T03:16:00+00:00"
+      },
+      {
+        "name": "ESPN - Top News",
+        "url": "https://www.espn.com/nfl/story/_/id/50582822/thanksgiving-games-picks-schedule-fantasy-odds-2026",
+        "domain": "espn.com",
+        "source_type": "Báo thể thao",
+        "source_family": "espn.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-25T13:03:22+00:00"
+      },
+      {
+        "name": "Engadget - All",
+        "url": "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming",
+        "domain": "engadget.com",
+        "source_type": "Chưa phân loại",
+        "source_family": "engadget.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "not_listed",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-25T10:00:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Ban nhạc U2 biểu diễn giải trí giữa trận trong trận đấu đêm trước Lễ Tạ ơn giữa Green Bay Packers và Los Angeles Rams tại Sân vận động SoFi.",
+        "source_urls": [
+          "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862"
+        ],
+        "importance": "core",
+        "evidence_snippet": "The Sporting News tracked live updates and reviews from U2's halftime performance at the NFL's Thanksgiving Eve game between the Rams and Packers.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "snippet": "The Sporting News tracked live updates and reviews from U2's halftime performance at the NFL's Thanksgiving Eve game between the Rams and Packers.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "page_sha256": "faa5bb93fa27d30536679d102e890d4cff5d1579eea2295987dd54d5841806d3",
+            "snippet_sha256": "fe032088c976a785deb13c5e5fca9c822a44ed0b9bf9a491a3e3d0becbfd9d20",
+            "verified_at": "2026-11-26T03:49:50.545878+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Thời gian nghỉ giữa hai hiệp dài hơn sáu phút so với bình thường để phục vụ sân khấu của U2.",
+        "source_urls": [
+          "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "9:52 p.m.— It's Wednesday, but U2 opens with \"Sunday Bloody Sunday.\"",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "snippet": "9:52 p.m.— It's Wednesday, but U2 opens with \"Sunday Bloody Sunday.\"",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "page_sha256": "faa5bb93fa27d30536679d102e890d4cff5d1579eea2295987dd54d5841806d3",
+            "snippet_sha256": "438b6e09ae7c3904cfa95752426f5090c7cb2eff20493f60383e60084ecb2564",
+            "verified_at": "2026-11-26T03:49:50.545878+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "U2 biểu diễn các bài hát gồm Sunday Bloody Sunday, Pride (In the Name of Love) với The Womack Sisters, và Torn tưởng nhớ Dolly Parton.",
+        "source_urls": [
+          "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862"
+        ],
+        "importance": "core",
+        "evidence_snippet": "9:53 p.m.— U2 brings out The Womack Sisters as a guest, weaving in their song \"Pride (In the Name of Love).",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "snippet": "9:53 p.m.— U2 brings out The Womack Sisters as a guest, weaving in their song \"Pride (In the Name of Love).",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "page_sha256": "faa5bb93fa27d30536679d102e890d4cff5d1579eea2295987dd54d5841806d3",
+            "snippet_sha256": "d563d9ec83fa97c6c4311c5a6beb4d37b513e5a25297036e36c4ac2b10c1193b",
+            "verified_at": "2026-11-26T03:49:50.545878+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ các phản ứng trái chiều của công chúng đối với màn trình diễn của U2. Đồng thời, văn bản cung cấp chi tiết về thời lượng chương trình và danh sách bài hát.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-26T03:49:50.546632+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "10",
+      "2"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-26T04:23:54.537991+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 307,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1414,
+        "source_access": [
+          {
+            "url": "https://www.sportingnews.com/us/nfl/news/u2-halftime-show-live-updates-reviews/4013d70e9d359c1cffab6862",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "engadget.com",
+          "espn.com",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-26 11:23"
   }
 ]
