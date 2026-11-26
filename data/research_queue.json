@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "5d3069414508a45ae413",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T18:41:31.112365+00:00",
     "expires_at": "2026-11-29T18:39:54.497380+00:00",
     "category_hint": "technology",
@@ -652,11 +652,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T18:41:31.112389+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "google-yeu-cau-lap-trinh-vien-android-cong-khai-ia-chi-e-tuan-thu-quy-in-6f4fd08b"
   },
   {
     "queue_id": "ed82e13954e90e15ead9",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T18:41:28.510956+00:00",
     "expires_at": "2026-11-29T18:39:54.497380+00:00",
     "category_hint": "sports",
@@ -1545,11 +1546,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T18:41:28.510980+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "george-russell-ha-nhiet-mau-thuan-voi-max-verstappen-fda64351"
   },
   {
     "queue_id": "2971c08baa9ce2fa8371",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T18:41:26.814082+00:00",
     "expires_at": "2026-11-29T18:39:54.497380+00:00",
     "category_hint": "world",
@@ -2113,7 +2115,8 @@
       ]
     },
     "research_ready_at": "2026-11-26T18:41:26.814111+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toa-an-toi-cao-puerto-rico-mo-uong-cho-viec-thay-the-nha-van-hanh-luoi-i-272f89d9"
   },
   {
     "queue_id": "e19735090565cab5dbfb",
@@ -92737,5 +92740,654 @@
     },
     "published_at": "2026-11-24T15:23:25.017642+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "google-yeu-cau-lap-trinh-vien-android-cong-khai-ia-chi-e-tuan-thu-quy-in-6f4fd08b",
+    "status": "READY",
+    "prepared_at": "2026-11-26T18:42:02.887822+00:00",
+    "expires_at": "2026-11-27T18:42:02.887822+00:00",
+    "source_urls": [
+      "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "https://www.skysports.com/f1/news/12040/13615090/qatar-gp-explaining-2026-tyre-limit-rule-and-what-impact-it-will-have-on-f1-race-weekend-at-lusail-international-circuit",
+      "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook"
+    ],
+    "article": {
+      "id": "google-yeu-cau-lap-trinh-vien-android-cong-khai-ia-chi-e-tuan-thu-quy-in-6f4fd08b",
+      "title": "Google yêu cầu lập trình viên Android công khai địa chỉ để tuân thủ quy định EU",
+      "summary": "Chính sách mới của Google yêu cầu nhiều nhà phát triển ứng dụng Android độc lập phải công khai số điện thoại và địa chỉ cá nhân trên toàn cầu từ năm tới nhằm đáp ứng Luật Dịch vụ Kỹ thuật số của Liên minh Châu Âu.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "published_at": "2026-11-26T18:19:32+00:00",
+      "fetched_at": "2026-11-26T18:42:15.613504+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nhiều nhà phát triển ứng dụng Android độc lập đang bày tỏ sự lo ngại sâu sắc về vấn đề quyền riêng tư sau khi Google thông báo về một sự thay đổi chính sách lớn. Bắt đầu từ năm tới, nhiều lập trình viên sẽ phải tuân thủ yêu cầu chia sẻ công khai số điện thoại và địa chỉ cá nhân trên nền tảng trực tuyến.",
+        "Quy định mới này được giới thiệu nhằm đáp ứng các yêu cầu pháp lý của Liên minh Châu Âu dưới sự quản lý của Luật Dịch vụ Kỹ thuật số. Tuy nhiên, điều đáng chú ý là Google tuyên bố các thông tin liên hệ này sẽ được công khai hiển thị trên phạm vi toàn cầu chứ không chỉ giới hạn trong khu vực châu Âu.",
+        "Theo thời hạn được ấn định, các nhà phát triển có thời gian đến ngày 1 tháng 2 năm 2027 để tự khai báo xem họ có phải là \"thương nhân\" theo luật pháp Vương quốc Anh và châu Âu hay không. Định nghĩa này nhìn chung áp dụng đối với những cá nhân kiếm doanh thu từ ứng dụng, đặc biệt là khi nguồn thu đó mang tính thường xuyên hoặc có khối lượng lớn. Những người chỉ phát triển ứng dụng như một sở thích phi thương mại hoặc không phát hành sản phẩm tại Anh và châu Âu sẽ được miễn trừ.",
+        "Nếu tự xác định là thương nhân, thông tin liên hệ của nhà phát triển sẽ được công bố công khai bắt đầu từ ngày 1 tháng 3, bao gồm cả địa chỉ thực tế. Đáng nói, Google không chấp nhận sử dụng hộp thư bưu điện cho địa chỉ hồ sơ thanh toán của nhà phát triển. Điều này đẩy nhiều lập trình viên độc lập không có văn phòng riêng vào tình thế khó khăn: họ buộc phải chia sẻ địa chỉ nhà riêng trực tuyến hoặc tốn chi phí thuê dịch vụ đại lý đăng ký để có địa chỉ kinh doanh hợp lệ.",
+        "Trong khi đó, Apple dù chịu sự chi phối của cùng một bộ quy định châu Âu nhưng lại chọn cách xử lý có phần linh hoạt và bảo vệ quyền riêng tư tốt hơn cho lập trình viên. Apple chỉ hiển thị địa chỉ của nhà phát triển trong phạm vi các quốc gia châu Âu có liên quan thay vì phát hành rộng rãi trên toàn cầu, đồng thời cho phép sử dụng hộp thư bưu điện với điều kiện cung cấp hóa đơn liên kết."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Google yêu cầu nhà phát triển Android công khai địa chỉ theo quy định ",
+      "meta_description": "Chính sách mới của Google khiến nhiều nhà phát triển ứng dụng độc lập lo ngại về quyền riêng tư khi phải công khai thông tin liên hệ.",
+      "keywords": [
+        "Google",
+        "Android",
+        "Luật Dịch vụ Kỹ thuật số",
+        "Châu Âu",
+        "nhà phát triển ứng dụng"
+      ],
+      "slug": "google-yeu-cau-lap-trinh-vien-android-cong-khai-ia-chi-e-tuan-thu-quy-in-6f4fd08b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 436,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+        "https://www.skysports.com/f1/news/12040/13615090/qatar-gp-explaining-2026-tyre-limit-rule-and-what-impact-it-will-have-on-f1-race-weekend-at-lusail-international-circuit",
+        "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook"
+      ],
+      "source_links": [
+        "https://www.skysports.com/f1/news/12040/13615090/qatar-gp-explaining-2026-tyre-limit-rule-and-what-impact-it-will-have-on-f1-race-weekend-at-lusail-international-circuit",
+        "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T18:19:32+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/f1/news/12040/13615090/qatar-gp-explaining-2026-tyre-limit-rule-and-what-impact-it-will-have-on-f1-race-weekend-at-lusail-international-circuit",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T06:00:00+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T13:59:06+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Google yêu cầu nhà phát triển Android công khai số điện thoại và địa chỉ từ năm tới để đáp ứng Luật Dịch vụ Kỹ thuật số của EU nhưng áp dụng toàn cầu.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "snippet": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "page_sha256": "654825f478b2e54b6e5fdb5f3eb989cb6d82e9feb998ac7e4568b24d03582db8",
+              "snippet_sha256": "a75e3f06b9a06d8a652fb1ebdadc39eba7e57b87d3198dfb0a43f77278bd4521",
+              "verified_at": "2026-11-26T18:42:15.612940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hạn chót để nhà phát triển khai báo là ngày 1 tháng 2 năm 2027 và thông tin sẽ công khai từ ngày 1 tháng 3 nếu là thương nhân.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Developers have until February 1st 2027 to declare whether or not they’re a “trader” under UK and European law.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "snippet": "Developers have until February 1st 2027 to declare whether or not they’re a “trader” under UK and European law.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "page_sha256": "654825f478b2e54b6e5fdb5f3eb989cb6d82e9feb998ac7e4568b24d03582db8",
+              "snippet_sha256": "6772f45224850bfcfdc4c3ee8bd4df69d0973a46f232fafd6b4cb97e43161355",
+              "verified_at": "2026-11-26T18:42:15.612940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Google không chấp nhận hộp thư bưu điện, khiến nhà phát triển phải dùng địa chỉ nhà hoặc thuê đại lý kinh doanh.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Samsung’s R95H TV shows what RGB LED is capable ofX is finally getting its first parental controlsNow Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera tooAmazon loses its latest attempt to get out of handling more recall noticesGoogle’s patent for custom AI video feeds paints a bleak picture of entertainment’s futureWhatsApp’s new scheduled messages let you choose the right time to sendSamsung’s R95H TV shows what RGB LED is capable ofJohn Higgins2:00 PM UTCX is finally getting its first parental controlsTom Warren10:45 AM UTCNow Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera tooStevie Bonifield12:04 AM UTCAmazon loses its latest attempt to get out of handling more recall noticesEmma RothNov 25Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s futureCharles Pulliam-MooreNov 25WhatsApp’s new scheduled",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "snippet": "Samsung’s R95H TV shows what RGB LED is capable ofX is finally getting its first parental controlsNow Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera tooAmazon loses its latest attempt to get out of handling more recall noticesGoogle’s patent for custom AI video feeds paints a bleak picture of entertainment’s futureWhatsApp’s new scheduled messages let you choose the right time to sendSamsung’s R95H TV shows what RGB LED is capable ofJohn Higgins2:00 PM UTCX is finally getting its first parental controlsTom Warren10:45 AM UTCNow Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera tooStevie Bonifield12:04 AM UTCAmazon loses its latest attempt to get out of handling more recall noticesEmma RothNov 25Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s futureCharles Pulliam-MooreNov 25WhatsApp’s new scheduled",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "page_sha256": "654825f478b2e54b6e5fdb5f3eb989cb6d82e9feb998ac7e4568b24d03582db8",
+              "snippet_sha256": "aa32d7ff75550efe5d83317c214b100aed8ca396f987faeb0d3477742f6b51fb",
+              "verified_at": "2026-11-26T18:42:15.612940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Apple áp dụng quy định này bằng cách chỉ hiển thị địa chỉ trong EU và cho phép dùng hộp thư bưu điện kèm hóa đơn xác thực.",
+          "source_urls": [
+            "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "It’s also allowing developers to supply PO box addresses, so long as they provide Apple with a receipt or bill that links the PO box to their regular address.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "snippet": "It’s also allowing developers to supply PO box addresses, so long as they provide Apple with a receipt or bill that links the PO box to their regular address.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+              "page_sha256": "654825f478b2e54b6e5fdb5f3eb989cb6d82e9feb998ac7e4568b24d03582db8",
+              "snippet_sha256": "1deb9b27e054b76690ae336b7c5efe1043881644bf69db630deaf725d9e6ee02",
+              "verified_at": "2026-11-26T18:42:15.612940+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ tác động trực tiếp của quy định pháp lý châu Âu đối với nhà phát triển ứng dụng độc lập toàn cầu. Đồng thời, văn bản tiến hành so sánh cách tiếp cận khác biệt giữa Google và Apple trong việc thực thi chính sách bảo mật.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T18:42:15.613604+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-26T18:42:15.614748+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 436,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1949
+        },
+        "independent_domains": [
+          "engadget.com",
+          "skysports.com",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "george-russell-ha-nhiet-mau-thuan-voi-max-verstappen-fda64351",
+    "status": "READY",
+    "prepared_at": "2026-11-26T18:42:02.887822+00:00",
+    "expires_at": "2026-11-27T18:42:02.887822+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+      "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+      "https://www.skysports.com/f1/news/12040/13616749/george-russell-admits-feud-with-max-verstappen-is-avoidable-and-unnecessary-ahead-of-qatar-grand-prix"
+    ],
+    "article": {
+      "id": "george-russell-ha-nhiet-mau-thuan-voi-max-verstappen-fda64351",
+      "title": "George Russell hạ nhiệt mâu thuẫn với Max Verstappen",
+      "summary": "Tay đua George Russell của Mercedes cho biết anh không muốn tiếp tục cuộc tranh cãi với Max Verstappen sau chặng Las Vegas Grand Prix, đồng thời thừa nhận những lời chỉ trích từ đối thủ mang tính giải trí.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+      "published_at": "2026-11-26T18:32:25+00:00",
+      "fetched_at": "2026-11-26T18:42:25.319611+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trước thềm chặng đua Qatar Grand Prix, tay đua George Russell của đội Mercedes đã lên tiếng hạ nhiệt mối quan hệ căng thẳng với Max Verstappen sau những va chạm và lời qua tiếng lại tại chặng Las Vegas Grand Prix vừa qua.",
+        "Sự việc bắt đầu từ buổi tập luyện tại Las Vegas khi hai tay đua va chạm trên đường đua, khiến Russell đưa ra những bình luận chỉ trích gay gắt. Sau đó, Verstappen đã giành chiến thắng chung cuộc và đưa ra nhận định rằng tay đua người Anh ở mức dưới đẳng cấp của anh.",
+        "Dù vậy, khi trả lời truyền thông trước chặng đua sắp tới tại Qatar, Russell cho biết anh không có ý định kéo dài sự kình địch này và nhìn nhận những phát biểu của đối thủ một cách tích cực hơn. Anh chia sẻ rằng bản thân cảm thấy khá buồn cười trước những lời chích ngừa sau cuộc đua từ tay đua của Red Bull.",
+        "Russell giải thích rằng Verstappen hoàn toàn có quyền đưa ra phát biểu đó vì đã giành chiến thắng trong chặng đua, trong khi anh mắc lỗi ở những vòng cuối và chỉ về đích ở vị trí thứ chín. Tay đua Mercedes nhấn mạnh rằng anh vẫn giữ sự tôn trọng lớn đối với tài năng và những thành tựu mà Verstappen đạt được trên đường đua.",
+        "Bên cạnh đó, Russell thừa nhận anh đã rút ra bài học về cách giao tiếp với truyền thông sau sự việc này. Anh cho rằng việc quá cởi mở và thành thật đôi khi khiến thông điệp bị phóng đại khi truyền tải qua các phương tiện truyền thông đến hàng triệu khán giả truyền hình.",
+        "Mặc dù khẳng định không có mục tiêu trở thành bạn thân với bất kỳ ai trên đường đua, tay đua của Mercedes cho biết anh muốn tập trung hoàn toàn vào việc cạnh tranh chuyên môn thay vì vướng vào một cuộc chiến ngôn từ ngoài đường đua trong phần còn lại của mùa giải."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "George Russell hạ nhiệt mâu thuẫn với Max Verstappen trước Qatar GP",
+      "meta_description": "Tay đua George Russell chia sẻ về những tranh cãi với Max Verstappen sau Las Vegas Grand Prix và hướng tới chặng Qatar GP.",
+      "keywords": [
+        "George Russell",
+        "Max Verstappen",
+        "F1",
+        "Qatar Grand Prix",
+        "Las Vegas Grand Prix"
+      ],
+      "slug": "george-russell-ha-nhiet-mau-thuan-voi-max-verstappen-fda64351",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 349,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+        "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/f1/news/12040/13616749/george-russell-admits-feud-with-max-verstappen-is-avoidable-and-unnecessary-ahead-of-qatar-grand-prix"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+        "https://www.skysports.com/f1/news/12040/13616749/george-russell-admits-feud-with-max-verstappen-is-avoidable-and-unnecessary-ahead-of-qatar-grand-prix"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T18:32:25+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T16:10:58+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/f1/news/12040/13616749/george-russell-admits-feud-with-max-verstappen-is-avoidable-and-unnecessary-ahead-of-qatar-grand-prix",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T15:55:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "George Russell khẳng định không có ý định tiếp tục tranh cãi với Max Verstappen và xem những bình luận sau chặng Las Vegas Grand Prix là khá buồn cười.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "George Russell has said Max Verstappen can \"say what he wants\" and explained he found the Red Bull driver's criticisms of him after the Las Vegas Grand Prix \"quite amusing\".",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+              "snippet": "George Russell has said Max Verstappen can \"say what he wants\" and explained he found the Red Bull driver's criticisms of him after the Las Vegas Grand Prix \"quite amusing\".",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "43a5899422457031afb06ea3e4222b292a9dfd1e7f1bfb4f0966d497ab21a2e2",
+              "snippet_sha256": "875dc9b67818b0d480682e58096eddd4b786bbcf8e84d376bf7aa88201dcce0e",
+              "verified_at": "2026-11-26T18:42:25.319263+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Max Verstappen từng chỉ trích Russell sau khi giành chiến thắng tại Las Vegas Grand Prix, trong khi Russell kết thúc ở vị trí thứ chín do sự cố ở những vòng cuối.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe"
+          ],
+          "importance": "core",
+          "evidence_snippet": "View image in fullscreenRed Bull’s Max Verstappen ahead of George Russell during the Las Vegas Grand Prix.Photograph: Bradley Collyer/PA",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+              "snippet": "View image in fullscreenRed Bull’s Max Verstappen ahead of George Russell during the Las Vegas Grand Prix.Photograph: Bradley Collyer/PA",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/26/ill-do-my-talking-on-the-track-says-russell-after-verstappen-jibe",
+              "page_sha256": "7408db8c4b57048b55cfed8e9a8c6404039cdf19a347d58b115a8dd4d28f6de1",
+              "snippet_sha256": "be8b1781b25adb738ba1a16bf91b50b5ad9fcd3c6f65ba752238d7f2dffc2b10",
+              "verified_at": "2026-11-26T18:42:25.319263+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Russell thừa nhận anh có thể đã quá cởi mở với truyền thông và rút ra bài học cần thiết về cách phát biểu trước công chúng.",
+          "source_urls": [
+            "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Asked whether he wanted to pursue reconciliation with Dutchman Verstappen, Russell said: \"We're all competitors out there.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+              "snippet": "Asked whether he wanted to pursue reconciliation with Dutchman Verstappen, Russell said: \"We're all competitors out there.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c5lykr98yd88o?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "43a5899422457031afb06ea3e4222b292a9dfd1e7f1bfb4f0966d497ab21a2e2",
+              "snippet_sha256": "960e607ed6ae7d9de1a958e8a98bf81511b830ef61e144870b06d53c816aae02",
+              "verified_at": "2026-11-26T18:42:25.319263+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết phân tích góc nhìn của George Russell về mối quan hệ với Max Verstappen trước thềm Qatar GP. Làm rõ nguyên nhân hạ nhiệt căng thẳng và bài học truyền thông của tay đua Mercedes sau Las Vegas GP.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T18:42:25.319685+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-26T18:42:25.320587+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 6,
+          "words": 349,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1652
+        },
+        "independent_domains": [
+          "bbc.com",
+          "skysports.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "toa-an-toi-cao-puerto-rico-mo-uong-cho-viec-thay-the-nha-van-hanh-luoi-i-272f89d9",
+    "status": "READY",
+    "prepared_at": "2026-11-26T18:42:02.887822+00:00",
+    "expires_at": "2026-11-27T18:42:02.887822+00:00",
+    "source_urls": [
+      "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+      "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy"
+    ],
+    "article": {
+      "id": "toa-an-toi-cao-puerto-rico-mo-uong-cho-viec-thay-the-nha-van-hanh-luoi-i-272f89d9",
+      "title": "Tòa án Tối cao Puerto Rico mở đường cho việc thay thế nhà vận hành lưới điện",
+      "summary": "Tòa án Tối cao Puerto Rico phán quyết cho phép thống đốc chấm dứt hợp đồng với LUMA Energy, công ty tư nhân quản lý lưới điện trong 5 năm qua, do vi phạm quy trình thủ tục pháp lý.",
+      "category": "world",
+      "source_name": "NPR - News",
+      "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+      "published_at": "2026-11-26T09:44:20+00:00",
+      "fetched_at": "2026-11-26T18:42:31.764266+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tòa án Tối cao Puerto Rico vừa đưa ra phán quyết mang tính bước ngoặt, cho phép chính quyền tiểu bang chấm dứt hợp đồng với LUMA Energy - công ty tư nhân đảm nhận việc vận hành lưới điện trên đảo trong suốt 5 năm qua. Quyết định pháp lý này xuất phát từ các căn cứ thủ tục, khi tòa án xác định các quan chức đã không tuân thủ đúng những quy định địa phương khi phê duyệt các thỏa thuận với doanh nghiệp này.",
+        "Theo phán quyết, hợp đồng hiện tại của LUMA Energy bị tuyên bố vô hiệu, đồng thời chính quyền địa phương có thời hạn một năm để tìm kiếm và đưa vào hoạt động một nhà vận hành mới thông qua hình thức đấu thầu công khai. Thống đốc Jenniffer Gonzalez-Colon hoan nghênh quyết định trên và khẳng định công tác chuẩn bị cho quá trình chuyển đổi sẽ được triển khai ngay lập tức.",
+        "Trong khi đó, LUMA Energy cho biết đang xem xét các lựa chọn pháp lý và có thời hạn 10 ngày để yêu cầu tòa án xem xét lại phán quyết. Công ty này trước đó nhiều lần lập luận rằng hệ thống lưới điện tiếp nhận ban đầu vốn đã xuống cấp nghiêm trọng và họ không phải là bên duy nhất chịu trách nhiệm cho tình trạng mất điện kéo dài.",
+        "Hội đồng giám sát liên bang - cơ quan được Quốc hội thành lập cách đây một thập kỷ để giải quyết vấn đề phá sản của Puerto Rico - đã lên tiếng chỉ trích quyết định chấm dứt hợp đồng khi chưa có sẵn đơn vị thay thế. Cơ quan này bày tỏ lo ngại về nguy cơ ảnh hưởng đến sự liên tục của dịch vụ cung cấp điện cho người dân trên đảo."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Puerto Rico chấm dứt hợp đồng vận hành lưới điện với LUMA Energy",
+      "meta_description": "Tòa án Tối cao Puerto Rico ra phán quyết vô hiệu hóa hợp đồng của LUMA Energy, trao thời gian một năm để tìm nhà vận hành lưới điện mới.",
+      "keywords": [
+        "Puerto Rico",
+        "LUMA Energy",
+        "lưới điện",
+        "Thống đốc",
+        "tòa án tối cao"
+      ],
+      "slug": "toa-an-toi-cao-puerto-rico-mo-uong-cho-viec-thay-the-nha-van-hanh-luoi-i-272f89d9",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 312,
+      "display_source": true,
+      "source_urls": [
+        "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+        "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy"
+      ],
+      "source_references": [
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T09:44:20+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T01:00:13+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tòa án Tối cao Puerto Rico phán quyết cho phép thống đốc chấm dứt hợp đồng với LUMA Energy do không tuân thủ các yêu cầu địa phương khi phê duyệt.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Court lets Puerto Rico governor fire firm that runs the island's troubled power gridLUMA Energy took over the electric grid five years ago.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "snippet": "Court lets Puerto Rico governor fire firm that runs the island's troubled power gridLUMA Energy took over the electric grid five years ago.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "page_sha256": "2827fc3616d1010dbfbac9ed09e929c8ae2c23e4d0cfdb66abc5d8ffcc98b828",
+              "snippet_sha256": "d2f26de3cb059dfa75da458815fd1d2c1b3b995ac602f5102459d1024afff55f",
+              "verified_at": "2026-11-26T18:42:31.763874+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "LUMA Energy tiếp quản lưới điện từ năm 2021 theo thỏa thuận 15 năm và phán quyết mới cho chính quyền một năm để tìm nhà vận hành thay thế qua đấu thầu.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid"
+          ],
+          "importance": "core",
+          "evidence_snippet": "LUMA took over in 2021.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "snippet": "LUMA took over in 2021.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "page_sha256": "2827fc3616d1010dbfbac9ed09e929c8ae2c23e4d0cfdb66abc5d8ffcc98b828",
+              "snippet_sha256": "e260484325933335069efa1daef4267ef08622557c82d5b6bacff93a3d4756be",
+              "verified_at": "2026-11-26T18:42:31.763874+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "LUMA Energy có 10 ngày để yêu cầu xem xét lại phán quyết và đang cân nhắc các lựa chọn pháp lý.",
+          "source_urls": [
+            "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "FLORIDO: The court gave LUMA Energy 10 days to request a reconsideration of its ruling.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "snippet": "FLORIDO: The court gave LUMA Energy 10 days to request a reconsideration of its ruling.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "page_sha256": "2827fc3616d1010dbfbac9ed09e929c8ae2c23e4d0cfdb66abc5d8ffcc98b828",
+              "snippet_sha256": "afb9613f197f1dc840ed15cca6e08ec94da037ffe6d0a5c1fdc82533ee35b77e",
+              "verified_at": "2026-11-26T18:42:31.763874+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo làm rõ cơ sở pháp lý và các hệ lụy trực tiếp từ phán quyết của Tòa án Tối cao Puerto Rico đối với lưới điện. Nội dung cũng đối chiếu phản ứng giữa chính quyền bang, công ty quản lý tư nhân LUMA Energy và hội đồng giám sát liên bang.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T18:42:31.764341+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "5"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-26T18:42:31.765150+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 312,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1434
+        },
+        "independent_domains": [
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
