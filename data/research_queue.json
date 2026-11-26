@@ -2491,7 +2491,7 @@
   },
   {
     "queue_id": "c055624e7b60563f1dc6",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T13:14:18.196126+00:00",
     "expires_at": "2026-11-29T13:12:09.328092+00:00",
     "category_hint": "technology",
@@ -3190,11 +3190,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T13:14:18.196149+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-mau-vi-magsafe-ang-chu-y-cho-nhu-cau-su-dung-hang-ngay-trong-nam-2-172490e4"
   },
   {
     "queue_id": "6f2a9b668981f6e66714",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T13:14:16.190656+00:00",
     "expires_at": "2026-11-29T13:12:09.328092+00:00",
     "category_hint": "vietnam",
@@ -3760,11 +3761,12 @@
       ]
     },
     "research_ready_at": "2026-11-26T13:14:16.190689+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "suzuki-ignis-the-he-moi-ra-mat-toan-cau-xe-ien-co-nho-nam-giua-vf-3-va-v-3db7bdf1"
   },
   {
     "queue_id": "7d630e8ffb9059fd6531",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-26T13:14:08.891107+00:00",
     "expires_at": "2026-11-29T13:12:09.328092+00:00",
     "category_hint": "vietnam",
@@ -5240,7 +5242,8 @@
       ]
     },
     "research_ready_at": "2026-11-26T13:14:08.891128+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tu-thang-1-2027-hon-1-000-nguoi-dan-phu-tho-chinh-thuc-tro-thanh-cong-da-2062e979"
   },
   {
     "queue_id": "mitsubishi-outlander-the-he-moi-chot-lich-ra-mat-tai-viet-nam-vao-thang--54aec05d",
@@ -93512,7 +93515,7 @@
   },
   {
     "queue_id": "cac-cuoc-khong-kich-tai-gaza-va-ukraine-gay-nhieu-thuong-vong-c73247c4",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-26T13:15:14.041919+00:00",
     "expires_at": "2026-11-27T13:15:14.041919+00:00",
     "source_urls": [
@@ -93528,7 +93531,7 @@
       "source_url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
       "published_at": "2026-11-26T09:00:06+00:00",
       "fetched_at": "2026-11-26T13:15:21.682868+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-26T14:30:15.531542+00:00",
       "content_type": "quick_update",
       "data_type": "general",
       "collection": "current",
@@ -93708,23 +93711,38 @@
       "quality_status": "PASS",
       "verified_numbers": [],
       "quality_audit": {
-        "checked_at": "2026-11-26T13:15:21.683949+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-26T14:30:15.531542+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 345,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1589
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "euronews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1589,
+          "source_access": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            },
+            {
+              "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "euronews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-26 21:30"
+    },
+    "published_at": "2026-11-26T14:30:15.531542+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "cac-cuoc-khong-kich-cua-israel-tai-dai-gaza-khien-nhieu-nguoi-thiet-mang-42c05d59",
@@ -94175,5 +94193,686 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "nhung-mau-vi-magsafe-ang-chu-y-cho-nhu-cau-su-dung-hang-ngay-trong-nam-2-172490e4",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-26T14:29:41.779234+00:00",
+    "expires_at": "2026-11-27T14:29:41.779234+00:00",
+    "source_urls": [
+      "https://www.wired.com/gallery/best-magsafe-wallets",
+      "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
+    ],
+    "article": {
+      "id": "nhung-mau-vi-magsafe-ang-chu-y-cho-nhu-cau-su-dung-hang-ngay-trong-nam-2-172490e4",
+      "title": "Những mẫu ví MagSafe đáng chú ý cho nhu cầu sử dụng hàng ngày trong năm 2026",
+      "summary": "Cập nhật danh sách các mẫu ví MagSafe gắn nam châm tiện lợi cho iPhone và điện thoại hỗ trợ Qi2, giúp người dùng mang theo thẻ gọn gàng mà không cần ví truyền thống.",
+      "category": "technology",
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+      "published_at": "2026-11-26T12:15:00+00:00",
+      "fetched_at": "2026-11-26T14:29:50.897489+00:00",
+      "appnho_published_at": "2026-11-26T14:30:15.531542+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Thị trường phụ kiện MagSafe tiếp tục ghi nhận nhiều lựa chọn ví gắn lưng điện thoại mỏng nhẹ, đáp ứng nhu cầu mang theo các thẻ cá nhân thiết yếu mà không cần dùng đến ví truyền thống. Công nghệ nam châm MagSafe do Apple phát triển từ năm 2020 hiện được tích hợp trên các dòng iPhone từ thế hệ 12 đến 17, ngoại trừ phiên bản 16e.",
+        "Theo các đánh giá mới cập nhật, người dùng có thể lựa chọn nhiều dòng sản phẩm khác nhau tùy thuộc vào nhu cầu sử dụng và mức ngân sách. Ví dụ, dòng UAG Metropolis Kevlar có giá khoảng 60 USD nổi bật với độ bền cao và khả năng biến thành giá đỡ điện thoại. Trong khi đó, Smartish Side Hustle Wallet có giá ưu đãi khoảng 25 USD được đánh giá cao nhờ thiết kế khe hở cạnh bên giúp đẩy thẻ ra dễ dàng mà không cần tháo ví khỏi điện thoại.",
+        "Bên cạnh đó, các dòng sản phẩm cao cấp hơn như Nomad Leather Mag Wallet tích hợp sẵn tính năng tìm kiếm Find My với mức giá khoảng 93 USD sau giảm giá. Các chuyên gia lưu ý rằng khi chọn mua ví, người dùng cần đảm bảo sản phẩm hỗ trợ kết nối MagSafe hoặc chuẩn sạc không dây Qi2, đồng thời sử dụng kèm ốp lưng tương thích nam châm để đảm bảo độ bám chắc chắn khi sử dụng hàng ngày."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Các mẫu ví MagSafe tốt nhất cho iPhone và phụ kiện 2026",
+      "meta_description": "Khám phá các lựa chọn ví MagSafe hàng đầu như UAG, Smartish, và Nomad cập nhật mới nhất năm 2026 với thiết kế mỏng nhẹ và bảo mật thẻ.",
+      "keywords": [
+        "ví MagSafe",
+        "phụ kiện iPhone",
+        "MagSafe wallet",
+        "công nghệ MagSafe"
+      ],
+      "slug": "nhung-mau-vi-magsafe-ang-chu-y-cho-nhu-cau-su-dung-hang-ngay-trong-nam-2-172490e4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 249,
+      "display_source": true,
+      "source_urls": [
+        "https://www.wired.com/gallery/best-magsafe-wallets",
+        "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
+      ],
+      "source_links": [
+        "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
+      ],
+      "source_references": [
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/gallery/best-magsafe-wallets",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T12:15:00+00:00"
+        },
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T21:33:29+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Công nghệ MagSafe được Apple giới thiệu lần đầu vào năm 2020 cho các dòng iPhone.",
+          "source_urls": [
+            "https://www.wired.com/gallery/best-magsafe-wallets"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Apple first introduced MagSafe for its iPhones in 2020.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "snippet": "Apple first introduced MagSafe for its iPhones in 2020.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "page_sha256": "bd6adbc336102bc2abc5f1a3b80f94a798840f0d5accbb41c879a15445ac7073",
+              "snippet_sha256": "6280531facbbc653f1fdcd0ea6df21f2d0d87f2a7f7cf86fa2be73ad177425b2",
+              "verified_at": "2026-11-26T14:29:50.896881+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "UAG Metropolis Kevlar MagSafe Wallet có giá 60 USD và có thể làm giá đỡ điện thoại.",
+          "source_urls": [
+            "https://www.wired.com/gallery/best-magsafe-wallets"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Best MagSafe Wallet OverallUAG Metropolis Kevlar MagSafe WalletRead more$60",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "snippet": "Best MagSafe Wallet OverallUAG Metropolis Kevlar MagSafe WalletRead more$60",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "page_sha256": "bd6adbc336102bc2abc5f1a3b80f94a798840f0d5accbb41c879a15445ac7073",
+              "snippet_sha256": "87d63c52a44644c7def774ed3e493ac2439598b4619a330d20c7a0b91b4b7b36",
+              "verified_at": "2026-11-26T14:29:50.896881+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Smartish Side Hustle Wallet có giá giảm còn 25 USD với thiết kế khe bên cạnh tiện lợi.",
+          "source_urls": [
+            "https://www.wired.com/gallery/best-magsafe-wallets"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Easiest MagSafe Wallet to UseSmartish Side Hustle WalletRead more$30$25(17% off)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "snippet": "Easiest MagSafe Wallet to UseSmartish Side Hustle WalletRead more$30$25(17% off)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "page_sha256": "bd6adbc336102bc2abc5f1a3b80f94a798840f0d5accbb41c879a15445ac7073",
+              "snippet_sha256": "95354f2580b43f60d2f8988337e22f3795998eb20cc2fad6905434b41adc2bb3",
+              "verified_at": "2026-11-26T14:29:50.896881+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nomad Leather Mag Wallet tích hợp tính năng Find My có giá 93 USD khi giảm giá.",
+          "source_urls": [
+            "https://www.wired.com/gallery/best-magsafe-wallets"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Best Leather Wallet With “Find My”Nomad Leather Mag WalletRead more$109$93(15% off)",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "snippet": "Best Leather Wallet With “Find My”Nomad Leather Mag WalletRead more$109$93(15% off)",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "page_sha256": "bd6adbc336102bc2abc5f1a3b80f94a798840f0d5accbb41c879a15445ac7073",
+              "snippet_sha256": "1942a6c88f30a70cefd13d11ba374706043e2ee70f9e93f62f49eca29345ef89",
+              "verified_at": "2026-11-26T14:29:50.896881+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp các dòng ví MagSafe tiêu biểu năm 2026, làm rõ mức giá, tính năng và yêu cầu tương thích ốp lưng. Nội dung cung cấp góc nhìn thực tế về trải nghiệm sử dụng phụ kiện nam châm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T14:29:50.897555+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "12",
+        "16",
+        "17",
+        "2",
+        "2020",
+        "25",
+        "60",
+        "93"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-26T14:30:15.531542+00:00",
+        "stats": {
+          "paragraphs": 3,
+          "words": 249,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1145,
+          "source_access": [
+            {
+              "url": "https://www.wired.com/gallery/best-magsafe-wallets",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "techcrunch.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-26 21:30"
+    },
+    "published_at": "2026-11-26T14:30:15.531542+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "suzuki-ignis-the-he-moi-ra-mat-toan-cau-xe-ien-co-nho-nam-giua-vf-3-va-v-3db7bdf1",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-26T14:29:41.779234+00:00",
+    "expires_at": "2026-11-27T14:29:41.779234+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+      "https://thanhnien.vn/xe-giuong-nam-thuan-dien-dau-tien-cua-kim-long-motor-trinh-lang-185261121123133663.htm"
+    ],
+    "article": {
+      "id": "suzuki-ignis-the-he-moi-ra-mat-toan-cau-xe-ien-co-nho-nam-giua-vf-3-va-v-3db7bdf1",
+      "title": "Suzuki Ignis thế hệ mới ra mắt toàn cầu: Xe điện cỡ nhỏ nằm giữa VF 3 và VF 5",
+      "summary": "Suzuki chính thức ra mắt mẫu xe thuần điện cỡ nhỏ Ignis thế hệ thứ ba trên toàn cầu. Xe có kích thước nằm giữa VinFast VF 3 và VF 5 nhưng hiện chưa có kế hoạch phân phối tại thị trường Việt Nam.",
+      "category": "technology",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+      "published_at": "2026-11-26T09:45:23+00:00",
+      "fetched_at": "2026-11-26T14:29:58.301854+00:00",
+      "appnho_published_at": "2026-11-26T14:30:15.531542+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Ngày 25/11, hãng xe Nhật Bản Suzuki chính thức giới thiệu toàn cầu mẫu xe thuần điện cỡ nhỏ Ignis thế hệ thứ ba. Đây là mẫu xe điện cỡ nhỏ đầu tiên của thương hiệu này, được phát triển trên nền tảng EV chuyên dụng HEARTECT-e với khu vực dưới thân xe tối ưu để chứa bộ pin LFP dung lượng 26kWh.",
+        "Về sức mạnh, xe trang bị cụm truyền động eAxle đặt ở cầu trước, tích hợp mô-tơ điện, bộ biến tần và hộp số giảm tốc, cho công suất tối đa 90 mã lực và mô-men xoắn 133Nm. Xe hỗ trợ sạc chậm AC 7,4kW và sạc nhanh DC 50kW, trong khi thời gian sạc và tầm vận hành chưa được công bố cụ thể.",
+        "Ignis mới sở hữu kích thước dài x rộng x cao lần lượt 3.570 x 1.565 x 1.635mm, chiều dài cơ sở 2.460mm và khoảng sáng gầm 150mm. Kích thước này tương đương dòng hatchback hạng A Kia Morning và nằm giữa hai mẫu xe điện VinFast VF 3 và VF 5.",
+        "Dù chuyển sang hệ truyền động thuần điện, khoang cabin bốn chỗ ngồi vẫn giữ bố cục điều khiển rõ ràng mang dấu ấn xe động cơ đốt trong với đồng hồ điện tử, phanh tay điện tử và ghế bọc nỉ. Theo Suzuki Việt Nam, mẫu xe này hiện chưa có kế hoạch phân phối tại thị trường trong nước."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Suzuki Ignis ra mắt toàn cầu: Ô tô điện cỡ nhỏ, chưa có kế hoạch về Vi",
+      "meta_description": "Suzuki Ignis thế hệ thứ ba chính thức ra mắt toàn cầu với hệ truyền động thuần điện, pin 26kWh và kích thước tương đương xe hạng A.",
+      "keywords": [
+        "Suzuki Ignis",
+        "ô tô điện",
+        "Suzuki",
+        "xe điện cỡ nhỏ",
+        "thị trường ô tô"
+      ],
+      "slug": "suzuki-ignis-the-he-moi-ra-mat-toan-cau-xe-ien-co-nho-nam-giua-vf-3-va-v-3db7bdf1",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 241,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+        "https://thanhnien.vn/xe-giuong-nam-thuan-dien-dau-tien-cua-kim-long-motor-trinh-lang-185261121123133663.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/xe-giuong-nam-thuan-dien-dau-tien-cua-kim-long-motor-trinh-lang-185261121123133663.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T09:45:23+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/xe-giuong-nam-thuan-dien-dau-tien-cua-kim-long-motor-trinh-lang-185261121123133663.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T08:45:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Suzuki chính thức ra mắt toàn cầu mẫu xe thuần điện Ignis thế hệ thứ ba vào ngày 25/11.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ngày 25/11, Suzuki chính thức ra mắt toàn cầu mẫu xe thuần điện Ignis.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "snippet": "Ngày 25/11, Suzuki chính thức ra mắt toàn cầu mẫu xe thuần điện Ignis.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "page_sha256": "a210166d37d271a884aeb37ee1e5044f7071c529aab798472b21fc909db77cf7",
+              "snippet_sha256": "c508716f870d50f5ab02459c577ef38971a96e6d0eb1c74aee75095c593fb5b7",
+              "verified_at": "2026-11-26T14:29:58.301304+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Xe trang bị cụm truyền động eAxle cho công suất 90 mã lực, mô-men xoắn 133Nm và pin LFP dung lượng 26kWh.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cụ thể, xe trang bị cụm truyền động eAxle nhỏ gọn đặt ở cầu trước, tích hợp mô-tơ điện, bộ biến tần và hộp số giảm tốc thành một khối duy nhất, cho công suất tối đa 90 mã lực và mô-men xoắn 133Nm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "snippet": "Cụ thể, xe trang bị cụm truyền động eAxle nhỏ gọn đặt ở cầu trước, tích hợp mô-tơ điện, bộ biến tần và hộp số giảm tốc thành một khối duy nhất, cho công suất tối đa 90 mã lực và mô-men xoắn 133Nm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "page_sha256": "a210166d37d271a884aeb37ee1e5044f7071c529aab798472b21fc909db77cf7",
+              "snippet_sha256": "f3ce7bde178822195ef62d7e06ff1e94303ec1176106170ddda9232bdf99016e",
+              "verified_at": "2026-11-26T14:29:58.301304+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kích thước dài x rộng x cao của xe là 3.570 x 1.565 x 1.635mm, chiều dài cơ sở 2.460mm, nằm giữa VinFast VF 3 và VF 5.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Xe sở hữu kích thước dài x rộng x cao lần lượt 3.570 x 1.565 x 1.635mm, cùng chiều dài cơ sở 2.460mm, khoảng sáng gầm 150mm.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "snippet": "Xe sở hữu kích thước dài x rộng x cao lần lượt 3.570 x 1.565 x 1.635mm, cùng chiều dài cơ sở 2.460mm, khoảng sáng gầm 150mm.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "page_sha256": "a210166d37d271a884aeb37ee1e5044f7071c529aab798472b21fc909db77cf7",
+              "snippet_sha256": "d7aa9fcaaa767696ee8b0f1dee0d67690d02671632b9a2cf38cb44deb1df2c4e",
+              "verified_at": "2026-11-26T14:29:58.301304+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phía Suzuki Việt Nam cho biết Ignis mới chưa có kế hoạch phân phối tại thị trường Việt Nam.",
+          "source_urls": [
+            "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Phía Suzuki Việt Nam cho biết, Ignis mới hiện chưa có kế hoạch phân phối tại thị trường Việt Nam.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "snippet": "Phía Suzuki Việt Nam cho biết, Ignis mới hiện chưa có kế hoạch phân phối tại thị trường Việt Nam.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "page_sha256": "a210166d37d271a884aeb37ee1e5044f7071c529aab798472b21fc909db77cf7",
+              "snippet_sha256": "6e947c8fed2f0a6ebf8109d74e06cf94c8ec8039ef2b889d9c3ab86168202db6",
+              "verified_at": "2026-11-26T14:29:58.301304+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ thông số kỹ thuật chi tiết của mẫu xe điện Suzuki Ignis mới ra mắt và vị trí phân khúc của xe khi đặt cạnh các dòng xe điện tại Việt Nam. Đồng thời, bài phản ánh rõ chiến lược thận trọng của các hãng xe Nhật với xe thuần điện tại thị trường nội địa.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T14:29:58.301938+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.565",
+        "1.635",
+        "133",
+        "150",
+        "2.460",
+        "26",
+        "3",
+        "3.570",
+        "5",
+        "50",
+        "7,4",
+        "90"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-26T14:30:15.531542+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 241,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1097,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/o-to-xe-may/o-to-dien-co-nho-suzuki-ignis-ra-mat-kich-thuoc-nam-giua-vf-3-va-vf-5-20261126154700119.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-26 21:30"
+    },
+    "published_at": "2026-11-26T14:30:15.531542+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "tu-thang-1-2027-hon-1-000-nguoi-dan-phu-tho-chinh-thuc-tro-thanh-cong-da-2062e979",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-26T14:29:41.779234+00:00",
+    "expires_at": "2026-11-27T14:29:41.779234+00:00",
+    "source_urls": [
+      "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+      "https://tuoitre.vn/dung-nuoi-con-thanh-ga-cong-nghiep-lam-viec-don-gian-cung-lung-tung-100261125183710151.htm"
+    ],
+    "article": {
+      "id": "tu-thang-1-2027-hon-1-000-nguoi-dan-phu-tho-chinh-thuc-tro-thanh-cong-da-2062e979",
+      "title": "Từ tháng 1/2027, hơn 1.000 người dân Phú Thọ chính thức trở thành công dân Thủ đô",
+      "summary": "Quốc hội quyết định điều chỉnh diện tích tự nhiên và dân số tại một số khu vực thuộc tỉnh Phú Thọ về thành phố Hà Nội quản lý từ ngày 1/1/2027, đồng thời đảm bảo quyền lợi và chính sách an sinh cho người dân.",
+      "category": "vietnam",
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+      "published_at": "2026-11-26T12:36:58+00:00",
+      "fetched_at": "2026-11-26T14:30:13.392872+00:00",
+      "appnho_published_at": "2026-11-26T14:30:15.531542+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Chủ tịch Quốc hội Trần Thanh Mẫn đã ký ban hành Nghị quyết số 62 về việc điều chỉnh địa giới đơn vị hành chính giữa thành phố Hà Nội và tỉnh Phú Thọ. Theo quyết định này, toàn bộ quá trình chuyển đổi sẽ chính thức có hiệu lực thi hành từ ngày 1/1/2027.",
+        "Cụ thể, Quốc hội quyết nghị điều chỉnh diện tích tự nhiên là 40,06km2 cùng quy mô dân số 1.057 người tại khu vực các xã Thịnh Minh, Lương Sơn và phường Kỳ Sơn thuộc tỉnh Phú Thọ về thành phố Hà Nội quản lý. Việc điều chỉnh này nhằm mục đích chính là thống nhất công tác quản lý tại khu vực Vườn quốc gia Ba Vì.",
+        "Liên quan đến quyền lợi của người dân, Bộ trưởng Nội vụ Nguyễn Tiến Hải cho biết 1.057 người dân trong diện chuyển giao không phải di dời nếu không có nguyện vọng. Các chế độ, chính sách an sinh xã hội trên địa bàn sẽ được áp dụng theo hướng có lợi nhất cho người dân.",
+        "Bên cạnh đó, Quốc hội cũng quán triệt không yêu cầu cá nhân hay tổ chức phải nộp lại hồ sơ. Các văn bản, giấy tờ đã cấp trước ngày 1/1/2027 vẫn tiếp tục được sử dụng cho đến hết thời hạn, trong khi các thủ tục hành chính chưa giải quyết xong sẽ được bàn giao cho cơ quan có thẩm quyền của Thủ đô tiếp tục xử lý."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Hơn 1.000 người dân Phú Thọ thành công dân Hà Nội từ năm 2027",
+      "meta_description": "Từ ngày 1/1/2027, hơn 1.000 người dân và diện tích tự nhiên tại các xã, phường của tỉnh Phú Thọ chuyển về Hà Nội quản lý theo Nghị quyết của Quốc hội.",
+      "keywords": [
+        "địa giới hành chính",
+        "Phú Thọ",
+        "Hà Nội",
+        "Nghị quyết 62",
+        "Vườn quốc gia Ba Vì"
+      ],
+      "slug": "tu-thang-1-2027-hon-1-000-nguoi-dan-phu-tho-chinh-thuc-tro-thanh-cong-da-2062e979",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 250,
+      "display_source": true,
+      "source_urls": [
+        "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+        "https://tuoitre.vn/dung-nuoi-con-thanh-ga-cong-nghiep-lam-viec-don-gian-cung-lung-tung-100261125183710151.htm"
+      ],
+      "source_links": [
+        "https://tuoitre.vn/dung-nuoi-con-thanh-ga-cong-nghiep-lam-viec-don-gian-cung-lung-tung-100261125183710151.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T12:36:58+00:00"
+        },
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/dung-nuoi-con-thanh-ga-cong-nghiep-lam-viec-don-gian-cung-lung-tung-100261125183710151.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T12:10:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Quốc hội quyết định điều chỉnh diện tích tự nhiên 40,06km2 và 1.057 người tại các xã Thịnh Minh, Lương Sơn và phường Kỳ Sơn của tỉnh Phú Thọ về thành phố Hà Nội quản lý từ ngày 1/1/2027.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "(Dân trí) - Quốc hội quyết định điều chỉnh diện tích tự nhiên là 40,06km2 và 1.057 người tại khu vực của xã Thịnh Minh, xã Lương Sơn và phường Kỳ Sơn của tỉnh Phú Thọ về thành phố Hà Nội quản lý, từ 1/1/2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "snippet": "(Dân trí) - Quốc hội quyết định điều chỉnh diện tích tự nhiên là 40,06km2 và 1.057 người tại khu vực của xã Thịnh Minh, xã Lương Sơn và phường Kỳ Sơn của tỉnh Phú Thọ về thành phố Hà Nội quản lý, từ 1/1/2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "page_sha256": "053ab2805b224275e571e0c3eb39ef994e2c8fe6672fd31ced1716e03b29b856",
+              "snippet_sha256": "c5cff28fbe69f31eba9e0105b83130c23c96da4f848579e0bf5cadccf44c8866",
+              "verified_at": "2026-11-26T14:30:13.392398+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Quốc hội Trần Thanh Mẫn ký ban hành Nghị quyết số 62 về việc điều chỉnh địa giới đơn vị hành chính giữa thành phố Hà Nội và tỉnh Phú Thọ.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Chủ tịch Quốc hội Trần Thanh Mẫn vừa ký ban hành Nghị quyết số 62 của Quốc hội về việc điều chỉnh địa giới đơn vị hành chính giữa thành phố Hà Nội và tỉnh Phú Thọ.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "snippet": "Chủ tịch Quốc hội Trần Thanh Mẫn vừa ký ban hành Nghị quyết số 62 của Quốc hội về việc điều chỉnh địa giới đơn vị hành chính giữa thành phố Hà Nội và tỉnh Phú Thọ.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "page_sha256": "053ab2805b224275e571e0c3eb39ef994e2c8fe6672fd31ced1716e03b29b856",
+              "snippet_sha256": "d2d27dbd50610002273aa267eb14189046dbddc544ef83c635d1eb65823f0b16",
+              "verified_at": "2026-11-26T14:30:13.392398+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "1.057 người dân chuyển từ Phú Thọ về Hà Nội không phải di dời nếu không có nguyện vọng và các chính sách an sinh được áp dụng theo hướng có lợi với người dân.",
+          "source_urls": [
+            "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Bộ trưởng Nguyễn Tiến Hải cho biết 1.057 người dân chuyển từ Phú Thọ về Hà Nội không phải di dời nếu không có nguyện vọng.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "snippet": "Bộ trưởng Nguyễn Tiến Hải cho biết 1.057 người dân chuyển từ Phú Thọ về Hà Nội không phải di dời nếu không có nguyện vọng.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "page_sha256": "053ab2805b224275e571e0c3eb39ef994e2c8fe6672fd31ced1716e03b29b856",
+              "snippet_sha256": "b6d35b0cf247ce3c51fee43e3471f7b879e362b68ebb6a45bd7391c8f70a0aec",
+              "verified_at": "2026-11-26T14:30:13.392398+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết mốc thời gian thi hành từ 1/1/2027 và phương án chuyển giao hành chính. Đồng thời, thông tin về việc không bắt buộc người dân di dời hay nộp lại hồ sơ cũng được làm nổi bật nhằm giải tỏa băn khoăn của độc giả.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-26T14:30:13.392939+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.057",
+        "2",
+        "40,06",
+        "62"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-26T14:30:15.531542+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 250,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1141,
+          "source_access": [
+            {
+              "url": "https://dantri.com.vn/thoi-su/tu-12027-hon-1000-nguoi-dan-phu-tho-chinh-thuc-thanh-cong-dan-ha-noi-20261126193156439.htm",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-26 21:30"
+    },
+    "published_at": "2026-11-26T14:30:15.531542+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
