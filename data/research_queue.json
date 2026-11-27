@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "8a9cb722d013f8a2c10a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:11:06.651122+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "technology",
@@ -675,11 +675,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:11:06.651144+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f"
   },
   {
     "queue_id": "c857333a6c7e5b069154",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:11:04.438475+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "sports",
@@ -1553,11 +1554,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:11:04.438499+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bong-da-chau-au-rung-dong-vi-bao-luc-khan-gia-tong-thong-phap-len-an-gay-336bafdd"
   },
   {
     "queue_id": "526430ffaee1b354fd32",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:11:03.618326+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "world",
@@ -2503,7 +2505,8 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:11:03.618362+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "bau-cu-tay-ban-nha-buoc-ngoat-chinh-sach-va-moi-quan-he-voi-washington-cc29afe0"
   },
   {
     "queue_id": "db1d3b8b84d53d1b4641",
@@ -94505,6 +94508,800 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+    "status": "READY",
+    "prepared_at": "2026-11-27T13:11:37.315140+00:00",
+    "expires_at": "2026-11-28T13:11:37.315140+00:00",
+    "source_urls": [
+      "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+      "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+      "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+      "https://www.wired.com/story/gifts-for-friends"
+    ],
+    "article": {
+      "id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "title": "Gợi ý quà tặng mùa lễ hội 2026 từ đội ngũ Ars Technica: Sách, công nghệ và điện ảnh",
+      "summary": "Đội ngũ biên tập của Ars Technica vừa công bố danh sách gợi ý quà tặng cho mùa mua sắm cuối năm 2026, tập trung vào các tựa sách độc đáo, phụ kiện và đĩa phim kinh điển.",
+      "category": "technology",
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+      "published_at": "2026-11-27T11:30:04+00:00",
+      "fetched_at": "2026-11-27T13:11:41.900992+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa mua sắm cuối năm đang diễn ra, và như thường lệ, đội ngũ biên tập viên của trang tin công nghệ Ars Technica vừa công bố danh sách những món đồ tâm đắc họ đã mua và trải nghiệm trong năm nay để gợi ý làm quà tặng mùa lễ hội.",
+        "Thay vì xây dựng một cẩm nang hướng dẫn mua sắm chung chung, nhóm tác giả chọn cách tổng hợp những sản phẩm thực tế mà họ đánh giá cao. Danh sách năm nay thiên về các đầu sách thú vị, phụ kiện liên quan đến xe đạp, cùng một số thiết bị và ấn phẩm giải trí sắp xếp theo thứ tự giá tăng dần.",
+        "Nổi bật trong danh mục sách có tác phẩm Dungeon Crawler Carl của Matt Dinniman với giá 13 USD, bộ sách khám phá hạ tầng cáp ngầm dưới biển bao gồm Undersea War của Elisabeth Braw giá 30 USD và Lightning Beneath the Sea của James M. Tabor giá 32 USD. Bên cạnh đó, danh sách còn giới thiệu phiên bản đĩa Blu-ray 4K Collector's Edition của bộ phim The Burbs với giá 32 USD và cuốn sách How Apollo Flew to the Moon của tác giả David Woods giá 35 USD.",
+        "Các biên tập viên lưu ý rằng mức giá này được ghi nhận tại thời điểm viết bài và có thể thay đổi do các nhà bán lẻ trực tuyến thường xuyên điều chỉnh giá, đặc biệt trong giai đoạn mua sắm cận kề các dịp lễ lớn. Danh sách này đồng thời mở rộng không gian trao đổi để độc giả cùng chia sẻ thêm những ý tưởng mua sắm thiết thực."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Gợi ý quà tặng lễ hội 2026 từ Ars Technica",
+      "meta_description": "Khám phá danh sách gợi ý quà tặng mùa lễ hội năm 2026 do đội ngũ Ars Technica tuyển chọn, nổi bật với các ấn phẩm sách và thiết bị đáng chú ý.",
+      "keywords": [
+        "quà tặng lễ hội",
+        "Ars Technica",
+        "sách hay 2026",
+        "mua sắm cuối năm"
+      ],
+      "slug": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 283,
+      "display_source": true,
+      "source_urls": [
+        "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+        "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+        "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+        "https://www.wired.com/story/gifts-for-friends"
+      ],
+      "source_links": [
+        "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+        "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+        "https://www.wired.com/story/gifts-for-friends"
+      ],
+      "source_references": [
+        {
+          "name": "Ars Technica - All",
+          "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+          "domain": "arstechnica.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "arstechnica.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T11:30:04+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T16:17:13+00:00"
+        },
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T23:59:29+00:00"
+        },
+        {
+          "name": "Wired - All",
+          "url": "https://www.wired.com/story/gifts-for-friends",
+          "domain": "wired.com",
+          "source_type": "Tạp chí",
+          "source_family": "wired.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T12:03:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Đội ngũ Ars Technica công bố danh sách gợi ý quà tặng mùa lễ hội dựa trên các sản phẩm họ đã mua và trải nghiệm trong năm.",
+          "source_urls": [
+            "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "If you’re a technically minded Ars reader looking for a nice book to snuggle down with over the holidays, David Woods’How Apollo Flew to the Mooncould be just the thing.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "snippet": "If you’re a technically minded Ars reader looking for a nice book to snuggle down with over the holidays, David Woods’How Apollo Flew to the Mooncould be just the thing.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "page_sha256": "ea1f9b98a6dd71cd5b68954b56d8e933f5cef5f1fac82ffbc0b05ecca1e813fd",
+              "snippet_sha256": "b4626980f04d0fb77ea82c956b63a06af3c5b4a44033c1678ead3bc6042fbc73",
+              "verified_at": "2026-11-27T13:11:41.900232+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sách Dungeon Crawler Carl của Matt Dinniman có giá 13 USD trong danh sách gợi ý.",
+          "source_urls": [
+            "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Dungeon Crawler Carlby Matt Dinniman– $13",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "snippet": "Dungeon Crawler Carlby Matt Dinniman– $13",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "page_sha256": "ea1f9b98a6dd71cd5b68954b56d8e933f5cef5f1fac82ffbc0b05ecca1e813fd",
+              "snippet_sha256": "9f37db0e8d9f95fdeeda98256cdee411f7c76592035d44311eb9b00c3f21206c",
+              "verified_at": "2026-11-27T13:11:41.900232+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Undersea War của Elisabeth Braw có giá 30 USD và Lightning Beneath the Sea của James M. Tabor có giá 32 USD.",
+          "source_urls": [
+            "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Undersea War: The Battle to Control the Cables and Pipelines That Connect Our Worldby Elisabeth Braw– $30",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "snippet": "Undersea War: The Battle to Control the Cables and Pipelines That Connect Our Worldby Elisabeth Braw– $30",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "page_sha256": "ea1f9b98a6dd71cd5b68954b56d8e933f5cef5f1fac82ffbc0b05ecca1e813fd",
+              "snippet_sha256": "3465675de8ccedfac403a8eb11b2d1efa1c85f04918040828956179367b57166",
+              "verified_at": "2026-11-27T13:11:41.900232+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phiên bản đĩa Blu-ray 4K Collector's Edition của bộ phim The Burbs có giá 32 USD.",
+          "source_urls": [
+            "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The BurbsCollector’s Edition 4K Blu-ray– $32",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "snippet": "The BurbsCollector’s Edition 4K Blu-ray– $32",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "page_sha256": "ea1f9b98a6dd71cd5b68954b56d8e933f5cef5f1fac82ffbc0b05ecca1e813fd",
+              "snippet_sha256": "a4be75d77e33474ea620bb716c79940aae4c8423313f1b36372724df6834ee51",
+              "verified_at": "2026-11-27T13:11:41.900232+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Sách How Apollo Flew to the Moon của David Woods có giá 35 USD.",
+          "source_urls": [
+            "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "How Apollo Flew to the Moonby David Woods– $35",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "snippet": "How Apollo Flew to the Moonby David Woods– $35",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "page_sha256": "ea1f9b98a6dd71cd5b68954b56d8e933f5cef5f1fac82ffbc0b05ecca1e813fd",
+              "snippet_sha256": "5ab8a5cd1f435a9eb45ea3c894ad3052f2b581c661b37da2176011c979e50748",
+              "verified_at": "2026-11-27T13:11:41.900232+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp và làm rõ danh mục quà tặng mùa lễ hội năm 2026 do đội ngũ Ars Technica lựa chọn. Nội dung phân tích các mặt hàng từ sách đến các ấn phẩm điện ảnh, giúp độc giả có thêm góc nhìn tham khảo dựa trên trải nghiệm thực tế của phóng viên.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T13:11:41.901070+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "13",
+        "30",
+        "32",
+        "35",
+        "4"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T13:11:41.902352+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 283,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1287
+        },
+        "independent_domains": [
+          "arstechnica.com",
+          "cnbc.com",
+          "theverge.com",
+          "wired.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bong-da-chau-au-rung-dong-vi-bao-luc-khan-gia-tong-thong-phap-len-an-gay-336bafdd",
+    "status": "READY",
+    "prepared_at": "2026-11-27T13:11:37.315140+00:00",
+    "expires_at": "2026-11-28T13:11:37.315140+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+      "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made?traffic_source=rss",
+      "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss"
+    ],
+    "article": {
+      "id": "bong-da-chau-au-rung-dong-vi-bao-luc-khan-gia-tong-thong-phap-len-an-gay-336bafdd",
+      "title": "Bong da chau Au rung dong vi bao luc khan gia: Tong thong Phap len an gay gat",
+      "summary": "Nhung cuoc xung dot bao luc tai cac tran dau Europa League da khien gioi chuc bong da va chinh lanh nhieu nuoc lo ngai. Tong thong Phap Emmanuel Macron va Thu tuong Bulgaria da co cuoc dien dam de len an cac hanh vi nay.",
+      "category": "world",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+      "published_at": "2026-11-27T12:55:32+00:00",
+      "fetched_at": "2026-11-27T13:11:53.455359+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nhung ngay qua, bong da chau Au lien tiep doi dien voi lan song lo ngai sau khi cac su co bao luc nghiem trong bung no tai nhieu tran dau trong khuon kho Europa League. Giam doc ky luat cua UEFA cho biet se tien hanh xem xet cac bao cao tu tran dau truoc khi dua ra nhung buoc xu ly tiep theo.",
+        "Tam diem cua su chu y huong ve tran dau tai san Stade Velodrome giua CLB Marseille va doi bong Bulgaria Levski Sofia. Hinh anh ghi nhan cho thay nhom khan gia deo mat na da su dung vu khi tu che va thanh kim loai de hon chien tren khan dai. Co quan cong the Marseille xac nhan da co 11 nguoi ham mo Bulgaria bi thuong, trong do nam nguoi phai nhap vien dieu tri cac chan thuong o dau, mat va trat khop vai.",
+        "Truoc tinh hinh nay, Tong thong Phap Emmanuel Macron da co cuoc trao qua dien thoai voi Thu tuong Bulgaria Rumen Radev. Nha lanh dao Phap khang dinh len an manh me cac hanh vi bao luc huong vao nguoi ham mo Bulgaria, dong thoi nhan manh rang nhung hanh dong nay khong co cho dung trong the thao hay khong gian cong cong va se khong bi bo qua.",
+        "Ben canh su co tai Phap, mot tran dau khac tai thanh pho Batumi cua Georgia giua Besiktas (Thur Nhĩ Ky) va Hapoel Be'er Sheva (Israel) cung phai tam dung trong vong 30 phut do xung dot tren khan dai. Lien doan Bong da Thuc Nhan da len an hanh vi su dung vu luc cua canh sat Georgia, dong thoi nop khieu nai len UEFA lien quan den su viec nay."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Bong da chau Au rung dong vi bao luc khan gia tai Europa League",
+      "meta_description": "Tong thong Phap Emmanuel Macron len an cac hanh vi bao luc giua khan gia tai tran dau Europa League giua Marseille va Levski Sofia.",
+      "keywords": [
+        "bong da chau Au",
+        "bao luc khan gia",
+        "Emmanuel Macron",
+        "Europa League",
+        "Marseille"
+      ],
+      "slug": "bong-da-chau-au-rung-dong-vi-bao-luc-khan-gia-tong-thong-phap-len-an-gay-336bafdd",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 294,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+        "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made?traffic_source=rss",
+        "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made?traffic_source=rss",
+        "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T12:55:32+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T12:12:56+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T10:24:24+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Prosecutors have opened two investigations into fan violence at Thursday's Europa League match between Marseille and Levski Sofia.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Prosecutors have opened two investigations into fan violence at Thursday’s Europa League match between Marseille and Levski Sofia.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "snippet": "Prosecutors have opened two investigations into fan violence at Thursday’s Europa League match between Marseille and Levski Sofia.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "page_sha256": "c7a64ca3352cffb8f009ece305581975fd64f5b0cd86712a1b17547b00275ec4",
+              "snippet_sha256": "9fdc9a4205234425331bae85f79ebf45885ec93248fa9c5aff7035eb8b4575b1",
+              "verified_at": "2026-11-27T13:11:53.454694+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Five people were taken to hospital with eye injuries, head trauma and a dislocated shoulder, said the Marseille police prefecture.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“I’m so happy with Calvin, and obviously he is not on sale,” Arbeloa said in his Friday press conference.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "snippet": "“I’m so happy with Calvin, and obviously he is not on sale,” Arbeloa said in his Friday press conference.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "page_sha256": "c7a64ca3352cffb8f009ece305581975fd64f5b0cd86712a1b17547b00275ec4",
+              "snippet_sha256": "5a3c0ffc35516b24c9a7b1bf5683e3d00d57ae5c2dafa85bcfc617e9673bdbe1",
+              "verified_at": "2026-11-27T13:11:53.454694+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Macron spoke to Bulgarian Prime Minister Rumen Radev about the incidents, with the French president condemning with the utmost force these acts of violence.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Macron condemns Marseille violence; Fernandes misses Manchester United training – football live",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "snippet": "Macron condemns Marseille violence; Fernandes misses Manchester United training – football live",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "page_sha256": "c7a64ca3352cffb8f009ece305581975fd64f5b0cd86712a1b17547b00275ec4",
+              "snippet_sha256": "5913251b988267264721eac4042401480c4dac24aa7ee0deb81a99328da141cc",
+              "verified_at": "2026-11-27T13:11:53.454694+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Clashes also broke out at a Europa League match in the Georgian city of Batumi between Turkey's Besiktas and Israeli club Hapoel Be'er Sheva.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Clashes also broke out at a Europa League match in the Georgian city of Batumi ​between Turkey’s Besiktas and Israeli club Hapoel Be’er Sheva.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "snippet": "Clashes also broke out at a Europa League match in the Georgian city of Batumi ​between Turkey’s Besiktas and Israeli club Hapoel Be’er Sheva.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "page_sha256": "c7a64ca3352cffb8f009ece305581975fd64f5b0cd86712a1b17547b00275ec4",
+              "snippet_sha256": "9afaf326e329670360699d23d1a85fc64c9ce80b211c34ac38246fc87752152c",
+              "verified_at": "2026-11-27T13:11:53.454694+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Uefa has told Reuters its disciplinary body would assess the match reports before considering any potential next steps.",
+          "source_urls": [
+            "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Uefa has told Reuters its disciplinary body “would assess the match reports before considering any potential next steps”.Reuters",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "snippet": "Uefa has told Reuters its disciplinary body “would assess the match reports before considering any potential next steps”.Reuters",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/football/live/2026/nov/27/premier-league-news-levski-fans-marseille-violence-football",
+              "page_sha256": "c7a64ca3352cffb8f009ece305581975fd64f5b0cd86712a1b17547b00275ec4",
+              "snippet_sha256": "f261be6dd26072fd8986f2d4853a9eab1b0ba1a35ff1bfc56818a421cd3b4e37",
+              "verified_at": "2026-11-27T13:11:53.454694+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bai viet giai thich ro nguyen nhan va boi canh cua cac vu bao luc tai san co chau Au. Phan tich dong thai ngoai giao giua lanh dao Phap va Bulgaria cung nhu cac bien phap xu ly tu UEFA.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T13:11:53.455419+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "11",
+        "30"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T13:11:53.456277+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 294,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1383
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "bau-cu-tay-ban-nha-buoc-ngoat-chinh-sach-va-moi-quan-he-voi-washington-cc29afe0",
+    "status": "READY",
+    "prepared_at": "2026-11-27T13:11:37.315140+00:00",
+    "expires_at": "2026-11-28T01:11:37.315140+00:00",
+    "source_urls": [
+      "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+      "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
+      "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+      "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss"
+    ],
+    "article": {
+      "id": "bau-cu-tay-ban-nha-buoc-ngoat-chinh-sach-va-moi-quan-he-voi-washington-cc29afe0",
+      "title": "Bầu cử Tây Ban Nha: Bước ngoặt chính sách và mối quan hệ với Washington",
+      "summary": "Cuộc bầu cử sớm tại Tây Ban Nha đang thu hút sự chú ý quốc tế khi kết quả có thể làm thay đổi đáng kể định hướng đối ngoại của Madrid, đặc biệt là mối quan hệ với chính quyền Mỹ dưới thời ông Donald Trump.",
+      "category": "world",
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+      "published_at": "2026-11-27T13:00:42+00:00",
+      "fetched_at": "2026-11-27T13:12:15.015807+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tây Ban Nha đang bước vào cuộc bầu cử sớm đầy kịch tính trong bối cảnh Thủ tướng đương nhiệm Pedro Sánchez đối mặt với nguy cơ chấm dứt 8 năm cầm quyền. Các cuộc thăm dò dư luận cho thấy Đảng Nhân dân (PP) trung hữu đang dẫn đầu, mở ra khả năng hình thành một chính phủ mới có thể thay đổi đáng kể định hướng đối ngoại của Madrid, đặc biệt là trong mối quan hệ với Washington.",
+        "Trong nhiệm kỳ của mình, ông Sánchez đã nhiều lần có những va chạm công khai với Tổng thống Mỹ Donald Trump liên quan đến chi tiêu quốc phòng, xung đột tại Gaza và việc sử dụng các căn cứ quân sự của Tây Ban Nha. Những bất đồng này đã tạo ra khoảng cách nhất định trong quan hệ song phương. Một chính phủ do Đảng PP dẫn đầu, có khả năng liên minh với đảng cực hữu Vox, được dự báo sẽ thúc đẩy cách tiếp cận gần gũi hơn với Washington. Tuy nhiên, sự tham gia của Vox vào chính phủ có thể làm phức tạp thêm quá trình tái thiết lập các mối quan hệ ngoại giao này.",
+        "Bên cạnh các vấn đề đối ngoại, chiến dịch tranh cử bị chi phối mạnh mẽ bởi cuộc khủng hoảng nhà ở và chi phí sinh hoạt. Dù kinh tế Tây Ban Nha tăng trưởng 2,7% trong quý III, cao hơn mức trung bình 1,3% của khu vực đồng euro, cử tri vẫn chịu áp lực lớn từ lạm phát và giá nhà tăng cao. Đảng PP đã tập trung chỉ trích chính phủ về vấn đề tham nhũng và lạm phát, trong khi ông Sánchez nỗ lực bảo vệ các biện pháp hỗ trợ xã hội của mình.",
+        "Đây cũng là bài kiểm tra quan trọng cho xu hướng chính trị tại châu Âu, đánh giá liệu các đảng bảo thủ truyền thống có sẵn sàng đưa phe cực hữu vào chính phủ hay không. Nếu Vox giành được quyền lực, đây sẽ là lần đầu tiên một đảng cực hữu tham gia điều hành đất nước kể từ khi nền dân chủ Tây Ban Nha được khôi phục sau thời kỳ độc tài Franco. Kết quả cuối cùng sẽ không chỉ định hình tương lai chính trị nội bộ mà còn tác động trực tiếp đến vai trò của Tây Ban Nha trong NATO và các mối quan hệ chiến lược với Bắc Kinh."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Bầu cử Tây Ban Nha: Tác động đến quan hệ với Mỹ và chính sách đối ngoạ",
+      "meta_description": "Cuộc bầu cử sớm tại Tây Ban Nha có thể đưa Đảng Nhân dân (PP) lên nắm quyền, mở ra khả năng thay đổi trong quan hệ với Washington và các vấn đề đối ngoại quan t",
+      "keywords": [
+        "Tây Ban Nha",
+        "bầu cử",
+        "Pedro Sanchez",
+        "Alberto Nunez Feijoo",
+        "Donald Trump",
+        "chính trị"
+      ],
+      "slug": "bau-cu-tay-ban-nha-buoc-ngoat-chinh-sach-va-moi-quan-he-voi-washington-cc29afe0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 419,
+      "display_source": true,
+      "source_urls": [
+        "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+        "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
+        "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
+        "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T13:00:42+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T11:51:07+00:00"
+        },
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T06:03:39+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T11:33:17+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tây Ban Nha tổ chức bầu cử sớm trong bối cảnh Đảng Nhân dân (PP) dẫn đầu các cuộc thăm dò.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "A PP-led government could move Spain closer to Washington, though a strong role for Vox could complicate any reset.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+              "snippet": "A PP-led government could move Spain closer to Washington, though a strong role for Vox could complicate any reset.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+              "page_sha256": "6c44bbfbfc0d2b83bfc6bdb18295330754b26c4d5279e312f744eac10293a352",
+              "snippet_sha256": "56875f8294c043239448894d7368a6ead6237b3ad74ad6d3cc9131c845e5cb12",
+              "verified_at": "2026-11-27T13:12:15.015302+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Thủ tướng Pedro Sánchez đã nhiều lần va chạm với ông Donald Trump về chi tiêu NATO, Gaza và việc sử dụng căn cứ quân sự.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "ties are in focus after Sánchez repeatedly clashed with President Donald Trump over NATO spending, Gaza and the use of Spanish bases.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+              "snippet": "ties are in focus after Sánchez repeatedly clashed with President Donald Trump over NATO spending, Gaza and the use of Spanish bases.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+              "page_sha256": "6c44bbfbfc0d2b83bfc6bdb18295330754b26c4d5279e312f744eac10293a352",
+              "snippet_sha256": "40f6ef3014cf33de1c6e9ef1d9f242fb831e9a458a905c7f5e79a7bc91929c18",
+              "verified_at": "2026-11-27T13:12:15.015302+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kinh tế Tây Ban Nha tăng trưởng 2,7% trong quý III, nhưng cử tri vẫn lo ngại về khủng hoảng nhà ở và lạm phát.",
+          "source_urls": [
+            "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Despite Spain's economy growing 2.7% year over year in the third quarter, more than twice the euro zone's 1.3%, the campaign has been dominated by housing and cost-of-living crises.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+              "snippet": "Despite Spain's economy growing 2.7% year over year in the third quarter, more than twice the euro zone's 1.3%, the campaign has been dominated by housing and cost-of-living crises.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+              "page_sha256": "6c44bbfbfc0d2b83bfc6bdb18295330754b26c4d5279e312f744eac10293a352",
+              "snippet_sha256": "661866088543347ffefb9ec7f26e5fe5b56862abbc08f2882efba9eda55db598",
+              "verified_at": "2026-11-27T13:12:15.015302+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ sự khác biệt trong tư duy đối ngoại giữa chính phủ đương nhiệm và phe đối lập, đồng thời đặt bối cảnh cuộc bầu cử vào xu hướng chính trị rộng lớn hơn tại châu Âu. Nội dung cũng phân tích mối liên hệ giữa các vấn đề kinh tế nội địa như khủng hoảng nhà ở với các quyết định chính trị mang tính chiến lược.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-27T13:12:15.015911+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,3",
+        "2,7",
+        "8"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T13:12:15.017117+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 419,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1890
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "cnbc.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
