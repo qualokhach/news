@@ -1207,5 +1207,20 @@
     "published_count": 4,
     "result": "published",
     "rejected_or_held": []
+  },
+  {
+    "slot": "2026-11-27 11:32",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-27T04:32:19.813445+00:00",
+    "prepared_candidates": 33,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "tai-nang-bong-a-my-d-j-jacobs-gia-nhap-miami-sau-khi-roi-ohio-state-7834acff",
+        "status": "HOLD",
+        "reason": "fact_ledger[1] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
