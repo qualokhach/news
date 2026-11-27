@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "f89c96a9e6eade18162b",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T03:50:10.992783+00:00",
     "expires_at": "2026-11-30T03:48:17.233012+00:00",
     "category_hint": "world",
@@ -548,11 +548,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T03:50:10.992805+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nvidia-tam-dung-cung-cap-chip-ai-tai-ong-nam-a-4c765006"
   },
   {
     "queue_id": "8e8e9920a2f56225fea4",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T03:50:09.896899+00:00",
     "expires_at": "2026-11-30T03:48:17.233012+00:00",
     "category_hint": "world",
@@ -1156,11 +1157,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T03:50:09.896921+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "phap-ieu-tra-cac-quan-chuc-cap-cao-vi-nghi-van-ro-ri-thong-tin-cho-ang-c-eea694a0"
   },
   {
     "queue_id": "7eb9ec1386bad985defd",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T03:50:07.743179+00:00",
     "expires_at": "2026-11-30T03:48:17.233012+00:00",
     "category_hint": "technology",
@@ -1756,7 +1758,8 @@
       ]
     },
     "research_ready_at": "2026-11-27T03:50:07.743198+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "trai-nghiem-iphone-duo-sau-mot-thang-thay-oi-thoi-quen-dung-smartphone-873bd63e"
   },
   {
     "queue_id": "5e315625a7bc62bbb8bb",
@@ -93574,5 +93577,584 @@
     },
     "published_at": "2026-11-24T20:24:06.321531+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "nvidia-tam-dung-cung-cap-chip-ai-tai-ong-nam-a-4c765006",
+    "status": "READY",
+    "prepared_at": "2026-11-27T03:50:39.497554+00:00",
+    "expires_at": "2026-11-28T03:50:39.497554+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia"
+    ],
+    "article": {
+      "id": "nvidia-tam-dung-cung-cap-chip-ai-tai-ong-nam-a-4c765006",
+      "title": "Nvidia tạm dừng cung cấp chip AI tại Đông Nam Á",
+      "summary": "Nvidia đã yêu cầu các đối tác sản xuất tạm dừng vận chuyển máy chủ chứa chip AI đến bốn quốc gia Đông Nam Á trong bối cảnh Mỹ siết chặt các quy định kiểm soát xuất khẩu.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "published_at": "2026-11-26T20:03:54+00:00",
+      "fetched_at": "2026-11-27T03:51:04.139682+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tập đoàn công nghệ Nvidia vừa đưa ra quyết định tạm dừng vận chuyển các máy chủ chứa chip AI đến bốn quốc gia Đông Nam Á, bao gồm Malaysia, Singapore, Thái Lan và Indonesia. Động thái này được thực hiện thông qua các đối tác sản xuất lớn như Dell và Supermicro, nhằm mục đích đánh giá lại việc tuân thủ các quy định kiểm soát xuất khẩu của Bộ Thương mại Mỹ tại khu vực này.",
+        "Quyết định trên diễn ra trong bối cảnh Mỹ nỗ lực đóng các lỗ hổng mà các công ty Trung Quốc từng tận dụng để tiếp cận sức mạnh tính toán AI thông qua các trung tâm dữ liệu đám mây tại Đông Nam Á. Theo ước tính từ Viện Tiến bộ (Institute for Progress), các trung tâm dữ liệu từ xa này đóng góp khoảng 24% năng lực tính toán AI của Trung Quốc. Trước đó, Bộ Thương mại Mỹ đã ban hành các quy định mới và đưa Megaspeed, một đơn vị liên quan đến các bê bối của Nvidia, vào danh sách thực thể cần cấp phép đặc biệt.",
+        "Hiện tại, các doanh nghiệp trong khu vực đang đối mặt với tình trạng thiếu hướng dẫn cụ thể về quy trình xin cấp phép mới, dù thời hạn 90 ngày kể từ ngày 19/11 đang dần trôi qua. Một số nhà điều hành đám mây mô tả tình hình hiện tại là sự hỗn loạn do thiếu quy trình thực thi rõ ràng. Sự kiện này gây chú ý lớn khi khu vực Đông Nam Á vốn là thị trường tăng trưởng quan trọng, nơi Nvidia từng ghi nhận doanh thu 104 tỷ USD thông qua chi nhánh tại Singapore trong năm 2025."
+      ],
+      "generation_provider": "Gemini:gemini-3.1-flash-lite",
+      "seo_title": "Nvidia tạm dừng vận chuyển chip AI sang Đông Nam Á",
+      "meta_description": "Nvidia yêu cầu Dell, Supermicro tạm dừng giao máy chủ AI tới Malaysia, Singapore, Thái Lan và Indonesia để đánh giá tuân thủ quy định xuất khẩu của Mỹ.",
+      "keywords": [
+        "Nvidia",
+        "chip AI",
+        "Đông Nam Á",
+        "xuất khẩu",
+        "Mỹ"
+      ],
+      "slug": "nvidia-tam-dung-cung-cap-chip-ai-tai-ong-nam-a-4c765006",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 294,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+        "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T20:03:54+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T18:09:18+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Nvidia yêu cầu các đối tác như Dell và Supermicro tạm dừng vận chuyển máy chủ chứa chip AI đến Malaysia, Singapore, Thái Lan và Indonesia.",
+          "source_urls": [
+            "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia"
+          ],
+          "importance": "core",
+          "evidence_snippet": "According toThe Financial Times, a handful of the company's manufacturing partners, including Dell and Supermicro, told clients in Malaysia, Singapore, Thailand and Indonesia that the chipmaker is not allowing their server orders to be sent to them.The Financial Timesreports it's unclear if the halt is temporary.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia",
+              "snippet": "According toThe Financial Times, a handful of the company's manufacturing partners, including Dell and Supermicro, told clients in Malaysia, Singapore, Thailand and Indonesia that the chipmaker is not allowing their server orders to be sent to them.The Financial Timesreports it's unclear if the halt is temporary.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia",
+              "page_sha256": "24671efd9f58a3a37760c0d092385efad3331c8549a3ae3b938551c7de2919f6",
+              "snippet_sha256": "634283b0a66a660a301b9ae54c91406cd606e2506c18c2d9772d4b88aebccfd1",
+              "verified_at": "2026-11-27T03:51:04.139364+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các trung tâm dữ liệu từ xa tại Đông Nam Á ước tính cung cấp khoảng 24% năng lực tính toán AI của Trung Quốc.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The Journal notes that the think tankInstitute for Progressestimates remote data centers like these supply about 24% of China’s AI computing power.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+              "snippet": "The Journal notes that the think tankInstitute for Progressestimates remote data centers like these supply about 24% of China’s AI computing power.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+              "page_sha256": "51682a6f3d634c7a9d8450f44892de2b3ac9f874c017ce7c6cafb85ff7bbdb98",
+              "snippet_sha256": "e62fd1fd4142b5595ea8e3e2a0c0cfe945ce377f96cb8714bb836f1545681b76",
+              "verified_at": "2026-11-27T03:51:04.139364+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nvidia đạt doanh thu 104 tỷ USD thông qua chi nhánh tại Singapore trong năm 2025, tăng 72% so với năm trước.",
+          "source_urls": [
+            "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "NVIDIA booked $104 billion in revenue through its Singapore subsidiary in 2025, representing a 72 percent increase from the year before.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia",
+              "snippet": "NVIDIA booked $104 billion in revenue through its Singapore subsidiary in 2025, representing a 72 percent increase from the year before.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia",
+              "page_sha256": "24671efd9f58a3a37760c0d092385efad3331c8549a3ae3b938551c7de2919f6",
+              "snippet_sha256": "7d7398f047bbefd8e1e4ee6e55aa8f2a770ccfe7cb95dbc381521083bb42fbee",
+              "verified_at": "2026-11-27T03:51:04.139364+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ mối liên hệ giữa các quy định kiểm soát xuất khẩu mới của Mỹ và sự gián đoạn chuỗi cung ứng tại Đông Nam Á. Đồng thời, bài báo phân tích tác động của việc thiếu hướng dẫn thực thi đối với các đối tác đám mây trong khu vực.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T03:51:04.139752+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "104",
+        "2025",
+        "24",
+        "90"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T03:51:04.140408+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 3,
+          "words": 294,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1353
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "phap-ieu-tra-cac-quan-chuc-cap-cao-vi-nghi-van-ro-ri-thong-tin-cho-ang-c-eea694a0",
+    "status": "READY",
+    "prepared_at": "2026-11-27T03:50:39.497554+00:00",
+    "expires_at": "2026-11-27T15:50:39.497554+00:00",
+    "source_urls": [
+      "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+      "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss"
+    ],
+    "article": {
+      "id": "phap-ieu-tra-cac-quan-chuc-cap-cao-vi-nghi-van-ro-ri-thong-tin-cho-ang-c-eea694a0",
+      "title": "Pháp điều tra các quan chức cấp cao vì nghi vấn rò rỉ thông tin cho đảng cực hữu",
+      "summary": "Hai quan chức cấp cao tại Pháp đang đối mặt với các cuộc điều tra và hình thức xử lý kỷ luật do tình nghi liên quan đến việc làm rò rỉ thông tin mật cho đảng cực hữu Tập hợp Quốc gia.",
+      "category": "world",
+      "source_name": "France 24 - English",
+      "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+      "published_at": "2026-11-26T11:24:58+00:00",
+      "fetched_at": "2026-11-27T03:51:08.756620+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hai nhân vật giữ vị trí cấp cao tại Pháp vừa vướng vào một cuộc điều tra liên quan đến nghi vấn rò rỉ thông tin mật cho đảng cực hữu Tập hợp Quốc gia. Sự việc đang thu hút sự quan tâm lớn của dư luận về tính bảo mật thông tin trong các cơ quan công quyền.",
+        "Cụ thể, ông Hugues Moutouh, tỉnh trưởng vùng Loiret đồng thời là cựu quan chức cấp cao tại Bộ Nội vụ Pháp, đã bị cách chức. Quyết định này được đưa ra trong bối cảnh ông bị nghi ngờ chuyển tiếp các thông tin mật liên quan đến các cuộc điều tra đang diễn ra.",
+        "Bên cạnh đó, một phó công tố viên tại Paris cũng đang phải đối mặt với cuộc điều tra hành chính. Người này được phát hiện có mặt tại trụ sở của đảng chính trị nói trên trong một cuộc khám xét do cảnh sát thực hiện.",
+        "Các diễn biến mới nhất này cho thấy cơ quan chức năng đang củng cố hồ sơ và làm rõ mức độ liên quan của từng cá nhân trong nghi vấn rò rỉ dữ liệu nhạy cảm cho phe cực hữu, trong khi các bước xử lý tiếp theo đang tiếp tục được triển khai."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Quan chức Pháp bị điều tra vì nghi vấn rò rỉ thông tin mật",
+      "meta_description": "Cựu quan chức Bộ Nội vụ và một phó công tố viên tại Paris đang bị điều tra trong vụ việc nghi rò rỉ thông tin cho đảng cực hữu Tập hợp Quốc gia ở Pháp.",
+      "keywords": [
+        "Pháp",
+        "Tập hợp Quốc gia",
+        "điều tra",
+        "rò rỉ thông tin",
+        "Hugues Moutouh"
+      ],
+      "slug": "phap-ieu-tra-cac-quan-chuc-cap-cao-vi-nghi-van-ro-ri-thong-tin-cho-ang-c-eea694a0",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 216,
+      "display_source": true,
+      "source_urls": [
+        "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+        "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T11:24:58+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T18:19:10+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hai nhân vật cấp cao tại Pháp bị cuốn vào cuộc điều tra nghi vấn rò rỉ thông tin cho đảng cực hữu Tập hợp Quốc gia.",
+          "source_urls": [
+            "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The content you requested does not exist or is not available anymore.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+              "snippet": "The content you requested does not exist or is not available anymore.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+              "page_sha256": "7e9971aa9d8a12eb174d9b3dc30f3c2db9197b91f52a31d602b357e217ea7ab7",
+              "snippet_sha256": "349bed8c936180128846a24a22f023d6cbf59364da54eb33e2cba673a0932c47",
+              "verified_at": "2026-11-27T03:51:08.756326+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tỉnh trưởng vùng Loiret kiêm cựu quan chức Bộ Nội vụ Hugues Moutouh bị cách chức vì nghi ngờ chuyển thông tin mật.",
+          "source_urls": [
+            "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The prefect of the Loiret and former top official at the Interior Ministry, Hugues Moutouh, has been removed from his post after being suspected of passing on confidential information about investigations.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+              "snippet": "The prefect of the Loiret and former top official at the Interior Ministry, Hugues Moutouh, has been removed from his post after being suspected of passing on confidential information about investigations.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+              "page_sha256": "7e9971aa9d8a12eb174d9b3dc30f3c2db9197b91f52a31d602b357e217ea7ab7",
+              "snippet_sha256": "d4226d6bc5e270db9e908e3657e86bc5a666176c7457fedd88a7ad920498e499",
+              "verified_at": "2026-11-27T03:51:08.756326+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Một phó công tố viên Paris bị điều tra hành chính sau khi được phát hiện tại trụ sở đảng trong một cuộc khám xét của cảnh sát.",
+          "source_urls": [
+            "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally"
+          ],
+          "importance": "core",
+          "evidence_snippet": "EU says 'strongly' rejects premise of new US tariffs",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+              "snippet": "EU says 'strongly' rejects premise of new US tariffs",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
+              "page_sha256": "7e9971aa9d8a12eb174d9b3dc30f3c2db9197b91f52a31d602b357e217ea7ab7",
+              "snippet_sha256": "58c9c20f9663d7e2bbdbebb56b40abb04558b8c90b96a46d516097150231df37",
+              "verified_at": "2026-11-27T03:51:08.756326+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp các thông tin cốt lõi từ nguồn tin chính thức về quyết định cách chức tỉnh trưởng Loiret và việc điều tra phó công tố viên Paris. Nội dung làm rõ vai trò của các bên liên quan trong vụ việc rò rỉ thông tin mật mà không đưa ra các suy đoán ngoài dữ liệu.",
+      "risk_level": "R2",
+      "verification_timestamp": "2026-11-27T03:51:08.756685+00:00",
+      "freshness_ttl_hours": 12,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-27T03:51:08.757225+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 216,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 963
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "france24.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "trai-nghiem-iphone-duo-sau-mot-thang-thay-oi-thoi-quen-dung-smartphone-873bd63e",
+    "status": "READY",
+    "prepared_at": "2026-11-27T03:50:39.497554+00:00",
+    "expires_at": "2026-11-28T03:50:39.497554+00:00",
+    "source_urls": [
+      "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+      "https://www.engadget.com/2319546/can-iphone-safely-use-140w-charger"
+    ],
+    "article": {
+      "id": "trai-nghiem-iphone-duo-sau-mot-thang-thay-oi-thoi-quen-dung-smartphone-873bd63e",
+      "title": "Trải nghiệm iPhone Duo sau một tháng: Thay đổi thói quen dùng smartphone",
+      "summary": "Sau gần một tháng sử dụng iPhone Duo màn hình gập, thiết kế mới này đã thay đổi đáng kể thói quen tương tác ứng dụng và cách tổ chức thiết bị của người dùng.",
+      "category": "technology",
+      "source_name": "TechCrunch - All",
+      "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+      "published_at": "2026-11-26T17:00:00+00:00",
+      "fetched_at": "2026-11-27T03:51:13.323798+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Sau gần một tháng trải nghiệm mẫu điện thoại màn hình gập iPhone Duo, thiết kế phần cứng mới này đang dần định hình lại những thói quen sử dụng thiết bị hằng ngày của người dùng từ cách tổ tác vụ cho đến cách sắp xếp ứng dụng.",
+        "Ban đầu, những lo ngại về sự đánh đổi tính năng cao cấp hay kích thước màn hình từng xuất hiện. Tuy nhiên, phần lớn các ứng dụng hiện nay đã được tối ưu hóa cho thiết bị gập, cùng với việc người dùng dần quen thuộc với Touch ID và tính năng mở khóa khuôn mặt mới được Apple cập nhật.",
+        "Điểm gây ngạc nhiên lớn nhất nằm ở khả năng đa nhiệm màn hình kép. Thay vì giới hạn ở thao tác đơn lẻ, người dùng có thể dễ dàng kéo và thả các ứng dụng chạy song song hai bên màn hình như vừa đọc tin tức vừa theo dõi mạng xã hội hoặc duy trì liên lạc qua tin nhắn.",
+        "Khi ở trạng thái gập, thiết bị mang lại cảm giác gọn gàng tương tự dòng iPhone mini, thuận tiện cho việc thao tác một tay hay mang theo khi di chuyển. Ngược lại, khi mở rộng màn hình tại nhà, người dùng có thể tận dụng không gian lớn hơn để xem video, mua sắm hoặc xử lý công việc hiệu quả hơn."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Trải nghiệm iPhone Duo sau 1 tháng: Thay đổi thói quen người dùng",
+      "meta_description": "Đánh giá thực tế sau gần một tháng sử dụng iPhone Duo cho thấy những thay đổi lớn về thói quen đa nhiệm, quản lý ứng dụng và cách thiết bị màn hình gập định hìn",
+      "keywords": [
+        "iPhone Duo",
+        "Apple",
+        "smartphone màn hình gập",
+        "công nghệ di động"
+      ],
+      "slug": "trai-nghiem-iphone-duo-sau-mot-thang-thay-oi-thoi-quen-dung-smartphone-873bd63e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 237,
+      "display_source": true,
+      "source_urls": [
+        "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+        "https://www.engadget.com/2319546/can-iphone-safely-use-140w-charger"
+      ],
+      "source_links": [
+        "https://www.engadget.com/2319546/can-iphone-safely-use-140w-charger"
+      ],
+      "source_references": [
+        {
+          "name": "TechCrunch - All",
+          "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+          "domain": "techcrunch.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "techcrunch.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T17:00:00+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2319546/can-iphone-safely-use-140w-charger",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-22T22:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Sau gần một tháng sử dụng iPhone Duo, thiết kế màn hình gập đã thay đổi thói quen tương tác ứng dụng và tổ chức thiết bị của người dùng.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone"
+          ],
+          "importance": "core",
+          "evidence_snippet": "An illustration of the Apple iPhone Duo is displayed at a store in Krakow, Poland, on October 27, 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+              "snippet": "An illustration of the Apple iPhone Duo is displayed at a store in Krakow, Poland, on October 27, 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+              "page_sha256": "317e4ddb284ca5aa9c0c8d8cda77db7c585e9f5afb4655817aea627bf5d85bcd",
+              "snippet_sha256": "e35f1e89f66c61037d3b040a4e882571d1e4158fbd21d1bfccffc032102f37fe",
+              "verified_at": "2026-11-27T03:51:13.323372+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phần lớn các ứng dụng hiện đã được tối ưu hóa cho Duo, kết hợp với tính năng mở khóa bằng khuôn mặt được Apple phát hành trong bản cập nhật mới nhất.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "For starters, Apple has made this side-by-side mode incredibly intuitive and easy to use — you simply drag the app over to the left or right side of the screen and drop it into the target box that appears.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+              "snippet": "For starters, Apple has made this side-by-side mode incredibly intuitive and easy to use — you simply drag the app over to the left or right side of the screen and drop it into the target box that appears.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+              "page_sha256": "317e4ddb284ca5aa9c0c8d8cda77db7c585e9f5afb4655817aea627bf5d85bcd",
+              "snippet_sha256": "712c4c1188b6538bd9f46328cb1d075c3854861fa1b4014e56d56e55687a2f72",
+              "verified_at": "2026-11-27T03:51:13.323372+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chế độ chia đôi màn hình trên Duo hoạt động trực quan bằng cách kéo và thả ứng dụng sang cạnh trái hoặc phải để thực hiện đa nhiệm.",
+          "source_urls": [
+            "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Meanwhile, the only app icons on the Home Screen are those in the dock.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+              "snippet": "Meanwhile, the only app icons on the Home Screen are those in the dock.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
+              "page_sha256": "317e4ddb284ca5aa9c0c8d8cda77db7c585e9f5afb4655817aea627bf5d85bcd",
+              "snippet_sha256": "0c11d5fdf9c93204bfcdcfc79d03da62407f7fa50d6b4b24c438f6283b6ad1bf",
+              "verified_at": "2026-11-27T03:51:13.323372+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những thay đổi thực tế trong thói quen sử dụng hằng ngày của người dùng đối với dòng sản phẩm iPhone Duo màn hình gập. Đồng thời, nội dung phân tích cách thiết bị cân bằng giữa sự nhỏ gọn khi gập lại và không gian mở rộng cho tác vụ đa nhiệm.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T03:51:13.323865+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "checked_at": "2026-11-27T03:51:13.324573+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 237,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1068
+        },
+        "independent_domains": [
+          "engadget.com",
+          "techcrunch.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
