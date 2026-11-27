@@ -2510,7 +2510,7 @@
   },
   {
     "queue_id": "db1d3b8b84d53d1b4641",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:11:02.269537+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "sports",
@@ -3467,11 +3467,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:11:02.269559+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e"
   },
   {
     "queue_id": "7806de1c0f7cf8d5e179",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:11:01.670513+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "world",
@@ -4135,11 +4136,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:11:01.670532+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55"
   },
   {
     "queue_id": "6b7561d2472a3862b096",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:11:00.770983+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "vietnam",
@@ -5337,11 +5339,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:11:00.771007+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae"
   },
   {
     "queue_id": "88efe36935fcc604e07d",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T13:10:47.602282+00:00",
     "expires_at": "2026-11-30T13:09:07.354905+00:00",
     "category_hint": "vietnam",
@@ -6455,7 +6458,8 @@
       ]
     },
     "research_ready_at": "2026-11-27T13:10:47.602303+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4"
   },
   {
     "queue_id": "phap-ieu-tra-cac-quan-chuc-cap-cao-vi-nghi-van-ro-ri-thong-tin-cho-ang-c-eea694a0",
@@ -94512,7 +94516,7 @@
   },
   {
     "queue_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-27T13:11:37.315140+00:00",
     "expires_at": "2026-11-28T13:11:37.315140+00:00",
     "source_urls": [
@@ -94530,7 +94534,7 @@
       "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
       "published_at": "2026-11-27T11:30:04+00:00",
       "fetched_at": "2026-11-27T13:11:41.900992+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-27T14:24:09.220473+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -94779,25 +94783,35 @@
         "4"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-27T13:11:41.902352+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-27T14:24:09.220473+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 283,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1287
-        },
-        "independent_domains": [
-          "arstechnica.com",
-          "cnbc.com",
-          "theverge.com",
-          "wired.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1287,
+          "source_access": [
+            {
+              "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "arstechnica.com",
+            "cnbc.com",
+            "theverge.com",
+            "wired.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-27 21:24"
+    },
+    "published_at": "2026-11-27T14:24:09.220473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "bong-da-chau-au-rung-dong-vi-bao-luc-khan-gia-tong-thong-phap-len-an-gay-336bafdd",
@@ -95303,5 +95317,1022 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e",
+    "status": "HOLD",
+    "prepared_at": "2026-11-27T14:23:43.974440+00:00",
+    "expires_at": "2026-11-28T14:23:43.974440+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+      "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+      "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers"
+    ],
+    "article": {
+      "id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e",
+      "title": "Mike Tomlin gọi tình hình Steelers là 'bãi rác cháy'",
+      "summary": "Cựu huấn luyện viên Mike Tomlin và ngôi sao Tom Brady đã lên tiếng bình luận về vụ chia tay đầy sóng gió của quarterback Aaron Rodgers với câu lạc bộ Pittsburgh Steelers.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+      "published_at": "2026-11-27T11:45:10+00:00",
+      "fetched_at": "2026-11-27T14:23:48.356331+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Cựu huấn luyện viên trưởng của Pittsburgh Steelers, Mike Tomlin, đã lên tiếng mô tả tình hình hỗn loạn tại câu lạc bộ là \"một bãi rác cháy\" trong một chương trình phát sóng truyền hình trực tiếp vào tối thứ Năm. Phát biểu này được đưa ra sau chuỗi sự kiện kịch tính dẫn đến việc đội bóng quyết định cắt hợp đồng với quarterback kỳ cựu Aaron Rodgers.",
+        "Trước đó, Steelers đã thông báo quyết định đẩy Rodgers lên ghế dự bị để nhường chỗ cho Mason Rudolph. Ngay sau đó, Rodgers xuất hiện trên một chương trình truyền hình và đưa ra những cáo buộc nhắm vào huấn luyện viên trưởng Mike McCarthy, bao gồm việc ông ngủ gật trong các cuộc họp chiến thuật và nhầm lẫn khẩu hiệu trong trận đấu với Philadelphia Eagles.",
+        "Sự việc khiến chủ tịch đội bóng Art Rooney II lên tiếng chỉ trích hành động của Rodgers là hành vi bất tuân thượng lệnh và bày tỏ sự ủng hộ đối với HLV McCarthy. Đội bóng đã tiến hành thanh lý hợp đồng với quarterback 42 tuổi này, biến anh thành cầu thủ tự do sau khi qua danh sách waivers.",
+        "Ở một diễn biến liên quan, huyền thoại NFL Tom Brady cũng đưa ra quan điểm về vụ việc trong một chương trình phát sóng khác. Brady nhấn mạnh rằng không ai giành chiến thắng khi nội bộ mâu thuẫn và nhắc nhở về tính thiêng liêng cũng như sự riêng tư của phòng thay đồ trong một đội bóng chuyên gia.",
+        "Về phần mình, HLV Mike Tomlin bày tỏ sự buồn bã trước cái kết đầy cay đắng này. Dù vậy, ông đánh giá cao những đóng góp và sự tôn trọng mà Rodgers từng thể hiện đối với văn hóa của Steelers trong mùa giải trước đó, đồng thời cho rằng thách thức hiện tại đòi hỏi HLV McCarthy phải củng cố lại các mối quan hệ trong đội bóng."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Mike Tomlin và Tom Brady bình luận vụ Aaron Rodgers rời Steelers",
+      "meta_description": "Cựu HLV Mike Tomlin gọi tình hình tại Pittsburgh Steelers là 'bãi rác cháy' trong khi Tom Brady lên tiếng về sự thiêng liêng của phòng thay đồ sau sự ra đi của ",
+      "keywords": [
+        "Mike Tomlin",
+        "Aaron Rodgers",
+        "Tom Brady",
+        "Pittsburgh Steelers",
+        "Mike McCarthy"
+      ],
+      "slug": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 333,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+        "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+        "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers"
+      ],
+      "source_links": [
+        "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+        "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T11:45:10+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T07:39:38+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T06:26:03+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Mike Tomlin gọi tình hình ở Steelers là một bãi rác cháy trong chương trình phát sóng tối thứ Năm.",
+          "source_urls": [
+            "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire"
+          ],
+          "importance": "core",
+          "evidence_snippet": "FormerSteelershead coach Mike Tomlin called the tumultuous situation in Pittsburgh involving head coach Mike McCarthy andAaron Rodgers\"a dumpster fire\" during NBC's halftime show Thursday night.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+              "snippet": "FormerSteelershead coach Mike Tomlin called the tumultuous situation in Pittsburgh involving head coach Mike McCarthy andAaron Rodgers\"a dumpster fire\" during NBC's halftime show Thursday night.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+              "page_sha256": "a3c7e179f3179d1297a9deb6e2299df9399d1290aedf331e34120549dbcbaa16",
+              "snippet_sha256": "9e81c57f6385727ffe147ca6d7512c8a10a73a98cff90e2fb6fbc3b261271e32",
+              "verified_at": "2026-11-27T14:23:48.355523+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pittsburgh Steelers thông báo đẩy Aaron Rodgers lên ghế dự bị nhường chỗ cho Mason Rudolph.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Steelers announced Tuesday night that Rodgerswould be benchedin favor of Mason Rudolph.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+              "snippet": "The Steelers announced Tuesday night that Rodgerswould be benchedin favor of Mason Rudolph.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+              "page_sha256": "09b297220de126c4f208235e16644b915b3d649f0da9b8adeeb0decdf3e0f75a",
+              "snippet_sha256": "8533d44935e99c2aca53670ff91facd34f184bec78a86d407b8184c2bb2caf2a",
+              "verified_at": "2026-11-27T14:23:48.355523+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tom Brady phát biểu rằng không ai chiến thắng khi nội bộ mâu thuẫn và nhấn mạnh sự thiêng liêng của phòng thay đồ NFL.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "We shouldn’t ever lose track of that as players,” Brady said.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+              "snippet": "We shouldn’t ever lose track of that as players,” Brady said.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+              "page_sha256": "09b297220de126c4f208235e16644b915b3d649f0da9b8adeeb0decdf3e0f75a",
+              "snippet_sha256": "8956de526709107f933283b741a963a9f6e7d3fc841f8a89bb49dd1ad9e381af",
+              "verified_at": "2026-11-27T14:23:48.355523+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Chủ tịch Art Rooney II bảo vệ HLV Mike McCarthy và gọi hành động của Rodgers là bất tuân thượng lệnh.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Team owner Art Rooney IIhas backedMcCarthy and described Rodgers’s actions as “insubordination”.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+              "snippet": "Team owner Art Rooney IIhas backedMcCarthy and described Rodgers’s actions as “insubordination”.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+              "page_sha256": "09b297220de126c4f208235e16644b915b3d649f0da9b8adeeb0decdf3e0f75a",
+              "snippet_sha256": "44b34f341a82707bb0d0e5a773ec970021e00e253595e64fa0154f84f54f19a6",
+              "verified_at": "2026-11-27T14:23:48.355523+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ phản ứng từ cựu HLV Mike Tomlin và ngôi sao Tom Brady trước biến động nội bộ của Steelers. Đồng thời, văn bản xâu chuỗi các mốc thời gian từ quyết định ghế dự bị đến buổi phỏng vấn gây tranh cãi của Aaron Rodgers.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T14:23:48.356451+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "42"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T14:23:48.358220+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 333,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1614
+        },
+        "independent_domains": [
+          "espn.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: espn.com (HTTP 202); fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+    "checked_at": "2026-11-27T14:24:09.220473+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-27T14:24:09.220473+00:00",
+      "errors": [
+        "Nguồn không truy cập được: espn.com (HTTP 202)",
+        "fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản",
+        "fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 333,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1614,
+        "source_access": [
+          {
+            "url": "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
+            "ok": false,
+            "reason": "HTTP 202"
+          },
+          {
+            "url": "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "espn.com",
+          "npr.org",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-27T14:23:43.974440+00:00",
+    "expires_at": "2026-11-28T14:23:43.974440+00:00",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
+      "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+    ],
+    "article": {
+      "id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "title": "Ông Zelensky chỉ trích Mỹ dồn tâm sức cho Trung Đông và chậm trễ viện trợ vũ khí",
+      "summary": "Trong cuộc phỏng vấn với BBC tại Kyiv, Tổng thống Ukraine Volodymyr Zelensky bày tỏ sự thất vọng sâu sắc với chính sách của Mỹ, cho rằng Washington đang quá tập trung vào Trung Đông và chưa gây áp lực đủ lớn đối với Nga trong các vòng đàm phán hòa bình.",
+      "category": "world",
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T22:49:27+00:00",
+      "fetched_at": "2026-11-27T14:23:54.724698+00:00",
+      "appnho_published_at": "2026-11-27T14:24:09.220473+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tổng thống Ukraine Volodymyr Zelensky vừa đưa ra những nhận định thẳng thắn trong cuộc trả lời phỏng vấn với BBC tại văn phòng ở thủ đô Kyiv. Ông cho rằng Washington đang dành quá nhiều sự quan tâm và nguồn lực cho Trung Đông, đồng thời thiếu quyết tâm trong việc gây áp lực buộc Moscow phải nhượng bộ nhằm chấm dứt xung đột.",
+        "Bên cạnh vấn đề ngoại giao, nhà lãnh đạo Ukraine đặc biệt lo ngại về sự thiếu hụt trầm trọng các thiết bị đánh chặn tên lửa đạn đạo. Ông cáo buộc phía Mỹ đang trì hoãn việc bàn giao các hệ thống phòng không Patriot, điều mà ông nhấn mạnh rằng sự chậm trễ này trực tiếp đánh đổi bằng sinh mạng của người dân Ukraine trong bối cảnh các cuộc không kích ngày càng ác liệt.",
+        "Liên quan đến tiến trình hòa bình do các đặc phái viên Mỹ thúc đẩy, ông Zelensky cho biết vòng đàm phán trung gian tại Abu Dhabi hồi đầu tháng không đạt được tiến triển rõ rệt. Ông ví tình hình hiện tại chứa đựng nhiều vấn đề phức tạp và tiết lộ sự bất định về việc liệu các nhà đàm phán châu Âu có thực sự được tham gia vào bàn đàm phán hay không.",
+        "Ngoài ra, Tổng thống Ukraine cũng lên tiếng chỉ trích những phát ngôn và động thái gần đây của Tổng thống Mỹ Donald Trump đối với Tổng thống Nga Vladimir Putin. Ông khẳng định đối phương là kẻ tấn công và không thể xem là bạn, đồng thời nhấn mạnh rằng thái độ trung lập với kẻ gây hấn đồng nghĩa với việc không bảo vệ đúng mức các nạn nhân."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Zelensky: Mỹ quá tập trung vào Trung Đông và chưa gây áp lực đủ mạnh v",
+      "meta_description": "Tổng thống Ukraine Volodymyr Zelensky chỉ trích Mỹ dành nhiều sự chú ý cho Trung Đông và chậm trễ cung cấp hệ thống phòng thủ tên lửa Patriot.",
+      "keywords": [
+        "Volodymyr Zelensky",
+        "Mỹ",
+        "Nga",
+        "Ukraine",
+        "Trung Đông",
+        "Patriot"
+      ],
+      "slug": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 291,
+      "display_source": true,
+      "source_urls": [
+        "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
+        "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
+        "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+      ],
+      "source_references": [
+        {
+          "name": "BBC News - World",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T22:49:27+00:00"
+        },
+        {
+          "name": "The Guardian - Business",
+          "url": "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T19:25:57+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T13:31:45+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Tổng thống Ukraine Volodymyr Zelensky trả lời phỏng vấn BBC tại văn phòng ở Kyiv, chỉ trích Mỹ quá tập trung vào Trung Đông và thiếu quyết tâm đẩy mạnh áp lực lên Nga.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "In an interview with the BBC at his central Kyiv office, Ukraine's president complained the US was not pushing Russia hard enough in peace talks, and called it \"strange\" that Trump posted a photo of himself embracing Putin.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "snippet": "In an interview with the BBC at his central Kyiv office, Ukraine's president complained the US was not pushing Russia hard enough in peace talks, and called it \"strange\" that Trump posted a photo of himself embracing Putin.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8fc1fc700d6776ed6b5b662870c09475387156bd2ce51eaedb35645d6e4e26a6",
+              "snippet_sha256": "423b3e18afcd324b8fa2dce22ebfd989b2a4215b09b36879858d61f1788bc44e",
+              "verified_at": "2026-11-27T14:23:54.724016+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ông Zelensky cho biết Ukraine đang đối mặt với sự thiếu hụt rất lớn về các tên lửa đánh chặn và cáo buộc Mỹ làm chậm trễ việc cung cấp hệ thống Patriot, gây tổn thất về sinh mạng con người.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ukraine's own long-range strikes against Russian targets have increased in recent weeks, including oil refineries and ships carrying weapons or fuel.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Ukraine's own long-range strikes against Russian targets have increased in recent weeks, including oil refineries and ships carrying weapons or fuel.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8fc1fc700d6776ed6b5b662870c09475387156bd2ce51eaedb35645d6e4e26a6",
+              "snippet_sha256": "59bee89e6b43d93abf64889e4369b79bbdf4fcc97de8db9e68f5ceba1755ac5f",
+              "verified_at": "2026-11-27T14:23:54.724016+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các cuộc đàm phán hòa bình gần đây tại Abu Dhabi không mang lại tiến triển rõ ràng và dự kiến sẽ tiếp tục nối lại vào tháng 12.",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The latest round of peace talks, mediated in Abu Dhabi earlier this month, made no obvious progress: \"The more we know, the more problems\", is how Zelensky described it.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "snippet": "The latest round of peace talks, mediated in Abu Dhabi earlier this month, made no obvious progress: \"The more we know, the more problems\", is how Zelensky described it.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "8fc1fc700d6776ed6b5b662870c09475387156bd2ce51eaedb35645d6e4e26a6",
+              "snippet_sha256": "1a629f92e3ef5ceaf068e9b19013d1bf7f19015f0a782586494bdb66e88b0fb2",
+              "verified_at": "2026-11-27T14:23:54.724016+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ những bất đồng ngoại giao và quân sự hiện tại giữa Ukraine và Mỹ qua góc nhìn trực tiếp từ Tổng thống Zelensky. Bối cảnh về sự thiếu hụt hệ thống phòng không Patriot và bế tắc trong đàm phán hòa bình được đặt cạnh nhau để giải thích áp lực an ninh mà Kyiv đang phải đối mặt.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T14:23:54.724809+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-27T14:24:09.220473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 291,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1381,
+          "source_access": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "bbc.com",
+            "cnbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-27 21:24"
+    },
+    "published_at": "2026-11-27T14:24:09.220473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-27T14:23:43.974440+00:00",
+    "expires_at": "2026-11-28T14:23:43.974440+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+      "https://thanhnien.vn/hotgirl-taekwondo-chau-tuyet-van-toa-sang-tphcm-tang-toc-o-dai-hoi-the-thao-toan-quoc-185261127200439187.htm"
+    ],
+    "article": {
+      "id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+      "title": "Taekwondo TP.HCM giành 3 huy chương vàng ngày đầu thi đấu đối kháng",
+      "summary": "Trong ngày thi đấu đối kháng đầu tiên tại Đại hội Thể thao toàn quốc 2026, đoàn thể thao TP.HCM đã xuất sắc giành 3 huy chương vàng ở các hạng cân khác nhau.",
+      "category": "sports",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+      "published_at": "2026-11-26T17:27:00+00:00",
+      "fetched_at": "2026-11-27T14:24:00.149207+00:00",
+      "appnho_published_at": "2026-11-27T14:24:09.220473+00:00",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong ngày thi đấu mở màn nội dung đối kháng môn taekwondo thuộc Đại hội Thể thao toàn quốc 2026 diễn ra tại nhà thi đấu Phường An Hội Đông, chủ nhà TP.HCM đã ghi dấu ấn đậm nét với 3 huy chương vàng.",
+        "Ở hạng cân 46kg nữ, võ sĩ Phạm Thị Kim Chi mang về tấm huy chương vàng đầu tiên sau chiến thắng kịch tính 2-1 trước Lê Thị Ngọc Phương đại diện cho An Giang trong trận chung kết đầy giằng co về điểm số.",
+        "Tiếp nối thành công, nhà vô địch SEA Games 33 Nguyễn Hồng Trọng không gặp nhiều khó khăn để vượt qua Ngô Trường Nguyên Đại của Đà Nẵng với tỷ số 2-0 tại chung kết hạng cân 54kg nam, trong khi đồng đội Phạm Đăng Quang cũng đánh bại Nguyễn Trần Tấn Sang từ phía Quân Đội với tỷ số tương tự ở hạng cân 68kg nam.",
+        "Bên cạnh các nội dung của TP.HCM, đoàn Hà Nội đóng góp thêm 2 huy chương vàng nhờ công của Vũ Thị Dung ở hạng cân 57kg nữ và Lê Phi Hùng ở hạng cân trên 87kg nam. Chiếc huy chương vàng còn lại trong ngày thuộc về Nguyễn Thị Mỹ Dung của Đà Nẵng sau trận thắng 2-0 trước đối thủ Nguyễn Thúy Hằng đến từ Đồng Tháp."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Taekwondo TP.HCM giành 3 HCV ngày đầu đối kháng Đại hội Thể thao toàn ",
+      "meta_description": "Cập nhật kết quả môn taekwondo tại Đại hội Thể thao toàn quốc 2026, đoàn TP.HCM giành 3 huy chương vàng trong ngày đầu thi đấu đối kháng.",
+      "keywords": [
+        "taekwondo TP.HCM",
+        "Đại hội Thể thao toàn quốc 2026",
+        "HCV đối kháng",
+        "Phạm Thị Kim Chi",
+        "Nguyễn Hồng Trọng"
+      ],
+      "slug": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 225,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+        "https://thanhnien.vn/hotgirl-taekwondo-chau-tuyet-van-toa-sang-tphcm-tang-toc-o-dai-hoi-the-thao-toan-quoc-185261127200439187.htm"
+      ],
+      "source_links": [
+        "https://thanhnien.vn/hotgirl-taekwondo-chau-tuyet-van-toa-sang-tphcm-tang-toc-o-dai-hoi-the-thao-toan-quoc-185261127200439187.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-26T17:27:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/hotgirl-taekwondo-chau-tuyet-van-toa-sang-tphcm-tang-toc-o-dai-hoi-the-thao-toan-quoc-185261127200439187.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T13:08:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "TP.HCM giành 3 huy chương vàng trong ngày thi đấu đầu tiên nội dung đối kháng môn taekwondo tại Đại hội Thể thao toàn quốc 2026.",
+          "source_urls": [
+            "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "TP.HCM đã giành 3/6 HCV trong ngày thi đấu đầu tiên nội dung đối kháng môn taekwondo Đại hội Thể thao toàn quốc 2026.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "snippet": "TP.HCM đã giành 3/6 HCV trong ngày thi đấu đầu tiên nội dung đối kháng môn taekwondo Đại hội Thể thao toàn quốc 2026.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "page_sha256": "99901228e38cd31903a86fdc17bf42dbe074127a9ecfd80084f4edbf6f12c8c8",
+              "snippet_sha256": "75625203a482f01081998b8ec9b28520055690bc60906c992afcf78899e3597c",
+              "verified_at": "2026-11-27T14:24:00.148299+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phạm Thị Kim Chi thắng Lê Thị Ngọc Phương 2-1 ở chung kết 46kg nữ để mang về HCV đầu tiên cho TP.HCM.",
+          "source_urls": [
+            "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Ở hạng cân 46kg nữ, Phạm Thị Kim Chi đã đem về HCV đầu tiên cho TP.HCM khi thắng kịch tính Lê Thị Ngọc Phương (An Giang) 2-1 trong trận chung kết.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "snippet": "Ở hạng cân 46kg nữ, Phạm Thị Kim Chi đã đem về HCV đầu tiên cho TP.HCM khi thắng kịch tính Lê Thị Ngọc Phương (An Giang) 2-1 trong trận chung kết.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "page_sha256": "99901228e38cd31903a86fdc17bf42dbe074127a9ecfd80084f4edbf6f12c8c8",
+              "snippet_sha256": "d5a3973a1d5ef190dc83b168906802660f6642a7821e84d9008523803fb7c68f",
+              "verified_at": "2026-11-27T14:24:00.148299+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nguyễn Hồng Trọng thắng Ngô Trường Nguyên Đại 2-0 ở chung kết 54kg nam.",
+          "source_urls": [
+            "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Chung kết hạng cân 54kg nam, nhà vô địch SEA Games 33 Nguyễn Hồng Trọng không khó để hạ Ngô Trường Nguyên Đại (Đà Nẵng) 2-0 để đem về HCV thứ 2 cho TP.HCM.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "snippet": "Chung kết hạng cân 54kg nam, nhà vô địch SEA Games 33 Nguyễn Hồng Trọng không khó để hạ Ngô Trường Nguyên Đại (Đà Nẵng) 2-0 để đem về HCV thứ 2 cho TP.HCM.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "page_sha256": "99901228e38cd31903a86fdc17bf42dbe074127a9ecfd80084f4edbf6f12c8c8",
+              "snippet_sha256": "792c1f6f3a44748717292be004b871cb25de04ecb0d924f7332a4e1958a88bb8",
+              "verified_at": "2026-11-27T14:24:00.148299+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phạm Đăng Quang thắng Nguyễn Trần Tấn Sang 2-0 ở chung kết 68kg nam.",
+          "source_urls": [
+            "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Tương tự, Phạm Đăng Quang (TP.HCM) thắng Nguyễn Trần Tấn Sang (Quân Đội) 2-0 trong trận chung kết hạng cân 68kg nam.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "snippet": "Tương tự, Phạm Đăng Quang (TP.HCM) thắng Nguyễn Trần Tấn Sang (Quân Đội) 2-0 trong trận chung kết hạng cân 68kg nam.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "page_sha256": "99901228e38cd31903a86fdc17bf42dbe074127a9ecfd80084f4edbf6f12c8c8",
+              "snippet_sha256": "fb942f484f010fe4ab4f73617446ae07b39018aa3502cea7d97a0504000864f8",
+              "verified_at": "2026-11-27T14:24:00.148299+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết kết quả thi đấu của từng võ sĩ TP.HCM trong ngày đầu ra quân nội dung đối kháng. Cung cấp bức tranh toàn cảnh về thành tích của các địa phương khác như Hà Nội và Đà Nẵng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T14:24:00.149297+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "2",
+        "2026",
+        "3",
+        "33",
+        "46",
+        "54",
+        "57",
+        "68",
+        "87"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-27T14:24:09.220473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 225,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1021,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "thanhnien.vn",
+            "tuoitre.vn"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-27 21:24"
+    },
+    "published_at": "2026-11-27T14:24:09.220473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-27T14:23:43.974440+00:00",
+    "expires_at": "2026-11-28T14:23:43.974440+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+      "https://vnexpress.net/nuoc-ho-tren-mieng-nui-lua-tran-xuong-khu-dan-cu-ly-son-5149513.html",
+      "https://dantri.com.vn/kinh-doanh/chinh-phu-ban-hanh-6-nhom-co-che-phat-trien-thanh-pho-dong-nai-20261127151819806.htm",
+      "https://thanhnien.vn/vi-sao-gan-17-trieu-dan-roi-dong-bang-song-cuu-long-trong-gan-10-nam-qua-185261127163546688.htm"
+    ],
+    "article": {
+      "id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "title": "Đồng Nai ban hành chính sách hỗ trợ người dân tháo dỡ lồng, bè nuôi cá trên sông",
+      "summary": "Chính quyền Đồng Nai triển khai nghị quyết hỗ trợ các hộ gia đình tháo dỡ lồng, bè nuôi thủy sản trên các tuyến sông nhằm chỉnh trang đô thị và bảo vệ môi trường nguồn nước.",
+      "category": "vietnam",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+      "published_at": "2026-11-27T12:05:00+00:00",
+      "fetched_at": "2026-11-27T14:24:06.020446+00:00",
+      "appnho_published_at": "2026-11-27T14:24:09.220473+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Hội đồng nhân dân thành phố Đồng Nai vừa ban hành nghị quyết về chính sách hỗ trợ các hộ gia đình, cá nhân có lồng, bè nuôi thủy sản bị giải tỏa trên các tuyến sông. Động thái này nằm trong đề án giải tỏa các hộ dân nuôi cá lồng, bè trên các tuyến sông thuộc phường Trấn Biên và Long Hưng nhằm chỉnh trang đô thị.",
+        "Theo thống kê từ chính quyền địa phương, khu vực các tuyến sông thuộc phường Trấn Biên và Long Hưng hiện có 536 bè và 1.428 lồng thuộc sở hữu của 290 hộ dân đang nuôi trồng thủy sản, với 767 nhân khẩu sống trực tiếp trên bè. Việc duy trì hoạt động nuôi trồng tự phát lâu năm đã làm gia tăng áp lực lên môi trường nước, ảnh hưởng đến khả năng lưu thông dòng chảy và cảnh quan.",
+        "Cụ thể, mức hỗ trợ di chuyển tài sản được quy định là 6 triệu đồng mỗi hộ; hỗ trợ tài sản đối với bè là 450.000 đồng/m² và lồng nuôi thủy sản là 200.000 đồng/m². Bên cạnh đó, các hộ dân còn được hỗ trợ tiền thuê nhà 8 triệu đồng mỗi hộ mỗi tháng trong thời gian 6 tháng, đồng thời được hỗ trợ tiếp cận nhà ở xã hội và các nguồn vốn vay ưu đãi.",
+        "Mặc dù các hộ dân sử dụng mặt nước chưa được Nhà nước giao hoặc cho thuê theo quy định nên không thuộc diện bồi thường khi sắp xếp lại mặt nước, thành phố vẫn xây dựng chính sách hỗ trợ do đời sống và sinh kế của họ gắn bó lâu dài với nghề này. Các địa phương như phường Trấn Biên và Long Hưng đang khẩn trương đo đạc, kiểm đếm hiện trạng và rà soát nhu cầu an sinh xã hội để hoàn tất phương án trong thời gian tới."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Đồng Nai hỗ trợ dân tháo dỡ lồng bè nuôi cá trên sông",
+      "meta_description": "Thông tin chi tiết về chính sách hỗ trợ tài chính, an sinh xã hội cho người dân khi tháo dỡ lồng bè nuôi cá trên sông tại Đồng Nai.",
+      "keywords": [
+        "Đồng Nai",
+        "lồng bè nuôi cá",
+        "chính sách hỗ trợ",
+        "môi trường nước",
+        "giải tỏa lồng bè"
+      ],
+      "slug": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 322,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+        "https://vnexpress.net/nuoc-ho-tren-mieng-nui-lua-tran-xuong-khu-dan-cu-ly-son-5149513.html",
+        "https://dantri.com.vn/kinh-doanh/chinh-phu-ban-hanh-6-nhom-co-che-phat-trien-thanh-pho-dong-nai-20261127151819806.htm",
+        "https://thanhnien.vn/vi-sao-gan-17-trieu-dan-roi-dong-bang-song-cuu-long-trong-gan-10-nam-qua-185261127163546688.htm"
+      ],
+      "source_links": [
+        "https://vnexpress.net/nuoc-ho-tren-mieng-nui-lua-tran-xuong-khu-dan-cu-ly-son-5149513.html",
+        "https://dantri.com.vn/kinh-doanh/chinh-phu-ban-hanh-6-nhom-co-che-phat-trien-thanh-pho-dong-nai-20261127151819806.htm",
+        "https://thanhnien.vn/vi-sao-gan-17-trieu-dan-roi-dong-bang-song-cuu-long-trong-gan-10-nam-qua-185261127163546688.htm"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T12:05:00+00:00"
+        },
+        {
+          "name": "VnExpress - Thời sự",
+          "url": "https://vnexpress.net/nuoc-ho-tren-mieng-nui-lua-tran-xuong-khu-dan-cu-ly-son-5149513.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T04:31:10+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/kinh-doanh/chinh-phu-ban-hanh-6-nhom-co-che-phat-trien-thanh-pho-dong-nai-20261127151819806.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T08:39:19+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/vi-sao-gan-17-trieu-dan-roi-dong-bang-song-cuu-long-trong-gan-10-nam-qua-185261127163546688.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T10:32:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Hội đồng nhân dân thành phố Đồng Nai ban hành nghị quyết hỗ trợ các hộ gia đình, cá nhân có lồng, bè nuôi thủy sản bị giải tỏa trên các tuyến sông.",
+          "source_urls": [
+            "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Hội đồng nhân dân TPĐồng Naivừa ban hành nghị quyết về chính sách hỗ trợ các hộ gia đình, cá nhân có lồng, bè nuôi thủy sản bị giải tỏa trên các tuyến sông.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "snippet": "Hội đồng nhân dân TPĐồng Naivừa ban hành nghị quyết về chính sách hỗ trợ các hộ gia đình, cá nhân có lồng, bè nuôi thủy sản bị giải tỏa trên các tuyến sông.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "page_sha256": "8b0eaf32848ac26470ecdb4666cc976988454be888615395148e8163256dd0d6",
+              "snippet_sha256": "46241570d03dc9ab68ca099a61f28a632cb77eb1d270675376f366ea19672fc0",
+              "verified_at": "2026-11-27T14:24:06.019371+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mức hỗ trợ di chuyển tài sản là 6 triệu đồng/hộ; hỗ trợ tài sản đối với bè là 450.000 đồng/m², lồng nuôi thủy sản là 200.000 đồng/m².",
+          "source_urls": [
+            "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cụ thể, mức hỗ trợ di chuyển tài sản là 6 triệu đồng/hộ; hỗ trợ tài sản đối với bè là 450.000 đồng/m², lồng nuôi thủy sản là 200.000 đồng/m².",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "snippet": "Cụ thể, mức hỗ trợ di chuyển tài sản là 6 triệu đồng/hộ; hỗ trợ tài sản đối với bè là 450.000 đồng/m², lồng nuôi thủy sản là 200.000 đồng/m².",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "page_sha256": "8b0eaf32848ac26470ecdb4666cc976988454be888615395148e8163256dd0d6",
+              "snippet_sha256": "357b7b3e1f03fcd28453921dfd14d1d3b8f70a43fcbf3e6b2358f08ef91ba48a",
+              "verified_at": "2026-11-27T14:24:06.019371+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Các hộ dân được hỗ trợ tiền thuê nhà ở 8 triệu đồng/hộ/tháng trong thời gian 6 tháng và hỗ trợ tiếp cận nhà ở xã hội, vốn vay ưu đãi.",
+          "source_urls": [
+            "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Bên cạnh đó, các hộ còn được hỗ trợ tiền thuê nhà ở 8 triệu đồng/hộ/tháng, trong thời gian 6 tháng và được hỗ trợ tiếp cận nhà ở xã hội, vốn vay ưu đãi…",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "snippet": "Bên cạnh đó, các hộ còn được hỗ trợ tiền thuê nhà ở 8 triệu đồng/hộ/tháng, trong thời gian 6 tháng và được hỗ trợ tiếp cận nhà ở xã hội, vốn vay ưu đãi…",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "page_sha256": "8b0eaf32848ac26470ecdb4666cc976988454be888615395148e8163256dd0d6",
+              "snippet_sha256": "fa3f394bd106d98a8a5bbc29e781bb425a91e58d678d8a10dae66612e06d9d18",
+              "verified_at": "2026-11-27T14:24:06.019371+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trên các tuyến sông thuộc phường Trấn Biên và Long Hưng có 536 bè và 1.428 lồng thuộc sở hữu của 290 hộ dân đang nuôi trồng thủy sản, với 767 nhân khẩu sống trực tiếp trên bè.",
+          "source_urls": [
+            "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo UBND TP Đồng Nai, hiện nay trên các tuyến sông thuộc phường Trấn Biên và phường Long Hưng có 536 bè và 1.428 lồng thuộc sở hữu của 290 hộ dân đangnuôi trồng thủy sản, trong đó có 767 nhân khẩu sống trực tiếp trên bè.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "snippet": "Theo UBND TP Đồng Nai, hiện nay trên các tuyến sông thuộc phường Trấn Biên và phường Long Hưng có 536 bè và 1.428 lồng thuộc sở hữu của 290 hộ dân đangnuôi trồng thủy sản, trong đó có 767 nhân khẩu sống trực tiếp trên bè.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "page_sha256": "8b0eaf32848ac26470ecdb4666cc976988454be888615395148e8163256dd0d6",
+              "snippet_sha256": "b9b2796852147d25a43ad2d3f5eba020d400b1e63597ca23f62c44cdd77d2191",
+              "verified_at": "2026-11-27T14:24:06.019371+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ quy mô thực tế của các hộ nuôi lồng bè tại Đồng Nai cũng như cấu trúc chi tiết của các mức hỗ trợ tài chính và an sinh xã hội. Góc tiếp cận này giúp độc giả hiểu rõ cơ sở pháp lý và bối cảnh môi trường dẫn đến quyết định giải tỏa của chính quyền địa phương.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T14:24:06.020548+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1.428",
+        "200.000",
+        "290",
+        "450.000",
+        "536",
+        "6",
+        "767",
+        "8"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-27T14:24:09.220473+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 322,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1446,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-27 21:24"
+    },
+    "published_at": "2026-11-27T14:24:09.220473+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]

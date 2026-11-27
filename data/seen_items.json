@@ -394,7 +394,8 @@
       "source_name": "ESPN - Top News",
       "category": "sports",
       "first_seen_at": "2026-11-27T13:10:18.080109+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e"
     },
     "https://www.theguardian.com/sport/2026/nov/27/mike-tomlin-aaron-rodgers-tom-brady-steelers": {
       "id": "7fb93249c2f2c4e3d081",
@@ -403,7 +404,8 @@
       "source_name": "The Guardian - Sport",
       "category": "sports",
       "first_seen_at": "2026-11-27T13:10:18.080106+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e"
     },
     "https://www.theguardian.com/sport/2026/nov/27/sports-quiz-week-football-chess-tennis-rugby-boxing-cricket-snooker": {
       "id": "4d0e1b6345a65fa81672",
@@ -998,8 +1000,9 @@
       "source_name": "Ars Technica - All",
       "category": "technology",
       "first_seen_at": "2026-11-27T13:10:18.079907+00:00",
-      "status": "ready_for_publish",
-      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f"
+      "status": "published",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences": {
       "id": "f5c9e100872f3ff69c62",
@@ -3156,7 +3159,9 @@
       "source_name": "Dân Trí - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-27T13:10:18.079145+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://dantri.com.vn/suc-khoe/thu-truong-bo-y-te-ky-vong-du-lich-y-hoc-co-truyen-thuc-day-kinh-te-20261127135425847.htm": {
       "id": "892c882f6f1571d71d94",
@@ -3876,7 +3881,9 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-27T13:10:18.078914+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://thanhnien.vn/le-phuong-tiet-lo-ly-do-khong-dong-phim-nhan-show-suot-3-nam-di-hoc-185261127163943662.htm": {
       "id": "10ec66981fdf76047a86",
@@ -4254,7 +4261,9 @@
       "source_name": "Thanh Niên - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-27T13:10:18.078795+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://tuoitre.vn/tim-thay-9-hai-cot-liet-si-o-co-thanh-nhieu-hai-cot-nam-sau-duoi-ham-ca-nhan-100261127175706558.htm": {
       "id": "d58abe6f6014d3ba3912",
@@ -4308,7 +4317,9 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-27T13:10:18.078776+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://tuoitre.vn/khoang-88-nha-giao-co-luong-thap-hon-vien-chuc-cac-nganh-khac-100261127184705642.htm": {
       "id": "7281022a92ef97ef5de0",
@@ -4335,7 +4346,9 @@
       "source_name": "VnExpress - Thời sự",
       "category": "vietnam",
       "first_seen_at": "2026-11-27T13:10:18.078766+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://vnexpress.net/de-xuat-thi-diem-dao-tao-bac-si-noi-tru-quoc-gia-5149579.html": {
       "id": "10fa8f07ba0ede4d0dfc",
@@ -6323,7 +6336,9 @@
       "source_name": "BBC News - World",
       "category": "world",
       "first_seen_at": "2026-11-27T03:49:24.640411+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://dantri.com.vn/tinh-yeu-gioi-tinh/chong-vang-nha-toi-bat-an-khi-song-chung-voi-anh-trai-chong-20261125105501325.htm": {
       "id": "2185666d6f737bda038c",
@@ -11439,7 +11454,9 @@
       "source_name": "Tuổi Trẻ - Tin mới",
       "category": "vietnam",
       "first_seen_at": "2026-11-26T18:40:58.619915+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://tuoitre.vn/u17-trung-quoc-thang-dam-u17-fiji-de-vao-vong-32-doi-10026112700184408.htm": {
       "id": "9f328f79c115863fdff6",
@@ -13977,7 +13994,8 @@
       "source_name": "NPR - News",
       "category": "world",
       "first_seen_at": "2026-11-26T13:13:32.714151+00:00",
-      "status": "writing_pending"
+      "status": "ready_for_publish",
+      "article_id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e"
     },
     "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit": {
       "id": "4e339ccaa8e1244842f6",
@@ -17658,7 +17676,9 @@
       "source_name": "The Guardian - Business",
       "category": "world",
       "first_seen_at": "2026-11-26T03:48:18.789484+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses": {
       "id": "fce630a2b39df32cc523",
@@ -21417,8 +21437,9 @@
       "source_name": "CNBC - Top News",
       "category": "world",
       "first_seen_at": "2026-11-25T18:52:42.292489+00:00",
-      "status": "ready_for_publish",
-      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f"
+      "status": "published",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html": {
       "id": "6b9a193bbb38041da94d",
@@ -24551,7 +24572,9 @@
       "source_name": "CNBC - Top News",
       "category": "world",
       "first_seen_at": "2026-11-25T13:33:13.495857+00:00",
-      "status": "writing_pending"
+      "status": "published",
+      "article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://www.theguardian.com/commentisfree/2026/nov/25/paris-manifesto-open-letter-ai-oligarchy": {
       "id": "800aa531a0e76c8b276a",
@@ -28486,8 +28509,9 @@
       "source_name": "The Verge - All",
       "category": "technology",
       "first_seen_at": "2026-11-25T04:37:36.326774+00:00",
-      "status": "ready_for_publish",
-      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f"
+      "status": "published",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident": {
       "id": "b260aefcebf2b187e437",
@@ -36088,8 +36112,9 @@
       "source_name": "Wired - All",
       "category": "technology",
       "first_seen_at": "2026-11-24T14:19:34.170667+00:00",
-      "status": "ready_for_publish",
-      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f"
+      "status": "published",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00"
     },
     "https://www.wired.com/gallery/best-espresso-machines": {
       "id": "142a86a132b2f93ddee3",
@@ -179580,110 +179605,6 @@
   },
   "source_usage": [
     {
-      "source_name": "The Guardian - World",
-      "source_url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-      "category": "world",
-      "article_id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
-      "published_at": "2026-11-21T13:09:27.824953+00:00",
-      "recorded_at": "2026-11-21T13:09:27.824953+00:00"
-    },
-    {
-      "source_name": "NPR - News",
-      "source_url": "https://www.npr.org/2026/11/20/nx-s1-6045879/young-people-record-their-older-relatives-for-the-great-listen",
-      "category": "world",
-      "article_id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
-      "published_at": "2026-11-21T13:09:27.824953+00:00",
-      "recorded_at": "2026-11-21T13:09:27.824953+00:00"
-    },
-    {
-      "source_name": "Sporting News - Soccer",
-      "source_url": "https://www.sportingnews.com/us/nba/news/worst-contracts-trae-young-devin-booker-toughest-trade/1ade62139f918ee71c430832",
-      "category": "world",
-      "article_id": "canh-cua-tai-gia-nhap-eu-cua-anh-thoa-thuan-moi-va-nhung-nga-re-tiem-nan-3e755081",
-      "published_at": "2026-11-21T13:09:27.824953+00:00",
-      "recorded_at": "2026-11-21T13:09:27.824953+00:00"
-    },
-    {
-      "source_name": "Al Jazeera - All",
-      "source_url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
-      "category": "world",
-      "article_id": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "Euronews - World",
-      "source_url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
-      "category": "world",
-      "article_id": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "BBC News - World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-      "category": "world",
-      "article_id": "el-chapo-isidro-nguoi-an-ong-ung-sau-cuoc-chien-chong-ma-tuy-o-mexico-79c2e2f6",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "CBS Sports - Soccer",
-      "source_url": "https://www.cbssports.com/soccer/news/nwsl-u-s-soccer-continue-focus-on-womens-soccer-growth",
-      "category": "sports",
-      "article_id": "nwsl-ay-manh-chien-luoc-phat-trien-tai-nang-va-lanh-ao-3d2c4203",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "Sporting News - Soccer",
-      "source_url": "https://www.sportingnews.com/us/college/news/ncaa-womens-soccer-schedule-2026-channels-times-streams-scores/c73e72915d4e31dc5cf6deec",
-      "category": "sports",
-      "article_id": "nwsl-ay-manh-chien-luoc-phat-trien-tai-nang-va-lanh-ao-3d2c4203",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "CBS Sports - Soccer",
-      "source_url": "https://www.cbssports.com/soccer/news/nwsl-championship-2026-picks-washington-spirit-kansas-city-current",
-      "category": "sports",
-      "article_id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "Wired - All",
-      "source_url": "https://www.wired.com/story/tineco-black-friday-sale-2026",
-      "category": "sports",
-      "article_id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "Sporting News - Soccer",
-      "source_url": "https://www.sportingnews.com/us/soccer/news/trinity-rodman-prove-true-nwsl-mvp-washington-spirit-champinship/ff3efb919fb4844d8d77c8f6",
-      "category": "sports",
-      "article_id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "The Guardian - Sport",
-      "source_url": "https://www.theguardian.com/football/2026/nov/20/nwsl-championship-final-ticket-prices-755-washington-spirit-kansas-city-current",
-      "category": "sports",
-      "article_id": "chung-ket-nwsl-2026-washington-spirit-va-kansas-city-current-truoc-nguon-cf40f4e4",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
-      "source_name": "Engadget - All",
-      "source_url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc",
-      "category": "technology",
-      "article_id": "cach-kiem-tra-thong-tin-card-o-hoa-gpu-tren-may-tinh-windows-de-dang-6fea619b",
-      "published_at": "2026-11-21T17:00:03.296281+00:00",
-      "recorded_at": "2026-11-21T17:00:03.296281+00:00"
-    },
-    {
       "source_name": "CNBC - Top News",
       "source_url": "https://www.cnbc.com/2026/11/20/ai-holiday-shopping-scams.html",
       "category": "technology",
@@ -181178,6 +181099,110 @@
       "article_id": "nvidia-tam-dung-cung-cap-chip-ai-tai-ong-nam-a-4c765006",
       "published_at": "2026-11-27T04:32:19.813445+00:00",
       "recorded_at": "2026-11-27T04:32:19.813445+00:00"
+    },
+    {
+      "source_name": "BBC News - World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "category": "world",
+      "article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "The Guardian - Business",
+      "source_url": "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
+      "category": "world",
+      "article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "category": "world",
+      "article_id": "ong-zelensky-chi-trich-my-don-tam-suc-cho-trung-ong-va-cham-tre-vien-tro-7ae4ee55",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/taekwondo-tphcm-gianh-3-hcv-ngay-dau-thi-dau-doi-khang-100261126233439975.htm",
+      "category": "sports",
+      "article_id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/hotgirl-taekwondo-chau-tuyet-van-toa-sang-tphcm-tang-toc-o-dai-hoi-the-thao-toan-quoc-185261127200439187.htm",
+      "category": "sports",
+      "article_id": "taekwondo-tp-hcm-gianh-3-huy-chuong-vang-ngay-au-thi-au-oi-khang-64b1a5ae",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/dong-nai-ban-hanh-chinh-sach-ho-tro-de-nguoi-dan-thao-do-long-be-nuoi-ca-tren-song-100261127182726238.htm",
+      "category": "vietnam",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "VnExpress - Thời sự",
+      "source_url": "https://vnexpress.net/nuoc-ho-tren-mieng-nui-lua-tran-xuong-khu-dan-cu-ly-son-5149513.html",
+      "category": "vietnam",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Dân Trí - Tin mới",
+      "source_url": "https://dantri.com.vn/kinh-doanh/chinh-phu-ban-hanh-6-nhom-co-che-phat-trien-thanh-pho-dong-nai-20261127151819806.htm",
+      "category": "vietnam",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Thanh Niên - Tin mới",
+      "source_url": "https://thanhnien.vn/vi-sao-gan-17-trieu-dan-roi-dong-bang-song-cuu-long-trong-gan-10-nam-qua-185261127163546688.htm",
+      "category": "vietnam",
+      "article_id": "ong-nai-ban-hanh-chinh-sach-ho-tro-nguoi-dan-thao-do-long-be-nuoi-ca-tre-b9bd0ed4",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Ars Technica - All",
+      "source_url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026",
+      "category": "technology",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "CNBC - Top News",
+      "source_url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+      "category": "technology",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+      "category": "technology",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
+    },
+    {
+      "source_name": "Wired - All",
+      "source_url": "https://www.wired.com/story/gifts-for-friends",
+      "category": "technology",
+      "article_id": "goi-y-qua-tang-mua-le-hoi-2026-tu-oi-ngu-ars-technica-sach-cong-nghe-va--d6bd403f",
+      "published_at": "2026-11-27T14:24:09.220473+00:00",
+      "recorded_at": "2026-11-27T14:24:09.220473+00:00"
     }
   ],
   "last_run_window_end": "2026-11-27T13:09:07.354905+00:00"

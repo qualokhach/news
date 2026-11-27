@@ -1222,5 +1222,20 @@
         "reason": "fact_ledger[1] trích đoạn từ espn.com không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-27 21:24",
+    "slot_kind": "digest",
+    "checked_at": "2026-11-27T14:24:09.220473+00:00",
+    "prepared_candidates": 35,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "mike-tomlin-goi-tinh-hinh-steelers-la-bai-rac-chay-59783f3e",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: espn.com (HTTP 202); fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
+      }
+    ]
   }
 ]
