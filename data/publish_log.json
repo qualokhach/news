@@ -1237,5 +1237,20 @@
         "reason": "Nguồn không truy cập được: espn.com (HTTP 202); fact_ledger[2] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[3] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản; fact_ledger[4] trích đoạn từ theguardian.com không còn xuất hiện tại thời điểm xuất bản"
       }
     ]
+  },
+  {
+    "slot": "2026-11-28 02:12",
+    "slot_kind": "regular",
+    "checked_at": "2026-11-27T19:12:44.042784+00:00",
+    "prepared_candidates": 37,
+    "published_count": 4,
+    "result": "published",
+    "rejected_or_held": [
+      {
+        "id": "anh-vien-khep-lai-ai-hoi-the-thao-toan-quoc-2026-voi-7-huy-chuong-vang-724734b6",
+        "status": "HOLD",
+        "reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      }
+    ]
   }
 ]

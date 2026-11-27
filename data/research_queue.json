@@ -3112,7 +3112,7 @@
   },
   {
     "queue_id": "6e51bc440736bb54fb0f",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T18:30:36.997060+00:00",
     "expires_at": "2026-11-30T18:28:59.503135+00:00",
     "category_hint": "sports",
@@ -3911,11 +3911,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T18:30:36.997081+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "khoanh-khac-hy-huu-george-pickens-lap-ky-luc-nfl-voi-tinh-huong-mat-12-y-73d3d9fe"
   },
   {
     "queue_id": "7ac0014bbeb8dc903a90",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T18:30:35.979312+00:00",
     "expires_at": "2026-11-30T18:28:59.503135+00:00",
     "category_hint": "world",
@@ -4549,11 +4550,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T18:30:35.979332+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "cat-giam-medicaid-tai-my-he-luy-tu-chinh-sach-en-cac-vung-nong-thon-31e00883"
   },
   {
     "queue_id": "610020146b4541dd31d0",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T18:30:32.027618+00:00",
     "expires_at": "2026-11-30T18:28:59.503135+00:00",
     "category_hint": "sports",
@@ -5551,7 +5553,8 @@
       ]
     },
     "research_ready_at": "2026-11-27T18:30:32.027658+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "anh-vien-khep-lai-ai-hoi-the-thao-toan-quoc-2026-voi-7-huy-chuong-vang-724734b6"
   },
   {
     "queue_id": "bong-da-chau-au-rung-dong-vi-bao-luc-khan-gia-tong-thong-phap-len-an-gay-336bafdd",
@@ -17438,7 +17441,7 @@
   },
   {
     "queue_id": "d4f9a6939a285daae943",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T03:49:54.646582+00:00",
     "expires_at": "2026-11-30T03:48:17.233012+00:00",
     "category_hint": "vietnam",
@@ -18069,7 +18072,8 @@
       ]
     },
     "research_ready_at": "2026-11-27T03:49:54.646604+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "toyota-chuan-bi-buoc-vao-phan-khuc-xe-ien-sac-bang-may-xang-3b68312e"
   },
   {
     "queue_id": "5d3069414508a45ae413",
@@ -95187,7 +95191,7 @@
   },
   {
     "queue_id": "nhung-uu-ai-thiet-bi-ien-tu-ang-chu-y-tai-costco-trong-dip-black-friday--eb8bd5c4",
-    "status": "READY",
+    "status": "PUBLISHED",
     "prepared_at": "2026-11-27T18:31:08.762884+00:00",
     "expires_at": "2026-11-28T18:31:08.762884+00:00",
     "source_urls": [
@@ -95207,7 +95211,7 @@
       "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
       "published_at": "2026-11-27T16:51:43+00:00",
       "fetched_at": "2026-11-27T18:31:12.766264+00:00",
-      "appnho_published_at": "",
+      "appnho_published_at": "2026-11-27T19:12:44.042784+00:00",
       "content_type": "short_explainer",
       "data_type": "general",
       "collection": "current",
@@ -95481,27 +95485,37 @@
         "850"
       ],
       "quality_audit": {
-        "checked_at": "2026-11-27T18:31:12.767726+00:00",
         "status": "PASS",
+        "checked_at": "2026-11-27T19:12:44.042784+00:00",
         "stats": {
           "paragraphs": 4,
           "words": 325,
           "unique_paragraph_ratio": 1.0,
           "filler_hits": [],
-          "body_chars": 1478
-        },
-        "independent_domains": [
-          "aljazeera.com",
-          "engadget.com",
-          "espn.com",
-          "france24.com",
-          "npr.org",
-          "sportingnews.com"
-        ],
-        "primary_source_present": false
+          "body_chars": 1478,
+          "source_access": [
+            {
+              "url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "engadget.com",
+            "espn.com",
+            "france24.com",
+            "npr.org",
+            "sportingnews.com"
+          ],
+          "primary_source_present": false
+        }
       },
-      "origin": "auto"
-    }
+      "origin": "auto",
+      "publication_slot": "2026-11-28 02:12"
+    },
+    "published_at": "2026-11-27T19:12:44.042784+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   },
   {
     "queue_id": "tin-tac-uoc-cho-la-a-xam-nhap-he-thong-ien-toan-am-may-cua-khong-quan-my-4b3c7a9a",
@@ -95962,5 +95976,1023 @@
       },
       "origin": "auto"
     }
+  },
+  {
+    "queue_id": "khoanh-khac-hy-huu-george-pickens-lap-ky-luc-nfl-voi-tinh-huong-mat-12-y-73d3d9fe",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-27T19:12:12.463131+00:00",
+    "expires_at": "2026-11-28T19:12:12.463131+00:00",
+    "source_urls": [
+      "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+      "https://www.theguardian.com/sport/2026/nov/26/nfl-roundup-thanksgiving-scores-bears-lions-eagles-cowboys-chiefs-bills",
+      "https://www.skysports.com/nfl/news/12040/13617043/nfl-philadelphia-eagles-stun-dallas-cowboys-with-historic-21-point-comeback-victory-after-jake-elliotts-field-goal-in-final-two-seconds"
+    ],
+    "article": {
+      "id": "khoanh-khac-hy-huu-george-pickens-lap-ky-luc-nfl-voi-tinh-huong-mat-12-y-73d3d9fe",
+      "title": "Khoảnh khắc hy hữu: George Pickens lập kỷ lục NFL với tình huống mất 12 yard sau khi bắt bóng",
+      "summary": "Trong trận đấu ngày Lễ Tạ ơn giữa Dallas Cowboys và Philadelphia Eagles, wide receiver George Pickens đã thiết lập một kỷ lục hy hữu tại NFL với pha xử lý khiến đội nhà mất tới 12 yard sau khi bắt bóng thành công.",
+      "category": "sports",
+      "source_name": "Sporting News - Soccer",
+      "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+      "published_at": "2026-11-27T18:26:39+00:00",
+      "fetched_at": "2026-11-27T19:12:17.738316+00:00",
+      "appnho_published_at": "2026-11-27T19:12:44.042784+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trong một trận đấu đầy cảm xúc thuộc khuôn khổ ngày Lễ Tạ ơn giữa Dallas Cowboys và Philadelphia Eagles, wide receiver George Pickens đã để lại một dấu ấn hy hữu nhưng không mong muốn trong lịch sử giải bóng đá Mỹ NFL. Dù Cowboys phải hứng chịu một thất bại cay đắng ảnh hưởng lớn đến hy vọng vào playoff, cá nhân Pickens vẫn tạo ra một thống kê chưa từng có tiền lệ.",
+        "Theo số liệu từ hệ thống Next Gen Stats được chia sẻ rộng rãi, tình huống diễn ra ở lượt down thứ ba và 10 yard (3rd and 10). Ban đầu, Pickens bắt thành công đường chuyền đáng lẽ đủ điều kiện mang lại cú lướt 11 yard và giành quyền đi tiếp. Tuy nhiên, thay vì tận dụng khoảng trống, anh lại chạy ngược về phía sau vạch xuất phát để né tránh pha truy cản.",
+        "Pha xử lý khó hiểu này khiến anh bị tụt lùi sâu phía sau vạch cản bóng, kết thúc bằng việc mất trắng một yard thay vì ghi điểm tích cực. Chuyên gia Ben Solak xác nhận đây là đường chuyền hoàn thành vượt qua vạch cản đầu tiên trong lịch sử cơ sở dữ liệu Next Gen Stats lại để mất yard trực tiếp mà không tính các tình huống chuyền ngang.",
+        "Việc một cầu thủ vừa bắt bóng thành công ở cự ly đủ đạt first-down nhưng lại tự làm mất tới 12 yard sau pha bắt bóng (YAC) được giới chuyên môn đánh giá là một khoảnh khắc kỳ lạ bậc nhất. Tình huống trớ trêu này góp phần làm nổi bật thêm một ngày thi đấu đầy sóng gió của hàng công Dallas Cowboys trước đối thủ cùng miền."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "George Pickens lập kỷ lục NFL với pha mất 12 yard sau khi bắt bóng",
+      "meta_description": "Khám phá tình huống hy hữu giúp wide receiver George Pickens của Dallas Cowboys ghi danh vào lịch sử Next Gen Stats với kỷ lục mất 12 yard sau khi bắt bóng.",
+      "keywords": [
+        "George Pickens",
+        "NFL",
+        "Dallas Cowboys",
+        "Next Gen Stats",
+        "Lễ Tạ ơn"
+      ],
+      "slug": "khoanh-khac-hy-huu-george-pickens-lap-ky-luc-nfl-voi-tinh-huong-mat-12-y-73d3d9fe",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 296,
+      "display_source": true,
+      "source_urls": [
+        "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+        "https://www.theguardian.com/sport/2026/nov/26/nfl-roundup-thanksgiving-scores-bears-lions-eagles-cowboys-chiefs-bills",
+        "https://www.skysports.com/nfl/news/12040/13617043/nfl-philadelphia-eagles-stun-dallas-cowboys-with-historic-21-point-comeback-victory-after-jake-elliotts-field-goal-in-final-two-seconds"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/sport/2026/nov/26/nfl-roundup-thanksgiving-scores-bears-lions-eagles-cowboys-chiefs-bills",
+        "https://www.skysports.com/nfl/news/12040/13617043/nfl-philadelphia-eagles-stun-dallas-cowboys-with-historic-21-point-comeback-victory-after-jake-elliotts-field-goal-in-final-two-seconds"
+      ],
+      "source_references": [
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T18:26:39+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/26/nfl-roundup-thanksgiving-scores-bears-lions-eagles-cowboys-chiefs-bills",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T01:50:28+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/nfl/news/12040/13617043/nfl-philadelphia-eagles-stun-dallas-cowboys-with-historic-21-point-comeback-victory-after-jake-elliotts-field-goal-in-final-two-seconds",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T01:50:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "George Pickens đã tạo ra thống kê hy hữu với tình huống mất yard sau khi bắt bóng trong trận đấu ngày Lễ Tạ ơn giữa Dallas Cowboys và Philadelphia Eagles.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92"
+          ],
+          "importance": "core",
+          "evidence_snippet": "On Thanksgiving, theDallas Cowboyslost to thePhiladelphia Eaglesin a heartbreaking loss that puts them well behind when it comes to making the playoffs.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "snippet": "On Thanksgiving, theDallas Cowboyslost to thePhiladelphia Eaglesin a heartbreaking loss that puts them well behind when it comes to making the playoffs.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "page_sha256": "598de32cd68fb26aa1eb3793c7f3510c0fe8a954ff5f43667eaa61bae2847575",
+              "snippet_sha256": "0539e31932159d74476c5cba0376e84b12317e2c124b7098f5b48625470be3cc",
+              "verified_at": "2026-11-27T19:12:17.737625+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Tình huống diễn ra ở lượt 3rd and 10, nơi Pickens bắt bóng ở khoảng cách 11 yard nhưng sau đó chạy lùi lại phía sau vạch xuất phát để né tackle và chịu tổn thất một yard.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It was 3rd and 10, and Pickens caught what would've been an 11-yard pass, good enough for the first down.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "snippet": "It was 3rd and 10, and Pickens caught what would've been an 11-yard pass, good enough for the first down.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "page_sha256": "598de32cd68fb26aa1eb3793c7f3510c0fe8a954ff5f43667eaa61bae2847575",
+              "snippet_sha256": "1cdac484304df92c973e9f19147905311955694e206a9c2ece70a7ae9b587dc1",
+              "verified_at": "2026-11-27T19:12:17.737625+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Theo dữ liệu từ Next Gen Stats, đây là pha bóng hoàn thành vượt vạch cản đầu tiên trong lịch sử kết thúc bằng việc mất yard trực tiếp, với tổng cộng 12 yard bị mất sau khi bắt bóng.",
+          "source_urls": [
+            "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Solak shared how that -12 yards after the catch was the most yards lost on a single play after the catch in the Next Gen Stats database.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "snippet": "Solak shared how that -12 yards after the catch was the most yards lost on a single play after the catch in the Next Gen Stats database.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "page_sha256": "598de32cd68fb26aa1eb3793c7f3510c0fe8a954ff5f43667eaa61bae2847575",
+              "snippet_sha256": "1cb90a4dae9850b768d21a05a60b2e2ac19c14c0ca4026dfdd8eca9b0f67bb76",
+              "verified_at": "2026-11-27T19:12:17.737625+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh chiến thuật và tình huống cụ thể dẫn đến kỷ lục âm yard hy hữu của George Pickens. Phân tích đi sâu vào dữ liệu từ hệ thống Next Gen Stats để giải thích tại sao pha bóng này chưa từng xuất hiện trong lịch sử NFL.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T19:12:17.738427+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "10",
+        "11",
+        "12",
+        "3"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-27T19:12:44.042784+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 296,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1378,
+          "source_access": [
+            {
+              "url": "https://www.sportingnews.com/us/nfl/dallas-cowboys/news/how-cowboys-george-pickens-made-nfl-history-wild-12-yac-play/75646d3800d4dc1176bedd92",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "skysports.com",
+            "sportingnews.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-28 02:12"
+    },
+    "published_at": "2026-11-27T19:12:44.042784+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "cat-giam-medicaid-tai-my-he-luy-tu-chinh-sach-en-cac-vung-nong-thon-31e00883",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-27T19:12:12.463131+00:00",
+    "expires_at": "2026-11-28T19:12:12.463131+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+      "https://www.aljazeera.com/news/2026/11/25/trump-to-meet-abdul-el-sayed-will-he-agree-to-a-renamed-medicare-for-all?traffic_source=rss",
+      "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
+    ],
+    "article": {
+      "id": "cat-giam-medicaid-tai-my-he-luy-tu-chinh-sach-en-cac-vung-nong-thon-31e00883",
+      "title": "Cắt giảm Medicaid tại Mỹ: Hệ lụy từ chính sách đến các vùng nông thôn",
+      "summary": "Các chính sách cắt giảm chương trình Medicaid và thay đổi quy định liên bang đang đe dọa trực tiếp đến hệ thống y tế và an sinh của hàng trăm nghìn người dân tại bang Kentucky, đặc biệt ở các khu vực nông thôn và nhóm yếu thế.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+      "published_at": "2026-11-27T13:00:11+00:00",
+      "fetched_at": "2026-11-27T19:12:27.594821+00:00",
+      "appnho_published_at": "2026-11-27T19:12:44.042784+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Những thay đổi về chính sách y tế và các khoản cắt giảm ngân sách Medicaid từ chính quyền liên bang đang đặt ra thách thức lớn cho các bang có nhu cầu chăm sóc sức khỏe cao. Tại Kentucky, một trong những tiểu bang có chỉ số sức khỏe kém nhất cả nước, các biện pháp mới được dự báo sẽ tác động trực tiếp đến hàng trăm nghìn cư dân và hệ thống cơ sở y tế địa phương.",
+        "Theo các đánh giá từ giới quan sát và tổ chức nghiên cứu kinh tế, khoảng 250.000 người dân Kentucky có nguy cơ đối mặt với việc bị từ chối chăm sóc y tế hoặc ảnh hưởng từ khả năng đóng cửa của các bệnh viện nông thôn. Bang này ghi nhận tỷ lệ tử vong do ung thư và quá liều thuốc thuộc nhóm cao hàng đầu nước Mỹ, trong khi có khoảng 1,4 triệu người đang phụ thuộc vào sự hỗ trợ của chương trình Medicaid.",
+        "Bên cạnh các khoản cắt giảm tổng thể lên tới hàng chục tỷ USD trong thập kỷ tới, quy định yêu cầu lao động hoặc tham gia tình nguyện ít nhất 80 giờ mỗi tháng để duy trì quyền lợi Medicaid cũng sắp được áp dụng. Những người không thể nộp hồ sơ chứng minh thời gian làm việc hoặc học tập đều đặn sẽ mất quyền tiếp cận, tạo ra rào cản lớn đối với các nhóm dân cư nghèo và vùng sâu vùng xa thiếu cơ sở hạ tầng mạng.",
+        "Giới chức địa phương và các chuyên gia kinh tế cảnh báo rằng sự suy giảm nguồn lực này không chỉ làm tổn hại đến sức khỏe cộng đồng mà còn giáng đòn mạnh vào nền kinh tế khu vực. Các khoản thanh toán Medicaid đóng vai trò thiết yếu đối với GDP tại nhiều quận huyện, đồng thời duy trì hoạt động của mạng lưới trung tâm y tế, phòng khám và cơ sở điều trị lạm dụng chất kích thích vốn đang gánh chịu áp lực quá tải."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Cat giam Medicaid tai My anh huong den nguoi dan Kentucky",
+      "meta_description": "Phan tich tac dong tu cac cat giam Medicaid cua chinh phu My va dao luat moi, gay nguy co dong cua benh vien va anh huong nang ne den cu dan Kentucky.",
+      "keywords": [
+        "Medicaid",
+        "Kentucky",
+        "y te My",
+        "Trump",
+        "chinh sach cong"
+      ],
+      "slug": "cat-giam-medicaid-tai-my-he-luy-tu-chinh-sach-en-cac-vung-nong-thon-31e00883",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 351,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+        "https://www.aljazeera.com/news/2026/11/25/trump-to-meet-abdul-el-sayed-will-he-agree-to-a-renamed-medicare-for-all?traffic_source=rss",
+        "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
+      ],
+      "source_links": [
+        "https://www.aljazeera.com/news/2026/11/25/trump-to-meet-abdul-el-sayed-will-he-agree-to-a-renamed-medicare-for-all?traffic_source=rss",
+        "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T13:00:11+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/news/2026/11/25/trump-to-meet-abdul-el-sayed-will-he-agree-to-a-renamed-medicare-for-all?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T12:45:16+00:00"
+        },
+        {
+          "name": "CNBC - Top News",
+          "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+          "domain": "cnbc.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "cnbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T10:20:39+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Khoảng 250.000 người dân Kentucky có thể bị ảnh hưởng trực tiếp bởi việc cắt giảm Medicaid và nguy cơ đóng cửa bệnh viện.",
+          "source_urls": [
+            "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans"
+          ],
+          "importance": "core",
+          "evidence_snippet": "But now, those issues are set to be further compounded by cuts to Medicaid enacted by the Trump administration that could directly affect up to250,000Kentucky residents.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "snippet": "But now, those issues are set to be further compounded by cuts to Medicaid enacted by the Trump administration that could directly affect up to250,000Kentucky residents.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "page_sha256": "40c8f85d71d888a2b39c224c8395b50d4f616a1787579665a507871b1bd994c7",
+              "snippet_sha256": "f056c8d16872b94afaf7f8cfdd54f304c4378a1f7150f305a6331282ae368085",
+              "verified_at": "2026-11-27T19:12:27.594077+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kentucky đối mặt với tỷ lệ ung thư và tử vong do quá liều thuốc đứng thứ ba toàn quốc, với khoảng 1,4 triệu người nhận hỗ trợ Medicaid.",
+          "source_urls": [
+            "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans"
+          ],
+          "importance": "core",
+          "evidence_snippet": "It has come to rely heavily on federal healthcare assistance, with about 1.4 million people in Kentucky receiving Medicaid support.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "snippet": "It has come to rely heavily on federal healthcare assistance, with about 1.4 million people in Kentucky receiving Medicaid support.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "page_sha256": "40c8f85d71d888a2b39c224c8395b50d4f616a1787579665a507871b1bd994c7",
+              "snippet_sha256": "3a9b67d45df51e48e72917995097bb9e85105aed7283c4c220ef016011d12cfa",
+              "verified_at": "2026-11-27T19:12:27.594077+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Quy định yêu cầu người nhận Medicaid phải làm việc hoặc tình nguyện ít nhất 80 giờ một tháng sẽ có hiệu lực, với việc mất quyền lợi từ năm 2028 đối với người không nộp hồ sơ.",
+          "source_urls": [
+            "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Those who can’t submit records of hours worked or school attendance every six months will lose access from 2028.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "snippet": "Those who can’t submit records of hours worked or school attendance every six months will lose access from 2028.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "page_sha256": "40c8f85d71d888a2b39c224c8395b50d4f616a1787579665a507871b1bd994c7",
+              "snippet_sha256": "f019692da0b3814a414165777812995baa4a51dc52af88ed2914acc28ce96336",
+              "verified_at": "2026-11-27T19:12:27.594077+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bối cảnh kinh tế - xã hội đặc thù của bang Kentucky và phân tích chi tiết tác động dây chuyền từ quy định làm việc bắt buộc cũng như nguy cơ đóng cửa các cơ sở y tế địa phương. Qua đó, tác phẩm cung cấp góc nhìn toàn diện về hệ quả thực tế của chính sách Medicaid đối với các cộng đồng dễ bị tổn thương.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T19:12:27.594939+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,4",
+        "250.000",
+        "80"
+      ],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-27T19:12:44.042784+00:00",
+        "stats": {
+          "paragraphs": 4,
+          "words": 351,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1590,
+          "source_access": [
+            {
+              "url": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+              "ok": true,
+              "reason": "GET HTTP 206"
+            }
+          ],
+          "independent_domains": [
+            "aljazeera.com",
+            "cnbc.com",
+            "theguardian.com"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-28 02:12"
+    },
+    "published_at": "2026-11-27T19:12:44.042784+00:00",
+    "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "anh-vien-khep-lai-ai-hoi-the-thao-toan-quoc-2026-voi-7-huy-chuong-vang-724734b6",
+    "status": "HOLD",
+    "prepared_at": "2026-11-27T19:12:12.463131+00:00",
+    "expires_at": "2026-11-28T19:12:12.463131+00:00",
+    "source_urls": [
+      "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+      "https://dantri.com.vn/thoi-su/ket-luan-cua-bo-chinh-tri-ve-ngay-nghi-le-toan-quoc-moi-20261127212103758.htm",
+      "https://thanhnien.vn/co-thu-55-tuoi-tung-se-ri-lon-xuat-sac-gianh-chuc-vo-dich-billiards-tphcm-giai-con-khat-vang-18526112719324728.htm"
+    ],
+    "article": {
+      "id": "anh-vien-khep-lai-ai-hoi-the-thao-toan-quoc-2026-voi-7-huy-chuong-vang-724734b6",
+      "title": "Ánh Viên khép lại Đại hội Thể thao toàn quốc 2026 với 7 huy chương vàng",
+      "summary": "Kình ngư Nguyễn Thị Ánh Viên đã giành tổng cộng 7 huy chương vàng và góp phần phá 5 kỷ lục tại môn bơi Đại hội Thể thao toàn quốc 2026 sau khi khép lại các nội dung thi đấu cuối cùng.",
+      "category": "sports",
+      "source_name": "VnExpress - Thể thao",
+      "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+      "published_at": "2026-11-27T16:33:43+00:00",
+      "fetched_at": "2026-11-27T19:12:33.910867+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Tại hồ bơi CLB Phú Thọ, TP HCM, kình ngư Nguyễn Thị Ánh Viên đã khép lại hành trình tranh tài tại môn bơi Đại hội Thể thao toàn quốc 2026 với tấm huy chương vàng thứ bảy sau chiến thắng ở các nội dung bơi 200m ngửa và 4x100m tiếp sức tự do nữ diễn ra vào tối 25/11.",
+        "Ở nội dung 200m ngửa, VĐV sinh năm 1996 tiếp tục thể hiện ưu thế tuyệt đối khi cán đích với thời gian 2 phút 15 giây 46. Thành tích này giúp cô tự phá kỷ lục Đại hội do chính mình lập nên vào năm 2018 là 2 phút 16 giây 44. Trước đó, kỷ lục quốc gia ở cự ly này cũng do Ánh Viên nắm giữ từ năm 2014 với 2 phút 12 giây 25.",
+        "Không lâu sau đó, Ánh Viên cùng ba vận động viên trẻ gồm Nguyễn Thúy Hiền, Trần Anh Thư và Phan Thị Thúy An tiếp tục bước lên bục cao nhất ở nội dung 4x100m tiếp sức tự do nữ. Đội Quân đội hoàn thành phần thi với thời gian 3 phút 50 giây 80, xếp trên đoàn chủ nhà TP HCM về nhì với 3 phút 51 giây 94. Cả hai thành tích này đều vượt qua kỷ lục cũ của Đại hội lập năm 2018 là 3 phút 53 giây 42.",
+        "Tính chung qua 7 ngày tranh tài, Ánh Viên giành tổng cộng 7 huy chương vàng, bao gồm các nội dung 50m ngửa, 100m ngửa, 200m hỗn hợp nữ, tiếp sức 4x100m hỗn hợp nam nữ, 4x200m tự do, 4x100m hỗn hợp nữ cùng hai nội dung vừa hoàn thành. Dù từng tuyên bố giải nghệ sau Đại hội năm 2022 để tập trung dạy bơi cho trẻ em và trở lại thi đấu đỉnh cao, cô đã góp phần phá 5 kỷ lục tại kỳ đại hội lần này.",
+        "Nhìn lại sự nghiệp, Ánh Viên là vận động viên bơi thành công nhất lịch sử thể thao Việt Nam với nhiều danh hiệu lớn tại SEA Games, châu lục và thế giới. Riêng tại đấu trường Đại hội Thể thao toàn quốc, qua bốn lần tham dự từ năm 2014 đến nay, cô đã tích lũy tổng cộng 44 huy chương vàng, tiếp tục củng cố vị thế hàng đầu trên đường đua xanh trong nước."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ánh Viên giành 7 huy chương vàng Đại hội Thể thao toàn quốc 2026",
+      "meta_description": "Cập nhật thành tích thi đấu của kình ngư Nguyễn Thị Ánh Viên với 7 huy chương vàng và nhiều kỷ lục tại Đại hội Thể thao toàn quốc 2026.",
+      "keywords": [
+        "Ánh Viên",
+        "Đại hội Thể thao toàn quốc 2026",
+        "bơi lội",
+        "huy chương vàng",
+        "kỷ lục"
+      ],
+      "slug": "anh-vien-khep-lai-ai-hoi-the-thao-toan-quoc-2026-voi-7-huy-chuong-vang-724734b6",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 398,
+      "display_source": true,
+      "source_urls": [
+        "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+        "https://dantri.com.vn/thoi-su/ket-luan-cua-bo-chinh-tri-ve-ngay-nghi-le-toan-quoc-moi-20261127212103758.htm",
+        "https://thanhnien.vn/co-thu-55-tuoi-tung-se-ri-lon-xuat-sac-gianh-chuc-vo-dich-billiards-tphcm-giai-con-khat-vang-18526112719324728.htm"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/thoi-su/ket-luan-cua-bo-chinh-tri-ve-ngay-nghi-le-toan-quoc-moi-20261127212103758.htm",
+        "https://thanhnien.vn/co-thu-55-tuoi-tung-se-ri-lon-xuat-sac-gianh-chuc-vo-dich-billiards-tphcm-giai-con-khat-vang-18526112719324728.htm"
+      ],
+      "source_references": [
+        {
+          "name": "VnExpress - Thể thao",
+          "url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T16:33:43+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/thoi-su/ket-luan-cua-bo-chinh-tri-ve-ngay-nghi-le-toan-quoc-moi-20261127212103758.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T15:42:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/co-thu-55-tuoi-tung-se-ri-lon-xuat-sac-gianh-chuc-vo-dich-billiards-tphcm-giai-con-khat-vang-18526112719324728.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T12:53:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Ánh Viên giành 7 huy chương vàng tại Đại hội Thể thao toàn quốc 2026.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Ánh Viên giành 7 HC vàng tại Đại hội Thể thao toàn quốc 2026",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "snippet": "Ánh Viên giành 7 HC vàng tại Đại hội Thể thao toàn quốc 2026",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "page_sha256": "e90446ad273a20b6ed4b7135fccc459060bd56f8ba1f95c469b3b6fc2238d687",
+              "snippet_sha256": "7ecb19a3571c5e4b6b58c31426a9581ddf14e43f94d6f38909611bc4211b83e7",
+              "verified_at": "2026-11-27T19:12:33.909941+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kình ngư sinh năm 1996 đạt thành tích 2 phút 15 giây 46 ở nội dung 200m ngửa, phá kỷ lục Đại hội năm 2018.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Kình ngư sinh năm 1996 xuất phát tốt nhất và liên tục dẫn đầu rồi cán đích với thời gian 2 phút 15 giây 46, đồng thời phá kỷ lục Đại hội do chính cô lập vào năm 2018 là 2 phút 16 giây 44.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "snippet": "Kình ngư sinh năm 1996 xuất phát tốt nhất và liên tục dẫn đầu rồi cán đích với thời gian 2 phút 15 giây 46, đồng thời phá kỷ lục Đại hội do chính cô lập vào năm 2018 là 2 phút 16 giây 44.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "page_sha256": "e90446ad273a20b6ed4b7135fccc459060bd56f8ba1f95c469b3b6fc2238d687",
+              "snippet_sha256": "fa097857adef831567d340cb8c178e6d10eb005a62c05b68a845d403937f3048",
+              "verified_at": "2026-11-27T19:12:33.909941+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội Quân đội giành huy chương vàng 4x100m tiếp sức tự do nữ với thành tích 3 phút 50 giây 80, phá kỷ lục Đại hội.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Hai kỷ lục còn lại đến từ các nội dung tiếp sức, trong đó đội Quân đội phá cả kỷ lục quốc gia ở nội dung 4x100m hỗn hợp nam nữ, với 3 phút 58 giây 95.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "snippet": "Hai kỷ lục còn lại đến từ các nội dung tiếp sức, trong đó đội Quân đội phá cả kỷ lục quốc gia ở nội dung 4x100m hỗn hợp nam nữ, với 3 phút 58 giây 95.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "page_sha256": "e90446ad273a20b6ed4b7135fccc459060bd56f8ba1f95c469b3b6fc2238d687",
+              "snippet_sha256": "bcac50b9b0308e0ab7356c17d7490325e95533270a4a6cc82910f23a3fdfd227",
+              "verified_at": "2026-11-27T19:12:33.909941+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Ánh Viên nâng tổng số huy chương vàng qua bốn kỳ Đại hội Thể thao toàn quốc lên 44 tấm.",
+          "source_urls": [
+            "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Riêng tại ba kỳ Đại hội Thể thao toàn quốc trước đó, Ánh Viên giành tổng cộng 37 HC vàng, gồm 18 năm 2014, 10 năm 2018 và chín năm 2022.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "snippet": "Riêng tại ba kỳ Đại hội Thể thao toàn quốc trước đó, Ánh Viên giành tổng cộng 37 HC vàng, gồm 18 năm 2014, 10 năm 2018 và chín năm 2022.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+              "page_sha256": "e90446ad273a20b6ed4b7135fccc459060bd56f8ba1f95c469b3b6fc2238d687",
+              "snippet_sha256": "5943a2ff0abc2b6de57f68aa94c55cfb1d253ec66fb8cbd776c7821661e47f71",
+              "verified_at": "2026-11-27T19:12:33.909941+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết tổng hợp chi tiết thành tích thi đấu của vận động viên Nguyễn Thị Ánh Viên tại Đại hội Thể thao toàn quốc 2026. Nội dung làm rõ các thông số chuyên môn, thành tích phá kỷ lục và bối cảnh tái xuất của kình ngư này.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T19:12:33.910989+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "12",
+        "15",
+        "16",
+        "1996",
+        "2",
+        "200",
+        "2014",
+        "2018",
+        "2022",
+        "2026",
+        "25",
+        "3",
+        "4",
+        "42",
+        "44",
+        "46",
+        "5",
+        "50",
+        "51",
+        "53",
+        "7",
+        "80",
+        "94"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T19:12:33.912853+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 398,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1723
+        },
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    },
+    "result_reason": "Nguồn không truy cập được: vnexpress.net (HTTP 404)",
+    "checked_at": "2026-11-27T19:12:44.042784+00:00",
+    "quality_audit": {
+      "status": "HOLD",
+      "checked_at": "2026-11-27T19:12:44.042784+00:00",
+      "errors": [
+        "Nguồn không truy cập được: vnexpress.net (HTTP 404)"
+      ],
+      "stats": {
+        "paragraphs": 5,
+        "words": 398,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1723,
+        "source_access": [
+          {
+            "url": "https://vnexpress.net/anh-vien-gianh-7-hc-vang-tai-dai-hoi-the-thao-toan-quoc-2026-5149817.html",
+            "ok": false,
+            "reason": "HTTP 404"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn",
+          "vnexpress.net"
+        ],
+        "primary_source_present": false
+      }
+    }
+  },
+  {
+    "queue_id": "toyota-chuan-bi-buoc-vao-phan-khuc-xe-ien-sac-bang-may-xang-3b68312e",
+    "status": "PUBLISHED",
+    "prepared_at": "2026-11-27T19:12:12.463131+00:00",
+    "expires_at": "2026-11-28T19:12:12.463131+00:00",
+    "source_urls": [
+      "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+      "https://dantri.com.vn/cong-nghe/fpt-shop-mien-phi-chan-doan-bao-gia-truoc-khi-sua-chua-dien-may-gia-dung-20261125151801929.htm",
+      "https://thanhnien.vn/xe-toyota-san-xuat-tai-indonesia-co-the-su-dung-xang-sinh-hoc-e20-185261123111849037.htm",
+      "https://vnexpress.net/evnhcmc-ra-soat-dieu-kien-ap-dung-quy-chuan-tram-sac-xe-dien-5147388.html"
+    ],
+    "article": {
+      "id": "toyota-chuan-bi-buoc-vao-phan-khuc-xe-ien-sac-bang-may-xang-3b68312e",
+      "title": "Toyota chuẩn bị bước vào phân khúc xe điện sạc bằng máy xăng",
+      "summary": "Hãng xe Nhật Bản Toyota sắp giới thiệu mẫu SUV ứng dụng công nghệ xe điện mở rộng phạm vi hoạt động (EREV) đầu tiên tại Trung Quốc, đánh dấu bước chuyển hướng chiến lược trong bối cảnh áp lực cạnh tranh gia tăng.",
+      "category": "technology",
+      "source_name": "Tuổi Trẻ - Tin mới",
+      "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+      "published_at": "2026-11-27T01:34:00+00:00",
+      "fetched_at": "2026-11-27T19:12:40.765430+00:00",
+      "appnho_published_at": "2026-11-27T19:12:44.042784+00:00",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Liên doanh GAC Toyota vừa hé lộ thông tin về một mẫu SUV đầu bảng chuẩn bị ra mắt tại triển lãm ô tô Quảng Châu, đánh dấu bước đi mới của hãng trong lĩnh vực xe điện. Theo các trang thông tin ô tô quốc tế, đây sẽ là dòng xe đầu tiên của Toyota ứng dụng công nghệ xe điện mở rộng phạm vi hoạt động, thường được gọi là EREV.",
+        "Khác với xe điện thuần túy hoặc các dòng hybrid tự sạc quen thuộc, hệ thống EREV trang bị cả mô tơ điện, bộ pin lớn và một động cơ đốt trong. Điểm khác biệt nằm ở chỗ động cơ xăng không trực tiếp truyền lực kéo xuống bánh xe, mà chủ yếu đóng vai trò như một máy phát điện để nạp năng lượng cho pin khi dung lượng xuống thấp, giúp phương tiện tiếp tục di chuyển trên những hành trình dài.",
+        "Giải pháp kỹ thuật này cho phép người sử dụng tận hưởng khả năng vận hành êm ái của mô tơ điện trong khu vực đô thị, đồng thời loại bỏ phần nào nỗi lo về trạm sạc khi di chuyển qua các cung đường xa. Công nghệ này hiện đang được nhiều hãng xe nội địa tại Trung Quốc khai thác mạnh mẽ nhằm đáp ứng nhu cầu đa dạng của người tiêu dùng.",
+        "Động thái mở rộng dải sản phẩm sang dòng EREV diễn ra trong bối cảnh tình hình kinh doanh của Toyota tại thị trường Trung Quốc đối mặt với nhiều sức ép cạnh tranh. Thống kê trong chín tháng đầu năm cho thấy lượng xe hãng bán ra tại đây ghi nhận mức giảm so với cùng kỳ năm trước, trước sự bứt phá của các thương hiệu xe điện và hybrid cắm sạc nội địa.",
+        "Theo kế hoạch được ghi nhận từ giới truyền thông quốc tế, Toyota dự kiến bắt đầu quá trình sản xuất dòng xe EREV tại Trung Quốc từ mùa xuân năm sau. Hãng đặt mục tiêu sản lượng khá lớn trong những năm đầu triển khai nhằm củng cố thị phần và tiếp cận nhóm khách hàng còn e ngại về hạ tầng sạc điện."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Toyota sap ra mat xe dien mo rong pham vi hoat dong EREV dau tien",
+      "meta_description": "Toyota chuan bi ra mat mau SUV ung dung cong nghe EREV dau tien tai Trung Quoc, ket hop giua mo tor dien va dong co xang lam may phat dien.",
+      "keywords": [
+        "Toyota",
+        "EREV",
+        "xe dien mo rong pham vi hoat dong",
+        "o to",
+        "Trung Quoc"
+      ],
+      "slug": "toyota-chuan-bi-buoc-vao-phan-khuc-xe-ien-sac-bang-may-xang-3b68312e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 373,
+      "display_source": true,
+      "source_urls": [
+        "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+        "https://dantri.com.vn/cong-nghe/fpt-shop-mien-phi-chan-doan-bao-gia-truoc-khi-sua-chua-dien-may-gia-dung-20261125151801929.htm",
+        "https://thanhnien.vn/xe-toyota-san-xuat-tai-indonesia-co-the-su-dung-xang-sinh-hoc-e20-185261123111849037.htm",
+        "https://vnexpress.net/evnhcmc-ra-soat-dieu-kien-ap-dung-quy-chuan-tram-sac-xe-dien-5147388.html"
+      ],
+      "source_links": [
+        "https://dantri.com.vn/cong-nghe/fpt-shop-mien-phi-chan-doan-bao-gia-truoc-khi-sua-chua-dien-may-gia-dung-20261125151801929.htm",
+        "https://thanhnien.vn/xe-toyota-san-xuat-tai-indonesia-co-the-su-dung-xang-sinh-hoc-e20-185261123111849037.htm",
+        "https://vnexpress.net/evnhcmc-ra-soat-dieu-kien-ap-dung-quy-chuan-tram-sac-xe-dien-5147388.html"
+      ],
+      "source_references": [
+        {
+          "name": "Tuổi Trẻ - Tin mới",
+          "url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+          "domain": "tuoitre.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "tuoitre.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T01:34:00+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/cong-nghe/fpt-shop-mien-phi-chan-doan-bao-gia-truoc-khi-sua-chua-dien-may-gia-dung-20261125151801929.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-25T10:00:00+00:00"
+        },
+        {
+          "name": "Thanh Niên - Tin mới",
+          "url": "https://thanhnien.vn/xe-toyota-san-xuat-tai-indonesia-co-the-su-dung-xang-sinh-hoc-e20-185261123111849037.htm",
+          "domain": "thanhnien.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "thanhnien.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T09:47:00+00:00"
+        },
+        {
+          "name": "VnExpress - Kinh doanh",
+          "url": "https://vnexpress.net/evnhcmc-ra-soat-dieu-kien-ap-dung-quy-chuan-tram-sac-xe-dien-5147388.html",
+          "domain": "vnexpress.net",
+          "source_type": "Báo điện tử",
+          "source_family": "vnexpress.net",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-21T05:00:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "GAC Toyota hé lộ mẫu SUV mới sử dụng công nghệ EREV trước thềm triển lãm ô tô Quảng Châu vào ngày 27-11.",
+          "source_urls": [
+            "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Liên doanh GAC Toyota vừa đăng tải hình ảnh hé lộ một mẫu SUV mới trên mạng xã hội Weibo, trước thềm triển lãm ô tô Quảng Châu 2026 khai mạc ngày 27-11.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "snippet": "Liên doanh GAC Toyota vừa đăng tải hình ảnh hé lộ một mẫu SUV mới trên mạng xã hội Weibo, trước thềm triển lãm ô tô Quảng Châu 2026 khai mạc ngày 27-11.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "page_sha256": "8fe15818f194810347001dde3c7f59d9a07408e0d8910800bcbeb1d9454b9c5e",
+              "snippet_sha256": "7259c46224942bf71180c0e6c9cfa50de18cd625ac5ae150e3349f0d1aa1e09b",
+              "verified_at": "2026-11-27T19:12:40.764426+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hệ thống EREV kết hợp mô tơ điện, bộ pin và động cơ xăng đóng vai trò máy phát điện thay vì trực tiếp dẫn động bánh xe.",
+          "source_urls": [
+            "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Tuy nhiên, động cơ xăng chủ yếu đóng vai trò máy phát điện, thay vì trực tiếp dẫn động bánh xe như trên nhiều mẫu hybrid thông thường.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "snippet": "Tuy nhiên, động cơ xăng chủ yếu đóng vai trò máy phát điện, thay vì trực tiếp dẫn động bánh xe như trên nhiều mẫu hybrid thông thường.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "page_sha256": "8fe15818f194810347001dde3c7f59d9a07408e0d8910800bcbeb1d9454b9c5e",
+              "snippet_sha256": "2187970b610912f3a43fef92154da182a0efe73ca8469d1563402b1618c7514c",
+              "verified_at": "2026-11-27T19:12:40.764426+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Toyota có kế hoạch sản xuất xe EREV tại Trung Quốc từ mùa xuân năm 2027 với mục tiêu khoảng 200.000 xe trong năm đầu tiên.",
+          "source_urls": [
+            "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Theo trangNikkei Asia, Toyota có kế hoạch bắt đầu sản xuất xe EREV tại Trung Quốc từ mùa xuân năm 2027.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "snippet": "Theo trangNikkei Asia, Toyota có kế hoạch bắt đầu sản xuất xe EREV tại Trung Quốc từ mùa xuân năm 2027.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "page_sha256": "8fe15818f194810347001dde3c7f59d9a07408e0d8910800bcbeb1d9454b9c5e",
+              "snippet_sha256": "426b526a04067badf62ad99f3a98e96a9ee26067f47d40e84a512c777fd4c73c",
+              "verified_at": "2026-11-27T19:12:40.764426+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Trong 9 tháng đầu năm 2026, doanh số của Toyota tại Trung Quốc đạt hơn 1,05 triệu xe, giảm khoảng 19% so với cùng kỳ năm trước.",
+          "source_urls": [
+            "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "TheoElectrek, trong 9 tháng đầu năm 2026, hãng bán được hơn 1,05 triệu xe tại thị trường này, giảm khoảng 19% so với cùng kỳ năm trước.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "snippet": "TheoElectrek, trong 9 tháng đầu năm 2026, hãng bán được hơn 1,05 triệu xe tại thị trường này, giảm khoảng 19% so với cùng kỳ năm trước.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "page_sha256": "8fe15818f194810347001dde3c7f59d9a07408e0d8910800bcbeb1d9454b9c5e",
+              "snippet_sha256": "934585226e6e3c4228919269dcbe25d623b9828ab4008dd8fd24c697bf64e49a",
+              "verified_at": "2026-11-27T19:12:40.764426+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ bản chất kỹ thuật của công nghệ EREV so với các dòng hybrid thông thường đang phổ biến. Đồng thời, tác phẩm đặt bước đi mới này vào bối cảnh áp lực cạnh tranh thị phần tại Trung Quốc để giải thích nguyên nhân hãng xe Nhật Bản phải tìm hướng đi khác.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T19:12:40.765540+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [],
+      "quality_audit": {
+        "status": "PASS",
+        "checked_at": "2026-11-27T19:12:44.042784+00:00",
+        "stats": {
+          "paragraphs": 5,
+          "words": 373,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1690,
+          "source_access": [
+            {
+              "url": "https://tuoitre.vn/toyota-sap-ra-mat-xe-dien-sac-bang-may-xang-dau-tien-100261126152533029.htm",
+              "ok": true,
+              "reason": "GET HTTP 200"
+            }
+          ],
+          "independent_domains": [
+            "dantri.com.vn",
+            "thanhnien.vn",
+            "tuoitre.vn",
+            "vnexpress.net"
+          ],
+          "primary_source_present": false
+        }
+      },
+      "origin": "auto",
+      "publication_slot": "2026-11-28 02:12"
+    },
+    "published_at": "2026-11-27T19:12:44.042784+00:00",
+    "result_reason": "Passed final quality and source-access checks"
   }
 ]
