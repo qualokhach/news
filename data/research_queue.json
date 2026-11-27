@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "a722f569ff16648727c8",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T18:30:42.421578+00:00",
     "expires_at": "2026-11-30T18:28:59.503135+00:00",
     "category_hint": "technology",
@@ -1798,11 +1798,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T18:30:42.421600+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nhung-uu-ai-thiet-bi-ien-tu-ang-chu-y-tai-costco-trong-dip-black-friday--eb8bd5c4"
   },
   {
     "queue_id": "3fee9f9c0acecb115960",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T18:30:40.618677+00:00",
     "expires_at": "2026-11-30T18:28:59.503135+00:00",
     "category_hint": "technology",
@@ -2350,11 +2351,12 @@
       ]
     },
     "research_ready_at": "2026-11-27T18:30:40.618701+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "tin-tac-uoc-cho-la-a-xam-nhap-he-thong-ien-toan-am-may-cua-khong-quan-my-4b3c7a9a"
   },
   {
     "queue_id": "e86dd1a019b6dec7f2e2",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-27T18:30:40.267752+00:00",
     "expires_at": "2026-11-30T18:28:59.503135+00:00",
     "category_hint": "world",
@@ -3105,7 +3107,8 @@
       ]
     },
     "research_ready_at": "2026-11-27T18:30:40.267775+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "canh-sat-tin-rang-toi-pham-a-thuc-hien-cac-vu-cuop-trong-buoi-hoa-nhac-m-f99ed543"
   },
   {
     "queue_id": "6e51bc440736bb54fb0f",
@@ -95180,6 +95183,784 @@
         ],
         "primary_source_present": false
       }
+    }
+  },
+  {
+    "queue_id": "nhung-uu-ai-thiet-bi-ien-tu-ang-chu-y-tai-costco-trong-dip-black-friday--eb8bd5c4",
+    "status": "READY",
+    "prepared_at": "2026-11-27T18:31:08.762884+00:00",
+    "expires_at": "2026-11-28T18:31:08.762884+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+      "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
+      "https://www.sportingnews.com/us/ncaa-football/news/watch-fsu-florida-channel-stream-time-schedule-friday/6b143d3392c1c26f6accd190",
+      "https://www.espn.com/nhl/story/_/id/50595365/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+      "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+      "https://www.aljazeera.com/economy/2026/11/27/us-shoppers-get-ready-for-black-friday-and-cyber-monday?traffic_source=rss"
+    ],
+    "article": {
+      "id": "nhung-uu-ai-thiet-bi-ien-tu-ang-chu-y-tai-costco-trong-dip-black-friday--eb8bd5c4",
+      "title": "Những ưu đãi thiết bị điện tử đáng chú ý tại Costco trong dịp Black Friday 2026",
+      "summary": "Khám phá các gói ưu đãi thiết bị công nghệ độc quyền dành cho hội viên Costco trong sự kiện mua sắm Black Friday 2026, từ máy chơi game đến thiết bị âm thanh và phụ kiện.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+      "published_at": "2026-11-27T16:51:43+00:00",
+      "fetched_at": "2026-11-27T18:31:12.766264+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Mùa mua sắm Black Friday 2026 đã chính thức khởi động, mang đến nhiều chương trình cạnh tranh giá từ các nhà bán lẻ lớn. Đối với các hội viên Costco, nhà bán lẻ này tung ra một số gói ưu đãi độc quyền đối với các thiết bị công nghệ nổi bật nhằm thu hút người tiêu dùng trong mùa lễ hội năm nay.",
+        "Đáng chú ý trong danh mục máy chơi game là gói sản phẩm Nintendo Switch 2 kết hợp Mario Kart World được bán với giá 520 USD. Mặc dù một số nhà bán lẻ khác cung cấp phiên bản máy với giá thấp hơn, gói độc quyền của Costco bao gồm sẵn 12 tháng thuê bao Nintendo Switch Online tích hợp gói mở rộng, giúp người mua tiết kiệm khoảng 80 USD so với việc mua lẻ từng hạng mục.",
+        "Bên cạnh đó, các dòng tai nghe của Apple cũng nhận được mức giảm giá kèm theo thời gian bảo hành mở rộng AppleCare+. Cụ thể, AirPods Pro 3 được giảm 69 USD so với mức giá thông thường 249 USD và đi kèm hai năm bảo hành, trong khi mẫu AirPods 5 có hộp sạc không dây giảm xuống còn 130 USD kèm một năm hỗ trợ mở rộng. Tuy nhiên, các ưu đãi này đòi hỏi khách hàng phải sở hữu thẻ hội viên Costco.",
+        "Các thiết bị theo dõi sức khỏe và âm thanh cao cấp cũng góp mặt trong đợt giảm giá này. Nhẫn thông minh Oura Ring 5 được giảm 100 USD, đưa mức giá xuống còn 299 USD kèm theo trạm sạc USB-C thứ hai và thêm một năm bảo hành trong gói độc quyền. Trong khi đó, dòng loa thanh cao cấp Sonos Arc Ultra được giảm 250 USD xuống còn 850 USD, và khách hàng sẽ được giảm thêm 70 USD nếu mua kèm loa Sonos Sub trong cùng một giao dịch."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Ưu đãi thiết bị điện tử Costco Black Friday 2026",
+      "meta_description": "Tổng hợp các gói giảm giá và ưu đãi thiết bị điện tử độc quyền cho hội viên Costco trong dịp Black Friday 2026.",
+      "keywords": [
+        "Costco",
+        "Black Friday 2026",
+        "Nintendo Switch 2",
+        "AirPods Pro",
+        "Oura Ring",
+        "Sonos Arc Ultra"
+      ],
+      "slug": "nhung-uu-ai-thiet-bi-ien-tu-ang-chu-y-tai-costco-trong-dip-black-friday--eb8bd5c4",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 325,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+        "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
+        "https://www.sportingnews.com/us/ncaa-football/news/watch-fsu-florida-channel-stream-time-schedule-friday/6b143d3392c1c26f6accd190",
+        "https://www.espn.com/nhl/story/_/id/50595365/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+        "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+        "https://www.aljazeera.com/economy/2026/11/27/us-shoppers-get-ready-for-black-friday-and-cyber-monday?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
+        "https://www.sportingnews.com/us/ncaa-football/news/watch-fsu-florida-channel-stream-time-schedule-friday/6b143d3392c1c26f6accd190",
+        "https://www.espn.com/nhl/story/_/id/50595365/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+        "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+        "https://www.aljazeera.com/economy/2026/11/27/us-shoppers-get-ready-for-black-friday-and-cyber-monday?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T16:51:43+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T15:53:10+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/ncaa-football/news/watch-fsu-florida-channel-stream-time-schedule-friday/6b143d3392c1c26f6accd190",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T12:51:01+00:00"
+        },
+        {
+          "name": "ESPN - Top News",
+          "url": "https://www.espn.com/nhl/story/_/id/50595365/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+          "domain": "espn.com",
+          "source_type": "Báo thể thao",
+          "source_family": "espn.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T12:34:16+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T11:59:02+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/economy/2026/11/27/us-shoppers-get-ready-for-black-friday-and-cyber-monday?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T10:59:27+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Costco cung cấp gói sản phẩm Nintendo Switch 2 kết hợp Mario Kart World với giá 520 USD bao gồm 12 tháng Nintendo Switch Online.",
+          "source_urls": [
+            "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Normally, a 12 Nintendo Switch Online subscription with Expansion Pack costs $50, and theMario Kart Worldbundle costs $550 when it's not on sale.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "snippet": "Normally, a 12 Nintendo Switch Online subscription with Expansion Pack costs $50, and theMario Kart Worldbundle costs $550 when it's not on sale.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "page_sha256": "992c8c134aa926395c5416762cf54fc5d2a9434a31558daf6eac0eb26686efcc",
+              "snippet_sha256": "73ac2c4367654000700ca28f8fba2d88715b2408474825047cb0bda0c9e09736",
+              "verified_at": "2026-11-27T18:31:12.765577+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "AirPods Pro 3 tại Costco được giảm 69 USD từ giá gốc 249 USD và đi kèm hai năm bảo hành AppleCare+.",
+          "source_urls": [
+            "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The AirPods Pro 3 are $69 off their regular $249 price, and come with two years of Apple's extended warranty coverage, while the AirPods 5 with wireless charging case are $130, down from $149, and include one-year of extended Apple support.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "snippet": "The AirPods Pro 3 are $69 off their regular $249 price, and come with two years of Apple's extended warranty coverage, while the AirPods 5 with wireless charging case are $130, down from $149, and include one-year of extended Apple support.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "page_sha256": "992c8c134aa926395c5416762cf54fc5d2a9434a31558daf6eac0eb26686efcc",
+              "snippet_sha256": "99df6135a414d2ca4edd313259d4355d84de576355a3dd2eda47fbe448ca64e6",
+              "verified_at": "2026-11-27T18:31:12.765577+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Nhẫn thông minh Oura Ring 5 được giảm 100 USD xuống còn 299 USD kèm gói độc quyền gồm thêm một năm bảo hành và trạm sạc thứ hai.",
+          "source_urls": [
+            "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Like many other US retailers, Costco has discounted the Oura Ring 5 by $100, bringing the wearable down to $299 and its lowest price yet.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "snippet": "Like many other US retailers, Costco has discounted the Oura Ring 5 by $100, bringing the wearable down to $299 and its lowest price yet.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "page_sha256": "992c8c134aa926395c5416762cf54fc5d2a9434a31558daf6eac0eb26686efcc",
+              "snippet_sha256": "d21587baee5add3aaebf4751194a2edd9ea99a224569e91aefe29755e8319076",
+              "verified_at": "2026-11-27T18:31:12.765577+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Loa thanh Sonos Arc Ultra được giảm 250 USD xuống còn 850 USD trong dịp Black Friday tại Costco.",
+          "source_urls": [
+            "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "The company's flagship soundbar is $250 off for Black Friday, making it currently $850 instead of its usual eye-watering price of $1100.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "snippet": "The company's flagship soundbar is $250 off for Black Friday, making it currently $850 instead of its usual eye-watering price of $1100.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026",
+              "page_sha256": "992c8c134aa926395c5416762cf54fc5d2a9434a31558daf6eac0eb26686efcc",
+              "snippet_sha256": "3b3ba682a15ac869b138ab10f5378b02167ab4a02bd3a1440f91c48eef996397",
+              "verified_at": "2026-11-27T18:31:12.765577+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ các gói ưu đãi độc quyền dành riêng cho hội viên Costco trong dịp Black Friday 2026. Nội dung phân tích chi tiết cấu phần của từng gói sản phẩm công nghệ thay vì chỉ nêu mức giảm giá thuần túy.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T18:31:12.766329+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "12",
+        "130",
+        "2",
+        "2026",
+        "249",
+        "250",
+        "299",
+        "3",
+        "5",
+        "520",
+        "69",
+        "70",
+        "80",
+        "850"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T18:31:12.767726+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 325,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1478
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "engadget.com",
+          "espn.com",
+          "france24.com",
+          "npr.org",
+          "sportingnews.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "tin-tac-uoc-cho-la-a-xam-nhap-he-thong-ien-toan-am-may-cua-khong-quan-my-4b3c7a9a",
+    "status": "READY",
+    "prepared_at": "2026-11-27T18:31:08.762884+00:00",
+    "expires_at": "2026-11-28T18:31:08.762884+00:00",
+    "source_urls": [
+      "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems",
+      "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+    ],
+    "article": {
+      "id": "tin-tac-uoc-cho-la-a-xam-nhap-he-thong-ien-toan-am-may-cua-khong-quan-my-4b3c7a9a",
+      "title": "Tin tặc được cho là đã xâm nhập hệ thống điện toán đám mây của Không quân Mỹ",
+      "summary": "Nền tảng điện toán đám mây Cloud One của Không quân Mỹ vừa bị tin tặc thâm nhập, làm dấy lên lo ngại về bảo mật dữ liệu nhân sự, hậu cần và tác chiến.",
+      "category": "technology",
+      "source_name": "Engadget - All",
+      "source_url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems",
+      "published_at": "2026-11-27T16:55:43+00:00",
+      "fetched_at": "2026-11-27T18:31:17.847713+00:00",
+      "appnho_published_at": "",
+      "content_type": "quick_update",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Nền tảng điện toán đám mây Cloud One của Không quân Mỹ vừa ghi nhận một vụ xâm nhập nghiêm trọng, làm dấy lên những lo ngại về mức độ an toàn của dữ liệu tác chiến và hậu cần quân sự.",
+        "Sự việc được phát hiện trong vòng một tháng qua trong quá trình tiến hành công tác nâng cấp hệ thống. Theo thông tin ban đầu, kẻ tấn công đã khai thác một lỗ hổng phần mềm để tiếp cận khu vực điều khiển trung tâm của hạ tầng này.",
+        "Cloud One được thành lập vào năm 2017 và hoạt động dựa trên sự hỗ trợ của các nhà cung cấp dịch vụ đám mây lớn như Amazon, Google, Oracle và Microsoft. Hệ thống này đóng vai trò là trung tâm công nghệ thông tin phục vụ quản lý nhân sự, lương bay, hậu cần cũng như vận hành hệ thống theo dõi đạn dược tại hơn 200 địa điểm trên toàn cầu.",
+        "Trước diễn biến trên, một số dự án chuyển đổi ứng dụng lên Cloud One đã phải tạm dừng, quyền quản trị của một số người dùng bị thu hồi và các bản cập nhật ứng dụng bị cấm tạm thời nhằm ngăn chặn rủi ro phát sinh thêm.",
+        "Phía Không quân Mỹ cho biết họ không bình luận về tình hình an ninh, các lỗ hổng hay trạng thái hoạt động của những hệ thống cụ thể, đồng thời khẳng định luôn duy trì các biện pháp bảo vệ thông tin và năng lực nhiệm vụ. Lực lượng Cyber Command thuộc quân đội đã được huy động để xem xét tình hình."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Tin tặc đột nhập hệ thống đám mây Không quân Mỹ Cloud One",
+      "meta_description": "Hệ thống điện toán đám mây Cloud One của Không quân Mỹ bị tin tặc tấn công trong quá trình nâng cấp hệ thống, đe dọa dữ liệu quân sự.",
+      "keywords": [
+        "Không quân Mỹ",
+        "Cloud One",
+        "an ninh mạng",
+        "tin tặc",
+        "Bộ Quốc phòng Mỹ"
+      ],
+      "slug": "tin-tac-uoc-cho-la-a-xam-nhap-he-thong-ien-toan-am-may-cua-khong-quan-my-4b3c7a9a",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 278,
+      "display_source": true,
+      "source_urls": [
+        "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems",
+        "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+      ],
+      "source_links": [
+        "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+      ],
+      "source_references": [
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T16:55:43+00:00"
+        },
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T14:50:15+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Vụ xâm nhập hệ thống Cloud One của Không quân Mỹ được phát hiện trong vòng một tháng qua khi đang nâng cấp hệ thống.",
+          "source_urls": [
+            "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Cloud One was designed to serve as a hub for the air force’s IT needs, including personnel data, pay, logistics and maintenance, using the services of four cloud managers – Microsoft, Amazon, Oracle and Alphabet.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+              "snippet": "Cloud One was designed to serve as a hub for the air force’s IT needs, including personnel data, pay, logistics and maintenance, using the services of four cloud managers – Microsoft, Amazon, Oracle and Alphabet.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+              "page_sha256": "7905ce3d8d5069dd46909db6a352bacd44fcb82ddb9723426e3e235e2f25f345",
+              "snippet_sha256": "dbdccce0cc79d3c576c4972e34d78cc4ba12d157dd71b86c89a0606fb8466dbf",
+              "verified_at": "2026-11-27T18:31:17.847342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Kẻ tấn công đã khai thác lỗ hổng phần mềm để truy cập vào hệ thống điều khiển trung tâm của nền tảng Cloud One.",
+          "source_urls": [
+            "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Reuters reportedon Friday that the intrusion into the USAF’s Cloud One platform could jeopardize the security of sensitive tactical, personnel and logistics data.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+              "snippet": "Reuters reportedon Friday that the intrusion into the USAF’s Cloud One platform could jeopardize the security of sensitive tactical, personnel and logistics data.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+              "page_sha256": "7905ce3d8d5069dd46909db6a352bacd44fcb82ddb9723426e3e235e2f25f345",
+              "snippet_sha256": "11e34cadeda918c14f4ebbb5b8eb94c14d196a516cf848ba76060b3148d26071",
+              "verified_at": "2026-11-27T18:31:17.847342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cloud One được thành lập từ năm 2017 và do Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure cùng Microsoft Azure vận hành.",
+          "source_urls": [
+            "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Cloud One was established in 2017 and it's powered by Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure and Microsoft Azure.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems",
+              "snippet": "Cloud One was established in 2017 and it's powered by Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure and Microsoft Azure.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems",
+              "page_sha256": "f5d7a6adf426918fb9b2f5bcf1d7f2e9341e2ff1033f898cdd5c568c72b9ccc8",
+              "snippet_sha256": "d5548a801d5486c269e82915d068910778912f5764ef27ead0a60ada862260ca",
+              "verified_at": "2026-11-27T18:31:17.847342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hệ thống tích hợp đạn dược chiến đấu (TICMS) thuộc Cloud One theo dõi và quản lý kho vũ khí tại hơn 200 địa điểm trên toàn cầu.",
+          "source_urls": [
+            "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "But the system is also used for command and control and theater-integrated combat munitions system, or TICMS, that tracks and manages munitions inventories across more than 200 locations worldwide.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+              "snippet": "But the system is also used for command and control and theater-integrated combat munitions system, or TICMS, that tracks and manages munitions inventories across more than 200 locations worldwide.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+              "page_sha256": "7905ce3d8d5069dd46909db6a352bacd44fcb82ddb9723426e3e235e2f25f345",
+              "snippet_sha256": "2706c32ceb189e70800f69ca4b7c4404c039a4418a2093e685752ed780846be0",
+              "verified_at": "2026-11-27T18:31:17.847342+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài báo cung cấp góc nhìn cập nhật về sự cố an ninh mạng nhắm vào hạ tầng công nghệ trọng yếu của quân đội Mỹ. Nội dung làm rõ quy mô vận hành của nền tảng Cloud One và các biện pháp ứng phó ban đầu của cơ quan chức năng trước nguy cơ rò rỉ dữ liệu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T18:31:17.847780+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "200",
+        "2017"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T18:31:17.848328+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 5,
+          "words": 278,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1261
+        },
+        "independent_domains": [
+          "engadget.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "canh-sat-tin-rang-toi-pham-a-thuc-hien-cac-vu-cuop-trong-buoi-hoa-nhac-m-f99ed543",
+    "status": "READY",
+    "prepared_at": "2026-11-27T18:31:08.762884+00:00",
+    "expires_at": "2026-11-28T18:31:08.762884+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+      "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+      "https://www.france24.com/en/video/20261124-thousands-evacuated-from-uk-concert-after-release-of-unknown-substance",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss"
+    ],
+    "article": {
+      "id": "canh-sat-tin-rang-toi-pham-a-thuc-hien-cac-vu-cuop-trong-buoi-hoa-nhac-m-f99ed543",
+      "title": "Cảnh sát tin rằng tội phạm đã thực hiện các vụ cướp trong buổi hòa nhạc Manchester bị gián đoạn bởi 'chất không xác định'",
+      "summary": "Một nhóm tội phạm có tổ chức được cho là đã thực hiện các vụ cướp trong buổi hòa nhạc của Don Toliver tại Manchester, nơi một 'chất không xác định' đã được phát hành, khiến 12.000 người phải sơ tán.",
+      "category": "world",
+      "source_name": "The Guardian - World",
+      "source_url": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+      "published_at": "2026-11-27T18:10:21+00:00",
+      "fetched_at": "2026-11-27T18:32:16.114319+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Vào ngày 27 tháng 11 năm 2026, cảnh sát Greater Manchester đã thông báo rằng họ đang điều tra vụ cướp và phát hành chất không xác định tại buổi hòa nhạc của Don Toliver tại Manchester.",
+        "Theo cảnh sát, một nhóm tội phạm có tổ chức được cho là đã thực hiện các vụ cướp trong buổi hòa nhạc, nơi một 'chất không xác định' đã được phát hành, khiến 12.000 người phải sơ tán.",
+        "Cảnh sát đang làm việc với các cơ quan thực thi pháp luật khác trên khắp châu Âu để điều tra vụ việc, sau khi có các vụ việc tương tự tại hai buổi hòa nhạc khác của Don Toliver tại châu Âu.",
+        "Cảnh sát đã thông báo rằng họ đang cố gắng liên hệ với hơn 100 người tham dự buổi hòa nhạc để giúp điều tra.",
+        "Không có ai bị bắt giữ, và chất không xác định vẫn chưa được xác định.",
+        "Cảnh sát đã thông báo rằng họ đang xem xét các đoạn phim từ điện thoại di động và camera an ninh để giúp điều tra."
+      ],
+      "generation_provider": "Cloudflare Workers AI:@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "seo_title": "Cảnh sát điều tra vụ cướp và phát hành chất không xác định tại buổi hò",
+      "meta_description": "Cảnh sát đang điều tra vụ cướp và phát hành chất không xác định tại buổi hòa nhạc của Don Toliver tại Manchester, khiến 12.000 người phải sơ tán.",
+      "keywords": [
+        "buổi hòa nhạc Manchester",
+        "chất không xác định",
+        "cướp",
+        "Cảnh sát tin rằng tội phạm đã thực hiện các vụ cướp trong buổi hòa nhạc Manchester bị gián đoạn bởi 'chất không xác định'",
+        "Thế giới"
+      ],
+      "slug": "canh-sat-tin-rang-toi-pham-a-thuc-hien-cac-vu-cuop-trong-buoi-hoa-nhac-m-f99ed543",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 186,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+        "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/video/20261124-thousands-evacuated-from-uk-concert-after-release-of-unknown-substance",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/video/20261124-thousands-evacuated-from-uk-concert-after-release-of-unknown-substance",
+        "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T18:10:21+00:00"
+        },
+        {
+          "name": "BBC News - Top Stories",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T16:40:22+00:00"
+        },
+        {
+          "name": "France 24 - English",
+          "url": "https://www.france24.com/en/video/20261124-thousands-evacuated-from-uk-concert-after-release-of-unknown-substance",
+          "domain": "france24.com",
+          "source_type": "Đài/báo",
+          "source_family": "france24.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T10:55:08+00:00"
+        },
+        {
+          "name": "Al Jazeera - All",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "source_type": "Đài/báo",
+          "source_family": "aljazeera.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-23T19:07:37+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Cảnh sát tin rằng tội phạm đã thực hiện các vụ cướp trong buổi hòa nhạc Manchester bị gián đoạn bởi 'chất không xác định'",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Harding said the force was aware some people had been affected psychologically during the Co-op Live incident because of the2017 terror attackat the Manchester Arena where 22 people were killed by the suicide-bomber Salman Abedi.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+              "snippet": "Harding said the force was aware some people had been affected psychologically during the Co-op Live incident because of the2017 terror attackat the Manchester Arena where 22 people were killed by the suicide-bomber Salman Abedi.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+              "page_sha256": "da7e0be6049179217cea6e56d381a674ac3c64941eb269031fa5d56f346f0e4e",
+              "snippet_sha256": "924116e1cf7e229acb5a96f979c166f466f3eba20db8721313949ee129f37ec2",
+              "verified_at": "2026-11-27T18:32:16.113978+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Hơn 12.000 người đã được sơ tán khỏi buổi hòa nhạc sau khi 'chất không xác định' được phát hành",
+          "source_urls": [
+            "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Jess Kinyata, 20, from West London, who was one of 12,000 people evacuated from the arena, said before the \"gas began\" his 18 carat gold chain, worth about £1,500, was stolen from himduring a set by the concert's opening artist, Victony.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+              "snippet": "Jess Kinyata, 20, from West London, who was one of 12,000 people evacuated from the arena, said before the \"gas began\" his 18 carat gold chain, worth about £1,500, was stolen from himduring a set by the concert's opening artist, Victony.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+              "page_sha256": "3fbfb897fdfb6e129aee94a20982d5cc1c52688f2578a0670c7434bd05b564c3",
+              "snippet_sha256": "4c103e3f1b45bbc3384d7eb3b23ef2c3a47f703856c8a213f9b1b174a48293de",
+              "verified_at": "2026-11-27T18:32:16.113978+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Cảnh sát đang làm việc với các cơ quan thực thi pháp luật khác trên khắp châu Âu để điều tra vụ việc",
+          "source_urls": [
+            "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance"
+          ],
+          "importance": "core",
+          "evidence_snippet": "“Thankfully, we are not dealing with an incident of such a devastating nature or motive; however, we understand the impact this is likely to have caused.”",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+              "snippet": "“Thankfully, we are not dealing with an incident of such a devastating nature or motive; however, we understand the impact this is likely to have caused.”",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+              "page_sha256": "da7e0be6049179217cea6e56d381a674ac3c64941eb269031fa5d56f346f0e4e",
+              "snippet_sha256": "d614bfe7920795343f602c2e37736d2f200905d36f5a9c9160db765f6ff8965a",
+              "verified_at": "2026-11-27T18:32:16.113978+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết này cung cấp thông tin chi tiết về vụ cướp và phát hành chất không xác định tại buổi hòa nhạc Manchester, và các nỗ lực của cảnh sát để điều tra vụ việc. Nó cũng cung cấp bối cảnh về các vụ việc tương tự tại các buổi hòa nhạc khác của Don Toliver tại châu Âu.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-27T18:32:16.114371+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "100",
+        "12.000"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-27T18:32:16.114929+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 6,
+          "words": 186,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 847
+        },
+        "independent_domains": [
+          "aljazeera.com",
+          "bbc.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
     }
   }
 ]
