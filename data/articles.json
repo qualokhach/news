@@ -57817,5 +57817,830 @@
     },
     "origin": "auto",
     "publication_slot": "2026-11-28 02:12"
+  },
+  {
+    "id": "bao-lon-tan-cong-bo-bien-phia-ong-australia-va-my-gay-ngap-lut-va-mat-ie-a47d5a0c",
+    "title": "Bão lớn tấn công bờ biển phía đông Australia và Mỹ gây ngập lụt và mất điện diện rộng",
+    "summary": "Thời tiết cực đoan gây ngập lụt và gió lớn tại các bang miền Đông Australia, trong khi một trận bão mạnh quét qua bờ biển phía đông nước Mỹ đúng dịp Lễ Tạ ơn làm gần một triệu hộ dân mất điện.",
+    "category": "world",
+    "source_name": "The Guardian - World",
+    "source_url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+    "published_at": "2026-11-28T02:39:28+00:00",
+    "fetched_at": "2026-11-28T04:13:59.354001+00:00",
+    "appnho_published_at": "2026-11-28T04:14:23.486324+00:00",
+    "content_type": "short_explainer",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Các vùng ven biển phía đông Australia đang đối mặt với tình trạng mưa lớn và dông bão diện rộng khi một dải thời tiết hoạt động mạnh di chuyển từ trung tâm bang Queensland qua New South Wales xuống tới Victoria và Tasmania.",
+      "Cơ quan Khí tượng ghi nhận lượng mưa lớn trong đêm tại Victoria, trong đó khu vực Trạm chứa nước Amphitheatre ghi nhận lượng mưa 85,4mm và Lạch Bet Bet đạt 72,8mm. Lực lượng cứu hộ khẩn cấp tại bang này đã tiếp nhận hàng trăm cuộc gọi yêu cầu hỗ trợ liên quan đến cây đổ, hư hại nhà ở và ngập lụt.",
+      "Bên kia Thái Bình Dương, một trận bão mạnh cũng quét qua bờ biển phía đông nước Mỹ vào đúng dịp Lễ Tạ ơn, khiến gần một triệu khách hàng bị mất điện. Sức gió lớn lên tới 112 km/h đã quật đổ cây cối và đường dây điện, đồng thời buộc nhà chức trách New York phải hoãn cuộc diễu hành thường niên.",
+      "Các dữ liệu từ cơ quan theo dõi điện lực ghi nhận tình trạng mất điện diễn ra nghiêm trọng tại nhiều bang như Pennsylvania, New Jersey, Maryland và Virginia. Hàng loạt chuyến bay cũng bị hoãn hoặc hủy chuyến tại các sân bay lớn ở khu vực Washington và New York do ảnh hưởng của gió mạnh và mưa lớn.",
+      "Trong khi đó, lực lượng cứu hỏa tại đảo Flinders thuộc Tasmania (Australia) vẫn đang chật vật kiểm soát đám cháy rừng đã lan rộng hơn 15.000 ha. Giới chức lưu ý rằng thời tiết mưa gió sắp tới có thể tạo thêm thử thách cho công tác chữa cháy trên mặt đất."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Bão lớn gây ngập lụt tại bờ biển Australia và Mỹ",
+    "meta_description": "Cập nhật tình hình thời tiết cực đoan và bão lớn gây ngập lụt, mất điện diện rộng tại bờ biển phía đông Australia và Mỹ.",
+    "keywords": [
+      "thời tiết cực đoan",
+      "bão lớn",
+      "Australia",
+      "Mỹ",
+      "ngập lụt"
+    ],
+    "slug": "bao-lon-tan-cong-bo-bien-phia-ong-australia-va-my-gay-ngap-lut-va-mat-ie-a47d5a0c",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 286,
+    "display_source": true,
+    "source_urls": [
+      "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+      "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+      "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss"
+    ],
+    "source_links": [
+      "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+      "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss"
+    ],
+    "source_references": [
+      {
+        "name": "The Guardian - World",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+        "domain": "theguardian.com",
+        "source_type": "Báo",
+        "source_family": "theguardian.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-28T02:39:28+00:00"
+      },
+      {
+        "name": "France 24 - English",
+        "url": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+        "domain": "france24.com",
+        "source_type": "Đài/báo",
+        "source_family": "france24.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-27T07:14:35+00:00"
+      },
+      {
+        "name": "Al Jazeera - All",
+        "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+        "domain": "aljazeera.com",
+        "source_type": "Đài/báo",
+        "source_family": "aljazeera.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-28T03:00:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Dải thời tiết hoạt động mạnh di chuyển từ trung tâm Queensland qua New South Wales đến Victoria và Tasmania gây mưa lớn và cảnh báo lũ lụt.",
+        "source_urls": [
+          "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Severe weather and flood watch warnings are in place across the eastern states as a weather band moves from centralQueenslandthrough New South Wales to Victoria and Tasmania.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+            "snippet": "Severe weather and flood watch warnings are in place across the eastern states as a weather band moves from centralQueenslandthrough New South Wales to Victoria and Tasmania.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+            "page_sha256": "c4a56734d66c178bbfcb49673479ab4e15dc5e4cec98ade5a891a146e2c91707",
+            "snippet_sha256": "e5ede3ec3e9f1d4f7b92d28442489f2ba043371136d1c170aad3ac10467d8c84",
+            "verified_at": "2026-11-28T04:13:59.353203+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Lượng mưa lớn nhất qua đêm tại Victoria ghi nhận 85,4mm tại Trạm chứa nước Amphitheatre và 72,8mm tại Lạch Bet Bet.",
+        "source_urls": [
+          "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "The heaviest overnight falls in Victoria were 85.4mm at Amphitheatre Reservoir in the northern Pyrenees region and 72.8mm at Bet Bet Creek in the state’s west.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+            "snippet": "The heaviest overnight falls in Victoria were 85.4mm at Amphitheatre Reservoir in the northern Pyrenees region and 72.8mm at Bet Bet Creek in the state’s west.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+            "page_sha256": "c4a56734d66c178bbfcb49673479ab4e15dc5e4cec98ade5a891a146e2c91707",
+            "snippet_sha256": "4c1fe1de8d2ca1026f628e0469cf1cecd00a4e93943ced98b521a4ab95dc6d2e",
+            "verified_at": "2026-11-28T04:13:59.353203+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Bão lớn quét qua bờ biển phía đông nước Mỹ vào ngày Lễ Tạ ơn, làm gần một triệu khách hàng mất điện do gió giật lên tới 112 km/h.",
+        "source_urls": [
+          "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Apowerful stormdisrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power to nearly 1 million customers ​at one point ‌as wind gusts of up to 112kph toppled ⁠trees and power lines.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+            "snippet": "Apowerful stormdisrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power to nearly 1 million customers ​at one point ‌as wind gusts of up to 112kph toppled ⁠trees and power lines.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+            "page_sha256": "d101898a7517a421d55607cd1f22012651953cd11c966a377925b7ee55fadfb3",
+            "snippet_sha256": "c8c673938b27b8c758f1854174e122ba52bb06b64d92283529d913abe581c41e",
+            "verified_at": "2026-11-28T04:13:59.353203+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết tổng hợp và làm rõ tác động của các hệ thống thời tiết cực đoan đồng thời diễn ra tại hai khu vực bán cầu khác nhau. Nội dung cung cấp góc nhìn toàn diện về số liệu lượng mưa, thiệt hại hạ tầng và phản ứng của lực lượng cứu hộ.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-28T04:13:59.354106+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "112",
+      "15.000",
+      "72,8",
+      "85,4"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-28T04:14:23.486324+00:00",
+      "stats": {
+        "paragraphs": 5,
+        "words": 286,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1365,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          },
+          {
+            "url": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "france24.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-28 11:14"
+  },
+  {
+    "id": "cu-tri-victoria-buoc-vao-ngay-bau-cu-bang-trong-boi-canh-thoi-tiet-bat-l-e5cdfbeb",
+    "title": "Cử tri Victoria bước vào ngày bầu cử bang trong bối cảnh thời tiết bất lợi",
+    "summary": "Cử tri bang Victoria chính thức đi bỏ phiếu trong cuộc bầu cử năm 2026 giữa thời tiết mưa lớn tại Melbourne, khi liên minh đối lập tìm cách lật đổ chính quyền Lao động.",
+    "category": "world",
+    "source_name": "The Guardian - World",
+    "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+    "published_at": "2026-11-28T03:19:48+00:00",
+    "fetched_at": "2026-11-28T04:14:09.595310+00:00",
+    "appnho_published_at": "2026-11-28T04:14:23.486324+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Cử tri bang Victoria đã chính thức bước vào ngày bỏ phiếu trong cuộc bầu cử năm 2026, với sự cạnh tranh gay gắt giữa Thủ hiến đương nhiệm thuộc đảng Lao động Ben Carroll và lãnh đạo đảng Tự do Jess Wilson nhằm giành quyền kiểm soát chính quyền bang.",
+      "Tuy nhiên, điều kiện thời tiết không thuận lợi với những trận mưa lớn tại Melbourne đã tạo ra không ít thách thức cho công tác tổ chức và cử tri đi bỏ phiếu trực tiếp. Theo giới quan sát chính trị, thời tiết bất lợi có thể ảnh hưởng đến tỷ lệ tham gia trực tiếp trong ngày bầu cử và cách thức phân phối phiếu bầu ưu tiên tại các điểm bỏ phiếu.",
+      "Bên cạnh yếu tố thời tiết, cuộc bầu cử năm nay ghi nhận nhiều điểm đáng chú ý khi quy định bầu cử tại hội đồng lập pháp thượng viện đã thay đổi. Cử tri nay phải điền tối thiểu năm nhóm đảng theo thứ tự ưu tiên hoặc chọn năm ứng viên độc lập ở phía dưới đường gạch ngang trên phiếu bầu.",
+      "Đáng chú ý, các nhân vật chính trị liên bang như Thủ tướng Anthony Albanese hay lãnh đạo phe đối lập liên bang Angus Taylor hầu như ít tham gia các cuộc họp báo chung cùng lãnh đạo cấp bang trong suốt chiến dịch tranh cử, nhường không gian cho các chiến dịch vận động tại cơ sở như tại khu vực bầu cử Hastings."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Bầu cử bang Victoria 2026: Cử tri đi bỏ phiếu trong mưa lớn",
+    "meta_description": "Cập nhật cuộc bầu cử bang Victoria 2026 khi cử tri đi bỏ phiếu giữa thời tiết mưa dầm tại Melbourne và các thay đổi trong quy định bầu cử.",
+    "keywords": [
+      "bầu cử Victoria 2026",
+      "Ben Carroll",
+      "Jess Wilson",
+      "The Guardian",
+      "Australia"
+    ],
+    "slug": "cu-tri-victoria-buoc-vao-ngay-bau-cu-bang-trong-boi-canh-thoi-tiet-bat-l-e5cdfbeb",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 255,
+    "display_source": true,
+    "source_urls": [
+      "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+      "https://www.aljazeera.com/news/2026/11/27/spains-pedro-sanchez-bets-on-left-wing-voting-surge-to-defy-election-polls?traffic_source=rss"
+    ],
+    "source_links": [
+      "https://www.aljazeera.com/news/2026/11/27/spains-pedro-sanchez-bets-on-left-wing-voting-surge-to-defy-election-polls?traffic_source=rss"
+    ],
+    "source_references": [
+      {
+        "name": "The Guardian - World",
+        "url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+        "domain": "theguardian.com",
+        "source_type": "Báo",
+        "source_family": "theguardian.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-28T03:19:48+00:00"
+      },
+      {
+        "name": "Al Jazeera - All",
+        "url": "https://www.aljazeera.com/news/2026/11/27/spains-pedro-sanchez-bets-on-left-wing-voting-surge-to-defy-election-polls?traffic_source=rss",
+        "domain": "aljazeera.com",
+        "source_type": "Đài/báo",
+        "source_family": "aljazeera.com",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-27T17:15:35+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Cử tri bang Victoria đi bỏ phiếu trong cuộc bầu cử bang năm 2026 giữa sự cạnh tranh giữa Lao động của Ben Carroll và đảng Tự do của Jess Wilson.",
+        "source_urls": [
+          "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Follow the latest news and updates from the 2026 Vic state election.Composite: Guardian Design/AAP/Getty ImagesView image in fullscreenVictorian election live: The Liberal leader, Jess Wilson, right, is challenging the Labor premier, Ben Carroll, as Victorians head to the polls on Saturday.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "snippet": "Follow the latest news and updates from the 2026 Vic state election.Composite: Guardian Design/AAP/Getty ImagesView image in fullscreenVictorian election live: The Liberal leader, Jess Wilson, right, is challenging the Labor premier, Ben Carroll, as Victorians head to the polls on Saturday.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "page_sha256": "8eca6417e9597b61fcb0e22d562a8261c583fb22e2bf28d526fe598d639a0505",
+            "snippet_sha256": "cf82b596beafbd21e56b8bcb506a112baf536900c62d403b44f1e368e5b6f6ac",
+            "verified_at": "2026-11-28T04:14:09.594569+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Thời tiết mưa lớn tại Melbourne gây khó khăn cho việc phát tài liệu hướng dẫn bỏ phiếu và có thể làm thay đổi dòng ưu tiên phiếu bầu từ 1% đến 3%.",
+        "source_urls": [
+          "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "For these reasons, there will be a systematic bias in the preference flows by 10 to 15% and, when applied to half the electorate, may change the results by about 1% to 3% and possibly higher rates of informality.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "snippet": "For these reasons, there will be a systematic bias in the preference flows by 10 to 15% and, when applied to half the electorate, may change the results by about 1% to 3% and possibly higher rates of informality.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "page_sha256": "8eca6417e9597b61fcb0e22d562a8261c583fb22e2bf28d526fe598d639a0505",
+            "snippet_sha256": "2eba524e9d416867bc190524186ef94e0dbda02673f6c95da1953accfdaecb73",
+            "verified_at": "2026-11-28T04:14:09.594569+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Quy định bỏ phiếu tại thượng viện thay đổi, yêu cầu cử tri phải xếp hạng ít nhất năm nhóm đảng hoặc năm ứng viên độc lập.",
+        "source_urls": [
+          "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Hastings is currently held by Labor MPPaul Mercurio(of Strictly Ballroom fame) but it is expected to be a contest between the Liberals and One Nation.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "snippet": "Hastings is currently held by Labor MPPaul Mercurio(of Strictly Ballroom fame) but it is expected to be a contest between the Liberals and One Nation.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "page_sha256": "8eca6417e9597b61fcb0e22d562a8261c583fb22e2bf28d526fe598d639a0505",
+            "snippet_sha256": "947cf13cfc109fc2f619d0d95a8875dfcc37efd67e770827abe88f6dd28686b7",
+            "verified_at": "2026-11-28T04:14:09.594569+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết làm rõ tác động của thời tiết mưa lớn tại Melbourne đến hành vi của cử tri và xu hướng dịch chuyển phiếu bầu. Đồng thời, văn bản cung cấp bức tranh toàn cảnh về sự vắng bóng của các lãnh đạo liên bang trong chiến dịch tranh cử tại bang Victoria.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-28T04:14:09.595420+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "2026"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-28T04:14:23.486324+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 255,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1187,
+        "source_access": [
+          {
+            "url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "aljazeera.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-28 11:14"
+  },
+  {
+    "id": "bo-chinh-tri-yeu-cau-hoan-tat-phuong-an-bien-che-giai-oan-2027-2031-truo-5b61b676",
+    "title": "Bộ Chính trị yêu cầu hoàn tất phương án biên chế giai đoạn 2027 - 2031 trước ngày 5.12",
+    "summary": "Theo Kết luận số 131-KL/T.Ư, Bộ Chính trị yêu cầu các cơ quan, địa phương hoàn thành phương án biên chế trước ngày 5.12, đồng thời người đứng đầu phải chịu trách nhiệm trực tiếp về chất lượng và tiến độ.",
+    "category": "vietnam",
+    "source_name": "Thanh Niên - Tin mới",
+    "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+    "published_at": "2026-11-28T01:18:00+00:00",
+    "fetched_at": "2026-11-28T04:14:15.099119+00:00",
+    "appnho_published_at": "2026-11-28T04:14:23.486324+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Thường trực Ban Bí thư Trần Cẩm Tú vừa ký ban hành Kết luận số 131-KL/T.Ư của Bộ Chính trị về tình hình thực hiện Kết luận số 107-KL/T.Ư, yêu cầu các cơ quan, địa phương tập trung hoàn thiện phương án biên chế giai đoạn 2027 - 2031 trước ngày 5.12.",
+      "Theo kết luận, các cấp ủy và người đứng đầu đơn vị phải hoàn thành việc kiểm chứng, xác nhận dữ liệu danh mục vị trí việc làm trước ngày 30.11. Bộ Chính trị nhấn mạnh yêu cầu không hợp thức hóa hiện trạng hay làm hình thức, đồng thời phương án biên chế phải xuất phát từ vị trí việc làm đã chuẩn hóa thay vì lấy số người hiện có để tính ngược nhu cầu nhân lực.",
+      "Bên cạnh đó, Bộ Chính trị thống nhất tổ chức hội nghị toàn quốc vào ngày 1.12 và yêu cầu hoàn thành công tác thẩm định phương án biên chế trước ngày 10.12. Mức độ hoàn thành nhiệm vụ này sẽ là một trong những tiêu chí quan trọng để đánh giá và xếp loại cán bộ trong năm 2026."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Bộ Chính trị yêu cầu hoàn thành phương án biên chế trước 5.12",
+    "meta_description": "Bộ Chính trị ban hành kết luận yêu cầu các cơ quan, đơn vị hoàn thành phương án biên chế giai đoạn 2027 - 2031 trước ngày 5.12, gắn trách nhiệm người đứng đầu.",
+    "keywords": [
+      "Bộ Chính trị",
+      "phương án biên chế",
+      "vị trí việc làm",
+      "Trần Cẩm Tú",
+      "tinh giản biên chế"
+    ],
+    "slug": "bo-chinh-tri-yeu-cau-hoan-tat-phuong-an-bien-che-giai-oan-2027-2031-truo-5b61b676",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 191,
+    "display_source": true,
+    "source_urls": [
+      "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+      "https://dantri.com.vn/the-gioi/nga-bien-che-tau-ngam-hat-nhan-dau-tien-trang-bi-ten-lua-zircon-20261128074315680.htm"
+    ],
+    "source_links": [
+      "https://dantri.com.vn/the-gioi/nga-bien-che-tau-ngam-hat-nhan-dau-tien-trang-bi-ten-lua-zircon-20261128074315680.htm"
+    ],
+    "source_references": [
+      {
+        "name": "Thanh Niên - Tin mới",
+        "url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+        "domain": "thanhnien.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "thanhnien.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-28T01:18:00+00:00"
+      },
+      {
+        "name": "Dân Trí - Tin mới",
+        "url": "https://dantri.com.vn/the-gioi/nga-bien-che-tau-ngam-hat-nhan-dau-tien-trang-bi-ten-lua-zircon-20261128074315680.htm",
+        "domain": "dantri.com.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "dantri.com.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-28T01:05:18+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Thường trực Ban Bí thư Trần Cẩm Tú ký ban hành Kết luận số 131-KL/T.Ư của Bộ Chính trị về tiến độ hoàn thiện phương án biên chế giai đoạn 2027 - 2031.",
+        "source_urls": [
+          "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Thường trực Ban Bí thư Trần Cẩm Tú vừa ký ban hành Kết luận số 131-KL/T.Ư của Bộ Chính trị về tình hình thực hiện Kết luận số 107-KL/T.Ư và tiến độ hoàn thiện cơ sở dữ liệu vị tríviệc làm, phương án biên chế giai đoạn 2027 - 2031.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "snippet": "Thường trực Ban Bí thư Trần Cẩm Tú vừa ký ban hành Kết luận số 131-KL/T.Ư của Bộ Chính trị về tình hình thực hiện Kết luận số 107-KL/T.Ư và tiến độ hoàn thiện cơ sở dữ liệu vị tríviệc làm, phương án biên chế giai đoạn 2027 - 2031.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "page_sha256": "8c459f4acf1aa0ad2c17d1951203b81c4d223865635650b4dc88a6c78b374af1",
+            "snippet_sha256": "f2b749958d74a906d2c8c71a0e28140086caaa1c43b59a6305e804e37198ec4a",
+            "verified_at": "2026-11-28T04:14:15.098235+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Các cơ quan, địa phương phải hoàn thành phương án biên chế giai đoạn 2027 - 2031 trước ngày 5.12.",
+        "source_urls": [
+          "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Ban Tổ chức T.Ư có trách nhiệm hoàn thành thẩm định phương án biên chế của các cơ quan, địa phương trước ngày 10.12; tổng hợp, đề xuất phương án giao biên chế giai đoạn 2027 - 2031, báo cáo Bộ Chính trị trong tháng 12.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "snippet": "Ban Tổ chức T.Ư có trách nhiệm hoàn thành thẩm định phương án biên chế của các cơ quan, địa phương trước ngày 10.12; tổng hợp, đề xuất phương án giao biên chế giai đoạn 2027 - 2031, báo cáo Bộ Chính trị trong tháng 12.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "page_sha256": "8c459f4acf1aa0ad2c17d1951203b81c4d223865635650b4dc88a6c78b374af1",
+            "snippet_sha256": "36d093da03e71dd54e6a69a73c1aff30430c7d29856f56a47494a99d31002c08",
+            "verified_at": "2026-11-28T04:14:15.098235+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Việc kiểm chứng, xác nhận dữ liệu vị trí việc làm phải hoàn thành trước ngày 30.11.",
+        "source_urls": [
+          "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Việc kiểm chứng, xác nhận dữ liệu và xử lý những vấn đề thuộc thẩm quyền phải hoàn thành trước ngày 30.11.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "snippet": "Việc kiểm chứng, xác nhận dữ liệu và xử lý những vấn đề thuộc thẩm quyền phải hoàn thành trước ngày 30.11.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "page_sha256": "8c459f4acf1aa0ad2c17d1951203b81c4d223865635650b4dc88a6c78b374af1",
+            "snippet_sha256": "e82e67ec7dc1cbba97080593aca30e75a4db51fac001fbf2cf6db440fd8c6131",
+            "verified_at": "2026-11-28T04:14:15.098235+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Ban Tổ chức T.Ư hoàn thành thẩm định phương án biên chế của các cơ quan, địa phương trước ngày 10.12.",
+        "source_urls": [
+          "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Hoàn thành thẩm định phương án biên chế của các cơ quan, địa phương trước ngày 10.12",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "snippet": "Hoàn thành thẩm định phương án biên chế của các cơ quan, địa phương trước ngày 10.12",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "page_sha256": "8c459f4acf1aa0ad2c17d1951203b81c4d223865635650b4dc88a6c78b374af1",
+            "snippet_sha256": "6f3867fd5cb42837ab29e2b56aa27ca6fada7766359261ca4952ce2619960c7f",
+            "verified_at": "2026-11-28T04:14:15.098235+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài báo làm rõ mốc thời gian gấp rút và các yêu cầu cốt lõi trong Kết luận 131-KL/T.Ư của Bộ Chính trị về phương án biên chế. Nội dung tập trung phân tích các mốc hạn chót quan trọng như ngày 30.11, 5.12 và 10.12, đồng thời nhấn mạnh cơ chế gắn trách nhiệm trực tiếp của người đứng đầu.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-28T04:14:15.099205+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "107",
+      "11",
+      "12",
+      "131",
+      "2026",
+      "2031"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-28T04:14:23.486324+00:00",
+      "stats": {
+        "paragraphs": 3,
+        "words": 191,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 883,
+        "source_access": [
+          {
+            "url": "https://thanhnien.vn/bo-chinh-tri-yeu-cau-hoan-thanh-phuong-an-bien-che-truoc-512-185261127220100258.htm",
+            "ok": true,
+            "reason": "GET HTTP 200"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-28 11:14"
+  },
+  {
+    "id": "du-an-ngan-trieu-10-000-ty-ong-o-tphcm-van-hanh-hieu-qua-qua-cac-ot-thu--b485ad3f",
+    "title": "Dự án ngăn triều 10.000 tỷ đồng ở TPHCM vận hành hiệu quả qua các đợt thử nghiệm",
+    "summary": "Sau quá trình triển khai kéo dài, dự án giải quyết ngập do triều khu vực TPHCM bước đầu cho thấy hiệu quả thực tế rõ rệt, giúp nhiều khu vực tại khu Nam thành phố khô ráo trong các đợt triều cường.",
+    "category": "vietnam",
+    "source_name": "Dân Trí - Tin mới",
+    "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+    "published_at": "2026-11-28T00:34:34+00:00",
+    "fetched_at": "2026-11-28T04:14:20.525429+00:00",
+    "appnho_published_at": "2026-11-28T04:14:23.486324+00:00",
+    "content_type": "quick_update",
+    "data_type": "general",
+    "collection": "current",
+    "body": [
+      "Sau nhiều năm triển khai và trải qua thời gian tạm ngưng, dự án giải quyết ngập do triều khu vực TPHCM có xét đến yếu tố biến đổi khí hậu (giai đoạn 1) với tổng vốn đầu tư 10.000 tỷ đồng đã bước vào giai đoạn vận hành kỹ thuật và ghi nhận những kết quả tích cực ban đầu.",
+      "Theo thông tin từ chủ đầu tư, hệ thống cống kiểm soát triều của dự án đã được vận hành thử nghiệm qua nhiều đợt nhằm ứng phó trực tiếp với các đợt triều cường dâng cao. Thực tế quan trắc trong các ngày vận hành cho thấy nhiều khu vực từng thường xuyên bị ngập úng tại khu Nam thành phố đã trở nên khô ráo, đem lại sự phấn khởi cho người dân sinh sống trong vùng dự án.",
+      "Đại diện Trung Nam Group cho biết, dự án bao gồm nhiều hạng mục quy mô lớn như các cống ngăn triều với hệ thống cửa van nặng hàng trăm tấn được lắp đặt đồng bộ. Trải qua thời gian dài chịu tác động từ thời tiết trong giai đoạn tạm dừng thi công, các thiết bị này đã được kiểm chứng độ bền trước khi đưa trở lại hoạt động vận hành kỹ thuật.",
+      "Bên cạnh chức năng ngăn triều trực tiếp từ hệ thống sông lớn, nhà đầu tư cũng lưu ý rằng hiệu quả chống ngập tổng thể còn chịu sự chi phối từ năng lực thoát nước của hạ tầng đô thị địa phương. Để tiếp tục giải quyết căn cơ tình trạng ngập lụt tại các khu vực khác trên địa bàn thành phố sau sáp nhập, các cơ quan chuyên môn và doanh nghiệp đang xem xét các định hướng triển khai tiếp theo theo quy hoạch."
+    ],
+    "generation_provider": "Gemini:gemini-3.5-flash-lite",
+    "seo_title": "Dự án ngăn triều 10.000 tỷ đồng ở TPHCM vận hành thực tế",
+    "meta_description": "Cập nhật thông tin về quá trình vận hành kỹ thuật và hiệu quả bước đầu của dự án ngăn triều 10.000 tỷ đồng tại TPHCM.",
+    "keywords": [
+      "du an ngan trieu TPHCM",
+      "chong ngap trieu cuong",
+      "Trung Nam Group",
+      "ngap nuoc TPHCM"
+    ],
+    "slug": "du-an-ngan-trieu-10-000-ty-ong-o-tphcm-van-hanh-hieu-qua-qua-cac-ot-thu--b485ad3f",
+    "images": [],
+    "content_image_url": "",
+    "content_image_alt": "",
+    "content_image_credit": "",
+    "content_image_credit_url": "",
+    "word_count": 305,
+    "display_source": true,
+    "source_urls": [
+      "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+      "https://thanhnien.vn/lan-dau-tien-sieu-du-an-ngan-trieu-10000-ti-dong-o-tphcm-dong-cong-xuyen-dem-185261127202750536.htm"
+    ],
+    "source_links": [
+      "https://thanhnien.vn/lan-dau-tien-sieu-du-an-ngan-trieu-10000-ti-dong-o-tphcm-dong-cong-xuyen-dem-185261127202750536.htm"
+    ],
+    "source_references": [
+      {
+        "name": "Dân Trí - Tin mới",
+        "url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+        "domain": "dantri.com.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "dantri.com.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-28T00:34:34+00:00"
+      },
+      {
+        "name": "Thanh Niên - Tin mới",
+        "url": "https://thanhnien.vn/lan-dau-tien-sieu-du-an-ngan-trieu-10000-ti-dong-o-tphcm-dong-cong-xuyen-dem-185261127202750536.htm",
+        "domain": "thanhnien.vn",
+        "source_type": "Báo điện tử",
+        "source_family": "thanhnien.vn",
+        "source_role": "secondary",
+        "is_primary": false,
+        "is_primary_for_claim": false,
+        "directory_access_status": "Chưa kiểm tra",
+        "terms_status": "UNVERIFIED",
+        "commercial_use_status": "UNVERIFIED",
+        "access_status": "UNVERIFIED",
+        "research_mode": "LIMITED_FACTUAL_REFERENCE",
+        "reuse_mode": "FACTUAL_CITATION_ONLY",
+        "source_published_at": "2026-11-27T13:31:00+00:00"
+      }
+    ],
+    "fact_ledger": [
+      {
+        "claim": "Dự án ngăn triều 10.000 tỷ đồng ở TPHCM bước đầu cho hiệu quả rõ rệt sau khi vận hành kỹ thuật.",
+        "source_urls": [
+          "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm"
+        ],
+        "importance": "core",
+        "evidence_snippet": "Sau vài ngày vận hành kỹ thuật dự án ngăn triều 10.000 tỷ đồng, nhiều khu vực thường xuyên bị ngập do triều cường ở khu Nam TPHCM trở nên khô ráo, người dân vui mừng, phấn khởi.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "snippet": "Sau vài ngày vận hành kỹ thuật dự án ngăn triều 10.000 tỷ đồng, nhiều khu vực thường xuyên bị ngập do triều cường ở khu Nam TPHCM trở nên khô ráo, người dân vui mừng, phấn khởi.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "page_sha256": "2d27ef6be8739660309c24dccc11a29b772e5b785c498257d1947f1844be6bf1",
+            "snippet_sha256": "46055ed571f4fb8c5b9a67ccd6b9ccc1dce7392099b769824c88343025ae0e8b",
+            "verified_at": "2026-11-28T04:14:20.524696+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Dự án khởi công vào tháng 6/2016 và trải qua thời gian tạm ngưng kéo dài 5 năm trước khi tái khởi động.",
+        "source_urls": [
+          "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Trong 5 năm tạm ngưng, các thiết bị phải trải qua thời gian phơi nắng, mưa và được kiểm chứng độ bền trước khi dự án được vận hành trở lại.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "snippet": "Trong 5 năm tạm ngưng, các thiết bị phải trải qua thời gian phơi nắng, mưa và được kiểm chứng độ bền trước khi dự án được vận hành trở lại.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "page_sha256": "2d27ef6be8739660309c24dccc11a29b772e5b785c498257d1947f1844be6bf1",
+            "snippet_sha256": "6f5b22e45cc295b4932f1deffff055e1e45c7bc698e2072fb7c1d30a1e1f7f81",
+            "verified_at": "2026-11-28T04:14:20.524696+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      },
+      {
+        "claim": "Hệ thống cống kiểm soát triều của dự án gồm các cửa van lớn nặng hàng trăm tấn được lắp đặt từ năm 2020.",
+        "source_urls": [
+          "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm"
+        ],
+        "importance": "supporting",
+        "evidence_snippet": "Toàn bộ cửa van và thiết bị được lắp đặt từ đầu năm 2020.",
+        "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+        "evidence_by_source": [
+          {
+            "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "snippet": "Toàn bộ cửa van và thiết bị được lắp đặt từ đầu năm 2020.",
+            "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+          }
+        ],
+        "evidence_verifications": [
+          {
+            "source_url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "page_sha256": "2d27ef6be8739660309c24dccc11a29b772e5b785c498257d1947f1844be6bf1",
+            "snippet_sha256": "593c444fae3b8d1d430d6ffedb89733dc9bc5b88b85929e37c766050cf0e756e",
+            "verified_at": "2026-11-28T04:14:20.524696+00:00",
+            "match_method": "exact_normalized_substring"
+          }
+        ]
+      }
+    ],
+    "editorial_value": "Bài viết tổng hợp thông tin về quá trình vận hành kỹ thuật của dự án ngăn triều 10.000 tỷ đồng tại TPHCM. Nội dung làm rõ hiệu quả thực tế qua các đợt thử nghiệm và góc nhìn của chủ đầu tư về hệ thống hạ tầng chống ngập.",
+    "risk_level": "R1",
+    "verification_timestamp": "2026-11-28T04:14:20.525535+00:00",
+    "freshness_ttl_hours": 24,
+    "quality_version": "1.5",
+    "quality_status": "PASS",
+    "verified_numbers": [
+      "10.000"
+    ],
+    "quality_audit": {
+      "status": "PASS",
+      "checked_at": "2026-11-28T04:14:23.486324+00:00",
+      "stats": {
+        "paragraphs": 4,
+        "words": 305,
+        "unique_paragraph_ratio": 1.0,
+        "filler_hits": [],
+        "body_chars": 1381,
+        "source_access": [
+          {
+            "url": "https://dantri.com.vn/thoi-su/lanh-dao-du-an-ngan-trieu-10000-ty-dong-o-tphcm-cam-ket-het-ngap-do-trieu-cuong-20261127234626773.htm",
+            "ok": true,
+            "reason": "GET HTTP 206"
+          }
+        ],
+        "independent_domains": [
+          "dantri.com.vn",
+          "thanhnien.vn"
+        ],
+        "primary_source_present": false
+      }
+    },
+    "origin": "auto",
+    "publication_slot": "2026-11-28 11:14"
   }
 ]
