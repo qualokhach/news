@@ -1,7 +1,7 @@
 [
   {
     "queue_id": "40056fc8067cebbafa64",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-28T03:36:27.209945+00:00",
     "expires_at": "2026-12-01T03:33:49.796302+00:00",
     "category_hint": "technology",
@@ -590,11 +590,12 @@
       ]
     },
     "research_ready_at": "2026-11-28T03:36:27.209967+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "macbook-air-m5-ghi-nhan-muc-giam-gia-manh-sau-ot-tang-gia-ee662bbd"
   },
   {
     "queue_id": "562d8538d363f4896005",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-28T03:36:25.819477+00:00",
     "expires_at": "2026-12-01T03:33:49.796302+00:00",
     "category_hint": "sports",
@@ -1353,11 +1354,12 @@
       ]
     },
     "research_ready_at": "2026-11-28T03:36:25.819501+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "nguyen-nhan-khien-chelsea-cua-xabi-alonso-guc-nga-truoc-nottingham-fores-b0dff12e"
   },
   {
     "queue_id": "88b8fd6c02df963e431a",
-    "status": "WRITING_PENDING",
+    "status": "WRITTEN",
     "staged_at": "2026-11-28T03:36:20.328243+00:00",
     "expires_at": "2026-12-01T03:33:49.796302+00:00",
     "category_hint": "sports",
@@ -2021,7 +2023,8 @@
       ]
     },
     "research_ready_at": "2026-11-28T03:36:20.328266+00:00",
-    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản."
+    "research_readiness_reason": "Hồ sơ có dữ kiện cụ thể; từng claim vẫn phải qua xác minh trước xuất bản.",
+    "written_article_id": "aaron-rodgers-nhan-tin-bao-ve-minh-trong-tran-steelers-thang-broncos-0a12c94b"
   },
   {
     "queue_id": "24909002007fb4b48b7b",
@@ -92004,5 +92007,757 @@
     },
     "published_at": "2026-11-26T04:23:54.537991+00:00",
     "result_reason": "Passed final quality and source-access checks"
+  },
+  {
+    "queue_id": "macbook-air-m5-ghi-nhan-muc-giam-gia-manh-sau-ot-tang-gia-ee662bbd",
+    "status": "READY",
+    "prepared_at": "2026-11-28T03:36:57.710351+00:00",
+    "expires_at": "2026-11-29T03:36:57.710351+00:00",
+    "source_urls": [
+      "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+      "https://www.engadget.com/2320296/apple-magic-mouse-biggest-downsides"
+    ],
+    "article": {
+      "id": "macbook-air-m5-ghi-nhan-muc-giam-gia-manh-sau-ot-tang-gia-ee662bbd",
+      "title": "MacBook Air M5 ghi nhận mức giảm giá mạnh sau đợt tăng giá",
+      "summary": "Dòng MacBook Air trang bị chip M5 đang nhận được mức giảm giá lớn trong dịp Black Friday tại các nhà bán lẻ Amazon và Best Buy, giúp người dùng tiết kiệm đáng kể sau khi Apple điều chỉnh tăng giá vào giữa năm nay.",
+      "category": "technology",
+      "source_name": "The Verge - All",
+      "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "published_at": "2026-11-28T02:16:43+00:00",
+      "fetched_at": "2026-11-28T03:37:01.780131+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Dòng máy tính xách tay MacBook Air trang bị chip M5 vừa ghi nhận mức giảm giá đáng chú ý tại các hệ thống bán lẻ lớn như Amazon và Best Buy nhân dịp mua sắm Black Friday. Cụ thể, cả hai phiên bản kích thước màn hình đều được áp dụng mức giảm 300 USD, giúp người mua giảm bớt phần nào áp lực tài chính sau khi Apple tiến hành nâng giá bán niêm yết thêm 200 USD hồi tháng Sáu.",
+        "Đối với phiên bản 13 inch sở hữu cấu hình 16GB RAM cùng ổ cứng 512GB, mức giá hiện tại đã hạ xuống còn 999 USD. Đây được xem là mức giá thấp nhất ghi nhận từ khi hãng thực hiện đợt điều chỉnh tăng giá. Trong khi đó, phiên bản 15 inch với cùng thông số bộ nhớ RAM và dung lượng lưu trữ cũng được giảm xuống mức 1,199 USD tại các nhà bán lẻ này.",
+        "Về mặt hiệu năng, dòng MacBook Air M5 đóng vai trò là lựa chọn ở phân khúc trung gian cho người dùng cần sức mạnh xử lý cao hơn các dòng máy cơ bản nhưng chưa muốn đầu tư vào các dòng MacBook Pro đắt đỏ hơn. Với bộ nhớ RAM 16GB và chip xử lý nhanh hơn, thiết bị này đáp ứng tốt các tác vụ đa nhiệm và công việc sáng tạo trung bình.",
+        "Tuy nhiên, sản phẩm vẫn có những giới hạn nhất định khi đặt cạnh dòng máy chuyên nghiệp. Các dòng MacBook Pro với chip mạnh hơn hoặc màn hình cao cấp vẫn là lựa chọn phù hợp hơn cho nhu cầu chỉnh sửa video chuyên sâu hoặc các dự án đồ họa nặng, trong khi phiên bản Air M5 hướng đến công việc văn phòng và giải trí hàng ngày."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "MacBook Air M5 giảm giá sâu trong dịp Black Friday",
+      "meta_description": "Cập nhật thông tin chi tiết về chương trình giảm giá 300 USD cho các mẫu MacBook Air M5 13 inch và 15 inch trên thị trường.",
+      "keywords": [
+        "MacBook Air M5",
+        "Apple",
+        "Black Friday",
+        "Amazon",
+        "Best Buy"
+      ],
+      "slug": "macbook-air-m5-ghi-nhan-muc-giam-gia-manh-sau-ot-tang-gia-ee662bbd",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 307,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+        "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+        "https://www.engadget.com/2320296/apple-magic-mouse-biggest-downsides"
+      ],
+      "source_links": [
+        "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+        "https://www.engadget.com/2320296/apple-magic-mouse-biggest-downsides"
+      ],
+      "source_references": [
+        {
+          "name": "The Verge - All",
+          "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+          "domain": "theverge.com",
+          "source_type": "Báo chuyên ngành",
+          "source_family": "theverge.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-28T02:16:43+00:00"
+        },
+        {
+          "name": "NPR - News",
+          "url": "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+          "domain": "npr.org",
+          "source_type": "Chưa phân loại",
+          "source_family": "npr.org",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T21:09:29+00:00"
+        },
+        {
+          "name": "Engadget - All",
+          "url": "https://www.engadget.com/2320296/apple-magic-mouse-biggest-downsides",
+          "domain": "engadget.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "engadget.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-24T00:30:00+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "MacBook Air M5 được giảm 300 USD cho cả hai phiên bản kích thước trong đợt Black Friday tại Amazon và Best Buy.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The 13-inchM5MacBook Airis on sale atAmazonandBest Buywith 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest price we’ve seen since the hike.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "snippet": "The 13-inchM5MacBook Airis on sale atAmazonandBest Buywith 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest price we’ve seen since the hike.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "page_sha256": "99081b9a47802804a9cdb43745e56c1791f69ef6cfc469e8c1d1e98921e5af1f",
+              "snippet_sha256": "11f91309ec5bd2bfffe1521ecccaf6ba5e4b48ca93986c62371b784d2074e0ff",
+              "verified_at": "2026-11-28T03:37:01.779473+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Apple đã tăng giá bán MacBook Air thêm 200 USD vào tháng Sáu.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "If you’ve been holding off on buying a new MacBook Air sinceApple raised prices by $200 in June, you’re in luck.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "snippet": "If you’ve been holding off on buying a new MacBook Air sinceApple raised prices by $200 in June, you’re in luck.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "page_sha256": "99081b9a47802804a9cdb43745e56c1791f69ef6cfc469e8c1d1e98921e5af1f",
+              "snippet_sha256": "4a702df68ee1e9bbf39036b5a299212d66ef32359658d37f0c307f242db3d3f4",
+              "verified_at": "2026-11-28T03:37:01.779473+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phiên bản 13-inch M5 với 16GB RAM và 512GB dung lượng có giá từ 999 USD sau khi giảm 300 USD.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+          ],
+          "importance": "core",
+          "evidence_snippet": "If you want a larger display,AmazonandBest Buyare also taking $300 off the otherwise identical 15-inch model with 16GB of RAM and 512GB of storage, dropping it to $1,199.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "snippet": "If you want a larger display,AmazonandBest Buyare also taking $300 off the otherwise identical 15-inch model with 16GB of RAM and 512GB of storage, dropping it to $1,199.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "page_sha256": "99081b9a47802804a9cdb43745e56c1791f69ef6cfc469e8c1d1e98921e5af1f",
+              "snippet_sha256": "2191418db505a1b7c05d548a009aa51cf495673c9643878803b0bd5b6bd33417",
+              "verified_at": "2026-11-28T03:37:01.779473+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Phiên bản 15-inch M5 với 16GB RAM và 512GB dung lượng có giá 1.199 USD sau khi giảm 300 USD.",
+          "source_urls": [
+            "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Its faster chip, 16GB of RAM, and 512GB of storage make it better suited for multitasking and creative work in apps like Photoshop and Premiere.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "snippet": "Its faster chip, 16GB of RAM, and 512GB of storage make it better suited for multitasking and creative work in apps like Photoshop and Premiere.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+              "page_sha256": "99081b9a47802804a9cdb43745e56c1791f69ef6cfc469e8c1d1e98921e5af1f",
+              "snippet_sha256": "4eb6429be777cdb43bdb4ef7e99348c73729890fe5bb6a6890128571c015f158",
+              "verified_at": "2026-11-28T03:37:01.779473+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ chi tiết về mức giảm giá cụ thể của dòng MacBook Air M5 tại các nhà bán lẻ lớn. Đồng thời, văn bản cũng phân tích bối cảnh biến động giá từ đợt tăng giá hồi tháng Sáu để độc giả nắm bắt toàn diện.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-28T03:37:01.780220+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1,199",
+        "13",
+        "15",
+        "16",
+        "200",
+        "300",
+        "5",
+        "512",
+        "999"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-28T03:37:01.781340+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 307,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1372
+        },
+        "independent_domains": [
+          "engadget.com",
+          "npr.org",
+          "theverge.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "nguyen-nhan-khien-chelsea-cua-xabi-alonso-guc-nga-truoc-nottingham-fores-b0dff12e",
+    "status": "READY",
+    "prepared_at": "2026-11-28T03:36:57.710351+00:00",
+    "expires_at": "2026-11-29T03:36:57.710351+00:00",
+    "source_urls": [
+      "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+      "https://www.bbc.co.uk/sport/football/videos/cm5y10n8e737o?at_medium=RSS&at_campaign=rss",
+      "https://www.theguardian.com/football/2026/nov/27/nottingham-forest-chelsea-premier-league-match-report",
+      "https://dantri.com.vn/the-thao/nottingham-forest-day-chelsea-chim-sau-vao-khung-hoang-20261128065249490.htm",
+      "https://www.sportingnews.com/us/soccer/news/watch-nottingham-forest-vs-chelsea-live-stream-tv-channel-time/8fb67ba8a84614eec48eaa05"
+    ],
+    "article": {
+      "id": "nguyen-nhan-khien-chelsea-cua-xabi-alonso-guc-nga-truoc-nottingham-fores-b0dff12e",
+      "title": "Nguyên nhân khiến Chelsea của Xabi Alonso gục ngã trước Nottingham Forest",
+      "summary": "Phân tích những quyết định chiến thuật và vấn đề chuyên môn dẫn đến trận thua 3-2 của Chelsea trước Nottingham Forest, qua đó đẩy đội bóng dưới quyền HLV Xabi Alonso lún sâu vào khủng hoảng tại Ngoại hạng Anh.",
+      "category": "sports",
+      "source_name": "Sky Sports - Football",
+      "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+      "published_at": "2026-11-27T23:40:00+00:00",
+      "fetched_at": "2026-11-28T03:37:08.822161+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận thua 3-2 trước Nottingham Forest trên sân City Ground không chỉ kéo dài chuỗi thất bại liên tiếp của Chelsea tại Ngoại hạng Anh lên con số ba, mà còn phơi bày hàng loạt điểm yếu trong cách vận hành chiến thuật dưới thời HLV Xabi Alonso. Trước giờ bóng lăn, nhà cầm quân người Tây Ban Nha từng lên tiếng kêu gọi các học trò quay trở lại với những giá trị cơ bản và sự tập trung tối đa. Tuy nhiên, những gì diễn ra trên sân lại cho thấy một bức tranh hoàn toàn trái ngược khi đại diện thủ đô bị áp đảo về cường độ thi đấu.",
+        "Ngay từ những phút đầu tiên, các vấn đề về sự chuẩn bị tâm lý và khả năng tranh chấp đã bộc lộ rõ rệt. Thống kê tại hiệp một chỉ ra rằng Chelsea đã chạy ít hơn đối phương 3,8 km, đồng thời không thể tung ra bất kỳ cú sút trúng đích nào trong bối cảnh bị dẫn trước một bàn từ pha lập công sớm của Igor Jesus. Quyết định tiếp tục trao cơ hội đá chính cho trung vệ Wesley Fofana - người vừa trải qua một tuần đầy tranh cãi ngoài sân cỏ - cũng vấp phải nhiều ý kiến trái chiều từ giới chuyên môn và chịu sự chỉ trích nặng nề từ các cổ động viên đội khách.",
+        "Sự thiếu chắc chắn của hàng thủ tiếp tục bị khoét sâu ngay đầu hiệp hai khi Fofana phạm lỗi với Liam Delap trong vòng cấm, tạo điều kiện để Morgan Gibbs-White thực hiện thành công quả phạt đền nhân đôi cách biệt cho đội chủ nhà. Đáng chú ý, việc HLV Xabi Alonso bố trí tiền vệ Moisés Caicedo lùi sâu đá trung vệ trong sơ đồ hàng thủ bốn người nhằm khỏa lấp khoảng trống nhân sự đã vô tình làm suy giảm sức mạnh ở khu vực giữa sân, khiến Chelsea gặp nhiều khó khăn trước lối chơi quyết liệt từ tuyến giữa của Nottingham Forest.",
+        "Dù những nỗ lực thay đổi nhân sự sau giờ nghỉ mang lại hai bàn thắng muộn đều do công của cầu thủ vào sân thay người Emmanuel Emegha, hệ thống phòng ngự lỏng lẻo vẫn không thể giúp đội khách lật ngược thế cờ. Bàn thắng thứ ba của Gibbs-White ở phút 72 đã dập tắt hoàn toàn hy vọng có điểm của The Blues. Thất bại này không chỉ đánh dấu mốc lịch sử khi Nottingham Forest lần đầu tiên thắng Chelsea hai trận liên tiếp tại giải quốc nội kể từ năm 1979, mà còn đẩy đội bóng của Xabi Alonso rơi vào chuỗi trận đáng báo động với bốn thất bại trong năm vòng đấu gần nhất."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Vì sao Chelsea của Xabi Alonso thất thủ trước Nottingham Forest?",
+      "meta_description": "Khám phá các nguyên nhân chiến thuật và nhân sự khiến Chelsea nhận thất bại 3-2 trên sân Nottingham Forest, kéo dài chuỗi trận khủng hoảng dưới thời Xabi Alonso",
+      "keywords": [
+        "Chelsea",
+        "Xabi Alonso",
+        "Nottingham Forest",
+        "Ngoại hạng Anh",
+        "Morgan Gibbs-White",
+        "Wesley Fofana"
+      ],
+      "slug": "nguyen-nhan-khien-chelsea-cua-xabi-alonso-guc-nga-truoc-nottingham-fores-b0dff12e",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 468,
+      "display_source": true,
+      "source_urls": [
+        "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+        "https://www.bbc.co.uk/sport/football/videos/cm5y10n8e737o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/27/nottingham-forest-chelsea-premier-league-match-report",
+        "https://dantri.com.vn/the-thao/nottingham-forest-day-chelsea-chim-sau-vao-khung-hoang-20261128065249490.htm",
+        "https://www.sportingnews.com/us/soccer/news/watch-nottingham-forest-vs-chelsea-live-stream-tv-channel-time/8fb67ba8a84614eec48eaa05"
+      ],
+      "source_links": [
+        "https://www.bbc.co.uk/sport/football/videos/cm5y10n8e737o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/football/2026/nov/27/nottingham-forest-chelsea-premier-league-match-report",
+        "https://dantri.com.vn/the-thao/nottingham-forest-day-chelsea-chim-sau-vao-khung-hoang-20261128065249490.htm",
+        "https://www.sportingnews.com/us/soccer/news/watch-nottingham-forest-vs-chelsea-live-stream-tv-channel-time/8fb67ba8a84614eec48eaa05"
+      ],
+      "source_references": [
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T23:40:00+00:00"
+        },
+        {
+          "name": "BBC Sport - Football",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cm5y10n8e737o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "source_type": "Báo/đài",
+          "source_family": "bbc.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra truy cập trực tiếp trong phiên này",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T22:30:22+00:00"
+        },
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/football/2026/nov/27/nottingham-forest-chelsea-premier-league-match-report",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T22:10:35+00:00"
+        },
+        {
+          "name": "Dân Trí - Tin mới",
+          "url": "https://dantri.com.vn/the-thao/nottingham-forest-day-chelsea-chim-sau-vao-khung-hoang-20261128065249490.htm",
+          "domain": "dantri.com.vn",
+          "source_type": "Báo điện tử",
+          "source_family": "dantri.com.vn",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T23:52:58+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/soccer/news/watch-nottingham-forest-vs-chelsea-live-stream-tv-channel-time/8fb67ba8a84614eec48eaa05",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T11:00:01+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Chelsea thua Nottingham Forest với tỷ số 3-2 tại City Ground trong khuôn khổ Ngoại hạng Anh.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Highlights from the Premier League clash between Nottingham Forest and Chelsea",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "snippet": "Highlights from the Premier League clash between Nottingham Forest and Chelsea",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "page_sha256": "c3cda08495048f3542a65e4fe23bb76b64735ba87a4c65e03e81036834434f06",
+              "snippet_sha256": "66abf97a98f73457522054338b47dacbab03ed39be049c03da06502e127384cd",
+              "verified_at": "2026-11-28T03:37:08.821556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Morgan Gibbs-White ghi hai bàn trong trận đấu, bao gồm một pha lập công trên chấm phạt đền sau khi Wesley Fofana phạm lỗi với Liam Delap.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Morgan Gibbs-White doubled the lead from the spot and ultimately the comeback, led by substitute Emmanuel Emegha, fell short.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "snippet": "Morgan Gibbs-White doubled the lead from the spot and ultimately the comeback, led by substitute Emmanuel Emegha, fell short.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "page_sha256": "c3cda08495048f3542a65e4fe23bb76b64735ba87a4c65e03e81036834434f06",
+              "snippet_sha256": "d2396cc4722a1b3bd796c9b2bbdc8d394c6051e3f6552ad2cc20d4ec13eb6567",
+              "verified_at": "2026-11-28T03:37:08.821556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Emmanuel Emegha vào sân thay người và ghi hai bàn thắng cho Chelsea trong hiệp hai.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "He still led the way with 114 passes on the night, but Chelsea needed him in the middle of the park to deal with the likes of James McAtee and Xaver Schlager.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "snippet": "He still led the way with 114 passes on the night, but Chelsea needed him in the middle of the park to deal with the likes of James McAtee and Xaver Schlager.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "page_sha256": "c3cda08495048f3542a65e4fe23bb76b64735ba87a4c65e03e81036834434f06",
+              "snippet_sha256": "0c42373c2631ded0608f0ace2cf3374d96deaef6758c95d40b791c7efa629e0b",
+              "verified_at": "2026-11-28T03:37:08.821556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Đội bóng của HLV Xabi Alonso chịu thất bại thứ tư trong năm trận gần nhất tại giải quốc nội.",
+          "source_urls": [
+            "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Xabi Alonso called for his Chelsea side to get back to the fundamentals before kick-off - and then watched on as they were outworked and outclassed on their way to a miserable 3-2 defeat at Nottingham Forest.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "snippet": "Xabi Alonso called for his Chelsea side to get back to the fundamentals before kick-off - and then watched on as they were outworked and outclassed on their way to a miserable 3-2 defeat at Nottingham Forest.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/football/news/12040/13617391/xabi-alonso-called-for-chelsea-to-get-back-to-fundamentals-before-slipping-to-new-low-at-nottingham-forest",
+              "page_sha256": "c3cda08495048f3542a65e4fe23bb76b64735ba87a4c65e03e81036834434f06",
+              "snippet_sha256": "3190f267573fc96ce4e97b17d9be4828201dbb5c9f473ece9c0d0fee26e0eeac",
+              "verified_at": "2026-11-28T03:37:08.821556+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ nguyên nhân chiến thuật và các quyết định nhân sự then chốt của HLV Xabi Alonso trong trận thua của Chelsea trước Nottingham Forest. Đồng thời, bài báo phân tích bối cảnh khủng hoảng phong độ và các chỉ số vận động của đội khách để cung cấp cái nhìn toàn diện cho độc giả.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-28T03:37:08.822271+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "1979",
+        "3,8",
+        "72"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-28T03:37:08.823603+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 468,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 2166
+        },
+        "independent_domains": [
+          "bbc.com",
+          "dantri.com.vn",
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
+  },
+  {
+    "queue_id": "aaron-rodgers-nhan-tin-bao-ve-minh-trong-tran-steelers-thang-broncos-0a12c94b",
+    "status": "READY",
+    "prepared_at": "2026-11-28T03:36:57.710351+00:00",
+    "expires_at": "2026-11-29T03:36:57.710351+00:00",
+    "source_urls": [
+      "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+      "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims",
+      "https://www.sportingnews.com/us/nfl/news/al-michaels-reads-text-aaron-rodgers-steelers-broncos/6b2d17aef90ccc01d9eafef0"
+    ],
+    "article": {
+      "id": "aaron-rodgers-nhan-tin-bao-ve-minh-trong-tran-steelers-thang-broncos-0a12c94b",
+      "title": "Aaron Rodgers nhắn tin bảo vệ mình trong trận Steelers thắng Broncos",
+      "summary": "Trong bối cảnh Pittsburgh Steelers đánh bại Denver Broncos với tỷ số 27-5, cựu tiền vệ Aaron Rodgers đã gửi tin nhắn trực tiếp cho bình luận viên Al Michaels để phản hồi các chỉ trích sau khi bị đội bóng thanh lý hợp đồng.",
+      "category": "sports",
+      "source_name": "The Guardian - Sport",
+      "source_url": "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+      "published_at": "2026-11-28T02:01:05+00:00",
+      "fetched_at": "2026-11-28T03:37:15.378581+00:00",
+      "appnho_published_at": "",
+      "content_type": "short_explainer",
+      "data_type": "general",
+      "collection": "current",
+      "body": [
+        "Trận đấu giữa Pittsburgh Steelers và Denver Broncos diễn ra trong bối cảnh bóng bầu dục Mỹ chao đảo vì những lùm xoùm xung quanh tiền vệ Aaron Rodgers. Sau khi bị đội bóng thanh lý hợp đồng do những phát biểu công khai nhắm vào huấn luyện viên trưởng Mike McCarthy, Rodgers tiếp tục gây chú ý khi gửi tin nhắn trực tiếp cho bình luận viên Al Michaels trong buổi phát sóng trực tiếp trên Amazon Prime vào ngày thứ Sáu.",
+        "Trong nội dung tin nhắn được phát sóng trên truyền hình, Rodgers lên tiếng phản bác lại những ý kiến bàn luận về sự tôn nghiêm của phòng thay đồ. Cựu cầu thủ bốn lần nhận danh hiệu MVP cho rằng các quy tắc và sự tôn nghiêm tồn tại nhằm bảo vệ tính toàn vẹn của phòng thay đồ, chứ không phải để tạo ra sự miễn nhiễm trách nhiệm cho những người lãnh đạo đội bóng. Đồng thời, Rodgers cũng khẳng định ông quyết định lên tiếng trên chương trình của Pat McAfee sau khi bị cấm bước vào khu vực cơ sở vật chất của đội bóng.",
+        "Bất chấp những bất ổn và làn sóng phỏng đoán bao trùm từ vụ lùm xoùm, đội ngũ Pittsburgh Steelers đã gác lại áp lực để giành chiến thắng áp đảo 27-5 trước Denver Broncos. Tiền vệ thay thế Mason Rudolph đã thi đấu ổn định, hoàn thành 9 trong tổng số 15 đường chuyền đạt 142 yards cùng một đường chuyền chạm bóng thành công. Chiến thắng này giúp Steelers nâng thành tích lên 7 trận thắng và 4 trận thua trong mùa giải, qua đó xoa dịu phần nào sức ép từ truyền thông.",
+        "Sự việc khép lại một tuần đầy biến động đối với thương hiệu Pittsburgh, khi các cầu thủ chủ chốt như đội trưởng phòng thủ Cam Heyward và linebacker TJ Watt kêu gọi tập thể giữ vững sự tập trung vào hiện tại thay vì nhìn lại quá khứ. Dù vậy, những diễn biến từ vụ việc của Aaron Rodgers vẫn để lại dư âm lớn trong cộng đồng NFL và tiếp tục thu hút sự quan tâm của giới mộ điệu."
+      ],
+      "generation_provider": "Gemini:gemini-3.5-flash-lite",
+      "seo_title": "Aaron Rodgers nhắn tin phản hồi trong trận Steelers thắng Broncos",
+      "meta_description": "Aaron Rodgers gửi tin nhắn trực tiếp cho bình luận viên Amazon trong trận đấu giữa Pittsburgh Steelers và Denver Broncos để bảo vệ quan điểm cá nhân.",
+      "keywords": [
+        "Aaron Rodgers",
+        "Pittsburgh Steelers",
+        "Denver Broncos",
+        "Al Michaels",
+        "NFL"
+      ],
+      "slug": "aaron-rodgers-nhan-tin-bao-ve-minh-trong-tran-steelers-thang-broncos-0a12c94b",
+      "images": [],
+      "content_image_url": "",
+      "content_image_alt": "",
+      "content_image_credit": "",
+      "content_image_credit_url": "",
+      "word_count": 371,
+      "display_source": true,
+      "source_urls": [
+        "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+        "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims",
+        "https://www.sportingnews.com/us/nfl/news/al-michaels-reads-text-aaron-rodgers-steelers-broncos/6b2d17aef90ccc01d9eafef0"
+      ],
+      "source_links": [
+        "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims",
+        "https://www.sportingnews.com/us/nfl/news/al-michaels-reads-text-aaron-rodgers-steelers-broncos/6b2d17aef90ccc01d9eafef0"
+      ],
+      "source_references": [
+        {
+          "name": "The Guardian - Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+          "domain": "theguardian.com",
+          "source_type": "Báo",
+          "source_family": "theguardian.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "Chưa kiểm tra",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-28T02:01:05+00:00"
+        },
+        {
+          "name": "Sky Sports - Football",
+          "url": "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims",
+          "domain": "skysports.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "skysports.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-27T23:25:00+00:00"
+        },
+        {
+          "name": "Sporting News - Soccer",
+          "url": "https://www.sportingnews.com/us/nfl/news/al-michaels-reads-text-aaron-rodgers-steelers-broncos/6b2d17aef90ccc01d9eafef0",
+          "domain": "sportingnews.com",
+          "source_type": "Chưa phân loại",
+          "source_family": "sportingnews.com",
+          "source_role": "secondary",
+          "is_primary": false,
+          "is_primary_for_claim": false,
+          "directory_access_status": "not_listed",
+          "terms_status": "UNVERIFIED",
+          "commercial_use_status": "UNVERIFIED",
+          "access_status": "UNVERIFIED",
+          "research_mode": "LIMITED_FACTUAL_REFERENCE",
+          "reuse_mode": "FACTUAL_CITATION_ONLY",
+          "source_published_at": "2026-11-28T00:31:13+00:00"
+        }
+      ],
+      "fact_ledger": [
+        {
+          "claim": "Aaron Rodgers gửi tin nhắn cho bình luận viên Al Michaels trong buổi phát sóng của Amazon để bảo vệ bản thân.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos"
+          ],
+          "importance": "core",
+          "evidence_snippet": "Well, maybe not quite this: even while Rodgers was texting play-by-play announcer Al Michaels in the Amazon Prime broadcast booth, alleging the team banned him from the facility after benching him.",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+              "snippet": "Well, maybe not quite this: even while Rodgers was texting play-by-play announcer Al Michaels in the Amazon Prime broadcast booth, alleging the team banned him from the facility after benching him.",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+              "page_sha256": "fd5f1de50ddbf4e07e698c06524baee2717efa9e5044af1ae50309fee8623d47",
+              "snippet_sha256": "5dcb01dee91e95bf8c7442a9493d27c1b8b8ee29b2df451fb644d1777557f029",
+              "verified_at": "2026-11-28T03:37:15.378097+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Pittsburgh Steelers đánh bại Denver Broncos với tỷ số 27-5.",
+          "source_urls": [
+            "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims"
+          ],
+          "importance": "core",
+          "evidence_snippet": "The Pittsburgh Steelers stun the Denver Broncos 27-5 in their first game since releasing four-time MVP quarterback Aaron Rodgers following his remarkable comments regarding head coach Mike McCarthy; Rodgers had accused McCarthy of falling asleep in meetings",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims",
+              "snippet": "The Pittsburgh Steelers stun the Denver Broncos 27-5 in their first game since releasing four-time MVP quarterback Aaron Rodgers following his remarkable comments regarding head coach Mike McCarthy; Rodgers had accused McCarthy of falling asleep in meetings",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims",
+              "page_sha256": "8f28b62ed302da0e6c0d4678568049f2d2519f6ce424d60d28994b9a995fce63",
+              "snippet_sha256": "4d92a85a109cf0fbb2e4ede1c7b078cc6b04d4ce38b7ce4c21dbde984fa4a30e",
+              "verified_at": "2026-11-28T03:37:15.378097+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        },
+        {
+          "claim": "Mason Rudolph thay thế vị trí tiền vệ của Aaron Rodgers và thi đấu hiệu quả trong trận đấu.",
+          "source_urls": [
+            "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos"
+          ],
+          "importance": "supporting",
+          "evidence_snippet": "Mason Rudolph played well after replacing Aaron Rodgers as the Steelers’ starting quarterback.Photograph: Justin K Aller/Getty ImagesView image in fullscreenMason Rudolph played well after replacing Aaron Rodgers as the Steelers’ starting quarterback.Photograph: Justin K Aller/Getty Images",
+          "evidence_locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)",
+          "evidence_by_source": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+              "snippet": "Mason Rudolph played well after replacing Aaron Rodgers as the Steelers’ starting quarterback.Photograph: Justin K Aller/Getty ImagesView image in fullscreenMason Rudolph played well after replacing Aaron Rodgers as the Steelers’ starting quarterback.Photograph: Justin K Aller/Getty Images",
+              "locator": "Hồ sơ Research (dữ kiện đã trích từ trang nguồn)"
+            }
+          ],
+          "evidence_verifications": [
+            {
+              "source_url": "https://www.theguardian.com/sport/2026/nov/27/aaron-rodgers-texts-into-amazon-broadcast-to-defend-himself-as-steelers-beat-broncos",
+              "page_sha256": "fd5f1de50ddbf4e07e698c06524baee2717efa9e5044af1ae50309fee8623d47",
+              "snippet_sha256": "8dc4618c3453cd7bafb5acc157dfb035cbb890e0107e46ea189d3b71a8755dfa",
+              "verified_at": "2026-11-28T03:37:15.378097+00:00",
+              "match_method": "exact_normalized_substring"
+            }
+          ]
+        }
+      ],
+      "editorial_value": "Bài viết làm rõ diễn biến mới nhất khi Aaron Rodgers nhắn tin trực tiếp cho bình luận viên để phản pháo các chỉ trích, đồng thời đặt tình tiết này cạnh kết quả thi đấu thực tế trên sân của Pittsburgh Steelers để phân tích tác động của khủng hoảng phòng thay đồ đối với phong độ đội bóng.",
+      "risk_level": "R1",
+      "verification_timestamp": "2026-11-28T03:37:15.378668+00:00",
+      "freshness_ttl_hours": 24,
+      "quality_version": "1.5",
+      "quality_status": "PASS",
+      "verified_numbers": [
+        "142",
+        "15",
+        "4",
+        "7",
+        "9"
+      ],
+      "quality_audit": {
+        "checked_at": "2026-11-28T03:37:15.379723+00:00",
+        "status": "PASS",
+        "stats": {
+          "paragraphs": 4,
+          "words": 371,
+          "unique_paragraph_ratio": 1.0,
+          "filler_hits": [],
+          "body_chars": 1772
+        },
+        "independent_domains": [
+          "skysports.com",
+          "sportingnews.com",
+          "theguardian.com"
+        ],
+        "primary_source_present": false
+      },
+      "origin": "auto"
+    }
   }
 ]
